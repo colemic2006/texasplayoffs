@@ -1,5 +1,18 @@
 import React, { useMemo, useState } from 'react'
 
+const KNOWN_CHAPTERS = new Set(['ABI','AMA','AUS','BEA','STX','COM','CSC','CTX','DAL','ELP','FTW','HOU','NTX','PBC','PVC','RGV','SAT','SAN','SFA','SPC','TYL','WAC','WACO'])
+const BAD_NAMES = new Set(['total bracket counts','totals','total','bye','filler',''])
+
+function isValidTeam(name) {
+  if (!name) return false
+  const n = name.trim()
+  if (!n) return false
+  if (/^\d+$/.test(n)) return false        // pure number
+  if (KNOWN_CHAPTERS.has(n.toUpperCase())) return false  // chapter code
+  if (BAD_NAMES.has(n.toLowerCase())) return false
+  return true
+}
+
 const CHAPTER_NAMES = {
   ABI:'Abilene', AMA:'Amarillo', AUS:'Austin', BEA:'Beaumont', COM:'Commerce',
   CSC:'College Station', CTX:'Central Texas', DAL:'Dallas', ELP:'El Paso',
@@ -29,12 +42,13 @@ export default function TeamsView({ allData, years }) {
     for (const year of years) {
       const yearData = allData[year]
       if (!yearData?.games?.length) continue
-      const yearTeams = new Set() // track unique teams per year for appearance count
 
       for (const game of yearData.games) {
         const cls = game.classification || ''
         classSet.add(cls)
         const chapter = game.chapter || ''
+
+        if (!isValidTeam(game.team1) || !isValidTeam(game.team2)) continue
 
         for (const teamName of [game.team1, game.team2]) {
           if (!teamName) continue
