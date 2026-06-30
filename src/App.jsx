@@ -4,6 +4,7 @@ import Nav from './components/Nav'
 import ChapterDashboard from './components/ChapterDashboard'
 import BracketViewer from './components/BracketViewer'
 import HistoryView from './components/HistoryView'
+import TeamsView from './components/TeamsView'
 
 const YEARS = [2025, 2024, 2023, 2022]
 
@@ -31,7 +32,20 @@ export default function App() {
       .catch(err => { setError(err.message); setLoading(false) })
   }, [year])
 
+  // Preload all years when Teams tab is active
+  useEffect(() => {
+    if (page !== 'teams') return
+    YEARS.forEach(y => {
+      if (data[y]) return
+      fetch(`${import.meta.env.BASE_URL}data/${y}.json`)
+        .then(r => r.ok ? r.json() : null)
+        .then(d => { if (d) setData(prev => ({ ...prev, [y]: d })) })
+        .catch(() => {})
+    })
+  }, [page])
+
   const yearData = data[year] || null
+  const allYearsLoaded = page === 'teams' ? YEARS.every(y => data[y]) : true
 
   return (
     <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
@@ -45,13 +59,21 @@ export default function App() {
       />
 
       <main style={{ flex: 1, maxWidth: 1100, margin: '0 auto', padding: '40px 24px 80px', width: '100%' }}>
-        {loading && <LoadingState />}
-        {error && <ErrorState message={error} />}
-        {!loading && !error && yearData && (
+        {page === 'teams' ? (
+          allYearsLoaded
+            ? <TeamsView allData={data} years={YEARS} />
+            : <LoadingState />
+        ) : (
           <>
-            {page === 'chapters' && <ChapterDashboard data={yearData} year={year} />}
-            {page === 'brackets' && <BracketViewer data={yearData} year={year} />}
-            {page === 'history' && <HistoryView allData={data} years={YEARS} loadYear={(y) => setYear(y)} />}
+            {loading && <LoadingState />}
+            {error && <ErrorState message={error} />}
+            {!loading && !error && yearData && (
+              <>
+                {page === 'chapters' && <ChapterDashboard data={yearData} year={year} />}
+                {page === 'brackets' && <BracketViewer data={yearData} year={year} />}
+                {page === 'history' && <HistoryView allData={data} years={YEARS} loadYear={(y) => setYear(y)} />}
+              </>
+            )}
           </>
         )}
       </main>

@@ -4,6 +4,7 @@ const LINKS = [
   { id: 'chapters', label: 'Chapter Stats' },
   { id: 'brackets', label: 'Brackets' },
   { id: 'history', label: 'Multi-Year History' },
+  { id: 'teams', label: 'Teams' },
 ]
 
 export default function Nav({ page, setPage, year, setYear, years }) {
