@@ -46,6 +46,42 @@
             "1AD1": 0,
             "1AD2": 0,
             "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 5,
+          "cumulative": 35
+        },
+        "4": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 2,
+          "cumulative": 37
+        },
+        "5": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
             "2AD2": 1,
             "3AD1": 0,
             "3AD2": 1,
@@ -59,7 +95,7 @@
           "total": 3,
           "cumulative": 40
         },
-        "4": {
+        "6": {
           "classifications": {
             "1AD1": 0,
             "1AD2": 0,
@@ -122,6 +158,42 @@
         },
         "3": {
           "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 1,
+          "cumulative": 10
+        },
+        "4": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 0,
+          "cumulative": 10
+        },
+        "5": {
+          "classifications": {
             "1AD1": 1,
             "1AD2": 0,
             "2AD1": 0,
@@ -138,7 +210,7 @@
           "total": 0,
           "cumulative": 10
         },
-        "4": {
+        "6": {
           "classifications": {
             "1AD1": 1,
             "1AD2": 0,
@@ -209,6 +281,42 @@
             "3AD2": 0,
             "4AD1": 0,
             "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 2,
+          "cumulative": 30
+        },
+        "4": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 2,
+          "cumulative": 32
+        },
+        "5": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
             "5AD1": 1,
             "5AD2": 0,
             "6AD1": 0,
@@ -217,7 +325,7 @@
           "total": 1,
           "cumulative": 33
         },
-        "4": {
+        "6": {
           "classifications": {
             "1AD1": 0,
             "1AD2": 0,
@@ -313,6 +421,42 @@
           },
           "total": 0,
           "cumulative": 0
+        },
+        "5": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 0,
+          "cumulative": 0
+        },
+        "6": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 0,
+          "cumulative": 0
         }
       },
       "total": 0
@@ -372,10 +516,46 @@
             "6AD1": 0,
             "6AD2": 0
           },
-          "total": 0,
+          "total": 1,
           "cumulative": 6
         },
         "4": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 0,
+          "cumulative": 6
+        },
+        "5": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 0,
+          "cumulative": 6
+        },
+        "6": {
           "classifications": {
             "1AD1": 0,
             "1AD2": 0,
@@ -471,6 +651,42 @@
           },
           "total": 0,
           "cumulative": 0
+        },
+        "5": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 0,
+          "cumulative": 0
+        },
+        "6": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 0,
+          "cumulative": 0
         }
       },
       "total": 0
@@ -530,10 +746,46 @@
             "6AD1": 0,
             "6AD2": 0
           },
+          "total": 3,
+          "cumulative": 26
+        },
+        "4": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 2,
+          "cumulative": 28
+        },
+        "5": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
           "total": 0,
           "cumulative": 28
         },
-        "4": {
+        "6": {
           "classifications": {
             "1AD1": 0,
             "1AD2": 0,
@@ -597,6 +849,42 @@
         "3": {
           "classifications": {
             "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 2,
+          "cumulative": 10
+        },
+        "4": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 1,
+          "cumulative": 11
+        },
+        "5": {
+          "classifications": {
+            "1AD1": 0,
             "1AD2": 1,
             "2AD1": 0,
             "2AD2": 0,
@@ -612,7 +900,7 @@
           "total": 1,
           "cumulative": 12
         },
-        "4": {
+        "6": {
           "classifications": {
             "1AD1": 0,
             "1AD2": 0,
@@ -677,6 +965,42 @@
           "classifications": {
             "1AD1": 0,
             "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 6,
+          "cumulative": 52
+        },
+        "4": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 3,
+          "cumulative": 55
+        },
+        "5": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
             "2AD1": 1,
             "2AD2": 0,
             "3AD1": 0,
@@ -691,7 +1015,7 @@
           "total": 2,
           "cumulative": 57
         },
-        "4": {
+        "6": {
           "classifications": {
             "1AD1": 0,
             "1AD2": 0,
@@ -787,6 +1111,42 @@
           },
           "total": 0,
           "cumulative": 1
+        },
+        "5": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 0,
+          "cumulative": 1
+        },
+        "6": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 0,
+          "cumulative": 1
         }
       },
       "total": 1
@@ -846,10 +1206,46 @@
             "6AD1": 0,
             "6AD2": 0
           },
+          "total": 2,
+          "cumulative": 11
+        },
+        "4": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 1,
+          "cumulative": 12
+        },
+        "5": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
           "total": 0,
           "cumulative": 12
         },
-        "4": {
+        "6": {
           "classifications": {
             "1AD1": 0,
             "1AD2": 0,
@@ -914,6 +1310,42 @@
           "classifications": {
             "1AD1": 0,
             "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 14,
+          "cumulative": 82
+        },
+        "4": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 7,
+          "cumulative": 89
+        },
+        "5": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
             "2AD1": 1,
             "2AD2": 0,
             "3AD1": 0,
@@ -928,7 +1360,7 @@
           "total": 6,
           "cumulative": 95
         },
-        "4": {
+        "6": {
           "classifications": {
             "1AD1": 0,
             "1AD2": 0,
@@ -995,6 +1427,42 @@
             "1AD2": 0,
             "2AD1": 0,
             "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 20,
+          "cumulative": 133
+        },
+        "4": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 10,
+          "cumulative": 143
+        },
+        "5": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
             "3AD1": 1,
             "3AD2": 0,
             "4AD1": 1,
@@ -1007,7 +1475,7 @@
           "total": 5,
           "cumulative": 148
         },
-        "4": {
+        "6": {
           "classifications": {
             "1AD1": 0,
             "1AD2": 0,
@@ -1065,8 +1533,8 @@
             "6AD1": 0,
             "6AD2": 0
           },
-          "total": 6,
-          "cumulative": 13
+          "total": 7,
+          "cumulative": 14
         },
         "3": {
           "classifications": {
@@ -1083,7 +1551,7 @@
             "6AD1": 0,
             "6AD2": 0
           },
-          "total": 0,
+          "total": 2,
           "cumulative": 16
         },
         "4": {
@@ -1101,11 +1569,47 @@
             "6AD1": 0,
             "6AD2": 0
           },
+          "total": 1,
+          "cumulative": 17
+        },
+        "5": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
           "total": 0,
-          "cumulative": 16
+          "cumulative": 17
+        },
+        "6": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 0,
+          "cumulative": 17
         }
       },
-      "total": 16
+      "total": 17
     },
     {
       "code": "PBC",
@@ -1162,10 +1666,46 @@
             "6AD1": 0,
             "6AD2": 0
           },
-          "total": 0,
+          "total": 1,
           "cumulative": 12
         },
         "4": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 0,
+          "cumulative": 12
+        },
+        "5": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 0,
+          "cumulative": 12
+        },
+        "6": {
           "classifications": {
             "1AD1": 0,
             "1AD2": 0,
@@ -1261,6 +1801,42 @@
           },
           "total": 0,
           "cumulative": 0
+        },
+        "5": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 0,
+          "cumulative": 0
+        },
+        "6": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 0,
+          "cumulative": 0
         }
       },
       "total": 0
@@ -1340,6 +1916,42 @@
           },
           "total": 0,
           "cumulative": 13
+        },
+        "5": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 0,
+          "cumulative": 13
+        },
+        "6": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 0,
+          "cumulative": 13
         }
       },
       "total": 13
@@ -1381,10 +1993,46 @@
             "6AD1": 0,
             "6AD2": 2
           },
-          "total": 9,
-          "cumulative": 45
+          "total": 10,
+          "cumulative": 46
         },
         "3": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 12,
+          "cumulative": 58
+        },
+        "4": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 6,
+          "cumulative": 64
+        },
+        "5": {
           "classifications": {
             "1AD1": 0,
             "1AD2": 0,
@@ -1400,9 +2048,9 @@
             "6AD2": 0
           },
           "total": 1,
-          "cumulative": 64
+          "cumulative": 65
         },
-        "4": {
+        "6": {
           "classifications": {
             "1AD1": 0,
             "1AD2": 0,
@@ -1418,10 +2066,10 @@
             "6AD2": 1
           },
           "total": 2,
-          "cumulative": 66
+          "cumulative": 67
         }
       },
-      "total": 66
+      "total": 67
     },
     {
       "code": "SFA",
@@ -1478,10 +2126,46 @@
             "6AD1": 0,
             "6AD2": 0
           },
-          "total": 0,
+          "total": 1,
           "cumulative": 8
         },
         "4": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 0,
+          "cumulative": 8
+        },
+        "5": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 0,
+          "cumulative": 8
+        },
+        "6": {
           "classifications": {
             "1AD1": 0,
             "1AD2": 0,
@@ -1544,6 +2228,42 @@
         },
         "3": {
           "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 1,
+          "cumulative": 14
+        },
+        "4": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 1,
+          "cumulative": 15
+        },
+        "5": {
+          "classifications": {
             "1AD1": 1,
             "1AD2": 0,
             "2AD1": 0,
@@ -1560,7 +2280,7 @@
           "total": 0,
           "cumulative": 15
         },
-        "4": {
+        "6": {
           "classifications": {
             "1AD1": 0,
             "1AD2": 1,
@@ -1624,6 +2344,42 @@
         "3": {
           "classifications": {
             "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 5,
+          "cumulative": 43
+        },
+        "4": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 3,
+          "cumulative": 46
+        },
+        "5": {
+          "classifications": {
+            "1AD1": 0,
             "1AD2": 1,
             "2AD1": 0,
             "2AD2": 0,
@@ -1639,7 +2395,7 @@
           "total": 0,
           "cumulative": 46
         },
-        "4": {
+        "6": {
           "classifications": {
             "1AD1": 0,
             "1AD2": 0,
@@ -1705,6 +2461,42 @@
             "1AD1": 0,
             "1AD2": 0,
             "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 6,
+          "cumulative": 36
+        },
+        "4": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 3,
+          "cumulative": 39
+        },
+        "5": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
             "2AD2": 1,
             "3AD1": 0,
             "3AD2": 0,
@@ -1718,7 +2510,7 @@
           "total": 1,
           "cumulative": 40
         },
-        "4": {
+        "6": {
           "classifications": {
             "1AD1": 0,
             "1AD2": 0,
@@ -1794,10 +2586,46 @@
             "6AD1": 0,
             "6AD2": 0
           },
+          "total": 4,
+          "cumulative": 21
+        },
+        "4": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
+          "total": 2,
+          "cumulative": 23
+        },
+        "5": {
+          "classifications": {
+            "1AD1": 0,
+            "1AD2": 0,
+            "2AD1": 0,
+            "2AD2": 0,
+            "3AD1": 0,
+            "3AD2": 0,
+            "4AD1": 0,
+            "4AD2": 0,
+            "5AD1": 0,
+            "5AD2": 0,
+            "6AD1": 0,
+            "6AD2": 0
+          },
           "total": 0,
           "cumulative": 23
         },
-        "4": {
+        "6": {
           "classifications": {
             "1AD1": 0,
             "1AD2": 0,
