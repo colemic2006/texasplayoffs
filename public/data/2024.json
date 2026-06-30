@@ -1533,8 +1533,8 @@
             "6AD1": 0,
             "6AD2": 0
           },
-          "total": 7,
-          "cumulative": 14
+          "total": 6,
+          "cumulative": 13
         },
         "3": {
           "classifications": {
@@ -1552,7 +1552,7 @@
             "6AD2": 0
           },
           "total": 2,
-          "cumulative": 16
+          "cumulative": 15
         },
         "4": {
           "classifications": {
@@ -1570,7 +1570,7 @@
             "6AD2": 0
           },
           "total": 1,
-          "cumulative": 17
+          "cumulative": 16
         },
         "5": {
           "classifications": {
@@ -1588,7 +1588,7 @@
             "6AD2": 0
           },
           "total": 0,
-          "cumulative": 17
+          "cumulative": 16
         },
         "6": {
           "classifications": {
@@ -1606,10 +1606,10 @@
             "6AD2": 0
           },
           "total": 0,
-          "cumulative": 17
+          "cumulative": 16
         }
       },
-      "total": 17
+      "total": 16
     },
     {
       "code": "PBC",

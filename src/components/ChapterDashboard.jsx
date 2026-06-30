@@ -4,7 +4,7 @@ import {
 } from 'recharts'
 
 const WEEKS = ['1','2','3','4','5','6']
-const ROUND_LABELS = { '1':'Bi-District', '2':'Area', '3':'Regionals', '4':'Quarterfinals', '5':'Semifinals', '6':'Championship' }
+const ROUND_LABELS = { '1':'Week 1', '2':'Week 2', '3':'Week 3', '4':'Week 4', '5':'Week 5', '6':'Week 6' }
 const CLASSIFICATIONS = ['1AD1','1AD2','2AD1','2AD2','3AD1','3AD2','4AD1','4AD2','5AD1','5AD2','6AD1','6AD2']
 
 // Classifications that do not play in a given week (bye)
