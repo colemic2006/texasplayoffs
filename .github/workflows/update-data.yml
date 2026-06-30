@@ -1,0 +1,36 @@
+name: Update Playoff Data from Google Sheets
+
+on:
+  schedule:
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install openpyxl
+
+      - name: Run data extraction from Google Sheets
+        run: python3 scripts/extract.py --source sheets
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add public/data/
+          if git diff --staged --quiet; then
+            echo "No data changes detected, skipping commit."
+          else
+            git commit -m "Auto-update: playoff data $(date +%Y-%m-%d)"
+            git push
+          fi
