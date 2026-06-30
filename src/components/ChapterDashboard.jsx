@@ -211,18 +211,18 @@ export default function ChapterDashboard({ data, year }) {
                     const wk = selectedChapterData.weeks?.[w]
                     return (
                       <tr key={w} style={{ borderBottom:'1px solid rgba(15,13,11,0.05)' }}>
-                        <td style={tdStyle}>{w}</td>
-                        <td style={{ ...tdStyle, color:'var(--mid)', fontSize:11 }}>{ROUND_LABELS[w]}</td>
-                        <td style={{ ...tdStyle, fontWeight:500 }}>{wk?.total ?? 0}</td>
-                        <td style={{ ...tdStyle, color:'var(--burnt)', fontFamily:'var(--mono)', fontSize:11 }}>
+                        <td style={{ ...tdStyle, textAlign:'center' }}>{w}</td>
+                        <td style={{ ...tdStyle, color:'var(--mid)', fontSize:11, textAlign:'center' }}>{ROUND_LABELS[w]}</td>
+                        <td style={{ ...tdStyle, fontWeight:500, textAlign:'center' }}>{wk?.total ?? 0}</td>
+                        <td style={{ ...tdStyle, color:'var(--burnt)', fontFamily:'var(--mono)', fontSize:11, textAlign:'center' }}>
                           {wk?.cumulative ?? 0}
                         </td>
                       </tr>
                     )
                   })}
                   <tr style={{ background:'rgba(212,146,10,0.06)' }}>
-                    <td colSpan={2} style={{ ...tdStyle, fontFamily:'var(--mono)', fontSize:10, textTransform:'uppercase', letterSpacing:'0.1em', color:'var(--mid)' }}>Season Total</td>
-                    <td colSpan={2} style={{ ...tdStyle, fontFamily:"'Bebas Neue', sans-serif", fontSize:22, color:'var(--burnt)' }}>
+                    <td colSpan={2} style={{ ...tdStyle, fontFamily:'var(--mono)', fontSize:10, textTransform:'uppercase', letterSpacing:'0.1em', color:'var(--mid)' }}>Post-Season Total</td>
+                    <td colSpan={2} style={{ ...tdStyle, fontFamily:"'Bebas Neue', sans-serif", fontSize:22, color:'var(--burnt)', textAlign:'center' }}>
                       {selectedChapterData.total}
                     </td>
                   </tr>
@@ -369,7 +369,7 @@ function ClassificationBreakdown({ chapter }) {
   return (
     <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, padding:'20px 16px' }}>
       <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginBottom:14 }}>
-        Games by Classification (Season Total)
+        Games by Classification (Post-Season Total)
       </div>
       {totals.sort((a,b)=>b.value-a.value).map(({ cls, value }, i) => (
         <div key={cls} style={{ marginBottom:8 }}>
