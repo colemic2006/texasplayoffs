@@ -4,9 +4,17 @@ import {
 } from 'recharts'
 
 const WEEKS = ['1','2','3','4','5','6']
-const WEEK_LABELS = { '1':'Wk 1\nArea', '2':'Wk 2\nRegionals', '3':'Wk 3\nQtrs', '4':'Wk 4\nSemis', '5':'Wk 5\nFinals', '6':'Wk 6\nChamps' }
-const ROUND_LABELS = { '1':'Area', '2':'Regionals', '3':'Quarterfinals', '4':'Semifinals', '5':'Finals', '6':'Championship' }
+const ROUND_LABELS = { '1':'Bi-District', '2':'Area', '3':'Regionals', '4':'Quarterfinals', '5':'Semifinals', '6':'Championship' }
 const CLASSIFICATIONS = ['1AD1','1AD2','2AD1','2AD2','3AD1','3AD2','4AD1','4AD2','5AD1','5AD2','6AD1','6AD2']
+
+const CHAPTER_NAMES = {
+  ABI:'Abilene', AMA:'Amarillo', AUS:'Austin', BEA:'Beaumont', COM:'Commerce',
+  CSC:'College Station', CTX:'Central Texas', DAL:'Dallas', ELP:'El Paso',
+  ETX:'East Texas', FTW:'Fort Worth', HOU:'Houston', NTX:'North Texas',
+  PBC:'Permian Basin', RGV:'Rio Grande Valley', SAT:'San Antonio',
+  SAN:'San Angelo', SFA:'Stephen F. Austin', SPC:'South Plains', STX:'South Texas',
+  TYL:'Tyler', WAC:'Waco', WACO:'Waco',
+}
 
 const COLORS = ['var(--burnt)','var(--gold)','var(--steel)','var(--sage)','var(--grape)','var(--mid)']
 
@@ -72,6 +80,20 @@ export default function ChapterDashboard({ data, year }) {
     })
   }, [sorted, selectedWeek, filterClass])
 
+  const filteredTotal = useMemo(() => {
+    return chapters.reduce((s, c) => {
+      if (selectedWeek === 'all') {
+        return s + (filterClass === 'all'
+          ? (c.total || 0)
+          : WEEKS.reduce((ss, w) => ss + (c.weeks?.[w]?.classifications?.[filterClass] || 0), 0))
+      } else {
+        return s + (filterClass === 'all'
+          ? (c.weeks?.[selectedWeek]?.total || 0)
+          : (c.weeks?.[selectedWeek]?.classifications?.[filterClass] || 0))
+      }
+    }, 0)
+  }, [chapters, selectedWeek, filterClass])
+
   const selectedChapterData = selectedChapter
     ? chapters.find(c => c.code === selectedChapter)
     : null
@@ -118,27 +140,44 @@ export default function ChapterDashboard({ data, year }) {
           />
         </div>
 
-        <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, padding:'24px 8px 8px' }}>
-          <ResponsiveContainer width="100%" height={260}>
-            <BarChart data={barData} margin={{ top:4, right:8, left:0, bottom:30 }}>
-              <XAxis dataKey="code" tick={{ fontFamily:'DM Mono', fontSize:9, fill:'var(--mid)' }} angle={-45} textAnchor="end" />
-              <YAxis tick={{ fontFamily:'DM Mono', fontSize:9, fill:'var(--mid)' }} width={28} />
-              <Tooltip
-                formatter={(v) => [v, 'Games']}
-                contentStyle={{ fontFamily:'DM Mono', fontSize:11, border:'1px solid var(--border)', borderRadius:6 }}
-              />
-              <Bar dataKey="value" radius={[3,3,0,0]}>
-                {barData.map((entry, i) => (
-                  <Cell key={entry.code}
-                    fill={entry.code === selectedChapter ? 'var(--gold)' : 'var(--burnt)'}
-                    fillOpacity={entry.value === 0 ? 0.2 : 0.85}
-                    onClick={() => setSelectedChapter(entry.code === selectedChapter ? null : entry.code)}
-                    style={{ cursor:'pointer' }}
-                  />
-                ))}
-              </Bar>
-            </BarChart>
-          </ResponsiveContainer>
+        <div style={{ display:'flex', gap:16, alignItems:'stretch' }}>
+          <div style={{ flex:1, background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, padding:'24px 8px 8px' }}>
+            <ResponsiveContainer width="100%" height={260}>
+              <BarChart data={barData} margin={{ top:4, right:8, left:0, bottom:30 }}>
+                <XAxis dataKey="code" tick={{ fontFamily:'DM Mono', fontSize:9, fill:'var(--mid)' }} angle={-45} textAnchor="end" />
+                <YAxis tick={{ fontFamily:'DM Mono', fontSize:9, fill:'var(--mid)' }} width={28} />
+                <Tooltip
+                  formatter={(v) => [v, 'Games']}
+                  contentStyle={{ fontFamily:'DM Mono', fontSize:11, border:'1px solid var(--border)', borderRadius:6 }}
+                />
+                <Bar dataKey="value" radius={[3,3,0,0]}>
+                  {barData.map((entry, i) => (
+                    <Cell key={entry.code}
+                      fill={entry.code === selectedChapter ? 'var(--gold)' : 'var(--burnt)'}
+                      fillOpacity={entry.value === 0 ? 0.2 : 0.85}
+                      onClick={() => setSelectedChapter(entry.code === selectedChapter ? null : entry.code)}
+                      style={{ cursor:'pointer' }}
+                    />
+                  ))}
+                </Bar>
+              </BarChart>
+            </ResponsiveContainer>
+          </div>
+          <div style={{
+            background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10,
+            padding:'20px 24px', display:'flex', flexDirection:'column',
+            alignItems:'center', justifyContent:'center', minWidth:140
+          }}>
+            <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginBottom:4, textAlign:'center' }}>
+              {selectedWeek === 'all' ? 'All Rounds' : ROUND_LABELS[selectedWeek]}
+            </div>
+            <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:96, lineHeight:1, color:'var(--ink)' }}>
+              {filteredTotal}
+            </div>
+            <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginTop:4, textAlign:'center' }}>
+              games
+            </div>
+          </div>
         </div>
         <div style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)', marginTop:6, textAlign:'center', letterSpacing:'0.1em' }}>
           Click a bar to drill into that chapter's weekly breakdown
@@ -149,7 +188,7 @@ export default function ChapterDashboard({ data, year }) {
       {selectedChapterData && (
         <div style={{ marginBottom:48 }}>
           <SectionLabel>Chapter Detail</SectionLabel>
-          <SectionTitle accent="var(--gold)">{selectedChapterData.name} ({selectedChapterData.code})</SectionTitle>
+          <SectionTitle accent="var(--gold)">{CHAPTER_NAMES[selectedChapterData.code] || selectedChapterData.name} ({selectedChapterData.code})</SectionTitle>
 
           <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:14 }}>
             {/* Weekly summary table */}
