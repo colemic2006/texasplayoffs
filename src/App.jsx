@@ -57,10 +57,14 @@ export default function App() {
       </main>
 
       <footer style={{
-        textAlign: 'center', padding: '24px', borderTop: '1px solid var(--border)',
-        fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.1em', color: 'var(--mid)'
+        textAlign: 'center', padding: '28px 24px', borderTop: '1px solid var(--border)',
+        fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.1em', color: 'var(--mid)',
+        lineHeight: 1.8
       }}>
-        TEXAS UIL FOOTBALL PLAYOFF TRACKER · DATA: TASO · texasplayoffs.com
+        <div>TEXAS UIL FOOTBALL PLAYOFF TRACKER · DATA: TASO · texasplayoffs.com</div>
+        <div style={{ marginTop: 6, fontSize: 9, opacity: 0.7, maxWidth: 640, margin: '6px auto 0' }}>
+          This site is provided for informational purposes only and has no affiliation with the Texas Association of Sports Officials (TASO) or the University Interscholastic League (UIL).
+        </div>
       </footer>
     </div>
   )
