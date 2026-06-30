@@ -13,6 +13,58 @@ function isValidTeam(name) {
   return true
 }
 
+// Maps variant spellings → canonical school name
+const NAME_FIXES = {
+  // Hyphen normalization
+  'Springlake Earth':       'Springlake-Earth',
+  'Rockwall Heath':         'Rockwall-Heath',
+  'Tuloso Midway':          'CC Tuloso-Midway',
+  'Tuloso-Midway':          'CC Tuloso-Midway',
+  'CC Tuloso Midway':       'CC Tuloso-Midway',
+  // Space / capitalization
+  'Deleon':                 'De Leon',
+  'LaPorte':                'La Porte',
+  'Longview Pinetree':      'Longview Pine Tree',
+  'Rock Springs':           'Rocksprings',
+  'Mt. Enterprise':         'Mount Enterprise',
+  'Spring  DeKaney':        'Spring DeKaney',
+  'Spring Dekaney':         'Spring DeKaney',
+  // Apostrophe
+  'Young Mens Leadership Academy': "Young Men's Leadership Academy",
+  // Typos
+  'Beevillle Jones':        'Beeville Jones',
+  'Edinbug':                'Edinburg',
+  'Edinburgh Vela':         'Edinburg Vela',
+  'El Dorado':              'Eldorado',
+  'El Paso Bel Aire':       'El Paso Bel Air',
+  'El Paso De Valle':       'El Paso Del Valle',
+  'El Paso Frankin':        'El Paso Franklin',
+  'El Paso Pebble Hlls':    'El Paso Pebble Hills',
+  'Fannidel':               'Fannindel',
+  'Fredricksburg':          'Fredericksburg',
+  'FW Chisolm Trail':       'FW Chisholm Trail',
+  'Humble Atascosita':      'Humble Atascocita',
+  'Jourdantown':            'Jourdanton',
+  'Regan County':           'Reagan County',
+  'Rosebudd-Lott':          'Rosebud-Lott',
+  'Waxahatchie':            'Waxahachie',
+  'Wichita Falls Hirshi':   'Wichita Falls Hirschi',
+  'Wolfe City':             'Wolf City',
+  // City-prefix disambiguation (medium confidence confirmed)
+  'FW Arlington Heights':   'Arlington Heights',
+  'WF City View':           'City View',
+  'SA Davenport':           'Davenport',
+  'Ridge Point':            'FB Ridge Point',
+  'Wyatt':                  'FW Wyatt',
+  'SA Jefferson':           'Jefferson',
+  'Maude':                  'Maud',
+}
+
+function canonicalize(name) {
+  const n = name.trim()
+  return NAME_FIXES[n] || n
+}
+
 const CHAPTER_NAMES = {
   ABI:'Abilene', AMA:'Amarillo', AUS:'Austin', BEA:'Beaumont', COM:'Commerce',
   CSC:'College Station', CTX:'Central Texas', DAL:'Dallas', ELP:'El Paso',
@@ -50,9 +102,9 @@ export default function TeamsView({ allData, years }) {
 
         if (!isValidTeam(game.team1) || !isValidTeam(game.team2)) continue
 
-        for (const teamName of [game.team1, game.team2]) {
-          if (!teamName) continue
-          const key = teamName.trim()
+        for (const rawName of [game.team1, game.team2]) {
+          if (!rawName) continue
+          const key = canonicalize(rawName)
           if (!map.has(key)) {
             map.set(key, { name: key, yearSet: new Set(), totalGames: 0, chapters: new Map(), classSet: new Set() })
           }
