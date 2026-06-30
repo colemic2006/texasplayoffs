@@ -7,6 +7,9 @@ const WEEKS = ['1','2','3','4','5','6']
 const ROUND_LABELS = { '1':'Bi-District', '2':'Area', '3':'Regionals', '4':'Quarterfinals', '5':'Semifinals', '6':'Championship' }
 const CLASSIFICATIONS = ['1AD1','1AD2','2AD1','2AD2','3AD1','3AD2','4AD1','4AD2','5AD1','5AD2','6AD1','6AD2']
 
+// Classifications that do not play in a given week (bye)
+const BYE_CLASSIFICATIONS = { '5': ['1AD1', '1AD2'] }
+
 const CHAPTER_NAMES = {
   ABI:'Abilene', AMA:'Amarillo', AUS:'Austin', BEA:'Beaumont', COM:'Commerce',
   CSC:'College Station', CTX:'Central Texas', DAL:'Dallas', ELP:'El Paso',
@@ -137,6 +140,7 @@ export default function ChapterDashboard({ data, year }) {
             options={[['all','All'], ...CLASSIFICATIONS.map(c => [c, c])]}
             value={filterClass}
             onChange={setFilterClass}
+            byeKeys={BYE_CLASSIFICATIONS[selectedWeek] || []}
           />
         </div>
 
@@ -311,20 +315,38 @@ export default function ChapterDashboard({ data, year }) {
   )
 }
 
-function FilterGroup({ label, options, value, onChange }) {
+function FilterGroup({ label, options, value, onChange, byeKeys = [] }) {
   return (
     <div style={{ display:'flex', alignItems:'center', gap:4 }}>
       <span style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--mid)', marginRight:2 }}>{label}:</span>
       <div style={{ display:'flex', gap:3, flexWrap:'wrap' }}>
-        {options.map(([key, lbl]) => (
-          <button key={key} onClick={() => onChange(key)} style={{
-            fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.08em',
-            padding:'3px 8px', borderRadius:3, border:'1px solid var(--border)',
-            background: value === key ? 'var(--ink)' : 'transparent',
-            color: value === key ? 'var(--cream)' : 'var(--mid)',
-            cursor:'pointer', whiteSpace:'nowrap'
-          }}>{lbl}</button>
-        ))}
+        {options.map(([key, lbl]) => {
+          const isBye = byeKeys.includes(key)
+          const isActive = value === key
+          return (
+            <button key={key} onClick={() => onChange(isBye ? 'all' : key)}
+              title={isBye ? 'Bye week — 1A divisions do not play in Week 5' : undefined}
+              style={{
+                fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.08em',
+                padding:'3px 8px', borderRadius:3, border:'1px solid var(--border)',
+                background: isActive && !isBye ? 'var(--ink)' : 'transparent',
+                color: isBye ? 'rgba(15,13,11,0.25)' : isActive ? 'var(--cream)' : 'var(--mid)',
+                cursor: isBye ? 'default' : 'pointer',
+                whiteSpace:'nowrap', textDecoration: isBye ? 'line-through' : 'none',
+                position:'relative'
+              }}>
+              {lbl}
+              {isBye && (
+                <span style={{
+                  position:'absolute', top:-6, right:-2,
+                  fontFamily:'var(--mono)', fontSize:7, letterSpacing:'0.05em',
+                  color:'var(--mid)', background:'var(--surface)',
+                  padding:'0 2px', borderRadius:2
+                }}>BYE</span>
+              )}
+            </button>
+          )
+        })}
       </div>
     </div>
   )
