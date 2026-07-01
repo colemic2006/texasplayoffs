@@ -1420,6 +1420,18 @@
     {
       "year": 2025,
       "classification": "2A D1",
+      "week": 4,
+      "round": "Quarterfinals",
+      "chapter": "TYL",
+      "team1": "Joaquin",
+      "score1": 35,
+      "team2": "San Augustine",
+      "score2": 16,
+      "winner": "Joaquin"
+    },
+    {
+      "year": 2025,
+      "classification": "2A D1",
       "week": 5,
       "round": "Semifinals",
       "chapter": "FTW",
