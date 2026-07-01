@@ -58,6 +58,9 @@ const NAME_FIXES = {
   'Wyatt':                  'FW Wyatt',
   'SA Jefferson':           'Jefferson',
   'Maude':                  'Maud',
+  'Alamo Heights':          'SA Alamo Heights',
+  'SA Taft':                'Taft',
+  'FW Dunbar':              'Dunbar',
 }
 
 function canonicalize(name) {
