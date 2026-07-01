@@ -1386,6 +1386,18 @@
       "classification": "2A D1",
       "week": 4,
       "round": "Quarterfinals",
+      "chapter": "DAL",
+      "team1": "Hamilton",
+      "score1": 24,
+      "team2": "Axtell",
+      "score2": 3,
+      "winner": "Hamilton"
+    },
+    {
+      "year": 2025,
+      "classification": "2A D1",
+      "week": 4,
+      "round": "Quarterfinals",
       "chapter": "SAT",
       "team1": "Mason",
       "score1": 13,
@@ -1436,10 +1448,10 @@
       "round": "Championship",
       "chapter": "FTW",
       "team1": "Hamilton",
-      "score1": null,
+      "score1": 21,
       "team2": "Joaquin",
-      "score2": null,
-      "winner": null
+      "score2": 7,
+      "winner": "Hamilton"
     },
     {
       "year": 2025,
