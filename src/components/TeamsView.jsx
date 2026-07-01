@@ -220,7 +220,7 @@ export default function TeamsView({ allData, years }) {
                 <th style={thStyle}>Classification</th>
                 <th style={thStyle}>Playoff Years</th>
                 <th style={thStyle}>Total Games</th>
-                <th style={{ ...thStyle, textAlign:'left' }}>Top Chapter</th>
+                <th style={{ ...thStyle, textAlign:'left' }}>Top Chapters</th>
               </tr>
             </thead>
             <tbody>
@@ -258,11 +258,15 @@ export default function TeamsView({ allData, years }) {
                       {team.totalGames}
                     </td>
                     <td style={tdStyle}>
-                      {team.chapters[0] ? (
-                        <span style={{ fontFamily:'var(--mono)', fontSize:9 }}>
-                          <span style={{ color:'var(--steel)' }}>{team.chapters[0].ch}</span>
-                          <span style={{ color:'var(--mid)', marginLeft:4 }}>×{team.chapters[0].count}</span>
-                        </span>
+                      {team.chapters.length > 0 ? (
+                        <div style={{ display:'flex', flexDirection:'column', gap:2 }}>
+                          {team.chapters.slice(0, 3).map(({ ch, count }) => (
+                            <span key={ch} style={{ fontFamily:'var(--mono)', fontSize:9, whiteSpace:'nowrap' }}>
+                              <span style={{ color:'var(--steel)' }}>{ch}</span>
+                              <span style={{ color:'var(--mid)', marginLeft:4 }}>({count})</span>
+                            </span>
+                          ))}
+                        </div>
                       ) : '—'}
                     </td>
                   </tr>
