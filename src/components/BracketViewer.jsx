@@ -4,6 +4,19 @@ const CLASSIFICATIONS = ['1A D1','1A D2','2A D1','2A D2','3A D1','3A D2','4A D1'
 const WEEKS = [1,2,3,4,5,6]
 const ROUND_LABELS = { 1:'Week 1', 2:'Week 2', 3:'Week 3', 4:'Week 4', 5:'Week 5', 6:'Week 6' }
 
+const KNOWN_CHAPTERS = new Set(['ABI','AMA','AUS','BEA','STX','COM','CSC','CTX','DAL','ELP','FTW','HOU','NTX','PBC','PVC','RGV','SAT','SAN','SFA','SPC','TYL','WAC','WACO'])
+const BAD_NAMES = new Set(['total bracket counts','totals','total','bye','filler',''])
+
+function isValidTeam(name) {
+  if (!name) return false
+  const n = name.trim()
+  if (!n) return false
+  if (/^\d+$/.test(n)) return false
+  if (KNOWN_CHAPTERS.has(n.toUpperCase())) return false
+  if (BAD_NAMES.has(n.toLowerCase())) return false
+  return true
+}
+
 function SectionLabel({ children }) {
   return (
     <div style={{ fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.18em', textTransform:'uppercase', color:'var(--mid)', marginBottom:6 }}>{children}</div>
@@ -16,7 +29,10 @@ export default function BracketViewer({ data, year }) {
 
   const games = useMemo(() => {
     if (!data?.games) return []
-    return data.games.filter(g => g.classification === classification)
+    return data.games.filter(g =>
+      g.classification === classification &&
+      isValidTeam(g.team1) && isValidTeam(g.team2)
+    )
   }, [data, classification])
 
   const filteredGames = useMemo(() => {
@@ -125,18 +141,8 @@ function GameCard({ game }) {
   return (
     <div style={{
       background:'var(--surface)', border:'1px solid var(--border)',
-      borderRadius:10, overflow:'hidden', position:'relative'
+      borderRadius:10, overflow:'hidden'
     }}>
-      {/* Chapter badge */}
-      {game.chapter && (
-        <div style={{
-          position:'absolute', top:10, right:12,
-          fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.1em',
-          background:'rgba(44,74,110,0.1)', color:'var(--steel)',
-          padding:'2px 7px', borderRadius:3, border:'1px solid rgba(44,74,110,0.2)'
-        }}>{game.chapter}</div>
-      )}
-
       <div style={{ padding:'14px 16px' }}>
         {/* Team 1 */}
         <TeamRow
@@ -155,23 +161,30 @@ function GameCard({ game }) {
         />
       </div>
 
-      {/* Result indicator */}
-      {hasScore && (
-        <div style={{
-          borderTop:'1px solid var(--border)', padding:'6px 16px',
-          display:'flex', justifyContent:'space-between', alignItems:'center',
-          background:'rgba(15,13,11,0.02)'
-        }}>
-          <span style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--sage)', letterSpacing:'0.1em' }}>
-            FINAL
-          </span>
-          {Math.abs((game.score1 || 0) - (game.score2 || 0)) > 0 && (
+      {/* Footer bar: FINAL / margin / chapter */}
+      <div style={{
+        borderTop:'1px solid var(--border)', padding:'5px 12px',
+        display:'flex', justifyContent:'space-between', alignItems:'center',
+        background:'rgba(15,13,11,0.02)'
+      }}>
+        <span style={{ fontFamily:'var(--mono)', fontSize:9, color: hasScore ? 'var(--sage)' : 'transparent', letterSpacing:'0.1em' }}>
+          {hasScore ? 'FINAL' : '—'}
+        </span>
+        <div style={{ display:'flex', alignItems:'center', gap:8 }}>
+          {hasScore && Math.abs((game.score1 || 0) - (game.score2 || 0)) > 0 && (
             <span style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)' }}>
               +{Math.abs((game.score1 || 0) - (game.score2 || 0))}
             </span>
           )}
+          {game.chapter && (
+            <span style={{
+              fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.1em',
+              background:'rgba(44,74,110,0.1)', color:'var(--steel)',
+              padding:'2px 7px', borderRadius:3, border:'1px solid rgba(44,74,110,0.2)'
+            }}>{game.chapter}</span>
+          )}
         </div>
-      )}
+      </div>
     </div>
   )
 }
