@@ -2932,6 +2932,30 @@
     {
       "year": 2025,
       "classification": "3A D1",
+      "week": 4,
+      "round": "Quarterfinals",
+      "chapter": "SAT",
+      "team1": "Yoakum",
+      "score1": 20,
+      "team2": "Columbus",
+      "score2": 14,
+      "winner": "Yoakum"
+    },
+    {
+      "year": 2025,
+      "classification": "3A D1",
+      "week": 4,
+      "round": "Quarterfinals",
+      "chapter": "TYL",
+      "team1": "Grandview",
+      "score1": 35,
+      "team2": "Pottsboro",
+      "score2": 18,
+      "winner": "Grandview"
+    },
+    {
+      "year": 2025,
+      "classification": "3A D1",
       "week": 5,
       "round": "Semifinals",
       "chapter": "FTW",
@@ -2959,11 +2983,11 @@
       "week": 6,
       "round": "Championship",
       "chapter": "ABI",
-      "team1": "Grandview",
-      "score1": null,
-      "team2": "Yoakum",
-      "score2": null,
-      "winner": null
+      "team1": "Yoakum",
+      "score1": 45,
+      "team2": "Grandview",
+      "score2": 29,
+      "winner": "Yoakum"
     },
     {
       "year": 2025,
@@ -3642,12 +3666,36 @@
       "classification": "3A D2",
       "week": 4,
       "round": "Quarterfinals",
+      "chapter": "DAL",
+      "team1": "Gunter",
+      "score1": 45,
+      "team2": "Leonard",
+      "score2": 14,
+      "winner": "Gunter"
+    },
+    {
+      "year": 2025,
+      "classification": "3A D2",
+      "week": 4,
+      "round": "Quarterfinals",
       "chapter": "HOU",
       "team1": "Tidehaven",
       "score1": 31,
       "team2": "East Bernard",
       "score2": 34,
       "winner": "East Bernard"
+    },
+    {
+      "year": 2025,
+      "classification": "3A D2",
+      "week": 4,
+      "round": "Quarterfinals",
+      "chapter": "HOU",
+      "team1": "Newton",
+      "score1": 46,
+      "team2": "Arp",
+      "score2": 13,
+      "winner": "Newton"
     },
     {
       "year": 2025,
@@ -3678,12 +3726,12 @@
       "classification": "3A D2",
       "week": 6,
       "round": "Championship",
-      "chapter": "CSC",
+      "chapter": "OSC",
       "team1": "Wall",
-      "score1": null,
+      "score1": 29,
       "team2": "Newton",
-      "score2": null,
-      "winner": null
+      "score2": 25,
+      "winner": "Wall"
     },
     {
       "year": 2025,
@@ -5838,12 +5886,36 @@
       "classification": "5A D1",
       "week": 4,
       "round": "Quarterfinals",
+      "chapter": "DAL",
+      "team1": "Frisco Lone Star",
+      "score1": 56,
+      "team2": "Highland Park",
+      "score2": 20,
+      "winner": "Frisco Lone Star"
+    },
+    {
+      "year": 2025,
+      "classification": "5A D1",
+      "week": 4,
+      "round": "Quarterfinals",
       "chapter": "HOU",
       "team1": "Denton Ryan",
       "score1": 17,
       "team2": "Aledo",
       "score2": 43,
       "winner": "Aledo"
+    },
+    {
+      "year": 2025,
+      "classification": "5A D1",
+      "week": 4,
+      "round": "Quarterfinals",
+      "chapter": "HOU",
+      "team1": "Port Arthur",
+      "score1": 45,
+      "team2": "Barbers Hill",
+      "score2": 24,
+      "winner": "Port Arthur"
     },
     {
       "year": 2025,
@@ -5887,11 +5959,11 @@
       "week": 6,
       "round": "Championship",
       "chapter": "HOU",
-      "team1": "Frisco Lone Star",
-      "score1": null,
-      "team2": "Smithson Valley",
-      "score2": null,
-      "winner": null
+      "team1": "Smithson Valley",
+      "score1": 28,
+      "team2": "Frisco Lone Star",
+      "score2": 6,
+      "winner": "Smithson Valley"
     },
     {
       "year": 2025,
@@ -6570,6 +6642,30 @@
       "classification": "5A D2",
       "week": 4,
       "round": "Quarterfinals",
+      "chapter": "HOU",
+      "team1": "South Oak Cliff",
+      "score1": 28,
+      "team2": "Port Neches-Grove",
+      "score2": 0,
+      "winner": "South Oak Cliff"
+    },
+    {
+      "year": 2025,
+      "classification": "5A D2",
+      "week": 4,
+      "round": "Quarterfinals",
+      "chapter": "HOU",
+      "team1": "Richmond Randle",
+      "score1": 30,
+      "team2": "Iowa Colony",
+      "score2": 12,
+      "winner": "Richmond Randle"
+    },
+    {
+      "year": 2025,
+      "classification": "5A D2",
+      "week": 4,
+      "round": "Quarterfinals",
       "chapter": "SAT",
       "team1": "Boerne",
       "score1": 56,
@@ -6608,10 +6704,10 @@
       "round": "Championship",
       "chapter": "DAL",
       "team1": "South Oak Cliff",
-      "score1": null,
+      "score1": 35,
       "team2": "Richmond Randle",
-      "score2": null,
-      "winner": null
+      "score2": 19,
+      "winner": "South Oak Cliff"
     },
     {
       "year": 2025,
@@ -8080,6 +8176,18 @@
     {
       "year": 2025,
       "classification": "6A D2",
+      "week": 4,
+      "round": "Quarterfinals",
+      "chapter": "HOU",
+      "team1": "DeSoto",
+      "score1": 60,
+      "team2": "Willis",
+      "score2": 41,
+      "winner": "DeSoto"
+    },
+    {
+      "year": 2025,
+      "classification": "6A D2",
       "week": 5,
       "round": "Semifinals",
       "chapter": "",
@@ -8088,6 +8196,30 @@
       "team2": "Austin Vandegrift",
       "score2": 41,
       "winner": "Houston King"
+    },
+    {
+      "year": 2025,
+      "classification": "6A D2",
+      "week": 5,
+      "round": "Semifinals",
+      "chapter": "FTW",
+      "team1": "DeSoto",
+      "score1": 44,
+      "team2": "Southlake Carroll",
+      "score2": 17,
+      "winner": "DeSoto"
+    },
+    {
+      "year": 2025,
+      "classification": "6A D2",
+      "week": 6,
+      "round": "Championship",
+      "chapter": "SAT",
+      "team1": "DeSoto",
+      "score1": 55,
+      "team2": "Houston King",
+      "score2": 27,
+      "winner": "DeSoto"
     }
   ],
   "generated": "2025-07-01",
