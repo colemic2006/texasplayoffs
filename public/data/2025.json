@@ -442,8 +442,8 @@
       "team1": "Oakwood",
       "score1": 28,
       "team2": "Three Way",
-      "score2": null,
-      "winner": null
+      "score2": 40,
+      "winner": "Three Way"
     },
     {
       "year": 2025,
@@ -594,6 +594,18 @@
       "classification": "1A D2",
       "week": 2,
       "round": "Regionals",
+      "chapter": "FTW",
+      "team1": "Three Way",
+      "score1": 59,
+      "team2": "Fannindel",
+      "score2": 36,
+      "winner": "Three Way"
+    },
+    {
+      "year": 2025,
+      "classification": "1A D2",
+      "week": 2,
+      "round": "Regionals",
       "chapter": "PBC",
       "team1": "Jayton",
       "score1": 68,
@@ -678,12 +690,24 @@
       "classification": "1A D2",
       "week": 3,
       "round": "Quarterfinals",
+      "chapter": "CTX",
+      "team1": "Richland Springs",
+      "score1": 72,
+      "team2": "Oglesby",
+      "score2": 22,
+      "winner": "Richland Springs"
+    },
+    {
+      "year": 2025,
+      "classification": "1A D2",
+      "week": 3,
+      "round": "Quarterfinals",
       "chapter": "FTW",
       "team1": "Strawn",
       "score1": 46,
       "team2": "Three Way",
-      "score2": null,
-      "winner": null
+      "score2": 0,
+      "winner": "Strawn"
     },
     {
       "year": 2025,
@@ -714,12 +738,12 @@
       "classification": "1A D2",
       "week": 6,
       "round": "Championship",
-      "chapter": "",
+      "chapter": "PBC",
       "team1": "Jayton",
-      "score1": null,
+      "score1": 99,
       "team2": "Richland Springs",
-      "score2": null,
-      "winner": null
+      "score2": 64,
+      "winner": "Jayton"
     },
     {
       "year": 2025,
@@ -1080,6 +1104,18 @@
       "team2": "Corrigan-Camden",
       "score2": 21,
       "winner": "Garrison"
+    },
+    {
+      "year": 2025,
+      "classification": "2A D1",
+      "week": 1,
+      "round": "Bi-District",
+      "chapter": "TYL",
+      "team1": "Jewett Leon",
+      "score1": 55,
+      "team2": "Shelbyville",
+      "score2": 40,
+      "winner": "Jewett Leon"
     },
     {
       "year": 2025,
@@ -7248,6 +7284,90 @@
       "team2": "Cibolo Steele",
       "score2": 28,
       "winner": "San Antonio Johnson"
+    },
+    {
+      "year": 2025,
+      "classification": "6A D1",
+      "week": 4,
+      "round": "Quarterfinals",
+      "chapter": "DAL",
+      "team1": "Duncanville",
+      "score1": 35,
+      "team2": "Waxahatchie",
+      "score2": 27,
+      "winner": "Duncanville"
+    },
+    {
+      "year": 2025,
+      "classification": "6A D1",
+      "week": 4,
+      "round": "Quarterfinals",
+      "chapter": "HOU",
+      "team1": "Galena Park North Shore",
+      "score1": 46,
+      "team2": "Dickinson",
+      "score2": 29,
+      "winner": "Galena Park North Shore"
+    },
+    {
+      "year": 2025,
+      "classification": "6A D1",
+      "week": 4,
+      "round": "Quarterfinals",
+      "chapter": "HOU",
+      "team1": "Lake Travis",
+      "score1": 27,
+      "team2": "San Antonio Johnson",
+      "score2": 19,
+      "winner": "Lake Travis"
+    },
+    {
+      "year": 2025,
+      "classification": "6A D1",
+      "week": 4,
+      "round": "Quarterfinals",
+      "chapter": "OSC",
+      "team1": "Allen",
+      "score1": 33,
+      "team2": "North Crowley",
+      "score2": 21,
+      "winner": "Allen"
+    },
+    {
+      "year": 2025,
+      "classification": "6A D1",
+      "week": 5,
+      "round": "Semifinals",
+      "chapter": "DAL",
+      "team1": "Duncanville",
+      "score1": 21,
+      "team2": "Allen",
+      "score2": 9,
+      "winner": "Duncanville"
+    },
+    {
+      "year": 2025,
+      "classification": "6A D1",
+      "week": 5,
+      "round": "Semifinals",
+      "chapter": "FTW",
+      "team1": "Galena Park North Shore",
+      "score1": 46,
+      "team2": "Lake Travis",
+      "score2": 6,
+      "winner": "Galena Park North Shore"
+    },
+    {
+      "year": 2025,
+      "classification": "6A D1",
+      "week": 6,
+      "round": "Championship",
+      "chapter": "SAT",
+      "team1": "Galena Park North Shore",
+      "score1": 10,
+      "team2": "Duncanville",
+      "score2": 7,
+      "winner": "Galena Park North Shore"
     },
     {
       "year": 2025,
