@@ -5,10 +5,10 @@ import {
 
 const WEEKS = ['1','2','3','4','5','6']
 const ROUND_LABELS = { '1':'Week 1', '2':'Week 2', '3':'Week 3', '4':'Week 4', '5':'Week 5', '6':'Week 6' }
-const CLASSIFICATIONS = ['1AD1','1AD2','2AD1','2AD2','3AD1','3AD2','4AD1','4AD2','5AD1','5AD2','6AD1','6AD2']
+const CLASSIFICATIONS = ['1A D1','1A D2','2A D1','2A D2','3A D1','3A D2','4A D1','4A D2','5A D1','5A D2','6A D1','6A D2']
 
 // Classifications that do not play in a given week (bye)
-const BYE_CLASSIFICATIONS = { '5': ['1AD1', '1AD2'] }
+const BYE_CLASSIFICATIONS = { '5': ['1A D1', '1A D2'] }
 
 const CHAPTER_NAMES = {
   ABI:'Abilene', AMA:'Amarillo', AUS:'Austin', BEA:'Beaumont', COM:'Commerce',
@@ -103,6 +103,18 @@ export default function ChapterDashboard({ data, year }) {
 
   return (
     <div>
+      {/* ── 2022 PARTIAL DATA NOTE ── */}
+      {year === 2022 && (
+        <div style={{
+          background:'rgba(193,68,14,0.06)', border:'1px solid rgba(193,68,14,0.2)',
+          borderRadius:8, padding:'10px 16px', marginBottom:20,
+          fontFamily:'var(--mono)', fontSize:11, color:'var(--mid)', lineHeight:1.6
+        }}>
+          <span style={{ color:'var(--burnt)', fontWeight:600, marginRight:6 }}>Note:</span>
+          2022 has all 692 games. Two games have no chapter assignment (one 2A D1 Bi-District game with an unknown chapter, plus one other), so the chapter-based total shown here is 690.
+        </div>
+      )}
+
       {/* ── SUMMARY CARDS ── */}
       <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fit,minmax(160px,1fr))', gap:12, marginBottom:40 }}>
         {[

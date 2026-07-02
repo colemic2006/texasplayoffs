@@ -100,9 +100,21 @@ export default function BracketViewer({ data, year }) {
 
       {games.length === 0 ? (
         <EmptyState classification={classification} year={year} />
+      ) : weeksWithGames.length === 0 ? (
+        <div style={{
+          background:'var(--surface)', border:'1px solid var(--border)',
+          borderRadius:10, padding:'32px 28px', textAlign:'center', color:'var(--mid)'
+        }}>
+          <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:20, marginBottom:6, color:'var(--ink)' }}>
+            No Games This Week
+          </div>
+          <div style={{ fontSize:13 }}>
+            No {classification} games found for {ROUND_LABELS[parseInt(weekFilter)]} in {year}.
+          </div>
+        </div>
       ) : (
         <div>
-          {(weekFilter === 'all' ? weeksWithGames : weeksWithGames).map(week => (
+          {weeksWithGames.map(week => (
             <div key={week} style={{ marginBottom:32 }}>
               <div style={{
                 fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.14em',
