@@ -111,7 +111,7 @@ export default function ChapterDashboard({ data, year }) {
           fontFamily:'var(--mono)', fontSize:11, color:'var(--mid)', lineHeight:1.6
         }}>
           <span style={{ color:'var(--burnt)', fontWeight:600, marginRight:6 }}>Note:</span>
-          2022 bracket records are incomplete — the 2A D1 classification is missing several games, and a small number of games have no chapter assignment. The total shown is lower than the expected 692 for a complete season.
+          2022 totals are 4 games short of 692 due to unconfirmed results in 2A D1, and 1 game is missing a chapter assignment, so the chapter-based total shown here is 687.
         </div>
       )}
 
