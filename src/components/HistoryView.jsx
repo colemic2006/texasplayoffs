@@ -90,8 +90,25 @@ export default function HistoryView({ allData, years, loadYear }) {
         <>
           {/* Chapter selector */}
           <div style={{ marginBottom:16 }}>
-            <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--mid)', marginBottom:8 }}>
-              Select chapters to compare (click to toggle):
+            <div style={{ display:'flex', alignItems:'center', gap:10, marginBottom:8 }}>
+              <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--mid)' }}>
+                Select chapters to compare (click to toggle):
+              </div>
+              <button
+                onClick={() => setSelectedChapters(
+                  selectedChapters.length === allChapters.length ? [] : [...allChapters]
+                )}
+                style={{
+                  fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.1em', textTransform:'uppercase',
+                  padding:'3px 10px', borderRadius:3, cursor:'pointer',
+                  border:'1px solid var(--border)',
+                  background: selectedChapters.length === allChapters.length ? 'var(--ink)' : 'transparent',
+                  color: selectedChapters.length === allChapters.length ? 'var(--cream)' : 'var(--mid)',
+                  transition:'all 0.15s'
+                }}
+              >
+                {selectedChapters.length === allChapters.length ? 'Deselect All' : 'Select All'}
+              </button>
             </div>
             <div style={{ display:'flex', gap:4, flexWrap:'wrap' }}>
               {allChapters.map((code, i) => {
