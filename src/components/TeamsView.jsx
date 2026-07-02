@@ -7,21 +7,18 @@ function isValidTeam(name) {
   if (!name) return false
   const n = name.trim()
   if (!n) return false
-  if (/^\d+$/.test(n)) return false        // pure number
-  if (KNOWN_CHAPTERS.has(n.toUpperCase())) return false  // chapter code
+  if (/^\d+$/.test(n)) return false
+  if (KNOWN_CHAPTERS.has(n.toUpperCase())) return false
   if (BAD_NAMES.has(n.toLowerCase())) return false
   return true
 }
 
-// Maps variant spellings → canonical school name
 const NAME_FIXES = {
-  // Hyphen normalization
   'Springlake Earth':       'Springlake-Earth',
   'Rockwall Heath':         'Rockwall-Heath',
   'Tuloso Midway':          'CC Tuloso-Midway',
   'Tuloso-Midway':          'CC Tuloso-Midway',
   'CC Tuloso Midway':       'CC Tuloso-Midway',
-  // Space / capitalization
   'Deleon':                 'De Leon',
   'LaPorte':                'La Porte',
   'Longview Pinetree':      'Longview Pine Tree',
@@ -29,9 +26,7 @@ const NAME_FIXES = {
   'Mt. Enterprise':         'Mount Enterprise',
   'Spring  DeKaney':        'Spring DeKaney',
   'Spring Dekaney':         'Spring DeKaney',
-  // Apostrophe
   'Young Mens Leadership Academy': "Young Men's Leadership Academy",
-  // Typos
   'Beevillle Jones':        'Beeville Jones',
   'Edinbug':                'Edinburg',
   'Edinburgh Vela':         'Edinburg Vela',
@@ -50,7 +45,6 @@ const NAME_FIXES = {
   'Waxahatchie':            'Waxahachie',
   'Wichita Falls Hirshi':   'Wichita Falls Hirschi',
   'Wolfe City':             'Wolf City',
-  // City-prefix disambiguation (medium confidence confirmed)
   'FW Arlington Heights':   'Arlington Heights',
   'WF City View':           'City View',
   'SA Davenport':           'Davenport',
@@ -83,13 +77,15 @@ function SectionLabel({ children }) {
   )
 }
 
+const RANK_COLORS = ['var(--burnt)', 'var(--gold)', 'var(--steel)', 'var(--mid)', 'var(--mid)']
+
 export default function TeamsView({ allData, years }) {
   const [search, setSearch] = useState('')
   const [sortBy, setSortBy] = useState('appearances')
   const [selectedTeam, setSelectedTeam] = useState(null)
   const [classFilter, setClassFilter] = useState('all')
+  const [lbYear, setLbYear] = useState('all')
 
-  // Aggregate all teams across all loaded years
   const { teams, classifications } = useMemo(() => {
     const map = new Map()
     const classSet = new Set()
@@ -109,12 +105,16 @@ export default function TeamsView({ allData, years }) {
           if (!rawName) continue
           const key = canonicalize(rawName)
           if (!map.has(key)) {
-            map.set(key, { name: key, yearSet: new Set(), totalGames: 0, chapters: new Map(), classSet: new Set() })
+            map.set(key, {
+              name: key, yearSet: new Set(), totalGames: 0,
+              chapters: new Map(), classSet: new Set(), yearGames: new Map()
+            })
           }
           const t = map.get(key)
           t.yearSet.add(year)
           t.totalGames++
           t.classSet.add(cls)
+          t.yearGames.set(year, (t.yearGames.get(year) || 0) + 1)
           if (chapter) t.chapters.set(chapter, (t.chapters.get(chapter) || 0) + 1)
         }
       }
@@ -125,12 +125,31 @@ export default function TeamsView({ allData, years }) {
       appearances: t.yearSet.size,
       years: Array.from(t.yearSet).sort((a,b) => a - b),
       totalGames: t.totalGames,
+      yearGames: Object.fromEntries(t.yearGames),
       chapters: Array.from(t.chapters.entries()).map(([ch, count]) => ({ ch, count })).sort((a,b) => b.count - a.count),
       classifications: Array.from(t.classSet).sort(),
     }))
 
     return { teams, classifications: Array.from(classSet).sort() }
   }, [allData, years])
+
+  // Leaderboard: top 10 by games for selected year
+  const leaderboard = useMemo(() => {
+    const loadedYears = years.filter(y => allData[y])
+    if (lbYear === 'all') {
+      return [...teams].sort((a, b) => b.totalGames - a.totalGames).slice(0, 10)
+    }
+    const yr = parseInt(lbYear)
+    if (!allData[yr]) return []
+    return [...teams]
+      .filter(t => t.yearGames[yr] > 0)
+      .sort((a, b) => (b.yearGames[yr] || 0) - (a.yearGames[yr] || 0))
+      .slice(0, 10)
+  }, [teams, lbYear, allData, years])
+
+  const lbMax = leaderboard[0]
+    ? (lbYear === 'all' ? leaderboard[0].totalGames : leaderboard[0].yearGames[parseInt(lbYear)] || 0)
+    : 1
 
   const filtered = useMemo(() => {
     let result = teams
@@ -149,6 +168,7 @@ export default function TeamsView({ allData, years }) {
   }, [teams, search, sortBy, classFilter])
 
   const selected = selectedTeam ? teams.find(t => t.name === selectedTeam) : null
+  const loadedYears = years.filter(y => allData[y])
 
   return (
     <div>
@@ -162,8 +182,70 @@ export default function TeamsView({ allData, years }) {
         Team Playoff History
       </div>
 
+      {/* ── LEADERBOARD ── */}
+      <div style={{ marginBottom:32 }}>
+        <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:12 }}>
+          <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)' }}>
+            Top Teams by Playoff Games
+          </div>
+          <div style={{ display:'flex', gap:4 }}>
+            {['all', ...loadedYears.map(String)].map(y => (
+              <button key={y} onClick={() => setLbYear(y)} style={{
+                fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.08em',
+                padding:'3px 10px', borderRadius:3, border:'1px solid var(--border)',
+                background: lbYear === y ? 'var(--ink)' : 'transparent',
+                color: lbYear === y ? 'var(--cream)' : 'var(--mid)',
+                cursor:'pointer', transition:'all 0.15s'
+              }}>{y === 'all' ? 'All Years' : y}</button>
+            ))}
+          </div>
+        </div>
+
+        <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(300px, 1fr))', gap:8 }}>
+          {leaderboard.map((team, i) => {
+            const games = lbYear === 'all' ? team.totalGames : (team.yearGames[parseInt(lbYear)] || 0)
+            const pct = lbMax > 0 ? (games / lbMax) * 100 : 0
+            const isSelected = selectedTeam === team.name
+            return (
+              <div
+                key={team.name}
+                onClick={() => setSelectedTeam(isSelected ? null : team.name)}
+                style={{
+                  background: isSelected ? 'rgba(44,74,110,0.07)' : 'var(--surface)',
+                  border: `1px solid ${isSelected ? 'var(--steel)' : 'var(--border)'}`,
+                  borderRadius:8, padding:'10px 14px', cursor:'pointer',
+                  transition:'all 0.15s'
+                }}
+              >
+                <div style={{ display:'flex', alignItems:'baseline', justifyContent:'space-between', marginBottom:6 }}>
+                  <div style={{ display:'flex', alignItems:'baseline', gap:8 }}>
+                    <span style={{
+                      fontFamily:"'Bebas Neue', sans-serif", fontSize:20,
+                      color: RANK_COLORS[Math.min(i, RANK_COLORS.length - 1)], lineHeight:1
+                    }}>#{i + 1}</span>
+                    <span style={{ fontFamily:'DM Sans', fontSize:13, fontWeight:500, color:'var(--ink)' }}>{team.name}</span>
+                  </div>
+                  <span style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:22, color:'var(--ink)', lineHeight:1 }}>{games}</span>
+                </div>
+                <div style={{ height:4, background:'rgba(15,13,11,0.08)', borderRadius:2, overflow:'hidden', marginBottom:5 }}>
+                  <div style={{ height:'100%', width:`${pct}%`, background: i === 0 ? 'var(--burnt)' : i === 1 ? 'var(--gold)' : 'var(--steel)', borderRadius:2, transition:'width 0.3s' }} />
+                </div>
+                <div style={{ display:'flex', justifyContent:'space-between' }}>
+                  <span style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)' }}>
+                    {team.classifications.join(' · ')}
+                  </span>
+                  <span style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)' }}>
+                    {lbYear === 'all' ? `${team.appearances} yr${team.appearances !== 1 ? 's' : ''}` : team.chapters[0] ? team.chapters[0].ch : ''}
+                  </span>
+                </div>
+              </div>
+            )
+          })}
+        </div>
+      </div>
+
+      {/* ── FULL TABLE ── */}
       <div style={{ display:'flex', gap:12, flexWrap:'wrap', marginBottom:20, alignItems:'center' }}>
-        {/* Search */}
         <input
           type="text"
           value={search}
@@ -176,7 +258,6 @@ export default function TeamsView({ allData, years }) {
           }}
         />
 
-        {/* Classification filter */}
         <select
           value={classFilter}
           onChange={e => setClassFilter(e.target.value)}
@@ -190,7 +271,6 @@ export default function TeamsView({ allData, years }) {
           {classifications.map(c => <option key={c} value={c}>{c}</option>)}
         </select>
 
-        {/* Sort */}
         <div style={{ display:'flex', gap:4, marginLeft:'auto' }}>
           {[['appearances','Appearances'],['games','Total Games'],['name','Name']].map(([key, label]) => (
             <button
@@ -213,8 +293,7 @@ export default function TeamsView({ allData, years }) {
         {search || classFilter !== 'all' ? ' matching filters' : ''}
       </div>
 
-      <div style={{ display:'grid', gridTemplateColumns: selected ? '1fr 340px' : '1fr', gap:16, alignItems:'start' }}>
-        {/* Team table */}
+      <div style={{ display:'grid', gridTemplateColumns: selected ? '1fr 360px' : '1fr', gap:16, alignItems:'start' }}>
         <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, overflow:'hidden' }}>
           <table style={{ width:'100%', borderCollapse:'collapse' }}>
             <thead>
@@ -297,30 +376,46 @@ export default function TeamsView({ allData, years }) {
               <Stat label="Playoff Appearances" value={selected.appearances} color="var(--burnt)" />
               <Stat label="Total Games Played" value={selected.totalGames} color="var(--ink)" />
               <div style={{ gridColumn:'1/-1' }}>
-                <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.1em', textTransform:'uppercase', color:'var(--mid)', marginBottom:4 }}>Years</div>
-                <div style={{ fontFamily:'var(--mono)', fontSize:11, color:'var(--steel)' }}>{selected.years.join(', ')}</div>
+                <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.1em', textTransform:'uppercase', color:'var(--mid)', marginBottom:4 }}>Years Active</div>
+                <div style={{ display:'flex', gap:6, flexWrap:'wrap' }}>
+                  {selected.years.map(y => (
+                    <span key={y} style={{
+                      fontFamily:'var(--mono)', fontSize:10, padding:'2px 8px',
+                      borderRadius:3, background:'rgba(44,74,110,0.1)', color:'var(--steel)'
+                    }}>{y} <span style={{ color:'var(--mid)' }}>({selected.yearGames[y] || 0}g)</span></span>
+                  ))}
+                </div>
               </div>
             </div>
 
+            {/* Chapter affinity */}
             <div style={{ padding:'14px 18px' }}>
-              <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginBottom:12 }}>Chapter Breakdown</div>
+              <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginBottom:12 }}>
+                Chapter Affinity <span style={{ opacity:0.5, fontWeight:400 }}>— cumulative game assignments</span>
+              </div>
               {selected.chapters.length === 0 ? (
                 <div style={{ color:'var(--mid)', fontSize:12 }}>No chapter data available.</div>
               ) : (
-                <div style={{ display:'flex', flexDirection:'column', gap:8 }}>
-                  {selected.chapters.map(({ ch, count }) => {
+                <div style={{ display:'flex', flexDirection:'column', gap:10 }}>
+                  {selected.chapters.map(({ ch, count }, i) => {
                     const pct = selected.totalGames > 0 ? (count / selected.totalGames) * 100 : 0
+                    const barColor = i === 0 ? 'var(--burnt)' : i === 1 ? 'var(--gold)' : 'var(--steel)'
                     return (
                       <div key={ch}>
-                        <div style={{ display:'flex', justifyContent:'space-between', marginBottom:3 }}>
-                          <span style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--ink)' }}>
-                            {CHAPTER_NAMES[ch] || ch}
-                            <span style={{ color:'var(--mid)', marginLeft:5 }}>({ch})</span>
-                          </span>
-                          <span style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--steel)' }}>{count}×</span>
+                        <div style={{ display:'flex', justifyContent:'space-between', alignItems:'baseline', marginBottom:4 }}>
+                          <div>
+                            <span style={{ fontFamily:'var(--mono)', fontSize:11, fontWeight:500, color:'var(--ink)' }}>
+                              {CHAPTER_NAMES[ch] || ch}
+                            </span>
+                            <span style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)', marginLeft:6 }}>{ch}</span>
+                          </div>
+                          <div style={{ display:'flex', alignItems:'baseline', gap:6 }}>
+                            <span style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:18, color: barColor, lineHeight:1 }}>{count}</span>
+                            <span style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)' }}>{pct.toFixed(0)}%</span>
+                          </div>
                         </div>
-                        <div style={{ height:4, background:'rgba(15,13,11,0.08)', borderRadius:2, overflow:'hidden' }}>
-                          <div style={{ height:'100%', width:`${pct}%`, background:'var(--steel)', borderRadius:2 }} />
+                        <div style={{ height:6, background:'rgba(15,13,11,0.08)', borderRadius:3, overflow:'hidden' }}>
+                          <div style={{ height:'100%', width:`${pct}%`, background: barColor, borderRadius:3, transition:'width 0.3s' }} />
                         </div>
                       </div>
                     )
