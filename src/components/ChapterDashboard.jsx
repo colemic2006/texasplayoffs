@@ -49,6 +49,7 @@ export default function ChapterDashboard({ data, year }) {
   const [selectedWeek, setSelectedWeek] = useState('all')
   const [selectedChapter, setSelectedChapter] = useState(null)
   const [filterClass, setFilterClass] = useState('all')
+  const [tableClass, setTableClass] = useState('all')
 
   const chapters = data?.chapters || []
 
@@ -253,8 +254,8 @@ export default function ChapterDashboard({ data, year }) {
         <SectionLabel>02 · Full Data</SectionLabel>
         <SectionTitle accent="var(--steel)">All Chapters — Week by Week</SectionTitle>
 
-        {/* Sort controls */}
-        <div style={{ display:'flex', gap:6, flexWrap:'wrap', marginBottom:14 }}>
+        {/* Sort controls + division filter */}
+        <div style={{ display:'flex', gap:6, flexWrap:'wrap', marginBottom:14, alignItems:'center' }}>
           <span style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--mid)', alignSelf:'center', marginRight:4 }}>Sort by:</span>
           {[['total','Total'],['name','Name'],['1','Wk 1'],['2','Wk 2'],['3','Wk 3'],['4','Wk 4'],['5','Wk 5'],['6','Wk 6']].map(([key,label]) => (
             <button key={key} onClick={() => setSortBy(key)} style={{
@@ -264,6 +265,24 @@ export default function ChapterDashboard({ data, year }) {
               color: sortBy === key ? 'var(--cream)' : 'var(--mid)',
               cursor:'pointer', transition:'all 0.15s'
             }}>{label}</button>
+          ))}
+          <div style={{ width:1, height:18, background:'var(--border)', margin:'0 4px', alignSelf:'center' }} />
+          <span style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--mid)', alignSelf:'center', marginRight:2 }}>Division:</span>
+          <button onClick={() => setTableClass('all')} style={{
+            fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.1em', textTransform:'uppercase',
+            padding:'4px 10px', borderRadius:4, border:'1px solid var(--border)',
+            background: tableClass === 'all' ? 'var(--ink)' : 'transparent',
+            color: tableClass === 'all' ? 'var(--cream)' : 'var(--mid)',
+            cursor:'pointer', transition:'all 0.15s'
+          }}>All</button>
+          {CLASSIFICATIONS.map(cls => (
+            <button key={cls} onClick={() => setTableClass(tableClass === cls ? 'all' : cls)} style={{
+              fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.1em',
+              padding:'4px 10px', borderRadius:4, border:'1px solid var(--border)',
+              background: tableClass === cls ? 'var(--steel)' : 'transparent',
+              color: tableClass === cls ? 'var(--cream)' : 'var(--mid)',
+              cursor:'pointer', transition:'all 0.15s'
+            }}>{cls}</button>
           ))}
         </div>
 
@@ -279,7 +298,10 @@ export default function ChapterDashboard({ data, year }) {
             </thead>
             <tbody>
               {sorted.map((ch, idx) => {
-                const pct = totalGames > 0 ? ((ch.total / totalGames) * 100).toFixed(1) : '0.0'
+                const rowTotal = tableClass === 'all'
+                  ? (ch.total || 0)
+                  : WEEKS.reduce((s, w) => s + (ch.weeks?.[w]?.classifications?.[tableClass] || 0), 0)
+                const pct = totalGames > 0 ? ((rowTotal / totalGames) * 100).toFixed(1) : '0.0'
                 return (
                   <tr
                     key={ch.code}
@@ -299,7 +321,9 @@ export default function ChapterDashboard({ data, year }) {
                       <span style={{ fontFamily:'DM Sans', fontSize:11, color:'var(--mid)', marginLeft:8 }}>{ch.name}</span>
                     </td>
                     {WEEKS.map(w => {
-                      const val = ch.weeks?.[w]?.total ?? 0
+                      const val = tableClass === 'all'
+                        ? (ch.weeks?.[w]?.total ?? 0)
+                        : (ch.weeks?.[w]?.classifications?.[tableClass] || 0)
                       return (
                         <td key={w} style={{ ...tdStyle, textAlign:'center', fontFamily:'var(--mono)', fontSize:11 }}>
                           <span style={{
@@ -311,7 +335,7 @@ export default function ChapterDashboard({ data, year }) {
                       )
                     })}
                     <td style={{ ...tdStyle, textAlign:'center', fontFamily:"'Bebas Neue', sans-serif", fontSize:18, color:'var(--burnt)' }}>
-                      {ch.total || 0}
+                      {rowTotal}
                     </td>
                     <td style={{ ...tdStyle, textAlign:'center' }}>
                       <PctBar pct={parseFloat(pct)} />
