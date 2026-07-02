@@ -83,7 +83,7 @@ export default function App() {
         fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.1em', color: 'var(--mid)',
         lineHeight: 1.8
       }}>
-        <div>TEXAS UIL FOOTBALL PLAYOFF TRACKER · DATA: TASO · texasplayoffs.com</div>
+        <div>TEXAS HIGH SCHOOL FOOTBALL PLAYOFF TRACKER · texasplayoffs.com</div>
         <div style={{ marginTop: 6, fontSize: 9, opacity: 0.7, maxWidth: 640, margin: '6px auto 0' }}>
           This site is provided for informational purposes only and has no affiliation with the Texas Association of Sports Officials (TASO) or the University Interscholastic League (UIL).
         </div>
