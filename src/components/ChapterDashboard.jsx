@@ -111,7 +111,7 @@ export default function ChapterDashboard({ data, year }) {
           fontFamily:'var(--mono)', fontSize:11, color:'var(--mid)', lineHeight:1.6
         }}>
           <span style={{ color:'var(--burnt)', fontWeight:600, marginRight:6 }}>Note:</span>
-          2022 totals are 4 games short of 692 due to unconfirmed results in 2A D1, and 1 game is missing a chapter assignment, so the chapter-based total shown here is 687.
+          2022 has all 692 games. Two games have no chapter assignment (one 2A D1 Bi-District game with an unknown chapter, plus one other), so the chapter-based total shown here is 690.
         </div>
       )}
 
