@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react'
+import React, { useState, useMemo, useEffect } from 'react'
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend } from 'recharts'
 
 const CHAPTER_COLORS = [
@@ -13,8 +13,14 @@ function SectionLabel({ children }) {
 }
 
 export default function HistoryView({ allData, years, loadYear }) {
-  const [selectedChapters, setSelectedChapters] = useState(['HOU','FTW','SAT','DAL','TYL'])
+  const [selectedChapters, setSelectedChapters] = useState([])
   const [view, setView] = useState('trend') // 'trend' | 'table'
+  const [hasAutoSelected, setHasAutoSelected] = useState(false)
+
+  // Auto-load all years on mount
+  useEffect(() => {
+    years.forEach(y => { if (!allData[y]) loadYear(y) })
+  }, [])
 
   // Gather all chapter codes from all loaded years
   const allChapters = useMemo(() => {
@@ -24,6 +30,14 @@ export default function HistoryView({ allData, years, loadYear }) {
     })
     return Array.from(codes).sort()
   }, [allData, years])
+
+  // Once chapters are available, auto-select all of them (once only)
+  useEffect(() => {
+    if (!hasAutoSelected && allChapters.length > 0) {
+      setSelectedChapters([...allChapters])
+      setHasAutoSelected(true)
+    }
+  }, [allChapters, hasAutoSelected])
 
   // Build trend line data: [{year, HOU:132, FTW:75, ...}]
   const trendData = useMemo(() => {

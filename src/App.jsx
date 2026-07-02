@@ -71,7 +71,13 @@ export default function App() {
               <>
                 {page === 'chapters' && <ChapterDashboard data={yearData} year={year} />}
                 {page === 'brackets' && <BracketViewer data={yearData} year={year} />}
-                {page === 'history' && <HistoryView allData={data} years={YEARS} loadYear={(y) => setYear(y)} />}
+                {page === 'history' && <HistoryView allData={data} years={YEARS} loadYear={(y) => {
+                  if (data[y]) return
+                  fetch(`${import.meta.env.BASE_URL}data/${y}.json`)
+                    .then(r => r.ok ? r.json() : null)
+                    .then(d => { if (d) setData(prev => ({ ...prev, [y]: d })) })
+                    .catch(() => {})
+                }} />}
               </>
             )}
           </>
