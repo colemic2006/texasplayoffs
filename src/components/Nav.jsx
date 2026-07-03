@@ -2,6 +2,7 @@ import React from 'react'
 
 const LINKS = [
   { id: 'chapters', label: 'Chapter Stats' },
+  { id: 'regulars', label: 'Chapter Regulars' },
   { id: 'brackets', label: 'Brackets' },
   { id: 'history', label: 'Multi-Year History' },
   { id: 'teams', label: 'Teams' },

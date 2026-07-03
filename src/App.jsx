@@ -5,6 +5,7 @@ import ChapterDashboard from './components/ChapterDashboard'
 import BracketViewer from './components/BracketViewer'
 import HistoryView from './components/HistoryView'
 import TeamsView from './components/TeamsView'
+import ChapterRegulars from './components/ChapterRegulars'
 
 const YEARS = [2025, 2024, 2023, 2022]
 
@@ -32,9 +33,9 @@ export default function App() {
       .catch(err => { setError(err.message); setLoading(false) })
   }, [year])
 
-  // Preload all years when Teams tab is active
+  // Preload all years when Teams or Chapter Regulars tab is active
   useEffect(() => {
-    if (page !== 'teams') return
+    if (page !== 'teams' && page !== 'regulars') return
     YEARS.forEach(y => {
       if (data[y]) return
       fetch(`${import.meta.env.BASE_URL}data/${y}.json`)
@@ -45,7 +46,7 @@ export default function App() {
   }, [page])
 
   const yearData = data[year] || null
-  const allYearsLoaded = page === 'teams' ? YEARS.every(y => data[y]) : true
+  const allYearsLoaded = (page === 'teams' || page === 'regulars') ? YEARS.every(y => data[y]) : true
 
   return (
     <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
@@ -59,9 +60,9 @@ export default function App() {
       />
 
       <main style={{ flex: 1, maxWidth: 1100, margin: '0 auto', padding: '40px 24px 80px', width: '100%' }}>
-        {page === 'teams' ? (
+        {(page === 'teams' || page === 'regulars') ? (
           allYearsLoaded
-            ? <TeamsView allData={data} years={YEARS} />
+            ? page === 'teams' ? <TeamsView allData={data} years={YEARS} /> : <ChapterRegulars allData={data} years={YEARS} />
             : <LoadingState />
         ) : (
           <>
