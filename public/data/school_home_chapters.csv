@@ -1,0 +1,1190 @@
+team,home_chapter,confidence,method
+A&M Consolidated,CSC,HIGH,manual: College Station area
+Abbott,CSC,MEDIUM,"manual: Hill County → WAC border, closer to CSC"
+Abernathy,SPC,HIGH,manual: Lubbock County
+Abilene Cooper,ABI,HIGH,name prefix: abilene
+Abilene High,ABI,HIGH,name prefix: abilene
+Abilene Wylie,ABI,HIGH,name prefix: abilene
+Agua Dulce,STX,HIGH,manual: Nueces County
+Alamo Heights,SAT,MEDIUM,stadium city: San Antonio
+Alba-Golden,TYL,HIGH,manual: Wood County
+Albany,ABI,HIGH,city in name: Albany
+Aldine Davis,COM,MEDIUM,stadium city: Wills Point
+Aldine Eisenhower,HOU,HIGH,"manual: Aldine ISD, Houston area"
+Aldine Nimitz,HOU,HIGH,"manual: Aldine ISD, Houston area"
+Aledo,FTW,HIGH,city in name: Aledo
+Alice,STX,HIGH,city in name: Alice
+Alief Elsik,HOU,HIGH,"manual: Alief ISD, Houston area"
+Allen,DAL,MEDIUM,city in name: Allen
+Almeta Crawford,DAL,HIGH,manual: Dallas area charter
+Alpine,PBC,MEDIUM,city in name: Alpine
+Alvarado,FTW,HIGH,city in name: Alvarado
+Alvin Manvel,HOU,HIGH,name prefix: alvin
+Alvin Shadow Creek,HOU,HIGH,name prefix: alvin
+Alvord,FTW,HIGH,manual: Wise County
+Amarillo High,AMA,HIGH,name prefix: amarillo
+Amarillo Highland Park,AMA,HIGH,name prefix: amarillo
+Amarillo Palo Duro,AMA,HIGH,name prefix: amarillo
+Amarillo River Road,AMA,HIGH,name prefix: amarillo
+Amarillo Tascosa,AMA,HIGH,name prefix: amarillo
+Amherst,SPC,HIGH,manual: Lamb County
+Anahuac,BEA,LOW,city in name: Anahuac
+Anderson-Shiro,CSC,MEDIUM,manual: Grimes County
+Andrews,PBC,HIGH,city in name: Andrews
+Angleton,HOU,HIGH,city in name: Angleton
+Anna,NTX,LOW,city in name: Anna
+Anson,ABI,HIGH,city in name: Anson
+Anthony,ELP,HIGH,manual: El Paso County
+Apple Springs,FTW,MEDIUM,stadium city: Keller
+Aquilla,WAC,HIGH,manual: Hill County
+Archer City,NTX,LOW,city in name: Archer City
+Argyle,NTX,HIGH,city in name: Argyle
+Arlington,FTW,MEDIUM,city in name: Arlington
+Arlington Bowie,FTW,HIGH,name prefix: arlington
+Arlington Heights,FTW,HIGH,name prefix: arlington
+Arlington High,FTW,HIGH,name prefix: arlington
+Arlington Lamar,FTW,HIGH,name prefix: arlington
+Arlington Martin,FTW,HIGH,name prefix: arlington
+Arlington Seguin,FTW,HIGH,name prefix: arlington
+Arp,TYL,HIGH,manual: Smith County
+Aspermont,ABI,HIGH,city in name: Aspermont
+Atascocita,HOU,HIGH,"manual: Humble ISD, Houston area"
+Athens,TYL,HIGH,city in name: Athens
+Atlanta,TYL,HIGH,manual: Cass County NE Texas
+Aubrey,NTX,HIGH,city in name: Aubrey
+Austin Anderson,AUS,HIGH,name prefix: austin
+Austin Bowie,AUS,HIGH,name prefix: austin
+Austin Crockett,AUS,HIGH,name prefix: austin
+Austin High,AUS,HIGH,name prefix: austin
+Austin LBJ,AUS,HIGH,name prefix: austin
+Austin Lake Travis,AUS,HIGH,name prefix: austin
+Austin McCallum,AUS,HIGH,name prefix: austin
+Austin McNeil,AUS,HIGH,name prefix: austin
+Austin Travis,AUS,HIGH,name prefix: austin
+Austin Vandegrift,AUS,HIGH,name prefix: austin
+Austin Westlake,AUS,HIGH,name prefix: austin
+Avalon,WAC,MEDIUM,manual: Ellis County
+Axtell,WAC,HIGH,manual: McLennan County
+Azle,FTW,HIGH,manual: Tarrant/Parker County
+Baird,ABI,HIGH,city in name: Baird
+Ballinger,SAN,MEDIUM,city in name: Ballinger
+Balmorhea,PBC,HIGH,manual: Reeves County
+Bandera,SAT,HIGH,city in name: Bandera
+Bangs,ABI,HIGH,manual: Brown County
+Barbers Hill,HOU,HIGH,name prefix: barbers hill
+Bastrop,AUS,HIGH,city in name: Bastrop
+Bay City,HOU,HIGH,city in name: Bay City
+Beaumont United,BEA,HIGH,name prefix: beaumont
+Beckville,TYL,HIGH,manual: Panola County
+Beeville Jones,STX,HIGH,city in name: Beeville
+Bellaire,HOU,HIGH,"manual: Bellaire, Harris County"
+Bells,NTX,HIGH,manual: Grayson County
+Bellville,CSC,MEDIUM,city in name: Bellville
+Belton,CTX,HIGH,city in name: Belton
+Ben Bolt,STX,HIGH,manual: Jim Wells County
+Benavides,STX,HIGH,manual: Duval County
+Benbrook,FTW,HIGH,city in name: Benbrook
+Benjamin,ABI,HIGH,manual: Knox County
+Big Sandy,TYL,HIGH,manual: Upshur County
+Big Spring,PBC,HIGH,city in name: Big Spring
+Birdville,FTW,MEDIUM,stadium city: Fort Worth
+Bishop,STX,MEDIUM,stadium city: Corpus Christi
+Blackwell,ABI,HIGH,manual: Nolan County
+Blanco,SAT,LOW,city in name: Blanco
+Blanket,ABI,HIGH,manual: Brown County
+Blooming Grove,WAC,HIGH,city in name: Blooming Grove
+Blue Ridge,DAL,MEDIUM,stadium city: Carrollton
+Bluffdale,FTW,HIGH,manual: Erath County
+Blum,FTW,HIGH,manual: Hill County
+Boerne,SAT,HIGH,city in name: Boerne
+Boerne Champion,SAT,HIGH,name prefix: boerne
+Bogota Rivercrest,TYL,HIGH,manual: Red River County
+Boling,HOU,HIGH,manual: Wharton County
+Booker,AMA,HIGH,manual: Lipscomb County
+Borden County,AUS,MEDIUM,stadium city: Round Rock
+Borger,AMA,HIGH,city in name: Borger
+Bosqueville,WAC,HIGH,manual: McLennan County
+Bovina,AMA,HIGH,manual: Parmer County
+Bowie,NTX,HIGH,manual: Montague County
+Boyd,FTW,HIGH,manual: Wise County
+Boys Ranch,DAL,MEDIUM,stadium city: Carrollton
+Brackettville,SAT,LOW,city in name: Brackettville
+Brady,SAN,LOW,city in name: Brady
+Brazosport,HOU,MEDIUM,stadium city: Lake Jackson
+Brazosport Brazoswood,HOU,MEDIUM,stadium city: Lake Jackson
+Breckenridge,ABI,HIGH,city in name: Breckenridge
+Bremond,CSC,HIGH,manual: Robertson County
+Brenham,CSC,HIGH,city in name: Brenham
+Bridge City,BEA,HIGH,name prefix: bridge city
+Bridgeland,HOU,HIGH,manual: Cypress-Fairbanks ISD
+Brock,FTW,HIGH,manual: Parker County
+Bronte,SAN,HIGH,city in name: Bronte
+Brookshire Royal,HOU,HIGH,manual: Waller County
+Brownfield,SPC,HIGH,city in name: Brownfield
+Brownsboro,TYL,HIGH,manual: Henderson County
+Brownsville Lopez,RGV,HIGH,name prefix: brownsville
+Brownsville Pace,RGV,HIGH,name prefix: brownsville
+Brownsville Porter,RGV,HIGH,name prefix: brownsville
+Brownsville Veterans Memorial,RGV,HIGH,name prefix: brownsville
+Brownwood,ABI,MEDIUM,city in name: Brownwood
+Bruni,STX,HIGH,manual: Webb County
+Bryan,CSC,HIGH,city in name: Bryan
+Bryson,FTW,HIGH,manual: Jack County
+Buda Johnson,AUS,HIGH,city in name: Buda
+Buena Vista,PBC,HIGH,manual: Hudspeth County
+Buffalo,CSC,MEDIUM,city in name: Buffalo
+Bullard,TYL,HIGH,city in name: Bullard
+Buna,BEA,HIGH,city in name: Buna
+Burkburnett,NTX,LOW,city in name: Burkburnett
+Burkeville,BEA,LOW,city in name: Burkeville
+Burleson Centennial,FTW,HIGH,name prefix: burleson
+Burnet,AUS,MEDIUM,city in name: Burnet
+Burton,CSC,HIGH,city in name: Burton
+Bushland,AMA,HIGH,manual: Potter County
+Bynum,WAC,HIGH,manual: Hill County
+Byron Nelson,AUS,MEDIUM,stadium city: Austin
+C.H. Yoe,CSC,HIGH,manual: Milam County → Cameron area
+CC Calallen,STX,HIGH,name prefix: cc
+CC Carroll,STX,HIGH,name prefix: cc
+CC Flour Bluff,STX,HIGH,name prefix: cc
+CC Miller,STX,HIGH,name prefix: cc
+CC Ray,STX,HIGH,name prefix: cc
+CC Tuloso Midway,STX,HIGH,name prefix: cc
+CC Tuloso-Midway,STX,HIGH,name prefix: cc
+CC Veterans Memorial,STX,HIGH,name prefix: cc
+Caddo Mills,COM,HIGH,city in name: Caddo Mills
+Calallen,STX,HIGH,manual: Nueces County
+Calhoun,STX,HIGH,manual: Calhoun County
+Callisburg,NTX,HIGH,city in name: Callisburg
+Calvert,CSC,MEDIUM,city in name: Calvert
+Cameron Yoe,CTX,HIGH,city in name: Cameron
+Canadian,AMA,HIGH,city in name: Canadian
+Canton,TYL,LOW,city in name: Canton
+Canutillo,ELP,HIGH,manual: El Paso County
+Canyon,AMA,HIGH,city in name: Canyon
+Canyon High,AMA,HIGH,city in name: Canyon
+Canyon Lake,AMA,HIGH,city in name: Canyon
+Canyon Randall,AMA,HIGH,city in name: Canyon
+Canyon West Plains,AMA,HIGH,city in name: Canyon
+Carlisle,TYL,HIGH,manual: Panola County
+Carrizo Springs,SAT,HIGH,city in name: Carrizo Springs
+Carrollton Creekview,DAL,HIGH,city in name: Carrollton
+Carrollton Newman Smith,DAL,HIGH,city in name: Carrollton
+Carrollton Newman-Smith,DAL,HIGH,city in name: Carrollton
+Carrollton Ranchview,DAL,HIGH,city in name: Carrollton
+Carthage,SFA,HIGH,city in name: Carthage
+Castleberry,FTW,HIGH,manual: Tarrant County
+Castroville Medina Valley,SAT,HIGH,city in name: Castroville
+Cayuga,TYL,HIGH,manual: Anderson County
+Cedar Hill,DAL,HIGH,name prefix: cedar hill
+Cedar Hill Trinity Leadership,DAL,HIGH,name prefix: cedar hill
+Cedar Park,AUS,HIGH,name prefix: cedar park
+Cedar Park Vista Ridge,AUS,HIGH,name prefix: cedar park
+Celeste,NTX,HIGH,manual: Hunt County
+Celina,NTX,MEDIUM,city in name: Celina
+Center,SFA,HIGH,city in name: Center
+Center Point,SFA,HIGH,city in name: Center
+Centerville,CSC,HIGH,manual: Leon County
+Channelview,HOU,HIGH,name prefix: channelview
+Chapel Hill,TYL,HIGH,manual: Smith County
+Cherokee,SAN,HIGH,manual: San Saba County
+Chester,SFA,HIGH,manual: Tyler County
+Childress,AMA,LOW,city in name: Childress
+Chilton,WAC,HIGH,manual: Falls County
+China Spring,WAC,HIGH,city in name: China Spring
+Christoval,SAN,HIGH,manual: Tom Green County
+Cibolo Steele,SAT,HIGH,name prefix: cibolo
+Cinco Ranch,DAL,MEDIUM,stadium city: Carrollton
+Cisco,ABI,HIGH,city in name: Cisco
+City View,NTX,LOW,city in name: City View
+Clarendon,AMA,HIGH,city in name: Clarendon
+Clarksville,COM,MEDIUM,city in name: Clarksville
+Claude,AMA,HIGH,manual: Armstrong County
+Clear Falls,HOU,HIGH,name prefix: clear
+Clear Springs,HOU,HIGH,name prefix: clear
+Clifton,WAC,MEDIUM,city in name: Clifton
+Clint,SAN,LOW,stadium city: Mason
+Clint Mountain View,SAN,LOW,stadium city: Mason
+Clyde,ABI,HIGH,city in name: Clyde
+Coahoma,PBC,MEDIUM,city in name: Coahoma
+Coldspring,HOU,MEDIUM,city in name: Coldspring
+Coleman,ABI,HIGH,city in name: Coleman
+College Station,CSC,HIGH,name prefix: college station
+Colleyville Heritage,FTW,HIGH,name prefix: colleyville
+Collinsville,NTX,HIGH,manual: Grayson County
+Colmesneil,SFA,HIGH,manual: Tyler County
+Columbia,HOU,MEDIUM,stadium city: League City
+Columbus,CSC,MEDIUM,city in name: Columbus
+Comal Pieper,SAT,MEDIUM,stadium city: San Antonio
+Comal Smithson Valley,RGV,MEDIUM,stadium city: Hidalgo
+Comanche,ABI,LOW,city in name: Comanche
+Comfort,SAT,HIGH,city in name: Comfort
+Commerce,COM,HIGH,city in name: Commerce
+Community,DAL,LOW,stadium city: Corsicana
+Como-Pickton,TYL,HIGH,manual: Hopkins County
+Compass Academy,AUS,MEDIUM,stadium city: Austin
+Connally,WAC,HIGH,manual: McLennan County/Falls County
+Conroe,HOU,HIGH,city in name: Conroe
+Conroe Oak Ridge,HOU,HIGH,name prefix: conroe
+Converse Judson,SAT,HIGH,name prefix: converse
+Coolidge,CSC,HIGH,manual: Limestone County
+Cooper,COM,HIGH,city in name: Cooper
+Cooper Mineola,COM,HIGH,city in name: Cooper
+Coppell,DAL,LOW,city in name: Coppell
+Copperas Cove,CTX,HIGH,name prefix: copperas cove
+Corpus Christi Calallen,STX,HIGH,name prefix: corpus christi
+Corpus Christi Flour Bluff,STX,HIGH,name prefix: corpus christi
+Corpus Christi Miller,STX,HIGH,name prefix: corpus christi
+Corpus Christi Veterans Memorial,STX,HIGH,name prefix: corpus christi
+Corrigan-Camden,SFA,HIGH,manual: Polk County
+Cotulla,SAT,HIGH,city in name: Cotulla
+Crandall,DAL,HIGH,manual: Kaufman County
+Crane,PBC,HIGH,city in name: Crane
+Crawford,WAC,HIGH,manual: McLennan County
+Crockett,SFA,MEDIUM,city in name: Crockett
+Crosby,HOU,HIGH,city in name: Crosby
+Crosbyton,SPC,HIGH,city in name: Crosbyton
+Cross Plains,ABI,HIGH,city in name: Cross Plains
+Crowell,NTX,HIGH,manual: Foard County
+Crowley,FTW,HIGH,city in name: Crowley
+Crystal City,SAT,HIGH,city in name: Crystal City
+Cuero,SAT,LOW,city in name: Cuero
+Cumby,TYL,HIGH,manual: Hopkins County
+Cushing,SFA,HIGH,manual: Nacogdoches County
+Cy Falls,HOU,HIGH,name prefix: cy
+Cy Ranch,HOU,HIGH,name prefix: cy
+Cy Woods,HOU,HIGH,name prefix: cy
+Cy-Fair,HOU,HIGH,manual: Cypress-Fairbanks ISD
+Cypress Bridgeland,HOU,HIGH,name prefix: cypress
+Cypress Cy-Fair,HOU,HIGH,name prefix: cypress
+Cypress Springs,HOU,HIGH,name prefix: cypress
+Cypress Woods,HOU,HIGH,name prefix: cypress
+D'Hanis,SAT,HIGH,city in name: D'Hanis
+Daingerfield,TYL,MEDIUM,city in name: Daingerfield
+Dalhart,AMA,HIGH,city in name: Dalhart
+Dallas Carter,DAL,HIGH,name prefix: dallas
+Dallas Highland Park,DAL,HIGH,name prefix: dallas
+Dallas Hillcrest,DAL,HIGH,name prefix: dallas
+Dallas Jesuit,DAL,HIGH,name prefix: dallas
+Dallas Kimball,DAL,HIGH,name prefix: dallas
+Dallas Lake Highlands,DAL,HIGH,name prefix: dallas
+Dallas Lincoln,DAL,HIGH,name prefix: dallas
+Dallas Pinkston,DAL,HIGH,name prefix: dallas
+Dallas White,DAL,HIGH,name prefix: dallas
+Dallas Wilmer-Hutchins,DAL,HIGH,name prefix: dallas
+Dallas Wilson,DAL,HIGH,name prefix: dallas
+Davenport,SAT,MEDIUM,stadium city: San Antonio
+Dawson,WAC,HIGH,city in name: Dawson
+Dayton,HOU,MEDIUM,city in name: Dayton
+De Kalb,COM,LOW,city in name: De Kalb
+De Leon,ABI,LOW,city in name: De Leon
+DeSoto,DAL,HIGH,city in name: DeSoto
+Decatur,NTX,MEDIUM,city in name: Decatur
+Deer Park,HOU,HIGH,city in name: Deer Park
+Del Rio,SAN,LOW,city in name: Del Rio
+Deleon,FTW,HIGH,manual: Comanche County
+Denison,NTX,LOW,city in name: Denison
+Denton,NTX,HIGH,city in name: Denton
+Denton Guyer,NTX,HIGH,name prefix: denton
+Denton Ryan,NTX,HIGH,name prefix: denton
+Denver City,SPC,LOW,city in name: Denver City
+Devine,SAT,HIGH,city in name: Devine
+Deweyville,BEA,HIGH,manual: Newton County
+Diboll,SFA,HIGH,city in name: Diboll
+Dickinson,HOU,HIGH,name prefix: dickinson
+Dilley,SAT,HIGH,manual: Frio County
+Dimmit,AMA,HIGH,manual: Castro County
+Donna,RGV,HIGH,name prefix: donna
+Dripping Springs,AUS,HIGH,name prefix: dripping springs
+Dublin,FTW,LOW,city in name: Dublin
+Dumas,AMA,HIGH,city in name: Dumas
+Dunbar,FTW,HIGH,manual: Fort Worth ISD
+Duncanville,DAL,HIGH,name prefix: duncanville
+Eagle Pass,SAT,MEDIUM,city in name: Eagle Pass
+Early,ABI,MEDIUM,city in name: Early
+East Bernard,HOU,HIGH,city in name: East Bernard
+East Chambers,BEA,HIGH,manual: Chambers County
+Eastlake,ELP,HIGH,manual: El Paso area
+Eastland,ABI,HIGH,city in name: Eastland
+Eastside Early College,SAT,HIGH,manual: San Antonio area charter
+Edcouch-Elsa,RGV,HIGH,manual: Hidalgo County
+Edgewood,COM,MEDIUM,city in name: Edgewood
+Edinbug,RGV,HIGH,manual: Edinburg typo → RGV
+Edinburg,RGV,HIGH,city in name: Edinburg
+Edinburg Economedes,RGV,HIGH,name prefix: edinburg
+Edinburg North,RGV,HIGH,name prefix: edinburg
+Edinburg Vela,RGV,HIGH,name prefix: edinburg
+Edna,STX,LOW,city in name: Edna
+El Campo,HOU,MEDIUM,city in name: El Campo
+El Dorado,SAN,HIGH,manual: Schleicher County
+El Paso Americas,ELP,HIGH,name prefix: el paso
+El Paso Andress,ELP,HIGH,name prefix: el paso
+El Paso Austin,ELP,HIGH,name prefix: el paso
+El Paso Bel Air,ELP,HIGH,name prefix: el paso
+El Paso Bel Aire,ELP,HIGH,name prefix: el paso
+El Paso Bowie,ELP,HIGH,name prefix: el paso
+El Paso Burges,ELP,HIGH,name prefix: el paso
+El Paso Canutillo,ELP,HIGH,name prefix: el paso
+El Paso Chapin,ELP,HIGH,name prefix: el paso
+El Paso De Valle,ELP,HIGH,name prefix: el paso
+El Paso Del Valle,ELP,HIGH,name prefix: el paso
+El Paso Eastlake,ELP,HIGH,name prefix: el paso
+El Paso Eastwood,ELP,HIGH,name prefix: el paso
+El Paso El Dorado,ELP,HIGH,name prefix: el paso
+El Paso Frankin,ELP,HIGH,name prefix: el paso
+El Paso Franklin,ELP,HIGH,name prefix: el paso
+El Paso Hanks,ELP,HIGH,name prefix: el paso
+El Paso High,ELP,HIGH,name prefix: el paso
+El Paso Irvin,ELP,HIGH,name prefix: el paso
+El Paso Montwood,ELP,HIGH,name prefix: el paso
+El Paso Parkland,ELP,HIGH,name prefix: el paso
+El Paso Pebble Hills,ELP,HIGH,name prefix: el paso
+El Paso Pebble Hlls,ELP,HIGH,name prefix: el paso
+El Paso Riverside,ELP,HIGH,name prefix: el paso
+El Paso Ysleta,ELP,HIGH,name prefix: el paso
+Eldorado,SAN,HIGH,city in name: Eldorado
+Electra,NTX,HIGH,manual: Wichita County
+Elgin,AUS,HIGH,city in name: Elgin
+Elysian Fields,AUS,MEDIUM,stadium city: San Marcos
+Ennis,DAL,HIGH,city in name: Ennis
+Era,NTX,HIGH,city in name: Era
+Euless Trinity,FTW,HIGH,name prefix: euless
+Evadale,BEA,HIGH,manual: Jasper County
+Evant,CTX,HIGH,manual: Coryell County
+Everman,FTW,HIGH,city in name: Everman
+FB Ridge Point,HOU,HIGH,name prefix: fb
+FW Arlington Heights,FTW,HIGH,name prefix: fw
+FW Brewer,FTW,HIGH,name prefix: fw
+FW Carter-Riverside,FTW,HIGH,name prefix: fw
+FW Casteberry,FTW,HIGH,name prefix: fw
+FW Chisholm Trail,FTW,HIGH,name prefix: fw
+FW Eagle Mountain,FTW,HIGH,name prefix: fw
+FW Eastern Hills,FTW,HIGH,name prefix: fw
+FW Paschal,FTW,HIGH,name prefix: fw
+FW Southwest,FTW,HIGH,name prefix: fw
+FW Western Hills,FTW,HIGH,name prefix: fw
+FW Wyatt,FTW,HIGH,name prefix: fw
+Fairfield,WAC,LOW,city in name: Fairfield
+Falfurrias,STX,HIGH,manual: Brooks County
+Falls City,SAT,HIGH,manual: Karnes County
+Fannidel,TYL,HIGH,"manual: typo for Fannindel, Delta County"
+Fannindel,TYL,HIGH,manual: Delta County
+Farmersville,COM,MEDIUM,city in name: Farmersville
+Farwell,AMA,HIGH,manual: Parmer County
+Ferris,DAL,HIGH,city in name: Ferris
+Flatonia,AUS,MEDIUM,city in name: Flatonia
+Flower Mound Marcus,FTW,HIGH,name prefix: flower mound
+Floydada,SPC,HIGH,city in name: Floydada
+Follett,AMA,HIGH,manual: Lipscomb County
+Ford,CSC,HIGH,manual: Rains County adjacent
+Forney,DAL,HIGH,city in name: Forney
+Forsan,PBC,HIGH,city in name: Forsan
+Fort Bend Bush,HOU,HIGH,name prefix: fort bend
+Fort Bend Clements,HOU,HIGH,name prefix: fort bend
+Fort Bend Crawford,HOU,HIGH,name prefix: fort bend
+Fort Bend Elkins,HOU,HIGH,name prefix: fort bend
+Fort Bend Hightower,HOU,HIGH,name prefix: fort bend
+Fort Bend Marshall,HOU,HIGH,name prefix: fort bend
+Fort Bend Ridge Point,HOU,HIGH,name prefix: fort bend
+Fort Bend Travis,HOU,HIGH,name prefix: fort bend
+Fort Stockton,PBC,HIGH,city in name: Fort Stockton
+Fort Worth Boswell,FTW,HIGH,name prefix: fort worth
+Fort Worth Dunbar,FTW,HIGH,name prefix: fort worth
+Fort Worth North Crowley,FTW,HIGH,name prefix: fort worth
+Fort Worth O.D. Wyatt,FTW,HIGH,name prefix: fort worth
+Fort Worth Timber Creek,FTW,HIGH,name prefix: fort worth
+Fort Worth Western Hills,FTW,HIGH,name prefix: fort worth
+Franklin,DAL,MEDIUM,stadium city: Dallas
+Frankston,TYL,HIGH,manual: Anderson County
+Fredericksburg,SAT,MEDIUM,city in name: Fredericksburg
+Fredricksburg,AUS,HIGH,manual: Gillespie County → Fredericksburg
+Freer,STX,HIGH,manual: Duval County
+Frenship,SPC,HIGH,city in name: Frenship
+Friendswood,HOU,HIGH,name prefix: friendswood
+Friona,AMA,HIGH,manual: Parmer County
+Frisco,NTX,LOW,city in name: Frisco
+Frisco Emerson,DAL,HIGH,name prefix: frisco
+Frisco Independence,DAL,HIGH,name prefix: frisco
+Frisco Lone Star,DAL,HIGH,name prefix: frisco
+Frisco Panther Creek,DAL,HIGH,name prefix: frisco
+Frisco Reedy,DAL,HIGH,name prefix: frisco
+Frisco Rock Hill,DAL,HIGH,name prefix: frisco
+Frisco Wakeland,DAL,HIGH,name prefix: frisco
+Fulshear,HOU,HIGH,manual: Fort Bend County
+Fulshear Jordan,HOU,HIGH,manual: Fort Bend County
+Furr,HOU,HIGH,manual: Houston ISD
+Gainesville,NTX,HIGH,city in name: Gainesville
+Galena Park,HOU,HIGH,name prefix: galena park
+Galena Park North Shore,HOU,HIGH,name prefix: galena park
+Galveston Ball,HOU,HIGH,name prefix: galveston
+Ganado,HOU,LOW,city in name: Ganado
+Garden City,PBC,HIGH,manual: Glasscock County
+Garland,DAL,HIGH,city in name: Garland
+Garland Naaman Forest,DAL,HIGH,name prefix: garland
+Garrison,SFA,HIGH,city in name: Garrison
+Gatesville,CTX,LOW,city in name: Gatesville
+George West,STX,MEDIUM,city in name: George West
+Georgetown,AUS,HIGH,city in name: Georgetown
+Georgetown East View,AUS,HIGH,city in name: Georgetown
+Geronimo Navarro,SAT,HIGH,manual: Guadalupe County
+Giddings,AUS,HIGH,manual: Lee County
+Gilmer,TYL,HIGH,city in name: Gilmer
+Gilmer Harmony,TYL,HIGH,city in name: Gilmer
+Gladewater,TYL,HIGH,city in name: Gladewater
+Glen Rose,FTW,MEDIUM,city in name: Glen Rose
+Godley,DAL,LOW,stadium city: Kerens
+Gold-Burg,NTX,HIGH,manual: Cooke County
+Goldthwaite,ABI,HIGH,manual: Mills County
+Goliad,STX,HIGH,city in name: Goliad
+Gonzales,AUS,MEDIUM,city in name: Gonzales
+Gordon,FTW,MEDIUM,city in name: Gordon
+Gorman,ABI,MEDIUM,city in name: Gorman
+Graham,FTW,LOW,city in name: Graham
+Grand Oaks,HOU,HIGH,name prefix: grand oaks
+Grand Saline,TYL,LOW,city in name: Grand Saline
+Grandfalls-Royalty,PBC,HIGH,manual: Ward County
+Grandview,FTW,HIGH,manual: Johnson County
+Granger,HOU,MEDIUM,stadium city: Houston
+Grape Creek,SAN,HIGH,city in name: Grape Creek
+Grapeland,SFA,HIGH,manual: Houston County
+Grapevine,NTX,LOW,city in name: Grapevine
+Greenwood,PBC,HIGH,manual: Midland County
+Gregory-Portland,STX,HIGH,manual: San Patricio County
+Groesbeck,WAC,MEDIUM,city in name: Groesbeck
+Groom,AMA,HIGH,manual: Carson County
+Groveton,SFA,HIGH,city in name: Groveton
+Grulla,RGV,HIGH,manual: Starr County
+Gruver,AMA,HIGH,manual: Hansford County
+Gunter,NTX,MEDIUM,city in name: Gunter
+Guthrie,ABI,HIGH,manual: King County
+Hale Center,SPC,HIGH,city in name: Hale Center
+Halletsville,SAT,HIGH,manual: Lavaca County
+Hallettsville,SAT,HIGH,manual: Lavaca County
+Hallsville,TYL,MEDIUM,city in name: Hallsville
+Haltom,FTW,HIGH,manual: Tarrant County (Haltom City)
+Hamilton,CTX,LOW,city in name: Hamilton
+Hamlin,ABI,HIGH,city in name: Hamlin
+Hamshire-Fannet,BEA,HIGH,manual: Jefferson County
+Hamshire-Fannett,BEA,HIGH,manual: Jefferson County
+Happy,AMA,HIGH,city in name: Happy
+Hardin,BEA,MEDIUM,city in name: Hardin
+Hargrave,HOU,HIGH,"manual: Huffman ISD, Harris County"
+Harker Heights,CTX,HIGH,name prefix: harker heights
+Harleton,TYL,HIGH,manual: Harrison County
+Harlingen,RGV,HIGH,city in name: Harlingen
+Harlingen South,RGV,HIGH,name prefix: harlingen
+Harmony,TYL,HIGH,manual: Rusk/Smith County area
+Harper,BEA,LOW,stadium city: Burkeville
+Haskell,ABI,HIGH,city in name: Haskell
+Hawkins,TYL,HIGH,manual: Wood County
+Hawley,ABI,HIGH,manual: Jones County
+Hearne,CSC,HIGH,city in name: Hearne
+Hebbronville,STX,HIGH,manual: Jim Hogg County
+Hebron,FTW,HIGH,"manual: Lewisville ISD, Denton County"
+Helotes O'Connor,SAT,HIGH,city in name: Helotes
+Hemphill,SFA,MEDIUM,city in name: Hemphill
+Henrietta,NTX,LOW,city in name: Henrietta
+Hereford,AMA,HIGH,manual: Deaf Smith County
+Heritage,SAT,MEDIUM,stadium city: Fredericksburg
+Hermleigh,ABI,LOW,city in name: Hermleigh
+Hico,FTW,HIGH,manual: Hamilton County
+Hidalgo,RGV,HIGH,city in name: Hidalgo
+Hidalgo Early College,RGV,HIGH,city in name: Hidalgo
+Highland Park,DAL,HIGH,name prefix: highland park
+Hillsboro,WAC,HIGH,city in name: Hillsboro
+Hitchcock,HOU,HIGH,name prefix: hitchcock
+Holland,CTX,HIGH,manual: Bell County
+Holliday,NTX,HIGH,manual: Archer County
+Hondo,SAT,HIGH,city in name: Hondo
+Honey Grove,COM,HIGH,city in name: Honey Grove
+Hooks,TYL,LOW,city in name: Hooks
+Houston Alief Taylor,HOU,HIGH,name prefix: houston
+Houston Bellaire,HOU,HIGH,name prefix: houston
+Houston Benjamin Davis,HOU,HIGH,name prefix: houston
+Houston Cypress Falls,HOU,HIGH,name prefix: houston
+Houston Dobie,HOU,HIGH,name prefix: houston
+Houston Eisenhower,HOU,HIGH,name prefix: houston
+Houston Furr,HOU,HIGH,name prefix: houston
+Houston Heights,HOU,HIGH,name prefix: houston
+Houston Jersey Village,HOU,HIGH,name prefix: houston
+Houston King,HOU,HIGH,name prefix: houston
+Houston Klein Cain,HOU,HIGH,name prefix: houston
+Houston Lamar,HOU,HIGH,name prefix: houston
+Houston Madison,HOU,HIGH,name prefix: houston
+Houston Memorial,HOU,HIGH,name prefix: houston
+Houston Milby,HOU,HIGH,name prefix: houston
+Houston Nimitz,HOU,HIGH,name prefix: houston
+Houston North Forest,HOU,HIGH,name prefix: houston
+Houston Stafford,HOU,HIGH,name prefix: houston
+Houston Sterling,HOU,HIGH,name prefix: houston
+Houston Strake Jesuit,HOU,HIGH,name prefix: houston
+Houston Stratford,HOU,HIGH,name prefix: houston
+Houston Summer Creek,HOU,HIGH,name prefix: houston
+Houston Waltrip,HOU,HIGH,name prefix: houston
+Houston Washington,HOU,HIGH,name prefix: houston
+Houston Westbury,HOU,HIGH,name prefix: houston
+Houston Westfield,HOU,HIGH,name prefix: houston
+Houston Westside,HOU,HIGH,name prefix: houston
+Houston Wheatley,HOU,HIGH,name prefix: houston
+Houston Wisdom,HOU,HIGH,name prefix: houston
+Houston Worthing,HOU,HIGH,name prefix: houston
+Houston Yates,HOU,HIGH,name prefix: houston
+Howe,NTX,MEDIUM,city in name: Howe
+Huffman Hargraves,HOU,HIGH,city in name: Huffman
+Hughes Springs,FTW,MEDIUM,stadium city: Keller
+Hull-Daisetta,BEA,HIGH,manual: Liberty County
+Humble Atascocita,HOU,HIGH,name prefix: humble
+Humble Atascosita,HOU,HIGH,name prefix: humble
+Humble Summer Creek,HOU,HIGH,name prefix: humble
+Huntsville,CSC,MEDIUM,city in name: Huntsville
+Hutto,AUS,HIGH,city in name: Hutto
+Idalou,SPC,HIGH,city in name: Idalou
+Industrial,STX,HIGH,manual: Wharton County → STX border
+Ingleside,STX,HIGH,manual: San Patricio County
+Ingram Moore,SAT,HIGH,city in name: Ingram
+Iola,CSC,HIGH,manual: Grimes County
+Iowa Colony,HOU,HIGH,name prefix: iowa colony
+Iowa Park,NTX,LOW,city in name: Iowa Park
+Ira,PBC,HIGH,manual: Scurry County
+Iraan,PBC,MEDIUM,city in name: Iraan
+Iredell,FTW,HIGH,manual: Bosque County
+Irion County,AUS,MEDIUM,stadium city: Round Rock
+Irvin,ELP,MEDIUM,stadium city: El Paso
+Italy,DAL,LOW,city in name: Italy
+Jacksboro,FTW,LOW,city in name: Jacksboro
+James Madison,COM,MEDIUM,stadium city: Edgewood
+Jarrell,AUS,HIGH,manual: Williamson County
+Jasper,BEA,LOW,city in name: Jasper
+Jayton,ABI,LOW,city in name: Jayton
+Jefferson,TYL,HIGH,manual: Marion County
+Jewett Leon,CSC,HIGH,manual: Leon County
+Jim Ned,ABI,HIGH,manual: Taylor County
+Joaquin,SFA,HIGH,manual: Shelby County
+Johnson City,AUS,MEDIUM,city in name: Johnson City
+Johnson City LBJ,AUS,MEDIUM,city in name: Johnson City
+Jonesboro,CTX,HIGH,manual: Coryell County
+Jourdanton,SAT,HIGH,city in name: Jourdanton
+Jourdantown,SAT,HIGH,manual: Atascosa County
+Judson Veterans Memorial,ABI,MEDIUM,stadium city: Albany
+Judson Wagner,SAT,HIGH,"manual: Judson ISD, Bexar County"
+Junction,SAN,MEDIUM,city in name: Junction
+Justin Northwest,FTW,HIGH,manual: Denton/Tarrant County border
+Karnes City,SAT,MEDIUM,city in name: Karnes City
+Katy,HOU,HIGH,city in name: Katy
+Katy Cinco Ranch,HOU,HIGH,name prefix: katy
+Katy Cypress Lakes,HOU,HIGH,name prefix: katy
+Katy High,HOU,HIGH,name prefix: katy
+Katy Jordan,HOU,HIGH,name prefix: katy
+Katy Morton Ranch,HOU,HIGH,name prefix: katy
+Katy Paetow,HOU,HIGH,name prefix: katy
+Katy Taylor,HOU,HIGH,name prefix: katy
+Katy Tompkins,HOU,HIGH,name prefix: katy
+Kaufman,DAL,MEDIUM,city in name: Kaufman
+Keller,FTW,MEDIUM,city in name: Keller
+Keller Timber Creek,FTW,HIGH,name prefix: keller
+Kenedy,SAT,MEDIUM,city in name: Kenedy
+Kennedale,FTW,HIGH,city in name: Kennedale
+Kerens,DAL,LOW,city in name: Kerens
+Kermit,PBC,HIGH,city in name: Kermit
+Kerrville Tivy,SAT,HIGH,city in name: Kerrville
+Kilgore,TYL,HIGH,city in name: Kilgore
+Killeen Ellison,CTX,HIGH,name prefix: killeen
+Killeen Harker Heights,CTX,HIGH,name prefix: killeen
+Killeen Shoemaker,CTX,HIGH,name prefix: killeen
+Kingsville King,STX,HIGH,city in name: Kingsville
+Kingwood,HOU,HIGH,manual: Humble ISD
+Kingwood Park,HOU,HIGH,manual: Humble ISD
+Kirbyville,BEA,HIGH,city in name: Kirbyville
+Klein,HOU,HIGH,"manual: Klein ISD, Harris County"
+Klein Cain,HOU,HIGH,name prefix: klein
+Klein Collins,HOU,HIGH,name prefix: klein
+Klein Oak,HOU,HIGH,name prefix: klein
+Klondike,SPC,HIGH,manual: Dawson County
+Knippa,SAT,HIGH,manual: Uvalde County
+Knox City,ABI,HIGH,manual: Knox County
+Kopperl,WAC,HIGH,manual: Bosque County
+Kountze,BEA,HIGH,manual: Hardin County
+Kress,SPC,HIGH,manual: Swisher County
+Krum,NTX,HIGH,city in name: Krum
+LBJ Austin,AUS,HIGH,manual: Austin ISD
+La Feria,RGV,HIGH,city in name: La Feria
+La Grange,CSC,LOW,city in name: La Grange
+La Joya,RGV,HIGH,city in name: La Joya
+La Marque,HOU,HIGH,name prefix: la marque
+La Porte,HOU,HIGH,name prefix: la porte
+La Pryor,SAT,HIGH,manual: Zavala County
+La Vega,WAC,HIGH,name prefix: la vega
+La Vernia,SAT,HIGH,city in name: La Vernia
+La Villa,HOU,MEDIUM,stadium city: Houston
+LaPorte,HOU,HIGH,"manual: La Porte, Harris County"
+Lago Vista,AUS,HIGH,manual: Travis County
+Lake Belton,CTX,HIGH,name prefix: lake belton
+Lake Dallas,NTX,HIGH,city in name: Lake Dallas
+Lake Highlands,DAL,MEDIUM,stadium city: Irving
+Lake Travis,AUS,HIGH,name prefix: lake travis
+Lake Worth,FTW,HIGH,city in name: Lake Worth
+Lamar,DAL,MEDIUM,stadium city: Dallas
+Lamar CISD Fulshear,DAL,MEDIUM,stadium city: Dallas
+Lamar Fulshear,DAL,MEDIUM,stadium city: Dallas
+Lamar George Ranch,DAL,MEDIUM,stadium city: Carrollton
+Lamar Randle,DAL,MEDIUM,stadium city: Dallas
+Lamesa,PBC,LOW,city in name: Lamesa
+Lampasas,CTX,HIGH,manual: Lampasas County
+Lancaster,DAL,HIGH,city in name: Lancaster
+Laredo Alexander,STX,HIGH,name prefix: laredo
+Laredo LBJ,STX,HIGH,name prefix: laredo
+Laredo Martin,STX,HIGH,name prefix: laredo
+Laredo United,STX,HIGH,name prefix: laredo
+Laredo United South,STX,HIGH,name prefix: laredo
+League City Clear Creek,HOU,HIGH,name prefix: league city
+League City Clear Falls,HOU,HIGH,name prefix: league city
+League City Clear Springs,HOU,HIGH,name prefix: league city
+Leakey,SAT,MEDIUM,city in name: Leakey
+Leander Rouse,AUS,HIGH,city in name: Leander
+Leander Vandegrift,AUS,HIGH,city in name: Leander
+Leon,WAC,HIGH,manual: Bosque County
+Leonard,COM,HIGH,city in name: Leonard
+Levelland,SPC,HIGH,city in name: Levelland
+Leverett's Chapel,TYL,HIGH,manual: Rusk County
+Lewisville,FTW,HIGH,name prefix: lewisville
+Lewisville Hebron,FTW,HIGH,name prefix: lewisville
+Lexington,CSC,HIGH,manual: Lee County
+Liberty Hill,AUS,HIGH,name prefix: liberty hill
+Liberty-Eylau,TYL,HIGH,manual: Bowie County
+Lindale,TYL,HIGH,city in name: Lindale
+Linden-Kildare,TYL,HIGH,manual: Cass County
+Lindsay,NTX,HIGH,city in name: Lindsay
+Little Cypress,HOU,MEDIUM,stadium city: Cypress
+Little Cypress-Mauriceville,NTX,MEDIUM,stadium city: Little Elm
+Little River Academy,AUS,MEDIUM,stadium city: Austin
+Littlefield,SPC,HIGH,city in name: Littlefield
+Livingston,SFA,LOW,city in name: Livingston
+Llano,AUS,MEDIUM,city in name: Llano
+Lockhart,AUS,HIGH,city in name: Lockhart
+Lockney,SPC,HIGH,city in name: Lockney
+London,STX,HIGH,manual: Kimble County
+Lone Oak,TYL,HIGH,manual: Hunt County
+Longview,TYL,HIGH,city in name: Longview
+Longview Pine Tree,TYL,HIGH,name prefix: longview
+Longview Pinetree,TYL,HIGH,name prefix: longview
+Loop,SPC,HIGH,city in name: Loop
+Loraine,SAN,LOW,city in name: Loraine
+Lorena,WAC,HIGH,city in name: Lorena
+Los Fresnos,RGV,HIGH,city in name: Los Fresnos
+Louise,HOU,MEDIUM,city in name: Louise
+Lovejoy,DAL,HIGH,manual: Collin County
+Lovelady,SFA,HIGH,manual: Houston County
+Lubbock Cooper,SPC,HIGH,name prefix: lubbock
+Lubbock Estacado,SPC,HIGH,name prefix: lubbock
+Lubbock Liberty,SPC,HIGH,name prefix: lubbock
+Lubbock Monterey,SPC,HIGH,name prefix: lubbock
+Lubbock Roosevelt,SPC,HIGH,name prefix: lubbock
+Lucas Lovejoy,DAL,HIGH,manual: Collin County
+Lufkin,SFA,HIGH,city in name: Lufkin
+Luling,AUS,MEDIUM,city in name: Luling
+Lumberton,BEA,HIGH,city in name: Lumberton
+Lyford,RGV,HIGH,city in name: Lyford
+Lytle,SAT,HIGH,city in name: Lytle
+Madisonville,CSC,HIGH,city in name: Madisonville
+Magnolia,HOU,MEDIUM,city in name: Magnolia
+Magnolia West,HOU,MEDIUM,city in name: Magnolia
+Malakoff,TYL,HIGH,manual: Henderson County
+Manor,AUS,HIGH,manual: Travis County
+Manor New Tech,AUS,HIGH,manual: Travis County
+Mansfield,FTW,HIGH,city in name: Mansfield
+Mansfield Lake Ridge,FTW,HIGH,name prefix: mansfield
+Mansfield Legacy,FTW,HIGH,name prefix: mansfield
+Mansfield Summit,FTW,HIGH,name prefix: mansfield
+Mansfield Timberview,FTW,HIGH,name prefix: mansfield
+Manvel,HOU,HIGH,city in name: Manvel
+Marion,SAT,HIGH,manual: Guadalupe County
+Marlin,WAC,MEDIUM,city in name: Marlin
+Marshall,TYL,LOW,city in name: Marshall
+Mart,WAC,HIGH,manual: McLennan County
+Mason,SAN,LOW,city in name: Mason
+Maud,TYL,HIGH,manual: Bowie County
+Maude,TYL,HIGH,manual: Bowie County typo
+Mauriceville Little Cypress,BEA,HIGH,city in name: Mauriceville
+May,ABI,HIGH,manual: Brown County
+Maypearl,DAL,LOW,city in name: Maypearl
+McAllen,RGV,HIGH,city in name: McAllen
+McAllen Memorial,RGV,HIGH,name prefix: mcallen
+McAllenHigh,RGV,HIGH,manual: McAllen ISD
+McCallum,TYL,MEDIUM,stadium city: Tyler
+McCamey,PBC,HIGH,manual: Upton County
+McGregor,WAC,MEDIUM,city in name: McGregor
+McKinney,DAL,LOW,city in name: McKinney
+McKinney High,DAL,HIGH,name prefix: mckinney
+McKinney North,DAL,HIGH,name prefix: mckinney
+Medina,SAT,HIGH,city in name: Medina
+Medina Valley,SAT,HIGH,city in name: Medina
+Melissa,DAL,LOW,city in name: Melissa
+Memphis,AMA,HIGH,manual: Hall County
+Menard,SAN,HIGH,city in name: Menard
+Mercedes,RGV,HIGH,city in name: Mercedes
+Merkel,ABI,HIGH,city in name: Merkel
+Mesquite Horn,DAL,HIGH,name prefix: mesquite
+Mexia,WAC,HIGH,city in name: Mexia
+Miami,AMA,HIGH,manual: Roberts County
+Midland Greenwood,PBC,HIGH,name prefix: midland
+Midland High,PBC,HIGH,name prefix: midland
+Midland Legacy,PBC,HIGH,name prefix: midland
+Midlothian,DAL,LOW,city in name: Midlothian
+Midlothian Heritage,DAL,HIGH,name prefix: midlothian
+Milano,CSC,HIGH,manual: Milam County
+Mildred,WAC,HIGH,manual: Navarro County
+Miles,SAN,HIGH,city in name: Miles
+Milford,WAC,HIGH,manual: Ellis County
+Millsap,FTW,HIGH,manual: Parker County
+Mineola,TYL,HIGH,city in name: Mineola
+Mineral Wells,FTW,MEDIUM,city in name: Mineral Wells
+Mission,RGV,HIGH,city in name: Mission
+Mission Pioneer,RGV,HIGH,name prefix: mission
+Mission Sharyland,RGV,HIGH,name prefix: mission
+Mission Sharyland Pioneer,RGV,HIGH,name prefix: mission
+Mission Veterans,RGV,HIGH,name prefix: mission
+Mission Veterans Memorial,RGV,HIGH,name prefix: mission
+Monahans,PBC,HIGH,city in name: Monahans
+Montgomery,CSC,LOW,city in name: Montgomery
+Montgomery Lake Creek,CSC,LOW,city in name: Montgomery
+Moody,TYL,MEDIUM,stadium city: Quitman
+Morgan,FTW,MEDIUM,stadium city: Morgan Mill
+Morton,SPC,HIGH,manual: Cochran County
+Motley County,AUS,MEDIUM,stadium city: Round Rock
+Mount Calm,WAC,HIGH,manual: Hill County
+Mount Enterprise,TYL,HIGH,manual: Rusk County
+Mount Pleasant,TYL,LOW,city in name: Mount Pleasant
+Mount Vernon,COM,MEDIUM,city in name: Mount Vernon
+Mt. Enterprise,TYL,HIGH,manual: Rusk County
+Muenster,NTX,HIGH,city in name: Muenster
+Muenster Total Bracket Counts,NTX,HIGH,city in name: Muenster
+Muleshoe,SPC,HIGH,manual: Bailey County
+Naaman Forest,DAL,MEDIUM,stadium city: Dallas
+Nacogdoches,SFA,HIGH,name prefix: nacogdoches
+Natalia,SAT,HIGH,city in name: Natalia
+Navasota,CSC,HIGH,city in name: Navasota
+Nazareth,AMA,HIGH,manual: Castro County
+Nederland,BEA,HIGH,city in name: Nederland
+Needville,HOU,HIGH,city in name: Needville
+New Boston,TYL,LOW,city in name: New Boston
+New Braunfels,SAT,HIGH,name prefix: new braunfels
+New Braunfels Canyon,SAT,HIGH,name prefix: new braunfels
+New Caney,HOU,HIGH,city in name: New Caney
+New Deal,SPC,HIGH,manual: Lubbock County
+New Diana,TYL,HIGH,manual: Upshur County
+New Home,SPC,HIGH,manual: Lynn County
+New London West Rusk,TYL,HIGH,manual: Rusk County
+New Waverly,HOU,HIGH,manual: Walker County
+Newcastle,ABI,HIGH,manual: Young County
+Newton,BEA,MEDIUM,city in name: Newton
+Nixon,SAT,MEDIUM,city in name: Nixon
+Nixon-Smiley,SAT,HIGH,manual: Gonzales County
+Nocona,NTX,MEDIUM,city in name: Nocona
+North Crowley,SAT,LOW,stadium city: Camp Wood
+North Forney,DAL,HIGH,name prefix: north forney
+North Mesquite,DAL,HIGH,name prefix: north mesquite
+Northeast Early,FTW,HIGH,manual: Tarrant County
+Northwest,FTW,HIGH,manual: Tarrant County
+Northwest Nelson,AUS,MEDIUM,stadium city: Austin
+O'Donnell,SPC,HIGH,city in name: O'Donnell
+Oakwood,SFA,HIGH,manual: Leon County
+Odem,STX,HIGH,manual: San Patricio County
+Odessa Compass Academy,PBC,HIGH,name prefix: odessa
+Odessa Permian,PBC,HIGH,name prefix: odessa
+Oglesby,CTX,HIGH,manual: Coryell County
+Olney,ABI,HIGH,manual: Young County
+Olton,SPC,HIGH,manual: Lamb County
+Omaha Paul Pewitt,TYL,HIGH,manual: Morris County
+Orange Grove,BEA,HIGH,name prefix: orange
+Orangefield,BEA,HIGH,manual: Orange County
+Ore City,TYL,HIGH,manual: Upshur County
+Overton,TYL,HIGH,manual: Rusk County
+Ozona,SAN,HIGH,manual: Crockett County
+PSJA High,RGV,HIGH,name prefix: psja
+PSJA Memorial,RGV,HIGH,name prefix: psja
+PSJA North,RGV,HIGH,name prefix: psja
+Paducah,ABI,HIGH,manual: Cottle County
+Paint Rock,SAN,HIGH,manual: Concho County
+Palestine,TYL,MEDIUM,city in name: Palestine
+Palestine Westwood,TYL,MEDIUM,city in name: Palestine
+Palmer,DAL,HIGH,city in name: Palmer
+Palmview,RGV,HIGH,manual: Hidalgo County
+Pampa,AMA,HIGH,city in name: Pampa
+Panhandle,AMA,HIGH,manual: Carson County
+Panther Creek,ABI,MEDIUM,stadium city: Abilene
+Paradise,FTW,HIGH,manual: Wise County
+Paris,COM,HIGH,city in name: Paris
+Pasadena Dobie,HOU,HIGH,name prefix: pasadena
+Pasadena Memorial,HOU,HIGH,name prefix: pasadena
+Pearland,HOU,HIGH,city in name: Pearland
+Pearland Dawson,HOU,HIGH,name prefix: pearland
+Pearland High,HOU,HIGH,name prefix: pearland
+Pearland Shadow Creek,HOU,HIGH,name prefix: pearland
+Pearsall,SAT,HIGH,city in name: Pearsall
+Peaster,FTW,HIGH,manual: Parker County
+Pebble Hills,ELP,MEDIUM,stadium city: El Paso
+Pecos,PBC,HIGH,city in name: Pecos
+Penelope,WAC,HIGH,manual: Hill County
+Perryton,AMA,HIGH,city in name: Perryton
+Petersburg,ABI,HIGH,manual: Hale County
+Petrolia,NTX,HIGH,manual: Clay County
+Pettus,STX,HIGH,manual: Bee County
+Pewitt,TYL,HIGH,manual: Morris County (Pewitt = Paul Pewitt)
+Pflugerville,AUS,HIGH,name prefix: pflugerville
+Pflugerville Connally,AUS,HIGH,name prefix: pflugerville
+Pflugerville Weiss,AUS,HIGH,name prefix: pflugerville
+Pharr Valley View,RGV,HIGH,name prefix: pharr
+Pharr-San Juan-Alamo,RGV,HIGH,name prefix: pharr
+Pharr-San Juan-Alamo North,RGV,HIGH,name prefix: pharr
+Pilot Point,NTX,HIGH,city in name: Pilot Point
+Pinkston,DAL,HIGH,manual: Dallas ISD
+Pittsburg,TYL,MEDIUM,city in name: Pittsburg
+Plains,SPC,MEDIUM,stadium city: Lubbock
+Plano,DAL,HIGH,city in name: Plano
+Plano East,DAL,HIGH,name prefix: plano
+Pleasant Grove,DAL,MEDIUM,stadium city: Dallas
+Pleasanton,SAT,HIGH,city in name: Pleasanton
+Port Arthur,BEA,HIGH,name prefix: port arthur
+Port Arthur Memorial,BEA,HIGH,name prefix: port arthur
+Port Isabel,RGV,HIGH,manual: Cameron County
+Port Lavaca Calhoun,STX,HIGH,city in name: Port Lavaca
+Port Neches Groves,BEA,HIGH,name prefix: port neches
+Port Neches-Grove,BEA,HIGH,name prefix: port neches
+Port Neches-Groves,BEA,HIGH,name prefix: port neches
+Porter,HOU,HIGH,"manual: New Caney ISD, Montgomery County"
+Post,SPC,HIGH,city in name: Post
+Poteet,SAT,HIGH,city in name: Poteet
+Poth,SAT,HIGH,city in name: Poth
+Pottsboro,NTX,MEDIUM,city in name: Pottsboro
+Prairie Lea,AUS,HIGH,manual: Caldwell County
+Prosper,NTX,MEDIUM,city in name: Prosper
+Prosper Walnut Grove,DAL,HIGH,name prefix: prosper
+Quanah,NTX,HIGH,manual: Hardeman County
+Queen City,TYL,LOW,city in name: Queen City
+Quinlan Ford,COM,HIGH,city in name: Quinlan
+Ralls,SPC,HIGH,city in name: Ralls
+Randolph,SAT,HIGH,manual: Bexar County (JBSA)
+Rankin,PBC,HIGH,manual: Upton County
+Raymondville,RGV,HIGH,city in name: Raymondville
+Reagan County,AUS,MEDIUM,stadium city: Round Rock
+Red Oak,DAL,HIGH,manual: Ellis County
+Redwater,TYL,HIGH,manual: Bowie County
+Refugio,STX,HIGH,city in name: Refugio
+Rice,DAL,HIGH,city in name: Rice
+Rice Consolidated,DAL,HIGH,city in name: Rice
+Richardson,DAL,HIGH,city in name: Richardson
+Richardson Berkner,DAL,HIGH,city in name: Richardson
+Richardson Pearce,DAL,HIGH,city in name: Richardson
+Richland,WAC,LOW,city in name: Richland
+Richland Springs,WAC,LOW,city in name: Richland
+Richmond Foster,HOU,HIGH,city in name: Richmond
+Richmond George Ranch,HOU,HIGH,city in name: Richmond
+Richmond Randle,HOU,HIGH,name prefix: richmond randle
+Riesel,WAC,HIGH,manual: McLennan County
+Rio Grande City Grulla,RGV,HIGH,name prefix: rio grande
+Rio Hondo,RGV,HIGH,manual: Cameron County
+Rio Vista,FTW,HIGH,manual: Johnson County
+Rising Star,ABI,HIGH,city in name: Rising Star
+Rivercrest,TYL,HIGH,manual: Red River County
+Robert Lee,ABI,MEDIUM,stadium city: Albany
+Robinson,WAC,HIGH,city in name: Robinson
+Robstown,STX,HIGH,manual: Nueces County
+Rochelle,SAN,HIGH,manual: McCulloch County
+Rock Springs,FTW,MEDIUM,stadium city: Keller
+Rockdale,CTX,LOW,city in name: Rockdale
+Rockport-Fulton,STX,HIGH,manual: Aransas County
+Rocksprings,SAN,LOW,city in name: Rocksprings
+Rockwall,DAL,HIGH,name prefix: rockwall
+Rockwall Heath,DAL,HIGH,name prefix: rockwall
+Rockwall High,DAL,HIGH,name prefix: rockwall
+Rockwall-Heath,DAL,HIGH,name prefix: rockwall
+Rogers,CTX,HIGH,manual: Bell County
+Roma,RGV,HIGH,city in name: Roma
+Ropes,SPC,HIGH,manual: Hockley County
+Ropesville,SPC,HIGH,manual: Hockley County
+Roscoe,ABI,MEDIUM,city in name: Roscoe
+Rosebud-Lott,WAC,HIGH,manual: Falls County
+Rosebudd-Lott,WAC,HIGH,manual: Falls County typo
+Round Rock,AUS,HIGH,name prefix: round rock
+Round Rock  McNeil,AUS,HIGH,name prefix: round rock
+Round Rock Cedar Ridge,AUS,HIGH,name prefix: round rock
+Round Rock Westwood,AUS,HIGH,name prefix: round rock
+Rouse,AUS,MEDIUM,stadium city: Leander
+Rowe,RGV,HIGH,manual: Hidalgo County
+Rowlett,DAL,HIGH,city in name: Rowlett
+Royal,HOU,HIGH,manual: Waller County (Royal ISD)
+Royse City,COM,LOW,city in name: Royse City
+Rule,ABI,HIGH,city in name: Rule
+Runge,SAT,HIGH,manual: Karnes County
+Rusk,SFA,HIGH,city in name: Rusk
+Ryan,NTX,HIGH,manual: Denton County
+SA Alamo Heights,SAT,HIGH,name prefix: sa
+SA Brennan,SAT,HIGH,name prefix: sa
+SA Burbank,SAT,HIGH,name prefix: sa
+SA Churchill,SAT,HIGH,name prefix: sa
+SA Clark,SAT,HIGH,name prefix: sa
+SA Cole,SAT,HIGH,name prefix: sa
+SA Davenport,SAT,HIGH,name prefix: sa
+SA East Central,SAT,HIGH,name prefix: sa
+SA Harlan,SAT,HIGH,name prefix: sa
+SA Jay,SAT,HIGH,name prefix: sa
+SA Jefferson,SAT,HIGH,name prefix: sa
+SA Johnson,SAT,HIGH,name prefix: sa
+SA Lanier,SAT,HIGH,name prefix: sa
+SA Pieper,SAT,HIGH,name prefix: sa
+SA Reagan,SAT,HIGH,name prefix: sa
+SA Sam Houston,SAT,HIGH,name prefix: sa
+SA Sotomayor,SAT,HIGH,name prefix: sa
+SA Southwest,SAT,HIGH,name prefix: sa
+SA Southwest Legacy,SAT,HIGH,name prefix: sa
+SA Taft,SAT,HIGH,name prefix: sa
+Sabinal,SAT,HIGH,city in name: Sabinal
+Sachse,DAL,HIGH,city in name: Sachse
+Saginaw,FTW,HIGH,city in name: Saginaw
+Saint Jo,NTX,HIGH,city in name: Saint Jo
+Salado,CTX,HIGH,manual: Bell County
+Sam Houston,DAL,MEDIUM,stadium city: Irving
+San Angelo Central,SAN,HIGH,name prefix: san angelo
+San Angelo Lake View,SAN,HIGH,name prefix: san angelo
+San Angelo TLCA,SAN,HIGH,name prefix: san angelo
+San Antonio Alamo Heights,SAT,HIGH,name prefix: san antonio
+San Antonio Brandeis,SAT,HIGH,name prefix: san antonio
+San Antonio Brennan,SAT,HIGH,name prefix: san antonio
+San Antonio Burbank,SAT,HIGH,name prefix: san antonio
+San Antonio Churchill,SAT,HIGH,name prefix: san antonio
+San Antonio Clark,SAT,HIGH,name prefix: san antonio
+San Antonio Cole,SAT,HIGH,name prefix: san antonio
+San Antonio Davenport,SAT,HIGH,name prefix: san antonio
+San Antonio East Central,SAT,HIGH,name prefix: san antonio
+San Antonio Harlan,SAT,HIGH,name prefix: san antonio
+San Antonio Harlandale,SAT,HIGH,name prefix: san antonio
+San Antonio Highlands,SAT,HIGH,name prefix: san antonio
+San Antonio Jay,SAT,HIGH,name prefix: san antonio
+San Antonio Jefferson,SAT,HIGH,name prefix: san antonio
+San Antonio John Jay,SAT,HIGH,name prefix: san antonio
+San Antonio Johnson,SAT,HIGH,name prefix: san antonio
+San Antonio Madison,SAT,HIGH,name prefix: san antonio
+San Antonio Northside  Brandeis,SAT,HIGH,name prefix: san antonio
+San Antonio Pieper,SAT,HIGH,name prefix: san antonio
+San Antonio Reagan,SAT,HIGH,name prefix: san antonio
+San Antonio Sam Houston,SAT,HIGH,name prefix: san antonio
+San Antonio Sotomayor,SAT,HIGH,name prefix: san antonio
+San Antonio Southside,SAT,HIGH,name prefix: san antonio
+San Antonio Southwest,SAT,HIGH,name prefix: san antonio
+San Antonio Taft,SAT,HIGH,name prefix: san antonio
+San Antonio Veterans Memorial,SAT,HIGH,name prefix: san antonio
+San Antonio Warren,SAT,HIGH,name prefix: san antonio
+San Augustine,SFA,HIGH,city in name: San Augustine
+San Benito,RGV,HIGH,city in name: San Benito
+San Diego,STX,HIGH,manual: Duval County
+San Elizario,ELP,HIGH,manual: El Paso County
+San Marcos,AUS,HIGH,name prefix: san marcos
+San Saba,AUS,LOW,city in name: San Saba
+Sanderson,PBC,HIGH,manual: Terrell County
+Sands,PBC,HIGH,manual: Dawson County
+Sanger,NTX,HIGH,city in name: Sanger
+Santa Maria,RGV,HIGH,manual: Hidalgo County
+Santa Rosa,RGV,HIGH,manual: Cameron County
+Santo,FTW,MEDIUM,city in name: Santo
+Schertz Cibolo Steele,SAT,HIGH,city in name: Schertz
+Schulenburg,AUS,LOW,city in name: Schulenburg
+Scurry-Rosser,DAL,HIGH,manual: Kaufman County
+Seagoville,DAL,HIGH,manual: Dallas ISD
+Seagraves,SPC,LOW,city in name: Seagraves
+Sealy,HOU,LOW,city in name: Sealy
+Seguin,SAT,MEDIUM,city in name: Seguin
+Seminole,PBC,MEDIUM,city in name: Seminole
+Seymour,ABI,HIGH,city in name: Seymour
+Shadow Creek,DAL,MEDIUM,stadium city: DeSoto
+Shallowater,SPC,HIGH,city in name: Shallowater
+Shamrock,AMA,MEDIUM,city in name: Shamrock
+Sharyland,RGV,MEDIUM,stadium city: Mission
+Shelbyville,SFA,HIGH,city in name: Shelbyville
+Sheldon King,HOU,MEDIUM,stadium city: Houston
+Shepherd,HOU,LOW,city in name: Shepherd
+Shiner,AUS,MEDIUM,city in name: Shiner
+Sidney,ABI,HIGH,manual: Comanche County
+Sierra Blanca,ELP,HIGH,manual: Hudspeth County
+Silsbee,BEA,HIGH,city in name: Silsbee
+Silverton,SPC,HIGH,city in name: Silverton
+Simms Bowie,TYL,HIGH,manual: Bowie County
+Sinton,STX,HIGH,city in name: Sinton
+Skidmore-Tynan,STX,HIGH,manual: Bee County
+Slaton,SPC,HIGH,city in name: Slaton
+Smithson Valley,RGV,MEDIUM,stadium city: Hidalgo
+Smithville,AUS,HIGH,city in name: Smithville
+Snyder,ABI,LOW,city in name: Snyder
+Somerset,SAT,HIGH,manual: Bexar County
+Somerville,CSC,HIGH,city in name: Somerville
+Sonora,SAN,HIGH,city in name: Sonora
+South Grand Prairie,PBC,MEDIUM,stadium city: Midland
+South Houston,HOU,HIGH,name prefix: south houston
+South Oak Cliff,SAT,MEDIUM,stadium city: San Antonio
+South San Antonio,SAT,MEDIUM,stadium city: San Antonio
+Southlake Carroll,FTW,HIGH,name prefix: southlake
+Southwest Legacy,HOU,MEDIUM,stadium city: Katy
+Spearman,AMA,HIGH,city in name: Spearman
+Spring,HOU,HIGH,city in name: Spring
+Spring Branch Memorial,HOU,HIGH,name prefix: spring
+Spring Branch Stratford,HOU,HIGH,name prefix: spring
+Spring DeKaney,HOU,HIGH,name prefix: spring
+Spring Dekaney,HOU,HIGH,name prefix: spring
+Spring Hill,HOU,HIGH,name prefix: spring
+Spring Klein Collins,HOU,HIGH,name prefix: spring
+Spring Westfield,HOU,HIGH,name prefix: spring
+Springlake Earth,SPC,HIGH,manual: Lamb County
+Springlake-Earth,SPC,HIGH,manual: Lamb County
+Springtown,FTW,HIGH,manual: Parker County
+Spur,SPC,MEDIUM,city in name: Spur
+Stafford,HOU,HIGH,city in name: Stafford
+Stamford,ABI,HIGH,city in name: Stamford
+Stanton,PBC,HIGH,city in name: Stanton
+Stephenville,FTW,MEDIUM,city in name: Stephenville
+Sterling City,SAN,HIGH,city in name: Sterling City
+Stockdale,SAT,HIGH,city in name: Stockdale
+Strake Jesuit,HOU,HIGH,manual: Houston area private
+Stratford,AMA,HIGH,city in name: Stratford
+Strawn,FTW,LOW,city in name: Strawn
+Sudan,SPC,HIGH,city in name: Sudan
+Sulpher Springs,FTW,MEDIUM,stadium city: Keller
+Sulphur Springs,COM,HIGH,city in name: Sulphur Springs
+Sundown,SPC,HIGH,city in name: Sundown
+Sunnyvale,DAL,HIGH,manual: Dallas County
+Sunray,AMA,HIGH,manual: Moore County
+Sweeny,HOU,HIGH,city in name: Sweeny
+Sweetwater,ABI,MEDIUM,city in name: Sweetwater
+TLCA San Angelo,SAN,MEDIUM,stadium city: San Angelo
+Taft,STX,HIGH,manual: San Patricio County
+Tahoka,SPC,HIGH,city in name: Tahoka
+Tatum,SFA,LOW,city in name: Tatum
+Taylor,AUS,LOW,city in name: Taylor
+Teague,WAC,LOW,city in name: Teague
+Temple,CTX,HIGH,city in name: Temple
+Tenaha,SFA,HIGH,city in name: Tenaha
+Terrell,DAL,MEDIUM,city in name: Terrell
+Texarkana Pleasant Grove,TYL,HIGH,name prefix: texarkana
+Texarkana Texas,TYL,HIGH,name prefix: texarkana
+Texarkana Texas High,TYL,HIGH,name prefix: texarkana
+Texas City,HOU,HIGH,name prefix: texas city
+The Woodlands,HOU,HIGH,name prefix: the woodlands
+The Woodlands College Park,HOU,HIGH,name prefix: the woodlands
+Thorndale,AUS,HIGH,manual: Milam County
+Thrall,AUS,HIGH,manual: Williamson County
+Three Rivers,SAT,LOW,city in name: Three Rivers
+Three Way,SPC,HIGH,manual: Crosby County
+Throckmorton,ABI,HIGH,city in name: Throckmorton
+Tidehaven,HOU,MEDIUM,city in name: Tidehaven
+Timpson,SFA,HIGH,city in name: Timpson
+Tioga,NTX,HIGH,city in name: Tioga
+Tolar,FTW,HIGH,city in name: Tolar
+Tom Bean,COM,LOW,city in name: Tom Bean
+Tomball,HOU,HIGH,city in name: Tomball
+Tomball High,HOU,HIGH,city in name: Tomball
+Tomball Memorial,HOU,HIGH,city in name: Tomball
+Tornillo,ELP,HIGH,manual: El Paso County
+Trenton,NTX,HIGH,manual: Fannin County
+Trinity,SFA,LOW,city in name: Trinity
+Trinity Leadership,SFA,LOW,city in name: Trinity
+Trophy Club Byron Nelson,AUS,MEDIUM,stadium city: Austin
+Troup,TYL,HIGH,manual: Smith County
+Troy,CTX,HIGH,manual: Bell County
+Tulia,AMA,MEDIUM,city in name: Tulia
+Tuloso Midway,STX,HIGH,manual: Nueces County
+Tuloso-Midway,STX,HIGH,manual: Nueces County
+Turkey Valley,RGV,MEDIUM,stadium city: Hidalgo
+Tyler Chapel Hill,TYL,HIGH,name prefix: tyler
+Tyler John Tyler,TYL,HIGH,name prefix: tyler
+Tyler Legacy,TYL,HIGH,name prefix: tyler
+Union Grove,DAL,MEDIUM,stadium city: Dallas
+Union Hill,TYL,HIGH,manual: Upshur County
+Uvalde,SAT,HIGH,city in name: Uvalde
+Valley,RGV,MEDIUM,stadium city: Hidalgo
+Valley Mills,WAC,HIGH,city in name: Valley Mills
+Van,TYL,HIGH,city in name: Van
+Van Alstyne,NTX,LOW,city in name: Van Alstyne
+Van Horn,TYL,HIGH,city in name: Van
+Van Vleck,TYL,HIGH,city in name: Van
+Vanderbilt Industrial,STX,HIGH,manual: Jackson County
+Vega,AMA,HIGH,manual: Oldham County
+Vela,RGV,HIGH,"manual: Edinburg Vela, Hidalgo County"
+Vernon,FTW,MEDIUM,stadium city: Mansfield
+Vernon Northside,FTW,MEDIUM,stadium city: Mansfield
+Victoria East,STX,MEDIUM,city in name: Victoria
+Victoria West,STX,MEDIUM,city in name: Victoria
+Vidor,BEA,HIGH,city in name: Vidor
+WF City View,NTX,HIGH,manual: Wichita Falls area
+WF Memorial,ABI,MEDIUM,stadium city: Albany
+WF Rider,SFA,MEDIUM,stadium city: Center
+Waco Connally,WAC,HIGH,name prefix: waco
+Waco La Vega,WAC,HIGH,name prefix: waco
+Waco Midway,WAC,HIGH,name prefix: waco
+Waco University,WAC,HIGH,name prefix: waco
+Wagner,SAT,HIGH,"manual: Judson ISD, Bexar County"
+Wakeland,DAL,HIGH,"manual: Frisco ISD, Collin County"
+Wall,SAN,HIGH,city in name: Wall
+Waller,HOU,LOW,city in name: Waller
+Wallis Brazos,HOU,MEDIUM,city in name: Wallis
+Walnut Springs,FTW,MEDIUM,stadium city: Keller
+Waskom,SFA,LOW,city in name: Waskom
+Water Valley,SAN,HIGH,city in name: Water Valley
+Waxahachie,DAL,HIGH,name prefix: waxahachie
+Waxahatchie,DAL,HIGH,"manual: Waxahachie, Ellis County"
+Weimar,CSC,LOW,city in name: Weimar
+Wellington,AMA,MEDIUM,city in name: Wellington
+Weslaco,RGV,HIGH,name prefix: weslaco
+Weslaco East,RGV,HIGH,name prefix: weslaco
+West,WAC,HIGH,city in name: West
+West Columbia,HOU,HIGH,city in name: West Columbia
+West Hardin,BEA,HIGH,name prefix: west hardin
+West Mesquite,DAL,HIGH,name prefix: west mesquite
+West Orange,BEA,HIGH,name prefix: west orange
+West Orange-Stark,BEA,HIGH,name prefix: west orange
+West Oso,WAC,HIGH,city in name: West
+West Rusk,WAC,HIGH,city in name: West
+West Sabine,WAC,HIGH,city in name: West
+West Texas,WAC,HIGH,city in name: West
+West Texas Stinnett,WAC,HIGH,city in name: West
+Westbrook,SAN,LOW,city in name: Westbrook
+Westwood,AUS,MEDIUM,stadium city: Austin
+Wharton,HOU,HIGH,city in name: Wharton
+Wheeler,AMA,HIGH,city in name: Wheeler
+Whiteface,SPC,HIGH,manual: Cochran County
+Whitehouse,TYL,HIGH,city in name: Whitehouse
+Whitesboro,NTX,HIGH,city in name: Whitesboro
+Whitewright,COM,MEDIUM,city in name: Whitewright
+Whitharral,SPC,HIGH,manual: Hockley County
+Whitney,WAC,HIGH,city in name: Whitney
+Wichita Falls,NTX,HIGH,name prefix: wichita falls
+Wichita Falls City View,NTX,HIGH,name prefix: wichita falls
+Wichita Falls High,NTX,HIGH,name prefix: wichita falls
+Wichita Falls Hirschi,NTX,HIGH,name prefix: wichita falls
+Wichita Falls Hirshi,NTX,HIGH,name prefix: wichita falls
+Wichita Falls Memorial,NTX,HIGH,name prefix: wichita falls
+Wichita Falls Rider,NTX,HIGH,name prefix: wichita falls
+Wildorado,AMA,HIGH,manual: Oldham County
+Willis,HOU,MEDIUM,city in name: Willis
+Wills Point,COM,MEDIUM,city in name: Wills Point
+Wilmer-Hutchins,DAL,MEDIUM,stadium city: Dallas
+Wimberley,AUS,HIGH,city in name: Wimberley
+Windthorst,FTW,HIGH,manual: Archer County
+Wink,PBC,HIGH,city in name: Wink
+Winnsboro,TYL,LOW,city in name: Winnsboro
+Wolf City,NTX,HIGH,manual: Hunt County (Wolfe City)
+Wolfe City,COM,HIGH,city in name: Wolfe City
+Wolfforth Frenship,SPC,HIGH,city in name: Wolfforth
+Woodsboro,STX,HIGH,manual: Refugio County
+Woodson,ABI,HIGH,manual: Throckmorton County
+Woodville,BEA,LOW,city in name: Woodville
+Wortham,WAC,HIGH,manual: Freestone County
+Worthing,HOU,HIGH,manual: Houston ISD
+Wyatt,FTW,HIGH,manual: Fort Worth ISD
+Wylie,DAL,HIGH,city in name: Wylie
+Wylie East,DAL,HIGH,name prefix: wylie east
+Yates,HOU,MEDIUM,stadium city: Willis
+Yoakum,AUS,LOW,city in name: Yoakum
+Yorktown,SAT,HIGH,manual: DeWitt County
+Young Mens Leadership Academy,AUS,MEDIUM,stadium city: Austin
+Ysleta,ELP,HIGH,manual: El Paso ISD
+Ysleta Riverside,ELP,HIGH,manual: El Paso ISD
+Zapata,RGV,HIGH,city in name: Zapata
+Zephyr,ABI,HIGH,manual: Brown County

@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react'
+import React, { useMemo, useState, useEffect } from 'react'
 
 const KNOWN_CHAPTERS = new Set(['ABI','AMA','AUS','BEA','STX','COM','CSC','CTX','DAL','ELP','FTW','HOU','NTX','PBC','PVC','RGV','SAT','SAN','SFA','SPC','TYL','WAC','WACO'])
 const BAD_NAMES = new Set(['total bracket counts','totals','total','bye','filler',''])
@@ -79,12 +79,22 @@ function SectionLabel({ children }) {
 
 const RANK_COLORS = ['var(--burnt)', 'var(--gold)', 'var(--steel)', 'var(--mid)', 'var(--mid)']
 
+const CONF_COLORS = { HIGH: 'var(--steel)', MEDIUM: 'var(--gold)', LOW: 'var(--mid)' }
+
 export default function TeamsView({ allData, years }) {
   const [search, setSearch] = useState('')
   const [sortBy, setSortBy] = useState('appearances')
   const [selectedTeam, setSelectedTeam] = useState(null)
   const [classFilter, setClassFilter] = useState('all')
   const [lbYear, setLbYear] = useState('all')
+  const [homeChapters, setHomeChapters] = useState({})
+
+  useEffect(() => {
+    fetch(`${import.meta.env.BASE_URL}data/home_chapters.json`)
+      .then(r => r.ok ? r.json() : {})
+      .then(setHomeChapters)
+      .catch(() => {})
+  }, [])
 
   const { teams, classifications } = useMemo(() => {
     const map = new Map()
@@ -371,6 +381,32 @@ export default function TeamsView({ allData, years }) {
               <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:22, color:'var(--ink)', letterSpacing:0.5 }}>{selected.name}</div>
               <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--steel)', marginTop:2 }}>{selected.classifications.join(' · ')}</div>
             </div>
+
+            {/* Home Chapter (geographic) */}
+            {(() => {
+              const hc = homeChapters[selected.name]
+              if (!hc?.chapter) return null
+              return (
+                <div style={{ padding:'12px 18px', borderBottom:'1px solid var(--border)', background:'rgba(44,74,110,0.04)' }}>
+                  <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginBottom:8 }}>
+                    Home Chapter
+                  </div>
+                  <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between' }}>
+                    <div>
+                      <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:26, color:'var(--steel)', lineHeight:1 }}>
+                        {CHAPTER_NAMES[hc.chapter] || hc.chapter}
+                      </div>
+                      <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:1 }}>{hc.chapter}</div>
+                    </div>
+                    <div style={{
+                      fontFamily:'var(--mono)', fontSize:8, letterSpacing:'0.1em', textTransform:'uppercase',
+                      padding:'3px 8px', borderRadius:3, border:`1px solid ${CONF_COLORS[hc.confidence] || 'var(--border)'}`,
+                      color: CONF_COLORS[hc.confidence] || 'var(--mid)'
+                    }}>{hc.confidence} confidence</div>
+                  </div>
+                </div>
+              )
+            })()}
 
             {selected.chapters.length > 0 && (() => {
               const topCount = selected.chapters[0].count
