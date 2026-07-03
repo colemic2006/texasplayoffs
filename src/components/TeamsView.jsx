@@ -191,7 +191,7 @@ export default function TeamsView({ allData, years }) {
           </div>
           <div style={{ display:'flex', gap:4 }}>
             {['all', ...loadedYears.map(String)].map(y => {
-              const inactive = y === '2026'
+              const inactive = ['2026', '2018', '2015', '2010'].includes(y)
               return (
                 <button key={y} onClick={() => !inactive && setLbYear(y)} title={inactive ? 'Coming soon — no data yet' : undefined} style={{
                   fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.08em',

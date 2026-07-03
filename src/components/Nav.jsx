@@ -36,7 +36,7 @@ export default function Nav({ page, setPage, year, setYear, years }) {
         {/* Year selector */}
         <div style={{ display: 'flex', gap: 6 }}>
           {years.map(y => {
-            const inactive = y === 2026
+            const inactive = [2026, 2018, 2015, 2010].includes(y)
             const active = year === y
             return (
               <button
