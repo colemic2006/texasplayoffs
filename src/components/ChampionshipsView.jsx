@@ -52,7 +52,7 @@ export default function ChampionshipsView() {
       results.forEach((d, i) => {
         if (!d || !d.games) return
         const year = String(GAME_DATA_YEARS[i])
-        d.games.filter(g => g.round === 'State Final').forEach(g => {
+        d.games.filter(g => g.round === 'State Final' || g.round === 'Championship').forEach(g => {
           if (!g.chapter) return
           if (!map[g.chapter]) map[g.chapter] = {}
           if (!map[g.chapter][year]) map[g.chapter][year] = []
