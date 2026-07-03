@@ -7,7 +7,7 @@ import HistoryView from './components/HistoryView'
 import TeamsView from './components/TeamsView'
 import ChapterRegulars from './components/ChapterRegulars'
 
-const YEARS = [2025, 2024, 2023, 2022]
+const YEARS = [2026, 2025, 2024, 2023, 2022]
 
 export default function App() {
   const [page, setPage] = useState('chapters')
