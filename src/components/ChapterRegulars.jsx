@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from 'react'
 
-const KNOWN_CHAPTERS = new Set(['ABI','AMA','AUS','BEA','STX','COM','CSC','CTX','DAL','ELP','FTW','HOU','NTX','PBC','RGV','SAT','SAN','SFA','SPC','TYL','WAC','WACO'])
+const KNOWN_CHAPTERS = new Set(['ABI','AMA','AUS','BEA','STX','COM','CSC','CTX','DAL','ELP','FTW','HOU','NTX','PBC','PVC','RGV','SAT','SAN','SFA','SPC','TYL','WAC','WACO'])
 const BAD_NAMES = new Set(['total bracket counts','totals','total','bye','filler',''])
 
 function isValidTeam(name) {
@@ -37,7 +37,7 @@ const CHAPTER_NAMES = {
   ABI:'Abilene', AMA:'Amarillo', AUS:'Austin', BEA:'Beaumont', COM:'Commerce',
   CSC:'College Station', CTX:'Central Texas', DAL:'Dallas', ELP:'El Paso',
   ETX:'East Texas', FTW:'Fort Worth', HOU:'Houston', NTX:'North Texas',
-  PBC:'Permian Basin', RGV:'Rio Grande Valley', SAT:'San Antonio',
+  PBC:'Permian Basin', PVC:'Pecan Valley', RGV:'Rio Grande Valley', SAT:'San Antonio',
   SAN:'San Angelo', SFA:'Stephen F. Austin', SPC:'South Plains', STX:'South Texas',
   TYL:'Tyler', WAC:'Waco', WACO:'Waco',
 }
