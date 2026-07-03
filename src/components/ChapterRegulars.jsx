@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from 'react'
 
-const KNOWN_CHAPTERS = new Set(['ABI','AMA','AUS','BEA','STX','COM','CSC','CTX','DAL','ELP','FTW','HOU','NTX','PBC','PVC','RGV','SAT','SAN','SFA','SPC','TYL','WAC','WACO'])
+const KNOWN_CHAPTERS = new Set(['ABI','AMA','AUS','BEA','STX','COM','CSC','CTX','DAL','ELP','FTW','HOU','NTX','PBC','RGV','SAT','SAN','SFA','SPC','TYL','WAC','WACO'])
 const BAD_NAMES = new Set(['total bracket counts','totals','total','bye','filler',''])
 
 function isValidTeam(name) {
@@ -54,7 +54,8 @@ export default function ChapterRegulars({ allData, years }) {
       const yearData = allData[year]
       if (!yearData?.games?.length) continue
       for (const game of yearData.games) {
-        const chapter = game.chapter || ''
+        const chapter = (game.chapter || '').trim()
+        if (!chapter || !KNOWN_CHAPTERS.has(chapter)) continue
         if (!isValidTeam(game.team1) || !isValidTeam(game.team2)) continue
         for (const rawName of [game.team1, game.team2]) {
           if (!rawName) continue
@@ -62,7 +63,7 @@ export default function ChapterRegulars({ allData, years }) {
           if (!map.has(key)) map.set(key, { name: key, chapters: new Map(), classifications: new Set() })
           const t = map.get(key)
           if (game.classification) t.classifications.add(game.classification)
-          if (chapter) t.chapters.set(chapter, (t.chapters.get(chapter) || 0) + 1)
+          t.chapters.set(chapter, (t.chapters.get(chapter) || 0) + 1)
         }
       }
     }
