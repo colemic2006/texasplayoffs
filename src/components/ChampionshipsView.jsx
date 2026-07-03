@@ -236,7 +236,7 @@ function HeatMap({ years, sorted, maxVal, grandTotal, highlightChapter, setHighl
 }
 
 function BarChart({ sorted, grandTotal, highlightChapter, setHighlightChapter }) {
-  const maxTotal = sorted[0]?.total || 1
+  const maxTotal = sorted.reduce((m, r) => r.total > m ? r.total : m, 1)
   return (
     <div style={{ display:'flex', flexDirection:'column', gap:6 }}>
       {sorted.map(({ ch, name, total, byYear }) => {
