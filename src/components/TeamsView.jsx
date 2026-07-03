@@ -395,33 +395,39 @@ export default function TeamsView({ allData, years }) {
               </div>
               {selected.chapters.length === 0 ? (
                 <div style={{ color:'var(--mid)', fontSize:12 }}>No chapter data available.</div>
-              ) : (
-                <div style={{ display:'flex', flexDirection:'column', gap:10 }}>
-                  {selected.chapters.map(({ ch, count }, i) => {
-                    const pct = selected.totalGames > 0 ? (count / selected.totalGames) * 100 : 0
-                    const barColor = i === 0 ? 'var(--burnt)' : i === 1 ? 'var(--gold)' : 'var(--steel)'
-                    return (
-                      <div key={ch}>
-                        <div style={{ display:'flex', justifyContent:'space-between', alignItems:'baseline', marginBottom:4 }}>
-                          <div>
-                            <span style={{ fontFamily:'var(--mono)', fontSize:11, fontWeight:500, color:'var(--ink)' }}>
-                              {CHAPTER_NAMES[ch] || ch}
-                            </span>
-                            <span style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)', marginLeft:6 }}>{ch}</span>
+              ) : (() => {
+                const chapterTotal = selected.chapters.reduce((s, c) => s + c.count, 0)
+                const unassigned = selected.totalGames - chapterTotal
+                const rows = [...selected.chapters]
+                if (unassigned > 0) rows.push({ ch: null, count: unassigned })
+                return (
+                  <div style={{ display:'flex', flexDirection:'column', gap:10 }}>
+                    {rows.map(({ ch, count }, i) => {
+                      const pct = selected.totalGames > 0 ? (count / selected.totalGames) * 100 : 0
+                      const barColor = ch === null ? 'rgba(15,13,11,0.2)' : i === 0 ? 'var(--burnt)' : i === 1 ? 'var(--gold)' : 'var(--steel)'
+                      return (
+                        <div key={ch ?? '__unassigned'}>
+                          <div style={{ display:'flex', justifyContent:'space-between', alignItems:'baseline', marginBottom:4 }}>
+                            <div>
+                              <span style={{ fontFamily:'var(--mono)', fontSize:11, fontWeight:500, color: ch === null ? 'var(--mid)' : 'var(--ink)' }}>
+                                {ch === null ? 'Unassigned' : (CHAPTER_NAMES[ch] || ch)}
+                              </span>
+                              {ch !== null && <span style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)', marginLeft:6 }}>{ch}</span>}
+                            </div>
+                            <div style={{ display:'flex', alignItems:'baseline', gap:6 }}>
+                              <span style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:18, color: barColor, lineHeight:1 }}>{count}</span>
+                              <span style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)' }}>{pct.toFixed(0)}%</span>
+                            </div>
                           </div>
-                          <div style={{ display:'flex', alignItems:'baseline', gap:6 }}>
-                            <span style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:18, color: barColor, lineHeight:1 }}>{count}</span>
-                            <span style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)' }}>{pct.toFixed(0)}%</span>
+                          <div style={{ height:6, background:'rgba(15,13,11,0.08)', borderRadius:3, overflow:'hidden' }}>
+                            <div style={{ height:'100%', width:`${pct}%`, background: barColor, borderRadius:3, transition:'width 0.3s' }} />
                           </div>
                         </div>
-                        <div style={{ height:6, background:'rgba(15,13,11,0.08)', borderRadius:3, overflow:'hidden' }}>
-                          <div style={{ height:'100%', width:`${pct}%`, background: barColor, borderRadius:3, transition:'width 0.3s' }} />
-                        </div>
-                      </div>
-                    )
-                  })}
-                </div>
-              )}
+                      )
+                    })}
+                  </div>
+                )
+              })()}
             </div>
           </div>
         )}
