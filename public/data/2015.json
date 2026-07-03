@@ -1,0 +1,123 @@
+{
+  "year": 2015,
+  "games": [],
+  "generated": "2025-07-03",
+  "source": "2015TRNY.pdf \u2014 chapter totals extracted from page 13 summary table; individual game data not yet entered",
+  "chapters": [
+    {
+      "code": "HOU",
+      "total": 152,
+      "weeks": {}
+    },
+    {
+      "code": "FTW",
+      "total": 70,
+      "weeks": {}
+    },
+    {
+      "code": "TYL",
+      "total": 49,
+      "weeks": {}
+    },
+    {
+      "code": "DAL",
+      "total": 53,
+      "weeks": {}
+    },
+    {
+      "code": "SAT",
+      "total": 53,
+      "weeks": {}
+    },
+    {
+      "code": "AUS",
+      "total": 45,
+      "weeks": {}
+    },
+    {
+      "code": "SPC",
+      "total": 45,
+      "weeks": {}
+    },
+    {
+      "code": "ABI",
+      "total": 36,
+      "weeks": {}
+    },
+    {
+      "code": "WAC",
+      "total": 20,
+      "weeks": {}
+    },
+    {
+      "code": "AMA",
+      "total": 15,
+      "weeks": {}
+    },
+    {
+      "code": "CSC",
+      "total": 31,
+      "weeks": {}
+    },
+    {
+      "code": "ETX",
+      "total": 14,
+      "weeks": {}
+    },
+    {
+      "code": "RGV",
+      "total": 14,
+      "weeks": {}
+    },
+    {
+      "code": "ELP",
+      "total": 4,
+      "weeks": {}
+    },
+    {
+      "code": "PBC",
+      "total": 16,
+      "weeks": {}
+    },
+    {
+      "code": "COM",
+      "total": 3,
+      "weeks": {}
+    },
+    {
+      "code": "CCC",
+      "total": 9,
+      "weeks": {}
+    },
+    {
+      "code": "CTX",
+      "total": 10,
+      "weeks": {}
+    },
+    {
+      "code": "PVC",
+      "total": 8,
+      "weeks": {}
+    },
+    {
+      "code": "NTX",
+      "total": 16,
+      "weeks": {}
+    },
+    {
+      "code": "SAN",
+      "total": 13,
+      "weeks": {}
+    },
+    {
+      "code": "SFA",
+      "total": 14,
+      "weeks": {}
+    },
+    {
+      "code": "BEA",
+      "total": 2,
+      "weeks": {}
+    }
+  ]
+}

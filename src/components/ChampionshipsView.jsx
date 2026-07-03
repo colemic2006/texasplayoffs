@@ -1,11 +1,11 @@
 import React, { useMemo, useState, useEffect } from 'react'
 
 const CHAPTER_NAMES = {
-  ABI:'Abilene', AMA:'Amarillo', AUS:'Austin', BEA:'Beaumont', COM:'Commerce',
-  CSC:'College Station', CTX:'Central Texas', DAL:'Dallas', ELP:'El Paso',
-  FTW:'Fort Worth', HOU:'Houston', NTX:'North Texas', PBC:'Permian Basin', PVC:'Pecan Valley',
-  RGV:'Rio Grande Valley', SAT:'San Antonio', SAN:'San Angelo',
-  SFA:'Stephen F. Austin', SPC:'South Plains', STX:'South Texas',
+  ABI:'Abilene', AMA:'Amarillo', AUS:'Austin', BEA:'Beaumont', CCC:'Corpus Christi',
+  COM:'Commerce', CSC:'College Station', CTX:'Central Texas', DAL:'Dallas', ELP:'El Paso',
+  ETX:'East Texas', FTW:'Fort Worth', HOU:'Houston', NTX:'North Texas',
+  PBC:'Permian Basin', PVC:'Pecan Valley', RGV:'Rio Grande Valley', SAT:'San Antonio',
+  SAN:'San Angelo', SFA:'Stephen F. Austin', SPC:'South Plains', STX:'South Texas',
   TYL:'Tyler', WAC:'Waco',
 }
 
