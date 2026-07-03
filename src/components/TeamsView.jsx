@@ -85,6 +85,7 @@ export default function TeamsView({ allData, years }) {
   const [selectedTeam, setSelectedTeam] = useState(null)
   const [classFilter, setClassFilter] = useState('all')
   const [lbYear, setLbYear] = useState('all')
+  const [regularsChapter, setRegularsChapter] = useState(null)
 
   const { teams, classifications } = useMemo(() => {
     const map = new Map()
@@ -167,6 +168,26 @@ export default function TeamsView({ allData, years }) {
     return result
   }, [teams, search, sortBy, classFilter])
 
+  // All chapters that appear in team data, sorted by code
+  const allChapterCodes = useMemo(() => {
+    const codes = new Set()
+    teams.forEach(t => t.chapters.forEach(({ ch }) => codes.add(ch)))
+    return Array.from(codes).sort()
+  }, [teams])
+
+  // For selected chapter: teams ranked by game count with that chapter
+  const chapterRegularsList = useMemo(() => {
+    if (!regularsChapter) return []
+    return teams
+      .map(t => {
+        const entry = t.chapters.find(c => c.ch === regularsChapter)
+        return entry ? { name: t.name, count: entry.count, classifications: t.classifications } : null
+      })
+      .filter(Boolean)
+      .sort((a, b) => b.count - a.count)
+      .slice(0, 15)
+  }, [teams, regularsChapter])
+
   const selected = selectedTeam ? teams.find(t => t.name === selectedTeam) : null
   const loadedYears = years.filter(y => allData[y])
 
@@ -242,6 +263,71 @@ export default function TeamsView({ allData, years }) {
             )
           })}
         </div>
+      </div>
+
+      {/* ── CHAPTER REGULARS ── */}
+      <div style={{ marginBottom:32 }}>
+        <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:12 }}>
+          <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)' }}>
+            Chapter Regulars — Top Teams per Chapter
+          </div>
+        </div>
+        <div style={{ display:'flex', gap:4, flexWrap:'wrap', marginBottom:16 }}>
+          {allChapterCodes.map(ch => (
+            <button key={ch} onClick={() => setRegularsChapter(regularsChapter === ch ? null : ch)} style={{
+              fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.08em',
+              padding:'4px 10px', borderRadius:3, border:'1px solid var(--border)',
+              background: regularsChapter === ch ? 'var(--burnt)' : 'transparent',
+              color: regularsChapter === ch ? '#fff' : 'var(--mid)',
+              cursor:'pointer', transition:'all 0.15s'
+            }}>{ch}</button>
+          ))}
+        </div>
+
+        {regularsChapter && (
+          <div>
+            <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginBottom:12 }}>
+              Teams most frequently assigned to <span style={{ color:'var(--burnt)', fontWeight:600 }}>{CHAPTER_NAMES[regularsChapter] || regularsChapter}</span> ({regularsChapter})
+            </div>
+            <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(260px, 1fr))', gap:8 }}>
+              {chapterRegularsList.map((team, i) => {
+                const max = chapterRegularsList[0]?.count || 1
+                const pct = (team.count / max) * 100
+                const rankColor = i === 0 ? 'var(--burnt)' : i === 1 ? 'var(--gold)' : 'var(--steel)'
+                return (
+                  <div key={team.name}
+                    onClick={() => setSelectedTeam(selectedTeam === team.name ? null : team.name)}
+                    style={{
+                      background: selectedTeam === team.name ? 'rgba(44,74,110,0.07)' : 'var(--surface)',
+                      border: `1px solid ${selectedTeam === team.name ? 'var(--steel)' : 'var(--border)'}`,
+                      borderRadius:8, padding:'10px 14px', cursor:'pointer', transition:'all 0.15s'
+                    }}
+                  >
+                    <div style={{ display:'flex', alignItems:'baseline', justifyContent:'space-between', marginBottom:6 }}>
+                      <div style={{ display:'flex', alignItems:'baseline', gap:8 }}>
+                        <span style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:18, color: rankColor, lineHeight:1 }}>#{i+1}</span>
+                        <span style={{ fontFamily:'DM Sans', fontSize:13, fontWeight:500, color:'var(--ink)' }}>{team.name}</span>
+                      </div>
+                      <div style={{ display:'flex', alignItems:'baseline', gap:4 }}>
+                        <span style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:22, color: rankColor, lineHeight:1 }}>{team.count}</span>
+                        <span style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)' }}>games</span>
+                      </div>
+                    </div>
+                    <div style={{ height:4, background:'rgba(15,13,11,0.08)', borderRadius:2, overflow:'hidden', marginBottom:4 }}>
+                      <div style={{ height:'100%', width:`${pct}%`, background: rankColor, borderRadius:2, transition:'width 0.3s' }} />
+                    </div>
+                    <div style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)' }}>{team.classifications.join(' · ')}</div>
+                  </div>
+                )
+              })}
+            </div>
+          </div>
+        )}
+        {!regularsChapter && (
+          <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', padding:'16px 0' }}>
+            Select a chapter above to see its most frequent teams.
+          </div>
+        )}
       </div>
 
       {/* ── FULL TABLE ── */}
