@@ -104,18 +104,6 @@ export default function ChapterDashboard({ data, year }) {
 
   return (
     <div>
-      {/* ── 2022 PARTIAL DATA NOTE ── */}
-      {year === 2022 && (
-        <div style={{
-          background:'rgba(193,68,14,0.06)', border:'1px solid rgba(193,68,14,0.2)',
-          borderRadius:8, padding:'10px 16px', marginBottom:20,
-          fontFamily:'var(--mono)', fontSize:11, color:'var(--mid)', lineHeight:1.6
-        }}>
-          <span style={{ color:'var(--burnt)', fontWeight:600, marginRight:6 }}>Note:</span>
-          2022 has all 692 games. Two games have no chapter assignment (one 2A D1 Bi-District game with an unknown chapter, plus one other), so the chapter-based total shown here is 690.
-        </div>
-      )}
-
       {/* ── SUMMARY CARDS ── */}
       <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fit,minmax(160px,1fr))', gap:12, marginBottom:40 }}>
         {[
