@@ -199,15 +199,20 @@ export default function TeamsView({ allData, years }) {
             Top Teams by Playoff Games
           </div>
           <div style={{ display:'flex', gap:4 }}>
-            {['all', ...loadedYears.map(String)].map(y => (
-              <button key={y} onClick={() => setLbYear(y)} style={{
-                fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.08em',
-                padding:'3px 10px', borderRadius:3, border:'1px solid var(--border)',
-                background: lbYear === y ? 'var(--ink)' : 'transparent',
-                color: lbYear === y ? 'var(--cream)' : 'var(--mid)',
-                cursor:'pointer', transition:'all 0.15s'
-              }}>{y === 'all' ? 'All Years' : y}</button>
-            ))}
+            {['all', ...loadedYears.map(String)].map(y => {
+              const inactive = y === '2026'
+              return (
+                <button key={y} onClick={() => !inactive && setLbYear(y)} title={inactive ? 'Coming soon — no data yet' : undefined} style={{
+                  fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.08em',
+                  padding:'3px 10px', borderRadius:3, border:'1px solid var(--border)',
+                  background: lbYear === y ? 'var(--ink)' : 'transparent',
+                  color: lbYear === y ? 'var(--cream)' : 'var(--mid)',
+                  cursor: inactive ? 'not-allowed' : 'pointer',
+                  opacity: inactive ? 0.35 : 1,
+                  transition:'all 0.15s'
+                }}>{y === 'all' ? 'All Years' : y}</button>
+              )
+            })}
           </div>
         </div>
 
