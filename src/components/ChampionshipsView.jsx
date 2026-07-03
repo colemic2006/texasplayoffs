@@ -105,7 +105,7 @@ export default function ChampionshipsView() {
         </div>
         <div style={{ width:1, height:16, background:'var(--border)' }} />
         <div style={{ display:'flex', gap:4 }}>
-          {[['total','By Total'],['name','By Code']].map(([id, label]) => (
+          {[['total','By Total'],['name','Alphabetical']].map(([id, label]) => (
             <button key={id} onClick={() => setSortBy(id)} style={{
               fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.1em', textTransform:'uppercase',
               padding:'5px 12px', borderRadius:4, border:'1px solid var(--border)',
