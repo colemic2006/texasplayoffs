@@ -24,17 +24,43 @@ function heatColor(val, max) {
   return HEAT_COLORS[Math.min(idx, HEAT_COLORS.length - 1)]
 }
 
+const GAME_DATA_YEARS = [2022, 2023, 2024, 2025]
+
 export default function ChampionshipsView() {
   const [data, setData] = useState(null)
   const [view, setView] = useState('heatmap') // 'heatmap' | 'bar'
   const [sortBy, setSortBy] = useState('total') // 'total' | 'name'
   const [highlightChapter, setHighlightChapter] = useState(null)
+  const [gamesByChYear, setGamesByChYear] = useState({}) // { 'HOU': { '2022': [game,...] } }
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/championships.json`)
       .then(r => r.ok ? r.json() : null)
       .then(setData)
       .catch(() => {})
+  }, [])
+
+  useEffect(() => {
+    Promise.all(
+      GAME_DATA_YEARS.map(y =>
+        fetch(`${import.meta.env.BASE_URL}data/${y}.json`)
+          .then(r => r.ok ? r.json() : null)
+          .catch(() => null)
+      )
+    ).then(results => {
+      const map = {}
+      results.forEach((d, i) => {
+        if (!d || !d.games) return
+        const year = String(GAME_DATA_YEARS[i])
+        d.games.filter(g => g.round === 'State Final').forEach(g => {
+          if (!g.chapter) return
+          if (!map[g.chapter]) map[g.chapter] = {}
+          if (!map[g.chapter][year]) map[g.chapter][year] = []
+          map[g.chapter][year].push(g)
+        })
+      })
+      setGamesByChYear(map)
+    })
   }, [])
 
   const { chapters, years, maxVal, sorted, grandTotal } = useMemo(() => {
@@ -124,6 +150,17 @@ export default function ChampionshipsView() {
           highlightChapter={highlightChapter} setHighlightChapter={setHighlightChapter} />
       )}
 
+      {/* Game Cards Panel */}
+      {highlightChapter && (
+        <GameCardsPanel
+          ch={highlightChapter}
+          name={CHAPTER_NAMES[highlightChapter] || highlightChapter}
+          byYear={sorted.find(r => r.ch === highlightChapter)?.byYear || {}}
+          gamesByYear={gamesByChYear[highlightChapter] || {}}
+          onClose={() => setHighlightChapter(null)}
+        />
+      )}
+
       {/* Legend */}
       <div style={{ marginTop:24, display:'flex', alignItems:'center', gap:8, flexWrap:'wrap' }}>
         <span style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)', textTransform:'uppercase', letterSpacing:'0.1em' }}>Games:</span>
@@ -139,6 +176,78 @@ export default function ChampionshipsView() {
           <div style={{ width:18, height:18, borderRadius:3, background:'transparent', border:'1px solid var(--border)' }} />
           <span style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)' }}>0</span>
         </div>
+      </div>
+    </div>
+  )
+}
+
+function GameCardsPanel({ ch, name, byYear, gamesByYear, onClose }) {
+  const years = Object.keys(byYear).filter(y => byYear[y] > 0).sort()
+  if (years.length === 0) return null
+  return (
+    <div style={{
+      marginTop:20, marginBottom:8,
+      border:'1px solid var(--border)', borderRadius:10,
+      background:'var(--surface)', padding:'16px 20px'
+    }}>
+      <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:14 }}>
+        <div style={{ display:'flex', alignItems:'baseline', gap:10 }}>
+          <span style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:20, color:'var(--mid)' }}>{ch}</span>
+          <span style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:20, color:'var(--ink)' }}>{name}</span>
+          <span style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)', textTransform:'uppercase', letterSpacing:'0.1em' }}>
+            · {years.length} season{years.length !== 1 ? 's' : ''} · {Object.values(byYear).reduce((s,v)=>s+v,0)} games
+          </span>
+        </div>
+        <button onClick={onClose} style={{
+          background:'transparent', border:'none', cursor:'pointer',
+          fontFamily:'var(--mono)', fontSize:11, color:'var(--mid)', padding:'2px 6px'
+        }}>✕</button>
+      </div>
+      <div style={{ display:'flex', flexWrap:'wrap', gap:10 }}>
+        {years.map(year => {
+          const games = gamesByYear[year]
+          return (
+            <div key={year} style={{
+              background:'var(--bg)', border:'1px solid var(--border)',
+              borderRadius:8, padding:'10px 14px', minWidth:200
+            }}>
+              <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:16, color:'var(--burnt)', marginBottom:8 }}>{year}</div>
+              {games ? games.map((g, i) => (
+                <div key={i} style={{ marginBottom: i < games.length - 1 ? 8 : 0 }}>
+                  <div style={{ fontFamily:'var(--mono)', fontSize:8, color:'var(--mid)', textTransform:'uppercase', letterSpacing:'0.1em', marginBottom:4 }}>
+                    {g.classification}
+                  </div>
+                  <div style={{ display:'flex', alignItems:'center', gap:6 }}>
+                    <div style={{ flex:1 }}>
+                      <div style={{
+                        fontFamily:'DM Sans', fontSize:12, fontWeight: g.winner === g.team1 ? 600 : 400,
+                        color: g.winner === g.team1 ? 'var(--ink)' : 'var(--mid)'
+                      }}>{g.team1}</div>
+                      <div style={{
+                        fontFamily:'DM Sans', fontSize:12, fontWeight: g.winner === g.team2 ? 600 : 400,
+                        color: g.winner === g.team2 ? 'var(--ink)' : 'var(--mid)'
+                      }}>{g.team2}</div>
+                    </div>
+                    <div style={{ textAlign:'right' }}>
+                      <div style={{
+                        fontFamily:"'Bebas Neue', sans-serif", fontSize:16,
+                        color: g.winner === g.team1 ? 'var(--burnt)' : 'var(--mid)', lineHeight:1.2
+                      }}>{g.score1}</div>
+                      <div style={{
+                        fontFamily:"'Bebas Neue', sans-serif", fontSize:16,
+                        color: g.winner === g.team2 ? 'var(--burnt)' : 'var(--mid)', lineHeight:1.2
+                      }}>{g.score2}</div>
+                    </div>
+                  </div>
+                </div>
+              )) : (
+                <div style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)' }}>
+                  {byYear[year]} game{byYear[year] !== 1 ? 's' : ''} — no detail available
+                </div>
+              )}
+            </div>
+          )
+        })}
       </div>
     </div>
   )
