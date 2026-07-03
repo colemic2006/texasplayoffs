@@ -6,6 +6,7 @@ import BracketViewer from './components/BracketViewer'
 import HistoryView from './components/HistoryView'
 import TeamsView from './components/TeamsView'
 import ChapterRegulars from './components/ChapterRegulars'
+import ChampionshipsView from './components/ChampionshipsView'
 
 const YEARS = [2026, 2025, 2024, 2023, 2022]
 
@@ -60,7 +61,9 @@ export default function App() {
       />
 
       <main style={{ flex: 1, maxWidth: 1100, margin: '0 auto', padding: '40px 24px 80px', width: '100%' }}>
-        {(page === 'teams' || page === 'regulars') ? (
+        {page === 'championships' ? (
+          <ChampionshipsView />
+        ) : (page === 'teams' || page === 'regulars') ? (
           allYearsLoaded
             ? page === 'teams' ? <TeamsView allData={data} years={YEARS} /> : <ChapterRegulars allData={data} years={YEARS} />
             : <LoadingState />
