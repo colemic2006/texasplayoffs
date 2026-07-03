@@ -459,21 +459,28 @@ export default function TeamsView({ allData, years }) {
             </div>
 
             {selected.chapters.length > 0 && (() => {
-              const fav = selected.chapters[0]
+              const topCount = selected.chapters[0].count
+              const favs = selected.chapters.filter(c => c.count === topCount)
               return (
                 <div style={{ padding:'12px 18px', borderBottom:'1px solid var(--border)', background:'rgba(212,146,10,0.04)' }}>
-                  <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginBottom:6 }}>Favorite Chapter</div>
-                  <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between' }}>
-                    <div>
-                      <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:26, color:'var(--burnt)', lineHeight:1 }}>
-                        {CHAPTER_NAMES[fav.ch] || fav.ch}
+                  <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginBottom:8 }}>
+                    Favorite Chapter{favs.length > 1 ? 's' : ''}
+                  </div>
+                  <div style={{ display:'flex', flexDirection:'column', gap:6 }}>
+                    {favs.map(fav => (
+                      <div key={fav.ch} style={{ display:'flex', alignItems:'center', justifyContent:'space-between' }}>
+                        <div>
+                          <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:26, color:'var(--burnt)', lineHeight:1 }}>
+                            {CHAPTER_NAMES[fav.ch] || fav.ch}
+                          </div>
+                          <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:1 }}>{fav.ch}</div>
+                        </div>
+                        <div style={{ textAlign:'right' }}>
+                          <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:36, color:'var(--burnt)', lineHeight:1 }}>{fav.count}</div>
+                          <div style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)' }}>games</div>
+                        </div>
                       </div>
-                      <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:2 }}>{fav.ch}</div>
-                    </div>
-                    <div style={{ textAlign:'right' }}>
-                      <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:36, color:'var(--burnt)', lineHeight:1 }}>{fav.count}</div>
-                      <div style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)' }}>games</div>
-                    </div>
+                    ))}
                   </div>
                 </div>
               )
