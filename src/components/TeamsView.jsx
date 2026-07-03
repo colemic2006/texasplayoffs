@@ -372,6 +372,27 @@ export default function TeamsView({ allData, years }) {
               <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--steel)', marginTop:2 }}>{selected.classifications.join(' · ')}</div>
             </div>
 
+            {selected.chapters.length > 0 && (() => {
+              const fav = selected.chapters[0]
+              return (
+                <div style={{ padding:'12px 18px', borderBottom:'1px solid var(--border)', background:'rgba(212,146,10,0.04)' }}>
+                  <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginBottom:6 }}>Favorite Chapter</div>
+                  <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between' }}>
+                    <div>
+                      <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:26, color:'var(--burnt)', lineHeight:1 }}>
+                        {CHAPTER_NAMES[fav.ch] || fav.ch}
+                      </div>
+                      <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:2 }}>{fav.ch}</div>
+                    </div>
+                    <div style={{ textAlign:'right' }}>
+                      <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:36, color:'var(--burnt)', lineHeight:1 }}>{fav.count}</div>
+                      <div style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)' }}>games</div>
+                    </div>
+                  </div>
+                </div>
+              )
+            })()}
+
             <div style={{ padding:'14px 18px', borderBottom:'1px solid var(--border)', display:'grid', gridTemplateColumns:'1fr 1fr', gap:12 }}>
               <Stat label="Playoff Appearances" value={selected.appearances} color="var(--burnt)" />
               <Stat label="Total Games Played" value={selected.totalGames} color="var(--ink)" />
