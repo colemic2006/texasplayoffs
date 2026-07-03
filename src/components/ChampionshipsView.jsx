@@ -114,7 +114,7 @@ export default function ChampionshipsView() {
       <div style={{ fontFamily:'var(--mono)', fontSize:11, color:'var(--mid)', marginBottom:20 }}>
         Texas High School Football Championships per chapter, 2000–2025 ·{' '}
         <span style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:16, color:'var(--burnt)' }}>{grandTotal}</span>{' '}
-        total championship assignments
+        known championship assignments
       </div>
 
       {/* Controls */}
