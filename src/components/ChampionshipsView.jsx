@@ -108,11 +108,11 @@ export default function ChampionshipsView() {
         borderBottom:'1px solid var(--border)', display:'flex', alignItems:'center', gap:12
       }}>
         <div style={{ width:4, height:28, borderRadius:2, background:'var(--burnt)', flexShrink:0 }} />
-        State Championship Games by Chapter
+        Texas High School Football Championships by Chapter
       </div>
 
       <div style={{ fontFamily:'var(--mono)', fontSize:11, color:'var(--mid)', marginBottom:20 }}>
-        TASO Football Championships officiated per chapter, 2000–2025 ·{' '}
+        Texas High School Football Championships per chapter, 2000–2025 ·{' '}
         <span style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:16, color:'var(--burnt)' }}>{grandTotal}</span>{' '}
         total championship assignments
       </div>
