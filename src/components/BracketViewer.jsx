@@ -367,6 +367,7 @@ function GameMap({ markers }) {
       // Add new markers
       markers.forEach(({ lat, lng, game, stadium }) => {
         const winner = game.score1 > game.score2 ? game.team1 : game.score2 > game.score1 ? game.team2 : null
+        const mapsUrl = stadium?.map_link || `https://www.google.com/maps?q=${lat},${lng}`
         const popup = `
           <div style="font-family:monospace;font-size:12px;min-width:180px">
             <div style="font-weight:600;margin-bottom:4px">${game.classification}</div>
@@ -374,6 +375,7 @@ function GameMap({ markers }) {
             <div>${game.team2} <strong>${game.score2 ?? ''}</strong></div>
             ${stadium ? `<div style="margin-top:6px;font-size:11px;color:#666">${stadium.name}<br>${stadium.city}, TX</div>` : ''}
             ${winner ? `<div style="margin-top:4px;color:#c1440e;font-size:11px">▲ ${winner}</div>` : ''}
+            <div style="margin-top:8px"><a href="${mapsUrl}" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:#1a73e8;text-decoration:none">📍 Open in Google Maps</a></div>
           </div>
         `
         const marker = L.marker([lat, lng]).addTo(leafletMap.current).bindPopup(popup)

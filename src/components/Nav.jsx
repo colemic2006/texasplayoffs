@@ -34,20 +34,27 @@ export default function Nav({ page, setPage, year, setYear, years }) {
 
         {/* Year selector */}
         <div style={{ display: 'flex', gap: 6 }}>
-          {years.map(y => (
-            <button
-              key={y}
-              onClick={() => setYear(y)}
-              style={{
-                fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.1em',
-                padding: '5px 10px', borderRadius: 4, border: '1px solid',
-                cursor: 'pointer', transition: 'all 0.15s',
-                background: year === y ? 'var(--burnt)' : 'transparent',
-                borderColor: year === y ? 'var(--burnt)' : 'rgba(255,255,255,0.15)',
-                color: year === y ? '#fff' : 'rgba(245,240,232,0.5)',
-              }}
-            >{y}</button>
-          ))}
+          {years.map(y => {
+            const inactive = y === 2026
+            const active = year === y
+            return (
+              <button
+                key={y}
+                onClick={() => !inactive && setYear(y)}
+                title={inactive ? 'Coming soon — no data yet' : undefined}
+                style={{
+                  fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.1em',
+                  padding: '5px 10px', borderRadius: 4, border: '1px solid',
+                  transition: 'all 0.15s',
+                  cursor: inactive ? 'not-allowed' : 'pointer',
+                  opacity: inactive ? 0.35 : 1,
+                  background: active && !inactive ? 'var(--burnt)' : 'transparent',
+                  borderColor: active && !inactive ? 'var(--burnt)' : 'rgba(255,255,255,0.15)',
+                  color: active && !inactive ? '#fff' : 'rgba(245,240,232,0.5)',
+                }}
+              >{y}</button>
+            )
+          })}
         </div>
       </div>
     </nav>
