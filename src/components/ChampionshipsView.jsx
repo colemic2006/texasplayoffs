@@ -41,14 +41,30 @@ export default function ChampionshipsView() {
   }, [])
 
   useEffect(() => {
-    Promise.all(
+    // Load historical championship games
+    const histFetch = fetch(`${import.meta.env.BASE_URL}data/championship_games.json`)
+      .then(r => r.ok ? r.json() : {})
+      .catch(() => ({}))
+
+    // Load 2022-2025 game data
+    const yearFetches = Promise.all(
       GAME_DATA_YEARS.map(y =>
         fetch(`${import.meta.env.BASE_URL}data/${y}.json`)
           .then(r => r.ok ? r.json() : null)
           .catch(() => null)
       )
-    ).then(results => {
+    )
+
+    Promise.all([histFetch, yearFetches]).then(([hist, results]) => {
+      // Start with historical data
       const map = {}
+      Object.entries(hist).forEach(([ch, byYear]) => {
+        map[ch] = {}
+        Object.entries(byYear).forEach(([yr, games]) => {
+          map[ch][yr] = games
+        })
+      })
+      // Merge 2022-2025 year JSON data
       results.forEach((d, i) => {
         if (!d || !d.games) return
         const year = String(GAME_DATA_YEARS[i])
@@ -232,13 +248,16 @@ function GameCardsPanel({ ch, name, byYear, gamesByYear, onClose }) {
                       <div style={{
                         fontFamily:"'Bebas Neue', sans-serif", fontSize:16,
                         color: g.winner === g.team1 ? 'var(--burnt)' : 'var(--mid)', lineHeight:1.2
-                      }}>{g.score1}</div>
+                      }}>{g.score1 != null ? g.score1 : '—'}</div>
                       <div style={{
                         fontFamily:"'Bebas Neue', sans-serif", fontSize:16,
                         color: g.winner === g.team2 ? 'var(--burnt)' : 'var(--mid)', lineHeight:1.2
-                      }}>{g.score2}</div>
+                      }}>{g.score2 != null ? g.score2 : '—'}</div>
                     </div>
                   </div>
+                  {g.ot && (
+                    <div style={{ fontFamily:'var(--mono)', fontSize:8, color:'var(--mid)', marginTop:3 }}>({g.ot})</div>
+                  )}
                 </div>
               )) : (
                 <div style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)' }}>

@@ -1,0 +1,1711 @@
+{
+  "HOU": {
+    "2016": [
+      {
+        "classification": "5A D1",
+        "team1": "Highland Park",
+        "team2": "Temple",
+        "score1": 16,
+        "score2": 7
+      },
+      {
+        "classification": "5A D2",
+        "team1": "Aledo",
+        "team2": "Corpus Christi Calallen",
+        "score1": 24,
+        "score2": 16
+      }
+    ],
+    "2021": [
+      {
+        "classification": "4A D2",
+        "team1": "China Spring",
+        "team2": "Gilmer",
+        "score1": 31,
+        "score2": 7
+      },
+      {
+        "classification": "5A D1",
+        "team1": "Katy Paetow",
+        "team2": "College Station",
+        "score1": 27,
+        "score2": 24,
+        "ot": "OT"
+      },
+      {
+        "classification": "6A D1",
+        "team1": "Galena Park North Shore",
+        "team2": "Duncanville",
+        "score1": 17,
+        "score2": 10
+      }
+    ],
+    "2011": [
+      {
+        "classification": "3A D2",
+        "team1": "Wimberley",
+        "team2": "Argyle",
+        "score1": 21,
+        "score2": 14
+      }
+    ],
+    "2010": [
+      {
+        "classification": "4A D1",
+        "team1": "Austin Lake Travis",
+        "team2": "Denton Ryan",
+        "score1": 27,
+        "score2": 7
+      }
+    ],
+    "2018": [
+      {
+        "classification": "4A D2",
+        "team1": "Cuero",
+        "team2": "Pleasant Grove",
+        "score1": 40,
+        "score2": 28
+      },
+      {
+        "classification": "5A D1",
+        "team1": "Highland Park",
+        "team2": "Alvin Shadow Creek",
+        "score1": 27,
+        "score2": 17
+      },
+      {
+        "classification": "5A D2",
+        "team1": "Aledo",
+        "team2": "Fort Bend Marshall",
+        "score1": 55,
+        "score2": 19
+      }
+    ],
+    "2015": [
+      {
+        "classification": "4A D1",
+        "team1": "La Vega",
+        "team2": "Argyle",
+        "score1": 33,
+        "score2": 31
+      }
+    ],
+    "2014": [
+      {
+        "classification": "4A D2",
+        "team1": "Gilmer",
+        "team2": "West Orange-Stark",
+        "score1": 35,
+        "score2": 25
+      },
+      {
+        "classification": "5A D1",
+        "team1": "Aledo",
+        "team2": "Temple",
+        "score1": 49,
+        "score2": 45
+      }
+    ],
+    "2013": [
+      {
+        "classification": "4A D1",
+        "team1": "Denton Guyer",
+        "team2": "Northside Brennan",
+        "score1": 31,
+        "score2": 14
+      },
+      {
+        "classification": "4A D2",
+        "team1": "Aledo",
+        "team2": "Brenham",
+        "score1": 38,
+        "score2": 10
+      }
+    ],
+    "2012": [
+      {
+        "classification": "3A D2",
+        "team1": "Navasota",
+        "team2": "Gilmer",
+        "score1": 39,
+        "score2": 3
+      }
+    ],
+    "2017": [
+      {
+        "classification": "3A D2",
+        "team1": "Newton",
+        "team2": "Gunter",
+        "score1": 40,
+        "score2": 16
+      },
+      {
+        "classification": "4A D1",
+        "team1": "Carthage",
+        "team2": "Kennedale",
+        "score1": 49,
+        "score2": 21
+      }
+    ],
+    "2022": [
+      {
+        "classification": "5A D1",
+        "team1": "Aledo",
+        "team2": "College Station",
+        "score1": 52,
+        "score2": 14
+      },
+      {
+        "classification": "6A D2",
+        "team1": "DeSoto",
+        "team2": "Austin Vandegrift",
+        "score1": 42,
+        "score2": 17
+      }
+    ],
+    "2020": [
+      {
+        "classification": "5A D1",
+        "team1": "Denton Ryan",
+        "team2": "Cedar Park",
+        "score1": 59,
+        "score2": 14
+      },
+      {
+        "classification": "5A D2",
+        "team1": "Aledo",
+        "team2": "Crosby",
+        "score1": 56,
+        "score2": 21
+      }
+    ],
+    "2001": [
+      {
+        "classification": "3A D1",
+        "team1": "Everman",
+        "team2": "Sinton",
+        "score1": null,
+        "score2": null
+      }
+    ],
+    "2002": [
+      {
+        "classification": "3A D2",
+        "team1": "Bandera",
+        "team2": "Greenwood",
+        "score1": null,
+        "score2": null
+      },
+      {
+        "classification": "4A D1",
+        "team1": "Texarkana",
+        "team2": "New Braunfels",
+        "score1": null,
+        "score2": null
+      },
+      {
+        "classification": "4A D2",
+        "team1": "Denton Ryan",
+        "team2": "Brenham",
+        "score1": null,
+        "score2": null
+      }
+    ],
+    "2003": [
+      {
+        "classification": "2A D1",
+        "team1": "San Augustine",
+        "team2": "Jim Ned",
+        "score1": null,
+        "score2": null
+      },
+      {
+        "classification": "2A D2",
+        "team1": "Garrison",
+        "team2": "Bangs",
+        "score1": null,
+        "score2": null
+      },
+      {
+        "classification": "3A D2",
+        "team1": "Atlanta",
+        "team2": "Marlin",
+        "score1": null,
+        "score2": null
+      },
+      {
+        "classification": "5A D1",
+        "team1": "Galena Park North Shore",
+        "team2": "The Woodlands",
+        "score1": null,
+        "score2": null
+      }
+    ],
+    "2004": [
+      {
+        "classification": "5A D2",
+        "team1": "Southlake Carroll",
+        "team2": "Smithson Valley",
+        "score1": null,
+        "score2": null
+      }
+    ],
+    "2005": [
+      {
+        "classification": "4A D1",
+        "team1": "Highland Park",
+        "team2": "Marshall",
+        "score1": null,
+        "score2": null
+      },
+      {
+        "classification": "4A D1",
+        "team1": "San Antonio Alamo Heights",
+        "team2": "Copperas Cove",
+        "score1": null,
+        "score2": null
+      },
+      {
+        "classification": "4A D2",
+        "team1": "Lewisville Hebron",
+        "team2": "CC Calallen",
+        "score1": null,
+        "score2": null
+      },
+      {
+        "classification": "5A D1",
+        "team1": "Euless Trinity",
+        "team2": "Converse Judson",
+        "score1": null,
+        "score2": null
+      }
+    ],
+    "2007": [
+      {
+        "classification": "4A D2",
+        "team1": "Lake Travis",
+        "team2": "Highland Park",
+        "score1": null,
+        "score2": null
+      },
+      {
+        "classification": "5A D1",
+        "team1": "Euless Trinity",
+        "team2": "Converse Judson",
+        "score1": null,
+        "score2": null
+      }
+    ],
+    "2009": [
+      {
+        "classification": "3A D2",
+        "team1": "Carthage",
+        "team2": "Graham",
+        "score1": null,
+        "score2": null
+      },
+      {
+        "classification": "5A D1",
+        "team1": "Euless Trinity",
+        "team2": "Austin Westlake",
+        "score1": null,
+        "score2": null
+      }
+    ]
+  },
+  "DAL": {
+    "2012": [
+      {
+        "classification": "1A D1",
+        "team1": "Stamford",
+        "team2": "Mart",
+        "score1": 35,
+        "score2": 28
+      },
+      {
+        "classification": "4A D2",
+        "team1": "Cedar Park",
+        "team2": "Lancaster",
+        "score1": 17,
+        "score2": 7
+      }
+    ],
+    "2010": [
+      {
+        "classification": "2A D1",
+        "team1": "Daingerfield",
+        "team2": "Cameron Yoe",
+        "score1": 33,
+        "score2": 27
+      }
+    ],
+    "2011": [
+      {
+        "classification": "1A D1",
+        "team1": "Mason",
+        "team2": "Stamford",
+        "score1": 62,
+        "score2": 40
+      },
+      {
+        "classification": "2A D2",
+        "team1": "Refugio",
+        "team2": "Cisco",
+        "score1": 36,
+        "score2": 35
+      }
+    ],
+    "2014": [
+      {
+        "classification": "1A D1",
+        "team1": "Crowell",
+        "team2": "May",
+        "score1": 62,
+        "score2": 16
+      },
+      {
+        "classification": "5A D2",
+        "team1": "Ennis",
+        "team2": "Cedar Park",
+        "score1": 38,
+        "score2": 35
+      }
+    ],
+    "2021": [
+      {
+        "classification": "4A D1",
+        "team1": "Stephenville",
+        "team2": "Austin LBJ",
+        "score1": 38,
+        "score2": 21
+      }
+    ],
+    "2013": [
+      {
+        "classification": "1A D1",
+        "team1": "Stamford",
+        "team2": "Shiner",
+        "score1": 41,
+        "score2": 28
+      },
+      {
+        "classification": "2A D2",
+        "team1": "Cisco",
+        "team2": "Refugio",
+        "score1": 56,
+        "score2": 36
+      }
+    ],
+    "2018": [
+      {
+        "classification": "6A D1",
+        "team1": "Galena Park North Shore",
+        "team2": "Duncanville",
+        "score1": 41,
+        "score2": 36
+      }
+    ],
+    "2019": [
+      {
+        "classification": "5A D2",
+        "team1": "Aledo",
+        "team2": "Fort Bend Marshall",
+        "score1": 45,
+        "score2": 42
+      }
+    ],
+    "2020": [
+      {
+        "classification": "1A D2",
+        "team1": "Balmorrhea",
+        "team2": "Richland Springs",
+        "score1": 74,
+        "score2": 38
+      }
+    ],
+    "2002": [
+      {
+        "classification": "5A D1",
+        "team1": "Converse Judson",
+        "team2": "Midland High",
+        "score1": null,
+        "score2": null
+      }
+    ],
+    "2004": [
+      {
+        "classification": "1A",
+        "team1": "Shiner",
+        "team2": "Stratford",
+        "score1": null,
+        "score2": null
+      },
+      {
+        "classification": "3A D1",
+        "team1": "Abilene Wylie",
+        "team2": "Cuero",
+        "score1": null,
+        "score2": null
+      }
+    ],
+    "2005": [
+      {
+        "classification": "3A D2",
+        "team1": "Tatum",
+        "team2": "Hutto",
+        "score1": null,
+        "score2": null
+      }
+    ],
+    "2007": [
+      {
+        "classification": "2A D1",
+        "team1": "Farmersville",
+        "team2": "Tatum",
+        "score1": null,
+        "score2": null
+      },
+      {
+        "classification": "5A D2",
+        "team1": "Katy",
+        "team2": "Pflugerville",
+        "score1": null,
+        "score2": null
+      }
+    ],
+    "2008": [
+      {
+        "classification": "4A D2",
+        "team1": "Sulpher Springs",
+        "team2": "Dayton",
+        "score1": null,
+        "score2": null
+      }
+    ],
+    "2009": [
+      {
+        "classification": "5A D2",
+        "team1": "Abilene",
+        "team2": "Katy",
+        "score1": null,
+        "score2": null
+      }
+    ]
+  },
+  "FTW": {
+    "2010": [
+      {
+        "classification": "1A D1",
+        "team1": "Mart",
+        "team2": "Goldthwaite",
+        "score1": 28,
+        "score2": 7
+      },
+      {
+        "classification": "2A D2",
+        "team1": "Idalou",
+        "team2": "Lexington",
+        "score1": 20,
+        "score2": 3
+      },
+      {
+        "classification": "3A D2",
+        "team1": "Carthage",
+        "team2": "Coldspring",
+        "score1": 47,
+        "score2": 22
+      }
+    ],
+    "2011": [
+      {
+        "classification": "3A D1",
+        "team1": "Tyler Chapel Hill",
+        "team2": "Alvarado",
+        "score1": 20,
+        "score2": 19
+      }
+    ],
+    "2015": [
+      {
+        "classification": "2A D1",
+        "team1": "Canadian",
+        "team2": "Refugio",
+        "score1": 61,
+        "score2": 20
+      },
+      {
+        "classification": "5A D2",
+        "team1": "Cedar Park",
+        "team2": "Frisco Lone Star",
+        "score1": 22,
+        "score2": 6
+      },
+      {
+        "classification": "6A D1",
+        "team1": "Galena Park North Shore",
+        "team2": "Austin Westlake",
+        "score1": 21,
+        "score2": 14,
+        "ot": "OT"
+      }
+    ],
+    "2018": [
+      {
+        "classification": "1A D1",
+        "team1": "McLean",
+        "team2": "Milford",
+        "score1": 100,
+        "score2": 70
+      },
+      {
+        "classification": "2A D2",
+        "team1": "Mart",
+        "team2": "Gruver",
+        "score1": 76,
+        "score2": 33
+      },
+      {
+        "classification": "3A D2",
+        "team1": "Newton",
+        "team2": "Canadian",
+        "score1": 21,
+        "score2": 16
+      },
+      {
+        "classification": "4A D1",
+        "team1": "La Vega",
+        "team2": "Liberty Hill",
+        "score1": 35,
+        "score2": 21
+      },
+      {
+        "classification": "6A D2",
+        "team1": "Longview",
+        "team2": "Beaumont Westbrook",
+        "score1": 35,
+        "score2": 34
+      }
+    ],
+    "2016": [
+      {
+        "classification": "1A D2",
+        "team1": "Richland Springs",
+        "team2": "Balmorhea",
+        "score1": 96,
+        "score2": 50
+      },
+      {
+        "classification": "2A D1",
+        "team1": "Refugio",
+        "team2": "Crawford",
+        "score1": 23,
+        "score2": 20
+      },
+      {
+        "classification": "2A D2",
+        "team1": "Bremond",
+        "team2": "Iraan",
+        "score1": 49,
+        "score2": 28
+      },
+      {
+        "classification": "3A D2",
+        "team1": "Gunter",
+        "team2": "Boling",
+        "score1": 43,
+        "score2": 7
+      },
+      {
+        "classification": "4A D1",
+        "team1": "Carthage",
+        "team2": "Abilene Wylie",
+        "score1": 31,
+        "score2": 17
+      },
+      {
+        "classification": "6A D2",
+        "team1": "Desoto",
+        "team2": "Cibolo Steele",
+        "score1": 38,
+        "score2": 29
+      }
+    ],
+    "2021": [
+      {
+        "classification": "2A D1",
+        "team1": "Shiner",
+        "team2": "Hawley",
+        "score1": 47,
+        "score2": 12
+      },
+      {
+        "classification": "5A D2",
+        "team1": "South Oak Cliff",
+        "team2": "Liberty Hill",
+        "score1": 23,
+        "score2": 14
+      }
+    ],
+    "2014": [
+      {
+        "classification": "2A D1",
+        "team1": "Canadian",
+        "team2": "Mason",
+        "score1": 24,
+        "score2": 7
+      },
+      {
+        "classification": "3A D1",
+        "team1": "Cameron Yoe",
+        "team2": "Mineola",
+        "score1": 70,
+        "score2": 40
+      }
+    ],
+    "2019": [
+      {
+        "classification": "1A D1",
+        "team1": "Blum",
+        "team2": "McLean",
+        "score1": 58,
+        "score2": 52
+      },
+      {
+        "classification": "2A D1",
+        "team1": "Refugio",
+        "team2": "Post",
+        "score1": 28,
+        "score2": 7
+      },
+      {
+        "classification": "4A D1",
+        "team1": "Carthage",
+        "team2": "La Vega",
+        "score1": 42,
+        "score2": 28
+      },
+      {
+        "classification": "4A D2",
+        "team1": "Pleasant Grove",
+        "team2": "Whitney",
+        "score1": 35,
+        "score2": 21
+      }
+    ],
+    "2013": [
+      {
+        "classification": "3A D2",
+        "team1": "Argyle",
+        "team2": "Fairfield",
+        "score1": 38,
+        "score2": 33
+      },
+      {
+        "classification": "6M D2",
+        "team1": "Grandfalls-Royalty",
+        "team2": "Milford",
+        "score1": 73,
+        "score2": 28
+      }
+    ],
+    "2020": [
+      {
+        "classification": "2A D1",
+        "team1": "Shiner",
+        "team2": "Post",
+        "score1": 42,
+        "score2": 20
+      },
+      {
+        "classification": "6A D1",
+        "team1": "Austin Westlake",
+        "team2": "Southlake Carroll",
+        "score1": 52,
+        "score2": 34
+      }
+    ],
+    "2017": [
+      {
+        "classification": "3A D1",
+        "team1": "Rockdale",
+        "team2": "Brock",
+        "score1": 45,
+        "score2": 29
+      },
+      {
+        "classification": "6A D2",
+        "team1": "Cy-Fair",
+        "team2": "Waco Midway",
+        "score1": 51,
+        "score2": 35
+      }
+    ],
+    "2012": [
+      {
+        "classification": "2A D2",
+        "team1": "East Bernard",
+        "team2": "Corsicana Mildred",
+        "score1": 56,
+        "score2": 14
+      }
+    ],
+    "2001": [
+      {
+        "classification": "5A D2",
+        "team1": "Lufkin",
+        "team2": "Austin Westlake",
+        "score1": null,
+        "score2": null
+      }
+    ],
+    "2004": [
+      {
+        "classification": "2A D2",
+        "team1": "Crawford",
+        "team2": "Troup",
+        "score1": null,
+        "score2": null
+      },
+      {
+        "classification": "6M",
+        "team1": "Richland Springs",
+        "team2": "Turkey Valley",
+        "score1": null,
+        "score2": null
+      }
+    ],
+    "2007": [
+      {
+        "classification": "1A D1",
+        "team1": "Alto",
+        "team2": "Seymour",
+        "score1": null,
+        "score2": null
+      }
+    ],
+    "2008": [
+      {
+        "classification": "2A D1",
+        "team1": "Muleshoe",
+        "team2": "Kirbyville",
+        "score1": null,
+        "score2": null
+      }
+    ]
+  },
+  "TYL": {
+    "2017": [
+      {
+        "classification": "5A D2",
+        "team1": "College station",
+        "team2": "Aledo",
+        "score1": 20,
+        "score2": 19
+      }
+    ],
+    "2011": [
+      {
+        "classification": "4A D1",
+        "team1": "Austin Lake Travis",
+        "team2": "Waco Midway",
+        "score1": 22,
+        "score2": 7
+      },
+      {
+        "classification": "5A D1",
+        "team1": "Southlake Carroll",
+        "team2": "Fort Bend Hightower",
+        "score1": 36,
+        "score2": 29
+      }
+    ],
+    "2015": [
+      {
+        "classification": "2A D2",
+        "team1": "Bremond",
+        "team2": "Albany",
+        "score1": 35,
+        "score2": 20
+      },
+      {
+        "classification": "3A D2",
+        "team1": "Waskom",
+        "team2": "Franklin",
+        "score1": 33,
+        "score2": 21
+      },
+      {
+        "classification": "4A D2",
+        "team1": "West Orange-Stark",
+        "team2": "Celina",
+        "score1": 22,
+        "score2": 3
+      },
+      {
+        "classification": "6A D2",
+        "team1": "Katy",
+        "team2": "Austin Lake Travis",
+        "score1": 34,
+        "score2": 7
+      }
+    ],
+    "2014": [
+      {
+        "classification": "3A D2",
+        "team1": "Waskom",
+        "team2": "Newton",
+        "score1": 41,
+        "score2": 22
+      },
+      {
+        "classification": "6A D2",
+        "team1": "Cedar Hill",
+        "team2": "Katy",
+        "score1": 23,
+        "score2": 20
+      }
+    ],
+    "2016": [
+      {
+        "classification": "4A D2",
+        "team1": "West Orange-Stark",
+        "team2": "Sweetwater",
+        "score1": 24,
+        "score2": 6
+      },
+      {
+        "classification": "6A D1",
+        "team1": "Austin Lake Travis",
+        "team2": "The Woodlands",
+        "score1": 41,
+        "score2": 13
+      }
+    ],
+    "2010": [
+      {
+        "classification": "3A D1",
+        "team1": "Henderson",
+        "team2": "Tyler Chapel Hill",
+        "score1": 28,
+        "score2": 21
+      },
+      {
+        "classification": "5A D1",
+        "team1": "Pearland",
+        "team2": "Euless Trinity",
+        "score1": 28,
+        "score2": 24
+      }
+    ],
+    "2019": [
+      {
+        "classification": "3A D2",
+        "team1": "Gunter",
+        "team2": "Omaha Paul Pewitt",
+        "score1": 43,
+        "score2": 22
+      },
+      {
+        "classification": "5A D1",
+        "team1": "Alvin Shadow Creek",
+        "team2": "Denton Ryan",
+        "score1": 28,
+        "score2": 22
+      }
+    ],
+    "2013": [
+      {
+        "classification": "3A D1",
+        "team1": "Carthage",
+        "team2": "Kilgore",
+        "score1": 34,
+        "score2": 23
+      },
+      {
+        "classification": "5A D2",
+        "team1": "Cedar Hill",
+        "team2": "Katy",
+        "score1": 34,
+        "score2": 24
+      }
+    ],
+    "2012": [
+      {
+        "classification": "5A D1",
+        "team1": "Allen",
+        "team2": "Houston Lamar",
+        "score1": 35,
+        "score2": 21
+      },
+      {
+        "classification": "5A D2",
+        "team1": "Katy",
+        "team2": "Cedar Hill",
+        "score1": 35,
+        "score2": 24
+      }
+    ],
+    "2018": [
+      {
+        "classification": "3A D1",
+        "team1": "Grandview",
+        "team2": "Malakoff",
+        "score1": 35,
+        "score2": 21
+      }
+    ],
+    "2021": [
+      {
+        "classification": "3A D1",
+        "team1": "Lorena",
+        "team2": "Brock",
+        "score1": 35,
+        "score2": 18
+      },
+      {
+        "classification": "3A D2",
+        "team1": "Franklin",
+        "team2": "Gunter",
+        "score1": 49,
+        "score2": 35
+      },
+      {
+        "classification": "6A D2",
+        "team1": "Austin Westlake",
+        "team2": "Denton Guyer",
+        "score1": 40,
+        "score2": 21
+      }
+    ],
+    "2020": [
+      {
+        "classification": "4A D1",
+        "team1": "Argyle",
+        "team2": "Lindale",
+        "score1": 49,
+        "score2": 21
+      },
+      {
+        "classification": "4A D2",
+        "team1": "Carthage",
+        "team2": "Gilmer",
+        "score1": 70,
+        "score2": 14
+      },
+      {
+        "classification": "6A D2",
+        "team1": "Katy",
+        "team2": "Cedar Hill",
+        "score1": 51,
+        "score2": 14
+      }
+    ],
+    "2000": [
+      {
+        "classification": "2A D2",
+        "team1": "Celina",
+        "team2": "Mart",
+        "score1": null,
+        "score2": null
+      },
+      {
+        "classification": "3A D1",
+        "team1": "Gatesville",
+        "team2": "Abilene Wylie",
+        "score1": null,
+        "score2": null
+      }
+    ],
+    "2001": [
+      {
+        "classification": "2A D1",
+        "team1": "Blanco",
+        "team2": "Van Alstyne",
+        "score1": null,
+        "score2": null
+      }
+    ],
+    "2005": [
+      {
+        "classification": "2A D1",
+        "team1": "Newton",
+        "team2": "Argyle",
+        "score1": null,
+        "score2": null
+      },
+      {
+        "classification": "2A D2",
+        "team1": "Celina",
+        "team2": "Omaha Paul Pewitt",
+        "score1": null,
+        "score2": null
+      }
+    ],
+    "2006": [
+      {
+        "classification": "5A D2",
+        "team1": "Cedar Hill",
+        "team2": "Cypress Falls",
+        "score1": null,
+        "score2": null
+      }
+    ],
+    "2008": [
+      {
+        "classification": "3A D1",
+        "team1": "Prosper",
+        "team2": "La Vega",
+        "score1": null,
+        "score2": null
+      },
+      {
+        "classification": "5A D2",
+        "team1": "Katy",
+        "team2": "Wylie",
+        "score1": null,
+        "score2": null
+      }
+    ],
+    "2009": [
+      {
+        "classification": "2A D2",
+        "team1": "Daingerfield",
+        "team2": "Bushland",
+        "score1": null,
+        "score2": null
+      },
+      {
+        "classification": "4A D2",
+        "team1": "Aledo",
+        "team2": "Brenham",
+        "score1": null,
+        "score2": null
+      }
+    ],
+    "2023": [
+      {
+        "classification": "1A D2",
+        "team1": "Benjamin",
+        "team2": "Oglesby",
+        "score1": 82,
+        "score2": 34
+      }
+    ]
+  },
+  "ABI": {
+    "2020": [
+      {
+        "classification": "2A D2",
+        "team1": "Windthorst",
+        "team2": "Mart",
+        "score1": 22,
+        "score2": 21
+      }
+    ],
+    "2019": [
+      {
+        "classification": "2A D2",
+        "team1": "Mart",
+        "team2": "Hamlin",
+        "score1": 25,
+        "score2": 20
+      }
+    ],
+    "2017": [
+      {
+        "classification": "1A D2",
+        "team1": "Strawn",
+        "team2": "Balmorhea",
+        "score1": 78,
+        "score2": 42
+      },
+      {
+        "classification": "2A D1",
+        "team1": "Mart",
+        "team2": "Refugio",
+        "score1": 34,
+        "score2": 21
+      }
+    ],
+    "2013": [
+      {
+        "classification": "1A D2",
+        "team1": "Wellington",
+        "team2": "Falls City",
+        "score1": 42,
+        "score2": 20
+      },
+      {
+        "classification": "5A D1",
+        "team1": "Allen",
+        "team2": "Pearland",
+        "score1": 63,
+        "score2": 28
+      }
+    ],
+    "2012": [
+      {
+        "classification": "4A D1",
+        "team1": "Denton Guyer",
+        "team2": "Georgetown",
+        "score1": 48,
+        "score2": 37
+      }
+    ],
+    "2015": [
+      {
+        "classification": "1A D2",
+        "team1": "Richland Springs",
+        "team2": "Follett",
+        "score1": 72,
+        "score2": 26
+      }
+    ],
+    "2007": [
+      {
+        "classification": "2A D2",
+        "team1": "Canadian",
+        "team2": "Elysian Fields",
+        "score1": null,
+        "score2": null
+      }
+    ]
+  },
+  "WAC": {
+    "2010": [
+      {
+        "classification": "5A D2",
+        "team1": "Cibolo Steele",
+        "team2": "Denton Guyer",
+        "score1": 24,
+        "score2": 21
+      }
+    ],
+    "2019": [
+      {
+        "classification": "1A D2",
+        "team1": "Richland Springs",
+        "team2": "Motley County",
+        "score1": 62,
+        "score2": 16
+      },
+      {
+        "classification": "6A D2",
+        "team1": "Austin Westlake",
+        "team2": "Denton Guyer",
+        "score1": 24,
+        "score2": 0
+      }
+    ],
+    "2011": [
+      {
+        "classification": "5A D2",
+        "team1": "Spring Dekaney",
+        "team2": "Cibolo Steele",
+        "score1": 34,
+        "score2": 14
+      }
+    ],
+    "2012": [
+      {
+        "classification": "6M D1",
+        "team1": "Throckmorton",
+        "team2": "Abbott",
+        "score1": 72,
+        "score2": 30
+      }
+    ],
+    "2002": [
+      {
+        "classification": "1A",
+        "team1": "Petrolia",
+        "team2": "Celeste",
+        "score1": null,
+        "score2": null
+      }
+    ],
+    "2003": [
+      {
+        "classification": "5A D2",
+        "team1": "Katy",
+        "team2": "Southlake Carroll",
+        "score1": null,
+        "score2": null
+      }
+    ],
+    "2004": [
+      {
+        "classification": "2A D1",
+        "team1": "Boyd",
+        "team2": "Newton",
+        "score1": null,
+        "score2": null
+      }
+    ],
+    "2005": [
+      {
+        "classification": "5A D1",
+        "team1": "Southlake Carroll",
+        "team2": "Austin Westlake",
+        "score1": null,
+        "score2": null
+      },
+      {
+        "classification": "5A D2",
+        "team1": "Southlake Carroll",
+        "team2": "Katy",
+        "score1": null,
+        "score2": null
+      }
+    ],
+    "2006": [
+      {
+        "classification": "3A D2",
+        "team1": "Liberty Hill",
+        "team2": "Celina",
+        "score1": null,
+        "score2": null
+      }
+    ]
+  },
+  "SAT": {
+    "2017": [
+      {
+        "classification": "2A D2",
+        "team1": "Muenster",
+        "team2": "Tenaha",
+        "score1": 27,
+        "score2": 20
+      },
+      {
+        "classification": "6A D1",
+        "team1": "Allen",
+        "team2": "Austin Lake Travis",
+        "score1": 35,
+        "score2": 33
+      }
+    ],
+    "2022": [
+      {
+        "classification": "6A D1",
+        "team1": "Duncanville",
+        "team2": "Galena Park North Shore",
+        "score1": 28,
+        "score2": 21
+      }
+    ],
+    "2020": [
+      {
+        "classification": "3A D1",
+        "team1": "Jim Ned",
+        "team2": "Halletsville",
+        "score1": 29,
+        "score2": 28,
+        "ot": "OT"
+      },
+      {
+        "classification": "3A D2",
+        "team1": "Candian",
+        "team2": "Franklin",
+        "score1": 35,
+        "score2": 34
+      }
+    ],
+    "2019": [
+      {
+        "classification": "3A D1",
+        "team1": "Grandview",
+        "team2": "Pottsboro",
+        "score1": 42,
+        "score2": 35
+      },
+      {
+        "classification": "6A D1",
+        "team1": "Galena Park North Shore",
+        "team2": "Duncanville",
+        "score1": 31,
+        "score2": 17
+      }
+    ],
+    "2013": [
+      {
+        "classification": "2A D1",
+        "team1": "Cameron Yoe",
+        "team2": "Wall",
+        "score1": 35,
+        "score2": 14
+      }
+    ],
+    "2012": [
+      {
+        "classification": "2A D1",
+        "team1": "Cameron Yoe",
+        "team2": "Daingerfield",
+        "score1": 38,
+        "score2": 20
+      },
+      {
+        "classification": "3A D1",
+        "team1": "Stephenville",
+        "team2": "El Campo",
+        "score1": 70,
+        "score2": 35
+      }
+    ],
+    "2014": [
+      {
+        "classification": "4A D1",
+        "team1": "Navasota",
+        "team2": "Argyle",
+        "score1": 42,
+        "score2": 35,
+        "ot": "OT"
+      }
+    ],
+    "2015": [
+      {
+        "classification": "3A D1",
+        "team1": "Brock",
+        "team2": "Cameron Yoe",
+        "score1": 43,
+        "score2": 33
+      }
+    ],
+    "2018": [
+      {
+        "classification": "2A D1",
+        "team1": "Mason",
+        "team2": "New Deal",
+        "score1": 44,
+        "score2": 6
+      }
+    ]
+  },
+  "CTX": {
+    "2011": [
+      {
+        "classification": "2A D1",
+        "team1": "Melissa",
+        "team2": "Hempstead",
+        "score1": 28,
+        "score2": 15
+      }
+    ]
+  },
+  "AUS": {
+    "2014": [
+      {
+        "classification": "2A D2",
+        "team1": "Bremond",
+        "team2": "Albany",
+        "score1": 28,
+        "score2": 21
+      },
+      {
+        "classification": "6A D1",
+        "team1": "Allen",
+        "team2": "Cypress Ranch",
+        "score1": 47,
+        "score2": 16
+      }
+    ],
+    "2017": [
+      {
+        "classification": "4A D2",
+        "team1": "Pleasant Grove",
+        "team2": "West Orange-Stark",
+        "score1": 41,
+        "score2": 21
+      },
+      {
+        "classification": "5A D1",
+        "team1": "Highland Park",
+        "team2": "Manvel",
+        "score1": 53,
+        "score2": 49
+      }
+    ],
+    "2011": [
+      {
+        "classification": "1A D2",
+        "team1": "Tenaha",
+        "team2": "Munday",
+        "score1": 52,
+        "score2": 28
+      }
+    ],
+    "2015": [
+      {
+        "classification": "5A D1",
+        "team1": "George Ranch",
+        "team2": "Mansfield Lake Ridge",
+        "score1": 56,
+        "score2": 0
+      }
+    ]
+  },
+  "SAN": {
+    "2016": [
+      {
+        "classification": "3A D1",
+        "team1": "Mineola",
+        "team2": "Yoakum",
+        "score1": 35,
+        "score2": 14
+      }
+    ],
+    "2021": [
+      {
+        "classification": "2A D2",
+        "team1": "Stratford",
+        "team2": "Falls City",
+        "score1": 39,
+        "score2": 27
+      }
+    ],
+    "2015": [
+      {
+        "classification": "1A D1",
+        "team1": "Abbott",
+        "team2": "Crowell",
+        "score1": 40,
+        "score2": 30
+      }
+    ],
+    "2002": [
+      {
+        "classification": "6M",
+        "team1": "Calvert",
+        "team2": "Sandeson",
+        "score1": null,
+        "score2": null
+      }
+    ],
+    "2007": [
+      {
+        "classification": "3A D1",
+        "team1": "Liberty Hill",
+        "team2": "Gilmer",
+        "score1": null,
+        "score2": null
+      }
+    ],
+    "2008": [
+      {
+        "classification": "6M D1",
+        "team1": "Strawn",
+        "team2": "Follett",
+        "score1": null,
+        "score2": null
+      }
+    ],
+    "2009": [
+      {
+        "classification": "6M D1",
+        "team1": "Strawn",
+        "team2": "Garden City",
+        "score1": null,
+        "score2": null
+      }
+    ]
+  },
+  "SPC": {
+    "2012": [
+      {
+        "classification": "1A D2",
+        "team1": "Munday",
+        "team2": "Tenaha",
+        "score1": 42,
+        "score2": 14
+      }
+    ],
+    "2011": [
+      {
+        "classification": "4A D2",
+        "team1": "Aledo",
+        "team2": "Manvel",
+        "score1": 49,
+        "score2": 28
+      }
+    ],
+    "2020": [
+      {
+        "classification": "1A D1",
+        "team1": "Sterling City",
+        "team2": "May",
+        "score1": 68,
+        "score2": 22
+      }
+    ],
+    "2021": [
+      {
+        "classification": "1A D1",
+        "team1": "Westbrook",
+        "team2": "May",
+        "score1": 72,
+        "score2": 66
+      },
+      {
+        "classification": "1A D2",
+        "team1": "Strawn",
+        "team2": "Motley County",
+        "score1": 73,
+        "score2": 28
+      }
+    ],
+    "2013": [
+      {
+        "classification": "6M D1",
+        "team1": "Crowell",
+        "team2": "May",
+        "score1": 78,
+        "score2": 52
+      }
+    ]
+  },
+  "AMA": {
+    "2011": [
+      {
+        "classification": "6M D1",
+        "team1": "Throckmorton",
+        "team2": "Borden County",
+        "score1": 48,
+        "score2": 36
+      }
+    ],
+    "2018": [
+      {
+        "classification": "1A D2",
+        "team1": "Strawn",
+        "team2": "Follett",
+        "score1": 48,
+        "score2": 0
+      }
+    ],
+    "2016": [
+      {
+        "classification": "1A D1",
+        "team1": "Borden County",
+        "team2": "Jonesboro",
+        "score1": 60,
+        "score2": 12
+      }
+    ]
+  },
+  "PVC": {
+    "2017": [
+      {
+        "classification": "1A D1",
+        "team1": "Borden County",
+        "team2": "Jonesboro",
+        "score1": 60,
+        "score2": 22
+      }
+    ]
+  },
+  "NTX": {
+    "2014": [
+      {
+        "classification": "1A D2",
+        "team1": "Throckmorton",
+        "team2": "Groom",
+        "score1": 66,
+        "score2": 20
+      }
+    ],
+    "2008": [
+      {
+        "classification": "1A D1",
+        "team1": "Canadian",
+        "team2": "Mart",
+        "score1": null,
+        "score2": null
+      },
+      {
+        "classification": "1A D2",
+        "team1": "Stratford",
+        "team2": "Cayuga",
+        "score1": null,
+        "score2": null
+      }
+    ]
+  },
+  "CSC": {
+    "2000": [
+      {
+        "classification": "3A D2",
+        "team1": "La Grange",
+        "team2": "Forney",
+        "score1": null,
+        "score2": null
+      }
+    ],
+    "2003": [
+      {
+        "classification": "4A D1",
+        "team1": "North Crowley",
+        "team2": "Bay City",
+        "score1": null,
+        "score2": null
+      }
+    ],
+    "2006": [
+      {
+        "classification": "2A D2",
+        "team1": "Mart",
+        "team2": "Cisco",
+        "score1": null,
+        "score2": null
+      }
+    ],
+    "2008": [
+      {
+        "classification": "2A D2",
+        "team1": "Daingerfield",
+        "team2": "Cisco",
+        "score1": null,
+        "score2": null
+      }
+    ],
+    "2009": [
+      {
+        "classification": "1A D2",
+        "team1": "Cayuga",
+        "team2": "Albany",
+        "score1": null,
+        "score2": null
+      }
+    ]
+  },
+  "BEA": {
+    "2002": [
+      {
+        "classification": "3A D1",
+        "team1": "Everman",
+        "team2": "Burnet",
+        "score1": null,
+        "score2": null
+      }
+    ],
+    "2008": [
+      {
+        "classification": "3A D2",
+        "team1": "Carthage",
+        "team2": "Celina",
+        "score1": null,
+        "score2": null
+      }
+    ]
+  },
+  "STX": {
+    "2004": [
+      {
+        "classification": "4A D2",
+        "team1": "Kilgore",
+        "team2": "Dallas Lincoln",
+        "score1": null,
+        "score2": null
+      }
+    ]
+  }
+}
