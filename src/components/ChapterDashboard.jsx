@@ -208,19 +208,24 @@ export default function ChapterDashboard({ data, year }) {
                   </tr>
                 </thead>
                 <tbody>
-                  {WEEKS.map(w => {
-                    const wk = selectedChapterData.weeks?.[w]
-                    return (
-                      <tr key={w} style={{ borderBottom:'1px solid rgba(15,13,11,0.05)' }}>
-                        <td style={{ ...tdStyle, textAlign:'center' }}>{w}</td>
-                        <td style={{ ...tdStyle, color:'var(--mid)', fontSize:11, textAlign:'center' }}>{ROUND_LABELS[w]}</td>
-                        <td style={{ ...tdStyle, fontWeight:500, textAlign:'center' }}>{wk?.total ?? 0}</td>
-                        <td style={{ ...tdStyle, color:'var(--burnt)', fontFamily:'var(--mono)', fontSize:11, textAlign:'center' }}>
-                          {wk?.cumulative ?? 0}
-                        </td>
-                      </tr>
-                    )
-                  })}
+                  {(() => {
+                    let running = 0
+                    return WEEKS.map(w => {
+                      const wk = selectedChapterData.weeks?.[w]
+                      const games = wk?.total ?? 0
+                      running += games
+                      return (
+                        <tr key={w} style={{ borderBottom:'1px solid rgba(15,13,11,0.05)' }}>
+                          <td style={{ ...tdStyle, textAlign:'center' }}>{w}</td>
+                          <td style={{ ...tdStyle, color:'var(--mid)', fontSize:11, textAlign:'center' }}>{ROUND_LABELS[w]}</td>
+                          <td style={{ ...tdStyle, fontWeight:500, textAlign:'center' }}>{games}</td>
+                          <td style={{ ...tdStyle, color:'var(--burnt)', fontFamily:'var(--mono)', fontSize:11, textAlign:'center' }}>
+                            {running}
+                          </td>
+                        </tr>
+                      )
+                    })
+                  })()}
                   <tr style={{ background:'rgba(212,146,10,0.06)' }}>
                     <td colSpan={2} style={{ ...tdStyle, fontFamily:'var(--mono)', fontSize:10, textTransform:'uppercase', letterSpacing:'0.1em', color:'var(--mid)' }}>Post-Season Total</td>
                     <td colSpan={2} style={{ ...tdStyle, fontFamily:"'Bebas Neue', sans-serif", fontSize:22, color:'var(--burnt)', textAlign:'center' }}>
