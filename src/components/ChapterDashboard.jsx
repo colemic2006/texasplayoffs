@@ -285,11 +285,15 @@ export default function ChapterDashboard({ data, year }) {
               </tr>
             </thead>
             <tbody>
-              {sorted.map((ch, idx) => {
+              {(() => {
+                const divisionTotal = tableClass === 'all'
+                  ? totalGames
+                  : sorted.reduce((s, ch) => s + WEEKS.reduce((ws, w) => ws + (ch.weeks?.[w]?.classifications?.[tableClass] || 0), 0), 0)
+                return sorted.map((ch, idx) => {
                 const rowTotal = tableClass === 'all'
                   ? (ch.total || 0)
                   : WEEKS.reduce((s, w) => s + (ch.weeks?.[w]?.classifications?.[tableClass] || 0), 0)
-                const pct = totalGames > 0 ? ((rowTotal / totalGames) * 100).toFixed(1) : '0.0'
+                const pct = divisionTotal > 0 ? ((rowTotal / divisionTotal) * 100).toFixed(1) : '0.0'
                 return (
                   <tr
                     key={ch.code}
@@ -330,7 +334,8 @@ export default function ChapterDashboard({ data, year }) {
                     </td>
                   </tr>
                 )
-              })}
+              })
+              })()}
             </tbody>
           </table>
         </div>
