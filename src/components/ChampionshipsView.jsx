@@ -233,30 +233,38 @@ function GameCardsPanel({ ch, name, byYear, gamesByYear, onClose }) {
                   <div style={{ fontFamily:'var(--mono)', fontSize:8, color:'var(--mid)', textTransform:'uppercase', letterSpacing:'0.1em', marginBottom:4 }}>
                     {g.classification}
                   </div>
-                  <div style={{ display:'flex', alignItems:'center', gap:6 }}>
-                    <div style={{ flex:1 }}>
-                      <div style={{
-                        fontFamily:'DM Sans', fontSize:12, fontWeight: g.winner === g.team1 ? 600 : 400,
-                        color: g.winner === g.team1 ? 'var(--ink)' : 'var(--mid)'
-                      }}>{g.team1}</div>
-                      <div style={{
-                        fontFamily:'DM Sans', fontSize:12, fontWeight: g.winner === g.team2 ? 600 : 400,
-                        color: g.winner === g.team2 ? 'var(--ink)' : 'var(--mid)'
-                      }}>{g.team2}</div>
+                  {g.score1 != null && g.score2 != null ? (
+                    <>
+                      <div style={{ display:'flex', alignItems:'center', gap:6 }}>
+                        <div style={{ flex:1 }}>
+                          <div style={{
+                            fontFamily:'DM Sans', fontSize:12, fontWeight: g.winner === g.team1 ? 600 : 400,
+                            color: g.winner === g.team1 ? 'var(--ink)' : 'var(--mid)'
+                          }}>{g.team1}</div>
+                          <div style={{
+                            fontFamily:'DM Sans', fontSize:12, fontWeight: g.winner === g.team2 ? 600 : 400,
+                            color: g.winner === g.team2 ? 'var(--ink)' : 'var(--mid)'
+                          }}>{g.team2}</div>
+                        </div>
+                        <div style={{ textAlign:'right' }}>
+                          <div style={{
+                            fontFamily:"'Bebas Neue', sans-serif", fontSize:16,
+                            color: g.winner === g.team1 ? 'var(--burnt)' : 'var(--mid)', lineHeight:1.2
+                          }}>{g.score1}</div>
+                          <div style={{
+                            fontFamily:"'Bebas Neue', sans-serif", fontSize:16,
+                            color: g.winner === g.team2 ? 'var(--burnt)' : 'var(--mid)', lineHeight:1.2
+                          }}>{g.score2}</div>
+                        </div>
+                      </div>
+                      {g.ot && (
+                        <div style={{ fontFamily:'var(--mono)', fontSize:8, color:'var(--mid)', marginTop:3 }}>({g.ot})</div>
+                      )}
+                    </>
+                  ) : (
+                    <div style={{ fontFamily:'DM Sans', fontSize:12, color:'var(--mid)' }}>
+                      {g.team1} vs {g.team2}
                     </div>
-                    <div style={{ textAlign:'right' }}>
-                      <div style={{
-                        fontFamily:"'Bebas Neue', sans-serif", fontSize:16,
-                        color: g.winner === g.team1 ? 'var(--burnt)' : 'var(--mid)', lineHeight:1.2
-                      }}>{g.score1 != null ? g.score1 : '—'}</div>
-                      <div style={{
-                        fontFamily:"'Bebas Neue', sans-serif", fontSize:16,
-                        color: g.winner === g.team2 ? 'var(--burnt)' : 'var(--mid)', lineHeight:1.2
-                      }}>{g.score2 != null ? g.score2 : '—'}</div>
-                    </div>
-                  </div>
-                  {g.ot && (
-                    <div style={{ fontFamily:'var(--mono)', fontSize:8, color:'var(--mid)', marginTop:3 }}>({g.ot})</div>
                   )}
                 </div>
               )) : (
