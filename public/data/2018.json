@@ -294,7 +294,7 @@
       "classification": "6A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "RGV",
+      "chapter": "FTW",
       "team1": "Lake Travis",
       "score1": 45,
       "team2": "Smithson Valley",
@@ -306,7 +306,7 @@
       "classification": "6A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "RGV",
+      "chapter": "SAT",
       "team1": "San Antonio Madison",
       "score1": 35,
       "team2": "San Antonio Warren",
@@ -318,7 +318,7 @@
       "classification": "6A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "FTW",
+      "chapter": "RGV",
       "team1": "Laredo United",
       "score1": 31,
       "team2": "Mission",
@@ -330,7 +330,7 @@
       "classification": "6A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "SAT",
+      "chapter": "RGV",
       "team1": "Weslaco",
       "score1": 25,
       "team2": "Harlingen",
@@ -342,7 +342,7 @@
       "classification": "6A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "RGV",
+      "chapter": "HOU",
       "team1": "Converse Judson",
       "score1": 49,
       "team2": "Buda Hays",
@@ -354,7 +354,7 @@
       "classification": "6A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "RGV",
+      "chapter": "SAT",
       "team1": "San Antonio O'Connor",
       "score1": 7,
       "team2": "San Antonio Reagan",
@@ -366,7 +366,7 @@
       "classification": "6A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "HOU",
+      "chapter": "RGV",
       "team1": "Pharr-San Juan-Alamo North",
       "score1": 25,
       "team2": "Laredo United South",
@@ -378,7 +378,7 @@
       "classification": "6A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "SAT",
+      "chapter": "RGV",
       "team1": "San Benito",
       "score1": 46,
       "team2": "Edinburg",
@@ -394,7 +394,7 @@
       "team1": "El Paso Franklin",
       "score1": 28,
       "team2": "Euless Trinity",
-      "score2": 56,
+      "score2": 44,
       "winner": "Euless Trinity"
     },
     {
@@ -430,7 +430,7 @@
       "team1": "Lewisville",
       "score1": 0,
       "team2": "Duncanville",
-      "score2": 45,
+      "score2": 38,
       "winner": "Duncanville"
     },
     {
@@ -581,32 +581,32 @@
       "year": 2018,
       "classification": "6A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "FTW",
       "team1": "Euless Trinity",
       "score1": 7,
       "team2": "Southlake Carroll",
-      "score2": 44,
+      "score2": 35,
       "winner": "Southlake Carroll"
     },
     {
       "year": 2018,
       "classification": "6A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "HOU",
       "team1": "Arlington Lamar",
       "score1": 6,
       "team2": "Duncanville",
-      "score2": 51,
+      "score2": 45,
       "winner": "Duncanville"
     },
     {
       "year": 2018,
       "classification": "6A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
-      "chapter": "FTW",
+      "round": "Regional",
+      "chapter": "SAT",
       "team1": "Allen",
       "score1": 31,
       "team2": "The Woodlands",
@@ -617,7 +617,7 @@
       "year": 2018,
       "classification": "6A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "FTW",
       "team1": "Waco Midway",
       "score1": 28,
@@ -629,19 +629,19 @@
       "year": 2018,
       "classification": "6A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "HOU",
       "team1": "Katy",
       "score1": 38,
       "team2": "Galena Park North Shore",
-      "score2": 65,
+      "score2": 49,
       "winner": "Galena Park North Shore"
     },
     {
       "year": 2018,
       "classification": "6A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "HOU",
       "team1": "Cypress Fairbanks",
       "score1": 41,
@@ -653,8 +653,8 @@
       "year": 2018,
       "classification": "6A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
-      "chapter": "HOU",
+      "round": "Regional",
+      "chapter": "SAT",
       "team1": "Lake Travis",
       "score1": 56,
       "team2": "Weslaco",
@@ -665,7 +665,7 @@
       "year": 2018,
       "classification": "6A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "AUS",
       "team1": "Converse Judson",
       "score1": 69,
@@ -677,7 +677,7 @@
       "year": 2018,
       "classification": "6A D1",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "HOU",
       "team1": "Southlake Carroll",
       "score1": 7,
@@ -689,7 +689,7 @@
       "year": 2018,
       "classification": "6A D1",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "FTW",
       "team1": "Allen",
       "score1": 51,
@@ -701,7 +701,7 @@
       "year": 2018,
       "classification": "6A D1",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "HOU",
       "team1": "Galena Park North Shore",
       "score1": 38,
@@ -713,7 +713,7 @@
       "year": 2018,
       "classification": "6A D1",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "HOU",
       "team1": "Lake Travis",
       "score1": 38,
@@ -725,37 +725,37 @@
       "year": 2018,
       "classification": "6A D1",
       "week": 5,
-      "round": "State Semifinals",
+      "round": "Semifinal",
       "chapter": "DAL",
       "team1": "Duncanville",
-      "score1": 13,
+      "score1": null,
       "team2": "Allen",
-      "score2": 51,
-      "winner": "Allen"
+      "score2": null,
+      "winner": "Duncanville"
     },
     {
       "year": 2018,
       "classification": "6A D1",
       "week": 5,
-      "round": "State Semifinals",
+      "round": "Semifinal",
       "chapter": "HOU",
       "team1": "Galena Park North Shore",
-      "score1": 14,
+      "score1": null,
       "team2": "Lake Travis",
-      "score2": 38,
-      "winner": "Lake Travis"
+      "score2": null,
+      "winner": "Galena Park North Shore"
     },
     {
       "year": 2018,
       "classification": "6A D1",
       "week": 6,
       "round": "State Final",
-      "chapter": "HOU",
-      "team1": "Allen",
-      "score1": 51,
-      "team2": "Lake Travis",
-      "score2": 21,
-      "winner": "Allen"
+      "chapter": "",
+      "team1": "Duncanville",
+      "score1": null,
+      "team2": "Galena Park North Shore",
+      "score2": null,
+      "winner": "Duncanville"
     },
     {
       "year": 2018,
@@ -774,7 +774,7 @@
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "AUS",
+      "chapter": "FTW",
       "team1": "Haltom City",
       "score1": 47,
       "team2": "Arlington Bowie",
@@ -786,7 +786,7 @@
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "RGV",
+      "chapter": "FTW",
       "team1": "Keller Fossil Ridge",
       "score1": 7,
       "team2": "Lewisville Hebron",
@@ -798,7 +798,7 @@
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "HOU",
+      "chapter": "DAL",
       "team1": "Cedar Hill",
       "score1": 21,
       "team2": "Richardson Pearce",
@@ -810,7 +810,7 @@
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "SAT",
+      "chapter": "FTW",
       "team1": "Amarillo Tascosa",
       "score1": 57,
       "team2": "El Paso Pebble Hills",
@@ -822,7 +822,7 @@
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "RGV",
+      "chapter": "FTW",
       "team1": "Arlington",
       "score1": 49,
       "team2": "Weatherford",
@@ -834,7 +834,7 @@
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "RGV",
+      "chapter": "FTW",
       "team1": "Flower Mound",
       "score1": 21,
       "team2": "Denton Guyer",
@@ -858,7 +858,7 @@
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "SAT",
+      "chapter": "DAL",
       "team1": "Prosper",
       "score1": 41,
       "team2": "Garland Naaman Forest",
@@ -882,12 +882,12 @@
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "HOU",
-      "team1": "Austin Vandergrift",
+      "chapter": "DAL",
+      "team1": "Austin Vangergrift",
       "score1": 35,
       "team2": "Tomball Memorial",
       "score2": 14,
-      "winner": "Austin Vandergrift"
+      "winner": "Austin Vangergrift"
     },
     {
       "year": 2018,
@@ -906,7 +906,7 @@
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "HOU",
+      "chapter": "DAL",
       "team1": "Wylie",
       "score1": 38,
       "team2": "McKinney",
@@ -918,19 +918,19 @@
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "HOU",
+      "chapter": "SAT",
       "team1": "Temple",
       "score1": 38,
-      "team2": "Mesquite Horn",
+      "team2": "Mequite Horn",
       "score2": 45,
-      "winner": "Mesquite Horn"
+      "winner": "Mequite Horn"
     },
     {
       "year": 2018,
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "HOU",
+      "chapter": "CSC",
       "team1": "Cypress Ranch",
       "score1": 24,
       "team2": "Pflugerville Hendrickson",
@@ -966,7 +966,7 @@
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "DAL",
+      "chapter": "HOU",
       "team1": "Katy Tompkins",
       "score1": 35,
       "team2": "Fort Bend Elkins",
@@ -978,7 +978,7 @@
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "SAT",
+      "chapter": "HOU",
       "team1": "Beaumont Westbrook",
       "score1": 56,
       "team2": "Humble Kingwood",
@@ -990,7 +990,7 @@
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "CSC",
+      "chapter": "HOU",
       "team1": "Houston Strake Jesuit",
       "score1": 55,
       "team2": "Friendswood Clear Brook",
@@ -1005,16 +1005,16 @@
       "chapter": "HOU",
       "team1": "Houston Heights",
       "score1": 7,
-      "team2": "Cypress Creek",
+      "team2": "Cypress Creeek",
       "score2": 34,
-      "winner": "Cypress Creek"
+      "winner": "Cypress Creeek"
     },
     {
       "year": 2018,
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "DAL",
+      "chapter": "HOU",
       "team1": "Fort Bend Dulles",
       "score1": 13,
       "team2": "Katy Taylor",
@@ -1038,7 +1038,7 @@
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "FTW",
+      "chapter": "HOU",
       "team1": "Houston Clear Lake",
       "score1": 28,
       "team2": "Pearland Dawson",
@@ -1050,7 +1050,7 @@
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "FTW",
+      "chapter": "HOU",
       "team1": "Austin Westlake",
       "score1": 28,
       "team2": "Schertz Clemens",
@@ -1062,7 +1062,7 @@
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "FTW",
+      "chapter": "SAT",
       "team1": "San Antonio Johnson",
       "score1": 28,
       "team2": "San Antonio Brennan",
@@ -1074,7 +1074,7 @@
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "HOU",
+      "chapter": "RGV",
       "team1": "Laredo Alexander",
       "score1": 40,
       "team2": "McAllen Memorial",
@@ -1086,7 +1086,7 @@
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "FTW",
+      "chapter": "RGV",
       "team1": "Edinburg Vela",
       "score1": 52,
       "team2": "Harlingen South",
@@ -1098,7 +1098,7 @@
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "FTW",
+      "chapter": "HOU",
       "team1": "Cibolo Steele",
       "score1": 18,
       "team2": "Austin Bowie",
@@ -1110,7 +1110,7 @@
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "DAL",
+      "chapter": "SAT",
       "team1": "San Antonio Brandeis",
       "score1": 49,
       "team2": "San Antonio Churchill",
@@ -1122,8 +1122,8 @@
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "DAL",
-      "team1": "Pharr-San Juan-Alamo",
+      "chapter": "AUS",
+      "team1": "Phar-San Juan-Alamo",
       "score1": 28,
       "team2": "Eagle Pass",
       "score2": 34,
@@ -1134,7 +1134,7 @@
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "HOU",
+      "chapter": "RGV",
       "team1": "Brownsville Hanna",
       "score1": 35,
       "team2": "Weslaco East",
@@ -1207,30 +1207,30 @@
       "week": 2,
       "round": "Area",
       "chapter": "DAL",
-      "team1": "Austin Vandergrift",
+      "team1": "Austin Vangergrift",
       "score1": 28,
       "team2": "Klein Collins",
       "score2": 21,
-      "winner": "Austin Vandergrift"
+      "winner": "Austin Vangergrift"
     },
     {
       "year": 2018,
       "classification": "6A D2",
       "week": 2,
       "round": "Area",
-      "chapter": "SAT",
+      "chapter": "DAL",
       "team1": "Wylie",
       "score1": 31,
-      "team2": "Mesquite Horn",
+      "team2": "Mequite Horn",
       "score2": 49,
-      "winner": "Mesquite Horn"
+      "winner": "Mequite Horn"
     },
     {
       "year": 2018,
       "classification": "6A D2",
       "week": 2,
       "round": "Area",
-      "chapter": "CSC",
+      "chapter": "HOU",
       "team1": "Cypress Ranch",
       "score1": 17,
       "team2": "Spring Westfield",
@@ -1246,7 +1246,7 @@
       "team1": "Cypress Falls",
       "score1": 21,
       "team2": "Katy Tompkins",
-      "score2": 45,
+      "score2": 31,
       "winner": "Katy Tompkins"
     },
     {
@@ -1267,11 +1267,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Cypress Creek",
+      "team1": "Cypress Creeek",
       "score1": 24,
       "team2": "Katy Taylor",
       "score2": 14,
-      "winner": "Cypress Creek"
+      "winner": "Cypress Creeek"
     },
     {
       "year": 2018,
@@ -1330,14 +1330,14 @@
       "team1": "Eagle Pass",
       "score1": 13,
       "team2": "Brownsville Hanna",
-      "score2": 32,
+      "score2": 28,
       "winner": "Brownsville Hanna"
     },
     {
       "year": 2018,
       "classification": "6A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "FTW",
       "team1": "Haltom City",
       "score1": 41,
@@ -1349,7 +1349,7 @@
       "year": 2018,
       "classification": "6A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "HOU",
       "team1": "Amarillo Tascosa",
       "score1": 43,
@@ -1361,11 +1361,11 @@
       "year": 2018,
       "classification": "6A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "HOU",
       "team1": "Longview",
-      "score1": 63,
-      "team2": "Austin Vandergrift",
+      "score1": 56,
+      "team2": "Austin Vangergrift",
       "score2": 28,
       "winner": "Longview"
     },
@@ -1373,9 +1373,9 @@
       "year": 2018,
       "classification": "6A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "SAT",
-      "team1": "Mesquite Horn",
+      "team1": "Mequite Horn",
       "score1": 16,
       "team2": "Spring Westfield",
       "score2": 35,
@@ -1385,7 +1385,7 @@
       "year": 2018,
       "classification": "6A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "HOU",
       "team1": "Katy Tompkins",
       "score1": 45,
@@ -1397,19 +1397,19 @@
       "year": 2018,
       "classification": "6A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "HOU",
-      "team1": "Cypress Creek",
+      "team1": "Cypress Creeek",
       "score1": 43,
       "team2": "Humble Summer Creek",
       "score2": 14,
-      "winner": "Cypress Creek"
+      "winner": "Cypress Creeek"
     },
     {
       "year": 2018,
       "classification": "6A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "HOU",
       "team1": "Austin Westlake",
       "score1": 28,
@@ -1421,19 +1421,19 @@
       "year": 2018,
       "classification": "6A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "HOU",
       "team1": "San Antonio Brandeis",
       "score1": 33,
       "team2": "Brownsville Hanna",
-      "score2": 28,
+      "score2": 32,
       "winner": "San Antonio Brandeis"
     },
     {
       "year": 2018,
       "classification": "6A D2",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "AUS",
       "team1": "Haltom City",
       "score1": 27,
@@ -1445,7 +1445,7 @@
       "year": 2018,
       "classification": "6A D2",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "SAT",
       "team1": "Longview",
       "score1": 14,
@@ -1457,11 +1457,11 @@
       "year": 2018,
       "classification": "6A D2",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "HOU",
       "team1": "Beaumont Westbrook",
       "score1": 31,
-      "team2": "Cypress Creek",
+      "team2": "Cypress Creeek",
       "score2": 21,
       "winner": "Beaumont Westbrook"
     },
@@ -1469,7 +1469,7 @@
       "year": 2018,
       "classification": "6A D2",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "HOU",
       "team1": "Austin Westlake",
       "score1": 26,
@@ -1481,37 +1481,37 @@
       "year": 2018,
       "classification": "6A D2",
       "week": 5,
-      "round": "State Semifinals",
+      "round": "Semifinal",
       "chapter": "DAL",
       "team1": "Amarillo Tascosa",
-      "score1": 11,
+      "score1": null,
       "team2": "Longview",
-      "score2": 56,
-      "winner": "Longview"
+      "score2": null,
+      "winner": "Amarillo Tascosa"
     },
     {
       "year": 2018,
       "classification": "6A D2",
       "week": 5,
-      "round": "State Semifinals",
+      "round": "Semifinal",
       "chapter": "CSC",
       "team1": "Beaumont Westbrook",
-      "score1": 0,
+      "score1": null,
       "team2": "Austin Westlake",
-      "score2": 28,
-      "winner": "Austin Westlake"
+      "score2": null,
+      "winner": "Beaumont Westbrook"
     },
     {
       "year": 2018,
       "classification": "6A D2",
       "week": 6,
       "round": "State Final",
-      "chapter": "DAL",
-      "team1": "Longview",
-      "score1": 14,
-      "team2": "Austin Westlake",
-      "score2": 13,
-      "winner": "Longview"
+      "chapter": "",
+      "team1": "Amarillo Tascosa",
+      "score1": null,
+      "team2": "Beaumont Westbrook",
+      "score2": null,
+      "winner": "Beaumont Westbrook"
     },
     {
       "year": 2018,
@@ -1651,7 +1651,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "WAC",
-      "team1": "Mesquite Poteet",
+      "team1": "Mequite Poteet",
       "score1": 38,
       "team2": "College Station",
       "score2": 41,
@@ -1854,7 +1854,7 @@
       "classification": "5A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "SAT",
+      "chapter": "STX",
       "team1": "CC Veterans Memorial",
       "score1": 44,
       "team2": "Brownsville Veterans Memorial",
@@ -1866,7 +1866,7 @@
       "classification": "5A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "HOU",
+      "chapter": "SAT",
       "team1": "San Antonio Harlan",
       "score1": 33,
       "team2": "San Antonio Sam Houston",
@@ -1878,7 +1878,7 @@
       "classification": "5A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "STX",
+      "chapter": "SAT",
       "team1": "Mission Veterans Memorial",
       "score1": 69,
       "team2": "Victoria East",
@@ -1890,7 +1890,7 @@
       "classification": "5A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "SAT",
+      "chapter": "HOU",
       "team1": "San Antonio Veterans Memorial",
       "score1": 35,
       "team2": "Laredo Martin",
@@ -1930,8 +1930,8 @@
       "team1": "Azle",
       "score1": 34,
       "team2": "Lubbock Coronado",
-      "score2": 0,
-      "winner": "Azle"
+      "score2": 41,
+      "winner": "Lubbock Coronado"
     },
     {
       "year": 2018,
@@ -2034,7 +2034,7 @@
       "classification": "5A D1",
       "week": 2,
       "round": "Area",
-      "chapter": "HOU",
+      "chapter": "STX",
       "team1": "Manor",
       "score1": 28,
       "team2": "Richmond Foster",
@@ -2082,7 +2082,7 @@
       "classification": "5A D1",
       "week": 2,
       "round": "Area",
-      "chapter": "SAT",
+      "chapter": "HOU",
       "team1": "Mission Veterans Memorial",
       "score1": 48,
       "team2": "San Antonio Veterans Memorial",
@@ -2093,7 +2093,7 @@
       "year": 2018,
       "classification": "5A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "FTW",
       "team1": "N Richland Hills Birdville",
       "score1": 28,
@@ -2105,7 +2105,7 @@
       "year": 2018,
       "classification": "5A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "WAC",
       "team1": "Lubbock Coronado",
       "score1": 0,
@@ -2117,19 +2117,19 @@
       "year": 2018,
       "classification": "5A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "HOU",
       "team1": "Mansfield Timberview",
       "score1": 7,
       "team2": "Highland Park",
-      "score2": 28,
+      "score2": 52,
       "winner": "Highland Park"
     },
     {
       "year": 2018,
       "classification": "5A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "FTW",
       "team1": "Tyler John Tyler",
       "score1": 31,
@@ -2141,19 +2141,19 @@
       "year": 2018,
       "classification": "5A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "HOU",
       "team1": "Georgetown",
       "score1": 7,
       "team2": "Alvin Shadow Creek",
-      "score2": 25,
+      "score2": 36,
       "winner": "Alvin Shadow Creek"
     },
     {
       "year": 2018,
       "classification": "5A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "HOU",
       "team1": "Hutto",
       "score1": 31,
@@ -2165,7 +2165,7 @@
       "year": 2018,
       "classification": "5A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "AUS",
       "team1": "San Antonio Wagner",
       "score1": 49,
@@ -2177,19 +2177,19 @@
       "year": 2018,
       "classification": "5A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "SAT",
       "team1": "CC Veterans Memorial",
       "score1": 55,
       "team2": "Mission Veterans Memorial",
-      "score2": 21,
-      "winner": "CC Veterans Memorial"
+      "score2": 62,
+      "winner": "Mission Veterans Memorial"
     },
     {
       "year": 2018,
       "classification": "5A D1",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "AUS",
       "team1": "N Richland Hills Birdville",
       "score1": 0,
@@ -2201,7 +2201,7 @@
       "year": 2018,
       "classification": "5A D1",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "HOU",
       "team1": "Highland Park",
       "score1": 42,
@@ -2213,61 +2213,61 @@
       "year": 2018,
       "classification": "5A D1",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "HOU",
       "team1": "Alvin Shadow Creek",
-      "score1": 13,
+      "score1": 25,
       "team2": "Richmond Foster",
       "score2": 21,
-      "winner": "Richmond Foster"
+      "winner": "Alvin Shadow Creek"
     },
     {
       "year": 2018,
       "classification": "5A D1",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "AUS",
       "team1": "San Antonio Wagner",
       "score1": 54,
-      "team2": "CC Veterans Memorial",
-      "score2": 55,
-      "winner": "CC Veterans Memorial"
+      "team2": "Mission Veterans Memorial",
+      "score2": 21,
+      "winner": "San Antonio Wagner"
     },
     {
       "year": 2018,
       "classification": "5A D1",
       "week": 5,
-      "round": "State Semifinals",
+      "round": "Semifinal",
       "chapter": "DAL",
       "team1": "Denton Ryan",
-      "score1": 28,
+      "score1": null,
       "team2": "Highland Park",
-      "score2": 52,
-      "winner": "Highland Park"
+      "score2": null,
+      "winner": "Denton Ryan"
     },
     {
       "year": 2018,
       "classification": "5A D1",
       "week": 5,
-      "round": "State Semifinals",
+      "round": "Semifinal",
       "chapter": "HOU",
-      "team1": "Richmond Foster",
-      "score1": 21,
+      "team1": "Alvin Shadow Creek",
+      "score1": null,
       "team2": "San Antonio Wagner",
-      "score2": 54,
-      "winner": "San Antonio Wagner"
+      "score2": null,
+      "winner": "Alvin Shadow Creek"
     },
     {
       "year": 2018,
       "classification": "5A D1",
       "week": 6,
       "round": "State Final",
-      "chapter": "HOU",
-      "team1": "Highland Park",
-      "score1": 42,
-      "team2": "San Antonio Wagner",
-      "score2": 13,
-      "winner": "Highland Park"
+      "chapter": "",
+      "team1": "Denton Ryan",
+      "score1": null,
+      "team2": "Alvin Shadow Creek",
+      "score2": null,
+      "winner": "Alvin Shadow Creek"
     },
     {
       "year": 2018,
@@ -2286,7 +2286,7 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "HOU",
+      "chapter": "TYL",
       "team1": "Fort Worth Southwest",
       "score1": 7,
       "team2": "Canyon Randall",
@@ -2298,7 +2298,7 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "HOU",
+      "chapter": "ELP",
       "team1": "El Paso Andress",
       "score1": 33,
       "team2": "El Paso Hanks",
@@ -2310,7 +2310,7 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "HOU",
+      "chapter": "WAC",
       "team1": "Wichita Falls Rider",
       "score1": 57,
       "team2": "Fort Worth Wyatt",
@@ -2322,7 +2322,7 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "HOU",
+      "chapter": "NTX",
       "team1": "Lubbock Cooper",
       "score1": 52,
       "team2": "Fort Worth Eastern Hills",
@@ -2334,7 +2334,7 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "HOU",
+      "chapter": "ELP",
       "team1": "El Paso Austin",
       "score1": 35,
       "team2": "Canutillo",
@@ -2346,7 +2346,7 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "HOU",
+      "chapter": "DAL",
       "team1": "Justin Northwest",
       "score1": 58,
       "team2": "Wichita Falls",
@@ -2358,7 +2358,7 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "SAT",
+      "chapter": "ELP",
       "team1": "Clint Horizon",
       "score1": 14,
       "team2": "El Paso Burges",
@@ -2370,7 +2370,7 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "DAL",
+      "chapter": "FTW",
       "team1": "Aledo",
       "score1": 48,
       "team2": "Seagoville",
@@ -2382,7 +2382,7 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "HOU",
+      "chapter": "FTW",
       "team1": "Kaufman",
       "score1": 29,
       "team2": "Lucas Lovejoy",
@@ -2394,7 +2394,7 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "FTW",
+      "chapter": "HOU",
       "team1": "Dallas South Oak Cliff",
       "score1": 40,
       "team2": "Everman",
@@ -2406,7 +2406,7 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "HOU",
+      "chapter": "DAL",
       "team1": "Frisco",
       "score1": 41,
       "team2": "Sulphur Springs",
@@ -2418,7 +2418,7 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "FTW",
+      "chapter": "ETX",
       "team1": "Frisco Reedy",
       "score1": 47,
       "team2": "Ennis",
@@ -2430,7 +2430,7 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "CTX",
+      "chapter": "DAL",
       "team1": "Red Oak",
       "score1": 13,
       "team2": "Midlothian",
@@ -2466,7 +2466,7 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "HOU",
+      "chapter": "CTX",
       "team1": "Marshall",
       "score1": 53,
       "team2": "Rosenburg Lamar",
@@ -2478,7 +2478,7 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "ETX",
+      "chapter": "HOU",
       "team1": "Nederland",
       "score1": 22,
       "team2": "Fort Bend Willowridge",
@@ -2490,7 +2490,7 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "DAL",
+      "chapter": "HOU",
       "team1": "Huntsville",
       "score1": 57,
       "team2": "Nacogdoches",
@@ -2526,7 +2526,7 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "HOU",
+      "chapter": "FTW",
       "team1": "A&M Consolidated",
       "score1": 40,
       "team2": "Whitehouse",
@@ -2538,7 +2538,7 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "DAL",
+      "chapter": "HOU",
       "team1": "Port Neches-Groves",
       "score1": 48,
       "team2": "Houston Northside",
@@ -2550,7 +2550,7 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "NTX",
+      "chapter": "FTW",
       "team1": "Lindale",
       "score1": 52,
       "team2": "Montgomery",
@@ -2562,7 +2562,7 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "ELP",
+      "chapter": "HOU",
       "team1": "Leander Glenn",
       "score1": 28,
       "team2": "Medina Valley",
@@ -2574,7 +2574,7 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "DAL",
+      "chapter": "HOU",
       "team1": "Sharyland Pioneer",
       "score1": 55,
       "team2": "Port Lavaca Calhoun",
@@ -2586,7 +2586,7 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "ELP",
+      "chapter": "HOU",
       "team1": "Kerrville Tivy",
       "score1": 63,
       "team2": "Bastrop",
@@ -2598,7 +2598,7 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "TYL",
+      "chapter": "HOU",
       "team1": "San Antonio Southside",
       "score1": 58,
       "team2": "Mercedes",
@@ -2610,19 +2610,19 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "ELP",
-      "team1": "Corpus Christi Calallen",
+      "chapter": "SAT",
+      "team1": "Corpus Christia Calallen",
       "score1": 49,
       "team2": "Pharr Valley View",
       "score2": 0,
-      "winner": "Corpus Christi Calallen"
+      "winner": "Corpus Christia Calallen"
     },
     {
       "year": 2018,
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "WAC",
+      "chapter": "DAL",
       "team1": "Alamo Heights",
       "score1": 38,
       "team2": "Georgetown East View",
@@ -2634,7 +2634,7 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "FTW",
+      "chapter": "HOU",
       "team1": "Mission Sharyland",
       "score1": 27,
       "team2": "Somerset",
@@ -2646,7 +2646,7 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "FTW",
+      "chapter": "HOU",
       "team1": "Brenham",
       "score1": 23,
       "team2": "Boerne-Champion",
@@ -2806,7 +2806,7 @@
       "team1": "Leander Glenn",
       "score1": 27,
       "team2": "Port Lavaca Calhoun",
-      "score2": 49,
+      "score2": 45,
       "winner": "Port Lavaca Calhoun"
     },
     {
@@ -2814,7 +2814,7 @@
       "classification": "5A D2",
       "week": 2,
       "round": "Area",
-      "chapter": "HOU",
+      "chapter": "SAT",
       "team1": "Kerrville Tivy",
       "score1": 24,
       "team2": "San Antonio Southside",
@@ -2827,11 +2827,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Corpus Christi Calallen",
+      "team1": "Corpus Christia Calallen",
       "score1": 63,
       "team2": "Alamo Heights",
       "score2": 35,
-      "winner": "Corpus Christi Calallen"
+      "winner": "Corpus Christia Calallen"
     },
     {
       "year": 2018,
@@ -2849,7 +2849,7 @@
       "year": 2018,
       "classification": "5A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "PBC",
       "team1": "Canyon Randall",
       "score1": 7,
@@ -2861,7 +2861,7 @@
       "year": 2018,
       "classification": "5A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "ABI",
       "team1": "Lubbock Cooper",
       "score1": 34,
@@ -2873,19 +2873,19 @@
       "year": 2018,
       "classification": "5A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "HOU",
       "team1": "Aledo",
       "score1": 28,
       "team2": "Dallas South Oak Cliff",
-      "score2": 48,
-      "winner": "Dallas South Oak Cliff"
+      "score2": 14,
+      "winner": "Aledo"
     },
     {
       "year": 2018,
       "classification": "5A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "FTW",
       "team1": "Frisco Reedy",
       "score1": 34,
@@ -2897,19 +2897,19 @@
       "year": 2018,
       "classification": "5A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "WAC",
       "team1": "Marshall",
       "score1": 34,
       "team2": "Huntsville",
-      "score2": 43,
+      "score2": 35,
       "winner": "Huntsville"
     },
     {
       "year": 2018,
       "classification": "5A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "HOU",
       "team1": "Fort Bend Marshall",
       "score1": 53,
@@ -2921,31 +2921,31 @@
       "year": 2018,
       "classification": "5A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "HOU",
       "team1": "Port Lavaca Calhoun",
-      "score1": 45,
+      "score1": 49,
       "team2": "Kerrville Tivy",
-      "score2": 17,
+      "score2": 39,
       "winner": "Port Lavaca Calhoun"
     },
     {
       "year": 2018,
       "classification": "5A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "ABI",
-      "team1": "Corpus Christi Calallen",
+      "team1": "Corpus Christia Calallen",
       "score1": 42,
       "team2": "Brenham",
       "score2": 13,
-      "winner": "Corpus Christi Calallen"
+      "winner": "Corpus Christia Calallen"
     },
     {
       "year": 2018,
       "classification": "5A D2",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "CTX",
       "team1": "Wichita Falls Rider",
       "score1": 38,
@@ -2957,19 +2957,19 @@
       "year": 2018,
       "classification": "5A D2",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "FTW",
-      "team1": "Dallas South Oak Cliff",
-      "score1": 14,
+      "team1": "Aledo",
+      "score1": 26,
       "team2": "Frisco Reedy",
       "score2": 16,
-      "winner": "Frisco Reedy"
+      "winner": "Aledo"
     },
     {
       "year": 2018,
       "classification": "5A D2",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "HOU",
       "team1": "Huntsville",
       "score1": 43,
@@ -2981,36 +2981,36 @@
       "year": 2018,
       "classification": "5A D2",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "TYL",
       "team1": "Port Lavaca Calhoun",
       "score1": 17,
-      "team2": "Corpus Christi Calallen",
+      "team2": "Corpus Christia Calallen",
       "score2": 48,
-      "winner": "Corpus Christi Calallen"
+      "winner": "Corpus Christia Calallen"
     },
     {
       "year": 2018,
       "classification": "5A D2",
       "week": 5,
-      "round": "State Semifinals",
+      "round": "Semifinal",
       "chapter": "TYL",
       "team1": "Wichita Falls Rider",
-      "score1": 9,
-      "team2": "Frisco Reedy",
-      "score2": 16,
-      "winner": "Frisco Reedy"
+      "score1": null,
+      "team2": "Aledo",
+      "score2": null,
+      "winner": "Wichita Falls Rider"
     },
     {
       "year": 2018,
       "classification": "5A D2",
       "week": 5,
-      "round": "State Semifinals",
+      "round": "Semifinal",
       "chapter": "WAC",
       "team1": "Fort Bend Marshall",
-      "score1": 47,
-      "team2": "Corpus Christi Calallen",
-      "score2": 13,
+      "score1": null,
+      "team2": "Corpus Christia Calallen",
+      "score2": null,
       "winner": "Fort Bend Marshall"
     },
     {
@@ -3018,11 +3018,11 @@
       "classification": "5A D2",
       "week": 6,
       "round": "State Final",
-      "chapter": "WAC",
-      "team1": "Frisco Reedy",
-      "score1": 16,
+      "chapter": "",
+      "team1": "Wichita Falls Rider",
+      "score1": null,
       "team2": "Fort Bend Marshall",
-      "score2": 47,
+      "score2": null,
       "winner": "Fort Bend Marshall"
     },
     {
@@ -3054,7 +3054,7 @@
       "classification": "4A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "FTW",
+      "chapter": "PBC",
       "team1": "Seminole",
       "score1": 42,
       "team2": "Fabens",
@@ -3066,7 +3066,7 @@
       "classification": "4A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "ETX",
+      "chapter": "ABI",
       "team1": "Canyon",
       "score1": 62,
       "team2": "Gainesville",
@@ -3090,7 +3090,7 @@
       "classification": "4A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "TYL",
+      "chapter": "ELP",
       "team1": "Andrews",
       "score1": 57,
       "team2": "San Elizario",
@@ -3102,7 +3102,7 @@
       "classification": "4A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "FTW",
+      "chapter": "ETX",
       "team1": "WF Hirschi",
       "score1": 56,
       "team2": "Pampa",
@@ -3114,7 +3114,7 @@
       "classification": "4A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "WAC",
+      "chapter": "ABI",
       "team1": "Mountain View",
       "score1": 21,
       "team2": "San Angelo Lake View",
@@ -3126,7 +3126,7 @@
       "classification": "4A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "ABI",
+      "chapter": "TYL",
       "team1": "Waco La Vega",
       "score1": 61,
       "team2": "Lake Worth",
@@ -3138,7 +3138,7 @@
       "classification": "4A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "ABI",
+      "chapter": "FTW",
       "team1": "Alvarado",
       "score1": 38,
       "team2": "Melissa",
@@ -3150,7 +3150,7 @@
       "classification": "4A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "ELP",
+      "chapter": "WAC",
       "team1": "Kennedale",
       "score1": 58,
       "team2": "Brownwood",
@@ -3162,7 +3162,7 @@
       "classification": "4A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "TYL",
+      "chapter": "ABI",
       "team1": "Paris",
       "score1": 59,
       "team2": "Dallas Carter",
@@ -3186,7 +3186,7 @@
       "classification": "4A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "ABI",
+      "chapter": "TYL",
       "team1": "Fort Worth Benbrook",
       "score1": 15,
       "team2": "China Spring",
@@ -3198,7 +3198,7 @@
       "classification": "4A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "PBC",
+      "chapter": "ABI",
       "team1": "Wilmer-Hutchins",
       "score1": 34,
       "team2": "Celina",
@@ -3210,7 +3210,7 @@
       "classification": "4A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "ABI",
+      "chapter": "FTW",
       "team1": "Stephenville",
       "score1": 54,
       "team2": "Fort Worth Dunbar",
@@ -3223,11 +3223,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "WAC",
-      "team1": "Midlothian Heritage",
+      "team1": "Midlothan Heritage",
       "score1": 42,
       "team2": "Kilgore",
       "score2": 21,
-      "winner": "Midlothian Heritage"
+      "winner": "Midlothan Heritage"
     },
     {
       "year": 2018,
@@ -3306,7 +3306,7 @@
       "classification": "4A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "SAT",
+      "chapter": "ABI",
       "team1": "Crandall",
       "score1": 24,
       "team2": "Henderson",
@@ -3318,7 +3318,7 @@
       "classification": "4A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "SAT",
+      "chapter": "CSC",
       "team1": "Sealy",
       "score1": 55,
       "team2": "Taylor",
@@ -3330,7 +3330,7 @@
       "classification": "4A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "FTW",
+      "chapter": "HOU",
       "team1": "Zapata",
       "score1": 11,
       "team2": "Boerne",
@@ -3342,7 +3342,7 @@
       "classification": "4A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "HOU",
+      "chapter": "CSC",
       "team1": "Liberty Hill",
       "score1": 62,
       "team2": "Bay City",
@@ -3354,7 +3354,7 @@
       "classification": "4A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "ABI",
+      "chapter": "AUS",
       "team1": "Kingsville King",
       "score1": 15,
       "team2": "Gonzales",
@@ -3366,7 +3366,7 @@
       "classification": "4A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "CSC",
+      "chapter": "HOU",
       "team1": "La Vernia",
       "score1": 55,
       "team2": "Rio Grande City Grulla",
@@ -3378,7 +3378,7 @@
       "classification": "4A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "HOU",
+      "chapter": "SAT",
       "team1": "Lampasas",
       "score1": 42,
       "team2": "Freeport Brazosport",
@@ -3390,7 +3390,7 @@
       "classification": "4A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "CSC",
+      "chapter": "SAT",
       "team1": "La Feria",
       "score1": 28,
       "team2": "Beeville Jones",
@@ -3402,7 +3402,7 @@
       "classification": "4A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "AUS",
+      "chapter": "FTW",
       "team1": "Needville",
       "score1": 42,
       "team2": "Canyon Lake",
@@ -3454,7 +3454,7 @@
       "team1": "WF Hirschi",
       "score1": 55,
       "team2": "San Angelo Lake View",
-      "score2": 28,
+      "score2": null,
       "winner": "WF Hirschi"
     },
     {
@@ -3511,11 +3511,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "WAC",
-      "team1": "Midlothian Heritage",
+      "team1": "Midlothan Heritage",
       "score1": 49,
       "team2": "Navasota",
       "score2": 9,
-      "winner": "Midlothian Heritage"
+      "winner": "Midlothan Heritage"
     },
     {
       "year": 2018,
@@ -3570,7 +3570,7 @@
       "classification": "4A D1",
       "week": 2,
       "round": "Area",
-      "chapter": "FTW",
+      "chapter": "CSC",
       "team1": "Liberty Hill",
       "score1": 56,
       "team2": "Gonzales",
@@ -3605,7 +3605,7 @@
       "year": 2018,
       "classification": "4A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "AMA",
       "team1": "Hereford",
       "score1": 14,
@@ -3617,7 +3617,7 @@
       "year": 2018,
       "classification": "4A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "WAC",
       "team1": "Decatur",
       "score1": 31,
@@ -3629,7 +3629,7 @@
       "year": 2018,
       "classification": "4A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "FTW",
       "team1": "Waco La Vega",
       "score1": 38,
@@ -3641,7 +3641,7 @@
       "year": 2018,
       "classification": "4A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "FTW",
       "team1": "Argyle",
       "score1": 26,
@@ -3653,9 +3653,9 @@
       "year": 2018,
       "classification": "4A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "AUS",
-      "team1": "Midlothian Heritage",
+      "team1": "Midlothan Heritage",
       "score1": 49,
       "team2": "Carthage",
       "score2": 50,
@@ -3665,7 +3665,7 @@
       "year": 2018,
       "classification": "4A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "FTW",
       "team1": "Van",
       "score1": 20,
@@ -3677,8 +3677,8 @@
       "year": 2018,
       "classification": "4A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
-      "chapter": "FTW",
+      "round": "Regional",
+      "chapter": "WAC",
       "team1": "Sealy",
       "score1": 21,
       "team2": "Liberty Hill",
@@ -3689,7 +3689,7 @@
       "year": 2018,
       "classification": "4A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "FTW",
       "team1": "La Vernia",
       "score1": 41,
@@ -3701,7 +3701,7 @@
       "year": 2018,
       "classification": "4A D1",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "ABI",
       "team1": "Hereford",
       "score1": 28,
@@ -3713,7 +3713,7 @@
       "year": 2018,
       "classification": "4A D1",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "TYL",
       "team1": "Waco La Vega",
       "score1": 31,
@@ -3725,7 +3725,7 @@
       "year": 2018,
       "classification": "4A D1",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "HOU",
       "team1": "Carthage",
       "score1": 28,
@@ -3737,7 +3737,7 @@
       "year": 2018,
       "classification": "4A D1",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "FTW",
       "team1": "Liberty Hill",
       "score1": 35,
@@ -3749,24 +3749,24 @@
       "year": 2018,
       "classification": "4A D1",
       "week": 5,
-      "round": "State Semifinals",
+      "round": "Semifinal",
       "chapter": "TYL",
       "team1": "Decatur",
-      "score1": 6,
+      "score1": null,
       "team2": "Waco La Vega",
-      "score2": 31,
-      "winner": "Waco La Vega"
+      "score2": null,
+      "winner": "Decatur"
     },
     {
       "year": 2018,
       "classification": "4A D1",
       "week": 5,
-      "round": "State Semifinals",
+      "round": "Semifinal",
       "chapter": "HOU",
       "team1": "Carthage",
-      "score1": 14,
+      "score1": null,
       "team2": "Liberty Hill",
-      "score2": 12,
+      "score2": null,
       "winner": "Carthage"
     },
     {
@@ -3774,11 +3774,11 @@
       "classification": "4A D1",
       "week": 6,
       "round": "State Final",
-      "chapter": "HOU",
-      "team1": "Waco La Vega",
-      "score1": 12,
+      "chapter": "",
+      "team1": "Decatur",
+      "score1": null,
       "team2": "Carthage",
-      "score2": 14,
+      "score2": null,
       "winner": "Carthage"
     },
     {
@@ -3798,7 +3798,7 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "RGV",
+      "chapter": "FTW",
       "team1": "Ferris",
       "score1": 14,
       "team2": "Vernon",
@@ -3810,7 +3810,7 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "SAT",
+      "chapter": "ABI",
       "team1": "Levelland",
       "score1": 62,
       "team2": "Monahans",
@@ -3822,7 +3822,7 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "SAT",
+      "chapter": "FTW",
       "team1": "Iowa Park",
       "score1": 42,
       "team2": "Hillsboro",
@@ -3834,7 +3834,7 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "SAT",
+      "chapter": "ABI",
       "team1": "Graham",
       "score1": 70,
       "team2": "Godley",
@@ -3846,7 +3846,7 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "SAT",
+      "chapter": "SPC",
       "team1": "Lubbock Estacado",
       "score1": 24,
       "team2": "Fort Stockton",
@@ -3858,7 +3858,7 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "DAL",
+      "chapter": "FTW",
       "team1": "Glen Rose",
       "score1": 49,
       "team2": "Aubrey",
@@ -3870,7 +3870,7 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "SAT",
+      "chapter": "SPC",
       "team1": "Snyder",
       "score1": 7,
       "team2": "Dalhart",
@@ -3882,7 +3882,7 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "HOU",
+      "chapter": "FTW",
       "team1": "Sunnyvale",
       "score1": 24,
       "team2": "Gilmer",
@@ -3894,7 +3894,7 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "CSC",
+      "chapter": "TYL",
       "team1": "Fairfield",
       "score1": 56,
       "team2": "Wills Point",
@@ -3906,7 +3906,7 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "HOU",
+      "chapter": "COM",
       "team1": "Texarkana Pleasant Grove",
       "score1": 56,
       "team2": "Dallas Roosevelt",
@@ -3918,7 +3918,7 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "HOU",
+      "chapter": "CSC",
       "team1": "Bullard",
       "score1": 31,
       "team2": "Waco Connally",
@@ -3930,7 +3930,7 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "TYL",
+      "chapter": "HOU",
       "team1": "Rusk",
       "score1": 26,
       "team2": "Robinson",
@@ -3942,7 +3942,7 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "HOU",
+      "chapter": "TYL",
       "team1": "Pittsburg",
       "score1": 42,
       "team2": "Nevada Community",
@@ -3954,7 +3954,7 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "HOU",
+      "chapter": "DAL",
       "team1": "Lorena",
       "score1": 55,
       "team2": "Brownsboro",
@@ -3966,7 +3966,7 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "HOU",
+      "chapter": "TYL",
       "team1": "Caddo Mills",
       "score1": 17,
       "team2": "Texarkana Liberty-Eylau",
@@ -3978,7 +3978,7 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "CSC",
+      "chapter": "HOU",
       "team1": "Jasper",
       "score1": 49,
       "team2": "Hamshire-Fannet",
@@ -4002,7 +4002,7 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "TYL",
+      "chapter": "HOU",
       "team1": "West Orange Stark",
       "score1": 76,
       "team2": "Huntington",
@@ -4014,7 +4014,7 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "DAL",
+      "chapter": "CSC",
       "team1": "Sweeny",
       "score1": 21,
       "team2": "La Grange",
@@ -4026,7 +4026,7 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "TYL",
+      "chapter": "CSC",
       "team1": "Wharton",
       "score1": 49,
       "team2": "Smithville",
@@ -4038,10 +4038,10 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "COM",
+      "chapter": "HOU",
       "team1": "Silsbee",
       "score1": 52,
-      "team2": "Shepherd",
+      "team2": "Shephard",
       "score2": 13,
       "winner": "Silsbee"
     },
@@ -4050,7 +4050,7 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "CSC",
+      "chapter": "HOU",
       "team1": "Giddings",
       "score1": 58,
       "team2": "Houston Washington",
@@ -4062,7 +4062,7 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "ABI",
+      "chapter": "TYL",
       "team1": "Center",
       "score1": 38,
       "team2": "Liberty",
@@ -4074,7 +4074,7 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "SPC",
+      "chapter": "SAT",
       "team1": "Cuero",
       "score1": 66,
       "team2": "Pearsall",
@@ -4086,7 +4086,7 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "FTW",
+      "chapter": "SAT",
       "team1": "Rio Hondo",
       "score1": 48,
       "team2": "Ingleside",
@@ -4098,7 +4098,7 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "SPC",
+      "chapter": "DAL",
       "team1": "Hondo",
       "score1": 14,
       "team2": "Llano",
@@ -4110,7 +4110,7 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "FTW",
+      "chapter": "SAT",
       "team1": "West Oso",
       "score1": 57,
       "team2": "Port Isabel",
@@ -4122,7 +4122,7 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "ABI",
+      "chapter": "RGV",
       "team1": "Rockport-Fulton",
       "score1": 55,
       "team2": "Progreso",
@@ -4134,7 +4134,7 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "FTW",
+      "chapter": "SAT",
       "team1": "Crystal City",
       "score1": 26,
       "team2": "Wimberley",
@@ -4146,7 +4146,7 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "FTW",
+      "chapter": "HOU",
       "team1": "Raymondville",
       "score1": 48,
       "team2": "Orange Grove",
@@ -4158,7 +4158,7 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "TYL",
+      "chapter": "SAT",
       "team1": "Geronimo Navarro",
       "score1": 34,
       "team2": "Devine",
@@ -4198,7 +4198,7 @@
       "team1": "Graham",
       "score1": 30,
       "team2": "Lubbock Estacado",
-      "score2": 33,
+      "score2": 46,
       "winner": "Lubbock Estacado"
     },
     {
@@ -4338,7 +4338,7 @@
       "classification": "4A D2",
       "week": 2,
       "round": "Area",
-      "chapter": "AUS",
+      "chapter": "HOU",
       "team1": "Rockport-Fulton",
       "score1": 42,
       "team2": "Crystal City",
@@ -4361,7 +4361,7 @@
       "year": 2018,
       "classification": "4A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "SPC",
       "team1": "Midland Greenwood",
       "score1": 14,
@@ -4373,31 +4373,31 @@
       "year": 2018,
       "classification": "4A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "ABI",
       "team1": "Lubbock Estacado",
       "score1": 33,
       "team2": "Glen Rose",
-      "score2": 28,
-      "winner": "Lubbock Estacado"
+      "score2": 39,
+      "winner": "Glen Rose"
     },
     {
       "year": 2018,
       "classification": "4A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
-      "chapter": "TYL",
+      "round": "Regional",
+      "chapter": "FTW",
       "team1": "Gilmer",
       "score1": 28,
       "team2": "Texarkana Pleasant Grove",
-      "score2": 44,
+      "score2": 56,
       "winner": "Texarkana Pleasant Grove"
     },
     {
       "year": 2018,
       "classification": "4A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "FTW",
       "team1": "Pittsburg",
       "score1": 34,
@@ -4409,7 +4409,7 @@
       "year": 2018,
       "classification": "4A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "HOU",
       "team1": "Jasper",
       "score1": 14,
@@ -4421,7 +4421,7 @@
       "year": 2018,
       "classification": "4A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "HOU",
       "team1": "Silsbee",
       "score1": 38,
@@ -4433,7 +4433,7 @@
       "year": 2018,
       "classification": "4A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "AUS",
       "team1": "Cuero",
       "score1": 59,
@@ -4445,7 +4445,7 @@
       "year": 2018,
       "classification": "4A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "AUS",
       "team1": "Rockport-Fulton",
       "score1": 13,
@@ -4457,19 +4457,19 @@
       "year": 2018,
       "classification": "4A D2",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "FTW",
       "team1": "Iowa Park",
       "score1": 31,
-      "team2": "Lubbock Estacado",
-      "score2": 33,
-      "winner": "Lubbock Estacado"
+      "team2": "Glen Rose",
+      "score2": 28,
+      "winner": "Iowa Park"
     },
     {
       "year": 2018,
       "classification": "4A D2",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "TYL",
       "team1": "Texarkana Pleasant Grove",
       "score1": 44,
@@ -4481,19 +4481,19 @@
       "year": 2018,
       "classification": "4A D2",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "HOU",
       "team1": "West Orange Stark",
       "score1": 9,
       "team2": "Silsbee",
-      "score2": 38,
+      "score2": 19,
       "winner": "Silsbee"
     },
     {
       "year": 2018,
       "classification": "4A D2",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "CSC",
       "team1": "Cuero",
       "score1": 48,
@@ -4505,37 +4505,37 @@
       "year": 2018,
       "classification": "4A D2",
       "week": 5,
-      "round": "State Semifinals",
-      "chapter": "TYL",
-      "team1": "Lubbock Estacado",
-      "score1": 0,
+      "round": "Semifinal",
+      "chapter": "FTW",
+      "team1": "Iowa Park",
+      "score1": null,
       "team2": "Texarkana Pleasant Grove",
-      "score2": 12,
-      "winner": "Texarkana Pleasant Grove"
+      "score2": null,
+      "winner": "Iowa Park"
     },
     {
       "year": 2018,
       "classification": "4A D2",
       "week": 5,
-      "round": "State Semifinals",
+      "round": "Semifinal",
       "chapter": "WAC",
       "team1": "Silsbee",
-      "score1": 19,
+      "score1": null,
       "team2": "Cuero",
-      "score2": 21,
-      "winner": "Cuero"
+      "score2": null,
+      "winner": "Silsbee"
     },
     {
       "year": 2018,
       "classification": "4A D2",
       "week": 6,
       "round": "State Final",
-      "chapter": "WAC",
-      "team1": "Texarkana Pleasant Grove",
-      "score1": 0,
-      "team2": "Cuero",
-      "score2": 13,
-      "winner": "Cuero"
+      "chapter": "",
+      "team1": "Iowa Park",
+      "score1": null,
+      "team2": "Silsbee",
+      "score2": null,
+      "winner": "Silsbee"
     },
     {
       "year": 2018,
@@ -4830,7 +4830,7 @@
       "classification": "3A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "SAT",
+      "chapter": "CSC",
       "team1": "Altair Rice",
       "score1": 21,
       "team2": "Vanderbilt Industrial",
@@ -4842,7 +4842,7 @@
       "classification": "3A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "AUS",
+      "chapter": "SAT",
       "team1": "Lyford",
       "score1": 14,
       "team2": "San Antonio Cole",
@@ -4854,7 +4854,7 @@
       "classification": "3A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "CSC",
+      "chapter": "HOU",
       "team1": "Edna",
       "score1": 61,
       "team2": "Palacios",
@@ -4866,7 +4866,7 @@
       "classification": "3A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "SAT",
+      "chapter": "STX",
       "team1": "Jourdanton",
       "score1": 31,
       "team2": "San Diego",
@@ -4890,7 +4890,7 @@
       "classification": "3A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "STX",
+      "chapter": "HOU",
       "team1": "Goliad",
       "score1": 34,
       "team2": "Hitchcock",
@@ -4902,7 +4902,7 @@
       "classification": "3A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "HOU",
+      "chapter": "SAT",
       "team1": "George West",
       "score1": 54,
       "team2": "Universal City Randolph",
@@ -4914,7 +4914,7 @@
       "classification": "3A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "HOU",
+      "chapter": "AUS",
       "team1": "Columbus",
       "score1": 13,
       "team2": "Yoakum",
@@ -4990,7 +4990,7 @@
       "team1": "Kemp",
       "score1": 21,
       "team2": "Atlanta",
-      "score2": 38,
+      "score2": 42,
       "winner": "Atlanta"
     },
     {
@@ -5038,7 +5038,7 @@
       "team1": "Cameron Yoe",
       "score1": 59,
       "team2": "Diboll",
-      "score2": 34,
+      "score2": 35,
       "winner": "Cameron Yoe"
     },
     {
@@ -5117,8 +5117,8 @@
       "year": 2018,
       "classification": "3A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
-      "chapter": "DAL",
+      "round": "Regional",
+      "chapter": "PBC",
       "team1": "Eastland",
       "score1": 21,
       "team2": "Shallowater",
@@ -5129,7 +5129,7 @@
       "year": 2018,
       "classification": "3A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "AUS",
       "team1": "Wall",
       "score1": 13,
@@ -5141,7 +5141,7 @@
       "year": 2018,
       "classification": "3A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "TYL",
       "team1": "Mount Vernon",
       "score1": 14,
@@ -5153,7 +5153,7 @@
       "year": 2018,
       "classification": "3A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "TYL",
       "team1": "Malakoff",
       "score1": 35,
@@ -5165,7 +5165,7 @@
       "year": 2018,
       "classification": "3A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "HOU",
       "team1": "Winnie East Chambers",
       "score1": 35,
@@ -5177,19 +5177,19 @@
       "year": 2018,
       "classification": "3A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "TYL",
       "team1": "Franklin",
       "score1": 21,
       "team2": "Grandview",
-      "score2": 36,
+      "score2": 24,
       "winner": "Grandview"
     },
     {
       "year": 2018,
       "classification": "3A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "HOU",
       "team1": "Altair Rice",
       "score1": 0,
@@ -5201,7 +5201,7 @@
       "year": 2018,
       "classification": "3A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "CTX",
       "team1": "Goliad",
       "score1": 35,
@@ -5213,7 +5213,7 @@
       "year": 2018,
       "classification": "3A D1",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "DAL",
       "team1": "Shallowater",
       "score1": 21,
@@ -5225,7 +5225,7 @@
       "year": 2018,
       "classification": "3A D1",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "TYL",
       "team1": "Atlanta",
       "score1": 22,
@@ -5237,7 +5237,7 @@
       "year": 2018,
       "classification": "3A D1",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "TYL",
       "team1": "Winnie East Chambers",
       "score1": 35,
@@ -5249,7 +5249,7 @@
       "year": 2018,
       "classification": "3A D1",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "FTW",
       "team1": "Edna",
       "score1": 6,
@@ -5261,36 +5261,36 @@
       "year": 2018,
       "classification": "3A D1",
       "week": 5,
-      "round": "State Semifinals",
-      "chapter": "DAL",
+      "round": "Semifinal",
+      "chapter": "",
       "team1": "Brock",
-      "score1": 23,
+      "score1": null,
       "team2": "Malakoff",
-      "score2": 11,
+      "score2": null,
       "winner": "Brock"
     },
     {
       "year": 2018,
       "classification": "3A D1",
       "week": 5,
-      "round": "State Semifinals",
+      "round": "Semifinal",
       "chapter": "TYL",
       "team1": "Grandview",
-      "score1": 36,
+      "score1": null,
       "team2": "Yoakum",
-      "score2": 42,
-      "winner": "Yoakum"
+      "score2": null,
+      "winner": "Grandview"
     },
     {
       "year": 2018,
       "classification": "3A D1",
       "week": 6,
       "round": "State Final",
-      "chapter": "TYL",
+      "chapter": "",
       "team1": "Brock",
-      "score1": 13,
-      "team2": "Yoakum",
-      "score2": 12,
+      "score1": null,
+      "team2": "Grandview",
+      "score2": null,
       "winner": "Brock"
     },
     {
@@ -5586,7 +5586,7 @@
       "classification": "3A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "HOU",
+      "chapter": "SAT",
       "team1": "Blanco",
       "score1": 28,
       "team2": "Schulenburg",
@@ -5598,7 +5598,7 @@
       "classification": "3A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "SAN",
+      "chapter": "SAT",
       "team1": "CC London",
       "score1": 27,
       "team2": "Stockdale",
@@ -5610,7 +5610,7 @@
       "classification": "3A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "SAT",
+      "chapter": "CSC",
       "team1": "East Bernard",
       "score1": 57,
       "team2": "Johnson City",
@@ -5622,7 +5622,7 @@
       "classification": "3A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "SAT",
+      "chapter": "STX",
       "team1": "Skidmore-Tynan",
       "score1": 20,
       "team2": "Hebbronville",
@@ -5634,7 +5634,7 @@
       "classification": "3A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "CSC",
+      "chapter": "STX",
       "team1": "Poth",
       "score1": 35,
       "team2": "Santa Rosa",
@@ -5646,7 +5646,7 @@
       "classification": "3A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "STX",
+      "chapter": "AUS",
       "team1": "Van Vleck",
       "score1": 20,
       "team2": "Sonora",
@@ -5658,7 +5658,7 @@
       "classification": "3A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "STX",
+      "chapter": "HOU",
       "team1": "Odem",
       "score1": 22,
       "team2": "Dilley",
@@ -5670,7 +5670,7 @@
       "classification": "3A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "AUS",
+      "chapter": "SAN",
       "team1": "Ingram Moore",
       "score1": 16,
       "team2": "Tidehaven",
@@ -5794,7 +5794,7 @@
       "team1": "Big Sandy Harmony",
       "score1": 30,
       "team2": "Daingerfield",
-      "score2": 69,
+      "score2": 48,
       "winner": "Daingerfield"
     },
     {
@@ -5838,7 +5838,7 @@
       "classification": "3A D2",
       "week": 2,
       "round": "Area",
-      "chapter": "HOU",
+      "chapter": "CSC",
       "team1": "East Bernard",
       "score1": 51,
       "team2": "Hebbronville",
@@ -5866,14 +5866,14 @@
       "team1": "Odem",
       "score1": 12,
       "team2": "Tidehaven",
-      "score2": 17,
+      "score2": 28,
       "winner": "Tidehaven"
     },
     {
       "year": 2018,
       "classification": "3A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "ABI",
       "team1": "Tulia",
       "score1": 20,
@@ -5885,7 +5885,7 @@
       "year": 2018,
       "classification": "3A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "AMA",
       "team1": "Canadian",
       "score1": 42,
@@ -5897,7 +5897,7 @@
       "year": 2018,
       "classification": "3A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "ABI",
       "team1": "Gunter",
       "score1": 53,
@@ -5909,7 +5909,7 @@
       "year": 2018,
       "classification": "3A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "WAC",
       "team1": "Buffalo",
       "score1": 9,
@@ -5921,7 +5921,7 @@
       "year": 2018,
       "classification": "3A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "CSC",
       "team1": "Corrigan-Camden",
       "score1": 0,
@@ -5933,19 +5933,19 @@
       "year": 2018,
       "classification": "3A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "ETX",
       "team1": "Troup",
       "score1": 14,
       "team2": "Newton",
-      "score2": 79,
+      "score2": 69,
       "winner": "Newton"
     },
     {
       "year": 2018,
       "classification": "3A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "HOU",
       "team1": "Blanco",
       "score1": 7,
@@ -5957,7 +5957,7 @@
       "year": 2018,
       "classification": "3A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "HOU",
       "team1": "Van Vleck",
       "score1": 0,
@@ -5969,7 +5969,7 @@
       "year": 2018,
       "classification": "3A D2",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "ABI",
       "team1": "Abernathy",
       "score1": 7,
@@ -5981,7 +5981,7 @@
       "year": 2018,
       "classification": "3A D2",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "TYL",
       "team1": "Gunter",
       "score1": 27,
@@ -5993,7 +5993,7 @@
       "year": 2018,
       "classification": "3A D2",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "WAC",
       "team1": "Daingerfield",
       "score1": 12,
@@ -6005,7 +6005,7 @@
       "year": 2018,
       "classification": "3A D2",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "HOU",
       "team1": "East Bernard",
       "score1": 17,
@@ -6017,37 +6017,37 @@
       "year": 2018,
       "classification": "3A D2",
       "week": 5,
-      "round": "State Semifinals",
+      "round": "Semifinal",
       "chapter": "AUS",
       "team1": "Canadian",
-      "score1": 13,
+      "score1": null,
       "team2": "Gunter",
-      "score2": 14,
-      "winner": "Gunter"
+      "score2": null,
+      "winner": "Canadian"
     },
     {
       "year": 2018,
       "classification": "3A D2",
       "week": 5,
-      "round": "State Semifinals",
+      "round": "Semifinal",
       "chapter": "TYL",
       "team1": "Newton",
-      "score1": 0,
+      "score1": null,
       "team2": "East Bernard",
-      "score2": 17,
-      "winner": "East Bernard"
+      "score2": null,
+      "winner": "Newton"
     },
     {
       "year": 2018,
       "classification": "3A D2",
       "week": 6,
       "round": "State Final",
-      "chapter": "TYL",
-      "team1": "Gunter",
-      "score1": 0,
-      "team2": "East Bernard",
-      "score2": 13,
-      "winner": "East Bernard"
+      "chapter": "",
+      "team1": "Canadian",
+      "score1": null,
+      "team2": "Newton",
+      "score2": null,
+      "winner": "Newton"
     },
     {
       "year": 2018,
@@ -6354,7 +6354,7 @@
       "classification": "2A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "AUS",
+      "chapter": "SAT",
       "team1": "Three Rivers",
       "score1": 21,
       "team2": "Wallis Brazos",
@@ -6366,7 +6366,7 @@
       "classification": "2A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "AUS",
+      "chapter": "SAT",
       "team1": "Mason",
       "score1": 63,
       "team2": "Milano",
@@ -6390,7 +6390,7 @@
       "classification": "2A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "SAT",
+      "chapter": "STX",
       "team1": "Shiner",
       "score1": 76,
       "team2": "Santa Maria",
@@ -6402,7 +6402,7 @@
       "classification": "2A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "SAT",
+      "chapter": "HOU",
       "team1": "Brackett",
       "score1": 6,
       "team2": "Hearne",
@@ -6414,7 +6414,7 @@
       "classification": "2A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "STX",
+      "chapter": "AUS",
       "team1": "Refugio",
       "score1": 75,
       "team2": "Yorktown",
@@ -6426,7 +6426,7 @@
       "classification": "2A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "HOU",
+      "chapter": "AUS",
       "team1": "Thorndale",
       "score1": 55,
       "team2": "Center Point",
@@ -6478,7 +6478,7 @@
       "team1": "Seymour",
       "score1": 0,
       "team2": "Stinnett West Texas",
-      "score2": 28,
+      "score2": 33,
       "winner": "Stinnett West Texas"
     },
     {
@@ -6490,8 +6490,8 @@
       "team1": "Collinsville",
       "score1": 45,
       "team2": "Riesel",
-      "score2": 21,
-      "winner": "Collinsville"
+      "score2": 58,
+      "winner": "Riesel"
     },
     {
       "year": 2018,
@@ -6526,7 +6526,7 @@
       "team1": "Bosqueville",
       "score1": 28,
       "team2": "Celeste",
-      "score2": 56,
+      "score2": 42,
       "winner": "Celeste"
     },
     {
@@ -6606,7 +6606,7 @@
       "classification": "2A D1",
       "week": 2,
       "round": "Area",
-      "chapter": "SAT",
+      "chapter": "HOU",
       "team1": "Shiner",
       "score1": 55,
       "team2": "Hearne",
@@ -6629,7 +6629,7 @@
       "year": 2018,
       "classification": "2A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "SPC",
       "team1": "Panhandle",
       "score1": 49,
@@ -6641,7 +6641,7 @@
       "year": 2018,
       "classification": "2A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "AMA",
       "team1": "Sundown",
       "score1": 26,
@@ -6653,9 +6653,9 @@
       "year": 2018,
       "classification": "2A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "CTX",
-      "team1": "Collinsville",
+      "team1": "Riesel",
       "score1": 21,
       "team2": "De Leon",
       "score2": 44,
@@ -6665,7 +6665,7 @@
       "year": 2018,
       "classification": "2A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "ABI",
       "team1": "San Saba",
       "score1": 62,
@@ -6677,7 +6677,7 @@
       "year": 2018,
       "classification": "2A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "TYL",
       "team1": "Teneha",
       "score1": 35,
@@ -6689,19 +6689,19 @@
       "year": 2018,
       "classification": "2A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "SFA",
       "team1": "Garrison",
       "score1": 27,
       "team2": "San Augustine",
-      "score2": 43,
+      "score2": 29,
       "winner": "San Augustine"
     },
     {
       "year": 2018,
       "classification": "2A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "CTX",
       "team1": "Wallis Brazos",
       "score1": 14,
@@ -6713,7 +6713,7 @@
       "year": 2018,
       "classification": "2A D1",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "SAT",
       "team1": "Shiner",
       "score1": 41,
@@ -6725,7 +6725,7 @@
       "year": 2018,
       "classification": "2A D1",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "AMA",
       "team1": "New Deal",
       "score1": 57,
@@ -6737,7 +6737,7 @@
       "year": 2018,
       "classification": "2A D1",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "SAN",
       "team1": "De Leon",
       "score1": 17,
@@ -6749,7 +6749,7 @@
       "year": 2018,
       "classification": "2A D1",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "CSC",
       "team1": "Teneha",
       "score1": 17,
@@ -6761,7 +6761,7 @@
       "year": 2018,
       "classification": "2A D1",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "ABI",
       "team1": "Mason",
       "score1": 28,
@@ -6773,24 +6773,24 @@
       "year": 2018,
       "classification": "2A D1",
       "week": 5,
-      "round": "State Semifinals",
-      "chapter": "ABI",
+      "round": "Semifinal",
+      "chapter": "",
       "team1": "New Deal",
-      "score1": 14,
+      "score1": null,
       "team2": "San Saba",
-      "score2": 31,
-      "winner": "San Saba"
+      "score2": null,
+      "winner": "New Deal"
     },
     {
       "year": 2018,
       "classification": "2A D1",
       "week": 5,
-      "round": "State Semifinals",
+      "round": "Semifinal",
       "chapter": "WAC",
       "team1": "San Augustine",
-      "score1": 43,
+      "score1": null,
       "team2": "Mason",
-      "score2": 28,
+      "score2": null,
       "winner": "San Augustine"
     },
     {
@@ -6798,12 +6798,12 @@
       "classification": "2A D1",
       "week": 6,
       "round": "State Final",
-      "chapter": "WAC",
-      "team1": "San Saba",
-      "score1": 14,
+      "chapter": "",
+      "team1": "New Deal",
+      "score1": null,
       "team2": "San Augustine",
-      "score2": 12,
-      "winner": "San Saba"
+      "score2": null,
+      "winner": "San Augustine"
     },
     {
       "year": 2018,
@@ -7110,7 +7110,7 @@
       "classification": "2A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "CSC",
+      "chapter": "STX",
       "team1": "La Villa",
       "score1": 35,
       "team2": "Runge",
@@ -7122,7 +7122,7 @@
       "classification": "2A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "SAT",
+      "chapter": "CSC",
       "team1": "Burton",
       "score1": 59,
       "team2": "Chilton",
@@ -7134,7 +7134,7 @@
       "classification": "2A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "STX",
+      "chapter": "CTX",
       "team1": "La Pryor",
       "score1": 56,
       "team2": "Bruni",
@@ -7146,7 +7146,7 @@
       "classification": "2A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "CSC",
+      "chapter": "SAT",
       "team1": "Falls City",
       "score1": 75,
       "team2": "Agua Dulce",
@@ -7158,7 +7158,7 @@
       "classification": "2A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "CTX",
+      "chapter": "CSC",
       "team1": "Snook",
       "score1": 36,
       "team2": "Bremond",
@@ -7385,7 +7385,7 @@
       "year": 2018,
       "classification": "2A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "AMA",
       "team1": "Vega",
       "score1": 7,
@@ -7397,8 +7397,8 @@
       "year": 2018,
       "classification": "2A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
-      "chapter": "FTW",
+      "round": "Regional",
+      "chapter": "AMA",
       "team1": "Gruver",
       "score1": 49,
       "team2": "Clarendon",
@@ -7409,7 +7409,7 @@
       "year": 2018,
       "classification": "2A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "NTX",
       "team1": "Wellington",
       "score1": 18,
@@ -7421,7 +7421,7 @@
       "year": 2018,
       "classification": "2A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "FTW",
       "team1": "Albany",
       "score1": 48,
@@ -7433,7 +7433,7 @@
       "year": 2018,
       "classification": "2A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "TYL",
       "team1": "Muenster",
       "score1": 56,
@@ -7445,7 +7445,7 @@
       "year": 2018,
       "classification": "2A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "HOU",
       "team1": "Mart",
       "score1": 64,
@@ -7457,7 +7457,7 @@
       "year": 2018,
       "classification": "2A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "WAC",
       "team1": "Granger",
       "score1": 7,
@@ -7469,7 +7469,7 @@
       "year": 2018,
       "classification": "2A D2",
       "week": 3,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "CSC",
       "team1": "Falls City",
       "score1": 50,
@@ -7481,7 +7481,7 @@
       "year": 2018,
       "classification": "2A D2",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "AMA",
       "team1": "Stratford",
       "score1": 14,
@@ -7493,7 +7493,7 @@
       "year": 2018,
       "classification": "2A D2",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "ABI",
       "team1": "Hamlin",
       "score1": 28,
@@ -7505,7 +7505,7 @@
       "year": 2018,
       "classification": "2A D2",
       "week": 4,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
       "chapter": "ABI",
       "team1": "Muenster",
       "score1": 0,
@@ -7517,8 +7517,8 @@
       "year": 2018,
       "classification": "2A D2",
       "week": 4,
-      "round": "Regional Semifinals",
-      "chapter": "CSC",
+      "round": "Quarterfinal",
+      "chapter": "ABI",
       "team1": "Burton",
       "score1": 28,
       "team2": "Falls City",
@@ -7529,24 +7529,24 @@
       "year": 2018,
       "classification": "2A D2",
       "week": 5,
-      "round": "State Semifinals",
+      "round": "Semifinal",
       "chapter": "FTW",
       "team1": "Gruver",
-      "score1": 13,
+      "score1": null,
       "team2": "Albany",
-      "score2": 9,
+      "score2": null,
       "winner": "Gruver"
     },
     {
       "year": 2018,
       "classification": "2A D2",
       "week": 5,
-      "round": "State Semifinals",
+      "round": "Semifinal",
       "chapter": "SAN",
       "team1": "Mart",
-      "score1": 59,
+      "score1": null,
       "team2": "Falls City",
-      "score2": 30,
+      "score2": null,
       "winner": "Mart"
     },
     {
@@ -7554,19 +7554,19 @@
       "classification": "2A D2",
       "week": 6,
       "round": "State Final",
-      "chapter": "FTW",
+      "chapter": "",
       "team1": "Gruver",
-      "score1": 50,
+      "score1": null,
       "team2": "Mart",
-      "score2": 28,
-      "winner": "Gruver"
+      "score2": null,
+      "winner": "Mart"
     },
     {
       "year": 2018,
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "SAN",
+      "chapter": "AMA",
       "team1": "McLean",
       "score1": 62,
       "team2": "Petersburg",
@@ -7578,7 +7578,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "PVC",
+      "chapter": "NTX",
       "team1": "Paducah",
       "score1": 55,
       "team2": "Aspermont",
@@ -7590,7 +7590,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "PVC",
+      "chapter": "SPC",
       "team1": "Ira",
       "score1": 68,
       "team2": "Crowell",
@@ -7602,7 +7602,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "AUS",
+      "chapter": "SPC",
       "team1": "Nazareth",
       "score1": 24,
       "team2": "White Deer",
@@ -7614,7 +7614,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "ABI",
+      "chapter": "SPC",
       "team1": "Ropeville Ropes",
       "score1": 58,
       "team2": "Lenorah Grady",
@@ -7626,7 +7626,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "FTW",
+      "chapter": "SPC",
       "team1": "Balmorhea",
       "score1": 64,
       "team2": "Sterling City",
@@ -7674,7 +7674,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "SPC",
+      "chapter": "AUS",
       "team1": "Milford",
       "score1": 60,
       "team2": "High Island",
@@ -7686,7 +7686,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "PVC",
+      "chapter": "ABI",
       "team1": "Gilmer Union Hill",
       "score1": 60,
       "team2": "Coolidge",
@@ -7698,7 +7698,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "AMA",
+      "chapter": "FTW",
       "team1": "Blum",
       "score1": 60,
       "team2": "Savoy",
@@ -7710,7 +7710,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "NTX",
+      "chapter": "PVC",
       "team1": "Eden",
       "score1": 20,
       "team2": "Gorman",
@@ -7722,7 +7722,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "SPC",
+      "chapter": "SAN",
       "team1": "Evant",
       "score1": 12,
       "team2": "Barksdale Nueces Canyon",
@@ -7734,7 +7734,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "SPC",
+      "chapter": "PVC",
       "team1": "Leakey",
       "score1": 66,
       "team2": "Jonesboro",
@@ -7746,7 +7746,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "SPC",
+      "chapter": "PVC",
       "team1": "May",
       "score1": 94,
       "team2": "Robert Lee",
@@ -7756,189 +7756,9 @@
     {
       "year": 2018,
       "classification": "1A D1",
-      "week": 2,
-      "round": "Regional Quarterfinals",
-      "chapter": "SPC",
-      "team1": "McLean",
-      "score1": 86,
-      "team2": "Aspermont",
-      "score2": 38,
-      "winner": "McLean"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 2,
-      "round": "Regional Quarterfinals",
-      "chapter": "SPC",
-      "team1": "Ira",
-      "score1": 42,
-      "team2": "White Deer",
-      "score2": 68,
-      "winner": "White Deer"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 2,
-      "round": "Regional Quarterfinals",
-      "chapter": "PBC",
-      "team1": "Ropeville Ropes",
-      "score1": 8,
-      "team2": "Balmorhea",
-      "score2": 58,
-      "winner": "Balmorhea"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 2,
-      "round": "Regional Quarterfinals",
-      "chapter": "AMA",
-      "team1": "Garden City",
-      "score1": 60,
-      "team2": "Gail Borden County",
-      "score2": 14,
-      "winner": "Garden City"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 2,
-      "round": "Regional Quarterfinals",
-      "chapter": "PVC",
-      "team1": "Aquilla",
-      "score1": 18,
-      "team2": "Milford",
-      "score2": 56,
-      "winner": "Milford"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 2,
-      "round": "Regional Quarterfinals",
-      "chapter": "NTX",
-      "team1": "Gilmer Union Hill",
-      "score1": 62,
-      "team2": "Blum",
-      "score2": 16,
-      "winner": "Gilmer Union Hill"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 2,
-      "round": "Regional Quarterfinals",
-      "chapter": "PVC",
-      "team1": "Gorman",
-      "score1": 48,
-      "team2": "Barksdale Nueces Canyon",
-      "score2": 44,
-      "winner": "Gorman"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 2,
-      "round": "Regional Quarterfinals",
-      "chapter": "PVC",
-      "team1": "Leakey",
-      "score1": 40,
-      "team2": "May",
-      "score2": 30,
-      "winner": "Leakey"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 3,
-      "round": "Regional Semifinals",
-      "chapter": "AMA",
-      "team1": "McLean",
-      "score1": 45,
-      "team2": "White Deer",
-      "score2": 0,
-      "winner": "McLean"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 3,
-      "round": "Regional Semifinals",
-      "chapter": "PBC",
-      "team1": "Balmorhea",
-      "score1": 14,
-      "team2": "Garden City",
-      "score2": 48,
-      "winner": "Garden City"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 3,
-      "round": "Regional Semifinals",
-      "chapter": "ABI",
-      "team1": "Milford",
-      "score1": 51,
-      "team2": "Gilmer Union Hill",
-      "score2": 38,
-      "winner": "Milford"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 3,
-      "round": "Regional Semifinals",
-      "chapter": "PVC",
-      "team1": "Gorman",
-      "score1": 36,
-      "team2": "Leakey",
-      "score2": 26,
-      "winner": "Gorman"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 4,
-      "round": "State Semifinals",
-      "chapter": "SPC",
-      "team1": "McLean",
-      "score1": 13,
-      "team2": "Garden City",
-      "score2": 48,
-      "winner": "Garden City"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 4,
-      "round": "State Semifinals",
-      "chapter": "PVC",
-      "team1": "Milford",
-      "score1": 71,
-      "team2": "Gorman",
-      "score2": 48,
-      "winner": "Milford"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 5,
-      "round": "State Final",
-      "chapter": "PVC",
-      "team1": "Garden City",
-      "score1": 13,
-      "team2": "Milford",
-      "score2": 12,
-      "winner": "Garden City"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D2",
       "week": 1,
       "round": "Area",
-      "chapter": "TYL",
+      "chapter": "AMA",
       "team1": "Follett",
       "score1": 76,
       "team2": "Silverton",
@@ -7947,10 +7767,10 @@
     },
     {
       "year": 2018,
-      "classification": "1A D2",
+      "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "PVC",
+      "chapter": "SPC",
       "team1": "Whitharreal",
       "score1": 64,
       "team2": "Southland",
@@ -7959,10 +7779,10 @@
     },
     {
       "year": 2018,
-      "classification": "1A D2",
+      "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "PVC",
+      "chapter": "SPC",
       "team1": "Wilson",
       "score1": 6,
       "team2": "Anton",
@@ -7971,10 +7791,10 @@
     },
     {
       "year": 2018,
-      "classification": "1A D2",
+      "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "WAC",
+      "chapter": "SPC",
       "team1": "Motley County",
       "score1": 72,
       "team2": "Groom",
@@ -7983,10 +7803,10 @@
     },
     {
       "year": 2018,
-      "classification": "1A D2",
+      "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "ABI",
+      "chapter": "PBC",
       "team1": "Grandfalls-Royalty",
       "score1": 84,
       "team2": "Loraine",
@@ -7995,10 +7815,10 @@
     },
     {
       "year": 2018,
-      "classification": "1A D2",
+      "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "PBC",
+      "chapter": "NTX",
       "team1": "Lueders-Avoca",
       "score1": 46,
       "team2": "Woodson",
@@ -8007,7 +7827,7 @@
     },
     {
       "year": 2018,
-      "classification": "1A D2",
+      "classification": "1A D1",
       "week": 1,
       "round": "Area",
       "chapter": "ABI",
@@ -8019,10 +7839,10 @@
     },
     {
       "year": 2018,
-      "classification": "1A D2",
+      "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "WAC",
+      "chapter": "PBC",
       "team1": "Blackwell",
       "score1": 72,
       "team2": "Sierra Blanca",
@@ -8031,10 +7851,10 @@
     },
     {
       "year": 2018,
-      "classification": "1A D2",
+      "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "WAC",
+      "chapter": "ABI",
       "team1": "Ladonia Fannindel",
       "score1": 66,
       "team2": "Gordon",
@@ -8043,10 +7863,10 @@
     },
     {
       "year": 2018,
-      "classification": "1A D2",
+      "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "PVC",
+      "chapter": "WAC",
       "team1": "Iredell",
       "score1": 62,
       "team2": "Morgan",
@@ -8055,10 +7875,10 @@
     },
     {
       "year": 2018,
-      "classification": "1A D2",
+      "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "NTX",
+      "chapter": "WAC",
       "team1": "Kopperl",
       "score1": 54,
       "team2": "Walnut Springs",
@@ -8067,10 +7887,10 @@
     },
     {
       "year": 2018,
-      "classification": "1A D2",
+      "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "AMA",
+      "chapter": "PVC",
       "team1": "Strawn",
       "score1": 68,
       "team2": "Goldburg",
@@ -8079,10 +7899,10 @@
     },
     {
       "year": 2018,
-      "classification": "1A D2",
+      "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "SPC",
+      "chapter": "TYL",
       "team1": "Oakwood",
       "score1": 72,
       "team2": "McDade",
@@ -8091,22 +7911,22 @@
     },
     {
       "year": 2018,
-      "classification": "1A D2",
+      "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "SPC",
+      "chapter": "PVC",
       "team1": "Blanket",
       "score1": 75,
-      "team2": "Valera Panther Creek",
+      "team2": "Valera Panther Creeek",
       "score2": 30,
       "winner": "Blanket"
     },
     {
       "year": 2018,
-      "classification": "1A D2",
+      "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "SPC",
+      "chapter": "PVC",
       "team1": "Richland Springs",
       "score1": 53,
       "team2": "Brookesmith",
@@ -8115,10 +7935,10 @@
     },
     {
       "year": 2018,
-      "classification": "1A D2",
+      "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "PBC",
+      "chapter": "WAC",
       "team1": "Calvert",
       "score1": 48,
       "team2": "Trinidad",
@@ -8127,10 +7947,106 @@
     },
     {
       "year": 2018,
-      "classification": "1A D2",
+      "classification": "1A D1",
       "week": 2,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
+      "chapter": "SPC",
+      "team1": "McLean",
+      "score1": 86,
+      "team2": "Aspermont",
+      "score2": 38,
+      "winner": "McLean"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D1",
+      "week": 2,
+      "round": "Regional",
+      "chapter": "SPC",
+      "team1": "Ira",
+      "score1": 42,
+      "team2": "White Deer",
+      "score2": 68,
+      "winner": "White Deer"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D1",
+      "week": 2,
+      "round": "Regional",
+      "chapter": "PBC",
+      "team1": "Ropeville Ropes",
+      "score1": 8,
+      "team2": "Balmorhea",
+      "score2": 58,
+      "winner": "Balmorhea"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D1",
+      "week": 2,
+      "round": "Regional",
       "chapter": "AMA",
+      "team1": "Garden City",
+      "score1": 60,
+      "team2": "Gail Borden County",
+      "score2": 14,
+      "winner": "Garden City"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D1",
+      "week": 2,
+      "round": "Regional",
+      "chapter": "PVC",
+      "team1": "Aquilla",
+      "score1": 18,
+      "team2": "Milford",
+      "score2": 56,
+      "winner": "Milford"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D1",
+      "week": 2,
+      "round": "Regional",
+      "chapter": "NTX",
+      "team1": "Gilmer Union Hill",
+      "score1": 62,
+      "team2": "Blum",
+      "score2": 16,
+      "winner": "Gilmer Union Hill"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D1",
+      "week": 2,
+      "round": "Regional",
+      "chapter": "PVC",
+      "team1": "Gorman",
+      "score1": 48,
+      "team2": "Barksdale Nueces Canyon",
+      "score2": 44,
+      "winner": "Gorman"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D1",
+      "week": 2,
+      "round": "Regional",
+      "chapter": "PVC",
+      "team1": "Leakey",
+      "score1": 40,
+      "team2": "May",
+      "score2": 30,
+      "winner": "Leakey"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D1",
+      "week": 2,
+      "round": "Regional",
+      "chapter": "",
       "team1": "Follett",
       "score1": 62,
       "team2": "Whitharreal",
@@ -8139,10 +8055,10 @@
     },
     {
       "year": 2018,
-      "classification": "1A D2",
+      "classification": "1A D1",
       "week": 2,
-      "round": "Regional Quarterfinals",
-      "chapter": "SPC",
+      "round": "Regional",
+      "chapter": "AMA",
       "team1": "Anton",
       "score1": 68,
       "team2": "Motley County",
@@ -8151,10 +8067,10 @@
     },
     {
       "year": 2018,
-      "classification": "1A D2",
+      "classification": "1A D1",
       "week": 2,
-      "round": "Regional Quarterfinals",
-      "chapter": "SAN",
+      "round": "Regional",
+      "chapter": "SPC",
       "team1": "Grandfalls-Royalty",
       "score1": 65,
       "team2": "Lueders-Avoca",
@@ -8163,10 +8079,10 @@
     },
     {
       "year": 2018,
-      "classification": "1A D2",
+      "classification": "1A D1",
       "week": 2,
-      "round": "Regional Quarterfinals",
-      "chapter": "ABI",
+      "round": "Regional",
+      "chapter": "SAN",
       "team1": "Jayton",
       "score1": 68,
       "team2": "Blackwell",
@@ -8175,10 +8091,10 @@
     },
     {
       "year": 2018,
-      "classification": "1A D2",
+      "classification": "1A D1",
       "week": 2,
-      "round": "Regional Quarterfinals",
-      "chapter": "WAC",
+      "round": "Regional",
+      "chapter": "ABI",
       "team1": "Ladonia Fannindel",
       "score1": 13,
       "team2": "Iredell",
@@ -8187,9 +8103,9 @@
     },
     {
       "year": 2018,
-      "classification": "1A D2",
+      "classification": "1A D1",
       "week": 2,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "WAC",
       "team1": "Walnut Springs",
       "score1": 8,
@@ -8199,9 +8115,9 @@
     },
     {
       "year": 2018,
-      "classification": "1A D2",
+      "classification": "1A D1",
       "week": 2,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "WAC",
       "team1": "Oakwood",
       "score1": 51,
@@ -8211,9 +8127,9 @@
     },
     {
       "year": 2018,
-      "classification": "1A D2",
+      "classification": "1A D1",
       "week": 2,
-      "round": "Regional Quarterfinals",
+      "round": "Regional",
       "chapter": "WAC",
       "team1": "Richland Springs",
       "score1": 60,
@@ -8223,34 +8139,82 @@
     },
     {
       "year": 2018,
-      "classification": "1A D2",
+      "classification": "1A D1",
       "week": 3,
-      "round": "Regional Semifinals",
+      "round": "Quarterfinal",
+      "chapter": "AMA",
+      "team1": "McLean",
+      "score1": 45,
+      "team2": "White Deer",
+      "score2": 0,
+      "winner": "McLean"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D1",
+      "week": 3,
+      "round": "Quarterfinal",
+      "chapter": "PBC",
+      "team1": "Balmorhea",
+      "score1": 14,
+      "team2": "Garden City",
+      "score2": 48,
+      "winner": "Garden City"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D1",
+      "week": 3,
+      "round": "Quarterfinal",
+      "chapter": "ABI",
+      "team1": "Milford",
+      "score1": 51,
+      "team2": "Gilmer Union Hill",
+      "score2": 38,
+      "winner": "Milford"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D1",
+      "week": 3,
+      "round": "Quarterfinal",
+      "chapter": "PVC",
+      "team1": "Gorman",
+      "score1": 36,
+      "team2": "Leakey",
+      "score2": 68,
+      "winner": "Leakey"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D1",
+      "week": 3,
+      "round": "Quarterfinal",
       "chapter": "AMA",
       "team1": "Follett",
       "score1": 48,
-      "team2": "Anton",
-      "score2": 22,
+      "team2": "Motley County",
+      "score2": 18,
       "winner": "Follett"
     },
     {
       "year": 2018,
-      "classification": "1A D2",
+      "classification": "1A D1",
       "week": 3,
-      "round": "Regional Semifinals",
-      "chapter": "ABI",
+      "round": "Quarterfinal",
+      "chapter": "",
       "team1": "Grandfalls-Royalty",
       "score1": 52,
       "team2": "Jayton",
-      "score2": 32,
-      "winner": "Grandfalls-Royalty"
+      "score2": 66,
+      "winner": "Jayton"
     },
     {
       "year": 2018,
-      "classification": "1A D2",
+      "classification": "1A D1",
       "week": 3,
-      "round": "Regional Semifinals",
-      "chapter": "ABI",
+      "round": "Quarterfinal",
+      "chapter": "FTW",
       "team1": "Iredell",
       "score1": 22,
       "team2": "Strawn",
@@ -8259,10 +8223,10 @@
     },
     {
       "year": 2018,
-      "classification": "1A D2",
+      "classification": "1A D1",
       "week": 3,
-      "round": "Regional Semifinals",
-      "chapter": "SAN",
+      "round": "Quarterfinal",
+      "chapter": "",
       "team1": "Oakwood",
       "score1": 66,
       "team2": "Richland Springs",
@@ -8271,22 +8235,46 @@
     },
     {
       "year": 2018,
-      "classification": "1A D2",
+      "classification": "1A D1",
       "week": 4,
-      "round": "State Semifinals",
-      "chapter": "AMA",
-      "team1": "Follett",
-      "score1": 52,
-      "team2": "Grandfalls-Royalty",
-      "score2": 68,
-      "winner": "Grandfalls-Royalty"
+      "round": "Semifinal",
+      "chapter": "SPC",
+      "team1": "McLean",
+      "score1": null,
+      "team2": "Garden City",
+      "score2": null,
+      "winner": "McLean"
     },
     {
       "year": 2018,
-      "classification": "1A D2",
+      "classification": "1A D1",
       "week": 4,
-      "round": "State Semifinals",
-      "chapter": "FTW",
+      "round": "Semifinal",
+      "chapter": "PVC",
+      "team1": "Milford",
+      "score1": 71,
+      "team2": "Leakey",
+      "score2": 26,
+      "winner": "Milford"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D1",
+      "week": 4,
+      "round": "Semifinal",
+      "chapter": "AMA",
+      "team1": "Follett",
+      "score1": 52,
+      "team2": "Jayton",
+      "score2": 32,
+      "winner": "Follett"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D1",
+      "week": 4,
+      "round": "Semifinal",
+      "chapter": "",
       "team1": "Strawn",
       "score1": 51,
       "team2": "Oakwood",
@@ -8295,129 +8283,902 @@
     },
     {
       "year": 2018,
-      "classification": "1A D2",
+      "classification": "1A D1",
       "week": 5,
       "round": "State Final",
-      "chapter": "AMA",
-      "team1": "Grandfalls-Royalty",
-      "score1": 12,
+      "chapter": "PVC",
+      "team1": "McLean",
+      "score1": null,
+      "team2": "Milford",
+      "score2": null,
+      "winner": "Milford"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D1",
+      "week": 5,
+      "round": "State Final",
+      "chapter": "",
+      "team1": "Follett",
+      "score1": null,
       "team2": "Strawn",
-      "score2": 2,
-      "winner": "Grandfalls-Royalty"
+      "score2": null,
+      "winner": "Strawn"
     }
   ],
-  "generated": "2025-07-03",
-  "source": "2018TRNY.pdf \u2014 chapter totals extracted from page 13 summary table; individual game data not yet entered",
   "chapters": [
     {
-      "code": "HOU",
-      "total": 147,
-      "weeks": {}
-    },
-    {
-      "code": "FTW",
-      "total": 72,
-      "weeks": {}
-    },
-    {
-      "code": "TYL",
-      "total": 54,
-      "weeks": {}
-    },
-    {
-      "code": "SAT",
-      "total": 48,
-      "weeks": {}
-    },
-    {
-      "code": "DAL",
-      "total": 43,
-      "weeks": {}
-    },
-    {
-      "code": "WAC",
-      "total": 41,
-      "weeks": {}
-    },
-    {
-      "code": "AUS",
-      "total": 40,
-      "weeks": {}
-    },
-    {
       "code": "ABI",
-      "total": 40,
-      "weeks": {}
-    },
-    {
-      "code": "SPC",
       "total": 38,
-      "weeks": {}
-    },
-    {
-      "code": "CSC",
-      "total": 29,
-      "weeks": {}
-    },
-    {
-      "code": "PBC",
-      "total": 22,
-      "weeks": {}
+      "weeks": {
+        "3": {
+          "total": 7,
+          "classifications": {
+            "5A D2": 2,
+            "4A D2": 1,
+            "3A D2": 2,
+            "2A D1": 1,
+            "1A D1": 1
+          }
+        },
+        "1": {
+          "total": 18,
+          "classifications": {
+            "4A D1": 8,
+            "4A D2": 2,
+            "3A D1": 2,
+            "3A D2": 1,
+            "2A D2": 2,
+            "1A D1": 3
+          }
+        },
+        "2": {
+          "total": 7,
+          "classifications": {
+            "4A D1": 1,
+            "4A D2": 2,
+            "3A D2": 2,
+            "2A D2": 1,
+            "1A D1": 1
+          }
+        },
+        "4": {
+          "total": 6,
+          "classifications": {
+            "4A D1": 1,
+            "3A D2": 1,
+            "2A D1": 1,
+            "2A D2": 3
+          }
+        }
+      }
     },
     {
       "code": "AMA",
       "total": 19,
-      "weeks": {}
+      "weeks": {
+        "3": {
+          "total": 7,
+          "classifications": {
+            "4A D1": 1,
+            "3A D2": 1,
+            "2A D1": 1,
+            "2A D2": 2,
+            "1A D1": 2
+          }
+        },
+        "1": {
+          "total": 5,
+          "classifications": {
+            "2A D1": 2,
+            "2A D2": 1,
+            "1A D1": 2
+          }
+        },
+        "2": {
+          "total": 4,
+          "classifications": {
+            "2A D1": 1,
+            "2A D2": 1,
+            "1A D1": 2
+          }
+        },
+        "4": {
+          "total": 3,
+          "classifications": {
+            "2A D1": 1,
+            "2A D2": 1,
+            "1A D1": 1
+          }
+        }
+      }
     },
     {
-      "code": "PVC",
-      "total": 16,
-      "weeks": {}
-    },
-    {
-      "code": "CTX",
-      "total": 14,
-      "weeks": {}
-    },
-    {
-      "code": "RGV",
-      "total": 11,
-      "weeks": {}
+      "code": "AUS",
+      "total": 39,
+      "weeks": {
+        "2": {
+          "total": 14,
+          "classifications": {
+            "6A D1": 1,
+            "6A D2": 1,
+            "5A D1": 3,
+            "4A D1": 2,
+            "4A D2": 1,
+            "3A D1": 1,
+            "3A D2": 2,
+            "2A D1": 2,
+            "2A D2": 1
+          }
+        },
+        "3": {
+          "total": 6,
+          "classifications": {
+            "6A D1": 1,
+            "5A D1": 1,
+            "4A D1": 1,
+            "4A D2": 2,
+            "3A D1": 1
+          }
+        },
+        "1": {
+          "total": 15,
+          "classifications": {
+            "6A D2": 1,
+            "5A D1": 4,
+            "4A D1": 1,
+            "3A D1": 3,
+            "3A D2": 1,
+            "2A D1": 4,
+            "1A D1": 1
+          }
+        },
+        "4": {
+          "total": 3,
+          "classifications": {
+            "6A D2": 1,
+            "5A D1": 2
+          }
+        },
+        "5": {
+          "total": 1,
+          "classifications": {
+            "3A D2": 1
+          }
+        }
+      }
     },
     {
       "code": "COM",
       "total": 11,
-      "weeks": {}
+      "weeks": {
+        "1": {
+          "total": 9,
+          "classifications": {
+            "4A D2": 1,
+            "3A D2": 3,
+            "2A D1": 2,
+            "2A D2": 3
+          }
+        },
+        "2": {
+          "total": 2,
+          "classifications": {
+            "4A D2": 1,
+            "2A D2": 1
+          }
+        }
+      }
     },
     {
-      "code": "ETX",
-      "total": 10,
-      "weeks": {}
+      "code": "CSC",
+      "total": 29,
+      "weeks": {
+        "1": {
+          "total": 15,
+          "classifications": {
+            "6A D1": 1,
+            "6A D2": 1,
+            "4A D1": 2,
+            "4A D2": 3,
+            "3A D1": 2,
+            "3A D2": 1,
+            "2A D2": 5
+          }
+        },
+        "5": {
+          "total": 1,
+          "classifications": {
+            "6A D2": 1
+          }
+        },
+        "2": {
+          "total": 9,
+          "classifications": {
+            "5A D1": 1,
+            "4A D1": 3,
+            "3A D1": 2,
+            "3A D2": 1,
+            "2A D1": 2
+          }
+        },
+        "4": {
+          "total": 2,
+          "classifications": {
+            "4A D2": 1,
+            "2A D1": 1
+          }
+        },
+        "3": {
+          "total": 2,
+          "classifications": {
+            "3A D2": 1,
+            "2A D2": 1
+          }
+        }
+      }
     },
     {
-      "code": "NTX",
-      "total": 9,
-      "weeks": {}
+      "code": "CTX",
+      "total": 14,
+      "weeks": {
+        "1": {
+          "total": 8,
+          "classifications": {
+            "5A D2": 1,
+            "3A D1": 1,
+            "3A D2": 1,
+            "2A D1": 2,
+            "2A D2": 3
+          }
+        },
+        "2": {
+          "total": 2,
+          "classifications": {
+            "5A D2": 1,
+            "3A D2": 1
+          }
+        },
+        "4": {
+          "total": 1,
+          "classifications": {
+            "5A D2": 1
+          }
+        },
+        "3": {
+          "total": 3,
+          "classifications": {
+            "3A D1": 1,
+            "2A D1": 2
+          }
+        }
+      }
     },
     {
-      "code": "SAN",
-      "total": 9,
-      "weeks": {}
-    },
-    {
-      "code": "STX",
-      "total": 7,
-      "weeks": {}
-    },
-    {
-      "code": "SFA",
-      "total": 7,
-      "weeks": {}
+      "code": "DAL",
+      "total": 41,
+      "weeks": {
+        "1": {
+          "total": 25,
+          "classifications": {
+            "6A D1": 6,
+            "6A D2": 4,
+            "5A D1": 3,
+            "5A D2": 4,
+            "4A D2": 2,
+            "3A D1": 2,
+            "3A D2": 2,
+            "2A D1": 1,
+            "2A D2": 1
+          }
+        },
+        "2": {
+          "total": 12,
+          "classifications": {
+            "6A D1": 4,
+            "6A D2": 2,
+            "5A D2": 3,
+            "4A D2": 1,
+            "2A D1": 2
+          }
+        },
+        "5": {
+          "total": 3,
+          "classifications": {
+            "6A D1": 1,
+            "6A D2": 1,
+            "5A D1": 1
+          }
+        },
+        "4": {
+          "total": 1,
+          "classifications": {
+            "3A D1": 1
+          }
+        }
+      }
     },
     {
       "code": "ELP",
       "total": 5,
-      "weeks": {}
+      "weeks": {
+        "1": {
+          "total": 5,
+          "classifications": {
+            "5A D2": 4,
+            "4A D1": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "ETX",
+      "total": 10,
+      "weeks": {
+        "2": {
+          "total": 5,
+          "classifications": {
+            "6A D1": 1,
+            "3A D1": 2,
+            "3A D2": 1,
+            "2A D2": 1
+          }
+        },
+        "1": {
+          "total": 4,
+          "classifications": {
+            "5A D2": 1,
+            "4A D1": 1,
+            "3A D1": 1,
+            "3A D2": 1
+          }
+        },
+        "3": {
+          "total": 1,
+          "classifications": {
+            "3A D2": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "FTW",
+      "total": 69,
+      "weeks": {
+        "1": {
+          "total": 37,
+          "classifications": {
+            "6A D1": 5,
+            "6A D2": 5,
+            "5A D1": 4,
+            "5A D2": 4,
+            "4A D1": 3,
+            "4A D2": 4,
+            "3A D1": 4,
+            "3A D2": 2,
+            "2A D1": 3,
+            "2A D2": 2,
+            "1A D1": 1
+          }
+        },
+        "2": {
+          "total": 11,
+          "classifications": {
+            "6A D1": 1,
+            "6A D2": 1,
+            "5A D2": 2,
+            "4A D1": 2,
+            "3A D2": 2,
+            "2A D1": 1,
+            "2A D2": 2
+          }
+        },
+        "3": {
+          "total": 14,
+          "classifications": {
+            "6A D1": 2,
+            "6A D2": 1,
+            "5A D1": 2,
+            "5A D2": 1,
+            "4A D1": 4,
+            "4A D2": 2,
+            "2A D2": 1,
+            "1A D1": 1
+          }
+        },
+        "4": {
+          "total": 5,
+          "classifications": {
+            "6A D1": 1,
+            "5A D2": 1,
+            "4A D1": 1,
+            "4A D2": 1,
+            "3A D1": 1
+          }
+        },
+        "5": {
+          "total": 2,
+          "classifications": {
+            "4A D2": 1,
+            "2A D2": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "HOU",
+      "total": 144,
+      "weeks": {
+        "1": {
+          "total": 70,
+          "classifications": {
+            "6A D1": 12,
+            "6A D2": 14,
+            "5A D1": 7,
+            "5A D2": 14,
+            "4A D1": 5,
+            "4A D2": 7,
+            "3A D1": 7,
+            "3A D2": 3,
+            "2A D1": 1
+          }
+        },
+        "2": {
+          "total": 38,
+          "classifications": {
+            "6A D1": 5,
+            "6A D2": 9,
+            "5A D1": 7,
+            "5A D2": 5,
+            "4A D1": 1,
+            "4A D2": 5,
+            "3A D1": 4,
+            "3A D2": 1,
+            "2A D1": 1
+          }
+        },
+        "3": {
+          "total": 22,
+          "classifications": {
+            "6A D1": 3,
+            "6A D2": 6,
+            "5A D1": 3,
+            "5A D2": 3,
+            "4A D2": 2,
+            "3A D1": 2,
+            "3A D2": 2,
+            "2A D2": 1
+          }
+        },
+        "4": {
+          "total": 11,
+          "classifications": {
+            "6A D1": 3,
+            "6A D2": 2,
+            "5A D1": 2,
+            "5A D2": 1,
+            "4A D1": 1,
+            "4A D2": 1,
+            "3A D2": 1
+          }
+        },
+        "5": {
+          "total": 3,
+          "classifications": {
+            "6A D1": 1,
+            "5A D1": 1,
+            "4A D1": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "NTX",
+      "total": 9,
+      "weeks": {
+        "1": {
+          "total": 5,
+          "classifications": {
+            "5A D2": 1,
+            "3A D2": 1,
+            "2A D2": 1,
+            "1A D1": 2
+          }
+        },
+        "2": {
+          "total": 3,
+          "classifications": {
+            "4A D2": 1,
+            "2A D2": 1,
+            "1A D1": 1
+          }
+        },
+        "3": {
+          "total": 1,
+          "classifications": {
+            "2A D2": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "PBC",
+      "total": 23,
+      "weeks": {
+        "1": {
+          "total": 14,
+          "classifications": {
+            "5A D1": 4,
+            "4A D1": 1,
+            "3A D1": 1,
+            "3A D2": 3,
+            "2A D2": 3,
+            "1A D1": 2
+          }
+        },
+        "2": {
+          "total": 6,
+          "classifications": {
+            "5A D1": 1,
+            "5A D2": 3,
+            "3A D1": 1,
+            "1A D1": 1
+          }
+        },
+        "3": {
+          "total": 3,
+          "classifications": {
+            "5A D2": 1,
+            "3A D1": 1,
+            "1A D1": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "PVC",
+      "total": 16,
+      "weeks": {
+        "2": {
+          "total": 4,
+          "classifications": {
+            "3A D1": 1,
+            "1A D1": 3
+          }
+        },
+        "1": {
+          "total": 9,
+          "classifications": {
+            "2A D1": 1,
+            "1A D1": 8
+          }
+        },
+        "3": {
+          "total": 1,
+          "classifications": {
+            "1A D1": 1
+          }
+        },
+        "4": {
+          "total": 1,
+          "classifications": {
+            "1A D1": 1
+          }
+        },
+        "5": {
+          "total": 1,
+          "classifications": {
+            "1A D1": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "RGV",
+      "total": 11,
+      "weeks": {
+        "1": {
+          "total": 9,
+          "classifications": {
+            "6A D1": 4,
+            "6A D2": 3,
+            "5A D1": 1,
+            "4A D2": 1
+          }
+        },
+        "2": {
+          "total": 2,
+          "classifications": {
+            "6A D1": 1,
+            "6A D2": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "SAN",
+      "total": 8,
+      "weeks": {
+        "2": {
+          "total": 4,
+          "classifications": {
+            "4A D1": 1,
+            "3A D1": 1,
+            "2A D1": 1,
+            "1A D1": 1
+          }
+        },
+        "1": {
+          "total": 2,
+          "classifications": {
+            "3A D2": 1,
+            "1A D1": 1
+          }
+        },
+        "4": {
+          "total": 1,
+          "classifications": {
+            "2A D1": 1
+          }
+        },
+        "5": {
+          "total": 1,
+          "classifications": {
+            "2A D2": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "SAT",
+      "total": 48,
+      "weeks": {
+        "1": {
+          "total": 30,
+          "classifications": {
+            "6A D1": 4,
+            "6A D2": 4,
+            "5A D1": 4,
+            "5A D2": 1,
+            "4A D1": 2,
+            "4A D2": 5,
+            "3A D1": 2,
+            "3A D2": 2,
+            "2A D1": 3,
+            "2A D2": 3
+          }
+        },
+        "2": {
+          "total": 12,
+          "classifications": {
+            "6A D1": 2,
+            "6A D2": 2,
+            "5A D1": 1,
+            "5A D2": 2,
+            "4A D2": 1,
+            "3A D1": 1,
+            "2A D1": 1,
+            "2A D2": 2
+          }
+        },
+        "3": {
+          "total": 5,
+          "classifications": {
+            "6A D1": 2,
+            "6A D2": 1,
+            "5A D1": 1,
+            "2A D1": 1
+          }
+        },
+        "4": {
+          "total": 1,
+          "classifications": {
+            "6A D2": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "SFA",
+      "total": 7,
+      "weeks": {
+        "1": {
+          "total": 4,
+          "classifications": {
+            "3A D1": 1,
+            "2A D1": 2,
+            "2A D2": 1
+          }
+        },
+        "2": {
+          "total": 2,
+          "classifications": {
+            "3A D2": 1,
+            "2A D2": 1
+          }
+        },
+        "3": {
+          "total": 1,
+          "classifications": {
+            "2A D1": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "SPC",
+      "total": 38,
+      "weeks": {
+        "2": {
+          "total": 12,
+          "classifications": {
+            "4A D1": 2,
+            "3A D2": 2,
+            "2A D1": 2,
+            "2A D2": 3,
+            "1A D1": 3
+          }
+        },
+        "1": {
+          "total": 23,
+          "classifications": {
+            "4A D2": 3,
+            "3A D1": 1,
+            "3A D2": 4,
+            "2A D1": 2,
+            "2A D2": 5,
+            "1A D1": 8
+          }
+        },
+        "3": {
+          "total": 2,
+          "classifications": {
+            "4A D2": 1,
+            "2A D1": 1
+          }
+        },
+        "4": {
+          "total": 1,
+          "classifications": {
+            "1A D1": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "STX",
+      "total": 8,
+      "weeks": {
+        "1": {
+          "total": 6,
+          "classifications": {
+            "5A D1": 1,
+            "3A D1": 1,
+            "3A D2": 2,
+            "2A D1": 1,
+            "2A D2": 1
+          }
+        },
+        "2": {
+          "total": 2,
+          "classifications": {
+            "5A D1": 1,
+            "4A D2": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "TYL",
+      "total": 50,
+      "weeks": {
+        "1": {
+          "total": 23,
+          "classifications": {
+            "5A D2": 1,
+            "4A D1": 6,
+            "4A D2": 4,
+            "3A D1": 3,
+            "3A D2": 2,
+            "2A D1": 5,
+            "2A D2": 1,
+            "1A D1": 1
+          }
+        },
+        "4": {
+          "total": 6,
+          "classifications": {
+            "5A D2": 1,
+            "4A D1": 1,
+            "4A D2": 1,
+            "3A D1": 2,
+            "3A D2": 1
+          }
+        },
+        "5": {
+          "total": 4,
+          "classifications": {
+            "5A D2": 1,
+            "4A D1": 1,
+            "3A D1": 1,
+            "3A D2": 1
+          }
+        },
+        "2": {
+          "total": 12,
+          "classifications": {
+            "4A D1": 2,
+            "4A D2": 2,
+            "3A D1": 3,
+            "3A D2": 2,
+            "2A D1": 2,
+            "2A D2": 1
+          }
+        },
+        "3": {
+          "total": 5,
+          "classifications": {
+            "3A D1": 3,
+            "2A D1": 1,
+            "2A D2": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "WAC",
+      "total": 38,
+      "weeks": {
+        "2": {
+          "total": 12,
+          "classifications": {
+            "6A D1": 1,
+            "5A D1": 2,
+            "4A D1": 2,
+            "4A D2": 1,
+            "3A D2": 1,
+            "2A D1": 1,
+            "2A D2": 1,
+            "1A D1": 3
+          }
+        },
+        "1": {
+          "total": 16,
+          "classifications": {
+            "5A D1": 4,
+            "5A D2": 1,
+            "4A D1": 2,
+            "3A D1": 1,
+            "3A D2": 2,
+            "2A D1": 3,
+            "1A D1": 3
+          }
+        },
+        "3": {
+          "total": 6,
+          "classifications": {
+            "5A D1": 1,
+            "5A D2": 1,
+            "4A D1": 2,
+            "3A D2": 1,
+            "2A D2": 1
+          }
+        },
+        "5": {
+          "total": 3,
+          "classifications": {
+            "5A D2": 1,
+            "4A D2": 1,
+            "2A D1": 1
+          }
+        },
+        "4": {
+          "total": 1,
+          "classifications": {
+            "3A D2": 1
+          }
+        }
+      }
     }
   ]
 }
