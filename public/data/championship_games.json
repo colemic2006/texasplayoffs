@@ -147,22 +147,6 @@
         "score2": 21
       }
     ],
-    "2022": [
-      {
-        "classification": "5A D1",
-        "team1": "Aledo",
-        "team2": "College Station",
-        "score1": 52,
-        "score2": 14
-      },
-      {
-        "classification": "6A D2",
-        "team1": "DeSoto",
-        "team2": "Austin Vandegrift",
-        "score1": 42,
-        "score2": 17
-      }
-    ],
     "2020": [
       {
         "classification": "5A D1",
@@ -1081,15 +1065,6 @@
         "score1": null,
         "score2": null
       }
-    ],
-    "2023": [
-      {
-        "classification": "1A D2",
-        "team1": "Benjamin",
-        "team2": "Oglesby",
-        "score1": 82,
-        "score2": 34
-      }
     ]
   },
   "ABI": {
@@ -1283,15 +1258,6 @@
         "team2": "Austin Lake Travis",
         "score1": 35,
         "score2": 33
-      }
-    ],
-    "2022": [
-      {
-        "classification": "6A D1",
-        "team1": "Duncanville",
-        "team2": "Galena Park North Shore",
-        "score1": 28,
-        "score2": 21
       }
     ],
     "2020": [
