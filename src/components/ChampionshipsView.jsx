@@ -34,7 +34,7 @@ export default function ChampionshipsView() {
   const [gamesByChYear, setGamesByChYear] = useState({}) // { 'HOU': { '2022': [game,...] } }
 
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}data/championships.json`)
+    fetch(`${import.meta.env.BASE_URL}data/championships.json?v=${__BUILD_TIME__}`)
       .then(r => r.ok ? r.json() : null)
       .then(setData)
       .catch(() => {})
@@ -42,14 +42,14 @@ export default function ChampionshipsView() {
 
   useEffect(() => {
     // Load historical championship games
-    const histFetch = fetch(`${import.meta.env.BASE_URL}data/championship_games.json`)
+    const histFetch = fetch(`${import.meta.env.BASE_URL}data/championship_games.json?v=${__BUILD_TIME__}`)
       .then(r => r.ok ? r.json() : {})
       .catch(() => ({}))
 
     // Load 2022-2025 game data
     const yearFetches = Promise.all(
       GAME_DATA_YEARS.map(y =>
-        fetch(`${import.meta.env.BASE_URL}data/${y}.json`)
+        fetch(`${import.meta.env.BASE_URL}data/${y}.json?v=${__BUILD_TIME__}`)
           .then(r => r.ok ? r.json() : null)
           .catch(() => null)
       )

@@ -22,7 +22,7 @@ export default function App() {
     if (data[year]) { setLoading(false); return }
     setLoading(true)
     setError(null)
-    fetch(`${import.meta.env.BASE_URL}data/${year}.json`)
+    fetch(`${import.meta.env.BASE_URL}data/${year}.json?v=${__BUILD_TIME__}`)
       .then(r => {
         if (!r.ok) throw new Error(`Could not load ${year} data`)
         return r.json()
@@ -39,7 +39,7 @@ export default function App() {
     if (page !== 'teams' && page !== 'regulars') return
     YEARS.filter(y => ![2026, 2010].includes(y)).forEach(y => {
       if (data[y]) return
-      fetch(`${import.meta.env.BASE_URL}data/${y}.json`)
+      fetch(`${import.meta.env.BASE_URL}data/${y}.json?v=${__BUILD_TIME__}`)
         .then(r => r.ok ? r.json() : null)
         .then(d => { if (d) setData(prev => ({ ...prev, [y]: d })) })
         .catch(() => {})
@@ -78,7 +78,7 @@ export default function App() {
                 {page === 'brackets' && <BracketViewer data={yearData} year={year} />}
                 {page === 'history' && <HistoryView allData={data} years={YEARS} loadYear={(y) => {
                   if (data[y]) return
-                  fetch(`${import.meta.env.BASE_URL}data/${y}.json`)
+                  fetch(`${import.meta.env.BASE_URL}data/${y}.json?v=${__BUILD_TIME__}`)
                     .then(r => r.ok ? r.json() : null)
                     .then(d => { if (d) setData(prev => ({ ...prev, [y]: d })) })
                     .catch(() => {})
