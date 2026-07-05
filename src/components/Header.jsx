@@ -6,7 +6,7 @@ export default function Header({ yearData, year }) {
   const numChapters = chapters.filter(c => c.total > 0).length
 
   return (
-    <header style={{
+    <header className="header-root" style={{
       background: 'var(--ink)', color: 'var(--cream)',
       padding: '44px 40px 36px', position: 'relative', overflow: 'hidden'
     }}>
@@ -23,29 +23,29 @@ export default function Header({ yearData, year }) {
         pointerEvents: 'none', userSelect: 'none'
       }}>UIL</div>
 
-      <div style={{
+      <div className="header-eyebrow" style={{
         fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.18em',
         textTransform: 'uppercase', color: 'var(--gold)', marginBottom: 10
       }}>
         Texas High School Football · Officiating Data · {year} Season
       </div>
 
-      <h1 style={{
+      <h1 className="header-title" style={{
         fontFamily: "'Bebas Neue', sans-serif", fontSize: 56, lineHeight: 0.95,
         letterSpacing: 1.5, marginBottom: 10
       }}>
-        Texas Playoff<br />
+        Texas Playoffs<br />
         <span style={{ color: 'var(--burnt)' }}>Chapter Tracker</span>
       </h1>
 
-      <p style={{
+      <p className="header-subtitle" style={{
         maxWidth: 560, fontSize: 14, fontWeight: 300,
         color: 'rgba(245,240,232,0.6)', lineHeight: 1.55, marginBottom: 28
       }}>
         Per-chapter game assignments across all 12 UIL classifications — week by week, cumulative, and year over year.
       </p>
 
-      <div style={{ display: 'flex', gap: 36, flexWrap: 'wrap' }}>
+      <div className="header-stats" style={{ display: 'flex', gap: 36, flexWrap: 'wrap' }}>
         {[
           { label: 'Active Chapters', value: numChapters || '—' },
           { label: 'Total Playoff Games', value: totalGames || '—' },

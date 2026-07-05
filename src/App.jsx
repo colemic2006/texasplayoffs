@@ -61,7 +61,7 @@ export default function App() {
         years={YEARS}
       />
 
-      <main style={{ flex: 1, maxWidth: 1100, margin: '0 auto', padding: '40px 24px 80px', width: '100%' }}>
+      <main className="main-content" style={{ flex: 1, maxWidth: 1100, margin: '0 auto', padding: '40px 24px 80px', width: '100%' }}>
         {page === 'championships' ? (
           <ChampionshipsView />
         ) : (page === 'teams' || page === 'regulars') ? (
