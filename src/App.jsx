@@ -37,7 +37,7 @@ export default function App() {
   // Preload all years when Teams or Chapter Regulars tab is active
   useEffect(() => {
     if (page !== 'teams' && page !== 'regulars') return
-    YEARS.filter(y => ![2026, 2010].includes(y)).forEach(y => {
+    YEARS.filter(y => ![2026].includes(y)).forEach(y => {
       if (data[y]) return
       fetch(`${import.meta.env.BASE_URL}data/${y}.json?v=${__BUILD_TIME__}`)
         .then(r => r.ok ? r.json() : null)
@@ -47,7 +47,7 @@ export default function App() {
   }, [page])
 
   const yearData = data[year] || null
-  const DATA_YEARS = YEARS.filter(y => ![2026, 2010].includes(y))
+  const DATA_YEARS = YEARS.filter(y => ![2026].includes(y))
   const allYearsLoaded = (page === 'teams' || page === 'regulars') ? DATA_YEARS.every(y => data[y]) : true
 
   return (

@@ -43,7 +43,7 @@ export default function Nav({ page, setPage, year, setYear, years }) {
         scrollbarWidth: 'none', borderTop: '1px solid rgba(255,255,255,0.06)'
       }}>
         {years.map(y => {
-          const inactive = [2026, 2010].includes(y)
+          const inactive = [2026].includes(y)
           const active = year === y
           return (
             <button
