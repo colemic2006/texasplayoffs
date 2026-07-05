@@ -48,8 +48,10 @@ export default function ChapterRegulars({ allData, years }) {
   const [regularsChapter, setRegularsChapter] = useState(null)
   const [selectedTeam, setSelectedTeam] = useState(null)
 
-  const { teams, allChapterCodes } = useMemo(() => {
+  const { teams, allChapterCodes, gameIndex } = useMemo(() => {
     const map = new Map()
+    // gameIndex: key = "TEAMNAME|CHAPTER" → array of game records
+    const gameIndex = new Map()
     for (const year of years) {
       const yearData = allData[year]
       if (!yearData?.games?.length) continue
@@ -64,6 +66,9 @@ export default function ChapterRegulars({ allData, years }) {
           const t = map.get(key)
           if (game.classification) t.classifications.add(game.classification)
           t.chapters.set(chapter, (t.chapters.get(chapter) || 0) + 1)
+          const gk = `${key}|${chapter}`
+          if (!gameIndex.has(gk)) gameIndex.set(gk, [])
+          gameIndex.get(gk).push({ ...game, year })
         }
       }
     }
@@ -74,7 +79,7 @@ export default function ChapterRegulars({ allData, years }) {
     }))
     const codes = new Set()
     teams.forEach(t => t.chapters.forEach(({ ch }) => codes.add(ch)))
-    return { teams, allChapterCodes: Array.from(codes).sort() }
+    return { teams, allChapterCodes: Array.from(codes).sort(), gameIndex }
   }, [allData, years])
 
   const chapterRegularsList = useMemo(() => {
@@ -145,6 +150,10 @@ export default function ChapterRegulars({ allData, years }) {
               const pct = (team.count / max) * 100
               const rankColor = i < 3 ? RANK_COLORS[i] : 'var(--mid)'
               const isSelected = selectedTeam === team.name
+              const teamGames = isSelected
+                ? (gameIndex.get(`${team.name}|${regularsChapter}`) || [])
+                    .slice().sort((a, b) => b.year - a.year || a.classification.localeCompare(b.classification))
+                : []
               return (
                 <div
                   key={team.name}
@@ -168,7 +177,60 @@ export default function ChapterRegulars({ allData, years }) {
                   <div style={{ height:4, background:'rgba(15,13,11,0.08)', borderRadius:2, overflow:'hidden', marginBottom:5 }}>
                     <div style={{ height:'100%', width:`${pct}%`, background: rankColor, borderRadius:2, transition:'width 0.3s' }} />
                   </div>
-                  <div style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)' }}>{team.classifications.join(' · ')}</div>
+                  <div style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)', marginBottom: isSelected ? 10 : 0 }}>
+                    {team.classifications.join(' · ')}
+                  </div>
+
+                  {isSelected && teamGames.length > 0 && (
+                    <div style={{ borderTop:'1px solid var(--border)', marginTop:6, paddingTop:8 }}
+                      onClick={e => e.stopPropagation()}>
+                      {teamGames.map((g, gi) => {
+                        const isTeam1 = canonicalize(g.team1) === team.name
+                        const myScore = isTeam1 ? g.score1 : g.score2
+                        const oppScore = isTeam1 ? g.score2 : g.score1
+                        const opp = isTeam1 ? g.team2 : g.team1
+                        const won = g.winner && canonicalize(g.winner) === team.name
+                        const lost = g.winner && canonicalize(g.winner) !== team.name
+                        return (
+                          <div key={gi} style={{
+                            display:'flex', alignItems:'center', justifyContent:'space-between',
+                            padding:'4px 0',
+                            borderBottom: gi < teamGames.length - 1 ? '1px solid rgba(15,13,11,0.05)' : 'none',
+                          }}>
+                            <div style={{ flex:1, minWidth:0 }}>
+                              <div style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)', marginBottom:1 }}>
+                                {g.year} · {g.classification} · {g.round}
+                              </div>
+                              <div style={{ fontFamily:'DM Sans', fontSize:11, color:'var(--ink)', whiteSpace:'nowrap', overflow:'hidden', textOverflow:'ellipsis' }}>
+                                vs {opp}
+                              </div>
+                            </div>
+                            <div style={{ display:'flex', alignItems:'center', gap:6, flexShrink:0, marginLeft:8 }}>
+                              {myScore != null && oppScore != null ? (
+                                <span style={{
+                                  fontFamily:'var(--mono)', fontSize:11, fontWeight:500,
+                                  color: won ? 'var(--sage)' : lost ? 'var(--burnt)' : 'var(--mid)'
+                                }}>
+                                  {myScore}–{oppScore}
+                                </span>
+                              ) : (
+                                <span style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)' }}>
+                                  {won ? 'W' : lost ? 'L' : '—'}
+                                </span>
+                              )}
+                              <span style={{
+                                fontFamily:'var(--mono)', fontSize:9,
+                                color: won ? 'var(--sage)' : lost ? 'var(--burnt)' : 'var(--mid)',
+                                fontWeight:600
+                              }}>
+                                {won ? 'W' : lost ? 'L' : ''}
+                              </span>
+                            </div>
+                          </div>
+                        )
+                      })}
+                    </div>
+                  )}
                 </div>
               )
             })}
