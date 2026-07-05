@@ -1,7 +1,7 @@
 import React, { useState, useMemo, useEffect, useRef } from 'react'
 import 'leaflet/dist/leaflet.css'
 
-const CLASSIFICATIONS = ['1A D1','1A D2','2A D1','2A D2','3A D1','3A D2','4A D1','4A D2','5A D1','5A D2','6A D1','6A D2']
+const CLASSIFICATIONS = ['1A D1','1A D2','2A D1','2A D2','3A D1','3A D2','4A D1','4A D2','5A D1','5A D2','6A D1','6A D2','Six Man D1','Six Man D2']
 const WEEKS = [1,2,3,4,5,6]
 const ROUND_NAMES = {
   1: 'Bi-District / Area',
