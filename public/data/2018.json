@@ -728,9 +728,9 @@
       "round": "Semifinal",
       "chapter": "DAL",
       "team1": "Duncanville",
-      "score1": null,
+      "score1": 44,
       "team2": "Allen",
-      "score2": null,
+      "score2": 35,
       "winner": "Duncanville"
     },
     {
@@ -740,9 +740,9 @@
       "round": "Semifinal",
       "chapter": "HOU",
       "team1": "Galena Park North Shore",
-      "score1": null,
+      "score1": 28,
       "team2": "Lake Travis",
-      "score2": null,
+      "score2": 6,
       "winner": "Galena Park North Shore"
     },
     {
@@ -752,10 +752,10 @@
       "round": "State Final",
       "chapter": "",
       "team1": "Duncanville",
-      "score1": null,
+      "score1": 36,
       "team2": "Galena Park North Shore",
-      "score2": null,
-      "winner": "Duncanville"
+      "score2": 41,
+      "winner": "Galena Park North Shore"
     },
     {
       "year": 2018,
@@ -1487,7 +1487,7 @@
       "score1": null,
       "team2": "Longview",
       "score2": null,
-      "winner": "Amarillo Tascosa"
+      "winner": "Longview"
     },
     {
       "year": 2018,
@@ -1507,11 +1507,11 @@
       "week": 6,
       "round": "State Final",
       "chapter": "",
-      "team1": "Amarillo Tascosa",
-      "score1": null,
+      "team1": "Longview",
+      "score1": 35,
       "team2": "Beaumont Westbrook",
-      "score2": null,
-      "winner": "Beaumont Westbrook"
+      "score2": 34,
+      "winner": "Longview"
     },
     {
       "year": 2018,
@@ -2243,7 +2243,7 @@
       "score1": null,
       "team2": "Highland Park",
       "score2": null,
-      "winner": "Denton Ryan"
+      "winner": "Highland Park"
     },
     {
       "year": 2018,
@@ -2263,11 +2263,11 @@
       "week": 6,
       "round": "State Final",
       "chapter": "",
-      "team1": "Denton Ryan",
-      "score1": null,
+      "team1": "Highland Park",
+      "score1": 27,
       "team2": "Alvin Shadow Creek",
-      "score2": null,
-      "winner": "Alvin Shadow Creek"
+      "score2": 17,
+      "winner": "Highland Park"
     },
     {
       "year": 2018,
@@ -2999,7 +2999,7 @@
       "score1": null,
       "team2": "Aledo",
       "score2": null,
-      "winner": "Wichita Falls Rider"
+      "winner": "Aledo"
     },
     {
       "year": 2018,
@@ -3019,11 +3019,11 @@
       "week": 6,
       "round": "State Final",
       "chapter": "",
-      "team1": "Wichita Falls Rider",
-      "score1": null,
+      "team1": "Aledo",
+      "score1": 55,
       "team2": "Fort Bend Marshall",
-      "score2": null,
-      "winner": "Fort Bend Marshall"
+      "score2": 19,
+      "winner": "Aledo"
     },
     {
       "year": 2018,
@@ -3755,7 +3755,7 @@
       "score1": null,
       "team2": "Waco La Vega",
       "score2": null,
-      "winner": "Decatur"
+      "winner": "Waco La Vega"
     },
     {
       "year": 2018,
@@ -3767,7 +3767,7 @@
       "score1": null,
       "team2": "Liberty Hill",
       "score2": null,
-      "winner": "Carthage"
+      "winner": "Liberty Hill"
     },
     {
       "year": 2018,
@@ -3775,11 +3775,11 @@
       "week": 6,
       "round": "State Final",
       "chapter": "",
-      "team1": "Decatur",
-      "score1": null,
-      "team2": "Carthage",
-      "score2": null,
-      "winner": "Carthage"
+      "team1": "Waco La Vega",
+      "score1": 35,
+      "team2": "Liberty Hill",
+      "score2": 21,
+      "winner": "Waco La Vega"
     },
     {
       "year": 2018,
@@ -4511,7 +4511,7 @@
       "score1": null,
       "team2": "Texarkana Pleasant Grove",
       "score2": null,
-      "winner": "Iowa Park"
+      "winner": "Texarkana Pleasant Grove"
     },
     {
       "year": 2018,
@@ -4523,7 +4523,7 @@
       "score1": null,
       "team2": "Cuero",
       "score2": null,
-      "winner": "Silsbee"
+      "winner": "Cuero"
     },
     {
       "year": 2018,
@@ -4531,11 +4531,11 @@
       "week": 6,
       "round": "State Final",
       "chapter": "",
-      "team1": "Iowa Park",
-      "score1": null,
-      "team2": "Silsbee",
-      "score2": null,
-      "winner": "Silsbee"
+      "team1": "Cuero",
+      "score1": 40,
+      "team2": "Texarkana Pleasant Grove",
+      "score2": 28,
+      "winner": "Cuero"
     },
     {
       "year": 2018,
@@ -5267,7 +5267,7 @@
       "score1": null,
       "team2": "Malakoff",
       "score2": null,
-      "winner": "Brock"
+      "winner": "Malakoff"
     },
     {
       "year": 2018,
@@ -5287,11 +5287,11 @@
       "week": 6,
       "round": "State Final",
       "chapter": "",
-      "team1": "Brock",
-      "score1": null,
-      "team2": "Grandview",
-      "score2": null,
-      "winner": "Brock"
+      "team1": "Grandview",
+      "score1": 35,
+      "team2": "Malakoff",
+      "score2": 21,
+      "winner": "Grandview"
     },
     {
       "year": 2018,
@@ -6044,9 +6044,9 @@
       "round": "State Final",
       "chapter": "",
       "team1": "Canadian",
-      "score1": null,
+      "score1": 16,
       "team2": "Newton",
-      "score2": null,
+      "score2": 21,
       "winner": "Newton"
     },
     {
@@ -6791,7 +6791,7 @@
       "score1": null,
       "team2": "Mason",
       "score2": null,
-      "winner": "San Augustine"
+      "winner": "Mason"
     },
     {
       "year": 2018,
@@ -6799,11 +6799,11 @@
       "week": 6,
       "round": "State Final",
       "chapter": "",
-      "team1": "New Deal",
-      "score1": null,
-      "team2": "San Augustine",
-      "score2": null,
-      "winner": "San Augustine"
+      "team1": "Mason",
+      "score1": 44,
+      "team2": "New Deal",
+      "score2": 6,
+      "winner": "Mason"
     },
     {
       "year": 2018,
@@ -7556,9 +7556,9 @@
       "round": "State Final",
       "chapter": "",
       "team1": "Gruver",
-      "score1": null,
+      "score1": 33,
       "team2": "Mart",
-      "score2": null,
+      "score2": 76,
       "winner": "Mart"
     },
     {
@@ -8288,21 +8288,21 @@
       "round": "State Final",
       "chapter": "PVC",
       "team1": "McLean",
-      "score1": null,
+      "score1": 100,
       "team2": "Milford",
-      "score2": null,
-      "winner": "Milford"
+      "score2": 70,
+      "winner": "McLean"
     },
     {
       "year": 2018,
-      "classification": "1A D1",
+      "classification": "1A D2",
       "week": 5,
       "round": "State Final",
       "chapter": "",
       "team1": "Follett",
-      "score1": null,
+      "score1": 0,
       "team2": "Strawn",
-      "score2": null,
+      "score2": 48,
       "winner": "Strawn"
     }
   ],
