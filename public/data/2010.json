@@ -739,11 +739,11 @@
       "week": 6,
       "round": "State Final",
       "chapter": "TYL",
-      "team1": "Euless Trinity",
-      "score1": null,
-      "team2": "Pearland",
-      "score2": null,
-      "winner": "Euless Trinity"
+      "team1": "Pearland",
+      "score1": 28,
+      "team2": "Euless Trinity",
+      "score2": 24,
+      "winner": "Pearland"
     },
     {
       "year": 2010,
@@ -1471,11 +1471,11 @@
       "week": 6,
       "round": "State Final",
       "chapter": "WC",
-      "team1": "Denton Guyer",
-      "score1": null,
-      "team2": "Cibolo Steele",
-      "score2": null,
-      "winner": null
+      "team1": "Cibolo Steele",
+      "score1": 24,
+      "team2": "Denton Guyer",
+      "score2": 21,
+      "winner": "Cibolo Steele"
     },
     {
       "year": 2010,
@@ -2227,11 +2227,11 @@
       "week": 6,
       "round": "State Final",
       "chapter": "HOU",
-      "team1": "Denton Ryan",
-      "score1": null,
-      "team2": "Austin Lake Travis",
-      "score2": null,
-      "winner": "Denton Ryan"
+      "team1": "Austin Lake Travis",
+      "score1": 27,
+      "team2": "Denton Ryan",
+      "score2": 7,
+      "winner": "Austin Lake Travis"
     },
     {
       "year": 2010,
@@ -2972,9 +2972,9 @@
       "round": "State Final",
       "chapter": "SPC",
       "team1": "Aledo",
-      "score1": null,
+      "score1": 69,
       "team2": "LaMarque",
-      "score2": null,
+      "score2": 34,
       "winner": "Aledo"
     },
     {
@@ -4076,10 +4076,10 @@
       "round": "State Final",
       "chapter": "FTW",
       "team1": "Carthage",
-      "score1": null,
+      "score1": 47,
       "team2": "Coldspring",
-      "score2": null,
-      "winner": null
+      "score2": 22,
+      "winner": "Carthage"
     },
     {
       "year": 2010,
@@ -4592,10 +4592,10 @@
       "round": "State Final",
       "chapter": "DAL",
       "team1": "Daingerfield",
-      "score1": null,
+      "score1": 33,
       "team2": "Cameron Yoe",
-      "score2": null,
-      "winner": null
+      "score2": 27,
+      "winner": "Daingerfield"
     },
     {
       "year": 2010,
@@ -5108,10 +5108,10 @@
       "round": "State Final",
       "chapter": "FTW",
       "team1": "Idalou",
-      "score1": null,
+      "score1": 20,
       "team2": "Lexington",
-      "score2": null,
-      "winner": null
+      "score2": 3,
+      "winner": "Idalou"
     },
     {
       "year": 2010,
@@ -5660,10 +5660,10 @@
       "round": "State Final",
       "chapter": "FTW",
       "team1": "Mart",
-      "score1": null,
+      "score1": 28,
       "team2": "Goldthwaite",
-      "score2": null,
-      "winner": null
+      "score2": 7,
+      "winner": "Mart"
     },
     {
       "year": 2010,
@@ -6211,15 +6211,15 @@
       "week": 6,
       "round": "State Final",
       "chapter": "CCC",
-      "team1": "Windthorst",
-      "score1": null,
-      "team2": "Falls City",
-      "score2": null,
-      "winner": null
+      "team1": "Falls City",
+      "score1": 32,
+      "team2": "Windthorst",
+      "score2": 7,
+      "winner": "Falls City"
     },
     {
       "year": 2010,
-      "classification": "6M D1",
+      "classification": "1A 6M D1",
       "week": 2,
       "round": "Area",
       "chapter": "AMI",
@@ -6231,7 +6231,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D1",
+      "classification": "1A 6M D1",
       "week": 2,
       "round": "Area",
       "chapter": "SPC",
@@ -6243,7 +6243,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D1",
+      "classification": "1A 6M D1",
       "week": 2,
       "round": "Area",
       "chapter": "SPC",
@@ -6255,7 +6255,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D1",
+      "classification": "1A 6M D1",
       "week": 2,
       "round": "Area",
       "chapter": "SPC",
@@ -6267,7 +6267,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D1",
+      "classification": "1A 6M D1",
       "week": 2,
       "round": "Area",
       "chapter": "SPC",
@@ -6279,7 +6279,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D1",
+      "classification": "1A 6M D1",
       "week": 2,
       "round": "Area",
       "chapter": "SPC",
@@ -6291,7 +6291,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D1",
+      "classification": "1A 6M D1",
       "week": 2,
       "round": "Area",
       "chapter": "SPC",
@@ -6303,7 +6303,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D1",
+      "classification": "1A 6M D1",
       "week": 2,
       "round": "Area",
       "chapter": "ABI",
@@ -6315,7 +6315,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D1",
+      "classification": "1A 6M D1",
       "week": 2,
       "round": "Area",
       "chapter": "SJC",
@@ -6327,7 +6327,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D1",
+      "classification": "1A 6M D1",
       "week": 2,
       "round": "Area",
       "chapter": "FTW",
@@ -6339,7 +6339,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D1",
+      "classification": "1A 6M D1",
       "week": 2,
       "round": "Area",
       "chapter": "ABI",
@@ -6351,7 +6351,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D1",
+      "classification": "1A 6M D1",
       "week": 2,
       "round": "Area",
       "chapter": "WC",
@@ -6363,7 +6363,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D1",
+      "classification": "1A 6M D1",
       "week": 2,
       "round": "Area",
       "chapter": "WC",
@@ -6375,7 +6375,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D1",
+      "classification": "1A 6M D1",
       "week": 2,
       "round": "Area",
       "chapter": "CSC",
@@ -6387,7 +6387,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D1",
+      "classification": "1A 6M D1",
       "week": 3,
       "round": "Regional",
       "chapter": "AMI",
@@ -6399,7 +6399,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D1",
+      "classification": "1A 6M D1",
       "week": 3,
       "round": "Regional",
       "chapter": "SPC",
@@ -6411,7 +6411,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D1",
+      "classification": "1A 6M D1",
       "week": 3,
       "round": "Regional",
       "chapter": "SPC",
@@ -6423,7 +6423,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D1",
+      "classification": "1A 6M D1",
       "week": 3,
       "round": "Regional",
       "chapter": "SJC",
@@ -6435,7 +6435,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D1",
+      "classification": "1A 6M D1",
       "week": 3,
       "round": "Regional",
       "chapter": "ABI",
@@ -6447,7 +6447,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D1",
+      "classification": "1A 6M D1",
       "week": 3,
       "round": "Regional",
       "chapter": "SJC",
@@ -6459,7 +6459,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D1",
+      "classification": "1A 6M D1",
       "week": 3,
       "round": "Regional",
       "chapter": "WC",
@@ -6471,7 +6471,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D1",
+      "classification": "1A 6M D1",
       "week": 3,
       "round": "Regional",
       "chapter": "WC",
@@ -6483,7 +6483,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D1",
+      "classification": "1A 6M D1",
       "week": 4,
       "round": "Quarterfinal",
       "chapter": "AMI",
@@ -6495,7 +6495,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D1",
+      "classification": "1A 6M D1",
       "week": 4,
       "round": "Quarterfinal",
       "chapter": "SJC",
@@ -6507,7 +6507,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D1",
+      "classification": "1A 6M D1",
       "week": 4,
       "round": "Quarterfinal",
       "chapter": "SJC",
@@ -6519,7 +6519,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D1",
+      "classification": "1A 6M D1",
       "week": 4,
       "round": "Quarterfinal",
       "chapter": "WC",
@@ -6531,7 +6531,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D1",
+      "classification": "1A 6M D1",
       "week": 5,
       "round": "Semifinal",
       "chapter": "SPC",
@@ -6543,7 +6543,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D1",
+      "classification": "1A 6M D1",
       "week": 5,
       "round": "Semifinal",
       "chapter": "CTX",
@@ -6555,7 +6555,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D1",
+      "classification": "1A 6M D1",
       "week": 6,
       "round": "State Final",
       "chapter": "FTW",
@@ -6567,7 +6567,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D2",
+      "classification": "1A 6M D2",
       "week": 2,
       "round": "Area",
       "chapter": "AMI",
@@ -6579,7 +6579,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D2",
+      "classification": "1A 6M D2",
       "week": 2,
       "round": "Area",
       "chapter": "SPC",
@@ -6591,7 +6591,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D2",
+      "classification": "1A 6M D2",
       "week": 2,
       "round": "Area",
       "chapter": "AMI",
@@ -6603,7 +6603,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D2",
+      "classification": "1A 6M D2",
       "week": 2,
       "round": "Area",
       "chapter": "SPC",
@@ -6615,7 +6615,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D2",
+      "classification": "1A 6M D2",
       "week": 2,
       "round": "Area",
       "chapter": "SPC",
@@ -6627,7 +6627,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D2",
+      "classification": "1A 6M D2",
       "week": 2,
       "round": "Area",
       "chapter": "ABI",
@@ -6639,7 +6639,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D2",
+      "classification": "1A 6M D2",
       "week": 2,
       "round": "Area",
       "chapter": "SPC",
@@ -6651,7 +6651,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D2",
+      "classification": "1A 6M D2",
       "week": 2,
       "round": "Area",
       "chapter": "ABI",
@@ -6663,7 +6663,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D2",
+      "classification": "1A 6M D2",
       "week": 2,
       "round": "Area",
       "chapter": "PVC",
@@ -6675,7 +6675,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D2",
+      "classification": "1A 6M D2",
       "week": 2,
       "round": "Area",
       "chapter": "FTW",
@@ -6687,7 +6687,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D2",
+      "classification": "1A 6M D2",
       "week": 2,
       "round": "Area",
       "chapter": "SPC",
@@ -6699,7 +6699,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D2",
+      "classification": "1A 6M D2",
       "week": 2,
       "round": "Area",
       "chapter": "PVC",
@@ -6711,7 +6711,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D2",
+      "classification": "1A 6M D2",
       "week": 2,
       "round": "Area",
       "chapter": "ABI",
@@ -6723,7 +6723,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D2",
+      "classification": "1A 6M D2",
       "week": 2,
       "round": "Area",
       "chapter": "ABI",
@@ -6735,7 +6735,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D2",
+      "classification": "1A 6M D2",
       "week": 2,
       "round": "Area",
       "chapter": "WC",
@@ -6747,7 +6747,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D2",
+      "classification": "1A 6M D2",
       "week": 2,
       "round": "Area",
       "chapter": "PVC",
@@ -6759,7 +6759,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D2",
+      "classification": "1A 6M D2",
       "week": 3,
       "round": "Regional",
       "chapter": "SPC",
@@ -6771,7 +6771,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D2",
+      "classification": "1A 6M D2",
       "week": 3,
       "round": "Regional",
       "chapter": "SPC",
@@ -6783,7 +6783,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D2",
+      "classification": "1A 6M D2",
       "week": 3,
       "round": "Regional",
       "chapter": "PBC",
@@ -6795,7 +6795,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D2",
+      "classification": "1A 6M D2",
       "week": 3,
       "round": "Regional",
       "chapter": "SPC",
@@ -6807,7 +6807,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D2",
+      "classification": "1A 6M D2",
       "week": 3,
       "round": "Regional",
       "chapter": "PVC",
@@ -6819,7 +6819,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D2",
+      "classification": "1A 6M D2",
       "week": 3,
       "round": "Regional",
       "chapter": "PVC",
@@ -6831,7 +6831,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D2",
+      "classification": "1A 6M D2",
       "week": 4,
       "round": "Quarterfinal",
       "chapter": "SPC",
@@ -6843,7 +6843,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D2",
+      "classification": "1A 6M D2",
       "week": 4,
       "round": "Quarterfinal",
       "chapter": "SPC",
@@ -6855,7 +6855,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D2",
+      "classification": "1A 6M D2",
       "week": 4,
       "round": "Quarterfinal",
       "chapter": "PVC",
@@ -6867,7 +6867,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D2",
+      "classification": "1A 6M D2",
       "week": 4,
       "round": "Quarterfinal",
       "chapter": "SPC",
@@ -6879,7 +6879,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D2",
+      "classification": "1A 6M D2",
       "week": 5,
       "round": "Semifinal",
       "chapter": "ABI",
@@ -6891,7 +6891,7 @@
     },
     {
       "year": 2010,
-      "classification": "6M D2",
+      "classification": "1A 6M D2",
       "week": 5,
       "round": "Semifinal",
       "chapter": "SPC",
@@ -6903,14 +6903,14 @@
     },
     {
       "year": 2010,
-      "classification": "6M D2",
+      "classification": "1A 6M D2",
       "week": 6,
       "round": "State Final",
       "chapter": "SPC",
-      "team1": "Sterling City",
-      "score1": null,
-      "team2": "Richland Springs",
-      "score2": 46,
+      "team1": "Richland Springs",
+      "score1": 46,
+      "team2": "Sterling City",
+      "score2": 0,
       "winner": "Richland Springs"
     }
   ],
