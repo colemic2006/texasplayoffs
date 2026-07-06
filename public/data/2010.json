@@ -6226,8 +6226,8 @@
       "team1": "Follett",
       "score1": 46,
       "team2": "Crowell",
-      "score2": null,
-      "winner": null
+      "score2": 0,
+      "winner": "Follett"
     },
     {
       "year": 2010,
@@ -6322,8 +6322,8 @@
       "team1": "Throckmorton",
       "score1": 54,
       "team2": "May",
-      "score2": null,
-      "winner": null
+      "score2": 0,
+      "winner": "Throckmorton"
     },
     {
       "year": 2010,
