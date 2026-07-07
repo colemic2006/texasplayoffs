@@ -8308,440 +8308,6 @@
   ],
   "chapters": [
     {
-      "code": "ABI",
-      "total": 35,
-      "weeks": {
-        "1": {
-          "total": 20,
-          "classifications": {
-            "6A D1": 1,
-            "6A D2": 3,
-            "4A D1": 1,
-            "4A D2": 2,
-            "3A D1": 2,
-            "3A D2": 1,
-            "2A D1": 1,
-            "2A D2": 4,
-            "1A D1": 5
-          }
-        },
-        "2": {
-          "total": 8,
-          "classifications": {
-            "5A D1": 2,
-            "5A D2": 1,
-            "3A D1": 1,
-            "3A D2": 1,
-            "2A D1": 1,
-            "2A D2": 1,
-            "1A D1": 1
-          }
-        },
-        "4": {
-          "total": 4,
-          "classifications": {
-            "5A D1": 1,
-            "3A D2": 1,
-            "2A D2": 1,
-            "1A D1": 1
-          }
-        },
-        "3": {
-          "total": 3,
-          "classifications": {
-            "3A D2": 1,
-            "2A D2": 1,
-            "1A D1": 1
-          }
-        }
-      }
-    },
-    {
-      "code": "AMA",
-      "total": 15,
-      "weeks": {
-        "1": {
-          "total": 8,
-          "classifications": {
-            "6A D1": 1,
-            "2A D1": 2,
-            "2A D2": 2,
-            "1A D1": 3
-          }
-        },
-        "3": {
-          "total": 2,
-          "classifications": {
-            "2A D1": 1,
-            "1A D1": 1
-          }
-        },
-        "4": {
-          "total": 2,
-          "classifications": {
-            "2A D1": 1,
-            "1A D1": 1
-          }
-        },
-        "2": {
-          "total": 2,
-          "classifications": {
-            "2A D2": 2
-          }
-        },
-        "5": {
-          "total": 1,
-          "classifications": {
-            "2A D2": 1
-          }
-        }
-      }
-    },
-    {
-      "code": "AUS",
-      "total": 45,
-      "weeks": {
-        "1": {
-          "total": 24,
-          "classifications": {
-            "6A D1": 3,
-            "6A D2": 4,
-            "5A D1": 4,
-            "5A D2": 2,
-            "4A D2": 1,
-            "3A D1": 2,
-            "3A D2": 2,
-            "2A D1": 2,
-            "2A D2": 4
-          }
-        },
-        "5": {
-          "total": 3,
-          "classifications": {
-            "6A D1": 1,
-            "4A D1": 1,
-            "2A D2": 1
-          }
-        },
-        "2": {
-          "total": 11,
-          "classifications": {
-            "6A D2": 1,
-            "5A D1": 1,
-            "5A D2": 1,
-            "4A D1": 1,
-            "4A D2": 2,
-            "2A D1": 2,
-            "2A D2": 3
-          }
-        },
-        "3": {
-          "total": 4,
-          "classifications": {
-            "5A D1": 1,
-            "3A D1": 1,
-            "2A D1": 2
-          }
-        },
-        "4": {
-          "total": 2,
-          "classifications": {
-            "5A D1": 1,
-            "4A D2": 1
-          }
-        },
-        "6": {
-          "total": 1,
-          "classifications": {
-            "5A D1": 1
-          }
-        }
-      }
-    },
-    {
-      "code": "BEA",
-      "total": 2,
-      "weeks": {
-        "3": {
-          "total": 1,
-          "classifications": {
-            "4A D1": 1
-          }
-        },
-        "2": {
-          "total": 1,
-          "classifications": {
-            "3A D1": 1
-          }
-        }
-      }
-    },
-    {
-      "code": "COM",
-      "total": 3,
-      "weeks": {
-        "1": {
-          "total": 3,
-          "classifications": {
-            "3A D2": 2,
-            "2A D1": 1
-          }
-        }
-      }
-    },
-    {
-      "code": "CSC",
-      "total": 31,
-      "weeks": {
-        "1": {
-          "total": 17,
-          "classifications": {
-            "5A D1": 2,
-            "4A D2": 2,
-            "3A D1": 5,
-            "3A D2": 2,
-            "2A D1": 2,
-            "2A D2": 3,
-            "1A D1": 1
-          }
-        },
-        "2": {
-          "total": 11,
-          "classifications": {
-            "5A D1": 1,
-            "5A D2": 1,
-            "4A D1": 3,
-            "4A D2": 2,
-            "3A D1": 2,
-            "3A D2": 2
-          }
-        },
-        "3": {
-          "total": 2,
-          "classifications": {
-            "4A D1": 1,
-            "3A D2": 1
-          }
-        },
-        "4": {
-          "total": 1,
-          "classifications": {
-            "4A D1": 1
-          }
-        }
-      }
-    },
-    {
-      "code": "CTX",
-      "total": 10,
-      "weeks": {
-        "1": {
-          "total": 7,
-          "classifications": {
-            "6A D1": 1,
-            "5A D2": 1,
-            "3A D1": 1,
-            "3A D2": 1,
-            "2A D1": 1,
-            "1A D1": 2
-          }
-        },
-        "2": {
-          "total": 2,
-          "classifications": {
-            "3A D1": 1,
-            "3A D2": 1
-          }
-        },
-        "3": {
-          "total": 1,
-          "classifications": {
-            "2A D2": 1
-          }
-        }
-      }
-    },
-    {
-      "code": "DAL",
-      "total": 53,
-      "weeks": {
-        "1": {
-          "total": 24,
-          "classifications": {
-            "6A D1": 3,
-            "6A D2": 3,
-            "5A D1": 5,
-            "5A D2": 6,
-            "4A D1": 2,
-            "4A D2": 1,
-            "3A D1": 2,
-            "2A D1": 2
-          }
-        },
-        "2": {
-          "total": 17,
-          "classifications": {
-            "6A D1": 4,
-            "6A D2": 2,
-            "5A D1": 2,
-            "5A D2": 2,
-            "4A D1": 1,
-            "4A D2": 3,
-            "3A D2": 1,
-            "2A D1": 1,
-            "1A D1": 1
-          }
-        },
-        "3": {
-          "total": 4,
-          "classifications": {
-            "6A D1": 1,
-            "5A D2": 1,
-            "4A D2": 2
-          }
-        },
-        "4": {
-          "total": 4,
-          "classifications": {
-            "6A D1": 2,
-            "4A D1": 1,
-            "4A D2": 1
-          }
-        },
-        "5": {
-          "total": 4,
-          "classifications": {
-            "6A D2": 1,
-            "5A D1": 1,
-            "5A D2": 1,
-            "3A D1": 1
-          }
-        }
-      }
-    },
-    {
-      "code": "ELP",
-      "total": 4,
-      "weeks": {
-        "1": {
-          "total": 4,
-          "classifications": {
-            "5A D1": 2,
-            "5A D2": 2
-          }
-        }
-      }
-    },
-    {
-      "code": "ETX",
-      "total": 14,
-      "weeks": {
-        "1": {
-          "total": 10,
-          "classifications": {
-            "4A D1": 3,
-            "4A D2": 2,
-            "3A D1": 2,
-            "3A D2": 3
-          }
-        },
-        "4": {
-          "total": 2,
-          "classifications": {
-            "3A D1": 1,
-            "3A D2": 1
-          }
-        },
-        "3": {
-          "total": 1,
-          "classifications": {
-            "3A D2": 1
-          }
-        },
-        "6": {
-          "total": 1,
-          "classifications": {
-            "2A D2": 1
-          }
-        }
-      }
-    },
-    {
-      "code": "FTW",
-      "total": 68,
-      "weeks": {
-        "1": {
-          "total": 29,
-          "classifications": {
-            "6A D1": 2,
-            "6A D2": 2,
-            "5A D1": 4,
-            "5A D2": 4,
-            "4A D1": 3,
-            "4A D2": 2,
-            "3A D1": 1,
-            "3A D2": 4,
-            "2A D1": 1,
-            "2A D2": 1,
-            "1A D1": 5
-          }
-        },
-        "2": {
-          "total": 17,
-          "classifications": {
-            "6A D1": 1,
-            "6A D2": 3,
-            "5A D1": 2,
-            "5A D2": 1,
-            "4A D2": 1,
-            "3A D1": 1,
-            "3A D2": 2,
-            "2A D1": 3,
-            "2A D2": 2,
-            "1A D1": 1
-          }
-        },
-        "3": {
-          "total": 10,
-          "classifications": {
-            "6A D1": 1,
-            "6A D2": 2,
-            "5A D2": 1,
-            "4A D1": 2,
-            "4A D2": 1,
-            "3A D1": 1,
-            "3A D2": 1,
-            "1A D1": 1
-          }
-        },
-        "6": {
-          "total": 2,
-          "classifications": {
-            "6A D1": 1,
-            "2A D1": 1
-          }
-        },
-        "4": {
-          "total": 7,
-          "classifications": {
-            "6A D2": 2,
-            "5A D2": 1,
-            "4A D2": 1,
-            "2A D1": 2,
-            "1A D1": 1
-          }
-        },
-        "5": {
-          "total": 3,
-          "classifications": {
-            "5A D1": 1,
-            "5A D2": 1,
-            "3A D2": 1
-          }
-        }
-      }
-    },
-    {
       "code": "HOU",
       "total": 152,
       "weeks": {
@@ -8822,151 +8388,134 @@
       }
     },
     {
-      "code": "NTX",
-      "total": 16,
+      "code": "FTW",
+      "total": 68,
       "weeks": {
-        "2": {
-          "total": 5,
+        "1": {
+          "total": 29,
           "classifications": {
-            "6A D1": 1,
-            "4A D1": 1,
+            "6A D1": 2,
+            "6A D2": 2,
+            "5A D1": 4,
+            "5A D2": 4,
+            "4A D1": 3,
             "4A D2": 2,
-            "2A D1": 1
+            "3A D1": 1,
+            "3A D2": 4,
+            "2A D1": 1,
+            "2A D2": 1,
+            "1A D1": 5
           }
         },
-        "1": {
-          "total": 8,
+        "2": {
+          "total": 17,
           "classifications": {
+            "6A D1": 1,
+            "6A D2": 3,
+            "5A D1": 2,
             "5A D2": 1,
-            "3A D2": 1,
-            "2A D2": 3,
-            "1A D1": 3
+            "4A D2": 1,
+            "3A D1": 1,
+            "3A D2": 2,
+            "2A D1": 3,
+            "2A D2": 2,
+            "1A D1": 1
           }
         },
         "3": {
+          "total": 10,
+          "classifications": {
+            "6A D1": 1,
+            "6A D2": 2,
+            "5A D2": 1,
+            "4A D1": 2,
+            "4A D2": 1,
+            "3A D1": 1,
+            "3A D2": 1,
+            "1A D1": 1
+          }
+        },
+        "6": {
           "total": 2,
           "classifications": {
+            "6A D1": 1,
+            "2A D1": 1
+          }
+        },
+        "4": {
+          "total": 7,
+          "classifications": {
+            "6A D2": 2,
+            "5A D2": 1,
             "4A D2": 1,
-            "2A D2": 1
+            "2A D1": 2,
+            "1A D1": 1
           }
         },
         "5": {
-          "total": 1,
-          "classifications": {
-            "2A D1": 1
-          }
-        }
-      }
-    },
-    {
-      "code": "PBC",
-      "total": 14,
-      "weeks": {
-        "1": {
-          "total": 11,
-          "classifications": {
-            "6A D1": 2,
-            "4A D1": 3,
-            "3A D2": 2,
-            "2A D2": 1,
-            "1A D1": 3
-          }
-        },
-        "2": {
           "total": 3,
           "classifications": {
-            "6A D2": 1,
-            "3A D1": 1,
+            "5A D1": 1,
+            "5A D2": 1,
             "3A D2": 1
           }
         }
       }
     },
     {
-      "code": "PVC",
-      "total": 8,
+      "code": "DAL",
+      "total": 53,
       "weeks": {
         "1": {
-          "total": 3,
+          "total": 24,
           "classifications": {
-            "1A D1": 3
+            "6A D1": 3,
+            "6A D2": 3,
+            "5A D1": 5,
+            "5A D2": 6,
+            "4A D1": 2,
+            "4A D2": 1,
+            "3A D1": 2,
+            "2A D1": 2
           }
         },
         "2": {
-          "total": 3,
-          "classifications": {
-            "1A D1": 3
-          }
-        },
-        "3": {
-          "total": 2,
-          "classifications": {
-            "1A D1": 2
-          }
-        }
-      }
-    },
-    {
-      "code": "RGV",
-      "total": 14,
-      "weeks": {
-        "1": {
-          "total": 11,
+          "total": 17,
           "classifications": {
             "6A D1": 4,
-            "6A D2": 3,
+            "6A D2": 2,
             "5A D1": 2,
-            "5A D2": 2
-          }
-        },
-        "2": {
-          "total": 3,
-          "classifications": {
-            "6A D1": 2,
-            "6A D2": 1
-          }
-        }
-      }
-    },
-    {
-      "code": "SAN",
-      "total": 13,
-      "weeks": {
-        "1": {
-          "total": 6,
-          "classifications": {
-            "5A D1": 1,
-            "3A D1": 1,
+            "5A D2": 2,
+            "4A D1": 1,
+            "4A D2": 3,
             "3A D2": 1,
-            "2A D1": 2,
+            "2A D1": 1,
             "1A D1": 1
           }
         },
         "3": {
-          "total": 3,
+          "total": 4,
           "classifications": {
+            "6A D1": 1,
             "5A D2": 1,
-            "4A D1": 1,
-            "1A D1": 1
-          }
-        },
-        "2": {
-          "total": 1,
-          "classifications": {
-            "4A D1": 1
+            "4A D2": 2
           }
         },
         "4": {
-          "total": 2,
+          "total": 4,
           "classifications": {
+            "6A D1": 2,
             "4A D1": 1,
-            "2A D2": 1
+            "4A D2": 1
           }
         },
         "5": {
-          "total": 1,
+          "total": 4,
           "classifications": {
-            "1A D1": 1
+            "6A D2": 1,
+            "5A D1": 1,
+            "5A D2": 1,
+            "3A D1": 1
           }
         }
       }
@@ -9029,111 +8578,6 @@
           "total": 1,
           "classifications": {
             "3A D2": 1
-          }
-        }
-      }
-    },
-    {
-      "code": "SFA",
-      "total": 14,
-      "weeks": {
-        "1": {
-          "total": 11,
-          "classifications": {
-            "3A D1": 2,
-            "3A D2": 2,
-            "2A D1": 6,
-            "1A D1": 1
-          }
-        },
-        "3": {
-          "total": 1,
-          "classifications": {
-            "3A D2": 1
-          }
-        },
-        "2": {
-          "total": 1,
-          "classifications": {
-            "2A D1": 1
-          }
-        },
-        "4": {
-          "total": 1,
-          "classifications": {
-            "2A D1": 1
-          }
-        }
-      }
-    },
-    {
-      "code": "SPC",
-      "total": 42,
-      "weeks": {
-        "1": {
-          "total": 21,
-          "classifications": {
-            "5A D1": 1,
-            "5A D2": 1,
-            "4A D1": 2,
-            "4A D2": 2,
-            "3A D1": 2,
-            "3A D2": 1,
-            "2A D1": 2,
-            "2A D2": 5,
-            "1A D1": 5
-          }
-        },
-        "2": {
-          "total": 11,
-          "classifications": {
-            "5A D1": 1,
-            "5A D2": 1,
-            "4A D1": 2,
-            "2A D1": 1,
-            "2A D2": 4,
-            "1A D1": 2
-          }
-        },
-        "3": {
-          "total": 7,
-          "classifications": {
-            "4A D1": 1,
-            "4A D2": 1,
-            "3A D1": 1,
-            "2A D1": 1,
-            "2A D2": 1,
-            "1A D1": 2
-          }
-        },
-        "4": {
-          "total": 2,
-          "classifications": {
-            "2A D2": 1,
-            "1A D1": 1
-          }
-        },
-        "5": {
-          "total": 1,
-          "classifications": {
-            "1A D1": 1
-          }
-        }
-      }
-    },
-    {
-      "code": "STX",
-      "total": 9,
-      "weeks": {
-        "1": {
-          "total": 9,
-          "classifications": {
-            "4A D1": 2,
-            "4A D2": 1,
-            "3A D1": 2,
-            "3A D2": 2,
-            "2A D1": 1,
-            "2A D2": 1
           }
         }
       }
@@ -9204,6 +8648,213 @@
       }
     },
     {
+      "code": "AUS",
+      "total": 45,
+      "weeks": {
+        "1": {
+          "total": 24,
+          "classifications": {
+            "6A D1": 3,
+            "6A D2": 4,
+            "5A D1": 4,
+            "5A D2": 2,
+            "4A D2": 1,
+            "3A D1": 2,
+            "3A D2": 2,
+            "2A D1": 2,
+            "2A D2": 4
+          }
+        },
+        "5": {
+          "total": 3,
+          "classifications": {
+            "6A D1": 1,
+            "4A D1": 1,
+            "2A D2": 1
+          }
+        },
+        "2": {
+          "total": 11,
+          "classifications": {
+            "6A D2": 1,
+            "5A D1": 1,
+            "5A D2": 1,
+            "4A D1": 1,
+            "4A D2": 2,
+            "2A D1": 2,
+            "2A D2": 3
+          }
+        },
+        "3": {
+          "total": 4,
+          "classifications": {
+            "5A D1": 1,
+            "3A D1": 1,
+            "2A D1": 2
+          }
+        },
+        "4": {
+          "total": 2,
+          "classifications": {
+            "5A D1": 1,
+            "4A D2": 1
+          }
+        },
+        "6": {
+          "total": 1,
+          "classifications": {
+            "5A D1": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "SPC",
+      "total": 42,
+      "weeks": {
+        "1": {
+          "total": 21,
+          "classifications": {
+            "5A D1": 1,
+            "5A D2": 1,
+            "4A D1": 2,
+            "4A D2": 2,
+            "3A D1": 2,
+            "3A D2": 1,
+            "2A D1": 2,
+            "2A D2": 5,
+            "1A D1": 5
+          }
+        },
+        "2": {
+          "total": 11,
+          "classifications": {
+            "5A D1": 1,
+            "5A D2": 1,
+            "4A D1": 2,
+            "2A D1": 1,
+            "2A D2": 4,
+            "1A D1": 2
+          }
+        },
+        "3": {
+          "total": 7,
+          "classifications": {
+            "4A D1": 1,
+            "4A D2": 1,
+            "3A D1": 1,
+            "2A D1": 1,
+            "2A D2": 1,
+            "1A D1": 2
+          }
+        },
+        "4": {
+          "total": 2,
+          "classifications": {
+            "2A D2": 1,
+            "1A D1": 1
+          }
+        },
+        "5": {
+          "total": 1,
+          "classifications": {
+            "1A D2": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "ABI",
+      "total": 35,
+      "weeks": {
+        "1": {
+          "total": 20,
+          "classifications": {
+            "6A D1": 1,
+            "6A D2": 3,
+            "4A D1": 1,
+            "4A D2": 2,
+            "3A D1": 2,
+            "3A D2": 1,
+            "2A D1": 1,
+            "2A D2": 4,
+            "1A D1": 5
+          }
+        },
+        "2": {
+          "total": 8,
+          "classifications": {
+            "5A D1": 2,
+            "5A D2": 1,
+            "3A D1": 1,
+            "3A D2": 1,
+            "2A D1": 1,
+            "2A D2": 1,
+            "1A D1": 1
+          }
+        },
+        "4": {
+          "total": 4,
+          "classifications": {
+            "5A D1": 1,
+            "3A D2": 1,
+            "2A D2": 1,
+            "1A D1": 1
+          }
+        },
+        "3": {
+          "total": 3,
+          "classifications": {
+            "3A D2": 1,
+            "2A D2": 1,
+            "1A D1": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "CSC",
+      "total": 31,
+      "weeks": {
+        "1": {
+          "total": 17,
+          "classifications": {
+            "5A D1": 2,
+            "4A D2": 2,
+            "3A D1": 5,
+            "3A D2": 2,
+            "2A D1": 2,
+            "2A D2": 3,
+            "1A D1": 1
+          }
+        },
+        "2": {
+          "total": 11,
+          "classifications": {
+            "5A D1": 1,
+            "5A D2": 1,
+            "4A D1": 3,
+            "4A D2": 2,
+            "3A D1": 2,
+            "3A D2": 2
+          }
+        },
+        "3": {
+          "total": 2,
+          "classifications": {
+            "4A D1": 1,
+            "3A D2": 1
+          }
+        },
+        "4": {
+          "total": 1,
+          "classifications": {
+            "4A D1": 1
+          }
+        }
+      }
+    },
+    {
       "code": "WAC",
       "total": 20,
       "weeks": {
@@ -9233,6 +8884,355 @@
             "4A D2": 1,
             "3A D1": 2,
             "2A D1": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "NTX",
+      "total": 16,
+      "weeks": {
+        "2": {
+          "total": 5,
+          "classifications": {
+            "6A D1": 1,
+            "4A D1": 1,
+            "4A D2": 2,
+            "2A D1": 1
+          }
+        },
+        "1": {
+          "total": 8,
+          "classifications": {
+            "5A D2": 1,
+            "3A D2": 1,
+            "2A D2": 3,
+            "1A D1": 3
+          }
+        },
+        "3": {
+          "total": 2,
+          "classifications": {
+            "4A D2": 1,
+            "2A D2": 1
+          }
+        },
+        "5": {
+          "total": 1,
+          "classifications": {
+            "2A D1": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "AMA",
+      "total": 15,
+      "weeks": {
+        "1": {
+          "total": 8,
+          "classifications": {
+            "6A D1": 1,
+            "2A D1": 2,
+            "2A D2": 2,
+            "1A D1": 3
+          }
+        },
+        "3": {
+          "total": 2,
+          "classifications": {
+            "2A D1": 1,
+            "1A D1": 1
+          }
+        },
+        "4": {
+          "total": 2,
+          "classifications": {
+            "2A D1": 1,
+            "1A D1": 1
+          }
+        },
+        "2": {
+          "total": 2,
+          "classifications": {
+            "2A D2": 2
+          }
+        },
+        "5": {
+          "total": 1,
+          "classifications": {
+            "2A D2": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "PBC",
+      "total": 14,
+      "weeks": {
+        "1": {
+          "total": 11,
+          "classifications": {
+            "6A D1": 2,
+            "4A D1": 3,
+            "3A D2": 2,
+            "2A D2": 1,
+            "1A D1": 3
+          }
+        },
+        "2": {
+          "total": 3,
+          "classifications": {
+            "6A D2": 1,
+            "3A D1": 1,
+            "3A D2": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "RGV",
+      "total": 14,
+      "weeks": {
+        "1": {
+          "total": 11,
+          "classifications": {
+            "6A D1": 4,
+            "6A D2": 3,
+            "5A D1": 2,
+            "5A D2": 2
+          }
+        },
+        "2": {
+          "total": 3,
+          "classifications": {
+            "6A D1": 2,
+            "6A D2": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "ETX",
+      "total": 14,
+      "weeks": {
+        "1": {
+          "total": 10,
+          "classifications": {
+            "4A D1": 3,
+            "4A D2": 2,
+            "3A D1": 2,
+            "3A D2": 3
+          }
+        },
+        "4": {
+          "total": 2,
+          "classifications": {
+            "3A D1": 1,
+            "3A D2": 1
+          }
+        },
+        "3": {
+          "total": 1,
+          "classifications": {
+            "3A D2": 1
+          }
+        },
+        "6": {
+          "total": 1,
+          "classifications": {
+            "2A D2": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "SFA",
+      "total": 14,
+      "weeks": {
+        "1": {
+          "total": 11,
+          "classifications": {
+            "3A D1": 2,
+            "3A D2": 2,
+            "2A D1": 6,
+            "1A D1": 1
+          }
+        },
+        "3": {
+          "total": 1,
+          "classifications": {
+            "3A D2": 1
+          }
+        },
+        "2": {
+          "total": 1,
+          "classifications": {
+            "2A D1": 1
+          }
+        },
+        "4": {
+          "total": 1,
+          "classifications": {
+            "2A D1": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "SAN",
+      "total": 13,
+      "weeks": {
+        "1": {
+          "total": 6,
+          "classifications": {
+            "5A D1": 1,
+            "3A D1": 1,
+            "3A D2": 1,
+            "2A D1": 2,
+            "1A D1": 1
+          }
+        },
+        "3": {
+          "total": 3,
+          "classifications": {
+            "5A D2": 1,
+            "4A D1": 1,
+            "1A D1": 1
+          }
+        },
+        "2": {
+          "total": 1,
+          "classifications": {
+            "4A D1": 1
+          }
+        },
+        "4": {
+          "total": 2,
+          "classifications": {
+            "4A D1": 1,
+            "2A D2": 1
+          }
+        },
+        "5": {
+          "total": 1,
+          "classifications": {
+            "1A D1": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "CTX",
+      "total": 10,
+      "weeks": {
+        "1": {
+          "total": 7,
+          "classifications": {
+            "6A D1": 1,
+            "5A D2": 1,
+            "3A D1": 1,
+            "3A D2": 1,
+            "2A D1": 1,
+            "1A D1": 2
+          }
+        },
+        "2": {
+          "total": 2,
+          "classifications": {
+            "3A D1": 1,
+            "3A D2": 1
+          }
+        },
+        "3": {
+          "total": 1,
+          "classifications": {
+            "2A D2": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "STX",
+      "total": 9,
+      "weeks": {
+        "1": {
+          "total": 9,
+          "classifications": {
+            "4A D1": 2,
+            "4A D2": 1,
+            "3A D1": 2,
+            "3A D2": 2,
+            "2A D1": 1,
+            "2A D2": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "PVC",
+      "total": 8,
+      "weeks": {
+        "1": {
+          "total": 3,
+          "classifications": {
+            "1A D1": 3
+          }
+        },
+        "2": {
+          "total": 3,
+          "classifications": {
+            "1A D1": 3
+          }
+        },
+        "3": {
+          "total": 2,
+          "classifications": {
+            "1A D1": 2
+          }
+        }
+      }
+    },
+    {
+      "code": "ELP",
+      "total": 4,
+      "weeks": {
+        "1": {
+          "total": 4,
+          "classifications": {
+            "5A D1": 2,
+            "5A D2": 2
+          }
+        }
+      }
+    },
+    {
+      "code": "COM",
+      "total": 3,
+      "weeks": {
+        "1": {
+          "total": 3,
+          "classifications": {
+            "3A D2": 2,
+            "2A D1": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "BEA",
+      "total": 2,
+      "weeks": {
+        "3": {
+          "total": 1,
+          "classifications": {
+            "4A D1": 1
+          }
+        },
+        "2": {
+          "total": 1,
+          "classifications": {
+            "3A D1": 1
           }
         }
       }
