@@ -3031,7 +3031,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "PBC",
-      "team1": "Compass Academy",
+      "team1": "Odessa Compass Academy",
       "score1": 21,
       "team2": "Coahoma",
       "score2": 49,
@@ -3247,7 +3247,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "DAL",
-      "team1": "Trinity Leadership",
+      "team1": "Cedar Hill Trinity Leadership",
       "score1": 0,
       "team2": "Gunter",
       "score2": 48,
@@ -3775,7 +3775,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "PBC",
-      "team1": "El Paso Austin",
+      "team1": "EP Austin",
       "score1": 21,
       "team2": "Dumas",
       "score2": 56,
@@ -3859,7 +3859,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "PBC",
-      "team1": "El Paso Riverside",
+      "team1": "EP Riverside",
       "score1": 20,
       "team2": "Hereford",
       "score2": 28,
@@ -4159,7 +4159,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Little Cypress",
+      "team1": "Mauriceville Little Cypress",
       "score1": 21,
       "team2": "Lindale",
       "score2": 49,
@@ -5287,7 +5287,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "AUS",
-      "team1": "El Paso El Dorado",
+      "team1": "EP El Dorado",
       "score1": 14,
       "team2": "Amarillo High",
       "score2": 45,
@@ -5313,7 +5313,7 @@
       "chapter": "SPC",
       "team1": "Lubbock Monterey",
       "score1": 63,
-      "team2": "El Paso Bel Aire",
+      "team2": "EP Bel Aire",
       "score2": 0,
       "winner": "Lubbock Monterey"
     },
@@ -5349,7 +5349,7 @@
       "chapter": "AUS",
       "team1": "Abilene High",
       "score1": 84,
-      "team2": "El Paso Parkland",
+      "team2": "EP Parkland",
       "score2": 0,
       "winner": "Abilene High"
     },
@@ -5371,7 +5371,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "AUS",
-      "team1": "El Paso Americas",
+      "team1": "EP Americas",
       "score1": 9,
       "team2": "Amarillo Tascosa",
       "score2": 30,
@@ -5515,11 +5515,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "WAC",
-      "team1": "Highland Park",
+      "team1": "Dallas Highland Park",
       "score1": 48,
       "team2": "Leander Rouse",
       "score2": 0,
-      "winner": "Highland Park"
+      "winner": "Dallas Highland Park"
     },
     {
       "year": 2024,
@@ -5587,11 +5587,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "DAL",
-      "team1": "Highland Park",
+      "team1": "Dallas Highland Park",
       "score1": 38,
       "team2": "Frisco Wakeland",
       "score2": 10,
-      "winner": "Highland Park"
+      "winner": "Dallas Highland Park"
     },
     {
       "year": 2024,
@@ -5623,11 +5623,11 @@
       "week": 3,
       "round": "Regional",
       "chapter": "DAL",
-      "team1": "Highland Park",
+      "team1": "Dallas Highland Park",
       "score1": 31,
       "team2": "Frisco Reedy",
       "score2": 12,
-      "winner": "Highland Park"
+      "winner": "Dallas Highland Park"
     },
     {
       "year": 2024,
@@ -5635,11 +5635,11 @@
       "week": 4,
       "round": "Regional Final",
       "chapter": "FTW",
-      "team1": "Highland Park",
+      "team1": "Dallas Highland Park",
       "score1": 41,
       "team2": "Frisco Lone Star",
       "score2": 28,
-      "winner": "Highland Park"
+      "winner": "Dallas Highland Park"
     },
     {
       "year": 2024,
@@ -6007,11 +6007,11 @@
       "week": 5,
       "round": "Semifinal",
       "chapter": "DAL",
-      "team1": "Highland Park",
+      "team1": "Dallas Highland Park",
       "score1": 24,
       "team2": "Denton Ryan",
       "score2": 21,
-      "winner": "Highland Park"
+      "winner": "Dallas Highland Park"
     },
     {
       "year": 2024,
@@ -6033,7 +6033,7 @@
       "chapter": "AUS",
       "team1": "Comal Smithson Valley",
       "score1": 32,
-      "team2": "Highland Park",
+      "team2": "Dallas Highland Park",
       "score2": 20,
       "winner": "Comal Smithson Valley"
     },
@@ -6043,11 +6043,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "El Paso Del Valle",
+      "team1": "EP Del Valle",
       "score1": 63,
       "team2": "Abilene Cooper",
       "score2": 35,
-      "winner": "El Paso Del Valle"
+      "winner": "EP Del Valle"
     },
     {
       "year": 2024,
@@ -6069,7 +6069,7 @@
       "chapter": "PBC",
       "team1": "Abilene Wylie",
       "score1": 46,
-      "team2": "El Paso Andress",
+      "team2": "EP Andress",
       "score2": 10,
       "winner": "Abilene Wylie"
     },
@@ -6105,7 +6105,7 @@
       "chapter": "FTW",
       "team1": "WF Memorial",
       "score1": 70,
-      "team2": "El Paso Chapin",
+      "team2": "EP Chapin",
       "score2": 28,
       "winner": "WF Memorial"
     },
@@ -6129,7 +6129,7 @@
       "chapter": "PBC",
       "team1": "Lubbock Cooper",
       "score1": 38,
-      "team2": "El Paso Canutillo",
+      "team2": "EP Canutillo",
       "score2": 14,
       "winner": "Lubbock Cooper"
     },
@@ -6141,7 +6141,7 @@
       "chapter": "PBC",
       "team1": "Lucas Lovejoy",
       "score1": 45,
-      "team2": "El Paso Del Valle",
+      "team2": "EP Del Valle",
       "score2": 21,
       "winner": "Lucas Lovejoy"
     },
@@ -6583,11 +6583,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Alamo Heights",
+      "team1": "SA Alamo Heights",
       "score1": 70,
       "team2": "CC Ray",
       "score2": 14,
-      "winner": "Alamo Heights"
+      "winner": "SA Alamo Heights"
     },
     {
       "year": 2024,
@@ -6679,11 +6679,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Alamo Heights",
+      "team1": "SA Alamo Heights",
       "score1": 75,
       "team2": "Mercedes",
       "score2": 14,
-      "winner": "Alamo Heights"
+      "winner": "SA Alamo Heights"
     },
     {
       "year": 2024,
@@ -6729,7 +6729,7 @@
       "chapter": "HOU",
       "team1": "CC Miller",
       "score1": 38,
-      "team2": "Alamo Heights",
+      "team2": "SA Alamo Heights",
       "score2": 28,
       "winner": "CC Miller"
     },
@@ -6799,7 +6799,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "DAL",
-      "team1": "El Paso Eastlake",
+      "team1": "EP Eastlake",
       "score1": 21,
       "team2": "Odessa Permian",
       "score2": 41,
@@ -6811,7 +6811,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "FTW",
-      "team1": "Byron Nelson",
+      "team1": "Trophy Club Byron Nelson",
       "score1": 21,
       "team2": "North Crowley",
       "score2": 56,
@@ -6837,9 +6837,9 @@
       "chapter": "HOU",
       "team1": "South Grand Prairie",
       "score1": 0,
-      "team2": "Lake Highlands",
+      "team2": "Dallas Lake Highlands",
       "score2": 27,
-      "winner": "Lake Highlands"
+      "winner": "Dallas Lake Highlands"
     },
     {
       "year": 2024,
@@ -6847,7 +6847,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "El Paso Franklin",
+      "team1": "EP Franklin",
       "score1": 14,
       "team2": "Midland Legacy",
       "score2": 56,
@@ -7089,9 +7089,9 @@
       "chapter": "AUS",
       "team1": "Round Rock",
       "score1": 41,
-      "team2": "Lake Travis",
+      "team2": "Austin Lake Travis",
       "score2": 49,
-      "winner": "Lake Travis"
+      "winner": "Austin Lake Travis"
     },
     {
       "year": 2024,
@@ -7195,7 +7195,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "DAL",
-      "team1": "Lake Highlands",
+      "team1": "Dallas Lake Highlands",
       "score1": 10,
       "team2": "Coppell",
       "score2": 38,
@@ -7329,9 +7329,9 @@
       "chapter": "AUS",
       "team1": "SA Johnson",
       "score1": 27,
-      "team2": "Lake Travis",
+      "team2": "Austin Lake Travis",
       "score2": 55,
-      "winner": "Lake Travis"
+      "winner": "Austin Lake Travis"
     },
     {
       "year": 2024,
@@ -7449,9 +7449,9 @@
       "chapter": "AUS",
       "team1": "SA East Central",
       "score1": 7,
-      "team2": "Lake Travis",
+      "team2": "Austin Lake Travis",
       "score2": 52,
-      "winner": "Lake Travis"
+      "winner": "Austin Lake Travis"
     },
     {
       "year": 2024,
@@ -7507,7 +7507,7 @@
       "week": 4,
       "round": "Regional Final",
       "chapter": "AUS",
-      "team1": "Lake Travis",
+      "team1": "Austin Lake Travis",
       "score1": 17,
       "team2": "Austin Westlake",
       "score2": 24,
@@ -7555,7 +7555,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "FTW",
-      "team1": "El Paso Pebble Hills",
+      "team1": "EP Pebble Hills",
       "score1": 14,
       "team2": "Midland High",
       "score2": 42,
@@ -7603,7 +7603,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAN",
-      "team1": "El Paso Montwood",
+      "team1": "EP Montwood",
       "score1": 21,
       "team2": "Frenship",
       "score2": 77,
@@ -7737,9 +7737,9 @@
       "chapter": "HOU",
       "team1": "Cypress Woods",
       "score1": 29,
-      "team2": "Klein Collins",
+      "team2": "Spring Klein Collins",
       "score2": 32,
-      "winner": "Klein Collins"
+      "winner": "Spring Klein Collins"
     },
     {
       "year": 2024,
@@ -7783,7 +7783,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "League City Clear Falls",
+      "team1": "Clear Falls",
       "score1": 7,
       "team2": "Houston Summer Creek",
       "score2": 66,
@@ -7831,7 +7831,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "League City Clear Springs",
+      "team1": "Clear Springs",
       "score1": 35,
       "team2": "Kingwood",
       "score2": 36,
@@ -8025,9 +8025,9 @@
       "chapter": "HOU",
       "team1": "The Woodlands College Park",
       "score1": 21,
-      "team2": "Klein Collins",
+      "team2": "Spring Klein Collins",
       "score2": 70,
-      "winner": "Klein Collins"
+      "winner": "Spring Klein Collins"
     },
     {
       "year": 2024,
@@ -8167,7 +8167,7 @@
       "week": 3,
       "round": "Regional",
       "chapter": "SFA",
-      "team1": "Klein Collins",
+      "team1": "Spring Klein Collins",
       "score1": 28,
       "team2": "Longview",
       "score2": 42,

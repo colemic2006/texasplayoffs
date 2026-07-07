@@ -7,11 +7,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "El Paso Franklin",
+      "team1": "EP Franklin",
       "score1": 77,
       "team2": "Midland",
       "score2": 56,
-      "winner": "El Paso Franklin"
+      "winner": "EP Franklin"
     },
     {
       "year": 2018,
@@ -57,7 +57,7 @@
       "chapter": "DAL",
       "team1": "Odessa Permian",
       "score1": 42,
-      "team2": "El Paso Coronado",
+      "team2": "EP Coronado",
       "score2": 0,
       "winner": "Odessa Permian"
     },
@@ -199,11 +199,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Jersey Village",
+      "team1": "Houston Jersey Village",
       "score1": 56,
       "team2": "Houston Chavez",
       "score2": 12,
-      "winner": "Jersey Village"
+      "winner": "Houston Jersey Village"
     },
     {
       "year": 2018,
@@ -283,7 +283,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "League City Clear Springs",
+      "team1": "Clear Springs",
       "score1": 38,
       "team2": "Alief Hastings",
       "score2": 45,
@@ -295,11 +295,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "FTW",
-      "team1": "Lake Travis",
+      "team1": "Austin Lake Travis",
       "score1": 45,
-      "team2": "Smithson Valley",
+      "team2": "Comal Smithson Valley",
       "score2": 14,
-      "winner": "Lake Travis"
+      "winner": "Austin Lake Travis"
     },
     {
       "year": 2018,
@@ -307,11 +307,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "San Antonio Madison",
+      "team1": "SA Madison",
       "score1": 35,
-      "team2": "San Antonio Warren",
+      "team2": "SA Warren",
       "score2": 7,
-      "winner": "San Antonio Madison"
+      "winner": "SA Madison"
     },
     {
       "year": 2018,
@@ -355,11 +355,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "San Antonio O'Connor",
+      "team1": "SA O'Connor",
       "score1": 7,
-      "team2": "San Antonio Reagan",
+      "team2": "SA Reagan",
       "score2": 30,
-      "winner": "San Antonio Reagan"
+      "winner": "SA Reagan"
     },
     {
       "year": 2018,
@@ -391,7 +391,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "SAT",
-      "team1": "El Paso Franklin",
+      "team1": "EP Franklin",
       "score1": 28,
       "team2": "Euless Trinity",
       "score2": 44,
@@ -487,7 +487,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Jersey Village",
+      "team1": "Houston Jersey Village",
       "score1": 14,
       "team2": "Katy",
       "score2": 58,
@@ -535,11 +535,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Lake Travis",
+      "team1": "Austin Lake Travis",
       "score1": 56,
-      "team2": "San Antonio Madison",
+      "team2": "SA Madison",
       "score2": 35,
-      "winner": "Lake Travis"
+      "winner": "Austin Lake Travis"
     },
     {
       "year": 2018,
@@ -561,7 +561,7 @@
       "chapter": "SAT",
       "team1": "Converse Judson",
       "score1": 63,
-      "team2": "San Antonio Reagan",
+      "team2": "SA Reagan",
       "score2": 21,
       "winner": "Converse Judson"
     },
@@ -655,11 +655,11 @@
       "week": 3,
       "round": "Regional",
       "chapter": "SAT",
-      "team1": "Lake Travis",
+      "team1": "Austin Lake Travis",
       "score1": 56,
       "team2": "Weslaco",
       "score2": 14,
-      "winner": "Lake Travis"
+      "winner": "Austin Lake Travis"
     },
     {
       "year": 2018,
@@ -715,11 +715,11 @@
       "week": 4,
       "round": "Quarterfinal",
       "chapter": "HOU",
-      "team1": "Lake Travis",
+      "team1": "Austin Lake Travis",
       "score1": 38,
       "team2": "Converse Judson",
       "score2": 21,
-      "winner": "Lake Travis"
+      "winner": "Austin Lake Travis"
     },
     {
       "year": 2018,
@@ -741,7 +741,7 @@
       "chapter": "HOU",
       "team1": "Galena Park North Shore",
       "score1": 28,
-      "team2": "Lake Travis",
+      "team2": "Austin Lake Travis",
       "score2": 6,
       "winner": "Galena Park North Shore"
     },
@@ -763,7 +763,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "El Paso Americas",
+      "team1": "EP Americas",
       "score1": 12,
       "team2": "Midland Lee",
       "score2": 70,
@@ -813,7 +813,7 @@
       "chapter": "FTW",
       "team1": "Amarillo Tascosa",
       "score1": 57,
-      "team2": "El Paso Pebble Hills",
+      "team2": "EP Pebble Hills",
       "score2": 35,
       "winner": "Amarillo Tascosa"
     },
@@ -847,7 +847,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Lake Highlands",
+      "team1": "Dallas Lake Highlands",
       "score1": 35,
       "team2": "Mansfield Lake Ridge",
       "score2": 41,
@@ -895,11 +895,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Klein Collins",
+      "team1": "Spring Klein Collins",
       "score1": 30,
       "team2": "Houston Eisenhower",
       "score2": 6,
-      "winner": "Klein Collins"
+      "winner": "Spring Klein Collins"
     },
     {
       "year": 2018,
@@ -955,11 +955,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Cypress Falls",
+      "team1": "Houston Cypress Falls",
       "score1": 40,
       "team2": "Houston Westside",
       "score2": 14,
-      "winner": "Cypress Falls"
+      "winner": "Houston Cypress Falls"
     },
     {
       "year": 2018,
@@ -1063,11 +1063,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "San Antonio Johnson",
+      "team1": "SA Johnson",
       "score1": 28,
-      "team2": "San Antonio Brennan",
+      "team2": "SA Brennan",
       "score2": 33,
-      "winner": "San Antonio Brennan"
+      "winner": "SA Brennan"
     },
     {
       "year": 2018,
@@ -1111,11 +1111,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "San Antonio Brandeis",
+      "team1": "SA Brandeis",
       "score1": 49,
-      "team2": "San Antonio Churchill",
+      "team2": "SA Churchill",
       "score2": 38,
-      "winner": "San Antonio Brandeis"
+      "winner": "SA Brandeis"
     },
     {
       "year": 2018,
@@ -1209,7 +1209,7 @@
       "chapter": "DAL",
       "team1": "Austin Vangergrift",
       "score1": 28,
-      "team2": "Klein Collins",
+      "team2": "Spring Klein Collins",
       "score2": 21,
       "winner": "Austin Vangergrift"
     },
@@ -1243,7 +1243,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Cypress Falls",
+      "team1": "Houston Cypress Falls",
       "score1": 21,
       "team2": "Katy Tompkins",
       "score2": 31,
@@ -1293,7 +1293,7 @@
       "chapter": "HOU",
       "team1": "Austin Westlake",
       "score1": 49,
-      "team2": "San Antonio Brennan",
+      "team2": "SA Brennan",
       "score2": 7,
       "winner": "Austin Westlake"
     },
@@ -1317,9 +1317,9 @@
       "chapter": "SAT",
       "team1": "Cibolo Steele",
       "score1": 16,
-      "team2": "San Antonio Brandeis",
+      "team2": "SA Brandeis",
       "score2": 31,
-      "winner": "San Antonio Brandeis"
+      "winner": "SA Brandeis"
     },
     {
       "year": 2018,
@@ -1423,11 +1423,11 @@
       "week": 3,
       "round": "Regional",
       "chapter": "HOU",
-      "team1": "San Antonio Brandeis",
+      "team1": "SA Brandeis",
       "score1": 33,
       "team2": "Brownsville Hanna",
       "score2": 32,
-      "winner": "San Antonio Brandeis"
+      "winner": "SA Brandeis"
     },
     {
       "year": 2018,
@@ -1473,7 +1473,7 @@
       "chapter": "HOU",
       "team1": "Austin Westlake",
       "score1": 26,
-      "team2": "San Antonio Brandeis",
+      "team2": "SA Brandeis",
       "score2": 0,
       "winner": "Austin Westlake"
     },
@@ -1519,7 +1519,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "PBC",
-      "team1": "El Paso Eastwood",
+      "team1": "EP Eastwood",
       "score1": 41,
       "team2": "Abilene Cooper",
       "score2": 49,
@@ -1533,7 +1533,7 @@
       "chapter": "FTW",
       "team1": "N Richland Hills Birdville",
       "score1": 29,
-      "team2": "Fort Worth Boswell",
+      "team2": "FW Boswell",
       "score2": 27,
       "winner": "N Richland Hills Birdville"
     },
@@ -1545,7 +1545,7 @@
       "chapter": "PBC",
       "team1": "Amarillo Caprock",
       "score1": 42,
-      "team2": "El Paso Eastlake",
+      "team2": "EP Eastlake",
       "score2": 17,
       "winner": "Amarillo Caprock"
     },
@@ -1581,7 +1581,7 @@
       "chapter": "PBC",
       "team1": "Lubbock Coronado",
       "score1": 35,
-      "team2": "El Paso Chapin",
+      "team2": "EP Chapin",
       "score2": 17,
       "winner": "Lubbock Coronado"
     },
@@ -1593,7 +1593,7 @@
       "chapter": "FTW",
       "team1": "Denton Ryan",
       "score1": 65,
-      "team2": "Fort Worth Brewer",
+      "team2": "FW Brewer",
       "score2": 24,
       "winner": "Denton Ryan"
     },
@@ -1603,11 +1603,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "PBC",
-      "team1": "El Paso Del Valle",
+      "team1": "EP Del Valle",
       "score1": 21,
       "team2": "Amarillo",
       "score2": 10,
-      "winner": "El Paso Del Valle"
+      "winner": "EP Del Valle"
     },
     {
       "year": 2018,
@@ -1639,11 +1639,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "DAL",
-      "team1": "Highland Park",
+      "team1": "Dallas Highland Park",
       "score1": 35,
       "team2": "Frisco Independence",
       "score2": 14,
-      "winner": "Highland Park"
+      "winner": "Dallas Highland Park"
     },
     {
       "year": 2018,
@@ -1807,11 +1807,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "San Antonio Wagner",
+      "team1": "SA Wagner",
       "score1": 59,
-      "team2": "San Antonio Harlandale",
+      "team2": "SA Harlandale",
       "score2": 7,
-      "winner": "San Antonio Wagner"
+      "winner": "SA Wagner"
     },
     {
       "year": 2018,
@@ -1821,9 +1821,9 @@
       "chapter": "HOU",
       "team1": "Brownsville Pace",
       "score1": 7,
-      "team2": "Corpus Christi Ray",
+      "team2": "CC Ray",
       "score2": 42,
-      "winner": "Corpus Christi Ray"
+      "winner": "CC Ray"
     },
     {
       "year": 2018,
@@ -1831,11 +1831,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "San Antonio Southwest",
+      "team1": "SA Southwest",
       "score1": 49,
-      "team2": "San Antonio Brackenridge",
+      "team2": "SA Brackenridge",
       "score2": 27,
-      "winner": "San Antonio Southwest"
+      "winner": "SA Southwest"
     },
     {
       "year": 2018,
@@ -1843,11 +1843,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Flour Bluff",
+      "team1": "CC Flour Bluff",
       "score1": 56,
       "team2": "La Joya Palmview",
       "score2": 21,
-      "winner": "Flour Bluff"
+      "winner": "CC Flour Bluff"
     },
     {
       "year": 2018,
@@ -1867,11 +1867,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "San Antonio Harlan",
+      "team1": "SA Harlan",
       "score1": 33,
-      "team2": "San Antonio Sam Houston",
+      "team2": "SA Sam Houston",
       "score2": 14,
-      "winner": "San Antonio Harlan"
+      "winner": "SA Harlan"
     },
     {
       "year": 2018,
@@ -1891,11 +1891,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "San Antonio Veterans Memorial",
+      "team1": "SA Veterans Memorial",
       "score1": 35,
       "team2": "Laredo Martin",
       "score2": 33,
-      "winner": "San Antonio Veterans Memorial"
+      "winner": "SA Veterans Memorial"
     },
     {
       "year": 2018,
@@ -1941,7 +1941,7 @@
       "chapter": "PBC",
       "team1": "Denton Ryan",
       "score1": 42,
-      "team2": "El Paso Del Valle",
+      "team2": "EP Del Valle",
       "score2": 14,
       "winner": "Denton Ryan"
     },
@@ -1963,11 +1963,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "AUS",
-      "team1": "Highland Park",
+      "team1": "Dallas Highland Park",
       "score1": 28,
       "team2": "College Station",
       "score2": 20,
-      "winner": "Highland Park"
+      "winner": "Dallas Highland Park"
     },
     {
       "year": 2018,
@@ -2047,11 +2047,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "AUS",
-      "team1": "San Antonio Wagner",
+      "team1": "SA Wagner",
       "score1": 56,
-      "team2": "Corpus Christi Ray",
+      "team2": "CC Ray",
       "score2": 17,
-      "winner": "San Antonio Wagner"
+      "winner": "SA Wagner"
     },
     {
       "year": 2018,
@@ -2059,11 +2059,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "San Antonio Southwest",
+      "team1": "SA Southwest",
       "score1": 21,
-      "team2": "Flour Bluff",
+      "team2": "CC Flour Bluff",
       "score2": 35,
-      "winner": "Flour Bluff"
+      "winner": "CC Flour Bluff"
     },
     {
       "year": 2018,
@@ -2073,7 +2073,7 @@
       "chapter": "HOU",
       "team1": "CC Veterans Memorial",
       "score1": 58,
-      "team2": "San Antonio Harlan",
+      "team2": "SA Harlan",
       "score2": 21,
       "winner": "CC Veterans Memorial"
     },
@@ -2085,7 +2085,7 @@
       "chapter": "HOU",
       "team1": "Mission Veterans Memorial",
       "score1": 48,
-      "team2": "San Antonio Veterans Memorial",
+      "team2": "SA Veterans Memorial",
       "score2": 23,
       "winner": "Mission Veterans Memorial"
     },
@@ -2121,9 +2121,9 @@
       "chapter": "HOU",
       "team1": "Mansfield Timberview",
       "score1": 7,
-      "team2": "Highland Park",
+      "team2": "Dallas Highland Park",
       "score2": 52,
-      "winner": "Highland Park"
+      "winner": "Dallas Highland Park"
     },
     {
       "year": 2018,
@@ -2167,11 +2167,11 @@
       "week": 3,
       "round": "Regional",
       "chapter": "AUS",
-      "team1": "San Antonio Wagner",
+      "team1": "SA Wagner",
       "score1": 49,
-      "team2": "Flour Bluff",
+      "team2": "CC Flour Bluff",
       "score2": 14,
-      "winner": "San Antonio Wagner"
+      "winner": "SA Wagner"
     },
     {
       "year": 2018,
@@ -2203,11 +2203,11 @@
       "week": 4,
       "round": "Quarterfinal",
       "chapter": "HOU",
-      "team1": "Highland Park",
+      "team1": "Dallas Highland Park",
       "score1": 42,
       "team2": "Tyler John Tyler",
       "score2": 35,
-      "winner": "Highland Park"
+      "winner": "Dallas Highland Park"
     },
     {
       "year": 2018,
@@ -2227,11 +2227,11 @@
       "week": 4,
       "round": "Quarterfinal",
       "chapter": "AUS",
-      "team1": "San Antonio Wagner",
+      "team1": "SA Wagner",
       "score1": 54,
       "team2": "Mission Veterans Memorial",
       "score2": 21,
-      "winner": "San Antonio Wagner"
+      "winner": "SA Wagner"
     },
     {
       "year": 2018,
@@ -2241,9 +2241,9 @@
       "chapter": "DAL",
       "team1": "Denton Ryan",
       "score1": null,
-      "team2": "Highland Park",
+      "team2": "Dallas Highland Park",
       "score2": null,
-      "winner": "Highland Park"
+      "winner": "Dallas Highland Park"
     },
     {
       "year": 2018,
@@ -2253,7 +2253,7 @@
       "chapter": "HOU",
       "team1": "Alvin Shadow Creek",
       "score1": null,
-      "team2": "San Antonio Wagner",
+      "team2": "SA Wagner",
       "score2": null,
       "winner": "Alvin Shadow Creek"
     },
@@ -2263,11 +2263,11 @@
       "week": 6,
       "round": "State Final",
       "chapter": "",
-      "team1": "Highland Park",
+      "team1": "Dallas Highland Park",
       "score1": 27,
       "team2": "Alvin Shadow Creek",
       "score2": 17,
-      "winner": "Highland Park"
+      "winner": "Dallas Highland Park"
     },
     {
       "year": 2018,
@@ -2275,11 +2275,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "ELP",
-      "team1": "El Paso Parkland",
+      "team1": "EP Parkland",
       "score1": 48,
-      "team2": "El Paso Irvin",
+      "team2": "EP Irvin",
       "score2": 12,
-      "winner": "El Paso Parkland"
+      "winner": "EP Parkland"
     },
     {
       "year": 2018,
@@ -2287,7 +2287,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "TYL",
-      "team1": "Fort Worth Southwest",
+      "team1": "FW Southwest",
       "score1": 7,
       "team2": "Canyon Randall",
       "score2": 38,
@@ -2299,11 +2299,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "ELP",
-      "team1": "El Paso Andress",
+      "team1": "EP Andress",
       "score1": 33,
-      "team2": "El Paso Hanks",
+      "team2": "EP Hanks",
       "score2": 12,
-      "winner": "El Paso Andress"
+      "winner": "EP Andress"
     },
     {
       "year": 2018,
@@ -2313,7 +2313,7 @@
       "chapter": "WAC",
       "team1": "Wichita Falls Rider",
       "score1": 57,
-      "team2": "Fort Worth Wyatt",
+      "team2": "FW Wyatt",
       "score2": 44,
       "winner": "Wichita Falls Rider"
     },
@@ -2325,7 +2325,7 @@
       "chapter": "NTX",
       "team1": "Lubbock Cooper",
       "score1": 52,
-      "team2": "Fort Worth Eastern Hills",
+      "team2": "FW Eastern Hills",
       "score2": 0,
       "winner": "Lubbock Cooper"
     },
@@ -2335,11 +2335,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "ELP",
-      "team1": "El Paso Austin",
+      "team1": "EP Austin",
       "score1": 35,
       "team2": "Canutillo",
       "score2": 14,
-      "winner": "El Paso Austin"
+      "winner": "EP Austin"
     },
     {
       "year": 2018,
@@ -2361,9 +2361,9 @@
       "chapter": "ELP",
       "team1": "Clint Horizon",
       "score1": 14,
-      "team2": "El Paso Burges",
+      "team2": "EP Burges",
       "score2": 31,
-      "winner": "El Paso Burges"
+      "winner": "EP Burges"
     },
     {
       "year": 2018,
@@ -2575,7 +2575,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Sharyland Pioneer",
+      "team1": "Mission Sharyland Pioneer",
       "score1": 55,
       "team2": "Port Lavaca Calhoun",
       "score2": 56,
@@ -2599,11 +2599,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "San Antonio Southside",
+      "team1": "SA Southside",
       "score1": 58,
       "team2": "Mercedes",
       "score2": 7,
-      "winner": "San Antonio Southside"
+      "winner": "SA Southside"
     },
     {
       "year": 2018,
@@ -2623,11 +2623,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "DAL",
-      "team1": "Alamo Heights",
+      "team1": "SA Alamo Heights",
       "score1": 38,
       "team2": "Georgetown East View",
       "score2": 21,
-      "winner": "Alamo Heights"
+      "winner": "SA Alamo Heights"
     },
     {
       "year": 2018,
@@ -2659,7 +2659,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "SAT",
-      "team1": "El Paso Parkland",
+      "team1": "EP Parkland",
       "score1": 28,
       "team2": "Canyon Randall",
       "score2": 38,
@@ -2671,7 +2671,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "PBC",
-      "team1": "El Paso Andress",
+      "team1": "EP Andress",
       "score1": 10,
       "team2": "Wichita Falls Rider",
       "score2": 41,
@@ -2685,7 +2685,7 @@
       "chapter": "PBC",
       "team1": "Lubbock Cooper",
       "score1": 45,
-      "team2": "El Paso Austin",
+      "team2": "EP Austin",
       "score2": 0,
       "winner": "Lubbock Cooper"
     },
@@ -2697,7 +2697,7 @@
       "chapter": "PBC",
       "team1": "Justin Northwest",
       "score1": 48,
-      "team2": "El Paso Burges",
+      "team2": "EP Burges",
       "score2": 14,
       "winner": "Justin Northwest"
     },
@@ -2817,7 +2817,7 @@
       "chapter": "SAT",
       "team1": "Kerrville Tivy",
       "score1": 24,
-      "team2": "San Antonio Southside",
+      "team2": "SA Southside",
       "score2": 14,
       "winner": "Kerrville Tivy"
     },
@@ -2829,7 +2829,7 @@
       "chapter": "HOU",
       "team1": "Corpus Christia Calallen",
       "score1": 63,
-      "team2": "Alamo Heights",
+      "team2": "SA Alamo Heights",
       "score2": 35,
       "winner": "Corpus Christia Calallen"
     },
@@ -3115,7 +3115,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "ABI",
-      "team1": "Mountain View",
+      "team1": "Clint Mountain View",
       "score1": 21,
       "team2": "San Angelo Lake View",
       "score2": 28,
@@ -3127,11 +3127,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "TYL",
-      "team1": "Waco La Vega",
+      "team1": "La Vega",
       "score1": 61,
       "team2": "Lake Worth",
       "score2": 0,
-      "winner": "Waco La Vega"
+      "winner": "La Vega"
     },
     {
       "year": 2018,
@@ -3187,7 +3187,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "TYL",
-      "team1": "Fort Worth Benbrook",
+      "team1": "FW Benbrook",
       "score1": 15,
       "team2": "China Spring",
       "score2": 48,
@@ -3213,7 +3213,7 @@
       "chapter": "FTW",
       "team1": "Stephenville",
       "score1": 54,
-      "team2": "Fort Worth Dunbar",
+      "team2": "FW Dunbar",
       "score2": 31,
       "winner": "Stephenville"
     },
@@ -3463,11 +3463,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "TYL",
-      "team1": "Waco La Vega",
+      "team1": "La Vega",
       "score1": 68,
       "team2": "Melissa",
       "score2": 21,
-      "winner": "Waco La Vega"
+      "winner": "La Vega"
     },
     {
       "year": 2018,
@@ -3631,11 +3631,11 @@
       "week": 3,
       "round": "Regional",
       "chapter": "FTW",
-      "team1": "Waco La Vega",
+      "team1": "La Vega",
       "score1": 38,
       "team2": "Paris",
       "score2": 20,
-      "winner": "Waco La Vega"
+      "winner": "La Vega"
     },
     {
       "year": 2018,
@@ -3715,11 +3715,11 @@
       "week": 4,
       "round": "Quarterfinal",
       "chapter": "TYL",
-      "team1": "Waco La Vega",
+      "team1": "La Vega",
       "score1": 31,
       "team2": "Argyle",
       "score2": 14,
-      "winner": "Waco La Vega"
+      "winner": "La Vega"
     },
     {
       "year": 2018,
@@ -3753,9 +3753,9 @@
       "chapter": "TYL",
       "team1": "Decatur",
       "score1": null,
-      "team2": "Waco La Vega",
+      "team2": "La Vega",
       "score2": null,
-      "winner": "Waco La Vega"
+      "winner": "La Vega"
     },
     {
       "year": 2018,
@@ -3775,11 +3775,11 @@
       "week": 6,
       "round": "State Final",
       "chapter": "",
-      "team1": "Waco La Vega",
+      "team1": "La Vega",
       "score1": 35,
       "team2": "Liberty Hill",
       "score2": 21,
-      "winner": "Waco La Vega"
+      "winner": "La Vega"
     },
     {
       "year": 2018,
@@ -4579,11 +4579,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "FTW",
-      "team1": "Tuscola Jim Ned",
+      "team1": "Jim Ned",
       "score1": 30,
       "team2": "Whitesboro",
       "score2": 21,
-      "winner": "Tuscola Jim Ned"
+      "winner": "Jim Ned"
     },
     {
       "year": 2018,
@@ -4747,11 +4747,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Winnie East Chambers",
+      "team1": "East Chambers",
       "score1": 82,
       "team2": "Crockett",
       "score2": 47,
-      "winner": "Winnie East Chambers"
+      "winner": "East Chambers"
     },
     {
       "year": 2018,
@@ -4845,9 +4845,9 @@
       "chapter": "SAT",
       "team1": "Lyford",
       "score1": 14,
-      "team2": "San Antonio Cole",
+      "team2": "SA Cole",
       "score2": 16,
-      "winner": "San Antonio Cole"
+      "winner": "SA Cole"
     },
     {
       "year": 2018,
@@ -4941,7 +4941,7 @@
       "chapter": "PBC",
       "team1": "Shallowater",
       "score1": 44,
-      "team2": "Tuscola Jim Ned",
+      "team2": "Jim Ned",
       "score2": 35,
       "winner": "Shallowater"
     },
@@ -5025,9 +5025,9 @@
       "chapter": "HOU",
       "team1": "West",
       "score1": 35,
-      "team2": "Winnie East Chambers",
+      "team2": "East Chambers",
       "score2": 55,
-      "winner": "Winnie East Chambers"
+      "winner": "East Chambers"
     },
     {
       "year": 2018,
@@ -5073,7 +5073,7 @@
       "chapter": "CSC",
       "team1": "Altair Rice",
       "score1": 56,
-      "team2": "San Antonio Cole",
+      "team2": "SA Cole",
       "score2": 14,
       "winner": "Altair Rice"
     },
@@ -5167,11 +5167,11 @@
       "week": 3,
       "round": "Regional",
       "chapter": "HOU",
-      "team1": "Winnie East Chambers",
+      "team1": "East Chambers",
       "score1": 35,
       "team2": "Cameron Yoe",
       "score2": 34,
-      "winner": "Winnie East Chambers"
+      "winner": "East Chambers"
     },
     {
       "year": 2018,
@@ -5239,7 +5239,7 @@
       "week": 4,
       "round": "Quarterfinal",
       "chapter": "TYL",
-      "team1": "Winnie East Chambers",
+      "team1": "East Chambers",
       "score1": 35,
       "team2": "Grandview",
       "score2": 36,
@@ -5361,7 +5361,7 @@
       "chapter": "PBC",
       "team1": "Colorado City",
       "score1": 51,
-      "team2": "Big Lake Reagan County",
+      "team2": "Reagan County",
       "score2": 0,
       "winner": "Colorado City"
     },
@@ -7651,11 +7651,11 @@
       "week": 1,
       "round": "Area",
       "chapter": "SPC",
-      "team1": "Gail Borden County",
+      "team1": "Borden County",
       "score1": 56,
       "team2": "Morton",
       "score2": 0,
-      "winner": "Gail Borden County"
+      "winner": "Borden County"
     },
     {
       "year": 2018,
@@ -7687,11 +7687,11 @@
       "week": 1,
       "round": "Area",
       "chapter": "ABI",
-      "team1": "Gilmer Union Hill",
+      "team1": "Union Hill",
       "score1": 60,
       "team2": "Coolidge",
       "score2": 34,
-      "winner": "Gilmer Union Hill"
+      "winner": "Union Hill"
     },
     {
       "year": 2018,
@@ -7989,7 +7989,7 @@
       "chapter": "AMA",
       "team1": "Garden City",
       "score1": 60,
-      "team2": "Gail Borden County",
+      "team2": "Borden County",
       "score2": 14,
       "winner": "Garden City"
     },
@@ -8011,11 +8011,11 @@
       "week": 2,
       "round": "Regional",
       "chapter": "NTX",
-      "team1": "Gilmer Union Hill",
+      "team1": "Union Hill",
       "score1": 62,
       "team2": "Blum",
       "score2": 16,
-      "winner": "Gilmer Union Hill"
+      "winner": "Union Hill"
     },
     {
       "year": 2018,
@@ -8169,7 +8169,7 @@
       "chapter": "ABI",
       "team1": "Milford",
       "score1": 51,
-      "team2": "Gilmer Union Hill",
+      "team2": "Union Hill",
       "score2": 38,
       "winner": "Milford"
     },
