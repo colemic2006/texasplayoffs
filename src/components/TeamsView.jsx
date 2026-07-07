@@ -184,7 +184,7 @@ export default function TeamsView({ allData, years }) {
       </div>
 
       {/* ── SEARCH / FILTER BAR ── */}
-      <div style={{ display:'flex', gap:12, flexWrap:'wrap', marginBottom:24, alignItems:'center' }}>
+      <div style={{ display:'flex', gap:12, flexWrap:'wrap', marginBottom:12, alignItems:'center' }}>
         <input
           type="text"
           value={search}
@@ -196,7 +196,6 @@ export default function TeamsView({ allData, years }) {
             color:'var(--ink)', outline:'none', width:220,
           }}
         />
-
         <select
           value={classFilter}
           onChange={e => setClassFilter(e.target.value)}
@@ -209,98 +208,25 @@ export default function TeamsView({ allData, years }) {
           <option value="all">All Classifications</option>
           {classifications.map(c => <option key={c} value={c}>{c}</option>)}
         </select>
-
         <div style={{ display:'flex', gap:4, marginLeft:'auto' }}>
           {[['appearances','Appearances'],['games','Total Games'],['name','Name']].map(([key, label]) => (
-            <button
-              key={key}
-              onClick={() => setSortBy(key)}
-              style={{
-                fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.1em',
-                padding:'5px 10px', borderRadius:4, border:'1px solid var(--border)',
-                background: sortBy === key ? 'var(--steel)' : 'transparent',
-                color: sortBy === key ? '#fff' : 'var(--mid)',
-                cursor:'pointer'
-              }}
-            >{label}</button>
+            <button key={key} onClick={() => setSortBy(key)} style={{
+              fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.1em',
+              padding:'5px 10px', borderRadius:4, border:'1px solid var(--border)',
+              background: sortBy === key ? 'var(--steel)' : 'transparent',
+              color: sortBy === key ? '#fff' : 'var(--mid)', cursor:'pointer'
+            }}>{label}</button>
           ))}
         </div>
       </div>
 
-      {/* ── LEADERBOARD ── */}
-      <div style={{ marginBottom:32 }}>
-        <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:12 }}>
-          <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)' }}>
-            Top Teams by Playoff Games
-          </div>
-          <div style={{ display:'flex', gap:4 }}>
-            {['all', ...loadedYears.map(String)].map(y => {
-              const inactive = ['2026', '2010'].includes(y)
-              return (
-                <button key={y} onClick={() => !inactive && setLbYear(y)} title={inactive ? 'Coming soon — no data yet' : undefined} style={{
-                  fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.08em',
-                  padding:'3px 10px', borderRadius:3, border:'1px solid var(--border)',
-                  background: lbYear === y ? 'var(--ink)' : 'transparent',
-                  color: lbYear === y ? 'var(--cream)' : 'var(--mid)',
-                  cursor: inactive ? 'not-allowed' : 'pointer',
-                  opacity: inactive ? 0.35 : 1,
-                  transition:'all 0.15s'
-                }}>{y === 'all' ? 'All Years' : y}</button>
-              )
-            })}
-          </div>
-        </div>
-
-        <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(300px, 1fr))', gap:8 }}>
-          {leaderboard.map((team, i) => {
-            const games = lbYear === 'all' ? team.totalGames : (team.yearGames[parseInt(lbYear)] || 0)
-            const pct = lbMax > 0 ? (games / lbMax) * 100 : 0
-            const isSelected = selectedTeam === team.name
-            return (
-              <div
-                key={team.name}
-                onClick={() => setSelectedTeam(isSelected ? null : team.name)}
-                style={{
-                  background: isSelected ? 'rgba(44,74,110,0.07)' : 'var(--surface)',
-                  border: `1px solid ${isSelected ? 'var(--steel)' : 'var(--border)'}`,
-                  borderRadius:8, padding:'10px 14px', cursor:'pointer',
-                  transition:'all 0.15s'
-                }}
-              >
-                <div style={{ display:'flex', alignItems:'baseline', justifyContent:'space-between', marginBottom:6 }}>
-                  <div style={{ display:'flex', alignItems:'baseline', gap:8 }}>
-                    <span style={{
-                      fontFamily:"'Bebas Neue', sans-serif", fontSize:20,
-                      color: RANK_COLORS[Math.min(i, RANK_COLORS.length - 1)], lineHeight:1
-                    }}>#{i + 1}</span>
-                    <span style={{ fontFamily:'DM Sans', fontSize:13, fontWeight:500, color:'var(--ink)' }}>{team.name}</span>
-                  </div>
-                  <span style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:22, color:'var(--ink)', lineHeight:1 }}>{games}</span>
-                </div>
-                <div style={{ height:4, background:'rgba(15,13,11,0.08)', borderRadius:2, overflow:'hidden', marginBottom:5 }}>
-                  <div style={{ height:'100%', width:`${pct}%`, background: i === 0 ? 'var(--burnt)' : i === 1 ? 'var(--gold)' : 'var(--steel)', borderRadius:2, transition:'width 0.3s' }} />
-                </div>
-                <div style={{ display:'flex', justifyContent:'space-between' }}>
-                  <span style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)' }}>
-                    {team.classifications.join(' · ')}
-                  </span>
-                  <span style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)' }}>
-                    {lbYear === 'all' ? `${team.appearances} yr${team.appearances !== 1 ? 's' : ''}` : team.chapters[0] ? team.chapters[0].ch : ''}
-                  </span>
-                </div>
-              </div>
-            )
-          })}
-        </div>
-      </div>
-
-      {/* ── FULL TABLE ── */}
+      {/* ── SEARCH RESULTS TABLE ── */}
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginBottom:12 }}>
         {filtered.length.toLocaleString()} team{filtered.length !== 1 ? 's' : ''}
         {search || classFilter !== 'all' ? ' matching filters' : ''}
       </div>
 
-      <div style={{ display:'grid', gridTemplateColumns: selected ? '1fr 360px' : '1fr', gap:16, alignItems:'start' }}>
+      <div style={{ display:'grid', gridTemplateColumns: selected ? '1fr 360px' : '1fr', gap:16, alignItems:'start', marginBottom:32 }}>
         <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, overflow:'hidden' }}>
           <table style={{ width:'100%', borderCollapse:'collapse' }}>
             <thead>
@@ -316,36 +242,20 @@ export default function TeamsView({ allData, years }) {
               {filtered.slice(0, 200).map(team => {
                 const isSelected = selectedTeam === team.name
                 return (
-                  <tr
-                    key={team.name}
-                    onClick={() => setSelectedTeam(isSelected ? null : team.name)}
-                    style={{
-                      borderBottom:'1px solid rgba(15,13,11,0.05)',
-                      background: isSelected ? 'rgba(44,74,110,0.07)' : 'transparent',
-                      cursor:'pointer',
-                      transition:'background 0.1s',
-                    }}
-                  >
-                    <td style={{ ...tdStyle, fontWeight: isSelected ? 600 : 400, color:'var(--ink)' }}>
-                      {team.name}
+                  <tr key={team.name} onClick={() => setSelectedTeam(isSelected ? null : team.name)} style={{
+                    borderBottom:'1px solid rgba(15,13,11,0.05)',
+                    background: isSelected ? 'rgba(44,74,110,0.07)' : 'transparent',
+                    cursor:'pointer', transition:'background 0.1s',
+                  }}>
+                    <td style={{ ...tdStyle, fontWeight: isSelected ? 600 : 400, color:'var(--ink)' }}>{team.name}</td>
+                    <td style={{ ...tdStyle, textAlign:'center' }}>
+                      <span style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--steel)' }}>{team.classifications.join(', ')}</span>
                     </td>
                     <td style={{ ...tdStyle, textAlign:'center' }}>
-                      <span style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--steel)' }}>
-                        {team.classifications.join(', ')}
-                      </span>
+                      <span style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:18, color: team.appearances >= 4 ? 'var(--burnt)' : team.appearances >= 2 ? 'var(--gold)' : 'var(--mid)' }}>{team.appearances}</span>
+                      <span style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)', marginLeft:4 }}>({team.years.join(', ')})</span>
                     </td>
-                    <td style={{ ...tdStyle, textAlign:'center' }}>
-                      <span style={{
-                        fontFamily:"'Bebas Neue', sans-serif", fontSize:18,
-                        color: team.appearances >= 4 ? 'var(--burnt)' : team.appearances >= 2 ? 'var(--gold)' : 'var(--mid)'
-                      }}>{team.appearances}</span>
-                      <span style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)', marginLeft:4 }}>
-                        ({team.years.join(', ')})
-                      </span>
-                    </td>
-                    <td style={{ ...tdStyle, textAlign:'center', fontFamily:"'Bebas Neue', sans-serif", fontSize:18, color:'var(--ink)' }}>
-                      {team.totalGames}
-                    </td>
+                    <td style={{ ...tdStyle, textAlign:'center', fontFamily:"'Bebas Neue', sans-serif", fontSize:18, color:'var(--ink)' }}>{team.totalGames}</td>
                     <td style={tdStyle}>
                       {team.chapters.length > 0 ? (
                         <div style={{ display:'flex', flexDirection:'column', gap:2 }}>
@@ -378,8 +288,6 @@ export default function TeamsView({ allData, years }) {
               <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:22, color:'var(--ink)', letterSpacing:0.5 }}>{selected.name}</div>
               <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--steel)', marginTop:2 }}>{selected.classifications.join(' · ')}</div>
             </div>
-
-
             {selected.chapters.length > 0 && (() => {
               const topCount = selected.chapters[0].count
               const favs = selected.chapters.filter(c => c.count === topCount)
@@ -392,9 +300,7 @@ export default function TeamsView({ allData, years }) {
                     {favs.map(fav => (
                       <div key={fav.ch} style={{ display:'flex', alignItems:'center', justifyContent:'space-between' }}>
                         <div>
-                          <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:26, color:'var(--burnt)', lineHeight:1 }}>
-                            {CHAPTER_NAMES[fav.ch] || fav.ch}
-                          </div>
+                          <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:26, color:'var(--burnt)', lineHeight:1 }}>{CHAPTER_NAMES[fav.ch] || fav.ch}</div>
                           <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:1 }}>{fav.ch}</div>
                         </div>
                         <div style={{ textAlign:'right' }}>
@@ -407,7 +313,6 @@ export default function TeamsView({ allData, years }) {
                 </div>
               )
             })()}
-
             <div style={{ padding:'14px 18px', borderBottom:'1px solid var(--border)', display:'grid', gridTemplateColumns:'1fr 1fr', gap:12 }}>
               <Stat label="Playoff Appearances" value={selected.appearances} color="var(--burnt)" />
               <Stat label="Total Games Played" value={selected.totalGames} color="var(--ink)" />
@@ -415,16 +320,13 @@ export default function TeamsView({ allData, years }) {
                 <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.1em', textTransform:'uppercase', color:'var(--mid)', marginBottom:4 }}>Years Active</div>
                 <div style={{ display:'flex', gap:6, flexWrap:'wrap' }}>
                   {selected.years.map(y => (
-                    <span key={y} style={{
-                      fontFamily:'var(--mono)', fontSize:10, padding:'2px 8px',
-                      borderRadius:3, background:'rgba(44,74,110,0.1)', color:'var(--steel)'
-                    }}>{y} <span style={{ color:'var(--mid)' }}>({selected.yearGames[y] || 0}g)</span></span>
+                    <span key={y} style={{ fontFamily:'var(--mono)', fontSize:10, padding:'2px 8px', borderRadius:3, background:'rgba(44,74,110,0.1)', color:'var(--steel)' }}>
+                      {y} <span style={{ color:'var(--mid)' }}>({selected.yearGames[y] || 0}g)</span>
+                    </span>
                   ))}
                 </div>
               </div>
             </div>
-
-            {/* Chapter affinity */}
             <div style={{ padding:'14px 18px' }}>
               <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginBottom:12 }}>
                 Chapter Affinity <span style={{ opacity:0.5, fontWeight:400 }}>— cumulative game assignments</span>
@@ -467,6 +369,61 @@ export default function TeamsView({ allData, years }) {
             </div>
           </div>
         )}
+      </div>
+
+      {/* ── LEADERBOARD ── */}
+      <div style={{ marginBottom:32 }}>
+        <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:12 }}>
+          <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)' }}>
+            Top Teams by Playoff Games
+          </div>
+          <div style={{ display:'flex', gap:4 }}>
+            {['all', ...loadedYears.map(String)].map(y => {
+              const inactive = ['2026', '2010'].includes(y)
+              return (
+                <button key={y} onClick={() => !inactive && setLbYear(y)} title={inactive ? 'Coming soon — no data yet' : undefined} style={{
+                  fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.08em',
+                  padding:'3px 10px', borderRadius:3, border:'1px solid var(--border)',
+                  background: lbYear === y ? 'var(--ink)' : 'transparent',
+                  color: lbYear === y ? 'var(--cream)' : 'var(--mid)',
+                  cursor: inactive ? 'not-allowed' : 'pointer',
+                  opacity: inactive ? 0.35 : 1, transition:'all 0.15s'
+                }}>{y === 'all' ? 'All Years' : y}</button>
+              )
+            })}
+          </div>
+        </div>
+        <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(300px, 1fr))', gap:8 }}>
+          {leaderboard.map((team, i) => {
+            const games = lbYear === 'all' ? team.totalGames : (team.yearGames[parseInt(lbYear)] || 0)
+            const pct = lbMax > 0 ? (games / lbMax) * 100 : 0
+            const isSelected = selectedTeam === team.name
+            return (
+              <div key={team.name} onClick={() => setSelectedTeam(isSelected ? null : team.name)} style={{
+                background: isSelected ? 'rgba(44,74,110,0.07)' : 'var(--surface)',
+                border: `1px solid ${isSelected ? 'var(--steel)' : 'var(--border)'}`,
+                borderRadius:8, padding:'10px 14px', cursor:'pointer', transition:'all 0.15s'
+              }}>
+                <div style={{ display:'flex', alignItems:'baseline', justifyContent:'space-between', marginBottom:6 }}>
+                  <div style={{ display:'flex', alignItems:'baseline', gap:8 }}>
+                    <span style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:20, color: RANK_COLORS[Math.min(i, RANK_COLORS.length - 1)], lineHeight:1 }}>#{i + 1}</span>
+                    <span style={{ fontFamily:'DM Sans', fontSize:13, fontWeight:500, color:'var(--ink)' }}>{team.name}</span>
+                  </div>
+                  <span style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:22, color:'var(--ink)', lineHeight:1 }}>{games}</span>
+                </div>
+                <div style={{ height:4, background:'rgba(15,13,11,0.08)', borderRadius:2, overflow:'hidden', marginBottom:5 }}>
+                  <div style={{ height:'100%', width:`${pct}%`, background: i === 0 ? 'var(--burnt)' : i === 1 ? 'var(--gold)' : 'var(--steel)', borderRadius:2, transition:'width 0.3s' }} />
+                </div>
+                <div style={{ display:'flex', justifyContent:'space-between' }}>
+                  <span style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)' }}>{team.classifications.join(' · ')}</span>
+                  <span style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)' }}>
+                    {lbYear === 'all' ? `${team.appearances} yr${team.appearances !== 1 ? 's' : ''}` : team.chapters[0] ? team.chapters[0].ch : ''}
+                  </span>
+                </div>
+              </div>
+            )
+          })}
+        </div>
       </div>
     </div>
   )
