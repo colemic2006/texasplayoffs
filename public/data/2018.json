@@ -2395,11 +2395,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Dallas South Oak Cliff",
+      "team1": "South Oak Cliff",
       "score1": 40,
       "team2": "Everman",
       "score2": 7,
-      "winner": "Dallas South Oak Cliff"
+      "winner": "South Oak Cliff"
     },
     {
       "year": 2018,
@@ -2719,11 +2719,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "DAL",
-      "team1": "Dallas South Oak Cliff",
+      "team1": "South Oak Cliff",
       "score1": 48,
       "team2": "Frisco",
       "score2": 16,
-      "winner": "Dallas South Oak Cliff"
+      "winner": "South Oak Cliff"
     },
     {
       "year": 2018,
@@ -2877,7 +2877,7 @@
       "chapter": "HOU",
       "team1": "Aledo",
       "score1": 28,
-      "team2": "Dallas South Oak Cliff",
+      "team2": "South Oak Cliff",
       "score2": 14,
       "winner": "Aledo"
     },
