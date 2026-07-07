@@ -183,6 +183,50 @@ export default function TeamsView({ allData, years }) {
         Team Playoff History
       </div>
 
+      {/* ── SEARCH / FILTER BAR ── */}
+      <div style={{ display:'flex', gap:12, flexWrap:'wrap', marginBottom:24, alignItems:'center' }}>
+        <input
+          type="text"
+          value={search}
+          onChange={e => setSearch(e.target.value)}
+          placeholder="Search teams…"
+          style={{
+            fontFamily:'var(--mono)', fontSize:11, padding:'7px 12px',
+            border:'1px solid var(--border)', borderRadius:6, background:'var(--surface)',
+            color:'var(--ink)', outline:'none', width:220,
+          }}
+        />
+
+        <select
+          value={classFilter}
+          onChange={e => setClassFilter(e.target.value)}
+          style={{
+            fontFamily:'var(--mono)', fontSize:10, padding:'7px 10px',
+            border:'1px solid var(--border)', borderRadius:6,
+            background:'var(--surface)', color:'var(--mid)', cursor:'pointer'
+          }}
+        >
+          <option value="all">All Classifications</option>
+          {classifications.map(c => <option key={c} value={c}>{c}</option>)}
+        </select>
+
+        <div style={{ display:'flex', gap:4, marginLeft:'auto' }}>
+          {[['appearances','Appearances'],['games','Total Games'],['name','Name']].map(([key, label]) => (
+            <button
+              key={key}
+              onClick={() => setSortBy(key)}
+              style={{
+                fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.1em',
+                padding:'5px 10px', borderRadius:4, border:'1px solid var(--border)',
+                background: sortBy === key ? 'var(--steel)' : 'transparent',
+                color: sortBy === key ? '#fff' : 'var(--mid)',
+                cursor:'pointer'
+              }}
+            >{label}</button>
+          ))}
+        </div>
+      </div>
+
       {/* ── LEADERBOARD ── */}
       <div style={{ marginBottom:32 }}>
         <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:12 }}>
@@ -251,49 +295,6 @@ export default function TeamsView({ allData, years }) {
       </div>
 
       {/* ── FULL TABLE ── */}
-      <div style={{ display:'flex', gap:12, flexWrap:'wrap', marginBottom:20, alignItems:'center' }}>
-        <input
-          type="text"
-          value={search}
-          onChange={e => setSearch(e.target.value)}
-          placeholder="Search teams…"
-          style={{
-            fontFamily:'var(--mono)', fontSize:11, padding:'7px 12px',
-            border:'1px solid var(--border)', borderRadius:6, background:'var(--surface)',
-            color:'var(--ink)', outline:'none', width:220,
-          }}
-        />
-
-        <select
-          value={classFilter}
-          onChange={e => setClassFilter(e.target.value)}
-          style={{
-            fontFamily:'var(--mono)', fontSize:10, padding:'7px 10px',
-            border:'1px solid var(--border)', borderRadius:6,
-            background:'var(--surface)', color:'var(--mid)', cursor:'pointer'
-          }}
-        >
-          <option value="all">All Classifications</option>
-          {classifications.map(c => <option key={c} value={c}>{c}</option>)}
-        </select>
-
-        <div style={{ display:'flex', gap:4, marginLeft:'auto' }}>
-          {[['appearances','Appearances'],['games','Total Games'],['name','Name']].map(([key, label]) => (
-            <button
-              key={key}
-              onClick={() => setSortBy(key)}
-              style={{
-                fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.1em',
-                padding:'5px 10px', borderRadius:4, border:'1px solid var(--border)',
-                background: sortBy === key ? 'var(--steel)' : 'transparent',
-                color: sortBy === key ? '#fff' : 'var(--mid)',
-                cursor:'pointer'
-              }}
-            >{label}</button>
-          ))}
-        </div>
-      </div>
-
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginBottom:12 }}>
         {filtered.length.toLocaleString()} team{filtered.length !== 1 ? 's' : ''}
         {search || classFilter !== 'all' ? ' matching filters' : ''}
