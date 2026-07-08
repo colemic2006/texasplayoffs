@@ -307,11 +307,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "San Antonio, O'Connor",
+      "team1": "San Antonio O'Connor",
       "score1": 24,
       "team2": "San Antonio Southwest",
       "score2": 21,
-      "winner": "San Antonio, O'Connor"
+      "winner": "San Antonio O'Connor"
     },
     {
       "year": 2015,
@@ -537,7 +537,7 @@
       "chapter": "HOU",
       "team1": "Converse Judson",
       "score1": 56,
-      "team2": "San Antonio, O'Connor",
+      "team2": "San Antonio O'Connor",
       "score2": 28,
       "winner": "Converse Judson"
     },
