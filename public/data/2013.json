@@ -1892,7 +1892,7 @@
       "chapter": "SAT",
       "team1": "Laredo Martin",
       "score1": 40,
-      "team2": "Mission Memorial",
+      "team2": "Mission Sharyland",
       "score2": 27,
       "winner": "Laredo Martin"
     },
@@ -2502,11 +2502,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Rosenburg George Ranch",
+      "team1": "George Ranch",
       "score1": 53,
       "team2": "Baytown Goose Creek Memorial",
       "score2": 31,
-      "winner": "Rosenburg George Ranch"
+      "winner": "George Ranch"
     },
     {
       "year": 2013,
@@ -2610,11 +2610,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "AUS",
-      "team1": "Austin Vandergrift",
+      "team1": "Austin Vandegrift",
       "score1": 42,
       "team2": "Austin Crockett",
       "score2": 22,
-      "winner": "Austin Vandergrift"
+      "winner": "Austin Vandegrift"
     },
     {
       "year": 2013,
@@ -2768,9 +2768,9 @@
       "chapter": "HOU",
       "team1": "Fort Bend Marshall",
       "score1": 21,
-      "team2": "Rosenburg George Ranch",
+      "team2": "George Ranch",
       "score2": 42,
-      "winner": "Rosenburg George Ranch"
+      "winner": "George Ranch"
     },
     {
       "year": 2013,
@@ -2826,7 +2826,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Austin Vandergrift",
+      "team1": "Austin Vandegrift",
       "score1": 21,
       "team2": "Alamo Heights",
       "score2": 24,
@@ -2900,9 +2900,9 @@
       "chapter": "SAT",
       "team1": "Elgin",
       "score1": 28,
-      "team2": "Rosenburg George Ranch",
+      "team2": "George Ranch",
       "score2": 37,
-      "winner": "Rosenburg George Ranch"
+      "winner": "George Ranch"
     },
     {
       "year": 2013,
@@ -2970,7 +2970,7 @@
       "week": 4,
       "round": "Quarterfinal",
       "chapter": "HOU",
-      "team1": "Rosenburg George Ranch",
+      "team1": "George Ranch",
       "score1": 6,
       "team2": "Brenham",
       "score2": 35,

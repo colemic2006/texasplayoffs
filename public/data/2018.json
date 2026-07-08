@@ -105,7 +105,7 @@
       "chapter": "DAL",
       "team1": "Allen",
       "score1": 56,
-      "team2": "Garland Rowlette",
+      "team2": "Garland Rowlett",
       "score2": 21,
       "winner": "Allen"
     },
@@ -883,11 +883,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "DAL",
-      "team1": "Austin Vangergrift",
+      "team1": "Austin Vandegrift",
       "score1": 35,
       "team2": "Tomball Memorial",
       "score2": 14,
-      "winner": "Austin Vangergrift"
+      "winner": "Austin Vandegrift"
     },
     {
       "year": 2018,
@@ -979,11 +979,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Beaumont Westbrook",
+      "team1": "Beaumont West Brook",
       "score1": 56,
       "team2": "Humble Kingwood",
       "score2": 14,
-      "winner": "Beaumont Westbrook"
+      "winner": "Beaumont West Brook"
     },
     {
       "year": 2018,
@@ -1005,9 +1005,9 @@
       "chapter": "HOU",
       "team1": "Houston Heights",
       "score1": 7,
-      "team2": "Cypress Creeek",
+      "team2": "Cypress Creek",
       "score2": 34,
-      "winner": "Cypress Creeek"
+      "winner": "Cypress Creek"
     },
     {
       "year": 2018,
@@ -1207,11 +1207,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "DAL",
-      "team1": "Austin Vangergrift",
+      "team1": "Austin Vandegrift",
       "score1": 28,
       "team2": "Spring Klein Collins",
       "score2": 21,
-      "winner": "Austin Vangergrift"
+      "winner": "Austin Vandegrift"
     },
     {
       "year": 2018,
@@ -1255,11 +1255,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Beaumont Westbrook",
+      "team1": "Beaumont West Brook",
       "score1": 54,
       "team2": "Houston Strake Jesuit",
       "score2": 43,
-      "winner": "Beaumont Westbrook"
+      "winner": "Beaumont West Brook"
     },
     {
       "year": 2018,
@@ -1267,11 +1267,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Cypress Creeek",
+      "team1": "Cypress Creek",
       "score1": 24,
       "team2": "Katy Taylor",
       "score2": 14,
-      "winner": "Cypress Creeek"
+      "winner": "Cypress Creek"
     },
     {
       "year": 2018,
@@ -1365,7 +1365,7 @@
       "chapter": "HOU",
       "team1": "Longview",
       "score1": 56,
-      "team2": "Austin Vangergrift",
+      "team2": "Austin Vandegrift",
       "score2": 28,
       "winner": "Longview"
     },
@@ -1389,9 +1389,9 @@
       "chapter": "HOU",
       "team1": "Katy Tompkins",
       "score1": 45,
-      "team2": "Beaumont Westbrook",
+      "team2": "Beaumont West Brook",
       "score2": 49,
-      "winner": "Beaumont Westbrook"
+      "winner": "Beaumont West Brook"
     },
     {
       "year": 2018,
@@ -1399,11 +1399,11 @@
       "week": 3,
       "round": "Regional",
       "chapter": "HOU",
-      "team1": "Cypress Creeek",
+      "team1": "Cypress Creek",
       "score1": 43,
       "team2": "Humble Summer Creek",
       "score2": 14,
-      "winner": "Cypress Creeek"
+      "winner": "Cypress Creek"
     },
     {
       "year": 2018,
@@ -1459,11 +1459,11 @@
       "week": 4,
       "round": "Quarterfinal",
       "chapter": "HOU",
-      "team1": "Beaumont Westbrook",
+      "team1": "Beaumont West Brook",
       "score1": 31,
-      "team2": "Cypress Creeek",
+      "team2": "Cypress Creek",
       "score2": 21,
-      "winner": "Beaumont Westbrook"
+      "winner": "Beaumont West Brook"
     },
     {
       "year": 2018,
@@ -1495,11 +1495,11 @@
       "week": 5,
       "round": "Semifinal",
       "chapter": "CSC",
-      "team1": "Beaumont Westbrook",
+      "team1": "Beaumont West Brook",
       "score1": null,
       "team2": "Austin Westlake",
       "score2": null,
-      "winner": "Beaumont Westbrook"
+      "winner": "Beaumont West Brook"
     },
     {
       "year": 2018,
@@ -1509,7 +1509,7 @@
       "chapter": "FTW",
       "team1": "Longview",
       "score1": 35,
-      "team2": "Beaumont Westbrook",
+      "team2": "Beaumont West Brook",
       "score2": 34,
       "winner": "Longview"
     },
@@ -1879,11 +1879,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "Mission Veterans Memorial",
+      "team1": "Mission Veterans Memorial High School",
       "score1": 69,
       "team2": "Victoria East",
       "score2": 21,
-      "winner": "Mission Veterans Memorial"
+      "winner": "Mission Veterans Memorial High School"
     },
     {
       "year": 2018,
@@ -2083,11 +2083,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Mission Veterans Memorial",
+      "team1": "Mission Veterans Memorial High School",
       "score1": 48,
       "team2": "San Antonio Veterans Memorial",
       "score2": 23,
-      "winner": "Mission Veterans Memorial"
+      "winner": "Mission Veterans Memorial High School"
     },
     {
       "year": 2018,
@@ -2181,9 +2181,9 @@
       "chapter": "SAT",
       "team1": "Corpus Christi Veterans Memorial",
       "score1": 55,
-      "team2": "Mission Veterans Memorial",
+      "team2": "Mission Veterans Memorial High School",
       "score2": 62,
-      "winner": "Mission Veterans Memorial"
+      "winner": "Mission Veterans Memorial High School"
     },
     {
       "year": 2018,
@@ -2229,7 +2229,7 @@
       "chapter": "AUS",
       "team1": "San Antonio Wagner",
       "score1": 54,
-      "team2": "Mission Veterans Memorial",
+      "team2": "Mission Veterans Memorial High School",
       "score2": 21,
       "winner": "San Antonio Wagner"
     },

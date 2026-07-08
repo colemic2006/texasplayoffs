@@ -897,7 +897,7 @@
       "chapter": "DAL",
       "team1": "Rowlett",
       "score1": 35,
-      "team2": "Dallas Jeuit",
+      "team2": "Dallas Jesuit",
       "score2": 28,
       "winner": "Rowlett"
     },
@@ -1855,11 +1855,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "Mission Memorial",
+      "team1": "Mission Sharyland",
       "score1": 30,
       "team2": "Corpus Christi Flour Bluff",
       "score2": 24,
-      "winner": "Mission Memorial"
+      "winner": "Mission Sharyland"
     },
     {
       "year": 2010,
@@ -2049,7 +2049,7 @@
       "chapter": "SAT",
       "team1": "Victoria East",
       "score1": 54,
-      "team2": "Mission Memorial",
+      "team2": "Mission Sharyland",
       "score2": 40,
       "winner": "Victoria East"
     },
@@ -3595,7 +3595,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "TYL",
-      "team1": "Waco LaVega",
+      "team1": "Waco La Vega",
       "score1": 42,
       "team2": "Fairfield",
       "score2": null,
@@ -3849,7 +3849,7 @@
       "chapter": "CSC",
       "team1": "Kirbyville",
       "score1": 43,
-      "team2": "Waco LaVega",
+      "team2": "Waco La Vega",
       "score2": 34,
       "winner": "Kirbyville"
     },
