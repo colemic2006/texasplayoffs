@@ -1,32 +1,8 @@
-import React, { useState } from 'react'
-
-const FORMSPREE_ID = 'YOUR_FORM_ID'
+import React from 'react'
+import { useForm, ValidationError } from '@formspree/react'
 
 export default function ContactView() {
-  const [subject, setSubject] = useState('')
-  const [message, setMessage] = useState('')
-  const [status, setStatus] = useState('idle') // idle | sending | success | error
-
-  async function handleSubmit(e) {
-    e.preventDefault()
-    setStatus('sending')
-    try {
-      const res = await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-        body: JSON.stringify({ subject, message }),
-      })
-      if (res.ok) {
-        setStatus('success')
-        setSubject('')
-        setMessage('')
-      } else {
-        setStatus('error')
-      }
-    } catch {
-      setStatus('error')
-    }
-  }
+  const [state, handleSubmit] = useForm('xqevvaow')
 
   const inputStyle = {
     fontFamily: 'var(--sans)', fontSize: 13,
@@ -34,6 +10,15 @@ export default function ContactView() {
     border: '1px solid var(--border)',
     background: 'rgba(255,255,255,0.03)', color: 'var(--paper)',
     outline: 'none', width: '100%', boxSizing: 'border-box',
+  }
+
+  const labelStyle = {
+    fontFamily: 'var(--mono)', fontSize: 9, letterSpacing: '0.14em',
+    textTransform: 'uppercase', color: 'var(--mid)',
+  }
+
+  const errorStyle = {
+    fontFamily: 'var(--mono)', fontSize: 10, color: 'var(--burnt)', marginTop: 4,
   }
 
   return (
@@ -50,7 +35,7 @@ export default function ContactView() {
         </div>
       </div>
 
-      {status === 'success' ? (
+      {state.succeeded ? (
         <div style={{
           background: 'rgba(80,160,80,0.08)', border: '1px solid rgba(80,160,80,0.25)',
           borderRadius: 10, padding: '24px 28px',
@@ -61,67 +46,50 @@ export default function ContactView() {
           <div style={{ color: 'var(--mid)', fontSize: 13 }}>
             Thanks for reaching out. Your message has been received.
           </div>
-          <button
-            onClick={() => setStatus('idle')}
-            style={{
-              marginTop: 16, fontFamily: 'var(--mono)', fontSize: 10,
-              letterSpacing: '0.12em', textTransform: 'uppercase',
-              background: 'none', border: '1px solid var(--border)',
-              color: 'var(--mid)', borderRadius: 5, padding: '7px 14px',
-              cursor: 'pointer',
-            }}
-          >
-            Send another
-          </button>
         </div>
       ) : (
         <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
-            <label style={{ fontFamily: 'var(--mono)', fontSize: 9, letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--mid)' }}>
-              Subject
-            </label>
+            <label htmlFor="subject" style={labelStyle}>Subject</label>
             <input
+              id="subject"
               type="text"
-              value={subject}
-              onChange={e => setSubject(e.target.value)}
+              name="subject"
               required
               placeholder="What's this about?"
               style={inputStyle}
             />
+            <ValidationError field="subject" errors={state.errors} style={errorStyle} />
           </div>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
-            <label style={{ fontFamily: 'var(--mono)', fontSize: 9, letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--mid)' }}>
-              Message
-            </label>
+            <label htmlFor="message" style={labelStyle}>Message</label>
             <textarea
-              value={message}
-              onChange={e => setMessage(e.target.value)}
+              id="message"
+              name="message"
               required
               rows={6}
               placeholder="Your message…"
               style={{ ...inputStyle, resize: 'vertical', lineHeight: 1.6 }}
             />
+            <ValidationError field="message" errors={state.errors} style={errorStyle} />
           </div>
 
-          {status === 'error' && (
-            <div style={{ fontFamily: 'var(--mono)', fontSize: 10, color: 'var(--burnt)' }}>
-              Something went wrong. Please try again.
-            </div>
-          )}
+          <ValidationError errors={state.errors} style={errorStyle} />
 
           <button
             type="submit"
-            disabled={status === 'sending'}
+            disabled={state.submitting}
             style={{
               fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.14em',
               textTransform: 'uppercase', padding: '11px 20px', borderRadius: 6,
-              background: status === 'sending' ? 'rgba(193,68,14,0.5)' : 'var(--burnt)',
-              border: 'none', color: '#fff', cursor: status === 'sending' ? 'default' : 'pointer',
+              background: state.submitting ? 'rgba(193,68,14,0.5)' : 'var(--burnt)',
+              border: 'none', color: '#fff',
+              cursor: state.submitting ? 'default' : 'pointer',
               alignSelf: 'flex-start',
             }}
           >
-            {status === 'sending' ? 'Sending…' : 'Send Message'}
+            {state.submitting ? 'Sending…' : 'Send Message'}
           </button>
         </form>
       )}
