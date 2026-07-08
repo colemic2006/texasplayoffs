@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import PasswordGate, { useAuth } from './components/PasswordGate'
 import Header from './components/Header'
 import Nav from './components/Nav'
 import ChapterDashboard from './components/ChapterDashboard'
@@ -11,6 +12,7 @@ import ChampionshipsView from './components/ChampionshipsView'
 const YEARS = [2026, 2025, 2024, 2023, 2022, 2018, 2015, 2013, 2010]
 
 export default function App() {
+  const { authed, unlock } = useAuth()
   const [page, setPage] = useState('chapters')
   const [year, setYear] = useState(2025)
   const [data, setData] = useState({})
@@ -49,6 +51,8 @@ export default function App() {
   const yearData = data[year] || null
   const DATA_YEARS = YEARS.filter(y => ![2026].includes(y))
   const allYearsLoaded = (page === 'teams' || page === 'regulars') ? DATA_YEARS.every(y => data[y]) : true
+
+  if (!authed) return <PasswordGate onUnlock={unlock} />
 
   return (
     <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
