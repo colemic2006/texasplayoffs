@@ -7,7 +7,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "PBC",
-      "team1": "EP El Dorado",
+      "team1": "El Paso El Dorado",
       "score1": 40,
       "team2": "Amarillo Tascosa",
       "score2": 66,
@@ -57,7 +57,7 @@
       "chapter": "PBC",
       "team1": "Amarillo",
       "score1": 44,
-      "team2": "EP Montwood",
+      "team2": "El Paso Montwood",
       "score2": 27,
       "winner": "Amarillo"
     },
@@ -297,7 +297,7 @@
       "chapter": "HOU",
       "team1": "Converse Judson",
       "score1": 40,
-      "team2": "SA Churchill",
+      "team2": "San Antonio Churchill",
       "score2": 13,
       "winner": "Converse Judson"
     },
@@ -309,7 +309,7 @@
       "chapter": "SAT",
       "team1": "San Antonio, O'Connor",
       "score1": 24,
-      "team2": "SA Southwest",
+      "team2": "San Antonio Southwest",
       "score2": 21,
       "winner": "San Antonio, O'Connor"
     },
@@ -343,7 +343,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "SA Reagan",
+      "team1": "San Antonio Reagan",
       "score1": 7,
       "team2": "Comal Smithson Valley",
       "score2": 17,
@@ -355,11 +355,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "SA East Central",
+      "team1": "San Antonio East Central",
       "score1": 6,
-      "team2": "SA Stevens",
+      "team2": "San Antonio Stevens",
       "score2": 43,
-      "winner": "SA Stevens"
+      "winner": "San Antonio Stevens"
     },
     {
       "year": 2015,
@@ -561,7 +561,7 @@
       "chapter": "SAT",
       "team1": "Comal Smithson Valley",
       "score1": 35,
-      "team2": "SA Stevens",
+      "team2": "San Antonio Stevens",
       "score2": 0,
       "winner": "Comal Smithson Valley"
     },
@@ -763,11 +763,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "EP Americas",
+      "team1": "El Paso Americas",
       "score1": 35,
       "team2": "Lubbock Monterey",
       "score2": 28,
-      "winner": "EP Americas"
+      "winner": "El Paso Americas"
     },
     {
       "year": 2015,
@@ -813,9 +813,9 @@
       "chapter": "ABI",
       "team1": "Wolfforth Frenship",
       "score1": 40,
-      "team2": "EP Eastwood",
+      "team2": "El Paso Eastwood",
       "score2": 47,
-      "winner": "EP Eastwood"
+      "winner": "El Paso Eastwood"
     },
     {
       "year": 2015,
@@ -1053,7 +1053,7 @@
       "chapter": "SAT",
       "team1": "Cibolo Steele",
       "score1": 62,
-      "team2": "SA MacArthur",
+      "team2": "San Antonio MacArthur",
       "score2": 13,
       "winner": "Cibolo Steele"
     },
@@ -1063,11 +1063,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "SA Brennan",
+      "team1": "San Antonio Brennan",
       "score1": 44,
-      "team2": "CC King",
+      "team2": "Corpus Christi King",
       "score2": 17,
-      "winner": "SA Brennan"
+      "winner": "San Antonio Brennan"
     },
     {
       "year": 2015,
@@ -1099,7 +1099,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "SA Johnson",
+      "team1": "San Antonio Johnson",
       "score1": 51,
       "team2": "Schertz Clemens",
       "score2": 54,
@@ -1111,11 +1111,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "CC Carroll",
+      "team1": "Corpus Christi Carroll",
       "score1": 21,
-      "team2": "SA Brandeis",
+      "team2": "San Antonio Brandeis",
       "score2": 49,
-      "winner": "SA Brandeis"
+      "winner": "San Antonio Brandeis"
     },
     {
       "year": 2015,
@@ -1147,7 +1147,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "FTW",
-      "team1": "EP Americas",
+      "team1": "El Paso Americas",
       "score1": 27,
       "team2": "San Angelo Central",
       "score2": 51,
@@ -1171,7 +1171,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "PBC",
-      "team1": "EP Eastwood",
+      "team1": "El Paso Eastwood",
       "score1": 35,
       "team2": "Arlington Lamar",
       "score2": 42,
@@ -1293,7 +1293,7 @@
       "chapter": "HOU",
       "team1": "Cibolo Steele",
       "score1": 38,
-      "team2": "SA Brennan",
+      "team2": "San Antonio Brennan",
       "score2": 7,
       "winner": "Cibolo Steele"
     },
@@ -1317,7 +1317,7 @@
       "chapter": "HOU",
       "team1": "Schertz Clemens",
       "score1": 35,
-      "team2": "SA Brandeis",
+      "team2": "San Antonio Brandeis",
       "score2": 31,
       "winner": "Schertz Clemens"
     },
@@ -1519,11 +1519,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "ELP",
-      "team1": "EP Chapin",
+      "team1": "El Paso Chapin",
       "score1": 32,
-      "team2": "EP Del Air",
+      "team2": "El Paso Del Air",
       "score2": 2,
-      "winner": "EP Chapin"
+      "winner": "El Paso Chapin"
     },
     {
       "year": 2015,
@@ -1543,11 +1543,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "FTW",
-      "team1": "FW Boswell",
+      "team1": "Fort Worth Boswell",
       "score1": 36,
       "team2": "Birdville",
       "score2": 22,
-      "winner": "FW Boswell"
+      "winner": "Fort Worth Boswell"
     },
     {
       "year": 2015,
@@ -1555,7 +1555,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "FTW",
-      "team1": "FW Arlington Heights",
+      "team1": "Fort Worth Arlington Heights",
       "score1": 29,
       "team2": "Burlington Centennial",
       "score2": 30,
@@ -1567,11 +1567,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "ELP",
-      "team1": "EP Del Valle",
+      "team1": "El Paso Del Valle",
       "score1": 36,
-      "team2": "EP Andress",
+      "team2": "El Paso Andress",
       "score2": 16,
-      "winner": "EP Del Valle"
+      "winner": "El Paso Del Valle"
     },
     {
       "year": 2015,
@@ -1603,7 +1603,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "FTW",
-      "team1": "FW Trimble Tech",
+      "team1": "Fort Worth Trimble Tech",
       "score1": 0,
       "team2": "Aledo",
       "score2": 76,
@@ -1819,7 +1819,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "CSC",
-      "team1": "SA Harlandale",
+      "team1": "San Antonio Harlandale",
       "score1": 18,
       "team2": "San Marcos",
       "score2": 21,
@@ -1867,7 +1867,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "SA Highlands",
+      "team1": "San Antonio Highlands",
       "score1": 18,
       "team2": "Lockhart",
       "score2": 21,
@@ -1903,7 +1903,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "ABI",
-      "team1": "EP Chapin",
+      "team1": "El Paso Chapin",
       "score1": 35,
       "team2": "Canyon Randall",
       "score2": 53,
@@ -1915,7 +1915,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "FTW",
-      "team1": "FW Boswell",
+      "team1": "Fort Worth Boswell",
       "score1": 10,
       "team2": "Burlington Centennial",
       "score2": 28,
@@ -1927,7 +1927,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "SPC",
-      "team1": "EP Del Valle",
+      "team1": "El Paso Del Valle",
       "score1": 14,
       "team2": "Abilene Cooper",
       "score2": 31,
@@ -2275,11 +2275,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "ELP",
-      "team1": "EP Ysleta",
+      "team1": "El Paso Ysleta",
       "score1": 23,
-      "team2": "EP Burges",
+      "team2": "El Paso Burges",
       "score2": 29,
-      "winner": "EP Burges"
+      "winner": "El Paso Burges"
     },
     {
       "year": 2015,
@@ -2301,7 +2301,7 @@
       "chapter": "CTX",
       "team1": "Wichita Falls Rider",
       "score1": 61,
-      "team2": "FW Dunbar",
+      "team2": "Fort Worth Dunbar",
       "score2": 20,
       "winner": "Wichita Falls Rider"
     },
@@ -2311,7 +2311,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "FTW",
-      "team1": "FW Wyatt",
+      "team1": "Fort Worth Wyatt",
       "score1": 8,
       "team2": "Everman",
       "score2": 61,
@@ -2323,11 +2323,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "ELP",
-      "team1": "EP Bowie",
+      "team1": "El Paso Bowie",
       "score1": 14,
-      "team2": "EP Eastlake",
+      "team2": "El Paso Eastlake",
       "score2": 62,
-      "winner": "EP Eastlake"
+      "winner": "El Paso Eastlake"
     },
     {
       "year": 2015,
@@ -2349,7 +2349,7 @@
       "chapter": "FTW",
       "team1": "Lake Dallas",
       "score1": 49,
-      "team2": "FW Brewer",
+      "team2": "Fort Worth Brewer",
       "score2": 14,
       "winner": "Lake Dallas"
     },
@@ -2361,7 +2361,7 @@
       "chapter": "FTW",
       "team1": "Burleson",
       "score1": 50,
-      "team2": "FW South Hills",
+      "team2": "Fort Worth South Hills",
       "score2": 14,
       "winner": "Burleson"
     },
@@ -2577,7 +2577,7 @@
       "chapter": "SAT",
       "team1": "Kerrville Tivy",
       "score1": 63,
-      "team2": "SA McCollum",
+      "team2": "San Antonio McCollum",
       "score2": 21,
       "winner": "Kerrville Tivy"
     },
@@ -2623,7 +2623,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "SA Sam Houston",
+      "team1": "San Antonio Sam Houston",
       "score1": 22,
       "team2": "Boerne Champion",
       "score2": 52,
@@ -2635,11 +2635,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "CC Calallen",
+      "team1": "Corpus Christi Calallen",
       "score1": 41,
       "team2": "Medina Valley",
       "score2": 6,
-      "winner": "CC Calallen"
+      "winner": "Corpus Christi Calallen"
     },
     {
       "year": 2015,
@@ -2659,7 +2659,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "SPC",
-      "team1": "EP Burges",
+      "team1": "El Paso Burges",
       "score1": 7,
       "team2": "Canyon",
       "score2": 42,
@@ -2683,11 +2683,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "SAT",
-      "team1": "EP Eastlake",
+      "team1": "El Paso Eastlake",
       "score1": 24,
       "team2": "Lubbock Cooper",
       "score2": 21,
-      "winner": "EP Eastlake"
+      "winner": "El Paso Eastlake"
     },
     {
       "year": 2015,
@@ -2839,11 +2839,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "SAT",
-      "team1": "CC Calallen",
+      "team1": "Corpus Christi Calallen",
       "score1": 42,
       "team2": "Mission Sharyland",
       "score2": 21,
-      "winner": "CC Calallen"
+      "winner": "Corpus Christi Calallen"
     },
     {
       "year": 2015,
@@ -2863,7 +2863,7 @@
       "week": 3,
       "round": "Regional",
       "chapter": "SAT",
-      "team1": "EP Eastlake",
+      "team1": "El Paso Eastlake",
       "score1": 21,
       "team2": "Lake Dallas",
       "score2": 51,
@@ -2937,9 +2937,9 @@
       "chapter": "HOU",
       "team1": "Boerne Champion",
       "score1": 39,
-      "team2": "CC Calallen",
+      "team2": "Corpus Christi Calallen",
       "score2": 60,
-      "winner": "CC Calallen"
+      "winner": "Corpus Christi Calallen"
     },
     {
       "year": 2015,
@@ -2985,7 +2985,7 @@
       "chapter": "SAT",
       "team1": "Cedar Park",
       "score1": 35,
-      "team2": "CC Calallen",
+      "team2": "Corpus Christi Calallen",
       "score2": 21,
       "winner": "Cedar Park"
     },
@@ -6417,7 +6417,7 @@
       "chapter": "SAT",
       "team1": "Flatonia",
       "score1": 48,
-      "team2": "CC London",
+      "team2": "Corpus Christi London",
       "score2": 7,
       "winner": "Flatonia"
     },

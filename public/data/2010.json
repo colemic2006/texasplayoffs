@@ -7,11 +7,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "EP El Dorado",
+      "team1": "El Paso El Dorado",
       "score1": 36,
       "team2": "Lubbock Monterey",
       "score2": 30,
-      "winner": "EP El Dorado"
+      "winner": "El Paso El Dorado"
     },
     {
       "year": 2010,
@@ -57,7 +57,7 @@
       "chapter": "PBC",
       "team1": "San Angelo Central",
       "score1": 35,
-      "team2": "EP Franklin",
+      "team2": "El Paso Franklin",
       "score2": 21,
       "winner": "San Angelo Central"
     },
@@ -297,7 +297,7 @@
       "chapter": "SAT",
       "team1": "Converse Judson",
       "score1": 24,
-      "team2": "SA Madison",
+      "team2": "San Antonio Madison",
       "score2": 17,
       "winner": "Converse Judson"
     },
@@ -307,11 +307,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "SA Stevens",
+      "team1": "San Antonio Stevens",
       "score1": 45,
-      "team2": "SA Southwest",
+      "team2": "San Antonio Southwest",
       "score2": 21,
-      "winner": "SA Stevens"
+      "winner": "San Antonio Stevens"
     },
     {
       "year": 2010,
@@ -343,11 +343,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "SA Churchill",
+      "team1": "San Antonio Churchill",
       "score1": 13,
-      "team2": "SA Wagner",
+      "team2": "San Antonio Wagner",
       "score2": 27,
-      "winner": "SA Wagner"
+      "winner": "San Antonio Wagner"
     },
     {
       "year": 2010,
@@ -355,11 +355,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "SA East Central",
+      "team1": "San Antonio East Central",
       "score1": 6,
-      "team2": "SA Warren",
+      "team2": "San Antonio Warren",
       "score2": 20,
-      "winner": "SA Warren"
+      "winner": "San Antonio Warren"
     },
     {
       "year": 2010,
@@ -391,7 +391,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "WC",
-      "team1": "EP El Dorado",
+      "team1": "El Paso El Dorado",
       "score1": 7,
       "team2": "Midland",
       "score2": 31,
@@ -525,9 +525,9 @@
       "chapter": "SAT",
       "team1": "Converse Judson",
       "score1": 27,
-      "team2": "SA Stevens",
+      "team2": "San Antonio Stevens",
       "score2": 33,
-      "winner": "SA Stevens"
+      "winner": "San Antonio Stevens"
     },
     {
       "year": 2010,
@@ -547,11 +547,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "SAT",
-      "team1": "SA Wagner",
+      "team1": "San Antonio Wagner",
       "score1": 26,
-      "team2": "SA Warren",
+      "team2": "San Antonio Warren",
       "score2": 23,
-      "winner": "SA Wagner"
+      "winner": "San Antonio Wagner"
     },
     {
       "year": 2010,
@@ -643,11 +643,11 @@
       "week": 3,
       "round": "Regional",
       "chapter": "HOU",
-      "team1": "SA Stevens",
+      "team1": "San Antonio Stevens",
       "score1": 31,
       "team2": "Harlingen",
       "score2": 30,
-      "winner": "SA Stevens"
+      "winner": "San Antonio Stevens"
     },
     {
       "year": 2010,
@@ -655,11 +655,11 @@
       "week": 3,
       "round": "Regional",
       "chapter": "CCC",
-      "team1": "SA Wagner",
+      "team1": "San Antonio Wagner",
       "score1": 31,
       "team2": "Edinburg",
       "score2": 10,
-      "winner": "SA Wagner"
+      "winner": "San Antonio Wagner"
     },
     {
       "year": 2010,
@@ -703,11 +703,11 @@
       "week": 4,
       "round": "Quarterfinal",
       "chapter": "SAT",
-      "team1": "SA Stevens",
+      "team1": "San Antonio Stevens",
       "score1": 31,
-      "team2": "SA Wagner",
+      "team2": "San Antonio Wagner",
       "score2": 14,
-      "winner": "SA Stevens"
+      "winner": "San Antonio Stevens"
     },
     {
       "year": 2010,
@@ -729,7 +729,7 @@
       "chapter": "DAL",
       "team1": "Pearland",
       "score1": 51,
-      "team2": "SA Stevens",
+      "team2": "San Antonio Stevens",
       "score2": 21,
       "winner": "Pearland"
     },
@@ -751,7 +751,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "ABI",
-      "team1": "EP Montwood",
+      "team1": "El Paso Montwood",
       "score1": 10,
       "team2": "Amarillo Tascosa",
       "score2": 21,
@@ -801,9 +801,9 @@
       "chapter": "PBC",
       "team1": "Amarillo",
       "score1": 13,
-      "team2": "EP Coronado",
+      "team2": "El Paso Coronado",
       "score2": 27,
-      "winner": "EP Coronado"
+      "winner": "El Paso Coronado"
     },
     {
       "year": 2010,
@@ -1041,7 +1041,7 @@
       "chapter": "SAT",
       "team1": "Cibolo Steele",
       "score1": 33,
-      "team2": "SA Roosevelt",
+      "team2": "San Antonio Roosevelt",
       "score2": 13,
       "winner": "Cibolo Steele"
     },
@@ -1051,11 +1051,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "SA Brandies",
+      "team1": "San Antonio Brandies",
       "score1": 51,
-      "team2": "CC King",
+      "team2": "Corpus Christi King",
       "score2": 21,
-      "winner": "SA Brandies"
+      "winner": "San Antonio Brandies"
     },
     {
       "year": 2010,
@@ -1087,11 +1087,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "SA MacArthur",
+      "team1": "San Antonio MacArthur",
       "score1": 17,
       "team2": "New Braunfels",
       "score2": 10,
-      "winner": "SA MacArthur"
+      "winner": "San Antonio MacArthur"
     },
     {
       "year": 2010,
@@ -1099,11 +1099,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "CC Carroll",
+      "team1": "Corpus Christi Carroll",
       "score1": 3,
-      "team2": "SA O'Connor",
+      "team2": "San Antonio O'Connor",
       "score2": 35,
-      "winner": "SA O'Connor"
+      "winner": "San Antonio O'Connor"
     },
     {
       "year": 2010,
@@ -1159,7 +1159,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "SPC",
-      "team1": "EP Coronado",
+      "team1": "El Paso Coronado",
       "score1": 28,
       "team2": "Abilene",
       "score2": 45,
@@ -1269,7 +1269,7 @@
       "chapter": "SAT",
       "team1": "Cibolo Steele",
       "score1": 35,
-      "team2": "SA Brandies",
+      "team2": "San Antonio Brandies",
       "score2": 17,
       "winner": "Cibolo Steele"
     },
@@ -1291,11 +1291,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "SAT",
-      "team1": "SA MacArthur",
+      "team1": "San Antonio MacArthur",
       "score1": 52,
-      "team2": "SA O'Connor",
+      "team2": "San Antonio O'Connor",
       "score2": 28,
-      "winner": "SA MacArthur"
+      "winner": "San Antonio MacArthur"
     },
     {
       "year": 2010,
@@ -1387,11 +1387,11 @@
       "week": 3,
       "round": "Regional",
       "chapter": "HOU",
-      "team1": "SA MacArthur",
+      "team1": "San Antonio MacArthur",
       "score1": 56,
       "team2": "Laredo Alexander",
       "score2": 20,
-      "winner": "SA MacArthur"
+      "winner": "San Antonio MacArthur"
     },
     {
       "year": 2010,
@@ -1437,7 +1437,7 @@
       "chapter": "SAT",
       "team1": "Cibolo Steele",
       "score1": 49,
-      "team2": "SA MacArthur",
+      "team2": "San Antonio MacArthur",
       "score2": 26,
       "winner": "Cibolo Steele"
     },
@@ -1483,11 +1483,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "ELP",
-      "team1": "EP Andress",
+      "team1": "El Paso Andress",
       "score1": 35,
-      "team2": "EP Canutillo",
+      "team2": "El Paso Canutillo",
       "score2": 28,
-      "winner": "EP Andress"
+      "winner": "El Paso Andress"
     },
     {
       "year": 2010,
@@ -1509,7 +1509,7 @@
       "chapter": "FTW",
       "team1": "Birdville",
       "score1": 41,
-      "team2": "FW Western Hills",
+      "team2": "Fort Worth Western Hills",
       "score2": 3,
       "winner": "Birdville"
     },
@@ -1531,11 +1531,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "ELP",
-      "team1": "EP Del Valle",
+      "team1": "El Paso Del Valle",
       "score1": 28,
-      "team2": "EP Chapin",
+      "team2": "El Paso Chapin",
       "score2": 14,
-      "winner": "EP Del Valle"
+      "winner": "El Paso Del Valle"
     },
     {
       "year": 2010,
@@ -1555,11 +1555,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "FTW",
-      "team1": "FW Arlington Heights",
+      "team1": "Fort Worth Arlington Heights",
       "score1": 49,
-      "team2": "FW Boswell",
+      "team2": "Fort Worth Boswell",
       "score2": 52,
-      "winner": "FW Boswell"
+      "winner": "Fort Worth Boswell"
     },
     {
       "year": 2010,
@@ -1795,7 +1795,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "SA Jefferson",
+      "team1": "San Antonio Jefferson",
       "score1": 3,
       "team2": "Victoria West",
       "score2": 31,
@@ -1807,7 +1807,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "CC Ray",
+      "team1": "Corpus Christi Ray",
       "score1": 14,
       "team2": "Weslaco East",
       "score2": 20,
@@ -1845,7 +1845,7 @@
       "chapter": "SAT",
       "team1": "Victoria East",
       "score1": 62,
-      "team2": "SA Brackenridge",
+      "team2": "San Antonio Brackenridge",
       "score2": 26,
       "winner": "Victoria East"
     },
@@ -1857,7 +1857,7 @@
       "chapter": "SAT",
       "team1": "Mission Memorial",
       "score1": 30,
-      "team2": "CC Flour Bluff",
+      "team2": "Corpus Christi Flour Bluff",
       "score2": 24,
       "winner": "Mission Memorial"
     },
@@ -1867,7 +1867,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "PBC",
-      "team1": "EP Andress",
+      "team1": "El Paso Andress",
       "score1": 22,
       "team2": "Wichita Falls Rider",
       "score2": 47,
@@ -1891,7 +1891,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "SPC",
-      "team1": "EP Del Valle",
+      "team1": "El Paso Del Valle",
       "score1": 7,
       "team2": "Denton Ryan",
       "score2": 27,
@@ -1903,7 +1903,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "CTX",
-      "team1": "FW Boswell",
+      "team1": "Fort Worth Boswell",
       "score1": 17,
       "team2": "Waco Midway",
       "score2": 50,
@@ -2239,11 +2239,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "ELP",
-      "team1": "EP Irvin",
+      "team1": "El Paso Irvin",
       "score1": 20,
-      "team2": "EP Riverside",
+      "team2": "El Paso Riverside",
       "score2": 36,
-      "winner": "EP Riverside"
+      "winner": "El Paso Riverside"
     },
     {
       "year": 2010,
@@ -2265,7 +2265,7 @@
       "chapter": "FTW",
       "team1": "Aledo",
       "score1": 56,
-      "team2": "FW Wyatt",
+      "team2": "Fort Worth Wyatt",
       "score2": 7,
       "winner": "Aledo"
     },
@@ -2289,7 +2289,7 @@
       "chapter": "ELP",
       "team1": "Clint Horizon",
       "score1": 42,
-      "team2": "EP Bowie",
+      "team2": "El Paso Bowie",
       "score2": 17,
       "winner": "Clint Horizon"
     },
@@ -2311,11 +2311,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "FTW",
-      "team1": "FW Southwest",
+      "team1": "Fort Worth Southwest",
       "score1": 38,
       "team2": "Springtown",
       "score2": 37,
-      "winner": "FW Southwest"
+      "winner": "Fort Worth Southwest"
     },
     {
       "year": 2010,
@@ -2539,11 +2539,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "SA Alamo Heights",
+      "team1": "San Antonio Alamo Heights",
       "score1": 23,
       "team2": "Medina Valley",
       "score2": 15,
-      "winner": "SA Alamo Heights"
+      "winner": "San Antonio Alamo Heights"
     },
     {
       "year": 2010,
@@ -2551,7 +2551,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "AUS",
-      "team1": "SA Edison",
+      "team1": "San Antonio Edison",
       "score1": 13,
       "team2": "Gregory-Portland",
       "score2": 52,
@@ -2563,11 +2563,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "CC Calallen",
+      "team1": "Corpus Christi Calallen",
       "score1": 54,
       "team2": "Mercedes",
       "score2": 19,
-      "winner": "CC Calallen"
+      "winner": "Corpus Christi Calallen"
     },
     {
       "year": 2010,
@@ -2601,7 +2601,7 @@
       "chapter": "AUS",
       "team1": "Port Lavaca Calhoun",
       "score1": 63,
-      "team2": "SA Southside",
+      "team2": "San Antonio Southside",
       "score2": 15,
       "winner": "Port Lavaca Calhoun"
     },
@@ -2623,7 +2623,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "ABI",
-      "team1": "EP Riverside",
+      "team1": "El Paso Riverside",
       "score1": 7,
       "team2": "Hereford",
       "score2": 56,
@@ -2659,7 +2659,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "FTW",
-      "team1": "FW Southwest",
+      "team1": "Fort Worth Southwest",
       "score1": 39,
       "team2": "Stephenville",
       "score2": 52,
@@ -2757,9 +2757,9 @@
       "chapter": "DAL",
       "team1": "Cedar Park Vista Ridge",
       "score1": 24,
-      "team2": "SA Alamo Heights",
+      "team2": "San Antonio Alamo Heights",
       "score2": 52,
-      "winner": "SA Alamo Heights"
+      "winner": "San Antonio Alamo Heights"
     },
     {
       "year": 2010,
@@ -2769,9 +2769,9 @@
       "chapter": "CCC",
       "team1": "Gregory-Portland",
       "score1": 14,
-      "team2": "CC Calallen",
+      "team2": "Corpus Christi Calallen",
       "score2": 42,
-      "winner": "CC Calallen"
+      "winner": "Corpus Christi Calallen"
     },
     {
       "year": 2010,
@@ -2875,11 +2875,11 @@
       "week": 3,
       "round": "Regional",
       "chapter": "HOU",
-      "team1": "SA Alamo Heights",
+      "team1": "San Antonio Alamo Heights",
       "score1": 20,
-      "team2": "CC Calallen",
+      "team2": "Corpus Christi Calallen",
       "score2": 27,
-      "winner": "CC Calallen"
+      "winner": "Corpus Christi Calallen"
     },
     {
       "year": 2010,
@@ -2935,11 +2935,11 @@
       "week": 4,
       "round": "Quarterfinal",
       "chapter": "HOU",
-      "team1": "CC Calallen",
+      "team1": "Corpus Christi Calallen",
       "score1": 51,
       "team2": "Boerne Champion",
       "score2": 31,
-      "winner": "CC Calallen"
+      "winner": "Corpus Christi Calallen"
     },
     {
       "year": 2010,
@@ -2961,7 +2961,7 @@
       "chapter": "AUS",
       "team1": "LaMarque",
       "score1": 42,
-      "team2": "CC Calallen",
+      "team2": "Corpus Christi Calallen",
       "score2": 18,
       "winner": "LaMarque"
     },
@@ -3163,11 +3163,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "SAT",
-      "team1": "CC Miller",
+      "team1": "Corpus Christi Miller",
       "score1": 48,
       "team2": "Zapata",
       "score2": 33,
-      "winner": "CC Miller"
+      "winner": "Corpus Christi Miller"
     },
     {
       "year": 2010,
@@ -3249,7 +3249,7 @@
       "chapter": "CSC",
       "team1": "West Columbia",
       "score1": 56,
-      "team2": "CC Miller",
+      "team2": "Corpus Christi Miller",
       "score2": 14,
       "winner": "West Columbia"
     },
@@ -3645,9 +3645,9 @@
       "chapter": "SAT",
       "team1": "Hondo",
       "score1": 13,
-      "team2": "SA Sam Houston",
+      "team2": "San Antonio Sam Houston",
       "score2": 18,
-      "winner": "SA Sam Houston"
+      "winner": "San Antonio Sam Houston"
     },
     {
       "year": 2010,
