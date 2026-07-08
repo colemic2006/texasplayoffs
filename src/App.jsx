@@ -10,7 +10,7 @@ import ChapterRegulars from './components/ChapterRegulars'
 import ChampionshipsView from './components/ChampionshipsView'
 import ContactView from './components/ContactView'
 
-const YEARS = [2026, 2025, 2024, 2023, 2022, 2018, 2015, 2013, 2010]
+const YEARS = [2026, 2025, 2024, 2023, 2022, 2021, 2018, 2015, 2013, 2010]
 
 export default function App() {
   const { authed, unlock } = useAuth()

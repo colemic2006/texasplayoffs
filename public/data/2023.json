@@ -956,9 +956,9 @@
       "chapter": "FTW",
       "team1": "Nocona",
       "score1": 41,
-      "team2": "Deleon",
+      "team2": "De Leon",
       "score2": 70,
-      "winner": "Deleon"
+      "winner": "De Leon"
     },
     {
       "year": 2023,
@@ -1038,7 +1038,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "FTW",
-      "team1": "Deleon",
+      "team1": "De Leon",
       "score1": 19,
       "team2": "Italy",
       "score2": 55,
@@ -1914,11 +1914,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "TYL",
-      "team1": "Tenaha",
+      "team1": "Teneha",
       "score1": 52,
       "team2": "Hull-Daisetta",
       "score2": 12,
-      "winner": "Tenaha"
+      "winner": "Teneha"
     },
     {
       "year": 2023,
@@ -1986,11 +1986,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "TYL",
-      "team1": "Tenaha",
+      "team1": "Teneha",
       "score1": 22,
       "team2": "Dawson",
       "score2": 14,
-      "winner": "Tenaha"
+      "winner": "Teneha"
     },
     {
       "year": 2023,
@@ -2022,7 +2022,7 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "TYL",
-      "team1": "Tenaha",
+      "team1": "Teneha",
       "score1": 14,
       "team2": "Lovelady",
       "score2": 50,
@@ -2660,7 +2660,7 @@
       "chapter": "TYL",
       "team1": "Franklin",
       "score1": 50,
-      "team2": "Halletsville",
+      "team2": "Hallettsville",
       "score2": 22,
       "winner": "Franklin"
     },
@@ -3966,7 +3966,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "WAC",
-      "team1": "Sulpher Springs",
+      "team1": "Sulphur Springs",
       "score1": 35,
       "team2": "Dallas Carter",
       "score2": 41,
@@ -4028,7 +4028,7 @@
       "chapter": "DAL",
       "team1": "Anna",
       "score1": 17,
-      "team2": "Wilmer-Hutchins",
+      "team2": "Dallas Wilmer-Hutchins",
       "score2": 0,
       "winner": "Anna"
     },
@@ -6272,7 +6272,7 @@
       "chapter": "DAL",
       "team1": "Lovejoy",
       "score1": 34,
-      "team2": "Longview Pinetree",
+      "team2": "Longview Pine Tree",
       "score2": 6,
       "winner": "Lovejoy"
     },
@@ -6594,11 +6594,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "RGV",
-      "team1": "Mission Veterans Memorial High School",
+      "team1": "Mission Veterans Memorial",
       "score1": 43,
       "team2": "Pharr Valley View",
       "score2": 6,
-      "winner": "Mission Veterans Memorial High School"
+      "winner": "Mission Veterans Memorial"
     },
     {
       "year": 2023,
@@ -6680,7 +6680,7 @@
       "chapter": "TYL",
       "team1": "Comal Pieper",
       "score1": 38,
-      "team2": "Mission Veterans Memorial High School",
+      "team2": "Mission Veterans Memorial",
       "score2": 6,
       "winner": "Comal Pieper"
     },
@@ -7158,11 +7158,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Cypress Cy-Fair",
+      "team1": "Cy-Fair",
       "score1": 55,
       "team2": "Houston Bellaire",
       "score2": 10,
-      "winner": "Cypress Cy-Fair"
+      "winner": "Cy-Fair"
     },
     {
       "year": 2023,
@@ -7244,9 +7244,9 @@
       "chapter": "HOU",
       "team1": "Dickinson",
       "score1": 14,
-      "team2": "Pearland High",
+      "team2": "Pearland",
       "score2": 16,
-      "winner": "Pearland High"
+      "winner": "Pearland"
     },
     {
       "year": 2023,
@@ -7254,11 +7254,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Cypress Cy-Fair",
+      "team1": "Cy-Fair",
       "score1": 28,
       "team2": "Katy High",
       "score2": 21,
-      "winner": "Cypress Cy-Fair"
+      "winner": "Cy-Fair"
     },
     {
       "year": 2023,
@@ -7292,7 +7292,7 @@
       "chapter": "HOU",
       "team1": "Humble Atascocita",
       "score1": 61,
-      "team2": "Pearland High",
+      "team2": "Pearland",
       "score2": 35,
       "winner": "Humble Atascocita"
     },
@@ -7302,7 +7302,7 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "HOU",
-      "team1": "Cypress Cy-Fair",
+      "team1": "Cy-Fair",
       "score1": 9,
       "team2": "Galena Park North Shore",
       "score2": 45,

@@ -1941,9 +1941,9 @@
       "chapter": "ETX",
       "team1": "Deweyville",
       "score1": 16,
-      "team2": "Mt. Enterprise",
+      "team2": "Mount Enterprise",
       "score2": 40,
-      "winner": "Mt. Enterprise"
+      "winner": "Mount Enterprise"
     },
     {
       "year": 2024,
@@ -2001,9 +2001,9 @@
       "chapter": "DAL",
       "team1": "Wortham",
       "score1": 28,
-      "team2": "Mt. Enterprise",
+      "team2": "Mount Enterprise",
       "score2": 32,
-      "winner": "Mt. Enterprise"
+      "winner": "Mount Enterprise"
     },
     {
       "year": 2024,
@@ -2023,7 +2023,7 @@
       "week": 3,
       "round": "Regional",
       "chapter": "FTW",
-      "team1": "Mt. Enterprise",
+      "team1": "Mount Enterprise",
       "score1": 20,
       "team2": "Bremond",
       "score2": 26,
@@ -2671,7 +2671,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "TYL",
-      "team1": "Halletsville",
+      "team1": "Hallettsville",
       "score1": 6,
       "team2": "Franklin",
       "score2": 48,
@@ -2707,7 +2707,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "CSC",
-      "team1": "Coldspring",
+      "team1": "Coldspring-Oakhurst",
       "score1": 14,
       "team2": "Teague",
       "score2": 36,
@@ -4005,7 +4005,7 @@
       "chapter": "DAL",
       "team1": "Celina",
       "score1": 75,
-      "team2": "Wilmer-Hutchins",
+      "team2": "Dallas Wilmer-Hutchins",
       "score2": 0,
       "winner": "Celina"
     },
@@ -5913,7 +5913,7 @@
       "chapter": "HOU",
       "team1": "Comal Smithson Valley",
       "score1": 49,
-      "team2": "South San Antonio High School",
+      "team2": "South San Antonio",
       "score2": 7,
       "winner": "Comal Smithson Valley"
     },
@@ -6657,7 +6657,7 @@
       "chapter": "RGV",
       "team1": "Edcouch-Elsa",
       "score1": 15,
-      "team2": "Mission Veterans Memorial High School",
+      "team2": "Mission Veterans Memorial",
       "score2": 7,
       "winner": "Edcouch-Elsa"
     },
@@ -7017,9 +7017,9 @@
       "chapter": "HOU",
       "team1": "Houston Dobie",
       "score1": 16,
-      "team2": "FB Ridge Point",
+      "team2": "Fort Bend Ridge Point",
       "score2": 49,
-      "winner": "FB Ridge Point"
+      "winner": "Fort Bend Ridge Point"
     },
     {
       "year": 2024,
@@ -7053,9 +7053,9 @@
       "chapter": "HOU",
       "team1": "Katy Paetow",
       "score1": 47,
-      "team2": "Fulshear",
+      "team2": "Lamar Fulshear",
       "score2": 66,
-      "winner": "Fulshear"
+      "winner": "Lamar Fulshear"
     },
     {
       "year": 2024,
@@ -7291,7 +7291,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "FB Ridge Point",
+      "team1": "Fort Bend Ridge Point",
       "score1": 28,
       "team2": "Galena Park North Shore",
       "score2": 44,
@@ -7305,9 +7305,9 @@
       "chapter": "HOU",
       "team1": "Houston Lamar",
       "score1": 48,
-      "team2": "Fulshear",
+      "team2": "Lamar Fulshear",
       "score2": 54,
-      "winner": "Fulshear"
+      "winner": "Lamar Fulshear"
     },
     {
       "year": 2024,
@@ -7435,7 +7435,7 @@
       "week": 3,
       "round": "Regional",
       "chapter": "HOU",
-      "team1": "Fulshear",
+      "team1": "Lamar Fulshear",
       "score1": 42,
       "team2": "Atascocita",
       "score2": 47,
@@ -7845,9 +7845,9 @@
       "chapter": "AUS",
       "team1": "Austin High",
       "score1": 14,
-      "team2": "Leander Vandegrift",
+      "team2": "Austin Vandegrift",
       "score2": 56,
-      "winner": "Leander Vandegrift"
+      "winner": "Austin Vandegrift"
     },
     {
       "year": 2024,
@@ -8085,9 +8085,9 @@
       "chapter": "HOU",
       "team1": "San Antonio Sotomayor",
       "score1": 0,
-      "team2": "Leander Vandegrift",
+      "team2": "Austin Vandegrift",
       "score2": 51,
-      "winner": "Leander Vandegrift"
+      "winner": "Austin Vandegrift"
     },
     {
       "year": 2024,
@@ -8205,9 +8205,9 @@
       "chapter": "HOU",
       "team1": "Cibolo Steele",
       "score1": 35,
-      "team2": "Leander Vandegrift",
+      "team2": "Austin Vandegrift",
       "score2": 49,
-      "winner": "Leander Vandegrift"
+      "winner": "Austin Vandegrift"
     },
     {
       "year": 2024,
@@ -8265,9 +8265,9 @@
       "chapter": "AUS",
       "team1": "San Antonio Harlan",
       "score1": 7,
-      "team2": "Leander Vandegrift",
+      "team2": "Austin Vandegrift",
       "score2": 47,
-      "winner": "Leander Vandegrift"
+      "winner": "Austin Vandegrift"
     },
     {
       "year": 2024,
@@ -8289,9 +8289,9 @@
       "chapter": "FTW",
       "team1": "Houston Summer Creek",
       "score1": 31,
-      "team2": "Leander Vandegrift",
+      "team2": "Austin Vandegrift",
       "score2": 34,
-      "winner": "Leander Vandegrift"
+      "winner": "Austin Vandegrift"
     },
     {
       "year": 2024,
@@ -8301,9 +8301,9 @@
       "chapter": "SAT",
       "team1": "Southlake Carroll",
       "score1": 17,
-      "team2": "Leander Vandegrift",
+      "team2": "Austin Vandegrift",
       "score2": 24,
-      "winner": "Leander Vandegrift"
+      "winner": "Austin Vandegrift"
     }
   ],
   "generated": "2025-07-01",

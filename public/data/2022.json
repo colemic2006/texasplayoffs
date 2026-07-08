@@ -1387,7 +1387,7 @@
       "week": 1,
       "round": "Area",
       "chapter": "FTW",
-      "team1": "Fannidel",
+      "team1": "Fannindel",
       "score1": 32,
       "team2": "Morgan",
       "score2": 70,
@@ -1725,7 +1725,7 @@
       "chapter": "WAC",
       "team1": "Axtell",
       "score1": 28,
-      "team2": "Rosebudd-Lott",
+      "team2": "Rosebud-Lott",
       "score2": 27,
       "winner": "Axtell"
     },
@@ -2541,7 +2541,7 @@
       "chapter": "HOU",
       "team1": "Deweyville",
       "score1": 28,
-      "team2": "Tenaha",
+      "team2": "Teneha",
       "score2": 14,
       "winner": "Deweyville"
     },
@@ -3847,7 +3847,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SPC",
-      "team1": "TLCA San Angelo",
+      "team1": "San Angelo TLCA",
       "score1": 20,
       "team2": "Crane",
       "score2": 55,
@@ -4857,9 +4857,9 @@
       "chapter": "SAT",
       "team1": "Royal",
       "score1": 10,
-      "team2": "Hamshire-Fannet",
+      "team2": "Hamshire-Fannett",
       "score2": 40,
-      "winner": "Hamshire-Fannet"
+      "winner": "Hamshire-Fannett"
     },
     {
       "year": 2022,
@@ -5109,9 +5109,9 @@
       "chapter": "HOU",
       "team1": "Waco Connally",
       "score1": 30,
-      "team2": "Hamshire-Fannet",
+      "team2": "Hamshire-Fannett",
       "score2": 33,
-      "winner": "Hamshire-Fannet"
+      "winner": "Hamshire-Fannett"
     },
     {
       "year": 2022,
@@ -5239,7 +5239,7 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "FTW",
-      "team1": "Hamshire-Fannet",
+      "team1": "Hamshire-Fannett",
       "score1": 14,
       "team2": "Cuero",
       "score2": 39,
@@ -5491,7 +5491,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "WAC",
-      "team1": "Sulpher Springs",
+      "team1": "Sulphur Springs",
       "score1": 33,
       "team2": "Dallas Carter",
       "score2": 37,
@@ -5731,7 +5731,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "Fredricksburg",
+      "team1": "Fredericksburg",
       "score1": 6,
       "team2": "San Antonio Davenport",
       "score2": 36,
@@ -6381,9 +6381,9 @@
       "chapter": "SAT",
       "team1": "Elgin",
       "score1": 0,
-      "team2": "LBJ Austin",
+      "team2": "Austin LBJ",
       "score2": 69,
-      "winner": "LBJ Austin"
+      "winner": "Austin LBJ"
     },
     {
       "year": 2022,
@@ -6439,7 +6439,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "RGV",
-      "team1": "Mission Veterans Memorial High School",
+      "team1": "Mission Veterans Memorial",
       "score1": 6,
       "team2": "Gregory-Portland",
       "score2": 64,
@@ -6631,7 +6631,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "SAT",
-      "team1": "LBJ Austin",
+      "team1": "Austin LBJ",
       "score1": 19,
       "team2": "Port Neches-Groves",
       "score2": 24,
@@ -7675,11 +7675,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "DAL",
-      "team1": "Wolfforth Frenship",
+      "team1": "Frenship",
       "score1": 35,
       "team2": "El Paso Eastlake",
       "score2": 17,
-      "winner": "Wolfforth Frenship"
+      "winner": "Frenship"
     },
     {
       "year": 2022,
@@ -7747,7 +7747,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "WAC",
-      "team1": "Wolfforth Frenship",
+      "team1": "Frenship",
       "score1": 14,
       "team2": "Southlake Carroll",
       "score2": 69,
@@ -7891,11 +7891,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Houston Cypress Falls",
+      "team1": "Cypress Falls",
       "score1": 45,
       "team2": "Tomball Memorial",
       "score2": 35,
-      "winner": "Houston Cypress Falls"
+      "winner": "Cypress Falls"
     },
     {
       "year": 2022,
@@ -7941,7 +7941,7 @@
       "chapter": "HOU",
       "team1": "Spring Dekaney",
       "score1": 32,
-      "team2": "Houston Cypress Falls",
+      "team2": "Cypress Falls",
       "score2": 17,
       "winner": "Spring Dekaney"
     },
@@ -8625,9 +8625,9 @@
       "chapter": "AUS",
       "team1": "Temple",
       "score1": 21,
-      "team2": "Waxahatchie",
+      "team2": "Waxahachie",
       "score2": 30,
-      "winner": "Waxahatchie"
+      "winner": "Waxahachie"
     },
     {
       "year": 2022,
@@ -8685,9 +8685,9 @@
       "chapter": "DAL",
       "team1": "Rockwall",
       "score1": 25,
-      "team2": "Waxahatchie",
+      "team2": "Waxahachie",
       "score2": 31,
-      "winner": "Waxahatchie"
+      "winner": "Waxahachie"
     },
     {
       "year": 2022,
@@ -8719,7 +8719,7 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "HOU",
-      "team1": "Waxahatchie",
+      "team1": "Waxahachie",
       "score1": 7,
       "team2": "Spring Westfield",
       "score2": 10,
@@ -8743,11 +8743,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Cypress Cy-Fair",
+      "team1": "Cy-Fair",
       "score1": 49,
       "team2": "Houston Westside",
       "score2": 0,
-      "winner": "Cypress Cy-Fair"
+      "winner": "Cy-Fair"
     },
     {
       "year": 2022,
@@ -8841,7 +8841,7 @@
       "chapter": "HOU",
       "team1": "Katy Cinco Ranch",
       "score1": 13,
-      "team2": "Cypress Cy-Fair",
+      "team2": "Cy-Fair",
       "score2": 10,
       "winner": "Katy Cinco Ranch"
     },

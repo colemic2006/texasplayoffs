@@ -199,11 +199,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Houston Cypress-Fairbanks",
+      "team1": "Cy-Fair",
       "score1": 24,
       "team2": "Alief Elsik",
       "score2": 14,
-      "winner": "Houston Cypress-Fairbanks"
+      "winner": "Cy-Fair"
     },
     {
       "year": 2010,
@@ -249,9 +249,9 @@
       "chapter": "HOU",
       "team1": "Alief Hastings",
       "score1": 28,
-      "team2": "Houston Cypress-Creek",
+      "team2": "Cypress Creek",
       "score2": 49,
-      "winner": "Houston Cypress-Creek"
+      "winner": "Cypress Creek"
     },
     {
       "year": 2010,
@@ -475,7 +475,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Houston Cypress-Fairbanks",
+      "team1": "Cy-Fair",
       "score1": 20,
       "team2": "Katy",
       "score2": 55,
@@ -499,11 +499,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Houston Cypress-Creek",
+      "team1": "Cypress Creek",
       "score1": 54,
       "team2": "Katy Cinco Ranch",
       "score2": 28,
-      "winner": "Houston Cypress-Creek"
+      "winner": "Cypress Creek"
     },
     {
       "year": 2010,
@@ -631,7 +631,7 @@
       "week": 3,
       "round": "Regional",
       "chapter": "HOU",
-      "team1": "Houston Cypress-Creek",
+      "team1": "Cypress Creek",
       "score1": 7,
       "team2": "Pearland",
       "score2": 54,
@@ -883,11 +883,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "AUS",
-      "team1": "Ausitn Anderson",
+      "team1": "Austin Anderson",
       "score1": 17,
       "team2": "Round Rock Westwood",
       "score2": 14,
-      "winner": "Ausitn Anderson"
+      "winner": "Austin Anderson"
     },
     {
       "year": 2010,
@@ -909,9 +909,9 @@
       "chapter": "SPC",
       "team1": "Copperas Cove",
       "score1": 14,
-      "team2": "Mequite Horn",
+      "team2": "Mesquite Horn",
       "score2": 48,
-      "winner": "Mequite Horn"
+      "winner": "Mesquite Horn"
     },
     {
       "year": 2010,
@@ -943,11 +943,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Houston Cypress-Woods",
+      "team1": "Cypress Woods",
       "score1": 45,
       "team2": "Fort Bend Eisenhower",
       "score2": 35,
-      "winner": "Houston Cypress-Woods"
+      "winner": "Cypress Woods"
     },
     {
       "year": 2010,
@@ -993,7 +993,7 @@
       "chapter": "HOU",
       "team1": "Houston Alief Taylor",
       "score1": 37,
-      "team2": "Houston Cypress-Ridge",
+      "team2": "Cypress Ridge",
       "score2": 36,
       "winner": "Houston Alief Taylor"
     },
@@ -1125,7 +1125,7 @@
       "chapter": "RGV",
       "team1": "Weslaco",
       "score1": 35,
-      "team2": "PSJA",
+      "team2": "Pharr-San Juan-Alamo",
       "score2": 22,
       "winner": "Weslaco"
     },
@@ -1197,7 +1197,7 @@
       "chapter": "SAT",
       "team1": "Tomball",
       "score1": 40,
-      "team2": "Ausitn Anderson",
+      "team2": "Austin Anderson",
       "score2": 20,
       "winner": "Tomball"
     },
@@ -1209,9 +1209,9 @@
       "chapter": "DAL",
       "team1": "Rowlett",
       "score1": 22,
-      "team2": "Mequite Horn",
+      "team2": "Mesquite Horn",
       "score2": 44,
-      "winner": "Mequite Horn"
+      "winner": "Mesquite Horn"
     },
     {
       "year": 2010,
@@ -1231,11 +1231,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Houston Cypress-Woods",
+      "team1": "Cypress Woods",
       "score1": 67,
       "team2": "Katy Taylor",
       "score2": 7,
-      "winner": "Houston Cypress-Woods"
+      "winner": "Cypress Woods"
     },
     {
       "year": 2010,
@@ -1339,11 +1339,11 @@
       "week": 3,
       "round": "Regional",
       "chapter": "FTW",
-      "team1": "Mequite Horn",
+      "team1": "Mesquite Horn",
       "score1": 43,
       "team2": "Leander",
       "score2": 37,
-      "winner": "Mequite Horn"
+      "winner": "Mesquite Horn"
     },
     {
       "year": 2010,
@@ -1351,11 +1351,11 @@
       "week": 3,
       "round": "Regional",
       "chapter": "HOU",
-      "team1": "Houston Cypress-Woods",
+      "team1": "Cypress Woods",
       "score1": 52,
       "team2": "League City Clear Creek",
       "score2": 34,
-      "winner": "Houston Cypress-Woods"
+      "winner": "Cypress Woods"
     },
     {
       "year": 2010,
@@ -1413,7 +1413,7 @@
       "chapter": "HOU",
       "team1": "Longview",
       "score1": 28,
-      "team2": "Mequite Horn",
+      "team2": "Mesquite Horn",
       "score2": 14,
       "winner": "Longview"
     },
@@ -1423,7 +1423,7 @@
       "week": 4,
       "round": "Quarterfinal",
       "chapter": "HOU",
-      "team1": "Houston Cypress-Woods",
+      "team1": "Cypress Woods",
       "score1": 45,
       "team2": "Houston Memorial",
       "score2": 48,
@@ -2359,11 +2359,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "ETX",
-      "team1": "Sulpher Springs",
+      "team1": "Sulphur Springs",
       "score1": 56,
       "team2": "Jacksonville",
       "score2": 52,
-      "winner": "Sulpher Springs"
+      "winner": "Sulphur Springs"
     },
     {
       "year": 2010,
@@ -2611,11 +2611,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Edcoch-Elsa",
+      "team1": "Edcouch-Elsa",
       "score1": 17,
       "team2": "Alice",
       "score2": 15,
-      "winner": "Edcoch-Elsa"
+      "winner": "Edcouch-Elsa"
     },
     {
       "year": 2010,
@@ -2683,7 +2683,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "CSC",
-      "team1": "Sulpher Springs",
+      "team1": "Sulphur Springs",
       "score1": 44,
       "team2": "Bastrop",
       "score2": 58,
@@ -2793,7 +2793,7 @@
       "chapter": "HOU",
       "team1": "Port Lavaca Calhoun",
       "score1": 42,
-      "team2": "Edcoch-Elsa",
+      "team2": "Edcouch-Elsa",
       "score2": 12,
       "winner": "Port Lavaca Calhoun"
     },
@@ -3475,7 +3475,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Texarkana Liberty-Eylau",
+      "team1": "Liberty-Eylau",
       "score1": 33,
       "team2": "Gilmer",
       "score2": 43,
@@ -3609,9 +3609,9 @@
       "chapter": "HOU",
       "team1": "Bridge City",
       "score1": 13,
-      "team2": "Coldspring",
+      "team2": "Coldspring-Oakhurst",
       "score2": 43,
-      "winner": "Coldspring"
+      "winner": "Coldspring-Oakhurst"
     },
     {
       "year": 2010,
@@ -3859,11 +3859,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Coldspring",
+      "team1": "Coldspring-Oakhurst",
       "score1": 53,
       "team2": "Columbus",
       "score2": 3,
-      "winner": "Coldspring"
+      "winner": "Coldspring-Oakhurst"
     },
     {
       "year": 2010,
@@ -3969,9 +3969,9 @@
       "chapter": "SFA",
       "team1": "Kirbyville",
       "score1": 20,
-      "team2": "Coldspring",
+      "team2": "Coldspring-Oakhurst",
       "score2": 27,
-      "winner": "Coldspring"
+      "winner": "Coldspring-Oakhurst"
     },
     {
       "year": 2010,
@@ -4029,9 +4029,9 @@
       "chapter": "HOU",
       "team1": "Athens",
       "score1": 14,
-      "team2": "Coldspring",
+      "team2": "Coldspring-Oakhurst",
       "score2": 44,
-      "winner": "Coldspring"
+      "winner": "Coldspring-Oakhurst"
     },
     {
       "year": 2010,
@@ -4063,11 +4063,11 @@
       "week": 5,
       "round": "Semifinal",
       "chapter": "WC",
-      "team1": "Coldspring",
+      "team1": "Coldspring-Oakhurst",
       "score1": 26,
       "team2": "Wimberley",
       "score2": 14,
-      "winner": "Coldspring"
+      "winner": "Coldspring-Oakhurst"
     },
     {
       "year": 2010,
@@ -4077,7 +4077,7 @@
       "chapter": "FTW",
       "team1": "Carthage",
       "score1": 47,
-      "team2": "Coldspring",
+      "team2": "Coldspring-Oakhurst",
       "score2": 22,
       "winner": "Carthage"
     },
@@ -5131,7 +5131,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "AMI",
-      "team1": "Stinnett West Texas",
+      "team1": "West Texas Stinnett",
       "score1": 27,
       "team2": "Quanah",
       "score2": 37,
@@ -5203,7 +5203,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "CTX",
-      "team1": "DeLeon",
+      "team1": "De Leon",
       "score1": null,
       "team2": "Cayuga",
       "score2": 13,
@@ -5289,7 +5289,7 @@
       "chapter": "SAT",
       "team1": "Mason",
       "score1": 48,
-      "team2": "Bracketville",
+      "team2": "Brackettville",
       "score2": 13,
       "winner": "Mason"
     },
@@ -5985,9 +5985,9 @@
       "chapter": "TYL",
       "team1": "Dawson",
       "score1": 41,
-      "team2": "Tenaha",
+      "team2": "Teneha",
       "score2": 68,
-      "winner": "Tenaha"
+      "winner": "Teneha"
     },
     {
       "year": 2010,
@@ -6115,7 +6115,7 @@
       "week": 3,
       "round": "Regional",
       "chapter": "FTW",
-      "team1": "Tenaha",
+      "team1": "Teneha",
       "score1": 12,
       "team2": "Bremond",
       "score2": 33,
@@ -6345,7 +6345,7 @@
       "chapter": "ABI",
       "team1": "Knox City",
       "score1": 101,
-      "team2": "Blanket (10-)",
+      "team2": "Blanket",
       "score2": 56,
       "winner": "Knox City"
     },

@@ -43,11 +43,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "DAL",
-      "team1": "De Soto",
+      "team1": "DeSoto",
       "score1": 55,
       "team2": "Dallas Skyline",
       "score2": 53,
-      "winner": "De Soto"
+      "winner": "DeSoto"
     },
     {
       "year": 2018,
@@ -249,9 +249,9 @@
       "chapter": "HOU",
       "team1": "Houston Lamar",
       "score1": 21,
-      "team2": "Cypress Fairbanks",
+      "team2": "Cy-Fair",
       "score2": 42,
-      "winner": "Cypress Fairbanks"
+      "winner": "Cy-Fair"
     },
     {
       "year": 2018,
@@ -405,7 +405,7 @@
       "chapter": "ETX",
       "team1": "Southlake Carroll",
       "score1": 41,
-      "team2": "De Soto",
+      "team2": "DeSoto",
       "score2": 20,
       "winner": "Southlake Carroll"
     },
@@ -511,11 +511,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Cypress Fairbanks",
+      "team1": "Cy-Fair",
       "score1": 31,
       "team2": "Fort Bend Ridge Point",
       "score2": 0,
-      "winner": "Cypress Fairbanks"
+      "winner": "Cy-Fair"
     },
     {
       "year": 2018,
@@ -643,11 +643,11 @@
       "week": 3,
       "round": "Regional",
       "chapter": "HOU",
-      "team1": "Cypress Fairbanks",
+      "team1": "Cy-Fair",
       "score1": 41,
       "team2": "Humble Atascocita",
       "score2": 38,
-      "winner": "Cypress Fairbanks"
+      "winner": "Cy-Fair"
     },
     {
       "year": 2018,
@@ -705,7 +705,7 @@
       "chapter": "HOU",
       "team1": "Galena Park North Shore",
       "score1": 38,
-      "team2": "Cypress Fairbanks",
+      "team2": "Cy-Fair",
       "score2": 21,
       "winner": "Galena Park North Shore"
     },
@@ -765,9 +765,9 @@
       "chapter": "SAT",
       "team1": "El Paso Americas",
       "score1": 12,
-      "team2": "Midland Lee",
+      "team2": "Midland Legacy",
       "score2": 70,
-      "winner": "Midland Lee"
+      "winner": "Midland Legacy"
     },
     {
       "year": 2018,
@@ -921,9 +921,9 @@
       "chapter": "SAT",
       "team1": "Temple",
       "score1": 38,
-      "team2": "Mequite Horn",
+      "team2": "Mesquite Horn",
       "score2": 45,
-      "winner": "Mequite Horn"
+      "winner": "Mesquite Horn"
     },
     {
       "year": 2018,
@@ -931,11 +931,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "CSC",
-      "team1": "Cypress Ranch",
+      "team1": "Cy Ranch",
       "score1": 24,
       "team2": "Pflugerville Hendrickson",
       "score2": 10,
-      "winner": "Cypress Ranch"
+      "winner": "Cy Ranch"
     },
     {
       "year": 2018,
@@ -955,11 +955,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Houston Cypress Falls",
+      "team1": "Cypress Falls",
       "score1": 40,
       "team2": "Houston Westside",
       "score2": 14,
-      "winner": "Houston Cypress Falls"
+      "winner": "Cypress Falls"
     },
     {
       "year": 2018,
@@ -1123,7 +1123,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "AUS",
-      "team1": "Phar-San Juan-Alamo",
+      "team1": "Pharr-San Juan-Alamo",
       "score1": 28,
       "team2": "Eagle Pass",
       "score2": 34,
@@ -1147,7 +1147,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "SAT",
-      "team1": "Midland Lee",
+      "team1": "Midland Legacy",
       "score1": 27,
       "team2": "Haltom City",
       "score2": 42,
@@ -1221,9 +1221,9 @@
       "chapter": "DAL",
       "team1": "Wylie",
       "score1": 31,
-      "team2": "Mequite Horn",
+      "team2": "Mesquite Horn",
       "score2": 49,
-      "winner": "Mequite Horn"
+      "winner": "Mesquite Horn"
     },
     {
       "year": 2018,
@@ -1231,7 +1231,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Cypress Ranch",
+      "team1": "Cy Ranch",
       "score1": 17,
       "team2": "Spring Westfield",
       "score2": 24,
@@ -1243,7 +1243,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Houston Cypress Falls",
+      "team1": "Cypress Falls",
       "score1": 21,
       "team2": "Katy Tompkins",
       "score2": 31,
@@ -1375,7 +1375,7 @@
       "week": 3,
       "round": "Regional",
       "chapter": "SAT",
-      "team1": "Mequite Horn",
+      "team1": "Mesquite Horn",
       "score1": 16,
       "team2": "Spring Westfield",
       "score2": 35,
@@ -1531,11 +1531,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "FTW",
-      "team1": "N Richland Hills Birdville",
+      "team1": "Birdville",
       "score1": 29,
       "team2": "Fort Worth Boswell",
       "score2": 27,
-      "winner": "N Richland Hills Birdville"
+      "winner": "Birdville"
     },
     {
       "year": 2018,
@@ -1651,7 +1651,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "WAC",
-      "team1": "Mequite Poteet",
+      "team1": "Mesquite Poteet",
       "score1": 38,
       "team2": "College Station",
       "score2": 41,
@@ -1879,11 +1879,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "Mission Veterans Memorial High School",
+      "team1": "Mission Veterans Memorial",
       "score1": 69,
       "team2": "Victoria East",
       "score2": 21,
-      "winner": "Mission Veterans Memorial High School"
+      "winner": "Mission Veterans Memorial"
     },
     {
       "year": 2018,
@@ -1905,9 +1905,9 @@
       "chapter": "AUS",
       "team1": "Abilene Cooper",
       "score1": 14,
-      "team2": "N Richland Hills Birdville",
+      "team2": "Birdville",
       "score2": 49,
-      "winner": "N Richland Hills Birdville"
+      "winner": "Birdville"
     },
     {
       "year": 2018,
@@ -2083,11 +2083,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Mission Veterans Memorial High School",
+      "team1": "Mission Veterans Memorial",
       "score1": 48,
       "team2": "San Antonio Veterans Memorial",
       "score2": 23,
-      "winner": "Mission Veterans Memorial High School"
+      "winner": "Mission Veterans Memorial"
     },
     {
       "year": 2018,
@@ -2095,11 +2095,11 @@
       "week": 3,
       "round": "Regional",
       "chapter": "FTW",
-      "team1": "N Richland Hills Birdville",
+      "team1": "Birdville",
       "score1": 28,
       "team2": "Grapevine",
       "score2": 21,
-      "winner": "N Richland Hills Birdville"
+      "winner": "Birdville"
     },
     {
       "year": 2018,
@@ -2181,9 +2181,9 @@
       "chapter": "SAT",
       "team1": "Corpus Christi Veterans Memorial",
       "score1": 55,
-      "team2": "Mission Veterans Memorial High School",
+      "team2": "Mission Veterans Memorial",
       "score2": 62,
-      "winner": "Mission Veterans Memorial High School"
+      "winner": "Mission Veterans Memorial"
     },
     {
       "year": 2018,
@@ -2191,7 +2191,7 @@
       "week": 4,
       "round": "Quarterfinal",
       "chapter": "AUS",
-      "team1": "N Richland Hills Birdville",
+      "team1": "Birdville",
       "score1": 0,
       "team2": "Denton Ryan",
       "score2": 28,
@@ -2229,7 +2229,7 @@
       "chapter": "AUS",
       "team1": "San Antonio Wagner",
       "score1": 54,
-      "team2": "Mission Veterans Memorial High School",
+      "team2": "Mission Veterans Memorial",
       "score2": 21,
       "winner": "San Antonio Wagner"
     },
@@ -3199,7 +3199,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "ABI",
-      "team1": "Wilmer-Hutchins",
+      "team1": "Dallas Wilmer-Hutchins",
       "score1": 34,
       "team2": "Celina",
       "score2": 35,
@@ -3223,11 +3223,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "WAC",
-      "team1": "Midlothan Heritage",
+      "team1": "Midlothian Heritage",
       "score1": 42,
       "team2": "Kilgore",
       "score2": 21,
-      "winner": "Midlothan Heritage"
+      "winner": "Midlothian Heritage"
     },
     {
       "year": 2018,
@@ -3259,11 +3259,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Huffman Hargrave",
+      "team1": "Huffman Hargraves",
       "score1": 40,
       "team2": "Houston Furr",
       "score2": 24,
-      "winner": "Huffman Hargrave"
+      "winner": "Huffman Hargraves"
     },
     {
       "year": 2018,
@@ -3511,11 +3511,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "WAC",
-      "team1": "Midlothan Heritage",
+      "team1": "Midlothian Heritage",
       "score1": 49,
       "team2": "Navasota",
       "score2": 9,
-      "winner": "Midlothan Heritage"
+      "winner": "Midlothian Heritage"
     },
     {
       "year": 2018,
@@ -3525,7 +3525,7 @@
       "chapter": "AUS",
       "team1": "Carthage",
       "score1": 46,
-      "team2": "Huffman Hargrave",
+      "team2": "Huffman Hargraves",
       "score2": 0,
       "winner": "Carthage"
     },
@@ -3655,7 +3655,7 @@
       "week": 3,
       "round": "Regional",
       "chapter": "AUS",
-      "team1": "Midlothan Heritage",
+      "team1": "Midlothian Heritage",
       "score1": 49,
       "team2": "Carthage",
       "score2": 50,
@@ -3945,7 +3945,7 @@
       "chapter": "TYL",
       "team1": "Pittsburg",
       "score1": 42,
-      "team2": "Nevada Community",
+      "team2": "Nevada",
       "score2": 7,
       "winner": "Pittsburg"
     },
@@ -3969,9 +3969,9 @@
       "chapter": "TYL",
       "team1": "Caddo Mills",
       "score1": 17,
-      "team2": "Texarkana Liberty-Eylau",
+      "team2": "Liberty-Eylau",
       "score2": 47,
-      "winner": "Texarkana Liberty-Eylau"
+      "winner": "Liberty-Eylau"
     },
     {
       "year": 2018,
@@ -3981,7 +3981,7 @@
       "chapter": "HOU",
       "team1": "Jasper",
       "score1": 49,
-      "team2": "Hamshire-Fannet",
+      "team2": "Hamshire-Fannett",
       "score2": 14,
       "winner": "Jasper"
     },
@@ -4003,11 +4003,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "West Orange Stark",
+      "team1": "West Orange-Stark",
       "score1": 76,
       "team2": "Huntington",
       "score2": 3,
-      "winner": "West Orange Stark"
+      "winner": "West Orange-Stark"
     },
     {
       "year": 2018,
@@ -4257,7 +4257,7 @@
       "chapter": "DAL",
       "team1": "Lorena",
       "score1": 51,
-      "team2": "Texarkana Liberty-Eylau",
+      "team2": "Liberty-Eylau",
       "score2": 43,
       "winner": "Lorena"
     },
@@ -4279,11 +4279,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "West Orange Stark",
+      "team1": "West Orange-Stark",
       "score1": 21,
       "team2": "Sweeny",
       "score2": 3,
-      "winner": "West Orange Stark"
+      "winner": "West Orange-Stark"
     },
     {
       "year": 2018,
@@ -4413,9 +4413,9 @@
       "chapter": "HOU",
       "team1": "Jasper",
       "score1": 14,
-      "team2": "West Orange Stark",
+      "team2": "West Orange-Stark",
       "score2": 21,
-      "winner": "West Orange Stark"
+      "winner": "West Orange-Stark"
     },
     {
       "year": 2018,
@@ -4483,7 +4483,7 @@
       "week": 4,
       "round": "Quarterfinal",
       "chapter": "HOU",
-      "team1": "West Orange Stark",
+      "team1": "West Orange-Stark",
       "score1": 9,
       "team2": "Silsbee",
       "score2": 19,
@@ -5565,7 +5565,7 @@
       "chapter": "ETX",
       "team1": "Newton",
       "score1": 69,
-      "team2": "Omaha Pewitt",
+      "team2": "Omaha Paul Pewitt",
       "score2": 0,
       "winner": "Newton"
     },
@@ -6139,11 +6139,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "AMA",
-      "team1": "Stinnett West Texas",
+      "team1": "West Texas Stinnett",
       "score1": 55,
       "team2": "Floydada",
       "score2": 17,
-      "winner": "Stinnett West Texas"
+      "winner": "West Texas Stinnett"
     },
     {
       "year": 2018,
@@ -6477,9 +6477,9 @@
       "chapter": "AMA",
       "team1": "Seymour",
       "score1": 0,
-      "team2": "Stinnett West Texas",
+      "team2": "West Texas Stinnett",
       "score2": 33,
-      "winner": "Stinnett West Texas"
+      "winner": "West Texas Stinnett"
     },
     {
       "year": 2018,
@@ -6645,9 +6645,9 @@
       "chapter": "AMA",
       "team1": "Sundown",
       "score1": 26,
-      "team2": "Stinnett West Texas",
+      "team2": "West Texas Stinnett",
       "score2": 28,
-      "winner": "Stinnett West Texas"
+      "winner": "West Texas Stinnett"
     },
     {
       "year": 2018,
@@ -6729,7 +6729,7 @@
       "chapter": "AMA",
       "team1": "New Deal",
       "score1": 57,
-      "team2": "Stinnett West Texas",
+      "team2": "West Texas Stinnett",
       "score2": 6,
       "winner": "New Deal"
     },
@@ -7615,11 +7615,11 @@
       "week": 1,
       "round": "Area",
       "chapter": "SPC",
-      "team1": "Ropeville Ropes",
+      "team1": "Ropesville",
       "score1": 58,
       "team2": "Lenorah Grady",
       "score2": 12,
-      "winner": "Ropeville Ropes"
+      "winner": "Ropesville"
     },
     {
       "year": 2018,
@@ -7771,11 +7771,11 @@
       "week": 1,
       "round": "Area",
       "chapter": "SPC",
-      "team1": "Whitharreal",
+      "team1": "Whitharral",
       "score1": 64,
       "team2": "Southland",
       "score2": 0,
-      "winner": "Whitharreal"
+      "winner": "Whitharral"
     },
     {
       "year": 2018,
@@ -7893,7 +7893,7 @@
       "chapter": "PVC",
       "team1": "Strawn",
       "score1": 68,
-      "team2": "Goldburg",
+      "team2": "Gold-Burg",
       "score2": 0,
       "winner": "Strawn"
     },
@@ -7975,7 +7975,7 @@
       "week": 2,
       "round": "Regional",
       "chapter": "PBC",
-      "team1": "Ropeville Ropes",
+      "team1": "Ropesville",
       "score1": 8,
       "team2": "Balmorhea",
       "score2": 58,
@@ -8049,7 +8049,7 @@
       "chapter": "",
       "team1": "Follett",
       "score1": 62,
-      "team2": "Whitharreal",
+      "team2": "Whitharral",
       "score2": 22,
       "winner": "Follett"
     },
