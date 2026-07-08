@@ -2349,7 +2349,7 @@
       "chapter": "DAL",
       "team1": "Justin Northwest",
       "score1": 58,
-      "team2": "Wichita Falls",
+      "team2": "Wichita Falls High School",
       "score2": 20,
       "winner": "Justin Northwest"
     },
@@ -2611,11 +2611,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "Corpus Christia Calallen",
+      "team1": "Corpus Christi Calallen",
       "score1": 49,
       "team2": "Pharr Valley View",
       "score2": 0,
-      "winner": "Corpus Christia Calallen"
+      "winner": "Corpus Christi Calallen"
     },
     {
       "year": 2018,
@@ -2827,11 +2827,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Corpus Christia Calallen",
+      "team1": "Corpus Christi Calallen",
       "score1": 63,
       "team2": "San Antonio Alamo Heights",
       "score2": 35,
-      "winner": "Corpus Christia Calallen"
+      "winner": "Corpus Christi Calallen"
     },
     {
       "year": 2018,
@@ -2935,11 +2935,11 @@
       "week": 3,
       "round": "Regional",
       "chapter": "ABI",
-      "team1": "Corpus Christia Calallen",
+      "team1": "Corpus Christi Calallen",
       "score1": 42,
       "team2": "Brenham",
       "score2": 13,
-      "winner": "Corpus Christia Calallen"
+      "winner": "Corpus Christi Calallen"
     },
     {
       "year": 2018,
@@ -2985,9 +2985,9 @@
       "chapter": "TYL",
       "team1": "Port Lavaca Calhoun",
       "score1": 17,
-      "team2": "Corpus Christia Calallen",
+      "team2": "Corpus Christi Calallen",
       "score2": 48,
-      "winner": "Corpus Christia Calallen"
+      "winner": "Corpus Christi Calallen"
     },
     {
       "year": 2018,
@@ -3009,7 +3009,7 @@
       "chapter": "WAC",
       "team1": "Fort Bend Marshall",
       "score1": null,
-      "team2": "Corpus Christia Calallen",
+      "team2": "Corpus Christi Calallen",
       "score2": null,
       "winner": "Fort Bend Marshall"
     },

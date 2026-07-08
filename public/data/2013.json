@@ -2346,11 +2346,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "WC",
-      "team1": "Wichita Falls",
+      "team1": "Wichita Falls High School",
       "score1": 17,
       "team2": "Fort Worth Dunbar",
       "score2": 7,
-      "winner": "Wichita Falls"
+      "winner": "Wichita Falls High School"
     },
     {
       "year": 2013,
@@ -2694,11 +2694,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "SPC",
-      "team1": "Wichita Falls",
+      "team1": "Wichita Falls High School",
       "score1": 31,
       "team2": "Everman",
       "score2": 28,
-      "winner": "Wichita Falls"
+      "winner": "Wichita Falls High School"
     },
     {
       "year": 2013,
@@ -2864,9 +2864,9 @@
       "chapter": "PBC",
       "team1": "Canutillo",
       "score1": 10,
-      "team2": "Wichita Falls",
+      "team2": "Wichita Falls High School",
       "score2": 19,
-      "winner": "Wichita Falls"
+      "winner": "Wichita Falls High School"
     },
     {
       "year": 2013,
@@ -2948,7 +2948,7 @@
       "chapter": "FTW",
       "team1": "Aledo",
       "score1": 69,
-      "team2": "Wichita Falls",
+      "team2": "Wichita Falls High School",
       "score2": 14,
       "winner": "Aledo"
     },
