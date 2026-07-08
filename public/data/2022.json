@@ -6283,7 +6283,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "DAL",
-      "team1": "Texarkana Texas High",
+      "team1": "Texarkana Texas",
       "score1": 21,
       "team2": "Terrell",
       "score2": 28,
@@ -6415,7 +6415,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "Mission Pioneer",
+      "team1": "Mission Sharyland Pioneer",
       "score1": 27,
       "team2": "Mercedes",
       "score2": 37,
@@ -6439,7 +6439,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "RGV",
-      "team1": "Mission Veterans Memorial",
+      "team1": "Mission Veterans Memorial High School",
       "score1": 6,
       "team2": "Gregory-Portland",
       "score2": 64,
@@ -7291,11 +7291,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Lamar CISD Fulshear",
+      "team1": "Lamar Fulshear",
       "score1": 66,
       "team2": "Houston Sterling",
       "score2": 12,
-      "winner": "Lamar CISD Fulshear"
+      "winner": "Lamar Fulshear"
     },
     {
       "year": 2022,
@@ -7351,11 +7351,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "FTW",
-      "team1": "Lamar CISD Fulshear",
+      "team1": "Lamar Fulshear",
       "score1": 50,
       "team2": "A&M Consolidated",
       "score2": 38,
-      "winner": "Lamar CISD Fulshear"
+      "winner": "Lamar Fulshear"
     },
     {
       "year": 2022,
@@ -7387,7 +7387,7 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "AUS",
-      "team1": "Lamar CISD Fulshear",
+      "team1": "Lamar Fulshear",
       "score1": 13,
       "team2": "Comal Smithson Valley",
       "score2": 31,
@@ -7879,11 +7879,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Spring DeKaney",
+      "team1": "Spring Dekaney",
       "score1": 45,
       "team2": "Conroe Oak Ridge",
       "score2": 20,
-      "winner": "Spring DeKaney"
+      "winner": "Spring Dekaney"
     },
     {
       "year": 2022,
@@ -7939,11 +7939,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Spring DeKaney",
+      "team1": "Spring Dekaney",
       "score1": 32,
       "team2": "Houston Cypress Falls",
       "score2": 17,
-      "winner": "Spring DeKaney"
+      "winner": "Spring Dekaney"
     },
     {
       "year": 2022,
@@ -7965,7 +7965,7 @@
       "chapter": "WAC",
       "team1": "Harker Heights",
       "score1": 63,
-      "team2": "Spring DeKaney",
+      "team2": "Spring Dekaney",
       "score2": 35,
       "winner": "Harker Heights"
     },
@@ -8757,7 +8757,7 @@
       "chapter": "HOU",
       "team1": "Katy Cinco Ranch",
       "score1": 49,
-      "team2": "Lamar George Ranch",
+      "team2": "George Ranch",
       "score2": 14,
       "winner": "Katy Cinco Ranch"
     },
@@ -8817,9 +8817,9 @@
       "chapter": "HOU",
       "team1": "Deer Park",
       "score1": 7,
-      "team2": "Humble Atascosita",
+      "team2": "Humble Atascocita",
       "score2": 48,
-      "winner": "Humble Atascosita"
+      "winner": "Humble Atascocita"
     },
     {
       "year": 2022,
@@ -8875,11 +8875,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Humble Atascosita",
+      "team1": "Humble Atascocita",
       "score1": 35,
       "team2": "Clear Springs",
       "score2": 7,
-      "winner": "Humble Atascosita"
+      "winner": "Humble Atascocita"
     },
     {
       "year": 2022,
@@ -8901,9 +8901,9 @@
       "chapter": "HOU",
       "team1": "Fort Bend Ridge Point",
       "score1": 14,
-      "team2": "Humble Atascosita",
+      "team2": "Humble Atascocita",
       "score2": 19,
-      "winner": "Humble Atascosita"
+      "winner": "Humble Atascocita"
     },
     {
       "year": 2022,
@@ -8913,7 +8913,7 @@
       "chapter": "HOU",
       "team1": "Galena Park North Shore",
       "score1": 49,
-      "team2": "Humble Atascosita",
+      "team2": "Humble Atascocita",
       "score2": 19,
       "winner": "Galena Park North Shore"
     },

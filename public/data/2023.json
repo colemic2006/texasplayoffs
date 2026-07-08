@@ -5528,7 +5528,7 @@
       "chapter": "DAL",
       "team1": "Frisco Reedy",
       "score1": 52,
-      "team2": "Carrollton Newman-Smith",
+      "team2": "Carrollton Newman Smith",
       "score2": 14,
       "winner": "Frisco Reedy"
     },
@@ -6402,11 +6402,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Port Neches Groves",
+      "team1": "Port Neches-Groves",
       "score1": 37,
       "team2": "Brenham",
       "score2": 7,
-      "winner": "Port Neches Groves"
+      "winner": "Port Neches-Groves"
     },
     {
       "year": 2023,
@@ -6498,11 +6498,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "CSC",
-      "team1": "Port Neches Groves",
+      "team1": "Port Neches-Groves",
       "score1": 51,
       "team2": "Rouse",
       "score2": 14,
-      "winner": "Port Neches Groves"
+      "winner": "Port Neches-Groves"
     },
     {
       "year": 2023,
@@ -6546,11 +6546,11 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "HOU",
-      "team1": "Port Neches Groves",
+      "team1": "Port Neches-Groves",
       "score1": 30,
       "team2": "Montgomery Lake Creek",
       "score2": 27,
-      "winner": "Port Neches Groves"
+      "winner": "Port Neches-Groves"
     },
     {
       "year": 2023,
@@ -6570,11 +6570,11 @@
       "week": 4,
       "round": "Quarterfinals",
       "chapter": "HOU",
-      "team1": "Port Neches Groves",
+      "team1": "Port Neches-Groves",
       "score1": 24,
       "team2": "Huntsville",
       "score2": 14,
-      "winner": "Port Neches Groves"
+      "winner": "Port Neches-Groves"
     },
     {
       "year": 2023,
@@ -6594,11 +6594,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "RGV",
-      "team1": "Mission Veterans",
+      "team1": "Mission Veterans Memorial High School",
       "score1": 43,
       "team2": "Pharr Valley View",
       "score2": 6,
-      "winner": "Mission Veterans"
+      "winner": "Mission Veterans Memorial High School"
     },
     {
       "year": 2023,
@@ -6680,7 +6680,7 @@
       "chapter": "TYL",
       "team1": "Comal Pieper",
       "score1": 38,
-      "team2": "Mission Veterans",
+      "team2": "Mission Veterans Memorial High School",
       "score2": 6,
       "winner": "Comal Pieper"
     },
@@ -6774,11 +6774,11 @@
       "week": 5,
       "round": "Semifinals",
       "chapter": "FTW",
-      "team1": "Port Neches Groves",
+      "team1": "Port Neches-Groves",
       "score1": 42,
       "team2": "Liberty Hill",
       "score2": 35,
-      "winner": "Port Neches Groves"
+      "winner": "Port Neches-Groves"
     },
     {
       "year": 2023,
@@ -6788,9 +6788,9 @@
       "chapter": "HOU",
       "team1": "South Oak Cliff",
       "score1": 17,
-      "team2": "Port Neches Groves",
+      "team2": "Port Neches-Groves",
       "score2": 20,
-      "winner": "Port Neches Groves"
+      "winner": "Port Neches-Groves"
     },
     {
       "year": 2023,
@@ -7928,9 +7928,9 @@
       "chapter": "HOU",
       "team1": "Katy Taylor",
       "score1": 19,
-      "team2": "Richmond George Ranch",
+      "team2": "George Ranch",
       "score2": 21,
-      "winner": "Richmond George Ranch"
+      "winner": "George Ranch"
     },
     {
       "year": 2023,
@@ -8012,7 +8012,7 @@
       "chapter": "HOU",
       "team1": "Spring Branch Stratford",
       "score1": 49,
-      "team2": "Richmond George Ranch",
+      "team2": "George Ranch",
       "score2": 34,
       "winner": "Spring Branch Stratford"
     },
@@ -8094,11 +8094,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "AUS",
-      "team1": "Round Rock  McNeil",
+      "team1": "Round Rock McNeil",
       "score1": 17,
       "team2": "Austin Bowie",
       "score2": 14,
-      "winner": "Round Rock  McNeil"
+      "winner": "Round Rock McNeil"
     },
     {
       "year": 2023,
@@ -8190,7 +8190,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Round Rock  McNeil",
+      "team1": "Round Rock McNeil",
       "score1": 21,
       "team2": "Cibolo Steele",
       "score2": 42,

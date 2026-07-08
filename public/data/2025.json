@@ -6067,11 +6067,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Port Neches-Grove",
+      "team1": "Port Neches-Groves",
       "score1": 48,
       "team2": "Nacogdoches",
       "score2": 7,
-      "winner": "Port Neches-Grove"
+      "winner": "Port Neches-Groves"
     },
     {
       "year": 2025,
@@ -6139,11 +6139,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "RGV",
-      "team1": "Mission Veterans Memorial",
+      "team1": "Mission Veterans Memorial High School",
       "score1": 41,
       "team2": "Brownsville Pace",
       "score2": 14,
-      "winner": "Mission Veterans Memorial"
+      "winner": "Mission Veterans Memorial High School"
     },
     {
       "year": 2025,
@@ -6355,7 +6355,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "AUS",
-      "team1": "Mission Veterans Memorial",
+      "team1": "Mission Veterans Memorial High School",
       "score1": 14,
       "team2": "Victoria West",
       "score2": 57,
@@ -6391,11 +6391,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "FTW",
-      "team1": "Port Neches-Grove",
+      "team1": "Port Neches-Groves",
       "score1": 63,
       "team2": "Ennis",
       "score2": 29,
-      "winner": "Port Neches-Grove"
+      "winner": "Port Neches-Groves"
     },
     {
       "year": 2025,
@@ -6585,9 +6585,9 @@
       "chapter": "FTW",
       "team1": "Midlothian Heritage",
       "score1": 14,
-      "team2": "Port Neches-Grove",
+      "team2": "Port Neches-Groves",
       "score2": 17,
-      "winner": "Port Neches-Grove"
+      "winner": "Port Neches-Groves"
     },
     {
       "year": 2025,
@@ -6657,7 +6657,7 @@
       "chapter": "HOU",
       "team1": "South Oak Cliff",
       "score1": 28,
-      "team2": "Port Neches-Grove",
+      "team2": "Port Neches-Groves",
       "score2": 0,
       "winner": "South Oak Cliff"
     },
@@ -7797,7 +7797,7 @@
       "chapter": "HOU",
       "team1": "Katy",
       "score1": 42,
-      "team2": "Richmond George Ranch",
+      "team2": "George Ranch",
       "score2": 7,
       "winner": "Katy"
     },

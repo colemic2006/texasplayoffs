@@ -273,7 +273,7 @@
       "chapter": "HOU",
       "team1": "Pearland",
       "score1": 32,
-      "team2": "Beaumont Westbrook",
+      "team2": "Beaumont West Brook",
       "score2": 0,
       "winner": "Pearland"
     },
@@ -1701,7 +1701,7 @@
       "chapter": "TYL",
       "team1": "Tyler John Tyler",
       "score1": 48,
-      "team2": "Texarkana Texas High",
+      "team2": "Texarkana Texas",
       "score2": 21,
       "winner": "Tyler John Tyler"
     },
@@ -1795,11 +1795,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Richmond George Ranch",
+      "team1": "George Ranch",
       "score1": 55,
       "team2": "Fort Bend Bush",
       "score2": 14,
-      "winner": "Richmond George Ranch"
+      "winner": "George Ranch"
     },
     {
       "year": 2015,
@@ -1807,11 +1807,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "AUS",
-      "team1": "Austin Vandergrift",
+      "team1": "Austin Vandegrift",
       "score1": 61,
       "team2": "Bastrop Cedar Creek",
       "score2": 7,
-      "winner": "Austin Vandergrift"
+      "winner": "Austin Vandegrift"
     },
     {
       "year": 2015,
@@ -1893,9 +1893,9 @@
       "chapter": "RGV",
       "team1": "Donna",
       "score1": 21,
-      "team2": "Mission Memorial",
+      "team2": "Mission Sharyland",
       "score2": 33,
-      "winner": "Mission Memorial"
+      "winner": "Mission Sharyland"
     },
     {
       "year": 2015,
@@ -2037,9 +2037,9 @@
       "chapter": "HOU",
       "team1": "Nederland",
       "score1": 30,
-      "team2": "Richmond George Ranch",
+      "team2": "George Ranch",
       "score2": 63,
-      "winner": "Richmond George Ranch"
+      "winner": "George Ranch"
     },
     {
       "year": 2015,
@@ -2047,11 +2047,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Austin Vandergrift",
+      "team1": "Austin Vandegrift",
       "score1": 63,
       "team2": "San Marcos",
       "score2": 14,
-      "winner": "Austin Vandergrift"
+      "winner": "Austin Vandegrift"
     },
     {
       "year": 2015,
@@ -2085,7 +2085,7 @@
       "chapter": "AUS",
       "team1": "Victoria West",
       "score1": 70,
-      "team2": "Mission Memorial",
+      "team2": "Mission Sharyland",
       "score2": 8,
       "winner": "Victoria West"
     },
@@ -2157,9 +2157,9 @@
       "chapter": "HOU",
       "team1": "Bryan",
       "score1": 28,
-      "team2": "Richmond George Ranch",
+      "team2": "George Ranch",
       "score2": 48,
-      "winner": "Richmond George Ranch"
+      "winner": "George Ranch"
     },
     {
       "year": 2015,
@@ -2167,11 +2167,11 @@
       "week": 3,
       "round": "Regional",
       "chapter": "HOU",
-      "team1": "Austin Vandergrift",
+      "team1": "Austin Vandegrift",
       "score1": 49,
       "team2": "Edinburg Vela",
       "score2": 39,
-      "winner": "Austin Vandergrift"
+      "winner": "Austin Vandegrift"
     },
     {
       "year": 2015,
@@ -2217,9 +2217,9 @@
       "chapter": "HOU",
       "team1": "Temple",
       "score1": 46,
-      "team2": "Richmond George Ranch",
+      "team2": "George Ranch",
       "score2": 59,
-      "winner": "Richmond George Ranch"
+      "winner": "George Ranch"
     },
     {
       "year": 2015,
@@ -2227,7 +2227,7 @@
       "week": 4,
       "round": "Quarterfinal",
       "chapter": "AUS",
-      "team1": "Austin Vandergrift",
+      "team1": "Austin Vandegrift",
       "score1": 17,
       "team2": "Cedar Park Vista Ridge",
       "score2": 24,
@@ -2251,11 +2251,11 @@
       "week": 5,
       "round": "Semifinal",
       "chapter": "DAL",
-      "team1": "Richmond George Ranch",
+      "team1": "George Ranch",
       "score1": 42,
       "team2": "Cedar Park Vista Ridge",
       "score2": 23,
-      "winner": "Richmond George Ranch"
+      "winner": "George Ranch"
     },
     {
       "year": 2015,
@@ -2265,9 +2265,9 @@
       "chapter": "AUS",
       "team1": "Mansfield Lake Ridge",
       "score1": 0,
-      "team2": "Richmond George Ranch",
+      "team2": "George Ranch",
       "score2": 56,
-      "winner": "Richmond George Ranch"
+      "winner": "George Ranch"
     },
     {
       "year": 2015,
@@ -2505,7 +2505,7 @@
       "chapter": "HOU",
       "team1": "Fort Bend Ridge Point",
       "score1": 42,
-      "team2": "Port Lavaco Calhoun",
+      "team2": "Port Lavaca Calhoun",
       "score2": 35,
       "winner": "Fort Bend Ridge Point"
     },

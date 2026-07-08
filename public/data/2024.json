@@ -6295,11 +6295,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SFA",
-      "team1": "Port Neches-Grove",
+      "team1": "Port Neches-Groves",
       "score1": 43,
       "team2": "Hallsville",
       "score2": 20,
-      "winner": "Port Neches-Grove"
+      "winner": "Port Neches-Groves"
     },
     {
       "year": 2024,
@@ -6355,11 +6355,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "TYL",
-      "team1": "Port Neches-Grove",
+      "team1": "Port Neches-Groves",
       "score1": 42,
       "team2": "Kaufman",
       "score2": 21,
-      "winner": "Port Neches-Grove"
+      "winner": "Port Neches-Groves"
     },
     {
       "year": 2024,
@@ -6379,11 +6379,11 @@
       "week": 3,
       "round": "Regional",
       "chapter": "TYL",
-      "team1": "Port Neches-Grove",
+      "team1": "Port Neches-Groves",
       "score1": 31,
       "team2": "Texarkana Texas",
       "score2": 28,
-      "winner": "Port Neches-Grove"
+      "winner": "Port Neches-Groves"
     },
     {
       "year": 2024,
@@ -6393,7 +6393,7 @@
       "chapter": "HOU",
       "team1": "South Oak Cliff",
       "score1": 56,
-      "team2": "Port Neches-Grove",
+      "team2": "Port Neches-Groves",
       "score2": 14,
       "winner": "South Oak Cliff"
     },
@@ -6619,11 +6619,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Mission Pioneer",
+      "team1": "Mission Sharyland Pioneer",
       "score1": 35,
       "team2": "Brownsville Lopez",
       "score2": 21,
-      "winner": "Mission Pioneer"
+      "winner": "Mission Sharyland Pioneer"
     },
     {
       "year": 2024,
@@ -6657,7 +6657,7 @@
       "chapter": "RGV",
       "team1": "Edcouch-Elsa",
       "score1": 15,
-      "team2": "Mission Veterans",
+      "team2": "Mission Veterans Memorial High School",
       "score2": 7,
       "winner": "Edcouch-Elsa"
     },
@@ -6693,7 +6693,7 @@
       "chapter": "HOU",
       "team1": "Corpus Christi Miller",
       "score1": 59,
-      "team2": "Mission Pioneer",
+      "team2": "Mission Sharyland Pioneer",
       "score2": 6,
       "winner": "Corpus Christi Miller"
     },
