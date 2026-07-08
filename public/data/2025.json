@@ -2229,9 +2229,9 @@
       "chapter": "NTX",
       "team1": "Gruver",
       "score1": 18,
-      "team2": "Muenster Total Bracket Counts",
+      "team2": "Muenster",
       "score2": 21,
-      "winner": "Muenster Total Bracket Counts"
+      "winner": "Muenster"
     },
     {
       "year": 2025,
@@ -2373,7 +2373,7 @@
       "chapter": "TYL",
       "team1": "Franklin",
       "score1": 51,
-      "team2": "Halletsville",
+      "team2": "Hallettsville",
       "score2": 27,
       "winner": "Franklin"
     },
@@ -2443,7 +2443,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "CSC",
-      "team1": "Jourdantown",
+      "team1": "Jourdanton",
       "score1": 22,
       "team2": "Marion",
       "score2": 28,
@@ -4051,11 +4051,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Sulpher Springs",
+      "team1": "Sulphur Springs",
       "score1": 62,
       "team2": "Dallas Kimball",
       "score2": 9,
-      "winner": "Sulpher Springs"
+      "winner": "Sulphur Springs"
     },
     {
       "year": 2025,
@@ -4245,7 +4245,7 @@
       "chapter": "HOU",
       "team1": "Alvarado",
       "score1": 51,
-      "team2": "Sulpher Springs",
+      "team2": "Sulphur Springs",
       "score2": 43,
       "winner": "Alvarado"
     },
@@ -6139,11 +6139,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "RGV",
-      "team1": "Mission Veterans Memorial High School",
+      "team1": "Mission Veterans Memorial",
       "score1": 41,
       "team2": "Brownsville Pace",
       "score2": 14,
-      "winner": "Mission Veterans Memorial High School"
+      "winner": "Mission Veterans Memorial"
     },
     {
       "year": 2025,
@@ -6355,7 +6355,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "AUS",
-      "team1": "Mission Veterans Memorial High School",
+      "team1": "Mission Veterans Memorial",
       "score1": 14,
       "team2": "Victoria West",
       "score2": 57,
@@ -6835,11 +6835,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "FB Ridge Point",
+      "team1": "Fort Bend Ridge Point",
       "score1": 21,
       "team2": "Pearland Dawson",
       "score2": 16,
-      "winner": "FB Ridge Point"
+      "winner": "Fort Bend Ridge Point"
     },
     {
       "year": 2025,
@@ -6957,9 +6957,9 @@
       "chapter": "DAL",
       "team1": "Waco Midway",
       "score1": 16,
-      "team2": "Waxahatchie",
+      "team2": "Waxahachie",
       "score2": 48,
-      "winner": "Waxahatchie"
+      "winner": "Waxahachie"
     },
     {
       "year": 2025,
@@ -7005,7 +7005,7 @@
       "chapter": "HOU",
       "team1": "Katy Cinco Ranch",
       "score1": 47,
-      "team2": "Fulshear",
+      "team2": "Lamar Fulshear",
       "score2": 21,
       "winner": "Katy Cinco Ranch"
     },
@@ -7149,9 +7149,9 @@
       "chapter": "DAL",
       "team1": "North Forney",
       "score1": 20,
-      "team2": "Waxahatchie",
+      "team2": "Waxahachie",
       "score2": 37,
-      "winner": "Waxahatchie"
+      "winner": "Waxahachie"
     },
     {
       "year": 2025,
@@ -7207,7 +7207,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "FB Ridge Point",
+      "team1": "Fort Bend Ridge Point",
       "score1": 7,
       "team2": "Galena Park North Shore",
       "score2": 41,
@@ -7375,11 +7375,11 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "SAT",
-      "team1": "Waxahatchie",
+      "team1": "Waxahachie",
       "score1": 38,
       "team2": "Cy Ranch",
       "score2": 31,
-      "winner": "Waxahatchie"
+      "winner": "Waxahachie"
     },
     {
       "year": 2025,
@@ -7401,7 +7401,7 @@
       "chapter": "DAL",
       "team1": "Duncanville",
       "score1": 35,
-      "team2": "Waxahatchie",
+      "team2": "Waxahachie",
       "score2": 27,
       "winner": "Duncanville"
     },
@@ -7485,7 +7485,7 @@
       "chapter": "AUS",
       "team1": "El Paso Eastwood",
       "score1": 45,
-      "team2": "Wolfforth Frenship",
+      "team2": "Frenship",
       "score2": 30,
       "winner": "El Paso Eastwood"
     },
@@ -7855,11 +7855,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "RGV",
-      "team1": "Edinbug",
+      "team1": "Edinburg",
       "score1": 24,
       "team2": "Brownsville Veterans Memorial",
       "score2": 13,
-      "winner": "Edinbug"
+      "winner": "Edinburg"
     },
     {
       "year": 2025,
@@ -8049,7 +8049,7 @@
       "chapter": "RGV",
       "team1": "San Marcos",
       "score1": 33,
-      "team2": "Edinbug",
+      "team2": "Edinburg",
       "score2": 3,
       "winner": "San Marcos"
     },

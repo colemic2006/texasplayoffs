@@ -201,9 +201,9 @@
       "chapter": "HOU",
       "team1": "Aldine Nimitz",
       "score1": 6,
-      "team2": "Houston Cypress Falls",
+      "team2": "Cypress Falls",
       "score2": 72,
-      "winner": "Houston Cypress Falls"
+      "winner": "Cypress Falls"
     },
     {
       "year": 2015,
@@ -249,7 +249,7 @@
       "chapter": "HOU",
       "team1": "Aldine Eisenhower",
       "score1": 36,
-      "team2": "Cypress Fairbanks",
+      "team2": "Cy-Fair",
       "score2": 28,
       "winner": "Aldine Eisenhower"
     },
@@ -487,11 +487,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Houston Cypress Falls",
+      "team1": "Cypress Falls",
       "score1": 42,
       "team2": "Houston Bellaire",
       "score2": 33,
-      "winner": "Houston Cypress Falls"
+      "winner": "Cypress Falls"
     },
     {
       "year": 2015,
@@ -631,7 +631,7 @@
       "week": 3,
       "round": "Regional",
       "chapter": "HOU",
-      "team1": "Houston Cypress Falls",
+      "team1": "Cypress Falls",
       "score1": 21,
       "team2": "Galena Park North Shore",
       "score2": 28,
@@ -811,7 +811,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "ABI",
-      "team1": "Wolfforth Frenship",
+      "team1": "Frenship",
       "score1": 40,
       "team2": "El Paso Eastwood",
       "score2": 47,
@@ -955,11 +955,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Cypress Ranch",
+      "team1": "Cy Ranch",
       "score1": 44,
       "team2": "Houston Memorial",
       "score2": 13,
-      "winner": "Cypress Ranch"
+      "winner": "Cy Ranch"
     },
     {
       "year": 2015,
@@ -1243,7 +1243,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Cypress Ranch",
+      "team1": "Cy Ranch",
       "score1": 20,
       "team2": "Katy",
       "score2": 59,
@@ -3177,9 +3177,9 @@
       "chapter": "ETX",
       "team1": "Van",
       "score1": 41,
-      "team2": "Texarkana Liberty-Eylau",
+      "team2": "Liberty-Eylau",
       "score2": 48,
-      "winner": "Texarkana Liberty-Eylau"
+      "winner": "Liberty-Eylau"
     },
     {
       "year": 2015,
@@ -3213,7 +3213,7 @@
       "chapter": "WAC",
       "team1": "Alvarado",
       "score1": 33,
-      "team2": "Wimer-Hutchins",
+      "team2": "Dallas Wilmer-Hutchins",
       "score2": 12,
       "winner": "Alvarado"
     },
@@ -3487,11 +3487,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "DAL",
-      "team1": "Texarkana Liberty-Eylau",
+      "team1": "Liberty-Eylau",
       "score1": 48,
       "team2": "Sanger",
       "score2": 9,
-      "winner": "Texarkana Liberty-Eylau"
+      "winner": "Liberty-Eylau"
     },
     {
       "year": 2015,
@@ -3643,11 +3643,11 @@
       "week": 3,
       "round": "Regional",
       "chapter": "FTW",
-      "team1": "Texarkana Liberty-Eylau",
+      "team1": "Liberty-Eylau",
       "score1": 38,
       "team2": "Kaufman",
       "score2": 22,
-      "winner": "Texarkana Liberty-Eylau"
+      "winner": "Liberty-Eylau"
     },
     {
       "year": 2015,
@@ -3717,7 +3717,7 @@
       "chapter": "DAL",
       "team1": "Argyle",
       "score1": 32,
-      "team2": "Texarkana Liberty-Eylau",
+      "team2": "Liberty-Eylau",
       "score2": 29,
       "winner": "Argyle"
     },
@@ -3933,7 +3933,7 @@
       "chapter": "CSC",
       "team1": "Lorena",
       "score1": 35,
-      "team2": "Cleveland Tarkington",
+      "team2": "Tarkington",
       "score2": 0,
       "winner": "Lorena"
     },
@@ -4891,11 +4891,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "AUS",
-      "team1": "Hitchock",
+      "team1": "Hitchcock",
       "score1": 35,
       "team2": "Marion",
       "score2": 29,
-      "winner": "Hitchock"
+      "winner": "Hitchcock"
     },
     {
       "year": 2015,
@@ -5097,9 +5097,9 @@
       "chapter": "HOU",
       "team1": "Hallettsville",
       "score1": 50,
-      "team2": "Hitchock",
+      "team2": "Hitchcock",
       "score2": 61,
-      "winner": "Hitchock"
+      "winner": "Hitchcock"
     },
     {
       "year": 2015,
@@ -5203,11 +5203,11 @@
       "week": 3,
       "round": "Regional",
       "chapter": "HOU",
-      "team1": "Hitchock",
+      "team1": "Hitchcock",
       "score1": 41,
       "team2": "Rice Consolidated",
       "score2": 24,
-      "winner": "Hitchock"
+      "winner": "Hitchcock"
     },
     {
       "year": 2015,
@@ -5253,7 +5253,7 @@
       "chapter": "ETX",
       "team1": "Mathis",
       "score1": 54,
-      "team2": "Hitchock",
+      "team2": "Hitchcock",
       "score2": 27,
       "winner": "Mathis"
     },
@@ -5431,11 +5431,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "TYL",
-      "team1": "Omaha Pewitt",
+      "team1": "Omaha Paul Pewitt",
       "score1": 34,
       "team2": "Winona",
       "score2": 25,
-      "winner": "Omaha Pewitt"
+      "winner": "Omaha Paul Pewitt"
     },
     {
       "year": 2015,
@@ -5469,7 +5469,7 @@
       "chapter": "ETX",
       "team1": "Waskom",
       "score1": 50,
-      "team2": "DeKalb",
+      "team2": "De Kalb",
       "score2": 7,
       "winner": "Waskom"
     },
@@ -5649,9 +5649,9 @@
       "chapter": "HOU",
       "team1": "Stockdale",
       "score1": 14,
-      "team2": "El Maton Tidehaven",
+      "team2": "Tidehaven",
       "score2": 28,
-      "winner": "El Maton Tidehaven"
+      "winner": "Tidehaven"
     },
     {
       "year": 2015,
@@ -5745,9 +5745,9 @@
       "chapter": "FTW",
       "team1": "Leonard",
       "score1": 28,
-      "team2": "Omaha Pewitt",
+      "team2": "Omaha Paul Pewitt",
       "score2": 55,
-      "winner": "Omaha Pewitt"
+      "winner": "Omaha Paul Pewitt"
     },
     {
       "year": 2015,
@@ -5853,7 +5853,7 @@
       "chapter": "HOU",
       "team1": "Odem",
       "score1": 30,
-      "team2": "El Maton Tidehaven",
+      "team2": "Tidehaven",
       "score2": 7,
       "winner": "Odem"
     },
@@ -5901,7 +5901,7 @@
       "chapter": "ETX",
       "team1": "West Rusk",
       "score1": 31,
-      "team2": "Omaha Pewitt",
+      "team2": "Omaha Paul Pewitt",
       "score2": 12,
       "winner": "West Rusk"
     },
@@ -6957,7 +6957,7 @@
       "chapter": "ABI",
       "team1": "Seymour",
       "score1": 55,
-      "team2": "Corss Plains",
+      "team2": "Cross Plains",
       "score2": 13,
       "winner": "Seymour"
     },
@@ -7051,11 +7051,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "TYL",
-      "team1": "Tenaha",
+      "team1": "Teneha",
       "score1": 63,
       "team2": "Colmesneil",
       "score2": 14,
-      "winner": "Tenaha"
+      "winner": "Teneha"
     },
     {
       "year": 2015,
@@ -7315,11 +7315,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "TYL",
-      "team1": "Tenaha",
+      "team1": "Teneha",
       "score1": 69,
       "team2": "Era",
       "score2": 0,
-      "winner": "Tenaha"
+      "winner": "Teneha"
     },
     {
       "year": 2015,
@@ -7447,11 +7447,11 @@
       "week": 3,
       "round": "Regional",
       "chapter": "TYL",
-      "team1": "Tenaha",
+      "team1": "Teneha",
       "score1": 24,
       "team2": "Normangee",
       "score2": 14,
-      "winner": "Tenaha"
+      "winner": "Teneha"
     },
     {
       "year": 2015,
@@ -7509,7 +7509,7 @@
       "chapter": "TYL",
       "team1": "Muenster",
       "score1": 33,
-      "team2": "Tenaha",
+      "team2": "Teneha",
       "score2": 16,
       "winner": "Muenster"
     },
