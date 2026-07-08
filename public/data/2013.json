@@ -4531,10 +4531,10 @@
       "round": "State Final",
       "chapter": "AUS",
       "team1": "Argyle",
-      "score1": null,
+      "score1": 38,
       "team2": "Fairfield",
-      "score2": null,
-      "winner": null
+      "score2": 33,
+      "winner": "Argyle"
     },
     {
       "year": 2013,
