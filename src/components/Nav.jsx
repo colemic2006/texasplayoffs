@@ -44,23 +44,37 @@ export default function Nav({ page, setPage, year, setYear, years }) {
       }}>
         {years.map(y => {
           const inactive = [2026].includes(y)
+          const incomplete = y <= 2011
           const active = year === y
+          let title = undefined
+          if (inactive) title = 'Coming soon — no data yet'
+          else if (incomplete) title = 'Incomplete — not all championship games have chapter assignments'
           return (
             <button
               key={y}
               onClick={() => !inactive && setYear(y)}
-              title={inactive ? 'Coming soon — no data yet' : undefined}
+              title={title}
               style={{
                 fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.1em',
                 padding: '5px 10px', borderRadius: 4, border: '1px solid',
-                transition: 'all 0.15s', flexShrink: 0,
+                transition: 'all 0.15s', flexShrink: 0, position: 'relative',
                 cursor: inactive ? 'not-allowed' : 'pointer',
                 opacity: inactive ? 0.35 : 1,
                 background: active && !inactive ? 'var(--burnt)' : 'transparent',
-                borderColor: active && !inactive ? 'var(--burnt)' : 'rgba(255,255,255,0.15)',
+                borderColor: active && !inactive ? 'var(--burnt)' : incomplete ? 'rgba(255,200,80,0.3)' : 'rgba(255,255,255,0.15)',
                 color: active && !inactive ? '#fff' : 'rgba(245,240,232,0.5)',
               }}
-            >{y}</button>
+            >
+              {y}
+              {incomplete && (
+                <span style={{
+                  position: 'absolute', top: 2, right: 2,
+                  width: 4, height: 4, borderRadius: '50%',
+                  background: 'rgba(255,200,80,0.7)',
+                  display: 'block',
+                }} />
+              )}
+            </button>
           )
         })}
       </div>
