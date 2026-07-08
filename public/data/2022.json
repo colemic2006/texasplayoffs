@@ -5373,9 +5373,9 @@
       "chapter": "SPC",
       "team1": "Dumas",
       "score1": 10,
-      "team2": "Wichita Falls",
+      "team2": "Wichita Falls High School",
       "score2": 15,
-      "winner": "Wichita Falls"
+      "winner": "Wichita Falls High School"
     },
     {
       "year": 2022,
@@ -5745,9 +5745,9 @@
       "chapter": "ABI",
       "team1": "Big Spring",
       "score1": 7,
-      "team2": "Wichita Falls",
+      "team2": "Wichita Falls High School",
       "score2": 31,
-      "winner": "Wichita Falls"
+      "winner": "Wichita Falls High School"
     },
     {
       "year": 2022,
@@ -5937,9 +5937,9 @@
       "chapter": "FTW",
       "team1": "Brownwood",
       "score1": 19,
-      "team2": "Wichita Falls",
+      "team2": "Wichita Falls High School",
       "score2": 41,
-      "winner": "Wichita Falls"
+      "winner": "Wichita Falls High School"
     },
     {
       "year": 2022,
@@ -6031,7 +6031,7 @@
       "week": 4,
       "round": "Quarterfinals",
       "chapter": "ABI",
-      "team1": "Wichita Falls",
+      "team1": "Wichita Falls High School",
       "score1": 21,
       "team2": "Decatur",
       "score2": 35,
@@ -6163,7 +6163,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "FTW",
-      "team1": "Fort Worth O.D. Wyatt",
+      "team1": "Fort Worth Wyatt",
       "score1": 0,
       "team2": "Argyle",
       "score2": 63,
