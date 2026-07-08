@@ -1062,11 +1062,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "San Antobnio Brandeis",
+      "team1": "San Antonio Brandeis",
       "score1": 23,
       "team2": "Corpus Christi Carroll",
       "score2": 7,
-      "winner": "San Antobnio Brandeis"
+      "winner": "San Antonio Brandeis"
     },
     {
       "year": 2013,
@@ -1292,7 +1292,7 @@
       "chapter": "SAT",
       "team1": "San Antonio Johnson",
       "score1": 23,
-      "team2": "San Antobnio Brandeis",
+      "team2": "San Antonio Brandeis",
       "score2": 17,
       "winner": "San Antonio Johnson"
     },
