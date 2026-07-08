@@ -8,6 +8,7 @@ import HistoryView from './components/HistoryView'
 import TeamsView from './components/TeamsView'
 import ChapterRegulars from './components/ChapterRegulars'
 import ChampionshipsView from './components/ChampionshipsView'
+import ContactView from './components/ContactView'
 
 const YEARS = [2026, 2025, 2024, 2023, 2022, 2018, 2015, 2013, 2010]
 
@@ -66,7 +67,9 @@ export default function App() {
       />
 
       <main className="main-content" style={{ flex: 1, maxWidth: 1100, margin: '0 auto', padding: '40px 24px 80px', width: '100%' }}>
-        {page === 'championships' ? (
+        {page === 'contact' ? (
+          <ContactView />
+        ) : page === 'championships' ? (
           <ChampionshipsView />
         ) : (page === 'teams' || page === 'regulars') ? (
           allYearsLoaded
