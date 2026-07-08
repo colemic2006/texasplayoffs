@@ -7,6 +7,7 @@ const LINKS = [
   { id: 'history', label: 'Multi-Year History' },
   { id: 'teams', label: 'Teams' },
   { id: 'championships', label: 'Championships' },
+  { id: 'contact', label: 'Contact Us' },
 ]
 
 export default function Nav({ page, setPage, year, setYear, years }) {
