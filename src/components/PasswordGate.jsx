@@ -104,6 +104,15 @@ export default function PasswordGate({ onUnlock }) {
           Enter
         </button>
       </form>
+
+      <div style={{
+        marginTop: 48, maxWidth: 320, textAlign: 'center',
+        fontFamily: 'var(--mono)', fontSize: 10, fontWeight: 700,
+        letterSpacing: '0.05em', lineHeight: 1.7,
+        color: 'rgba(245,240,232,0.4)',
+      }}>
+        This site is provided for informational purposes only and is not affiliated with, endorsed by, or supported by the Texas Association of Sports Officials (TASO) or the University Interscholastic League (UIL).
+      </div>
     </div>
   )
 }
