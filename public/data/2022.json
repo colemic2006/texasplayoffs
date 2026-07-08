@@ -4027,7 +4027,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "NTX",
-      "team1": "WF City View",
+      "team1": "Wichita Falls City View",
       "score1": 35,
       "team2": "Jacksboro",
       "score2": 55,
@@ -5419,7 +5419,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "PBC",
-      "team1": "EP Bowie",
+      "team1": "El Paso Bowie",
       "score1": 7,
       "team2": "Lubbock Estacado",
       "score2": 54,
@@ -5443,7 +5443,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "EP Austin",
+      "team1": "El Paso Austin",
       "score1": 14,
       "team2": "Andrews",
       "score2": 34,
@@ -5455,7 +5455,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "WAC",
-      "team1": "FW Western Hills",
+      "team1": "Fort Worth Western Hills",
       "score1": 7,
       "team2": "China Spring",
       "score2": 72,
@@ -5539,7 +5539,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "FTW",
-      "team1": "FW Dunbar",
+      "team1": "Fort Worth Dunbar",
       "score1": 20,
       "team2": "Stephenville",
       "score2": 56,
@@ -5721,9 +5721,9 @@
       "chapter": "STX",
       "team1": "Beeville Jones",
       "score1": 6,
-      "team2": "CC Calallen",
+      "team2": "Corpus Christi Calallen",
       "score2": 30,
-      "winner": "CC Calallen"
+      "winner": "Corpus Christi Calallen"
     },
     {
       "year": 2022,
@@ -5733,9 +5733,9 @@
       "chapter": "SAT",
       "team1": "Fredricksburg",
       "score1": 6,
-      "team2": "SA Davenport",
+      "team2": "San Antonio Davenport",
       "score2": 36,
-      "winner": "SA Davenport"
+      "winner": "San Antonio Davenport"
     },
     {
       "year": 2022,
@@ -5923,11 +5923,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "SA Davenport",
+      "team1": "San Antonio Davenport",
       "score1": 14,
-      "team2": "CC Calallen",
+      "team2": "Corpus Christi Calallen",
       "score2": 22,
-      "winner": "CC Calallen"
+      "winner": "Corpus Christi Calallen"
     },
     {
       "year": 2022,
@@ -6021,9 +6021,9 @@
       "chapter": "FTW",
       "team1": "Somerset",
       "score1": 22,
-      "team2": "CC Calallen",
+      "team2": "Corpus Christi Calallen",
       "score2": 31,
-      "winner": "CC Calallen"
+      "winner": "Corpus Christi Calallen"
     },
     {
       "year": 2022,
@@ -6067,7 +6067,7 @@
       "week": 4,
       "round": "Quarterfinals",
       "chapter": "CSC",
-      "team1": "CC Calallen",
+      "team1": "Corpus Christi Calallen",
       "score1": 19,
       "team2": "Boerne",
       "score2": 49,
@@ -6129,9 +6129,9 @@
       "chapter": "WAC",
       "team1": "Frisco Independence",
       "score1": 21,
-      "team2": "FW Arlington Heights",
+      "team2": "Fort Worth Arlington Heights",
       "score2": 40,
-      "winner": "FW Arlington Heights"
+      "winner": "Fort Worth Arlington Heights"
     },
     {
       "year": 2022,
@@ -6139,7 +6139,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "ABI",
-      "team1": "EP High",
+      "team1": "El Paso High",
       "score1": 14,
       "team2": "Abilene Wylie",
       "score2": 54,
@@ -6163,7 +6163,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "FTW",
-      "team1": "FW O.D. Wyatt",
+      "team1": "Fort Worth O.D. Wyatt",
       "score1": 0,
       "team2": "Argyle",
       "score2": 63,
@@ -6175,11 +6175,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "FTW",
-      "team1": "EP Chapin",
+      "team1": "El Paso Chapin",
       "score1": 7,
-      "team2": "WF Rider",
+      "team2": "Wichita Falls Rider",
       "score2": 48,
-      "winner": "WF Rider"
+      "winner": "Wichita Falls Rider"
     },
     {
       "year": 2022,
@@ -6199,7 +6199,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SPC",
-      "team1": "EP Andress",
+      "team1": "El Paso Andress",
       "score1": 20,
       "team2": "Abilene Cooper",
       "score2": 49,
@@ -6403,7 +6403,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "CTX",
-      "team1": "SA Highlands",
+      "team1": "San Antonio Highlands",
       "score1": 17,
       "team2": "Liberty Hill",
       "score2": 63,
@@ -6429,9 +6429,9 @@
       "chapter": "SAT",
       "team1": "Kerrville Tivy",
       "score1": 27,
-      "team2": "SA Alamo Heights",
+      "team2": "San Antonio Alamo Heights",
       "score2": 64,
-      "winner": "SA Alamo Heights"
+      "winner": "San Antonio Alamo Heights"
     },
     {
       "year": 2022,
@@ -6453,9 +6453,9 @@
       "chapter": "AUS",
       "team1": "Roma",
       "score1": 21,
-      "team2": "CC Flour Bluff",
+      "team2": "Corpus Christi Flour Bluff",
       "score2": 56,
-      "winner": "CC Flour Bluff"
+      "winner": "Corpus Christi Flour Bluff"
     },
     {
       "year": 2022,
@@ -6463,7 +6463,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "SA Burbank",
+      "team1": "San Antonio Burbank",
       "score1": 7,
       "team2": "Lockhart",
       "score2": 62,
@@ -6487,11 +6487,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "SA Harlandale",
+      "team1": "San Antonio Harlandale",
       "score1": 7,
-      "team2": "SA Veterans Memorial",
+      "team2": "San Antonio Veterans Memorial",
       "score2": 38,
-      "winner": "SA Veterans Memorial"
+      "winner": "San Antonio Veterans Memorial"
     },
     {
       "year": 2022,
@@ -6499,7 +6499,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "SPC",
-      "team1": "FW Arlington Heights",
+      "team1": "Fort Worth Arlington Heights",
       "score1": 14,
       "team2": "Canutillo",
       "score2": 21,
@@ -6523,7 +6523,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "TYL",
-      "team1": "WF Rider",
+      "team1": "Wichita Falls Rider",
       "score1": 0,
       "team2": "Argyle",
       "score2": 7,
@@ -6657,9 +6657,9 @@
       "chapter": "HOU",
       "team1": "Gregory-Portland",
       "score1": 8,
-      "team2": "SA Alamo Heights",
+      "team2": "San Antonio Alamo Heights",
       "score2": 31,
-      "winner": "SA Alamo Heights"
+      "winner": "San Antonio Alamo Heights"
     },
     {
       "year": 2022,
@@ -6669,9 +6669,9 @@
       "chapter": "AUS",
       "team1": "Lockhart",
       "score1": 21,
-      "team2": "CC Flour Bluff",
+      "team2": "Corpus Christi Flour Bluff",
       "score2": 49,
-      "winner": "CC Flour Bluff"
+      "winner": "Corpus Christi Flour Bluff"
     },
     {
       "year": 2022,
@@ -6681,9 +6681,9 @@
       "chapter": "HOU",
       "team1": "Mission Sharyland",
       "score1": 23,
-      "team2": "SA Veterans Memorial",
+      "team2": "San Antonio Veterans Memorial",
       "score2": 35,
-      "winner": "SA Veterans Memorial"
+      "winner": "San Antonio Veterans Memorial"
     },
     {
       "year": 2022,
@@ -6763,7 +6763,7 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "FTW",
-      "team1": "SA Alamo Heights",
+      "team1": "San Antonio Alamo Heights",
       "score1": 32,
       "team2": "Liberty Hill",
       "score2": 37,
@@ -6775,11 +6775,11 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "HOU",
-      "team1": "SA Veterans Memorial",
+      "team1": "San Antonio Veterans Memorial",
       "score1": 42,
-      "team2": "CC Flour Bluff",
+      "team2": "Corpus Christi Flour Bluff",
       "score2": 66,
-      "winner": "CC Flour Bluff"
+      "winner": "Corpus Christi Flour Bluff"
     },
     {
       "year": 2022,
@@ -6823,7 +6823,7 @@
       "week": 4,
       "round": "Quarterfinals",
       "chapter": "FTW",
-      "team1": "CC Flour Bluff",
+      "team1": "Corpus Christi Flour Bluff",
       "score1": 43,
       "team2": "Liberty Hill",
       "score2": 63,
@@ -6871,7 +6871,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAN",
-      "team1": "EP Del Valle",
+      "team1": "El Paso Del Valle",
       "score1": 14,
       "team2": "Abilene High",
       "score2": 42,
@@ -6933,7 +6933,7 @@
       "chapter": "PBC",
       "team1": "Lubbock Cooper",
       "score1": 59,
-      "team2": "EP Bel Aire",
+      "team2": "El Paso Bel Aire",
       "score2": 7,
       "winner": "Lubbock Cooper"
     },
@@ -6955,7 +6955,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "ABI",
-      "team1": "EP Parkland",
+      "team1": "El Paso Parkland",
       "score1": 20,
       "team2": "Amarillo High",
       "score2": 38,
@@ -7411,11 +7411,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "AUS",
-      "team1": "SA Southside",
+      "team1": "San Antonio Southside",
       "score1": 37,
       "team2": "Victoria East",
       "score2": 36,
-      "winner": "SA Southside"
+      "winner": "San Antonio Southside"
     },
     {
       "year": 2022,
@@ -7435,11 +7435,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "CC Veterans Memorial",
+      "team1": "Corpus Christi Veterans Memorial",
       "score1": 70,
       "team2": "Medina Valley",
       "score2": 14,
-      "winner": "CC Veterans Memorial"
+      "winner": "Corpus Christi Veterans Memorial"
     },
     {
       "year": 2022,
@@ -7471,11 +7471,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "CSC",
-      "team1": "CC Miller",
+      "team1": "Corpus Christi Miller",
       "score1": 70,
-      "team2": "SA Southwest Legacy",
+      "team2": "San Antonio Southwest Legacy",
       "score2": 34,
-      "winner": "CC Miller"
+      "winner": "Corpus Christi Miller"
     },
     {
       "year": 2022,
@@ -7495,7 +7495,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "AUS",
-      "team1": "SA Southwest Legacy",
+      "team1": "San Antonio Southwest Legacy",
       "score1": 16,
       "team2": "Victoria West",
       "score2": 21,
@@ -7507,7 +7507,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "SA Southside",
+      "team1": "San Antonio Southside",
       "score1": 0,
       "team2": "McAllen",
       "score2": 21,
@@ -7519,11 +7519,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "CC Veterans Memorial",
+      "team1": "Corpus Christi Veterans Memorial",
       "score1": 14,
       "team2": "Vela",
       "score2": 7,
-      "winner": "CC Veterans Memorial"
+      "winner": "Corpus Christi Veterans Memorial"
     },
     {
       "year": 2022,
@@ -7533,7 +7533,7 @@
       "chapter": "CTX",
       "team1": "Pharr-San Juan-Alamo North",
       "score1": 35,
-      "team2": "CC Miller",
+      "team2": "Corpus Christi Miller",
       "score2": 14,
       "winner": "Pharr-San Juan-Alamo North"
     },
@@ -7557,9 +7557,9 @@
       "chapter": "HOU",
       "team1": "McAllen",
       "score1": 14,
-      "team2": "CC Veterans Memorial",
+      "team2": "Corpus Christi Veterans Memorial",
       "score2": 49,
-      "winner": "CC Veterans Memorial"
+      "winner": "Corpus Christi Veterans Memorial"
     },
     {
       "year": 2022,
@@ -7579,11 +7579,11 @@
       "week": 4,
       "round": "Quarterfinals",
       "chapter": "AUS",
-      "team1": "CC Veterans Memorial",
+      "team1": "Corpus Christi Veterans Memorial",
       "score1": 20,
       "team2": "Pharr-San Juan-Alamo North",
       "score2": 14,
-      "winner": "CC Veterans Memorial"
+      "winner": "Corpus Christi Veterans Memorial"
     },
     {
       "year": 2022,
@@ -7605,7 +7605,7 @@
       "chapter": "HOU",
       "team1": "College Station",
       "score1": 33,
-      "team2": "CC Veterans Memorial",
+      "team2": "Corpus Christi Veterans Memorial",
       "score2": 7,
       "winner": "College Station"
     },
@@ -7627,11 +7627,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "FTW",
-      "team1": "EP Eastwood",
+      "team1": "El Paso Eastwood",
       "score1": 61,
       "team2": "San Angelo Central",
       "score2": 49,
-      "winner": "EP Eastwood"
+      "winner": "El Paso Eastwood"
     },
     {
       "year": 2022,
@@ -7639,7 +7639,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "FTW",
-      "team1": "FW Boswell",
+      "team1": "Fort Worth Boswell",
       "score1": 14,
       "team2": "Northwest Nelson",
       "score2": 54,
@@ -7677,7 +7677,7 @@
       "chapter": "DAL",
       "team1": "Wolfforth Frenship",
       "score1": 35,
-      "team2": "EP Eastlake",
+      "team2": "El Paso Eastlake",
       "score2": 17,
       "winner": "Wolfforth Frenship"
     },
@@ -7723,7 +7723,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "AUS",
-      "team1": "EP Eastwood",
+      "team1": "El Paso Eastwood",
       "score1": 28,
       "team2": "Northwest Nelson",
       "score2": 35,
@@ -8181,7 +8181,7 @@
       "chapter": "SAT",
       "team1": "Converse Judson",
       "score1": 42,
-      "team2": "SA Churchill",
+      "team2": "San Antonio Churchill",
       "score2": 5,
       "winner": "Converse Judson"
     },
@@ -8191,11 +8191,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "SA Harlan",
+      "team1": "San Antonio Harlan",
       "score1": 42,
       "team2": "Del Rio",
       "score2": 3,
-      "winner": "SA Harlan"
+      "winner": "San Antonio Harlan"
     },
     {
       "year": 2022,
@@ -8227,11 +8227,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "SA Brandeis",
+      "team1": "San Antonio Brandeis",
       "score1": 27,
       "team2": "San Marcos",
       "score2": 14,
-      "winner": "SA Brandeis"
+      "winner": "San Antonio Brandeis"
     },
     {
       "year": 2022,
@@ -8241,9 +8241,9 @@
       "chapter": "AUS",
       "team1": "Eagle Pass",
       "score1": 28,
-      "team2": "SA Warren",
+      "team2": "San Antonio Warren",
       "score2": 47,
-      "winner": "SA Warren"
+      "winner": "San Antonio Warren"
     },
     {
       "year": 2022,
@@ -8275,11 +8275,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "STX",
-      "team1": "SA Harlan",
+      "team1": "San Antonio Harlan",
       "score1": 49,
       "team2": "Weslaco",
       "score2": 3,
-      "winner": "SA Harlan"
+      "winner": "San Antonio Harlan"
     },
     {
       "year": 2022,
@@ -8289,7 +8289,7 @@
       "chapter": "HOU",
       "team1": "Dripping Springs",
       "score1": 56,
-      "team2": "SA Brandeis",
+      "team2": "San Antonio Brandeis",
       "score2": 28,
       "winner": "Dripping Springs"
     },
@@ -8301,7 +8301,7 @@
       "chapter": "HOU",
       "team1": "Harlingen",
       "score1": 39,
-      "team2": "SA Warren",
+      "team2": "San Antonio Warren",
       "score2": 21,
       "winner": "Harlingen"
     },
@@ -8313,7 +8313,7 @@
       "chapter": "DAL",
       "team1": "Austin Vandegrift",
       "score1": 49,
-      "team2": "SA Harlan",
+      "team2": "San Antonio Harlan",
       "score2": 21,
       "winner": "Austin Vandegrift"
     },
@@ -8383,11 +8383,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "EP Pebble Hills",
+      "team1": "El Paso Pebble Hills",
       "score1": 45,
       "team2": "Odessa Permian",
       "score2": 28,
-      "winner": "EP Pebble Hills"
+      "winner": "El Paso Pebble Hills"
     },
     {
       "year": 2022,
@@ -8433,7 +8433,7 @@
       "chapter": "SAT",
       "team1": "Midland Legacy",
       "score1": 46,
-      "team2": "EP Franklin",
+      "team2": "El Paso Franklin",
       "score2": 21,
       "winner": "Midland Legacy"
     },
@@ -8479,7 +8479,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "AUS",
-      "team1": "EP Pebble Hills",
+      "team1": "El Paso Pebble Hills",
       "score1": 42,
       "team2": "North Crowley",
       "score2": 49,
@@ -8937,7 +8937,7 @@
       "chapter": "SAT",
       "team1": "Cibolo Steele",
       "score1": 34,
-      "team2": "SA Johnson",
+      "team2": "San Antonio Johnson",
       "score2": 17,
       "winner": "Cibolo Steele"
     },
@@ -8947,11 +8947,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "SA Brennan",
+      "team1": "San Antonio Brennan",
       "score1": 58,
       "team2": "Laredo Alexander",
       "score2": 7,
-      "winner": "SA Brennan"
+      "winner": "San Antonio Brennan"
     },
     {
       "year": 2022,
@@ -8983,7 +8983,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "SA Reagan",
+      "team1": "San Antonio Reagan",
       "score1": 13,
       "team2": "New Braunfels",
       "score2": 17,
@@ -8997,9 +8997,9 @@
       "chapter": "HOU",
       "team1": "Laredo United",
       "score1": 14,
-      "team2": "SA Taft",
+      "team2": "San Antonio Taft",
       "score2": 49,
-      "winner": "SA Taft"
+      "winner": "San Antonio Taft"
     },
     {
       "year": 2022,
@@ -9031,11 +9031,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "STX",
-      "team1": "SA Brennan",
+      "team1": "San Antonio Brennan",
       "score1": 42,
       "team2": "Los Fresnos",
       "score2": 7,
-      "winner": "SA Brennan"
+      "winner": "San Antonio Brennan"
     },
     {
       "year": 2022,
@@ -9055,7 +9055,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "SA Taft",
+      "team1": "San Antonio Taft",
       "score1": 19,
       "team2": "San Benito",
       "score2": 38,
@@ -9067,11 +9067,11 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "HOU",
-      "team1": "SA Brennan",
+      "team1": "San Antonio Brennan",
       "score1": 34,
       "team2": "Austin Lake Travis",
       "score2": 17,
-      "winner": "SA Brennan"
+      "winner": "San Antonio Brennan"
     },
     {
       "year": 2022,
@@ -9093,7 +9093,7 @@
       "chapter": "HOU",
       "team1": "Austin Westlake",
       "score1": 47,
-      "team2": "SA Brennan",
+      "team2": "San Antonio Brennan",
       "score2": 7,
       "winner": "Austin Westlake"
     },
