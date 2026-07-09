@@ -1079,8 +1079,7 @@
       "score1": 28,
       "team2": "Nazareth",
       "score2": 62,
-      "winner": "Nazareth",
-      "location": "(@Petersburg, Friday 7:30pm)"
+      "winner": "Nazareth"
     },
     {
       "year": 2022,
@@ -1092,8 +1091,7 @@
       "score1": 0,
       "team2": "Happy",
       "score2": 50,
-      "winner": "Happy",
-      "location": "(@Motley County, Friday 7 pm)"
+      "winner": "Happy"
     },
     {
       "year": 2022,
@@ -1105,8 +1103,7 @@
       "score1": 24,
       "team2": "Rankin",
       "score2": 70,
-      "winner": "Rankin",
-      "location": "(@Borden County, Friday 6pm)"
+      "winner": "Rankin"
     },
     {
       "year": 2022,
@@ -1118,8 +1115,7 @@
       "score1": 0,
       "team2": "Westbrook",
       "score2": 48,
-      "winner": "Westbrook",
-      "location": "(@Garden City, Friday 7pm)"
+      "winner": "Westbrook"
     },
     {
       "year": 2022,
@@ -1131,8 +1127,7 @@
       "score1": 48,
       "team2": "Gordon",
       "score2": 52,
-      "winner": "Gordon",
-      "location": "(@Hico, Friday 7pm)"
+      "winner": "Gordon"
     },
     {
       "year": 2022,
@@ -1144,8 +1139,7 @@
       "score1": 10,
       "team2": "Abbott",
       "score2": 58,
-      "winner": "Abbott",
-      "location": "(@Mabank, Friday 7pm)"
+      "winner": "Abbott"
     },
     {
       "year": 2022,
@@ -1157,8 +1151,7 @@
       "score1": 0,
       "team2": "Irion County",
       "score2": 52,
-      "winner": "Irion County",
-      "location": "(@Sonora, Thursday 6pm)"
+      "winner": "Irion County"
     },
     {
       "year": 2022,
@@ -1170,8 +1163,7 @@
       "score1": 56,
       "team2": "Jonesboro",
       "score2": 62,
-      "winner": "Jonesboro",
-      "location": "(@San Saba, Friday 6:30pm)"
+      "winner": "Jonesboro"
     },
     {
       "year": 2022,
@@ -1183,8 +1175,7 @@
       "score1": 16,
       "team2": "Happy",
       "score2": 56,
-      "winner": "Happy",
-      "location": "(@Tulia, Friday 6pm)"
+      "winner": "Happy"
     },
     {
       "year": 2022,
@@ -1196,8 +1187,7 @@
       "score1": 16,
       "team2": "Westbrook",
       "score2": 62,
-      "winner": "Westbrook",
-      "location": "(@Robert Lee, Saturday 5pm)"
+      "winner": "Westbrook"
     },
     {
       "year": 2022,
@@ -1209,8 +1199,7 @@
       "score1": 24,
       "team2": "Abbott",
       "score2": 32,
-      "winner": "Abbott",
-      "location": "(@Hico, Friday 6pm)"
+      "winner": "Abbott"
     },
     {
       "year": 2022,
@@ -1234,8 +1223,7 @@
       "score1": 30,
       "team2": "Westbrook",
       "score2": 40,
-      "winner": "Westbrook",
-      "location": "(@Slaton, Friday 6pm)"
+      "winner": "Westbrook"
     },
     {
       "year": 2022,
@@ -1259,8 +1247,7 @@
       "score1": 24,
       "team2": "Westbrook",
       "score2": 69,
-      "winner": "Westbrook",
-      "location": "(AT&T Stadium, Wednesday Dec 14 2pm)"
+      "winner": "Westbrook"
     },
     {
       "year": 2022,
@@ -1464,8 +1451,7 @@
       "score1": 14,
       "team2": "Balmorhea",
       "score2": 60,
-      "winner": "Balmorhea",
-      "location": "(@Hermleigh, Friday 6pm)"
+      "winner": "Balmorhea"
     },
     {
       "year": 2022,
@@ -1477,8 +1463,7 @@
       "score1": 20,
       "team2": "Whitharral",
       "score2": 64,
-      "winner": "Whitharral",
-      "location": "(@Lubbock Trinity, Friday 7:30pm)"
+      "winner": "Whitharral"
     },
     {
       "year": 2022,
@@ -1490,8 +1475,7 @@
       "score1": 24,
       "team2": "Throckmorton",
       "score2": 30,
-      "winner": "Throckmorton",
-      "location": "(@Hamlin, Friday 7pm)"
+      "winner": "Throckmorton"
     },
     {
       "year": 2022,
@@ -1515,8 +1499,7 @@
       "score1": 44,
       "team2": "Oakwood",
       "score2": 71,
-      "winner": "Oakwood",
-      "location": "(@Mexia, Friday 7pm)"
+      "winner": "Oakwood"
     },
     {
       "year": 2022,
@@ -1528,8 +1511,7 @@
       "score1": 35,
       "team2": "Bluffdale",
       "score2": 81,
-      "winner": "Bluffdale",
-      "location": "(@Dublin, Friday 7pm)"
+      "winner": "Bluffdale"
     },
     {
       "year": 2022,
@@ -1541,8 +1523,7 @@
       "score1": 0,
       "team2": "Loraine",
       "score2": 52,
-      "winner": "Loraine",
-      "location": "(@Irion County, Friday 7pm)"
+      "winner": "Loraine"
     },
     {
       "year": 2022,
@@ -1554,8 +1535,7 @@
       "score1": 30,
       "team2": "Cherokee",
       "score2": 36,
-      "winner": "Cherokee",
-      "location": "(@Strawn, Friday  6:30pm)"
+      "winner": "Cherokee"
     },
     {
       "year": 2022,
@@ -1567,8 +1547,7 @@
       "score1": 20,
       "team2": "Whitharral",
       "score2": 34,
-      "winner": "Whitharral",
-      "location": "(@Hermleigh, Friday 6pm)"
+      "winner": "Whitharral"
     },
     {
       "year": 2022,
@@ -1580,8 +1559,7 @@
       "score1": 0,
       "team2": "Benjamin",
       "score2": 48,
-      "winner": "Benjamin",
-      "location": "(@Springtown, Friday 6:30pm)"
+      "winner": "Benjamin"
     },
     {
       "year": 2022,
@@ -1593,8 +1571,7 @@
       "score1": 51,
       "team2": "Oakwood",
       "score2": 64,
-      "winner": "Oakwood",
-      "location": "(@Ferris, Friday 7pm)"
+      "winner": "Oakwood"
     },
     {
       "year": 2022,
@@ -1606,8 +1583,7 @@
       "score1": 6,
       "team2": "Loraine",
       "score2": 24,
-      "winner": "Loraine",
-      "location": "(@Miles, Friday 6pm)"
+      "winner": "Loraine"
     },
     {
       "year": 2022,
@@ -1619,8 +1595,7 @@
       "score1": 31,
       "team2": "Benjamin",
       "score2": 76,
-      "winner": "Benjamin",
-      "location": "(@Hermleigh, Saturday 3pm)"
+      "winner": "Benjamin"
     },
     {
       "year": 2022,
@@ -1632,8 +1607,7 @@
       "score1": 38,
       "team2": "Loraine",
       "score2": 86,
-      "winner": "Loraine",
-      "location": "(@Dublin, Friday 7pm)"
+      "winner": "Loraine"
     },
     {
       "year": 2022,
@@ -1645,8 +1619,7 @@
       "score1": 68,
       "team2": "Loraine",
       "score2": 20,
-      "winner": "Benjamin",
-      "location": "(AT&T Stadium, Wednesday Dec 14 11am)"
+      "winner": "Benjamin"
     },
     {
       "year": 2022,
@@ -2750,8 +2723,7 @@
       "score1": 48,
       "team2": "Seagraves",
       "score2": 7,
-      "winner": "Vega",
-      "location": "(Plainview, Friday 7pm)"
+      "winner": "Vega"
     },
     {
       "year": 2022,
@@ -2763,8 +2735,7 @@
       "score1": 48,
       "team2": "Sudan",
       "score2": 0,
-      "winner": "Wellington",
-      "location": "(@Amarillo Dick Bivins, Friday 7pm)"
+      "winner": "Wellington"
     },
     {
       "year": 2022,
@@ -2776,8 +2747,7 @@
       "score1": 14,
       "team2": "Clarendon",
       "score2": 48,
-      "winner": "Clarendon",
-      "location": "(@Tulia, Friday 7pm)"
+      "winner": "Clarendon"
     },
     {
       "year": 2022,
@@ -2789,8 +2759,7 @@
       "score1": 22,
       "team2": "Sunray",
       "score2": 21,
-      "winner": "New Home",
-      "location": "(@Hereford, 7pm Friday)"
+      "winner": "New Home"
     },
     {
       "year": 2022,
@@ -2802,8 +2771,7 @@
       "score1": 35,
       "team2": "Santo",
       "score2": 19,
-      "winner": "Wink",
-      "location": "(@Colorado City, Thursday 7pm)"
+      "winner": "Wink"
     },
     {
       "year": 2022,
@@ -2815,8 +2783,7 @@
       "score1": 56,
       "team2": "Muenster",
       "score2": 10,
-      "winner": "Albany",
-      "location": "(@Graham, Thursday 7pm)"
+      "winner": "Albany"
     },
     {
       "year": 2022,
@@ -2828,8 +2795,7 @@
       "score1": 43,
       "team2": "Sterling City",
       "score2": 29,
-      "winner": "Windthorst",
-      "location": "(@Clyde, Thursday 7pm)"
+      "winner": "Windthorst"
     },
     {
       "year": 2022,
@@ -2841,8 +2807,7 @@
       "score1": 51,
       "team2": "McCamey",
       "score2": 14,
-      "winner": "Collinsville",
-      "location": "(@Brownwood, Friday 6pm)"
+      "winner": "Collinsville"
     },
     {
       "year": 2022,
@@ -2854,8 +2819,7 @@
       "score1": 30,
       "team2": "Deweyville",
       "score2": 16,
-      "winner": "Bowie",
-      "location": "(@Center, Friday 7pm)"
+      "winner": "Bowie"
     },
     {
       "year": 2022,
@@ -2867,8 +2831,7 @@
       "score1": 69,
       "team2": "Cushing",
       "score2": 7,
-      "winner": "Mart",
-      "location": "(@Madisonville, Friday 7pm)"
+      "winner": "Mart"
     },
     {
       "year": 2022,
@@ -2880,8 +2843,7 @@
       "score1": 40,
       "team2": "Wortham",
       "score2": 36,
-      "winner": "Carlisle",
-      "location": "(@Palestine, Friday 7pm)"
+      "winner": "Carlisle"
     },
     {
       "year": 2022,
@@ -2893,8 +2855,7 @@
       "score1": 56,
       "team2": "Maud",
       "score2": 0,
-      "winner": "Lovelady",
-      "location": "(@Arp, Friday 7pm)"
+      "winner": "Lovelady"
     },
     {
       "year": 2022,
@@ -2918,8 +2879,7 @@
       "score1": 55,
       "team2": "Rock Springs",
       "score2": 0,
-      "winner": "Burton",
-      "location": "(@Johnson City, Friday 7pm)"
+      "winner": "Burton"
     },
     {
       "year": 2022,
@@ -2931,8 +2891,7 @@
       "score1": 20,
       "team2": "Falls City",
       "score2": 29,
-      "winner": "Falls City",
-      "location": "(@Jourdanton, 7pm Friday"
+      "winner": "Falls City"
     },
     {
       "year": 2022,
@@ -2944,8 +2903,7 @@
       "score1": 6,
       "team2": "Granger",
       "score2": 41,
-      "winner": "Granger",
-      "location": "(@Floresville, Friday 7pm)"
+      "winner": "Granger"
     },
     {
       "year": 2022,
@@ -2957,8 +2915,7 @@
       "score1": 7,
       "team2": "Wellington",
       "score2": 26,
-      "winner": "Wellington",
-      "location": "(@Canyon HSB Stadium, Friday 3pm)"
+      "winner": "Wellington"
     },
     {
       "year": 2022,
@@ -2970,8 +2927,7 @@
       "score1": 8,
       "team2": "New Home",
       "score2": 14,
-      "winner": "New Home",
-      "location": "(@Floydada, Friday 2pm)"
+      "winner": "New Home"
     },
     {
       "year": 2022,
@@ -2983,8 +2939,7 @@
       "score1": 25,
       "team2": "Albany",
       "score2": 35,
-      "winner": "Albany",
-      "location": "(San Angelo ASU, Friday 5pm)"
+      "winner": "Albany"
     },
     {
       "year": 2022,
@@ -2996,8 +2951,7 @@
       "score1": 28,
       "team2": "Collinsville",
       "score2": 32,
-      "winner": "Collinsville",
-      "location": "(@Springtown, Friday 1pm)"
+      "winner": "Collinsville"
     },
     {
       "year": 2022,
@@ -3009,8 +2963,7 @@
       "score1": 0,
       "team2": "Mart",
       "score2": 58,
-      "winner": "Mart",
-      "location": "(@Van, Friday 2pm)"
+      "winner": "Mart"
     },
     {
       "year": 2022,
@@ -3022,8 +2975,7 @@
       "score1": 14,
       "team2": "Lovelady",
       "score2": 21,
-      "winner": "Lovelady",
-      "location": "(@Palestine, Friday 7pm)"
+      "winner": "Lovelady"
     },
     {
       "year": 2022,
@@ -3035,8 +2987,7 @@
       "score1": 55,
       "team2": "Chilton",
       "score2": 0,
-      "winner": "Burton",
-      "location": "(Bryan Green Stadium, Friday 7pm)"
+      "winner": "Burton"
     },
     {
       "year": 2022,
@@ -3048,8 +2999,7 @@
       "score1": 13,
       "team2": "Granger",
       "score2": 60,
-      "winner": "Granger",
-      "location": "(@Seguin, Friday 7pm)"
+      "winner": "Granger"
     },
     {
       "year": 2022,
@@ -3061,8 +3011,7 @@
       "score1": 20,
       "team2": "New Home",
       "score2": 35,
-      "winner": "New Home",
-      "location": "(@Canyon HSB Stadium, Friday 7pm)"
+      "winner": "New Home"
     },
     {
       "year": 2022,
@@ -3074,8 +3023,7 @@
       "score1": 66,
       "team2": "Collinsville",
       "score2": 34,
-      "winner": "Albany",
-      "location": "(@Mineral Wells, Friday 7pm)"
+      "winner": "Albany"
     },
     {
       "year": 2022,
@@ -3087,8 +3035,7 @@
       "score1": 6,
       "team2": "Mart",
       "score2": 56,
-      "winner": "Mart",
-      "location": "(@College Station Tiger Stadium, Friday 7pm)"
+      "winner": "Mart"
     },
     {
       "year": 2022,
@@ -3100,8 +3047,7 @@
       "score1": 27,
       "team2": "Granger",
       "score2": 7,
-      "winner": "Burton",
-      "location": "(@Bastrop, Friday 7pm)"
+      "winner": "Burton"
     },
     {
       "year": 2022,
@@ -3113,8 +3059,7 @@
       "score1": 25,
       "team2": "Albany",
       "score2": 53,
-      "winner": "Albany",
-      "location": "(@Sweetwater, Thursday 7pm)"
+      "winner": "Albany"
     },
     {
       "year": 2022,
@@ -3126,8 +3071,7 @@
       "score1": 14,
       "team2": "Mart",
       "score2": 41,
-      "winner": "Mart",
-      "location": "(@Round Rock, Thursday 7pm)"
+      "winner": "Mart"
     },
     {
       "year": 2022,
@@ -3139,8 +3083,7 @@
       "score1": 21,
       "team2": "Albany",
       "score2": 41,
-      "winner": "Albany",
-      "location": "(@AT&T Stadium, Wednesday Dec 14 7pm)"
+      "winner": "Albany"
     },
     {
       "year": 2022,
@@ -3536,8 +3479,7 @@
       "score1": 15,
       "team2": "Whitesboro",
       "score2": 65,
-      "winner": "Whitesboro",
-      "location": "(@Childress, Friday 6pm)"
+      "winner": "Whitesboro"
     },
     {
       "year": 2022,
@@ -3549,8 +3491,7 @@
       "score1": 14,
       "team2": "Paradise",
       "score2": 17,
-      "winner": "Paradise",
-      "location": "(@Colorado City, Friday 7pm)"
+      "winner": "Paradise"
     },
     {
       "year": 2022,
@@ -3562,8 +3503,7 @@
       "score1": 10,
       "team2": "Bushland",
       "score2": 28,
-      "winner": "Bushland",
-      "location": "(@Lubbock Lowery Field, Friday 7pm)"
+      "winner": "Bushland"
     },
     {
       "year": 2022,
@@ -3575,8 +3515,7 @@
       "score1": 20,
       "team2": "Brock",
       "score2": 57,
-      "winner": "Brock",
-      "location": "(@Sweetwater, Thursday 7pm)"
+      "winner": "Brock"
     },
     {
       "year": 2022,
@@ -3588,8 +3527,7 @@
       "score1": 49,
       "team2": "Pottsboro",
       "score2": 62,
-      "winner": "Pottsboro",
-      "location": "(@Mesquite Memorial, Tursday 7pm)"
+      "winner": "Pottsboro"
     },
     {
       "year": 2022,
@@ -3601,8 +3539,7 @@
       "score1": 14,
       "team2": "Grandview",
       "score2": 48,
-      "winner": "Grandview",
-      "location": "(@Mesquite Hanby, Friday 7pm)"
+      "winner": "Grandview"
     },
     {
       "year": 2022,
@@ -3614,8 +3551,7 @@
       "score1": 14,
       "team2": "West",
       "score2": 27,
-      "winner": "West",
-      "location": "(@Forney, Friday 7pm)"
+      "winner": "West"
     },
     {
       "year": 2022,
@@ -3627,8 +3563,7 @@
       "score1": 10,
       "team2": "Malakoff",
       "score2": 55,
-      "winner": "Malakoff",
-      "location": "(@Tyler Rose, Friday 7:30pm)"
+      "winner": "Malakoff"
     },
     {
       "year": 2022,
@@ -3640,8 +3575,7 @@
       "score1": 14,
       "team2": "Columbus",
       "score2": 35,
-      "winner": "Columbus",
-      "location": "(@Huffman, Friday 7pm)"
+      "winner": "Columbus"
     },
     {
       "year": 2022,
@@ -3653,8 +3587,7 @@
       "score1": 19,
       "team2": "Cameron Yoe",
       "score2": 42,
-      "winner": "Cameron Yoe",
-      "location": "(@Iowa Colony, Friday 7pm)"
+      "winner": "Cameron Yoe"
     },
     {
       "year": 2022,
@@ -3666,8 +3599,7 @@
       "score1": 7,
       "team2": "Franklin",
       "score2": 32,
-      "winner": "Franklin",
-      "location": "(@Waller, Thursday 7:30pm)"
+      "winner": "Franklin"
     },
     {
       "year": 2022,
@@ -3679,8 +3611,7 @@
       "score1": 31,
       "team2": "Hitchcock",
       "score2": 36,
-      "winner": "Hitchcock",
-      "location": "(@Anahuac, Friday 7pm)"
+      "winner": "Hitchcock"
     },
     {
       "year": 2022,
@@ -3692,8 +3623,7 @@
       "score1": 0,
       "team2": "Llano",
       "score2": 21,
-      "winner": "Llano",
-      "location": "(@San Antonio Warrior, Friday 7pm)"
+      "winner": "Llano"
     },
     {
       "year": 2022,
@@ -3705,8 +3635,7 @@
       "score1": 8,
       "team2": "Industrial",
       "score2": 13,
-      "winner": "Industrial",
-      "location": "(@Corpus Christi Hornet Stadium, Friday 7pm)"
+      "winner": "Industrial"
     },
     {
       "year": 2022,
@@ -3718,8 +3647,7 @@
       "score1": 7,
       "team2": "Edna",
       "score2": 16,
-      "winner": "Edna",
-      "location": "(@Smithville, Thursday 7pm)"
+      "winner": "Edna"
     },
     {
       "year": 2022,
@@ -3731,8 +3659,7 @@
       "score1": 13,
       "team2": "Blanco",
       "score2": 40,
-      "winner": "Blanco",
-      "location": "(@San Antonio Colamander Stadium, Friday 7pm)"
+      "winner": "Blanco"
     },
     {
       "year": 2022,
@@ -3744,8 +3671,7 @@
       "score1": 14,
       "team2": "Whitesboro",
       "score2": 42,
-      "winner": "Whitesboro",
-      "location": "(@River Oaks, Friday 2pm)"
+      "winner": "Whitesboro"
     },
     {
       "year": 2022,
@@ -3757,8 +3683,7 @@
       "score1": 27,
       "team2": "Brock",
       "score2": 51,
-      "winner": "Brock",
-      "location": "(@Vernon, Friday 2pm)"
+      "winner": "Brock"
     },
     {
       "year": 2022,
@@ -3770,8 +3695,7 @@
       "score1": 7,
       "team2": "Grandview",
       "score2": 29,
-      "winner": "Grandview",
-      "location": "(@Mesquite Memorial, Friday 1pm)"
+      "winner": "Grandview"
     },
     {
       "year": 2022,
@@ -3783,8 +3707,7 @@
       "score1": 14,
       "team2": "Malakoff",
       "score2": 35,
-      "winner": "Malakoff",
-      "location": "(@Corsicana, Friday 7:30pm)"
+      "winner": "Malakoff"
     },
     {
       "year": 2022,
@@ -3796,8 +3719,7 @@
       "score1": 14,
       "team2": "Columbus",
       "score2": 48,
-      "winner": "Columbus",
-      "location": "(@Bastrop, Friday 7pm)"
+      "winner": "Columbus"
     },
     {
       "year": 2022,
@@ -3809,8 +3731,7 @@
       "score1": 18,
       "team2": "Franklin",
       "score2": 53,
-      "winner": "Franklin",
-      "location": "(@Shenendoah Woodforest Bank Stadium, Friday 7pm)"
+      "winner": "Franklin"
     },
     {
       "year": 2022,
@@ -3822,8 +3743,7 @@
       "score1": 13,
       "team2": "Llano",
       "score2": 42,
-      "winner": "Llano",
-      "location": "(@San Antonio Heroes, Friday 1pm)"
+      "winner": "Llano"
     },
     {
       "year": 2022,
@@ -3835,8 +3755,7 @@
       "score1": 22,
       "team2": "Edna",
       "score2": 36,
-      "winner": "Edna",
-      "location": "(@San Antonio Farris Stadium, Friday 6pm)"
+      "winner": "Edna"
     },
     {
       "year": 2022,
@@ -3848,8 +3767,7 @@
       "score1": 19,
       "team2": "Brock",
       "score2": 30,
-      "winner": "Brock",
-      "location": "(@Denton Collins Stadium, Thursday 7pm)"
+      "winner": "Brock"
     },
     {
       "year": 2022,
@@ -3861,8 +3779,7 @@
       "score1": 17,
       "team2": "Malakoff",
       "score2": 29,
-      "winner": "Malakoff",
-      "location": "(@Waxahachie, Friday 7:30pm)"
+      "winner": "Malakoff"
     },
     {
       "year": 2022,
@@ -3874,8 +3791,7 @@
       "score1": 21,
       "team2": "Franklin",
       "score2": 24,
-      "winner": "Franklin",
-      "location": "(@Tomball, Friday 7pm)"
+      "winner": "Franklin"
     },
     {
       "year": 2022,
@@ -3887,8 +3803,7 @@
       "score1": 21,
       "team2": "Edna",
       "score2": 40,
-      "winner": "Edna",
-      "location": "(@San Marcos Rattler Stadium, Thursday 7pm)"
+      "winner": "Edna"
     },
     {
       "year": 2022,
@@ -3900,8 +3815,7 @@
       "score1": 10,
       "team2": "Brock",
       "score2": 21,
-      "winner": "Brock",
-      "location": "(@Frisco Ford Center, Thursday 7pm)"
+      "winner": "Brock"
     },
     {
       "year": 2022,
@@ -3913,8 +3827,7 @@
       "score1": 13,
       "team2": "Franklin",
       "score2": 41,
-      "winner": "Franklin",
-      "location": "(@Katy Legacy, Thursday 7pm)"
+      "winner": "Franklin"
     },
     {
       "year": 2022,
@@ -3926,8 +3839,7 @@
       "score1": 14,
       "team2": "Franklin",
       "score2": 17,
-      "winner": "Franklin",
-      "location": "(@ATT&T Stadium, Thursday Dec 15, 7pm)"
+      "winner": "Franklin"
     },
     {
       "year": 2022,
@@ -4323,8 +4235,7 @@
       "score1": 0,
       "team2": "Idalou",
       "score2": 28,
-      "winner": "Idalou",
-      "location": "(@Denver City, Friday 7pm)"
+      "winner": "Idalou"
     },
     {
       "year": 2022,
@@ -4336,8 +4247,7 @@
       "score1": 10,
       "team2": "Wall",
       "score2": 44,
-      "winner": "Wall",
-      "location": "(@Breckenridge, Friday 7pm)"
+      "winner": "Wall"
     },
     {
       "year": 2022,
@@ -4349,8 +4259,7 @@
       "score1": 14,
       "team2": "Canadian",
       "score2": 42,
-      "winner": "Canadian",
-      "location": "(@Vernon, Friday 7pm)"
+      "winner": "Canadian"
     },
     {
       "year": 2022,
@@ -4362,8 +4271,7 @@
       "score1": 0,
       "team2": "Spearman",
       "score2": 49,
-      "winner": "Spearman",
-      "location": "(@Post, Friday 6pm)"
+      "winner": "Spearman"
     },
     {
       "year": 2022,
@@ -4375,8 +4283,7 @@
       "score1": 25,
       "team2": "Bells",
       "score2": 50,
-      "winner": "Bells",
-      "location": "(@Springtown, Thursday 7pm)"
+      "winner": "Bells"
     },
     {
       "year": 2022,
@@ -4388,8 +4295,7 @@
       "score1": 10,
       "team2": "Holliday",
       "score2": 31,
-      "winner": "Holliday",
-      "location": "(@Weatherford, Thursday 7pm)"
+      "winner": "Holliday"
     },
     {
       "year": 2022,
@@ -4401,8 +4307,7 @@
       "score1": 13,
       "team2": "Palmer",
       "score2": 49,
-      "winner": "Palmer",
-      "location": "(@NRH Birdville, Thursday 7pm)"
+      "winner": "Palmer"
     },
     {
       "year": 2022,
@@ -4414,8 +4319,7 @@
       "score1": 7,
       "team2": "Gunter",
       "score2": 48,
-      "winner": "Gunter",
-      "location": "(@Grapevine Mustang-Panther Stadium, Thursday 7pm"
+      "winner": "Gunter"
     },
     {
       "year": 2022,
@@ -4427,8 +4331,7 @@
       "score1": 37,
       "team2": "West Rusk",
       "score2": 41,
-      "winner": "West Rusk",
-      "location": "(@Tatum, Thursday 7pm)"
+      "winner": "West Rusk"
     },
     {
       "year": 2022,
@@ -4440,8 +4343,7 @@
       "score1": 23,
       "team2": "Gilmer Harmony",
       "score2": 37,
-      "winner": "Gilmer Harmony",
-      "location": "(@Mount Pleasant, Friday 7:30pm)"
+      "winner": "Gilmer Harmony"
     },
     {
       "year": 2022,
@@ -4453,8 +4355,7 @@
       "score1": 22,
       "team2": "Daingerfield",
       "score2": 29,
-      "winner": "Daingerfield",
-      "location": "(@Sulpher Springs, Friday 7pm)"
+      "winner": "Daingerfield"
     },
     {
       "year": 2022,
@@ -4466,8 +4367,7 @@
       "score1": 8,
       "team2": "Newton",
       "score2": 65,
-      "winner": "Newton",
-      "location": "(@Henderson, Friday 7pm)"
+      "winner": "Newton"
     },
     {
       "year": 2022,
@@ -4479,8 +4379,7 @@
       "score1": 15,
       "team2": "Wallis Brazos",
       "score2": 42,
-      "winner": "Wallis Brazos",
-      "location": "(@Portland, Friday 7pm)"
+      "winner": "Wallis Brazos"
     },
     {
       "year": 2022,
@@ -4492,8 +4391,7 @@
       "score1": 8,
       "team2": "Tidehaven",
       "score2": 56,
-      "winner": "Tidehaven",
-      "location": "(@Altair, Friday 7:30pm)"
+      "winner": "Tidehaven"
     },
     {
       "year": 2022,
@@ -4505,8 +4403,7 @@
       "score1": 34,
       "team2": "Poth",
       "score2": 42,
-      "winner": "Poth",
-      "location": "(@Yoakum, Friday 7pm)"
+      "winner": "Poth"
     },
     {
       "year": 2022,
@@ -4518,8 +4415,7 @@
       "score1": 21,
       "team2": "Taft",
       "score2": 31,
-      "winner": "Taft",
-      "location": "(@Schertz, Friday 7:30pm)"
+      "winner": "Taft"
     },
     {
       "year": 2022,
@@ -4531,8 +4427,7 @@
       "score1": 0,
       "team2": "Wall",
       "score2": 30,
-      "winner": "Wall",
-      "location": "(@Sweetwater, Friday 1pm)"
+      "winner": "Wall"
     },
     {
       "year": 2022,
@@ -4544,8 +4439,7 @@
       "score1": 14,
       "team2": "Canadian",
       "score2": 63,
-      "winner": "Canadian",
-      "location": "(@Borger, Friday 2pm)"
+      "winner": "Canadian"
     },
     {
       "year": 2022,
@@ -4557,8 +4451,7 @@
       "score1": 14,
       "team2": "Holliday",
       "score2": 31,
-      "winner": "Holliday",
-      "location": "(@Denton, Friday 2pm)"
+      "winner": "Holliday"
     },
     {
       "year": 2022,
@@ -4570,8 +4463,7 @@
       "score1": 6,
       "team2": "Gunter",
       "score2": 40,
-      "winner": "Gunter",
-      "location": "(@Royse City, Friday 1pm)"
+      "winner": "Gunter"
     },
     {
       "year": 2022,
@@ -4583,8 +4475,7 @@
       "score1": 35,
       "team2": "Gilmer Harmony",
       "score2": 38,
-      "winner": "Gilmer Harmony",
-      "location": "(@Longview, Friday 1pm)"
+      "winner": "Gilmer Harmony"
     },
     {
       "year": 2022,
@@ -4596,8 +4487,7 @@
       "score1": 12,
       "team2": "Newton",
       "score2": 16,
-      "winner": "Newton",
-      "location": "(@Nacogdoches, Friday6pm)"
+      "winner": "Newton"
     },
     {
       "year": 2022,
@@ -4609,8 +4499,7 @@
       "score1": 0,
       "team2": "Tidehaven",
       "score2": 47,
-      "winner": "Tidehaven",
-      "location": "(@Iowa Colony, Friday 2pm)"
+      "winner": "Tidehaven"
     },
     {
       "year": 2022,
@@ -4622,8 +4511,7 @@
       "score1": 13,
       "team2": "Poth",
       "score2": 55,
-      "winner": "Poth",
-      "location": "(@Victoria Memorial Stadium, Friday 6pm)"
+      "winner": "Poth"
     },
     {
       "year": 2022,
@@ -4635,8 +4523,7 @@
       "score1": 10,
       "team2": "Canadian",
       "score2": 45,
-      "winner": "Canadian",
-      "location": "@Lubbock Cooper, Friday 6pm)"
+      "winner": "Canadian"
     },
     {
       "year": 2022,
@@ -4648,8 +4535,7 @@
       "score1": 7,
       "team2": "Gunter",
       "score2": 31,
-      "winner": "Gunter",
-      "location": "(@Frisco Ford Center, Friday 7pm)"
+      "winner": "Gunter"
     },
     {
       "year": 2022,
@@ -4661,8 +4547,7 @@
       "score1": 21,
       "team2": "Gilmer Harmony",
       "score2": 36,
-      "winner": "Gilmer Harmony",
-      "location": "(@Nacogdoches Bryce Stadium, Friday 7pm)"
+      "winner": "Gilmer Harmony"
     },
     {
       "year": 2022,
@@ -4674,8 +4559,7 @@
       "score1": 6,
       "team2": "Poth",
       "score2": 12,
-      "winner": "Poth",
-      "location": "(@San Marcos Bobcat Stadium, Friday 7pm)"
+      "winner": "Poth"
     },
     {
       "year": 2022,
@@ -4687,8 +4571,7 @@
       "score1": 20,
       "team2": "Gunter",
       "score2": 21,
-      "winner": "Gunter",
-      "location": "(@ACU, Friday 6pm)"
+      "winner": "Gunter"
     },
     {
       "year": 2022,
@@ -4700,8 +4583,7 @@
       "score1": 28,
       "team2": "Poth",
       "score2": 51,
-      "winner": "Poth",
-      "location": "(@Cy-Fair, Friday 7pm)"
+      "winner": "Poth"
     },
     {
       "year": 2022,
@@ -4713,8 +4595,7 @@
       "score1": 7,
       "team2": "Gunter",
       "score2": 42,
-      "winner": "Gunter",
-      "location": "(@ATT&T Stadium, Thursday Dec 15, 3pm)"
+      "winner": "Gunter"
     },
     {
       "year": 2022,
@@ -5110,8 +4991,7 @@
       "score1": 21,
       "team2": "Monahans",
       "score2": 31,
-      "winner": "Monahans",
-      "location": "(@Roscoe, Friday 7pm)"
+      "winner": "Monahans"
     },
     {
       "year": 2022,
@@ -5123,8 +5003,7 @@
       "score1": 40,
       "team2": "Godley",
       "score2": 41,
-      "winner": "Godley",
-      "location": "(@McMurry University, Thursday 7pm)"
+      "winner": "Godley"
     },
     {
       "year": 2022,
@@ -5136,8 +5015,7 @@
       "score1": 17,
       "team2": "Wichita Falls Hirschi",
       "score2": 42,
-      "winner": "Wichita Falls Hirschi",
-      "location": "(@Childress, Thursday 7pm)"
+      "winner": "Wichita Falls Hirschi"
     },
     {
       "year": 2022,
@@ -5149,8 +5027,7 @@
       "score1": 12,
       "team2": "Glen Rose",
       "score2": 63,
-      "winner": "Glen Rose",
-      "location": "(@San Angelo Stadium, Thursday, 7pm)"
+      "winner": "Glen Rose"
     },
     {
       "year": 2022,
@@ -5162,8 +5039,7 @@
       "score1": 41,
       "team2": "Aubrey",
       "score2": 43,
-      "winner": "Aubrey",
-      "location": "(@Tyler Rose Stadium, Saturday 6pm)"
+      "winner": "Aubrey"
     },
     {
       "year": 2022,
@@ -5175,8 +5051,7 @@
       "score1": 21,
       "team2": "Pleasant Grove",
       "score2": 55,
-      "winner": "Pleasant Grove",
-      "location": "(@Frisco Ford Center, Saturday 7pm)"
+      "winner": "Pleasant Grove"
     },
     {
       "year": 2022,
@@ -5188,8 +5063,7 @@
       "score1": 20,
       "team2": "Gilmer",
       "score2": 60,
-      "winner": "Gilmer",
-      "location": "(@Mesquite Memorial, Friday 7pm)"
+      "winner": "Gilmer"
     },
     {
       "year": 2022,
@@ -5201,8 +5075,7 @@
       "score1": 30,
       "team2": "Carthage",
       "score2": 61,
-      "winner": "Carthage",
-      "location": "(@Texarkana Tiger Stadium, Friday 7pm)"
+      "winner": "Carthage"
     },
     {
       "year": 2022,
@@ -5214,8 +5087,7 @@
       "score1": 0,
       "team2": "Silsbee",
       "score2": 34,
-      "winner": "Silsbee",
-      "location": "(@Waller, Friday 7:30pm)"
+      "winner": "Silsbee"
     },
     {
       "year": 2022,
@@ -5227,8 +5099,7 @@
       "score1": 3,
       "team2": "Madisonville",
       "score2": 9,
-      "winner": "Madisonville",
-      "location": "(@Navasota, Friday 7pm)"
+      "winner": "Madisonville"
     },
     {
       "year": 2022,
@@ -5240,8 +5111,7 @@
       "score1": 30,
       "team2": "Hamshire-Fannett",
       "score2": 33,
-      "winner": "Hamshire-Fannett",
-      "location": "(@Willis, Friday 7:30pm)"
+      "winner": "Hamshire-Fannett"
     },
     {
       "year": 2022,
@@ -5253,8 +5123,7 @@
       "score1": 18,
       "team2": "Cuero",
       "score2": 41,
-      "winner": "Cuero",
-      "location": "(@Cuero, Friday 7pm)"
+      "winner": "Cuero"
     },
     {
       "year": 2022,
@@ -5266,8 +5135,7 @@
       "score1": 0,
       "team2": "Wimberley",
       "score2": 48,
-      "winner": "Wimberley",
-      "location": "(@Von Ormy, Friday 7:30pm)"
+      "winner": "Wimberley"
     },
     {
       "year": 2022,
@@ -5279,8 +5147,7 @@
       "score1": 21,
       "team2": "Jarrell",
       "score2": 35,
-      "winner": "Jarrell",
-      "location": "(@Odem, Friday 7:30pm)"
+      "winner": "Jarrell"
     },
     {
       "year": 2022,
@@ -5292,8 +5159,7 @@
       "score1": 7,
       "team2": "Lago Vista",
       "score2": 42,
-      "winner": "Lago Vista",
-      "location": "(@Sequin, Friday 7pm)"
+      "winner": "Lago Vista"
     },
     {
       "year": 2022,
@@ -5305,8 +5171,7 @@
       "score1": 14,
       "team2": "Geronimo Navarro",
       "score2": 28,
-      "winner": "Geronimo Navarro",
-      "location": "(@Jourdanton, Thursday 7pm)"
+      "winner": "Geronimo Navarro"
     },
     {
       "year": 2022,
@@ -5318,8 +5183,7 @@
       "score1": 55,
       "team2": "Monahans",
       "score2": 62,
-      "winner": "Monahans",
-      "location": "(@Sweetwater, Friday 7pm)"
+      "winner": "Monahans"
     },
     {
       "year": 2022,
@@ -5331,8 +5195,7 @@
       "score1": 20,
       "team2": "Glen Rose",
       "score2": 45,
-      "winner": "Glen Rose",
-      "location": "(@Mineral Wells, Friday 3pm)"
+      "winner": "Glen Rose"
     },
     {
       "year": 2022,
@@ -5344,8 +5207,7 @@
       "score1": 14,
       "team2": "Pleasant Grove",
       "score2": 37,
-      "winner": "Pleasant Grove",
-      "location": "(@Paris, Friday 2pm)"
+      "winner": "Pleasant Grove"
     },
     {
       "year": 2022,
@@ -5357,8 +5219,7 @@
       "score1": 28,
       "team2": "Carthage",
       "score2": 61,
-      "winner": "Carthage",
-      "location": "(@Longview, Friday 6pm)"
+      "winner": "Carthage"
     },
     {
       "year": 2022,
@@ -5370,8 +5231,7 @@
       "score1": 21,
       "team2": "Silsbee",
       "score2": 60,
-      "winner": "Silsbee",
-      "location": "(@Spring Planet Ford Stadium, Friday 7pm)"
+      "winner": "Silsbee"
     },
     {
       "year": 2022,
@@ -5383,8 +5243,7 @@
       "score1": 14,
       "team2": "Cuero",
       "score2": 39,
-      "winner": "Cuero",
-      "location": "(@Katy Legacy, Friday 6pm)"
+      "winner": "Cuero"
     },
     {
       "year": 2022,
@@ -5396,8 +5255,7 @@
       "score1": 6,
       "team2": "Wimberley",
       "score2": 64,
-      "winner": "Wimberley",
-      "location": "(@Cedar Park Gupton Stadium, Friday 6pm)"
+      "winner": "Wimberley"
     },
     {
       "year": 2022,
@@ -5409,8 +5267,7 @@
       "score1": 7,
       "team2": "Lago Vista",
       "score2": 27,
-      "winner": "Lago Vista",
-      "location": "(@Hutto, Friday 1:30pm)"
+      "winner": "Lago Vista"
     },
     {
       "year": 2022,
@@ -5422,8 +5279,7 @@
       "score1": 14,
       "team2": "Glen Rose",
       "score2": 62,
-      "winner": "Glen Rose",
-      "location": "(@Sweetwater, Friday 7pm)"
+      "winner": "Glen Rose"
     },
     {
       "year": 2022,
@@ -5435,8 +5291,7 @@
       "score1": 14,
       "team2": "Carthage",
       "score2": 45,
-      "winner": "Carthage",
-      "location": "(@Marshall Maverick Stadium, Friday 7pm)"
+      "winner": "Carthage"
     },
     {
       "year": 2022,
@@ -5448,8 +5303,7 @@
       "score1": 56,
       "team2": "Cuero",
       "score2": 58,
-      "winner": "Cuero",
-      "location": "(@Houston NRG Stadium, Friday 1:30pm)"
+      "winner": "Cuero"
     },
     {
       "year": 2022,
@@ -5461,8 +5315,7 @@
       "score1": 30,
       "team2": "Wimberley",
       "score2": 49,
-      "winner": "Wimberley",
-      "location": "(@Hutto, Friday 7:30pm)"
+      "winner": "Wimberley"
     },
     {
       "year": 2022,
@@ -5474,8 +5327,7 @@
       "score1": 35,
       "team2": "Carthage",
       "score2": 42,
-      "winner": "Carthage",
-      "location": "(@Frisco Ford Center, Friday 7pm)"
+      "winner": "Carthage"
     },
     {
       "year": 2022,
@@ -5487,8 +5339,7 @@
       "score1": 36,
       "team2": "Wimberley",
       "score2": 42,
-      "winner": "Wimberley",
-      "location": "(@Alamodome, Friday 3pm)"
+      "winner": "Wimberley"
     },
     {
       "year": 2022,
@@ -5500,8 +5351,7 @@
       "score1": 0,
       "team2": "Carthage",
       "score2": 42,
-      "winner": "Carthage",
-      "location": "(@ATT&T Stadium, Friday Dec 16, 11am)"
+      "winner": "Carthage"
     },
     {
       "year": 2022,
@@ -5897,8 +5747,7 @@
       "score1": 7,
       "team2": "Wichita Falls High School",
       "score2": 31,
-      "winner": "Wichita Falls High School",
-      "location": "(@Clyde, Friday 8pm)"
+      "winner": "Wichita Falls High School"
     },
     {
       "year": 2022,
@@ -5910,8 +5759,7 @@
       "score1": 10,
       "team2": "Brownwood",
       "score2": 31,
-      "winner": "Brownwood",
-      "location": "(@Midland Astound Broadband Stadium, Friday 7pm)"
+      "winner": "Brownwood"
     },
     {
       "year": 2022,
@@ -5923,8 +5771,7 @@
       "score1": 14,
       "team2": "Canyon Randall",
       "score2": 27,
-      "winner": "Canyon Randall",
-      "location": "(@Canyon Happy State Bank Stadium, Friday 7pm)"
+      "winner": "Canyon Randall"
     },
     {
       "year": 2022,
@@ -5936,8 +5783,7 @@
       "score1": 15,
       "team2": "Decatur",
       "score2": 42,
-      "winner": "Decatur",
-      "location": "(@Clyde, Friday 4pm)"
+      "winner": "Decatur"
     },
     {
       "year": 2022,
@@ -5949,8 +5795,7 @@
       "score1": 7,
       "team2": "China Spring",
       "score2": 41,
-      "winner": "China Spring",
-      "location": "(@Corsicana, Friday 7pm)"
+      "winner": "China Spring"
     },
     {
       "year": 2022,
@@ -5962,8 +5807,7 @@
       "score1": 2,
       "team2": "Lake Worth",
       "score2": 7,
-      "winner": "Lake Worth",
-      "location": "(@Denton, Friday 7pm)"
+      "winner": "Lake Worth"
     },
     {
       "year": 2022,
@@ -5975,8 +5819,7 @@
       "score1": 28,
       "team2": "Celina",
       "score2": 34,
-      "winner": "Celina",
-      "location": "(@Bedford, Friday 7:30pm)"
+      "winner": "Celina"
     },
     {
       "year": 2022,
@@ -5988,8 +5831,7 @@
       "score1": 32,
       "team2": "Anna",
       "score2": 33,
-      "winner": "Anna",
-      "location": "(@Midlothian, Friday 7pm)"
+      "winner": "Anna"
     },
     {
       "year": 2022,
@@ -6001,8 +5843,7 @@
       "score1": 24,
       "team2": "Tyler Chapel Hill",
       "score2": 38,
-      "winner": "Tyler Chapel Hill",
-      "location": "(@Humble, Friday 7pm)"
+      "winner": "Tyler Chapel Hill"
     },
     {
       "year": 2022,
@@ -6014,8 +5855,7 @@
       "score1": 8,
       "team2": "Lumberton",
       "score2": 23,
-      "winner": "Lumberton",
-      "location": "(@Beaumont Memorial, Friday 7:30pm)"
+      "winner": "Lumberton"
     },
     {
       "year": 2022,
@@ -6027,8 +5867,7 @@
       "score1": 28,
       "team2": "Lindale",
       "score2": 42,
-      "winner": "Lindale",
-      "location": "(@Georgetown, Friday 7:30pm)"
+      "winner": "Lindale"
     },
     {
       "year": 2022,
@@ -6040,8 +5879,7 @@
       "score1": 20,
       "team2": "Kilgore",
       "score2": 34,
-      "winner": "Kilgore",
-      "location": "(@Porter, Friday, 1pm)"
+      "winner": "Kilgore"
     },
     {
       "year": 2022,
@@ -6053,8 +5891,7 @@
       "score1": 13,
       "team2": "Port Lavaca Calhoun",
       "score2": 28,
-      "winner": "Port Lavaca Calhoun",
-      "location": "(@Floresville, Thursday 7pm)"
+      "winner": "Port Lavaca Calhoun"
     },
     {
       "year": 2022,
@@ -6066,8 +5903,7 @@
       "score1": 21,
       "team2": "Boerne",
       "score2": 50,
-      "winner": "Boerne",
-      "location": "(@Alamo Heights, Friday 7pm)"
+      "winner": "Boerne"
     },
     {
       "year": 2022,
@@ -6079,8 +5915,7 @@
       "score1": 13,
       "team2": "Somerset",
       "score2": 23,
-      "winner": "Somerset",
-      "location": "(@San Antonio Heroes, Friday 7pm)"
+      "winner": "Somerset"
     },
     {
       "year": 2022,
@@ -6092,8 +5927,7 @@
       "score1": 14,
       "team2": "Corpus Christi Calallen",
       "score2": 22,
-      "winner": "Corpus Christi Calallen",
-      "location": "(@Victoria Memorial Stadium,  Friday 7:30pm)"
+      "winner": "Corpus Christi Calallen"
     },
     {
       "year": 2022,
@@ -6105,8 +5939,7 @@
       "score1": 19,
       "team2": "Wichita Falls High School",
       "score2": 41,
-      "winner": "Wichita Falls High School",
-      "location": "(@ACU, Friday 7pm)"
+      "winner": "Wichita Falls High School"
     },
     {
       "year": 2022,
@@ -6118,8 +5951,7 @@
       "score1": 0,
       "team2": "Decatur",
       "score2": 41,
-      "winner": "Decatur",
-      "location": "(@ACU, Friday 1pm)"
+      "winner": "Decatur"
     },
     {
       "year": 2022,
@@ -6131,8 +5963,7 @@
       "score1": 7,
       "team2": "China Spring",
       "score2": 41,
-      "winner": "China Spring",
-      "location": "(@Waxahatchie, Friday 5pm)"
+      "winner": "China Spring"
     },
     {
       "year": 2022,
@@ -6144,8 +5975,7 @@
       "score1": 24,
       "team2": "Anna",
       "score2": 27,
-      "winner": "Anna",
-      "location": "(@Allen, Friday 2pm)"
+      "winner": "Anna"
     },
     {
       "year": 2022,
@@ -6157,8 +5987,7 @@
       "score1": 23,
       "team2": "Tyler Chapel Hill",
       "score2": 35,
-      "winner": "Tyler Chapel Hill",
-      "location": "(@New Caney, Friday 7pm)"
+      "winner": "Tyler Chapel Hill"
     },
     {
       "year": 2022,
@@ -6170,8 +5999,7 @@
       "score1": 37,
       "team2": "Kilgore",
       "score2": 63,
-      "winner": "Kilgore",
-      "location": "(@Tyler Rose Stadium, Friday 1pm)"
+      "winner": "Kilgore"
     },
     {
       "year": 2022,
@@ -6183,8 +6011,7 @@
       "score1": 0,
       "team2": "Boerne",
       "score2": 51,
-      "winner": "Boerne",
-      "location": "(@Jourdanton,Friday 6pm)"
+      "winner": "Boerne"
     },
     {
       "year": 2022,
@@ -6196,8 +6023,7 @@
       "score1": 22,
       "team2": "Corpus Christi Calallen",
       "score2": 31,
-      "winner": "Corpus Christi Calallen",
-      "location": "(@Beeville, Friday 3pm)"
+      "winner": "Corpus Christi Calallen"
     },
     {
       "year": 2022,
@@ -6209,8 +6035,7 @@
       "score1": 21,
       "team2": "Decatur",
       "score2": 35,
-      "winner": "Decatur",
-      "location": "(@Denton Collins Stadium, Friday 7pm)"
+      "winner": "Decatur"
     },
     {
       "year": 2022,
@@ -6222,8 +6047,7 @@
       "score1": 14,
       "team2": "China Spring",
       "score2": 31,
-      "winner": "China Spring",
-      "location": "(@FW Crowley, Friday 7:30pm)"
+      "winner": "China Spring"
     },
     {
       "year": 2022,
@@ -6235,8 +6059,7 @@
       "score1": 21,
       "team2": "Tyler Chapel Hill",
       "score2": 24,
-      "winner": "Tyler Chapel Hill",
-      "location": "(@Tyler Rose, Friday 7pm)"
+      "winner": "Tyler Chapel Hill"
     },
     {
       "year": 2022,
@@ -6248,8 +6071,7 @@
       "score1": 19,
       "team2": "Boerne",
       "score2": 49,
-      "winner": "Boerne",
-      "location": "(@San Antonio Alamo Stadium, Friday 7:30pm)"
+      "winner": "Boerne"
     },
     {
       "year": 2022,
@@ -6261,8 +6083,7 @@
       "score1": 27,
       "team2": "China Spring",
       "score2": 33,
-      "winner": "China Spring",
-      "location": "(@Mansfield, Friday 7:30pm)"
+      "winner": "China Spring"
     },
     {
       "year": 2022,
@@ -6274,8 +6095,7 @@
       "score1": 0,
       "team2": "Boerne",
       "score2": 35,
-      "winner": "Boerne",
-      "location": "(@Alamodome, Friday 7pm)"
+      "winner": "Boerne"
     },
     {
       "year": 2022,
@@ -6287,8 +6107,7 @@
       "score1": 21,
       "team2": "China Spring",
       "score2": 24,
-      "winner": "China Spring",
-      "location": "(@ATT&T Stadium, Friday Dec 16, 3pm)"
+      "winner": "China Spring"
     },
     {
       "year": 2022,
@@ -6684,8 +6503,7 @@
       "score1": 14,
       "team2": "Canutillo",
       "score2": 21,
-      "winner": "Canutillo",
-      "location": "(@Odessa Ratliff, Friday 4pm)"
+      "winner": "Canutillo"
     },
     {
       "year": 2022,
@@ -6697,8 +6515,7 @@
       "score1": 40,
       "team2": "Abilene Wylie",
       "score2": 42,
-      "winner": "Abilene Wylie",
-      "location": "(@Grapevine Mustang-Panther Stadium, Friday 7pm)"
+      "winner": "Abilene Wylie"
     },
     {
       "year": 2022,
@@ -6710,8 +6527,7 @@
       "score1": 0,
       "team2": "Argyle",
       "score2": 7,
-      "winner": "Argyle",
-      "location": "(@Mineral Wells, Friday 7pm)"
+      "winner": "Argyle"
     },
     {
       "year": 2022,
@@ -6723,8 +6539,7 @@
       "score1": 21,
       "team2": "Grapevine",
       "score2": 38,
-      "winner": "Grapevine",
-      "location": "(@FW Crowley, Friday 7pm)"
+      "winner": "Grapevine"
     },
     {
       "year": 2022,
@@ -6736,8 +6551,7 @@
       "score1": 27,
       "team2": "Midlothian Heritage",
       "score2": 45,
-      "winner": "Midlothian Heritage",
-      "location": "(@Grand Prairie Gopher-Warrior Bowl, Friday 7pm)"
+      "winner": "Midlothian Heritage"
     },
     {
       "year": 2022,
@@ -6749,8 +6563,7 @@
       "score1": 37,
       "team2": "South Oak Cliff",
       "score2": 42,
-      "winner": "South Oak Cliff",
-      "location": "(@Arlington Globe Life Field, Saturday 3pm)"
+      "winner": "South Oak Cliff"
     },
     {
       "year": 2022,
@@ -6762,8 +6575,7 @@
       "score1": 38,
       "team2": "Melissa",
       "score2": 42,
-      "winner": "Melissa",
-      "location": "(@Dallas Wildcat-Ram Stadium, Friday 7:30pm)"
+      "winner": "Melissa"
     },
     {
       "year": 2022,
@@ -6775,8 +6587,7 @@
       "score1": 16,
       "team2": "Terrell",
       "score2": 49,
-      "winner": "Terrell",
-      "location": "(@Carrollton, Friday 7:30pm)"
+      "winner": "Terrell"
     },
     {
       "year": 2022,
@@ -6788,8 +6599,7 @@
       "score1": 7,
       "team2": "Fort Bend Marshall",
       "score2": 49,
-      "winner": "Fort Bend Marshall",
-      "location": "(@Giddings, Friday 7pm)"
+      "winner": "Fort Bend Marshall"
     },
     {
       "year": 2022,
@@ -6801,8 +6611,7 @@
       "score1": 19,
       "team2": "Montgomery Lake Creek",
       "score2": 78,
-      "winner": "Montgomery Lake Creek",
-      "location": "(@College Station Cougar Field, Friday 7:30pm)"
+      "winner": "Montgomery Lake Creek"
     },
     {
       "year": 2022,
@@ -6814,8 +6623,7 @@
       "score1": 10,
       "team2": "Brenham",
       "score2": 31,
-      "winner": "Brenham",
-      "location": "(@Bryan Green Stadium, Friday 7:30pm)"
+      "winner": "Brenham"
     },
     {
       "year": 2022,
@@ -6827,8 +6635,7 @@
       "score1": 19,
       "team2": "Port Neches-Groves",
       "score2": 24,
-      "winner": "Port Neches-Groves",
-      "location": "(@Katy Rhodes Stadium, Friday 7:30pm)"
+      "winner": "Port Neches-Groves"
     },
     {
       "year": 2022,
@@ -6840,8 +6647,7 @@
       "score1": 14,
       "team2": "Liberty Hill",
       "score2": 63,
-      "winner": "Liberty Hill",
-      "location": "(@San Antonio Gustafson Stadium, Friday 7pm)"
+      "winner": "Liberty Hill"
     },
     {
       "year": 2022,
@@ -6853,8 +6659,7 @@
       "score1": 8,
       "team2": "San Antonio Alamo Heights",
       "score2": 31,
-      "winner": "San Antonio Alamo Heights",
-      "location": "(@Cuero, Thursday 7pm)"
+      "winner": "San Antonio Alamo Heights"
     },
     {
       "year": 2022,
@@ -6866,8 +6671,7 @@
       "score1": 21,
       "team2": "Corpus Christi Flour Bluff",
       "score2": 49,
-      "winner": "Corpus Christi Flour Bluff",
-      "location": "(@San Antonio Alamo Stadium, Friday 7pm)"
+      "winner": "Corpus Christi Flour Bluff"
     },
     {
       "year": 2022,
@@ -6879,8 +6683,7 @@
       "score1": 23,
       "team2": "San Antonio Veterans Memorial",
       "score2": 35,
-      "winner": "San Antonio Veterans Memorial",
-      "location": "(@Laredo, Friday 7pm)"
+      "winner": "San Antonio Veterans Memorial"
     },
     {
       "year": 2022,
@@ -6892,8 +6695,7 @@
       "score1": 18,
       "team2": "Abilene Wylie",
       "score2": 22,
-      "winner": "Abilene Wylie",
-      "location": "(@Fort Stockton, Friday 3pm)"
+      "winner": "Abilene Wylie"
     },
     {
       "year": 2022,
@@ -6905,8 +6707,7 @@
       "score1": 27,
       "team2": "Argyle",
       "score2": 44,
-      "winner": "Argyle",
-      "location": "(@Southlake, Friday 6pm)"
+      "winner": "Argyle"
     },
     {
       "year": 2022,
@@ -6918,8 +6719,7 @@
       "score1": 27,
       "team2": "South Oak Cliff",
       "score2": 33,
-      "winner": "South Oak Cliff",
-      "location": "(@Mansfield, Friday 3pm)"
+      "winner": "South Oak Cliff"
     },
     {
       "year": 2022,
@@ -6931,8 +6731,7 @@
       "score1": 21,
       "team2": "Melissa",
       "score2": 42,
-      "winner": "Melissa",
-      "location": "(@Frisco Ford Center, Friday 7pm)"
+      "winner": "Melissa"
     },
     {
       "year": 2022,
@@ -6944,8 +6743,7 @@
       "score1": 18,
       "team2": "Fort Bend Marshall",
       "score2": 55,
-      "winner": "Fort Bend Marshall",
-      "location": "(@Houston Delmar Stadium, Friday 1pm)"
+      "winner": "Fort Bend Marshall"
     },
     {
       "year": 2022,
@@ -6957,8 +6755,7 @@
       "score1": 28,
       "team2": "Port Neches-Groves",
       "score2": 38,
-      "winner": "Port Neches-Groves",
-      "location": "(@Houston NRG Stadium, Friday 6pm)"
+      "winner": "Port Neches-Groves"
     },
     {
       "year": 2022,
@@ -6970,8 +6767,7 @@
       "score1": 32,
       "team2": "Liberty Hill",
       "score2": 37,
-      "winner": "Liberty Hill",
-      "location": "(@Bastrop, Friday 1:30pm)"
+      "winner": "Liberty Hill"
     },
     {
       "year": 2022,
@@ -6983,8 +6779,7 @@
       "score1": 42,
       "team2": "Corpus Christi Flour Bluff",
       "score2": 66,
-      "winner": "Corpus Christi Flour Bluff",
-      "location": "(@Corpus Christi Hornet Stadium, Friday 6pm)"
+      "winner": "Corpus Christi Flour Bluff"
     },
     {
       "year": 2022,
@@ -6996,8 +6791,7 @@
       "score1": 28,
       "team2": "Argyle",
       "score2": 35,
-      "winner": "Argyle",
-      "location": "(@Stephenville, Friday 7pm)"
+      "winner": "Argyle"
     },
     {
       "year": 2022,
@@ -7009,8 +6803,7 @@
       "score1": 16,
       "team2": "South Oak Cliff",
       "score2": 30,
-      "winner": "South Oak Cliff",
-      "location": "(@Arlington Choctaw Stadium, Friday 7:30pm)"
+      "winner": "South Oak Cliff"
     },
     {
       "year": 2022,
@@ -7022,8 +6815,7 @@
       "score1": 21,
       "team2": "Port Neches-Groves",
       "score2": 29,
-      "winner": "Port Neches-Groves",
-      "location": "(@Galena Park, Friday 7pm)"
+      "winner": "Port Neches-Groves"
     },
     {
       "year": 2022,
@@ -7035,8 +6827,7 @@
       "score1": 43,
       "team2": "Liberty Hill",
       "score2": 63,
-      "winner": "Liberty Hill",
-      "location": "(@San Antonio Farris Stadium, Friday 7pm)"
+      "winner": "Liberty Hill"
     },
     {
       "year": 2022,
@@ -7048,8 +6839,7 @@
       "score1": 6,
       "team2": "South Oak Cliff",
       "score2": 14,
-      "winner": "South Oak Cliff",
-      "location": "(@Crowley, Friday 7:30pm)"
+      "winner": "South Oak Cliff"
     },
     {
       "year": 2022,
@@ -7061,8 +6851,7 @@
       "score1": 14,
       "team2": "Port Neches-Groves",
       "score2": 42,
-      "winner": "Port Neches-Groves",
-      "location": "(@Katy Legacy, Friday 7pm)"
+      "winner": "Port Neches-Groves"
     },
     {
       "year": 2022,
@@ -7074,8 +6863,7 @@
       "score1": 24,
       "team2": "South Oak Cliff",
       "score2": 34,
-      "winner": "South Oak Cliff",
-      "location": "(@ATT&T Stadium, Friday Dec 16, 7pm)"
+      "winner": "South Oak Cliff"
     },
     {
       "year": 2022,
@@ -7183,8 +6971,7 @@
       "score1": 35,
       "team2": "Red Oak",
       "score2": 0,
-      "winner": "Abilene High",
-      "location": "(@Mansfield, Friday 7pm)"
+      "winner": "Abilene High"
     },
     {
       "year": 2022,
@@ -7196,8 +6983,7 @@
       "score1": 7,
       "team2": "Burleson Centennial",
       "score2": 31,
-      "winner": "Burleson Centennial",
-      "location": "(@Wichita Falls Memorial, Friday 2:30pm)"
+      "winner": "Burleson Centennial"
     },
     {
       "year": 2022,
@@ -7209,8 +6995,7 @@
       "score1": 45,
       "team2": "Lubbock Cooper",
       "score2": 21,
-      "winner": "Aledo",
-      "location": "(@Sweetwater, Friday 7pm)"
+      "winner": "Aledo"
     },
     {
       "year": 2022,
@@ -7222,8 +7007,7 @@
       "score1": 56,
       "team2": "Amarillo High",
       "score2": 28,
-      "winner": "Midlothian",
-      "location": "(@Wichita Falls Memorial, Friday 7pm)"
+      "winner": "Midlothian"
     },
     {
       "year": 2022,
@@ -7235,8 +7019,7 @@
       "score1": 14,
       "team2": "Burleson Centennial",
       "score2": 24,
-      "winner": "Burleson Centennial",
-      "location": "(@Arlington Choctaw, Friday 7:30pm)"
+      "winner": "Burleson Centennial"
     },
     {
       "year": 2022,
@@ -7248,8 +7031,7 @@
       "score1": 27,
       "team2": "Midlothian",
       "score2": 21,
-      "winner": "Aledo",
-      "location": "(@Midlothian, Friday 6pm)"
+      "winner": "Aledo"
     },
     {
       "year": 2022,
@@ -7261,8 +7043,7 @@
       "score1": 21,
       "team2": "Aledo",
       "score2": 42,
-      "winner": "Aledo",
-      "location": "(@Frisco Ford Center,  Saturday 2pm)"
+      "winner": "Aledo"
     },
     {
       "year": 2022,
@@ -7370,8 +7151,7 @@
       "score1": 35,
       "team2": "Barbers Hill",
       "score2": 17,
-      "winner": "Mansfield Timberview",
-      "location": "(@Cedar Park, Friday 7pm)"
+      "winner": "Mansfield Timberview"
     },
     {
       "year": 2022,
@@ -7383,8 +7163,7 @@
       "score1": 30,
       "team2": "Lancaster",
       "score2": 27,
-      "winner": "Frisco Reedy",
-      "location": "(@Irving Ellis, 7:30pm Friday)"
+      "winner": "Frisco Reedy"
     },
     {
       "year": 2022,
@@ -7396,8 +7175,7 @@
       "score1": 38,
       "team2": "Frisco Lone Star",
       "score2": 17,
-      "winner": "Longview",
-      "location": "(@Dallas Kincaide, Friday 7pm)"
+      "winner": "Longview"
     },
     {
       "year": 2022,
@@ -7409,8 +7187,7 @@
       "score1": 52,
       "team2": "Wakeland",
       "score2": 20,
-      "winner": "Port Arthur Memorial",
-      "location": "(@Lufkin, Friday 7pm)"
+      "winner": "Port Arthur Memorial"
     },
     {
       "year": 2022,
@@ -7422,8 +7199,7 @@
       "score1": 28,
       "team2": "Frisco Reedy",
       "score2": 26,
-      "winner": "Mansfield Timberview",
-      "location": "(@Bedford, Friday 3pm)"
+      "winner": "Mansfield Timberview"
     },
     {
       "year": 2022,
@@ -7435,8 +7211,7 @@
       "score1": 51,
       "team2": "Port Arthur Memorial",
       "score2": 7,
-      "winner": "Longview",
-      "location": "(@Lufkin, Friday 7pm)"
+      "winner": "Longview"
     },
     {
       "year": 2022,
@@ -7448,8 +7223,7 @@
       "score1": 21,
       "team2": "Longview",
       "score2": 37,
-      "winner": "Longview",
-      "location": "(@Mesquite memorial, Friday 7pm)"
+      "winner": "Longview"
     },
     {
       "year": 2022,
@@ -7557,8 +7331,7 @@
       "score1": 55,
       "team2": "Magnolia West",
       "score2": 22,
-      "winner": "Georgetown",
-      "location": "(@Magnolia Mustang Stadium, Friday 7pm)"
+      "winner": "Georgetown"
     },
     {
       "year": 2022,
@@ -7570,8 +7343,7 @@
       "score1": 20,
       "team2": "College Station",
       "score2": 27,
-      "winner": "College Station",
-      "location": "(@Cy-Fair, Friday 7pm)"
+      "winner": "College Station"
     },
     {
       "year": 2022,
@@ -7583,8 +7355,7 @@
       "score1": 50,
       "team2": "A&M Consolidated",
       "score2": 38,
-      "winner": "Lamar Fulshear",
-      "location": "(@College Station Tiger Stadium, Friday 7pm)"
+      "winner": "Lamar Fulshear"
     },
     {
       "year": 2022,
@@ -7596,8 +7367,7 @@
       "score1": 38,
       "team2": "Alvin Manvel",
       "score2": 28,
-      "winner": "Comal Smithson Valley",
-      "location": "(@Bastrop, Friday 7:30pm"
+      "winner": "Comal Smithson Valley"
     },
     {
       "year": 2022,
@@ -7609,8 +7379,7 @@
       "score1": 28,
       "team2": "College Station",
       "score2": 52,
-      "winner": "College Station",
-      "location": "(@Waco ISD Stadium, Friday 6pm)"
+      "winner": "College Station"
     },
     {
       "year": 2022,
@@ -7622,8 +7391,7 @@
       "score1": 13,
       "team2": "Comal Smithson Valley",
       "score2": 31,
-      "winner": "Comal Smithson Valley",
-      "location": "(@Seguin, Friday 1pm)"
+      "winner": "Comal Smithson Valley"
     },
     {
       "year": 2022,
@@ -7635,8 +7403,7 @@
       "score1": 26,
       "team2": "Comal Smithson Valley",
       "score2": 21,
-      "winner": "College Station",
-      "location": "(@Plugerville Pfield, Saturday 2pm)"
+      "winner": "College Station"
     },
     {
       "year": 2022,
@@ -7744,8 +7511,7 @@
       "score1": 0,
       "team2": "McAllen",
       "score2": 21,
-      "winner": "McAllen",
-      "location": "(@Corpus Christi Danaher Stadium, Friday 7:30pm)"
+      "winner": "McAllen"
     },
     {
       "year": 2022,
@@ -7757,8 +7523,7 @@
       "score1": 14,
       "team2": "Vela",
       "score2": 7,
-      "winner": "Corpus Christi Veterans Memorial",
-      "location": "(@Corpus Christi Buccaneer Stadium, 7:30pm)"
+      "winner": "Corpus Christi Veterans Memorial"
     },
     {
       "year": 2022,
@@ -7770,8 +7535,7 @@
       "score1": 35,
       "team2": "Corpus Christi Miller",
       "score2": 14,
-      "winner": "Pharr-San Juan-Alamo North",
-      "location": "(@Corpus Christi Cabaniss Stadium, Thursday 7pm)"
+      "winner": "Pharr-San Juan-Alamo North"
     },
     {
       "year": 2022,
@@ -7783,8 +7547,7 @@
       "score1": 74,
       "team2": "Victoria West",
       "score2": 59,
-      "winner": "Brownsville Veterans Memorial",
-      "location": "(Corpus Christi Cabaniss Stadium, Thursday 7pm)"
+      "winner": "Brownsville Veterans Memorial"
     },
     {
       "year": 2022,
@@ -7796,8 +7559,7 @@
       "score1": 14,
       "team2": "Corpus Christi Veterans Memorial",
       "score2": 49,
-      "winner": "Corpus Christi Veterans Memorial",
-      "location": "(@McAllen, Friday 2pm)"
+      "winner": "Corpus Christi Veterans Memorial"
     },
     {
       "year": 2022,
@@ -7809,8 +7571,7 @@
       "score1": 35,
       "team2": "Brownsville Veterans Memorial",
       "score2": 15,
-      "winner": "Pharr-San Juan-Alamo North",
-      "location": "(@Brownsville Veterans Memorial, Friday 6pm)"
+      "winner": "Pharr-San Juan-Alamo North"
     },
     {
       "year": 2022,
@@ -7822,8 +7583,7 @@
       "score1": 20,
       "team2": "Pharr-San Juan-Alamo North",
       "score2": 14,
-      "winner": "Corpus Christi Veterans Memorial",
-      "location": "(@Corpus Christi Buccaneer Stadium, Saturday 6pm)"
+      "winner": "Corpus Christi Veterans Memorial"
     },
     {
       "year": 2022,
@@ -7835,8 +7595,7 @@
       "score1": 17,
       "team2": "Longview",
       "score2": 14,
-      "winner": "Aledo",
-      "location": "(@Dallas Kincaide Stadium, Saturday 2pm)"
+      "winner": "Aledo"
     },
     {
       "year": 2022,
@@ -7848,8 +7607,7 @@
       "score1": 33,
       "team2": "Corpus Christi Veterans Memorial",
       "score2": 7,
-      "winner": "College Station",
-      "location": "(@San Antonio Alamodome, Saturday 5pm)"
+      "winner": "College Station"
     },
     {
       "year": 2022,
@@ -7861,8 +7619,7 @@
       "score1": 52,
       "team2": "College Station",
       "score2": 14,
-      "winner": "Aledo",
-      "location": "(@ATT&T Stadium, Saturday Dec 17, 11am)"
+      "winner": "Aledo"
     },
     {
       "year": 2022,
@@ -7970,8 +7727,7 @@
       "score1": 28,
       "team2": "Northwest Nelson",
       "score2": 35,
-      "winner": "Northwest Nelson",
-      "location": "(@Midland King Memorial, Friday 7pm)"
+      "winner": "Northwest Nelson"
     },
     {
       "year": 2022,
@@ -7983,8 +7739,7 @@
       "score1": 63,
       "team2": "Dallas Highland Park",
       "score2": 42,
-      "winner": "Denton Guyer",
-      "location": "(@Frisco Ford Center, Friday 7pm)"
+      "winner": "Denton Guyer"
     },
     {
       "year": 2022,
@@ -7996,8 +7751,7 @@
       "score1": 14,
       "team2": "Southlake Carroll",
       "score2": 69,
-      "winner": "Southlake Carroll",
-      "location": "(@San Angelo Stadium, Friday 7pm)"
+      "winner": "Southlake Carroll"
     },
     {
       "year": 2022,
@@ -8009,8 +7763,7 @@
       "score1": 42,
       "team2": "Dallas Jesuit",
       "score2": 7,
-      "winner": "McKinney",
-      "location": "(@Prosper Children's Health Stadium, Friday 7pm)"
+      "winner": "McKinney"
     },
     {
       "year": 2022,
@@ -8022,8 +7775,7 @@
       "score1": 41,
       "team2": "Denton Guyer",
       "score2": 59,
-      "winner": "Denton Guyer",
-      "location": "(@Frisco Ford Field, Saturday 2pm)"
+      "winner": "Denton Guyer"
     },
     {
       "year": 2022,
@@ -8035,8 +7787,7 @@
       "score1": 42,
       "team2": "McKinney",
       "score2": 35,
-      "winner": "Southlake Carroll",
-      "location": "(@Arlington Choctaw Stadium, Friday 3:15pm)"
+      "winner": "Southlake Carroll"
     },
     {
       "year": 2022,
@@ -8048,8 +7799,7 @@
       "score1": 45,
       "team2": "Southlake Carroll",
       "score2": 21,
-      "winner": "Denton Guyer",
-      "location": "(@Justin, Saturday 2pm)"
+      "winner": "Denton Guyer"
     },
     {
       "year": 2022,
@@ -8157,8 +7907,7 @@
       "score1": 52,
       "team2": "Rockwall Heath",
       "score2": 7,
-      "winner": "DeSoto",
-      "location": "(@Frisco Ford Center, Thursday 7pm)"
+      "winner": "DeSoto"
     },
     {
       "year": 2022,
@@ -8170,8 +7919,7 @@
       "score1": 16,
       "team2": "New Caney",
       "score2": 15,
-      "winner": "Tomball",
-      "location": "(@Spring Planet Ford Stadium, Friday 7pm)"
+      "winner": "Tomball"
     },
     {
       "year": 2022,
@@ -8183,8 +7931,7 @@
       "score1": 38,
       "team2": "Royse City",
       "score2": 17,
-      "winner": "Harker Heights",
-      "location": "(@Waco Stadium, Friday 7:30pm)"
+      "winner": "Harker Heights"
     },
     {
       "year": 2022,
@@ -8196,8 +7943,7 @@
       "score1": 32,
       "team2": "Cypress Falls",
       "score2": 17,
-      "winner": "Spring Dekaney",
-      "location": "(@Porter Randall Field, Friday 7pm)"
+      "winner": "Spring Dekaney"
     },
     {
       "year": 2022,
@@ -8209,8 +7955,7 @@
       "score1": 38,
       "team2": "Tomball",
       "score2": 14,
-      "winner": "DeSoto",
-      "location": "(@Plugerville Pfield, Friday 4pm)"
+      "winner": "DeSoto"
     },
     {
       "year": 2022,
@@ -8222,8 +7967,7 @@
       "score1": 63,
       "team2": "Spring Dekaney",
       "score2": 35,
-      "winner": "Harker Heights",
-      "location": "(@BaylorMcLane Stadium, Friday 6pm)"
+      "winner": "Harker Heights"
     },
     {
       "year": 2022,
@@ -8235,8 +7979,7 @@
       "score1": 60,
       "team2": "Harker Heights",
       "score2": 24,
-      "winner": "DeSoto",
-      "location": "(@Baylor McLane Stadium, Friday 7pm)"
+      "winner": "DeSoto"
     },
     {
       "year": 2022,
@@ -8344,8 +8087,7 @@
       "score1": 62,
       "team2": "Spring Branch Memorial",
       "score2": 21,
-      "winner": "Katy",
-      "location": "(@Houston Tully Stadium, Friday 7pm)"
+      "winner": "Katy"
     },
     {
       "year": 2022,
@@ -8357,8 +8099,7 @@
       "score1": 36,
       "team2": "Alvin Shadow Creek",
       "score2": 20,
-      "winner": "Humble Summer Creek",
-      "location": "(@Houston TDECU Stadium, Friday 7pm)"
+      "winner": "Humble Summer Creek"
     },
     {
       "year": 2022,
@@ -8370,8 +8111,7 @@
       "score1": 42,
       "team2": "Houston Heights",
       "score2": 27,
-      "winner": "Fort Bend Hightower",
-      "location": "(@Houston Delmar Stadium, Saturday 1pm)"
+      "winner": "Fort Bend Hightower"
     },
     {
       "year": 2022,
@@ -8383,8 +8123,7 @@
       "score1": 30,
       "team2": "Clear Falls",
       "score2": 7,
-      "winner": "Houston King",
-      "location": "(@Houston Sheldon ISD Stadium, Friday 7pm)"
+      "winner": "Houston King"
     },
     {
       "year": 2022,
@@ -8396,8 +8135,7 @@
       "score1": 35,
       "team2": "Humble Summer Creek",
       "score2": 7,
-      "winner": "Katy",
-      "location": "(@Humble Turner Stadium, Friday 2pm)"
+      "winner": "Katy"
     },
     {
       "year": 2022,
@@ -8409,8 +8147,7 @@
       "score1": 38,
       "team2": "Fort Bend Hightower",
       "score2": 21,
-      "winner": "Houston King",
-      "location": "(@Cypress Pridgeon Stadium, Friday 1pm)"
+      "winner": "Houston King"
     },
     {
       "year": 2022,
@@ -8422,8 +8159,7 @@
       "score1": 56,
       "team2": "Houston King",
       "score2": 34,
-      "winner": "Katy",
-      "location": "(@Houston NRG Stadium, Friday 7pm)"
+      "winner": "Katy"
     },
     {
       "year": 2022,
@@ -8531,8 +8267,7 @@
       "score1": 37,
       "team2": "Converse Judson",
       "score2": 7,
-      "winner": "Austin Vandegrift",
-      "location": "(@Round Rock, Friday 7:30pm)"
+      "winner": "Austin Vandegrift"
     },
     {
       "year": 2022,
@@ -8544,8 +8279,7 @@
       "score1": 49,
       "team2": "Weslaco",
       "score2": 3,
-      "winner": "San Antonio Harlan",
-      "location": "(@Corpus Christi Buccaneer Stadium, Saturday 1pm)"
+      "winner": "San Antonio Harlan"
     },
     {
       "year": 2022,
@@ -8557,8 +8291,7 @@
       "score1": 56,
       "team2": "San Antonio Brandeis",
       "score2": 28,
-      "winner": "Dripping Springs",
-      "location": "(@San Antonio Heroes Stadium, Saturday 2pm)"
+      "winner": "Dripping Springs"
     },
     {
       "year": 2022,
@@ -8570,8 +8303,7 @@
       "score1": 39,
       "team2": "San Antonio Warren",
       "score2": 21,
-      "winner": "Harlingen",
-      "location": "(@San Antonio Farris Stadium, Friday 7pm)"
+      "winner": "Harlingen"
     },
     {
       "year": 2022,
@@ -8583,8 +8315,7 @@
       "score1": 49,
       "team2": "San Antonio Harlan",
       "score2": 21,
-      "winner": "Austin Vandegrift",
-      "location": "(@San Antonio Alamodome, Friday 7:30pm)"
+      "winner": "Austin Vandegrift"
     },
     {
       "year": 2022,
@@ -8596,8 +8327,7 @@
       "score1": 45,
       "team2": "Harlingen",
       "score2": 0,
-      "winner": "Dripping Springs",
-      "location": "(@San Antonio Alamodome, Friday 11am)"
+      "winner": "Dripping Springs"
     },
     {
       "year": 2022,
@@ -8609,8 +8339,7 @@
       "score1": 27,
       "team2": "Dripping Springs",
       "score2": 24,
-      "winner": "Austin Vandegrift",
-      "location": "(@Cedar Park, Friday 7pm)"
+      "winner": "Austin Vandegrift"
     },
     {
       "year": 2022,
@@ -8622,8 +8351,7 @@
       "score1": 28,
       "team2": "DeSoto",
       "score2": 47,
-      "winner": "DeSoto",
-      "location": "(@Frisco Ford Field, Saturday 2pm)"
+      "winner": "DeSoto"
     },
     {
       "year": 2022,
@@ -8635,8 +8363,7 @@
       "score1": 35,
       "team2": "Austin Vandegrift",
       "score2": 38,
-      "winner": "Austin Vandegrift",
-      "location": "(@Alamodome, Saturday TBD)"
+      "winner": "Austin Vandegrift"
     },
     {
       "year": 2022,
@@ -8648,8 +8375,7 @@
       "score1": 42,
       "team2": "Austin Vandegrift",
       "score2": 17,
-      "winner": "DeSoto",
-      "location": "(@ATT&T Stadium, Saturday Dec 17, 3pm)"
+      "winner": "DeSoto"
     },
     {
       "year": 2022,
@@ -8757,8 +8483,7 @@
       "score1": 42,
       "team2": "North Crowley",
       "score2": 49,
-      "winner": "North Crowley",
-      "location": "(@Andrews, Friday 5:30pm)"
+      "winner": "North Crowley"
     },
     {
       "year": 2022,
@@ -8770,8 +8495,7 @@
       "score1": 38,
       "team2": "South Grand Prairie",
       "score2": 26,
-      "winner": "Prosper",
-      "location": "(@Arlington Choctaw Stadium, Friday 7pm)"
+      "winner": "Prosper"
     },
     {
       "year": 2022,
@@ -8783,8 +8507,7 @@
       "score1": 21,
       "team2": "Keller",
       "score2": 23,
-      "winner": "Keller",
-      "location": "(@Midland Astound Broadband Stadium, Saturday 1pm)"
+      "winner": "Keller"
     },
     {
       "year": 2022,
@@ -8796,8 +8519,7 @@
       "score1": 10,
       "team2": "Arlington Martin",
       "score2": 0,
-      "winner": "Lewisville",
-      "location": "(@Dallas Ford Stadium, Friday 7pm)"
+      "winner": "Lewisville"
     },
     {
       "year": 2022,
@@ -8809,8 +8531,7 @@
       "score1": 21,
       "team2": "Prosper",
       "score2": 35,
-      "winner": "Prosper",
-      "location": "(@Arlington Choctaw Stadium, Saturday 3pm)"
+      "winner": "Prosper"
     },
     {
       "year": 2022,
@@ -8822,8 +8543,7 @@
       "score1": 3,
       "team2": "Lewisville",
       "score2": 43,
-      "winner": "Lewisville",
-      "location": "(@Arlington Choctaw Stadium, Saturday 11am)"
+      "winner": "Lewisville"
     },
     {
       "year": 2022,
@@ -8835,8 +8555,7 @@
       "score1": 24,
       "team2": "Lewisville",
       "score2": 13,
-      "winner": "Prosper",
-      "location": "(@McKinney, Saturday 2pm)"
+      "winner": "Prosper"
     },
     {
       "year": 2022,
@@ -8944,8 +8663,7 @@
       "score1": 0,
       "team2": "Duncanville",
       "score2": 41,
-      "winner": "Duncanville",
-      "location": "(@McKinney, Friday 7:30pm)"
+      "winner": "Duncanville"
     },
     {
       "year": 2022,
@@ -8957,8 +8675,7 @@
       "score1": 62,
       "team2": "Houston Klein Cain",
       "score2": 21,
-      "winner": "The Woodlands",
-      "location": "(@Shenendoah Woodorest Bank Stadium, Friday 7pm)"
+      "winner": "The Woodlands"
     },
     {
       "year": 2022,
@@ -8970,8 +8687,7 @@
       "score1": 25,
       "team2": "Waxahachie",
       "score2": 31,
-      "winner": "Waxahachie",
-      "location": "(@Arlington Globe Life Field, Friday 7:30pm)"
+      "winner": "Waxahachie"
     },
     {
       "year": 2022,
@@ -8983,8 +8699,7 @@
       "score1": 41,
       "team2": "Spring Klein Collins",
       "score2": 38,
-      "winner": "Spring Westfield",
-      "location": "(@Tomball, Friday 7pm)"
+      "winner": "Spring Westfield"
     },
     {
       "year": 2022,
@@ -8996,8 +8711,7 @@
       "score1": 35,
       "team2": "The Woodlands",
       "score2": 3,
-      "winner": "Duncanville",
-      "location": "(@Plugerville Pfield, Saturday 3pm)"
+      "winner": "Duncanville"
     },
     {
       "year": 2022,
@@ -9009,8 +8723,7 @@
       "score1": 7,
       "team2": "Spring Westfield",
       "score2": 10,
-      "winner": "Spring Westfield",
-      "location": "(@Hutto, Saturday 2pm)"
+      "winner": "Spring Westfield"
     },
     {
       "year": 2022,
@@ -9022,8 +8735,7 @@
       "score1": 28,
       "team2": "Spring Westfield",
       "score2": 21,
-      "winner": "Duncanville",
-      "location": "(@Georgetown, Saturday 3pm)"
+      "winner": "Duncanville"
     },
     {
       "year": 2022,
@@ -9131,8 +8843,7 @@
       "score1": 13,
       "team2": "Cy-Fair",
       "score2": 10,
-      "winner": "Katy Cinco Ranch",
-      "location": "(@Cypress Pridgeon Stadium, Friday 7pm)"
+      "winner": "Katy Cinco Ranch"
     },
     {
       "year": 2022,
@@ -9144,8 +8855,7 @@
       "score1": 43,
       "team2": "Dickinson",
       "score2": 34,
-      "winner": "Galena Park North Shore",
-      "location": "(@Galena Park, Friday 7pm)"
+      "winner": "Galena Park North Shore"
     },
     {
       "year": 2022,
@@ -9157,8 +8867,7 @@
       "score1": 10,
       "team2": "Fort Bend Ridge Point",
       "score2": 14,
-      "winner": "Fort Bend Ridge Point",
-      "location": "(@Katy Legacy Stadium, Friday 7pm)"
+      "winner": "Fort Bend Ridge Point"
     },
     {
       "year": 2022,
@@ -9170,8 +8879,7 @@
       "score1": 35,
       "team2": "Clear Springs",
       "score2": 7,
-      "winner": "Humble Atascocita",
-      "location": "(@League City Challenger-Columbia Stadium, 7pm Friday)"
+      "winner": "Humble Atascocita"
     },
     {
       "year": 2022,
@@ -9183,8 +8891,7 @@
       "score1": 21,
       "team2": "Galena Park North Shore",
       "score2": 49,
-      "winner": "Galena Park North Shore",
-      "location": "(@Katy Rhodes, Friday 2pm)"
+      "winner": "Galena Park North Shore"
     },
     {
       "year": 2022,
@@ -9196,8 +8903,7 @@
       "score1": 14,
       "team2": "Humble Atascocita",
       "score2": 19,
-      "winner": "Humble Atascocita",
-      "location": "(@Cy-Fair FCU Stadium, Friday 7pm)"
+      "winner": "Humble Atascocita"
     },
     {
       "year": 2022,
@@ -9209,8 +8915,7 @@
       "score1": 49,
       "team2": "Humble Atascocita",
       "score2": 19,
-      "winner": "Galena Park North Shore",
-      "location": "(@New Caney, Friday 7pm)"
+      "winner": "Galena Park North Shore"
     },
     {
       "year": 2022,
@@ -9318,8 +9023,7 @@
       "score1": 24,
       "team2": "Cibolo Steele",
       "score2": 21,
-      "winner": "Austin Lake Travis",
-      "location": "(@Pflugerville Pfield, Friday 7pm)"
+      "winner": "Austin Lake Travis"
     },
     {
       "year": 2022,
@@ -9331,8 +9035,7 @@
       "score1": 42,
       "team2": "Los Fresnos",
       "score2": 7,
-      "winner": "San Antonio Brennan",
-      "location": "(@Los Fresnos Aguilar Stadium, Thhursday 6pm)"
+      "winner": "San Antonio Brennan"
     },
     {
       "year": 2022,
@@ -9344,8 +9047,7 @@
       "score1": 45,
       "team2": "New Braunfels",
       "score2": 14,
-      "winner": "Austin Westlake",
-      "location": "(@San Marcos Rattler Stadium, Friday 7:30pm)"
+      "winner": "Austin Westlake"
     },
     {
       "year": 2022,
@@ -9357,8 +9059,7 @@
       "score1": 19,
       "team2": "San Benito",
       "score2": 38,
-      "winner": "San Benito",
-      "location": "(@Corpus Christi Buccaneer Stadium, Thursday 7pm)"
+      "winner": "San Benito"
     },
     {
       "year": 2022,
@@ -9370,8 +9071,7 @@
       "score1": 34,
       "team2": "Austin Lake Travis",
       "score2": 17,
-      "winner": "San Antonio Brennan",
-      "location": "(@New Braunfels, Friday 6pm)"
+      "winner": "San Antonio Brennan"
     },
     {
       "year": 2022,
@@ -9383,8 +9083,7 @@
       "score1": 44,
       "team2": "San Benito",
       "score2": 7,
-      "winner": "Austin Westlake",
-      "location": "(@San Antonio Alamo Stadium, Friday 2pm)"
+      "winner": "Austin Westlake"
     },
     {
       "year": 2022,
@@ -9396,8 +9095,7 @@
       "score1": 47,
       "team2": "San Antonio Brennan",
       "score2": 7,
-      "winner": "Austin Westlake",
-      "location": "(@San Antonio Alamodome, Saturday 2pm)"
+      "winner": "Austin Westlake"
     },
     {
       "year": 2022,
@@ -9409,8 +9107,7 @@
       "score1": 0,
       "team2": "Duncanville",
       "score2": 41,
-      "winner": "Duncanville",
-      "location": "(@Dallas Ford Stadium, Saturday 4pm)"
+      "winner": "Duncanville"
     },
     {
       "year": 2022,
@@ -9422,8 +9119,7 @@
       "score1": 49,
       "team2": "Austin Westlake",
       "score2": 34,
-      "winner": "Galena Park North Shore",
-      "location": "(@Houston Rice Stadium, Saturday 3pm)"
+      "winner": "Galena Park North Shore"
     },
     {
       "year": 2022,
@@ -9435,8 +9131,7 @@
       "score1": 28,
       "team2": "Galena Park North Shore",
       "score2": 21,
-      "winner": "Duncanville",
-      "location": "(@ATT&T Stadium, Saturday Dec 17, 7pm)"
+      "winner": "Duncanville"
     },
     {
       "year": 2022,
