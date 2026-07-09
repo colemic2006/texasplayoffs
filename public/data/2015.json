@@ -7566,7 +7566,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "ABI",
+      "chapter": "FTW",
       "team1": "Happy",
       "score1": 53,
       "team2": "Spur",
@@ -7578,7 +7578,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "PVC",
+      "chapter": "SFA",
       "team1": "Meadow",
       "score1": 52,
       "team2": "Klondike",
@@ -7590,7 +7590,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "SPC",
+      "chapter": "CTX",
       "team1": "Borden County",
       "score1": 76,
       "team2": "Anton",
@@ -7602,7 +7602,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "AMA",
+      "chapter": "ABI",
       "team1": "Turkey Valley",
       "score1": 66,
       "team2": "Nazareth",
@@ -7614,7 +7614,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "PVC",
+      "chapter": "SJC",
       "team1": "Garden City",
       "score1": 80,
       "team2": "Robert Lee",
@@ -7626,7 +7626,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "ABI",
+      "chapter": "FTW",
       "team1": "Hermleigh",
       "score1": 75,
       "team2": "Aspermont",
@@ -7638,7 +7638,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "SPC",
+      "chapter": "FTW",
       "team1": "Crowell",
       "score1": 74,
       "team2": "Ira",
@@ -7650,7 +7650,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "PBC",
+      "chapter": "ABI",
       "team1": "Sterling City",
       "score1": 67,
       "team2": "Rankin",
@@ -7662,7 +7662,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "ABI",
+      "chapter": "SPC",
       "team1": "Newcastle",
       "score1": 36,
       "team2": "May",
@@ -7674,7 +7674,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "ABI",
+      "chapter": "PBC",
       "team1": "Zephyr",
       "score1": 72,
       "team2": "Paint Rock",
@@ -7686,7 +7686,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "SAN",
+      "chapter": "ABI",
       "team1": "Rochelle",
       "score1": 46,
       "team2": "Santa Anna",
@@ -7698,7 +7698,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "FTW",
+      "chapter": "ABI",
       "team1": "Gordon",
       "score1": 52,
       "team2": "Bryson",
@@ -7710,7 +7710,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "FTW",
+      "chapter": "PVC",
       "team1": "Blum",
       "score1": 38,
       "team2": "Abbott",
@@ -7722,7 +7722,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "FTW",
+      "chapter": "AMI",
       "team1": "Savoy",
       "score1": 77,
       "team2": "Apple Springs",
@@ -7734,7 +7734,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "SFA",
+      "chapter": "PVC",
       "team1": "Chester",
       "score1": 57,
       "team2": "Union Hill",
@@ -7746,204 +7746,12 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "CTX",
+      "chapter": "SPC",
       "team1": "Milford",
       "score1": 60,
       "team2": "Gholson",
       "score2": 14,
       "winner": "Milford"
-    },
-    {
-      "year": 2015,
-      "classification": "1A D1",
-      "week": 1,
-      "round": "Area",
-      "chapter": "AMA",
-      "team1": "Follett",
-      "score1": 68,
-      "team2": "McLean",
-      "score2": 22,
-      "winner": "Follett"
-    },
-    {
-      "year": 2015,
-      "classification": "1A D1",
-      "week": 1,
-      "round": "Area",
-      "chapter": "SPC",
-      "team1": "Amherst",
-      "score1": 42,
-      "team2": "Whitharral",
-      "score2": 48,
-      "winner": "Whitharral"
-    },
-    {
-      "year": 2015,
-      "classification": "1A D1",
-      "week": 1,
-      "round": "Area",
-      "chapter": "SPC",
-      "team1": "Southland",
-      "score1": 56,
-      "team2": "Kress",
-      "score2": 6,
-      "winner": "Southland"
-    },
-    {
-      "year": 2015,
-      "classification": "1A D1",
-      "week": 1,
-      "round": "Area",
-      "chapter": "AMA",
-      "team1": "Groom",
-      "score1": 70,
-      "team2": "Lefors",
-      "score2": 74,
-      "winner": "Lefors"
-    },
-    {
-      "year": 2015,
-      "classification": "1A D1",
-      "week": 1,
-      "round": "Area",
-      "chapter": "PBC",
-      "team1": "Balmorhea",
-      "score1": 60,
-      "team2": "Ackerly Sands",
-      "score2": 14,
-      "winner": "Balmorhea"
-    },
-    {
-      "year": 2015,
-      "classification": "1A D1",
-      "week": 1,
-      "round": "Area",
-      "chapter": "NTX",
-      "team1": "Loraine",
-      "score1": 99,
-      "team2": "Blanket",
-      "score2": 101,
-      "winner": "Blanket"
-    },
-    {
-      "year": 2015,
-      "classification": "1A D1",
-      "week": 1,
-      "round": "Area",
-      "chapter": "PVC",
-      "team1": "Rising Star",
-      "score1": 56,
-      "team2": "Blackwell",
-      "score2": 8,
-      "winner": "Rising Star"
-    },
-    {
-      "year": 2015,
-      "classification": "1A D1",
-      "week": 1,
-      "round": "Area",
-      "chapter": "PBC",
-      "team1": "Buena Vista",
-      "score1": 64,
-      "team2": "Dell City",
-      "score2": 14,
-      "winner": "Buena Vista"
-    },
-    {
-      "year": 2015,
-      "classification": "1A D1",
-      "week": 1,
-      "round": "Area",
-      "chapter": "NTX",
-      "team1": "Guthrie",
-      "score1": 69,
-      "team2": "Rule",
-      "score2": 22,
-      "winner": "Guthrie"
-    },
-    {
-      "year": 2015,
-      "classification": "1A D1",
-      "week": 1,
-      "round": "Area",
-      "chapter": "FTW",
-      "team1": "Chillicothe",
-      "score1": 56,
-      "team2": "Throckmorton",
-      "score2": 44,
-      "winner": "Chillicothe"
-    },
-    {
-      "year": 2015,
-      "classification": "1A D1",
-      "week": 1,
-      "round": "Area",
-      "chapter": "NTX",
-      "team1": "Forestburg",
-      "score1": 62,
-      "team2": "Benjamin",
-      "score2": 6,
-      "winner": "Forestburg"
-    },
-    {
-      "year": 2015,
-      "classification": "1A D1",
-      "week": 1,
-      "round": "Area",
-      "chapter": "SPC",
-      "team1": "Lueders-Avoca",
-      "score1": 0,
-      "team2": "Motley County",
-      "score2": 45,
-      "winner": "Motley County"
-    },
-    {
-      "year": 2015,
-      "classification": "1A D1",
-      "week": 1,
-      "round": "Area",
-      "chapter": "ABI",
-      "team1": "Richland Springs",
-      "score1": 70,
-      "team2": "Walnut Springs",
-      "score2": 22,
-      "winner": "Richland Springs"
-    },
-    {
-      "year": 2015,
-      "classification": "1A D1",
-      "week": 1,
-      "round": "Area",
-      "chapter": "CSC",
-      "team1": "Mount Calm",
-      "score1": 84,
-      "team2": "High Island",
-      "score2": 52,
-      "winner": "Mount Calm"
-    },
-    {
-      "year": 2015,
-      "classification": "1A D1",
-      "week": 1,
-      "round": "Area",
-      "chapter": "FTW",
-      "team1": "Calvert",
-      "score1": 72,
-      "team2": "Oakwood",
-      "score2": 26,
-      "winner": "Calvert"
-    },
-    {
-      "year": 2015,
-      "classification": "1A D1",
-      "week": 1,
-      "round": "Area",
-      "chapter": "CTX",
-      "team1": "Jonesboro",
-      "score1": 74,
-      "team2": "Cherokee",
-      "score2": 6,
-      "winner": "Jonesboro"
     },
     {
       "year": 2015,
@@ -8044,102 +7852,6 @@
     {
       "year": 2015,
       "classification": "1A D1",
-      "week": 2,
-      "round": "Regional",
-      "chapter": "",
-      "team1": "Follett",
-      "score1": 54,
-      "team2": "Whitharral",
-      "score2": 8,
-      "winner": "Follett"
-    },
-    {
-      "year": 2015,
-      "classification": "1A D1",
-      "week": 2,
-      "round": "Regional",
-      "chapter": "",
-      "team1": "Southland",
-      "score1": 79,
-      "team2": "Lefors",
-      "score2": 66,
-      "winner": "Southland"
-    },
-    {
-      "year": 2015,
-      "classification": "1A D1",
-      "week": 2,
-      "round": "Regional",
-      "chapter": "",
-      "team1": "Balmorhea",
-      "score1": 52,
-      "team2": "Blanket",
-      "score2": 6,
-      "winner": "Balmorhea"
-    },
-    {
-      "year": 2015,
-      "classification": "1A D1",
-      "week": 2,
-      "round": "Regional",
-      "chapter": "",
-      "team1": "Rising Star",
-      "score1": 14,
-      "team2": "Buena Vista",
-      "score2": 60,
-      "winner": "Buena Vista"
-    },
-    {
-      "year": 2015,
-      "classification": "1A D1",
-      "week": 2,
-      "round": "Regional",
-      "chapter": "",
-      "team1": "Guthrie",
-      "score1": 64,
-      "team2": "Chillicothe",
-      "score2": 16,
-      "winner": "Guthrie"
-    },
-    {
-      "year": 2015,
-      "classification": "1A D1",
-      "week": 2,
-      "round": "Regional",
-      "chapter": "",
-      "team1": "Forestburg",
-      "score1": 16,
-      "team2": "Motley County",
-      "score2": 62,
-      "winner": "Motley County"
-    },
-    {
-      "year": 2015,
-      "classification": "1A D1",
-      "week": 2,
-      "round": "Regional",
-      "chapter": "",
-      "team1": "Richland Springs",
-      "score1": 98,
-      "team2": "Mount Calm",
-      "score2": 53,
-      "winner": "Richland Springs"
-    },
-    {
-      "year": 2015,
-      "classification": "1A D1",
-      "week": 2,
-      "round": "Regional",
-      "chapter": "",
-      "team1": "Calvert",
-      "score1": 46,
-      "team2": "Jonesboro",
-      "score2": 78,
-      "winner": "Jonesboro"
-    },
-    {
-      "year": 2015,
-      "classification": "1A D1",
       "week": 3,
       "round": "Quarterfinal",
       "chapter": "PVC",
@@ -8188,54 +7900,6 @@
     {
       "year": 2015,
       "classification": "1A D1",
-      "week": 3,
-      "round": "Quarterfinal",
-      "chapter": "AMA",
-      "team1": "Follett",
-      "score1": 58,
-      "team2": "Southland",
-      "score2": 42,
-      "winner": "Follett"
-    },
-    {
-      "year": 2015,
-      "classification": "1A D1",
-      "week": 3,
-      "round": "Quarterfinal",
-      "chapter": "SPC",
-      "team1": "Balmorhea",
-      "score1": 41,
-      "team2": "Buena Vista",
-      "score2": 46,
-      "winner": "Buena Vista"
-    },
-    {
-      "year": 2015,
-      "classification": "1A D1",
-      "week": 3,
-      "round": "Quarterfinal",
-      "chapter": "SAN",
-      "team1": "Guthrie",
-      "score1": 54,
-      "team2": "Motley County",
-      "score2": 48,
-      "winner": "Guthrie"
-    },
-    {
-      "year": 2015,
-      "classification": "1A D1",
-      "week": 3,
-      "round": "Quarterfinal",
-      "chapter": "SPC",
-      "team1": "Richland Springs",
-      "score1": 52,
-      "team2": "Jonesboro",
-      "score2": 7,
-      "winner": "Richland Springs"
-    },
-    {
-      "year": 2015,
-      "classification": "1A D1",
       "week": 4,
       "round": "Semifinal",
       "chapter": "ABI",
@@ -8260,9 +7924,357 @@
     {
       "year": 2015,
       "classification": "1A D1",
+      "week": 5,
+      "round": "State Final",
+      "chapter": "ABI",
+      "team1": "Crowell",
+      "score1": 30,
+      "team2": "Abbott",
+      "score2": 40,
+      "winner": "Abbott"
+    },
+    {
+      "year": 2015,
+      "classification": "1A D2",
+      "week": 1,
+      "round": "Area",
+      "chapter": "ABI",
+      "team1": "Follett",
+      "score1": 68,
+      "team2": "McLean",
+      "score2": 22,
+      "winner": "Follett"
+    },
+    {
+      "year": 2015,
+      "classification": "1A D2",
+      "week": 1,
+      "round": "Area",
+      "chapter": "CSC",
+      "team1": "Amherst",
+      "score1": 42,
+      "team2": "Whitharral",
+      "score2": 48,
+      "winner": "Whitharral"
+    },
+    {
+      "year": 2015,
+      "classification": "1A D2",
+      "week": 1,
+      "round": "Area",
+      "chapter": "FTW",
+      "team1": "Southland",
+      "score1": 56,
+      "team2": "Kress",
+      "score2": 6,
+      "winner": "Southland"
+    },
+    {
+      "year": 2015,
+      "classification": "1A D2",
+      "week": 1,
+      "round": "Area",
+      "chapter": "CTX",
+      "team1": "Groom",
+      "score1": 70,
+      "team2": "Lefors",
+      "score2": 74,
+      "winner": "Lefors"
+    },
+    {
+      "year": 2015,
+      "classification": "1A D2",
+      "week": 1,
+      "round": "Area",
+      "chapter": "PVC",
+      "team1": "Balmorhea",
+      "score1": 60,
+      "team2": "Ackerly Sands",
+      "score2": 14,
+      "winner": "Balmorhea"
+    },
+    {
+      "year": 2015,
+      "classification": "1A D2",
+      "week": 1,
+      "round": "Area",
+      "chapter": "PBC",
+      "team1": "Loraine",
+      "score1": 99,
+      "team2": "Blanket",
+      "score2": 101,
+      "winner": "Blanket"
+    },
+    {
+      "year": 2015,
+      "classification": "1A D2",
+      "week": 1,
+      "round": "Area",
+      "chapter": "NTX",
+      "team1": "Rising Star",
+      "score1": 56,
+      "team2": "Blackwell",
+      "score2": 8,
+      "winner": "Rising Star"
+    },
+    {
+      "year": 2015,
+      "classification": "1A D2",
+      "week": 1,
+      "round": "Area",
+      "chapter": "FTW",
+      "team1": "Buena Vista",
+      "score1": 64,
+      "team2": "Dell City",
+      "score2": 14,
+      "winner": "Buena Vista"
+    },
+    {
+      "year": 2015,
+      "classification": "1A D2",
+      "week": 1,
+      "round": "Area",
+      "chapter": "NTX",
+      "team1": "Guthrie",
+      "score1": 69,
+      "team2": "Rule",
+      "score2": 22,
+      "winner": "Guthrie"
+    },
+    {
+      "year": 2015,
+      "classification": "1A D2",
+      "week": 1,
+      "round": "Area",
+      "chapter": "SPC",
+      "team1": "Chillicothe",
+      "score1": 56,
+      "team2": "Throckmorton",
+      "score2": 44,
+      "winner": "Chillicothe"
+    },
+    {
+      "year": 2015,
+      "classification": "1A D2",
+      "week": 1,
+      "round": "Area",
+      "chapter": "NTX",
+      "team1": "Forestburg",
+      "score1": 62,
+      "team2": "Benjamin",
+      "score2": 6,
+      "winner": "Forestburg"
+    },
+    {
+      "year": 2015,
+      "classification": "1A D2",
+      "week": 1,
+      "round": "Area",
+      "chapter": "AMI",
+      "team1": "Lueders-Avoca",
+      "score1": 0,
+      "team2": "Motley County",
+      "score2": 45,
+      "winner": "Motley County"
+    },
+    {
+      "year": 2015,
+      "classification": "1A D2",
+      "week": 1,
+      "round": "Area",
+      "chapter": "SPC",
+      "team1": "Richland Springs",
+      "score1": 70,
+      "team2": "Walnut Springs",
+      "score2": 22,
+      "winner": "Richland Springs"
+    },
+    {
+      "year": 2015,
+      "classification": "1A D2",
+      "week": 1,
+      "round": "Area",
+      "chapter": "SPC",
+      "team1": "Mount Calm",
+      "score1": 84,
+      "team2": "High Island",
+      "score2": 52,
+      "winner": "Mount Calm"
+    },
+    {
+      "year": 2015,
+      "classification": "1A D2",
+      "week": 1,
+      "round": "Area",
+      "chapter": "AMI",
+      "team1": "Calvert",
+      "score1": 72,
+      "team2": "Oakwood",
+      "score2": 26,
+      "winner": "Calvert"
+    },
+    {
+      "year": 2015,
+      "classification": "1A D2",
+      "week": 1,
+      "round": "Area",
+      "chapter": "PBC",
+      "team1": "Jonesboro",
+      "score1": 74,
+      "team2": "Cherokee",
+      "score2": 6,
+      "winner": "Jonesboro"
+    },
+    {
+      "year": 2015,
+      "classification": "1A D2",
+      "week": 2,
+      "round": "Regional",
+      "chapter": "AMI",
+      "team1": "Follett",
+      "score1": 54,
+      "team2": "Whitharral",
+      "score2": 8,
+      "winner": "Follett"
+    },
+    {
+      "year": 2015,
+      "classification": "1A D2",
+      "week": 2,
+      "round": "Regional",
+      "chapter": "SPC",
+      "team1": "Southland",
+      "score1": 79,
+      "team2": "Lefors",
+      "score2": 66,
+      "winner": "Southland"
+    },
+    {
+      "year": 2015,
+      "classification": "1A D2",
+      "week": 2,
+      "round": "Regional",
+      "chapter": "PBC",
+      "team1": "Balmorhea",
+      "score1": 52,
+      "team2": "Blanket",
+      "score2": 6,
+      "winner": "Balmorhea"
+    },
+    {
+      "year": 2015,
+      "classification": "1A D2",
+      "week": 2,
+      "round": "Regional",
+      "chapter": "SJC",
+      "team1": "Rising Star",
+      "score1": 14,
+      "team2": "Buena Vista",
+      "score2": 60,
+      "winner": "Buena Vista"
+    },
+    {
+      "year": 2015,
+      "classification": "1A D2",
+      "week": 2,
+      "round": "Regional",
+      "chapter": "FTW",
+      "team1": "Guthrie",
+      "score1": 64,
+      "team2": "Chillicothe",
+      "score2": 16,
+      "winner": "Guthrie"
+    },
+    {
+      "year": 2015,
+      "classification": "1A D2",
+      "week": 2,
+      "round": "Regional",
+      "chapter": "SPC",
+      "team1": "Forestburg",
+      "score1": 16,
+      "team2": "Motley County",
+      "score2": 62,
+      "winner": "Motley County"
+    },
+    {
+      "year": 2015,
+      "classification": "1A D2",
+      "week": 2,
+      "round": "Regional",
+      "chapter": "ABI",
+      "team1": "Richland Springs",
+      "score1": 98,
+      "team2": "Mount Calm",
+      "score2": 53,
+      "winner": "Richland Springs"
+    },
+    {
+      "year": 2015,
+      "classification": "1A D2",
+      "week": 2,
+      "round": "Regional",
+      "chapter": "FTW",
+      "team1": "Calvert",
+      "score1": 46,
+      "team2": "Jonesboro",
+      "score2": 78,
+      "winner": "Jonesboro"
+    },
+    {
+      "year": 2015,
+      "classification": "1A D2",
+      "week": 3,
+      "round": "Quarterfinal",
+      "chapter": "AMI",
+      "team1": "Follett",
+      "score1": 58,
+      "team2": "Southland",
+      "score2": 42,
+      "winner": "Follett"
+    },
+    {
+      "year": 2015,
+      "classification": "1A D2",
+      "week": 3,
+      "round": "Quarterfinal",
+      "chapter": "SPC",
+      "team1": "Balmorhea",
+      "score1": 41,
+      "team2": "Buena Vista",
+      "score2": 46,
+      "winner": "Buena Vista"
+    },
+    {
+      "year": 2015,
+      "classification": "1A D2",
+      "week": 3,
+      "round": "Quarterfinal",
+      "chapter": "FTW",
+      "team1": "Guthrie",
+      "score1": 54,
+      "team2": "Motley County",
+      "score2": 48,
+      "winner": "Guthrie"
+    },
+    {
+      "year": 2015,
+      "classification": "1A D2",
+      "week": 3,
+      "round": "Quarterfinal",
+      "chapter": "ABI",
+      "team1": "Richland Springs",
+      "score1": 52,
+      "team2": "Jonesboro",
+      "score2": 7,
+      "winner": "Richland Springs"
+    },
+    {
+      "year": 2015,
+      "classification": "1A D2",
       "week": 4,
       "round": "Semifinal",
-      "chapter": "AMA",
+      "chapter": null,
       "team1": "Follett",
       "score1": 44,
       "team2": "Buena Vista",
@@ -8271,7 +8283,7 @@
     },
     {
       "year": 2015,
-      "classification": "1A D1",
+      "classification": "1A D2",
       "week": 4,
       "round": "Semifinal",
       "chapter": "SPC",
@@ -8283,22 +8295,10 @@
     },
     {
       "year": 2015,
-      "classification": "1A D1",
-      "week": 5,
-      "round": "State Final",
-      "chapter": "SAN",
-      "team1": "Crowell",
-      "score1": 30,
-      "team2": "Abbott",
-      "score2": 40,
-      "winner": "Abbott"
-    },
-    {
-      "year": 2015,
       "classification": "1A D2",
       "week": 5,
       "round": "State Final",
-      "chapter": "SPC",
+      "chapter": "ABI",
       "team1": "Follett",
       "score1": 26,
       "team2": "Richland Springs",
@@ -8307,6 +8307,128 @@
     }
   ],
   "chapters": [
+    {
+      "code": "PBC",
+      "total": 15,
+      "weeks": {
+        "1": {
+          "total": 11,
+          "classifications": {
+            "6A D1": 2,
+            "4A D1": 3,
+            "3A D2": 2,
+            "2A D2": 1,
+            "1A D1": 1,
+            "1A D2": 2
+          }
+        },
+        "2": {
+          "total": 4,
+          "classifications": {
+            "6A D2": 1,
+            "3A D1": 1,
+            "3A D2": 1,
+            "1A D2": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "AMA",
+      "total": 10,
+      "weeks": {
+        "1": {
+          "total": 5,
+          "classifications": {
+            "6A D1": 1,
+            "2A D1": 2,
+            "2A D2": 2
+          }
+        },
+        "3": {
+          "total": 1,
+          "classifications": {
+            "2A D1": 1
+          }
+        },
+        "4": {
+          "total": 1,
+          "classifications": {
+            "2A D1": 1
+          }
+        },
+        "2": {
+          "total": 2,
+          "classifications": {
+            "2A D2": 2
+          }
+        },
+        "5": {
+          "total": 1,
+          "classifications": {
+            "2A D2": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "DAL",
+      "total": 53,
+      "weeks": {
+        "1": {
+          "total": 24,
+          "classifications": {
+            "6A D1": 3,
+            "6A D2": 3,
+            "5A D1": 5,
+            "5A D2": 6,
+            "4A D1": 2,
+            "4A D2": 1,
+            "3A D1": 2,
+            "2A D1": 2
+          }
+        },
+        "2": {
+          "total": 17,
+          "classifications": {
+            "6A D1": 4,
+            "6A D2": 2,
+            "5A D1": 2,
+            "5A D2": 2,
+            "4A D1": 1,
+            "4A D2": 3,
+            "3A D2": 1,
+            "2A D1": 1,
+            "1A D1": 1
+          }
+        },
+        "3": {
+          "total": 4,
+          "classifications": {
+            "6A D1": 1,
+            "5A D2": 1,
+            "4A D2": 2
+          }
+        },
+        "4": {
+          "total": 4,
+          "classifications": {
+            "6A D1": 2,
+            "4A D1": 1,
+            "4A D2": 1
+          }
+        },
+        "5": {
+          "total": 4,
+          "classifications": {
+            "6A D2": 1,
+            "5A D1": 1,
+            "5A D2": 1,
+            "3A D1": 1
+          }
+        }
+      }
+    },
     {
       "code": "HOU",
       "total": 152,
@@ -8389,7 +8511,7 @@
     },
     {
       "code": "FTW",
-      "total": 68,
+      "total": 71,
       "weeks": {
         "1": {
           "total": 29,
@@ -8404,11 +8526,12 @@
             "3A D2": 4,
             "2A D1": 1,
             "2A D2": 1,
-            "1A D1": 5
+            "1A D1": 3,
+            "1A D2": 2
           }
         },
         "2": {
-          "total": 17,
+          "total": 19,
           "classifications": {
             "6A D1": 1,
             "6A D2": 3,
@@ -8419,11 +8542,12 @@
             "3A D2": 2,
             "2A D1": 3,
             "2A D2": 2,
-            "1A D1": 1
+            "1A D1": 1,
+            "1A D2": 2
           }
         },
         "3": {
-          "total": 10,
+          "total": 11,
           "classifications": {
             "6A D1": 1,
             "6A D2": 2,
@@ -8432,7 +8556,8 @@
             "4A D2": 1,
             "3A D1": 1,
             "3A D2": 1,
-            "1A D1": 1
+            "1A D1": 1,
+            "1A D2": 1
           }
         },
         "6": {
@@ -8463,59 +8588,152 @@
       }
     },
     {
-      "code": "DAL",
-      "total": 53,
+      "code": "CTX",
+      "total": 10,
       "weeks": {
         "1": {
-          "total": 24,
+          "total": 7,
           "classifications": {
-            "6A D1": 3,
-            "6A D2": 3,
-            "5A D1": 5,
-            "5A D2": 6,
-            "4A D1": 2,
-            "4A D2": 1,
-            "3A D1": 2,
-            "2A D1": 2
+            "6A D1": 1,
+            "5A D2": 1,
+            "3A D1": 1,
+            "3A D2": 1,
+            "2A D1": 1,
+            "1A D1": 1,
+            "1A D2": 1
           }
         },
         "2": {
-          "total": 17,
+          "total": 2,
           "classifications": {
-            "6A D1": 4,
-            "6A D2": 2,
-            "5A D1": 2,
-            "5A D2": 2,
+            "3A D1": 1,
+            "3A D2": 1
+          }
+        },
+        "3": {
+          "total": 1,
+          "classifications": {
+            "2A D2": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "ABI",
+      "total": 39,
+      "weeks": {
+        "1": {
+          "total": 20,
+          "classifications": {
+            "6A D1": 1,
+            "6A D2": 3,
             "4A D1": 1,
-            "4A D2": 3,
+            "4A D2": 2,
+            "3A D1": 2,
             "3A D2": 1,
             "2A D1": 1,
+            "2A D2": 4,
+            "1A D1": 4,
+            "1A D2": 1
+          }
+        },
+        "2": {
+          "total": 9,
+          "classifications": {
+            "5A D1": 2,
+            "5A D2": 1,
+            "3A D1": 1,
+            "3A D2": 1,
+            "2A D1": 1,
+            "2A D2": 1,
+            "1A D1": 1,
+            "1A D2": 1
+          }
+        },
+        "4": {
+          "total": 4,
+          "classifications": {
+            "5A D1": 1,
+            "3A D2": 1,
+            "2A D2": 1,
             "1A D1": 1
           }
         },
         "3": {
           "total": 4,
           "classifications": {
-            "6A D1": 1,
-            "5A D2": 1,
-            "4A D2": 2
-          }
-        },
-        "4": {
-          "total": 4,
-          "classifications": {
-            "6A D1": 2,
-            "4A D1": 1,
-            "4A D2": 1
+            "3A D2": 1,
+            "2A D2": 1,
+            "1A D1": 1,
+            "1A D2": 1
           }
         },
         "5": {
-          "total": 4,
+          "total": 2,
+          "classifications": {
+            "1A D1": 1,
+            "1A D2": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "AUS",
+      "total": 45,
+      "weeks": {
+        "1": {
+          "total": 24,
+          "classifications": {
+            "6A D1": 3,
+            "6A D2": 4,
+            "5A D1": 4,
+            "5A D2": 2,
+            "4A D2": 1,
+            "3A D1": 2,
+            "3A D2": 2,
+            "2A D1": 2,
+            "2A D2": 4
+          }
+        },
+        "5": {
+          "total": 3,
+          "classifications": {
+            "6A D1": 1,
+            "4A D1": 1,
+            "2A D2": 1
+          }
+        },
+        "2": {
+          "total": 11,
           "classifications": {
             "6A D2": 1,
             "5A D1": 1,
             "5A D2": 1,
-            "3A D1": 1
+            "4A D1": 1,
+            "4A D2": 2,
+            "2A D1": 2,
+            "2A D2": 3
+          }
+        },
+        "3": {
+          "total": 4,
+          "classifications": {
+            "5A D1": 1,
+            "3A D1": 1,
+            "2A D1": 2
+          }
+        },
+        "4": {
+          "total": 2,
+          "classifications": {
+            "5A D1": 1,
+            "4A D2": 1
+          }
+        },
+        "6": {
+          "total": 1,
+          "classifications": {
+            "5A D1": 1
           }
         }
       }
@@ -8578,6 +8796,65 @@
           "total": 1,
           "classifications": {
             "3A D2": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "RGV",
+      "total": 14,
+      "weeks": {
+        "1": {
+          "total": 11,
+          "classifications": {
+            "6A D1": 4,
+            "6A D2": 3,
+            "5A D1": 2,
+            "5A D2": 2
+          }
+        },
+        "2": {
+          "total": 3,
+          "classifications": {
+            "6A D1": 2,
+            "6A D2": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "NTX",
+      "total": 16,
+      "weeks": {
+        "2": {
+          "total": 5,
+          "classifications": {
+            "6A D1": 1,
+            "4A D1": 1,
+            "4A D2": 2,
+            "2A D1": 1
+          }
+        },
+        "1": {
+          "total": 8,
+          "classifications": {
+            "5A D2": 1,
+            "3A D2": 1,
+            "2A D2": 3,
+            "1A D2": 3
+          }
+        },
+        "3": {
+          "total": 2,
+          "classifications": {
+            "4A D2": 1,
+            "2A D2": 1
+          }
+        },
+        "5": {
+          "total": 1,
+          "classifications": {
+            "2A D1": 1
           }
         }
       }
@@ -8648,62 +8925,49 @@
       }
     },
     {
-      "code": "AUS",
-      "total": 45,
+      "code": "ELP",
+      "total": 4,
       "weeks": {
         "1": {
-          "total": 24,
-          "classifications": {
-            "6A D1": 3,
-            "6A D2": 4,
-            "5A D1": 4,
-            "5A D2": 2,
-            "4A D2": 1,
-            "3A D1": 2,
-            "3A D2": 2,
-            "2A D1": 2,
-            "2A D2": 4
-          }
-        },
-        "5": {
-          "total": 3,
-          "classifications": {
-            "6A D1": 1,
-            "4A D1": 1,
-            "2A D2": 1
-          }
-        },
-        "2": {
-          "total": 11,
-          "classifications": {
-            "6A D2": 1,
-            "5A D1": 1,
-            "5A D2": 1,
-            "4A D1": 1,
-            "4A D2": 2,
-            "2A D1": 2,
-            "2A D2": 3
-          }
-        },
-        "3": {
           "total": 4,
+          "classifications": {
+            "5A D1": 2,
+            "5A D2": 2
+          }
+        }
+      }
+    },
+    {
+      "code": "SAN",
+      "total": 10,
+      "weeks": {
+        "1": {
+          "total": 5,
           "classifications": {
             "5A D1": 1,
             "3A D1": 1,
+            "3A D2": 1,
             "2A D1": 2
+          }
+        },
+        "3": {
+          "total": 2,
+          "classifications": {
+            "5A D2": 1,
+            "4A D1": 1
+          }
+        },
+        "2": {
+          "total": 1,
+          "classifications": {
+            "4A D1": 1
           }
         },
         "4": {
           "total": 2,
           "classifications": {
-            "5A D1": 1,
-            "4A D2": 1
-          }
-        },
-        "6": {
-          "total": 1,
-          "classifications": {
-            "5A D1": 1
+            "4A D1": 1,
+            "2A D2": 1
           }
         }
       }
@@ -8723,133 +8987,38 @@
             "3A D2": 1,
             "2A D1": 2,
             "2A D2": 5,
-            "1A D1": 5
+            "1A D1": 2,
+            "1A D2": 3
           }
         },
         "2": {
-          "total": 11,
+          "total": 13,
           "classifications": {
             "5A D1": 1,
             "5A D2": 1,
             "4A D1": 2,
             "2A D1": 1,
             "2A D2": 4,
-            "1A D1": 2
+            "1A D1": 2,
+            "1A D2": 2
           }
         },
         "3": {
-          "total": 7,
+          "total": 6,
           "classifications": {
             "4A D1": 1,
             "4A D2": 1,
             "3A D1": 1,
             "2A D1": 1,
             "2A D2": 1,
-            "1A D1": 2
-          }
-        },
-        "4": {
-          "total": 2,
-          "classifications": {
-            "2A D2": 1,
-            "1A D1": 1
-          }
-        },
-        "5": {
-          "total": 1,
-          "classifications": {
             "1A D2": 1
           }
-        }
-      }
-    },
-    {
-      "code": "ABI",
-      "total": 35,
-      "weeks": {
-        "1": {
-          "total": 20,
-          "classifications": {
-            "6A D1": 1,
-            "6A D2": 3,
-            "4A D1": 1,
-            "4A D2": 2,
-            "3A D1": 2,
-            "3A D2": 1,
-            "2A D1": 1,
-            "2A D2": 4,
-            "1A D1": 5
-          }
-        },
-        "2": {
-          "total": 8,
-          "classifications": {
-            "5A D1": 2,
-            "5A D2": 1,
-            "3A D1": 1,
-            "3A D2": 1,
-            "2A D1": 1,
-            "2A D2": 1,
-            "1A D1": 1
-          }
         },
         "4": {
-          "total": 4,
-          "classifications": {
-            "5A D1": 1,
-            "3A D2": 1,
-            "2A D2": 1,
-            "1A D1": 1
-          }
-        },
-        "3": {
-          "total": 3,
-          "classifications": {
-            "3A D2": 1,
-            "2A D2": 1,
-            "1A D1": 1
-          }
-        }
-      }
-    },
-    {
-      "code": "CSC",
-      "total": 31,
-      "weeks": {
-        "1": {
-          "total": 17,
-          "classifications": {
-            "5A D1": 2,
-            "4A D2": 2,
-            "3A D1": 5,
-            "3A D2": 2,
-            "2A D1": 2,
-            "2A D2": 3,
-            "1A D1": 1
-          }
-        },
-        "2": {
-          "total": 11,
-          "classifications": {
-            "5A D1": 1,
-            "5A D2": 1,
-            "4A D1": 3,
-            "4A D2": 2,
-            "3A D1": 2,
-            "3A D2": 2
-          }
-        },
-        "3": {
           "total": 2,
           "classifications": {
-            "4A D1": 1,
-            "3A D2": 1
-          }
-        },
-        "4": {
-          "total": 1,
-          "classifications": {
-            "4A D1": 1
+            "2A D2": 1,
+            "1A D2": 1
           }
         }
       }
@@ -8889,125 +9058,43 @@
       }
     },
     {
-      "code": "NTX",
-      "total": 16,
+      "code": "CSC",
+      "total": 31,
       "weeks": {
-        "2": {
-          "total": 5,
+        "1": {
+          "total": 17,
           "classifications": {
-            "6A D1": 1,
-            "4A D1": 1,
+            "5A D1": 2,
             "4A D2": 2,
-            "2A D1": 1
-          }
-        },
-        "1": {
-          "total": 8,
-          "classifications": {
-            "5A D2": 1,
-            "3A D2": 1,
-            "2A D2": 3,
-            "1A D1": 3
-          }
-        },
-        "3": {
-          "total": 2,
-          "classifications": {
-            "4A D2": 1,
-            "2A D2": 1
-          }
-        },
-        "5": {
-          "total": 1,
-          "classifications": {
-            "2A D1": 1
-          }
-        }
-      }
-    },
-    {
-      "code": "AMA",
-      "total": 15,
-      "weeks": {
-        "1": {
-          "total": 8,
-          "classifications": {
-            "6A D1": 1,
+            "3A D1": 5,
+            "3A D2": 2,
             "2A D1": 2,
-            "2A D2": 2,
-            "1A D1": 3
+            "2A D2": 3,
+            "1A D2": 1
+          }
+        },
+        "2": {
+          "total": 11,
+          "classifications": {
+            "5A D1": 1,
+            "5A D2": 1,
+            "4A D1": 3,
+            "4A D2": 2,
+            "3A D1": 2,
+            "3A D2": 2
           }
         },
         "3": {
           "total": 2,
           "classifications": {
-            "2A D1": 1,
-            "1A D1": 1
+            "4A D1": 1,
+            "3A D2": 1
           }
         },
         "4": {
-          "total": 2,
-          "classifications": {
-            "2A D1": 1,
-            "1A D1": 1
-          }
-        },
-        "2": {
-          "total": 2,
-          "classifications": {
-            "2A D2": 2
-          }
-        },
-        "5": {
           "total": 1,
           "classifications": {
-            "2A D2": 1
-          }
-        }
-      }
-    },
-    {
-      "code": "PBC",
-      "total": 14,
-      "weeks": {
-        "1": {
-          "total": 11,
-          "classifications": {
-            "6A D1": 2,
-            "4A D1": 3,
-            "3A D2": 2,
-            "2A D2": 1,
-            "1A D1": 3
-          }
-        },
-        "2": {
-          "total": 3,
-          "classifications": {
-            "6A D2": 1,
-            "3A D1": 1,
-            "3A D2": 1
-          }
-        }
-      }
-    },
-    {
-      "code": "RGV",
-      "total": 14,
-      "weeks": {
-        "1": {
-          "total": 11,
-          "classifications": {
-            "6A D1": 4,
-            "6A D2": 3,
-            "5A D1": 2,
-            "5A D2": 2
-          }
-        },
-        "2": {
-          "total": 3,
-          "classifications": {
-            "6A D1": 2,
-            "6A D2": 1
+            "4A D1": 1
           }
         }
       }
@@ -9047,6 +9134,41 @@
       }
     },
     {
+      "code": "STX",
+      "total": 9,
+      "weeks": {
+        "1": {
+          "total": 9,
+          "classifications": {
+            "4A D1": 2,
+            "4A D2": 1,
+            "3A D1": 2,
+            "3A D2": 2,
+            "2A D1": 1,
+            "2A D2": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "BEA",
+      "total": 2,
+      "weeks": {
+        "3": {
+          "total": 1,
+          "classifications": {
+            "4A D1": 1
+          }
+        },
+        "2": {
+          "total": 1,
+          "classifications": {
+            "3A D1": 1
+          }
+        }
+      }
+    },
+    {
       "code": "SFA",
       "total": 14,
       "weeks": {
@@ -9080,133 +9202,6 @@
       }
     },
     {
-      "code": "SAN",
-      "total": 13,
-      "weeks": {
-        "1": {
-          "total": 6,
-          "classifications": {
-            "5A D1": 1,
-            "3A D1": 1,
-            "3A D2": 1,
-            "2A D1": 2,
-            "1A D1": 1
-          }
-        },
-        "3": {
-          "total": 3,
-          "classifications": {
-            "5A D2": 1,
-            "4A D1": 1,
-            "1A D1": 1
-          }
-        },
-        "2": {
-          "total": 1,
-          "classifications": {
-            "4A D1": 1
-          }
-        },
-        "4": {
-          "total": 2,
-          "classifications": {
-            "4A D1": 1,
-            "2A D2": 1
-          }
-        },
-        "5": {
-          "total": 1,
-          "classifications": {
-            "1A D1": 1
-          }
-        }
-      }
-    },
-    {
-      "code": "CTX",
-      "total": 10,
-      "weeks": {
-        "1": {
-          "total": 7,
-          "classifications": {
-            "6A D1": 1,
-            "5A D2": 1,
-            "3A D1": 1,
-            "3A D2": 1,
-            "2A D1": 1,
-            "1A D1": 2
-          }
-        },
-        "2": {
-          "total": 2,
-          "classifications": {
-            "3A D1": 1,
-            "3A D2": 1
-          }
-        },
-        "3": {
-          "total": 1,
-          "classifications": {
-            "2A D2": 1
-          }
-        }
-      }
-    },
-    {
-      "code": "STX",
-      "total": 9,
-      "weeks": {
-        "1": {
-          "total": 9,
-          "classifications": {
-            "4A D1": 2,
-            "4A D2": 1,
-            "3A D1": 2,
-            "3A D2": 2,
-            "2A D1": 1,
-            "2A D2": 1
-          }
-        }
-      }
-    },
-    {
-      "code": "PVC",
-      "total": 8,
-      "weeks": {
-        "1": {
-          "total": 3,
-          "classifications": {
-            "1A D1": 3
-          }
-        },
-        "2": {
-          "total": 3,
-          "classifications": {
-            "1A D1": 3
-          }
-        },
-        "3": {
-          "total": 2,
-          "classifications": {
-            "1A D1": 2
-          }
-        }
-      }
-    },
-    {
-      "code": "ELP",
-      "total": 4,
-      "weeks": {
-        "1": {
-          "total": 4,
-          "classifications": {
-            "5A D1": 2,
-            "5A D2": 2
-          }
-        }
-      }
-    },
-    {
       "code": "COM",
       "total": 3,
       "weeks": {
@@ -9220,19 +9215,69 @@
       }
     },
     {
-      "code": "BEA",
+      "code": "SJC",
       "total": 2,
       "weeks": {
-        "3": {
+        "1": {
           "total": 1,
           "classifications": {
-            "4A D1": 1
+            "1A D1": 1
           }
         },
         "2": {
           "total": 1,
           "classifications": {
-            "3A D1": 1
+            "1A D2": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "PVC",
+      "total": 8,
+      "weeks": {
+        "1": {
+          "total": 3,
+          "classifications": {
+            "1A D1": 2,
+            "1A D2": 1
+          }
+        },
+        "2": {
+          "total": 3,
+          "classifications": {
+            "1A D1": 3
+          }
+        },
+        "3": {
+          "total": 2,
+          "classifications": {
+            "1A D1": 2
+          }
+        }
+      }
+    },
+    {
+      "code": "AMI",
+      "total": 5,
+      "weeks": {
+        "1": {
+          "total": 3,
+          "classifications": {
+            "1A D1": 1,
+            "1A D2": 2
+          }
+        },
+        "2": {
+          "total": 1,
+          "classifications": {
+            "1A D2": 1
+          }
+        },
+        "3": {
+          "total": 1,
+          "classifications": {
+            "1A D2": 1
           }
         }
       }
