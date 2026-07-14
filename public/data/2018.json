@@ -7566,7 +7566,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "AMA",
+      "chapter": "SJC",
       "team1": "McLean",
       "score1": 62,
       "team2": "Petersburg",
@@ -7578,7 +7578,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "NTX",
+      "chapter": "PVC",
       "team1": "Paducah",
       "score1": 55,
       "team2": "Aspermont",
@@ -7590,7 +7590,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "SPC",
+      "chapter": "PVC",
       "team1": "Ira",
       "score1": 68,
       "team2": "Crowell",
@@ -7602,7 +7602,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "SPC",
+      "chapter": "AUS",
       "team1": "Nazareth",
       "score1": 24,
       "team2": "White Deer",
@@ -7614,7 +7614,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "SPC",
+      "chapter": "ABI",
       "team1": "Ropesville",
       "score1": 58,
       "team2": "Lenorah Grady",
@@ -7626,7 +7626,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "SPC",
+      "chapter": "FTW",
       "team1": "Balmorhea",
       "score1": 64,
       "team2": "Sterling City",
@@ -7674,7 +7674,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "AUS",
+      "chapter": "SPC",
       "team1": "Milford",
       "score1": 60,
       "team2": "High Island",
@@ -7686,7 +7686,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "ABI",
+      "chapter": "PVC",
       "team1": "Union Hill",
       "score1": 60,
       "team2": "Coolidge",
@@ -7698,7 +7698,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "FTW",
+      "chapter": "AMI",
       "team1": "Blum",
       "score1": 60,
       "team2": "Savoy",
@@ -7710,7 +7710,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "PVC",
+      "chapter": "NTX",
       "team1": "Eden",
       "score1": 20,
       "team2": "Gorman",
@@ -7722,7 +7722,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "SAN",
+      "chapter": "SPC",
       "team1": "Evant",
       "score1": 12,
       "team2": "Barksdale Nueces Canyon",
@@ -7734,7 +7734,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "PVC",
+      "chapter": "SPC",
       "team1": "Leakey",
       "score1": 66,
       "team2": "Jonesboro",
@@ -7746,204 +7746,12 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "PVC",
+      "chapter": "SPC",
       "team1": "May",
       "score1": 94,
       "team2": "Robert Lee",
       "score2": 88,
       "winner": "May"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 1,
-      "round": "Area",
-      "chapter": "AMA",
-      "team1": "Follett",
-      "score1": 76,
-      "team2": "Silverton",
-      "score2": 26,
-      "winner": "Follett"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 1,
-      "round": "Area",
-      "chapter": "SPC",
-      "team1": "Whitharral",
-      "score1": 64,
-      "team2": "Southland",
-      "score2": 0,
-      "winner": "Whitharral"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 1,
-      "round": "Area",
-      "chapter": "SPC",
-      "team1": "Wilson",
-      "score1": 6,
-      "team2": "Anton",
-      "score2": 62,
-      "winner": "Anton"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 1,
-      "round": "Area",
-      "chapter": "SPC",
-      "team1": "Motley County",
-      "score1": 72,
-      "team2": "Groom",
-      "score2": 56,
-      "winner": "Motley County"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 1,
-      "round": "Area",
-      "chapter": "PBC",
-      "team1": "Grandfalls-Royalty",
-      "score1": 84,
-      "team2": "Loraine",
-      "score2": 34,
-      "winner": "Grandfalls-Royalty"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 1,
-      "round": "Area",
-      "chapter": "NTX",
-      "team1": "Lueders-Avoca",
-      "score1": 46,
-      "team2": "Woodson",
-      "score2": 0,
-      "winner": "Lueders-Avoca"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 1,
-      "round": "Area",
-      "chapter": "ABI",
-      "team1": "Throckmorton",
-      "score1": 6,
-      "team2": "Jayton",
-      "score2": 60,
-      "winner": "Jayton"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 1,
-      "round": "Area",
-      "chapter": "PBC",
-      "team1": "Blackwell",
-      "score1": 72,
-      "team2": "Sierra Blanca",
-      "score2": 24,
-      "winner": "Blackwell"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 1,
-      "round": "Area",
-      "chapter": "ABI",
-      "team1": "Ladonia Fannindel",
-      "score1": 66,
-      "team2": "Gordon",
-      "score2": 48,
-      "winner": "Ladonia Fannindel"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 1,
-      "round": "Area",
-      "chapter": "WAC",
-      "team1": "Iredell",
-      "score1": 62,
-      "team2": "Morgan",
-      "score2": 0,
-      "winner": "Iredell"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 1,
-      "round": "Area",
-      "chapter": "WAC",
-      "team1": "Kopperl",
-      "score1": 54,
-      "team2": "Walnut Springs",
-      "score2": 80,
-      "winner": "Walnut Springs"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 1,
-      "round": "Area",
-      "chapter": "PVC",
-      "team1": "Strawn",
-      "score1": 68,
-      "team2": "Gold-Burg",
-      "score2": 0,
-      "winner": "Strawn"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 1,
-      "round": "Area",
-      "chapter": "TYL",
-      "team1": "Oakwood",
-      "score1": 72,
-      "team2": "McDade",
-      "score2": 0,
-      "winner": "Oakwood"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 1,
-      "round": "Area",
-      "chapter": "PVC",
-      "team1": "Blanket",
-      "score1": 75,
-      "team2": "Valera Panther Creeek",
-      "score2": 30,
-      "winner": "Blanket"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 1,
-      "round": "Area",
-      "chapter": "PVC",
-      "team1": "Richland Springs",
-      "score1": 53,
-      "team2": "Brookesmith",
-      "score2": 6,
-      "winner": "Richland Springs"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 1,
-      "round": "Area",
-      "chapter": "WAC",
-      "team1": "Calvert",
-      "score1": 48,
-      "team2": "Trinidad",
-      "score2": 14,
-      "winner": "Calvert"
     },
     {
       "year": 2018,
@@ -7986,7 +7794,7 @@
       "classification": "1A D1",
       "week": 2,
       "round": "Regional",
-      "chapter": "AMA",
+      "chapter": "AMI",
       "team1": "Garden City",
       "score1": 60,
       "team2": "Borden County",
@@ -8044,105 +7852,9 @@
     {
       "year": 2018,
       "classification": "1A D1",
-      "week": 2,
-      "round": "Regional",
-      "chapter": "",
-      "team1": "Follett",
-      "score1": 62,
-      "team2": "Whitharral",
-      "score2": 22,
-      "winner": "Follett"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 2,
-      "round": "Regional",
-      "chapter": "AMA",
-      "team1": "Anton",
-      "score1": 68,
-      "team2": "Motley County",
-      "score2": 82,
-      "winner": "Motley County"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 2,
-      "round": "Regional",
-      "chapter": "SPC",
-      "team1": "Grandfalls-Royalty",
-      "score1": 65,
-      "team2": "Lueders-Avoca",
-      "score2": 60,
-      "winner": "Grandfalls-Royalty"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 2,
-      "round": "Regional",
-      "chapter": "SAN",
-      "team1": "Jayton",
-      "score1": 68,
-      "team2": "Blackwell",
-      "score2": 18,
-      "winner": "Jayton"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 2,
-      "round": "Regional",
-      "chapter": "ABI",
-      "team1": "Ladonia Fannindel",
-      "score1": 13,
-      "team2": "Iredell",
-      "score2": 58,
-      "winner": "Iredell"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 2,
-      "round": "Regional",
-      "chapter": "WAC",
-      "team1": "Walnut Springs",
-      "score1": 8,
-      "team2": "Strawn",
-      "score2": 62,
-      "winner": "Strawn"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 2,
-      "round": "Regional",
-      "chapter": "WAC",
-      "team1": "Oakwood",
-      "score1": 51,
-      "team2": "Blanket",
-      "score2": 6,
-      "winner": "Oakwood"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 2,
-      "round": "Regional",
-      "chapter": "WAC",
-      "team1": "Richland Springs",
-      "score1": 60,
-      "team2": "Calvert",
-      "score2": 47,
-      "winner": "Richland Springs"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
       "week": 3,
       "round": "Quarterfinal",
-      "chapter": "AMA",
+      "chapter": "AMI",
       "team1": "McLean",
       "score1": 45,
       "team2": "White Deer",
@@ -8188,54 +7900,6 @@
     {
       "year": 2018,
       "classification": "1A D1",
-      "week": 3,
-      "round": "Quarterfinal",
-      "chapter": "AMA",
-      "team1": "Follett",
-      "score1": 48,
-      "team2": "Motley County",
-      "score2": 18,
-      "winner": "Follett"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 3,
-      "round": "Quarterfinal",
-      "chapter": "",
-      "team1": "Grandfalls-Royalty",
-      "score1": 52,
-      "team2": "Jayton",
-      "score2": 66,
-      "winner": "Jayton"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 3,
-      "round": "Quarterfinal",
-      "chapter": "FTW",
-      "team1": "Iredell",
-      "score1": 22,
-      "team2": "Strawn",
-      "score2": 68,
-      "winner": "Strawn"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 3,
-      "round": "Quarterfinal",
-      "chapter": "",
-      "team1": "Oakwood",
-      "score1": 66,
-      "team2": "Richland Springs",
-      "score2": 56,
-      "winner": "Oakwood"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
       "week": 4,
       "round": "Semifinal",
       "chapter": "SPC",
@@ -8260,55 +7924,7 @@
     {
       "year": 2018,
       "classification": "1A D1",
-      "week": 4,
-      "round": "Semifinal",
-      "chapter": "AMA",
-      "team1": "Follett",
-      "score1": 52,
-      "team2": "Jayton",
-      "score2": 32,
-      "winner": "Follett"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 4,
-      "round": "Semifinal",
-      "chapter": "",
-      "team1": "Strawn",
-      "score1": 51,
-      "team2": "Oakwood",
-      "score2": 6,
-      "winner": "Strawn"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
       "week": 5,
-      "round": "State Final",
-      "chapter": "PVC",
-      "team1": "McLean",
-      "score1": 100,
-      "team2": "Milford",
-      "score2": 70,
-      "winner": "McLean"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D2",
-      "week": 5,
-      "round": "State Final",
-      "chapter": "",
-      "team1": "Follett",
-      "score1": 0,
-      "team2": "Strawn",
-      "score2": 48,
-      "winner": "Strawn"
-    },
-    {
-      "year": 2018,
-      "classification": "1A D1",
-      "week": 6,
       "round": "State Final",
       "chapter": "FTW",
       "team1": "McLean",
@@ -8320,9 +7936,369 @@
     {
       "year": 2018,
       "classification": "1A D2",
-      "week": 6,
+      "week": 1,
+      "round": "Area",
+      "chapter": "TYL",
+      "team1": "Follett",
+      "score1": 76,
+      "team2": "Silverton",
+      "score2": 26,
+      "winner": "Follett"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D2",
+      "week": 1,
+      "round": "Area",
+      "chapter": "PVC",
+      "team1": "Whitharral",
+      "score1": 64,
+      "team2": "Southland",
+      "score2": 0,
+      "winner": "Whitharral"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D2",
+      "week": 1,
+      "round": "Area",
+      "chapter": "PVC",
+      "team1": "Wilson",
+      "score1": 6,
+      "team2": "Anton",
+      "score2": 62,
+      "winner": "Anton"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D2",
+      "week": 1,
+      "round": "Area",
+      "chapter": "WC",
+      "team1": "Motley County",
+      "score1": 72,
+      "team2": "Groom",
+      "score2": 56,
+      "winner": "Motley County"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D2",
+      "week": 1,
+      "round": "Area",
+      "chapter": "ABI",
+      "team1": "Grandfalls-Royalty",
+      "score1": 84,
+      "team2": "Loraine",
+      "score2": 34,
+      "winner": "Grandfalls-Royalty"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D2",
+      "week": 1,
+      "round": "Area",
+      "chapter": "PBC",
+      "team1": "Lueders-Avoca",
+      "score1": 46,
+      "team2": "Woodson",
+      "score2": 0,
+      "winner": "Lueders-Avoca"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D2",
+      "week": 1,
+      "round": "Area",
+      "chapter": "ABI",
+      "team1": "Throckmorton",
+      "score1": 6,
+      "team2": "Jayton",
+      "score2": 60,
+      "winner": "Jayton"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D2",
+      "week": 1,
+      "round": "Area",
+      "chapter": "WC",
+      "team1": "Blackwell",
+      "score1": 72,
+      "team2": "Sierra Blanca",
+      "score2": 24,
+      "winner": "Blackwell"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D2",
+      "week": 1,
+      "round": "Area",
+      "chapter": "WC",
+      "team1": "Ladonia Fannindel",
+      "score1": 66,
+      "team2": "Gordon",
+      "score2": 48,
+      "winner": "Ladonia Fannindel"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D2",
+      "week": 1,
+      "round": "Area",
+      "chapter": "PVC",
+      "team1": "Iredell",
+      "score1": 62,
+      "team2": "Morgan",
+      "score2": 0,
+      "winner": "Iredell"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D2",
+      "week": 1,
+      "round": "Area",
+      "chapter": "NTX",
+      "team1": "Kopperl",
+      "score1": 54,
+      "team2": "Walnut Springs",
+      "score2": 80,
+      "winner": "Walnut Springs"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D2",
+      "week": 1,
+      "round": "Area",
+      "chapter": "AMI",
+      "team1": "Strawn",
+      "score1": 68,
+      "team2": "Gold-Burg",
+      "score2": 0,
+      "winner": "Strawn"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D2",
+      "week": 1,
+      "round": "Area",
+      "chapter": "SPC",
+      "team1": "Oakwood",
+      "score1": 72,
+      "team2": "McDade",
+      "score2": 0,
+      "winner": "Oakwood"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D2",
+      "week": 1,
+      "round": "Area",
+      "chapter": "SPC",
+      "team1": "Blanket",
+      "score1": 75,
+      "team2": "Valera Panther Creeek",
+      "score2": 30,
+      "winner": "Blanket"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D2",
+      "week": 1,
+      "round": "Area",
+      "chapter": "SPC",
+      "team1": "Richland Springs",
+      "score1": 53,
+      "team2": "Brookesmith",
+      "score2": 6,
+      "winner": "Richland Springs"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D2",
+      "week": 1,
+      "round": "Area",
+      "chapter": "PBC",
+      "team1": "Calvert",
+      "score1": 48,
+      "team2": "Trinidad",
+      "score2": 14,
+      "winner": "Calvert"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D2",
+      "week": 2,
+      "round": "Regional",
+      "chapter": null,
+      "team1": "Follett",
+      "score1": 62,
+      "team2": "Whitharral",
+      "score2": 22,
+      "winner": "Follett"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D2",
+      "week": 2,
+      "round": "Regional",
+      "chapter": "AMI",
+      "team1": "Anton",
+      "score1": 68,
+      "team2": "Motley County",
+      "score2": 82,
+      "winner": "Motley County"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D2",
+      "week": 2,
+      "round": "Regional",
+      "chapter": "SPC",
+      "team1": "Grandfalls-Royalty",
+      "score1": 65,
+      "team2": "Lueders-Avoca",
+      "score2": 60,
+      "winner": "Grandfalls-Royalty"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D2",
+      "week": 2,
+      "round": "Regional",
+      "chapter": null,
+      "team1": "Jayton",
+      "score1": 68,
+      "team2": "Blackwell",
+      "score2": 18,
+      "winner": "Jayton"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D2",
+      "week": 2,
+      "round": "Regional",
+      "chapter": "ABI",
+      "team1": "Ladonia Fannindel",
+      "score1": 13,
+      "team2": "Iredell",
+      "score2": 58,
+      "winner": "Iredell"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D2",
+      "week": 2,
+      "round": "Regional",
+      "chapter": "WC",
+      "team1": "Walnut Springs",
+      "score1": 8,
+      "team2": "Strawn",
+      "score2": 62,
+      "winner": "Strawn"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D2",
+      "week": 2,
+      "round": "Regional",
+      "chapter": "WC",
+      "team1": "Oakwood",
+      "score1": 51,
+      "team2": "Blanket",
+      "score2": 6,
+      "winner": "Oakwood"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D2",
+      "week": 2,
+      "round": "Regional",
+      "chapter": "WC",
+      "team1": "Richland Springs",
+      "score1": 60,
+      "team2": "Calvert",
+      "score2": 47,
+      "winner": "Richland Springs"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D2",
+      "week": 3,
+      "round": "Quarterfinal",
+      "chapter": "AMI",
+      "team1": "Follett",
+      "score1": 48,
+      "team2": "Motley County",
+      "score2": 18,
+      "winner": "Follett"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D2",
+      "week": 3,
+      "round": "Quarterfinal",
+      "chapter": null,
+      "team1": "Grandfalls-Royalty",
+      "score1": 52,
+      "team2": "Jayton",
+      "score2": 66,
+      "winner": "Jayton"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D2",
+      "week": 3,
+      "round": "Quarterfinal",
+      "chapter": "FTW",
+      "team1": "Iredell",
+      "score1": 22,
+      "team2": "Strawn",
+      "score2": 68,
+      "winner": "Strawn"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D2",
+      "week": 3,
+      "round": "Quarterfinal",
+      "chapter": null,
+      "team1": "Oakwood",
+      "score1": 66,
+      "team2": "Richland Springs",
+      "score2": 56,
+      "winner": "Oakwood"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D2",
+      "week": 4,
+      "round": "Semifinal",
+      "chapter": "AMI",
+      "team1": "Follett",
+      "score1": 52,
+      "team2": "Jayton",
+      "score2": 32,
+      "winner": "Follett"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D2",
+      "week": 4,
+      "round": "Semifinal",
+      "chapter": null,
+      "team1": "Strawn",
+      "score1": 51,
+      "team2": "Oakwood",
+      "score2": 6,
+      "winner": "Strawn"
+    },
+    {
+      "year": 2018,
+      "classification": "1A D2",
+      "week": 5,
       "round": "State Final",
-      "chapter": "AMA",
+      "chapter": "FTW",
       "team1": "Strawn",
       "score1": 48,
       "team2": "Follett",
@@ -8331,6 +8307,186 @@
     }
   ],
   "chapters": [
+    {
+      "code": "SAT",
+      "total": 49,
+      "weeks": {
+        "1": {
+          "total": 30,
+          "classifications": {
+            "6A D1": 4,
+            "6A D2": 4,
+            "5A D1": 4,
+            "5A D2": 1,
+            "4A D1": 2,
+            "4A D2": 5,
+            "3A D1": 2,
+            "3A D2": 2,
+            "2A D1": 3,
+            "2A D2": 3
+          }
+        },
+        "2": {
+          "total": 12,
+          "classifications": {
+            "6A D1": 2,
+            "6A D2": 2,
+            "5A D1": 1,
+            "5A D2": 2,
+            "4A D2": 1,
+            "3A D1": 1,
+            "2A D1": 1,
+            "2A D2": 2
+          }
+        },
+        "3": {
+          "total": 5,
+          "classifications": {
+            "6A D1": 2,
+            "6A D2": 1,
+            "5A D1": 1,
+            "2A D1": 1
+          }
+        },
+        "4": {
+          "total": 1,
+          "classifications": {
+            "6A D2": 1
+          }
+        },
+        "6": {
+          "total": 1,
+          "classifications": {
+            "2A D1": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "FTW",
+      "total": 75,
+      "weeks": {
+        "1": {
+          "total": 37,
+          "classifications": {
+            "6A D1": 5,
+            "6A D2": 5,
+            "5A D1": 4,
+            "5A D2": 4,
+            "4A D1": 3,
+            "4A D2": 4,
+            "3A D1": 4,
+            "3A D2": 2,
+            "2A D1": 3,
+            "2A D2": 2,
+            "1A D1": 1
+          }
+        },
+        "2": {
+          "total": 11,
+          "classifications": {
+            "6A D1": 1,
+            "6A D2": 1,
+            "5A D2": 2,
+            "4A D1": 2,
+            "3A D2": 2,
+            "2A D1": 1,
+            "2A D2": 2
+          }
+        },
+        "3": {
+          "total": 14,
+          "classifications": {
+            "6A D1": 2,
+            "6A D2": 1,
+            "5A D1": 2,
+            "5A D2": 1,
+            "4A D1": 4,
+            "4A D2": 2,
+            "2A D2": 1,
+            "1A D2": 1
+          }
+        },
+        "4": {
+          "total": 5,
+          "classifications": {
+            "6A D1": 1,
+            "5A D2": 1,
+            "4A D1": 1,
+            "4A D2": 1,
+            "3A D1": 1
+          }
+        },
+        "6": {
+          "total": 4,
+          "classifications": {
+            "6A D2": 1,
+            "4A D1": 1,
+            "3A D2": 1,
+            "2A D2": 1
+          }
+        },
+        "5": {
+          "total": 4,
+          "classifications": {
+            "4A D2": 1,
+            "2A D2": 1,
+            "1A D1": 1,
+            "1A D2": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "DAL",
+      "total": 42,
+      "weeks": {
+        "1": {
+          "total": 25,
+          "classifications": {
+            "6A D1": 6,
+            "6A D2": 4,
+            "5A D1": 3,
+            "5A D2": 4,
+            "4A D2": 2,
+            "3A D1": 2,
+            "3A D2": 2,
+            "2A D1": 1,
+            "2A D2": 1
+          }
+        },
+        "2": {
+          "total": 12,
+          "classifications": {
+            "6A D1": 4,
+            "6A D2": 2,
+            "5A D2": 3,
+            "4A D2": 1,
+            "2A D1": 2
+          }
+        },
+        "5": {
+          "total": 3,
+          "classifications": {
+            "6A D1": 1,
+            "6A D2": 1,
+            "5A D1": 1
+          }
+        },
+        "6": {
+          "total": 1,
+          "classifications": {
+            "6A D1": 1
+          }
+        },
+        "4": {
+          "total": 1,
+          "classifications": {
+            "3A D1": 1
+          }
+        }
+      }
+    },
     {
       "code": "HOU",
       "total": 147,
@@ -8407,107 +8563,89 @@
       }
     },
     {
-      "code": "FTW",
-      "total": 74,
+      "code": "CSC",
+      "total": 29,
       "weeks": {
         "1": {
-          "total": 37,
-          "classifications": {
-            "6A D1": 5,
-            "6A D2": 5,
-            "5A D1": 4,
-            "5A D2": 4,
-            "4A D1": 3,
-            "4A D2": 4,
-            "3A D1": 4,
-            "3A D2": 2,
-            "2A D1": 3,
-            "2A D2": 2,
-            "1A D1": 1
-          }
-        },
-        "2": {
-          "total": 11,
+          "total": 15,
           "classifications": {
             "6A D1": 1,
             "6A D2": 1,
-            "5A D2": 2,
             "4A D1": 2,
-            "3A D2": 2,
-            "2A D1": 1,
-            "2A D2": 2
-          }
-        },
-        "3": {
-          "total": 14,
-          "classifications": {
-            "6A D1": 2,
-            "6A D2": 1,
-            "5A D1": 2,
-            "5A D2": 1,
-            "4A D1": 4,
-            "4A D2": 2,
-            "2A D2": 1,
-            "1A D1": 1
-          }
-        },
-        "4": {
-          "total": 5,
-          "classifications": {
-            "6A D1": 1,
-            "5A D2": 1,
-            "4A D1": 1,
-            "4A D2": 1,
-            "3A D1": 1
-          }
-        },
-        "6": {
-          "total": 5,
-          "classifications": {
-            "6A D2": 1,
-            "4A D1": 1,
+            "4A D2": 3,
+            "3A D1": 2,
             "3A D2": 1,
-            "2A D2": 1,
-            "1A D1": 1
+            "2A D2": 5
           }
         },
         "5": {
+          "total": 1,
+          "classifications": {
+            "6A D2": 1
+          }
+        },
+        "2": {
+          "total": 9,
+          "classifications": {
+            "5A D1": 1,
+            "4A D1": 3,
+            "3A D1": 2,
+            "3A D2": 1,
+            "2A D1": 2
+          }
+        },
+        "4": {
           "total": 2,
           "classifications": {
             "4A D2": 1,
+            "2A D1": 1
+          }
+        },
+        "3": {
+          "total": 2,
+          "classifications": {
+            "3A D2": 1,
             "2A D2": 1
           }
         }
       }
     },
     {
-      "code": "TYL",
-      "total": 51,
+      "code": "RGV",
+      "total": 11,
       "weeks": {
         "1": {
-          "total": 23,
+          "total": 9,
           "classifications": {
-            "5A D2": 1,
-            "4A D1": 6,
-            "4A D2": 4,
-            "3A D1": 3,
-            "3A D2": 2,
-            "2A D1": 5,
-            "2A D2": 1,
-            "1A D1": 1
+            "6A D1": 4,
+            "6A D2": 3,
+            "5A D1": 1,
+            "4A D2": 1
           }
         },
-        "4": {
-          "total": 6,
+        "2": {
+          "total": 2,
           "classifications": {
-            "5A D2": 1,
-            "4A D1": 1,
-            "4A D2": 1,
+            "6A D1": 1,
+            "6A D2": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "ETX",
+      "total": 10,
+      "weeks": {
+        "2": {
+          "total": 5,
+          "classifications": {
+            "6A D1": 1,
             "3A D1": 2,
-            "3A D2": 1
+            "3A D2": 1,
+            "2A D2": 1
           }
         },
-        "5": {
+        "1": {
           "total": 4,
           "classifications": {
             "5A D2": 1,
@@ -8516,134 +8654,63 @@
             "3A D2": 1
           }
         },
-        "2": {
-          "total": 12,
-          "classifications": {
-            "4A D1": 2,
-            "4A D2": 2,
-            "3A D1": 3,
-            "3A D2": 2,
-            "2A D1": 2,
-            "2A D2": 1
-          }
-        },
         "3": {
-          "total": 5,
-          "classifications": {
-            "3A D1": 3,
-            "2A D1": 1,
-            "2A D2": 1
-          }
-        },
-        "6": {
           "total": 1,
           "classifications": {
-            "3A D1": 1
+            "3A D2": 1
           }
         }
       }
     },
     {
-      "code": "SAT",
-      "total": 49,
+      "code": "WAC",
+      "total": 32,
       "weeks": {
-        "1": {
-          "total": 30,
+        "2": {
+          "total": 9,
           "classifications": {
-            "6A D1": 4,
-            "6A D2": 4,
+            "6A D1": 1,
+            "5A D1": 2,
+            "4A D1": 2,
+            "4A D2": 1,
+            "3A D2": 1,
+            "2A D1": 1,
+            "2A D2": 1
+          }
+        },
+        "1": {
+          "total": 13,
+          "classifications": {
             "5A D1": 4,
             "5A D2": 1,
             "4A D1": 2,
-            "4A D2": 5,
-            "3A D1": 2,
-            "3A D2": 2,
-            "2A D1": 3,
-            "2A D2": 3
-          }
-        },
-        "2": {
-          "total": 12,
-          "classifications": {
-            "6A D1": 2,
-            "6A D2": 2,
-            "5A D1": 1,
-            "5A D2": 2,
-            "4A D2": 1,
             "3A D1": 1,
-            "2A D1": 1,
-            "2A D2": 2
+            "3A D2": 2,
+            "2A D1": 3
           }
         },
         "3": {
-          "total": 5,
+          "total": 6,
           "classifications": {
-            "6A D1": 2,
-            "6A D2": 1,
             "5A D1": 1,
-            "2A D1": 1
-          }
-        },
-        "4": {
-          "total": 1,
-          "classifications": {
-            "6A D2": 1
-          }
-        },
-        "6": {
-          "total": 1,
-          "classifications": {
-            "2A D1": 1
-          }
-        }
-      }
-    },
-    {
-      "code": "DAL",
-      "total": 42,
-      "weeks": {
-        "1": {
-          "total": 25,
-          "classifications": {
-            "6A D1": 6,
-            "6A D2": 4,
-            "5A D1": 3,
-            "5A D2": 4,
-            "4A D2": 2,
-            "3A D1": 2,
-            "3A D2": 2,
-            "2A D1": 1,
+            "5A D2": 1,
+            "4A D1": 2,
+            "3A D2": 1,
             "2A D2": 1
-          }
-        },
-        "2": {
-          "total": 12,
-          "classifications": {
-            "6A D1": 4,
-            "6A D2": 2,
-            "5A D2": 3,
-            "4A D2": 1,
-            "2A D1": 2
           }
         },
         "5": {
           "total": 3,
           "classifications": {
-            "6A D1": 1,
-            "6A D2": 1,
-            "5A D1": 1
-          }
-        },
-        "6": {
-          "total": 1,
-          "classifications": {
-            "6A D1": 1
+            "5A D2": 1,
+            "4A D2": 1,
+            "2A D1": 1
           }
         },
         "4": {
           "total": 1,
           "classifications": {
-            "3A D1": 1
+            "3A D2": 1
           }
         }
       }
@@ -8704,195 +8771,6 @@
       }
     },
     {
-      "code": "WAC",
-      "total": 38,
-      "weeks": {
-        "2": {
-          "total": 12,
-          "classifications": {
-            "6A D1": 1,
-            "5A D1": 2,
-            "4A D1": 2,
-            "4A D2": 1,
-            "3A D2": 1,
-            "2A D1": 1,
-            "2A D2": 1,
-            "1A D1": 3
-          }
-        },
-        "1": {
-          "total": 16,
-          "classifications": {
-            "5A D1": 4,
-            "5A D2": 1,
-            "4A D1": 2,
-            "3A D1": 1,
-            "3A D2": 2,
-            "2A D1": 3,
-            "1A D1": 3
-          }
-        },
-        "3": {
-          "total": 6,
-          "classifications": {
-            "5A D1": 1,
-            "5A D2": 1,
-            "4A D1": 2,
-            "3A D2": 1,
-            "2A D2": 1
-          }
-        },
-        "5": {
-          "total": 3,
-          "classifications": {
-            "5A D2": 1,
-            "4A D2": 1,
-            "2A D1": 1
-          }
-        },
-        "4": {
-          "total": 1,
-          "classifications": {
-            "3A D2": 1
-          }
-        }
-      }
-    },
-    {
-      "code": "ABI",
-      "total": 38,
-      "weeks": {
-        "3": {
-          "total": 7,
-          "classifications": {
-            "5A D2": 2,
-            "4A D2": 1,
-            "3A D2": 2,
-            "2A D1": 1,
-            "1A D1": 1
-          }
-        },
-        "1": {
-          "total": 18,
-          "classifications": {
-            "4A D1": 8,
-            "4A D2": 2,
-            "3A D1": 2,
-            "3A D2": 1,
-            "2A D2": 2,
-            "1A D1": 3
-          }
-        },
-        "2": {
-          "total": 7,
-          "classifications": {
-            "4A D1": 1,
-            "4A D2": 2,
-            "3A D2": 2,
-            "2A D2": 1,
-            "1A D1": 1
-          }
-        },
-        "4": {
-          "total": 6,
-          "classifications": {
-            "4A D1": 1,
-            "3A D2": 1,
-            "2A D1": 1,
-            "2A D2": 3
-          }
-        }
-      }
-    },
-    {
-      "code": "SPC",
-      "total": 38,
-      "weeks": {
-        "2": {
-          "total": 12,
-          "classifications": {
-            "4A D1": 2,
-            "3A D2": 2,
-            "2A D1": 2,
-            "2A D2": 3,
-            "1A D1": 3
-          }
-        },
-        "1": {
-          "total": 23,
-          "classifications": {
-            "4A D2": 3,
-            "3A D1": 1,
-            "3A D2": 4,
-            "2A D1": 2,
-            "2A D2": 5,
-            "1A D1": 8
-          }
-        },
-        "3": {
-          "total": 2,
-          "classifications": {
-            "4A D2": 1,
-            "2A D1": 1
-          }
-        },
-        "4": {
-          "total": 1,
-          "classifications": {
-            "1A D1": 1
-          }
-        }
-      }
-    },
-    {
-      "code": "CSC",
-      "total": 29,
-      "weeks": {
-        "1": {
-          "total": 15,
-          "classifications": {
-            "6A D1": 1,
-            "6A D2": 1,
-            "4A D1": 2,
-            "4A D2": 3,
-            "3A D1": 2,
-            "3A D2": 1,
-            "2A D2": 5
-          }
-        },
-        "5": {
-          "total": 1,
-          "classifications": {
-            "6A D2": 1
-          }
-        },
-        "2": {
-          "total": 9,
-          "classifications": {
-            "5A D1": 1,
-            "4A D1": 3,
-            "3A D1": 2,
-            "3A D2": 1,
-            "2A D1": 2
-          }
-        },
-        "4": {
-          "total": 2,
-          "classifications": {
-            "4A D2": 1,
-            "2A D1": 1
-          }
-        },
-        "3": {
-          "total": 2,
-          "classifications": {
-            "3A D2": 1,
-            "2A D2": 1
-          }
-        }
-      }
-    },
-    {
       "code": "PBC",
       "total": 23,
       "weeks": {
@@ -8904,7 +8782,7 @@
             "3A D1": 1,
             "3A D2": 3,
             "2A D2": 3,
-            "1A D1": 2
+            "1A D2": 2
           }
         },
         "2": {
@@ -8927,85 +8805,130 @@
       }
     },
     {
-      "code": "AMA",
-      "total": 20,
+      "code": "STX",
+      "total": 8,
       "weeks": {
-        "3": {
-          "total": 7,
-          "classifications": {
-            "4A D1": 1,
-            "3A D2": 1,
-            "2A D1": 1,
-            "2A D2": 2,
-            "1A D1": 2
-          }
-        },
         "1": {
-          "total": 5,
+          "total": 6,
           "classifications": {
-            "2A D1": 2,
-            "2A D2": 1,
-            "1A D1": 2
+            "5A D1": 1,
+            "3A D1": 1,
+            "3A D2": 2,
+            "2A D1": 1,
+            "2A D2": 1
           }
         },
         "2": {
-          "total": 4,
+          "total": 2,
           "classifications": {
-            "2A D1": 1,
-            "2A D2": 1,
-            "1A D1": 2
-          }
-        },
-        "4": {
-          "total": 3,
-          "classifications": {
-            "2A D1": 1,
-            "2A D2": 1,
-            "1A D1": 1
-          }
-        },
-        "6": {
-          "total": 1,
-          "classifications": {
-            "1A D2": 1
+            "5A D1": 1,
+            "4A D2": 1
           }
         }
       }
     },
     {
-      "code": "PVC",
-      "total": 16,
+      "code": "ELP",
+      "total": 5,
       "weeks": {
-        "2": {
-          "total": 4,
+        "1": {
+          "total": 5,
           "classifications": {
-            "3A D1": 1,
-            "1A D1": 3
+            "5A D2": 4,
+            "4A D1": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "TYL",
+      "total": 51,
+      "weeks": {
+        "1": {
+          "total": 23,
+          "classifications": {
+            "5A D2": 1,
+            "4A D1": 6,
+            "4A D2": 4,
+            "3A D1": 3,
+            "3A D2": 2,
+            "2A D1": 5,
+            "2A D2": 1,
+            "1A D2": 1
           }
         },
-        "1": {
-          "total": 9,
+        "4": {
+          "total": 6,
           "classifications": {
+            "5A D2": 1,
+            "4A D1": 1,
+            "4A D2": 1,
+            "3A D1": 2,
+            "3A D2": 1
+          }
+        },
+        "5": {
+          "total": 4,
+          "classifications": {
+            "5A D2": 1,
+            "4A D1": 1,
+            "3A D1": 1,
+            "3A D2": 1
+          }
+        },
+        "2": {
+          "total": 12,
+          "classifications": {
+            "4A D1": 2,
+            "4A D2": 2,
+            "3A D1": 3,
+            "3A D2": 2,
+            "2A D1": 2,
+            "2A D2": 1
+          }
+        },
+        "3": {
+          "total": 5,
+          "classifications": {
+            "3A D1": 3,
             "2A D1": 1,
-            "1A D1": 8
+            "2A D2": 1
+          }
+        },
+        "6": {
+          "total": 1,
+          "classifications": {
+            "3A D1": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "NTX",
+      "total": 9,
+      "weeks": {
+        "1": {
+          "total": 5,
+          "classifications": {
+            "5A D2": 1,
+            "3A D2": 1,
+            "2A D2": 1,
+            "1A D1": 1,
+            "1A D2": 1
+          }
+        },
+        "2": {
+          "total": 3,
+          "classifications": {
+            "4A D2": 1,
+            "2A D2": 1,
+            "1A D1": 1
           }
         },
         "3": {
           "total": 1,
           "classifications": {
-            "1A D1": 1
-          }
-        },
-        "4": {
-          "total": 1,
-          "classifications": {
-            "1A D1": 1
-          }
-        },
-        "5": {
-          "total": 1,
-          "classifications": {
-            "1A D1": 1
+            "2A D2": 1
           }
         }
       }
@@ -9047,23 +8970,158 @@
       }
     },
     {
-      "code": "RGV",
-      "total": 11,
+      "code": "ABI",
+      "total": 38,
       "weeks": {
-        "1": {
-          "total": 9,
+        "3": {
+          "total": 7,
           "classifications": {
-            "6A D1": 4,
-            "6A D2": 3,
-            "5A D1": 1,
-            "4A D2": 1
+            "5A D2": 2,
+            "4A D2": 1,
+            "3A D2": 2,
+            "2A D1": 1,
+            "1A D1": 1
+          }
+        },
+        "1": {
+          "total": 18,
+          "classifications": {
+            "4A D1": 8,
+            "4A D2": 2,
+            "3A D1": 2,
+            "3A D2": 1,
+            "2A D2": 2,
+            "1A D1": 1,
+            "1A D2": 2
+          }
+        },
+        "2": {
+          "total": 7,
+          "classifications": {
+            "4A D1": 1,
+            "4A D2": 2,
+            "3A D2": 2,
+            "2A D2": 1,
+            "1A D2": 1
+          }
+        },
+        "4": {
+          "total": 6,
+          "classifications": {
+            "4A D1": 1,
+            "3A D2": 1,
+            "2A D1": 1,
+            "2A D2": 3
+          }
+        }
+      }
+    },
+    {
+      "code": "SPC",
+      "total": 38,
+      "weeks": {
+        "2": {
+          "total": 12,
+          "classifications": {
+            "4A D1": 2,
+            "3A D2": 2,
+            "2A D1": 2,
+            "2A D2": 3,
+            "1A D1": 2,
+            "1A D2": 1
+          }
+        },
+        "1": {
+          "total": 23,
+          "classifications": {
+            "4A D2": 3,
+            "3A D1": 1,
+            "3A D2": 4,
+            "2A D1": 2,
+            "2A D2": 5,
+            "1A D1": 5,
+            "1A D2": 3
+          }
+        },
+        "3": {
+          "total": 2,
+          "classifications": {
+            "4A D2": 1,
+            "2A D1": 1
+          }
+        },
+        "4": {
+          "total": 1,
+          "classifications": {
+            "1A D1": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "SAN",
+      "total": 6,
+      "weeks": {
+        "2": {
+          "total": 3,
+          "classifications": {
+            "4A D1": 1,
+            "3A D1": 1,
+            "2A D1": 1
+          }
+        },
+        "1": {
+          "total": 1,
+          "classifications": {
+            "3A D2": 1
+          }
+        },
+        "4": {
+          "total": 1,
+          "classifications": {
+            "2A D1": 1
+          }
+        },
+        "5": {
+          "total": 1,
+          "classifications": {
+            "2A D2": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "AMA",
+      "total": 12,
+      "weeks": {
+        "3": {
+          "total": 5,
+          "classifications": {
+            "4A D1": 1,
+            "3A D2": 1,
+            "2A D1": 1,
+            "2A D2": 2
+          }
+        },
+        "1": {
+          "total": 3,
+          "classifications": {
+            "2A D1": 2,
+            "2A D2": 1
           }
         },
         "2": {
           "total": 2,
           "classifications": {
-            "6A D1": 1,
-            "6A D2": 1
+            "2A D1": 1,
+            "2A D2": 1
+          }
+        },
+        "4": {
+          "total": 2,
+          "classifications": {
+            "2A D1": 1,
+            "2A D2": 1
           }
         }
       }
@@ -9085,122 +9143,6 @@
           "total": 2,
           "classifications": {
             "4A D2": 1,
-            "2A D2": 1
-          }
-        }
-      }
-    },
-    {
-      "code": "ETX",
-      "total": 10,
-      "weeks": {
-        "2": {
-          "total": 5,
-          "classifications": {
-            "6A D1": 1,
-            "3A D1": 2,
-            "3A D2": 1,
-            "2A D2": 1
-          }
-        },
-        "1": {
-          "total": 4,
-          "classifications": {
-            "5A D2": 1,
-            "4A D1": 1,
-            "3A D1": 1,
-            "3A D2": 1
-          }
-        },
-        "3": {
-          "total": 1,
-          "classifications": {
-            "3A D2": 1
-          }
-        }
-      }
-    },
-    {
-      "code": "NTX",
-      "total": 9,
-      "weeks": {
-        "1": {
-          "total": 5,
-          "classifications": {
-            "5A D2": 1,
-            "3A D2": 1,
-            "2A D2": 1,
-            "1A D1": 2
-          }
-        },
-        "2": {
-          "total": 3,
-          "classifications": {
-            "4A D2": 1,
-            "2A D2": 1,
-            "1A D1": 1
-          }
-        },
-        "3": {
-          "total": 1,
-          "classifications": {
-            "2A D2": 1
-          }
-        }
-      }
-    },
-    {
-      "code": "STX",
-      "total": 8,
-      "weeks": {
-        "1": {
-          "total": 6,
-          "classifications": {
-            "5A D1": 1,
-            "3A D1": 1,
-            "3A D2": 2,
-            "2A D1": 1,
-            "2A D2": 1
-          }
-        },
-        "2": {
-          "total": 2,
-          "classifications": {
-            "5A D1": 1,
-            "4A D2": 1
-          }
-        }
-      }
-    },
-    {
-      "code": "SAN",
-      "total": 8,
-      "weeks": {
-        "2": {
-          "total": 4,
-          "classifications": {
-            "4A D1": 1,
-            "3A D1": 1,
-            "2A D1": 1,
-            "1A D1": 1
-          }
-        },
-        "1": {
-          "total": 2,
-          "classifications": {
-            "3A D2": 1,
-            "1A D1": 1
-          }
-        },
-        "4": {
-          "total": 1,
-          "classifications": {
-            "2A D1": 1
-          }
-        },
-        "5": {
-          "total": 1,
-          "classifications": {
             "2A D2": 1
           }
         }
@@ -9234,14 +9176,97 @@
       }
     },
     {
-      "code": "ELP",
-      "total": 5,
+      "code": "PVC",
+      "total": 15,
+      "weeks": {
+        "2": {
+          "total": 4,
+          "classifications": {
+            "3A D1": 1,
+            "1A D1": 3
+          }
+        },
+        "1": {
+          "total": 9,
+          "classifications": {
+            "2A D1": 1,
+            "1A D1": 5,
+            "1A D2": 3
+          }
+        },
+        "3": {
+          "total": 1,
+          "classifications": {
+            "1A D1": 1
+          }
+        },
+        "4": {
+          "total": 1,
+          "classifications": {
+            "1A D1": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "SJC",
+      "total": 1,
       "weeks": {
         "1": {
-          "total": 5,
+          "total": 1,
           "classifications": {
-            "5A D2": 4,
-            "4A D1": 1
+            "1A D1": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "AMI",
+      "total": 7,
+      "weeks": {
+        "1": {
+          "total": 2,
+          "classifications": {
+            "1A D1": 1,
+            "1A D2": 1
+          }
+        },
+        "2": {
+          "total": 2,
+          "classifications": {
+            "1A D1": 1,
+            "1A D2": 1
+          }
+        },
+        "3": {
+          "total": 2,
+          "classifications": {
+            "1A D1": 1,
+            "1A D2": 1
+          }
+        },
+        "4": {
+          "total": 1,
+          "classifications": {
+            "1A D2": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "WC",
+      "total": 6,
+      "weeks": {
+        "1": {
+          "total": 3,
+          "classifications": {
+            "1A D2": 3
+          }
+        },
+        "2": {
+          "total": 3,
+          "classifications": {
+            "1A D2": 3
           }
         }
       }
