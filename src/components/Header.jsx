@@ -27,7 +27,7 @@ export default function Header({ yearData, year }) {
         fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.18em',
         textTransform: 'uppercase', color: 'var(--gold)', marginBottom: 10
       }}>
-        Texas High School Football · Officiating Data · {year} Season
+        Texas High School Football · Officiating Data
       </div>
 
       <h1 className="header-title" style={{
