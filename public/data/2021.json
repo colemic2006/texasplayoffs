@@ -509,7 +509,7 @@
       "classification": "6A D1",
       "week": 2,
       "round": "Area",
-      "chapter": "",
+      "chapter": "HOU",
       "team1": "Cy-Fair",
       "score1": 20,
       "team2": "Fort Bend Ridge Point",
@@ -8308,7 +8308,7 @@
   "chapters": [
     {
       "code": "HOU",
-      "total": 165,
+      "total": 166,
       "weeks": {
         "1": {
           "total": 79,
@@ -8326,9 +8326,9 @@
           }
         },
         "2": {
-          "total": 45,
+          "total": 46,
           "classifications": {
-            "6A D1": 7,
+            "6A D1": 8,
             "6A D2": 9,
             "5A D1": 9,
             "5A D2": 2,
