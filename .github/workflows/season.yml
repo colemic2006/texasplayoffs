@@ -1,0 +1,48 @@
+name: Update season data
+
+# Pulls UIL brackets into season/<year>/<year>_season.xlsx and rebuilds
+# public/data/<year>.json. Runs daily during the playoffs, whenever the season
+# workbook is uploaded, and on demand from the Actions tab.
+on:
+  push:
+    branches: [main]
+    paths: ['season/**']
+  schedule:
+    - cron: '23 13 * 11,12 *'   # 7:23am Central, every day in Nov and Dec
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: season-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install openpyxl pdfplumber beautifulsoup4
+
+      - name: Pull brackets from UIL
+        continue-on-error: true
+        run: python3 scripts/season.py prefill
+
+      - name: Build site data
+        run: python3 scripts/season.py build
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add season public/data
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Update season data from UIL brackets"
+          git push

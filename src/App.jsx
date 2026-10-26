@@ -8,6 +8,7 @@ import TeamsView from './components/TeamsView'
 import ChapterRegulars from './components/ChapterRegulars'
 import ChampionshipsView from './components/ChampionshipsView'
 import ContactView from './components/ContactView'
+import SeasonBanner from './components/SeasonBanner'
 
 const YEARS = [2026, 2025, 2024, 2023, 2022, 2021, 2018, 2015, 2013, 2010]
 
@@ -38,7 +39,7 @@ export default function App() {
   // Preload all years when Teams or Chapter Regulars tab is active
   useEffect(() => {
     if (page !== 'teams' && page !== 'regulars') return
-    YEARS.filter(y => ![2026].includes(y)).forEach(y => {
+    YEARS.forEach(y => {
       if (data[y]) return
       fetch(`${import.meta.env.BASE_URL}data/${y}.json?v=${__BUILD_TIME__}`)
         .then(r => r.ok ? r.json() : null)
@@ -48,8 +49,9 @@ export default function App() {
   }, [page])
 
   const yearData = data[year] || null
-  const DATA_YEARS = YEARS.filter(y => ![2026].includes(y))
-  const allYearsLoaded = (page === 'teams' || page === 'regulars') ? DATA_YEARS.every(y => data[y]) : true
+  const allYearsLoaded = (page === 'teams' || page === 'regulars') ? YEARS.every(y => data[y]) : true
+  // a season that hasn't started yet would show as a dip to zero in the trend lines
+  const HISTORY_YEARS = YEARS.filter(y => !(data[y] && (data[y].games || []).length === 0))
 
   return (
     <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
@@ -77,9 +79,10 @@ export default function App() {
             {error && <ErrorState message={error} />}
             {!loading && !error && yearData && (
               <>
+                {(page === 'chapters' || page === 'brackets') && <SeasonBanner data={yearData} year={year} />}
                 {page === 'chapters' && <ChapterDashboard data={yearData} year={year} />}
                 {page === 'brackets' && <BracketViewer data={yearData} year={year} />}
-                {page === 'history' && <HistoryView allData={data} years={YEARS} loadYear={(y) => {
+                {page === 'history' && <HistoryView allData={data} years={HISTORY_YEARS} loadYear={(y) => {
                   if (data[y]) return
                   fetch(`${import.meta.env.BASE_URL}data/${y}.json?v=${__BUILD_TIME__}`)
                     .then(r => r.ok ? r.json() : null)

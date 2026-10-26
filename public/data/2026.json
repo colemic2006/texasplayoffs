@@ -1,0 +1,38 @@
+{
+  "year": 2026,
+  "season": {
+    "status": "in_progress",
+    "updated": "2026-10-26",
+    "games": 0,
+    "played": 0,
+    "assigned": 0,
+    "weeks": {
+      "1": {
+        "games": 0,
+        "assigned": 0
+      },
+      "2": {
+        "games": 0,
+        "assigned": 0
+      },
+      "3": {
+        "games": 0,
+        "assigned": 0
+      },
+      "4": {
+        "games": 0,
+        "assigned": 0
+      },
+      "5": {
+        "games": 0,
+        "assigned": 0
+      },
+      "6": {
+        "games": 0,
+        "assigned": 0
+      }
+    }
+  },
+  "chapters": [],
+  "games": []
+}

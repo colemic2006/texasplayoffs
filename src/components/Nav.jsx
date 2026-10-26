@@ -44,7 +44,7 @@ export default function Nav({ page, setPage, year, setYear, years }) {
         scrollbarWidth: 'none', borderTop: '1px solid rgba(255,255,255,0.06)'
       }}>
         {years.map(y => {
-          const inactive = [2026].includes(y)
+          const inactive = false
           const incomplete = y <= 2011
           const active = year === y
           let title = undefined
