@@ -65,6 +65,14 @@ def uil_pdf_urls(year):
     return {c: max(urls, key=rev) for c, urls in found.items()}
 
 
+# bracket slots that aren't a real team yet ("Winner G12", "W3", "TBD", ...)
+PLACEHOLDER = re.compile(r'^((winner|loser)\s+(of\s+)?g(ame)?\s*\d+|[wr]\s*\d+|tbd|tba|bye|\?)$', re.I)
+
+
+def real_teams(g):
+    return all(g[k] and not PLACEHOLDER.match(g[k].strip()) for k in ('team1', 'team2'))
+
+
 def games_from_pdf(url, cls):
     with tempfile.NamedTemporaryFile(suffix='.pdf') as f:
         f.write(fetch(url, binary=True)); f.flush()
@@ -168,6 +176,8 @@ def prefill(year):
     conflicts = []
     for cls, games in fetched.items():
         for g in games:
+            if not real_teams(g):
+                continue
             match = None
             for r in rows:
                 if r['week'] == g['week'] and r['cls'] == cls and r['team1'] and r['team2']:
