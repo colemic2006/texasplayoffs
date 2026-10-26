@@ -7923,7 +7923,7 @@
     {
       "year": 2021,
       "classification": "1A D1",
-      "week": 5,
+      "week": 6,
       "round": "State Final",
       "chapter": "SPC",
       "team1": "Westbrook",
@@ -8295,7 +8295,7 @@
     {
       "year": 2021,
       "classification": "1A D2",
-      "week": 5,
+      "week": 6,
       "round": "State Final",
       "chapter": "SPC",
       "team1": "Motley County",
@@ -8742,7 +8742,7 @@
             "1A D2": 1
           }
         },
-        "5": {
+        "6": {
           "total": 2,
           "classifications": {
             "1A D1": 1,

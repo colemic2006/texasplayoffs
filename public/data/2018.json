@@ -7924,7 +7924,7 @@
     {
       "year": 2018,
       "classification": "1A D1",
-      "week": 5,
+      "week": 6,
       "round": "State Final",
       "chapter": "FTW",
       "team1": "McLean",
@@ -8296,7 +8296,7 @@
     {
       "year": 2018,
       "classification": "1A D2",
-      "week": 5,
+      "week": 6,
       "round": "State Final",
       "chapter": "FTW",
       "team1": "Strawn",
@@ -8418,21 +8418,21 @@
           }
         },
         "6": {
-          "total": 4,
+          "total": 6,
           "classifications": {
             "6A D2": 1,
             "4A D1": 1,
             "3A D2": 1,
-            "2A D2": 1
-          }
-        },
-        "5": {
-          "total": 4,
-          "classifications": {
-            "4A D2": 1,
             "2A D2": 1,
             "1A D1": 1,
             "1A D2": 1
+          }
+        },
+        "5": {
+          "total": 2,
+          "classifications": {
+            "4A D2": 1,
+            "2A D2": 1
           }
         }
       }

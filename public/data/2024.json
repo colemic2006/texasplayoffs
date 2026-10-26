@@ -363,7 +363,7 @@
     {
       "year": 2024,
       "classification": "1A D1",
-      "week": 5,
+      "week": 6,
       "round": "Championship",
       "chapter": "AMA",
       "team1": "Whiteface",
@@ -735,7 +735,7 @@
     {
       "year": 2024,
       "classification": "1A D2",
-      "week": 5,
+      "week": 6,
       "round": "Championship",
       "chapter": "SAN",
       "team1": "Jayton",
@@ -8959,16 +8959,16 @@
             "4A D2": 1
           }
         },
-        "5": {
-          "total": 1,
-          "classifications": {
-            "1A D2": 1
-          }
-        },
         "3": {
           "total": 1,
           "classifications": {
             "4A D1": 1
+          }
+        },
+        "6": {
+          "total": 1,
+          "classifications": {
+            "1A D2": 1
           }
         }
       }
@@ -9127,7 +9127,7 @@
             "1A D1": 1
           }
         },
-        "5": {
+        "6": {
           "total": 1,
           "classifications": {
             "1A D1": 1

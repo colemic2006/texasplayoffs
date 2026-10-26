@@ -178,6 +178,8 @@ def prefill(year):
         for g in games:
             if not real_teams(g):
                 continue
+            if cls.startswith('1A') and g['week'] == 5:
+                g['week'] = 6   # 1A's final is a week early; file all state finals under Championship
             match = None
             for r in rows:
                 if r['week'] == g['week'] and r['cls'] == cls and r['team1'] and r['team2']:
