@@ -85,7 +85,9 @@ def games_from_pdf(url, cls):
         s1 = s2 = None
         if g['ws'] is not None:
             s1, s2 = (g['ws'], g['ls']) if g['winner'] == g['team1'] else (g['ls'], g['ws'])
-        out.append(dict(week=g['round'], cls=cls, team1=g['team1'], team2=g['team2'], score1=s1, score2=s2))
+        # 1A has one round fewer and an open week before the final, which is played with everyone else's
+        week = 6 if cls.startswith('1A') and g['round'] == 5 else g['round']
+        out.append(dict(week=week, cls=cls, team1=g['team1'], team2=g['team2'], score1=s1, score2=s2))
     return out
 
 
@@ -104,6 +106,7 @@ def games_from_maxpreps(cls, year):
     if not starts:
         return []
     first = datetime.date.fromisoformat(starts[0])
+    first -= datetime.timedelta(days=first.weekday())   # playoff weeks run Monday-Sunday
     out = []
     for rnd in soup.select('div.round'):
         d = rnd.select_one('abbr.start-date[title]')
@@ -178,8 +181,6 @@ def prefill(year):
         for g in games:
             if not real_teams(g):
                 continue
-            if cls.startswith('1A') and g['week'] == 5:
-                g['week'] = 6   # 1A's final is a week early; file all state finals under Championship
             match = None
             for r in rows:
                 if r['week'] == g['week'] and r['cls'] == cls and r['team1'] and r['team2']:
