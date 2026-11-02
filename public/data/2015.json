@@ -8274,7 +8274,7 @@
       "classification": "1A D2",
       "week": 4,
       "round": "Semifinal",
-      "chapter": null,
+      "chapter": "SPC",
       "team1": "Follett",
       "score1": 44,
       "team2": "Buena Vista",
@@ -8974,7 +8974,7 @@
     },
     {
       "code": "SPC",
-      "total": 42,
+      "total": 43,
       "weeks": {
         "1": {
           "total": 21,
@@ -9015,10 +9015,10 @@
           }
         },
         "4": {
-          "total": 2,
+          "total": 3,
           "classifications": {
             "2A D2": 1,
-            "1A D2": 1
+            "1A D2": 2
           }
         }
       }

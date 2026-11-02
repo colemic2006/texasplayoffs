@@ -7938,7 +7938,7 @@
       "classification": "1A D2",
       "week": 1,
       "round": "Area",
-      "chapter": "TYL",
+      "chapter": "AMI",
       "team1": "Follett",
       "score1": 76,
       "team2": "Silverton",
@@ -7950,7 +7950,7 @@
       "classification": "1A D2",
       "week": 1,
       "round": "Area",
-      "chapter": "PVC",
+      "chapter": "SPC",
       "team1": "Whitharral",
       "score1": 64,
       "team2": "Southland",
@@ -7962,7 +7962,7 @@
       "classification": "1A D2",
       "week": 1,
       "round": "Area",
-      "chapter": "PVC",
+      "chapter": "SPC",
       "team1": "Wilson",
       "score1": 6,
       "team2": "Anton",
@@ -7974,7 +7974,7 @@
       "classification": "1A D2",
       "week": 1,
       "round": "Area",
-      "chapter": "WC",
+      "chapter": "SPC",
       "team1": "Motley County",
       "score1": 72,
       "team2": "Groom",
@@ -7986,7 +7986,7 @@
       "classification": "1A D2",
       "week": 1,
       "round": "Area",
-      "chapter": "ABI",
+      "chapter": "PBC",
       "team1": "Grandfalls-Royalty",
       "score1": 84,
       "team2": "Loraine",
@@ -7998,7 +7998,7 @@
       "classification": "1A D2",
       "week": 1,
       "round": "Area",
-      "chapter": "PBC",
+      "chapter": "NTX",
       "team1": "Lueders-Avoca",
       "score1": 46,
       "team2": "Woodson",
@@ -8022,7 +8022,7 @@
       "classification": "1A D2",
       "week": 1,
       "round": "Area",
-      "chapter": "WC",
+      "chapter": "PBC",
       "team1": "Blackwell",
       "score1": 72,
       "team2": "Sierra Blanca",
@@ -8034,7 +8034,7 @@
       "classification": "1A D2",
       "week": 1,
       "round": "Area",
-      "chapter": "WC",
+      "chapter": "ABI",
       "team1": "Ladonia Fannindel",
       "score1": 66,
       "team2": "Gordon",
@@ -8046,7 +8046,7 @@
       "classification": "1A D2",
       "week": 1,
       "round": "Area",
-      "chapter": "PVC",
+      "chapter": "WC",
       "team1": "Iredell",
       "score1": 62,
       "team2": "Morgan",
@@ -8058,7 +8058,7 @@
       "classification": "1A D2",
       "week": 1,
       "round": "Area",
-      "chapter": "NTX",
+      "chapter": "WC",
       "team1": "Kopperl",
       "score1": 54,
       "team2": "Walnut Springs",
@@ -8070,7 +8070,7 @@
       "classification": "1A D2",
       "week": 1,
       "round": "Area",
-      "chapter": "AMI",
+      "chapter": "PVC",
       "team1": "Strawn",
       "score1": 68,
       "team2": "Gold-Burg",
@@ -8082,7 +8082,7 @@
       "classification": "1A D2",
       "week": 1,
       "round": "Area",
-      "chapter": "SPC",
+      "chapter": "TYL",
       "team1": "Oakwood",
       "score1": 72,
       "team2": "McDade",
@@ -8094,7 +8094,7 @@
       "classification": "1A D2",
       "week": 1,
       "round": "Area",
-      "chapter": "SPC",
+      "chapter": "PVC",
       "team1": "Blanket",
       "score1": 75,
       "team2": "Valera Panther Creeek",
@@ -8106,7 +8106,7 @@
       "classification": "1A D2",
       "week": 1,
       "round": "Area",
-      "chapter": "SPC",
+      "chapter": "PVC",
       "team1": "Richland Springs",
       "score1": 53,
       "team2": "Brookesmith",
@@ -8118,7 +8118,7 @@
       "classification": "1A D2",
       "week": 1,
       "round": "Area",
-      "chapter": "PBC",
+      "chapter": "WC",
       "team1": "Calvert",
       "score1": 48,
       "team2": "Trinidad",
@@ -8130,7 +8130,7 @@
       "classification": "1A D2",
       "week": 2,
       "round": "Regional",
-      "chapter": null,
+      "chapter": "AMI",
       "team1": "Follett",
       "score1": 62,
       "team2": "Whitharral",
@@ -8142,7 +8142,7 @@
       "classification": "1A D2",
       "week": 2,
       "round": "Regional",
-      "chapter": "AMI",
+      "chapter": "SPC",
       "team1": "Anton",
       "score1": 68,
       "team2": "Motley County",
@@ -8154,7 +8154,7 @@
       "classification": "1A D2",
       "week": 2,
       "round": "Regional",
-      "chapter": "SPC",
+      "chapter": "SJC",
       "team1": "Grandfalls-Royalty",
       "score1": 65,
       "team2": "Lueders-Avoca",
@@ -8166,7 +8166,7 @@
       "classification": "1A D2",
       "week": 2,
       "round": "Regional",
-      "chapter": null,
+      "chapter": "ABI",
       "team1": "Jayton",
       "score1": 68,
       "team2": "Blackwell",
@@ -8178,7 +8178,7 @@
       "classification": "1A D2",
       "week": 2,
       "round": "Regional",
-      "chapter": "ABI",
+      "chapter": "WC",
       "team1": "Ladonia Fannindel",
       "score1": 13,
       "team2": "Iredell",
@@ -8238,7 +8238,7 @@
       "classification": "1A D2",
       "week": 3,
       "round": "Quarterfinal",
-      "chapter": null,
+      "chapter": "ABI",
       "team1": "Grandfalls-Royalty",
       "score1": 52,
       "team2": "Jayton",
@@ -8250,7 +8250,7 @@
       "classification": "1A D2",
       "week": 3,
       "round": "Quarterfinal",
-      "chapter": "FTW",
+      "chapter": "ABI",
       "team1": "Iredell",
       "score1": 22,
       "team2": "Strawn",
@@ -8262,7 +8262,7 @@
       "classification": "1A D2",
       "week": 3,
       "round": "Quarterfinal",
-      "chapter": null,
+      "chapter": "SJC",
       "team1": "Oakwood",
       "score1": 66,
       "team2": "Richland Springs",
@@ -8286,7 +8286,7 @@
       "classification": "1A D2",
       "week": 4,
       "round": "Semifinal",
-      "chapter": null,
+      "chapter": "FTW",
       "team1": "Strawn",
       "score1": 51,
       "team2": "Oakwood",
@@ -8298,7 +8298,7 @@
       "classification": "1A D2",
       "week": 6,
       "round": "State Final",
-      "chapter": "FTW",
+      "chapter": "AMI",
       "team1": "Strawn",
       "score1": 48,
       "team2": "Follett",
@@ -8364,7 +8364,7 @@
     },
     {
       "code": "FTW",
-      "total": 75,
+      "total": 74,
       "weeks": {
         "1": {
           "total": 37,
@@ -8395,7 +8395,7 @@
           }
         },
         "3": {
-          "total": 14,
+          "total": 13,
           "classifications": {
             "6A D1": 2,
             "6A D2": 1,
@@ -8403,29 +8403,28 @@
             "5A D2": 1,
             "4A D1": 4,
             "4A D2": 2,
-            "2A D2": 1,
-            "1A D2": 1
+            "2A D2": 1
           }
         },
         "4": {
-          "total": 5,
+          "total": 6,
           "classifications": {
             "6A D1": 1,
             "5A D2": 1,
             "4A D1": 1,
             "4A D2": 1,
-            "3A D1": 1
+            "3A D1": 1,
+            "1A D2": 1
           }
         },
         "6": {
-          "total": 6,
+          "total": 5,
           "classifications": {
             "6A D2": 1,
             "4A D1": 1,
             "3A D2": 1,
             "2A D2": 1,
-            "1A D1": 1,
-            "1A D2": 1
+            "1A D1": 1
           }
         },
         "5": {
@@ -8971,16 +8970,17 @@
     },
     {
       "code": "ABI",
-      "total": 38,
+      "total": 40,
       "weeks": {
         "3": {
-          "total": 7,
+          "total": 9,
           "classifications": {
             "5A D2": 2,
             "4A D2": 1,
             "3A D2": 2,
             "2A D1": 1,
-            "1A D1": 1
+            "1A D1": 1,
+            "1A D2": 2
           }
         },
         "1": {
@@ -9210,19 +9210,31 @@
     },
     {
       "code": "SJC",
-      "total": 1,
+      "total": 3,
       "weeks": {
         "1": {
           "total": 1,
           "classifications": {
             "1A D1": 1
           }
+        },
+        "2": {
+          "total": 1,
+          "classifications": {
+            "1A D2": 1
+          }
+        },
+        "3": {
+          "total": 1,
+          "classifications": {
+            "1A D2": 1
+          }
         }
       }
     },
     {
       "code": "AMI",
-      "total": 7,
+      "total": 8,
       "weeks": {
         "1": {
           "total": 2,
@@ -9250,20 +9262,26 @@
           "classifications": {
             "1A D2": 1
           }
+        },
+        "6": {
+          "total": 1,
+          "classifications": {
+            "1A D2": 1
+          }
         }
       }
     },
     {
       "code": "WC",
-      "total": 6,
+      "total": 7,
       "weeks": {
-        "1": {
-          "total": 3,
+        "2": {
+          "total": 4,
           "classifications": {
-            "1A D2": 3
+            "1A D2": 4
           }
         },
-        "2": {
+        "1": {
           "total": 3,
           "classifications": {
             "1A D2": 3
