@@ -7566,7 +7566,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "SJC",
+      "chapter": "AMI",
       "team1": "McLean",
       "score1": 62,
       "team2": "Petersburg",
@@ -7578,7 +7578,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "PVC",
+      "chapter": "NTX",
       "team1": "Paducah",
       "score1": 55,
       "team2": "Aspermont",
@@ -7590,7 +7590,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "PVC",
+      "chapter": "SPC",
       "team1": "Ira",
       "score1": 68,
       "team2": "Crowell",
@@ -7602,7 +7602,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "AUS",
+      "chapter": "SPC",
       "team1": "Nazareth",
       "score1": 24,
       "team2": "White Deer",
@@ -7614,7 +7614,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "ABI",
+      "chapter": "SPC",
       "team1": "Ropesville",
       "score1": 58,
       "team2": "Lenorah Grady",
@@ -7626,7 +7626,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "FTW",
+      "chapter": "SPC",
       "team1": "Balmorhea",
       "score1": 64,
       "team2": "Sterling City",
@@ -7674,7 +7674,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "SPC",
+      "chapter": "AUS",
       "team1": "Milford",
       "score1": 60,
       "team2": "High Island",
@@ -7686,7 +7686,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "PVC",
+      "chapter": "ABI",
       "team1": "Union Hill",
       "score1": 60,
       "team2": "Coolidge",
@@ -7698,7 +7698,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "AMI",
+      "chapter": "FTW",
       "team1": "Blum",
       "score1": 60,
       "team2": "Savoy",
@@ -7710,7 +7710,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "NTX",
+      "chapter": "PVC",
       "team1": "Eden",
       "score1": 20,
       "team2": "Gorman",
@@ -7722,7 +7722,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "SPC",
+      "chapter": "SJC",
       "team1": "Evant",
       "score1": 12,
       "team2": "Barksdale Nueces Canyon",
@@ -7734,7 +7734,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "SPC",
+      "chapter": "PVC",
       "team1": "Leakey",
       "score1": 66,
       "team2": "Jonesboro",
@@ -7746,7 +7746,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "SPC",
+      "chapter": "PVC",
       "team1": "May",
       "score1": 94,
       "team2": "Robert Lee",
@@ -7926,7 +7926,7 @@
       "classification": "1A D1",
       "week": 6,
       "round": "State Final",
-      "chapter": "FTW",
+      "chapter": "PVC",
       "team1": "McLean",
       "score1": 100,
       "team2": "Milford",
@@ -8364,7 +8364,7 @@
     },
     {
       "code": "FTW",
-      "total": 74,
+      "total": 73,
       "weeks": {
         "1": {
           "total": 37,
@@ -8418,13 +8418,12 @@
           }
         },
         "6": {
-          "total": 5,
+          "total": 4,
           "classifications": {
             "6A D2": 1,
             "4A D1": 1,
             "3A D2": 1,
-            "2A D2": 1,
-            "1A D1": 1
+            "2A D2": 1
           }
         },
         "5": {
@@ -8991,8 +8990,8 @@
             "3A D1": 2,
             "3A D2": 1,
             "2A D2": 2,
-            "1A D1": 1,
-            "1A D2": 2
+            "1A D2": 2,
+            "1A D1": 1
           }
         },
         "2": {
@@ -9177,7 +9176,7 @@
     },
     {
       "code": "PVC",
-      "total": 15,
+      "total": 16,
       "weeks": {
         "2": {
           "total": 4,
@@ -9205,6 +9204,12 @@
           "classifications": {
             "1A D1": 1
           }
+        },
+        "6": {
+          "total": 1,
+          "classifications": {
+            "1A D1": 1
+          }
         }
       }
     },
@@ -9212,12 +9217,6 @@
       "code": "SJC",
       "total": 3,
       "weeks": {
-        "1": {
-          "total": 1,
-          "classifications": {
-            "1A D1": 1
-          }
-        },
         "2": {
           "total": 1,
           "classifications": {
@@ -9228,6 +9227,12 @@
           "total": 1,
           "classifications": {
             "1A D2": 1
+          }
+        },
+        "1": {
+          "total": 1,
+          "classifications": {
+            "1A D1": 1
           }
         }
       }
