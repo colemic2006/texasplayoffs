@@ -11,7 +11,8 @@ SCORE = re.compile(r'^\*?(\d{1,3})\s*-\s*(\d{1,3})\*?(?:\s*\(?(\d?\s*OT)\)?)?$',
 LABEL = re.compile(r'^[WR]\s*\d{1,2}$')
 SKIP = re.compile(r'^(Region \d|State Champion|\d{4} Football Conference.*|[A-Z] Division ?\d?|\d|[A-Z] \d{1,2}|Forfeit)$', re.I)
 ABBR = {'sa': 'san antonio', 'fb': 'fort bend', 'cc': 'corpus christi', 'ep': 'el paso', 'ft': 'fort',
-        'gp': 'galena park', 'cy': 'cypress', 'dc': 'dallas christian'}
+        'gp': 'galena park', 'cy': 'cypress', 'dc': 'dallas christian',
+        'fw': 'fort worth', 'lc': 'league city', 'nb': 'new braunfels'}
 
 def norm(s):
     s = (s or '').lower().replace('Å', 'a').replace('&', ' and ')

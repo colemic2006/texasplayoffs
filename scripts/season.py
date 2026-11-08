@@ -9,6 +9,11 @@ The workbook (season/{year}/{year}_season.xlsx) is the source of truth. prefill 
 adds games and fills blank teams/scores; it never touches the Chapter column, so
 the chapter assignments typed into the workbook are always kept.
 
+Team names go through team_names.py: a source name ("Martin") becomes the site's name
+("Arlington Martin") only when that is certain or a person confirmed it. Doubtful names
+keep the source spelling, show as "Name (?)" on the site, and are listed on the
+workbook's Team Names tab (and season/{year}/team_names_review.json) to be confirmed.
+
 Bracket sources, in order:
   1. UIL bracket PDFs posted on uiltexas.org (parsed with uil_bracket.py)
   2. The MaxPreps bracket each UIL bracket page embeds (best effort; MaxPreps
@@ -19,6 +24,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 from uil_bracket import parse as parse_pdf, norm, sim  # noqa: E402
+from team_names import Resolver  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 CLASSES = ['1A D1', '1A D2', '2A D1', '2A D2', '3A D1', '3A D2',
@@ -27,7 +33,9 @@ ROUNDS = {1: 'Bi-District', 2: 'Area', 3: 'Regionals', 4: 'Quarterfinals', 5: 'S
 UIL = 'https://www.uiltexas.org'
 UA = 'Mozilla/5.0 (compatible; texasplayoffs.com bracket sync)'
 FIRST_ROW, LAST_ROW = 2, 801          # Games tab rows the template formats
-COL = dict(week='A', cls='C', chapter='D', team1='E', score1='F', team2='G', score2='H', forfeit='I', notes='K')
+COL = dict(week='A', cls='C', chapter='D', team1='E', score1='F', team2='G', score2='H', forfeit='I', notes='K',
+           key1='M', key2='N')     # M/N: which source team each name came from (MaxPreps school id)
+NO_ID = '00000000-0000-0000-0000-000000000000'
 
 
 def workbook_path(year):
@@ -87,7 +95,8 @@ def games_from_pdf(url, cls):
             s1, s2 = (g['ws'], g['ls']) if g['winner'] == g['team1'] else (g['ls'], g['ws'])
         # 1A has one round fewer and an open week before the final, which is played with everyone else's
         week = 6 if cls.startswith('1A') and g['round'] == 5 else g['round']
-        out.append(dict(week=week, cls=cls, team1=g['team1'], team2=g['team2'], score1=s1, score2=s2))
+        out.append(dict(week=week, cls=cls, team1=g['team1'], team2=g['team2'], score1=s1, score2=s2,
+                        key1=f"uil:{g['team1']}", key2=f"uil:{g['team2']}"))
     return out
 
 
@@ -125,7 +134,10 @@ def games_from_maxpreps(cls, year):
                 el = t.select_one('[class*="score"]')
                 txt = el.get_text(strip=True) if el else ''
                 scores.append(int(txt) if txt.isdigit() else None)
-            out.append(dict(week=week, cls=cls, team1=names[0], team2=names[1], score1=scores[0], score2=scores[1]))
+            ids = [t.get('data-school-id') for t in teams]
+            keys = [f'mp:{i}' if i and i != NO_ID else f'mp-name:{cls}:{n}' for i, n in zip(ids, names)]
+            out.append(dict(week=week, cls=cls, team1=names[0], team2=names[1], score1=scores[0], score2=scores[1],
+                            key1=keys[0], key2=keys[1]))
     return out
 
 
@@ -148,15 +160,67 @@ def read_rows(ws):
     for r in range(FIRST_ROW, LAST_ROW + 1):
         v = {k: ws[f'{c}{r}'].value for k, c in COL.items()}
         v['row'] = r
-        for k in ('chapter', 'team1', 'team2', 'cls', 'forfeit', 'notes'):
+        for k in ('chapter', 'team1', 'team2', 'cls', 'forfeit', 'notes', 'key1', 'key2'):
             v[k] = str(v[k]).strip() if v[k] not in (None, '') else None
         rows.append(v)
     return rows
 
 
+REVIEW_SHEET = 'Team Names'
+
+
+def review_path(year):
+    return ROOT / 'season' / str(year) / 'team_names_review.json'
+
+
+def take_answers(wb, resolver):
+    """Move answers typed on the Team Names tab into the confirmed list. Returns how many."""
+    if REVIEW_SHEET not in wb.sheetnames:
+        return 0
+    ws, n = wb[REVIEW_SHEET], 0
+    for r in range(3, ws.max_row + 1):
+        key, source, rec, answer = (ws[f'{c}{r}'].value for c in 'ABEG')
+        answer = str(answer).strip() if answer not in (None, '') else ''
+        if key and answer:
+            resolver.confirm(key, rec if answer.upper() == 'OK' else answer)
+            n += 1
+    return n
+
+
+def write_review(wb, year, review):
+    from openpyxl.styles import Font, PatternFill, Alignment
+    if REVIEW_SHEET in wb.sheetnames:
+        del wb[REVIEW_SHEET]
+    ws = wb.create_sheet(REVIEW_SHEET, 1)
+    ws['B1'] = ('Team names to confirm. In "Your answer" type OK to use the recommended name, or type the '
+                'correct name. Until then the game shows "Name (?)" on the site and is not merged with any other team.')
+    ws['B1'].font = Font(name='Arial', size=10, bold=True)
+    ws['B1'].alignment = Alignment(wrap_text=True)
+    ws.merge_cells('B1:G1'); ws.row_dimensions[1].height = 34
+    for i, (h, w) in enumerate([('Source id', 6), ('Name as written', 24), ('Class', 8), ('Opponent', 22),
+                                ('Recommended', 30), ('Other options', 44), ('Your answer', 30)]):
+        c = ws.cell(row=2, column=i + 1, value=h)
+        c.font = Font(name='Arial', size=10, bold=True, color='FFFFFF')
+        c.fill = PatternFill('solid', fgColor='1F1B16')
+        ws.column_dimensions[c.column_letter].width = w
+    for r, e in enumerate(review, 3):
+        for col, v in zip('ABCDEF', (e['key'], e['source_name'], e['classification'], e['opponent'],
+                                     e['recommended'], ', '.join(e['other_options']))):
+            ws[f'{col}{r}'] = v; ws[f'{col}{r}'].font = Font(name='Arial', size=10)
+        ws[f'G{r}'].fill = PatternFill('solid', fgColor='FFF2B3')
+    ws.column_dimensions['A'].hidden = True
+    ws.freeze_panes = 'B3'
+    review_path(year).write_text(json.dumps(review, indent=2) + '\n')
+
+
 def prefill(year):
     wb, path = open_workbook(year, create=True)
     ws = wb['Games']
+    if not ws['M1'].value:
+        ws['M1'], ws['N1'] = 'Team 1 source', 'Team 2 source'
+        ws.column_dimensions['M'].hidden = ws.column_dimensions['N'].hidden = True
+    resolver = Resolver(ROOT, year)
+    answered = take_answers(wb, resolver)
     rows = read_rows(ws)
     fetched = {}
     pdfs = uil_pdf_urls(year)
@@ -175,17 +239,52 @@ def prefill(year):
             print(f'  ! {cls}: no bracket available ({e})')
         time.sleep(8)  # be gentle with MaxPreps
 
-    added = updated = 0
+    # site names for every source team; anything uncertain is left for a person
+    games_all = [g for gs in fetched.values() for g in gs if real_teams(g)]
+    resolved, sources = {}, {}
+    for g in games_all:
+        for i, o in ((1, 2), (2, 1)):
+            key = g[f'key{i}']
+            sources[key] = dict(source_name=g[f'team{i}'], classification=g['cls'], opponent=g[f'team{o}'])
+            resolved[key] = resolver.resolve(key, g[f'team{i}'], g['cls'])
+    taken = {}
+    for key, (name, how, _) in resolved.items():
+        if name:
+            taken.setdefault(name, []).append(key)
+    for name, keys in taken.items():
+        auto = [k for k in keys if resolved[k][1] == 'auto']
+        if len(keys) > 1 and auto:   # two schools this season would get the same name: ask
+            for k in auto:
+                resolved[k] = (None, 'review', [name])
+    display = {k: (n or sources[k]['source_name']) for k, (n, how, _) in resolved.items()}
+    review = [dict(key=k, **sources[k], recommended=(s[0] if s else sources[k]['source_name']),
+                   other_options=s[1:])
+              for k, (n, how, s) in sorted(resolved.items(), key=lambda kv: (sources[kv[0]]['classification'], sources[kv[0]]['source_name']))
+              if n is None]
+
+    # keep names still waiting from brackets that couldn't be read this time
+    old_review = json.loads(review_path(year).read_text()) if review_path(year).exists() else None
+    review += [e for e in (old_review or []) if e['key'] not in resolved and e['key'] not in resolver.confirmed]
+
+    added = updated = renamed = 0
     conflicts = []
     for cls, games in fetched.items():
         for g in games:
             if not real_teams(g):
                 continue
+            t1, t2 = display[g['key1']], display[g['key2']]
             match = None
             for r in rows:
                 if r['week'] == g['week'] and r['cls'] == cls and r['team1'] and r['team2']:
-                    straight = min(sim(r['team1'], g['team1']), sim(r['team2'], g['team2']))
-                    crossed = min(sim(r['team1'], g['team2']), sim(r['team2'], g['team1']))
+                    if r['key1'] and r['key2']:
+                        if {r['key1'], r['key2']} == {g['key1'], g['key2']}:
+                            match = (r, r['key1'] == g['key1'])
+                            break
+                        continue
+                    straight = min(max(sim(r['team1'], g['team1']), sim(r['team1'], t1)),
+                                   max(sim(r['team2'], g['team2']), sim(r['team2'], t2)))
+                    crossed = min(max(sim(r['team1'], g['team2']), sim(r['team1'], t2)),
+                                  max(sim(r['team2'], g['team1']), sim(r['team2'], t1)))
                     if max(straight, crossed) >= 0.85:
                         match = (r, straight >= crossed)
                         break
@@ -193,13 +292,23 @@ def prefill(year):
                 r = next((r for r in rows if not r['week'] and not r['team1'] and not r['team2'] and not r['cls']), None)
                 if r is None:
                     sys.exit('Games tab is full')
-                for k, v in (('week', g['week']), ('cls', cls), ('team1', g['team1']), ('team2', g['team2']),
-                             ('score1', g['score1']), ('score2', g['score2'])):
+                for k, v in (('week', g['week']), ('cls', cls), ('team1', t1), ('team2', t2),
+                             ('score1', g['score1']), ('score2', g['score2']), ('key1', g['key1']), ('key2', g['key2'])):
                     ws[f'{COL[k]}{r["row"]}'] = v
                     r[k] = v
                 added += 1
                 continue
             r, straight = match
+            # remember where each name came from, and swap in the site name once it is settled;
+            # a name typed into the workbook by hand (anything but the source spelling) is left alone
+            for side, src in ((1, 1 if straight else 2), (2, 2 if straight else 1)):
+                key = g[f'key{src}']
+                if r[f'key{side}'] != key:
+                    ws[f'{COL[f"key{side}"]}{r["row"]}'] = r[f'key{side}'] = key
+                    updated += 1
+                if r[f'team{side}'] == g[f'team{src}'] and display[key] != g[f'team{src}']:
+                    ws[f'{COL[f"team{side}"]}{r["row"]}'] = r[f'team{side}'] = display[key]
+                    renamed += 1
             s1, s2 = (g['score1'], g['score2']) if straight else (g['score2'], g['score1'])
             if s1 is None:
                 continue
@@ -209,10 +318,12 @@ def prefill(year):
                 updated += 1
             elif (r['score1'], r['score2']) != (s1, s2):
                 conflicts.append(f'row {r["row"]} {cls} wk{g["week"]}: workbook {r["team1"]} {r["score1"]}-{r["score2"]} {r["team2"]}, UIL {s1}-{s2}')
-    if added or updated:
+    if added or updated or renamed or answered or review != old_review:
+        write_review(wb, year, review)
         wb.calculation.fullCalcOnLoad = True
         wb.save(path)
-    print(f'prefill: {added} games added, {updated} scores filled')
+    print(f'prefill: {added} games added, {updated} scores/sources filled, {renamed} names settled, '
+          f'{answered} answers taken, {len(review)} names to confirm')
     for c in conflicts:
         print('  score differs (left as is):', c)
 
@@ -225,10 +336,14 @@ def build(year, force=False):
         code, name = wb['Lists'][f'A{r}'].value, wb['Lists'][f'B{r}'].value
         if code:
             names[str(code).strip()] = name
+    unsure = {e['key']: e['source_name'] for e in json.loads(review_path(year).read_text())} \
+        if review_path(year).exists() else {}
+    flag = lambda name, key: f'{name} (?)' if key in unsure and name == unsure[key] else name
     games = []
     for r in read_rows(ws):
         if not (r['week'] and r['cls'] and r['team1'] and r['team2']):
             continue
+        r['team1'], r['team2'] = flag(r['team1'], r['key1']), flag(r['team2'], r['key2'])
         week = int(r['week'])
         s1, s2 = r['score1'], r['score2']
         forfeit = (r['forfeit'] or '').upper() == 'Y'
@@ -280,12 +395,51 @@ def build(year, force=False):
     print(f'build: {len(games)} games ({played} played, {assigned} with a chapter) -> {dest.relative_to(ROOT)}')
 
 
+def review_issue(year):
+    """Keep one GitHub issue listing the team names waiting for confirmation (closed when none)."""
+    import os
+    token, repo = os.environ.get('GITHUB_TOKEN'), os.environ.get('GITHUB_REPOSITORY')
+    if not (token and repo):
+        sys.exit('GITHUB_TOKEN and GITHUB_REPOSITORY are needed')
+    review = json.loads(review_path(year).read_text()) if review_path(year).exists() else []
+    title = f'{year}: team names to confirm'
+
+    def api(method, url, body=None):
+        req = urllib.request.Request(f'https://api.github.com/repos/{repo}{url}', method=method,
+                                     data=json.dumps(body).encode() if body else None,
+                                     headers={'Authorization': f'Bearer {token}', 'Accept': 'application/vnd.github+json'})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return json.loads(r.read() or 'null')
+
+    issue = next((i for i in api('GET', '/issues?state=open&per_page=100')
+                  if i['title'] == title and 'pull_request' not in i), None)
+    if not review:
+        if issue:
+            api('PATCH', f"/issues/{issue['number']}", dict(state='closed', state_reason='completed'))
+        print('no names to confirm')
+        return
+    lines = [f'{len(review)} team names from the brackets could not be matched to the site\'s names with certainty. '
+             'They show as "Name (?)" on the site until confirmed, and are not merged with any other team.', '',
+             f'Confirm them on the **Team Names** tab of `season/{year}/{year}_season.xlsx` '
+             '(type OK to accept the recommendation, or the correct name), then upload the workbook.', '',
+             '| Name as written | Class | Opponent | Recommended | Other options |', '|---|---|---|---|---|']
+    lines += [f"| {e['source_name']} | {e['classification']} | {e['opponent']} | {e['recommended']} | "
+              f"{', '.join(e['other_options'])} |" for e in review]
+    body = dict(title=title, body='\n'.join(lines))
+    if issue:
+        api('PATCH', f"/issues/{issue['number']}", body)
+    else:
+        api('POST', '/issues', body)
+    print(f'issue updated: {len(review)} names')
+
+
 if __name__ == '__main__':
     ap = argparse.ArgumentParser()
-    ap.add_argument('command', choices=['prefill', 'build'])
+    ap.add_argument('command', choices=['prefill', 'build', 'review-issue'])
     today = datetime.date.today()
     # the playoffs run Nov-Dec; Jan-Jun still belongs to the previous season
     ap.add_argument('--year', type=int, default=today.year if today.month >= 7 else today.year - 1)
     ap.add_argument('--force', action='store_true', help='build: overwrite a hand-curated year file')
     a = ap.parse_args()
-    prefill(a.year) if a.command == 'prefill' else build(a.year, a.force)
+    {'prefill': lambda: prefill(a.year), 'build': lambda: build(a.year, a.force),
+     'review-issue': lambda: review_issue(a.year)}[a.command]()
