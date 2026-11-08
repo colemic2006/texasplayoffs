@@ -108,6 +108,12 @@ export default function SubmitAssignmentView() {
             <ValidationError field="chapter" errors={state.errors} style={errorStyle} />
           </div>
 
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
+            <label htmlFor="submitted_by" style={labelStyle}>Your name (optional)</label>
+            <input id="submitted_by" name="submitted_by" autoComplete="name" placeholder="So we know who sent it"
+                   style={inputStyle} />
+          </div>
+
           {match && (
             <div style={{ fontFamily: 'var(--mono)', fontSize: 11, color: 'var(--steel)' }}>
               Game: {describe(match)}{match.chapter ? ` · currently listed as ${match.chapter}` : ''}
