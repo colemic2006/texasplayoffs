@@ -85,7 +85,8 @@ def main(school_list):
     for team, (sid, how) in links.items():
         s = stadiums.get(sid)
         if s:
-            out[team] = dict(stadium_id=sid, stadium=s['name'], city=s.get('city', ''), how=how)
+            out[team] = dict(stadium_id=sid, stadium=s['name'], city=s.get('city', ''), capacity=s.get('capacity'),
+                             map_link=s.get('map_link', ''), how=how)
     OUT.write_text(json.dumps(dict(
         source='Home stadiums from TexasBob.com school list (Robert McSpadden, used with permission)',
         teams=out), indent=1, ensure_ascii=False) + '\n')

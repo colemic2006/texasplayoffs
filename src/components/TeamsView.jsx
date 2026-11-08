@@ -80,6 +80,14 @@ export default function TeamsView({ allData, years }) {
   const [selectedTeam, setSelectedTeam] = useState(null)
   const [classFilter, setClassFilter] = useState('all')
   const [lbYear, setLbYear] = useState('all')
+  const [homeStadiums, setHomeStadiums] = useState({})
+
+  useEffect(() => {
+    fetch(`${import.meta.env.BASE_URL}data/home_stadiums.json?v=${__BUILD_TIME__}`)
+      .then(r => r.ok ? r.json() : null)
+      .then(d => { if (d) setHomeStadiums(d.teams || {}) })
+      .catch(() => {})
+  }, [])
 
   const { teams, classifications } = useMemo(() => {
     const map = new Map()
@@ -281,6 +289,16 @@ export default function TeamsView({ allData, years }) {
               <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginBottom:4 }}>Team Detail</div>
               <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:22, color:'var(--ink)', letterSpacing:0.5 }}>{selected.name}</div>
               <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--steel)', marginTop:2 }}>{selected.classifications.join(' · ')}</div>
+              {homeStadiums[selected.name] && (() => {
+                const h = homeStadiums[selected.name]
+                return (
+                  <div style={{ fontSize:12, color:'var(--mid)', marginTop:6 }}>
+                    Home stadium:{' '}
+                    <a href={h.map_link || `https://texasbob.com/stadium/stadium.php?id=${h.stadium_id}`} target="_blank" rel="noopener noreferrer" style={{ color:'var(--ink)' }}>{h.stadium}</a>
+                    {h.city ? `, ${h.city}` : ''}{h.capacity ? ` · ${h.capacity.toLocaleString()} seats` : ''}
+                  </div>
+                )
+              })()}
             </div>
             {selected.chapters.length > 0 && (() => {
               const topCount = selected.chapters[0].count
