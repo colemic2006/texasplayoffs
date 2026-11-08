@@ -104,6 +104,9 @@ export default function App() {
         <div style={{ marginTop: 8, fontSize: 11, fontWeight: 700, maxWidth: 640, margin: '8px auto 0', color: 'var(--mid)' }}>
           This site is provided for informational purposes only and is not affiliated with, endorsed by, or supported by the Texas Association of Sports Officials (TASO) or the University Interscholastic League (UIL).
         </div>
+        <div style={{ marginTop: 8 }}>
+          Stadium information courtesy of Robert McSpadden, <a href="https://texasbob.com/stadium/index.html" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit' }}>TexasBob.com</a>
+        </div>
       </footer>
     </div>
   )
