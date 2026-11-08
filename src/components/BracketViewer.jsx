@@ -421,7 +421,7 @@ export function GameMap({ markers }) {
             <div>${game.team1} <strong>${game.score1 ?? ''}</strong></div>
             <div>${game.team2} <strong>${game.score2 ?? ''}</strong></div>
             ${placeName(game, stadium) ? `<div style="margin-top:6px;font-size:11px;color:#666">${placeName(game, stadium)}</div>` : ''}
-            ${game.date ? `<div style="font-size:11px;color:#666">${game.date.slice(5).replace('-', '/')}</div>` : ''}
+            ${game.date ? `<div style="font-size:11px;color:#666">${game.date.slice(5, 7)}/${game.date.slice(8, 10)}/${game.date.slice(0, 4)}</div>` : ''}
             ${game.chapter ? `<div style="margin-top:4px;font-size:11px">Chapter: <strong>${game.chapter}</strong></div>` : ''}
             ${winner ? `<div style="margin-top:4px;color:#c1440e;font-size:11px">▲ ${winner}</div>` : ''}
             <div style="margin-top:8px"><a href="${mapsUrl}" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:#1a73e8;text-decoration:none">📍 Open in Google Maps</a></div>
