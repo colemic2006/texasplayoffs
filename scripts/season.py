@@ -204,9 +204,15 @@ def read_card(url):
                 site=site, description=desc)
 
 
+def date_set(info):
+    """MaxPreps shows a placeholder date (the round's first day) until a game's date is set."""
+    return bool(info.get('date')) and 'date has not been set' not in info.get('description', '')
+
+
 def fill_sites(year, ws, placed):
-    """Fill blank Site/Date cells from MaxPreps details cards. A card is read at most once a
-    day per game, and never again once the game has a site; a site typed in by hand is kept."""
+    """Fill Site/Date cells from MaxPreps details cards. A card is read at most once a day per
+    game until the game has both a site and a set date. A site typed in by hand is kept; the
+    date follows MaxPreps (a placeholder date is never used)."""
     cards = json.loads(cards_path(year).read_text()) if cards_path(year).exists() else {}
     now = datetime.datetime.now(datetime.timezone.utc)
     filled = 0
@@ -215,14 +221,13 @@ def fill_sites(year, ws, placed):
             # raw card text from before sites were cleaned up
             ws[f'{COL["site"]}{r["row"]}'] = r['site'] = game_sites.clean_site(r['site']) or None
             filled += 1
-        if r['site'] or not g.get('card'):
+        if not g.get('card'):
             continue
         key = f"{g['cls']}|{g['key1']}|{g['key2']}"
         seen = cards.get(key, {})
-        if seen.get('read') and game_sites.clean_site(seen.get('site')):
-            info = seen          # already has a real site: no need to read the card again
-        elif seen.get('read') and (now - datetime.datetime.fromisoformat(seen['read'])).total_seconds() < 20 * 3600:
-            info = seen
+        recent = seen.get('read') and (now - datetime.datetime.fromisoformat(seen['read'])).total_seconds() < 20 * 3600
+        if seen.get('read') and ((game_sites.clean_site(seen.get('site')) and date_set(seen)) or recent):
+            info = seen          # complete, or read in the last day
         else:
             try:
                 info = read_card(g['card'])
@@ -232,11 +237,18 @@ def fill_sites(year, ws, placed):
             info['read'] = now.isoformat(timespec='seconds')
             cards[key] = info
             time.sleep(1.5)   # be gentle with MaxPreps
-        for k in ('site', 'date'):
-            v = game_sites.clean_site(info.get(k)) if k == 'site' else info.get(k)
-            if v and not r[k]:
-                ws[f'{COL[k]}{r["row"]}'] = r[k] = v
-                filled += 1
+        site = game_sites.clean_site(info.get('site'))
+        if site and not r['site']:
+            ws[f'{COL["site"]}{r["row"]}'] = r['site'] = site
+            filled += 1
+        date = info['date'] if date_set(info) else ''
+        old = str(r['date'] or '')[:10]
+        if date and old != date:
+            ws[f'{COL["date"]}{r["row"]}'] = r['date'] = date          # set, or moved
+            filled += 1
+        elif not date and old and old == info.get('date'):
+            ws[f'{COL["date"]}{r["row"]}'] = r['date'] = None          # only the placeholder: TBD
+            filled += 1
     cards_path(year).write_text(json.dumps(cards, indent=1, sort_keys=True) + '\n')
     with_site = sum(1 for c in cards.values() if game_sites.clean_site(c.get('site')))
     print(f'  cards: {len(cards)} read, {with_site} with a site')

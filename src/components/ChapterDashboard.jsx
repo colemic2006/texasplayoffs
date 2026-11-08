@@ -253,6 +253,7 @@ export default function ChapterDashboard({ data, year }) {
             games={(data?.games || []).filter(g => g.chapter === selectedChapterData.code)}
             week={detailWeek} setWeek={setDetailWeek}
             cls={detailClass} setCls={setDetailClass}
+            inProgress={data?.season?.status === 'in_progress'}
           />
         </div>
       )}
@@ -467,7 +468,7 @@ const tdStyle = {
 
 
 // Every game a chapter worked, filterable by week (click a row in the weekly table) and class
-function ChapterGames({ games, week, setWeek, cls, setCls }) {
+function ChapterGames({ games, week, setWeek, cls, setCls, inProgress }) {
   const classes = CLASSIFICATIONS.filter(c => games.some(g => g.classification === c && (week === 'all' || String(g.week) === week)))
   const shown = games
     .filter(g => (week === 'all' || String(g.week) === week) && (cls === 'all' || g.classification === cls))
@@ -519,8 +520,8 @@ function ChapterGames({ games, week, setWeek, cls, setCls }) {
                     ? (g.map_link || (g.lat != null && g.lng != null))
                       ? <a href={g.map_link || `https://www.google.com/maps?q=${g.lat},${g.lng}`} target="_blank" rel="noopener noreferrer" style={{ color:'var(--ink)' }}>{placeName(g)}</a>
                       : placeName(g)
-                    : '—'}
-                  {g.date && <span style={{ fontFamily:'var(--mono)', fontSize:10, marginLeft:6 }}>{`${g.date.slice(5, 7)}/${g.date.slice(8, 10)}/${g.date.slice(0, 4)}`}</span>}
+                    : (inProgress ? 'TBD' : '—')}
+                  {(g.date || inProgress) && <span style={{ fontFamily:'var(--mono)', fontSize:10, marginLeft:6 }}>{g.date ? `${g.date.slice(5, 7)}/${g.date.slice(8, 10)}/${g.date.slice(0, 4)}` : 'Date TBD'}</span>}
                 </td>
               </tr>
             ))}

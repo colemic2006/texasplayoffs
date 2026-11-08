@@ -257,7 +257,7 @@ export default function BracketViewer({ data, year }) {
                   </span>
                 </div>
                 <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(300px, 1fr))', gap:10 }}>
-                  {games.map((game, i) => <GameCard key={i} game={game} />)}
+                  {games.map((game, i) => <GameCard key={i} game={game} inProgress={data?.season?.status === 'in_progress'} />)}
                 </div>
               </div>
             )
@@ -268,7 +268,7 @@ export default function BracketViewer({ data, year }) {
   )
 }
 
-function GameCard({ game }) {
+function GameCard({ game, inProgress }) {
   const hasScore = game.score1 !== null && game.score2 !== null && game.score1 !== undefined
   const t1Wins = hasScore && game.score1 > game.score2
   const t2Wins = hasScore && game.score2 > game.score1
@@ -282,14 +282,17 @@ function GameCard({ game }) {
       </div>
 
       {/* Location */}
-      {game.site && (
+      {(game.site || inProgress) && (
         <div style={{
           borderTop:'1px solid var(--border)', padding:'5px 12px',
           background:'rgba(15,13,11,0.015)',
           display:'flex', alignItems:'center', gap:6
         }}>
           <span style={{ fontSize:10 }}>📍</span>
-          <span style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)' }}>{placeName(game)}</span>
+          <span style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)' }}>
+            {game.site ? placeName(game) : 'Site TBD'}
+            {inProgress && ` · ${game.date ? `${game.date.slice(5, 7)}/${game.date.slice(8, 10)}/${game.date.slice(0, 4)}` : 'Date TBD'}`}
+          </span>
         </div>
       )}
 
