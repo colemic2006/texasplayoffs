@@ -64,6 +64,7 @@ function findStadium(site, stadiums) {
 export default function BracketViewer({ data, year }) {
   const [selectedWeek, setSelectedWeek] = useState(1)
   const [classFilter, setClassFilter] = useState('all')
+  const [chapterFilter, setChapterFilter] = useState('all')   // 'all', 'none' (unassigned) or a chapter code
   const [showMap, setShowMap] = useState(false)
   const [stadiums, setStadiums] = useState([])
   const [mapMarkers, setMapMarkers] = useState([])
@@ -85,8 +86,21 @@ export default function BracketViewer({ data, year }) {
   const weekGames = useMemo(() => {
     let games = allGames.filter(g => g.week === selectedWeek)
     if (classFilter !== 'all') games = games.filter(g => g.classification === classFilter)
+    if (chapterFilter === 'none') games = games.filter(g => !g.chapter)
+    else if (chapterFilter !== 'all') games = games.filter(g => g.chapter === chapterFilter)
     return games
-  }, [allGames, selectedWeek, classFilter])
+  }, [allGames, selectedWeek, classFilter, chapterFilter])
+
+  // chapters working the selected week, busiest first
+  const weekChapters = useMemo(() => {
+    const n = {}
+    allGames.filter(g => g.week === selectedWeek && g.chapter).forEach(g => { n[g.chapter] = (n[g.chapter] || 0) + 1 })
+    return Object.entries(n).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+  }, [allGames, selectedWeek])
+  const weekUnassigned = allGames.filter(g => g.week === selectedWeek && !g.chapter).length
+  useEffect(() => {
+    if (chapterFilter !== 'all' && chapterFilter !== 'none' && !weekChapters.some(([c]) => c === chapterFilter)) setChapterFilter('all')
+  }, [weekChapters])
 
   const gamesByClass = useMemo(() => {
     const map = {}
@@ -191,6 +205,22 @@ export default function BracketViewer({ data, year }) {
         Week {selectedWeek} · {ROUND_NAMES[selectedWeek]}
         <span style={{ marginLeft:12, opacity:0.6 }}>{weekGames.length} game{weekGames.length !== 1 ? 's' : ''}</span>
       </div>
+
+      {/* Chapter filter (map and games) */}
+      {weekChapters.length > 0 && (
+        <div style={{ display:'flex', alignItems:'center', gap:4, flexWrap:'wrap', marginBottom:8 }}>
+          <span style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginRight:4 }}>Chapter:</span>
+          {[['all', 'All'], ...(weekUnassigned ? [['none', `Unassigned (${weekUnassigned})`]] : []),
+            ...weekChapters.map(([c, n]) => [c, `${c} (${n})`])].map(([v, label]) => (
+            <button key={v} onClick={() => setChapterFilter(v)} style={{
+              fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.08em',
+              padding:'4px 10px', borderRadius:3, border:'1px solid var(--border)',
+              background: chapterFilter === v ? 'var(--burnt)' : 'transparent',
+              color: chapterFilter === v ? '#fff' : 'var(--mid)', cursor:'pointer'
+            }}>{label}</button>
+          ))}
+        </div>
+      )}
 
       {/* Classification filter */}
       <div style={{ display:'flex', gap:4, flexWrap:'wrap', marginBottom:20 }}>
