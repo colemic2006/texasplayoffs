@@ -100,6 +100,14 @@ export default function BracketViewer({ data, year }) {
   const activeClasses = CLASSIFICATIONS.filter(c => gamesByClass[c]?.length > 0)
   const weeksWithGames = WEEKS.filter(w => allGames.some(g => g.week === w))
 
+  // a season in progress opens on its latest week
+  useEffect(() => {
+    if (data?.season?.status === 'in_progress' && weeksWithGames.length) {
+      setSelectedWeek(weeksWithGames[weeksWithGames.length - 1])
+      setShowMap(true)
+    }
+  }, [data])
+
   // Geocode games with sites for the map
   useEffect(() => {
     if (!showMap) return
@@ -110,9 +118,13 @@ export default function BracketViewer({ data, year }) {
     const delay = ms => new Promise(r => setTimeout(r, ms))
 
     async function run() {
-      const markers = []
-      for (let i = 0; i < gamesWithSite.length; i++) {
-        const g = gamesWithSite[i]
+      // sites placed ahead of time by scripts/season.py locate need no lookup
+      const markers = gamesWithSite.filter(g => g.lat != null && g.lng != null)
+        .map(g => ({ lat: g.lat, lng: g.lng, game: g, stadium: findStadium(g.site, stadiums) || (g.stadium ? { name: g.stadium, city: '', map_link: g.map_link } : null) }))
+      const toLookUp = gamesWithSite.filter(g => g.lat == null || g.lng == null)
+      if (markers.length) setMapMarkers([...markers])
+      for (let i = 0; i < toLookUp.length; i++) {
+        const g = toLookUp[i]
         const stadium = findStadium(g.site, stadiums)
         const query = stadium
           ? `${stadium.address}, ${stadium.city}, Texas`
@@ -121,7 +133,7 @@ export default function BracketViewer({ data, year }) {
         if (coords) {
           markers.push({ ...coords, game: g, stadium })
         }
-        if (i < gamesWithSite.length - 1) await delay(1100) // Nominatim rate limit
+        if (i < toLookUp.length - 1) await delay(1100) // Nominatim rate limit
       }
       setMapMarkers(markers)
       setGeocoding(false)
@@ -218,7 +230,11 @@ export default function BracketViewer({ data, year }) {
           )}
           {gamesWithSite.length === 0 && (
             <div style={{ height:'100%', display:'flex', alignItems:'center', justifyContent:'center', background:'var(--surface)' }}>
-              <span style={{ fontFamily:'var(--mono)', fontSize:11, color:'var(--mid)' }}>No location data for this week.</span>
+              <span style={{ fontFamily:'var(--mono)', fontSize:11, color:'var(--mid)', textAlign:'center', padding:'0 16px' }}>
+                {data?.season?.status === 'in_progress'
+                  ? 'Game sites appear here as they are announced, usually early in the week.'
+                  : 'No location data for this week.'}
+              </span>
             </div>
           )}
         </div>

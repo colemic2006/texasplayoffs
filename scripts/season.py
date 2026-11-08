@@ -9,6 +9,9 @@ The workbook (season/{year}/{year}_season.xlsx) is the source of truth. prefill 
 adds games and fills blank teams/scores; it never touches the Chapter column, so
 the chapter assignments typed into the workbook are always kept.
 
+Game sites (Site/Date columns) come from each MaxPreps matchup's details card, or are typed
+in; `locate` turns them into map coordinates (game_sites.py) for the Brackets map.
+
 Team names go through team_names.py: a source name ("Martin") becomes the site's name
 ("Arlington Martin") only when that is certain or a person confirmed it. Doubtful names
 keep the source spelling, show as "Name (?)" on the site, and are listed on the
@@ -25,6 +28,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 from uil_bracket import parse as parse_pdf, norm, sim  # noqa: E402
 from team_names import Resolver  # noqa: E402
+import game_sites  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 CLASSES = ['1A D1', '1A D2', '2A D1', '2A D2', '3A D1', '3A D2',
@@ -34,7 +38,8 @@ UIL = 'https://www.uiltexas.org'
 UA = 'Mozilla/5.0 (compatible; texasplayoffs.com bracket sync)'
 FIRST_ROW, LAST_ROW = 2, 801          # Games tab rows the template formats
 COL = dict(week='A', cls='C', chapter='D', team1='E', score1='F', team2='G', score2='H', forfeit='I', notes='K',
-           key1='M', key2='N')     # M/N: which source team each name came from (MaxPreps school id)
+           key1='M', key2='N',     # M/N: which source team each name came from (MaxPreps school id)
+           site='O', date='P')     # game site ("Stadium, City") and date, from MaxPreps or typed in
 NO_ID = '00000000-0000-0000-0000-000000000000'
 
 
@@ -123,24 +128,6 @@ def games_from_maxpreps(cls, year):
             continue
         week = min(6, 1 + (datetime.date.fromisoformat(d['title'][:10]) - first).days // 7)
         for mu in rnd.select('li.matchup-container'):
-            if os.environ.get('SHOW_MATCHUP_HTML') == cls and week == 1 and mu.select_one('li.team .name') \
-                    and mu.select_one('li.team .name').get_text(strip=True):
-                card = mu.select_one('[data-hover-card]')
-                if card:
-                    url = 'https://www.maxpreps.com' + card['data-hover-card'].replace('&amp;', '&')
-                    try:
-                        print(f'--- {cls} details card ---\n{fetch(url)[:5000]}')
-                    except Exception as e:
-                        print(f'--- {cls} details card failed: {e}')
-                pre = mu.select_one('li.pregame a[href]')
-                if pre:
-                    try:
-                        page = fetch(pre['href'])
-                        i = max(page.find('ocation'), 0)
-                        print(f'--- {cls} game page ({len(page)} bytes) around "location" ---\n{page[max(0, i - 1500):i + 2500]}')
-                    except Exception as e:
-                        print(f'--- {cls} game page failed: {e}')
-                os.environ['SHOW_MATCHUP_HTML'] = ''   # one is enough
             teams = mu.select('li.team')
             if len(teams) != 2:
                 continue
@@ -154,8 +141,10 @@ def games_from_maxpreps(cls, year):
                 scores.append(int(txt) if txt.isdigit() else None)
             ids = [t.get('data-school-id') for t in teams]
             keys = [f'mp:{i}' if i and i != NO_ID else f'mp-name:{cls}:{n}' for i, n in zip(ids, names)]
+            card = mu.select_one('[data-hover-card]')
             out.append(dict(week=week, cls=cls, team1=names[0], team2=names[1], score1=scores[0], score2=scores[1],
-                            key1=keys[0], key2=keys[1]))
+                            key1=keys[0], key2=keys[1],
+                            card=('https://www.maxpreps.com' + card['data-hover-card'].replace('&amp;', '&')) if card else None))
     return out
 
 
@@ -178,13 +167,73 @@ def read_rows(ws):
     for r in range(FIRST_ROW, LAST_ROW + 1):
         v = {k: ws[f'{c}{r}'].value for k, c in COL.items()}
         v['row'] = r
-        for k in ('chapter', 'team1', 'team2', 'cls', 'forfeit', 'notes', 'key1', 'key2'):
+        for k in ('chapter', 'team1', 'team2', 'cls', 'forfeit', 'notes', 'key1', 'key2', 'site', 'date'):
             v[k] = str(v[k]).strip() if v[k] not in (None, '') else None
         rows.append(v)
     return rows
 
 
 REVIEW_SHEET = 'Team Names'
+
+
+def cards_path(year):
+    return ROOT / 'season' / str(year) / 'maxpreps_cards.json'
+
+
+def read_card(url):
+    """Date and site from a MaxPreps matchup details card (empty strings when not set yet)."""
+    from bs4 import BeautifulSoup
+    soup = BeautifulSoup(json.loads(fetch(url)).get('html', ''), 'html.parser')
+    date = soup.select_one('abbr.date[title]')
+    desc = ''
+    share = soup.select_one('[data-social-json]')
+    if share:
+        try:
+            desc = json.loads(share['data-social-json']).get('description', '')
+        except ValueError:
+            pass
+    site = ''
+    el = soup.select_one('[class*="location"], [class*="venue"], [class*="site"]')
+    if el:
+        site = el.get_text(' ', strip=True)
+    if not site:
+        m = re.search(r'\bat ([^.()]+?(?:\([^)]*\))?)\s*\.?\s*$', desc)
+        if m and 'date has not been set' not in desc:
+            site = m.group(1).strip()
+    return dict(date=date['title'][:10] if date and not date['title'].startswith('1900') else '',
+                site=site, description=desc)
+
+
+def fill_sites(year, ws, placed):
+    """Fill blank Site/Date cells from MaxPreps details cards. A card is read at most once a
+    day per game, and never again once the game has a site; a site typed in by hand is kept."""
+    cards = json.loads(cards_path(year).read_text()) if cards_path(year).exists() else {}
+    now = datetime.datetime.now(datetime.timezone.utc)
+    filled = 0
+    for r, g in placed:
+        if r['site'] or not g.get('card'):
+            continue
+        key = f"{g['cls']}|{g['key1']}|{g['key2']}"
+        seen = cards.get(key, {})
+        if seen.get('read') and (now - datetime.datetime.fromisoformat(seen['read'])).total_seconds() < 20 * 3600:
+            info = seen
+        else:
+            try:
+                info = read_card(g['card'])
+            except Exception as e:
+                print(f'  ! card for {g["team1"]} v {g["team2"]}: {e}')
+                continue
+            info['read'] = now.isoformat(timespec='seconds')
+            cards[key] = info
+            time.sleep(1.5)   # be gentle with MaxPreps
+        for k in ('site', 'date'):
+            if info.get(k) and not r[k]:
+                ws[f'{COL[k]}{r["row"]}'] = r[k] = info[k]
+                filled += 1
+    cards_path(year).write_text(json.dumps(cards, indent=1, sort_keys=True) + '\n')
+    with_site = sum(1 for c in cards.values() if c.get('site'))
+    print(f'  cards: {len(cards)} read, {with_site} with a site')
+    return filled
 
 
 def review_path(year):
@@ -237,6 +286,9 @@ def prefill(year):
     if not ws['M1'].value:
         ws['M1'], ws['N1'] = 'Team 1 source', 'Team 2 source'
         ws.column_dimensions['M'].hidden = ws.column_dimensions['N'].hidden = True
+    if not ws['O1'].value:
+        ws['O1'], ws['P1'] = 'Site (Stadium, City)', 'Date'
+        ws.column_dimensions['O'].width, ws.column_dimensions['P'].width = 34, 12
     resolver = Resolver(ROOT, year)
     answered = take_answers(wb, resolver)
     rows = read_rows(ws)
@@ -285,7 +337,7 @@ def prefill(year):
     review += [e for e in (old_review or []) if e['key'] not in resolved and e['key'] not in resolver.confirmed]
 
     added = updated = renamed = 0
-    conflicts = []
+    conflicts, placed = [], []
     for cls, games in fetched.items():
         for g in games:
             if not real_teams(g):
@@ -315,8 +367,10 @@ def prefill(year):
                     ws[f'{COL[k]}{r["row"]}'] = v
                     r[k] = v
                 added += 1
+                placed.append((r, g))
                 continue
             r, straight = match
+            placed.append((r, g))
             # remember where each name came from, and swap in the site name once it is settled;
             # a name typed into the workbook by hand (anything but the source spelling) is left alone
             for side, src in ((1, 1 if straight else 2), (2, 2 if straight else 1)):
@@ -336,12 +390,13 @@ def prefill(year):
                 updated += 1
             elif (r['score1'], r['score2']) != (s1, s2):
                 conflicts.append(f'row {r["row"]} {cls} wk{g["week"]}: workbook {r["team1"]} {r["score1"]}-{r["score2"]} {r["team2"]}, UIL {s1}-{s2}')
-    if added or updated or renamed or answered or review != old_review:
+    sited = fill_sites(year, ws, placed)
+    if added or updated or renamed or answered or sited or review != old_review:
         write_review(wb, year, review)
         wb.calculation.fullCalcOnLoad = True
         wb.save(path)
     print(f'prefill: {added} games added, {updated} scores/sources filled, {renamed} names settled, '
-          f'{answered} answers taken, {len(review)} names to confirm')
+          f'{answered} answers taken, {sited} sites/dates filled, {len(review)} names to confirm')
     for c in conflicts:
         print('  score differs (left as is):', c)
 
@@ -357,6 +412,7 @@ def build(year, force=False):
     unsure = {e['key']: e['source_name'] for e in json.loads(review_path(year).read_text())} \
         if review_path(year).exists() else {}
     flag = lambda name, key: f'{name} (?)' if key in unsure and name == unsure[key] else name
+    geo = json.loads(game_sites.CACHE.read_text()) if game_sites.CACHE.exists() else {}
     games = []
     for r in read_rows(ws):
         if not (r['week'] and r['cls'] and r['team1'] and r['team2']):
@@ -367,9 +423,15 @@ def build(year, force=False):
         forfeit = (r['forfeit'] or '').upper() == 'Y'
         winner = r['team1'] if (s1 is not None and s2 is not None and s1 > s2) else \
                  r['team2'] if (s1 is not None and s2 is not None and s2 > s1) else None
-        games.append(dict(year=year, classification=r['cls'], week=week, round=ROUNDS[week],
-                          chapter=None if forfeit else r['chapter'], team1=r['team1'], score1=s1,
-                          team2=r['team2'], score2=s2, winner=winner))
+        g = dict(year=year, classification=r['cls'], week=week, round=ROUNDS[week],
+                 chapter=None if forfeit else r['chapter'], team1=r['team1'], score1=s1,
+                 team2=r['team2'], score2=s2, winner=winner)
+        if r['site']:
+            g['site'] = r['site']
+            game_sites.place(g, geo)
+        if r['date']:
+            g['date'] = str(r['date'])[:10]
+        games.append(g)
     games.sort(key=lambda g: (g['week'], CLASSES.index(g['classification']) if g['classification'] in CLASSES else 99))
 
     chapters = {}
@@ -413,6 +475,13 @@ def build(year, force=False):
     print(f'build: {len(games)} games ({played} played, {assigned} with a chapter) -> {dest.relative_to(ROOT)}')
 
 
+def locate(year):
+    """Look up map coordinates for game sites that don't have them yet."""
+    wb, _ = open_workbook(year)
+    sites = [r['site'] for r in read_rows(wb['Games']) if r['site']]
+    print(f'locate: {game_sites.locate(sites)} new sites placed ({len(set(sites))} sites in all)')
+
+
 def review_issue(year):
     """Keep one GitHub issue listing the team names waiting for confirmation (closed when none)."""
     import os
@@ -453,11 +522,11 @@ def review_issue(year):
 
 if __name__ == '__main__':
     ap = argparse.ArgumentParser()
-    ap.add_argument('command', choices=['prefill', 'build', 'review-issue'])
+    ap.add_argument('command', choices=['prefill', 'locate', 'build', 'review-issue'])
     today = datetime.date.today()
     # the playoffs run Nov-Dec; Jan-Jun still belongs to the previous season
     ap.add_argument('--year', type=int, default=today.year if today.month >= 7 else today.year - 1)
     ap.add_argument('--force', action='store_true', help='build: overwrite a hand-curated year file')
     a = ap.parse_args()
-    {'prefill': lambda: prefill(a.year), 'build': lambda: build(a.year, a.force),
+    {'prefill': lambda: prefill(a.year), 'locate': lambda: locate(a.year), 'build': lambda: build(a.year, a.force),
      'review-issue': lambda: review_issue(a.year)}[a.command]()
