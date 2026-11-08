@@ -1,0 +1,1304 @@
+[
+  {
+    "key": "mp:04857524-c682-4788-83db-e31b4bbd0ac7",
+    "source_name": "Bluff Dale",
+    "classification": "1A D1",
+    "opponent": "Campbell",
+    "recommended": "Bluff Dale",
+    "other_options": []
+  },
+  {
+    "key": "mp:60473937-8b7a-4c34-babe-fc5e7b37723e",
+    "source_name": "Campbell",
+    "classification": "1A D1",
+    "opponent": "Bluff Dale",
+    "recommended": "Campbell",
+    "other_options": []
+  },
+  {
+    "key": "mp:125bdbe3-263b-4d9b-867b-6c6692480eac",
+    "source_name": "Grady",
+    "classification": "1A D1",
+    "opponent": "Borden County",
+    "recommended": "Lenorah Grady",
+    "other_options": [
+      "Grady"
+    ]
+  },
+  {
+    "key": "mp:e0cef0c4-6e7b-462e-aaf9-239f6cb72d1f",
+    "source_name": "Highland",
+    "classification": "1A D1",
+    "opponent": "Menard",
+    "recommended": "Highland",
+    "other_options": []
+  },
+  {
+    "key": "mp:e472970f-2c61-4e95-aac4-56a5d4de8db1",
+    "source_name": "Northside",
+    "classification": "1A D1",
+    "opponent": "Gordon",
+    "recommended": "Vernon Northside",
+    "other_options": [
+      "Houston Northside"
+    ]
+  },
+  {
+    "key": "mp:6d3e7c5c-b416-4a3f-afa6-dc9bd817267a",
+    "source_name": "Fannindel",
+    "classification": "1A D2",
+    "opponent": "Three Way",
+    "recommended": "Fannindel",
+    "other_options": [
+      "Ladonia Fannindel"
+    ]
+  },
+  {
+    "key": "mp:d297e2af-471e-414c-bfab-1ab3ff18e6cf",
+    "source_name": "Hart",
+    "classification": "1A D2",
+    "opponent": "Meadow",
+    "recommended": "Hart",
+    "other_options": []
+  },
+  {
+    "key": "mp:838c10d3-c2ca-489e-8197-d0e993ac6adc",
+    "source_name": "Valley",
+    "classification": "1A D2",
+    "opponent": "McLean",
+    "recommended": "Turkey Valley",
+    "other_options": [
+      "Water Valley",
+      "Valley",
+      "Castroville Medina Valley"
+    ]
+  },
+  {
+    "key": "mp:51bf7cea-2364-4344-889f-b351cf63729e",
+    "source_name": "Wellman-Union",
+    "classification": "1A D2",
+    "opponent": "Anton",
+    "recommended": "Wellman-Union",
+    "other_options": []
+  },
+  {
+    "key": "mp:bf3dcf75-6f0a-4820-b636-7440ffc95efc",
+    "source_name": "Bruceville-Eddy",
+    "classification": "2A D1",
+    "opponent": "Leon",
+    "recommended": "Bruceville-Eddy",
+    "other_options": []
+  },
+  {
+    "key": "mp:e64babc8-c03c-43d9-bf7f-1d31fb4cf734",
+    "source_name": "Highland Park",
+    "classification": "2A D1",
+    "opponent": "Olton",
+    "recommended": "Amarillo Highland Park",
+    "other_options": [
+      "Dallas Highland Park",
+      "Highland Park"
+    ]
+  },
+  {
+    "key": "mp:d09f92df-591c-4fa6-956f-c2c12986759f",
+    "source_name": "Itasca",
+    "classification": "2A D1",
+    "opponent": "Mason",
+    "recommended": "Itasca",
+    "other_options": []
+  },
+  {
+    "key": "mp:451d5a5b-0ba5-4acd-83ba-f021e670d506",
+    "source_name": "Leon",
+    "classification": "2A D1",
+    "opponent": "Bruceville-Eddy",
+    "recommended": "Jewett Leon",
+    "other_options": [
+      "De Leon",
+      "Leon"
+    ]
+  },
+  {
+    "key": "mp:6e4cd0e9-f4e3-4959-b0fe-f67539e4ce48",
+    "source_name": "Plains",
+    "classification": "2A D2",
+    "opponent": "Gruver",
+    "recommended": "Plains",
+    "other_options": [
+      "Cross Plains",
+      "Canyon West Plains"
+    ]
+  },
+  {
+    "key": "mp:c708e4cf-807f-41f1-b9c9-376e61de13a1",
+    "source_name": "Tenaha",
+    "classification": "2A D2",
+    "opponent": "West Sabine",
+    "recommended": "Tenaha",
+    "other_options": []
+  },
+  {
+    "key": "mp:7964636a-3fcc-46d1-b06e-3b4ec16b3e2a",
+    "source_name": "Vega",
+    "classification": "2A D2",
+    "opponent": "Ropes",
+    "recommended": "Vega",
+    "other_options": [
+      "Waco La Vega",
+      "La Vega"
+    ]
+  },
+  {
+    "key": "mp:f2220563-b6b1-4295-8b71-64699938d9b9",
+    "source_name": "West Hardin",
+    "classification": "2A D2",
+    "opponent": "Grapeland",
+    "recommended": "West Hardin",
+    "other_options": [
+      "Saratoga West Hardin"
+    ]
+  },
+  {
+    "key": "mp:296537bb-ce9c-490b-9aa8-4c5bd3fd3e68",
+    "source_name": "West Sabine",
+    "classification": "2A D2",
+    "opponent": "Tenaha",
+    "recommended": "West Sabine",
+    "other_options": [
+      "Pineland West Sabine"
+    ]
+  },
+  {
+    "key": "mp:63db2671-adea-49a8-99ab-874973980014",
+    "source_name": "West Texas",
+    "classification": "2A D2",
+    "opponent": "Sudan",
+    "recommended": "West Texas",
+    "other_options": []
+  },
+  {
+    "key": "mp:d0d412a5-e427-47fc-a075-28363b8aa94a",
+    "source_name": "Bowie",
+    "classification": "3A D1",
+    "opponent": "Wall",
+    "recommended": "Arlington Bowie",
+    "other_options": [
+      "El Paso Bowie",
+      "Austin Bowie",
+      "Simms Bowie"
+    ]
+  },
+  {
+    "key": "mp:c90b9ec1-e416-4942-8744-3a8096672fc3",
+    "source_name": "Compass Academy",
+    "classification": "3A D1",
+    "opponent": "Shallowater",
+    "recommended": "Odessa Compass Academy",
+    "other_options": [
+      "Compass Academy"
+    ]
+  },
+  {
+    "key": "mp:cc9663bb-a134-4dec-9c8f-555e70f8db22",
+    "source_name": "Hondo",
+    "classification": "3A D1",
+    "opponent": "Marion",
+    "recommended": "Hondo",
+    "other_options": [
+      "Rio Hondo"
+    ]
+  },
+  {
+    "key": "mp:d815ea88-ef5c-43d4-9010-6525739aa235",
+    "source_name": "Life Oak Cliff",
+    "classification": "3A D1",
+    "opponent": "Whitney",
+    "recommended": "Life Oak Cliff",
+    "other_options": []
+  },
+  {
+    "key": "mp:24fe53ee-3542-4709-8b8f-fa1d191a63da",
+    "source_name": "Randolph",
+    "classification": "3A D1",
+    "opponent": "Devine",
+    "recommended": "Randolph",
+    "other_options": [
+      "Universal City Randolph"
+    ]
+  },
+  {
+    "key": "mp:a1fbfa28-bcd5-47d9-9a98-252ff6723d5b",
+    "source_name": "Vernon",
+    "classification": "3A D1",
+    "opponent": "Ingram Moore",
+    "recommended": "Vernon",
+    "other_options": [
+      "Mount Vernon"
+    ]
+  },
+  {
+    "key": "mp:a1f60043-96ac-4c64-8174-18fa4ad469d0",
+    "source_name": "Brazos",
+    "classification": "3A D2",
+    "opponent": "Thrall",
+    "recommended": "Wallis Brazos",
+    "other_options": []
+  },
+  {
+    "key": "mp:98e34ba4-b604-4842-a1c1-86b337f06651",
+    "source_name": "Dimmitt",
+    "classification": "3A D2",
+    "opponent": "Idalou",
+    "recommended": "Dimmitt",
+    "other_options": []
+  },
+  {
+    "key": "mp:5aa06945-e43e-4c20-b16f-fed26890bf01",
+    "source_name": "Hardin",
+    "classification": "3A D2",
+    "opponent": "Teague",
+    "recommended": "Hardin",
+    "other_options": [
+      "Saratoga West Hardin",
+      "West Hardin"
+    ]
+  },
+  {
+    "key": "mp:93ba4964-8629-436a-baed-66f0508129b8",
+    "source_name": "Jefferson",
+    "classification": "3A D2",
+    "opponent": "Redwater",
+    "recommended": "Jefferson",
+    "other_options": [
+      "San Antonio Jefferson",
+      "El Paso Jefferson",
+      "Hardin-Jefferson"
+    ]
+  },
+  {
+    "key": "mp:d03e1aaf-036c-4a0c-a289-3cc3608a8e52",
+    "source_name": "Madison",
+    "classification": "3A D2",
+    "opponent": "Hamilton",
+    "recommended": "James Madison",
+    "other_options": [
+      "San Antonio Madison",
+      "Houston Madison",
+      "Dallas Madison"
+    ]
+  },
+  {
+    "key": "mp:603b7bcc-5cf0-47a7-81fd-4ad37844f9bc",
+    "source_name": "Rice Consolidated",
+    "classification": "3A D2",
+    "opponent": "Rogers",
+    "recommended": "Rice Consolidated",
+    "other_options": [
+      "Altair Rice Consolidated"
+    ]
+  },
+  {
+    "key": "mp:e37fd22c-b7a5-45da-97b8-230c61dda7a9",
+    "source_name": "Trinity Leadership",
+    "classification": "3A D2",
+    "opponent": "Millsap",
+    "recommended": "Cedar Hill Trinity Leadership",
+    "other_options": [
+      "Trinity Leadership"
+    ]
+  },
+  {
+    "key": "mp:7b42da43-52e8-4e48-b4c7-337ffd3dfe84",
+    "source_name": "Andress",
+    "classification": "4A D1",
+    "opponent": "Dumas",
+    "recommended": "El Paso Andress",
+    "other_options": []
+  },
+  {
+    "key": "mp:aebc1941-1438-4b6f-b778-9b749e87f617",
+    "source_name": "Austin",
+    "classification": "4A D1",
+    "opponent": "Randall",
+    "recommended": "El Paso Austin",
+    "other_options": [
+      "Fort Bend Austin",
+      "Houston Austin",
+      "Austin"
+    ]
+  },
+  {
+    "key": "mp:3adca98f-05e2-4017-ae90-aa229cfce4f6",
+    "source_name": "Austin",
+    "classification": "4A D1",
+    "opponent": "Little Cypress-Mauriceville",
+    "recommended": "El Paso Austin",
+    "other_options": [
+      "Fort Bend Austin",
+      "Houston Austin",
+      "Austin"
+    ]
+  },
+  {
+    "key": "mp:e16c086a-9ae2-482a-b23e-fe5436106470",
+    "source_name": "Benbrook",
+    "classification": "4A D1",
+    "opponent": "Kimball",
+    "recommended": "Benbrook",
+    "other_options": [
+      "Fort Worth Benbrook"
+    ]
+  },
+  {
+    "key": "mp:f245a6bc-5e59-40c0-ad00-e2a3ea9225bc",
+    "source_name": "Canyon",
+    "classification": "4A D1",
+    "opponent": "Riverside",
+    "recommended": "Canyon",
+    "other_options": [
+      "Barksdale Nueces Canyon",
+      "New Braunfels Canyon"
+    ]
+  },
+  {
+    "key": "mp:2ac01e9f-e8f3-451b-8a5f-beae39fcb54d",
+    "source_name": "Canyon Lake",
+    "classification": "4A D1",
+    "opponent": "Pleasanton",
+    "recommended": "Canyon Lake",
+    "other_options": [
+      "Fischer Canyon Lake"
+    ]
+  },
+  {
+    "key": "mp:032ffe24-9d72-45d5-9970-123c7050ab32",
+    "source_name": "Davenport",
+    "classification": "4A D1",
+    "opponent": "Somerset",
+    "recommended": "San Antonio Davenport",
+    "other_options": [
+      "Davenport"
+    ]
+  },
+  {
+    "key": "mp:9e9672fd-1ae7-4d1c-b361-bae810ac89ac",
+    "source_name": "Greenwood",
+    "classification": "4A D1",
+    "opponent": "Springtown",
+    "recommended": "Midland Greenwood",
+    "other_options": [
+      "Greenwood"
+    ]
+  },
+  {
+    "key": "mp:49ea89c0-5105-4ebd-9c40-a744720daf29",
+    "source_name": "Hargrave",
+    "classification": "4A D1",
+    "opponent": "Fort Bend Willowridge",
+    "recommended": "Hargrave",
+    "other_options": [
+      "Huffman-Hargrave"
+    ]
+  },
+  {
+    "key": "mp:d919ca8f-ecb3-45e8-a97c-becc1d52d03b",
+    "source_name": "Lincoln",
+    "classification": "4A D1",
+    "opponent": "Southwest",
+    "recommended": "Dallas Lincoln",
+    "other_options": [
+      "La Joya Juarez-Lincoln"
+    ]
+  },
+  {
+    "key": "mp:e6cb1374-d5c9-42fa-a7bd-9dd0d5c89c32",
+    "source_name": "Little Cypress-Mauriceville",
+    "classification": "4A D1",
+    "opponent": "Austin",
+    "recommended": "Little Cypress-Mauriceville",
+    "other_options": [
+      "Orange Little Cypress-Mauriceville"
+    ]
+  },
+  {
+    "key": "mp:348cf5eb-33ce-457f-9021-98a98000315c",
+    "source_name": "Riverside",
+    "classification": "4A D1",
+    "opponent": "Canyon",
+    "recommended": "FW Carter-Riverside",
+    "other_options": [
+      "El Paso Riverside",
+      "Ysleta Riverside"
+    ]
+  },
+  {
+    "key": "mp:0be43533-b5ba-4a9f-934f-c099809f2669",
+    "source_name": "Southwest",
+    "classification": "4A D1",
+    "opponent": "Lincoln",
+    "recommended": "San Antonio Southwest",
+    "other_options": [
+      "Fort Worth Southwest"
+    ]
+  },
+  {
+    "key": "mp:ca1c2e5b-7816-4620-8b39-32948cfa4a33",
+    "source_name": "Stafford",
+    "classification": "4A D1",
+    "opponent": "Bridge City",
+    "recommended": "Houston Stafford",
+    "other_options": [
+      "Stafford"
+    ]
+  },
+  {
+    "key": "mp:63111a5a-b98f-4d50-825f-ce9277a0fc9f",
+    "source_name": "Sterling",
+    "classification": "4A D1",
+    "opponent": "Vidor",
+    "recommended": "Houston Sterling",
+    "other_options": []
+  },
+  {
+    "key": "mp:2702ded0-f139-4e83-b52c-61292438bc01",
+    "source_name": "Tivy",
+    "classification": "4A D1",
+    "opponent": "La Vernia",
+    "recommended": "Kerrville Tivy",
+    "other_options": []
+  },
+  {
+    "key": "mp:480a3ca5-78ac-408c-94dd-a1f69c30b37f",
+    "source_name": "Wilmer-Hutchins",
+    "classification": "4A D1",
+    "opponent": "Eastern Hills",
+    "recommended": "Dallas Wilmer-Hutchins",
+    "other_options": [
+      "Wilmer-Hutchins"
+    ]
+  },
+  {
+    "key": "mp:d0b50e14-7906-4baa-b586-ccd204647e21",
+    "source_name": "Ysleta",
+    "classification": "4A D1",
+    "opponent": "West Plains",
+    "recommended": "El Paso Ysleta",
+    "other_options": [
+      "Ysleta"
+    ]
+  },
+  {
+    "key": "mp:85895d85-ae24-412b-a210-24e26ee1a367",
+    "source_name": "Ford",
+    "classification": "4A D2",
+    "opponent": "Carthage",
+    "recommended": "Quinlan Ford",
+    "other_options": [
+      "Ford"
+    ]
+  },
+  {
+    "key": "mp:0fe067e2-23dd-4430-99d1-f869353eae29",
+    "source_name": "King",
+    "classification": "4A D2",
+    "opponent": "Bandera",
+    "recommended": "Kingsville King",
+    "other_options": [
+      "Corpus Christi King",
+      "Houston King",
+      "Sheldon King"
+    ]
+  },
+  {
+    "key": "mp:9e440b81-84e1-465e-83ce-0179d56696ec",
+    "source_name": "La Vega",
+    "classification": "4A D2",
+    "opponent": "Manor New Tech",
+    "recommended": "La Vega",
+    "other_options": [
+      "Waco La Vega"
+    ]
+  },
+  {
+    "key": "mp:41e931ec-a457-468d-a941-0626e246d95c",
+    "source_name": "London",
+    "classification": "4A D2",
+    "opponent": "Navarro",
+    "recommended": "Corpus Christi London",
+    "other_options": [
+      "London"
+    ]
+  },
+  {
+    "key": "mp:fa488e7a-2b81-4322-9776-02b49550d18d",
+    "source_name": "Navarro",
+    "classification": "4A D2",
+    "opponent": "London",
+    "recommended": "Geronimo Navarro",
+    "other_options": []
+  },
+  {
+    "key": "mp:71370ca8-cf9e-434d-9f52-cf8eddb9669f",
+    "source_name": "North Lamar",
+    "classification": "4A D2",
+    "opponent": "Gilmer",
+    "recommended": "Paris North Lamar",
+    "other_options": []
+  },
+  {
+    "key": "mp:15a3300a-e76c-4db1-8e77-79b1fc070602",
+    "source_name": "Pleasant Grove",
+    "classification": "4A D2",
+    "opponent": "Farmersville",
+    "recommended": "Texarkana Pleasant Grove",
+    "other_options": [
+      "Pleasant Grove"
+    ]
+  },
+  {
+    "key": "mp:df51212e-33bb-48a3-87fc-ad387bb64f07",
+    "source_name": "Ponder",
+    "classification": "4A D2",
+    "opponent": "Glen Rose",
+    "recommended": "Ponder",
+    "other_options": []
+  },
+  {
+    "key": "mp:2bcf80ae-f56c-45ec-a341-6a5d8147fed0",
+    "source_name": "Worthing",
+    "classification": "4A D2",
+    "opponent": "Bellville",
+    "recommended": "Houston Worthing",
+    "other_options": [
+      "Worthing"
+    ]
+  },
+  {
+    "key": "mp:256b8260-d19b-4eac-8dd8-f84699f70f8f",
+    "source_name": "Yates",
+    "classification": "4A D2",
+    "opponent": "La Grange",
+    "recommended": "Houston Yates",
+    "other_options": [
+      "Yates"
+    ]
+  },
+  {
+    "key": "mp:d3f38edd-f3b3-4768-b4d7-5776cef0cf91",
+    "source_name": "Carroll",
+    "classification": "5A D1",
+    "opponent": "Palmview",
+    "recommended": "Corpus Christi Carroll",
+    "other_options": [
+      "Southlake Carroll"
+    ]
+  },
+  {
+    "key": "mp:41061aea-67f7-4310-82f6-caa308d2bcfe",
+    "source_name": "Flour Bluff",
+    "classification": "5A D1",
+    "opponent": "Rowe",
+    "recommended": "Corpus Christi Flour Bluff",
+    "other_options": [
+      "Flour Bluff"
+    ]
+  },
+  {
+    "key": "mp:021ae453-329a-4cc1-9ac8-69ae2b6227bb",
+    "source_name": "Frenship",
+    "classification": "5A D1",
+    "opponent": "El Dorado",
+    "recommended": "Wolfforth Frenship",
+    "other_options": [
+      "Frenship"
+    ]
+  },
+  {
+    "key": "mp:a1dd48c4-91fe-4f47-adcd-38c35bf797e4",
+    "source_name": "Goose Creek Memorial",
+    "classification": "5A D1",
+    "opponent": "Milby",
+    "recommended": "Baytown Goose Creek Memorial",
+    "other_options": []
+  },
+  {
+    "key": "mp:ce78b157-7152-490b-b8f2-7f4782602d15",
+    "source_name": "Highland Park",
+    "classification": "5A D1",
+    "opponent": "McKinney North",
+    "recommended": "Highland Park",
+    "other_options": [
+      "Amarillo Highland Park",
+      "Dallas Highland Park"
+    ]
+  },
+  {
+    "key": "mp:dbd78f6f-ec2e-4f4c-a33b-43c1ab8b78e3",
+    "source_name": "Madison",
+    "classification": "5A D1",
+    "opponent": "Beaumont United",
+    "recommended": "Houston Madison",
+    "other_options": [
+      "San Antonio Madison",
+      "Dallas Madison",
+      "James Madison"
+    ]
+  },
+  {
+    "key": "mp:3ba24937-9883-4a4f-b91c-500589c44b35",
+    "source_name": "Medina Valley",
+    "classification": "5A D1",
+    "opponent": "Manor",
+    "recommended": "Medina Valley",
+    "other_options": [
+      "Castroville Medina Valley"
+    ]
+  },
+  {
+    "key": "mp:f1d2cc0b-a424-470d-bcf1-13b313ff2593",
+    "source_name": "Naaman Forest",
+    "classification": "5A D1",
+    "opponent": "Melissa",
+    "recommended": "Garland Naaman Forest",
+    "other_options": [
+      "Naaman Forest"
+    ]
+  },
+  {
+    "key": "mp:4d5f8498-69c9-40e0-85e2-822f5ca5e414",
+    "source_name": "Nixon",
+    "classification": "5A D1",
+    "opponent": "Smithson Valley",
+    "recommended": "Nixon",
+    "other_options": [
+      "Laredo Nixon"
+    ]
+  },
+  {
+    "key": "mp:abf217f7-9d7c-4fe3-989d-2ad16dfd3e23",
+    "source_name": "Northbrook",
+    "classification": "5A D1",
+    "opponent": "La Porte",
+    "recommended": "Northbrook",
+    "other_options": []
+  },
+  {
+    "key": "mp:61345212-d868-4a9e-bb71-38fb2788bca9",
+    "source_name": "Palmview",
+    "classification": "5A D1",
+    "opponent": "Carroll",
+    "recommended": "Palmview",
+    "other_options": [
+      "La Joya Palmview"
+    ]
+  },
+  {
+    "key": "mp:8edeaac4-5a9e-450d-afb3-699ea6fbb4dd",
+    "source_name": "Randle",
+    "classification": "5A D1",
+    "opponent": "A&M Consolidated",
+    "recommended": "Richmond Randle",
+    "other_options": [
+      "Lamar Randle"
+    ]
+  },
+  {
+    "key": "mp:9684836a-0fc7-4685-99e4-1acf0f46468c",
+    "source_name": "Rowe",
+    "classification": "5A D1",
+    "opponent": "Flour Bluff",
+    "recommended": "Rowe",
+    "other_options": [
+      "McAllen Rowe"
+    ]
+  },
+  {
+    "key": "mp:e90c17da-fde2-4b4d-a8fb-f78a18f734f8",
+    "source_name": "Ryan",
+    "classification": "5A D1",
+    "opponent": "Paschal",
+    "recommended": "Denton Ryan",
+    "other_options": [
+      "Ryan"
+    ]
+  },
+  {
+    "key": "mp:9c4be553-e2ef-49a5-a55f-483d725bc1f1",
+    "source_name": "Smithson Valley",
+    "classification": "5A D1",
+    "opponent": "Nixon",
+    "recommended": "Comal Smithson Valley",
+    "other_options": [
+      "Smithson Valley"
+    ]
+  },
+  {
+    "key": "mp:a0ac44ab-24ee-40c6-8502-73c135849daf",
+    "source_name": "Tyler",
+    "classification": "5A D1",
+    "opponent": "Midlothian",
+    "recommended": "Tyler John Tyler",
+    "other_options": [
+      "Tyler"
+    ]
+  },
+  {
+    "key": "mp:4757941c-b30c-40dc-adc3-1c3d08c81628",
+    "source_name": "Winn",
+    "classification": "5A D1",
+    "opponent": "Boerne-Champion",
+    "recommended": "Eagle Pass Winn",
+    "other_options": []
+  },
+  {
+    "key": "mp:4cabb235-84d5-436d-babc-fae7a38d06e8",
+    "source_name": "Wyatt",
+    "classification": "5A D1",
+    "opponent": "Denton",
+    "recommended": "Fort Worth Wyatt",
+    "other_options": [
+      "Wyatt"
+    ]
+  },
+  {
+    "key": "mp:e41933ef-bffb-4574-be33-23ff30f74c6b",
+    "source_name": "Alamo Heights",
+    "classification": "5A D2",
+    "opponent": "McCollum",
+    "recommended": "San Antonio Alamo Heights",
+    "other_options": [
+      "Alamo Heights"
+    ]
+  },
+  {
+    "key": "mp:eb6bb436-fdd0-4583-9ac0-5f086e8761ae",
+    "source_name": "Anna",
+    "classification": "5A D2",
+    "opponent": "The Colony",
+    "recommended": "Anna",
+    "other_options": [
+      "Santa Anna"
+    ]
+  },
+  {
+    "key": "mp:24c7e91a-f7e6-4bd1-90ba-7caaba91302f",
+    "source_name": "Belton",
+    "classification": "5A D2",
+    "opponent": "Ennis",
+    "recommended": "Belton",
+    "other_options": [
+      "Lake Belton"
+    ]
+  },
+  {
+    "key": "mp:db2da669-ae13-4f7e-8523-3be0b32b053f",
+    "source_name": "Brackenridge",
+    "classification": "5A D2",
+    "opponent": "Boerne",
+    "recommended": "San Antonio Brackenridge",
+    "other_options": []
+  },
+  {
+    "key": "mp:b4713352-a2cb-4bfe-949a-edbe500f9b29",
+    "source_name": "Canutillo",
+    "classification": "5A D2",
+    "opponent": "Cooper",
+    "recommended": "El Paso Canutillo",
+    "other_options": [
+      "Canutillo"
+    ]
+  },
+  {
+    "key": "mp:7cc2d2e1-46c5-4d84-9755-b487b95399d8",
+    "source_name": "Cigarroa",
+    "classification": "5A D2",
+    "opponent": "Ray",
+    "recommended": "Cigarroa",
+    "other_options": []
+  },
+  {
+    "key": "mp:55e7ef00-811a-40df-b9f5-845fbdd07fe4",
+    "source_name": "Cooper",
+    "classification": "5A D2",
+    "opponent": "Canutillo",
+    "recommended": "Abilene Cooper",
+    "other_options": [
+      "Lubbock Cooper",
+      "Cooper"
+    ]
+  },
+  {
+    "key": "mp:ce1be5f2-e5ed-4073-9a2c-a67ad8f13db3",
+    "source_name": "Crockett",
+    "classification": "5A D2",
+    "opponent": "Fort Bend Marshall",
+    "recommended": "Austin Crockett",
+    "other_options": [
+      "Crockett"
+    ]
+  },
+  {
+    "key": "mp:49cc3751-aa79-424a-8036-42593c70617b",
+    "source_name": "Lake Creek",
+    "classification": "5A D2",
+    "opponent": "Texas City",
+    "recommended": "Montgomery Lake Creek",
+    "other_options": []
+  },
+  {
+    "key": "mp:95c592de-1bf7-4ab3-972a-08e8aa86a958",
+    "source_name": "Legacy",
+    "classification": "5A D2",
+    "opponent": "Chapin",
+    "recommended": "Von Ormy Southwest Legacy",
+    "other_options": [
+      "San Antonio Southwest Legacy",
+      "Mansfield Legacy",
+      "Midland Legacy"
+    ]
+  },
+  {
+    "key": "mp:f169e2e1-d884-4111-8b91-e7bda852426d",
+    "source_name": "Legacy Ranch",
+    "classification": "5A D2",
+    "opponent": "Sam Houston",
+    "recommended": "Legacy Ranch",
+    "other_options": []
+  },
+  {
+    "key": "mp:761e1afd-d386-4edd-a4ef-5e4f79d1fbf0",
+    "source_name": "Lovejoy",
+    "classification": "5A D2",
+    "opponent": "Celina",
+    "recommended": "Lucas Lovejoy",
+    "other_options": [
+      "Lovejoy"
+    ]
+  },
+  {
+    "key": "mp:8e64dd04-89dc-4482-8462-afae6d94626e",
+    "source_name": "McCollum",
+    "classification": "5A D2",
+    "opponent": "Alamo Heights",
+    "recommended": "San Antonio McCollum",
+    "other_options": []
+  },
+  {
+    "key": "mp:ba4ec0a4-7fa6-473e-967b-7a68ca169609",
+    "source_name": "Panther Creek",
+    "classification": "5A D2",
+    "opponent": "Argyle",
+    "recommended": "Frisco Panther Creek",
+    "other_options": [
+      "Valera Panther Creek"
+    ]
+  },
+  {
+    "key": "mp:90b59be3-7150-4b68-a1fa-3fefe4b13fd1",
+    "source_name": "Pioneer",
+    "classification": "5A D2",
+    "opponent": "Gregory-Portland",
+    "recommended": "Mission Sharyland Pioneer",
+    "other_options": [
+      "Mission Pioneer"
+    ]
+  },
+  {
+    "key": "mp:3de0639a-f7a5-4e1a-8c89-e0d0d0b58258",
+    "source_name": "Sam Houston",
+    "classification": "5A D2",
+    "opponent": "Legacy Ranch",
+    "recommended": "San Antonio Sam Houston",
+    "other_options": [
+      "Sam Houston"
+    ]
+  },
+  {
+    "key": "mp:1e54cc6b-4076-4a76-b2ea-d0631c5bff2c",
+    "source_name": "Samuell",
+    "classification": "5A D2",
+    "opponent": "Terrell",
+    "recommended": "Dallas Samuell",
+    "other_options": []
+  },
+  {
+    "key": "mp:ec178cdb-f1c4-47c2-99a6-a07cee853fb7",
+    "source_name": "Seguin",
+    "classification": "5A D2",
+    "opponent": "Brenham",
+    "recommended": "Arlington Seguin",
+    "other_options": [
+      "Seguin"
+    ]
+  },
+  {
+    "key": "mp:aab923b5-b024-432d-a17e-c5e8fbddfd9d",
+    "source_name": "Sharyland",
+    "classification": "5A D2",
+    "opponent": "Pace",
+    "recommended": "Mission Sharyland",
+    "other_options": [
+      "Sharyland"
+    ]
+  },
+  {
+    "key": "mp:15f74e18-a4b1-451a-92aa-d022ed36204d",
+    "source_name": "The Colony",
+    "classification": "5A D2",
+    "opponent": "Anna",
+    "recommended": "Lewisville The Colony",
+    "other_options": [
+      "The Colony"
+    ]
+  },
+  {
+    "key": "mp:36804062-1b76-4407-bfb2-611987cd826c",
+    "source_name": "Tomas",
+    "classification": "5A D2",
+    "opponent": "Pflugerville",
+    "recommended": "Tomas",
+    "other_options": []
+  },
+  {
+    "key": "mp:53835be8-1d03-4059-9a09-49e88f682a96",
+    "source_name": "West Fork",
+    "classification": "5A D2",
+    "opponent": "Port Neches-Groves",
+    "recommended": "West Fork",
+    "other_options": []
+  },
+  {
+    "key": "mp:36c0cace-6022-4dee-b1f2-c0058997ecad",
+    "source_name": "Wilson",
+    "classification": "5A D2",
+    "opponent": "Texas",
+    "recommended": "Dallas Wilson",
+    "other_options": [
+      "Wilson"
+    ]
+  },
+  {
+    "key": "mp:e4827d31-9641-4195-a2c3-dd69ad7aaa62",
+    "source_name": "Wylie",
+    "classification": "5A D2",
+    "opponent": "Del Valle",
+    "recommended": "Abilene Wylie",
+    "other_options": [
+      "Wylie"
+    ]
+  },
+  {
+    "key": "mp:2f197e09-4469-4f78-a186-f93c27c33687",
+    "source_name": "Byron Nelson",
+    "classification": "6A D1",
+    "opponent": "Martin",
+    "recommended": "Trophy Club Byron Nelson",
+    "other_options": [
+      "Byron Nelson"
+    ]
+  },
+  {
+    "key": "mp:232db70e-cc4d-493b-9454-44ab70e4a687",
+    "source_name": "Eastlake",
+    "classification": "6A D1",
+    "opponent": "Permian",
+    "recommended": "El Paso Eastlake",
+    "other_options": [
+      "Eastlake"
+    ]
+  },
+  {
+    "key": "mp:a9ea4d9b-9c0b-4bc5-a09d-e3be5d6db188",
+    "source_name": "Hebron",
+    "classification": "6A D1",
+    "opponent": "Allen",
+    "recommended": "Lewisville Hebron",
+    "other_options": [
+      "Hebron"
+    ]
+  },
+  {
+    "key": "mp:b7b35422-9c70-4ec0-8922-411f884029c8",
+    "source_name": "Johnson",
+    "classification": "6A D1",
+    "opponent": "East Central",
+    "recommended": "San Antonio Johnson",
+    "other_options": [
+      "Buda Johnson",
+      "Austin Johnson"
+    ]
+  },
+  {
+    "key": "mp:1fb7ad95-4030-4b33-b9be-ec792f074241",
+    "source_name": "Jordan",
+    "classification": "6A D1",
+    "opponent": "Strake Jesuit",
+    "recommended": "Fulshear Jordan",
+    "other_options": [
+      "Katy Jordan"
+    ]
+  },
+  {
+    "key": "mp:440703e6-1d2a-4009-bf2d-2cd5fcf2fa51",
+    "source_name": "Klein Collins",
+    "classification": "6A D1",
+    "opponent": "Cypress Lakes",
+    "recommended": "Spring Klein Collins",
+    "other_options": [
+      "Klein Collins"
+    ]
+  },
+  {
+    "key": "mp:e148873a-f35a-40e4-b51a-695cacd326de",
+    "source_name": "Martin",
+    "classification": "6A D1",
+    "opponent": "Byron Nelson",
+    "recommended": "Arlington Martin",
+    "other_options": [
+      "Laredo Martin"
+    ]
+  },
+  {
+    "key": "mp:c6ccda89-3eb3-40b0-a10c-0ba087de3c28",
+    "source_name": "Midland Lee",
+    "classification": "6A D1",
+    "opponent": "Pebble Hills",
+    "recommended": "Midland Lee",
+    "other_options": []
+  },
+  {
+    "key": "mp:0bcb98b4-30ea-4f0c-aaf5-c35f45870f53",
+    "source_name": "North Shore",
+    "classification": "6A D1",
+    "opponent": "Deer Park",
+    "recommended": "Galena Park North Shore",
+    "other_options": []
+  },
+  {
+    "key": "mp:49a06215-a52f-4859-b6e4-ece29ba1d5fb",
+    "source_name": "Pebble Hills",
+    "classification": "6A D1",
+    "opponent": "Midland Lee",
+    "recommended": "El Paso Pebble Hills",
+    "other_options": [
+      "Pebble Hills"
+    ]
+  },
+  {
+    "key": "mp:f6ec707a-d56f-4144-ac82-24699ba74ef8",
+    "source_name": "Reagan",
+    "classification": "6A D1",
+    "opponent": "Steele",
+    "recommended": "San Antonio Reagan",
+    "other_options": [
+      "Houston Reagan",
+      "Austin Reagan"
+    ]
+  },
+  {
+    "key": "mp:aa80daaa-9712-40b5-8b1b-b48134bdb515",
+    "source_name": "Sachse",
+    "classification": "6A D1",
+    "opponent": "Rockwall-Heath",
+    "recommended": "Sachse",
+    "other_options": [
+      "Garland Sachse"
+    ]
+  },
+  {
+    "key": "mp:dd7f6cd3-513d-4052-afd4-928ea646ddd0",
+    "source_name": "Steele",
+    "classification": "6A D1",
+    "opponent": "Reagan",
+    "recommended": "Cibolo Steele",
+    "other_options": []
+  },
+  {
+    "key": "mp:83473951-816b-4241-ab16-44ace452e14f",
+    "source_name": "Strake Jesuit",
+    "classification": "6A D1",
+    "opponent": "Jordan",
+    "recommended": "Houston Strake Jesuit",
+    "other_options": [
+      "Strake Jesuit"
+    ]
+  },
+  {
+    "key": "mp:2eca2ffb-0fb5-4902-8287-534005427352",
+    "source_name": "Summer Creek",
+    "classification": "6A D1",
+    "opponent": "Dickinson",
+    "recommended": "Houston Summer Creek",
+    "other_options": [
+      "Humble Summer Creek"
+    ]
+  },
+  {
+    "key": "mp:764ab384-a975-40f4-a2e9-3933b3f4d305",
+    "source_name": "Trinity",
+    "classification": "6A D1",
+    "opponent": "Plano East",
+    "recommended": "Euless Trinity",
+    "other_options": [
+      "Trinity"
+    ]
+  },
+  {
+    "key": "mp:4a654ac5-2441-45ec-a978-e03add42d805",
+    "source_name": "United",
+    "classification": "6A D1",
+    "opponent": "Harlan",
+    "recommended": "Laredo United",
+    "other_options": [
+      "Beaumont United"
+    ]
+  },
+  {
+    "key": "mp:11973648-9f02-48b5-85d5-2643ec22674d",
+    "source_name": "Wylie",
+    "classification": "6A D1",
+    "opponent": "Rockwall",
+    "recommended": "Wylie",
+    "other_options": [
+      "Abilene Wylie"
+    ]
+  },
+  {
+    "key": "mp:2556953b-acd8-4a89-9763-d0fab04e1aac",
+    "source_name": "Atascocita",
+    "classification": "6A D2",
+    "opponent": "Barbers Hill",
+    "recommended": "Humble Atascocita",
+    "other_options": [
+      "Atascocita"
+    ]
+  },
+  {
+    "key": "mp:786208bd-e30b-4edc-91f1-f3d52bdeac95",
+    "source_name": "Bell",
+    "classification": "6A D2",
+    "opponent": "Berkner",
+    "recommended": "Hurst Bell",
+    "other_options": []
+  },
+  {
+    "key": "mp:4d737300-e39b-437a-b127-fe573c5f2ae1",
+    "source_name": "Braswell",
+    "classification": "6A D2",
+    "opponent": "Walnut Grove",
+    "recommended": "Braswell",
+    "other_options": []
+  },
+  {
+    "key": "mp:93e448a3-d7b9-4b28-b263-d40d9c53d415",
+    "source_name": "Clear Springs",
+    "classification": "6A D2",
+    "opponent": "King",
+    "recommended": "League City Clear Springs",
+    "other_options": [
+      "Clear Springs"
+    ]
+  },
+  {
+    "key": "mp:8954684f-b747-4c33-9a5e-24fcc0b08989",
+    "source_name": "Franklin",
+    "classification": "6A D2",
+    "opponent": "Midland",
+    "recommended": "El Paso Franklin",
+    "other_options": [
+      "Franklin"
+    ]
+  },
+  {
+    "key": "mp:0ce5b8dc-e9d7-4629-9a6b-eebd810ad3fd",
+    "source_name": "Judson",
+    "classification": "6A D2",
+    "opponent": "Brandeis",
+    "recommended": "Converse Judson",
+    "other_options": []
+  },
+  {
+    "key": "mp:f574c035-ca19-4267-ba0f-e046392a7ba8",
+    "source_name": "King",
+    "classification": "6A D2",
+    "opponent": "Clear Springs",
+    "recommended": "Houston King",
+    "other_options": [
+      "Sheldon King",
+      "Corpus Christi King",
+      "Kingsville King"
+    ]
+  },
+  {
+    "key": "mp:4b731f39-bb94-4a4f-9a29-360908c3f94b",
+    "source_name": "Lake Highlands",
+    "classification": "6A D2",
+    "opponent": "Haltom",
+    "recommended": "Dallas Lake Highlands",
+    "other_options": [
+      "Lake Highlands"
+    ]
+  },
+  {
+    "key": "mp:25344d3c-9f6f-4ee5-9c86-22be0c4b4ad7",
+    "source_name": "Pieper",
+    "classification": "6A D2",
+    "opponent": "Churchill",
+    "recommended": "San Antonio Pieper",
+    "other_options": [
+      "Comal Pieper"
+    ]
+  },
+  {
+    "key": "mp:6c52102d-93b7-4b91-a3b1-809756bf5223",
+    "source_name": "Ridge Point",
+    "classification": "6A D2",
+    "opponent": "Katy Taylor",
+    "recommended": "Fort Bend Ridge Point",
+    "other_options": [
+      "Ridge Point"
+    ]
+  },
+  {
+    "key": "mp:ce271035-67da-4c71-b085-b0a727d8e722",
+    "source_name": "Rowlett",
+    "classification": "6A D2",
+    "opponent": "Longview",
+    "recommended": "Rowlett",
+    "other_options": [
+      "Garland Rowlett"
+    ]
+  },
+  {
+    "key": "mp:a991f7b5-66db-411b-9d5c-c955ca217460",
+    "source_name": "Vela",
+    "classification": "6A D2",
+    "opponent": "Veterans Memorial",
+    "recommended": "Edinburgh Vela",
+    "other_options": [
+      "Edinburg Vela",
+      "Vela"
+    ]
+  },
+  {
+    "key": "mp:5ca991db-478e-4be1-8250-1d5b0f1af29d",
+    "source_name": "Veterans Memorial",
+    "classification": "6A D2",
+    "opponent": "Vela",
+    "recommended": "Brownsville Veterans Memorial",
+    "other_options": [
+      "Corpus Christi Veterans Memorial",
+      "San Antonio Veterans Memorial",
+      "Mission Veterans Memorial"
+    ]
+  },
+  {
+    "key": "mp:0e9106ab-0712-45d0-81e4-5b3a74c060e2",
+    "source_name": "Walnut Grove",
+    "classification": "6A D2",
+    "opponent": "Braswell",
+    "recommended": "Prosper Walnut Grove",
+    "other_options": []
+  }
+]
