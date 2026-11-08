@@ -122,6 +122,10 @@
       "score2": null,
       "winner": null,
       "site": "Jayton High School",
+      "lat": 33.24807,
+      "lng": -100.57386,
+      "stadium": "Jaybird Stadium",
+      "map_link": "https://goo.gl/maps/8DYkDAKd97hjqzdz7",
       "date": "2026-11-13"
     },
     {
@@ -286,6 +290,10 @@
       "score2": null,
       "winner": null,
       "site": "Springlake-Earth HS",
+      "lat": 34.23314,
+      "lng": -102.41075,
+      "stadium": "Wolverine Stadium",
+      "map_link": "https://goo.gl/maps/XQdNd8GbXJMxWJfy5",
       "date": "2026-11-13"
     },
     {
@@ -504,6 +512,10 @@
       "score2": null,
       "winner": null,
       "site": "Panther Creek High School",
+      "lat": 31.75332,
+      "lng": -99.54952,
+      "stadium": "Panther Stadium",
+      "map_link": "https://goo.gl/maps/baQEYF17jWZNdikP8",
       "date": "2026-11-13"
     },
     {
@@ -744,6 +756,8 @@
       "score2": null,
       "winner": null,
       "site": "Joseph L. Sears III Stadium in Killeen, TX",
+      "lat": 31.11714,
+      "lng": -97.7278,
       "date": "2026-11-12"
     },
     {
@@ -1254,6 +1268,10 @@
       "score2": null,
       "winner": null,
       "site": "Center High School",
+      "lat": 31.79528,
+      "lng": -94.18036,
+      "stadium": "Roughrider Stadium",
+      "map_link": "https://goo.gl/maps/ggPxaHCoJ7cTkcoaA",
       "date": "2026-11-13"
     },
     {
@@ -1281,6 +1299,10 @@
       "score2": null,
       "winner": null,
       "site": "Diboll High School",
+      "lat": 31.18713,
+      "lng": -94.78104,
+      "stadium": "Lumberjack Stadium",
+      "map_link": "https://goo.gl/maps/rVUJzipR2b7YcQed6",
       "date": "2026-11-12"
     },
     {
@@ -1673,6 +1695,10 @@
       "score2": null,
       "winner": null,
       "site": "Caldwell HS",
+      "lat": 29.8299,
+      "lng": -97.59596,
+      "stadium": "Hornet Field",
+      "map_link": "https://goo.gl/maps/byBAto5HbetKEnYP6",
       "date": "2026-11-12"
     },
     {
@@ -1874,6 +1900,10 @@
       "score2": null,
       "winner": null,
       "site": "Crosby High School",
+      "lat": 33.57788,
+      "lng": -101.28557,
+      "stadium": "Cougar Stadium",
+      "map_link": "https://goo.gl/maps/u5VxZUufEKjjSTaa8",
       "date": "2026-11-13"
     },
     {
@@ -2324,6 +2354,10 @@
       "score2": null,
       "winner": null,
       "site": "Natalia",
+      "lat": 29.18887,
+      "lng": -98.85812,
+      "stadium": "Mustang Stadium",
+      "map_link": "https://goo.gl/maps/tTfh24NFkWgJaGaY8",
       "date": "2026-11-13"
     },
     {
@@ -2672,6 +2706,8 @@
       "score2": null,
       "winner": null,
       "site": "Tiger Stad., 285 St. Hwy 95, Smithville, TX 78957",
+      "lat": 29.99529,
+      "lng": -97.16423,
       "date": "2026-11-13"
     },
     {
@@ -3462,6 +3498,10 @@
       "score2": null,
       "winner": null,
       "site": "Dick Bivins (Amarillo)",
+      "lat": 35.20023,
+      "lng": -101.81035,
+      "stadium": "Dick Bivins Stadium",
+      "map_link": "https://goo.gl/maps/F9wZMeXxkqjjEzha6",
       "date": "2026-11-13"
     },
     {
@@ -3594,6 +3634,10 @@
       "score2": null,
       "winner": null,
       "site": "Smithson Valley Ranger Stadium",
+      "lat": 29.80059,
+      "lng": -98.35737,
+      "stadium": "Ranger Stadium",
+      "map_link": "https://goo.gl/maps/LbwLZ82tBRFpCHJCA",
       "date": "2026-11-12"
     },
     {
@@ -3725,6 +3769,10 @@
       "score2": null,
       "winner": null,
       "site": "Argyle ISD Stadium",
+      "lat": 33.00401,
+      "lng": -97.22585,
+      "stadium": "Argyle ISD Stadium",
+      "map_link": "https://maps.app.goo.gl/R6daEJxQGwsXt9uD7",
       "date": "2026-11-13"
     },
     {
@@ -3919,6 +3967,10 @@
       "score2": null,
       "winner": null,
       "site": "Newsom Stadium",
+      "lat": 32.57639,
+      "lng": -97.07697,
+      "stadium": "Vernon Newsom Stadium",
+      "map_link": "https://goo.gl/maps/ZckcYBnHj39KXzJV7",
       "date": "2026-11-13"
     },
     {
@@ -4081,6 +4133,10 @@
       "score2": null,
       "winner": null,
       "site": "Ray Akins Wildcat Stadium",
+      "lat": 27.89911,
+      "lng": -97.32469,
+      "stadium": "Ray Akins Wildcat Stadium",
+      "map_link": "https://goo.gl/maps/A3ozsu4yNXFPwqRZ7",
       "date": "2026-11-13"
     },
     {
@@ -4388,6 +4444,10 @@
       "score2": null,
       "winner": null,
       "site": "Legacy Stadium",
+      "lat": 29.80121,
+      "lng": -95.80476,
+      "stadium": "Mike Johnston Field at Legacy Stadium",
+      "map_link": "https://goo.gl/maps/km2SPmR8CsAASd3H6",
       "date": "2026-11-13"
     },
     {
@@ -4402,6 +4462,10 @@
       "score2": null,
       "winner": null,
       "site": "Lehnhoff Stadium",
+      "lat": 29.5629,
+      "lng": -98.26399,
+      "stadium": "Robert and Glenda Lehnhoff Stadium",
+      "map_link": "https://goo.gl/maps/yTzp5e5h4y9HwbGZ9",
       "date": "2026-11-12"
     },
     {
@@ -4812,6 +4876,10 @@
       "score2": null,
       "winner": null,
       "site": "Legacy Stadium, 1830 Katyland Dr, Katy, TX 77493",
+      "lat": 29.80121,
+      "lng": -95.80476,
+      "stadium": "Mike Johnston Field at Legacy Stadium",
+      "map_link": "https://goo.gl/maps/km2SPmR8CsAASd3H6",
       "date": "2026-11-12"
     },
     {
