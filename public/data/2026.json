@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-08T21:25+00:00",
+    "updated": "2026-11-08T21:40+00:00",
     "games": 352,
     "played": 0,
     "assigned": 23,
@@ -89,6 +89,7 @@
       "lng": -101.10964,
       "stadium": "Tiger Field",
       "map_link": "https://goo.gl/maps/pMaHcCPRSV2aidgG7",
+      "city": "Groom",
       "date": "2026-11-13"
     },
     {
@@ -146,6 +147,7 @@
       "lng": -101.60416,
       "stadium": "Buffalo Stadium",
       "map_link": "https://goo.gl/maps/wLaVtEYg4Nvitjr89",
+      "city": "Petersburg",
       "date": "2026-11-13"
     },
     {
@@ -164,6 +166,7 @@
       "lng": -100.57386,
       "stadium": "Jaybird Stadium",
       "map_link": "https://goo.gl/maps/8DYkDAKd97hjqzdz7",
+      "city": "Jayton",
       "date": "2026-11-13"
     },
     {
@@ -195,6 +198,7 @@
       "lng": -100.98764,
       "stadium": "Eagle Stadium",
       "map_link": "https://goo.gl/maps/UkbX6mwgTKGdcLHg7",
+      "city": "Sterling City",
       "date": "2026-11-12"
     },
     {
@@ -226,6 +230,7 @@
       "lng": -101.92834,
       "stadium": "Wildcat Stadium",
       "map_link": "https://goo.gl/maps/5RJ3moBe1SCx5JAZ6",
+      "city": "Lenorah",
       "date": "2026-11-12"
     },
     {
@@ -283,6 +288,7 @@
       "lng": -99.18096,
       "stadium": "Greyhound Stadium",
       "map_link": "https://goo.gl/maps/eh9zmQhkBHFnqfAL9",
+      "city": "Throckmorton",
       "date": "2026-11-12"
     },
     {
@@ -301,6 +307,7 @@
       "lng": -96.00891,
       "stadium": "Bulldog Stadium",
       "map_link": "https://goo.gl/maps/g4ddwKfmcJoHhPjbA",
+      "city": "Eustace",
       "date": "2026-11-13"
     },
     {
@@ -332,6 +339,7 @@
       "lng": -102.41075,
       "stadium": "Wolverine Stadium",
       "map_link": "https://goo.gl/maps/XQdNd8GbXJMxWJfy5",
+      "city": "Earth",
       "date": "2026-11-13"
     },
     {
@@ -350,6 +358,7 @@
       "lng": -102.52969,
       "stadium": "Hornet Stadium",
       "map_link": "https://goo.gl/maps/VrB4BZCkRuvkP3Er9",
+      "city": "Sudan",
       "date": "2026-11-13"
     },
     {
@@ -381,6 +390,7 @@
       "lng": -98.79226,
       "stadium": "Switzer Field",
       "map_link": "https://goo.gl/maps/7SuxpTon1g3E7usSA",
+      "city": "Blanket",
       "date": "2026-11-12"
     },
     {
@@ -438,6 +448,7 @@
       "lng": -97.51134,
       "stadium": "Tiger Stadium",
       "map_link": "https://goo.gl/maps/qkjoFqwTUQUhxicBA",
+      "city": "Oglesby",
       "date": "2026-11-13"
     },
     {
@@ -456,6 +467,7 @@
       "lng": -100.55084,
       "stadium": "George Berry Memorial Stadium",
       "map_link": "https://goo.gl/maps/S58kWnMWZdoLBzfW6",
+      "city": "Memphis",
       "date": "2026-11-13"
     },
     {
@@ -487,6 +499,7 @@
       "lng": -98.73674,
       "stadium": "Bobcat Field",
       "map_link": "https://goo.gl/maps/hcWSN82wXxzBkMSm7",
+      "city": "Newcastle",
       "date": "2026-11-12"
     },
     {
@@ -518,6 +531,7 @@
       "lng": -103.74753,
       "stadium": "Bear Stadium",
       "map_link": "https://goo.gl/maps/iFmoNbwcJJ2Ytafd6",
+      "city": "Balmorhea",
       "date": "2026-11-12"
     },
     {
@@ -536,6 +550,7 @@
       "lng": -99.78152,
       "stadium": "Findlay Field",
       "map_link": "https://goo.gl/maps/YLD1eWMAWWx1VgGE7",
+      "city": "Menard",
       "date": "2026-11-13"
     },
     {
@@ -554,6 +569,7 @@
       "lng": -99.54952,
       "stadium": "Panther Stadium",
       "map_link": "https://goo.gl/maps/baQEYF17jWZNdikP8",
+      "city": "Valera",
       "date": "2026-11-13"
     },
     {
@@ -572,6 +588,7 @@
       "lng": -103.74753,
       "stadium": "Bear Stadium",
       "map_link": "https://goo.gl/maps/iFmoNbwcJJ2Ytafd6",
+      "city": "Balmorhea",
       "date": "2026-11-12"
     },
     {
@@ -590,6 +607,7 @@
       "lng": -98.58039,
       "stadium": "Newton Field",
       "map_link": "https://goo.gl/maps/5cwr5aXZ47YTGrxb7",
+      "city": "Graham",
       "date": "2026-11-12"
     },
     {
@@ -647,6 +665,7 @@
       "lng": -101.83575,
       "stadium": "Wildcat Stadium",
       "map_link": "https://goo.gl/maps/4uJX7QU9A7cwknUc7",
+      "city": "Amarillo",
       "date": "2026-11-12"
     },
     {
@@ -665,6 +684,7 @@
       "lng": -102.6491,
       "stadium": "Wigwam Stadium",
       "map_link": "https://goo.gl/maps/Ldj6eueXwab4Znh6A",
+      "city": "Seminole",
       "date": "2026-11-13"
     },
     {
@@ -722,6 +742,7 @@
       "lng": -102.41338,
       "stadium": "Whiteface Stadium",
       "map_link": "https://goo.gl/maps/1giBBj6DXv3Qb9sh8",
+      "city": "Hereford",
       "date": "2026-11-12"
     },
     {
@@ -740,6 +761,7 @@
       "lng": -100.86988,
       "stadium": "Wolf Stadium",
       "map_link": "https://goo.gl/maps/SojpNeMA7D2Lysrd6",
+      "city": "Colorado City",
       "date": "2026-11-13"
     },
     {
@@ -758,6 +780,7 @@
       "lng": -101.91654,
       "stadium": "Happy State Bank Stadium",
       "map_link": "https://goo.gl/maps/uL2MSfaBvwkSJvek7",
+      "city": "Canyon",
       "date": "2026-11-13"
     },
     {
@@ -800,6 +823,7 @@
       "site": "Joseph L. Sears III Stadium in Killeen, TX",
       "lat": 31.11714,
       "lng": -97.7278,
+      "city": "Killeen",
       "date": "2026-11-12"
     },
     {
@@ -831,6 +855,7 @@
       "lng": -96.33315,
       "stadium": "Merrill Green Stadium",
       "map_link": "https://goo.gl/maps/jbwDcfrRANqXJiX78",
+      "city": "Bryan",
       "date": "2026-11-12"
     },
     {
@@ -849,6 +874,7 @@
       "lng": -97.28025,
       "stadium": "Gobbler Stadium",
       "map_link": "https://goo.gl/maps/xGqc5ewEXkE7jKc79",
+      "city": "Cuero",
       "date": "2026-11-13"
     },
     {
@@ -906,6 +932,7 @@
       "lng": -96.28654,
       "stadium": "Cougar Field",
       "map_link": "https://goo.gl/maps/BmdUrUAuB5BM1rgs7",
+      "city": "College Station",
       "date": "2026-11-12"
     },
     {
@@ -924,6 +951,7 @@
       "lng": -98.50789,
       "stadium": "SAISD Sports Complex",
       "map_link": "https://goo.gl/maps/aEkZf8bfWnTheyx87",
+      "city": "San Antonio",
       "date": "2026-11-13"
     },
     {
@@ -940,6 +968,7 @@
       "site": "A&M Consolidated HS",
       "lat": 30.592,
       "lng": -96.31809,
+      "city": "College Station",
       "date": "2026-11-12"
     },
     {
@@ -958,6 +987,7 @@
       "lng": -95.63424,
       "stadium": "Gerald Prim Stadium",
       "map_link": "https://goo.gl/maps/8AAbSUGezis",
+      "city": "Sulphur Springs",
       "date": "2026-11-12"
     },
     {
@@ -1069,6 +1099,7 @@
       "lng": -102.88816,
       "stadium": "Mustang Stadium",
       "map_link": "https://goo.gl/maps/E3UVJGncjTLrKgsH8",
+      "city": "Bovina",
       "date": "2026-11-12"
     },
     {
@@ -1087,6 +1118,7 @@
       "lng": -101.4473,
       "stadium": "Memorial Stadium",
       "map_link": "https://goo.gl/maps/qbXyUQgjauvj513z8",
+      "city": "Big Spring",
       "date": "2026-11-13"
     },
     {
@@ -1105,6 +1137,7 @@
       "lng": -102.33217,
       "stadium": "Bobcat Stadium",
       "map_link": "https://goo.gl/maps/cjwMpaYB832gVpXg9",
+      "city": "Dimmitt",
       "date": "2026-11-12"
     },
     {
@@ -1123,6 +1156,7 @@
       "lng": -102.57009,
       "stadium": "Mustang Bowl",
       "map_link": "https://maps.app.goo.gl/DZWYSntZDeRASZYz9",
+      "city": "Andrews",
       "date": "2026-11-13"
     },
     {
@@ -1139,6 +1173,7 @@
       "site": "San Angelo",
       "lat": 31.46497,
       "lng": -100.44051,
+      "city": "San Angelo",
       "date": "2026-11-13"
     },
     {
@@ -1183,6 +1218,7 @@
       "lng": -102.41338,
       "stadium": "Whiteface Stadium",
       "map_link": "https://goo.gl/maps/1giBBj6DXv3Qb9sh8",
+      "city": "Hereford",
       "date": "2026-11-13"
     },
     {
@@ -1201,6 +1237,7 @@
       "lng": -100.20677,
       "stadium": "Fair Park Stadium",
       "map_link": "https://goo.gl/maps/T5USJpM1hofREJkc6",
+      "city": "Childress",
       "date": "2026-11-12"
     },
     {
@@ -1232,6 +1269,7 @@
       "lng": -100.20677,
       "stadium": "Fair Park Stadium",
       "map_link": "https://goo.gl/maps/T5USJpM1hofREJkc6",
+      "city": "Childress",
       "date": "2026-11-13"
     },
     {
@@ -1289,6 +1327,7 @@
       "lng": -97.46483,
       "stadium": "Crusader Stadium",
       "map_link": "https://goo.gl/maps/di33t6EqKwJGmr33A",
+      "city": "Belton",
       "date": "2026-11-12"
     },
     {
@@ -1320,6 +1359,7 @@
       "lng": -94.18036,
       "stadium": "Roughrider Stadium",
       "map_link": "https://goo.gl/maps/ggPxaHCoJ7cTkcoaA",
+      "city": "Center",
       "date": "2026-11-13"
     },
     {
@@ -1351,6 +1391,7 @@
       "lng": -94.78104,
       "stadium": "Lumberjack Stadium",
       "map_link": "https://goo.gl/maps/rVUJzipR2b7YcQed6",
+      "city": "Diboll",
       "date": "2026-11-12"
     },
     {
@@ -1552,6 +1593,7 @@
       "lng": -98.24058,
       "stadium": "Art Briles Stadium",
       "map_link": "https://maps.app.goo.gl/eJk5HsVqy4EL1ym9A",
+      "city": "Stephenville",
       "date": "2026-11-13"
     },
     {
@@ -1570,6 +1612,7 @@
       "lng": -101.4473,
       "stadium": "Memorial Stadium",
       "map_link": "https://goo.gl/maps/qbXyUQgjauvj513z8",
+      "city": "Big Spring",
       "date": "2026-11-12"
     },
     {
@@ -1601,6 +1644,7 @@
       "lng": -98.99193,
       "stadium": "Chesley Stadium",
       "map_link": "https://goo.gl/maps/gtBB4MnLCqAxAhcm8",
+      "city": "Cisco",
       "date": "2026-11-13"
     },
     {
@@ -1619,6 +1663,7 @@
       "lng": -102.0066,
       "stadium": "Peoples Bank Stadium",
       "map_link": "https://goo.gl/maps/yTzp5e5h4y9HwbGZ9",
+      "city": "Wolfforth",
       "date": "2026-11-12"
     },
     {
@@ -1663,6 +1708,7 @@
       "lng": -96.63472,
       "stadium": "Mesquite Memorial Stadium",
       "map_link": "https://goo.gl/maps/ok5pezoVBGQYri9G6",
+      "city": "Mesquite",
       "date": "2026-11-12"
     },
     {
@@ -1694,6 +1740,7 @@
       "lng": -96.98505,
       "stadium": "MISD Multi-Purpose Stadium",
       "map_link": "https://goo.gl/maps/32KqqTJ9nxj6qnBM9",
+      "city": "Midlothian",
       "date": "2026-11-12"
     },
     {
@@ -1751,6 +1798,7 @@
       "lng": -97.59596,
       "stadium": "Hornet Field",
       "map_link": "https://goo.gl/maps/byBAto5HbetKEnYP6",
+      "city": "Caldwell",
       "date": "2026-11-12"
     },
     {
@@ -1925,6 +1973,7 @@
       "lng": -94.97131,
       "stadium": "Pirate Stadium",
       "map_link": "https://goo.gl/maps/7UGmbxrhSYq7mhAVA",
+      "city": "Pittsburg",
       "date": "2026-11-12"
     },
     {
@@ -1956,6 +2005,7 @@
       "lng": -101.28557,
       "stadium": "Cougar Stadium",
       "map_link": "https://goo.gl/maps/u5VxZUufEKjjSTaa8",
+      "city": "Crosby",
       "date": "2026-11-13"
     },
     {
@@ -1987,6 +2037,7 @@
       "lng": -95.48742,
       "stadium": "Berton A. Yates Stadium",
       "map_link": "https://goo.gl/maps/KJhdp6tmumPyTyDo8",
+      "city": "Willis",
       "date": "2026-11-13"
     },
     {
@@ -2031,6 +2082,7 @@
       "lng": -102.34339,
       "stadium": "Lobo Stadium",
       "map_link": "https://goo.gl/maps/ZM9mBCF3zC377H856",
+      "city": "Levelland",
       "date": "2026-11-13"
     },
     {
@@ -2062,6 +2114,7 @@
       "lng": -100.93113,
       "stadium": "Grant Teaff Tiger Stadium",
       "map_link": "https://maps.app.goo.gl/isXFJpXnaUGkXRir6",
+      "city": "Snyder",
       "date": "2026-11-13"
     },
     {
@@ -2078,6 +2131,7 @@
       "site": "Greg Sherwood Memorial Bulldog Stadium",
       "lat": 34.18479,
       "lng": -101.70684,
+      "city": "Plainview",
       "date": "2026-11-13"
     },
     {
@@ -2096,6 +2150,7 @@
       "lng": -98.97911,
       "stadium": "Gordon Wood Stadium",
       "map_link": "https://goo.gl/maps/RJK8G9xu2CNQVoaFA",
+      "city": "Brownwood",
       "date": "2026-11-12"
     },
     {
@@ -2114,6 +2169,7 @@
       "lng": -101.34441,
       "stadium": "Charles Tyer Stadium",
       "map_link": "https://goo.gl/maps/j3dQ5NFbpdq16vYc8",
+      "city": "Floydada",
       "date": "2026-11-13"
     },
     {
@@ -2184,6 +2240,7 @@
       "lng": -95.98079,
       "stadium": "Tiger Stadium",
       "map_link": "https://goo.gl/maps/6R9STj9xGB8DTTHW7",
+      "city": "Centerville",
       "date": "2026-11-13"
     },
     {
@@ -2202,6 +2259,7 @@
       "lng": -94.63261,
       "stadium": "Dragon Stadium",
       "map_link": "https://goo.gl/maps/D7N5k9oDxAnGca4C6",
+      "city": "Nacogdoches",
       "date": "2026-11-13"
     },
     {
@@ -2285,6 +2343,7 @@
       "lng": -96.86569,
       "stadium": "Leopard Stadium",
       "map_link": "https://goo.gl/maps/6tQRy1aGx1HnL3qx9",
+      "city": "La Grange",
       "date": "2026-11-12"
     },
     {
@@ -2316,6 +2375,7 @@
       "lng": -95.90036,
       "stadium": "Warrior Field",
       "map_link": "https://goo.gl/maps/EDGj9H1u8Yw99xzJ7",
+      "city": "Honey Grove",
       "date": "2026-11-13"
     },
     {
@@ -2412,6 +2472,7 @@
       "lng": -98.85812,
       "stadium": "Mustang Stadium",
       "map_link": "https://goo.gl/maps/tTfh24NFkWgJaGaY8",
+      "city": "Natalia",
       "date": "2026-11-13"
     },
     {
@@ -2430,6 +2491,7 @@
       "lng": -99.06621,
       "stadium": "Bulldog Stadium",
       "map_link": "https://goo.gl/maps/ViYkAS4q5jZpf6Vf7",
+      "city": "Bandera",
       "date": "2026-11-13"
     },
     {
@@ -2526,6 +2588,7 @@
       "lng": -102.83726,
       "stadium": "Mustang Stadium",
       "map_link": "https://goo.gl/maps/kxG68a59E33aYR1v6",
+      "city": "Denver City",
       "date": "2026-11-13"
     },
     {
@@ -2544,6 +2607,7 @@
       "lng": -98.07786,
       "stadium": "Ram Stadium",
       "map_link": "https://goo.gl/maps/tLrsxB1wW7KTD4cG9",
+      "city": "Mineral Wells",
       "date": "2026-11-13"
     },
     {
@@ -2562,6 +2626,7 @@
       "lng": -103.09002,
       "stadium": "Walton Field",
       "map_link": "https://goo.gl/maps/GJanAyyu3He6RB5PA",
+      "city": "Kermit",
       "date": "2026-11-12"
     },
     {
@@ -2580,6 +2645,7 @@
       "lng": -99.52905,
       "stadium": "Clyde Bulldog Stadium",
       "map_link": "https://goo.gl/maps/L4WY19wkxC676aSv7",
+      "city": "Clyde",
       "date": "2026-11-13"
     },
     {
@@ -2598,6 +2664,7 @@
       "lng": -98.90864,
       "stadium": "Buckaroo Stadium",
       "map_link": "https://goo.gl/maps/yW45uKrvr5CS97Yy6",
+      "city": "Breckenridge",
       "date": "2026-11-13"
     },
     {
@@ -2642,6 +2709,7 @@
       "lng": -102.57009,
       "stadium": "Mustang Bowl",
       "map_link": "https://maps.app.goo.gl/DZWYSntZDeRASZYz9",
+      "city": "Andrews",
       "date": "2026-11-12"
     },
     {
@@ -2762,6 +2830,7 @@
       "site": "Tiger Stad., 285 St. Hwy 95, Smithville, TX 78957",
       "lat": 29.99529,
       "lng": -97.16423,
+      "city": "Smithville",
       "date": "2026-11-13"
     },
     {
@@ -2975,6 +3044,7 @@
       "lng": -95.90846,
       "stadium": "Mustang Stadium",
       "map_link": "https://goo.gl/maps/uCkXHGAGQdu9zi1W6",
+      "city": "Madisonville",
       "date": "2026-11-13"
     },
     {
@@ -3006,6 +3076,7 @@
       "lng": -94.68785,
       "stadium": "Abe Martin Stadium",
       "map_link": "https://goo.gl/maps/RpMBJXihnh5SiQVF9",
+      "city": "Lufkin",
       "date": "2026-11-13"
     },
     {
@@ -3037,6 +3108,7 @@
       "lng": -97.69441,
       "stadium": "Leo Buckley Stadium",
       "map_link": "https://goo.gl/maps/iRCx4CvmWew9RcTU9",
+      "city": "Killeen",
       "date": "2026-11-12"
     },
     {
@@ -3264,6 +3336,7 @@
       "lng": -100.40611,
       "stadium": "Mustang Bowl",
       "map_link": "https://goo.gl/maps/ZoK3S1snEe41y7LW8",
+      "city": "Sweetwater",
       "date": "2026-11-13"
     },
     {
@@ -3322,6 +3395,7 @@
       "lng": -102.89709,
       "stadium": "Estes Memorial Stadium",
       "map_link": "https://goo.gl/maps/yPYAiviWYXsXwswA9",
+      "city": "Monahans",
       "date": "2026-11-12"
     },
     {
@@ -3338,6 +3412,7 @@
       "site": "Lowrey Field",
       "lat": 33.58557,
       "lng": -101.84702,
+      "city": "Lubbock",
       "date": "2026-11-12"
     },
     {
@@ -3356,6 +3431,7 @@
       "lng": -106.15839,
       "stadium": "Lobo Stadium",
       "map_link": "https://goo.gl/maps/FdFekKEL4gwiRHNh9",
+      "city": "El Paso",
       "date": "2026-11-13"
     },
     {
@@ -3478,6 +3554,7 @@
       "lng": -96.28654,
       "stadium": "Cougar Field",
       "map_link": "https://goo.gl/maps/BmdUrUAuB5BM1rgs7",
+      "city": "College Station",
       "date": "2026-11-13"
     },
     {
@@ -3548,6 +3625,7 @@
       "lng": -97.36153,
       "stadium": "Farrington Field",
       "map_link": "https://goo.gl/maps/5hpRUksSEBEZD7EK7",
+      "city": "Fort Worth",
       "date": "2026-11-13"
     },
     {
@@ -3566,6 +3644,7 @@
       "lng": -101.81035,
       "stadium": "Dick Bivins Stadium",
       "map_link": "https://goo.gl/maps/F9wZMeXxkqjjEzha6",
+      "city": "Amarillo",
       "date": "2026-11-13"
     },
     {
@@ -3595,6 +3674,7 @@
       "site": "CH Collins",
       "lat": 33.18388,
       "lng": -97.14134,
+      "city": "Denton",
       "date": "2026-11-12"
     },
     {
@@ -3704,6 +3784,7 @@
       "lng": -98.35737,
       "stadium": "Ranger Stadium",
       "map_link": "https://goo.gl/maps/LbwLZ82tBRFpCHJCA",
+      "city": "Spring Branch",
       "date": "2026-11-12"
     },
     {
@@ -3839,6 +3920,7 @@
       "lng": -97.22585,
       "stadium": "Argyle ISD Stadium",
       "map_link": "https://maps.app.goo.gl/R6daEJxQGwsXt9uD7",
+      "city": "Roanoke",
       "date": "2026-11-13"
     },
     {
@@ -3935,6 +4017,7 @@
       "lng": -101.81035,
       "stadium": "Dick Bivins Stadium",
       "map_link": "https://goo.gl/maps/F9wZMeXxkqjjEzha6",
+      "city": "Amarillo",
       "date": "2026-11-12"
     },
     {
@@ -3953,6 +4036,7 @@
       "lng": -99.78182,
       "stadium": "Hugh Sandifer Stadium",
       "map_link": "https://goo.gl/maps/NdS8WdJ5FqeWxro5A",
+      "city": "Abilene",
       "date": "2026-11-13"
     },
     {
@@ -3971,6 +4055,7 @@
       "lng": -106.58673,
       "stadium": "Eagle Stadium",
       "map_link": "https://goo.gl/maps/dzsCx6o43vrCxi8a9",
+      "city": "Canutillo",
       "date": "2026-11-13"
     },
     {
@@ -4041,6 +4126,7 @@
       "lng": -97.07697,
       "stadium": "Vernon Newsom Stadium",
       "map_link": "https://goo.gl/maps/ZckcYBnHj39KXzJV7",
+      "city": "Mansfield",
       "date": "2026-11-13"
     },
     {
@@ -4072,6 +4158,7 @@
       "lng": -96.37902,
       "stadium": "Cub Stadium",
       "map_link": "https://goo.gl/maps/njVtEHxoXMDtzacp8",
+      "city": "Brenham",
       "date": "2026-11-13"
     },
     {
@@ -4207,6 +4294,7 @@
       "lng": -97.32469,
       "stadium": "Ray Akins Wildcat Stadium",
       "map_link": "https://goo.gl/maps/A3ozsu4yNXFPwqRZ7",
+      "city": "Portland",
       "date": "2026-11-13"
     },
     {
@@ -4275,6 +4363,7 @@
       "site": "Mustang Panther Stadium",
       "lat": 32.74596,
       "lng": -96.99778,
+      "city": "Grand Prairie",
       "date": "2026-11-13"
     },
     {
@@ -4423,6 +4512,7 @@
       "lng": -102.3592,
       "stadium": "Ratliff Stadium",
       "map_link": "https://goo.gl/maps/dLugWPkwfSzT5Hvd9",
+      "city": "Odessa",
       "date": "2026-11-13"
     },
     {
@@ -4491,6 +4581,7 @@
       "site": "Crusader Stadium",
       "lat": 29.75894,
       "lng": -95.3677,
+      "city": "Houston",
       "date": "2026-11-13"
     },
     {
@@ -4522,6 +4613,7 @@
       "lng": -95.80476,
       "stadium": "Mike Johnston Field at Legacy Stadium",
       "map_link": "https://goo.gl/maps/km2SPmR8CsAASd3H6",
+      "city": "Katy",
       "date": "2026-11-13"
     },
     {
@@ -4540,6 +4632,7 @@
       "lng": -98.26399,
       "stadium": "Robert and Glenda Lehnhoff Stadium",
       "map_link": "https://goo.gl/maps/yTzp5e5h4y9HwbGZ9",
+      "city": "Schertz",
       "date": "2026-11-12"
     },
     {
@@ -4584,6 +4677,7 @@
       "lng": -99.43674,
       "stadium": "Bill Johnson Student Activity Center",
       "map_link": "https://goo.gl/maps/9EZxX2FDWUAoxfz2A",
+      "city": "Laredo",
       "date": "2026-11-13"
     },
     {
@@ -4875,6 +4969,7 @@
       "lng": -96.80421,
       "stadium": "Children's Health Stadium",
       "map_link": "https://goo.gl/maps/D7qScRX8Tt9kchyAA",
+      "city": "Prosper",
       "date": "2026-11-13"
     },
     {
@@ -4958,6 +5053,7 @@
       "lng": -95.80476,
       "stadium": "Mike Johnston Field at Legacy Stadium",
       "map_link": "https://goo.gl/maps/km2SPmR8CsAASd3H6",
+      "city": "Katy",
       "date": "2026-11-12"
     },
     {
@@ -5000,6 +5096,7 @@
       "site": "Farris Stadium",
       "lat": 29.56344,
       "lng": -98.65353,
+      "city": "San Antonio",
       "date": "2026-11-13"
     },
     {

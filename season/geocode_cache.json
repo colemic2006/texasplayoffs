@@ -1,6 +1,7 @@
 {
  "A&M Consolidated HS || Rosebud-Lott v Corrigan-Camden": {
   "address": "",
+  "city": "College Station",
   "confirmed_as": "A&M Consolidated High School, College Station",
   "how": "address in site text",
   "lat": 30.592,
@@ -12,6 +13,7 @@
  },
  "Abe Martin Stadium - Lufkin, TX || Silsbee v Madisonville": {
   "address": "309 South Medford Dr., Lufkin, Texas 75902",
+  "city": "Lufkin",
   "how": "stadium",
   "lat": 31.33598,
   "lng": -94.68785,
@@ -22,6 +24,7 @@
  },
  "Andrews HS || El Paso Riverside v New Braunfels Canyon": {
   "address": "918 NW Mustang Dr, Andrews, Texas 79714",
+  "city": "Andrews",
   "how": "school",
   "lat": 32.32274,
   "lng": -102.57009,
@@ -32,6 +35,7 @@
  },
  "Andrews High School || Lockney v Iraan": {
   "address": "918 NW Mustang Dr, Andrews, Texas 79714",
+  "city": "Andrews",
   "how": "school",
   "lat": 32.32274,
   "lng": -102.57009,
@@ -42,6 +46,7 @@
  },
  "Argyle ISD Stadium || Argyle v Frisco Panther Creek": {
   "address": "6615 Canyon Falls Dr, Roanoke, Texas 76262",
+  "city": "Roanoke",
   "how": "stadium (town only)",
   "lat": 33.00401,
   "lng": -97.22585,
@@ -52,6 +57,7 @@
  },
  "Balmorhea High School || Grandfalls-Royalty v Dell City": {
   "address": "2481 El Paso St, Balmorhea, Texas 79718",
+  "city": "Balmorhea",
   "how": "school",
   "lat": 30.98407,
   "lng": -103.74753,
@@ -62,6 +68,7 @@
  },
  "Balmorhea High School || Marfa v Rocksprings": {
   "address": "2481 El Paso St, Balmorhea, Texas 79718",
+  "city": "Balmorhea",
   "how": "school",
   "lat": 30.98407,
   "lng": -103.74753,
@@ -72,6 +79,7 @@
  },
  "Bandera HS || Stockdale v Cotulla": {
   "address": "451 Old San Antonio Hwy, Bandera, Texas 78003",
+  "city": "Bandera",
   "how": "school",
   "lat": 29.73287,
   "lng": -99.06621,
@@ -82,6 +90,7 @@
  },
  "Big Spring High School || Clyde v Denver City": {
   "address": "2195 Kentucky Way, Big Spring, Texas 79720",
+  "city": "Big Spring",
   "how": "school",
   "lat": 32.25501,
   "lng": -101.4473,
@@ -92,6 +101,7 @@
  },
  "Big Spring High School || McCamey v Tahoka": {
   "address": "2195 Kentucky Way, Big Spring, Texas 79720",
+  "city": "Big Spring",
   "how": "school",
   "lat": 32.25501,
   "lng": -101.4473,
@@ -102,6 +112,7 @@
  },
  "Blanket High School || Zephyr v Sidney": {
   "address": "901 Ave H, Blanket, Texas 76432",
+  "city": "Blanket",
   "how": "school",
   "lat": 31.81933,
   "lng": -98.79226,
@@ -112,6 +123,7 @@
  },
  "Bovina || Gruver v Plains": {
   "address": "606 Halsell St, Bovina, Texas 79009",
+  "city": "Bovina",
   "how": "school",
   "lat": 34.51329,
   "lng": -102.88816,
@@ -122,6 +134,7 @@
  },
  "Brenham Cub Stadium || Brenham v Seguin": {
   "address": "1600 East Tom Green Street, Brenham, Texas 77833",
+  "city": "Brenham",
   "how": "stadium",
   "lat": 30.15912,
   "lng": -96.37902,
@@ -132,6 +145,7 @@
  },
  "Brownwood High School || Jacksboro v Grape Creek": {
   "address": "3206 Milam Dr, Brownwood, Texas 76801",
+  "city": "Brownwood",
   "how": "school",
   "lat": 31.66554,
   "lng": -98.97911,
@@ -142,6 +156,7 @@
  },
  "Buckaroo Stadium; Breckenridge, TX || Midland Greenwood v Springtown": {
   "address": "500 W. Lindsey St, Breckenridge, Texas 76424",
+  "city": "Breckenridge",
   "how": "stadium",
   "lat": 32.76,
   "lng": -98.90864,
@@ -152,6 +167,7 @@
  },
  "CH Collins || Denton Ryan v FW Paschal": {
   "address": "",
+  "city": "Denton",
   "confirmed_as": "C.H. Collins Athletic Complex, Denton",
   "how": "town (approximate)",
   "lat": 33.18388,
@@ -163,6 +179,7 @@
  },
  "Caldwell HS || Columbus v Little River Academy": {
   "address": "550 Co Rd 307, Caldwell, Texas 77836",
+  "city": "Caldwell",
   "how": "school (town only)",
   "lat": 29.8299,
   "lng": -97.59596,
@@ -173,6 +190,7 @@
  },
  "Canutillo HS || El Paso Canutillo v Abilene Cooper": {
   "address": "6675 S Desert Blvd,, Canutillo, Texas 79932",
+  "city": "Canutillo",
   "confirmed_as": "Eagle Stadium, Canutillo",
   "how": "stadium",
   "lat": 31.8969,
@@ -184,6 +202,7 @@
  },
  "Center High School || Colmesneil v Cushing": {
   "address": "658 Rough Rider Drive, Center, Texas 75935",
+  "city": "Center",
   "how": "school (town only)",
   "lat": 31.79528,
   "lng": -94.18036,
@@ -194,6 +213,7 @@
  },
  "Centerville High School || New Waverly v Buffalo": {
   "address": "813 S Commerce St, Centerville, Texas 75833",
+  "city": "Centerville",
   "how": "town",
   "lat": 31.25112,
   "lng": -95.98079,
@@ -204,6 +224,7 @@
  },
  "Children's Health Stadium || Prosper Walnut Grove v Braswell": {
   "address": "2000 Stadium Drive, Prosper, Texas 75078",
+  "city": "Prosper",
   "how": "stadium",
   "lat": 33.2607,
   "lng": -96.80421,
@@ -214,6 +235,7 @@
  },
  "Childress High School || Haskell v Clarendon": {
   "address": "312 Ave. I NW, Childress, Texas 79201",
+  "city": "Childress",
   "how": "school",
   "lat": 34.51966,
   "lng": -100.20677,
@@ -224,6 +246,7 @@
  },
  "Childress High School || Wellington v Munday": {
   "address": "312 Ave. I NW, Childress, Texas 79201",
+  "city": "Childress",
   "how": "school",
   "lat": 34.51966,
   "lng": -100.20677,
@@ -234,6 +257,7 @@
  },
  "Cisco High School || Wall v Bowie": {
   "address": "300 Front St, Cisco, Texas 76437",
+  "city": "Cisco",
   "how": "school",
   "lat": 32.38734,
   "lng": -98.99193,
@@ -244,6 +268,7 @@
  },
  "Clyde High School || Plainview v Lake Dallas": {
   "address": "500 Hays Road, Clyde, Texas 79510",
+  "city": "Clyde",
   "how": "school",
   "lat": 32.41429,
   "lng": -99.52905,
@@ -254,6 +279,7 @@
  },
  "College Station HS || College Station v Friendswood": {
   "address": "4002 Victoria Avenue, College Station, Texas 77845",
+  "city": "College Station",
   "how": "school",
   "lat": 30.55707,
   "lng": -96.28654,
@@ -264,6 +290,7 @@
  },
  "College Station HS || Lovelady v Granger": {
   "address": "4002 Victoria Avenue, College Station, Texas 77845",
+  "city": "College Station",
   "how": "school",
   "lat": 30.55707,
   "lng": -96.28654,
@@ -274,6 +301,7 @@
  },
  "Colorado City High School || Sonora v New Deal": {
   "address": "Cherry St. & W. 10th, Colorado City, Texas 79512",
+  "city": "Colorado City",
   "how": "town",
   "lat": 32.39832,
   "lng": -100.86988,
@@ -284,6 +312,7 @@
  },
  "Crosby High School || Orangefield v Trinity": {
   "address": "14703 FM 2100 Rd., Crosby, Texas 77532",
+  "city": "Crosby",
   "how": "school (town only)",
   "lat": 33.57788,
   "lng": -101.28557,
@@ -294,6 +323,7 @@
  },
  "Crusader Stadium || Strake Jesuit v Fulshear Jordan": {
   "address": "",
+  "city": "Houston",
   "confirmed_as": "Strake Jesuit College Preparatory, 8900 Bellaire Blvd, Houston",
   "how": "town (approximate)",
   "lat": 29.75894,
@@ -305,6 +335,7 @@
  },
  "Cuero HS || Refugio v Weimar": {
   "address": "920 E Broadway St, Cuero, Texas 77954",
+  "city": "Cuero",
   "how": "school",
   "lat": 29.09004,
   "lng": -97.28025,
@@ -315,6 +346,7 @@
  },
  "Denver City High School || El Paso Andress v Dumas": {
   "address": "601 Mustang Ave, Denver City, Texas 79323",
+  "city": "Denver City",
   "how": "school",
   "lat": 32.97337,
   "lng": -102.83726,
@@ -325,6 +357,7 @@
  },
  "Diboll High School || Overton v Evadale": {
   "address": "Lumberjack Dr & Arrington Rd, Diboll, Texas 75941",
+  "city": "Diboll",
   "how": "school (town only)",
   "lat": 31.18713,
   "lng": -94.78104,
@@ -335,6 +368,7 @@
  },
  "Dick Bivins (Amarillo) || Amarillo v El Paso Bel Air": {
   "address": "3101 E 10th Ave, Amarillo, Texas 79106",
+  "city": "Amarillo",
   "how": "stadium",
   "lat": 35.20023,
   "lng": -101.81035,
@@ -345,6 +379,7 @@
  },
  "Dick Bivins Stadium (Amarillo) || Amarillo Palo Duro v El Paso Burges": {
   "address": "3101 E 10th Ave, Amarillo, Texas 79106",
+  "city": "Amarillo",
   "how": "stadium",
   "lat": 35.20023,
   "lng": -101.81035,
@@ -355,6 +390,7 @@
  },
  "Dimmitt High School || Ropes v Vega": {
   "address": "1572 FM 3215, Dimmitt, Texas 79027",
+  "city": "Dimmitt",
   "how": "school",
   "lat": 34.54152,
   "lng": -102.33217,
@@ -365,6 +401,7 @@
  },
  "Eustace High School || Union Hill v Abbott": {
   "address": "Henderson St at FM 316 S, Eustace, Texas 75124",
+  "city": "Eustace",
   "how": "school",
   "lat": 32.30085,
   "lng": -96.00891,
@@ -375,6 +412,7 @@
  },
  "FWISD Farrington || Fort Worth Arlington Heights v FW Chisholm Trail": {
   "address": "1501 University, Fort Worth, Texas 76107",
+  "city": "Fort Worth",
   "confirmed_as": "Farrington Field, Fort Worth",
   "how": "stadium",
   "lat": 32.73056,
@@ -386,6 +424,7 @@
  },
  "Farris Stadium || San Antonio Brandeis v Converse Judson": {
   "address": "",
+  "city": "San Antonio",
   "confirmed_as": "Farris Stadium, San Antonio",
   "how": "address in site text",
   "lat": 29.56344,
@@ -397,6 +436,7 @@
  },
  "Floydada HS || Childress v Littlefield": {
   "address": "301 N. White St, Floydada, Texas 79235",
+  "city": "Floydada",
   "how": "school",
   "lat": 33.98785,
   "lng": -101.34441,
@@ -407,6 +447,7 @@
  },
  "Frenship High School || Sweetwater v Dalhart": {
   "address": "Tiger St. & FM 179, Wolfforth, Texas 79382",
+  "city": "Wolfforth",
   "how": "school",
   "lat": 33.51832,
   "lng": -102.0066,
@@ -417,6 +458,7 @@
  },
  "Grady High School || Rankin v Klondike": {
   "address": "3500 FM 829, Lenorah, Texas 79749",
+  "city": "Lenorah",
   "how": "school",
   "lat": 32.3082,
   "lng": -101.92834,
@@ -427,6 +469,7 @@
  },
  "Graham High School || Cisco v Nocona": {
   "address": "1100 Calaveras St, Graham, Texas 76450",
+  "city": "Graham",
   "how": "school",
   "lat": 33.09504,
   "lng": -98.58039,
@@ -437,6 +480,7 @@
  },
  "Greg Sherwood Memorial Bulldog Stadium || Slaton v Friona": {
   "address": "",
+  "city": "Plainview",
   "confirmed_as": "Greg Sherwood Memorial Bulldog Stadium, Plainview",
   "how": "town (approximate)",
   "lat": 34.18479,
@@ -448,6 +492,7 @@
  },
  "Groom High School || Boys Ranch v Nazareth": {
   "address": "304 W 3rd St, Groom, Texas 79039",
+  "city": "Groom",
   "how": "school",
   "lat": 35.20505,
   "lng": -101.10964,
@@ -458,6 +503,7 @@
  },
  "Happy State Bank Stadium, Canyon || Spearman v Farwell": {
   "address": "2800 N 23rd St, Canyon, Texas 79015",
+  "city": "Canyon",
   "how": "stadium",
   "lat": 35.01197,
   "lng": -101.91654,
@@ -468,6 +514,7 @@
  },
  "Henderson High School || San Augustine v Union Grove": {
   "address": "700 Lion Street, Henderson, Texas 75654",
+  "city": "Henderson",
   "how": "school",
   "lat": 32.14163,
   "lng": -94.80468,
@@ -478,6 +525,7 @@
  },
  "Herford High School || Olton v Amarillo Highland Park": {
   "address": "300 Stadium Dr., Hereford, Texas 79045",
+  "city": "Hereford",
   "confirmed_as": "Whiteface Stadium, Hereford",
   "how": "stadium",
   "lat": 34.83147,
@@ -489,6 +537,7 @@
  },
  "Honey Grove High School || Howe v Quitman": {
   "address": "17th St. at Maple St. -, Honey Grove, Texas 75446",
+  "city": "Honey Grove",
   "how": "school",
   "lat": 33.5907,
   "lng": -95.90036,
@@ -499,6 +548,7 @@
  },
  "Indian Memorial Stadium, Grand Saline High School || Carlisle v Honey Grove": {
   "address": "500 Stadium Dr, Grand Saline, Texas 75140",
+  "city": "Grand Saline High School",
   "how": "stadium",
   "lat": 32.68427,
   "lng": -95.71363,
@@ -509,6 +559,7 @@
  },
  "Irvin HS || Irvin v Pecos": {
   "address": "9465 Roanoke Dr, El Paso, Texas 79924",
+  "city": "El Paso",
   "how": "school",
   "lat": 31.87947,
   "lng": -106.41512,
@@ -519,6 +570,7 @@
  },
  "Jayton High School || Jayton v Kress": {
   "address": "700 Madison St, Jayton, Texas 79528",
+  "city": "Jayton",
   "how": "town (town only)",
   "lat": 33.24807,
   "lng": -100.57386,
@@ -529,6 +581,7 @@
  },
  "Joseph L. Sears III Stadium in Killeen, TX || Mason v Itasca": {
   "address": "",
+  "city": "Killeen",
   "how": "town (approximate)",
   "lat": 31.11714,
   "lng": -97.7278,
@@ -539,6 +592,7 @@
  },
  "Kermit HS || Canyon Randall v El Paso Austin": {
   "address": "601 S Poplar St, Kermit, Texas 79745",
+  "city": "Kermit",
   "how": "school",
   "lat": 31.85106,
   "lng": -103.09002,
@@ -549,6 +603,7 @@
  },
  "La Grange || Lexington v Boling": {
   "address": "820 S. Vail St., La Grange, Texas 78945",
+  "city": "La Grange",
   "how": "school",
   "lat": 29.90345,
   "lng": -96.86569,
@@ -559,6 +614,7 @@
  },
  "Laredo Student Activity Center || Laredo United v San Antonio Harlan": {
   "address": "5208 St. Claudia Lane, Laredo, Texas 78040",
+  "city": "Laredo",
   "confirmed_as": "Student Activity Center, Laredo",
   "how": "stadium",
   "lat": 27.49874,
@@ -570,6 +626,7 @@
  },
  "Legacy Stadium || Katy v Fort Bend Travis": {
   "address": "5175 Franz Rd, Katy, Texas 77493",
+  "city": "Katy",
   "how": "stadium",
   "lat": 29.80121,
   "lng": -95.80476,
@@ -580,6 +637,7 @@
  },
  "Legacy Stadium, 1830 Katyland Dr, Katy, TX 77493 || Katy Tompkins v Fort Bend Hightower": {
   "address": "5175 Franz Rd, Katy, Texas 77493",
+  "city": "Katy",
   "how": "stadium",
   "lat": 29.80121,
   "lng": -95.80476,
@@ -590,6 +648,7 @@
  },
  "Lehnhoff Stadium || Cibolo Steele v San Antonio Reagan": {
   "address": "1100 Elbel Road, Schertz, Texas 78154",
+  "city": "Schertz",
   "how": "stadium",
   "lat": 29.5629,
   "lng": -98.26399,
@@ -600,6 +659,7 @@
  },
  "Leo Buckley Stadium - Killeen || Waco La Vega v Manor New Tech": {
   "address": "3498 Atkinson Ave, Killeen, Texas 76543",
+  "city": "Killeen",
   "how": "stadium",
   "lat": 31.10987,
   "lng": -97.69441,
@@ -610,6 +670,7 @@
  },
  "Levelland High School || Idalou v Dimmitt": {
   "address": "1406 Ellis, Levelland, Texas 79336",
+  "city": "Levelland",
   "how": "school",
   "lat": 33.60072,
   "lng": -102.34339,
@@ -620,6 +681,7 @@
  },
  "Lowrey Field || Brock v Perryton": {
   "address": "",
+  "city": "Lubbock",
   "confirmed_as": "Lowrey Field at PlainsCapital Park, Lubbock",
   "how": "town (approximate)",
   "lat": 33.58557,
@@ -631,6 +693,7 @@
  },
  "Madisonville High School || Canton v Shepherd": {
   "address": "811 S May St,, Madisonville, Texas 77864",
+  "city": "Madisonville",
   "how": "school",
   "lat": 30.94501,
   "lng": -95.90846,
@@ -641,6 +704,7 @@
  },
  "Mary Hardin Baylor Crusader Stadium || Goldthwaite v Hubbard": {
   "address": "900 College Street, Belton, Texas 76513",
+  "city": "Belton",
   "confirmed_as": "Crusader Stadium, Belton",
   "how": "stadium",
   "lat": 31.06868,
@@ -652,6 +716,7 @@
  },
  "Memphis High School || McLean v Turkey Valley": {
   "address": "1501 High St, Memphis, Texas 79245",
+  "city": "Memphis",
   "how": "school",
   "lat": 34.73449,
   "lng": -100.55084,
@@ -662,6 +727,7 @@
  },
  "Menard High School || Blackwell v Cherokee": {
   "address": "401 Travis St, Menard, Texas 76859",
+  "city": "Menard",
   "how": "school",
   "lat": 30.91179,
   "lng": -99.78152,
@@ -672,6 +738,7 @@
  },
  "Merrill Green Stadium || Thorndale v Groveton": {
   "address": "3450 Campus Drive, Bryan, Texas 77802",
+  "city": "Bryan",
   "how": "stadium",
   "lat": 30.65651,
   "lng": -96.33315,
@@ -682,6 +749,7 @@
  },
  "Mesquite: Memorial Stadium || Gunter v Groesbeck": {
   "address": "2411 W. Scyene Rd., Mesquite, Texas 75149",
+  "city": "Mesquite",
   "how": "stadium",
   "lat": 32.76383,
   "lng": -96.63472,
@@ -692,6 +760,7 @@
  },
  "Midlothian ISD Multi-Purpose || Mexia v Pilot Point": {
   "address": "1800 S 14th, Midlothian, Texas 76065",
+  "city": "Midlothian",
   "confirmed_as": "MISD Multi-Purpose Stadium, Midlothian",
   "how": "stadium",
   "lat": 32.46577,
@@ -703,6 +772,7 @@
  },
  "Mineral Wells High School || Decatur v San Angelo Lake View": {
   "address": "3801 Ram Blvd, Mineral Wells, Texas 76067",
+  "city": "Mineral Wells",
   "how": "school",
   "lat": 32.81599,
   "lng": -98.07786,
@@ -713,6 +783,7 @@
  },
  "Monahans High School || Monahans v Clint": {
   "address": "700 W 10th, Monahans, Texas 79756",
+  "city": "Monahans",
   "how": "school",
   "lat": 31.58382,
   "lng": -102.89709,
@@ -723,6 +794,7 @@
  },
  "Mountain View HS || Clint Mountain View v Big Spring": {
   "address": "14964 Greg Dr, El Paso, Texas 79938",
+  "city": "El Paso",
   "confirmed_as": "Lobo Stadium, El Paso",
   "how": "stadium",
   "lat": 31.79748,
@@ -734,6 +806,7 @@
  },
  "Mustang Panther Stadium || Coppell v South Grand Prairie": {
   "address": "",
+  "city": "Grand Prairie",
   "confirmed_as": "Mustang-Panther Stadium, Grand Prairie",
   "how": "town (approximate)",
   "lat": 32.74596,
@@ -745,6 +818,7 @@
  },
  "Nacogdoches High School || Teague v Hardin": {
   "address": "4310 Appleby Sand Road, Nacogdoches, Texas 75961",
+  "city": "Nacogdoches",
   "how": "school",
   "lat": 31.62446,
   "lng": -94.63261,
@@ -755,6 +829,7 @@
  },
  "Natalia || Hebbronville v Blanco": {
   "address": "Miller St at 9th St, Natalia, Texas 78059",
+  "city": "Natalia",
   "how": "school (town only)",
   "lat": 29.18887,
   "lng": -98.85812,
@@ -765,6 +840,7 @@
  },
  "Newcastle High School || Knox City v Woodson": {
   "address": "505 Washington Ave, Newcastle, Texas 76372",
+  "city": "Newcastle",
   "how": "school",
   "lat": 33.18762,
   "lng": -98.73674,
@@ -775,6 +851,7 @@
  },
  "Newsom Stadium || Mansfield Timberview v Waco": {
   "address": "3700 East Broad St, Mansfield, Texas 76063",
+  "city": "Mansfield",
   "how": "stadium",
   "lat": 32.57639,
   "lng": -97.07697,
@@ -785,6 +862,7 @@
  },
  "Oglesby ISD || Mount Calm v Iredell": {
   "address": "125 College Ave, Oglesby, Texas 76561",
+  "city": "Oglesby",
   "how": "school",
   "lat": 31.41892,
   "lng": -97.51134,
@@ -795,6 +873,7 @@
  },
  "Panther Creek High School || Richland Springs v Valera Panther Creek": {
   "address": "129 Pr 3421, Valera, Texas 76884",
+  "city": "Valera",
   "how": "school (town only)",
   "lat": 31.75332,
   "lng": -99.54952,
@@ -805,6 +884,7 @@
  },
  "Petersburg High School || Happy v Hermleigh": {
   "address": "1411 W 4th St, Petersburg, Texas 79250",
+  "city": "Petersburg",
   "how": "school",
   "lat": 33.87087,
   "lng": -101.60416,
@@ -815,6 +895,7 @@
  },
  "Pittsburg High School || Atlanta v Mount Vernon": {
   "address": "300 N Texas St., Pittsburg, Texas 75686",
+  "city": "Pittsburg",
   "how": "school",
   "lat": 33.00257,
   "lng": -94.97131,
@@ -825,6 +906,7 @@
  },
  "Ratliff Stadium Odessa Texas || Odessa Permian v El Paso Eastlake": {
   "address": "North Grandview & Yukon, Odessa, Texas 79765",
+  "city": "Odessa",
   "how": "stadium",
   "lat": 31.9127,
   "lng": -102.3592,
@@ -835,6 +917,7 @@
  },
  "Ray Akins Wildcat Stadium || Gregory-Portland v Mission Sharyland Pioneer": {
   "address": "4600 Wildcat Drive, Portland, Texas 78374",
+  "city": "Portland",
   "how": "stadium",
   "lat": 27.89911,
   "lng": -97.32469,
@@ -845,6 +928,7 @@
  },
  "River Road || Panhandle v Floydada": {
   "address": "101 W. Mobley St, Amarillo, Texas 79108",
+  "city": "Amarillo",
   "how": "school",
   "lat": 35.30711,
   "lng": -101.83575,
@@ -855,6 +939,7 @@
  },
  "SAISD Sports Complex || Dilley v Flatonia": {
   "address": "1002 Edwards, San Antonio, Texas 78204",
+  "city": "San Antonio",
   "how": "stadium",
   "lat": 29.39116,
   "lng": -98.50789,
@@ -865,6 +950,7 @@
  },
  "San Angelo || Roscoe v Eldorado": {
   "address": "",
+  "city": "San Angelo",
   "how": "town:San Angelo",
   "lat": 31.46497,
   "lng": -100.44051,
@@ -875,6 +961,7 @@
  },
  "Seminole HS || Forsan v Abernathy": {
   "address": "NW Ave F at NW 8th, Seminole, Texas 79360",
+  "city": "Seminole",
   "how": "school",
   "lat": 32.71674,
   "lng": -102.6491,
@@ -885,6 +972,7 @@
  },
  "Seminole HS || Seminole v Bowie": {
   "address": "NW Ave F at NW 8th, Seminole, Texas 79360",
+  "city": "Seminole",
   "how": "school",
   "lat": 32.71674,
   "lng": -102.6491,
@@ -895,6 +983,7 @@
  },
  "Smithson Valley Ranger Stadium || Smithson Valley v Laredo Nixon": {
   "address": "14001 State Highway 46 W, Spring Branch, Texas 78070",
+  "city": "Spring Branch",
   "how": "stadium",
   "lat": 29.80059,
   "lng": -98.35737,
@@ -905,6 +994,7 @@
  },
  "Snyder High School || Stanton v Henrietta": {
   "address": "3901 Denison Ave, Snyder, Texas 79549",
+  "city": "Snyder",
   "how": "school",
   "lat": 32.69666,
   "lng": -100.93113,
@@ -915,6 +1005,7 @@
  },
  "Springlake-Earth HS || Hart v Meadow": {
   "address": "472 FM302, Earth, Texas 79031",
+  "city": "Earth",
   "how": "school (town only)",
   "lat": 34.23314,
   "lng": -102.41075,
@@ -925,6 +1016,7 @@
  },
  "Stephenville's Art Briles Stadium || Peaster v Early": {
   "address": "N Wolfe Nursery Rd, Stephenville, Texas 76401",
+  "city": "Stephenville",
   "how": "stadium",
   "lat": 32.20913,
   "lng": -98.24058,
@@ -935,6 +1027,7 @@
  },
  "Sterling City High School || Robert Lee v Water Valley": {
   "address": "700 7th St, Sterling City, Texas 76951",
+  "city": "Sterling City",
   "how": "school",
   "lat": 31.84135,
   "lng": -100.98764,
@@ -945,6 +1038,7 @@
  },
  "Sudan High School || Wellman-Union v Anton": {
   "address": "107 FM 303, Sudan, Texas 79371",
+  "city": "Sudan",
   "how": "school",
   "lat": 34.06376,
   "lng": -102.52969,
@@ -955,6 +1049,7 @@
  },
  "Sulphur Springs HS || Cooper v Como-Pickton": {
   "address": "1000 Houston Street, Sulphur Springs, Texas 75482",
+  "city": "Sulphur Springs",
   "how": "school",
   "lat": 33.14151,
   "lng": -95.63424,
@@ -965,6 +1060,7 @@
  },
  "Sweetwater HS || Graham v Lubbock Estacado": {
   "address": "1205 Ragland, Sweetwater, Texas 79556",
+  "city": "Sweetwater",
   "how": "school",
   "lat": 32.48264,
   "lng": -100.40611,
@@ -975,6 +1071,7 @@
  },
  "Throckmorton High School || Gordon v Vernon Northside": {
   "address": "210 College St, Throckmorton, Texas 76483",
+  "city": "Throckmorton",
   "how": "school",
   "lat": 33.18327,
   "lng": -99.18096,
@@ -985,6 +1082,7 @@
  },
  "Tiger Stad., 285 St. Hwy 95, Smithville, TX 78957 || Bay City v Lampasas": {
   "address": "",
+  "city": "Smithville",
   "how": "address in site text",
   "lat": 29.99529,
   "lng": -97.16423,
@@ -995,6 +1093,7 @@
  },
  "Whiteface Stadium, Hereford Texas Stratford Home || Stratford v Seagraves": {
   "address": "300 Stadium Dr., Hereford, Texas 79045",
+  "city": "Hereford",
   "how": "stadium",
   "lat": 34.83147,
   "lng": -102.41338,
@@ -1005,6 +1104,7 @@
  },
  "Willis || Fairfield v East Chambers": {
   "address": "Longstreet Rd at Bybee, Willis, Texas 77378",
+  "city": "Willis",
   "how": "school",
   "lat": 30.43206,
   "lng": -95.48742,
@@ -1015,6 +1115,7 @@
  },
  "Winnsboro High School || Clarksville v Boles": {
   "address": "634 S Post Oak St, Winnsboro, Texas 75494",
+  "city": "Winnsboro",
   "how": "school",
   "lat": 32.95345,
   "lng": -95.30047,
@@ -1025,6 +1126,7 @@
  },
  "Wylie High School || Abilene Wylie v El Paso Del Valle": {
   "address": "4334 Antilley Rd, Abilene, Texas 79606",
+  "city": "Abilene",
   "how": "school",
   "lat": 32.37323,
   "lng": -99.78182,

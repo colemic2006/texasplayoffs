@@ -2,6 +2,7 @@ import React, { useState, useMemo, useEffect } from 'react'
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell
 } from 'recharts'
+import { placeName } from '../placeName'
 
 const WEEKS = ['1','2','3','4','5','6']
 const ROUND_LABELS = { '1':'Week 1', '2':'Week 2', '3':'Week 3', '4':'Week 4', '5':'Week 5', '6':'Week 6' }
@@ -516,8 +517,8 @@ function ChapterGames({ games, week, setWeek, cls, setCls }) {
                 <td style={{ ...tdStyle, color:'var(--mid)', fontSize:11 }}>
                   {g.site
                     ? (g.map_link || (g.lat != null && g.lng != null))
-                      ? <a href={g.map_link || `https://www.google.com/maps?q=${g.lat},${g.lng}`} target="_blank" rel="noopener noreferrer" style={{ color:'var(--ink)' }}>{g.stadium || g.site}</a>
-                      : g.site
+                      ? <a href={g.map_link || `https://www.google.com/maps?q=${g.lat},${g.lng}`} target="_blank" rel="noopener noreferrer" style={{ color:'var(--ink)' }}>{placeName(g)}</a>
+                      : placeName(g)
                     : '—'}
                   {g.date && <span style={{ fontFamily:'var(--mono)', fontSize:10, marginLeft:6 }}>{g.date.slice(5).replace('-', '/')}</span>}
                 </td>

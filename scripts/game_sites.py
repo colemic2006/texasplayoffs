@@ -155,6 +155,13 @@ def resolve(site, stadiums, schools, teams=()):
     return None, how or 'no stadium, school or town matched'
 
 
+def town_in(text):
+    """The town in an address ("285 St. Hwy 95, Smithville, TX 78957" -> "Smithville")."""
+    parts = [re.sub(r'\b(TX|Texas)\b|\d{5}', '', p).strip(' .') for p in text.split(',')[1:]]
+    parts = [p for p in parts if p]
+    return parts[-1] if parts else ''
+
+
 def cache_key(site, team1, team2):
     # the same words can mean different places for different games ("Panther Creek High School")
     return f'{site} || {team1} v {team2}'
@@ -192,6 +199,9 @@ def locate(games, review_path=None):
                 tries.append((f'{town}, Texas', 'town (approximate)'))
         else:
             tries = []
+        # the town the game is in, for "Stadium, Town, TX"
+        town = (st or {}).get('city') or (how[5:] if how.startswith('town:') else '') or \
+            (town_in(how[8:]) if how.startswith('address:') else '')
         coords = None
         for q, q_how in tries:
             try:
@@ -210,6 +220,8 @@ def locate(games, review_path=None):
         else:
             entry.update(missed=today.isoformat(), rules=RULES)
         entry['site'] = site
+        if town:
+            entry['city'] = town
         if site in confirmed:
             entry['confirmed_as'] = confirmed[site]
         cache[key] = entry
@@ -231,3 +243,5 @@ def place(game, cache):
             game['stadium'] = hit['stadium']
         if hit.get('map_link'):
             game['map_link'] = hit['map_link']
+        if hit.get('city'):
+            game['city'] = hit['city']

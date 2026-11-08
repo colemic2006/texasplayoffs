@@ -29,7 +29,7 @@ export default function WeekMap({ data }) {
   const markers = useMemo(() => weekGames
     .filter(g => g.lat != null && g.lng != null)
     .map(g => ({ lat: g.lat, lng: g.lng, game: g,
-                 stadium: { name: g.stadium || g.site, city: '', map_link: g.map_link } })),
+                 stadium: { name: g.stadium || g.site, city: g.city || '', map_link: g.map_link } })),
     [week, games, chapter])
 
   const chip = active => ({

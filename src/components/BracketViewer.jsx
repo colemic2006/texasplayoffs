@@ -1,4 +1,5 @@
 import React, { useState, useMemo, useEffect, useRef } from 'react'
+import { placeName } from '../placeName'
 import 'leaflet/dist/leaflet.css'
 
 const CLASSIFICATIONS = ['1A D1','1A D2','2A D1','2A D2','3A D1','3A D2','4A D1','4A D2','5A D1','5A D2','6A D1','6A D2','Six Man D1','Six Man D2']
@@ -328,7 +329,7 @@ function GameCard({ game }) {
           display:'flex', alignItems:'center', gap:6
         }}>
           <span style={{ fontSize:10 }}>📍</span>
-          <span style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)' }}>{game.site}</span>
+          <span style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)' }}>{placeName(game)}</span>
         </div>
       )}
 
@@ -419,7 +420,7 @@ export function GameMap({ markers }) {
             <div style="font-weight:600;margin-bottom:4px">${game.classification}</div>
             <div>${game.team1} <strong>${game.score1 ?? ''}</strong></div>
             <div>${game.team2} <strong>${game.score2 ?? ''}</strong></div>
-            ${stadium ? `<div style="margin-top:6px;font-size:11px;color:#666">${stadium.name}${stadium.city ? `<br>${stadium.city}, TX` : ''}</div>` : ''}
+            ${placeName(game, stadium) ? `<div style="margin-top:6px;font-size:11px;color:#666">${placeName(game, stadium)}</div>` : ''}
             ${game.date ? `<div style="font-size:11px;color:#666">${game.date.slice(5).replace('-', '/')}</div>` : ''}
             ${game.chapter ? `<div style="margin-top:4px;font-size:11px">Chapter: <strong>${game.chapter}</strong></div>` : ''}
             ${winner ? `<div style="margin-top:4px;color:#c1440e;font-size:11px">▲ ${winner}</div>` : ''}
