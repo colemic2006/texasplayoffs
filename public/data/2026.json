@@ -46,7 +46,11 @@
       "team2": "Nazareth",
       "score2": null,
       "winner": null,
-      "site": "Game Details Groom High School",
+      "site": "Groom High School",
+      "lat": 35.20505,
+      "lng": -101.10964,
+      "stadium": "Tiger Field",
+      "map_link": "https://goo.gl/maps/pMaHcCPRSV2aidgG7",
       "date": "2026-11-13"
     },
     {
@@ -99,7 +103,11 @@
       "team2": "Hermleigh",
       "score2": null,
       "winner": null,
-      "site": "Game Details Petersburg High School",
+      "site": "Petersburg High School",
+      "lat": 33.87087,
+      "lng": -101.60416,
+      "stadium": "Buffalo Stadium",
+      "map_link": "https://goo.gl/maps/wLaVtEYg4Nvitjr89",
       "date": "2026-11-13"
     },
     {
@@ -113,7 +121,7 @@
       "team2": "Kress",
       "score2": null,
       "winner": null,
-      "site": "Game Details Jayton High School",
+      "site": "Jayton High School",
       "date": "2026-11-13"
     },
     {
@@ -140,7 +148,11 @@
       "team2": "Water Valley",
       "score2": null,
       "winner": null,
-      "site": "Game Details Sterling City High School",
+      "site": "Sterling City High School",
+      "lat": 31.84135,
+      "lng": -100.98764,
+      "stadium": "Eagle Stadium",
+      "map_link": "https://goo.gl/maps/UkbX6mwgTKGdcLHg7",
       "date": "2026-11-12"
     },
     {
@@ -167,7 +179,11 @@
       "team2": "Klondike",
       "score2": null,
       "winner": null,
-      "site": "Game Details Grady High School",
+      "site": "Grady High School",
+      "lat": 32.3082,
+      "lng": -101.92834,
+      "stadium": "Wildcat Stadium",
+      "map_link": "https://goo.gl/maps/5RJ3moBe1SCx5JAZ6",
       "date": "2026-11-12"
     },
     {
@@ -220,7 +236,11 @@
       "team2": "Vernon Northside",
       "score2": null,
       "winner": null,
-      "site": "Game Details Throckmorton High School",
+      "site": "Throckmorton High School",
+      "lat": 33.18327,
+      "lng": -99.18096,
+      "stadium": "Greyhound Stadium",
+      "map_link": "https://goo.gl/maps/eh9zmQhkBHFnqfAL9",
       "date": "2026-11-12"
     },
     {
@@ -234,7 +254,11 @@
       "team2": "Abbott",
       "score2": null,
       "winner": null,
-      "site": "Game Details Eustace High School",
+      "site": "Eustace High School",
+      "lat": 32.30085,
+      "lng": -96.00891,
+      "stadium": "Bulldog Stadium",
+      "map_link": "https://goo.gl/maps/g4ddwKfmcJoHhPjbA",
       "date": "2026-11-13"
     },
     {
@@ -261,7 +285,7 @@
       "team2": "Meadow",
       "score2": null,
       "winner": null,
-      "site": "Game Details Springlake-Earth HS",
+      "site": "Springlake-Earth HS",
       "date": "2026-11-13"
     },
     {
@@ -275,7 +299,11 @@
       "team2": "Anton",
       "score2": null,
       "winner": null,
-      "site": "Game Details Sudan High School",
+      "site": "Sudan High School",
+      "lat": 34.06376,
+      "lng": -102.52969,
+      "stadium": "Hornet Stadium",
+      "map_link": "https://goo.gl/maps/VrB4BZCkRuvkP3Er9",
       "date": "2026-11-13"
     },
     {
@@ -302,7 +330,11 @@
       "team2": "Sidney",
       "score2": null,
       "winner": null,
-      "site": "Game Details Blanket High School",
+      "site": "Blanket High School",
+      "lat": 31.81933,
+      "lng": -98.79226,
+      "stadium": "Switzer Field",
+      "map_link": "https://goo.gl/maps/7SuxpTon1g3E7usSA",
       "date": "2026-11-12"
     },
     {
@@ -355,7 +387,11 @@
       "team2": "Iredell",
       "score2": null,
       "winner": null,
-      "site": "Game Details Oglesby ISD",
+      "site": "Oglesby ISD",
+      "lat": 31.41892,
+      "lng": -97.51134,
+      "stadium": "Tiger Stadium",
+      "map_link": "https://goo.gl/maps/qkjoFqwTUQUhxicBA",
       "date": "2026-11-13"
     },
     {
@@ -369,7 +405,11 @@
       "team2": "Turkey Valley",
       "score2": null,
       "winner": null,
-      "site": "Game Details Memphis High School",
+      "site": "Memphis High School",
+      "lat": 34.73449,
+      "lng": -100.55084,
+      "stadium": "George Berry Memorial Stadium",
+      "map_link": "https://goo.gl/maps/S58kWnMWZdoLBzfW6",
       "date": "2026-11-13"
     },
     {
@@ -396,7 +436,11 @@
       "team2": "Woodson",
       "score2": null,
       "winner": null,
-      "site": "Game Details Newcastle High School",
+      "site": "Newcastle High School",
+      "lat": 33.18762,
+      "lng": -98.73674,
+      "stadium": "Bobcat Field",
+      "map_link": "https://goo.gl/maps/hcWSN82wXxzBkMSm7",
       "date": "2026-11-12"
     },
     {
@@ -423,7 +467,11 @@
       "team2": "Rocksprings",
       "score2": null,
       "winner": null,
-      "site": "Game Details Balmorhea High School",
+      "site": "Balmorhea High School",
+      "lat": 30.98407,
+      "lng": -103.74753,
+      "stadium": "Bear Stadium",
+      "map_link": "https://goo.gl/maps/iFmoNbwcJJ2Ytafd6",
       "date": "2026-11-12"
     },
     {
@@ -437,7 +485,11 @@
       "team2": "Cherokee",
       "score2": null,
       "winner": null,
-      "site": "Game Details Menard High School",
+      "site": "Menard High School",
+      "lat": 30.91179,
+      "lng": -99.78152,
+      "stadium": "Findlay Field",
+      "map_link": "https://goo.gl/maps/YLD1eWMAWWx1VgGE7",
       "date": "2026-11-13"
     },
     {
@@ -451,7 +503,7 @@
       "team2": "Valera Panther Creek",
       "score2": null,
       "winner": null,
-      "site": "Game Details Panther Creek High School",
+      "site": "Panther Creek High School",
       "date": "2026-11-13"
     },
     {
@@ -465,7 +517,11 @@
       "team2": "Dell City",
       "score2": null,
       "winner": null,
-      "site": "Game Details Balmorhea High School",
+      "site": "Balmorhea High School",
+      "lat": 30.98407,
+      "lng": -103.74753,
+      "stadium": "Bear Stadium",
+      "map_link": "https://goo.gl/maps/iFmoNbwcJJ2Ytafd6",
       "date": "2026-11-12"
     },
     {
@@ -479,7 +535,11 @@
       "team2": "Nocona",
       "score2": null,
       "winner": null,
-      "site": "Game Details Graham High School",
+      "site": "Graham High School",
+      "lat": 33.09504,
+      "lng": -98.58039,
+      "stadium": "Newton Field",
+      "map_link": "https://goo.gl/maps/5cwr5aXZ47YTGrxb7",
       "date": "2026-11-12"
     },
     {
@@ -532,7 +592,11 @@
       "team2": "Floydada",
       "score2": null,
       "winner": null,
-      "site": "Game Details River Road",
+      "site": "River Road",
+      "lat": 35.30711,
+      "lng": -101.83575,
+      "stadium": "Wildcat Stadium",
+      "map_link": "https://goo.gl/maps/4uJX7QU9A7cwknUc7",
       "date": "2026-11-12"
     },
     {
@@ -546,7 +610,11 @@
       "team2": "Abernathy",
       "score2": null,
       "winner": null,
-      "site": "Game Details Seminole HS",
+      "site": "Seminole HS",
+      "lat": 32.71674,
+      "lng": -102.6491,
+      "stadium": "Wigwam Stadium",
+      "map_link": "https://goo.gl/maps/Ldj6eueXwab4Znh6A",
       "date": "2026-11-13"
     },
     {
@@ -599,7 +667,7 @@
       "team2": "Amarillo Highland Park",
       "score2": null,
       "winner": null,
-      "site": "Game Details Herford High School",
+      "site": "Herford High School",
       "date": "2026-11-12"
     },
     {
@@ -613,7 +681,11 @@
       "team2": "New Deal",
       "score2": null,
       "winner": null,
-      "site": "Game Details Colorado City High School",
+      "site": "Colorado City High School",
+      "lat": 32.39832,
+      "lng": -100.86988,
+      "stadium": "Wolf Stadium",
+      "map_link": "https://goo.gl/maps/SojpNeMA7D2Lysrd6",
       "date": "2026-11-13"
     },
     {
@@ -627,7 +699,7 @@
       "team2": "Farwell",
       "score2": null,
       "winner": null,
-      "site": "Game Details Happy State Bank Stadium, Canyon",
+      "site": "Happy State Bank Stadium, Canyon",
       "lat": 35.01197,
       "lng": -101.91654,
       "stadium": "Happy State Bank Stadium",
@@ -671,7 +743,7 @@
       "team2": "Itasca",
       "score2": null,
       "winner": null,
-      "site": "Game Details Joseph L. Sears III Stadium in Killeen, TX",
+      "site": "Joseph L. Sears III Stadium in Killeen, TX",
       "date": "2026-11-12"
     },
     {
@@ -698,7 +770,7 @@
       "team2": "Groveton",
       "score2": null,
       "winner": null,
-      "site": "Game Details Merrill Green Stadium",
+      "site": "Merrill Green Stadium",
       "lat": 30.65651,
       "lng": -96.33315,
       "stadium": "Merrill Green Stadium",
@@ -716,7 +788,11 @@
       "team2": "Weimar",
       "score2": null,
       "winner": null,
-      "site": "Game Details Cuero HS",
+      "site": "Cuero HS",
+      "lat": 29.09004,
+      "lng": -97.28025,
+      "stadium": "Gobbler Stadium",
+      "map_link": "https://goo.gl/maps/xGqc5ewEXkE7jKc79",
       "date": "2026-11-13"
     },
     {
@@ -769,7 +845,11 @@
       "team2": "Granger",
       "score2": null,
       "winner": null,
-      "site": "Game Details College Station HS",
+      "site": "College Station HS",
+      "lat": 30.55707,
+      "lng": -96.28654,
+      "stadium": "Cougar Field",
+      "map_link": "https://goo.gl/maps/BmdUrUAuB5BM1rgs7",
       "date": "2026-11-12"
     },
     {
@@ -783,7 +863,7 @@
       "team2": "Flatonia",
       "score2": null,
       "winner": null,
-      "site": "Game Details SAISD Sports Complex",
+      "site": "SAISD Sports Complex",
       "lat": 29.39116,
       "lng": -98.50789,
       "stadium": "SAISD Sports Complex",
@@ -801,7 +881,7 @@
       "team2": "Corrigan-Camden",
       "score2": null,
       "winner": null,
-      "site": "Game Details A&M Consolidated HS",
+      "site": "A&M Consolidated HS",
       "date": "2026-11-12"
     },
     {
@@ -815,7 +895,11 @@
       "team2": "Como-Pickton",
       "score2": null,
       "winner": null,
-      "site": "Game Details Sulphur Springs HS",
+      "site": "Sulphur Springs HS",
+      "lat": 33.14151,
+      "lng": -95.63424,
+      "stadium": "Gerald Prim Stadium",
+      "map_link": "https://goo.gl/maps/8AAbSUGezis",
       "date": "2026-11-12"
     },
     {
@@ -829,11 +913,7 @@
       "team2": "Honey Grove",
       "score2": null,
       "winner": null,
-      "site": "Game Details Indian Memorial Stadium, Grand Saline High School",
-      "lat": 32.68427,
-      "lng": -95.71363,
-      "stadium": "Indian Memorial Stadium",
-      "map_link": "https://goo.gl/maps/e73NvD6a8HA2",
+      "site": "Indian Memorial Stadium, Grand Saline High School",
       "date": "2026-11-12"
     },
     {
@@ -912,7 +992,7 @@
       "team2": "Union Grove (?)",
       "score2": null,
       "winner": null,
-      "site": "Game Details Henderson High School",
+      "site": "Henderson High School",
       "date": "2026-11-12"
     },
     {
@@ -926,7 +1006,11 @@
       "team2": "Plains",
       "score2": null,
       "winner": null,
-      "site": "Game Details At Bovina",
+      "site": "Bovina",
+      "lat": 34.51329,
+      "lng": -102.88816,
+      "stadium": "Mustang Stadium",
+      "map_link": "https://goo.gl/maps/E3UVJGncjTLrKgsH8",
       "date": "2026-11-12"
     },
     {
@@ -940,7 +1024,11 @@
       "team2": "Tahoka",
       "score2": null,
       "winner": null,
-      "site": "Game Details Big Spring High School",
+      "site": "Big Spring High School",
+      "lat": 32.25501,
+      "lng": -101.4473,
+      "stadium": "Memorial Stadium",
+      "map_link": "https://goo.gl/maps/qbXyUQgjauvj513z8",
       "date": "2026-11-13"
     },
     {
@@ -954,7 +1042,11 @@
       "team2": "Vega",
       "score2": null,
       "winner": null,
-      "site": "Game Details Dimmitt High School",
+      "site": "Dimmitt High School",
+      "lat": 34.54152,
+      "lng": -102.33217,
+      "stadium": "Bobcat Stadium",
+      "map_link": "https://goo.gl/maps/cjwMpaYB832gVpXg9",
       "date": "2026-11-12"
     },
     {
@@ -968,7 +1060,11 @@
       "team2": "Iraan",
       "score2": null,
       "winner": null,
-      "site": "Game Details Neutral site at Andrews High School",
+      "site": "Andrews High School",
+      "lat": 32.32274,
+      "lng": -102.57009,
+      "stadium": "Mustang Bowl",
+      "map_link": "https://maps.app.goo.gl/DZWYSntZDeRASZYz9",
       "date": "2026-11-13"
     },
     {
@@ -982,7 +1078,9 @@
       "team2": "Eldorado",
       "score2": null,
       "winner": null,
-      "site": "Game Details San Angelo",
+      "site": "San Angelo",
+      "lat": 31.46497,
+      "lng": -100.44051,
       "date": "2026-11-13"
     },
     {
@@ -1009,7 +1107,6 @@
       "team2": "Ralls",
       "score2": null,
       "winner": null,
-      "site": "Game Details TBA",
       "date": "2026-11-13"
     },
     {
@@ -1023,7 +1120,7 @@
       "team2": "Seagraves",
       "score2": null,
       "winner": null,
-      "site": "Game Details Whiteface Stadium, Hereford Texas Stratford Home",
+      "site": "Whiteface Stadium, Hereford Texas Stratford Home",
       "lat": 34.83147,
       "lng": -102.41338,
       "stadium": "Whiteface Stadium",
@@ -1041,7 +1138,11 @@
       "team2": "Munday",
       "score2": null,
       "winner": null,
-      "site": "Game Details Childress High School",
+      "site": "Childress High School",
+      "lat": 34.51966,
+      "lng": -100.20677,
+      "stadium": "Fair Park Stadium",
+      "map_link": "https://goo.gl/maps/T5USJpM1hofREJkc6",
       "date": "2026-11-12"
     },
     {
@@ -1068,7 +1169,11 @@
       "team2": "Clarendon",
       "score2": null,
       "winner": null,
-      "site": "Game Details Childress High School",
+      "site": "Childress High School",
+      "lat": 34.51966,
+      "lng": -100.20677,
+      "stadium": "Fair Park Stadium",
+      "map_link": "https://goo.gl/maps/T5USJpM1hofREJkc6",
       "date": "2026-11-13"
     },
     {
@@ -1121,7 +1226,7 @@
       "team2": "Hubbard",
       "score2": null,
       "winner": null,
-      "site": "Game Details Mary Hardin Baylor Crusader Stadium",
+      "site": "Mary Hardin Baylor Crusader Stadium",
       "date": "2026-11-12"
     },
     {
@@ -1148,7 +1253,7 @@
       "team2": "Cushing",
       "score2": null,
       "winner": null,
-      "site": "Game Details Center High School",
+      "site": "Center High School",
       "date": "2026-11-13"
     },
     {
@@ -1175,7 +1280,7 @@
       "team2": "Evadale",
       "score2": null,
       "winner": null,
-      "site": "Game Details Diboll High School",
+      "site": "Diboll High School",
       "date": "2026-11-12"
     },
     {
@@ -1319,7 +1424,7 @@
       "team2": "Boles (?)",
       "score2": null,
       "winner": null,
-      "site": "Game Details Winnsboro High School",
+      "site": "Winnsboro High School",
       "date": "2026-11-13"
     },
     {
@@ -1372,7 +1477,7 @@
       "team2": "Early",
       "score2": null,
       "winner": null,
-      "site": "Game Details Stephenville's Art Briles Stadium",
+      "site": "Stephenville's Art Briles Stadium",
       "lat": 32.20913,
       "lng": -98.24058,
       "stadium": "Art Briles Stadium",
@@ -1390,7 +1495,11 @@
       "team2": "Denver City",
       "score2": null,
       "winner": null,
-      "site": "Game Details Big Spring High School",
+      "site": "Big Spring High School",
+      "lat": 32.25501,
+      "lng": -101.4473,
+      "stadium": "Memorial Stadium",
+      "map_link": "https://goo.gl/maps/qbXyUQgjauvj513z8",
       "date": "2026-11-12"
     },
     {
@@ -1417,7 +1526,11 @@
       "team2": "Bowie",
       "score2": null,
       "winner": null,
-      "site": "Game Details Cisco High School",
+      "site": "Cisco High School",
+      "lat": 32.38734,
+      "lng": -98.99193,
+      "stadium": "Chesley Stadium",
+      "map_link": "https://goo.gl/maps/gtBB4MnLCqAxAhcm8",
       "date": "2026-11-13"
     },
     {
@@ -1431,7 +1544,11 @@
       "team2": "Dalhart",
       "score2": null,
       "winner": null,
-      "site": "Game Details Frenship High School",
+      "site": "Frenship High School",
+      "lat": 33.51832,
+      "lng": -102.0066,
+      "stadium": "Peoples Bank Stadium",
+      "map_link": "https://goo.gl/maps/yTzp5e5h4y9HwbGZ9",
       "date": "2026-11-12"
     },
     {
@@ -1471,7 +1588,7 @@
       "team2": "Groesbeck",
       "score2": null,
       "winner": null,
-      "site": "Game Details Mesquite: Memorial Stadium",
+      "site": "Mesquite: Memorial Stadium",
       "lat": 32.76383,
       "lng": -96.63472,
       "stadium": "Mesquite Memorial Stadium",
@@ -1502,7 +1619,7 @@
       "team2": "Pilot Point",
       "score2": null,
       "winner": null,
-      "site": "Game Details Midlothian ISD Multi-Purpose",
+      "site": "Midlothian ISD Multi-Purpose",
       "date": "2026-11-12"
     },
     {
@@ -1555,7 +1672,7 @@
       "team2": "Little River Academy",
       "score2": null,
       "winner": null,
-      "site": "Game Details Caldwell HS",
+      "site": "Caldwell HS",
       "date": "2026-11-12"
     },
     {
@@ -1725,7 +1842,11 @@
       "team2": "Mount Vernon",
       "score2": null,
       "winner": null,
-      "site": "Game Details Pittsburg High School",
+      "site": "Pittsburg High School",
+      "lat": 33.00257,
+      "lng": -94.97131,
+      "stadium": "Pirate Stadium",
+      "map_link": "https://goo.gl/maps/7UGmbxrhSYq7mhAVA",
       "date": "2026-11-12"
     },
     {
@@ -1752,7 +1873,7 @@
       "team2": "Trinity",
       "score2": null,
       "winner": null,
-      "site": "Game Details Game played at Crosby High School",
+      "site": "Crosby High School",
       "date": "2026-11-13"
     },
     {
@@ -1779,7 +1900,11 @@
       "team2": "East Chambers",
       "score2": null,
       "winner": null,
-      "site": "Game Details Willis",
+      "site": "Willis",
+      "lat": 30.43206,
+      "lng": -95.48742,
+      "stadium": "Berton A. Yates Stadium",
+      "map_link": "https://goo.gl/maps/KJhdp6tmumPyTyDo8",
       "date": "2026-11-13"
     },
     {
@@ -1819,7 +1944,11 @@
       "team2": "Dimmitt",
       "score2": null,
       "winner": null,
-      "site": "Game Details Levelland High School",
+      "site": "Levelland High School",
+      "lat": 33.60072,
+      "lng": -102.34339,
+      "stadium": "Lobo Stadium",
+      "map_link": "https://goo.gl/maps/ZM9mBCF3zC377H856",
       "date": "2026-11-13"
     },
     {
@@ -1846,7 +1975,11 @@
       "team2": "Henrietta",
       "score2": null,
       "winner": null,
-      "site": "Game Details Snyder High School",
+      "site": "Snyder High School",
+      "lat": 32.69666,
+      "lng": -100.93113,
+      "stadium": "Grant Teaff Tiger Stadium",
+      "map_link": "https://maps.app.goo.gl/isXFJpXnaUGkXRir6",
       "date": "2026-11-13"
     },
     {
@@ -1860,7 +1993,7 @@
       "team2": "Friona",
       "score2": null,
       "winner": null,
-      "site": "Game Details Greg Sherwood Memorial Bulldog Stadium",
+      "site": "Greg Sherwood Memorial Bulldog Stadium",
       "date": "2026-11-13"
     },
     {
@@ -1874,7 +2007,11 @@
       "team2": "Grape Creek",
       "score2": null,
       "winner": null,
-      "site": "Game Details Brownwood High School",
+      "site": "Brownwood High School",
+      "lat": 31.66554,
+      "lng": -98.97911,
+      "stadium": "Gordon Wood Stadium",
+      "map_link": "https://goo.gl/maps/RJK8G9xu2CNQVoaFA",
       "date": "2026-11-12"
     },
     {
@@ -1888,7 +2025,11 @@
       "team2": "Littlefield",
       "score2": null,
       "winner": null,
-      "site": "Game Details Floydada HS",
+      "site": "Floydada HS",
+      "lat": 33.98785,
+      "lng": -101.34441,
+      "stadium": "Charles Tyer Stadium",
+      "map_link": "https://goo.gl/maps/j3dQ5NFbpdq16vYc8",
       "date": "2026-11-13"
     },
     {
@@ -1954,7 +2095,11 @@
       "team2": "Buffalo",
       "score2": null,
       "winner": null,
-      "site": "Game Details Centerville High School",
+      "site": "Centerville High School",
+      "lat": 31.25112,
+      "lng": -95.98079,
+      "stadium": "Tiger Stadium",
+      "map_link": "https://goo.gl/maps/6R9STj9xGB8DTTHW7",
       "date": "2026-11-13"
     },
     {
@@ -1968,7 +2113,11 @@
       "team2": "Hardin",
       "score2": null,
       "winner": null,
-      "site": "Game Details Nacogdoches High School",
+      "site": "Nacogdoches High School",
+      "lat": 31.62446,
+      "lng": -94.63261,
+      "stadium": "Dragon Stadium",
+      "map_link": "https://goo.gl/maps/D7N5k9oDxAnGca4C6",
       "date": "2026-11-13"
     },
     {
@@ -2047,7 +2196,11 @@
       "team2": "Boling",
       "score2": null,
       "winner": null,
-      "site": "Game Details La Grange",
+      "site": "La Grange",
+      "lat": 29.90345,
+      "lng": -96.86569,
+      "stadium": "Leopard Stadium",
+      "map_link": "https://goo.gl/maps/6tQRy1aGx1HnL3qx9",
       "date": "2026-11-12"
     },
     {
@@ -2074,7 +2227,11 @@
       "team2": "Quitman",
       "score2": null,
       "winner": null,
-      "site": "Game Details Honey Grove High School",
+      "site": "Honey Grove High School",
+      "lat": 33.5907,
+      "lng": -95.90036,
+      "stadium": "Warrior Field",
+      "map_link": "https://goo.gl/maps/EDGj9H1u8Yw99xzJ7",
       "date": "2026-11-13"
     },
     {
@@ -2166,7 +2323,7 @@
       "team2": "Blanco",
       "score2": null,
       "winner": null,
-      "site": "Game Details at Natalia",
+      "site": "Natalia",
       "date": "2026-11-13"
     },
     {
@@ -2180,7 +2337,11 @@
       "team2": "Cotulla",
       "score2": null,
       "winner": null,
-      "site": "Game Details Bandera HS",
+      "site": "Bandera HS",
+      "lat": 29.73287,
+      "lng": -99.06621,
+      "stadium": "Bulldog Stadium",
+      "map_link": "https://goo.gl/maps/ViYkAS4q5jZpf6Vf7",
       "date": "2026-11-13"
     },
     {
@@ -2259,7 +2420,6 @@
       "team2": "La Vernia",
       "score2": null,
       "winner": null,
-      "site": "Game Details Bi-District Championship",
       "date": "2026-11-13"
     },
     {
@@ -2273,7 +2433,11 @@
       "team2": "Dumas",
       "score2": null,
       "winner": null,
-      "site": "Game Details Denver City High School",
+      "site": "Denver City High School",
+      "lat": 32.97337,
+      "lng": -102.83726,
+      "stadium": "Mustang Stadium",
+      "map_link": "https://goo.gl/maps/kxG68a59E33aYR1v6",
       "date": "2026-11-13"
     },
     {
@@ -2287,7 +2451,11 @@
       "team2": "San Angelo Lake View",
       "score2": null,
       "winner": null,
-      "site": "Game Details Mineral Wells High School",
+      "site": "Mineral Wells High School",
+      "lat": 32.81599,
+      "lng": -98.07786,
+      "stadium": "Ram Stadium",
+      "map_link": "https://goo.gl/maps/tLrsxB1wW7KTD4cG9",
       "date": "2026-11-13"
     },
     {
@@ -2301,7 +2469,11 @@
       "team2": "El Paso Austin",
       "score2": null,
       "winner": null,
-      "site": "Game Details Kermit HS",
+      "site": "Kermit HS",
+      "lat": 31.85106,
+      "lng": -103.09002,
+      "stadium": "Walton Field",
+      "map_link": "https://goo.gl/maps/GJanAyyu3He6RB5PA",
       "date": "2026-11-12"
     },
     {
@@ -2315,7 +2487,11 @@
       "team2": "Lake Dallas",
       "score2": null,
       "winner": null,
-      "site": "Game Details Clyde High School",
+      "site": "Clyde High School",
+      "lat": 32.41429,
+      "lng": -99.52905,
+      "stadium": "Clyde Bulldog Stadium",
+      "map_link": "https://goo.gl/maps/L4WY19wkxC676aSv7",
       "date": "2026-11-13"
     },
     {
@@ -2329,7 +2505,7 @@
       "team2": "Springtown",
       "score2": null,
       "winner": null,
-      "site": "Game Details Buckaroo Stadium; Breckenridge, TX",
+      "site": "Buckaroo Stadium; Breckenridge, TX",
       "lat": 32.76,
       "lng": -98.90864,
       "stadium": "Buckaroo Stadium",
@@ -2373,7 +2549,11 @@
       "team2": "New Braunfels Canyon",
       "score2": null,
       "winner": null,
-      "site": "Game Details Andrews HS",
+      "site": "Andrews HS",
+      "lat": 32.32274,
+      "lng": -102.57009,
+      "stadium": "Mustang Bowl",
+      "map_link": "https://maps.app.goo.gl/DZWYSntZDeRASZYz9",
       "date": "2026-11-12"
     },
     {
@@ -2491,7 +2671,7 @@
       "team2": "Lampasas",
       "score2": null,
       "winner": null,
-      "site": "Game Details Tiger Stad., 285 St. Hwy 95, Smithville, TX 78957",
+      "site": "Tiger Stad., 285 St. Hwy 95, Smithville, TX 78957",
       "date": "2026-11-13"
     },
     {
@@ -2700,7 +2880,11 @@
       "team2": "Shepherd",
       "score2": null,
       "winner": null,
-      "site": "Game Details Madisonville High School",
+      "site": "Madisonville High School",
+      "lat": 30.94501,
+      "lng": -95.90846,
+      "stadium": "Mustang Stadium",
+      "map_link": "https://goo.gl/maps/uCkXHGAGQdu9zi1W6",
       "date": "2026-11-13"
     },
     {
@@ -2727,7 +2911,7 @@
       "team2": "Madisonville",
       "score2": null,
       "winner": null,
-      "site": "Game Details Abe Martin Stadium - Lufkin, TX. Silsbee is home.",
+      "site": "Abe Martin Stadium - Lufkin, TX",
       "lat": 31.33598,
       "lng": -94.68785,
       "stadium": "Abe Martin Stadium",
@@ -2758,7 +2942,7 @@
       "team2": "Manor New Tech",
       "score2": null,
       "winner": null,
-      "site": "Game Details Leo Buckley Stadium - Killeen",
+      "site": "Leo Buckley Stadium - Killeen",
       "lat": 31.10987,
       "lng": -97.69441,
       "stadium": "Leo Buckley Stadium",
@@ -2971,7 +3155,7 @@
       "team2": "Pecos",
       "score2": null,
       "winner": null,
-      "site": "Game Details Irvin HS",
+      "site": "Irvin HS",
       "date": "2026-11-13"
     },
     {
@@ -2985,7 +3169,11 @@
       "team2": "Lubbock Estacado",
       "score2": null,
       "winner": null,
-      "site": "Game Details Sweetwater HS",
+      "site": "Sweetwater HS",
+      "lat": 32.48264,
+      "lng": -100.40611,
+      "stadium": "Mustang Bowl",
+      "map_link": "https://goo.gl/maps/ZoK3S1snEe41y7LW8",
       "date": "2026-11-13"
     },
     {
@@ -2999,7 +3187,7 @@
       "team2": "Bowie (?)",
       "score2": null,
       "winner": null,
-      "site": "Game Details Seminole HS",
+      "site": "Seminole HS",
       "date": "2026-11-12"
     },
     {
@@ -3039,7 +3227,11 @@
       "team2": "Clint",
       "score2": null,
       "winner": null,
-      "site": "Game Details Monahans High School",
+      "site": "Monahans High School",
+      "lat": 31.58382,
+      "lng": -102.89709,
+      "stadium": "Estes Memorial Stadium",
+      "map_link": "https://goo.gl/maps/yPYAiviWYXsXwswA9",
       "date": "2026-11-12"
     },
     {
@@ -3053,7 +3245,7 @@
       "team2": "Perryton",
       "score2": null,
       "winner": null,
-      "site": "Game Details Lowrey Field",
+      "site": "Lowrey Field",
       "date": "2026-11-12"
     },
     {
@@ -3067,7 +3259,7 @@
       "team2": "Big Spring",
       "score2": null,
       "winner": null,
-      "site": "Game Details Mountain View HS",
+      "site": "Mountain View HS",
       "date": "2026-11-13"
     },
     {
@@ -3185,7 +3377,11 @@
       "team2": "Friendswood",
       "score2": null,
       "winner": null,
-      "site": "Game Details College Station HS",
+      "site": "College Station HS",
+      "lat": 30.55707,
+      "lng": -96.28654,
+      "stadium": "Cougar Field",
+      "map_link": "https://goo.gl/maps/BmdUrUAuB5BM1rgs7",
       "date": "2026-11-13"
     },
     {
@@ -3251,7 +3447,7 @@
       "team2": "FW Chisholm Trail",
       "score2": null,
       "winner": null,
-      "site": "Game Details FWISD Farrington",
+      "site": "FWISD Farrington",
       "date": "2026-11-13"
     },
     {
@@ -3265,7 +3461,7 @@
       "team2": "El Paso Bel Air",
       "score2": null,
       "winner": null,
-      "site": "Game Details Dick Bivins (Amarillo)",
+      "site": "Dick Bivins (Amarillo)",
       "date": "2026-11-13"
     },
     {
@@ -3292,7 +3488,7 @@
       "team2": "FW Paschal",
       "score2": null,
       "winner": null,
-      "site": "Game Details CH Collins",
+      "site": "CH Collins",
       "date": "2026-11-12"
     },
     {
@@ -3397,7 +3593,7 @@
       "team2": "Laredo Nixon",
       "score2": null,
       "winner": null,
-      "site": "Game Details Smithson Valley Ranger Stadium",
+      "site": "Smithson Valley Ranger Stadium",
       "date": "2026-11-12"
     },
     {
@@ -3528,7 +3724,7 @@
       "team2": "Frisco Panther Creek",
       "score2": null,
       "winner": null,
-      "site": "Game Details Argyle ISD Stadium - Round 1 - UIL State Playoffs",
+      "site": "Argyle ISD Stadium",
       "date": "2026-11-13"
     },
     {
@@ -3620,7 +3816,7 @@
       "team2": "El Paso Burges",
       "score2": null,
       "winner": null,
-      "site": "Game Details Dick Bivins Stadium (Amarillo)",
+      "site": "Dick Bivins Stadium (Amarillo)",
       "lat": 35.20023,
       "lng": -101.81035,
       "stadium": "Dick Bivins Stadium",
@@ -3638,7 +3834,11 @@
       "team2": "El Paso Del Valle",
       "score2": null,
       "winner": null,
-      "site": "Game Details Wylie High School",
+      "site": "Wylie High School",
+      "lat": 32.37323,
+      "lng": -99.78182,
+      "stadium": "Hugh Sandifer Stadium",
+      "map_link": "https://goo.gl/maps/NdS8WdJ5FqeWxro5A",
       "date": "2026-11-13"
     },
     {
@@ -3652,7 +3852,7 @@
       "team2": "Abilene Cooper",
       "score2": null,
       "winner": null,
-      "site": "Game Details Canutillo HS",
+      "site": "Canutillo HS",
       "date": "2026-11-13"
     },
     {
@@ -3718,7 +3918,7 @@
       "team2": "Waco",
       "score2": null,
       "winner": null,
-      "site": "Game Details Newsom Stadium",
+      "site": "Newsom Stadium",
       "date": "2026-11-13"
     },
     {
@@ -3745,7 +3945,7 @@
       "team2": "Seguin",
       "score2": null,
       "winner": null,
-      "site": "Game Details Brenham Cub Stadium",
+      "site": "Brenham Cub Stadium",
       "lat": 30.15912,
       "lng": -96.37902,
       "stadium": "Cub Stadium",
@@ -3789,7 +3989,6 @@
       "team2": "Austin Crockett",
       "score2": null,
       "winner": null,
-      "site": "Game Details 1st Round Bi-District Playoffs",
       "date": "2026-11-13"
     },
     {
@@ -3881,7 +4080,7 @@
       "team2": "Mission Sharyland Pioneer",
       "score2": null,
       "winner": null,
-      "site": "Game Details Ray Akins Wildcat Stadium",
+      "site": "Ray Akins Wildcat Stadium",
       "date": "2026-11-13"
     },
     {
@@ -3947,7 +4146,7 @@
       "team2": "South Grand Prairie",
       "score2": null,
       "winner": null,
-      "site": "Game Details Mustang Panther Stadium",
+      "site": "Mustang Panther Stadium",
       "date": "2026-11-13"
     },
     {
@@ -4091,7 +4290,7 @@
       "team2": "El Paso Eastlake",
       "score2": null,
       "winner": null,
-      "site": "Game Details Ratliff Stadium Odessa Texas 6pm CST",
+      "site": "Ratliff Stadium Odessa Texas",
       "lat": 31.9127,
       "lng": -102.3592,
       "stadium": "Ratliff Stadium",
@@ -4161,7 +4360,7 @@
       "team2": "Fulshear Jordan",
       "score2": null,
       "winner": null,
-      "site": "Game Details Crusader Stadium",
+      "site": "Crusader Stadium",
       "date": "2026-11-13"
     },
     {
@@ -4188,7 +4387,7 @@
       "team2": "Fort Bend Travis",
       "score2": null,
       "winner": null,
-      "site": "Game Details Legacy Stadium",
+      "site": "Legacy Stadium",
       "date": "2026-11-13"
     },
     {
@@ -4202,7 +4401,7 @@
       "team2": "San Antonio Reagan",
       "score2": null,
       "winner": null,
-      "site": "Game Details Lehnhoff Stadium",
+      "site": "Lehnhoff Stadium",
       "date": "2026-11-12"
     },
     {
@@ -4242,7 +4441,7 @@
       "team2": "San Antonio Harlan",
       "score2": null,
       "winner": null,
-      "site": "Game Details Laredo Student Activity Center",
+      "site": "Laredo Student Activity Center",
       "date": "2026-11-13"
     },
     {
@@ -4386,7 +4585,6 @@
       "team2": "Weatherford",
       "score2": null,
       "winner": null,
-      "site": "Game Details Bi-District Playoff Game",
       "date": "2026-11-13"
     },
     {
@@ -4530,7 +4728,7 @@
       "team2": "Braswell",
       "score2": null,
       "winner": null,
-      "site": "Game Details Bi District - at Children's Health Stadium",
+      "site": "Children's Health Stadium",
       "lat": 33.2607,
       "lng": -96.80421,
       "stadium": "Children's Health Stadium",
@@ -4574,7 +4772,6 @@
       "team2": "Clear Springs",
       "score2": null,
       "winner": null,
-      "site": "Game Details Bi-District",
       "date": "2026-11-13"
     },
     {
@@ -4601,7 +4798,6 @@
       "team2": "Humble Atascocita",
       "score2": null,
       "winner": null,
-      "site": "Game Details 6A-D2 Bi-District Playoff",
       "date": "2026-11-13"
     },
     {
@@ -4615,7 +4811,7 @@
       "team2": "Fort Bend Hightower",
       "score2": null,
       "winner": null,
-      "site": "Game Details Legacy Stadium, 1830 Katyland Dr, Katy, TX 77493",
+      "site": "Legacy Stadium, 1830 Katyland Dr, Katy, TX 77493",
       "date": "2026-11-12"
     },
     {
@@ -4655,7 +4851,7 @@
       "team2": "Converse Judson",
       "score2": null,
       "winner": null,
-      "site": "Game Details Farris Stadium",
+      "site": "Farris Stadium",
       "date": "2026-11-13"
     },
     {
