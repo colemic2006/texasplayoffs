@@ -1,0 +1,6449 @@
+{
+ "source": "Home stadiums from TexasBob.com school list (Robert McSpadden, used with permission)",
+ "teams": {
+  "Abbott": {
+   "stadium_id": 137,
+   "stadium": "Panther Field",
+   "city": "Abbott",
+   "how": "city + school"
+  },
+  "Abernathy": {
+   "stadium_id": 719,
+   "stadium": "Antelope Stadium",
+   "city": "Abernathy",
+   "how": "city + school"
+  },
+  "Abilene": {
+   "stadium_id": 997,
+   "stadium": "P.E. Shotwell Stadium",
+   "city": "Abilene",
+   "how": "city + school"
+  },
+  "Abilene Cooper": {
+   "stadium_id": 997,
+   "stadium": "P.E. Shotwell Stadium",
+   "city": "Abilene",
+   "how": "city + school"
+  },
+  "Abilene High": {
+   "stadium_id": 997,
+   "stadium": "P.E. Shotwell Stadium",
+   "city": "Abilene",
+   "how": "city + school"
+  },
+  "Abilene Wylie": {
+   "stadium_id": 986,
+   "stadium": "Hugh Sandifer Stadium",
+   "city": "Abilene",
+   "how": "city + school"
+  },
+  "Agua Dulce": {
+   "stadium_id": 938,
+   "stadium": "Bud Bailey Stadium",
+   "city": "Agua Dulce",
+   "how": "city + school"
+  },
+  "Alamo Heights": {
+   "stadium_id": 847,
+   "stadium": "Harry B. Orem Stadium",
+   "city": "San Antonio",
+   "how": "only school with this name"
+  },
+  "Alba-Golden": {
+   "stadium_id": 418,
+   "stadium": "Alba - Golden Stadium",
+   "city": "Alba",
+   "how": "only school with this name"
+  },
+  "Aledo": {
+   "stadium_id": 1055,
+   "stadium": "Tim Buchanan Stadium",
+   "city": "Aledo",
+   "how": "city + school"
+  },
+  "Alice": {
+   "stadium_id": 889,
+   "stadium": "Memorial Stadium",
+   "city": "Alice",
+   "how": "city + school"
+  },
+  "Allen": {
+   "stadium_id": 1292,
+   "stadium": "Eagle Stadium",
+   "city": "Allen",
+   "how": "city + school"
+  },
+  "Alpine": {
+   "stadium_id": 383,
+   "stadium": "Buck Stadium",
+   "city": "Alpine",
+   "how": "city + school"
+  },
+  "Altair Rice": {
+   "stadium_id": 408,
+   "stadium": "Rice Veterans' Memorial Stadium",
+   "city": "Altair",
+   "how": "city + school"
+  },
+  "Alto": {
+   "stadium_id": 571,
+   "stadium": "Cam'Ron Matthews Field",
+   "city": "Alto",
+   "how": "city + school"
+  },
+  "Alvarado": {
+   "stadium_id": 225,
+   "stadium": "Charles Head Stadium",
+   "city": "Alvarado",
+   "how": "city + school"
+  },
+  "Alvord": {
+   "stadium_id": 643,
+   "stadium": "Bulldog Stadium",
+   "city": "Alvord",
+   "how": "city + school"
+  },
+  "Amarillo": {
+   "stadium_id": 722,
+   "stadium": "Dick Bivins Stadium",
+   "city": "Amarillo",
+   "how": "city + school"
+  },
+  "Amarillo Caprock": {
+   "stadium_id": 722,
+   "stadium": "Dick Bivins Stadium",
+   "city": "Amarillo",
+   "how": "city + school"
+  },
+  "Amarillo High": {
+   "stadium_id": 722,
+   "stadium": "Dick Bivins Stadium",
+   "city": "Amarillo",
+   "how": "city + school"
+  },
+  "Amarillo Highland Park": {
+   "stadium_id": 767,
+   "stadium": "Hornet Stadium",
+   "city": "Amarillo",
+   "how": "city + school"
+  },
+  "Amarillo Palo Duro": {
+   "stadium_id": 722,
+   "stadium": "Dick Bivins Stadium",
+   "city": "Amarillo",
+   "how": "city + school"
+  },
+  "Amarillo River Road": {
+   "stadium_id": 830,
+   "stadium": "Wildcat Stadium",
+   "city": "Amarillo",
+   "how": "city + school"
+  },
+  "Amarillo Tascosa": {
+   "stadium_id": 722,
+   "stadium": "Dick Bivins Stadium",
+   "city": "Amarillo",
+   "how": "city + school"
+  },
+  "Amherst": {
+   "stadium_id": 732,
+   "stadium": "Bulldog Stadium",
+   "city": "Amherst",
+   "how": "city + school"
+  },
+  "Anahuac": {
+   "stadium_id": 884,
+   "stadium": "Kyle White Stadium",
+   "city": "Anahuac",
+   "how": "city + school"
+  },
+  "Anderson-Shiro": {
+   "stadium_id": 1346,
+   "stadium": "Owl Stadium",
+   "city": "Anderson",
+   "how": "only school with this name"
+  },
+  "Andrews": {
+   "stadium_id": 992,
+   "stadium": "Mustang Bowl",
+   "city": "Andrews",
+   "how": "city + school"
+  },
+  "Angleton": {
+   "stadium_id": 1280,
+   "stadium": "Wildcat Stadium",
+   "city": "Angleton",
+   "how": "city + school"
+  },
+  "Anna": {
+   "stadium_id": 1657,
+   "stadium": "Coyote Stadium",
+   "city": "Anna",
+   "how": "city + school"
+  },
+  "Anson": {
+   "stadium_id": 1008,
+   "stadium": "Tiger Stadium",
+   "city": "Anson",
+   "how": "city + school"
+  },
+  "Anthony": {
+   "stadium_id": 603,
+   "stadium": "Tommy Sanchez Memorial Stadium",
+   "city": "Anthony",
+   "how": "city + school"
+  },
+  "Anton": {
+   "stadium_id": 733,
+   "stadium": "Matthew Hoover Family Stadium",
+   "city": "Anton",
+   "how": "city + school"
+  },
+  "Apple Springs": {
+   "stadium_id": 419,
+   "stadium": "Nelson Davis Stadium",
+   "city": "Apple Springs",
+   "how": "city + school"
+  },
+  "Aquilla": {
+   "stadium_id": 55,
+   "stadium": "Cougar Stadium",
+   "city": "Aquilla",
+   "how": "city + school"
+  },
+  "Aransas Pass": {
+   "stadium_id": 202,
+   "stadium": "Bo Bonorden Memorial Stadium",
+   "city": "Aransas Pass",
+   "how": "city + school"
+  },
+  "Archer City": {
+   "stadium_id": 715,
+   "stadium": "Wildcat Stadium",
+   "city": "Archer City",
+   "how": "city + school"
+  },
+  "Argyle": {
+   "stadium_id": 661,
+   "stadium": "Eagle Stadium",
+   "city": "Flower Mound",
+   "how": "city + school"
+  },
+  "Arlington": {
+   "stadium_id": 274,
+   "stadium": "Maverick Stadium",
+   "city": "Arlington",
+   "how": "city + school"
+  },
+  "Arlington Bowie": {
+   "stadium_id": 318,
+   "stadium": "C. H. Wilemon Field",
+   "city": "Arlington",
+   "how": "city + school"
+  },
+  "Arlington Heights": {
+   "stadium_id": 242,
+   "stadium": "Farrington Field",
+   "city": "Fort Worth",
+   "how": "only school with this name"
+  },
+  "Arlington High": {
+   "stadium_id": 274,
+   "stadium": "Maverick Stadium",
+   "city": "Arlington",
+   "how": "city + school"
+  },
+  "Arlington Lamar": {
+   "stadium_id": 228,
+   "stadium": "Cravens Field",
+   "city": "Arlington",
+   "how": "city + school"
+  },
+  "Arlington Martin": {
+   "stadium_id": 274,
+   "stadium": "Maverick Stadium",
+   "city": "Arlington",
+   "how": "city + school"
+  },
+  "Arlington Seguin": {
+   "stadium_id": 318,
+   "stadium": "C. H. Wilemon Field",
+   "city": "Arlington",
+   "how": "city + school"
+  },
+  "Arp": {
+   "stadium_id": 420,
+   "stadium": "Bill Herrington Tiger Stadium",
+   "city": "Arp",
+   "how": "city + school"
+  },
+  "Aspermont": {
+   "stadium_id": 525,
+   "stadium": "Hornet Stadium",
+   "city": "Aspermont",
+   "how": "city + school"
+  },
+  "Athens": {
+   "stadium_id": 432,
+   "stadium": "Bruce Field",
+   "city": "Athens",
+   "how": "city + school"
+  },
+  "Atlanta": {
+   "stadium_id": 547,
+   "stadium": "Rabbit Stadium",
+   "city": "Atlanta",
+   "how": "city + school"
+  },
+  "Aubrey": {
+   "stadium_id": 223,
+   "stadium": "Chaparral Stadium",
+   "city": "Aubrey",
+   "how": "city + school"
+  },
+  "Austin Akins": {
+   "stadium_id": 2,
+   "stadium": "Burger Stadium",
+   "city": "Austin",
+   "how": "city + school"
+  },
+  "Austin Anderson": {
+   "stadium_id": 2,
+   "stadium": "Burger Stadium",
+   "city": "Austin",
+   "how": "city + school"
+  },
+  "Austin Bowie": {
+   "stadium_id": 2,
+   "stadium": "Burger Stadium",
+   "city": "Austin",
+   "how": "city + school"
+  },
+  "Austin Crockett": {
+   "stadium_id": 2,
+   "stadium": "Burger Stadium",
+   "city": "Austin",
+   "how": "city + school"
+  },
+  "Austin Johnson": {
+   "stadium_id": 2,
+   "stadium": "Burger Stadium",
+   "city": "Austin",
+   "how": "city + school"
+  },
+  "Austin Lake Travis": {
+   "stadium_id": 13,
+   "stadium": "Cavalier Stadium at Lake Travis",
+   "city": "Austin",
+   "how": "city + school"
+  },
+  "Austin McCallum": {
+   "stadium_id": 8,
+   "stadium": "House Park Stadium",
+   "city": "Austin",
+   "how": "city + school"
+  },
+  "Austin McNeil": {
+   "stadium_id": 15,
+   "stadium": "Kelly Reeves Athletic Complex",
+   "city": "Austin",
+   "how": "city + school"
+  },
+  "Austin Travis": {
+   "stadium_id": 2,
+   "stadium": "Burger Stadium",
+   "city": "Austin",
+   "how": "city + school"
+  },
+  "Austin Vandegrift": {
+   "stadium_id": 1312,
+   "stadium": "Ed W. Monroe Memorial Stadium",
+   "city": "Austin",
+   "how": "city + school"
+  },
+  "Austin Westlake": {
+   "stadium_id": 3,
+   "stadium": "Chaparral Stadium",
+   "city": "Austin",
+   "how": "city + school"
+  },
+  "Avalon": {
+   "stadium_id": 474,
+   "stadium": "Eagle Field",
+   "city": "Avalon",
+   "how": "city + school"
+  },
+  "Axtell": {
+   "stadium_id": 121,
+   "stadium": "Ellison Field",
+   "city": "Axtell",
+   "how": "city + school"
+  },
+  "Azle": {
+   "stadium_id": 260,
+   "stadium": "Hornet Field",
+   "city": "Azle",
+   "how": "city + school"
+  },
+  "Baird": {
+   "stadium_id": 1007,
+   "stadium": "The Bears' Den",
+   "city": "Baird",
+   "how": "city + school"
+  },
+  "Ballinger": {
+   "stadium_id": 971,
+   "stadium": "Bearcat Stadium",
+   "city": "Ballinger",
+   "how": "city + school"
+  },
+  "Balmorhea": {
+   "stadium_id": 574,
+   "stadium": "Bear Stadium",
+   "city": "Balmorhea",
+   "how": "city + school"
+  },
+  "Bandera": {
+   "stadium_id": 903,
+   "stadium": "Bulldog Stadium",
+   "city": "Bandera",
+   "how": "city + school"
+  },
+  "Bangs": {
+   "stadium_id": 63,
+   "stadium": "Dragon Memorial Stadium",
+   "city": "Bangs",
+   "how": "city + school"
+  },
+  "Banquete": {
+   "stadium_id": 904,
+   "stadium": "Bulldog Stadium",
+   "city": "Banquete",
+   "how": "city + school"
+  },
+  "Bastrop": {
+   "stadium_id": 1290,
+   "stadium": "Bastrop Memorial Stadium",
+   "city": "Cedar Creek",
+   "how": "city + school"
+  },
+  "Bay City": {
+   "stadium_id": 2692,
+   "stadium": "Memorial Stadium",
+   "city": "Bay City",
+   "how": "city + school"
+  },
+  "Baytown Goose Creek Memorial": {
+   "stadium_id": 637,
+   "stadium": "Stallworth Stadium",
+   "city": "Baytown",
+   "how": "city + school"
+  },
+  "Beaumont United": {
+   "stadium_id": 1288,
+   "stadium": "Doggett Family Stadium",
+   "city": "Beaumont",
+   "how": "only school with this name"
+  },
+  "Bellaire": {
+   "stadium_id": 610,
+   "stadium": "Joe K. Butler Stadium",
+   "city": "Houston",
+   "how": "city + school"
+  },
+  "Bells": {
+   "stadium_id": 690,
+   "stadium": "Panther Stadium",
+   "city": "Bells",
+   "how": "city + school"
+  },
+  "Bellville": {
+   "stadium_id": 326,
+   "stadium": "Brahma Stadium",
+   "city": "Bellville",
+   "how": "city + school"
+  },
+  "Belton": {
+   "stadium_id": 163,
+   "stadium": "Tiger Field",
+   "city": "Belton",
+   "how": "city + school"
+  },
+  "Benjamin": {
+   "stadium_id": 686,
+   "stadium": "Ben Grill Field",
+   "city": "Benjamin",
+   "how": "city + school"
+  },
+  "Big Sandy": {
+   "stadium_id": 504,
+   "stadium": "Wildcat Stadium",
+   "city": "Big Sandy",
+   "how": "city + school"
+  },
+  "Big Sandy Harmony": {
+   "stadium_id": 4420,
+   "stadium": "Where Do You Play Stadium?",
+   "city": "Any Where",
+   "how": "only school with this name"
+  },
+  "Big Spring": {
+   "stadium_id": 989,
+   "stadium": "Memorial Stadium",
+   "city": "Big Spring",
+   "how": "city + school"
+  },
+  "Bishop": {
+   "stadium_id": 890,
+   "stadium": "George Luna Stadium",
+   "city": "Bishop",
+   "how": "city + school"
+  },
+  "Blackwell": {
+   "stadium_id": 97,
+   "stadium": "Hornet Stadium",
+   "city": "Blackwell",
+   "how": "city + school"
+  },
+  "Blanco": {
+   "stadium_id": 139,
+   "stadium": "Panther Stadium",
+   "city": "Blanco",
+   "how": "city + school"
+  },
+  "Blanket": {
+   "stadium_id": 161,
+   "stadium": "Switzer Field",
+   "city": "Blanket",
+   "how": "city + school"
+  },
+  "Blooming Grove": {
+   "stadium_id": 113,
+   "stadium": "Lion Stadium",
+   "city": "Blooming Grove",
+   "how": "city + school"
+  },
+  "Blue Ridge": {
+   "stadium_id": 1731,
+   "stadium": "Tiger Stadium",
+   "city": "Blue Ridge",
+   "how": "city + school"
+  },
+  "Blum": {
+   "stadium_id": 27,
+   "stadium": "J.M. White Field",
+   "city": "Blum",
+   "how": "city + school"
+  },
+  "Boerne": {
+   "stadium_id": 85,
+   "stadium": "Boerne ISD Stadium",
+   "city": "Boerne",
+   "how": "city + school"
+  },
+  "Bogata Rivercrest": {
+   "stadium_id": 552,
+   "stadium": "Rivercrest Rebel Stadium",
+   "city": "Bogata",
+   "how": "city + school"
+  },
+  "Boling": {
+   "stadium_id": 328,
+   "stadium": "Bulldog Stadium",
+   "city": "Boling",
+   "how": "city + school"
+  },
+  "Bonham": {
+   "stadium_id": 714,
+   "stadium": "Warrior Stadium",
+   "city": "Bonham",
+   "how": "city + school"
+  },
+  "Booker": {
+   "stadium_id": 782,
+   "stadium": "Kiowas Stadium",
+   "city": "Booker",
+   "how": "city + school"
+  },
+  "Borden County": {
+   "stadium_id": 743,
+   "stadium": "Coyote Stadium",
+   "city": "Gail ",
+   "how": "only school with this name"
+  },
+  "Borger": {
+   "stadium_id": 734,
+   "stadium": "Bulldog Stadium",
+   "city": "Borger",
+   "how": "city + school"
+  },
+  "Bovina": {
+   "stadium_id": 797,
+   "stadium": "Mustang Stadium",
+   "city": "Bovina",
+   "how": "city + school"
+  },
+  "Boys Ranch": {
+   "stadium_id": 814,
+   "stadium": "Roughrider Stadium",
+   "city": "Boys Ranch",
+   "how": "city + school"
+  },
+  "Brady": {
+   "stadium_id": 40,
+   "stadium": "Bulldog Stadium",
+   "city": "Brady",
+   "how": "city + school"
+  },
+  "Breckenridge": {
+   "stadium_id": 639,
+   "stadium": "Buckaroo Stadium",
+   "city": "Breckenridge",
+   "how": "city + school"
+  },
+  "Bremond": {
+   "stadium_id": 168,
+   "stadium": "Tiger Stadium",
+   "city": "Bremond",
+   "how": "city + school"
+  },
+  "Brenham": {
+   "stadium_id": 59,
+   "stadium": "Cub Stadium",
+   "city": "Brenham",
+   "how": "city + school"
+  },
+  "Bridge City": {
+   "stadium_id": 885,
+   "stadium": "Larry Ward Stadium",
+   "city": "Bridge City",
+   "how": "city + school"
+  },
+  "Bridgeport": {
+   "stadium_id": 641,
+   "stadium": "Bull Memorial Stadium",
+   "city": "Bridgeport",
+   "how": "city + school"
+  },
+  "Brock": {
+   "stadium_id": 1726,
+   "stadium": "Eagle Stadium",
+   "city": "Brock",
+   "how": "city + school"
+  },
+  "Bronte": {
+   "stadium_id": 122,
+   "stadium": "Stephenson Stadium",
+   "city": "Bronte",
+   "how": "city + school"
+  },
+  "Brookesmith": {
+   "stadium_id": 131,
+   "stadium": "Dillingham Field",
+   "city": "Brookesmith",
+   "how": "city + school"
+  },
+  "Brownfield": {
+   "stadium_id": 745,
+   "stadium": "Cub Stadium",
+   "city": "Brownfield",
+   "how": "city + school"
+  },
+  "Brownsboro": {
+   "stadium_id": 421,
+   "stadium": "Bear Stadium",
+   "city": "Brownsboro",
+   "how": "city + school"
+  },
+  "Brownsville Hanna": {
+   "stadium_id": 952,
+   "stadium": "Sams Memorial Stadium",
+   "city": "Brownsville",
+   "how": "city + school"
+  },
+  "Brownsville Lopez": {
+   "stadium_id": 952,
+   "stadium": "Sams Memorial Stadium",
+   "city": "Brownsville",
+   "how": "city + school"
+  },
+  "Brownsville Pace": {
+   "stadium_id": 952,
+   "stadium": "Sams Memorial Stadium",
+   "city": "Brownsville",
+   "how": "city + school"
+  },
+  "Brownsville Porter": {
+   "stadium_id": 952,
+   "stadium": "Sams Memorial Stadium",
+   "city": "Brownsville",
+   "how": "city + school"
+  },
+  "Brownsville Rivera": {
+   "stadium_id": 952,
+   "stadium": "Sams Memorial Stadium",
+   "city": "Brownsville",
+   "how": "city + school"
+  },
+  "Brownsville Veterans Memorial": {
+   "stadium_id": 952,
+   "stadium": "Sams Memorial Stadium",
+   "city": "Brownsville",
+   "how": "city + school"
+  },
+  "Brownwood": {
+   "stadium_id": 84,
+   "stadium": "Gordon Wood Stadium",
+   "city": "Brownwood",
+   "how": "city + school"
+  },
+  "Bruni": {
+   "stadium_id": 891,
+   "stadium": "Badger Stadium",
+   "city": "Bruni",
+   "how": "city + school"
+  },
+  "Bryan": {
+   "stadium_id": 181,
+   "stadium": "Merrill Green Stadium",
+   "city": "Bryan",
+   "how": "city + school"
+  },
+  "Bryson": {
+   "stadium_id": 653,
+   "stadium": "Cowboy Stadium",
+   "city": "Bryson",
+   "how": "city + school"
+  },
+  "Buckholts": {
+   "stadium_id": 105,
+   "stadium": "Jim Hauk Field",
+   "city": "Buckholts",
+   "how": "city + school"
+  },
+  "Buda Johnson": {
+   "stadium_id": 25,
+   "stadium": "Bob Shelton Stadium",
+   "city": "Buda",
+   "how": "city + school"
+  },
+  "Buena Vista": {
+   "stadium_id": 988,
+   "stadium": "Longhorn Stadium",
+   "city": "Imperial",
+   "how": "only school with this name"
+  },
+  "Buffalo": {
+   "stadium_id": 23,
+   "stadium": "Brewer Field",
+   "city": "Buffalo",
+   "how": "city + school"
+  },
+  "Bullard": {
+   "stadium_id": 1148,
+   "stadium": "Panther Stadium",
+   "city": "Bullard",
+   "how": "city + school"
+  },
+  "Buna": {
+   "stadium_id": 870,
+   "stadium": "Cougar Stadium",
+   "city": "Buna",
+   "how": "city + school"
+  },
+  "Burkburnett": {
+   "stadium_id": 644,
+   "stadium": "Bulldog Stadium",
+   "city": "Burkburnett",
+   "how": "city + school"
+  },
+  "Burkeville": {
+   "stadium_id": 358,
+   "stadium": "Roy Harper Stadium",
+   "city": "Burkeville",
+   "how": "city + school"
+  },
+  "Burleson": {
+   "stadium_id": 238,
+   "stadium": "Burleson ISD Stadium",
+   "city": "Burleson",
+   "how": "city + school"
+  },
+  "Burleson Centennial": {
+   "stadium_id": 238,
+   "stadium": "Burleson ISD Stadium",
+   "city": "Burleson",
+   "how": "city + school"
+  },
+  "Burnet": {
+   "stadium_id": 41,
+   "stadium": "Bulldog Stadium",
+   "city": "Burnet",
+   "how": "city + school"
+  },
+  "Burton": {
+   "stadium_id": 140,
+   "stadium": "Panther Stadium",
+   "city": "Burton",
+   "how": "city + school"
+  },
+  "Bushland": {
+   "stadium_id": 1040,
+   "stadium": "Falcon Stadium",
+   "city": "Bushland",
+   "how": "city + school"
+  },
+  "Bynum": {
+   "stadium_id": 34,
+   "stadium": "Bulldog Field",
+   "city": "Bynum",
+   "how": "city + school"
+  },
+  "Byron Nelson": {
+   "stadium_id": 299,
+   "stadium": "Northwest ISD Stadium",
+   "city": "Justin",
+   "how": "only school with this name"
+  },
+  "CC Calallen": {
+   "stadium_id": 212,
+   "stadium": "Phil Danaher Stadium",
+   "city": "Corpus Christi",
+   "how": "city + school"
+  },
+  "CC Carroll": {
+   "stadium_id": 203,
+   "stadium": "Buccaneer Stadium",
+   "city": "Corpus Christi",
+   "how": "city + school"
+  },
+  "CC Flour Bluff": {
+   "stadium_id": 206,
+   "stadium": "Hornet Stadium",
+   "city": "Corpus Christi",
+   "how": "city + school"
+  },
+  "CC Ray": {
+   "stadium_id": 204,
+   "stadium": "Cabaniss Athletic Complex",
+   "city": "Corpus Christi",
+   "how": "city + school"
+  },
+  "CC Tuloso Midway": {
+   "stadium_id": 211,
+   "stadium": "Warrior Stadium",
+   "city": "Corpus Christi",
+   "how": "city + school"
+  },
+  "CC Tuloso-Midway": {
+   "stadium_id": 211,
+   "stadium": "Warrior Stadium",
+   "city": "Corpus Christi",
+   "how": "city + school"
+  },
+  "CC Veterans Memorial": {
+   "stadium_id": 203,
+   "stadium": "Buccaneer Stadium",
+   "city": "Corpus Christi",
+   "how": "city + school"
+  },
+  "Caddo Mills": {
+   "stadium_id": 458,
+   "stadium": "Ed Locker Stadium",
+   "city": "Caddo Mills",
+   "how": "city + school"
+  },
+  "Caldwell": {
+   "stadium_id": 91,
+   "stadium": "Hornet Field",
+   "city": "Caldwell",
+   "how": "city + school"
+  },
+  "Callisburg": {
+   "stadium_id": 1147,
+   "stadium": "Wildcat Stadium",
+   "city": "Callisburg",
+   "how": "city + school"
+  },
+  "Calvert": {
+   "stadium_id": 177,
+   "stadium": "Wilkerson Field",
+   "city": "Calvert",
+   "how": "city + school"
+  },
+  "Cameron Yoe": {
+   "stadium_id": 199,
+   "stadium": "Yoe Field",
+   "city": "Cameron",
+   "how": "only school with this name"
+  },
+  "Canadian": {
+   "stadium_id": 831,
+   "stadium": "Wildcat Stadium",
+   "city": "Canadian",
+   "how": "city + school"
+  },
+  "Canton": {
+   "stadium_id": 361,
+   "stadium": "Norris Birdwell Stadium",
+   "city": "Canton",
+   "how": "city + school"
+  },
+  "Canutillo": {
+   "stadium_id": 580,
+   "stadium": "Eagle Stadium",
+   "city": "Canutillo",
+   "how": "city + school"
+  },
+  "Canyon Lake": {
+   "stadium_id": 1137,
+   "stadium": "Hawk Stadium",
+   "city": "Fischer",
+   "how": "only school with this name"
+  },
+  "Canyon Randall": {
+   "stadium_id": 781,
+   "stadium": "Happy State Bank Stadium",
+   "city": "Canyon",
+   "how": "only school with this name"
+  },
+  "Carrizo Springs": {
+   "stadium_id": 964,
+   "stadium": "Frank Carter Stadium",
+   "city": "Carrizo Springs",
+   "how": "city + school"
+  },
+  "Carrollton Creekview": {
+   "stadium_id": 297,
+   "stadium": "Standridge Stadium",
+   "city": "Carrollton",
+   "how": "city + school"
+  },
+  "Carrollton Smith": {
+   "stadium_id": 297,
+   "stadium": "Standridge Stadium",
+   "city": "Carrollton",
+   "how": "city + school"
+  },
+  "Carthage": {
+   "stadium_id": 1247,
+   "stadium": "Bulldog Stadium",
+   "city": "Carthage",
+   "how": "city + school"
+  },
+  "Castroville Medina Valley": {
+   "stadium_id": 946,
+   "stadium": "Panther Stadium",
+   "city": "Castroville",
+   "how": "city + school"
+  },
+  "Cayuga": {
+   "stadium_id": 502,
+   "stadium": "Scarborough Stadium",
+   "city": "Cayuga",
+   "how": "city + school"
+  },
+  "Cedar Hill": {
+   "stadium_id": 271,
+   "stadium": "Longhorn Stadium",
+   "city": "Cedar Hill",
+   "how": "city + school"
+  },
+  "Cedar Park": {
+   "stadium_id": 1340,
+   "stadium": "John Gupton Stadium",
+   "city": "Cedar Park",
+   "how": "only school with this name"
+  },
+  "Celeste": {
+   "stadium_id": 426,
+   "stadium": "Blue Devil Stadium",
+   "city": "Celeste",
+   "how": "city + school"
+  },
+  "Celina": {
+   "stadium_id": 3613,
+   "stadium": "Bobcat Stadium",
+   "city": "Celina",
+   "how": "city + school"
+  },
+  "Center": {
+   "stadium_id": 555,
+   "stadium": "Roughrider Stadium",
+   "city": "Center",
+   "how": "city + school"
+  },
+  "Center Point": {
+   "stadium_id": 146,
+   "stadium": "Pirate Stadium",
+   "city": "Center Point",
+   "how": "city + school"
+  },
+  "Channelview": {
+   "stadium_id": 475,
+   "stadium": "Ray Maddry Memorial Stadium",
+   "city": "Channelview",
+   "how": "city + school"
+  },
+  "Chapel Hill": {
+   "stadium_id": 443,
+   "stadium": "Bulldog Stadium",
+   "city": "Tyler",
+   "how": "only school with this name"
+  },
+  "Charlotte": {
+   "stadium_id": 961,
+   "stadium": "Trojan Field",
+   "city": "Charlotte",
+   "how": "city + school"
+  },
+  "Cherokee": {
+   "stadium_id": 100,
+   "stadium": "Indian Stadium",
+   "city": "Cherokee",
+   "how": "city + school"
+  },
+  "Chester": {
+   "stadium_id": 484,
+   "stadium": "Aubrey Bradley Stadium",
+   "city": "Chester",
+   "how": "city + school"
+  },
+  "Chico": {
+   "stadium_id": 658,
+   "stadium": "Dragon Field",
+   "city": "Chico",
+   "how": "city + school"
+  },
+  "Childress": {
+   "stadium_id": 760,
+   "stadium": "Fair Park Stadium",
+   "city": "Childress",
+   "how": "city + school"
+  },
+  "Chillicothe": {
+   "stadium_id": 660,
+   "stadium": "Moffett-Dodson Stadium",
+   "city": "Chillicothe",
+   "how": "city + school"
+  },
+  "Chilton": {
+   "stadium_id": 82,
+   "stadium": "Featherston Field",
+   "city": "Chilton",
+   "how": "city + school"
+  },
+  "China Spring": {
+   "stadium_id": 56,
+   "stadium": "Cougar Stadium",
+   "city": "China Spring",
+   "how": "city + school"
+  },
+  "Christoval": {
+   "stadium_id": 487,
+   "stadium": "Jack Pardee Memorial Stadium",
+   "city": "Christoval",
+   "how": "city + school"
+  },
+  "Cinco Ranch": {
+   "stadium_id": 1699,
+   "stadium": "Mike Johnston Field at Legacy Stadium",
+   "city": "Katy",
+   "how": "only school with this name"
+  },
+  "Cisco": {
+   "stadium_id": 486,
+   "stadium": "Chesley Stadium",
+   "city": "Cisco",
+   "how": "city + school"
+  },
+  "Clarendon": {
+   "stadium_id": 728,
+   "stadium": "Bronco Stadium",
+   "city": "Clarendon",
+   "how": "city + school"
+  },
+  "Clarksville": {
+   "stadium_id": 360,
+   "stadium": "New Century Club Field",
+   "city": "Clarksville",
+   "how": "city + school"
+  },
+  "Claude": {
+   "stadium_id": 798,
+   "stadium": "Mustang Stadium",
+   "city": "Claude",
+   "how": "city + school"
+  },
+  "Clear Creek": {
+   "stadium_id": 1701,
+   "stadium": "Challenger Columbia Stadium",
+   "city": "League City",
+   "how": "only school with this name"
+  },
+  "Clear Falls": {
+   "stadium_id": 1701,
+   "stadium": "Challenger Columbia Stadium",
+   "city": "League City",
+   "how": "only school with this name"
+  },
+  "Clear Springs": {
+   "stadium_id": 1701,
+   "stadium": "Challenger Columbia Stadium",
+   "city": "League City",
+   "how": "only school with this name"
+  },
+  "Cleveland": {
+   "stadium_id": 879,
+   "stadium": "Indian Stadium",
+   "city": "Cleveland",
+   "how": "city + school"
+  },
+  "Clifton": {
+   "stadium_id": 60,
+   "stadium": "Cub Stadium",
+   "city": "Clifton",
+   "how": "city + school"
+  },
+  "Clyde": {
+   "stadium_id": 1298,
+   "stadium": "Clyde Bulldog Stadium",
+   "city": "Clyde",
+   "how": "city + school"
+  },
+  "Coahoma": {
+   "stadium_id": 982,
+   "stadium": "Bill Easterling Memorial Stadium",
+   "city": "Coahoma",
+   "how": "city + school"
+  },
+  "Coldspring-Oakhurst": {
+   "stadium_id": 348,
+   "stadium": "Trojan Stadium",
+   "city": "Coldspring",
+   "how": "only school with this name"
+  },
+  "Coleman": {
+   "stadium_id": 98,
+   "stadium": "Hufford Field",
+   "city": "Coleman",
+   "how": "city + school"
+  },
+  "College Station": {
+   "stadium_id": 1646,
+   "stadium": "Cougar Field",
+   "city": "College Station",
+   "how": "city + school"
+  },
+  "Colleyville Heritage": {
+   "stadium_id": 280,
+   "stadium": "Mustang-Panther Stadium",
+   "city": "Grapevine",
+   "how": "only school with this name"
+  },
+  "Collinsville": {
+   "stadium_id": 651,
+   "stadium": "W. L. Stephenson Sports Complex",
+   "city": "Collinsville",
+   "how": "city + school"
+  },
+  "Colmesneil": {
+   "stadium_id": 436,
+   "stadium": "Taylor Field",
+   "city": "Colmesneil",
+   "how": "city + school"
+  },
+  "Columbus": {
+   "stadium_id": 332,
+   "stadium": "Cardinal Field at Memorial Stadium",
+   "city": "Columbus",
+   "how": "city + school"
+  },
+  "Comanche": {
+   "stadium_id": 101,
+   "stadium": "Indian Stadium",
+   "city": "Comanche",
+   "how": "city + school"
+  },
+  "Comfort": {
+   "stadium_id": 52,
+   "stadium": "Comfort High School Stadium",
+   "city": "Comfort",
+   "how": "city + school"
+  },
+  "Commerce": {
+   "stadium_id": 356,
+   "stadium": "Ernest Hawkins Field",
+   "city": "Commerce",
+   "how": "city + school"
+  },
+  "Como-Pickton": {
+   "stadium_id": 553,
+   "stadium": "Ron Heflin Field",
+   "city": "Como",
+   "how": "only school with this name"
+  },
+  "Conroe": {
+   "stadium_id": 478,
+   "stadium": "Buddy Moorhead Stadium",
+   "city": "Conroe",
+   "how": "city + school"
+  },
+  "Conroe Oak Ridge": {
+   "stadium_id": 478,
+   "stadium": "Buddy Moorhead Stadium",
+   "city": "Conroe",
+   "how": "only school with this name"
+  },
+  "Converse Judson": {
+   "stadium_id": 1149,
+   "stadium": "D.W. Rutledge Stadium",
+   "city": "Converse",
+   "how": "city + school"
+  },
+  "Coolidge": {
+   "stadium_id": 197,
+   "stadium": "Coolidge Yellow Jacket Athletic Complex",
+   "city": "Coolidge",
+   "how": "city + school"
+  },
+  "Coppell": {
+   "stadium_id": 227,
+   "stadium": "Buddy Echols Field",
+   "city": "Coppell",
+   "how": "city + school"
+  },
+  "Copperas Cove": {
+   "stadium_id": 42,
+   "stadium": "Bulldawg Stadium",
+   "city": "Copperas Cove",
+   "how": "city + school"
+  },
+  "Corpus Christi Calallen": {
+   "stadium_id": 212,
+   "stadium": "Phil Danaher Stadium",
+   "city": "Corpus Christi",
+   "how": "city + school"
+  },
+  "Corpus Christi Carroll": {
+   "stadium_id": 203,
+   "stadium": "Buccaneer Stadium",
+   "city": "Corpus Christi",
+   "how": "city + school"
+  },
+  "Corpus Christi Flour Bluff": {
+   "stadium_id": 206,
+   "stadium": "Hornet Stadium",
+   "city": "Corpus Christi",
+   "how": "city + school"
+  },
+  "Corpus Christi King": {
+   "stadium_id": 203,
+   "stadium": "Buccaneer Stadium",
+   "city": "Corpus Christi",
+   "how": "city + school"
+  },
+  "Corpus Christi London": {
+   "stadium_id": 1688,
+   "stadium": "Pirate Stadium",
+   "city": "Corpus Christi",
+   "how": "city + school"
+  },
+  "Corpus Christi Ray": {
+   "stadium_id": 204,
+   "stadium": "Cabaniss Athletic Complex",
+   "city": "Corpus Christi",
+   "how": "city + school"
+  },
+  "Corpus Christi Veterans Memorial": {
+   "stadium_id": 203,
+   "stadium": "Buccaneer Stadium",
+   "city": "Corpus Christi",
+   "how": "city + school"
+  },
+  "Corrigan-Camden": {
+   "stadium_id": 438,
+   "stadium": "Bulldog Stadium",
+   "city": "Corrigan",
+   "how": "only school with this name"
+  },
+  "Corsicana": {
+   "stadium_id": 1042,
+   "stadium": "Community National Bank & Trust Stadium",
+   "city": "Corsicana",
+   "how": "city + school"
+  },
+  "Cotton Center": {
+   "stadium_id": 758,
+   "stadium": "Elk Field",
+   "city": "Cotton Center",
+   "how": "city + school"
+  },
+  "Cotulla": {
+   "stadium_id": 943,
+   "stadium": "Myers Memorial Stadium",
+   "city": "Cotulla",
+   "how": "city + school"
+  },
+  "Crandall": {
+   "stadium_id": 288,
+   "stadium": "Pirate Stadium",
+   "city": "Crandall",
+   "how": "city + school"
+  },
+  "Crane": {
+   "stadium_id": 494,
+   "stadium": "EL Ave Stadium",
+   "city": "Crane",
+   "how": "city + school"
+  },
+  "Cranfills Gap": {
+   "stadium_id": 114,
+   "stadium": "Lion Stadium",
+   "city": "Cranfills Gap",
+   "how": "city + school"
+  },
+  "Crosby": {
+   "stadium_id": 615,
+   "stadium": "Cougar Stadium",
+   "city": "Crosby",
+   "how": "city + school"
+  },
+  "Crosbyton": {
+   "stadium_id": 737,
+   "stadium": "Chieftain Stadium",
+   "city": "Crosbyton",
+   "how": "city + school"
+  },
+  "Cross Plains": {
+   "stadium_id": 977,
+   "stadium": "Buffalo Stadium",
+   "city": "Cross Plains",
+   "how": "city + school"
+  },
+  "Crowell": {
+   "stadium_id": 716,
+   "stadium": "Dick Todd Field",
+   "city": "Crowell",
+   "how": "city + school"
+  },
+  "Crowley": {
+   "stadium_id": 164,
+   "stadium": "Crowley ISD Multi-Purpose Stadium",
+   "city": "Fort Worth",
+   "how": "city + school"
+  },
+  "Crystal City": {
+   "stadium_id": 930,
+   "stadium": "David Lopez Javelina Field",
+   "city": "Crystal City",
+   "how": "city + school"
+  },
+  "Cuero": {
+   "stadium_id": 399,
+   "stadium": "Gobbler Stadium",
+   "city": "Cuero",
+   "how": "city + school"
+  },
+  "Cumby": {
+   "stadium_id": 498,
+   "stadium": "Trojan Stadium",
+   "city": "Cumby",
+   "how": "city + school"
+  },
+  "Cushing": {
+   "stadium_id": 425,
+   "stadium": "J F Whitaker Stadium",
+   "city": "Cushing",
+   "how": "city + school"
+  },
+  "Cy Falls": {
+   "stadium_id": 1050,
+   "stadium": "Cy Fair FCU Stadium",
+   "city": "Cypress",
+   "how": "only school with this name"
+  },
+  "Cy Ranch": {
+   "stadium_id": 1050,
+   "stadium": "Cy Fair FCU Stadium",
+   "city": "Cypress",
+   "how": "only school with this name"
+  },
+  "Cy Woods": {
+   "stadium_id": 1050,
+   "stadium": "Cy Fair FCU Stadium",
+   "city": "Cypress",
+   "how": "only school with this name"
+  },
+  "Cy-Fair": {
+   "stadium_id": 1050,
+   "stadium": "Cy Fair FCU Stadium",
+   "city": "Cypress",
+   "how": "only school with this name"
+  },
+  "Cypress Bridgeland": {
+   "stadium_id": 1050,
+   "stadium": "Cy Fair FCU Stadium",
+   "city": "Cypress",
+   "how": "city + school"
+  },
+  "Cypress Creek": {
+   "stadium_id": 1050,
+   "stadium": "Cy Fair FCU Stadium",
+   "city": "Cypress",
+   "how": "only school with this name"
+  },
+  "Cypress Cy-Fair": {
+   "stadium_id": 1050,
+   "stadium": "Cy Fair FCU Stadium",
+   "city": "Cypress",
+   "how": "city + school"
+  },
+  "Cypress Falls": {
+   "stadium_id": 1050,
+   "stadium": "Cy Fair FCU Stadium",
+   "city": "Cypress",
+   "how": "only school with this name"
+  },
+  "Cypress Park": {
+   "stadium_id": 1050,
+   "stadium": "Cy Fair FCU Stadium",
+   "city": "Cypress",
+   "how": "only school with this name"
+  },
+  "Cypress Ridge": {
+   "stadium_id": 1050,
+   "stadium": "Cy Fair FCU Stadium",
+   "city": "Cypress",
+   "how": "only school with this name"
+  },
+  "Cypress Springs": {
+   "stadium_id": 1050,
+   "stadium": "Cy Fair FCU Stadium",
+   "city": "Cypress",
+   "how": "only school with this name"
+  },
+  "Cypress Woods": {
+   "stadium_id": 1050,
+   "stadium": "Cy Fair FCU Stadium",
+   "city": "Cypress",
+   "how": "only school with this name"
+  },
+  "D'Hanis": {
+   "stadium_id": 912,
+   "stadium": "Clayton \"Butch\" Woolls Stadium",
+   "city": "D'Hanis",
+   "how": "city + school"
+  },
+  "Daingerfield": {
+   "stadium_id": 559,
+   "stadium": "Mickey Mayne Tiger Stadium",
+   "city": "Daingerfield",
+   "how": "city + school"
+  },
+  "Dalhart": {
+   "stadium_id": 1578,
+   "stadium": "Memorial Stadium",
+   "city": "Dalhart",
+   "how": "city + school"
+  },
+  "Dallas Conrad": {
+   "stadium_id": 245,
+   "stadium": "Franklin Stadium",
+   "city": "Dallas",
+   "how": "city + school"
+  },
+  "Dallas Highland Park": {
+   "stadium_id": 256,
+   "stadium": "Highlander Stadium",
+   "city": "Highland Park",
+   "how": "city + school"
+  },
+  "Dallas Hillcrest": {
+   "stadium_id": 245,
+   "stadium": "Franklin Stadium",
+   "city": "Dallas",
+   "how": "city + school"
+  },
+  "Dallas Jesuit": {
+   "stadium_id": 251,
+   "stadium": "Ranger Stadium",
+   "city": "Dallas",
+   "how": "only school with this name"
+  },
+  "Dallas Lake Highlands": {
+   "stadium_id": 317,
+   "stadium": "Wildcat-Ram Stadium",
+   "city": "Dallas",
+   "how": "city + school"
+  },
+  "Dallas Lincoln": {
+   "stadium_id": 290,
+   "stadium": "Pleasant Grove Stadium",
+   "city": "Dallas",
+   "how": "city + school"
+  },
+  "Dallas Roosevelt": {
+   "stadium_id": 290,
+   "stadium": "Pleasant Grove Stadium",
+   "city": "Dallas",
+   "how": "city + school"
+  },
+  "Dallas Skyline": {
+   "stadium_id": 244,
+   "stadium": "Forester Field",
+   "city": "Dallas",
+   "how": "city + school"
+  },
+  "Danbury": {
+   "stadium_id": 406,
+   "stadium": "Humber Field",
+   "city": "Danbury",
+   "how": "city + school"
+  },
+  "Dayton": {
+   "stadium_id": 865,
+   "stadium": "Bronco Stadium",
+   "city": "Dayton",
+   "how": "city + school"
+  },
+  "De Kalb": {
+   "stadium_id": 422,
+   "stadium": "Gerald Pinkham Stadium",
+   "city": "De Kalb",
+   "how": "city + school"
+  },
+  "De Leon": {
+   "stadium_id": 21,
+   "stadium": "Bearcat Stadium",
+   "city": "De Leon",
+   "how": "city + school"
+  },
+  "Decatur": {
+   "stadium_id": 662,
+   "stadium": "Eagle Stadium",
+   "city": "Decatur",
+   "how": "city + school"
+  },
+  "Deer Park": {
+   "stadium_id": 614,
+   "stadium": "Clyde Abshier Stadium",
+   "city": "Deer Park",
+   "how": "city + school"
+  },
+  "Del Rio": {
+   "stadium_id": 949,
+   "stadium": "Walter Levermann Stadium",
+   "city": "Del Rio",
+   "how": "city + school"
+  },
+  "Dell City": {
+   "stadium_id": 578,
+   "stadium": "Cougar Field",
+   "city": "Dell City",
+   "how": "city + school"
+  },
+  "Denison": {
+   "stadium_id": 685,
+   "stadium": "Munson Stadium",
+   "city": "Denison",
+   "how": "city + school"
+  },
+  "Denton": {
+   "stadium_id": 647,
+   "stadium": "C. H. Collins Complex",
+   "city": "Denton",
+   "how": "city + school"
+  },
+  "Denton Ryan": {
+   "stadium_id": 647,
+   "stadium": "C. H. Collins Complex",
+   "city": "Denton",
+   "how": "city + school"
+  },
+  "Denver City": {
+   "stadium_id": 995,
+   "stadium": "Mustang Stadium",
+   "city": "Denver City",
+   "how": "city + school"
+  },
+  "Detroit": {
+   "stadium_id": 453,
+   "stadium": "Eagle Stadium",
+   "city": "Detroit",
+   "how": "city + school"
+  },
+  "Devine": {
+   "stadium_id": 184,
+   "stadium": "Warhorse Stadium",
+   "city": "Devine",
+   "how": "city + school"
+  },
+  "Deweyville": {
+   "stadium_id": 340,
+   "stadium": "Pirate Stadium",
+   "city": "Deweyville",
+   "how": "city + school"
+  },
+  "Diboll": {
+   "stadium_id": 352,
+   "stadium": "Lumberjack Stadium",
+   "city": "Diboll",
+   "how": "city + school"
+  },
+  "Dickinson": {
+   "stadium_id": 1136,
+   "stadium": "Sam Vitanza Stadium",
+   "city": "Dickinson",
+   "how": "city + school"
+  },
+  "Dilley": {
+   "stadium_id": 921,
+   "stadium": "Gosch Field",
+   "city": "Dilley",
+   "how": "city + school"
+  },
+  "Donna": {
+   "stadium_id": 895,
+   "stadium": "Bennie LaPrade Stadium",
+   "city": "Donna",
+   "how": "city + school"
+  },
+  "Dripping Springs": {
+   "stadium_id": 171,
+   "stadium": "Tiger Stadium",
+   "city": "Dripping Springs",
+   "how": "city + school"
+  },
+  "Dublin": {
+   "stadium_id": 3542,
+   "stadium": "Bob and Norma Cervetto Stadium",
+   "city": "Dublin",
+   "how": "city + school"
+  },
+  "Dumas": {
+   "stadium_id": 747,
+   "stadium": "Dumas Demon Stadium",
+   "city": "Dumas",
+   "how": "city + school"
+  },
+  "Duncanville": {
+   "stadium_id": 285,
+   "stadium": "Panther Stadium",
+   "city": "Duncanville",
+   "how": "city + school"
+  },
+  "Eagle Pass": {
+   "stadium_id": 1300,
+   "stadium": "Cozel Foster Veterans Memorial Stadium",
+   "city": "Eagle Pass",
+   "how": "city + school"
+  },
+  "Eagle Pass Winn": {
+   "stadium_id": 1300,
+   "stadium": "Cozel Foster Veterans Memorial Stadium",
+   "city": "Eagle Pass",
+   "how": "city + school"
+  },
+  "Early": {
+   "stadium_id": 126,
+   "stadium": "Longhorn Stadium",
+   "city": "Early",
+   "how": "city + school"
+  },
+  "East Bernard": {
+   "stadium_id": 404,
+   "stadium": "Memorial Field",
+   "city": "East Bernard",
+   "how": "city + school"
+  },
+  "East Chambers": {
+   "stadium_id": 866,
+   "stadium": "Buccaneer Stadium",
+   "city": "Winnie",
+   "how": "only school with this name"
+  },
+  "Eastland": {
+   "stadium_id": 125,
+   "stadium": "Maverick Stadium",
+   "city": "Eastland",
+   "how": "city + school"
+  },
+  "Edcouch-Elsa": {
+   "stadium_id": 966,
+   "stadium": "Benny Layton Memorial Stadium",
+   "city": "Elsa",
+   "how": "only school with this name"
+  },
+  "Eden": {
+   "stadium_id": 1005,
+   "stadium": "Sanders Field",
+   "city": "Eden",
+   "how": "city + school"
+  },
+  "Edgewood": {
+   "stadium_id": 439,
+   "stadium": "I. T. James Memorial Stadium",
+   "city": "Edgewood",
+   "how": "city + school"
+  },
+  "Edinburg": {
+   "stadium_id": 911,
+   "stadium": "Richard R. Flores Stadium",
+   "city": "Edinburg",
+   "how": "city + school"
+  },
+  "Edinburg Economedes": {
+   "stadium_id": 911,
+   "stadium": "Richard R. Flores Stadium",
+   "city": "Edinburg",
+   "how": "city + school"
+  },
+  "Edinburg North": {
+   "stadium_id": 911,
+   "stadium": "Richard R. Flores Stadium",
+   "city": "Edinburg",
+   "how": "only school with this name"
+  },
+  "Edinburg Vela": {
+   "stadium_id": 911,
+   "stadium": "Richard R. Flores Stadium",
+   "city": "Edinburg",
+   "how": "only school with this name"
+  },
+  "Edna": {
+   "stadium_id": 396,
+   "stadium": "Cowboy Memorial Stadium",
+   "city": "Edna",
+   "how": "city + school"
+  },
+  "El Campo": {
+   "stadium_id": 409,
+   "stadium": "Ricebird Stadium",
+   "city": "El Campo",
+   "how": "city + school"
+  },
+  "El Dorado": {
+   "stadium_id": 598,
+   "stadium": "SAC I Stadium",
+   "city": "El Paso",
+   "how": "only school with this name"
+  },
+  "El Paso Americas": {
+   "stadium_id": 598,
+   "stadium": "SAC I Stadium",
+   "city": "El Paso",
+   "how": "city + school"
+  },
+  "El Paso Andress": {
+   "stadium_id": 572,
+   "stadium": "Allan Sepkowitz Stadium",
+   "city": "El Paso",
+   "how": "city + school"
+  },
+  "El Paso Austin": {
+   "stadium_id": 591,
+   "stadium": "McKee Stadium",
+   "city": "El Paso",
+   "how": "city + school"
+  },
+  "El Paso Bel Air": {
+   "stadium_id": 585,
+   "stadium": "Highlander Stadium",
+   "city": "El Paso",
+   "how": "city + school"
+  },
+  "El Paso Bowie": {
+   "stadium_id": 575,
+   "stadium": "Baty-Simmang Memorial Stadium",
+   "city": "El Paso",
+   "how": "city + school"
+  },
+  "El Paso Burges": {
+   "stadium_id": 593,
+   "stadium": "Mustang Stadium",
+   "city": "El Paso",
+   "how": "city + school"
+  },
+  "El Paso Chapin": {
+   "stadium_id": 1729,
+   "stadium": "Chapin Stadium",
+   "city": "El Paso",
+   "how": "city + school"
+  },
+  "El Paso Coronado": {
+   "stadium_id": 600,
+   "stadium": "Quarles-Brooks Stadium",
+   "city": "El Paso",
+   "how": "city + school"
+  },
+  "El Paso Del Valle": {
+   "stadium_id": 577,
+   "stadium": "Conquest Stadium",
+   "city": "El Paso",
+   "how": "city + school"
+  },
+  "El Paso Eastlake": {
+   "stadium_id": 598,
+   "stadium": "SAC I Stadium",
+   "city": "El Paso",
+   "how": "city + school"
+  },
+  "El Paso Eastwood": {
+   "stadium_id": 601,
+   "stadium": "Trooper Stadium",
+   "city": "El Paso",
+   "how": "city + school"
+  },
+  "El Paso El Dorado": {
+   "stadium_id": 598,
+   "stadium": "SAC I Stadium",
+   "city": "El Paso",
+   "how": "city + school"
+  },
+  "El Paso Franklin": {
+   "stadium_id": 1727,
+   "stadium": "Franklin Stadium",
+   "city": "El Paso",
+   "how": "city + school"
+  },
+  "El Paso High": {
+   "stadium_id": 588,
+   "stadium": "R. R. Jones Stadium",
+   "city": "El Paso",
+   "how": "city + school"
+  },
+  "El Paso Irvin": {
+   "stadium_id": 597,
+   "stadium": "Irvin Memorial Stadium",
+   "city": "El Paso",
+   "how": "city + school"
+  },
+  "El Paso Jefferson": {
+   "stadium_id": 1728,
+   "stadium": "Silver Fox Stadium",
+   "city": "El Paso",
+   "how": "city + school"
+  },
+  "El Paso Montwood": {
+   "stadium_id": 598,
+   "stadium": "SAC I Stadium",
+   "city": "El Paso",
+   "how": "city + school"
+  },
+  "El Paso Parkland": {
+   "stadium_id": 590,
+   "stadium": "Matador Stadium",
+   "city": "El Paso",
+   "how": "city + school"
+  },
+  "El Paso Riverside": {
+   "stadium_id": 596,
+   "stadium": "Tom Work Riverfront Stadium",
+   "city": "El Paso",
+   "how": "city + school"
+  },
+  "El Paso Ysleta": {
+   "stadium_id": 586,
+   "stadium": "Hutchins Stadium",
+   "city": "El Paso",
+   "how": "city + school"
+  },
+  "Eldorado": {
+   "stadium_id": 489,
+   "stadium": "Larry Mitchel Stadium",
+   "city": "Eldorado",
+   "how": "city + school"
+  },
+  "Electra": {
+   "stadium_id": 704,
+   "stadium": "Tiger Stadium",
+   "city": "Electra",
+   "how": "city + school"
+  },
+  "Elgin": {
+   "stadium_id": 187,
+   "stadium": "Wildcat Stadium",
+   "city": "Elgin",
+   "how": "city + school"
+  },
+  "Elkhart": {
+   "stadium_id": 456,
+   "stadium": "Jerry Ives Memorial Stadium",
+   "city": "Elkhart",
+   "how": "city + school"
+  },
+  "Elysian Fields": {
+   "stadium_id": 470,
+   "stadium": "Jacket Stadium",
+   "city": "Elysian Fields",
+   "how": "city + school"
+  },
+  "Emory Rains": {
+   "stadium_id": 1678,
+   "stadium": "Wildcat Stadium",
+   "city": "Emory",
+   "how": "city + school"
+  },
+  "Ennis": {
+   "stadium_id": 115,
+   "stadium": "Lion Memorial Stadium",
+   "city": "Ennis",
+   "how": "city + school"
+  },
+  "Era": {
+   "stadium_id": 670,
+   "stadium": "Hornet Stadium",
+   "city": "Era",
+   "how": "city + school"
+  },
+  "Euless Trinity": {
+   "stadium_id": 286,
+   "stadium": "Pennington Field",
+   "city": "Bedford",
+   "how": "city + school"
+  },
+  "Eustace": {
+   "stadium_id": 440,
+   "stadium": "Bulldog Stadium",
+   "city": "Eustace",
+   "how": "city + school"
+  },
+  "Evadale": {
+   "stadium_id": 344,
+   "stadium": "Rebel Field",
+   "city": "Evadale",
+   "how": "city + school"
+  },
+  "Evant": {
+   "stadium_id": 80,
+   "stadium": "Elk Stadium",
+   "city": "Evant",
+   "how": "city + school"
+  },
+  "Everman": {
+   "stadium_id": 264,
+   "stadium": "J. E. Marr Stadium",
+   "city": "Everman",
+   "how": "city + school"
+  },
+  "FW Arlington Heights": {
+   "stadium_id": 242,
+   "stadium": "Farrington Field",
+   "city": "Fort Worth",
+   "how": "city + school"
+  },
+  "FW Brewer": {
+   "stadium_id": 1269,
+   "stadium": "Ben Davis Stadium",
+   "city": "Fort Worth",
+   "how": "city + school"
+  },
+  "FW Carter-Riverside": {
+   "stadium_id": 252,
+   "stadium": "Scarborough-Handley Field",
+   "city": "Fort Worth",
+   "how": "city + school"
+  },
+  "FW Chisholm Trail": {
+   "stadium_id": 1611,
+   "stadium": "Rangers Stadium",
+   "city": "Fort Worth",
+   "how": "city + school"
+  },
+  "FW Dunbar": {
+   "stadium_id": 255,
+   "stadium": "Herman Clark Stadium",
+   "city": "Fort Worth",
+   "how": "city + school"
+  },
+  "FW Eastern Hills": {
+   "stadium_id": 255,
+   "stadium": "Herman Clark Stadium",
+   "city": "Fort Worth",
+   "how": "city + school"
+  },
+  "FW Paschal": {
+   "stadium_id": 242,
+   "stadium": "Farrington Field",
+   "city": "Fort Worth",
+   "how": "city + school"
+  },
+  "FW Southwest": {
+   "stadium_id": 242,
+   "stadium": "Farrington Field",
+   "city": "Fort Worth",
+   "how": "city + school"
+  },
+  "FW Western Hills": {
+   "stadium_id": 242,
+   "stadium": "Farrington Field",
+   "city": "Fort Worth",
+   "how": "city + school"
+  },
+  "Fabens": {
+   "stadium_id": 604,
+   "stadium": "Wildcat Stadium",
+   "city": "Fabens",
+   "how": "city + school"
+  },
+  "Fairfield": {
+   "stadium_id": 78,
+   "stadium": "Eagle Stadium",
+   "city": "Fairfield",
+   "how": "city + school"
+  },
+  "Falfurrias": {
+   "stadium_id": 932,
+   "stadium": "Jersey Bull Stadium",
+   "city": "Falfurrias",
+   "how": "city + school"
+  },
+  "Falls City": {
+   "stadium_id": 894,
+   "stadium": "Beaver Stadium",
+   "city": "Falls City",
+   "how": "city + school"
+  },
+  "Farmersville": {
+   "stadium_id": 241,
+   "stadium": "Farmer Stadium",
+   "city": "Farmersville",
+   "how": "city + school"
+  },
+  "Farwell": {
+   "stadium_id": 818,
+   "stadium": "W. M. Roberts Stadium",
+   "city": "Farwell",
+   "how": "city + school"
+  },
+  "Ferris": {
+   "stadium_id": 321,
+   "stadium": "Yellow Jacket Stadium",
+   "city": "Ferris",
+   "how": "city + school"
+  },
+  "Fischer Canyon Lake": {
+   "stadium_id": 1137,
+   "stadium": "Hawk Stadium",
+   "city": "Fischer",
+   "how": "city + school"
+  },
+  "Floresville": {
+   "stadium_id": 919,
+   "stadium": "Eschenburg Field",
+   "city": "Floresville",
+   "how": "city + school"
+  },
+  "Flour Bluff": {
+   "stadium_id": 206,
+   "stadium": "Hornet Stadium",
+   "city": "Corpus Christi",
+   "how": "only school with this name"
+  },
+  "Flower Mound": {
+   "stadium_id": 265,
+   "stadium": "Neal Wilson Athletic Stadium",
+   "city": "Flower Mound",
+   "how": "city + school"
+  },
+  "Flower Mound Marcus": {
+   "stadium_id": 1305,
+   "stadium": "Marcus Marauder Stadium",
+   "city": "Flower Mound",
+   "how": "city + school"
+  },
+  "Floydada": {
+   "stadium_id": 827,
+   "stadium": "Charles Tyer Stadium",
+   "city": "Floydada",
+   "how": "city + school"
+  },
+  "Follett": {
+   "stadium_id": 805,
+   "stadium": "Panther Stadium",
+   "city": "Follett",
+   "how": "city + school"
+  },
+  "Forestburg": {
+   "stadium_id": 1252,
+   "stadium": "Longhorn Field",
+   "city": "Forestburg",
+   "how": "city + school"
+  },
+  "Forney": {
+   "stadium_id": 666,
+   "stadium": "Forney City Bank Stadium",
+   "city": "Forney",
+   "how": "city + school"
+  },
+  "Forsan": {
+   "stadium_id": 978,
+   "stadium": "Buffalo Stadium",
+   "city": "Forsan",
+   "how": "city + school"
+  },
+  "Fort Davis": {
+   "stadium_id": 573,
+   "stadium": "Bart Coan Field",
+   "city": "Fort Davis",
+   "how": "city + school"
+  },
+  "Fort Stockton": {
+   "stadium_id": 595,
+   "stadium": "Panther Stadium",
+   "city": "Fort Stockton",
+   "how": "city + school"
+  },
+  "Fort Worth Arlington Heights": {
+   "stadium_id": 242,
+   "stadium": "Farrington Field",
+   "city": "Fort Worth",
+   "how": "city + school"
+  },
+  "Fort Worth Benbrook": {
+   "stadium_id": 255,
+   "stadium": "Herman Clark Stadium",
+   "city": "Fort Worth",
+   "how": "city + school"
+  },
+  "Fort Worth Boswell": {
+   "stadium_id": 287,
+   "stadium": "Pioneer Stadium",
+   "city": "Saginaw",
+   "how": "city + school"
+  },
+  "Fort Worth Brewer": {
+   "stadium_id": 1269,
+   "stadium": "Ben Davis Stadium",
+   "city": "Fort Worth",
+   "how": "city + school"
+  },
+  "Fort Worth Dunbar": {
+   "stadium_id": 255,
+   "stadium": "Herman Clark Stadium",
+   "city": "Fort Worth",
+   "how": "city + school"
+  },
+  "Fort Worth Eastern Hills": {
+   "stadium_id": 255,
+   "stadium": "Herman Clark Stadium",
+   "city": "Fort Worth",
+   "how": "city + school"
+  },
+  "Fort Worth North Crowley": {
+   "stadium_id": 164,
+   "stadium": "Crowley ISD Multi-Purpose Stadium",
+   "city": "Fort Worth",
+   "how": "city + school"
+  },
+  "Fort Worth O.D. Wyatt": {
+   "stadium_id": 255,
+   "stadium": "Herman Clark Stadium",
+   "city": "Fort Worth",
+   "how": "city + school"
+  },
+  "Fort Worth South Hills": {
+   "stadium_id": 242,
+   "stadium": "Farrington Field",
+   "city": "Fort Worth",
+   "how": "city + school"
+  },
+  "Fort Worth Southwest": {
+   "stadium_id": 242,
+   "stadium": "Farrington Field",
+   "city": "Fort Worth",
+   "how": "city + school"
+  },
+  "Fort Worth Western Hills": {
+   "stadium_id": 242,
+   "stadium": "Farrington Field",
+   "city": "Fort Worth",
+   "how": "city + school"
+  },
+  "Frankston": {
+   "stadium_id": 464,
+   "stadium": "Jeff and Opal Austin Stadium",
+   "city": "Frankston",
+   "how": "city + school"
+  },
+  "Fredericksburg": {
+   "stadium_id": 83,
+   "stadium": "Battlin' Billie Stadium",
+   "city": "Fredericksburg",
+   "how": "city + school"
+  },
+  "Freeport Brazosport": {
+   "stadium_id": 401,
+   "stadium": "Hopper Field",
+   "city": "Freeport",
+   "how": "city + school"
+  },
+  "Freer": {
+   "stadium_id": 1734,
+   "stadium": "Buckaroo Stadium",
+   "city": "Freer",
+   "how": "city + school"
+  },
+  "Friendswood": {
+   "stadium_id": 515,
+   "stadium": "Henry Winston Stadium",
+   "city": "Friendswood",
+   "how": "city + school"
+  },
+  "Friendswood Clear Brook": {
+   "stadium_id": 1701,
+   "stadium": "Challenger Columbia Stadium",
+   "city": "League City",
+   "how": "city + school"
+  },
+  "Friona": {
+   "stadium_id": 738,
+   "stadium": "Chieftain Stadium",
+   "city": "Friona",
+   "how": "city + school"
+  },
+  "Frisco": {
+   "stadium_id": 278,
+   "stadium": "David Kuykendall Stadium",
+   "city": "Frisco",
+   "how": "city + school"
+  },
+  "Frisco Centennial": {
+   "stadium_id": 278,
+   "stadium": "David Kuykendall Stadium",
+   "city": "Frisco",
+   "how": "city + school"
+  },
+  "Frisco Independence": {
+   "stadium_id": 278,
+   "stadium": "David Kuykendall Stadium",
+   "city": "Frisco",
+   "how": "city + school"
+  },
+  "Frisco Liberty": {
+   "stadium_id": 278,
+   "stadium": "David Kuykendall Stadium",
+   "city": "Frisco",
+   "how": "city + school"
+  },
+  "Frisco Lone Star": {
+   "stadium_id": 278,
+   "stadium": "David Kuykendall Stadium",
+   "city": "Frisco",
+   "how": "city + school"
+  },
+  "Frisco Reedy": {
+   "stadium_id": 278,
+   "stadium": "David Kuykendall Stadium",
+   "city": "Frisco",
+   "how": "city + school"
+  },
+  "Frisco Wakeland": {
+   "stadium_id": 278,
+   "stadium": "David Kuykendall Stadium",
+   "city": "Frisco",
+   "how": "city + school"
+  },
+  "Frost": {
+   "stadium_id": 106,
+   "stadium": "Joe Parum Stadium",
+   "city": "Frost",
+   "how": "city + school"
+  },
+  "Gainesville": {
+   "stadium_id": 1309,
+   "stadium": "Leopard Stadium",
+   "city": "Gainesville",
+   "how": "city + school"
+  },
+  "Galena Park": {
+   "stadium_id": 512,
+   "stadium": "Galena Park ISD Stadium",
+   "city": "Houston",
+   "how": "city + school"
+  },
+  "Galveston Ball": {
+   "stadium_id": 617,
+   "stadium": "Kermit Courville Stadium",
+   "city": "Galveston",
+   "how": "city + school"
+  },
+  "Ganado": {
+   "stadium_id": 403,
+   "stadium": "Indian Stadium",
+   "city": "Ganado",
+   "how": "city + school"
+  },
+  "Garland": {
+   "stadium_id": 320,
+   "stadium": "Williams Stadium",
+   "city": "Garland",
+   "how": "city + school"
+  },
+  "Garland Naaman Forest": {
+   "stadium_id": 320,
+   "stadium": "Williams Stadium",
+   "city": "Garland",
+   "how": "city + school"
+  },
+  "Garrison": {
+   "stadium_id": 441,
+   "stadium": "Bulldog Stadium",
+   "city": "Garrison",
+   "how": "city + school"
+  },
+  "Gatesville": {
+   "stadium_id": 127,
+   "stadium": "Tommy Davidson Field at McKamie Stadium",
+   "city": "Gatesville",
+   "how": "city + school"
+  },
+  "Gateway Charter Academy": {
+   "stadium_id": 1279,
+   "stadium": "Gateway Field",
+   "city": "Dallas",
+   "how": "only school with this name"
+  },
+  "George Ranch": {
+   "stadium_id": 514,
+   "stadium": "Guy K. Traylor Stadium",
+   "city": "Rosenberg",
+   "how": "only school with this name"
+  },
+  "George West": {
+   "stadium_id": 939,
+   "stadium": "Longhorn Stadium",
+   "city": "George West",
+   "how": "city + school"
+  },
+  "Georgetown": {
+   "stadium_id": 6,
+   "stadium": "Georgetown ISD Athletic Complex",
+   "city": "Georgetown",
+   "how": "city + school"
+  },
+  "Georgetown East View": {
+   "stadium_id": 6,
+   "stadium": "Georgetown ISD Athletic Complex",
+   "city": "Georgetown",
+   "how": "city + school"
+  },
+  "Geronimo Navarro": {
+   "stadium_id": 141,
+   "stadium": "Erwin - Lee Field",
+   "city": "Geronimo",
+   "how": "city + school"
+  },
+  "Giddings": {
+   "stadium_id": 33,
+   "stadium": "Buffalo Stadium",
+   "city": "Giddings",
+   "how": "city + school"
+  },
+  "Gilmer": {
+   "stadium_id": 433,
+   "stadium": "Jeff Traylor Stadium",
+   "city": "Gilmer",
+   "how": "city + school"
+  },
+  "Gladewater": {
+   "stadium_id": 469,
+   "stadium": "Jack V. Murphy Stadium",
+   "city": "Gladewater",
+   "how": "city + school"
+  },
+  "Glen Rose": {
+   "stadium_id": 172,
+   "stadium": "Tiger Stadium",
+   "city": "Glen Rose",
+   "how": "city + school"
+  },
+  "Godley": {
+   "stadium_id": 188,
+   "stadium": "The Wild",
+   "city": "Godley",
+   "how": "city + school"
+  },
+  "Gold-Burg": {
+   "stadium_id": 1146,
+   "stadium": "Joe Corpening Field",
+   "city": "Stoneburg",
+   "how": "only school with this name"
+  },
+  "Goldthwaite": {
+   "stadium_id": 64,
+   "stadium": "Eagle Field",
+   "city": "Goldthwaite",
+   "how": "city + school"
+  },
+  "Goliad": {
+   "stadium_id": 958,
+   "stadium": "Tiger Stadium",
+   "city": "Goliad",
+   "how": "city + school"
+  },
+  "Gonzales": {
+   "stadium_id": 18,
+   "stadium": "Apache Field",
+   "city": "Gonzales",
+   "how": "city + school"
+  },
+  "Gordon": {
+   "stadium_id": 681,
+   "stadium": "Longhorn Stadium",
+   "city": "Gordon",
+   "how": "city + school"
+  },
+  "Gorman": {
+   "stadium_id": 31,
+   "stadium": "Brogdon Field",
+   "city": "Gorman",
+   "how": "city + school"
+  },
+  "Graham": {
+   "stadium_id": 688,
+   "stadium": "Newton Field",
+   "city": "Graham",
+   "how": "city + school"
+  },
+  "Granbury": {
+   "stadium_id": 148,
+   "stadium": "Pirate Stadium",
+   "city": "Granbury",
+   "how": "city + school"
+  },
+  "Grand Prairie": {
+   "stadium_id": 248,
+   "stadium": "Gopher Warrior Bowl",
+   "city": "Grand Prairie",
+   "how": "city + school"
+  },
+  "Grand Saline": {
+   "stadium_id": 465,
+   "stadium": "Carter Elliott Field",
+   "city": "Grand Saline",
+   "how": "city + school"
+  },
+  "Grandfalls-Royalty": {
+   "stadium_id": 488,
+   "stadium": "John S. White Stadium",
+   "city": "Grandfalls",
+   "how": "only school with this name"
+  },
+  "Grandview": {
+   "stadium_id": 200,
+   "stadium": "Zebra Stadium",
+   "city": "Grandview",
+   "how": "city + school"
+  },
+  "Granger": {
+   "stadium_id": 116,
+   "stadium": "The Lion's Den",
+   "city": "Granger",
+   "how": "city + school"
+  },
+  "Grape Creek": {
+   "stadium_id": 490,
+   "stadium": "Eagle Stadium",
+   "city": "San Angelo",
+   "how": "only school with this name"
+  },
+  "Grapeland": {
+   "stadium_id": 459,
+   "stadium": "Grapeland Sandies Stadium",
+   "city": "Grapeland",
+   "how": "city + school"
+  },
+  "Grapevine": {
+   "stadium_id": 280,
+   "stadium": "Mustang-Panther Stadium",
+   "city": "Grapevine",
+   "how": "city + school"
+  },
+  "Gregory-Portland": {
+   "stadium_id": 213,
+   "stadium": "Ray Akins Wildcat Stadium",
+   "city": "Portland",
+   "how": "only school with this name"
+  },
+  "Groesbeck": {
+   "stadium_id": 87,
+   "stadium": "Groesbeck Stadium",
+   "city": "Grosbeck",
+   "how": "city + school"
+  },
+  "Groom": {
+   "stadium_id": 820,
+   "stadium": "Tiger Field",
+   "city": "Groom",
+   "how": "city + school"
+  },
+  "Groveton": {
+   "stadium_id": 880,
+   "stadium": "John W Reynolds Athletic Complex",
+   "city": "Groveton",
+   "how": "city + school"
+  },
+  "Gruver": {
+   "stadium_id": 765,
+   "stadium": "Greyhound Stadium",
+   "city": "Gruver",
+   "how": "city + school"
+  },
+  "Gunter": {
+   "stadium_id": 705,
+   "stadium": "Tiger Stadium",
+   "city": "Gunter",
+   "how": "city + school"
+  },
+  "Gustine": {
+   "stadium_id": 88,
+   "stadium": "Roger Oliver Stadium",
+   "city": "Gustine",
+   "how": "city + school"
+  },
+  "Guthrie": {
+   "stadium_id": 776,
+   "stadium": "Jack Huey Field",
+   "city": "Guthrie",
+   "how": "city + school"
+  },
+  "Hale Center": {
+   "stadium_id": 803,
+   "stadium": "Owl Stadium",
+   "city": "Hale Center",
+   "how": "city + school"
+  },
+  "Hallettsville": {
+   "stadium_id": 327,
+   "stadium": "Brahmas Memorial Stadium",
+   "city": "Hallettsville",
+   "how": "city + school"
+  },
+  "Hallsville": {
+   "stadium_id": 429,
+   "stadium": "Bobcat Stadium",
+   "city": "Hallsville",
+   "how": "city + school"
+  },
+  "Haltom City": {
+   "stadium_id": 220,
+   "stadium": "Birdville Fine Arts and Athletics Complex",
+   "city": "North Richland Hills",
+   "how": "city + school"
+  },
+  "Hamilton": {
+   "stadium_id": 108,
+   "stadium": "Kooken Field",
+   "city": "Hamilton",
+   "how": "city + school"
+  },
+  "Hamlin": {
+   "stadium_id": 999,
+   "stadium": "Piper Stadium",
+   "city": "Hamlin",
+   "how": "city + school"
+  },
+  "Hamshire-Fannett": {
+   "stadium_id": 888,
+   "stadium": "Longhorn Stadium",
+   "city": "Hamshire",
+   "how": "only school with this name"
+  },
+  "Happy": {
+   "stadium_id": 741,
+   "stadium": "Cowboy Corral Stadium",
+   "city": "Happy",
+   "how": "city + school"
+  },
+  "Hardin": {
+   "stadium_id": 878,
+   "stadium": "Hornet Stadium",
+   "city": "Hardin",
+   "how": "city + school"
+  },
+  "Hardin-Jefferson": {
+   "stadium_id": 877,
+   "stadium": "Hawk Stadium",
+   "city": "Sour Lake",
+   "how": "only school with this name"
+  },
+  "Harker Heights": {
+   "stadium_id": 110,
+   "stadium": "Leo Buckley Stadium",
+   "city": "Killeen",
+   "how": "city + school"
+  },
+  "Harleton": {
+   "stadium_id": 503,
+   "stadium": "Wildcat Field",
+   "city": "Harleton",
+   "how": "city + school"
+  },
+  "Harlingen": {
+   "stadium_id": 928,
+   "stadium": "J. Lewis Boggus Stadium",
+   "city": "Harlingen",
+   "how": "city + school"
+  },
+  "Harlingen South": {
+   "stadium_id": 928,
+   "stadium": "J. Lewis Boggus Stadium",
+   "city": "Harlingen",
+   "how": "only school with this name"
+  },
+  "Harper": {
+   "stadium_id": 120,
+   "stadium": "Longhorn Field",
+   "city": "Harper",
+   "how": "city + school"
+  },
+  "Harrold": {
+   "stadium_id": 669,
+   "stadium": "Ron Brandon Field",
+   "city": "Harrold",
+   "how": "city + school"
+  },
+  "Haskell": {
+   "stadium_id": 773,
+   "stadium": "Indian Field",
+   "city": "Haskell",
+   "how": "city + school"
+  },
+  "Hawkins": {
+   "stadium_id": 351,
+   "stadium": "Lowrance Field",
+   "city": "Hawkins",
+   "how": "city + school"
+  },
+  "Hawley": {
+   "stadium_id": 972,
+   "stadium": "Forrest Field",
+   "city": "Hawley",
+   "how": "city + school"
+  },
+  "Hearne": {
+   "stadium_id": 193,
+   "stadium": "Wood Field",
+   "city": "Hearne",
+   "how": "city + school"
+  },
+  "Hebbronville": {
+   "stadium_id": 924,
+   "stadium": "Gruy Stadium",
+   "city": "Hebbronville",
+   "how": "city + school"
+  },
+  "Hedley": {
+   "stadium_id": 802,
+   "stadium": "Owl Field",
+   "city": "Hedley",
+   "how": "city + school"
+  },
+  "Helotes O'Connor": {
+   "stadium_id": 846,
+   "stadium": "Gustafson Stadium",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "Hemphill": {
+   "stadium_id": 462,
+   "stadium": "Hornet Stadium",
+   "city": "Hemphill",
+   "how": "city + school"
+  },
+  "Hempstead": {
+   "stadium_id": 607,
+   "stadium": "Bobcat Stadium",
+   "city": "Hempstead",
+   "how": "city + school"
+  },
+  "Henderson": {
+   "stadium_id": 533,
+   "stadium": "Lion Stadium",
+   "city": "Henderson",
+   "how": "city + school"
+  },
+  "Henrietta": {
+   "stadium_id": 369,
+   "stadium": "Bearcat Stadium",
+   "city": "Henrietta",
+   "how": "city + school"
+  },
+  "Hereford": {
+   "stadium_id": 828,
+   "stadium": "Whiteface Stadium",
+   "city": "Hereford",
+   "how": "city + school"
+  },
+  "Hermleigh": {
+   "stadium_id": 648,
+   "stadium": "Cardinal Stadium",
+   "city": "Hermleigh",
+   "how": "city + school"
+  },
+  "Hico": {
+   "stadium_id": 173,
+   "stadium": "Tiger Stadium",
+   "city": "Hico",
+   "how": "city + school"
+  },
+  "Hidalgo Early College": {
+   "stadium_id": 896,
+   "stadium": "Bill Pate Stadium",
+   "city": "Hidalgo",
+   "how": "only school with this name"
+  },
+  "High Island": {
+   "stadium_id": 613,
+   "stadium": "Cardinals Nest Stadium",
+   "city": "High Island",
+   "how": "city + school"
+  },
+  "Hillsboro": {
+   "stadium_id": 65,
+   "stadium": "Dr. John Erwin Stadium",
+   "city": "Hillsboro",
+   "how": "city + school"
+  },
+  "Hitchcock": {
+   "stadium_id": 609,
+   "stadium": "Bulldog Stadium",
+   "city": "Hitchcock",
+   "how": "city + school"
+  },
+  "Holland": {
+   "stadium_id": 92,
+   "stadium": "Mike Rosa Athletic Complex",
+   "city": "Holland",
+   "how": "city + school"
+  },
+  "Holliday": {
+   "stadium_id": 663,
+   "stadium": "Eagle Stadium",
+   "city": "Holliday",
+   "how": "city + school"
+  },
+  "Hondo": {
+   "stadium_id": 893,
+   "stadium": "Barry Field",
+   "city": "Hondo",
+   "how": "city + school"
+  },
+  "Honey Grove": {
+   "stadium_id": 713,
+   "stadium": "Warrior Field",
+   "city": "Honey Grove",
+   "how": "city + school"
+  },
+  "Hooks": {
+   "stadium_id": 463,
+   "stadium": "Hornet Stadium",
+   "city": "Hooks",
+   "how": "city + school"
+  },
+  "Houston Austin": {
+   "stadium_id": 605,
+   "stadium": "Herman A. Barnett Stadium",
+   "city": "Houston",
+   "how": "city + school"
+  },
+  "Houston Chavez": {
+   "stadium_id": 605,
+   "stadium": "Herman A. Barnett Stadium",
+   "city": "Houston",
+   "how": "city + school"
+  },
+  "Houston Clear Lake": {
+   "stadium_id": 1701,
+   "stadium": "Challenger Columbia Stadium",
+   "city": "League City",
+   "how": "city + school"
+  },
+  "Houston Cypress Falls": {
+   "stadium_id": 1050,
+   "stadium": "Cy Fair FCU Stadium",
+   "city": "Cypress",
+   "how": "city + school"
+  },
+  "Houston Dobie": {
+   "stadium_id": 631,
+   "stadium": "Veterans Memorial Stadium",
+   "city": "Pasadena",
+   "how": "city + school"
+  },
+  "Houston Eisenhower": {
+   "stadium_id": 366,
+   "stadium": "W. W. Thorne Stadium",
+   "city": "Houston",
+   "how": "city + school"
+  },
+  "Houston Furr": {
+   "stadium_id": 519,
+   "stadium": "Jones-Cowart Stadium",
+   "city": "Houston",
+   "how": "city + school"
+  },
+  "Houston Heights": {
+   "stadium_id": 623,
+   "stadium": "Dyer Stadium",
+   "city": "Houston",
+   "how": "city + school"
+  },
+  "Houston Jersey Village": {
+   "stadium_id": 1050,
+   "stadium": "Cy Fair FCU Stadium",
+   "city": "Cypress",
+   "how": "city + school"
+  },
+  "Houston Kashmere": {
+   "stadium_id": 621,
+   "stadium": "Delmar Stadium",
+   "city": "Houston",
+   "how": "city + school"
+  },
+  "Houston Lamar": {
+   "stadium_id": 621,
+   "stadium": "Delmar Stadium",
+   "city": "Houston",
+   "how": "city + school"
+  },
+  "Houston Madison": {
+   "stadium_id": 610,
+   "stadium": "Joe K. Butler Stadium",
+   "city": "Houston",
+   "how": "city + school"
+  },
+  "Houston Memorial": {
+   "stadium_id": 364,
+   "stadium": "Darrell Tully Stadium",
+   "city": "Houston",
+   "how": "city + school"
+  },
+  "Houston Milby": {
+   "stadium_id": 605,
+   "stadium": "Herman A. Barnett Stadium",
+   "city": "Houston",
+   "how": "city + school"
+  },
+  "Houston Nimitz": {
+   "stadium_id": 366,
+   "stadium": "W. W. Thorne Stadium",
+   "city": "Houston",
+   "how": "city + school"
+  },
+  "Houston North Forest": {
+   "stadium_id": 519,
+   "stadium": "Jones-Cowart Stadium",
+   "city": "Houston",
+   "how": "city + school"
+  },
+  "Houston Northside": {
+   "stadium_id": 519,
+   "stadium": "Jones-Cowart Stadium",
+   "city": "Houston",
+   "how": "city + school"
+  },
+  "Houston Scarborough": {
+   "stadium_id": 623,
+   "stadium": "Dyer Stadium",
+   "city": "Houston",
+   "how": "city + school"
+  },
+  "Houston Sharpstown": {
+   "stadium_id": 610,
+   "stadium": "Joe K. Butler Stadium",
+   "city": "Houston",
+   "how": "city + school"
+  },
+  "Houston Sterling": {
+   "stadium_id": 605,
+   "stadium": "Herman A. Barnett Stadium",
+   "city": "Houston",
+   "how": "city + school"
+  },
+  "Houston Stratford": {
+   "stadium_id": 364,
+   "stadium": "Darrell Tully Stadium",
+   "city": "Houston",
+   "how": "city + school"
+  },
+  "Houston Summer Creek": {
+   "stadium_id": 365,
+   "stadium": "Turner Stadium",
+   "city": "Humble",
+   "how": "city + school"
+  },
+  "Houston Waltrip": {
+   "stadium_id": 621,
+   "stadium": "Delmar Stadium",
+   "city": "Houston",
+   "how": "city + school"
+  },
+  "Houston Washington": {
+   "stadium_id": 623,
+   "stadium": "Dyer Stadium",
+   "city": "Houston",
+   "how": "city + school"
+  },
+  "Houston Westbury": {
+   "stadium_id": 610,
+   "stadium": "Joe K. Butler Stadium",
+   "city": "Houston",
+   "how": "city + school"
+  },
+  "Houston Westfield": {
+   "stadium_id": 627,
+   "stadium": "Leonard George Stadium",
+   "city": "Spring",
+   "how": "city + school"
+  },
+  "Houston Westside": {
+   "stadium_id": 621,
+   "stadium": "Delmar Stadium",
+   "city": "Houston",
+   "how": "city + school"
+  },
+  "Houston Wheatley": {
+   "stadium_id": 519,
+   "stadium": "Jones-Cowart Stadium",
+   "city": "Houston",
+   "how": "city + school"
+  },
+  "Houston Wisdom": {
+   "stadium_id": 610,
+   "stadium": "Joe K. Butler Stadium",
+   "city": "Houston",
+   "how": "city + school"
+  },
+  "Houston Worthing": {
+   "stadium_id": 610,
+   "stadium": "Joe K. Butler Stadium",
+   "city": "Houston",
+   "how": "city + school"
+  },
+  "Houston Yates": {
+   "stadium_id": 605,
+   "stadium": "Herman A. Barnett Stadium",
+   "city": "Houston",
+   "how": "city + school"
+  },
+  "Howe": {
+   "stadium_id": 645,
+   "stadium": "Bulldog Stadium",
+   "city": "Howe",
+   "how": "city + school"
+  },
+  "Hubbard": {
+   "stadium_id": 103,
+   "stadium": "Jaguar Field",
+   "city": "Hubbard",
+   "how": "city + school"
+  },
+  "Huffman-Hargrave": {
+   "stadium_id": 1287,
+   "stadium": "Falcon Stadium",
+   "city": "Huffman",
+   "how": "city + school"
+  },
+  "Hughes Springs": {
+   "stadium_id": 359,
+   "stadium": "Mustang Stadium",
+   "city": "Hughes Springs",
+   "how": "city + school"
+  },
+  "Hull-Daisetta": {
+   "stadium_id": 864,
+   "stadium": "Bobcat Field",
+   "city": "Daisetta",
+   "how": "only school with this name"
+  },
+  "Humble": {
+   "stadium_id": 365,
+   "stadium": "Turner Stadium",
+   "city": "Humble",
+   "how": "city + school"
+  },
+  "Humble Atascocita": {
+   "stadium_id": 365,
+   "stadium": "Turner Stadium",
+   "city": "Humble",
+   "how": "city + school"
+  },
+  "Huntington": {
+   "stadium_id": 550,
+   "stadium": "Red Devil Field",
+   "city": "Huntington",
+   "how": "city + school"
+  },
+  "Huntsville": {
+   "stadium_id": 4412,
+   "stadium": "Huntsville ISD Stadium",
+   "city": "Huntsville",
+   "how": "city + school"
+  },
+  "Hurst Bell": {
+   "stadium_id": 286,
+   "stadium": "Pennington Field",
+   "city": "Bedford",
+   "how": "city + school"
+  },
+  "Hutto": {
+   "stadium_id": 90,
+   "stadium": "Hutto Memorial Stadium",
+   "city": "Hutto",
+   "how": "city + school"
+  },
+  "Idalou": {
+   "stadium_id": 813,
+   "stadium": "Taylor/Reddell Field",
+   "city": "Idalou",
+   "how": "city + school"
+  },
+  "Ingleside": {
+   "stadium_id": 207,
+   "stadium": "Mustang Stadium",
+   "city": "Ingleside",
+   "how": "city + school"
+  },
+  "Iola": {
+   "stadium_id": 44,
+   "stadium": "Bulldog Stadium",
+   "city": "Iola",
+   "how": "city + school"
+  },
+  "Iowa Colony": {
+   "stadium_id": 1758,
+   "stadium": "Alvin ISD Freedom Field",
+   "city": "Iowa Colony",
+   "how": "only school with this name"
+  },
+  "Iowa Park": {
+   "stadium_id": 668,
+   "stadium": "Hawk Stadium",
+   "city": "Iowa Park",
+   "how": "city + school"
+  },
+  "Ira": {
+   "stadium_id": 983,
+   "stadium": "Bulldog Stadium",
+   "city": "Ira",
+   "how": "city + school"
+  },
+  "Iraan": {
+   "stadium_id": 975,
+   "stadium": "Brave Stadium",
+   "city": "Iraan",
+   "how": "city + school"
+  },
+  "Iredell": {
+   "stadium_id": 62,
+   "stadium": "Dragon Field",
+   "city": "Iredell",
+   "how": "city + school"
+  },
+  "Irving": {
+   "stadium_id": 263,
+   "stadium": "Joy & Ralph Ellis Stadium",
+   "city": "Irving",
+   "how": "city + school"
+  },
+  "Irving MacArthur": {
+   "stadium_id": 263,
+   "stadium": "Joy & Ralph Ellis Stadium",
+   "city": "Irving",
+   "how": "city + school"
+  },
+  "Irving Nimitz": {
+   "stadium_id": 263,
+   "stadium": "Joy & Ralph Ellis Stadium",
+   "city": "Irving",
+   "how": "city + school"
+  },
+  "Irving Universal Academy": {
+   "stadium_id": 1262,
+   "stadium": "Sam Houston Middle School Field",
+   "city": "Irving",
+   "how": "only school with this name"
+  },
+  "Italy": {
+   "stadium_id": 191,
+   "stadium": "Gladiator Coliseum",
+   "city": "Italy",
+   "how": "city + school"
+  },
+  "Jacksboro": {
+   "stadium_id": 706,
+   "stadium": "Tiger Stadium",
+   "city": "Jacksboro",
+   "how": "city + school"
+  },
+  "Jacksonville": {
+   "stadium_id": 567,
+   "stadium": "The Tomato Bowl",
+   "city": "Jacksonville",
+   "how": "city + school"
+  },
+  "James Madison": {
+   "stadium_id": 290,
+   "stadium": "Pleasant Grove Stadium",
+   "city": "Dallas",
+   "how": "only school with this name"
+  },
+  "Jarrell": {
+   "stadium_id": 104,
+   "stadium": "Cougar Field",
+   "city": "Jarrell",
+   "how": "city + school"
+  },
+  "Jasper": {
+   "stadium_id": 867,
+   "stadium": "Bulldog Field",
+   "city": "Jasper",
+   "how": "city + school"
+  },
+  "Jersey Village": {
+   "stadium_id": 1050,
+   "stadium": "Cy Fair FCU Stadium",
+   "city": "Cypress",
+   "how": "only school with this name"
+  },
+  "Jewett Leon": {
+   "stadium_id": 54,
+   "stadium": "Cougar Field",
+   "city": "Jewett",
+   "how": "city + school"
+  },
+  "Jim Ned": {
+   "stadium_id": 528,
+   "stadium": "Indian Stadium",
+   "city": "Tuscola",
+   "how": "only school with this name"
+  },
+  "Joaquin": {
+   "stadium_id": 548,
+   "stadium": "Ram Stadium",
+   "city": "Joaquin",
+   "how": "city + school"
+  },
+  "Jonesboro": {
+   "stadium_id": 150,
+   "stadium": "Pruitt Field",
+   "city": "Jonesboro",
+   "how": "city + school"
+  },
+  "Jourdanton": {
+   "stadium_id": 881,
+   "stadium": "Indian Stadium",
+   "city": "Jourdanton",
+   "how": "city + school"
+  },
+  "Judson Veterans Memorial": {
+   "stadium_id": 1149,
+   "stadium": "D.W. Rutledge Stadium",
+   "city": "Converse",
+   "how": "only school with this name"
+  },
+  "Junction": {
+   "stadium_id": 73,
+   "stadium": "Eagle Stadium",
+   "city": "Junction",
+   "how": "city + school"
+  },
+  "Karnes City": {
+   "stadium_id": 892,
+   "stadium": "Poss Johnson Field",
+   "city": "Karnes City",
+   "how": "city + school"
+  },
+  "Katy": {
+   "stadium_id": 1699,
+   "stadium": "Mike Johnston Field at Legacy Stadium",
+   "city": "Katy",
+   "how": "city + school"
+  },
+  "Katy Cinco Ranch": {
+   "stadium_id": 1699,
+   "stadium": "Mike Johnston Field at Legacy Stadium",
+   "city": "Katy",
+   "how": "city + school"
+  },
+  "Katy High": {
+   "stadium_id": 1699,
+   "stadium": "Mike Johnston Field at Legacy Stadium",
+   "city": "Katy",
+   "how": "city + school"
+  },
+  "Katy Morton Ranch": {
+   "stadium_id": 1699,
+   "stadium": "Mike Johnston Field at Legacy Stadium",
+   "city": "Katy",
+   "how": "city + school"
+  },
+  "Katy Paetow": {
+   "stadium_id": 1699,
+   "stadium": "Mike Johnston Field at Legacy Stadium",
+   "city": "Katy",
+   "how": "city + school"
+  },
+  "Katy Seven Lakes": {
+   "stadium_id": 1699,
+   "stadium": "Mike Johnston Field at Legacy Stadium",
+   "city": "Katy",
+   "how": "city + school"
+  },
+  "Katy Taylor": {
+   "stadium_id": 1699,
+   "stadium": "Mike Johnston Field at Legacy Stadium",
+   "city": "Katy",
+   "how": "city + school"
+  },
+  "Kaufman": {
+   "stadium_id": 677,
+   "stadium": "Homer Norville Field",
+   "city": "Kaufman",
+   "how": "city + school"
+  },
+  "Keller": {
+   "stadium_id": 269,
+   "stadium": "Keller ISD Athletic Complex",
+   "city": "Keller",
+   "how": "city + school"
+  },
+  "Keller Central": {
+   "stadium_id": 269,
+   "stadium": "Keller ISD Athletic Complex",
+   "city": "Keller",
+   "how": "city + school"
+  },
+  "Keller Fossil Ridge": {
+   "stadium_id": 269,
+   "stadium": "Keller ISD Athletic Complex",
+   "city": "Keller",
+   "how": "only school with this name"
+  },
+  "Keller Timber Creek": {
+   "stadium_id": 269,
+   "stadium": "Keller ISD Athletic Complex",
+   "city": "Keller",
+   "how": "only school with this name"
+  },
+  "Kemp": {
+   "stadium_id": 718,
+   "stadium": "Yellow Jacket Stadium",
+   "city": "Kemp",
+   "how": "city + school"
+  },
+  "Kenedy": {
+   "stadium_id": 936,
+   "stadium": "Lion Stadium",
+   "city": "Kenedy",
+   "how": "city + school"
+  },
+  "Kennedale": {
+   "stadium_id": 316,
+   "stadium": "Wildcat Stadium",
+   "city": "Kennedale",
+   "how": "city + school"
+  },
+  "Kerens": {
+   "stadium_id": 28,
+   "stadium": "A.G. Godley Field",
+   "city": "Kerens",
+   "how": "city + school"
+  },
+  "Kermit": {
+   "stadium_id": 1010,
+   "stadium": "Walton Field",
+   "city": "Kermit",
+   "how": "city + school"
+  },
+  "Kerrville Tivy": {
+   "stadium_id": 17,
+   "stadium": "Antler Stadium",
+   "city": "Kerrville",
+   "how": "city + school"
+  },
+  "Kilgore": {
+   "stadium_id": 546,
+   "stadium": "R.E. St. John Memorial Stadium",
+   "city": "Kilgore",
+   "how": "city + school"
+  },
+  "Killeen": {
+   "stadium_id": 110,
+   "stadium": "Leo Buckley Stadium",
+   "city": "Killeen",
+   "how": "city + school"
+  },
+  "Killeen Ellison": {
+   "stadium_id": 110,
+   "stadium": "Leo Buckley Stadium",
+   "city": "Killeen",
+   "how": "city + school"
+  },
+  "Killeen Shoemaker": {
+   "stadium_id": 110,
+   "stadium": "Leo Buckley Stadium",
+   "city": "Killeen",
+   "how": "city + school"
+  },
+  "Kingwood": {
+   "stadium_id": 365,
+   "stadium": "Turner Stadium",
+   "city": "Humble",
+   "how": "city + school"
+  },
+  "Kirbyville": {
+   "stadium_id": 481,
+   "stadium": "Wildcat Stadium",
+   "city": "Kirbyville",
+   "how": "city + school"
+  },
+  "Klein": {
+   "stadium_id": 626,
+   "stadium": "Klein Memorial Stadium",
+   "city": "Klein",
+   "how": "city + school"
+  },
+  "Klein Cain": {
+   "stadium_id": 626,
+   "stadium": "Klein Memorial Stadium",
+   "city": "Klein",
+   "how": "only school with this name"
+  },
+  "Klein Collins": {
+   "stadium_id": 626,
+   "stadium": "Klein Memorial Stadium",
+   "city": "Klein",
+   "how": "only school with this name"
+  },
+  "Klein Oak": {
+   "stadium_id": 626,
+   "stadium": "Klein Memorial Stadium",
+   "city": "Klein",
+   "how": "only school with this name"
+  },
+  "Knox City": {
+   "stadium_id": 764,
+   "stadium": "Greyhound Field",
+   "city": "Knox City",
+   "how": "city + school"
+  },
+  "Kopperl": {
+   "stadium_id": 66,
+   "stadium": "Eagle Field",
+   "city": "Kopperl",
+   "how": "city + school"
+  },
+  "Kountze": {
+   "stadium_id": 886,
+   "stadium": "Lion Stadium",
+   "city": "Kountze",
+   "how": "city + school"
+  },
+  "Kress": {
+   "stadium_id": 780,
+   "stadium": "Kangaroo Stadium",
+   "city": "Kress",
+   "how": "city + school"
+  },
+  "Krum": {
+   "stadium_id": 1319,
+   "stadium": "Bobcat Stadium",
+   "city": "Krum",
+   "how": "city + school"
+  },
+  "La Feria": {
+   "stadium_id": 937,
+   "stadium": "Lion Stadium",
+   "city": "La Feria",
+   "how": "city + school"
+  },
+  "La Grange": {
+   "stadium_id": 111,
+   "stadium": "Leopard Stadium",
+   "city": "La Grange",
+   "how": "city + school"
+  },
+  "La Joya Juarez-Lincoln": {
+   "stadium_id": 935,
+   "stadium": "La Joya ISD Stadium",
+   "city": "La Joya",
+   "how": "city + school"
+  },
+  "La Joya Palmview": {
+   "stadium_id": 935,
+   "stadium": "La Joya ISD Stadium",
+   "city": "La Joya",
+   "how": "city + school"
+  },
+  "La Marque": {
+   "stadium_id": 362,
+   "stadium": "Stingaree Stadium",
+   "city": "Texas City",
+   "how": "city + school"
+  },
+  "La Porte": {
+   "stadium_id": 620,
+   "stadium": "Bulldog Stadium",
+   "city": "La Porte",
+   "how": "city + school"
+  },
+  "La Pryor": {
+   "stadium_id": 905,
+   "stadium": "Armando \"Mandy\" Najera Memorial Bulldog Stadium",
+   "city": "La Pryor",
+   "how": "city + school"
+  },
+  "La Vega": {
+   "stadium_id": 149,
+   "stadium": "Willie Williams Stadium",
+   "city": "Waco",
+   "how": "only school with this name"
+  },
+  "La Vernia": {
+   "stadium_id": 323,
+   "stadium": "Bear Stadium",
+   "city": "La Vernia",
+   "how": "city + school"
+  },
+  "La Villa": {
+   "stadium_id": 910,
+   "stadium": "Cardinal Stadium",
+   "city": "La Villa",
+   "how": "city + school"
+  },
+  "Lago Vista": {
+   "stadium_id": 12,
+   "stadium": "Lago Vista High School Stadium",
+   "city": "Lago Vista",
+   "how": "city + school"
+  },
+  "Lake Dallas": {
+   "stadium_id": 240,
+   "stadium": "Falcon Stadium",
+   "city": "Corinth",
+   "how": "city + school"
+  },
+  "Lake Highlands": {
+   "stadium_id": 317,
+   "stadium": "Wildcat-Ram Stadium",
+   "city": "Dallas",
+   "how": "only school with this name"
+  },
+  "Lake Travis": {
+   "stadium_id": 13,
+   "stadium": "Cavalier Stadium at Lake Travis",
+   "city": "Austin",
+   "how": "only school with this name"
+  },
+  "Lake Worth": {
+   "stadium_id": 270,
+   "stadium": "Kittrell Stadium",
+   "city": "Lake Worth",
+   "how": "city + school"
+  },
+  "Lamar Fulshear": {
+   "stadium_id": 514,
+   "stadium": "Guy K. Traylor Stadium",
+   "city": "Rosenberg",
+   "how": "only school with this name"
+  },
+  "Lamesa": {
+   "stadium_id": 825,
+   "stadium": "Tornado Stadium",
+   "city": "Lamesa",
+   "how": "city + school"
+  },
+  "Lampasas": {
+   "stadium_id": 19,
+   "stadium": "Badger Field",
+   "city": "Lampasas",
+   "how": "city + school"
+  },
+  "Lancaster": {
+   "stadium_id": 302,
+   "stadium": "Beverly D. Humphrey Tiger Stadium",
+   "city": "Lancaster",
+   "how": "city + school"
+  },
+  "Langham Creek": {
+   "stadium_id": 1050,
+   "stadium": "Cy Fair FCU Stadium",
+   "city": "Cypress",
+   "how": "only school with this name"
+  },
+  "Laredo Martin": {
+   "stadium_id": 954,
+   "stadium": "Shirley Field",
+   "city": "Laredo",
+   "how": "city + school"
+  },
+  "Laredo Nixon": {
+   "stadium_id": 954,
+   "stadium": "Shirley Field",
+   "city": "Laredo",
+   "how": "city + school"
+  },
+  "Laredo United": {
+   "stadium_id": 955,
+   "stadium": "Bill Johnson Student Activity Center",
+   "city": "Laredo",
+   "how": "city + school"
+  },
+  "Laredo United South": {
+   "stadium_id": 955,
+   "stadium": "Bill Johnson Student Activity Center",
+   "city": "Laredo",
+   "how": "city + school"
+  },
+  "League City Clear Creek": {
+   "stadium_id": 1701,
+   "stadium": "Challenger Columbia Stadium",
+   "city": "League City",
+   "how": "city + school"
+  },
+  "League City Clear Falls": {
+   "stadium_id": 1701,
+   "stadium": "Challenger Columbia Stadium",
+   "city": "League City",
+   "how": "city + school"
+  },
+  "League City Clear Springs": {
+   "stadium_id": 1701,
+   "stadium": "Challenger Columbia Stadium",
+   "city": "League City",
+   "how": "city + school"
+  },
+  "Leakey": {
+   "stadium_id": 491,
+   "stadium": "Eagle Stadium",
+   "city": "Leakey",
+   "how": "city + school"
+  },
+  "Leander": {
+   "stadium_id": 1,
+   "stadium": "Dragon Stadium",
+   "city": "New Braunfels",
+   "how": "city + school"
+  },
+  "Leander Glenn": {
+   "stadium_id": 1,
+   "stadium": "Dragon Stadium",
+   "city": "New Braunfels",
+   "how": "only school with this name"
+  },
+  "Leander Rouse": {
+   "stadium_id": 1,
+   "stadium": "Dragon Stadium",
+   "city": "New Braunfels",
+   "how": "city + school"
+  },
+  "Lefors": {
+   "stadium_id": 816,
+   "stadium": "Shaw Field",
+   "city": "Lefors",
+   "how": "city + school"
+  },
+  "Lenorah Grady": {
+   "stadium_id": 1013,
+   "stadium": "Wildcat Stadium",
+   "city": "Lenorah",
+   "how": "city + school"
+  },
+  "Leonard": {
+   "stadium_id": 707,
+   "stadium": "Tiger Stadium",
+   "city": "Leonard",
+   "how": "city + school"
+  },
+  "Levelland": {
+   "stadium_id": 786,
+   "stadium": "Lobo Stadium",
+   "city": "Levelland",
+   "how": "city + school"
+  },
+  "Lewisville": {
+   "stadium_id": 275,
+   "stadium": "Max Goldsmith Stadium",
+   "city": "Lewisville",
+   "how": "city + school"
+  },
+  "Lexington": {
+   "stadium_id": 74,
+   "stadium": "Eagle Stadium",
+   "city": "Lexington",
+   "how": "city + school"
+  },
+  "Liberty Hill": {
+   "stadium_id": 1664,
+   "stadium": "Jerry Vance Field",
+   "city": "Liberty Hill",
+   "how": "city + school"
+  },
+  "Liberty-Eylau": {
+   "stadium_id": 461,
+   "stadium": "Harris Field",
+   "city": "Texarkana",
+   "how": "only school with this name"
+  },
+  "Lindale": {
+   "stadium_id": 450,
+   "stadium": "Eagle Stadium",
+   "city": "Lindale",
+   "how": "city + school"
+  },
+  "Linden-Kildare": {
+   "stadium_id": 468,
+   "stadium": "Jack Hetherington Tiger Stadium",
+   "city": "Linden",
+   "how": "only school with this name"
+  },
+  "Lindsay": {
+   "stadium_id": 678,
+   "stadium": "Knight Stadium",
+   "city": "Lindsay",
+   "how": "city + school"
+  },
+  "Lingleville": {
+   "stadium_id": 1345,
+   "stadium": "Lingleville Field",
+   "city": "Lingleville",
+   "how": "city + school"
+  },
+  "Little River Academy": {
+   "stadium_id": 107,
+   "stadium": "John Glover Stadium",
+   "city": "Academy",
+   "how": "city + school"
+  },
+  "Littlefield": {
+   "stadium_id": 832,
+   "stadium": "Wildcat Stadium",
+   "city": "Littlefield",
+   "how": "city + school"
+  },
+  "Livingston": {
+   "stadium_id": 534,
+   "stadium": "Lion Stadium",
+   "city": "Livingston",
+   "how": "city + school"
+  },
+  "Llano": {
+   "stadium_id": 119,
+   "stadium": "Llano Stadium",
+   "city": "Llano",
+   "how": "city + school"
+  },
+  "Lockhart": {
+   "stadium_id": 117,
+   "stadium": "Lions Stadium",
+   "city": "Lockhart",
+   "how": "city + school"
+  },
+  "Lockney": {
+   "stadium_id": 795,
+   "stadium": "Mitchell Zimmerman Field",
+   "city": "Lockney",
+   "how": "city + school"
+  },
+  "Lometa": {
+   "stadium_id": 93,
+   "stadium": "Hornet Field",
+   "city": "Lometa",
+   "how": "city + school"
+  },
+  "Lone Oak": {
+   "stadium_id": 640,
+   "stadium": "Buffalo Stadium",
+   "city": "Lone Oak",
+   "how": "city + school"
+  },
+  "Longview": {
+   "stadium_id": 537,
+   "stadium": "Lobo Stadium",
+   "city": "Longview",
+   "how": "city + school"
+  },
+  "Longview Pine Tree": {
+   "stadium_id": 541,
+   "stadium": "Pirate Stadium",
+   "city": "Longview",
+   "how": "city + school"
+  },
+  "Loop": {
+   "stadium_id": 987,
+   "stadium": "Longhorn Field",
+   "city": "Loop",
+   "how": "city + school"
+  },
+  "Loraine": {
+   "stadium_id": 980,
+   "stadium": "Johnson Field",
+   "city": "Loraine",
+   "how": "city + school"
+  },
+  "Lorena": {
+   "stadium_id": 112,
+   "stadium": "Leopard Field",
+   "city": "Lorena",
+   "how": "city + school"
+  },
+  "Los Fresnos": {
+   "stadium_id": 940,
+   "stadium": "Leo Aguilar Memorial Stadium",
+   "city": "Los Fresnos",
+   "how": "city + school"
+  },
+  "Louise": {
+   "stadium_id": 402,
+   "stadium": "Hornet Stadium",
+   "city": "Louise",
+   "how": "city + school"
+  },
+  "Lubbock Cooper": {
+   "stadium_id": 1313,
+   "stadium": "Pirate Stadium at First United Park",
+   "city": "Lubbock",
+   "how": "only school with this name"
+  },
+  "Lubbock Coronado": {
+   "stadium_id": 791,
+   "stadium": "Lowery Field at Plains Capital Park",
+   "city": "Lubbock",
+   "how": "city + school"
+  },
+  "Lubbock Estacado": {
+   "stadium_id": 791,
+   "stadium": "Lowery Field at Plains Capital Park",
+   "city": "Lubbock",
+   "how": "city + school"
+  },
+  "Lubbock Monterey": {
+   "stadium_id": 791,
+   "stadium": "Lowery Field at Plains Capital Park",
+   "city": "Lubbock",
+   "how": "city + school"
+  },
+  "Lubbock Roosevelt": {
+   "stadium_id": 750,
+   "stadium": "Eagle Field",
+   "city": "Lubbock",
+   "how": "city + school"
+  },
+  "Lucas Lovejoy": {
+   "stadium_id": 338,
+   "stadium": "Leopard Stadium",
+   "city": "Lucas",
+   "how": "city + school"
+  },
+  "Lueders-Avoca": {
+   "stadium_id": 1001,
+   "stadium": "Raider Field",
+   "city": "Lueders",
+   "how": "only school with this name"
+  },
+  "Lufkin": {
+   "stadium_id": 417,
+   "stadium": "Abe Martin Stadium",
+   "city": "Lufkin",
+   "how": "city + school"
+  },
+  "Luling": {
+   "stadium_id": 68,
+   "stadium": "Eagle Field",
+   "city": "Luling",
+   "how": "city + school"
+  },
+  "Lumberton": {
+   "stadium_id": 343,
+   "stadium": "Raider Stadium",
+   "city": "Lumberton",
+   "how": "city + school"
+  },
+  "Lyford": {
+   "stadium_id": 906,
+   "stadium": "Lyford Bulldog Stadium",
+   "city": "Lyford",
+   "how": "city + school"
+  },
+  "Lytle": {
+   "stadium_id": 947,
+   "stadium": "Walter H. Joyce Jr Stadium",
+   "city": "Lytle",
+   "how": "city + school"
+  },
+  "Madisonville": {
+   "stadium_id": 132,
+   "stadium": "Mustang Stadium",
+   "city": "Madisonville",
+   "how": "city + school"
+  },
+  "Magnolia": {
+   "stadium_id": 476,
+   "stadium": "Bulldog Stadium",
+   "city": "Magnolia",
+   "how": "city + school"
+  },
+  "Magnolia West": {
+   "stadium_id": 1131,
+   "stadium": "Mustang Stadium",
+   "city": "Magnolia",
+   "how": "only school with this name"
+  },
+  "Malakoff": {
+   "stadium_id": 561,
+   "stadium": "Tiger Stadium",
+   "city": "Malakoff",
+   "how": "city + school"
+  },
+  "Manor": {
+   "stadium_id": 14,
+   "stadium": "Manor Athletic Complex",
+   "city": "Manor",
+   "how": "city + school"
+  },
+  "Manor New Tech": {
+   "stadium_id": 1301,
+   "stadium": "New Tech Coliseum",
+   "city": "Manor",
+   "how": "only school with this name"
+  },
+  "Mansfield": {
+   "stadium_id": 392,
+   "stadium": "Vernon Newsom Stadium",
+   "city": "Mansfield",
+   "how": "city + school"
+  },
+  "Mansfield Lake Ridge": {
+   "stadium_id": 392,
+   "stadium": "Vernon Newsom Stadium",
+   "city": "Mansfield",
+   "how": "city + school"
+  },
+  "Mansfield Legacy": {
+   "stadium_id": 291,
+   "stadium": "R. L. Anderson Stadium",
+   "city": "Mansfield",
+   "how": "city + school"
+  },
+  "Mansfield Timberview": {
+   "stadium_id": 392,
+   "stadium": "Vernon Newsom Stadium",
+   "city": "Mansfield",
+   "how": "only school with this name"
+  },
+  "Manvel": {
+   "stadium_id": 1758,
+   "stadium": "Alvin ISD Freedom Field",
+   "city": "Iowa Colony",
+   "how": "city + school"
+  },
+  "Marble Falls": {
+   "stadium_id": 1302,
+   "stadium": "Mustang Stadium",
+   "city": "Marble Falls",
+   "how": "city + school"
+  },
+  "Marion": {
+   "stadium_id": 180,
+   "stadium": "Veterans Stadium",
+   "city": "Marion",
+   "how": "city + school"
+  },
+  "Marlin": {
+   "stadium_id": 109,
+   "stadium": "Legion Stadium",
+   "city": "Marlin",
+   "how": "city + school"
+  },
+  "Mart": {
+   "stadium_id": 1191,
+   "stadium": "Mart I.S.D. Athletic Complex",
+   "city": "Mart",
+   "how": "city + school"
+  },
+  "Mason": {
+   "stadium_id": 151,
+   "stadium": "R. Clinton Schulze Puncher Dome Stadium",
+   "city": "Mason",
+   "how": "city + school"
+  },
+  "Mathis": {
+   "stadium_id": 209,
+   "stadium": "Pirate Stadium",
+   "city": "Mathis",
+   "how": "city + school"
+  },
+  "Maud": {
+   "stadium_id": 457,
+   "stadium": "George Frost Field",
+   "city": "Maud",
+   "how": "city + school"
+  },
+  "May": {
+   "stadium_id": 165,
+   "stadium": "May Sports Complex",
+   "city": "May",
+   "how": "city + school"
+  },
+  "Maypearl": {
+   "stadium_id": 182,
+   "stadium": "W. G. Roesler Stadium",
+   "city": "Maypearl",
+   "how": "city + school"
+  },
+  "McAllen": {
+   "stadium_id": 942,
+   "stadium": "McAllen Memorial Stadium",
+   "city": "McAllen",
+   "how": "city + school"
+  },
+  "McAllen Memorial": {
+   "stadium_id": 942,
+   "stadium": "McAllen Memorial Stadium",
+   "city": "McAllen",
+   "how": "city + school"
+  },
+  "McAllen Rowe": {
+   "stadium_id": 942,
+   "stadium": "McAllen Memorial Stadium",
+   "city": "McAllen",
+   "how": "city + school"
+  },
+  "McCamey": {
+   "stadium_id": 970,
+   "stadium": "Badger Stadium",
+   "city": "McCamey",
+   "how": "city + school"
+  },
+  "McDade": {
+   "stadium_id": 2546,
+   "stadium": "McDade Bulldog Field",
+   "city": "McDade",
+   "how": "city + school"
+  },
+  "McGregor": {
+   "stadium_id": 45,
+   "stadium": "Bulldog Stadium",
+   "city": "McGregor",
+   "how": "city + school"
+  },
+  "McKinney": {
+   "stadium_id": 1755,
+   "stadium": "McKinney ISD Stadium",
+   "city": "McKinney",
+   "how": "city + school"
+  },
+  "McKinney Boyd": {
+   "stadium_id": 1755,
+   "stadium": "McKinney ISD Stadium",
+   "city": "McKinney",
+   "how": "city + school"
+  },
+  "McKinney High": {
+   "stadium_id": 1755,
+   "stadium": "McKinney ISD Stadium",
+   "city": "McKinney",
+   "how": "city + school"
+  },
+  "McKinney North": {
+   "stadium_id": 1755,
+   "stadium": "McKinney ISD Stadium",
+   "city": "McKinney",
+   "how": "only school with this name"
+  },
+  "McLean": {
+   "stadium_id": 821,
+   "stadium": "Duncan Field",
+   "city": "McLean",
+   "how": "city + school"
+  },
+  "Meadow": {
+   "stadium_id": 727,
+   "stadium": "Meadow Memorial (Bronco Field)",
+   "city": "Meadow",
+   "how": "city + school"
+  },
+  "Medina": {
+   "stadium_id": 29,
+   "stadium": "Bobcat Stadium",
+   "city": "Medina",
+   "how": "city + school"
+  },
+  "Medina Valley": {
+   "stadium_id": 946,
+   "stadium": "Panther Stadium",
+   "city": "Castroville",
+   "how": "only school with this name"
+  },
+  "Memphis": {
+   "stadium_id": 746,
+   "stadium": "George Berry Memorial Stadium",
+   "city": "Memphis",
+   "how": "city + school"
+  },
+  "Menard": {
+   "stadium_id": 1016,
+   "stadium": "Findlay Field",
+   "city": "Menard",
+   "how": "city + school"
+  },
+  "Mercedes": {
+   "stadium_id": 1709,
+   "stadium": "Tiger Stadium",
+   "city": "Mercedes",
+   "how": "city + school"
+  },
+  "Meridian": {
+   "stadium_id": 198,
+   "stadium": "Yellow Jacket Stadium",
+   "city": "Meridian",
+   "how": "city + school"
+  },
+  "Merkel": {
+   "stadium_id": 969,
+   "stadium": "Badger Stadium",
+   "city": "Merkel",
+   "how": "city + school"
+  },
+  "Mesquite": {
+   "stadium_id": 231,
+   "stadium": "E. H. Hanby Stadium",
+   "city": "Mesquite",
+   "how": "city + school"
+  },
+  "Mesquite Horn": {
+   "stadium_id": 231,
+   "stadium": "E. H. Hanby Stadium",
+   "city": "Mesquite",
+   "how": "city + school"
+  },
+  "Mesquite Poteet": {
+   "stadium_id": 279,
+   "stadium": "Mesquite Memorial Stadium",
+   "city": "Mesquite",
+   "how": "city + school"
+  },
+  "Mexia": {
+   "stadium_id": 24,
+   "stadium": "Blackcat Field",
+   "city": "Mexia",
+   "how": "city + school"
+  },
+  "Miami": {
+   "stadium_id": 826,
+   "stadium": "Warrior Field",
+   "city": "Miami",
+   "how": "city + school"
+  },
+  "Midland": {
+   "stadium_id": 521,
+   "stadium": "Astound Broadband Stadium",
+   "city": "Midland",
+   "how": "city + school"
+  },
+  "Midland Greenwood": {
+   "stadium_id": 529,
+   "stadium": "J. M. King Memorial Stadium",
+   "city": "Midland",
+   "how": "city + school"
+  },
+  "Midland High": {
+   "stadium_id": 521,
+   "stadium": "Astound Broadband Stadium",
+   "city": "Midland",
+   "how": "city + school"
+  },
+  "Midland Legacy": {
+   "stadium_id": 521,
+   "stadium": "Astound Broadband Stadium",
+   "city": "Midland",
+   "how": "city + school"
+  },
+  "Midlothian": {
+   "stadium_id": 1044,
+   "stadium": "MISD Multi-Purpose Stadium",
+   "city": "Midlothian",
+   "how": "city + school"
+  },
+  "Midlothian Heritage": {
+   "stadium_id": 1044,
+   "stadium": "MISD Multi-Purpose Stadium",
+   "city": "Midlothian",
+   "how": "only school with this name"
+  },
+  "Milano": {
+   "stadium_id": 69,
+   "stadium": "Pruitt Field",
+   "city": "Milano",
+   "how": "city + school"
+  },
+  "Mildred": {
+   "stadium_id": 454,
+   "stadium": "Eagle Stadium",
+   "city": "Mildred",
+   "how": "city + school"
+  },
+  "Miles": {
+   "stadium_id": 984,
+   "stadium": "Gary Krejci Memorial Stadium",
+   "city": "Miles",
+   "how": "city + school"
+  },
+  "Milford": {
+   "stadium_id": 731,
+   "stadium": "Horton Field",
+   "city": "Milford",
+   "how": "city + school"
+  },
+  "Millsap": {
+   "stadium_id": 646,
+   "stadium": "Bulldog Stadium",
+   "city": "Millsap",
+   "how": "city + school"
+  },
+  "Mineola": {
+   "stadium_id": 357,
+   "stadium": "Meredith Memorial Stadium",
+   "city": "Mineola",
+   "how": "city + school"
+  },
+  "Mineral Wells": {
+   "stadium_id": 684,
+   "stadium": "Ram Stadium",
+   "city": "Mineral Wells",
+   "how": "city + school"
+  },
+  "Mission": {
+   "stadium_id": 960,
+   "stadium": "Tom Landry Stadium",
+   "city": "Mission",
+   "how": "city + school"
+  },
+  "Mission Sharyland": {
+   "stadium_id": 950,
+   "stadium": "Richard Thompson Stadium",
+   "city": "Mission",
+   "how": "city + school"
+  },
+  "Mission Sharyland Pioneer": {
+   "stadium_id": 950,
+   "stadium": "Richard Thompson Stadium",
+   "city": "Mission",
+   "how": "city + school"
+  },
+  "Mission Veterans Memorial": {
+   "stadium_id": 960,
+   "stadium": "Tom Landry Stadium",
+   "city": "Mission",
+   "how": "city + school"
+  },
+  "Monahans": {
+   "stadium_id": 495,
+   "stadium": "Estes Memorial Stadium",
+   "city": "Monahans",
+   "how": "city + school"
+  },
+  "Montgomery": {
+   "stadium_id": 862,
+   "stadium": "Montgomery ISD Stadium",
+   "city": "Montgomery",
+   "how": "city + school"
+  },
+  "Montgomery Lake Creek": {
+   "stadium_id": 862,
+   "stadium": "Montgomery ISD Stadium",
+   "city": "Montgomery",
+   "how": "city + school"
+  },
+  "Morgan": {
+   "stadium_id": 70,
+   "stadium": "John Bryant Field",
+   "city": "Morgan",
+   "how": "city + school"
+  },
+  "Morton": {
+   "stadium_id": 774,
+   "stadium": "Indian Stadium",
+   "city": "Morton",
+   "how": "city + school"
+  },
+  "Motley County": {
+   "stadium_id": 793,
+   "stadium": "Titus Stadium",
+   "city": "Matador",
+   "how": "only school with this name"
+  },
+  "Mount Calm": {
+   "stadium_id": 1605,
+   "stadium": "Archer Field",
+   "city": "Mount Calm",
+   "how": "city + school"
+  },
+  "Mt. Enterprise": {
+   "stadium_id": 1600,
+   "stadium": "John Webb Stadium",
+   "city": "Mount Enterprise",
+   "how": "city + school"
+  },
+  "Muenster": {
+   "stadium_id": 671,
+   "stadium": "Hornet Stadium",
+   "city": "Muenster",
+   "how": "city + school"
+  },
+  "Muleshoe": {
+   "stadium_id": 796,
+   "stadium": "Benny Douglas Stadium",
+   "city": "Muleshoe",
+   "how": "city + school"
+  },
+  "Munday": {
+   "stadium_id": 815,
+   "stadium": "Scruggs Field",
+   "city": "Munday",
+   "how": "city + school"
+  },
+  "Naaman Forest": {
+   "stadium_id": 320,
+   "stadium": "Williams Stadium",
+   "city": "Garland",
+   "how": "only school with this name"
+  },
+  "Nacogdoches": {
+   "stadium_id": 446,
+   "stadium": "Dragon Stadium",
+   "city": "Nacogdoches",
+   "how": "city + school"
+  },
+  "Natalia": {
+   "stadium_id": 944,
+   "stadium": "Mustang Stadium",
+   "city": "Natalia",
+   "how": "city + school"
+  },
+  "Navasota": {
+   "stadium_id": 1139,
+   "stadium": "Navasota Rattler Stadium",
+   "city": "Navasota",
+   "how": "city + school"
+  },
+  "Nazareth": {
+   "stadium_id": 819,
+   "stadium": "Swifts Stadium",
+   "city": "Nazareth",
+   "how": "city + school"
+  },
+  "Nederland": {
+   "stadium_id": 868,
+   "stadium": "Bulldog Stadium",
+   "city": "Nederland",
+   "how": "city + school"
+  },
+  "Needville": {
+   "stadium_id": 606,
+   "stadium": "Blue Jay Stadium",
+   "city": "Needville",
+   "how": "city + school"
+  },
+  "New Boston": {
+   "stadium_id": 535,
+   "stadium": "Lion Stadium",
+   "city": "New Boston",
+   "how": "city + school"
+  },
+  "New Braunfels": {
+   "stadium_id": 860,
+   "stadium": "Unicorn Stadium",
+   "city": "New Braunfels",
+   "how": "city + school"
+  },
+  "New Braunfels Canyon": {
+   "stadium_id": 843,
+   "stadium": "Cougar Stadium",
+   "city": "New Braunfels",
+   "how": "city + school"
+  },
+  "New Caney": {
+   "stadium_id": 1694,
+   "stadium": "Randall Reed Stadium",
+   "city": "Porter",
+   "how": "city + school"
+  },
+  "New Deal": {
+   "stadium_id": 785,
+   "stadium": "Noland Stadium",
+   "city": "New Deal",
+   "how": "city + school"
+  },
+  "New Diana": {
+   "stadium_id": 451,
+   "stadium": "Eagle Stadium",
+   "city": "New Diana",
+   "how": "city + school"
+  },
+  "New Home": {
+   "stadium_id": 784,
+   "stadium": "Leopard Field",
+   "city": "New Home",
+   "how": "city + school"
+  },
+  "New London West Rusk": {
+   "stadium_id": 1614,
+   "stadium": "Bruce Bradshaw Stadium",
+   "city": "New London",
+   "how": "city + school"
+  },
+  "New Waverly": {
+   "stadium_id": 1286,
+   "stadium": "Bulldog Stadium",
+   "city": "New Waverly",
+   "how": "city + school"
+  },
+  "Newcastle": {
+   "stadium_id": 372,
+   "stadium": "Bobcat Field",
+   "city": "Newcastle",
+   "how": "city + school"
+  },
+  "Newton": {
+   "stadium_id": 557,
+   "stadium": "Curtis Barbay Field",
+   "city": "Newton",
+   "how": "city + school"
+  },
+  "Nixon-Smiley": {
+   "stadium_id": 945,
+   "stadium": "Mustang Stadium",
+   "city": "Nixon",
+   "how": "only school with this name"
+  },
+  "Nocona": {
+   "stadium_id": 674,
+   "stadium": "Jack Crain Stadium",
+   "city": "Nocona",
+   "how": "city + school"
+  },
+  "Normangee": {
+   "stadium_id": 144,
+   "stadium": "Panther Stadium",
+   "city": "Normangee",
+   "how": "city + school"
+  },
+  "North Crowley": {
+   "stadium_id": 164,
+   "stadium": "Crowley ISD Multi-Purpose Stadium",
+   "city": "Fort Worth",
+   "how": "only school with this name"
+  },
+  "North Dallas": {
+   "stadium_id": 245,
+   "stadium": "Franklin Stadium",
+   "city": "Dallas",
+   "how": "only school with this name"
+  },
+  "North Forney": {
+   "stadium_id": 666,
+   "stadium": "Forney City Bank Stadium",
+   "city": "Forney",
+   "how": "only school with this name"
+  },
+  "North Garland": {
+   "stadium_id": 320,
+   "stadium": "Williams Stadium",
+   "city": "Garland",
+   "how": "only school with this name"
+  },
+  "North Mesquite": {
+   "stadium_id": 279,
+   "stadium": "Mesquite Memorial Stadium",
+   "city": "Mesquite",
+   "how": "only school with this name"
+  },
+  "O'Donnell": {
+   "stadium_id": 755,
+   "stadium": "Johnson Field",
+   "city": "ODonnell",
+   "how": "city + school"
+  },
+  "Oakwood": {
+   "stadium_id": 138,
+   "stadium": "Panther Field",
+   "city": "Oakwood",
+   "how": "city + school"
+  },
+  "Odem": {
+   "stadium_id": 208,
+   "stadium": "Owl Stadium",
+   "city": "Odem",
+   "how": "city + school"
+  },
+  "Odessa": {
+   "stadium_id": 1002,
+   "stadium": "Ratliff Stadium",
+   "city": "Odessa",
+   "how": "city + school"
+  },
+  "Odessa Permian": {
+   "stadium_id": 1002,
+   "stadium": "Ratliff Stadium",
+   "city": "Odessa",
+   "how": "city + school"
+  },
+  "Oglesby": {
+   "stadium_id": 166,
+   "stadium": "Tiger Stadium",
+   "city": "Oglesby",
+   "how": "city + school"
+  },
+  "Olney": {
+   "stadium_id": 656,
+   "stadium": "Cub Stadium",
+   "city": "Olney",
+   "how": "city + school"
+  },
+  "Olton": {
+   "stadium_id": 794,
+   "stadium": "Memorial Stadium",
+   "city": "Olton",
+   "how": "city + school"
+  },
+  "Orange Grove": {
+   "stadium_id": 907,
+   "stadium": "Bulldog Stadium",
+   "city": "Orange Grove",
+   "how": "city + school"
+  },
+  "Orangefield": {
+   "stadium_id": 875,
+   "stadium": "F. L. McClain Stadium",
+   "city": "Orangefield",
+   "how": "city + school"
+  },
+  "Ore City": {
+   "stadium_id": 549,
+   "stadium": "Rebel Stadium",
+   "city": "Ore City",
+   "how": "city + school"
+  },
+  "Overton": {
+   "stadium_id": 445,
+   "stadium": "Coach Chester Roy Stadium",
+   "city": "Overton",
+   "how": "city + school"
+  },
+  "Ozona": {
+   "stadium_id": 531,
+   "stadium": "Lion Stadium",
+   "city": "Ozona",
+   "how": "city + school"
+  },
+  "PSJA High": {
+   "stadium_id": 948,
+   "stadium": "PSJA Stadium",
+   "city": "Pharr",
+   "how": "city + school"
+  },
+  "PSJA Memorial": {
+   "stadium_id": 948,
+   "stadium": "PSJA Stadium",
+   "city": "Pharr",
+   "how": "only school with this name"
+  },
+  "PSJA North": {
+   "stadium_id": 948,
+   "stadium": "PSJA Stadium",
+   "city": "Pharr",
+   "how": "only school with this name"
+  },
+  "Paducah": {
+   "stadium_id": 749,
+   "stadium": "Dragon Stadium",
+   "city": "Paducah",
+   "how": "city + school"
+  },
+  "Paint Rock": {
+   "stadium_id": 527,
+   "stadium": "Indian Field",
+   "city": "Paint Rock",
+   "how": "city + school"
+  },
+  "Palacios": {
+   "stadium_id": 411,
+   "stadium": "Shark Stadium",
+   "city": "Palacios",
+   "how": "city + school"
+  },
+  "Palestine": {
+   "stadium_id": 507,
+   "stadium": "Wildcat Stadium",
+   "city": "Palestine",
+   "how": "city + school"
+  },
+  "Palestine Westwood": {
+   "stadium_id": 539,
+   "stadium": "Westwood Panther Stadium",
+   "city": "Palestine",
+   "how": "city + school"
+  },
+  "Palmer": {
+   "stadium_id": 46,
+   "stadium": "Bulldog Stadium",
+   "city": "Palmer",
+   "how": "city + school"
+  },
+  "Pampa": {
+   "stadium_id": 766,
+   "stadium": "Zach Thomas Stadium",
+   "city": "Pampa",
+   "how": "city + school"
+  },
+  "Panhandle": {
+   "stadium_id": 806,
+   "stadium": "Panther Stadium",
+   "city": "Panhandle",
+   "how": "city + school"
+  },
+  "Panther Creek": {
+   "stadium_id": 136,
+   "stadium": "Panther Stadium",
+   "city": "Valera",
+   "how": "only school with this name"
+  },
+  "Paradise": {
+   "stadium_id": 692,
+   "stadium": "Panther Stadium",
+   "city": "Paradise",
+   "how": "city + school"
+  },
+  "Paris": {
+   "stadium_id": 1293,
+   "stadium": "Wildcat Stadium",
+   "city": "Paris",
+   "how": "city + school"
+  },
+  "Paris Chisum": {
+   "stadium_id": 687,
+   "stadium": "Mustang Stadium",
+   "city": "Paris",
+   "how": "city + school"
+  },
+  "Paris North Lamar": {
+   "stadium_id": 700,
+   "stadium": "R. L. Maddox Stadium",
+   "city": "Paris",
+   "how": "only school with this name"
+  },
+  "Pasadena Memorial": {
+   "stadium_id": 631,
+   "stadium": "Veterans Memorial Stadium",
+   "city": "Pasadena",
+   "how": "only school with this name"
+  },
+  "Pearland": {
+   "stadium_id": 632,
+   "stadium": "Pearland ISD Stadium",
+   "city": "Pearland",
+   "how": "city + school"
+  },
+  "Pearland Dawson": {
+   "stadium_id": 632,
+   "stadium": "Pearland ISD Stadium",
+   "city": "Pearland",
+   "how": "city + school"
+  },
+  "Pearland High": {
+   "stadium_id": 632,
+   "stadium": "Pearland ISD Stadium",
+   "city": "Pearland",
+   "how": "city + school"
+  },
+  "Pearland Shadow Creek": {
+   "stadium_id": 1758,
+   "stadium": "Alvin ISD Freedom Field",
+   "city": "Iowa Colony",
+   "how": "city + school"
+  },
+  "Pearsall": {
+   "stadium_id": 941,
+   "stadium": "Mack Laxson Field",
+   "city": "Pearsall",
+   "how": "city + school"
+  },
+  "Peaster": {
+   "stadium_id": 2717,
+   "stadium": "Greyhound Stadium",
+   "city": "Peaster",
+   "how": "city + school"
+  },
+  "Pecos": {
+   "stadium_id": 492,
+   "stadium": "Eagle Stadium",
+   "city": "Pecos",
+   "how": "city + school"
+  },
+  "Penelope": {
+   "stadium_id": 192,
+   "stadium": "Ed Sykora Field",
+   "city": "Penelope",
+   "how": "city + school"
+  },
+  "Perryton": {
+   "stadium_id": 811,
+   "stadium": "Ranger Field",
+   "city": "Perryton",
+   "how": "city + school"
+  },
+  "Petersburg": {
+   "stadium_id": 730,
+   "stadium": "Buffalo Stadium",
+   "city": "Petersburg",
+   "how": "city + school"
+  },
+  "Petrolia": {
+   "stadium_id": 697,
+   "stadium": "Pirate Stadium",
+   "city": "Petrolia",
+   "how": "city + school"
+  },
+  "Pettus": {
+   "stadium_id": 916,
+   "stadium": "James V. Beauchamp Stadium",
+   "city": "Pettus",
+   "how": "city + school"
+  },
+  "Pflugerville": {
+   "stadium_id": 1732,
+   "stadium": "The Pfield",
+   "city": "Pflugerville",
+   "how": "city + school"
+  },
+  "Pflugerville Hendrickson": {
+   "stadium_id": 1732,
+   "stadium": "The Pfield",
+   "city": "Pflugerville",
+   "how": "city + school"
+  },
+  "Pflugerville Weiss": {
+   "stadium_id": 1732,
+   "stadium": "The Pfield",
+   "city": "Pflugerville",
+   "how": "city + school"
+  },
+  "Pharr Valley View": {
+   "stadium_id": 769,
+   "stadium": "Valley View ISD Tiger Stadium",
+   "city": "Hidalgo",
+   "how": "city + school"
+  },
+  "Pilot Point": {
+   "stadium_id": 682,
+   "stadium": "Massey Stadium",
+   "city": "Pilot Point",
+   "how": "city + school"
+  },
+  "Pineland West Sabine": {
+   "stadium_id": 562,
+   "stadium": "Tiger Stadium",
+   "city": "Pineland",
+   "how": "city + school"
+  },
+  "Pittsburg": {
+   "stadium_id": 542,
+   "stadium": "Pirate Stadium",
+   "city": "Pittsburg",
+   "how": "city + school"
+  },
+  "Plains": {
+   "stadium_id": 742,
+   "stadium": "Cowboy Stadium",
+   "city": "Plains",
+   "how": "city + school"
+  },
+  "Plainview": {
+   "stadium_id": 735,
+   "stadium": "Greg Sherwood Memorial Stadium",
+   "city": "Plainview",
+   "how": "city + school"
+  },
+  "Pleasant Grove": {
+   "stadium_id": 1306,
+   "stadium": "Hawk Stadium",
+   "city": "Texarkana",
+   "how": "only school with this name"
+  },
+  "Pleasanton": {
+   "stadium_id": 917,
+   "stadium": "Eagle Stadium",
+   "city": "Pleasanton",
+   "how": "city + school"
+  },
+  "Port Arthur Memorial": {
+   "stadium_id": 477,
+   "stadium": "Memorial Stadium",
+   "city": "Port Arthur",
+   "how": "city + school"
+  },
+  "Port Isabel": {
+   "stadium_id": 956,
+   "stadium": "Tarpon Stadium",
+   "city": "Port Isabel",
+   "how": "city + school"
+  },
+  "Port Lavaca Calhoun": {
+   "stadium_id": 410,
+   "stadium": "Sandcrab Stadium",
+   "city": "Port Lavaca",
+   "how": "city + school"
+  },
+  "Port Neches Groves": {
+   "stadium_id": 882,
+   "stadium": "Indian Stadium",
+   "city": "Port Neches",
+   "how": "only school with this name"
+  },
+  "Port Neches-Groves": {
+   "stadium_id": 882,
+   "stadium": "Indian Stadium",
+   "city": "Port Neches",
+   "how": "only school with this name"
+  },
+  "Post": {
+   "stadium_id": 720,
+   "stadium": "Jimmie Redman Memorial Stadium",
+   "city": "Post",
+   "how": "city + school"
+  },
+  "Poth": {
+   "stadium_id": 102,
+   "stadium": "Jack Lane Stadium",
+   "city": "Poth",
+   "how": "city + school"
+  },
+  "Pottsboro": {
+   "stadium_id": 650,
+   "stadium": "Jim Henderson Memorial Stadium",
+   "city": "Pottsboro",
+   "how": "city + school"
+  },
+  "Prairie Lea": {
+   "stadium_id": 99,
+   "stadium": "Indian Field",
+   "city": "Prairie Lea",
+   "how": "city + school"
+  },
+  "Premont": {
+   "stadium_id": 913,
+   "stadium": "Cowboy Field",
+   "city": "Premont",
+   "how": "city + school"
+  },
+  "Price Carlisle": {
+   "stadium_id": 467,
+   "stadium": "Arrowhead Stadium",
+   "city": "Price",
+   "how": "city + school"
+  },
+  "Princeton": {
+   "stadium_id": 284,
+   "stadium": "Jackie Hendrix Stadium",
+   "city": "Princeton",
+   "how": "city + school"
+  },
+  "Progreso": {
+   "stadium_id": 951,
+   "stadium": "Red Ant Stadium",
+   "city": "Progreso",
+   "how": "city + school"
+  },
+  "Prosper": {
+   "stadium_id": 2439,
+   "stadium": "Children's Health Stadium",
+   "city": "Prosper",
+   "how": "city + school"
+  },
+  "Quanah": {
+   "stadium_id": 775,
+   "stadium": "Indian Stadium",
+   "city": "Quanah",
+   "how": "city + school"
+  },
+  "Queen City": {
+   "stadium_id": 558,
+   "stadium": "Smith-Wall Stadium",
+   "city": "Queen City",
+   "how": "city + school"
+  },
+  "Quinlan Ford": {
+   "stadium_id": 353,
+   "stadium": "Hobart Lytal Memorial Stadium",
+   "city": "Quinlan",
+   "how": "only school with this name"
+  },
+  "Quitman": {
+   "stadium_id": 434,
+   "stadium": "Bud Moody Stadium",
+   "city": "Quitman",
+   "how": "city + school"
+  },
+  "Ralls": {
+   "stadium_id": 777,
+   "stadium": "Jackrabbit Field",
+   "city": "Ralls",
+   "how": "city + school"
+  },
+  "Ranger": {
+   "stadium_id": 47,
+   "stadium": "O.C. Warden Stadium",
+   "city": "Ranger",
+   "how": "city + school"
+  },
+  "Rankin": {
+   "stadium_id": 1003,
+   "stadium": "Red Devil Stadium",
+   "city": "Rankin",
+   "how": "city + school"
+  },
+  "Raymondville": {
+   "stadium_id": 909,
+   "stadium": "Burnett Stadium",
+   "city": "Raymondville",
+   "how": "city + school"
+  },
+  "Reagan County": {
+   "stadium_id": 996,
+   "stadium": "James H. Bird Memorial Stadium",
+   "city": "Big Lake",
+   "how": "only school with this name"
+  },
+  "Red Oak": {
+   "stadium_id": 219,
+   "stadium": "Billy Goodloe Stadium",
+   "city": "Red Oak",
+   "how": "city + school"
+  },
+  "Redwater": {
+   "stadium_id": 447,
+   "stadium": "Dragon Stadium",
+   "city": "Redwater",
+   "how": "city + school"
+  },
+  "Refugio": {
+   "stadium_id": 898,
+   "stadium": "Jack Sportsman Bobcat Stadium",
+   "city": "Refugio",
+   "how": "city + school"
+  },
+  "Richardson": {
+   "stadium_id": 237,
+   "stadium": "Eagle-Mustang Stadium",
+   "city": "Richardson",
+   "how": "city + school"
+  },
+  "Richardson Berkner": {
+   "stadium_id": 317,
+   "stadium": "Wildcat-Ram Stadium",
+   "city": "Dallas",
+   "how": "city + school"
+  },
+  "Richardson Pearce": {
+   "stadium_id": 237,
+   "stadium": "Eagle-Mustang Stadium",
+   "city": "Richardson",
+   "how": "city + school"
+  },
+  "Richland Springs": {
+   "stadium_id": 58,
+   "stadium": "Coyote Field",
+   "city": "Richland Springs",
+   "how": "city + school"
+  },
+  "Richmond Foster": {
+   "stadium_id": 514,
+   "stadium": "Guy K. Traylor Stadium",
+   "city": "Rosenberg",
+   "how": "city + school"
+  },
+  "Ridge Point": {
+   "stadium_id": 520,
+   "stadium": "Ken Hall Stadium",
+   "city": "Missouri City",
+   "how": "only school with this name"
+  },
+  "Riesel": {
+   "stadium_id": 153,
+   "stadium": "Fair Park Field",
+   "city": "Riesel",
+   "how": "city + school"
+  },
+  "Rio Grande City": {
+   "stadium_id": 933,
+   "stadium": "Joe R. Sanchez Stadium",
+   "city": "Rio Grande City",
+   "how": "city + school"
+  },
+  "Rio Grande City Grulla": {
+   "stadium_id": 933,
+   "stadium": "Joe R. Sanchez Stadium",
+   "city": "Rio Grande City",
+   "how": "city + school"
+  },
+  "Rio Hondo": {
+   "stadium_id": 900,
+   "stadium": "Bobcat Stadium",
+   "city": "Rio Hondo",
+   "how": "city + school"
+  },
+  "Rio Vista": {
+   "stadium_id": 71,
+   "stadium": "Eagle Field",
+   "city": "Rio Vista",
+   "how": "city + school"
+  },
+  "Rising Star": {
+   "stadium_id": 189,
+   "stadium": "Wildcat Stadium",
+   "city": "Rising Star",
+   "how": "city + school"
+  },
+  "Robert Lee": {
+   "stadium_id": 1006,
+   "stadium": "Griffith Stadium",
+   "city": "Robert Lee",
+   "how": "city + school"
+  },
+  "Robinson": {
+   "stadium_id": 154,
+   "stadium": "Rocket Field",
+   "city": "Robinson",
+   "how": "city + school"
+  },
+  "Robstown": {
+   "stadium_id": 205,
+   "stadium": "Cotton Picker Stadium",
+   "city": "Robstown",
+   "how": "city + school"
+  },
+  "Roby": {
+   "stadium_id": 532,
+   "stadium": "Lion Stadium",
+   "city": "Roby",
+   "how": "city + school"
+  },
+  "Rochelle": {
+   "stadium_id": 96,
+   "stadium": "Hornet Pride Stadium",
+   "city": "Rochelle",
+   "how": "city + school"
+  },
+  "Rockdale": {
+   "stadium_id": 174,
+   "stadium": "Tiger Stadium",
+   "city": "Rockdale",
+   "how": "city + school"
+  },
+  "Rockport-Fulton": {
+   "stadium_id": 407,
+   "stadium": "Pirate Stadium",
+   "city": "Rockport",
+   "how": "only school with this name"
+  },
+  "Rocksprings": {
+   "stadium_id": 968,
+   "stadium": "Angora Field",
+   "city": "Rocksprings",
+   "how": "city + school"
+  },
+  "Rockwall": {
+   "stadium_id": 319,
+   "stadium": "Wilkerson-Sanders Memorial Stadium",
+   "city": "Rockwall",
+   "how": "city + school"
+  },
+  "Rockwall High": {
+   "stadium_id": 319,
+   "stadium": "Wilkerson-Sanders Memorial Stadium",
+   "city": "Rockwall",
+   "how": "city + school"
+  },
+  "Rogers": {
+   "stadium_id": 129,
+   "stadium": "Merk Field",
+   "city": "Rogers",
+   "how": "city + school"
+  },
+  "Roma": {
+   "stadium_id": 920,
+   "stadium": "Gladiator Arena",
+   "city": "Roma",
+   "how": "city + school"
+  },
+  "Roscoe": {
+   "stadium_id": 1000,
+   "stadium": "Plowboy Field",
+   "city": "Roscoe",
+   "how": "city + school"
+  },
+  "Rosebud-Lott": {
+   "stadium_id": 57,
+   "stadium": "Cougar Stadium",
+   "city": "Lott",
+   "how": "only school with this name"
+  },
+  "Round Rock": {
+   "stadium_id": 5,
+   "stadium": "Dragon Stadium",
+   "city": "Round Rock",
+   "how": "city + school"
+  },
+  "Round Rock Cedar Ridge": {
+   "stadium_id": 5,
+   "stadium": "Dragon Stadium",
+   "city": "Round Rock",
+   "how": "city + school"
+  },
+  "Round Rock Stony Point": {
+   "stadium_id": 5,
+   "stadium": "Dragon Stadium",
+   "city": "Round Rock",
+   "how": "city + school"
+  },
+  "Rowlett": {
+   "stadium_id": 320,
+   "stadium": "Williams Stadium",
+   "city": "Garland",
+   "how": "city + school"
+  },
+  "Royse City": {
+   "stadium_id": 1241,
+   "stadium": "Royse City ISD Stadium",
+   "city": "Royse City",
+   "how": "city + school"
+  },
+  "Rule": {
+   "stadium_id": 724,
+   "stadium": "Bobcat Stadium",
+   "city": "Rule",
+   "how": "city + school"
+  },
+  "Runge": {
+   "stadium_id": 965,
+   "stadium": "Yellow Jacket Field",
+   "city": "Runge",
+   "how": "city + school"
+  },
+  "Rusk": {
+   "stadium_id": 452,
+   "stadium": "Eagle Stadium",
+   "city": "Rusk",
+   "how": "city + school"
+  },
+  "SA  Clark": {
+   "stadium_id": 846,
+   "stadium": "Gustafson Stadium",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "SA Alamo Heights": {
+   "stadium_id": 847,
+   "stadium": "Harry B. Orem Stadium",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "SA Burbank": {
+   "stadium_id": 853,
+   "stadium": "SAISD Sports Complex",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "SA Churchill": {
+   "stadium_id": 842,
+   "stadium": "Comalander Stadium",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "SA Clark": {
+   "stadium_id": 846,
+   "stadium": "Gustafson Stadium",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "SA East Central": {
+   "stadium_id": 845,
+   "stadium": "East Central Stadium",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "SA Jay": {
+   "stadium_id": 846,
+   "stadium": "Gustafson Stadium",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "SA Jefferson": {
+   "stadium_id": 853,
+   "stadium": "SAISD Sports Complex",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "SA Johnson": {
+   "stadium_id": 842,
+   "stadium": "Comalander Stadium",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "SA Lanier": {
+   "stadium_id": 853,
+   "stadium": "SAISD Sports Complex",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "SA Reagan": {
+   "stadium_id": 842,
+   "stadium": "Comalander Stadium",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "SA Southwest": {
+   "stadium_id": 856,
+   "stadium": "Frazier Field at Dragon Stadium",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "SA Taft": {
+   "stadium_id": 846,
+   "stadium": "Gustafson Stadium",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "Sabinal": {
+   "stadium_id": 967,
+   "stadium": "Yellow Jacket Stadium",
+   "city": "Sabinal",
+   "how": "city + school"
+  },
+  "Sachse": {
+   "stadium_id": 320,
+   "stadium": "Williams Stadium",
+   "city": "Garland",
+   "how": "city + school"
+  },
+  "Saginaw": {
+   "stadium_id": 1037,
+   "stadium": "Roughrider Stadium",
+   "city": "Saginaw",
+   "how": "city + school"
+  },
+  "Saint Jo": {
+   "stadium_id": 693,
+   "stadium": "Harley Sewell Field",
+   "city": "Saint Jo",
+   "how": "city + school"
+  },
+  "Salado": {
+   "stadium_id": 75,
+   "stadium": "Eagle Stadium",
+   "city": "Salado",
+   "how": "city + school"
+  },
+  "Sam Houston": {
+   "stadium_id": 318,
+   "stadium": "C. H. Wilemon Field",
+   "city": "Arlington",
+   "how": "only school with this name"
+  },
+  "San Angelo Central": {
+   "stadium_id": 1004,
+   "stadium": "San Angelo Stadium",
+   "city": "San Angelo",
+   "how": "city + school"
+  },
+  "San Angelo Lake View": {
+   "stadium_id": 1004,
+   "stadium": "San Angelo Stadium",
+   "city": "San Angelo",
+   "how": "city + school"
+  },
+  "San Antonio Alamo Heights": {
+   "stadium_id": 847,
+   "stadium": "Harry B. Orem Stadium",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "San Antonio Brackenridge": {
+   "stadium_id": 853,
+   "stadium": "SAISD Sports Complex",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "San Antonio Brandeis": {
+   "stadium_id": 844,
+   "stadium": "Dub Farris Athletic Complex",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "San Antonio Burbank": {
+   "stadium_id": 853,
+   "stadium": "SAISD Sports Complex",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "San Antonio Churchill": {
+   "stadium_id": 842,
+   "stadium": "Comalander Stadium",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "San Antonio Clark": {
+   "stadium_id": 846,
+   "stadium": "Gustafson Stadium",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "San Antonio East Central": {
+   "stadium_id": 845,
+   "stadium": "East Central Stadium",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "San Antonio Edison": {
+   "stadium_id": 853,
+   "stadium": "SAISD Sports Complex",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "San Antonio Harlandale": {
+   "stadium_id": 851,
+   "stadium": "Harlandale Memorial Stadium",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "San Antonio Highlands": {
+   "stadium_id": 853,
+   "stadium": "SAISD Sports Complex",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "San Antonio Houston": {
+   "stadium_id": 853,
+   "stadium": "SAISD Sports Complex",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "San Antonio Jay": {
+   "stadium_id": 846,
+   "stadium": "Gustafson Stadium",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "San Antonio Jefferson": {
+   "stadium_id": 853,
+   "stadium": "SAISD Sports Complex",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "San Antonio Johnson": {
+   "stadium_id": 842,
+   "stadium": "Comalander Stadium",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "San Antonio Lanier": {
+   "stadium_id": 853,
+   "stadium": "SAISD Sports Complex",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "San Antonio MacArthur": {
+   "stadium_id": 842,
+   "stadium": "Comalander Stadium",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "San Antonio Madison": {
+   "stadium_id": 842,
+   "stadium": "Comalander Stadium",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "San Antonio Marshall": {
+   "stadium_id": 846,
+   "stadium": "Gustafson Stadium",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "San Antonio McCollum": {
+   "stadium_id": 851,
+   "stadium": "Harlandale Memorial Stadium",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "San Antonio Reagan": {
+   "stadium_id": 842,
+   "stadium": "Comalander Stadium",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "San Antonio Roosevelt": {
+   "stadium_id": 842,
+   "stadium": "Comalander Stadium",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "San Antonio Southside": {
+   "stadium_id": 855,
+   "stadium": "Southside ISD Stadium",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "San Antonio Southwest": {
+   "stadium_id": 856,
+   "stadium": "Frazier Field at Dragon Stadium",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "San Antonio Stevens": {
+   "stadium_id": 846,
+   "stadium": "Gustafson Stadium",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "San Antonio Taft": {
+   "stadium_id": 846,
+   "stadium": "Gustafson Stadium",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "San Antonio Warren": {
+   "stadium_id": 846,
+   "stadium": "Gustafson Stadium",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "San Augustine": {
+   "stadium_id": 570,
+   "stadium": "Wolf Stadium",
+   "city": "San Augustine",
+   "how": "city + school"
+  },
+  "San Benito": {
+   "stadium_id": 1046,
+   "stadium": "Bobby Morrow Stadium",
+   "city": "San Benito",
+   "how": "city + school"
+  },
+  "San Diego": {
+   "stadium_id": 962,
+   "stadium": "Vaqueros Stadium",
+   "city": "San Diego",
+   "how": "city + school"
+  },
+  "San Elizario": {
+   "stadium_id": 581,
+   "stadium": "Eagle Stadium",
+   "city": "San Elizario",
+   "how": "city + school"
+  },
+  "San Marcos": {
+   "stadium_id": 1680,
+   "stadium": "Toyota Rattler Stadium",
+   "city": "San Marcos",
+   "how": "city + school"
+  },
+  "San Saba": {
+   "stadium_id": 155,
+   "stadium": "Rogan Field",
+   "city": "San Saba",
+   "how": "city + school"
+  },
+  "Sanderson": {
+   "stadium_id": 582,
+   "stadium": "Eagle Stadium",
+   "city": "Sanderson",
+   "how": "city + school"
+  },
+  "Sanford-Fritch": {
+   "stadium_id": 753,
+   "stadium": "Eagle Stadium",
+   "city": "Fritch",
+   "how": "only school with this name"
+  },
+  "Sanger": {
+   "stadium_id": 672,
+   "stadium": "Indian Stadium",
+   "city": "Sanger",
+   "how": "city + school"
+  },
+  "Santa Fe": {
+   "stadium_id": 517,
+   "stadium": "Indian Stadium",
+   "city": "Santa Fe",
+   "how": "city + school"
+  },
+  "Santa Gertrudis Academy": {
+   "stadium_id": 931,
+   "stadium": "Pepsi Field at Javelina Stadium",
+   "city": "Kingsville",
+   "how": "only school with this name"
+  },
+  "Santa Maria": {
+   "stadium_id": 1143,
+   "stadium": "Cougar Stadium",
+   "city": "Santa Maria",
+   "how": "city + school"
+  },
+  "Santa Rosa": {
+   "stadium_id": 963,
+   "stadium": "Warrior Stadium",
+   "city": "Santa Rosa",
+   "how": "city + school"
+  },
+  "Santo": {
+   "stadium_id": 712,
+   "stadium": "Wild Cat Stadium",
+   "city": "Santo",
+   "how": "city + school"
+  },
+  "Saratoga West Hardin": {
+   "stadium_id": 480,
+   "stadium": "West Hardin Oiler Stadium",
+   "city": "Saratoga",
+   "how": "city + school"
+  },
+  "Savoy": {
+   "stadium_id": 649,
+   "stadium": "Robert F. Hodge Field",
+   "city": "Savoy",
+   "how": "city + school"
+  },
+  "Scurry-Rosser": {
+   "stadium_id": 194,
+   "stadium": "Wildcat Stadium",
+   "city": "Scurry",
+   "how": "only school with this name"
+  },
+  "Seagoville": {
+   "stadium_id": 266,
+   "stadium": "Seagoville Stadium",
+   "city": "Seagoville",
+   "how": "city + school"
+  },
+  "Seagraves": {
+   "stadium_id": 754,
+   "stadium": "Eagle Stadium",
+   "city": "Seagraves",
+   "how": "city + school"
+  },
+  "Sealy": {
+   "stadium_id": 413,
+   "stadium": "T.J. Mills Stadium",
+   "city": "Sealy",
+   "how": "city + school"
+  },
+  "Seminole": {
+   "stadium_id": 829,
+   "stadium": "Wigwam Stadium",
+   "city": "Seminole",
+   "how": "city + school"
+  },
+  "Seymour": {
+   "stadium_id": 694,
+   "stadium": "Fair Park Stadium",
+   "city": "Seymour",
+   "how": "city + school"
+  },
+  "Shadow Creek": {
+   "stadium_id": 1758,
+   "stadium": "Alvin ISD Freedom Field",
+   "city": "Iowa Colony",
+   "how": "only school with this name"
+  },
+  "Shallowater": {
+   "stadium_id": 824,
+   "stadium": "Todd Field",
+   "city": "Shallowater",
+   "how": "city + school"
+  },
+  "Shamrock": {
+   "stadium_id": 757,
+   "stadium": "El Paso Field",
+   "city": "Shamrock",
+   "how": "city + school"
+  },
+  "Shelbyville": {
+   "stadium_id": 448,
+   "stadium": "Dragon Stadium",
+   "city": "Shelbyville",
+   "how": "city + school"
+  },
+  "Shepherd": {
+   "stadium_id": 341,
+   "stadium": "Pirate Stadium",
+   "city": "Shepherd",
+   "how": "city + school"
+  },
+  "Sherman": {
+   "stadium_id": 370,
+   "stadium": "Sherman ISD Stadium",
+   "city": "Sherman",
+   "how": "city + school"
+  },
+  "Shiner": {
+   "stadium_id": 334,
+   "stadium": "Comanche Stadium",
+   "city": "Shiner",
+   "how": "city + school"
+  },
+  "Sidney": {
+   "stadium_id": 72,
+   "stadium": "Eagle Field",
+   "city": "Sidney",
+   "how": "city + school"
+  },
+  "Sierra Blanca": {
+   "stadium_id": 602,
+   "stadium": "Gabriel Sanchez Memorial Field",
+   "city": "Sierra Blanca",
+   "how": "city + school"
+  },
+  "Silsbee": {
+   "stadium_id": 347,
+   "stadium": "Tiger Stadium",
+   "city": "Silsbee",
+   "how": "city + school"
+  },
+  "Silverton": {
+   "stadium_id": 801,
+   "stadium": "Payne Field",
+   "city": "Silverton",
+   "how": "city + school"
+  },
+  "Sinton": {
+   "stadium_id": 210,
+   "stadium": "Pirate Stadium",
+   "city": "Sinton",
+   "how": "city + school"
+  },
+  "Skidmore-Tynan": {
+   "stadium_id": 899,
+   "stadium": "Bobcat Stadium",
+   "city": "Skidmore",
+   "how": "only school with this name"
+  },
+  "Slaton": {
+   "stadium_id": 822,
+   "stadium": "Blake J Boyd Memorial Stadium",
+   "city": "Slaton",
+   "how": "city + school"
+  },
+  "Smithson Valley": {
+   "stadium_id": 159,
+   "stadium": "Ranger Stadium",
+   "city": "Spring Branch",
+   "how": "only school with this name"
+  },
+  "Smithville": {
+   "stadium_id": 175,
+   "stadium": "Tiger Stadium",
+   "city": "Smithville",
+   "how": "city + school"
+  },
+  "Smyer": {
+   "stadium_id": 725,
+   "stadium": "Bobcat Stadium",
+   "city": "Smyer",
+   "how": "city + school"
+  },
+  "Snyder": {
+   "stadium_id": 1009,
+   "stadium": "Grant Teaff Tiger Stadium",
+   "city": "Snyder",
+   "how": "city + school"
+  },
+  "Somerset": {
+   "stadium_id": 838,
+   "stadium": "Bulldog Stadium",
+   "city": "Somerset",
+   "how": "city + school"
+  },
+  "Somerville": {
+   "stadium_id": 196,
+   "stadium": "Yeguas Field",
+   "city": "Somerville",
+   "how": "city + school"
+  },
+  "Sonora": {
+   "stadium_id": 976,
+   "stadium": "Bronco Stadium",
+   "city": "Sonora",
+   "how": "city + school"
+  },
+  "South Garland": {
+   "stadium_id": 258,
+   "stadium": "Homer B. Johnson Stadium",
+   "city": "Garland",
+   "how": "only school with this name"
+  },
+  "South Houston": {
+   "stadium_id": 631,
+   "stadium": "Veterans Memorial Stadium",
+   "city": "Pasadena",
+   "how": "only school with this name"
+  },
+  "South Oak Cliff": {
+   "stadium_id": 296,
+   "stadium": "Sprague Athletic Complex",
+   "city": "Dallas",
+   "how": "only school with this name"
+  },
+  "South San Antonio": {
+   "stadium_id": 854,
+   "stadium": "South San Stadium",
+   "city": "San Antonio",
+   "how": "only school with this name"
+  },
+  "Southland": {
+   "stadium_id": 752,
+   "stadium": "Eagle Field",
+   "city": "Southland",
+   "how": "city + school"
+  },
+  "Spearman": {
+   "stadium_id": 792,
+   "stadium": "Lynx Stadium",
+   "city": "Spearman",
+   "how": "city + school"
+  },
+  "Splendora": {
+   "stadium_id": 482,
+   "stadium": "Wildcat Stadium",
+   "city": "Splendora",
+   "how": "city + school"
+  },
+  "Spring": {
+   "stadium_id": 627,
+   "stadium": "Leonard George Stadium",
+   "city": "Spring",
+   "how": "city + school"
+  },
+  "Spring Hill": {
+   "stadium_id": 538,
+   "stadium": "Panther Stadium",
+   "city": "Longview",
+   "how": "only school with this name"
+  },
+  "Spring Klein Collins": {
+   "stadium_id": 626,
+   "stadium": "Klein Memorial Stadium",
+   "city": "Klein",
+   "how": "city + school"
+  },
+  "Springlake Earth": {
+   "stadium_id": 834,
+   "stadium": "Wolverine Stadium",
+   "city": "Earth",
+   "how": "only school with this name"
+  },
+  "Springlake-Earth": {
+   "stadium_id": 834,
+   "stadium": "Wolverine Stadium",
+   "city": "Earth",
+   "how": "only school with this name"
+  },
+  "Springtown": {
+   "stadium_id": 1294,
+   "stadium": "Porcupine Stadium",
+   "city": "Springtown",
+   "how": "city + school"
+  },
+  "Spur": {
+   "stadium_id": 779,
+   "stadium": "Charles A. Jones Memorial Stadium",
+   "city": "Spur",
+   "how": "city + school"
+  },
+  "Stafford": {
+   "stadium_id": 636,
+   "stadium": "Stafford Municipal School District Stadium",
+   "city": "Stafford",
+   "how": "city + school"
+  },
+  "Stamford": {
+   "stadium_id": 985,
+   "stadium": "Bill Anderson Stadium",
+   "city": "Stamford",
+   "how": "city + school"
+  },
+  "Stanton": {
+   "stadium_id": 979,
+   "stadium": "Buffalo Stadium",
+   "city": "Stanton",
+   "how": "city + school"
+  },
+  "Stephenville": {
+   "stadium_id": 991,
+   "stadium": "Tarleton State University Memorial Stadium",
+   "city": "Stephenville",
+   "how": "city + school"
+  },
+  "Sterling City": {
+   "stadium_id": 493,
+   "stadium": "Eagle Stadium",
+   "city": "Sterling City",
+   "how": "city + school"
+  },
+  "Stockdale": {
+   "stadium_id": 26,
+   "stadium": "Bobby Russell Stadium",
+   "city": "Stockdale",
+   "how": "city + school"
+  },
+  "Strawn": {
+   "stadium_id": 86,
+   "stadium": "Greyhound Stadium",
+   "city": "Strawn",
+   "how": "city + school"
+  },
+  "Sudan": {
+   "stadium_id": 772,
+   "stadium": "Hornet Stadium",
+   "city": "Sudan",
+   "how": "city + school"
+  },
+  "Sulphur Springs": {
+   "stadium_id": 699,
+   "stadium": "Gerald Prim Stadium",
+   "city": "Sulphur Springs",
+   "how": "city + school"
+  },
+  "Sundown": {
+   "stadium_id": 817,
+   "stadium": "Slaughter Field",
+   "city": "Sundown",
+   "how": "city + school"
+  },
+  "Sunnyvale": {
+   "stadium_id": 1278,
+   "stadium": "Raider Stadium",
+   "city": "Sunnyvale",
+   "how": "city + school"
+  },
+  "Sunray": {
+   "stadium_id": 726,
+   "stadium": "Bobcat Stadium",
+   "city": "Sunray",
+   "how": "city + school"
+  },
+  "Sweeny": {
+   "stadium_id": 329,
+   "stadium": "Bulldog Stadium",
+   "city": "Sweeny",
+   "how": "city + school"
+  },
+  "Sweetwater": {
+   "stadium_id": 993,
+   "stadium": "Mustang Bowl",
+   "city": "Sweetwater",
+   "how": "city + school"
+  },
+  "Tahoka": {
+   "stadium_id": 736,
+   "stadium": "Bulldog Stadium",
+   "city": "Tahoka",
+   "how": "city + school"
+  },
+  "Tatum": {
+   "stadium_id": 455,
+   "stadium": "Eagle Stadium",
+   "city": "Tatum",
+   "how": "city + school"
+  },
+  "Teague": {
+   "stadium_id": 118,
+   "stadium": "Lion Stadium",
+   "city": "Teague",
+   "how": "city + school"
+  },
+  "Temple": {
+   "stadium_id": 190,
+   "stadium": "Wildcat Stadium",
+   "city": "Temple",
+   "how": "city + school"
+  },
+  "Tenaha": {
+   "stadium_id": 563,
+   "stadium": "Raymond Jackson Stadium",
+   "city": "Tenaha",
+   "how": "city + school"
+  },
+  "Terrell": {
+   "stadium_id": 298,
+   "stadium": "Terrell Memorial Stadium",
+   "city": "Terrell",
+   "how": "city + school"
+  },
+  "Texarkana Pleasant Grove": {
+   "stadium_id": 1306,
+   "stadium": "Hawk Stadium",
+   "city": "Texarkana",
+   "how": "city + school"
+  },
+  "Texarkana Texas": {
+   "stadium_id": 460,
+   "stadium": "Tiger Stadium at Grim Park",
+   "city": "Texarkana",
+   "how": "city + school"
+  },
+  "Texas City": {
+   "stadium_id": 362,
+   "stadium": "Stingaree Stadium",
+   "city": "Texas City",
+   "how": "city + school"
+  },
+  "Texas High": {
+   "stadium_id": 460,
+   "stadium": "Tiger Stadium at Grim Park",
+   "city": "Texarkana",
+   "how": "city + school"
+  },
+  "The Colony": {
+   "stadium_id": 305,
+   "stadium": "Tommy Briggs Stadium",
+   "city": "The Colony",
+   "how": "city + school"
+  },
+  "The Woodlands": {
+   "stadium_id": 1151,
+   "stadium": "Woodforest Bank Stadium",
+   "city": "Shenandoah",
+   "how": "city + school"
+  },
+  "The Woodlands College Park": {
+   "stadium_id": 1151,
+   "stadium": "Woodforest Bank Stadium",
+   "city": "Shenandoah",
+   "how": "city + school"
+  },
+  "Thorndale": {
+   "stadium_id": 49,
+   "stadium": "Bulldog Stadium",
+   "city": "Thorndale",
+   "how": "city + school"
+  },
+  "Thrall": {
+   "stadium_id": 176,
+   "stadium": "Tiger Stadium",
+   "city": "Thrall",
+   "how": "city + school"
+  },
+  "Three Rivers": {
+   "stadium_id": 908,
+   "stadium": "Bulldog Stadium",
+   "city": "Three Rivers",
+   "how": "city + school"
+  },
+  "Three Way": {
+   "stadium_id": 2545,
+   "stadium": "Brave Field",
+   "city": "Stephenville",
+   "how": "only school with this name"
+  },
+  "Throckmorton": {
+   "stadium_id": 667,
+   "stadium": "Greyhound Stadium",
+   "city": "Throckmorton",
+   "how": "city + school"
+  },
+  "Timpson": {
+   "stadium_id": 423,
+   "stadium": "John Herbert Eakin Stadium",
+   "city": "Timpson",
+   "how": "city + school"
+  },
+  "Tioga": {
+   "stadium_id": 1642,
+   "stadium": "Bulldog Field",
+   "city": "Tioga",
+   "how": "city + school"
+  },
+  "Tolar": {
+   "stadium_id": 1296,
+   "stadium": "Tolar Rattlers Stadium",
+   "city": "Tolar",
+   "how": "city + school"
+  },
+  "Tom Bean": {
+   "stadium_id": 709,
+   "stadium": "Tomcat Stadium",
+   "city": "Tom Bean",
+   "how": "city + school"
+  },
+  "Tomball": {
+   "stadium_id": 616,
+   "stadium": "Tomball ISD Stadium",
+   "city": "Tomball",
+   "how": "city + school"
+  },
+  "Tomball High": {
+   "stadium_id": 616,
+   "stadium": "Tomball ISD Stadium",
+   "city": "Tomball",
+   "how": "city + school"
+  },
+  "Tomball Memorial": {
+   "stadium_id": 616,
+   "stadium": "Tomball ISD Stadium",
+   "city": "Tomball",
+   "how": "city + school"
+  },
+  "Tornillo": {
+   "stadium_id": 579,
+   "stadium": "Coyote Stadium",
+   "city": "Tornilla",
+   "how": "city + school"
+  },
+  "Trenton": {
+   "stadium_id": 1637,
+   "stadium": "Tiger Stadium",
+   "city": "Trenton",
+   "how": "city + school"
+  },
+  "Trinidad": {
+   "stadium_id": 569,
+   "stadium": "Trojan Field",
+   "city": "Trinidad",
+   "how": "city + school"
+  },
+  "Trophy Club Byron Nelson": {
+   "stadium_id": 299,
+   "stadium": "Northwest ISD Stadium",
+   "city": "Justin",
+   "how": "city + school"
+  },
+  "Troup": {
+   "stadium_id": 565,
+   "stadium": "Tiger Stadium",
+   "city": "Troup",
+   "how": "city + school"
+  },
+  "Troy": {
+   "stadium_id": 178,
+   "stadium": "Trojan Stadium",
+   "city": "Troy",
+   "how": "city + school"
+  },
+  "Tulia": {
+   "stadium_id": 835,
+   "stadium": "Younger Field",
+   "city": "Tulia",
+   "how": "city + school"
+  },
+  "Tuloso Midway": {
+   "stadium_id": 211,
+   "stadium": "Warrior Stadium",
+   "city": "Corpus Christi",
+   "how": "only school with this name"
+  },
+  "Tuloso-Midway": {
+   "stadium_id": 211,
+   "stadium": "Warrior Stadium",
+   "city": "Corpus Christi",
+   "how": "only school with this name"
+  },
+  "Turkey Valley": {
+   "stadium_id": 807,
+   "stadium": "Patriot Stadium",
+   "city": "Turkey",
+   "how": "city + school"
+  },
+  "Tyler": {
+   "stadium_id": 568,
+   "stadium": "Christus Trinity Mother Frances Rose Stadium",
+   "city": "Tyler",
+   "how": "city + school"
+  },
+  "Tyler Chapel Hill": {
+   "stadium_id": 443,
+   "stadium": "Bulldog Stadium",
+   "city": "Tyler",
+   "how": "city + school"
+  },
+  "Tyler Legacy": {
+   "stadium_id": 568,
+   "stadium": "Christus Trinity Mother Frances Rose Stadium",
+   "city": "Tyler",
+   "how": "only school with this name"
+  },
+  "Union Grove": {
+   "stadium_id": 499,
+   "stadium": "Glyn Johnston Stadium",
+   "city": "Union Grove",
+   "how": "only school with this name"
+  },
+  "Union Hill": {
+   "stadium_id": 442,
+   "stadium": "Billy Bass Stadium",
+   "city": "Gilmer",
+   "how": "only school with this name"
+  },
+  "Universal City Randolph": {
+   "stadium_id": 852,
+   "stadium": "Mickler Memorial Field",
+   "city": "San Antonio",
+   "how": "city + school"
+  },
+  "Uvalde": {
+   "stadium_id": 926,
+   "stadium": "Honey Bowl Stadium",
+   "city": "Uvalde",
+   "how": "city + school"
+  },
+  "Valera Panther Creek": {
+   "stadium_id": 136,
+   "stadium": "Panther Stadium",
+   "city": "Valera",
+   "how": "city + school"
+  },
+  "Valley Mills": {
+   "stadium_id": 1265,
+   "stadium": "J.C. Larkin Athletic Complex",
+   "city": "Valley Mills",
+   "how": "city + school"
+  },
+  "Van": {
+   "stadium_id": 1295,
+   "stadium": "Van Memorial Stadium",
+   "city": "Van",
+   "how": "city + school"
+  },
+  "Van Alstyne": {
+   "stadium_id": 695,
+   "stadium": "Panther Stadium",
+   "city": "Van Alstyne",
+   "how": "city + school"
+  },
+  "Van Horn": {
+   "stadium_id": 583,
+   "stadium": "Eagle Stadium",
+   "city": "Van Horn",
+   "how": "city + school"
+  },
+  "Van Vleck": {
+   "stadium_id": 331,
+   "stadium": "Burl McKinney Stadium",
+   "city": "Van Vleck",
+   "how": "city + school"
+  },
+  "Vanderbilt Industrial": {
+   "stadium_id": 333,
+   "stadium": "Cobra Field",
+   "city": "Vanderbilt",
+   "how": "city + school"
+  },
+  "Vega": {
+   "stadium_id": 789,
+   "stadium": "Longhorn Field",
+   "city": "Vega",
+   "how": "city + school"
+  },
+  "Venus": {
+   "stadium_id": 50,
+   "stadium": "Bulldog Stadium",
+   "city": "Venus",
+   "how": "city + school"
+  },
+  "Vernon": {
+   "stadium_id": 680,
+   "stadium": "Lion Stadium",
+   "city": "Vernon",
+   "how": "city + school"
+  },
+  "Vernon Northside": {
+   "stadium_id": 673,
+   "stadium": "Indian Stadium",
+   "city": "Vernon",
+   "how": "city + school"
+  },
+  "Victoria East": {
+   "stadium_id": 405,
+   "stadium": "Memorial Stadium",
+   "city": "Victoria",
+   "how": "city + school"
+  },
+  "Victoria West": {
+   "stadium_id": 405,
+   "stadium": "Memorial Stadium",
+   "city": "Victoria",
+   "how": "city + school"
+  },
+  "Vidor": {
+   "stadium_id": 342,
+   "stadium": "Ivan Croak Field",
+   "city": "Vidor",
+   "how": "city + school"
+  },
+  "Waco": {
+   "stadium_id": 183,
+   "stadium": "Waco ISD Stadium",
+   "city": "Waco",
+   "how": "city + school"
+  },
+  "Waco Connally": {
+   "stadium_id": 53,
+   "stadium": "Mac Peoples Stadium",
+   "city": "Lacy-Lakeview",
+   "how": "only school with this name"
+  },
+  "Waco La Vega": {
+   "stadium_id": 149,
+   "stadium": "Willie Williams Stadium",
+   "city": "Waco",
+   "how": "city + school"
+  },
+  "Waco University": {
+   "stadium_id": 183,
+   "stadium": "Waco ISD Stadium",
+   "city": "Waco",
+   "how": "city + school"
+  },
+  "Wall": {
+   "stadium_id": 523,
+   "stadium": "Hawk Stadium",
+   "city": "Wall",
+   "how": "city + school"
+  },
+  "Waller": {
+   "stadium_id": 1289,
+   "stadium": "Daikin Stadium",
+   "city": "Waller",
+   "how": "city + school"
+  },
+  "Wallis Brazos": {
+   "stadium_id": 335,
+   "stadium": "Cougar Stadium",
+   "city": "Wallis",
+   "how": "city + school"
+  },
+  "Walnut Springs": {
+   "stadium_id": 95,
+   "stadium": "Katy Field",
+   "city": "Walnut Springs",
+   "how": "city + school"
+  },
+  "Waskom": {
+   "stadium_id": 508,
+   "stadium": "Jimmy E. Cox Stadium",
+   "city": "Waskom",
+   "how": "city + school"
+  },
+  "Water Valley": {
+   "stadium_id": 1011,
+   "stadium": "Diddle Young Field",
+   "city": "Water Valle",
+   "how": "city + school"
+  },
+  "Waxahachie": {
+   "stadium_id": 123,
+   "stadium": "Lumpkins Stadium",
+   "city": "Waxahachie",
+   "how": "city + school"
+  },
+  "Weatherford": {
+   "stadium_id": 676,
+   "stadium": "Kangaroo Stadium",
+   "city": "Weatherford",
+   "how": "city + school"
+  },
+  "Weimar": {
+   "stadium_id": 186,
+   "stadium": "Wildcat Stadium",
+   "city": "Weimer",
+   "how": "city + school"
+  },
+  "Welch Dawson": {
+   "stadium_id": 748,
+   "stadium": "McCauley Field",
+   "city": "Welch",
+   "how": "city + school"
+  },
+  "Wellington": {
+   "stadium_id": 810,
+   "stadium": "Powell Field",
+   "city": "Wellington",
+   "how": "city + school"
+  },
+  "Weslaco": {
+   "stadium_id": 897,
+   "stadium": "Bobby Lackey Stadium",
+   "city": "Weslaco",
+   "how": "city + school"
+  },
+  "Weslaco East": {
+   "stadium_id": 897,
+   "stadium": "Bobby Lackey Stadium",
+   "city": "Weslaco",
+   "how": "only school with this name"
+  },
+  "West Hardin": {
+   "stadium_id": 480,
+   "stadium": "West Hardin Oiler Stadium",
+   "city": "Saratoga",
+   "how": "only school with this name"
+  },
+  "West Mesquite": {
+   "stadium_id": 279,
+   "stadium": "Mesquite Memorial Stadium",
+   "city": "Mesquite",
+   "how": "only school with this name"
+  },
+  "West Orange-Stark": {
+   "stadium_id": 479,
+   "stadium": "Dan R. Hooks Stadium",
+   "city": "West Orange",
+   "how": "only school with this name"
+  },
+  "West Oso": {
+   "stadium_id": 201,
+   "stadium": "Bear Stadium",
+   "city": "Corpus Christi",
+   "how": "only school with this name"
+  },
+  "West Rusk": {
+   "stadium_id": 1614,
+   "stadium": "Bruce Bradshaw Stadium",
+   "city": "New London",
+   "how": "only school with this name"
+  },
+  "West Sabine": {
+   "stadium_id": 562,
+   "stadium": "Tiger Stadium",
+   "city": "Pineland",
+   "how": "only school with this name"
+  },
+  "West Texas": {
+   "stadium_id": 739,
+   "stadium": "Comanche Field",
+   "city": "Stinnett",
+   "how": "only school with this name"
+  },
+  "Westbrook": {
+   "stadium_id": 1014,
+   "stadium": "Wildcat Stadium",
+   "city": "Westbrook",
+   "how": "city + school"
+  },
+  "Wharton": {
+   "stadium_id": 363,
+   "stadium": "Eddie Joseph Memorial Stadium",
+   "city": "Wharton",
+   "how": "city + school"
+  },
+  "Wheeler": {
+   "stadium_id": 799,
+   "stadium": "Nicholson Field",
+   "city": "Wheeler",
+   "how": "city + school"
+  },
+  "White Deer": {
+   "stadium_id": 729,
+   "stadium": "Buck Stadium",
+   "city": "White Deer",
+   "how": "city + school"
+  },
+  "White Oak": {
+   "stadium_id": 554,
+   "stadium": "Roughneck Stadium",
+   "city": "White Oak",
+   "how": "city + school"
+  },
+  "Whiteface": {
+   "stadium_id": 721,
+   "stadium": "Antelope Stadium",
+   "city": "Whiteface",
+   "how": "city + school"
+  },
+  "Whitehouse": {
+   "stadium_id": 509,
+   "stadium": "Wildcat Stadium",
+   "city": "Whitehouse",
+   "how": "city + school"
+  },
+  "Whitesboro": {
+   "stadium_id": 371,
+   "stadium": "Bearcat Stadium",
+   "city": "Whitesboro",
+   "how": "city + school"
+  },
+  "Whitewright": {
+   "stadium_id": 708,
+   "stadium": "Tiger Stadium",
+   "city": "Whitewright",
+   "how": "city + school"
+  },
+  "Whitharral": {
+   "stadium_id": 804,
+   "stadium": "McCormack-Doshier Field",
+   "city": "Whitharral",
+   "how": "city + school"
+  },
+  "Whitney": {
+   "stadium_id": 20,
+   "stadium": "Wildcat Stadium",
+   "city": "Whitney",
+   "how": "city + school"
+  },
+  "Wichita Falls": {
+   "stadium_id": 683,
+   "stadium": "Memorial Stadium",
+   "city": "Wichita Falls",
+   "how": "city + school"
+  },
+  "Wichita Falls High": {
+   "stadium_id": 683,
+   "stadium": "Memorial Stadium",
+   "city": "Wichita Falls",
+   "how": "city + school"
+  },
+  "Wichita Falls Hirschi": {
+   "stadium_id": 683,
+   "stadium": "Memorial Stadium",
+   "city": "Wichita Falls",
+   "how": "city + school"
+  },
+  "Wichita Falls Memorial": {
+   "stadium_id": 683,
+   "stadium": "Memorial Stadium",
+   "city": "Wichita Falls",
+   "how": "only school with this name"
+  },
+  "Wildorado": {
+   "stadium_id": 3617,
+   "stadium": "Wildorado Mustang Field",
+   "city": "Wildorado",
+   "how": "city + school"
+  },
+  "Willis": {
+   "stadium_id": 483,
+   "stadium": "Berton A. Yates Stadium",
+   "city": "Willis",
+   "how": "city + school"
+  },
+  "Wills Point": {
+   "stadium_id": 566,
+   "stadium": "Ken Autry Davis Field",
+   "city": "Wills Point",
+   "how": "city + school"
+  },
+  "Wilson": {
+   "stadium_id": 800,
+   "stadium": "Mustang Stadium",
+   "city": "Wilson",
+   "how": "city + school"
+  },
+  "Wimberley": {
+   "stadium_id": 162,
+   "stadium": "Texan Stadium",
+   "city": "Wimberley",
+   "how": "city + school"
+  },
+  "Windthorst": {
+   "stadium_id": 710,
+   "stadium": "Trojan Field",
+   "city": "Windthorst",
+   "how": "city + school"
+  },
+  "Wink": {
+   "stadium_id": 1012,
+   "stadium": "Wildcat Field",
+   "city": "Wink",
+   "how": "city + school"
+  },
+  "Winnsboro": {
+   "stadium_id": 551,
+   "stadium": "Red Raider Stadium",
+   "city": "Winnsboro",
+   "how": "city + school"
+  },
+  "Winona": {
+   "stadium_id": 510,
+   "stadium": "Wildcat Stadium",
+   "city": "Winona",
+   "how": "city + school"
+  },
+  "Winters": {
+   "stadium_id": 974,
+   "stadium": "Blizzard Stadium",
+   "city": "Winters",
+   "how": "city + school"
+  },
+  "Wolfe City": {
+   "stadium_id": 657,
+   "stadium": "Don Howard Stadium",
+   "city": "Wolfe City",
+   "how": "city + school"
+  },
+  "Wolfforth Frenship": {
+   "stadium_id": 823,
+   "stadium": "Peoples Bank Stadium",
+   "city": "Wolfforth",
+   "how": "city + school"
+  },
+  "Woodsboro": {
+   "stadium_id": 918,
+   "stadium": "Eagle Stadium",
+   "city": "Woodsboro",
+   "how": "city + school"
+  },
+  "Woodson": {
+   "stadium_id": 654,
+   "stadium": "Cowboy Stadium",
+   "city": "Woodson",
+   "how": "city + school"
+  },
+  "Woodville": {
+   "stadium_id": 874,
+   "stadium": "Eagle Stadium",
+   "city": "Woodville",
+   "how": "city + school"
+  },
+  "Wortham": {
+   "stadium_id": 36,
+   "stadium": "Wortham ISD Bulldog Stadium",
+   "city": "Wortham",
+   "how": "city + school"
+  },
+  "Wylie East": {
+   "stadium_id": 289,
+   "stadium": "Wylie ISD Stadium",
+   "city": "Wylie",
+   "how": "only school with this name"
+  },
+  "Yoakum": {
+   "stadium_id": 330,
+   "stadium": "Bulldog Stadium",
+   "city": "Yoakum",
+   "how": "city + school"
+  },
+  "Yorktown": {
+   "stadium_id": 416,
+   "stadium": "Wildcat Stadium",
+   "city": "Yorktown",
+   "how": "city + school"
+  },
+  "Zapata": {
+   "stadium_id": 925,
+   "stadium": "Hawk Stadium",
+   "city": "Zapata",
+   "how": "city + school"
+  },
+  "Zephyr": {
+   "stadium_id": 1299,
+   "stadium": "Bulldog Field",
+   "city": "Zephyr",
+   "how": "city + school"
+  }
+ }
+}
