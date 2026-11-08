@@ -211,11 +211,17 @@ def fill_sites(year, ws, placed):
     now = datetime.datetime.now(datetime.timezone.utc)
     filled = 0
     for r, g in placed:
+        if r['site'] and r['site'].lower().startswith('game details'):
+            # raw card text from before sites were cleaned up
+            ws[f'{COL["site"]}{r["row"]}'] = r['site'] = game_sites.clean_site(r['site']) or None
+            filled += 1
         if r['site'] or not g.get('card'):
             continue
         key = f"{g['cls']}|{g['key1']}|{g['key2']}"
         seen = cards.get(key, {})
-        if seen.get('read') and (now - datetime.datetime.fromisoformat(seen['read'])).total_seconds() < 20 * 3600:
+        if seen.get('read') and game_sites.clean_site(seen.get('site')):
+            info = seen          # already has a real site: no need to read the card again
+        elif seen.get('read') and (now - datetime.datetime.fromisoformat(seen['read'])).total_seconds() < 20 * 3600:
             info = seen
         else:
             try:
@@ -227,11 +233,12 @@ def fill_sites(year, ws, placed):
             cards[key] = info
             time.sleep(1.5)   # be gentle with MaxPreps
         for k in ('site', 'date'):
-            if info.get(k) and not r[k]:
-                ws[f'{COL[k]}{r["row"]}'] = r[k] = info[k]
+            v = game_sites.clean_site(info.get(k)) if k == 'site' else info.get(k)
+            if v and not r[k]:
+                ws[f'{COL[k]}{r["row"]}'] = r[k] = v
                 filled += 1
     cards_path(year).write_text(json.dumps(cards, indent=1, sort_keys=True) + '\n')
-    with_site = sum(1 for c in cards.values() if c.get('site'))
+    with_site = sum(1 for c in cards.values() if game_sites.clean_site(c.get('site')))
     print(f'  cards: {len(cards)} read, {with_site} with a site')
     return filled
 
@@ -478,8 +485,12 @@ def build(year, force=False):
 def locate(year):
     """Look up map coordinates for game sites that don't have them yet."""
     wb, _ = open_workbook(year)
-    sites = [r['site'] for r in read_rows(wb['Games']) if r['site']]
-    print(f'locate: {game_sites.locate(sites)} new sites placed ({len(set(sites))} sites in all)')
+    games = [(r['site'], r['team1'], r['team2']) for r in read_rows(wb['Games']) if r['site'] and r['team1'] and r['team2']]
+    rp = ROOT / 'season' / str(year) / game_sites.REVIEW
+    added = game_sites.locate(games, rp)
+    waiting = json.loads(rp.read_text())
+    print(f'locate: {added} new sites placed; {len(set(games)) - len(waiting)} of {len(set(games))} games with a site '
+          f'are on the map, {len(waiting)} need a person (see {rp.relative_to(ROOT)})')
 
 
 def review_issue(year):
