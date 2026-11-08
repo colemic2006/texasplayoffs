@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parent.parent
 CACHE = ROOT / 'season' / 'geocode_cache.json'
 UA = 'texasplayoffs.com season map (https://texasplayoffs.com)'
 RETRY_MISS_DAYS = 3
+RULES = 2   # bump when the matching rules change, so earlier misses are tried again
 
 
 SCHOOLS = ROOT / 'season' / 'texasbob_schools.json'   # [[stadium_id, city, school, stadium], ...]
@@ -168,7 +169,8 @@ def locate(games, review_path=None):
     for site, t1, t2 in sorted(set(games)):
         key = cache_key(site, t1, t2)
         hit = cache.get(key)
-        if hit and ('lat' in hit or (today - datetime.date.fromisoformat(hit['missed'])).days < RETRY_MISS_DAYS):
+        if hit and ('lat' in hit or (hit.get('rules') == RULES and
+                                     (today - datetime.date.fromisoformat(hit['missed'])).days < RETRY_MISS_DAYS)):
             continue
         st, how = resolve(site, stadiums, schools, (t1, t2))
         if st:
@@ -196,7 +198,7 @@ def locate(games, review_path=None):
             entry.update(lat=round(coords[0], 5), lng=round(coords[1], 5))
             added += 1
         else:
-            entry['missed'] = today.isoformat()
+            entry.update(missed=today.isoformat(), rules=RULES)
         entry['site'] = site
         cache[key] = entry
     CACHE.parent.mkdir(parents=True, exist_ok=True)
