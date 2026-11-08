@@ -2,14 +2,14 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-08T21:40+00:00",
+    "updated": "2026-11-08T22:40+00:00",
     "games": 352,
     "played": 0,
-    "assigned": 23,
+    "assigned": 29,
     "weeks": {
       "1": {
         "games": 352,
-        "assigned": 23
+        "assigned": 29
       },
       "2": {
         "games": 0,
@@ -70,6 +70,22 @@
           }
         }
       }
+    },
+    {
+      "code": "SAN",
+      "name": "San Angelo",
+      "total": 6,
+      "weeks": {
+        "1": {
+          "total": 6,
+          "classifications": {
+            "1A D1": 2,
+            "2A D1": 1,
+            "2A D2": 2,
+            "4A D1": 1
+          }
+        }
+      }
     }
   ],
   "games": [
@@ -110,7 +126,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "SAN",
       "team1": "Oglesby",
       "score1": null,
       "team2": "Knippa",
@@ -174,7 +190,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "SAN",
       "team1": "Borden County",
       "score1": null,
       "team2": "Grady",
@@ -801,7 +817,7 @@
       "classification": "2A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "SAN",
       "team1": "San Saba",
       "score1": null,
       "team2": "Valley Mills",
@@ -1145,7 +1161,7 @@
       "classification": "2A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "SAN",
       "team1": "Lockney",
       "score1": null,
       "team2": "Iraan",
@@ -1303,7 +1319,7 @@
       "classification": "2A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "SAN",
       "team1": "Stamford",
       "score1": null,
       "team2": "Mart",
@@ -2672,7 +2688,7 @@
       "classification": "4A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "SAN",
       "team1": "Canyon West Plains",
       "score1": null,
       "team2": "El Paso Ysleta",
