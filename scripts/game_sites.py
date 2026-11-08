@@ -185,7 +185,11 @@ def locate(games, review_path=None):
         elif how.startswith('town:'):
             tries = [(f"{how[5:]}, Texas", 'town (approximate)')]
         elif how.startswith('address:'):
-            tries = [(how[8:] if re.search(r'\b(TX|Texas)\b', how) else how[8:] + ', Texas', 'address in site text')]
+            text = how[8:]
+            tries = [(text if re.search(r'\b(TX|Texas)\b', text) else text + ', Texas', 'address in site text')]
+            town = re.sub(r'\b(TX|Texas)\b|\d{5}', '', text.split(',')[-1]).strip(' ,')
+            if ',' in text and town:
+                tries.append((f'{town}, Texas', 'town (approximate)'))
         else:
             tries = []
         coords = None
