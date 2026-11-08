@@ -680,6 +680,10 @@
       "score2": null,
       "winner": null,
       "site": "Herford High School",
+      "lat": 34.83147,
+      "lng": -102.41338,
+      "stadium": "Whiteface Stadium",
+      "map_link": "https://goo.gl/maps/1giBBj6DXv3Qb9sh8",
       "date": "2026-11-12"
     },
     {
@@ -896,6 +900,8 @@
       "score2": null,
       "winner": null,
       "site": "A&M Consolidated HS",
+      "lat": 30.592,
+      "lng": -96.31809,
       "date": "2026-11-12"
     },
     {
@@ -1241,6 +1247,10 @@
       "score2": null,
       "winner": null,
       "site": "Mary Hardin Baylor Crusader Stadium",
+      "lat": 31.06868,
+      "lng": -97.46483,
+      "stadium": "Crusader Stadium",
+      "map_link": "https://goo.gl/maps/di33t6EqKwJGmr33A",
       "date": "2026-11-12"
     },
     {
@@ -1642,6 +1652,10 @@
       "score2": null,
       "winner": null,
       "site": "Midlothian ISD Multi-Purpose",
+      "lat": 32.46577,
+      "lng": -96.98505,
+      "stadium": "MISD Multi-Purpose Stadium",
+      "map_link": "https://goo.gl/maps/32KqqTJ9nxj6qnBM9",
       "date": "2026-11-12"
     },
     {
@@ -2024,6 +2038,8 @@
       "score2": null,
       "winner": null,
       "site": "Greg Sherwood Memorial Bulldog Stadium",
+      "lat": 34.18479,
+      "lng": -101.70684,
       "date": "2026-11-13"
     },
     {
@@ -3282,6 +3298,8 @@
       "score2": null,
       "winner": null,
       "site": "Lowrey Field",
+      "lat": 33.58557,
+      "lng": -101.84702,
       "date": "2026-11-12"
     },
     {
@@ -3296,6 +3314,10 @@
       "score2": null,
       "winner": null,
       "site": "Mountain View HS",
+      "lat": 31.79748,
+      "lng": -106.15839,
+      "stadium": "Lobo Stadium",
+      "map_link": "https://goo.gl/maps/FdFekKEL4gwiRHNh9",
       "date": "2026-11-13"
     },
     {
@@ -3484,6 +3506,10 @@
       "score2": null,
       "winner": null,
       "site": "FWISD Farrington",
+      "lat": 32.73056,
+      "lng": -97.36153,
+      "stadium": "Farrington Field",
+      "map_link": "https://goo.gl/maps/5hpRUksSEBEZD7EK7",
       "date": "2026-11-13"
     },
     {
@@ -3529,6 +3555,8 @@
       "score2": null,
       "winner": null,
       "site": "CH Collins",
+      "lat": 33.18388,
+      "lng": -97.14134,
       "date": "2026-11-12"
     },
     {
@@ -3901,6 +3929,10 @@
       "score2": null,
       "winner": null,
       "site": "Canutillo HS",
+      "lat": 31.8969,
+      "lng": -106.58673,
+      "stadium": "Eagle Stadium",
+      "map_link": "https://goo.gl/maps/dzsCx6o43vrCxi8a9",
       "date": "2026-11-13"
     },
     {
@@ -4203,6 +4235,8 @@
       "score2": null,
       "winner": null,
       "site": "Mustang Panther Stadium",
+      "lat": 32.74596,
+      "lng": -96.99778,
       "date": "2026-11-13"
     },
     {
@@ -4417,6 +4451,8 @@
       "score2": null,
       "winner": null,
       "site": "Crusader Stadium",
+      "lat": 29.75894,
+      "lng": -95.3677,
       "date": "2026-11-13"
     },
     {
@@ -4506,6 +4542,10 @@
       "score2": null,
       "winner": null,
       "site": "Laredo Student Activity Center",
+      "lat": 27.49874,
+      "lng": -99.43674,
+      "stadium": "Bill Johnson Student Activity Center",
+      "map_link": "https://goo.gl/maps/9EZxX2FDWUAoxfz2A",
       "date": "2026-11-13"
     },
     {
@@ -4920,6 +4960,8 @@
       "score2": null,
       "winner": null,
       "site": "Farris Stadium",
+      "lat": 29.56344,
+      "lng": -98.65353,
       "date": "2026-11-13"
     },
     {
