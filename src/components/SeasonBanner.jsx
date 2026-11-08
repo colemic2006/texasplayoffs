@@ -7,9 +7,11 @@ export default function SeasonBanner({ data, year }) {
   const season = data?.season
   if (!season || season.status !== 'in_progress') return null
 
-  const updated = season.updated
-    ? new Date(season.updated + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
-    : null
+  // last time the season's data changed, shown in Texas time
+  const updated = !season.updated ? null
+    : season.updated.includes('T')
+      ? new Date(season.updated).toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'America/Chicago' }) + ' CT'
+      : new Date(season.updated + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
   const weeks = Object.entries(season.weeks || {}).filter(([, w]) => w.games > 0)
 
   return (
@@ -19,7 +21,7 @@ export default function SeasonBanner({ data, year }) {
     }}>
       <div style={{ position:'absolute', top:0, left:0, bottom:0, width:3, background:'var(--burnt)' }} />
       <div style={{ fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.16em', textTransform:'uppercase', color:'var(--burnt)', marginBottom:6 }}>
-        {year} Playoffs · In Progress{updated ? ` · Updated ${updated}` : ''}
+        {year} Playoffs · In Progress
       </div>
       {season.games === 0 ? (
         <div style={{ fontSize:14, color:'var(--ink)' }}>
@@ -28,7 +30,7 @@ export default function SeasonBanner({ data, year }) {
       ) : (
         <>
           <div style={{ fontSize:14, color:'var(--ink)', marginBottom:10 }}>
-            {season.assigned} of {season.games} games have a chapter assignment so far. Counts update weekly.
+            {season.assigned} of {season.games} games have a chapter assignment so far.{updated ? ` Last updated ${updated}.` : ''}
           </div>
           <div style={{ display:'flex', gap:8, flexWrap:'wrap' }}>
             {weeks.map(([w, wk]) => (

@@ -456,7 +456,7 @@ def build(year, force=False):
     finals = sum(1 for g in games if g['week'] == 6 and g['score1'] is not None)
     out = dict(year=year,
                season=dict(status='complete' if finals >= 10 else 'in_progress',
-                           updated=datetime.date.today().isoformat(),
+                           updated=datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='minutes'),
                            games=len(games), played=played, assigned=assigned,
                            weeks={str(w): dict(games=sum(1 for g in games if g['week'] == w),
                                                assigned=sum(1 for g in games if g['week'] == w and g['chapter']))
