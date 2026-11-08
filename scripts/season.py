@@ -125,7 +125,21 @@ def games_from_maxpreps(cls, year):
         for mu in rnd.select('li.matchup-container'):
             if os.environ.get('SHOW_MATCHUP_HTML') == cls and week == 1 and mu.select_one('li.team .name') \
                     and mu.select_one('li.team .name').get_text(strip=True):
-                print(f'--- {cls} matchup html ---\n{mu.parent.parent.decode()[:0]}{mu.decode()[:4000]}')
+                card = mu.select_one('[data-hover-card]')
+                if card:
+                    url = 'https://www.maxpreps.com' + card['data-hover-card'].replace('&amp;', '&')
+                    try:
+                        print(f'--- {cls} details card ---\n{fetch(url)[:5000]}')
+                    except Exception as e:
+                        print(f'--- {cls} details card failed: {e}')
+                pre = mu.select_one('li.pregame a[href]')
+                if pre:
+                    try:
+                        page = fetch(pre['href'])
+                        i = max(page.find('ocation'), 0)
+                        print(f'--- {cls} game page ({len(page)} bytes) around "location" ---\n{page[max(0, i - 1500):i + 2500]}')
+                    except Exception as e:
+                        print(f'--- {cls} game page failed: {e}')
                 os.environ['SHOW_MATCHUP_HTML'] = ''   # one is enough
             teams = mu.select('li.team')
             if len(teams) != 2:
