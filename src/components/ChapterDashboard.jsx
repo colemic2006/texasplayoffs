@@ -520,7 +520,7 @@ function ChapterGames({ games, week, setWeek, cls, setCls }) {
                       ? <a href={g.map_link || `https://www.google.com/maps?q=${g.lat},${g.lng}`} target="_blank" rel="noopener noreferrer" style={{ color:'var(--ink)' }}>{placeName(g)}</a>
                       : placeName(g)
                     : '—'}
-                  {g.date && <span style={{ fontFamily:'var(--mono)', fontSize:10, marginLeft:6 }}>{g.date.slice(5).replace('-', '/')}</span>}
+                  {g.date && <span style={{ fontFamily:'var(--mono)', fontSize:10, marginLeft:6 }}>{`${g.date.slice(5, 7)}/${g.date.slice(8, 10)}/${g.date.slice(0, 4)}`}</span>}
                 </td>
               </tr>
             ))}
