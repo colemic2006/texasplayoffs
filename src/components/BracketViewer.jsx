@@ -1,5 +1,6 @@
 import React, { useState, useMemo, useEffect, useRef } from 'react'
 import { placeName } from '../placeName'
+import { UNASSIGNED, colorFor } from '../chapterColors'
 import 'leaflet/dist/leaflet.css'
 
 const CLASSIFICATIONS = ['1A D1','1A D2','2A D1','2A D2','3A D1','3A D2','4A D1','4A D2','5A D1','5A D2','6A D1','6A D2','Six Man D1','Six Man D2']
@@ -27,23 +28,6 @@ function SectionLabel({ children }) {
   return <div style={{ fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.18em', textTransform:'uppercase', color:'var(--mid)', marginBottom:6 }}>{children}</div>
 }
 
-// Geocode a location string via Nominatim (rate-limited, cached)
-const geocodeCache = {}
-async function geocode(query) {
-  if (geocodeCache[query]) return geocodeCache[query]
-  try {
-    const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(query + ', Texas')}&format=json&limit=1`
-    const res = await fetch(url, { headers: { 'Accept-Language': 'en', 'User-Agent': 'TexasPlayoffs/1.0' } })
-    const data = await res.json()
-    if (data[0]) {
-      const result = { lat: parseFloat(data[0].lat), lng: parseFloat(data[0].lon) }
-      geocodeCache[query] = result
-      return result
-    }
-  } catch {}
-  return null
-}
-
 // Match a site string to the stadiums lookup
 function findStadium(site, stadiums) {
   if (!site || !stadiums.length) return null
@@ -65,11 +49,11 @@ function findStadium(site, stadiums) {
 export default function BracketViewer({ data, year }) {
   const [selectedWeek, setSelectedWeek] = useState(1)
   const [classFilter, setClassFilter] = useState('all')
-  const [chapterFilter, setChapterFilter] = useState('all')   // 'all', 'none' (unassigned) or a chapter code
+  const [picked, setPicked] = useState([])   // chapter codes and/or 'none' (unassigned); empty = all
+  const toggleChapter = c => setPicked(p => p.includes(c) ? p.filter(x => x !== c) : [...p, c])
   const [showMap, setShowMap] = useState(false)
   const [stadiums, setStadiums] = useState([])
   const [mapMarkers, setMapMarkers] = useState([])
-  const [geocoding, setGeocoding] = useState(false)
 
   // Load stadiums lookup once
   useEffect(() => {
@@ -87,10 +71,9 @@ export default function BracketViewer({ data, year }) {
   const weekGames = useMemo(() => {
     let games = allGames.filter(g => g.week === selectedWeek)
     if (classFilter !== 'all') games = games.filter(g => g.classification === classFilter)
-    if (chapterFilter === 'none') games = games.filter(g => !g.chapter)
-    else if (chapterFilter !== 'all') games = games.filter(g => g.chapter === chapterFilter)
+    if (picked.length) games = games.filter(g => picked.includes(g.chapter || 'none'))
     return games
-  }, [allGames, selectedWeek, classFilter, chapterFilter])
+  }, [allGames, selectedWeek, classFilter, picked])
 
   // chapters working the selected week, busiest first
   const weekChapters = useMemo(() => {
@@ -100,7 +83,8 @@ export default function BracketViewer({ data, year }) {
   }, [allGames, selectedWeek])
   const weekUnassigned = allGames.filter(g => g.week === selectedWeek && !g.chapter).length
   useEffect(() => {
-    if (chapterFilter !== 'all' && chapterFilter !== 'none' && !weekChapters.some(([c]) => c === chapterFilter)) setChapterFilter('all')
+    // keep picks that still exist when changing weeks
+    setPicked(p => p.filter(c => c === 'none' ? weekUnassigned > 0 : weekChapters.some(([k]) => k === c)))
   }, [weekChapters])
 
   const gamesByClass = useMemo(() => {
@@ -123,40 +107,22 @@ export default function BracketViewer({ data, year }) {
     }
   }, [data])
 
-  // Geocode games with sites for the map
+  // Map pins: game sites are placed ahead of time by scripts/season.py locate
   useEffect(() => {
     if (!showMap) return
-    const gamesWithSite = weekGames.filter(g => g.site)
-    if (!gamesWithSite.length) { setMapMarkers([]); return }
-
-    setGeocoding(true)
-    const delay = ms => new Promise(r => setTimeout(r, ms))
-
-    async function run() {
-      // sites placed ahead of time by scripts/season.py locate need no lookup
-      const markers = gamesWithSite.filter(g => g.lat != null && g.lng != null)
-        .map(g => ({ lat: g.lat, lng: g.lng, game: g, stadium: findStadium(g.site, stadiums) || (g.stadium ? { name: g.stadium, city: '', map_link: g.map_link } : null) }))
-      const toLookUp = gamesWithSite.filter(g => g.lat == null || g.lng == null)
-      if (markers.length) setMapMarkers([...markers])
-      for (let i = 0; i < toLookUp.length; i++) {
-        const g = toLookUp[i]
-        const stadium = findStadium(g.site, stadiums)
-        const query = stadium
-          ? `${stadium.address}, ${stadium.city}, Texas`
-          : g.site
-        const coords = await geocode(query)
-        if (coords) {
-          markers.push({ ...coords, game: g, stadium })
-        }
-        if (i < toLookUp.length - 1) await delay(1100) // Nominatim rate limit
-      }
-      setMapMarkers(markers)
-      setGeocoding(false)
-    }
-    run()
+    setMapMarkers(weekGames.filter(g => g.site && g.lat != null && g.lng != null).map(g => ({
+      lat: g.lat, lng: g.lng, game: g,
+      color: picked.length ? colorFor(picked, g.chapter || 'none') : undefined,
+      stadium: findStadium(g.site, stadiums) || (g.stadium ? { name: g.stadium, city: g.city || '', map_link: g.map_link } : null),
+    })))
   }, [showMap, weekGames, stadiums])
 
   const gamesWithSite = weekGames.filter(g => g.site)
+  const chapterChip = (active, color) => ({
+    fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.08em',
+    padding:'4px 10px', borderRadius:3, border:`1px solid ${active && color ? color : 'var(--border)'}`,
+    background: active ? color : 'transparent', color: active ? '#fff' : 'var(--mid)', cursor:'pointer'
+  })
 
   return (
     <div>
@@ -210,15 +176,16 @@ export default function BracketViewer({ data, year }) {
       {/* Chapter filter (map and games) */}
       {weekChapters.length > 0 && (
         <div style={{ display:'flex', alignItems:'center', gap:4, flexWrap:'wrap', marginBottom:8 }}>
-          <span style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginRight:4 }}>Chapter:</span>
-          {[['all', 'All'], ...(weekUnassigned ? [['none', `Unassigned (${weekUnassigned})`]] : []),
-            ...weekChapters.map(([c, n]) => [c, `${c} (${n})`])].map(([v, label]) => (
-            <button key={v} onClick={() => setChapterFilter(v)} style={{
-              fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.08em',
-              padding:'4px 10px', borderRadius:3, border:'1px solid var(--border)',
-              background: chapterFilter === v ? 'var(--burnt)' : 'transparent',
-              color: chapterFilter === v ? '#fff' : 'var(--mid)', cursor:'pointer'
-            }}>{label}</button>
+          <span style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginRight:4 }}>
+            Chapters <span style={{ textTransform:'none', letterSpacing:0 }}>(pick one or more)</span>:
+          </span>
+          <button onClick={() => setPicked([])} style={chapterChip(!picked.length, 'var(--burnt)')}>All</button>
+          {weekUnassigned > 0 && (
+            <button onClick={() => toggleChapter('none')} style={chapterChip(picked.includes('none'), UNASSIGNED)}>Unassigned ({weekUnassigned})</button>
+          )}
+          {weekChapters.map(([c, n]) => (
+            <button key={c} onClick={() => toggleChapter(c)}
+                    style={chapterChip(picked.includes(c), picked.includes(c) ? colorFor(picked, c) : null)}>{c} ({n})</button>
           ))}
         </div>
       )}
@@ -244,19 +211,12 @@ export default function BracketViewer({ data, year }) {
       {/* Map */}
       {showMap && (
         <div style={{ marginBottom:24, borderRadius:10, overflow:'hidden', border:'1px solid var(--border)', height:380 }}>
-          {geocoding && (
-            <div style={{ height:'100%', display:'flex', alignItems:'center', justifyContent:'center', background:'var(--surface)', gap:8 }}>
-              <div style={{ width:8, height:8, borderRadius:'50%', background:'var(--burnt)', animation:'pulse 1s infinite' }} />
-              <span style={{ fontFamily:'var(--mono)', fontSize:11, color:'var(--mid)' }}>Geocoding {gamesWithSite.length} locations…</span>
-              <style>{`@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.3}}`}</style>
-            </div>
-          )}
-          {!geocoding && mapMarkers.length === 0 && gamesWithSite.length > 0 && (
+          {mapMarkers.length === 0 && gamesWithSite.length > 0 && (
             <div style={{ height:'100%', display:'flex', alignItems:'center', justifyContent:'center', background:'var(--surface)' }}>
-              <span style={{ fontFamily:'var(--mono)', fontSize:11, color:'var(--mid)' }}>No locations could be resolved.</span>
+              <span style={{ fontFamily:'var(--mono)', fontSize:11, color:'var(--mid)' }}>These games' sites aren't on the map yet.</span>
             </div>
           )}
-          {!geocoding && mapMarkers.length > 0 && (
+          {mapMarkers.length > 0 && (
             <GameMap markers={mapMarkers} />
           )}
           {gamesWithSite.length === 0 && (

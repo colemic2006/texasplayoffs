@@ -1,10 +1,8 @@
 import React, { useState, useMemo, useEffect } from 'react'
 import { GameMap } from './BracketViewer'
+import { UNASSIGNED, colorFor } from '../chapterColors'
 
 const ROUND_NAMES = { 1:'Bi-District', 2:'Area', 3:'Regionals', 4:'Quarterfinals', 5:'Semifinals', 6:'Championship' }
-const UNASSIGNED = '#2c4a6e'
-// distinct pin colors for chapters picked together (unassigned keeps its slate blue)
-const PALETTE = ['#c1440e', '#d4920a', '#2e7d4f', '#7b3fa0', '#c2185b', '#00838f', '#6d4c41', '#558b2f', '#e65100', '#283593']
 
 // Texas map with a pin for each playoff game site in the chosen week (sites placed by scripts/season.py).
 // Chapters can be combined (e.g. ABI + unassigned + PBC) to see who is working nearby.
@@ -32,7 +30,7 @@ export default function WeekMap({ data }) {
 
   const toggle = c => setPicked(p => p.includes(c) ? p.filter(x => x !== c) : [...p, c])
   // a chapter keeps its color while it stays picked
-  const colorOf = c => c === 'none' ? UNASSIGNED : PALETTE[picked.filter(x => x !== 'none').indexOf(c) % PALETTE.length]
+  const colorOf = c => colorFor(picked, c)
 
   const weekGames = picked.length
     ? allWeekGames.filter(g => picked.includes(g.chapter || 'none'))
