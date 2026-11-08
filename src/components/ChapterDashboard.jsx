@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react'
+import React, { useState, useMemo, useEffect } from 'react'
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell
 } from 'recharts'
@@ -48,6 +48,11 @@ export default function ChapterDashboard({ data, year }) {
   const [sortBy, setSortBy] = useState('total')
   const [selectedWeek, setSelectedWeek] = useState('all')
   const [selectedChapter, setSelectedChapter] = useState(null)
+  const [detailWeek, setDetailWeek] = useState('all')
+  const [detailClass, setDetailClass] = useState('all')
+
+  // a different chapter starts with all of its games showing
+  useEffect(() => { setDetailWeek('all'); setDetailClass('all') }, [selectedChapter, year])
   const [filterClass, setFilterClass] = useState('all')
   const [tableClass, setTableClass] = useState('all')
 
@@ -215,7 +220,10 @@ export default function ChapterDashboard({ data, year }) {
                       const games = wk?.total ?? 0
                       running += games
                       return (
-                        <tr key={w} style={{ borderBottom:'1px solid rgba(15,13,11,0.05)' }}>
+                        <tr key={w} onClick={() => games && setDetailWeek(detailWeek === w ? 'all' : w)}
+                          title={games ? 'Show these games below' : undefined}
+                          style={{ borderBottom:'1px solid rgba(15,13,11,0.05)', cursor: games ? 'pointer' : 'default',
+                                   background: detailWeek === w ? 'rgba(212,146,10,0.12)' : undefined }}>
                           <td style={{ ...tdStyle, textAlign:'center' }}>{w}</td>
                           <td style={{ ...tdStyle, color:'var(--mid)', fontSize:11, textAlign:'center' }}>{ROUND_LABELS[w]}</td>
                           <td style={{ ...tdStyle, fontWeight:500, textAlign:'center' }}>{games}</td>
@@ -239,6 +247,12 @@ export default function ChapterDashboard({ data, year }) {
             {/* Classification breakdown mini-chart */}
             <ClassificationBreakdown chapter={selectedChapterData} />
           </div>
+
+          <ChapterGames
+            games={(data?.games || []).filter(g => g.chapter === selectedChapterData.code)}
+            week={detailWeek} setWeek={setDetailWeek}
+            cls={detailClass} setCls={setDetailClass}
+          />
         </div>
       )}
 
@@ -448,4 +462,70 @@ const thStyle = {
 
 const tdStyle = {
   padding:'9px 12px', verticalAlign:'middle'
+}
+
+
+// Every game a chapter worked, filterable by week (click a row in the weekly table) and class
+function ChapterGames({ games, week, setWeek, cls, setCls }) {
+  const classes = CLASSIFICATIONS.filter(c => games.some(g => g.classification === c && (week === 'all' || String(g.week) === week)))
+  const shown = games
+    .filter(g => (week === 'all' || String(g.week) === week) && (cls === 'all' || g.classification === cls))
+    .sort((a, b) => a.week - b.week || CLASSIFICATIONS.indexOf(a.classification) - CLASSIFICATIONS.indexOf(b.classification))
+  if (!games.length) return null
+
+  const chip = (active) => ({
+    fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.08em', padding:'4px 10px', borderRadius:3,
+    border:'1px solid var(--border)', cursor:'pointer',
+    background: active ? 'var(--ink)' : 'transparent', color: active ? 'var(--cream)' : 'var(--mid)'
+  })
+  const team = (name, score, other) => {
+    const won = score != null && other != null && score > other
+    return <span style={{ fontWeight: won ? 600 : 400, color: won ? 'var(--ink)' : 'var(--mid)' }}>{name}{score != null ? ` ${score}` : ''}</span>
+  }
+
+  return (
+    <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, overflow:'hidden', marginTop:14 }}>
+      <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', flexWrap:'wrap', gap:8, padding:'12px 16px', borderBottom:'1px solid var(--border)' }}>
+        <div style={{ fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)' }}>
+          Games · {week === 'all' ? 'All Weeks' : ROUND_LABELS[week]} · {shown.length}
+          {week !== 'all' && (
+            <button onClick={() => setWeek('all')} style={{ ...chip(false), marginLeft:8 }}>Show all weeks</button>
+          )}
+        </div>
+        <div style={{ display:'flex', gap:4, flexWrap:'wrap' }}>
+          <button onClick={() => setCls('all')} style={chip(cls === 'all')}>All</button>
+          {classes.map(c => <button key={c} onClick={() => setCls(c)} style={chip(cls === c)}>{c}</button>)}
+        </div>
+      </div>
+      <div style={{ overflowX:'auto' }}>
+        <table style={{ width:'100%', borderCollapse:'collapse', fontSize:12 }}>
+          <thead>
+            <tr style={{ background:'rgba(15,13,11,0.03)' }}>
+              <th style={thStyle}>Week</th>
+              <th style={thStyle}>Class</th>
+              <th style={{ ...thStyle, textAlign:'left' }}>Game</th>
+              <th style={{ ...thStyle, textAlign:'left' }}>Site</th>
+            </tr>
+          </thead>
+          <tbody>
+            {shown.map((g, i) => (
+              <tr key={i} style={{ borderBottom:'1px solid rgba(15,13,11,0.05)' }}>
+                <td style={{ ...tdStyle, textAlign:'center', whiteSpace:'nowrap' }}>{ROUND_LABELS[g.week] || g.week}</td>
+                <td style={{ ...tdStyle, textAlign:'center', fontFamily:'var(--mono)', fontSize:10, color:'var(--steel)', whiteSpace:'nowrap' }}>{g.classification}</td>
+                <td style={tdStyle}>{team(g.team1, g.score1, g.score2)} <span style={{ color:'var(--mid)' }}>vs</span> {team(g.team2, g.score2, g.score1)}</td>
+                <td style={{ ...tdStyle, color:'var(--mid)', fontSize:11 }}>
+                  {g.site
+                    ? (g.map_link || (g.lat != null && g.lng != null))
+                      ? <a href={g.map_link || `https://www.google.com/maps?q=${g.lat},${g.lng}`} target="_blank" rel="noopener noreferrer" style={{ color:'var(--ink)' }}>{g.stadium || g.site}</a>
+                      : g.site
+                    : '—'}
+                  {g.date && <span style={{ fontFamily:'var(--mono)', fontSize:10, marginLeft:6 }}>{g.date.slice(5).replace('-', '/')}</span>}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  )
 }
