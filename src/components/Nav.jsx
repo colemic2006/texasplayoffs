@@ -7,6 +7,7 @@ const LINKS = [
   { id: 'history', label: 'Multi-Year History' },
   { id: 'teams', label: 'Teams' },
   { id: 'championships', label: 'Championships' },
+  { id: 'submit', label: 'Submit Assignment' },
   { id: 'contact', label: 'Contact Us' },
 ]
 

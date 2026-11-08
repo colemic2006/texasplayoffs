@@ -8,6 +8,7 @@ import TeamsView from './components/TeamsView'
 import ChapterRegulars from './components/ChapterRegulars'
 import ChampionshipsView from './components/ChampionshipsView'
 import ContactView from './components/ContactView'
+import SubmitAssignmentView from './components/SubmitAssignmentView'
 import SeasonBanner from './components/SeasonBanner'
 import WeekMap from './components/WeekMap'
 
@@ -68,6 +69,8 @@ export default function App() {
       <main className="main-content" style={{ flex: 1, maxWidth: 1100, margin: '0 auto', padding: '40px 24px 80px', width: '100%' }}>
         {page === 'contact' ? (
           <ContactView />
+        ) : page === 'submit' ? (
+          <SubmitAssignmentView />
         ) : page === 'championships' ? (
           <ChampionshipsView />
         ) : (page === 'teams' || page === 'regulars') ? (
