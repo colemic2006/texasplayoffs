@@ -17,6 +17,7 @@ RULES = 2   # bump when the matching rules change, so earlier misses are tried a
 
 
 SCHOOLS = ROOT / 'season' / 'texasbob_schools.json'   # [[stadium_id, city, school, stadium], ...]
+CONFIRMED = ROOT / 'season' / 'site_names.json'     # confirmed: {"site as MaxPreps writes it": "Stadium, City"}
 REVIEW = 'sites_review.json'
 NOT_A_PLACE = re.compile(r'\b(bi[- ]?district|area|regional|quarterfinals?|semifinals?|playoffs?|championship|'
                          r'round \d|\d(st|nd|rd|th) round|uil|state|game|tba|tbd|[1-6]a[- ]?d[12]|neutral site)\b', re.I)
@@ -169,10 +170,15 @@ def locate(games, review_path=None):
     for site, t1, t2 in sorted(set(games)):
         key = cache_key(site, t1, t2)
         hit = cache.get(key)
+        if hit and json.loads(CONFIRMED.read_text() if CONFIRMED.exists() else '{}').get(site) not in (None, hit.get('confirmed_as')):
+            hit = None   # newly confirmed: look it up again
         if hit and ('lat' in hit or (hit.get('rules') == RULES and
                                      (today - datetime.date.fromisoformat(hit['missed'])).days < RETRY_MISS_DAYS)):
             continue
-        st, how = resolve(site, stadiums, schools, (t1, t2))
+        confirmed = json.loads(CONFIRMED.read_text()) if CONFIRMED.exists() else {}
+        st, how = resolve(confirmed.get(site, site), stadiums, schools, (t1, t2))
+        if site in confirmed and not st and not how.startswith(('town:', 'address:')):
+            how = 'address:' + confirmed[site]   # a confirmed place is looked up as written
         if st:
             tries = [(query_for(site, st), how), (f"{st['name']}, {st['city']}, Texas", how),
                      (f"{st['city']}, Texas", how + ' (town only)')]
@@ -200,6 +206,8 @@ def locate(games, review_path=None):
         else:
             entry.update(missed=today.isoformat(), rules=RULES)
         entry['site'] = site
+        if site in confirmed:
+            entry['confirmed_as'] = confirmed[site]
         cache[key] = entry
     CACHE.parent.mkdir(parents=True, exist_ok=True)
     CACHE.write_text(json.dumps(cache, indent=1, sort_keys=True) + '\n')
