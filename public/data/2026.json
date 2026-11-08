@@ -3,12 +3,12 @@
   "season": {
     "status": "in_progress",
     "updated": "2026-11-08",
-    "games": 296,
+    "games": 304,
     "played": 0,
     "assigned": 0,
     "weeks": {
       "1": {
-        "games": 296,
+        "games": 304,
         "assigned": 0
       },
       "2": {
@@ -656,6 +656,54 @@
       "team1": "Rosebud-Lott",
       "score1": null,
       "team2": "Corrigan-Camden",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "2A D1",
+      "week": 1,
+      "round": "Bi-District",
+      "chapter": null,
+      "team1": "Cooper",
+      "score1": null,
+      "team2": "Como-Pickton",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "2A D1",
+      "week": 1,
+      "round": "Bi-District",
+      "chapter": null,
+      "team1": "Carlisle (?)",
+      "score1": null,
+      "team2": "Honey Grove",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "2A D1",
+      "week": 1,
+      "round": "Bi-District",
+      "chapter": null,
+      "team1": "Frankston",
+      "score1": null,
+      "team2": "Whitewright",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "2A D1",
+      "week": 1,
+      "round": "Bi-District",
+      "chapter": null,
+      "team1": "Tom Bean",
+      "score1": null,
+      "team2": "Hawkins",
       "score2": null,
       "winner": null
     },
@@ -3301,6 +3349,30 @@
     },
     {
       "year": 2026,
+      "classification": "6A D1",
+      "week": 1,
+      "round": "Bi-District",
+      "chapter": null,
+      "team1": "Pearland",
+      "score1": null,
+      "team2": "Alief Taylor (?)",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "6A D1",
+      "week": 1,
+      "round": "Bi-District",
+      "chapter": null,
+      "team1": "Lamar (?)",
+      "score1": null,
+      "team2": "Dawson (?)",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
@@ -3584,6 +3656,30 @@
       "team1": "Laredo Alexander",
       "score1": null,
       "team2": "San Antonio Warren",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "6A D2",
+      "week": 1,
+      "round": "Bi-District",
+      "chapter": null,
+      "team1": "Shadow Creek (?)",
+      "score1": null,
+      "team2": "Heights (?)",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "6A D2",
+      "week": 1,
+      "round": "Bi-District",
+      "chapter": null,
+      "team1": "Memorial (?)",
+      "score1": null,
+      "team2": "Manvel (?)",
       "score2": null,
       "winner": null
     }

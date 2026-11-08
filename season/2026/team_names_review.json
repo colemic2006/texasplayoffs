@@ -90,6 +90,16 @@
     "other_options": []
   },
   {
+    "key": "mp:453ef2ca-ddb3-427d-adc1-817dea2f481e",
+    "source_name": "Carlisle",
+    "classification": "2A D1",
+    "opponent": "Honey Grove",
+    "recommended": "Carlisle",
+    "other_options": [
+      "Price Carlisle"
+    ]
+  },
+  {
     "key": "mp:e64babc8-c03c-43d9-bf7f-1d31fb4cf734",
     "source_name": "Highland Park",
     "classification": "2A D1",
@@ -506,8 +516,8 @@
     "recommended": "Kingsville King",
     "other_options": [
       "Corpus Christi King",
-      "Houston King",
-      "Sheldon King"
+      "Sheldon King",
+      "Houston King"
     ]
   },
   {
@@ -822,9 +832,9 @@
     "source_name": "Cooper",
     "classification": "5A D2",
     "opponent": "Canutillo",
-    "recommended": "Abilene Cooper",
+    "recommended": "Lubbock Cooper",
     "other_options": [
-      "Lubbock Cooper",
+      "Abilene Cooper",
       "Cooper"
     ]
   },
@@ -989,6 +999,16 @@
     ]
   },
   {
+    "key": "mp:32870375-fea3-4f6a-9842-99d52452cff6",
+    "source_name": "Alief Taylor",
+    "classification": "6A D1",
+    "opponent": "Pearland",
+    "recommended": "Houston Alief Taylor",
+    "other_options": [
+      "Alief Taylor"
+    ]
+  },
+  {
     "key": "mp:2f197e09-4469-4f78-a186-f93c27c33687",
     "source_name": "Byron Nelson",
     "classification": "6A D1",
@@ -996,6 +1016,17 @@
     "recommended": "Trophy Club Byron Nelson",
     "other_options": [
       "Byron Nelson"
+    ]
+  },
+  {
+    "key": "mp:34cc3bac-1239-4793-94d1-e4b260837617",
+    "source_name": "Dawson",
+    "classification": "6A D1",
+    "opponent": "Lamar",
+    "recommended": "Pearland Dawson",
+    "other_options": [
+      "Welch Dawson",
+      "Dawson"
     ]
   },
   {
@@ -1047,6 +1078,18 @@
     "recommended": "Spring Klein Collins",
     "other_options": [
       "Klein Collins"
+    ]
+  },
+  {
+    "key": "mp:faa7802b-b5bb-44ad-a560-000e9a89e6df",
+    "source_name": "Lamar",
+    "classification": "6A D1",
+    "opponent": "Dawson",
+    "recommended": "Lamar",
+    "other_options": [
+      "Arlington Lamar",
+      "Houston Lamar",
+      "Paris North Lamar"
     ]
   },
   {
@@ -1211,6 +1254,18 @@
     ]
   },
   {
+    "key": "mp:6d023138-4e48-4cc0-b8de-0111563c40eb",
+    "source_name": "Heights",
+    "classification": "6A D2",
+    "opponent": "Shadow Creek",
+    "recommended": "Houston Heights",
+    "other_options": [
+      "Harker Heights",
+      "Fort Worth Arlington Heights",
+      "San Antonio Alamo Heights"
+    ]
+  },
+  {
     "key": "mp:0ce5b8dc-e9d7-4629-9a6b-eebd810ad3fd",
     "source_name": "Judson",
     "classification": "6A D2",
@@ -1223,9 +1278,9 @@
     "source_name": "King",
     "classification": "6A D2",
     "opponent": "Clear Springs",
-    "recommended": "Houston King",
+    "recommended": "Sheldon King",
     "other_options": [
-      "Sheldon King",
+      "Houston King",
       "Corpus Christi King",
       "Kingsville King"
     ]
@@ -1238,6 +1293,28 @@
     "recommended": "Dallas Lake Highlands",
     "other_options": [
       "Lake Highlands"
+    ]
+  },
+  {
+    "key": "mp:f499e413-1526-400f-bf96-901429c6c741",
+    "source_name": "Manvel",
+    "classification": "6A D2",
+    "opponent": "Memorial",
+    "recommended": "Manvel",
+    "other_options": [
+      "Alvin Manvel"
+    ]
+  },
+  {
+    "key": "mp:e78f7230-8c7b-4582-aa8c-aa1fa20c34fb",
+    "source_name": "Memorial",
+    "classification": "6A D2",
+    "opponent": "Manvel",
+    "recommended": "Brownsville Veterans Memorial",
+    "other_options": [
+      "Spring Branch Memorial",
+      "Pasadena Memorial",
+      "Houston Memorial"
     ]
   },
   {
@@ -1268,6 +1345,16 @@
     "recommended": "Rowlett",
     "other_options": [
       "Garland Rowlett"
+    ]
+  },
+  {
+    "key": "mp:4a5796c8-ffc7-4f10-bf6b-ee983f1b5922",
+    "source_name": "Shadow Creek",
+    "classification": "6A D2",
+    "opponent": "Heights",
+    "recommended": "Pearland Shadow Creek",
+    "other_options": [
+      "Alvin Shadow Creek"
     ]
   },
   {
