@@ -412,7 +412,7 @@ export function GameMap({ markers }) {
       markersRef.current = []
 
       // Add new markers
-      markers.forEach(({ lat, lng, game, stadium }) => {
+      markers.forEach(({ lat, lng, game, stadium, color }) => {
         const winner = game.score1 > game.score2 ? game.team1 : game.score2 > game.score1 ? game.team2 : null
         const mapsUrl = stadium?.map_link || `https://www.google.com/maps?q=${lat},${lng}`
         const popup = `
@@ -430,7 +430,7 @@ export function GameMap({ markers }) {
         // drawn dots (no image downloads): orange once a chapter is assigned, blue until then
         const marker = L.circleMarker([lat, lng], {
           radius: 7, weight: 2, color: '#fff', fillOpacity: 0.9,
-          fillColor: game.chapter ? '#c1440e' : '#2c4a6e',
+          fillColor: color || (game.chapter ? '#c1440e' : '#2c4a6e'),
         }).addTo(leafletMap.current).bindPopup(popup)
         markersRef.current.push(marker)
       })
