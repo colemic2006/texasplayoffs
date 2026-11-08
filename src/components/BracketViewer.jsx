@@ -352,7 +352,7 @@ function TeamRow({ name, score, isWinner, hasScore }) {
 }
 
 // Leaflet map rendered imperatively to avoid SSR/CSR issues
-function GameMap({ markers }) {
+export function GameMap({ markers }) {
   const mapRef = useRef(null)
   const leafletMap = useRef(null)
   const markersRef = useRef([])
@@ -389,19 +389,25 @@ function GameMap({ markers }) {
             <div style="font-weight:600;margin-bottom:4px">${game.classification}</div>
             <div>${game.team1} <strong>${game.score1 ?? ''}</strong></div>
             <div>${game.team2} <strong>${game.score2 ?? ''}</strong></div>
-            ${stadium ? `<div style="margin-top:6px;font-size:11px;color:#666">${stadium.name}<br>${stadium.city}, TX</div>` : ''}
+            ${stadium ? `<div style="margin-top:6px;font-size:11px;color:#666">${stadium.name}${stadium.city ? `<br>${stadium.city}, TX` : ''}</div>` : ''}
+            ${game.date ? `<div style="font-size:11px;color:#666">${game.date.slice(5).replace('-', '/')}</div>` : ''}
+            ${game.chapter ? `<div style="margin-top:4px;font-size:11px">Chapter: <strong>${game.chapter}</strong></div>` : ''}
             ${winner ? `<div style="margin-top:4px;color:#c1440e;font-size:11px">▲ ${winner}</div>` : ''}
             <div style="margin-top:8px"><a href="${mapsUrl}" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:#1a73e8;text-decoration:none">📍 Open in Google Maps</a></div>
           </div>
         `
-        const marker = L.marker([lat, lng]).addTo(leafletMap.current).bindPopup(popup)
+        // drawn dots (no image downloads): orange once a chapter is assigned, blue until then
+        const marker = L.circleMarker([lat, lng], {
+          radius: 7, weight: 2, color: '#fff', fillOpacity: 0.9,
+          fillColor: game.chapter ? '#c1440e' : '#2c4a6e',
+        }).addTo(leafletMap.current).bindPopup(popup)
         markersRef.current.push(marker)
       })
 
       // Fit bounds to markers
       if (markers.length > 0) {
         const bounds = L.latLngBounds(markers.map(m => [m.lat, m.lng]))
-        leafletMap.current.fitBounds(bounds, { padding: [40, 40] })
+        leafletMap.current.fitBounds(bounds, { padding: [40, 40], maxZoom: 9 })
       }
     })
 

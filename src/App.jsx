@@ -9,12 +9,13 @@ import ChapterRegulars from './components/ChapterRegulars'
 import ChampionshipsView from './components/ChampionshipsView'
 import ContactView from './components/ContactView'
 import SeasonBanner from './components/SeasonBanner'
+import WeekMap from './components/WeekMap'
 
 const YEARS = [2026, 2025, 2024, 2023, 2022, 2021, 2018, 2015, 2013, 2010]
 
 export default function App() {
   const [page, setPage] = useState('chapters')
-  const [year, setYear] = useState(2025)
+  const [year, setYear] = useState(2026)
   const [data, setData] = useState({})
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
@@ -80,6 +81,7 @@ export default function App() {
             {!loading && !error && yearData && (
               <>
                 {(page === 'chapters' || page === 'brackets') && <SeasonBanner data={yearData} year={year} />}
+                {page === 'chapters' && yearData.season && <WeekMap data={yearData} />}
                 {page === 'chapters' && <ChapterDashboard data={yearData} year={year} />}
                 {page === 'brackets' && <BracketViewer data={yearData} year={year} />}
                 {page === 'history' && <HistoryView allData={data} years={HISTORY_YEARS} loadYear={(y) => {
