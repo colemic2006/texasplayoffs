@@ -34,6 +34,8 @@ jobs:
 
       - name: Pull brackets from UIL
         continue-on-error: true
+        env:
+          SHOW_MATCHUP_HTML: '6A D1'   # temporary: print one matchup's HTML to learn where MaxPreps puts game sites
         run: python3 scripts/season.py prefill
 
       - name: Build site data

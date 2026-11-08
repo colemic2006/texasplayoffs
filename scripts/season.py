@@ -19,7 +19,7 @@ Bracket sources, in order:
   2. The MaxPreps bracket each UIL bracket page embeds (best effort; MaxPreps
      often refuses automated requests)
 """
-import argparse, datetime, json, re, sys, tempfile, time, urllib.request
+import argparse, datetime, json, os, re, sys, tempfile, time, urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
@@ -123,6 +123,10 @@ def games_from_maxpreps(cls, year):
             continue
         week = min(6, 1 + (datetime.date.fromisoformat(d['title'][:10]) - first).days // 7)
         for mu in rnd.select('li.matchup-container'):
+            if os.environ.get('SHOW_MATCHUP_HTML') == cls and week == 1 and mu.select_one('li.team .name') \
+                    and mu.select_one('li.team .name').get_text(strip=True):
+                print(f'--- {cls} matchup html ---\n{mu.parent.parent.decode()[:0]}{mu.decode()[:4000]}')
+                os.environ['SHOW_MATCHUP_HTML'] = ''   # one is enough
             teams = mu.select('li.team')
             if len(teams) != 2:
                 continue
