@@ -83,12 +83,32 @@ def find_school_stadium(site, schools, teams=()):
     return None, ('several stadiums in this town' if in_town else '')
 
 
-def find_stadium(site, stadiums):
-    """The stadium a site names, only when exactly one fits ("Ratliff Stadium, Odessa")."""
+def plays_there(st, teams):
+    """Does a team in the game call this stadium home, or come from its city?"""
+    home = ' '.join(norm(h) for h in st.get('home_teams', []))
+    for t in teams:
+        nt = norm(t)
+        if st.get('city') and nt.startswith(norm(st['city'])):
+            return True
+        core = nt.split()[-1] if nt else ''
+        if nt and (f' {nt} ' in f' {home} ' or (len(nt.split()) == 1 and f' {core} ' in f' {home} ')):
+            return True
+    return False
+
+
+def find_stadium(site, stadiums, teams=()):
+    """The stadium a site names, only when exactly one fits ("Ratliff Stadium, Odessa").
+    Several stadiums with the name are narrowed by the city in the text, then by the teams
+    playing; a shortened name ("Newsom Stadium" for "Vernon Newsom Stadium") counts when
+    only one stadium has it."""
     s = f' {norm(site)} '
     named = [st for st in stadiums if f' {norm(st["name"])} ' in s]
+    if not named:
+        words = norm(re.split(r'[,(;]| - | in ', site)[0])
+        if len(words.split()) >= 2:
+            named = [st for st in stadiums if f' {words} ' in f' {norm(st["name"])} ']
     in_city = [st for st in named if st.get('city') and f' {norm(st["city"])} ' in s]
-    for group in (in_city, named):
+    for group in (in_city, named, [st for st in named if plays_there(st, teams)]):
         if len({(st['name'], st.get('city')) for st in group}) == 1:
             return group[0]
     return None
@@ -111,7 +131,7 @@ def nominatim(q):
 
 def resolve(site, stadiums, schools, teams=()):
     """(stadium or None, how) for a site; a town alone gives (None, 'town:<name>')."""
-    st = find_stadium(site, stadiums)
+    st = find_stadium(site, stadiums, teams)
     if st:
         return st, 'stadium'
     sid, how = find_school_stadium(site, schools, teams)
@@ -120,8 +140,16 @@ def resolve(site, stadiums, schools, teams=()):
         if st:
             return st, how
     towns = {norm(r[1]): r[1] for r in schools}
-    if norm(site) in towns and how not in ('several schools with this name', "site names a team's school, but not in that team's town"):
+    unsure = how in ('several schools with this name', "site names a team's school, but not in that team's town")
+    if norm(site) in towns and not unsure:
         return None, 'town:' + towns[norm(site)]
+    if re.search(r'\b\d{5}\b|^\s*\d+\s+\w|,\s*\d+\s+\w', site):
+        return None, 'address:' + site          # a street address in the site text
+    m = re.search(r'\(([^)]+)\)|\bin ([A-Za-z .]+?),?\s*(?:TX|Texas)\b|[-,;]\s*([A-Za-z .]+?),?\s*(?:TX|Texas)\b', site)
+    if m and not unsure:
+        town = norm(next(g for g in m.groups() if g))
+        if town in towns:
+            return None, 'town:' + towns[town]   # an unknown stadium in a stated town
     return None, how or 'no stadium, school or town matched'
 
 
@@ -144,19 +172,23 @@ def locate(games, review_path=None):
             continue
         st, how = resolve(site, stadiums, schools, (t1, t2))
         if st:
-            tries = [query_for(site, st), f"{st['name']}, {st['city']}, Texas"]
+            tries = [(query_for(site, st), how), (f"{st['name']}, {st['city']}, Texas", how),
+                     (f"{st['city']}, Texas", how + ' (town only)')]
         elif how.startswith('town:'):
-            tries = [f"{how[5:]}, Texas"]
+            tries = [(f"{how[5:]}, Texas", 'town (approximate)')]
+        elif how.startswith('address:'):
+            tries = [(how[8:] if re.search(r'\b(TX|Texas)\b', how) else how[8:] + ', Texas', 'address in site text')]
         else:
             tries = []
         coords = None
-        for q in tries:
+        for q, q_how in tries:
             try:
                 coords = nominatim(q)
             except Exception as e:
                 print(f'  ! geocode {q}: {e}')
             time.sleep(1.1)   # Nominatim allows one request a second
             if coords:
+                how = q_how
                 break
         entry = dict(stadium_id=st.get('id') if st else None, stadium=st['name'] if st else None,
                      address=query_for(site, st) if st else '', map_link=(st or {}).get('map_link', ''), how=how)
