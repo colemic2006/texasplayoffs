@@ -2254,14 +2254,17 @@
   "stadium_id": 828
  },
  "Willis ISD Willis HS || Grapeland v West Hardin": {
-  "address": "",
-  "how": "district:Willis HS, Willis",
-  "map_link": "",
-  "missed": "2026-11-09",
+  "address": "Longstreet Rd at Bybee, Willis, Texas 77378",
+  "city": "Willis",
+  "confirmed_as": "Willis High School, Willis",
+  "how": "school",
+  "lat": 30.43206,
+  "lng": -95.48742,
+  "map_link": "https://goo.gl/maps/KJhdp6tmumPyTyDo8",
   "rules": 7,
   "site": "Willis ISD Willis HS",
-  "stadium": null,
-  "stadium_id": null
+  "stadium": "Berton A. Yates Stadium",
+  "stadium_id": 483
  },
  "Willis ISD Yates Stadium || Fairfield v East Chambers": {
   "address": "Longstreet Rd at Bybee, Willis, Texas 77378",

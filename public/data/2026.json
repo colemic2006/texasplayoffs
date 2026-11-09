@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-09T06:07+00:00",
+    "updated": "2026-11-09T06:09+00:00",
     "games": 352,
     "played": 0,
     "assigned": 181,
@@ -1568,6 +1568,11 @@
       "score2": null,
       "winner": null,
       "site": "Willis ISD Willis HS",
+      "lat": 30.43206,
+      "lng": -95.48742,
+      "stadium": "Berton A. Yates Stadium",
+      "map_link": "https://goo.gl/maps/KJhdp6tmumPyTyDo8",
+      "city": "Willis",
       "date": "2026-11-12",
       "time": "7:30 PM"
     },
