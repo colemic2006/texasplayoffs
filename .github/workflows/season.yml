@@ -53,7 +53,21 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add season public/data
-          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
-          git commit -m "Update season data from UIL brackets"
-          git push
+          for attempt in 1 2 3; do
+            git add season public/data
+            if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+            git commit -q -m "Update season data from UIL brackets"
+            if git push; then exit 0; fi
+            # main moved on while this ran (someone pushed): redo the update on top of it,
+            # keeping the MaxPreps cards and map lookups this run already fetched
+            echo "main changed during the run; redoing the update on top of it (attempt $attempt)"
+            mkdir -p "$RUNNER_TEMP/keep"
+            cp season/*/maxpreps_cards.json season/geocode_cache.json "$RUNNER_TEMP/keep/" 2>/dev/null || true
+            git fetch -q origin main && git reset -q --hard origin/main
+            for f in "$RUNNER_TEMP"/keep/maxpreps_cards.json; do [ -f "$f" ] && cp "$f" season/*/maxpreps_cards.json; done
+            [ -f "$RUNNER_TEMP/keep/geocode_cache.json" ] && cp "$RUNNER_TEMP/keep/geocode_cache.json" season/geocode_cache.json
+            python3 scripts/season.py prefill || true
+            python3 scripts/season.py locate || true
+            python3 scripts/season.py build
+          done
+          echo "Could not push after 3 attempts"; exit 1

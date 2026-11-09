@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parent.parent
 CACHE = ROOT / 'season' / 'geocode_cache.json'
 UA = 'texasplayoffs.com season map (https://texasplayoffs.com)'
 RETRY_MISS_DAYS = 3
-RULES = 4   # bump when the matching rules change, so earlier misses are tried again
+RULES = 5   # bump when the matching rules change: every site is looked up again under the new rules
 
 
 SCHOOLS = ROOT / 'season' / 'texasbob_schools.json'   # [[stadium_id, city, school, stadium], ...]
@@ -122,13 +122,30 @@ def query_for(site, stadium):
     return re.sub(r'\s+', ' ', f'{site}, Texas')
 
 
-def nominatim(q):
-    url = 'https://nominatim.openstreetmap.org/search?' + urllib.parse.urlencode(
-        dict(q=q, format='json', limit=1, countrycodes='us'))
+PLACE_KEYS = ('city', 'town', 'village', 'hamlet', 'suburb', 'municipality')
+
+
+def nominatim(q, town='', zipcode=''):
+    """Coordinates for a search (text, or a dict of structured fields). With a town or ZIP
+    given, a result only counts if it is in that town or ZIP code -- a search for "Crosby,
+    Texas" must not land in Crosby County."""
+    params = dict(q) if isinstance(q, dict) else dict(q=q)
+    params.update(format='json', limit=5, countrycodes='us', addressdetails=1)
+    url = 'https://nominatim.openstreetmap.org/search?' + urllib.parse.urlencode(params)
     req = urllib.request.Request(url, headers={'User-Agent': UA})
     with urllib.request.urlopen(req, timeout=30) as r:
         hits = json.loads(r.read())
-    return (float(hits[0]['lat']), float(hits[0]['lon'])) if hits else None
+    for h in hits:
+        a = h.get('address', {})
+        if a.get('state') not in (None, 'Texas'):
+            continue
+        if town or zipcode:
+            in_town = town and any(norm(a.get(k, '')) == norm(town) for k in PLACE_KEYS)
+            in_zip = zipcode and a.get('postcode', '').startswith(zipcode)
+            if not (in_town or in_zip):
+                continue
+        return float(h['lat']), float(h['lon'])
+    return None
 
 
 DISTRICT = re.compile(r'^(.+?)\s+C?ISD\s+(.+)$')
@@ -206,8 +223,8 @@ def locate(games, review_path=None):
         known_now = conf.get(site) or next((conf[p.strip()] for p in site.split(',') if p.strip() in conf), None)
         if hit and known_now not in (None, hit.get('confirmed_as')):
             hit = None   # newly confirmed: look it up again
-        if hit and ('lat' in hit or (hit.get('rules') == RULES and
-                                     (today - datetime.date.fromisoformat(hit['missed'])).days < RETRY_MISS_DAYS)):
+        if hit and hit.get('rules') == RULES and ('lat' in hit or
+                                                  (today - datetime.date.fromisoformat(hit['missed'])).days < RETRY_MISS_DAYS):
             continue
         confirmed = json.loads(CONFIRMED.read_text()) if CONFIRMED.exists() else {}
         # a confirmed name for the whole site, or for one part of it ("Lowrey Field, PlainsCapital Park")
@@ -215,29 +232,32 @@ def locate(games, review_path=None):
         st, how = resolve(known or site, stadiums, schools, (t1, t2))
         if known and not st and not how.startswith(('town:', 'address:')):
             how = 'address:' + known   # a confirmed place is looked up as written
+        # each try: (search, how it was placed, town and ZIP the result must be in)
         if st:
-            tries = [(query_for(site, st), how), (f"{st['name']}, {st['city']}, Texas", how),
-                     (f"{st['city']}, Texas", how + ' (town only)')]
+            c, z = st.get('city', ''), st.get('zip', '')
+            tries = [(query_for(site, st), how, c, z), (f"{st['name']}, {c}, Texas", how, c, z),
+                     (dict(city=c, state='Texas', postalcode=z) if z else dict(city=c, state='Texas'),
+                      how + ' (town only)', c, z)]
         elif how.startswith('town:'):
-            tries = [(f"{how[5:]}, Texas", 'town (approximate)')]
+            tries = [(dict(city=how[5:], state='Texas'), 'town (approximate)', how[5:], '')]
         elif how.startswith('district:'):
             # "Tully Stadium, Spring Branch": only the stadium itself counts, never the district's "town"
-            tries = [(how[9:] + ', Texas', 'stadium found by name')]
+            tries = [(how[9:] + ', Texas', 'stadium found by name', '', '')]
         elif how.startswith('address:'):
             text = how[8:]
-            tries = [(text if re.search(r'\b(TX|Texas)\b', text) else text + ', Texas', 'address in site text')]
-            town = re.sub(r'\b(TX|Texas)\b|\d{5}', '', text.split(',')[-1]).strip(' ,')
-            if ',' in text and town:
-                tries.append((f'{town}, Texas', 'town (approximate)'))
+            t, z = town_in(text), (re.findall(r'\b(\d{5})\b', text) or [''])[-1]
+            tries = [(text if re.search(r'\b(TX|Texas)\b', text) else text + ', Texas', 'address in site text', t, z)]
+            if ',' in text and t:
+                tries.append((dict(city=t, state='Texas'), 'town (approximate)', t, z))
         else:
             tries = []
         # the town the game is in, for "Stadium, Town, TX"
         town = (st or {}).get('city') or (how[5:] if how.startswith('town:') else '') or \
             (town_in(how[8:]) if how.startswith('address:') else '')
         coords = None
-        for q, q_how in tries:
+        for q, q_how, want_town, want_zip in tries:
             try:
-                coords = nominatim(q)
+                coords = nominatim(q, want_town, want_zip)
             except Exception as e:
                 print(f'  ! geocode {q}: {e}')
             time.sleep(1.1)   # Nominatim allows one request a second
@@ -246,11 +266,12 @@ def locate(games, review_path=None):
                 break
         entry = dict(stadium_id=st.get('id') if st else None, stadium=st['name'] if st else None,
                      address=query_for(site, st) if st else '', map_link=(st or {}).get('map_link', ''), how=how)
+        entry['rules'] = RULES
         if coords:
             entry.update(lat=round(coords[0], 5), lng=round(coords[1], 5))
             added += 1
         else:
-            entry.update(missed=today.isoformat(), rules=RULES)
+            entry.update(missed=today.isoformat())
         entry['site'] = site
         if town:
             entry['city'] = town
