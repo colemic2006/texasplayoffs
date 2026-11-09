@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-09T00:38+00:00",
+    "updated": "2026-11-09T00:41+00:00",
     "games": 352,
     "played": 0,
     "assigned": 85,
@@ -985,6 +985,11 @@
       "score2": null,
       "winner": null,
       "site": "College Station ISD Cougar Stadium",
+      "lat": 30.55707,
+      "lng": -96.28654,
+      "stadium": "Cougar Field",
+      "map_link": "https://goo.gl/maps/BmdUrUAuB5BM1rgs7",
+      "city": "College Station",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -1897,6 +1902,9 @@
       "score2": null,
       "winner": null,
       "site": "Tuloso Midway ISD Tuloso Midway HS",
+      "lat": 27.82977,
+      "lng": -97.57662,
+      "city": "Corpus Christi",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -2350,6 +2358,9 @@
       "score2": null,
       "winner": null,
       "site": "Timpson ISD Bear Stadium",
+      "lat": 31.90378,
+      "lng": -94.3952,
+      "city": "Timpson",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -4648,6 +4659,9 @@
       "score2": null,
       "winner": null,
       "site": "Waxahachie ISD Lumpkin Stadium",
+      "lat": 32.39449,
+      "lng": -96.84394,
+      "city": "Waxahachie",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -4773,6 +4787,11 @@
       "score2": null,
       "winner": null,
       "site": "Klein ISD Memorial Stadium",
+      "lat": 30.02923,
+      "lng": -95.53201,
+      "stadium": "Klein Memorial Stadium",
+      "map_link": "https://goo.gl/maps/zoC4eqjDQE1myASb6",
+      "city": "Klein",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },

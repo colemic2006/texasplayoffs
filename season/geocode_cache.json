@@ -409,14 +409,16 @@
   "stadium_id": 1646
  },
  "College Station ISD Cougar Stadium || Lovelady v Granger": {
-  "address": "",
-  "how": "district:Cougar Stadium, College Station",
-  "map_link": "",
-  "missed": "2026-11-09",
-  "rules": 3,
+  "address": "4002 Victoria Avenue, College Station, Texas 77845",
+  "city": "College Station",
+  "confirmed_as": "Cougar Field, College Station",
+  "how": "stadium",
+  "lat": 30.55707,
+  "lng": -96.28654,
+  "map_link": "https://goo.gl/maps/BmdUrUAuB5BM1rgs7",
   "site": "College Station ISD Cougar Stadium",
-  "stadium": null,
-  "stadium_id": null
+  "stadium": "Cougar Field",
+  "stadium_id": 1646
  },
  "Colorado City High School || Sonora v New Deal": {
   "address": "Cherry St. & W. 10th, Colorado City, Texas 79512",
@@ -430,24 +432,28 @@
   "stadium_id": 1015
  },
  "Conroe ISD Woodforest Stadium || College Park v Spring Dekaney": {
-  "address": "",
-  "how": "district:Woodforest Stadium, Conroe",
-  "map_link": "",
-  "missed": "2026-11-09",
-  "rules": 3,
+  "address": "19115 David Memorial Dr, Shenandoah, Texas 77385",
+  "city": "Shenandoah",
+  "confirmed_as": "Woodforest Bank Stadium, Shenandoah",
+  "how": "stadium",
+  "lat": 30.18487,
+  "lng": -95.44899,
+  "map_link": "https://goo.gl/maps/upEFqtHzV76XXwvP8",
   "site": "Conroe ISD Woodforest Stadium",
-  "stadium": null,
-  "stadium_id": null
+  "stadium": "Woodforest Bank Stadium",
+  "stadium_id": 1151
  },
  "Conroe ISD Woodforest Stadium || The Woodlands v Nimitz": {
-  "address": "",
-  "how": "district:Woodforest Stadium, Conroe",
-  "map_link": "",
-  "missed": "2026-11-09",
-  "rules": 3,
+  "address": "19115 David Memorial Dr, Shenandoah, Texas 77385",
+  "city": "Shenandoah",
+  "confirmed_as": "Woodforest Bank Stadium, Shenandoah",
+  "how": "stadium",
+  "lat": 30.18487,
+  "lng": -95.44899,
+  "map_link": "https://goo.gl/maps/upEFqtHzV76XXwvP8",
   "site": "Conroe ISD Woodforest Stadium",
-  "stadium": null,
-  "stadium_id": null
+  "stadium": "Woodforest Bank Stadium",
+  "stadium_id": 1151
  },
  "Corpus Christi ISD Buccaneer Stadium || Corpus Christi Veterans Memorial v McAllen Memorial": {
   "address": "# 1 Battlin' Buc Blvd., Corpus Christi, Texas 78407",
@@ -906,14 +912,16 @@
   "stadium_id": 1010
  },
  "Klein ISD Memorial Stadium || Klein v Cypress Woods": {
-  "address": "",
-  "how": "district:Memorial Stadium, Klein",
-  "map_link": "",
-  "missed": "2026-11-09",
-  "rules": 3,
+  "address": "16607 Stuebner Airline Rd,, Klein, Texas 77379",
+  "city": "Klein",
+  "confirmed_as": "Klein Memorial Stadium, Spring",
+  "how": "stadium",
+  "lat": 30.02923,
+  "lng": -95.53201,
+  "map_link": "https://goo.gl/maps/zoC4eqjDQE1myASb6",
   "site": "Klein ISD Memorial Stadium",
-  "stadium": null,
-  "stadium_id": null
+  "stadium": "Klein Memorial Stadium",
+  "stadium_id": 626
  },
  "La Grange || Lexington v Boling": {
   "address": "820 S. Vail St., La Grange, Texas 78945",
@@ -1050,14 +1058,16 @@
   "stadium_id": 417
  },
  "Madisonville CISD Stadium || Anahuac v Westwood": {
-  "address": "",
-  "how": "district:Stadium, Madisonville",
-  "map_link": "",
-  "missed": "2026-11-09",
-  "rules": 3,
+  "address": "811 S May St,, Madisonville, Texas 77864",
+  "city": "Madisonville",
+  "confirmed_as": "Mustang Stadium, Madisonville",
+  "how": "stadium",
+  "lat": 30.94517,
+  "lng": -95.90525,
+  "map_link": "https://goo.gl/maps/uCkXHGAGQdu9zi1W6",
   "site": "Madisonville CISD Stadium",
-  "stadium": null,
-  "stadium_id": null
+  "stadium": "Mustang Stadium",
+  "stadium_id": 132
  },
  "Madisonville High School || Canton v Shepherd": {
   "address": "811 S May St,, Madisonville, Texas 77864",
@@ -1502,14 +1512,16 @@
   "stadium_id": 364
  },
  "Spring ISD Planet Ford District Stadium || Westfield v Willis": {
-  "address": "",
-  "how": "district:Planet Ford District Stadium, Spring",
-  "map_link": "",
-  "missed": "2026-11-09",
-  "rules": 3,
+  "address": "23802 Cypresswood Dr., Spring, Texas 77373",
+  "city": "Spring",
+  "confirmed_as": "Planet Ford Stadium, Spring",
+  "how": "stadium",
+  "lat": 30.06522,
+  "lng": -95.41072,
+  "map_link": "https://goo.gl/maps/VDQ4QMgjahxzdW6J7",
   "site": "Spring ISD Planet Ford District Stadium",
-  "stadium": null,
-  "stadium_id": null
+  "stadium": "Planet Ford Stadium",
+  "stadium_id": 2503
  },
  "Springlake-Earth HS || Hart v Meadow": {
   "address": "472 FM302, Earth, Texas 79031",
@@ -1623,10 +1635,12 @@
  },
  "Timpson ISD Bear Stadium || Newton v Elkhart": {
   "address": "",
-  "how": "district:Bear Stadium, Timpson",
+  "city": "Timpson",
+  "confirmed_as": "Bear Stadium, Timpson",
+  "how": "town (approximate)",
+  "lat": 31.90378,
+  "lng": -94.3952,
   "map_link": "",
-  "missed": "2026-11-09",
-  "rules": 3,
   "site": "Timpson ISD Bear Stadium",
   "stadium": null,
   "stadium_id": null
@@ -1644,10 +1658,12 @@
  },
  "Tuloso Midway ISD Tuloso Midway HS || Rio Hondo v Goliad": {
   "address": "",
-  "how": "district:Tuloso Midway HS, Tuloso Midway",
+  "city": "Corpus Christi",
+  "confirmed_as": "Tuloso-Midway High School, Corpus Christi",
+  "how": "address in site text",
+  "lat": 27.82977,
+  "lng": -97.57662,
   "map_link": "",
-  "missed": "2026-11-09",
-  "rules": 3,
   "site": "Tuloso Midway ISD Tuloso Midway HS",
   "stadium": null,
   "stadium_id": null
@@ -1676,10 +1692,12 @@
  },
  "Waxahachie ISD Lumpkin Stadium || Waxahachie v Copperas Cove": {
   "address": "",
-  "how": "district:Lumpkin Stadium, Waxahachie",
+  "city": "Waxahachie",
+  "confirmed_as": "Lumpkin Stadium, Waxahachie",
+  "how": "town (approximate)",
+  "lat": 32.39449,
+  "lng": -96.84394,
   "map_link": "",
-  "missed": "2026-11-09",
-  "rules": 3,
   "site": "Waxahachie ISD Lumpkin Stadium",
   "stadium": null,
   "stadium_id": null
