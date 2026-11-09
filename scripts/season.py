@@ -213,7 +213,7 @@ def date_set(info):
 
 
 def fill_sites(year, ws, placed):
-    """Fill Site/Date cells from MaxPreps details cards. A card is read at most once a day per
+    """Fill Site/Date cells from MaxPreps details cards. A card is read at most every 6 hours per
     game until the game has both a site and a set date. A site typed in by hand is kept; the
     date follows MaxPreps (a placeholder date is never used)."""
     cards = json.loads(cards_path(year).read_text()) if cards_path(year).exists() else {}
@@ -228,7 +228,7 @@ def fill_sites(year, ws, placed):
             continue
         key = f"{g['cls']}|{g['key1']}|{g['key2']}"
         seen = cards.get(key, {})
-        recent = seen.get('read') and (now - datetime.datetime.fromisoformat(seen['read'])).total_seconds() < 20 * 3600
+        recent = seen.get('read') and (now - datetime.datetime.fromisoformat(seen['read'])).total_seconds() < 6 * 3600   # re-read cards at most every 6 hours
         if seen.get('read') and ((game_sites.clean_site(seen.get('site')) and date_set(seen)) or recent):
             info = seen          # complete, or read in the last day
         else:
