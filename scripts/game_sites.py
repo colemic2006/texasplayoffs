@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parent.parent
 CACHE = ROOT / 'season' / 'geocode_cache.json'
 UA = 'texasplayoffs.com season map (https://texasplayoffs.com)'
 RETRY_MISS_DAYS = 3
-RULES = 3   # bump when the matching rules change, so earlier misses are tried again
+RULES = 4   # bump when the matching rules change, so earlier misses are tried again
 
 
 SCHOOLS = ROOT / 'season' / 'texasbob_schools.json'   # [[stadium_id, city, school, stadium], ...]
@@ -146,7 +146,15 @@ def resolve(site, stadiums, schools, teams=()):
         if st:
             return st, how
         return None, f'district:{rest}, {district}'
-    return resolve_plain(site, stadiums, schools, teams)
+    st, how = resolve_plain(site, stadiums, schools, teams)
+    if st or how.startswith(('town:', 'address:')) or ',' not in site:
+        return st, how
+    # "Groom High School, Football Field": try each part on its own
+    for part in [p.strip() for p in site.split(',') if p.strip()]:
+        pst, phow = resolve_plain(part, stadiums, schools, teams)
+        if pst or phow.startswith('town:'):
+            return pst, phow
+    return st, how
 
 
 def resolve_plain(site, stadiums, schools, teams=()):
@@ -194,15 +202,19 @@ def locate(games, review_path=None):
     for site, t1, t2 in sorted(set(games)):
         key = cache_key(site, t1, t2)
         hit = cache.get(key)
-        if hit and json.loads(CONFIRMED.read_text() if CONFIRMED.exists() else '{}').get(site) not in (None, hit.get('confirmed_as')):
+        conf = json.loads(CONFIRMED.read_text() if CONFIRMED.exists() else '{}')
+        known_now = conf.get(site) or next((conf[p.strip()] for p in site.split(',') if p.strip() in conf), None)
+        if hit and known_now not in (None, hit.get('confirmed_as')):
             hit = None   # newly confirmed: look it up again
         if hit and ('lat' in hit or (hit.get('rules') == RULES and
                                      (today - datetime.date.fromisoformat(hit['missed'])).days < RETRY_MISS_DAYS)):
             continue
         confirmed = json.loads(CONFIRMED.read_text()) if CONFIRMED.exists() else {}
-        st, how = resolve(confirmed.get(site, site), stadiums, schools, (t1, t2))
-        if site in confirmed and not st and not how.startswith(('town:', 'address:')):
-            how = 'address:' + confirmed[site]   # a confirmed place is looked up as written
+        # a confirmed name for the whole site, or for one part of it ("Lowrey Field, PlainsCapital Park")
+        known = confirmed.get(site) or next((confirmed[p.strip()] for p in site.split(',') if p.strip() in confirmed), None)
+        st, how = resolve(known or site, stadiums, schools, (t1, t2))
+        if known and not st and not how.startswith(('town:', 'address:')):
+            how = 'address:' + known   # a confirmed place is looked up as written
         if st:
             tries = [(query_for(site, st), how), (f"{st['name']}, {st['city']}, Texas", how),
                      (f"{st['city']}, Texas", how + ' (town only)')]
@@ -242,8 +254,8 @@ def locate(games, review_path=None):
         entry['site'] = site
         if town:
             entry['city'] = town
-        if site in confirmed:
-            entry['confirmed_as'] = confirmed[site]
+        if known:
+            entry['confirmed_as'] = known
         cache[key] = entry
     CACHE.parent.mkdir(parents=True, exist_ok=True)
     CACHE.write_text(json.dumps(cache, indent=1, sort_keys=True) + '\n')
