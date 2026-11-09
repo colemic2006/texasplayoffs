@@ -1,1 +1,32 @@
-[]
+[
+ {
+  "site": "@ Lovejoy 11/13 @",
+  "game": "Lucas Lovejoy v Celina",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Abilene Christian University",
+  "game": "Lubbock Liberty v Burkburnett",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Argyle ISD Stadium",
+  "game": "Argyle v Frisco Panther Creek",
+  "why": "district:Stadium, Argyle"
+ },
+ {
+  "site": "Gustafson-Northside ISD Stadium (San Antonio)",
+  "game": "San Antonio Sotomayor v Eagle Pass",
+  "why": "district:Stadium (San Antonio), Gustafson-Northside"
+ },
+ {
+  "site": "Sheldon ISD Panther Stadium",
+  "game": "Houston King v Clear Springs",
+  "why": "district:Panther Stadium, Sheldon"
+ },
+ {
+  "site": "United ISD Student Activity Center Field (Laredo)",
+  "game": "Laredo Alexander v San Antonio Warren",
+  "why": "district:Student Activity Center Field (Laredo), United"
+ }
+]
