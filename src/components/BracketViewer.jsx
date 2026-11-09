@@ -405,9 +405,8 @@ export function GameMap({ markers }) {
         leafletMap.current.fitBounds(bounds, { padding: [40, 40], maxZoom: 9 })
       }
 
-      // Pins closer than a dot's width (two games at one stadium, or Canutillo and El Paso at
-      // state zoom) are fanned out in a small ring so each one can be seen and clicked;
-      // they settle back on their true spots as you zoom in
+      // Games at the same stadium (two at Bivins, two at Balmorhea) would hide one another:
+      // they sit side by side so each one can be seen and clicked
       const map = leafletMap.current
       const spread = () => {
         const ms = markersRef.current
@@ -415,14 +414,15 @@ export function GameMap({ markers }) {
         const seen = new Set()
         ms.forEach((m, i) => {
           if (seen.has(i)) return
+          // only games at the very same spot (one stadium hosting two games); merely
+          // nearby pins are left where they are and come apart as you zoom in
           const group = [i]
           for (let j = i + 1; j < ms.length; j++)
-            if (!seen.has(j) && group.some(k => pts[k].distanceTo(pts[j]) < 12)) group.push(j)
+            if (!seen.has(j) && pts[i].distanceTo(pts[j]) < 2) group.push(j)
           group.forEach(k => seen.add(k))
           if (group.length === 1) { m.setLatLng(m._home); return }
-          const cx = group.reduce((a, k) => a + pts[k].x, 0) / group.length
-          const cy = group.reduce((a, k) => a + pts[k].y, 0) / group.length
-          const r = 8 + 2 * group.length
+          const cx = pts[i].x, cy = pts[i].y
+          const r = Math.min(5 + 1.5 * group.length, 12)
           group.forEach((k, n) => {
             const a = (2 * Math.PI * n) / group.length - Math.PI / 2
             ms[k].setLatLng(map.containerPointToLatLng(L.point(cx + r * Math.cos(a), cy + r * Math.sin(a))))
