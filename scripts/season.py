@@ -243,7 +243,9 @@ def fill_sites(year, ws, placed):
             filled += 1
         date = info['date'] if date_set(info) else ''
         old = str(r['date'] or '')[:10]
-        if date and old != date:
+        # a date that didn't come from MaxPreps (the owner's records) is never replaced
+        ours = not old or old == seen.get('date') or old == info.get('date')
+        if date and old != date and ours:
             ws[f'{COL["date"]}{r["row"]}'] = r['date'] = date          # set, or moved
             filled += 1
         elif not date and old and old == info.get('date'):

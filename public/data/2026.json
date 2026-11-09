@@ -2,14 +2,14 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-08T22:47+00:00",
+    "updated": "2026-11-09T00:24+00:00",
     "games": 352,
     "played": 0,
-    "assigned": 28,
+    "assigned": 85,
     "weeks": {
       "1": {
         "games": 352,
-        "assigned": 28
+        "assigned": 85
       },
       "2": {
         "games": 0,
@@ -34,6 +34,28 @@
     }
   },
   "chapters": [
+    {
+      "code": "HOU",
+      "name": "Houston",
+      "total": 57,
+      "weeks": {
+        "1": {
+          "total": 57,
+          "classifications": {
+            "2A D1": 2,
+            "2A D2": 1,
+            "3A D1": 4,
+            "3A D2": 1,
+            "4A D1": 2,
+            "4A D2": 12,
+            "5A D1": 6,
+            "5A D2": 5,
+            "6A D1": 11,
+            "6A D2": 13
+          }
+        }
+      }
+    },
     {
       "code": "ABI",
       "name": "Abilene",
@@ -884,12 +906,14 @@
       "classification": "2A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Leon",
       "score1": null,
       "team2": "Bruceville-Eddy",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Robinson ISD Rocket Field",
+      "date": "2026-11-12"
     },
     {
       "year": 2026,
@@ -920,18 +944,13 @@
       "classification": "2A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Lovelady",
       "score1": null,
       "team2": "Granger",
       "score2": null,
       "winner": null,
-      "site": "College Station HS",
-      "lat": 30.55707,
-      "lng": -96.28654,
-      "stadium": "Cougar Field",
-      "map_link": "https://goo.gl/maps/BmdUrUAuB5BM1rgs7",
-      "city": "College Station",
+      "site": "College Station ISD Cougar Stadium",
       "date": "2026-11-12"
     },
     {
@@ -1358,12 +1377,14 @@
       "classification": "2A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Grapeland",
       "score1": null,
       "team2": "West Hardin",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Willis ISD Willis HS",
+      "date": "2026-11-12"
     },
     {
       "year": 2026,
@@ -1804,12 +1825,14 @@
       "classification": "3A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Rio Hondo",
       "score1": null,
       "team2": "Goliad",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Tuloso Midway ISD Tuloso Midway HS",
+      "date": "2026-11-12"
     },
     {
       "year": 2026,
@@ -1959,18 +1982,13 @@
       "classification": "3A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Orangefield",
       "score1": null,
       "team2": "Trinity",
       "score2": null,
       "winner": null,
-      "site": "Crosby High School",
-      "lat": 33.57788,
-      "lng": -101.28557,
-      "stadium": "Cougar Stadium",
-      "map_link": "https://goo.gl/maps/u5VxZUufEKjjSTaa8",
-      "city": "Crosby",
+      "site": "Crosby ISD Cougar Stadium",
       "date": "2026-11-13"
     },
     {
@@ -1978,12 +1996,13 @@
       "classification": "3A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Anahuac",
       "score1": null,
       "team2": "Westwood (?)",
       "score2": null,
       "winner": null,
+      "site": "Madisonville CISD Stadium",
       "date": "2026-11-12"
     },
     {
@@ -1991,18 +2010,13 @@
       "classification": "3A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Fairfield",
       "score1": null,
       "team2": "East Chambers",
       "score2": null,
       "winner": null,
-      "site": "Willis",
-      "lat": 30.43206,
-      "lng": -95.48742,
-      "stadium": "Berton A. Yates Stadium",
-      "map_link": "https://goo.gl/maps/KJhdp6tmumPyTyDo8",
-      "city": "Willis",
+      "site": "Willis ISD Yates Stadium",
       "date": "2026-11-13"
     },
     {
@@ -2239,12 +2253,14 @@
       "classification": "3A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Newton",
       "score1": null,
       "team2": "Elkhart",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Timpson ISD Bear Stadium",
+      "date": "2026-11-12"
     },
     {
       "year": 2026,
@@ -2710,12 +2726,14 @@
       "classification": "4A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Orange Little Cypress-Mauriceville",
       "score1": null,
       "team2": "Houston Austin",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Beaumont Doggett Family Stadium",
+      "date": "2026-11-13"
     },
     {
       "year": 2026,
@@ -2775,12 +2793,14 @@
       "classification": "4A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Fort Bend Willowridge",
       "score1": null,
       "team2": "Hargrave",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Channelview ISD Maddry Stadium",
+      "date": "2026-11-13"
     },
     {
       "year": 2026,
@@ -2983,30 +3003,13 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "West Orange-Stark",
       "score1": null,
       "team2": "Van",
       "score2": null,
-      "winner": null
-    },
-    {
-      "year": 2026,
-      "classification": "4A D2",
-      "week": 1,
-      "round": "Bi-District",
-      "chapter": null,
-      "team1": "Silsbee",
-      "score1": null,
-      "team2": "Madisonville",
-      "score2": null,
       "winner": null,
-      "site": "Abe Martin Stadium - Lufkin, TX",
-      "lat": 31.33598,
-      "lng": -94.68785,
-      "stadium": "Abe Martin Stadium",
-      "map_link": "https://goo.gl/maps/RpMBJXihnh5SiQVF9",
-      "city": "Lufkin",
+      "site": "New Caney ISD Randall Reed Stadium",
       "date": "2026-11-13"
     },
     {
@@ -3014,12 +3017,28 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
+      "team1": "Silsbee",
+      "score1": null,
+      "team2": "Madisonville",
+      "score2": null,
+      "winner": null,
+      "site": "Lufkin ISD Abe Martin Stadium",
+      "date": "2026-11-13"
+    },
+    {
+      "year": 2026,
+      "classification": "4A D2",
+      "week": 1,
+      "round": "Bi-District",
+      "chapter": "HOU",
       "team1": "Athens",
       "score1": null,
       "team2": "Hamshire-Fannett",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Bryan ISD Merrill Green Stadium",
+      "date": "2026-11-13"
     },
     {
       "year": 2026,
@@ -3057,48 +3076,55 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Wimberley",
       "score1": null,
       "team2": "Salado",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Leander ISD Gupton Stadium",
+      "date": "2026-11-12"
     },
     {
       "year": 2026,
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Bandera",
       "score1": null,
       "team2": "Kingsville King",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Pleasanton ISD Eagle Stadium",
+      "date": "2026-11-12"
     },
     {
       "year": 2026,
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Cuero",
       "score1": null,
       "team2": "Ingleside",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Beeville ISD Veterans Memorial Stadium",
+      "date": "2026-11-12"
     },
     {
       "year": 2026,
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Lago Vista",
       "score1": null,
       "team2": "Brownwood",
       "score2": null,
       "winner": null,
+      "site": "Belton Mary Hardin Baylor Crusader Stadium",
       "date": "2026-11-13"
     },
     {
@@ -3106,12 +3132,14 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Rockport-Fulton",
       "score1": null,
       "team2": "Gonzales",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Beeville ISD Veterans Memorial Stadium",
+      "date": "2026-11-13"
     },
     {
       "year": 2026,
@@ -3154,12 +3182,14 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Sunnyvale",
       "score1": null,
       "team2": "Pittsburg",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Tyler ISD Rose Stadium",
+      "date": "2026-11-13"
     },
     {
       "year": 2026,
@@ -3178,24 +3208,28 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "La Marque",
       "score1": null,
       "team2": "Houston North Forest",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Pasadena ISD Veterans Memorial Stadium",
+      "date": "2026-11-13"
     },
     {
       "year": 2026,
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Houston Wheatley",
       "score1": null,
       "team2": "Hitchcock",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Pasadena ISD Veterans Memorial Stadium",
+      "date": "2026-11-12"
     },
     {
       "year": 2026,
@@ -3214,12 +3248,14 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Bellville",
       "score1": null,
       "team2": "Houston Worthing",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Cypress-Fairbanks ISD Pridgeon Stadium",
+      "date": "2026-11-12"
     },
     {
       "year": 2026,
@@ -3473,12 +3509,14 @@
       "classification": "5A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Angleton",
       "score1": null,
       "team2": "Georgetown",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Angleton ISD Wildcat Stadium",
+      "date": "2026-11-13"
     },
     {
       "year": 2026,
@@ -3626,48 +3664,56 @@
       "classification": "5A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "La Porte",
       "score1": null,
       "team2": "Northbrook",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "La Porte ISD Bulldog Stadium",
+      "date": "2026-11-12"
     },
     {
       "year": 2026,
       "classification": "5A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Houston Madison",
       "score1": null,
       "team2": "Beaumont United",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Houston ISD Butler Stadium",
+      "date": "2026-11-13"
     },
     {
       "year": 2026,
       "classification": "5A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Houston Milby",
       "score1": null,
       "team2": "Goose Creek Memorial",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Houston ISD Barnett Stadium",
+      "date": "2026-11-12"
     },
     {
       "year": 2026,
       "classification": "5A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Port Arthur Memorial",
       "score1": null,
       "team2": "Houston Waltrip",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Port Arthur ISD Memorial Stadium",
+      "date": "2026-11-13"
     },
     {
       "year": 2026,
@@ -3730,12 +3776,14 @@
       "classification": "5A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Corpus Christi Veterans Memorial",
       "score1": null,
       "team2": "McAllen Memorial",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Corpus Christi ISD Buccaneer Stadium",
+      "date": "2026-11-13"
     },
     {
       "year": 2026,
@@ -3835,12 +3883,13 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Montgomery",
       "score1": null,
       "team2": "Dayton",
       "score2": null,
       "winner": null,
+      "site": "Montgomery ISD Athletic Complex",
       "date": "2026-11-13"
     },
     {
@@ -3848,24 +3897,28 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Port Neches-Groves",
       "score1": null,
       "team2": "West Fork",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Port Neches-Groves ISD Indian Stadium",
+      "date": "2026-11-13"
     },
     {
       "year": 2026,
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Texas City",
       "score1": null,
       "team2": "Montgomery Lake Creek",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Texas City ISD Stingaree Stadium",
+      "date": "2026-11-13"
     },
     {
       "year": 2026,
@@ -4094,12 +4147,14 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Almeta Crawford",
       "score1": null,
       "team2": "Elgin",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Fort Bend ISD Hall Stadium",
+      "date": "2026-11-12"
     },
     {
       "year": 2026,
@@ -4143,12 +4198,14 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "San Antonio Sam Houston",
       "score1": null,
       "team2": "Legacy Ranch",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "San Antonio ISD Alamo Stadium",
+      "date": "2026-11-13"
     },
     {
       "year": 2026,
@@ -4290,12 +4347,14 @@
       "classification": "6A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Waxahachie",
       "score1": null,
       "team2": "Copperas Cove",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Waxahachie ISD Lumpkin Stadium",
+      "date": "2026-11-13"
     },
     {
       "year": 2026,
@@ -4408,52 +4467,13 @@
       "classification": "6A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Klein",
       "score1": null,
       "team2": "Cypress Woods",
       "score2": null,
-      "winner": null
-    },
-    {
-      "year": 2026,
-      "classification": "6A D1",
-      "week": 1,
-      "round": "Bi-District",
-      "chapter": null,
-      "team1": "Katy Cypress Lakes",
-      "score1": null,
-      "team2": "Klein Collins",
-      "score2": null,
-      "winner": null
-    },
-    {
-      "year": 2026,
-      "classification": "6A D1",
-      "week": 1,
-      "round": "Bi-District",
-      "chapter": null,
-      "team1": "Galena Park North Shore",
-      "score1": null,
-      "team2": "Deer Park",
-      "score2": null,
-      "winner": null
-    },
-    {
-      "year": 2026,
-      "classification": "6A D1",
-      "week": 1,
-      "round": "Bi-District",
-      "chapter": null,
-      "team1": "Strake Jesuit",
-      "score1": null,
-      "team2": "Fulshear Jordan",
-      "score2": null,
       "winner": null,
-      "site": "Crusader Stadium",
-      "lat": 29.75894,
-      "lng": -95.3677,
-      "city": "Houston",
+      "site": "Klein ISD Memorial Stadium",
       "date": "2026-11-13"
     },
     {
@@ -4461,30 +4481,69 @@
       "classification": "6A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
-      "team1": "Dickinson",
+      "chapter": "HOU",
+      "team1": "Katy Cypress Lakes",
       "score1": null,
-      "team2": "Houston Summer Creek",
+      "team2": "Klein Collins",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Cypress-Fairbanks ISD Cy Fair FCU Stadium",
+      "date": "2026-11-12"
     },
     {
       "year": 2026,
       "classification": "6A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
+      "team1": "Galena Park North Shore",
+      "score1": null,
+      "team2": "Deer Park",
+      "score2": null,
+      "winner": null,
+      "site": "Galena Park ISD Stadium",
+      "date": "2026-11-12"
+    },
+    {
+      "year": 2026,
+      "classification": "6A D1",
+      "week": 1,
+      "round": "Bi-District",
+      "chapter": "HOU",
+      "team1": "Strake Jesuit",
+      "score1": null,
+      "team2": "Fulshear Jordan",
+      "score2": null,
+      "winner": null,
+      "site": "Strake Jesuit Clay Crusader Stadium (Houston)",
+      "date": "2026-11-13"
+    },
+    {
+      "year": 2026,
+      "classification": "6A D1",
+      "week": 1,
+      "round": "Bi-District",
+      "chapter": "HOU",
+      "team1": "Dickinson",
+      "score1": null,
+      "team2": "Houston Summer Creek",
+      "score2": null,
+      "winner": null,
+      "site": "Dickinson ISD Vitanza Stadium",
+      "date": "2026-11-13"
+    },
+    {
+      "year": 2026,
+      "classification": "6A D1",
+      "week": 1,
+      "round": "Bi-District",
+      "chapter": "HOU",
       "team1": "Katy",
       "score1": null,
       "team2": "Fort Bend Travis",
       "score2": null,
       "winner": null,
-      "site": "Legacy Stadium",
-      "lat": 29.80121,
-      "lng": -95.80476,
-      "stadium": "Mike Johnston Field at Legacy Stadium",
-      "map_link": "https://goo.gl/maps/km2SPmR8CsAASd3H6",
-      "city": "Katy",
+      "site": "Katy ISD Legacy Stadium",
       "date": "2026-11-13"
     },
     {
@@ -4555,12 +4614,13 @@
       "classification": "6A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Pearland",
       "score1": null,
       "team2": "Alief Taylor (?)",
       "score2": null,
       "winner": null,
+      "site": "Pearland ISD The Rig",
       "date": "2026-11-13"
     },
     {
@@ -4568,36 +4628,42 @@
       "classification": "6A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Lamar (?)",
       "score1": null,
       "team2": "Dawson (?)",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Houston ISD Delmar Stadium",
+      "date": "2026-11-13"
     },
     {
       "year": 2026,
       "classification": "6A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "The Woodlands",
       "score1": null,
       "team2": "Nimitz (?)",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Conroe ISD Woodforest Stadium",
+      "date": "2026-11-13"
     },
     {
       "year": 2026,
       "classification": "6A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Houston Benjamin Davis",
       "score1": null,
       "team2": "Grand Oaks",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Aldine ISD Thorne Stadium",
+      "date": "2026-11-13"
     },
     {
       "year": 2026,
@@ -4731,12 +4797,14 @@
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Longview",
       "score1": null,
       "team2": "Rowlett",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Longview ISD Lobo Stadium",
+      "date": "2026-11-13"
     },
     {
       "year": 2026,
@@ -4836,36 +4904,41 @@
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Tomball",
       "score1": null,
       "team2": "Langham Creek",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Tomball ISD Stadium",
+      "date": "2026-11-13"
     },
     {
       "year": 2026,
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Cypress Falls",
       "score1": null,
       "team2": "Magnolia",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Cypress-Fairbanks ISD Pridgeon Stadium",
+      "date": "2026-11-13"
     },
     {
       "year": 2026,
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Houston King",
       "score1": null,
       "team2": "Clear Springs",
       "score2": null,
       "winner": null,
+      "site": "Sheldon ISD Panther Stadium",
       "date": "2026-11-13"
     },
     {
@@ -4873,24 +4946,27 @@
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Fort Bend Ridge Point",
       "score1": null,
       "team2": "Katy Taylor",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Fort Bend ISD Hall Stadium",
+      "date": "2026-11-13"
     },
     {
       "year": 2026,
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Barbers Hill",
       "score1": null,
       "team2": "Humble Atascocita",
       "score2": null,
       "winner": null,
+      "site": "Barbers Hill ISD Eagle Stadium",
       "date": "2026-11-13"
     },
     {
@@ -4898,18 +4974,13 @@
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Katy Tompkins",
       "score1": null,
       "team2": "Fort Bend Hightower",
       "score2": null,
       "winner": null,
-      "site": "Legacy Stadium, 1830 Katyland Dr, Katy, TX 77493",
-      "lat": 29.80121,
-      "lng": -95.80476,
-      "stadium": "Mike Johnston Field at Legacy Stadium",
-      "map_link": "https://goo.gl/maps/km2SPmR8CsAASd3H6",
-      "city": "Katy",
+      "site": "Katy ISD Legacy Stadium",
       "date": "2026-11-12"
     },
     {
@@ -4930,12 +5001,14 @@
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "San Antonio Sotomayor",
       "score1": null,
       "team2": "Eagle Pass",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Gustafson-Northside ISD Stadium (San Antonio)",
+      "date": "2026-11-12"
     },
     {
       "year": 2026,
@@ -4959,60 +5032,70 @@
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Laredo Alexander",
       "score1": null,
       "team2": "San Antonio Warren",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "United ISD Student Activity Center Field (Laredo)",
+      "date": "2026-11-14"
     },
     {
       "year": 2026,
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Shadow Creek (?)",
       "score1": null,
       "team2": "Heights (?)",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Alvin ISD Freedom Field",
+      "date": "2026-11-12"
     },
     {
       "year": 2026,
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Memorial (?)",
       "score1": null,
       "team2": "Manvel (?)",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Spring Branch ISD Tully Stadium",
+      "date": "2026-11-13"
     },
     {
       "year": 2026,
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "College Park (?)",
       "score1": null,
       "team2": "Spring Dekaney",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Conroe ISD Woodforest Stadium",
+      "date": "2026-11-12"
     },
     {
       "year": 2026,
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Westfield (?)",
       "score1": null,
       "team2": "Willis",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Spring ISD Planet Ford District Stadium",
+      "date": "2026-11-13"
     },
     {
       "year": 2026,
