@@ -1679,6 +1679,17 @@
   "stadium": "Wigwam Stadium",
   "stadium_id": 829
  },
+ "Seminole HS, Football Field || Seminole v El Paso Bowie": {
+  "address": "NW Ave F at NW 8th, Seminole, Texas 79360",
+  "city": "Seminole",
+  "how": "school",
+  "lat": 32.71674,
+  "lng": -102.6491,
+  "map_link": "https://goo.gl/maps/Ldj6eueXwab4Znh6A",
+  "site": "Seminole HS, Football Field",
+  "stadium": "Wigwam Stadium",
+  "stadium_id": 829
+ },
  "Sheldon ISD Panther Stadium || Houston King v Clear Springs": {
   "address": "11433C East Sam Houston Parkway North, Houston, Texas 77044",
   "city": "Houston",

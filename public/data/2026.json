@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-09T01:36+00:00",
+    "updated": "2026-11-09T01:38+00:00",
     "games": 352,
     "played": 0,
     "assigned": 110,
@@ -3544,6 +3544,11 @@
       "score2": null,
       "winner": null,
       "site": "Seminole HS, Football Field",
+      "lat": 32.71674,
+      "lng": -102.6491,
+      "stadium": "Wigwam Stadium",
+      "map_link": "https://goo.gl/maps/Ldj6eueXwab4Znh6A",
+      "city": "Seminole",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
