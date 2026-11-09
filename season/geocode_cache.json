@@ -7,7 +7,7 @@
   "lat": 33.10021,
   "lng": -96.61224,
   "map_link": "https://goo.gl/maps/YteoTrpG1m5PkJRL9",
-  "rules": 5,
+  "rules": 6,
   "site": "@ Lovejoy 11/13 @",
   "stadium": "Leopard Stadium",
   "stadium_id": 338
@@ -20,7 +20,7 @@
   "lat": 30.55707,
   "lng": -96.28654,
   "map_link": "https://goo.gl/maps/BmdUrUAuB5BM1rgs7",
-  "rules": 5,
+  "rules": 6,
   "site": "A&M Consolidated HS",
   "stadium": "Cougar Field",
   "stadium_id": 1646
@@ -44,7 +44,7 @@
   "lat": 32.47352,
   "lng": -99.70896,
   "map_link": "https://goo.gl/maps/BmRi2NZMvheTgJtJ9",
-  "rules": 5,
+  "rules": 6,
   "site": "Abilene Christian University",
   "stadium": "Anthony Field at Wildcat Stadium",
   "stadium_id": 1062
@@ -53,10 +53,10 @@
   "address": "1865 Aldine Bender, Houston, Texas 77032",
   "city": "Houston",
   "how": "stadium",
-  "lat": 29.93033,
-  "lng": -95.3205,
+  "lat": 29.93188,
+  "lng": -95.39241,
   "map_link": "https://goo.gl/maps/7sh3THKVEVzwZ1fk8",
-  "rules": 5,
+  "rules": 6,
   "site": "Aldine ISD Thorne Stadium",
   "stadium": "W. W. Thorne Stadium",
   "stadium_id": 366
@@ -68,7 +68,7 @@
   "lat": 29.39719,
   "lng": -95.41014,
   "map_link": "https://goo.gl/maps/acSazZbAU2ovYKdUA",
-  "rules": 5,
+  "rules": 6,
   "site": "Alvin ISD Freedom Field",
   "stadium": "Alvin ISD Freedom Field",
   "stadium_id": 1758
@@ -80,7 +80,7 @@
   "lat": 32.32274,
   "lng": -102.57009,
   "map_link": "https://maps.app.goo.gl/DZWYSntZDeRASZYz9",
-  "rules": 5,
+  "rules": 6,
   "site": "Andrews HS",
   "stadium": "Mustang Bowl",
   "stadium_id": 992
@@ -92,7 +92,7 @@
   "lat": 32.32274,
   "lng": -102.57009,
   "map_link": "https://maps.app.goo.gl/DZWYSntZDeRASZYz9",
-  "rules": 5,
+  "rules": 6,
   "site": "Andrews High School",
   "stadium": "Mustang Bowl",
   "stadium_id": 992
@@ -104,20 +104,22 @@
   "lat": 29.19791,
   "lng": -95.41703,
   "map_link": "https://goo.gl/maps/jjdvn1wwTtTYzirh6",
-  "rules": 5,
+  "rules": 6,
   "site": "Angleton ISD Wildcat Stadium",
   "stadium": "Wildcat Stadium",
   "stadium_id": 1280
  },
  "Argyle ISD Stadium || Argyle v Frisco Panther Creek": {
-  "address": "",
-  "how": "district:Stadium, Argyle",
-  "map_link": "",
-  "missed": "2026-11-09",
-  "rules": 5,
+  "address": "6615 Canyon Falls Dr, Roanoke, Texas 76262",
+  "city": "Roanoke",
+  "how": "stadium (town only)",
+  "lat": 33.00401,
+  "lng": -97.22585,
+  "map_link": "https://maps.app.goo.gl/R6daEJxQGwsXt9uD7",
+  "rules": 6,
   "site": "Argyle ISD Stadium",
-  "stadium": null,
-  "stadium_id": null
+  "stadium": "Argyle ISD Stadium",
+  "stadium_id": 5843
  },
  "Ballinger || New Home v Ballinger": {
   "address": "1001 Broad Ave, Ballinger, Texas 76821",
@@ -126,7 +128,7 @@
   "lat": 31.74586,
   "lng": -99.96227,
   "map_link": "https://goo.gl/maps/V3vgRwM8quF9toju6",
-  "rules": 5,
+  "rules": 6,
   "site": "Ballinger",
   "stadium": "Bearcat Stadium",
   "stadium_id": 971
@@ -138,7 +140,7 @@
   "lat": 30.98407,
   "lng": -103.74753,
   "map_link": "https://goo.gl/maps/iFmoNbwcJJ2Ytafd6",
-  "rules": 5,
+  "rules": 6,
   "site": "Balmorhea High School",
   "stadium": "Bear Stadium",
   "stadium_id": 574
@@ -150,7 +152,7 @@
   "lat": 30.98407,
   "lng": -103.74753,
   "map_link": "https://goo.gl/maps/iFmoNbwcJJ2Ytafd6",
-  "rules": 5,
+  "rules": 6,
   "site": "Balmorhea High School",
   "stadium": "Bear Stadium",
   "stadium_id": 574
@@ -162,7 +164,7 @@
   "lat": 29.73287,
   "lng": -99.06621,
   "map_link": "https://goo.gl/maps/ViYkAS4q5jZpf6Vf7",
-  "rules": 5,
+  "rules": 6,
   "site": "Bandera HS",
   "stadium": "Bulldog Stadium",
   "stadium_id": 903
@@ -174,7 +176,7 @@
   "lat": 29.83163,
   "lng": -94.84742,
   "map_link": "https://goo.gl/maps/BWSMBKX8rq8HLYGF6",
-  "rules": 5,
+  "rules": 6,
   "site": "Barbers Hill ISD Eagle Stadium",
   "stadium": "Eagle Stadium",
   "stadium_id": 872
@@ -186,7 +188,7 @@
   "lat": 30.08293,
   "lng": -94.09843,
   "map_link": "https://goo.gl/maps/3M75akREmEgxQM3aA",
-  "rules": 5,
+  "rules": 6,
   "site": "Beaumont Doggett Family Stadium",
   "stadium": "Doggett Family Stadium",
   "stadium_id": 1288
@@ -198,7 +200,7 @@
   "lat": 28.41906,
   "lng": -97.75418,
   "map_link": "https://goo.gl/maps/RHqLmQvdY72SEboc9",
-  "rules": 5,
+  "rules": 6,
   "site": "Beeville ISD Veterans Memorial Stadium",
   "stadium": "Veterans Memorial Stadium",
   "stadium_id": 414
@@ -210,7 +212,7 @@
   "lat": 28.41906,
   "lng": -97.75418,
   "map_link": "https://goo.gl/maps/RHqLmQvdY72SEboc9",
-  "rules": 5,
+  "rules": 6,
   "site": "Beeville ISD Veterans Memorial Stadium",
   "stadium": "Veterans Memorial Stadium",
   "stadium_id": 414
@@ -222,7 +224,7 @@
   "lat": 31.06868,
   "lng": -97.46483,
   "map_link": "https://goo.gl/maps/di33t6EqKwJGmr33A",
-  "rules": 5,
+  "rules": 6,
   "site": "Belton Mary Hardin Baylor Crusader Stadium",
   "stadium": "Crusader Stadium",
   "stadium_id": 1656
@@ -234,7 +236,7 @@
   "lat": 32.25501,
   "lng": -101.4473,
   "map_link": "https://goo.gl/maps/qbXyUQgjauvj513z8",
-  "rules": 5,
+  "rules": 6,
   "site": "Big Spring High School",
   "stadium": "Memorial Stadium",
   "stadium_id": 989
@@ -246,7 +248,7 @@
   "lat": 32.25501,
   "lng": -101.4473,
   "map_link": "https://goo.gl/maps/qbXyUQgjauvj513z8",
-  "rules": 5,
+  "rules": 6,
   "site": "Big Spring High School",
   "stadium": "Memorial Stadium",
   "stadium_id": 989
@@ -258,7 +260,7 @@
   "lat": 32.08697,
   "lng": -100.31889,
   "map_link": "https://goo.gl/maps/z361CK1aJS1j41Hn9",
-  "rules": 5,
+  "rules": 6,
   "site": "Blackwell",
   "stadium": "Hornet Stadium",
   "stadium_id": 97
@@ -270,7 +272,7 @@
   "lat": 31.81933,
   "lng": -98.79226,
   "map_link": "https://goo.gl/maps/7SuxpTon1g3E7usSA",
-  "rules": 5,
+  "rules": 6,
   "site": "Blanket High School",
   "stadium": "Switzer Field",
   "stadium_id": 161
@@ -282,7 +284,7 @@
   "lat": 34.51329,
   "lng": -102.88816,
   "map_link": "https://goo.gl/maps/E3UVJGncjTLrKgsH8",
-  "rules": 5,
+  "rules": 6,
   "site": "Bovina High School, Football Field",
   "stadium": "Mustang Stadium",
   "stadium_id": 797
@@ -305,7 +307,7 @@
   "lat": 30.15912,
   "lng": -96.37902,
   "map_link": "https://goo.gl/maps/njVtEHxoXMDtzacp8",
-  "rules": 5,
+  "rules": 6,
   "site": "Brenham Cub Stadium",
   "stadium": "Cub Stadium",
   "stadium_id": 59
@@ -317,7 +319,7 @@
   "lat": 31.66554,
   "lng": -98.97911,
   "map_link": "https://goo.gl/maps/RJK8G9xu2CNQVoaFA",
-  "rules": 5,
+  "rules": 6,
   "site": "Brownwood High School",
   "stadium": "Gordon Wood Stadium",
   "stadium_id": 84
@@ -329,7 +331,7 @@
   "lat": 30.65651,
   "lng": -96.33315,
   "map_link": "https://goo.gl/maps/jbwDcfrRANqXJiX78",
-  "rules": 5,
+  "rules": 6,
   "site": "Bryan ISD Merrill Green Stadium",
   "stadium": "Merrill Green Stadium",
   "stadium_id": 181
@@ -341,7 +343,7 @@
   "lat": 32.76,
   "lng": -98.90864,
   "map_link": "https://goo.gl/maps/yW45uKrvr5CS97Yy6",
-  "rules": 5,
+  "rules": 6,
   "site": "Buckaroo Stadium; Breckenridge, TX",
   "stadium": "Buckaroo Stadium",
   "stadium_id": 639
@@ -351,10 +353,10 @@
   "city": "Denton",
   "confirmed_as": "C.H. Collins Athletic Complex, Denton",
   "how": "school",
-  "lat": 33.2636,
-  "lng": -97.11959,
+  "lat": 33.26347,
+  "lng": -97.11528,
   "map_link": "https://goo.gl/maps/WUW7Uu1ZcrtshqHDA",
-  "rules": 5,
+  "rules": 6,
   "site": "CH Collins",
   "stadium": "C. H. Collins Complex",
   "stadium_id": 647
@@ -366,7 +368,7 @@
   "lat": 30.53058,
   "lng": -96.69697,
   "map_link": "https://goo.gl/maps/byBAto5HbetKEnYP6",
-  "rules": 5,
+  "rules": 6,
   "site": "Caldwell HS",
   "stadium": "Hornet Field",
   "stadium_id": 91
@@ -379,7 +381,7 @@
   "lat": 31.8969,
   "lng": -106.58673,
   "map_link": "https://goo.gl/maps/dzsCx6o43vrCxi8a9",
-  "rules": 5,
+  "rules": 6,
   "site": "Canutillo HS",
   "stadium": "Eagle Stadium",
   "stadium_id": 580
@@ -391,7 +393,7 @@
   "lat": 31.79528,
   "lng": -94.18036,
   "map_link": "https://goo.gl/maps/ggPxaHCoJ7cTkcoaA",
-  "rules": 5,
+  "rules": 6,
   "site": "Center High School",
   "stadium": "Roughrider Stadium",
   "stadium_id": 555
@@ -403,7 +405,7 @@
   "lat": 31.25112,
   "lng": -95.98079,
   "map_link": "https://goo.gl/maps/6R9STj9xGB8DTTHW7",
-  "rules": 5,
+  "rules": 6,
   "site": "Centerville High School",
   "stadium": "Tiger Stadium",
   "stadium_id": 169
@@ -414,7 +416,7 @@
   "lat": 29.79247,
   "lng": -95.12057,
   "map_link": "",
-  "rules": 5,
+  "rules": 6,
   "site": "Channelview ISD Maddry Stadium",
   "stadium": null,
   "stadium_id": null
@@ -426,7 +428,7 @@
   "lat": 33.2607,
   "lng": -96.80421,
   "map_link": "https://goo.gl/maps/D7qScRX8Tt9kchyAA",
-  "rules": 5,
+  "rules": 6,
   "site": "Children's Health Stadium",
   "stadium": "Children's Health Stadium",
   "stadium_id": 2439
@@ -460,7 +462,7 @@
   "lat": 34.51966,
   "lng": -100.20677,
   "map_link": "https://goo.gl/maps/T5USJpM1hofREJkc6",
-  "rules": 5,
+  "rules": 6,
   "site": "Childress High School, Fair Park",
   "stadium": "Fair Park Stadium",
   "stadium_id": 760
@@ -472,7 +474,7 @@
   "lat": 34.51966,
   "lng": -100.20677,
   "map_link": "https://goo.gl/maps/T5USJpM1hofREJkc6",
-  "rules": 5,
+  "rules": 6,
   "site": "Childress High School, Fair Park",
   "stadium": "Fair Park Stadium",
   "stadium_id": 760
@@ -495,7 +497,7 @@
   "lat": 32.38734,
   "lng": -98.99193,
   "map_link": "https://goo.gl/maps/gtBB4MnLCqAxAhcm8",
-  "rules": 5,
+  "rules": 6,
   "site": "Cisco High School, Cisco High School",
   "stadium": "Chesley Stadium",
   "stadium_id": 486
@@ -507,7 +509,7 @@
   "lat": 32.41429,
   "lng": -99.52905,
   "map_link": "https://goo.gl/maps/L4WY19wkxC676aSv7",
-  "rules": 5,
+  "rules": 6,
   "site": "Clyde High School",
   "stadium": "Clyde Bulldog Stadium",
   "stadium_id": 1298
@@ -519,7 +521,7 @@
   "lat": 30.55707,
   "lng": -96.28654,
   "map_link": "https://goo.gl/maps/BmdUrUAuB5BM1rgs7",
-  "rules": 5,
+  "rules": 6,
   "site": "College Station HS",
   "stadium": "Cougar Field",
   "stadium_id": 1646
@@ -543,7 +545,7 @@
   "lat": 30.55707,
   "lng": -96.28654,
   "map_link": "https://goo.gl/maps/BmdUrUAuB5BM1rgs7",
-  "rules": 5,
+  "rules": 6,
   "site": "College Station ISD Cougar Stadium",
   "stadium": "Cougar Field",
   "stadium_id": 1646
@@ -555,7 +557,7 @@
   "lat": 32.39832,
   "lng": -100.86988,
   "map_link": "https://goo.gl/maps/SojpNeMA7D2Lysrd6",
-  "rules": 5,
+  "rules": 6,
   "site": "Colorado City High School",
   "stadium": "Wolf Stadium",
   "stadium_id": 1015
@@ -568,7 +570,7 @@
   "lat": 30.18487,
   "lng": -95.44899,
   "map_link": "https://goo.gl/maps/upEFqtHzV76XXwvP8",
-  "rules": 5,
+  "rules": 6,
   "site": "Conroe ISD Woodforest Stadium",
   "stadium": "Woodforest Bank Stadium",
   "stadium_id": 1151
@@ -581,7 +583,7 @@
   "lat": 30.18487,
   "lng": -95.44899,
   "map_link": "https://goo.gl/maps/upEFqtHzV76XXwvP8",
-  "rules": 5,
+  "rules": 6,
   "site": "Conroe ISD Woodforest Stadium",
   "stadium": "Woodforest Bank Stadium",
   "stadium_id": 1151
@@ -593,7 +595,7 @@
   "lat": 31.7485,
   "lng": -96.65583,
   "map_link": "https://maps.app.goo.gl/Dh9kMGrjncAQdH4G6",
-  "rules": 5,
+  "rules": 6,
   "site": "Coolidge High School",
   "stadium": "Coolidge Yellow Jacket Athletic Complex",
   "stadium_id": 197
@@ -605,7 +607,7 @@
   "lat": 27.79536,
   "lng": -97.42433,
   "map_link": "https://goo.gl/maps/ReLaXTsDbA8z2EWQ9",
-  "rules": 5,
+  "rules": 6,
   "site": "Corpus Christi ISD Buccaneer Stadium",
   "stadium": "Buccaneer Stadium",
   "stadium_id": 203
@@ -616,7 +618,7 @@
   "lat": 27.70749,
   "lng": -97.43036,
   "map_link": "",
-  "rules": 5,
+  "rules": 6,
   "site": "Corpus Christi ISD Cabaniss Field",
   "stadium": null,
   "stadium_id": null
@@ -639,7 +641,7 @@
   "lat": 29.91154,
   "lng": -95.06325,
   "map_link": "https://goo.gl/maps/u5VxZUufEKjjSTaa8",
-  "rules": 5,
+  "rules": 6,
   "site": "Crosby ISD Cougar Stadium",
   "stadium": "Cougar Stadium",
   "stadium_id": 615
@@ -651,7 +653,7 @@
   "lat": 32.61019,
   "lng": -97.33556,
   "map_link": "https://goo.gl/maps/vD6WyxBQ71jJaVZ89",
-  "rules": 5,
+  "rules": 6,
   "site": "Crowley ISD Multi-Purpose Stadium - Fort Worth",
   "stadium": "Crowley ISD Multi-Purpose Stadium",
   "stadium_id": 164
@@ -675,7 +677,7 @@
   "lat": 29.09033,
   "lng": -97.28054,
   "map_link": "https://goo.gl/maps/xGqc5ewEXkE7jKc79",
-  "rules": 5,
+  "rules": 6,
   "site": "Cuero HS",
   "stadium": "Gobbler Stadium",
   "stadium_id": 399
@@ -687,7 +689,7 @@
   "lat": 29.99014,
   "lng": -95.67814,
   "map_link": "https://goo.gl/maps/wcVPi2Ck2BR2",
-  "rules": 5,
+  "rules": 6,
   "site": "Cypress-Fairbanks ISD Cy Fair FCU Stadium",
   "stadium": "Cy Fair FCU Stadium",
   "stadium_id": 1050
@@ -699,7 +701,7 @@
   "lat": 29.93565,
   "lng": -95.56999,
   "map_link": "https://goo.gl/maps/WGtow4sC3X82",
-  "rules": 5,
+  "rules": 6,
   "site": "Cypress-Fairbanks ISD Pridgeon Stadium",
   "stadium": "Pridgeon Stadium",
   "stadium_id": 634
@@ -711,7 +713,7 @@
   "lat": 29.93565,
   "lng": -95.56999,
   "map_link": "https://goo.gl/maps/WGtow4sC3X82",
-  "rules": 5,
+  "rules": 6,
   "site": "Cypress-Fairbanks ISD Pridgeon Stadium",
   "stadium": "Pridgeon Stadium",
   "stadium_id": 634
@@ -734,7 +736,7 @@
   "lat": 32.97337,
   "lng": -102.83726,
   "map_link": "https://goo.gl/maps/kxG68a59E33aYR1v6",
-  "rules": 5,
+  "rules": 6,
   "site": "Denver City High School, Football Field",
   "stadium": "Mustang Stadium",
   "stadium_id": 995
@@ -746,7 +748,7 @@
   "lat": 31.18713,
   "lng": -94.78104,
   "map_link": "https://goo.gl/maps/rVUJzipR2b7YcQed6",
-  "rules": 5,
+  "rules": 6,
   "site": "Diboll High School",
   "stadium": "Lumberjack Stadium",
   "stadium_id": 352
@@ -758,7 +760,7 @@
   "lat": 35.20023,
   "lng": -101.81035,
   "map_link": "https://goo.gl/maps/F9wZMeXxkqjjEzha6",
-  "rules": 5,
+  "rules": 6,
   "site": "Dick Bivins (Amarillo)",
   "stadium": "Dick Bivins Stadium",
   "stadium_id": 722
@@ -770,7 +772,7 @@
   "lat": 35.20023,
   "lng": -101.81035,
   "map_link": "https://goo.gl/maps/F9wZMeXxkqjjEzha6",
-  "rules": 5,
+  "rules": 6,
   "site": "Dick Bivins Stadium (Amarillo)",
   "stadium": "Dick Bivins Stadium",
   "stadium_id": 722
@@ -782,7 +784,7 @@
   "lat": 29.47148,
   "lng": -95.03173,
   "map_link": "https://goo.gl/maps/e6sWW2n5DGJfEqpu5",
-  "rules": 5,
+  "rules": 6,
   "site": "Dickinson ISD Vitanza Stadium",
   "stadium": "Sam Vitanza Stadium",
   "stadium_id": 1136
@@ -794,7 +796,7 @@
   "lat": 34.54152,
   "lng": -102.33217,
   "map_link": "https://goo.gl/maps/cjwMpaYB832gVpXg9",
-  "rules": 5,
+  "rules": 6,
   "site": "Dimmitt High School",
   "stadium": "Bobcat Stadium",
   "stadium_id": 723
@@ -806,7 +808,7 @@
   "lat": 32.30085,
   "lng": -96.00891,
   "map_link": "https://goo.gl/maps/g4ddwKfmcJoHhPjbA",
-  "rules": 5,
+  "rules": 6,
   "site": "Eustace High School",
   "stadium": "Bulldog Stadium",
   "stadium_id": 440
@@ -819,7 +821,7 @@
   "lat": 32.73184,
   "lng": -97.35908,
   "map_link": "https://goo.gl/maps/5hpRUksSEBEZD7EK7",
-  "rules": 5,
+  "rules": 6,
   "site": "FWISD Farrington",
   "stadium": "Farrington Field",
   "stadium_id": 242
@@ -832,7 +834,7 @@
   "lat": 29.4246,
   "lng": -98.49514,
   "map_link": "",
-  "rules": 5,
+  "rules": 6,
   "site": "Farris Stadium",
   "stadium": null,
   "stadium_id": null
@@ -844,7 +846,7 @@
   "lat": 33.98829,
   "lng": -101.34441,
   "map_link": "https://goo.gl/maps/j3dQ5NFbpdq16vYc8",
-  "rules": 5,
+  "rules": 6,
   "site": "Floydada HS",
   "stadium": "Charles Tyer Stadium",
   "stadium_id": 827
@@ -856,7 +858,7 @@
   "lat": 29.53233,
   "lng": -95.49701,
   "map_link": "https://goo.gl/maps/F4gUBwst8H7sUr7v6",
-  "rules": 5,
+  "rules": 6,
   "site": "Fort Bend ISD Hall Stadium",
   "stadium": "Ken Hall Stadium",
   "stadium_id": 520
@@ -868,7 +870,7 @@
   "lat": 29.53233,
   "lng": -95.49701,
   "map_link": "https://goo.gl/maps/F4gUBwst8H7sUr7v6",
-  "rules": 5,
+  "rules": 6,
   "site": "Fort Bend ISD Hall Stadium",
   "stadium": "Ken Hall Stadium",
   "stadium_id": 520
@@ -891,21 +893,22 @@
   "lat": 33.51832,
   "lng": -102.0066,
   "map_link": "https://goo.gl/maps/yTzp5e5h4y9HwbGZ9",
-  "rules": 5,
+  "rules": 6,
   "site": "Frenship High School, People's Bank Stadium",
   "stadium": "Peoples Bank Stadium",
   "stadium_id": 823
  },
  "Galena Park ISD Stadium || Galena Park North Shore v Deer Park": {
-  "address": "",
-  "how": "stadium found by name",
-  "lat": 29.73659,
-  "lng": -95.2375,
-  "map_link": "",
-  "rules": 5,
+  "address": "15025 Wallisville Rd, Houston, Texas 77015",
+  "city": "Houston",
+  "how": "stadium",
+  "lat": 29.80614,
+  "lng": -95.17934,
+  "map_link": "https://goo.gl/maps/ZT8RxzH2DPJiptsd9",
+  "rules": 6,
   "site": "Galena Park ISD Stadium",
-  "stadium": null,
-  "stadium_id": null
+  "stadium": "Galena Park ISD Stadium",
+  "stadium_id": 512
  },
  "Grady High School || Rankin v Klondike": {
   "address": "3500 FM 829, Lenorah, Texas 79749",
@@ -914,7 +917,7 @@
   "lat": 32.3082,
   "lng": -101.92834,
   "map_link": "https://goo.gl/maps/5RJ3moBe1SCx5JAZ6",
-  "rules": 5,
+  "rules": 6,
   "site": "Grady High School",
   "stadium": "Wildcat Stadium",
   "stadium_id": 1013
@@ -937,7 +940,7 @@
   "lat": 33.09504,
   "lng": -98.58039,
   "map_link": "https://goo.gl/maps/5cwr5aXZ47YTGrxb7",
-  "rules": 5,
+  "rules": 6,
   "site": "Graham High School, Graham High School",
   "stadium": "Newton Field",
   "stadium_id": 688
@@ -962,7 +965,7 @@
   "lat": 34.18479,
   "lng": -101.70684,
   "map_link": "https://goo.gl/maps/ic96ws2fQmQuXh4m8",
-  "rules": 5,
+  "rules": 6,
   "site": "Greg Sherwood Memorial Bulldog Stadium, Stadium",
   "stadium": "Greg Sherwood Memorial Stadium",
   "stadium_id": 735
@@ -985,7 +988,7 @@
   "lat": 35.20489,
   "lng": -101.11046,
   "map_link": "https://goo.gl/maps/pMaHcCPRSV2aidgG7",
-  "rules": 5,
+  "rules": 6,
   "site": "Groom High School, Football Field",
   "stadium": "Tiger Field",
   "stadium_id": 820
@@ -998,7 +1001,7 @@
   "lat": 29.44972,
   "lng": -98.62205,
   "map_link": "https://goo.gl/maps/JZrEVmzY6YKz9yoE8",
-  "rules": 5,
+  "rules": 6,
   "site": "Gustafson-Northside ISD Stadium (San Antonio)",
   "stadium": "Gustafson Stadium",
   "stadium_id": 846
@@ -1010,7 +1013,7 @@
   "lat": 35.01197,
   "lng": -101.91654,
   "map_link": "https://goo.gl/maps/uL2MSfaBvwkSJvek7",
-  "rules": 5,
+  "rules": 6,
   "site": "Happy State Bank Stadium, Canyon",
   "stadium": "Happy State Bank Stadium",
   "stadium_id": 781
@@ -1022,7 +1025,7 @@
   "lat": 32.14163,
   "lng": -94.80468,
   "map_link": "https://goo.gl/maps/bbpqzihHmpdMipCy5",
-  "rules": 5,
+  "rules": 6,
   "site": "Henderson High School",
   "stadium": "Lion Stadium",
   "stadium_id": 533
@@ -1035,7 +1038,7 @@
   "lat": 34.83147,
   "lng": -102.41338,
   "map_link": "https://goo.gl/maps/1giBBj6DXv3Qb9sh8",
-  "rules": 5,
+  "rules": 6,
   "site": "Herford High School",
   "stadium": "Whiteface Stadium",
   "stadium_id": 828
@@ -1047,7 +1050,7 @@
   "lat": 33.5907,
   "lng": -95.90036,
   "map_link": "https://goo.gl/maps/EDGj9H1u8Yw99xzJ7",
-  "rules": 5,
+  "rules": 6,
   "site": "Honey Grove High School",
   "stadium": "Warrior Field",
   "stadium_id": 713
@@ -1059,7 +1062,7 @@
   "lat": 29.69362,
   "lng": -95.30498,
   "map_link": "https://goo.gl/maps/SDaszQzbgCemRvfX8",
-  "rules": 5,
+  "rules": 6,
   "site": "Houston ISD Barnett Stadium",
   "stadium": "Herman A. Barnett Stadium",
   "stadium_id": 605
@@ -1071,7 +1074,7 @@
   "lat": 29.64881,
   "lng": -95.45454,
   "map_link": "https://goo.gl/maps/JMeoss3AJbuAd4RY8",
-  "rules": 5,
+  "rules": 6,
   "site": "Houston ISD Butler Stadium",
   "stadium": "Joe K. Butler Stadium",
   "stadium_id": 610
@@ -1083,7 +1086,7 @@
   "lat": 29.80366,
   "lng": -95.45623,
   "map_link": "https://goo.gl/maps/ZeFpyvP6AT2FBnRG8",
-  "rules": 5,
+  "rules": 6,
   "site": "Houston ISD Delmar Stadium",
   "stadium": "Delmar Stadium",
   "stadium_id": 621
@@ -1095,7 +1098,7 @@
   "lat": 32.68427,
   "lng": -95.71363,
   "map_link": "https://goo.gl/maps/e73NvD6a8HA2",
-  "rules": 5,
+  "rules": 6,
   "site": "Indian Memorial Stadium, Grand Saline High School",
   "stadium": "Indian Memorial Stadium",
   "stadium_id": null
@@ -1107,7 +1110,7 @@
   "lat": 31.87947,
   "lng": -106.41512,
   "map_link": "https://goo.gl/maps/2yHJacDAySN1G75e7",
-  "rules": 5,
+  "rules": 6,
   "site": "Irvin HS",
   "stadium": "Irvin Memorial Stadium",
   "stadium_id": 597
@@ -1130,7 +1133,7 @@
   "lat": 33.24807,
   "lng": -100.57386,
   "map_link": "https://goo.gl/maps/8DYkDAKd97hjqzdz7",
-  "rules": 5,
+  "rules": 6,
   "site": "Jayton High School, Stadium",
   "stadium": "Jaybird Stadium",
   "stadium_id": 778
@@ -1142,7 +1145,7 @@
   "lat": 31.11714,
   "lng": -97.7278,
   "map_link": "",
-  "rules": 5,
+  "rules": 6,
   "site": "Joseph L. Sears III Stadium in Killeen, TX",
   "stadium": null,
   "stadium_id": null
@@ -1154,7 +1157,7 @@
   "lat": 29.80121,
   "lng": -95.80476,
   "map_link": "https://goo.gl/maps/km2SPmR8CsAASd3H6",
-  "rules": 5,
+  "rules": 6,
   "site": "Katy ISD Legacy Stadium",
   "stadium": "Mike Johnston Field at Legacy Stadium",
   "stadium_id": 1699
@@ -1166,7 +1169,7 @@
   "lat": 29.80121,
   "lng": -95.80476,
   "map_link": "https://goo.gl/maps/km2SPmR8CsAASd3H6",
-  "rules": 5,
+  "rules": 6,
   "site": "Katy ISD Legacy Stadium",
   "stadium": "Mike Johnston Field at Legacy Stadium",
   "stadium_id": 1699
@@ -1178,7 +1181,7 @@
   "lat": 31.85106,
   "lng": -103.09002,
   "map_link": "https://goo.gl/maps/GJanAyyu3He6RB5PA",
-  "rules": 5,
+  "rules": 6,
   "site": "Kermit HS",
   "stadium": "Walton Field",
   "stadium_id": 1010
@@ -1191,7 +1194,7 @@
   "lat": 30.04076,
   "lng": -95.53754,
   "map_link": "https://goo.gl/maps/zoC4eqjDQE1myASb6",
-  "rules": 5,
+  "rules": 6,
   "site": "Klein ISD Memorial Stadium",
   "stadium": "Klein Memorial Stadium",
   "stadium_id": 626
@@ -1203,7 +1206,7 @@
   "lat": 29.90345,
   "lng": -96.86569,
   "map_link": "https://goo.gl/maps/6tQRy1aGx1HnL3qx9",
-  "rules": 5,
+  "rules": 6,
   "site": "La Grange",
   "stadium": "Leopard Stadium",
   "stadium_id": 111
@@ -1215,7 +1218,7 @@
   "lat": 29.65258,
   "lng": -95.01704,
   "map_link": "https://goo.gl/maps/YuhAMeUQsk3juEEP6",
-  "rules": 5,
+  "rules": 6,
   "site": "La Porte ISD Bulldog Stadium",
   "stadium": "Bulldog Stadium",
   "stadium_id": 620
@@ -1228,7 +1231,7 @@
   "lat": 27.49874,
   "lng": -99.43674,
   "map_link": "https://goo.gl/maps/9EZxX2FDWUAoxfz2A",
-  "rules": 5,
+  "rules": 6,
   "site": "Laredo Student Activity Center",
   "stadium": "Bill Johnson Student Activity Center",
   "stadium_id": 955
@@ -1240,7 +1243,7 @@
   "lat": 30.51518,
   "lng": -97.79196,
   "map_link": "https://goo.gl/maps/dJoKL6tqpt1DgXV18",
-  "rules": 5,
+  "rules": 6,
   "site": "Leander ISD Gupton Stadium",
   "stadium": "John Gupton Stadium",
   "stadium_id": 1340
@@ -1271,10 +1274,10 @@
   "address": "1100 Elbel Road, Schertz, Texas 78154",
   "city": "Schertz",
   "how": "stadium",
-  "lat": 29.5629,
-  "lng": -98.26399,
+  "lat": 29.56388,
+  "lng": -98.26224,
   "map_link": "https://goo.gl/maps/yTzp5e5h4y9HwbGZ9",
-  "rules": 5,
+  "rules": 6,
   "site": "Lehnhoff Stadium",
   "stadium": "Robert and Glenda Lehnhoff Stadium",
   "stadium_id": 840
@@ -1286,7 +1289,7 @@
   "lat": 31.10987,
   "lng": -97.69441,
   "map_link": "https://goo.gl/maps/iRCx4CvmWew9RcTU9",
-  "rules": 5,
+  "rules": 6,
   "site": "Leo Buckley Stadium - Killeen",
   "stadium": "Leo Buckley Stadium",
   "stadium_id": 110
@@ -1309,7 +1312,7 @@
   "lat": 33.60072,
   "lng": -102.34339,
   "map_link": "https://goo.gl/maps/ZM9mBCF3zC377H856",
-  "rules": 5,
+  "rules": 6,
   "site": "Levelland High School, Lobo Stadium",
   "stadium": "Lobo Stadium",
   "stadium_id": 786
@@ -1321,7 +1324,7 @@
   "lat": 32.5007,
   "lng": -94.74049,
   "map_link": "https://goo.gl/maps/3ExdCqHgrrWuPew5A",
-  "rules": 5,
+  "rules": 6,
   "site": "Longview ISD Lobo Stadium",
   "stadium": "Lobo Stadium",
   "stadium_id": 537
@@ -1346,7 +1349,7 @@
   "lat": 33.58557,
   "lng": -101.84702,
   "map_link": "https://goo.gl/maps/8DGWRhdF8PcJ6Znn7",
-  "rules": 5,
+  "rules": 6,
   "site": "Lowrey Field, PlainsCapital Park",
   "stadium": "Lowery Field at Plains Capital Park",
   "stadium_id": 791
@@ -1359,7 +1362,7 @@
   "lat": 33.58557,
   "lng": -101.84702,
   "map_link": "https://goo.gl/maps/8DGWRhdF8PcJ6Znn7",
-  "rules": 5,
+  "rules": 6,
   "site": "Lowrey Field, PlainsCapital Park",
   "stadium": "Lowery Field at Plains Capital Park",
   "stadium_id": 791
@@ -1371,7 +1374,7 @@
   "lat": 31.33598,
   "lng": -94.68785,
   "map_link": "https://goo.gl/maps/RpMBJXihnh5SiQVF9",
-  "rules": 5,
+  "rules": 6,
   "site": "Lufkin ISD Abe Martin Stadium",
   "stadium": "Abe Martin Stadium",
   "stadium_id": 417
@@ -1381,10 +1384,10 @@
   "city": "Madisonville",
   "confirmed_as": "Mustang Stadium, Madisonville",
   "how": "stadium",
-  "lat": 30.94501,
-  "lng": -95.90846,
+  "lat": 30.94517,
+  "lng": -95.90525,
   "map_link": "https://goo.gl/maps/uCkXHGAGQdu9zi1W6",
-  "rules": 5,
+  "rules": 6,
   "site": "Madisonville CISD Stadium",
   "stadium": "Mustang Stadium",
   "stadium_id": 132
@@ -1393,10 +1396,10 @@
   "address": "811 S May St,, Madisonville, Texas 77864",
   "city": "Madisonville",
   "how": "school",
-  "lat": 30.94501,
-  "lng": -95.90846,
+  "lat": 30.94517,
+  "lng": -95.90525,
   "map_link": "https://goo.gl/maps/uCkXHGAGQdu9zi1W6",
-  "rules": 5,
+  "rules": 6,
   "site": "Madisonville High School",
   "stadium": "Mustang Stadium",
   "stadium_id": 132
@@ -1409,7 +1412,7 @@
   "lat": 31.06868,
   "lng": -97.46483,
   "map_link": "https://goo.gl/maps/di33t6EqKwJGmr33A",
-  "rules": 5,
+  "rules": 6,
   "site": "Mary Hardin Baylor Crusader Stadium",
   "stadium": "Crusader Stadium",
   "stadium_id": 1656
@@ -1421,7 +1424,7 @@
   "lat": 34.73449,
   "lng": -100.55084,
   "map_link": "https://goo.gl/maps/S58kWnMWZdoLBzfW6",
-  "rules": 5,
+  "rules": 6,
   "site": "Memphis High School",
   "stadium": "George Berry Memorial Stadium",
   "stadium_id": 746
@@ -1433,7 +1436,7 @@
   "lat": 30.91179,
   "lng": -99.78152,
   "map_link": "https://goo.gl/maps/YLD1eWMAWWx1VgGE7",
-  "rules": 5,
+  "rules": 6,
   "site": "Menard High School",
   "stadium": "Findlay Field",
   "stadium_id": 1016
@@ -1445,7 +1448,7 @@
   "lat": 30.65651,
   "lng": -96.33315,
   "map_link": "https://goo.gl/maps/jbwDcfrRANqXJiX78",
-  "rules": 5,
+  "rules": 6,
   "site": "Merrill Green Stadium",
   "stadium": "Merrill Green Stadium",
   "stadium_id": 181
@@ -1457,7 +1460,7 @@
   "lat": 32.76383,
   "lng": -96.63472,
   "map_link": "https://goo.gl/maps/ok5pezoVBGQYri9G6",
-  "rules": 5,
+  "rules": 6,
   "site": "Mesquite: Memorial Stadium",
   "stadium": "Mesquite Memorial Stadium",
   "stadium_id": 279
@@ -1470,7 +1473,7 @@
   "lat": 32.46577,
   "lng": -96.98505,
   "map_link": "https://goo.gl/maps/32KqqTJ9nxj6qnBM9",
-  "rules": 5,
+  "rules": 6,
   "site": "Midlothian ISD Multi-Purpose",
   "stadium": "MISD Multi-Purpose Stadium",
   "stadium_id": 1044
@@ -1482,7 +1485,7 @@
   "lat": 32.81599,
   "lng": -98.07786,
   "map_link": "https://goo.gl/maps/tLrsxB1wW7KTD4cG9",
-  "rules": 5,
+  "rules": 6,
   "site": "Mineral Wells High School",
   "stadium": "Ram Stadium",
   "stadium_id": 684
@@ -1505,7 +1508,7 @@
   "lat": 31.58382,
   "lng": -102.89709,
   "map_link": "https://goo.gl/maps/yPYAiviWYXsXwswA9",
-  "rules": 5,
+  "rules": 6,
   "site": "Monahans High School, Estes Memorial Stadium",
   "stadium": "Estes Memorial Stadium",
   "stadium_id": 495
@@ -1516,7 +1519,7 @@
   "lat": 30.25239,
   "lng": -95.19943,
   "map_link": "",
-  "rules": 5,
+  "rules": 6,
   "site": "Montgomery ISD Athletic Complex",
   "stadium": null,
   "stadium_id": null
@@ -1541,7 +1544,7 @@
   "lat": 31.79748,
   "lng": -106.15839,
   "map_link": "https://goo.gl/maps/FdFekKEL4gwiRHNh9",
-  "rules": 5,
+  "rules": 6,
   "site": "Mountain View HS, Football Field",
   "stadium": "Lobo Stadium",
   "stadium_id": 313
@@ -1554,7 +1557,7 @@
   "lat": 32.74596,
   "lng": -96.99778,
   "map_link": "",
-  "rules": 5,
+  "rules": 6,
   "site": "Mustang Panther Stadium",
   "stadium": null,
   "stadium_id": null
@@ -1566,7 +1569,7 @@
   "lat": 31.62446,
   "lng": -94.63261,
   "map_link": "https://goo.gl/maps/D7N5k9oDxAnGca4C6",
-  "rules": 5,
+  "rules": 6,
   "site": "Nacogdoches High School",
   "stadium": "Dragon Stadium",
   "stadium_id": 446
@@ -1578,7 +1581,7 @@
   "lat": 29.18887,
   "lng": -98.85812,
   "map_link": "https://goo.gl/maps/tTfh24NFkWgJaGaY8",
-  "rules": 5,
+  "rules": 6,
   "site": "Natalia",
   "stadium": "Mustang Stadium",
   "stadium_id": 944
@@ -1590,7 +1593,7 @@
   "lat": 30.13568,
   "lng": -95.23305,
   "map_link": "https://goo.gl/maps/TVJ1cEsvBjaJfuUJ7",
-  "rules": 5,
+  "rules": 6,
   "site": "New Caney ISD Randall Reed Stadium",
   "stadium": "Randall Reed Stadium",
   "stadium_id": 873
@@ -1602,7 +1605,7 @@
   "lat": 33.18762,
   "lng": -98.73674,
   "map_link": "https://goo.gl/maps/hcWSN82wXxzBkMSm7",
-  "rules": 5,
+  "rules": 6,
   "site": "Newcastle High School",
   "stadium": "Bobcat Field",
   "stadium_id": 372
@@ -1614,7 +1617,7 @@
   "lat": 32.57639,
   "lng": -97.07697,
   "map_link": "https://goo.gl/maps/ZckcYBnHj39KXzJV7",
-  "rules": 5,
+  "rules": 6,
   "site": "Newsom Stadium",
   "stadium": "Vernon Newsom Stadium",
   "stadium_id": 392
@@ -1626,7 +1629,7 @@
   "lat": 31.41892,
   "lng": -97.51134,
   "map_link": "https://goo.gl/maps/qkjoFqwTUQUhxicBA",
-  "rules": 5,
+  "rules": 6,
   "site": "Oglesby ISD",
   "stadium": "Tiger Stadium",
   "stadium_id": 166
@@ -1638,7 +1641,7 @@
   "lat": 31.75332,
   "lng": -99.54952,
   "map_link": "https://goo.gl/maps/baQEYF17jWZNdikP8",
-  "rules": 5,
+  "rules": 6,
   "site": "Panther Creek High School",
   "stadium": "Panther Stadium",
   "stadium_id": 136
@@ -1650,7 +1653,7 @@
   "lat": 29.66765,
   "lng": -95.18413,
   "map_link": "https://goo.gl/maps/vvEJARHWmKx9XVKS9",
-  "rules": 5,
+  "rules": 6,
   "site": "Pasadena ISD Veterans Memorial Stadium",
   "stadium": "Veterans Memorial Stadium",
   "stadium_id": 631
@@ -1662,7 +1665,7 @@
   "lat": 29.66765,
   "lng": -95.18413,
   "map_link": "https://goo.gl/maps/vvEJARHWmKx9XVKS9",
-  "rules": 5,
+  "rules": 6,
   "site": "Pasadena ISD Veterans Memorial Stadium",
   "stadium": "Veterans Memorial Stadium",
   "stadium_id": 631
@@ -1673,7 +1676,7 @@
   "lat": 29.53869,
   "lng": -95.26726,
   "map_link": "",
-  "rules": 5,
+  "rules": 6,
   "site": "Pearland ISD The Rig",
   "stadium": null,
   "stadium_id": null
@@ -1696,7 +1699,7 @@
   "lat": 33.87087,
   "lng": -101.60416,
   "map_link": "https://goo.gl/maps/wLaVtEYg4Nvitjr89",
-  "rules": 5,
+  "rules": 6,
   "site": "Petersburg High School, Football Field",
   "stadium": "Buffalo Stadium",
   "stadium_id": 730
@@ -1708,7 +1711,7 @@
   "lat": 33.00257,
   "lng": -94.97131,
   "map_link": "https://goo.gl/maps/7UGmbxrhSYq7mhAVA",
-  "rules": 5,
+  "rules": 6,
   "site": "Pittsburg High School",
   "stadium": "Pirate Stadium",
   "stadium_id": 542
@@ -1720,7 +1723,7 @@
   "lat": 28.96606,
   "lng": -98.49335,
   "map_link": "https://maps.app.goo.gl/LCaH64sxH9hZNfaf7",
-  "rules": 5,
+  "rules": 6,
   "site": "Pleasanton ISD Eagle Stadium",
   "stadium": "Eagle Stadium",
   "stadium_id": 917
@@ -1732,7 +1735,7 @@
   "lat": 29.92192,
   "lng": -93.91394,
   "map_link": "https://goo.gl/maps/z9eNTKLGDxhV3bma8",
-  "rules": 5,
+  "rules": 6,
   "site": "Port Arthur ISD Memorial Stadium",
   "stadium": "Memorial Stadium",
   "stadium_id": 477
@@ -1744,7 +1747,7 @@
   "lat": 29.98769,
   "lng": -93.95423,
   "map_link": "https://goo.gl/maps/fHE4K3TVM5pPbUyA8",
-  "rules": 5,
+  "rules": 6,
   "site": "Port Neches-Groves ISD Indian Stadium",
   "stadium": "Indian Stadium",
   "stadium_id": 882
@@ -1756,7 +1759,7 @@
   "lat": 31.9127,
   "lng": -102.3592,
   "map_link": "https://goo.gl/maps/dLugWPkwfSzT5Hvd9",
-  "rules": 5,
+  "rules": 6,
   "site": "Ratliff Stadium Odessa Texas",
   "stadium": "Ratliff Stadium",
   "stadium_id": 1002
@@ -1768,7 +1771,7 @@
   "lat": 27.89911,
   "lng": -97.32469,
   "map_link": "https://goo.gl/maps/A3ozsu4yNXFPwqRZ7",
-  "rules": 5,
+  "rules": 6,
   "site": "Ray Akins Wildcat Stadium",
   "stadium": "Ray Akins Wildcat Stadium",
   "stadium_id": 213
@@ -1780,7 +1783,7 @@
   "lat": 33.44667,
   "lng": -94.07658,
   "map_link": "https://goo.gl/maps/nyHd5xtgoKNbQYK39",
-  "rules": 5,
+  "rules": 6,
   "site": "Richard Flores Stadium Edinburg, Texas",
   "stadium": "Tiger Stadium at Grim Park",
   "stadium_id": 460
@@ -1792,7 +1795,7 @@
   "lat": 35.30711,
   "lng": -101.83575,
   "map_link": "https://goo.gl/maps/4uJX7QU9A7cwknUc7",
-  "rules": 5,
+  "rules": 6,
   "site": "River Road",
   "stadium": "Wildcat Stadium",
   "stadium_id": 830
@@ -1804,7 +1807,7 @@
   "lat": 31.46767,
   "lng": -97.11472,
   "map_link": "https://goo.gl/maps/398JXxzfsGa2UhDR6",
-  "rules": 5,
+  "rules": 6,
   "site": "Robinson ISD Rocket Field",
   "stadium": "Rocket Field",
   "stadium_id": 154
@@ -1816,7 +1819,7 @@
   "lat": 29.39116,
   "lng": -98.50789,
   "map_link": "https://goo.gl/maps/aEkZf8bfWnTheyx87",
-  "rules": 5,
+  "rules": 6,
   "site": "SAISD Sports Complex",
   "stadium": "SAISD Sports Complex",
   "stadium_id": 853
@@ -1839,7 +1842,7 @@
   "lat": 31.43046,
   "lng": -100.46004,
   "map_link": "https://goo.gl/maps/zSVX5h2VG152aGnt9",
-  "rules": 5,
+  "rules": 6,
   "site": "San Angelo, Stadium",
   "stadium": "San Angelo Stadium",
   "stadium_id": 1004
@@ -1851,7 +1854,7 @@
   "lat": 29.46372,
   "lng": -98.48035,
   "map_link": "https://goo.gl/maps/9ZHVH4NooUHkfakd8",
-  "rules": 5,
+  "rules": 6,
   "site": "San Antonio ISD Alamo Stadium",
   "stadium": "Alamo Stadium",
   "stadium_id": 836
@@ -1863,7 +1866,7 @@
   "lat": 32.71674,
   "lng": -102.6491,
   "map_link": "https://goo.gl/maps/Ldj6eueXwab4Znh6A",
-  "rules": 5,
+  "rules": 6,
   "site": "Seminole HS",
   "stadium": "Wigwam Stadium",
   "stadium_id": 829
@@ -1897,20 +1900,22 @@
   "lat": 32.71674,
   "lng": -102.6491,
   "map_link": "https://goo.gl/maps/Ldj6eueXwab4Znh6A",
-  "rules": 5,
+  "rules": 6,
   "site": "Seminole HS, Football Field",
   "stadium": "Wigwam Stadium",
   "stadium_id": 829
  },
  "Sheldon ISD Panther Stadium || Houston King v Clear Springs": {
-  "address": "",
-  "how": "district:Panther Stadium, Sheldon",
-  "map_link": "",
-  "missed": "2026-11-09",
-  "rules": 5,
+  "address": "11433C East Sam Houston Parkway North, Houston, Texas 77044",
+  "city": "Houston",
+  "how": "stadium (town only)",
+  "lat": 29.75894,
+  "lng": -95.3677,
+  "map_link": "https://goo.gl/maps/QmGujjAKuiCSnGxo7",
+  "rules": 6,
   "site": "Sheldon ISD Panther Stadium",
-  "stadium": null,
-  "stadium_id": null
+  "stadium": "Sheldon ISD Panther Stadium",
+  "stadium_id": 3381
  },
  "Silverton High School, Football Field || Motley County v Lefors": {
   "address": "700 Loretta St, Silverton, Texas 79257",
@@ -1919,7 +1924,7 @@
   "lat": 34.47077,
   "lng": -101.30942,
   "map_link": "https://goo.gl/maps/qG4KzVeeHVviUgVh9",
-  "rules": 5,
+  "rules": 6,
   "site": "Silverton High School, Football Field",
   "stadium": "Payne Field",
   "stadium_id": 801
@@ -1931,7 +1936,7 @@
   "lat": 29.80059,
   "lng": -98.35737,
   "map_link": "https://goo.gl/maps/LbwLZ82tBRFpCHJCA",
-  "rules": 5,
+  "rules": 6,
   "site": "Smithson Valley Ranger Stadium",
   "stadium": "Ranger Stadium",
   "stadium_id": 159
@@ -1954,7 +1959,7 @@
   "lat": 32.7025,
   "lng": -100.9318,
   "map_link": "https://maps.app.goo.gl/isXFJpXnaUGkXRir6",
-  "rules": 5,
+  "rules": 6,
   "site": "Snyder High School, Snyder High School",
   "stadium": "Grant Teaff Tiger Stadium",
   "stadium_id": 1009
@@ -1966,7 +1971,7 @@
   "lat": 29.77868,
   "lng": -95.6063,
   "map_link": "https://goo.gl/maps/dt5v3mkS1Y6E9dzx5",
-  "rules": 5,
+  "rules": 6,
   "site": "Spring Branch ISD Tully Stadium",
   "stadium": "Darrell Tully Stadium",
   "stadium_id": 364
@@ -1979,7 +1984,7 @@
   "lat": 30.06723,
   "lng": -95.38492,
   "map_link": "https://goo.gl/maps/VDQ4QMgjahxzdW6J7",
-  "rules": 5,
+  "rules": 6,
   "site": "Spring ISD Planet Ford District Stadium",
   "stadium": "Planet Ford Stadium",
   "stadium_id": 2503
@@ -2002,7 +2007,7 @@
   "lat": 34.23314,
   "lng": -102.41075,
   "map_link": "https://goo.gl/maps/XQdNd8GbXJMxWJfy5",
-  "rules": 5,
+  "rules": 6,
   "site": "Springlake-Earth HS, Football Field",
   "stadium": "Wolverine Stadium",
   "stadium_id": 834
@@ -2014,7 +2019,7 @@
   "lat": 32.20913,
   "lng": -98.24058,
   "map_link": "https://maps.app.goo.gl/eJk5HsVqy4EL1ym9A",
-  "rules": 5,
+  "rules": 6,
   "site": "Stephenville's Art Briles Stadium",
   "stadium": "Art Briles Stadium",
   "stadium_id": 5788
@@ -2037,7 +2042,7 @@
   "lat": 31.84135,
   "lng": -100.98764,
   "map_link": "https://goo.gl/maps/UkbX6mwgTKGdcLHg7",
-  "rules": 5,
+  "rules": 6,
   "site": "Sterling City High School, Stadium",
   "stadium": "Eagle Stadium",
   "stadium_id": 493
@@ -2049,7 +2054,7 @@
   "lat": 29.75894,
   "lng": -95.3677,
   "map_link": "",
-  "rules": 5,
+  "rules": 6,
   "site": "Strake Jesuit Clay Crusader Stadium (Houston)",
   "stadium": null,
   "stadium_id": null
@@ -2072,7 +2077,7 @@
   "lat": 34.06376,
   "lng": -102.52969,
   "map_link": "https://goo.gl/maps/VrB4BZCkRuvkP3Er9",
-  "rules": 5,
+  "rules": 6,
   "site": "Sudan High School, Football Field",
   "stadium": "Hornet Stadium",
   "stadium_id": 772
@@ -2084,7 +2089,7 @@
   "lat": 33.14157,
   "lng": -95.60695,
   "map_link": "https://goo.gl/maps/8AAbSUGezis",
-  "rules": 5,
+  "rules": 6,
   "site": "Sulphur Springs HS",
   "stadium": "Gerald Prim Stadium",
   "stadium_id": 699
@@ -2096,7 +2101,7 @@
   "lat": 32.48264,
   "lng": -100.40611,
   "map_link": "https://goo.gl/maps/ZoK3S1snEe41y7LW8",
-  "rules": 5,
+  "rules": 6,
   "site": "Sweetwater HS",
   "stadium": "Mustang Bowl",
   "stadium_id": 993
@@ -2105,10 +2110,10 @@
   "address": "1501 9Th Ave N, Texas City, Texas 77590",
   "city": "Texas City",
   "how": "stadium",
-  "lat": 29.39325,
-  "lng": -94.92863,
+  "lat": 29.39328,
+  "lng": -94.91206,
   "map_link": "https://goo.gl/maps/Ba4TN5d6UYXznHdVA",
-  "rules": 5,
+  "rules": 6,
   "site": "Texas City ISD Stingaree Stadium",
   "stadium": "Stingaree Stadium",
   "stadium_id": 362
@@ -2120,7 +2125,7 @@
   "lat": 33.18327,
   "lng": -99.18096,
   "map_link": "https://goo.gl/maps/eh9zmQhkBHFnqfAL9",
-  "rules": 5,
+  "rules": 6,
   "site": "Throckmorton High School",
   "stadium": "Greyhound Stadium",
   "stadium_id": 667
@@ -2132,7 +2137,7 @@
   "lat": 29.99529,
   "lng": -97.16423,
   "map_link": "",
-  "rules": 5,
+  "rules": 6,
   "site": "Tiger Stad., 285 St. Hwy 95, Smithville, TX 78957",
   "stadium": null,
   "stadium_id": null
@@ -2145,21 +2150,22 @@
   "lat": 31.90652,
   "lng": -94.39136,
   "map_link": "https://goo.gl/maps/jNbU7wwTYrgeFdqv8",
-  "rules": 5,
+  "rules": 6,
   "site": "Timpson ISD Bear Stadium",
   "stadium": "John Herbert Eakin Stadium",
   "stadium_id": 423
  },
  "Tomball ISD Stadium || Tomball v Langham Creek": {
-  "address": "",
-  "how": "stadium found by name",
+  "address": "20235 Cypress Rosehill Road, Tomball, Texas 77375",
+  "city": "Tomball",
+  "how": "stadium",
   "lat": 30.11165,
   "lng": -95.6257,
-  "map_link": "",
-  "rules": 5,
+  "map_link": "https://goo.gl/maps/Z6Jh79x8crv1Gjhu6",
+  "rules": 6,
   "site": "Tomball ISD Stadium",
-  "stadium": null,
-  "stadium_id": null
+  "stadium": "Tomball ISD Stadium",
+  "stadium_id": 616
  },
  "Tuloso Midway ISD Tuloso Midway HS || Rio Hondo v Goliad": {
   "address": "9760 McKinzie, Corpus Christi, Texas 78410",
@@ -2169,7 +2175,7 @@
   "lat": 27.8521,
   "lng": -97.57209,
   "map_link": "https://goo.gl/maps/vP8dH4Z53hXBLkjP7",
-  "rules": 5,
+  "rules": 6,
   "site": "Tuloso Midway ISD Tuloso Midway HS",
   "stadium": "Warrior Stadium",
   "stadium_id": 211
@@ -2181,7 +2187,7 @@
   "lat": 32.34228,
   "lng": -95.32406,
   "map_link": "https://goo.gl/maps/ZwesgiaqJ8b5bMgQ7",
-  "rules": 5,
+  "rules": 6,
   "site": "Tyler ISD Rose Stadium",
   "stadium": "Christus Trinity Mother Frances Rose Stadium",
   "stadium_id": 568
@@ -2194,7 +2200,7 @@
   "lat": 27.49874,
   "lng": -99.43674,
   "map_link": "https://goo.gl/maps/9EZxX2FDWUAoxfz2A",
-  "rules": 5,
+  "rules": 6,
   "site": "United ISD Student Activity Center Field (Laredo)",
   "stadium": "Bill Johnson Student Activity Center",
   "stadium_id": 955
@@ -2207,7 +2213,7 @@
   "lat": 32.41242,
   "lng": -96.83707,
   "map_link": "https://goo.gl/maps/UN3VTUYs5qTKMNLK6",
-  "rules": 5,
+  "rules": 6,
   "site": "Waxahachie ISD Lumpkin Stadium",
   "stadium": "Lumpkins Stadium",
   "stadium_id": 123
@@ -2219,7 +2225,7 @@
   "lat": 34.83147,
   "lng": -102.41338,
   "map_link": "https://goo.gl/maps/1giBBj6DXv3Qb9sh8",
-  "rules": 5,
+  "rules": 6,
   "site": "Whiteface Stadium, Hereford Texas Stratford Home",
   "stadium": "Whiteface Stadium",
   "stadium_id": 828
@@ -2230,7 +2236,7 @@
   "lat": 29.71769,
   "lng": -98.45437,
   "map_link": "",
-  "rules": 5,
+  "rules": 6,
   "site": "Willis ISD Willis HS",
   "stadium": null,
   "stadium_id": null
@@ -2242,7 +2248,7 @@
   "lat": 30.43206,
   "lng": -95.48742,
   "map_link": "https://goo.gl/maps/KJhdp6tmumPyTyDo8",
-  "rules": 5,
+  "rules": 6,
   "site": "Willis ISD Yates Stadium",
   "stadium": "Berton A. Yates Stadium",
   "stadium_id": 483
@@ -2265,7 +2271,7 @@
   "lat": 32.95345,
   "lng": -95.30047,
   "map_link": "https://goo.gl/maps/Tar7XUR4Q2yc8LMa8",
-  "rules": 5,
+  "rules": 6,
   "site": "Winnsboro High School",
   "stadium": "Red Raider Stadium",
   "stadium_id": 551
@@ -2275,9 +2281,9 @@
   "city": "Abilene",
   "how": "school",
   "lat": 32.37323,
-  "lng": -99.78182,
+  "lng": -99.78185,
   "map_link": "https://goo.gl/maps/NdS8WdJ5FqeWxro5A",
-  "rules": 5,
+  "rules": 6,
   "site": "Wylie High School",
   "stadium": "Hugh Sandifer Stadium",
   "stadium_id": 986
