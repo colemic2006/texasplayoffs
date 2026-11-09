@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-09T02:21+00:00",
+    "updated": "2026-11-09T02:23+00:00",
     "games": 352,
     "played": 0,
     "assigned": 116,
@@ -3588,7 +3588,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "ABI",
-      "team1": "Liberty (?)",
+      "team1": "Lubbock Liberty",
       "score1": null,
       "team2": "Burkburnett",
       "score2": null,
