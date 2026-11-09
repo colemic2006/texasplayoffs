@@ -45,6 +45,10 @@ jobs:
       - name: Build site data
         run: python3 scripts/season.py build
 
+      - name: Link teams to their Dave Campbell's pages
+        continue-on-error: true
+        run: python3 scripts/dctf_teams.py
+
       - name: List team names to confirm in an issue
         continue-on-error: true
         env:

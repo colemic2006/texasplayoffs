@@ -3,6 +3,7 @@ import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell
 } from 'recharts'
 import { placeName, gameWhen } from '../placeName'
+import { useDctfTeams, DctfLinks } from '../dctf'
 
 const WEEKS = ['1','2','3','4','5','6']
 const ROUND_LABELS = { '1':'Week 1', '2':'Week 2', '3':'Week 3', '4':'Week 4', '5':'Week 5', '6':'Week 6' }
@@ -488,6 +489,7 @@ const tdStyle = {
 
 // Every game a chapter worked, filterable by week (click a row in the weekly table) and class
 function ChapterGames({ games, week, setWeek, cls, setCls, inProgress }) {
+  const dctf = useDctfTeams()
   const classes = CLASSIFICATIONS.filter(c => games.some(g => g.classification === c && (week === 'all' || String(g.week) === week)))
   const shown = games
     .filter(g => (week === 'all' || String(g.week) === week) && (cls === 'all' || g.classification === cls))
@@ -526,6 +528,7 @@ function ChapterGames({ games, week, setWeek, cls, setCls, inProgress }) {
               <th style={thStyle}>Class</th>
               <th style={{ ...thStyle, textAlign:'left' }}>Game</th>
               <th style={{ ...thStyle, textAlign:'left' }}>Site</th>
+              <th style={{ ...thStyle, textAlign:'left' }}>Dave Campbell's</th>
             </tr>
           </thead>
           <tbody>
@@ -542,6 +545,7 @@ function ChapterGames({ games, week, setWeek, cls, setCls, inProgress }) {
                     : (inProgress ? 'TBD' : '—')}
                   {(g.date || inProgress) && <span style={{ fontFamily:'var(--mono)', fontSize:10, marginLeft:6 }}>{g.date ? gameWhen(g) : 'Date TBD'}</span>}
                 </td>
+                <td style={tdStyle}><DctfLinks game={g} teams={dctf} /></td>
               </tr>
             ))}
           </tbody>
