@@ -2,14 +2,14 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-09T01:41+00:00",
+    "updated": "2026-11-09T02:12+00:00",
     "games": 352,
     "played": 0,
-    "assigned": 110,
+    "assigned": 115,
     "weeks": {
       "1": {
         "games": 352,
-        "assigned": 110
+        "assigned": 115
       },
       "2": {
         "games": 0,
@@ -128,6 +128,21 @@
           }
         }
       }
+    },
+    {
+      "code": "AMA",
+      "name": "Amarillo",
+      "total": 5,
+      "weeks": {
+        "1": {
+          "total": 5,
+          "classifications": {
+            "1A D1": 1,
+            "2A D1": 3,
+            "3A D2": 1
+          }
+        }
+      }
     }
   ],
   "games": [
@@ -156,7 +171,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "AMA",
       "team1": "Whiteface",
       "score1": null,
       "team2": "Claude",
@@ -728,7 +743,7 @@
       "classification": "2A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "AMA",
       "team1": "Panhandle",
       "score1": null,
       "team2": "Floydada",
@@ -768,7 +783,7 @@
       "classification": "2A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "AMA",
       "team1": "Tulia",
       "score1": null,
       "team2": "Sanford-Fritch",
@@ -844,7 +859,7 @@
       "classification": "2A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "AMA",
       "team1": "Spearman",
       "score1": null,
       "team2": "Farwell",
@@ -2147,7 +2162,7 @@
       "classification": "3A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "AMA",
       "team1": "Canadian",
       "score1": null,
       "team2": "Muleshoe",
