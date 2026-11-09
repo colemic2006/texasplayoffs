@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-09T01:38+00:00",
+    "updated": "2026-11-09T01:41+00:00",
     "games": 352,
     "played": 0,
     "assigned": 110,
@@ -421,6 +421,11 @@
       "score2": null,
       "winner": null,
       "site": "Sudan High School, Football Field",
+      "lat": 34.06376,
+      "lng": -102.52969,
+      "stadium": "Hornet Stadium",
+      "map_link": "https://goo.gl/maps/VrB4BZCkRuvkP3Er9",
+      "city": "Sudan",
       "date": "2026-11-13",
       "time": "6:30 PM"
     },

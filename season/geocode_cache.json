@@ -1845,6 +1845,17 @@
   "stadium": "Hornet Stadium",
   "stadium_id": 772
  },
+ "Sudan High School, Football Field || Wellman-Union v Anton": {
+  "address": "107 FM 303, Sudan, Texas 79371",
+  "city": "Sudan",
+  "how": "school",
+  "lat": 34.06376,
+  "lng": -102.52969,
+  "map_link": "https://goo.gl/maps/VrB4BZCkRuvkP3Er9",
+  "site": "Sudan High School, Football Field",
+  "stadium": "Hornet Stadium",
+  "stadium_id": 772
+ },
  "Sulphur Springs HS || Cooper v Como-Pickton": {
   "address": "1000 Houston Street, Sulphur Springs, Texas 75482",
   "city": "Sulphur Springs",
