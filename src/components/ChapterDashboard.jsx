@@ -2,7 +2,7 @@ import React, { useState, useMemo, useEffect } from 'react'
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell
 } from 'recharts'
-import { placeName } from '../placeName'
+import { placeName, gameWhen } from '../placeName'
 
 const WEEKS = ['1','2','3','4','5','6']
 const ROUND_LABELS = { '1':'Week 1', '2':'Week 2', '3':'Week 3', '4':'Week 4', '5':'Week 5', '6':'Week 6' }
@@ -521,7 +521,7 @@ function ChapterGames({ games, week, setWeek, cls, setCls, inProgress }) {
                       ? <a href={g.map_link || `https://www.google.com/maps?q=${g.lat},${g.lng}`} target="_blank" rel="noopener noreferrer" style={{ color:'var(--ink)' }}>{placeName(g)}</a>
                       : placeName(g)
                     : (inProgress ? 'TBD' : '—')}
-                  {(g.date || inProgress) && <span style={{ fontFamily:'var(--mono)', fontSize:10, marginLeft:6 }}>{g.date ? `${g.date.slice(5, 7)}/${g.date.slice(8, 10)}/${g.date.slice(0, 4)}` : 'Date TBD'}</span>}
+                  {(g.date || inProgress) && <span style={{ fontFamily:'var(--mono)', fontSize:10, marginLeft:6 }}>{g.date ? gameWhen(g) : 'Date TBD'}</span>}
                 </td>
               </tr>
             ))}

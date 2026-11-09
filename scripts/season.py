@@ -39,7 +39,8 @@ UA = 'Mozilla/5.0 (compatible; texasplayoffs.com bracket sync)'
 FIRST_ROW, LAST_ROW = 2, 801          # Games tab rows the template formats
 COL = dict(week='A', cls='C', chapter='D', team1='E', score1='F', team2='G', score2='H', forfeit='I', notes='K',
            key1='M', key2='N',     # M/N: which source team each name came from (MaxPreps school id)
-           site='O', date='P')     # game site ("Stadium, City") and date, from MaxPreps or typed in
+           site='O', date='P',     # game site ("Stadium, City") and date, from MaxPreps or typed in
+           time='Q')               # kickoff ("7:00 PM")
 NO_ID = '00000000-0000-0000-0000-000000000000'
 
 
@@ -167,7 +168,7 @@ def read_rows(ws):
     for r in range(FIRST_ROW, LAST_ROW + 1):
         v = {k: ws[f'{c}{r}'].value for k, c in COL.items()}
         v['row'] = r
-        for k in ('chapter', 'team1', 'team2', 'cls', 'forfeit', 'notes', 'key1', 'key2', 'site', 'date'):
+        for k in ('chapter', 'team1', 'team2', 'cls', 'forfeit', 'notes', 'key1', 'key2', 'site', 'date', 'time'):
             v[k] = str(v[k]).strip() if v[k] not in (None, '') else None
         rows.append(v)
     return rows
@@ -200,8 +201,10 @@ def read_card(url):
         m = re.search(r'\bat ([^.()]+?(?:\([^)]*\))?)\s*\.?\s*$', desc)
         if m and 'date has not been set' not in desc:
             site = m.group(1).strip()
+    t = re.search(r'@\s*(\d{1,2})(?::(\d\d))?\s*([ap])\b', desc, re.I)
+    kickoff = f"{int(t.group(1))}:{t.group(2) or '00'} {t.group(3).upper()}M" if t else ''
     return dict(date=date['title'][:10] if date and not date['title'].startswith('1900') else '',
-                site=site, description=desc)
+                time=kickoff, site=site, description=desc)
 
 
 def date_set(info):
@@ -235,22 +238,25 @@ def fill_sites(year, ws, placed):
                 print(f'  ! card for {g["team1"]} v {g["team2"]}: {e}')
                 continue
             info['read'] = now.isoformat(timespec='seconds')
+            info.update({k: v for k, v in seen.items() if k.startswith('filled_')})   # keep what the job wrote
             cards[key] = info
             time.sleep(1.5)   # be gentle with MaxPreps
         site = game_sites.clean_site(info.get('site'))
         if site and not r['site']:
             ws[f'{COL["site"]}{r["row"]}'] = r['site'] = site
             filled += 1
-        date = info['date'] if date_set(info) else ''
-        old = str(r['date'] or '')[:10]
-        # a date that didn't come from MaxPreps (the owner's records) is never replaced
-        ours = not old or old == seen.get('date') or old == info.get('date')
-        if date and old != date and ours:
-            ws[f'{COL["date"]}{r["row"]}'] = r['date'] = date          # set, or moved
-            filled += 1
-        elif not date and old and old == info.get('date'):
-            ws[f'{COL["date"]}{r["row"]}'] = r['date'] = None          # only the placeholder: TBD
-            filled += 1
+        # dates and kickoffs: the job only ever changes values it filled in itself
+        # (remembered per game as filled_date / filled_time); the owner's are never touched
+        for k, val in (('date', info['date'] if date_set(info) else ''),
+                       ('time', info.get('time', '') if date_set(info) else '')):
+            if k == 'time' and 'time' not in info:
+                continue   # card saved before kickoffs were read: says nothing about the time
+            old = str(r[k] or '')[:10] if k == 'date' else str(r[k] or '')
+            mine = not old or old == cards.get(key, {}).get(f'filled_{k}')
+            if mine and old != val:
+                ws[f'{COL[k]}{r["row"]}'] = r[k] = val or None
+                cards.setdefault(key, info)[f'filled_{k}'] = val
+                filled += 1
     cards_path(year).write_text(json.dumps(cards, indent=1, sort_keys=True) + '\n')
     with_site = sum(1 for c in cards.values() if game_sites.clean_site(c.get('site')))
     print(f'  cards: {len(cards)} read, {with_site} with a site')
@@ -310,6 +316,8 @@ def prefill(year):
     if not ws['O1'].value:
         ws['O1'], ws['P1'] = 'Site (Stadium, City)', 'Date'
         ws.column_dimensions['O'].width, ws.column_dimensions['P'].width = 34, 12
+    if not ws['Q1'].value:
+        ws['Q1'] = 'Time'; ws.column_dimensions['Q'].width = 10
     resolver = Resolver(ROOT, year)
     answered = take_answers(wb, resolver)
     rows = read_rows(ws)
@@ -452,6 +460,8 @@ def build(year, force=False):
             game_sites.place(g, geo)
         if r['date']:
             g['date'] = str(r['date'])[:10]
+        if r['time']:
+            g['time'] = str(r['time'])
         games.append(g)
     games.sort(key=lambda g: (g['week'], CLASSES.index(g['classification']) if g['classification'] in CLASSES else 99))
 

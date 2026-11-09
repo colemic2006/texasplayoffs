@@ -9,3 +9,9 @@ export function placeName(game, stadium) {
   if (!city || hasState || endsWithCity) return hasState ? name : `${name}${city ? ', TX' : ''}`
   return `${name}, ${city}, TX`
 }
+
+// "11/13/2026 · 7:00 PM" (date and kickoff as known; '' when neither is)
+export function gameWhen(game) {
+  const d = game.date ? `${game.date.slice(5, 7)}/${game.date.slice(8, 10)}/${game.date.slice(0, 4)}` : ''
+  return [d, game.time].filter(Boolean).join(' · ')
+}
