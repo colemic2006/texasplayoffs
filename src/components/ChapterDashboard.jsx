@@ -104,6 +104,15 @@ export default function ChapterDashboard({ data, year }) {
     }, 0)
   }, [chapters, selectedWeek, filterClass])
 
+  // a season still being played: how many of the games in view have a chapter yet
+  const scheduled = useMemo(() => {
+    if (data?.season?.status !== 'in_progress') return null
+    return (data.games || []).filter(g =>
+      (selectedWeek === 'all' || String(g.week) === selectedWeek) &&
+      (filterClass === 'all' || g.classification === filterClass)).length
+  }, [data, selectedWeek, filterClass])
+  const pctDone = scheduled ? Math.round(100 * filteredTotal / scheduled) : 0
+
   const selectedChapterData = selectedChapter
     ? chapters.find(c => c.code === selectedChapter)
     : null
@@ -182,12 +191,22 @@ export default function ChapterDashboard({ data, year }) {
             <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginBottom:4, textAlign:'center' }}>
               {selectedWeek === 'all' ? 'All Rounds' : ROUND_LABELS[selectedWeek]}
             </div>
-            <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:96, lineHeight:1, color:'var(--ink)' }}>
-              {filteredTotal}
+            <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize: scheduled != null ? 64 : 96, lineHeight:1, color:'var(--ink)', whiteSpace:'nowrap' }}>
+              {filteredTotal}{scheduled != null && <span style={{ color:'var(--mid)' }}>/{scheduled}</span>}
             </div>
             <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginTop:4, textAlign:'center' }}>
-              games
+              {scheduled != null ? 'games assigned' : 'games'}
             </div>
+            {scheduled != null && (
+              <div style={{ width:'100%', marginTop:12 }}>
+                <div style={{ height:6, borderRadius:3, background:'rgba(15,13,11,0.08)', overflow:'hidden' }}>
+                  <div style={{ width:`${pctDone}%`, height:'100%', background:'var(--burnt)' }} />
+                </div>
+                <div style={{ fontFamily:'var(--mono)', fontSize:11, color:'var(--ink)', marginTop:6, textAlign:'center' }}>
+                  {pctDone}% complete
+                </div>
+              </div>
+            )}
           </div>
         </div>
         <div style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)', marginTop:6, textAlign:'center', letterSpacing:'0.1em' }}>

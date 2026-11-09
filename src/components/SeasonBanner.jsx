@@ -13,6 +13,7 @@ export default function SeasonBanner({ data, year }) {
       ? new Date(season.updated).toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'America/Chicago' }) + ' CT'
       : new Date(season.updated + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
   const weeks = Object.entries(season.weeks || {}).filter(([, w]) => w.games > 0)
+  const pct = (n, of) => of ? Math.round(100 * n / of) : 0
 
   return (
     <div style={{
@@ -30,7 +31,7 @@ export default function SeasonBanner({ data, year }) {
       ) : (
         <>
           <div style={{ fontSize:14, color:'var(--ink)', marginBottom:10 }}>
-            {season.assigned} of {season.games} games have a chapter assignment so far.{updated ? ` Last updated ${updated}.` : ''}
+            Chapter assignments: <strong>{season.assigned}/{season.games}</strong> games ({pct(season.assigned, season.games)}% complete).{updated ? ` Last updated ${updated}.` : ''}
           </div>
           <div style={{ display:'flex', gap:8, flexWrap:'wrap' }}>
             {weeks.map(([w, wk]) => (
@@ -38,7 +39,7 @@ export default function SeasonBanner({ data, year }) {
                 fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.08em', color:'var(--mid)',
                 border:'1px solid var(--border)', borderRadius:4, padding:'4px 8px'
               }}>
-                {ROUND_LABELS[w]} · {wk.assigned}/{wk.games}
+                {ROUND_LABELS[w]} · {wk.assigned}/{wk.games} · {pct(wk.assigned, wk.games)}%
               </div>
             ))}
           </div>
