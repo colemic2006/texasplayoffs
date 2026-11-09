@@ -2,14 +2,14 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-09T20:32+00:00",
+    "updated": "2026-11-09T20:35+00:00",
     "games": 352,
     "played": 0,
-    "assigned": 216,
+    "assigned": 217,
     "weeks": {
       "1": {
         "games": 352,
-        "assigned": 216
+        "assigned": 217
       },
       "2": {
         "games": 0,
@@ -163,15 +163,15 @@
     {
       "code": "WAC",
       "name": "Waco",
-      "total": 10,
+      "total": 11,
       "weeks": {
         "1": {
-          "total": 10,
+          "total": 11,
           "classifications": {
             "1A D2": 1,
             "2A D1": 2,
             "2A D2": 1,
-            "3A D1": 3,
+            "3A D1": 4,
             "4A D1": 2,
             "5A D2": 1
           }
@@ -2010,7 +2010,7 @@
       "classification": "3A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "WAC",
       "team1": "Paradise",
       "score1": null,
       "team2": "Llano",
