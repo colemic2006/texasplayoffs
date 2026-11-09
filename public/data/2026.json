@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-09T01:16+00:00",
+    "updated": "2026-11-09T01:19+00:00",
     "games": 352,
     "played": 0,
     "assigned": 86,
@@ -4022,6 +4022,8 @@
       "score2": null,
       "winner": null,
       "site": "Corpus Christi ISD Cabaniss Field",
+      "lat": 27.70749,
+      "lng": -97.43036,
       "date": "2026-11-13",
       "time": "7:30 PM"
     },

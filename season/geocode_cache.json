@@ -466,6 +466,16 @@
   "stadium": "Buccaneer Stadium",
   "stadium_id": 203
  },
+ "Corpus Christi ISD Cabaniss Field || Corpus Christi Carroll v La Joya Palmview": {
+  "address": "",
+  "how": "stadium found by name",
+  "lat": 27.70749,
+  "lng": -97.43036,
+  "map_link": "",
+  "site": "Corpus Christi ISD Cabaniss Field",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Crosby High School || Orangefield v Trinity": {
   "address": "14703 FM 2100 Rd., Crosby, Texas 77532",
   "city": "Crosby",
