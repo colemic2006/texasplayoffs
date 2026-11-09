@@ -2,14 +2,14 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-09T00:41+00:00",
+    "updated": "2026-11-09T01:16+00:00",
     "games": 352,
     "played": 0,
-    "assigned": 85,
+    "assigned": 86,
     "weeks": {
       "1": {
         "games": 352,
-        "assigned": 85
+        "assigned": 86
       },
       "2": {
         "games": 0,
@@ -37,10 +37,10 @@
     {
       "code": "HOU",
       "name": "Houston",
-      "total": 57,
+      "total": 58,
       "weeks": {
         "1": {
-          "total": 57,
+          "total": 58,
           "classifications": {
             "2A D1": 2,
             "2A D2": 1,
@@ -48,7 +48,7 @@
             "3A D2": 1,
             "4A D1": 2,
             "4A D2": 12,
-            "5A D1": 6,
+            "5A D1": 7,
             "5A D2": 5,
             "6A D1": 11,
             "6A D2": 13
@@ -4015,12 +4015,15 @@
       "classification": "5A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Corpus Christi Carroll",
       "score1": null,
       "team2": "La Joya Palmview",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Corpus Christi ISD Cabaniss Field",
+      "date": "2026-11-13",
+      "time": "7:30 PM"
     },
     {
       "year": 2026,
