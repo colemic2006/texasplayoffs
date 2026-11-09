@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parent.parent
 CACHE = ROOT / 'season' / 'geocode_cache.json'
 UA = 'texasplayoffs.com season map (https://texasplayoffs.com)'
 RETRY_MISS_DAYS = 3
-RULES = 9   # bump when the matching rules change: every site is looked up again under the new rules
+RULES = 10   # bump when the matching rules change: every site is looked up again under the new rules
 
 
 SCHOOLS = ROOT / 'season' / 'texasbob_schools.json'   # [[stadium_id, city, school, stadium], ...]
@@ -98,6 +98,16 @@ def plays_there(st, teams):
     return False
 
 
+_TOWNS = None
+
+
+def school_towns():
+    global _TOWNS
+    if _TOWNS is None:
+        _TOWNS = {norm(r[1]) for r in load_schools()}
+    return _TOWNS
+
+
 def find_stadium(site, stadiums, teams=()):
     """The stadium a site names, only when exactly one fits ("Ratliff Stadium, Odessa").
     Several stadiums with the name are narrowed by the city in the text, then by the teams
@@ -117,11 +127,11 @@ def find_stadium(site, stadiums, teams=()):
     one = lambda group: group[0] if group and len({(st['name'], st.get('city')) for st in group}) == 1 else None
     county = {norm(st['city']): st.get('county') for st in stadiums if st.get('city') and st.get('county')}
     parts = [p.strip() for p in site.split(',') if p.strip()]
-    stated = norm(parts[-1]) if len(parts) > 1 and norm(parts[-1]) in county else ''
+    stated = norm(parts[-1]) if len(parts) > 1 and (norm(parts[-1]) in county or norm(parts[-1]) in school_towns()) else ''
     if stated:
         pool = named + [st for st in loose if st not in named]
         in_town = [st for st in pool if norm(st.get('city', '')) == stated]
-        in_county = [st for st in pool if st.get('county') and st.get('county') == county[stated]]
+        in_county = [st for st in pool if st.get('county') and st.get('county') == county.get(stated)]
         # "TMF Rose Stadium, Tyler" is Tyler's "Christus Trinity Mother Frances Rose Stadium"
         text = ' '.join(w for w in norm(', '.join(parts[:-1])).split() if w not in stated.split())
         alike = [st for st in stadiums if norm(st.get('city', '')) == stated and same_place(text, st['name'])]
@@ -223,6 +233,9 @@ def resolve(site, stadiums, schools, teams=()):
     if m:
         district, rest = m.group(1).strip(), m.group(2).strip()
         st, how = resolve_plain(f'{rest}, {district}', stadiums, schools, teams)
+        if not st:   # the district isn't always a town ("Spring Branch ISD Tully Stadium" is in Houston)
+            st, how2 = resolve_plain(f'{rest} ({district})', stadiums, schools, teams)
+            how = how2 if st else how
         if st:
             return st, how
         return None, f'district:{rest}, {district}'
@@ -247,6 +260,13 @@ def resolve(site, stadiums, schools, teams=()):
                 # an unknown stadium in a city with several ("Kight Stadium, Fort Worth"): only the
                 # stadium itself, found by name in that city, will do -- never the city's middle
                 return None, 'named:' + named_here
+        elif any(norm(q) in towns for q in parts):
+            # "Memorial Stadium, Bastrop": "Memorial Stadium" alone could be anyone's (Victoria's);
+            # only a school's name ("Willis High School, Willis") still counts
+            sid, phow = find_school_stadium(part, schools, teams)
+            pst = next((x for x in stadiums if x.get('id') == sid), None) if sid else None
+            if not pst:
+                continue
         else:
             pst, phow = resolve_plain(part, stadiums, schools, teams)
         if pst or phow.startswith('town:'):
