@@ -2,14 +2,14 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-09T06:09+00:00",
+    "updated": "2026-11-09T12:43+00:00",
     "games": 352,
     "played": 0,
-    "assigned": 181,
+    "assigned": 210,
     "weeks": {
       "1": {
         "games": 352,
-        "assigned": 181
+        "assigned": 210
       },
       "2": {
         "games": 0,
@@ -75,6 +75,27 @@
             "5A D2": 3,
             "6A D1": 2,
             "6A D2": 5
+          }
+        }
+      }
+    },
+    {
+      "code": "TYL",
+      "name": "Tyler",
+      "total": 29,
+      "weeks": {
+        "1": {
+          "total": 29,
+          "classifications": {
+            "2A D1": 3,
+            "2A D2": 1,
+            "3A D1": 7,
+            "3A D2": 5,
+            "4A D1": 4,
+            "4A D2": 3,
+            "5A D1": 1,
+            "5A D2": 4,
+            "6A D2": 1
           }
         }
       }
@@ -1180,13 +1201,18 @@
       "classification": "2A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
-      "team1": "Carlisle (?)",
+      "chapter": "TYL",
+      "team1": "Carlisle",
       "score1": null,
       "team2": "Honey Grove",
       "score2": null,
       "winner": null,
       "site": "Indian Memorial Stadium, Grand Saline High School",
+      "lat": 32.68427,
+      "lng": -95.71363,
+      "stadium": "Indian Memorial Stadium",
+      "map_link": "https://goo.gl/maps/e73NvD6a8HA2",
+      "city": "Grand Saline",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -1219,7 +1245,7 @@
       "classification": "2A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "TYL",
       "team1": "Shelbyville",
       "score1": null,
       "team2": "Waskom",
@@ -1246,7 +1272,7 @@
       "classification": "2A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "TYL",
       "team1": "Pewitt (?)",
       "score1": null,
       "team2": "Joaquin",
@@ -1601,12 +1627,14 @@
       "classification": "2A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
-      "team1": "West Sabine (?)",
+      "chapter": "TYL",
+      "team1": "West Sabine",
       "score1": null,
       "team2": "Tenaha",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "date": "2026-11-13",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -1919,12 +1947,14 @@
       "classification": "3A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "TYL",
       "team1": "Whitney",
       "score1": null,
       "team2": "Life Oak Cliff",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "date": "2026-11-12",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -1951,12 +1981,14 @@
       "classification": "3A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "TYL",
       "team1": "Whitesboro",
       "score1": null,
       "team2": "Grandview",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "date": "2026-11-12",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -2009,12 +2041,14 @@
       "classification": "3A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "TYL",
       "team1": "Franklin",
       "score1": null,
       "team2": "Hempstead",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "date": "2026-11-12",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -2141,7 +2175,7 @@
       "classification": "3A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "TYL",
       "team1": "Winnsboro",
       "score1": null,
       "team2": "Tatum",
@@ -2155,7 +2189,7 @@
       "classification": "3A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "TYL",
       "team1": "Malakoff",
       "score1": null,
       "team2": "Gladewater",
@@ -2169,7 +2203,7 @@
       "classification": "3A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "TYL",
       "team1": "Atlanta",
       "score1": null,
       "team2": "Mount Vernon",
@@ -2189,7 +2223,7 @@
       "classification": "3A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "TYL",
       "team1": "Diboll",
       "score1": null,
       "team2": "Buna",
@@ -2406,12 +2440,14 @@
       "classification": "3A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "TYL",
       "team1": "Maypearl",
       "score1": null,
       "team2": "Clifton",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "date": "2026-11-13",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -2634,48 +2670,56 @@
       "classification": "3A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "TYL",
       "team1": "Hooks",
       "score1": null,
       "team2": "Arp",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "date": "2026-11-13",
+      "time": "7:30 PM"
     },
     {
       "year": 2026,
       "classification": "3A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "TYL",
       "team1": "Jefferson",
       "score1": null,
       "team2": "Redwater",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "date": "2026-11-13",
+      "time": "7:30 PM"
     },
     {
       "year": 2026,
       "classification": "3A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "TYL",
       "team1": "West Rusk",
       "score1": null,
       "team2": "New Boston",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "date": "2026-11-13",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
       "classification": "3A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "TYL",
       "team1": "De Kalb",
       "score1": null,
       "team2": "Troup",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "date": "2026-11-13",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -2880,7 +2924,7 @@
       "classification": "4A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "TYL",
       "team1": "Midland Greenwood",
       "score1": null,
       "team2": "Springtown",
@@ -2980,12 +3024,14 @@
       "classification": "4A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "TYL",
       "team1": "Fort Worth Eastern Hills",
       "score1": null,
       "team2": "Wilmer-Hutchins",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "date": "2026-11-13",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -3134,7 +3180,7 @@
       "classification": "4A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "TYL",
       "team1": "Sulphur Springs",
       "score1": null,
       "team2": "Henderson",
@@ -3148,7 +3194,7 @@
       "classification": "4A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "TYL",
       "team1": "Lindale",
       "score1": null,
       "team2": "Kaufman",
@@ -3266,7 +3312,7 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "TYL",
       "team1": "Canton",
       "score1": null,
       "team2": "Shepherd",
@@ -3491,12 +3537,14 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "TYL",
       "team1": "Carthage",
       "score1": null,
       "team2": "Quinlan Ford",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "date": "2026-11-12",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -3535,12 +3583,14 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "TYL",
       "team1": "Gilmer",
       "score1": null,
       "team2": "Paris North Lamar",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "date": "2026-11-13",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -3812,7 +3862,7 @@
       "classification": "5A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "TYL",
       "team1": "Tyler John Tyler",
       "score1": null,
       "team2": "Midlothian",
@@ -4276,7 +4326,7 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "TYL",
       "team1": "Lucas Lovejoy",
       "score1": null,
       "team2": "Celina",
@@ -4296,7 +4346,7 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "TYL",
       "team1": "Argyle",
       "score1": null,
       "team2": "Frisco Panther Creek",
@@ -4385,7 +4435,7 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "TYL",
       "team1": "Huntsville",
       "score1": null,
       "team2": "Nederland",
@@ -4515,7 +4565,7 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "TYL",
       "team1": "Midlothian Heritage",
       "score1": null,
       "team2": "Killeen Ellison",
@@ -5284,12 +5334,14 @@
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "TYL",
       "team1": "Dallas Lake Highlands",
       "score1": null,
       "team2": "Haltom",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "date": "2026-11-13",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,

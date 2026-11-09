@@ -10,16 +10,6 @@
     ]
   },
   {
-    "key": "mp:453ef2ca-ddb3-427d-adc1-817dea2f481e",
-    "source_name": "Carlisle",
-    "classification": "2A D1",
-    "opponent": "Honey Grove",
-    "recommended": "Carlisle",
-    "other_options": [
-      "Price Carlisle"
-    ]
-  },
-  {
     "key": "mp:924adaf4-4296-49e2-9da4-c2e84ab2b00a",
     "source_name": "Pewitt",
     "classification": "2A D1",
@@ -46,16 +36,6 @@
     "opponent": "Clarksville",
     "recommended": "Quinlan Boles",
     "other_options": []
-  },
-  {
-    "key": "mp:296537bb-ce9c-490b-9aa8-4c5bd3fd3e68",
-    "source_name": "West Sabine",
-    "classification": "2A D2",
-    "opponent": "Tenaha",
-    "recommended": "West Sabine",
-    "other_options": [
-      "Pineland West Sabine"
-    ]
   },
   {
     "key": "mp:2f161f84-a53e-4b54-bd5d-e7f6b8c6569a",
