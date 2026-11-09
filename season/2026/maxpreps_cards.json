@@ -4,7 +4,7 @@
   "description": "The Grady (Lenorah, TX) varsity football team has an away playoff game @ Borden County (Gail, TX) on Friday, November 13 @ 6:30p.",
   "filled_date": "2026-11-13",
   "filled_time": "6:30 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "6:30 PM"
  },
@@ -13,17 +13,18 @@
   "description": "The Newcastle (TX) varsity football team has an away playoff game @ May (TX) on Friday, November 13 @ 7:30p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:30 PM"
  },
  "1A D1|mp:292e191e-04aa-4e45-8823-d5f4aaa68e63|mp:be4e404c-6fe1-4bb9-8959-13c4cd0760c1": {
   "date": "2026-11-13",
-  "description": "The Nazareth (TX) varsity football team has a neutral playoff game vs. Boys Ranch (TX) on Friday, November 13 @ 7p.",
+  "description": "The Nazareth (TX) varsity football team has an away playoff game @ Boys Ranch (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Groom High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Groom High School",
+  "time": "7:00 PM"
  },
  "1A D1|mp:2de603e7-6f6e-461f-8786-8a4fb6e77db7|mp:19f276da-8991-461c-af8e-a6558820d1be": {
   "date": "2026-11-12",
@@ -39,17 +40,18 @@
   "description": "The Knippa (TX) varsity football team has an away playoff game @ Oglesby (TX) on Friday, November 13 @ 6:30p.",
   "filled_date": "2026-11-13",
   "filled_time": "6:30 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "6:30 PM"
  },
  "1A D1|mp:5d2ce3f8-cd9f-4275-912d-561cae36cb21|mp:7cf03708-5fde-4bf6-bf6f-4e64348d64b4": {
   "date": "2026-11-13",
-  "description": "The Kress (TX) varsity football team has a neutral playoff game vs. Jayton (TX) on Friday, November 13 @ 7p.",
+  "description": "The Kress (TX) varsity football team has an away playoff game @ Jayton (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Jayton High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Jayton High School",
+  "time": "7:00 PM"
  },
  "1A D1|mp:60473937-8b7a-4c34-babe-fc5e7b37723e|mp:04857524-c682-4788-83db-e31b4bbd0ac7": {
   "date": "2026-11-13",
@@ -62,35 +64,37 @@
  },
  "1A D1|mp:6f544e3b-584a-456d-a095-0e5082d8252b|mp:9d704db1-711d-4573-8fca-8f0819a4b118": {
   "date": "2026-11-13",
-  "description": "The Abbott (TX) varsity football team has a neutral playoff game vs. Union Hill (Gilmer, TX) on Friday, November 13 @ 7p.",
+  "description": "The Abbott (TX) varsity football team has an away playoff game @ Union Hill (Gilmer, TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Eustace High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Eustace High School",
+  "time": "7:00 PM"
  },
  "1A D1|mp:7d617fa3-c322-4a93-92a6-635c5c6735a9|mp:07bc2eff-9aad-4217-a880-08c12c506417": {
   "date": "2026-11-13",
   "description": "The Chester (TX) varsity football team has a neutral playoff game vs. Aquilla (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "Game Details Game will be played in Grapeland, Aquilla is home",
   "time": "7:00 PM"
  },
  "1A D1|mp:a4a20760-7978-43ad-93f1-04f86615bcc8|mp:e472970f-2c61-4e95-aac4-56a5d4de8db1": {
   "date": "2026-11-12",
-  "description": "The Gordon (TX) varsity football team has a neutral playoff game vs. Northside (Vernon, TX) on Thursday, November 12 @ 7p.",
+  "description": "The Gordon (TX) varsity football team has an away playoff game @ Northside (Vernon, TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Throckmorton High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Throckmorton High School",
+  "time": "7:00 PM"
  },
  "1A D1|mp:b967a52c-3b6b-46e1-84e2-f0b5e9451110|mp:e0cef0c4-6e7b-462e-aaf9-239f6cb72d1f": {
   "date": "2026-11-12",
   "description": "The Highland (Roscoe, TX) varsity football team has an away playoff game @ Menard (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -108,15 +112,16 @@
   "description": "The Klondike (Lamesa, TX) varsity football team has an away playoff game @ Rankin (TX) on Thursday, November 12 @ 6p.",
   "filled_date": "2026-11-12",
   "filled_time": "6:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Grady High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Grady High School",
+  "time": "6:00 PM"
  },
  "1A D1|mp:e60c8651-12a5-4b16-8235-b21ea66c2811|mp:e538c3a4-0c76-4768-9702-a6c906754480": {
   "date": "2026-11-13",
   "description": "The Whiteface (TX) varsity football team has an away playoff game @ Claude (TX) on Friday, November 13 @ 7:30p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:30 PM"
  },
@@ -125,81 +130,90 @@
   "description": "The Water Valley (TX) varsity football team has a neutral playoff game vs. Robert Lee (TX) on Thursday, November 12 @ 6:30p.",
   "filled_date": "2026-11-12",
   "filled_time": "6:30 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Sterling City High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Sterling City High School",
+  "time": "6:30 PM"
  },
  "1A D1|mp:f7cc388c-cdf1-4b39-8b96-e79e6cdc6b2d|mp:8948d7ec-d6dc-4178-a9ef-e02e4d037523": {
   "date": "2026-11-13",
-  "description": "The Hermleigh (TX) varsity football team has a neutral playoff game vs. Happy (TX) on Friday, November 13 @ 6:30p.",
+  "description": "The Hermleigh (TX) varsity football team has an away playoff game @ Happy (TX) on Friday, November 13 @ 6:30p.",
   "filled_date": "2026-11-13",
   "filled_time": "6:30 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Petersburg High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Petersburg High School",
+  "time": "6:30 PM"
  },
  "1A D2|mp:203fb2b4-9d07-4cdb-8d12-167acbef1f12|mp:838c10d3-c2ca-489e-8197-d0e993ac6adc": {
   "date": "2026-11-13",
-  "description": "The McLean (TX) varsity football team has a neutral playoff game vs. Valley (Turkey, TX) on Friday, November 13 @ 6:30p.",
+  "description": "The McLean (TX) varsity football team has an away playoff game @ Valley (Turkey, TX) on Friday, November 13 @ 6:30p.",
   "filled_date": "2026-11-13",
   "filled_time": "6:30 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Memphis High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Memphis High School",
+  "time": "6:30 PM"
  },
  "1A D2|mp:417ee936-2726-4134-aeea-6cc4e1635af8|mp:6d3e7c5c-b416-4a3f-afa6-dc9bd817267a": {
   "date": "2026-11-13",
   "description": "The Fannindel (Ladonia, TX) varsity football team has a neutral playoff game vs. Three Way (Stephenville, TX) on Friday, November 13 @ 5:30a.",
   "filled_date": "2026-11-13",
   "filled_time": "5:30 AM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "5:30 AM"
  },
  "1A D2|mp:51bf7cea-2364-4344-889f-b351cf63729e|mp:b1569b94-8d09-4fb6-9abd-58bb97d75376": {
   "date": "2026-11-13",
-  "description": "The Anton (TX) varsity football team has a neutral playoff game vs. Wellman-Union (Wellman, TX) on Friday, November 13 @ 6:30p.",
+  "description": "The Anton (TX) varsity football team has an away playoff game @ Wellman-Union (Wellman, TX) on Friday, November 13 @ 6:30p.",
   "filled_date": "2026-11-13",
   "filled_time": "6:30 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Sudan High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Sudan High School",
+  "time": "6:30 PM"
  },
  "1A D2|mp:53a797b5-cb67-4c4b-ba9b-5b5fa42f0dc9|mp:3948d4f8-8b2e-4270-a7f9-71f119522246": {
   "date": "2026-11-13",
   "description": "The Mount Calm (TX) varsity football team has a neutral playoff game vs. Iredell (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Oglesby ISD"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Oglesby ISD",
+  "time": "7:00 PM"
  },
  "1A D2|mp:637a439c-0e5e-479d-bb4a-4f0ce05574a0|mp:9bef1695-4d7b-4f13-a646-1bee24c12c3c": {
   "date": "2026-11-12",
   "description": "The Sidney (TX) varsity football team has a neutral playoff game vs. Zephyr (TX) on Thursday, November 12 @ 7:30p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:30 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Blanket High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Blanket High School",
+  "time": "7:30 PM"
  },
  "1A D2|mp:841e00cf-e2fc-4127-9312-9debe500afb5|mp:5c18d170-d4b9-4c19-b799-06a6d44d1e3a": {
   "date": "2026-11-12",
   "description": "The Marfa (TX) varsity football team has an away playoff game @ Rocksprings (TX) on Thursday, November 12 @ 6p.",
   "filled_date": "2026-11-12",
   "filled_time": "6:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Balmorhea High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Balmorhea High School",
+  "time": "6:00 PM"
  },
  "1A D2|mp:86877c0e-f2da-4633-9045-b2af0cfd6317|mp:ce3928dc-10be-4f77-bf98-125d7cc8af06": {
   "date": "2026-11-13",
   "description": "The Cherokee (TX) varsity football team has an away playoff game @ Blackwell (TX) on Friday, November 13 @ 6:30p.",
   "filled_date": "2026-11-13",
   "filled_time": "6:30 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Menard High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Menard High School",
+  "time": "6:30 PM"
  },
  "1A D2|mp:93166556-5adf-40d3-ba4a-bd8b250ed279|mp:04e30319-9e61-442a-a517-65db0d2b2687": {
   "date": "2026-11-12",
   "description": "The Dell City (TX) varsity football team has an away playoff game @ Grandfalls-Royalty (Grandfalls, TX) on Thursday, November 12 @ 7:30p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:30 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Balmorhea High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Balmorhea High School",
+  "time": "7:30 PM"
  },
  "1A D2|mp:9a96c998-408e-4cb9-99a3-1ad813b37778|mp:e3a96e72-5df1-4800-acab-077e5d27f8a3": {
   "date": "2026-11-12",
@@ -233,24 +247,27 @@
   "description": "The Richland Springs (TX) varsity football team has an away playoff game @ Panther Creek (Valera, TX) on Friday, November 13 @ 7:30p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Panther Creek High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Panther Creek High School",
+  "time": "7:30 PM"
  },
  "1A D2|mp:c3c29859-7a60-41bb-99d6-53d2ca30c52e|mp:ead963ab-311d-43f1-b99c-4be9368aadec": {
   "date": "2026-11-12",
-  "description": "The Knox City (TX) varsity football team has a neutral playoff game vs. Woodson (TX) on Thursday, November 12 @ 7p.",
+  "description": "The Knox City (TX) varsity football team has an away playoff game @ Woodson (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Newcastle High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Newcastle High School",
+  "time": "7:00 PM"
  },
  "1A D2|mp:d297e2af-471e-414c-bfab-1ab3ff18e6cf|mp:88045c1b-6dac-4bcc-b706-36bcef4aafc7": {
   "date": "2026-11-13",
-  "description": "The Hart (TX) varsity football team has a neutral playoff game vs. Meadow (TX) on Friday, November 13 @ 7p.",
+  "description": "The Hart (TX) varsity football team has an away playoff game @ Meadow (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Springlake-Earth HS"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Springlake-Earth HS",
+  "time": "7:00 PM"
  },
  "1A D2|mp:da522797-d957-4715-a0a0-1427021e01d2|mp:2be2184b-c4bf-40e9-b921-9e75e136c08b": {
   "date": "2026-11-13",
@@ -275,7 +292,7 @@
   "description": "The Whitewright (TX) varsity football team has an away playoff game @ Frankston (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -284,29 +301,32 @@
   "description": "The Groveton (TX) varsity football team has a neutral playoff game vs. Thorndale (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Merrill Green Stadium"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Merrill Green Stadium",
+  "time": "7:00 PM"
  },
  "2A D1|mp:0e55ebfd-a813-40c2-a762-91d3ef72bcef|mp:66af101a-1af3-42ad-9699-f1b77a195936": {
   "date": "2026-11-12",
   "description": "The Granger (TX) varsity football team has an away playoff game @ Lovelady (TX) on Thursday, November 12 @ 7p.",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details College Station HS"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details College Station HS",
+  "time": "7:00 PM"
  },
  "2A D1|mp:20441c1b-3153-4e90-931f-500acce4cba6|mp:cf302cba-6f95-4ce2-8649-78009fd6f1fc": {
   "date": "2026-11-12",
-  "description": "The Como-Pickton (Como, TX) varsity football team has a neutral playoff game vs. Cooper (TX) on Thursday, November 12 @ 7p.",
+  "description": "The Como-Pickton (Como, TX) varsity football team has an away playoff game @ Cooper (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Sulphur Springs HS"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Sulphur Springs HS",
+  "time": "7:00 PM"
  },
  "2A D1|mp:2487eec4-5724-4ec0-99cf-f73651526a5c|mp:068507fc-d8d5-4829-9bb2-ed679a59f8e9": {
   "date": "2026-11-12",
   "description": "The Hawley (TX) varsity football team has an away playoff game @ Muenster (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -315,39 +335,41 @@
   "description": "The Refugio (TX) varsity football team has a neutral playoff game vs. Weimar (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Cuero HS"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Cuero HS",
+  "time": "7:00 PM"
  },
  "2A D1|mp:3a89cc21-e689-40ce-bc48-75dde95a2e53|mp:f759caf6-0c08-43ff-a233-a49e56dcf2bb": {
   "date": "2026-11-13",
   "description": "The Alvord (TX) varsity football team has an away playoff game @ De Leon (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "2A D1|mp:451d5a5b-0ba5-4acd-83ba-f021e670d506|mp:bf3dcf75-6f0a-4820-b636-7440ffc95efc": {
   "date": "2026-11-12",
   "description": "The Bruceville-Eddy (Eddy, TX) varsity football team has an away playoff game @ Leon (Jewett, TX) on Thursday, November 12 @ 7p.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "2A D1|mp:453ef2ca-ddb3-427d-adc1-817dea2f481e|mp:7146534a-189c-476f-966b-79efa366da68": {
   "date": "2026-11-12",
-  "description": "The Honey Grove (TX) varsity football team has a neutral playoff game vs. Carlisle (Price, TX) on Thursday, November 12 @ 7p.",
+  "description": "The Honey Grove (TX) varsity football team has an away playoff game @ Carlisle (Price, TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Indian Memorial Stadium, Grand Saline High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Indian Memorial Stadium, Grand Saline High School",
+  "time": "7:00 PM"
  },
  "2A D1|mp:471f1af1-ee30-4b8e-b183-fe69c44e4be6|mp:d67b0711-6650-44c9-bb1c-067b1a9104fe": {
   "date": "2026-11-13",
   "description": "The Johnson City (TX) varsity football team has an away playoff game @ Bosqueville (Waco, TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -356,7 +378,7 @@
   "description": "The Valley Mills (TX) varsity football team has an away playoff game @ San Saba (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -365,7 +387,7 @@
   "description": "The Bangs (TX) varsity football team has a neutral playoff game vs. Axtell (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -374,7 +396,7 @@
   "description": "The Taft (TX) varsity football team has an away playoff game @ Ganado (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -383,7 +405,7 @@
   "description": "The Ballinger (TX) varsity football team has an away playoff game @ New Home (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -392,7 +414,7 @@
   "description": "The Sanford-Fritch (Fritch, TX) varsity football team has an away playoff game @ Tulia (TX) on Friday, November 13 @ 7:30p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:30 PM"
  },
@@ -401,15 +423,16 @@
   "description": "The Corrigan-Camden (Corrigan, TX) varsity football team has an away playoff game @ Rosebud-Lott (Rosebud, TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details A&M Consolidated HS"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details A&M Consolidated HS",
+  "time": "7:00 PM"
  },
  "2A D1|mp:75d39acf-e684-4002-ae26-05f2ff15f265|mp:f3d1287a-1c21-41a0-ac44-d6467804c25f": {
   "date": "2026-11-13",
   "description": "The Anson (TX) varsity football team has an away playoff game @ Tioga (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -418,56 +441,61 @@
   "description": "The Union Grove (Gladewater, TX) varsity football team has an away playoff game @ San Augustine (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Henderson High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Henderson High School",
+  "time": "7:00 PM"
  },
  "2A D1|mp:823c9b40-b655-401f-acc3-00f0d595af69|mp:d09f92df-591c-4fa6-956f-c2c12986759f": {
   "date": "2026-11-12",
   "description": "The Mason (TX) varsity football team has a neutral playoff game vs. Itasca (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Joseph L. Sears III Stadium in Killeen, TX"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Joseph L. Sears III Stadium in Killeen, TX",
+  "time": "7:00 PM"
  },
  "2A D1|mp:91af814f-09d3-4fca-b9be-46c11475f862|mp:e64babc8-c03c-43d9-bf7f-1d31fb4cf734": {
   "date": "2026-11-12",
-  "description": "The Highland Park (Amarillo, TX) varsity football team has a neutral playoff game vs. Olton (TX) on Thursday, November 12 @ 7p.",
+  "description": "The Highland Park (Amarillo, TX) varsity football team has an away playoff game @ Olton (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Herford High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Herford High School",
+  "time": "7:00 PM"
  },
  "2A D1|mp:924adaf4-4296-49e2-9da4-c2e84ab2b00a|mp:54b389da-bc8d-48cd-90ee-40a6fd144ada": {
   "date": "2026-11-13",
   "description": "The Joaquin (TX) varsity football team has an away playoff game @ Pewitt (Omaha, TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "2A D1|mp:926cbc9b-72c1-42db-b226-7aa3389f3646|mp:54d402cb-f690-401b-bcde-87258be77757": {
   "date": "2026-11-13",
-  "description": "The Farwell (TX) varsity football team has a neutral playoff game vs. Spearman (TX) on Friday, November 13 @ 4p.",
+  "description": "The Farwell (TX) varsity football team has an away playoff game @ Spearman (TX) on Friday, November 13 @ 4p.",
   "filled_date": "2026-11-13",
   "filled_time": "4:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Happy State Bank Stadium, Canyon"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Happy State Bank Stadium, Canyon",
+  "time": "4:00 PM"
  },
  "2A D1|mp:92abb0cd-d36f-4d4e-ab2d-19ac3bdf20c6|mp:be354c14-6f8e-4cfe-9e57-55d3f978314f": {
   "date": "2026-11-13",
   "description": "The Flatonia (TX) varsity football team has a neutral playoff game vs. Dilley (TX) on Friday, November 13 @ 7:30p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details SAISD Sports Complex"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details SAISD Sports Complex",
+  "time": "7:30 PM"
  },
  "2A D1|mp:c12d56d0-4c68-4cb9-964b-b11ea217a7c4|mp:feb49ca4-05bf-49d2-b313-b14ebbb400d2": {
   "date": "2026-11-13",
   "description": "The Shelbyville (TX) varsity football team has an away playoff game @ Waskom (TX) on Friday, November 13 @ 7:30p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:30 PM"
  },
@@ -476,7 +504,7 @@
   "description": "The Hawkins (TX) varsity football team has an away playoff game @ Tom Bean (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -485,24 +513,25 @@
   "description": "The Ozona (TX) varsity football team has an away playoff game @ Post (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "2A D1|mp:d8716d93-dadd-4f6a-b531-970a4fab0dff|mp:cb96270d-4ad7-4d68-b941-f5bb4b434961": {
   "date": "2026-11-13",
-  "description": "The Abernathy (TX) varsity football team has a neutral playoff game vs. Forsan (TX) on Friday, November 13 @ 7p.",
+  "description": "The Abernathy (TX) varsity football team has an away playoff game @ Forsan (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Seminole HS"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Seminole HS",
+  "time": "7:00 PM"
  },
  "2A D1|mp:d9b92df6-487b-4512-863b-b123185ec0ac|mp:f2b27cb9-5489-4741-8f1a-acf5a151576b": {
   "date": "2026-11-13",
   "description": "The Garrison (TX) varsity football team has an away playoff game @ Beckville (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -511,55 +540,59 @@
   "description": "The Freer (TX) varsity football team has an away playoff game @ Shiner (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "2A D1|mp:e2352974-109e-46a6-b8fe-070a34a72827|mp:1e606bbf-350a-4c9f-ac09-d50b3ff6ed6d": {
   "date": "2026-11-13",
-  "description": "The Sonora (TX) varsity football team has a neutral playoff game vs. New Deal (TX) on Friday, November 13 @ 6:30p.",
+  "description": "The Sonora (TX) varsity football team has an away playoff game @ New Deal (TX) on Friday, November 13 @ 6:30p.",
   "filled_date": "2026-11-13",
   "filled_time": "6:30 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Colorado City High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Colorado City High School",
+  "time": "6:30 PM"
  },
  "2A D1|mp:f58cd087-e7e7-43b6-82e0-8adf151d9988|mp:6b8bbbce-5b71-464b-95e5-0822770ca5e0": {
   "date": "2026-11-12",
-  "description": "The Nocona (TX) varsity football team has a neutral playoff game vs. Cisco (TX) on Thursday, November 12 @ 7p.",
+  "description": "The Nocona (TX) varsity football team has an away playoff game @ Cisco (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Graham High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Graham High School",
+  "time": "7:00 PM"
  },
  "2A D1|mp:fb17b652-4ab2-4774-bbab-ae8ce3e65572|mp:21763f59-46e1-4bad-9b44-9f12fea104dd": {
   "date": "2026-11-12",
-  "description": "The Floydada (TX) varsity football team has a neutral playoff game vs. Panhandle (TX) on Thursday, November 12 @ 7p.",
+  "description": "The Floydada (TX) varsity football team has an away playoff game @ Panhandle (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details River Road"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details River Road",
+  "time": "7:00 PM"
  },
  "2A D2|mp:08ffebb8-8c49-4368-b4c8-a0590b41de1b|mp:6c973f1f-2ca1-446d-a6ff-aebde91a5f25": {
   "date": "2026-11-12",
   "description": "The Hubbard (TX) varsity football team has a neutral playoff game vs. Goldthwaite (TX) on Thursday, November 12 @ 7:30p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:30 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Mary Hardin Baylor Crusader Stadium"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Mary Hardin Baylor Crusader Stadium",
+  "time": "7:30 PM"
  },
  "2A D2|mp:1cc8bdfd-6a38-4dca-81a2-890436512c16|mp:43b9ecdd-af58-4e75-856e-59685de389eb": {
   "date": "2026-11-12",
   "description": "The Mart (TX) varsity football team has an away playoff game @ Stamford (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "2A D2|mp:296537bb-ce9c-490b-9aa8-4c5bd3fd3e68|mp:c708e4cf-807f-41f1-b9c9-376e61de13a1": {
   "date": "2026-11-13",
   "description": "The Tenaha (TX) varsity football team has an away playoff game @ West Sabine (Pineland, TX) on Friday, November 13 @ 7p.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -577,7 +610,7 @@
   "description": "The Bowie (Simms, TX) varsity football team has an away playoff game @ Lindsay (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -586,32 +619,34 @@
   "description": "The Santa Maria (TX) varsity football team has an away playoff game @ Yorktown (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "2A D2|mp:50339793-54c9-477d-b7eb-f1d1dadae20f|mp:4364da37-d4af-42b4-bd42-9a575a3e0776": {
   "date": "2026-11-13",
-  "description": "The Roscoe (TX) varsity football team has a neutral playoff game vs. Eldorado (TX) on Friday, November 13 @ 7p.",
+  "description": "The Roscoe (TX) varsity football team has an away playoff game @ Eldorado (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details San Angelo"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details San Angelo",
+  "time": "7:00 PM"
  },
  "2A D2|mp:50694b54-bdf3-4acb-92df-ffbaa90069fd|mp:7964636a-3fcc-46d1-b06e-3b4ec16b3e2a": {
   "date": "2026-11-12",
-  "description": "The Vega (TX) varsity football team has a neutral playoff game vs. Ropes (Ropesville, TX) on Thursday, November 12 @ 6p.",
+  "description": "The Ropes (Ropesville, TX) varsity football team has an away playoff game @ Vega (TX) on Thursday, November 12 @ 6p.",
   "filled_date": "2026-11-12",
   "filled_time": "6:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Dimmitt High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Dimmitt High School",
+  "time": "6:00 PM"
  },
  "2A D2|mp:5428ff75-1d75-4678-b5a8-cfde26475088|mp:63db2671-adea-49a8-99ab-874973980014": {
   "date": "2026-11-12",
   "description": "The West Texas (Stinnett, TX) varsity football team has an away playoff game @ Sudan (TX) on Thursday, November 12 @ 7:30p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:30 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:30 PM"
  },
@@ -620,15 +655,16 @@
   "description": "The Tahoka (TX) varsity football team has a neutral playoff game vs. McCamey (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Big Spring High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Big Spring High School",
+  "time": "7:00 PM"
  },
  "2A D2|mp:73cb276b-ab00-488e-9ccd-e4d61f8c0cca|mp:94d4d871-7bc6-43e1-b187-bef72005d4d4": {
   "date": "2026-11-12",
   "description": "The Seymour (TX) varsity football team has an away playoff game @ Wheeler (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -637,14 +673,14 @@
   "description": "The Detroit (TX) varsity football team has an away playoff game @ Era (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "2A D2|mp:7ae4cfc2-ddad-4ded-bb01-a2b7ed5b7014|mp:f2220563-b6b1-4295-8b71-64699938d9b9": {
   "date": "2026-11-12",
   "description": "The West Hardin (Saratoga, TX) varsity football team has an away playoff game @ Grapeland (TX) on Thursday, November 12 @ 7p.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -653,7 +689,7 @@
   "description": "The Bartlett (TX) varsity football team has an away playoff game @ Junction (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -662,7 +698,7 @@
   "description": "The Albany (TX) varsity football team has an away playoff game @ Crawford (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -671,40 +707,43 @@
   "description": "The Boles (Quinlan, TX) varsity football team has an away playoff game @ Clarksville (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Winnsboro High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Winnsboro High School",
+  "time": "7:00 PM"
  },
  "2A D2|mp:84a25c1f-7832-47e0-99dd-6de6302ba5b0|mp:22cebb58-3759-4a9d-adf7-3abd675847bd": {
   "date": "2026-11-12",
   "description": "The Quanah (TX) varsity football team has an away playoff game @ Windthorst (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "2A D2|mp:87fe7765-3123-4730-81d7-1d0100fec008|mp:899e1a48-021d-4a1d-8a85-33c8c717a96f": {
   "date": "2026-11-13",
-  "description": "The Clarendon (TX) varsity football team has a neutral playoff game vs. Haskell (TX) on Friday, November 13 @ 7p.",
+  "description": "The Clarendon (TX) varsity football team has an away playoff game @ Haskell (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Childress High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Childress High School",
+  "time": "7:00 PM"
  },
  "2A D2|mp:88a8307a-656d-4ea2-820c-b764c9ee46b4|mp:2a7a01ca-49f7-4561-9da9-e487ab2dc85c": {
   "date": "2026-11-13",
-  "description": "The Iraan (TX) varsity football team has a neutral playoff game vs. Lockney (TX) on Friday, November 13 @ 7p.",
+  "description": "The Iraan (TX) varsity football team has an away playoff game @ Lockney (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Neutral site at Andrews High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Neutral site at Andrews High School",
+  "time": "7:00 PM"
  },
  "2A D2|mp:8e43bc11-0214-4438-a428-13c32d2ed9e3|mp:247833f1-5dd0-487c-aa4d-15e02462e8e8": {
   "date": "2026-11-13",
   "description": "The Pettus (TX) varsity football team has an away playoff game @ La Villa (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -713,15 +752,16 @@
   "description": "The Seagraves (TX) varsity football team has a neutral playoff game vs. Stratford (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Whiteface Stadium, Hereford Texas Stratford Home"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Whiteface Stadium, Hereford Texas Stratford Home",
+  "time": "7:00 PM"
  },
  "2A D2|mp:99ecac44-7c42-4fb8-bb3a-58168bfae3df|mp:28225880-d2ed-4f60-b49f-7dc930192c93": {
   "date": "2026-11-14",
   "description": "The Brackett (Brackettville, TX) varsity football team has an away playoff game @ Chilton (TX) on Saturday, November 14 @ 5p.",
   "filled_date": "2026-11-14",
   "filled_time": "5:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "5:00 PM"
  },
@@ -730,7 +770,7 @@
   "description": "The Miles (TX) varsity football team has an away playoff game @ Santo (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -739,7 +779,7 @@
   "description": "The D'Hanis (TX) varsity football team has a neutral playoff game vs. Bremond (TX) on Thursday, November 12 @ 7:30p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:30 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:30 PM"
  },
@@ -748,7 +788,7 @@
   "description": "The Agua Dulce (TX) varsity football team has an away playoff game @ Falls City (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -757,24 +797,25 @@
   "description": "The Maud (TX) varsity football team has an away playoff game @ Collinsville (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "2A D2|mp:cdc456d9-5120-49e0-8329-a646119ad722|mp:a950501a-8fe5-4aa2-be69-b842670ba6d5": {
   "date": "2026-11-12",
-  "description": "The Wellington (TX) varsity football team has a neutral playoff game vs. Munday (TX) on Thursday, November 12 @ 7p.",
+  "description": "The Wellington (TX) varsity football team has an away playoff game @ Munday (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Childress High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Childress High School",
+  "time": "7:00 PM"
  },
  "2A D2|mp:f0d9668a-6278-495a-9d05-2bd5a35836a1|mp:928a2de7-7739-43ad-8097-a2096a65e327": {
   "date": "2026-11-12",
   "description": "The Burton (TX) varsity football team has an away playoff game @ Harper (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -783,48 +824,52 @@
   "description": "The Colmesneil (TX) varsity football team has a neutral playoff game vs. Cushing (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Center High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Center High School",
+  "time": "7:00 PM"
  },
  "2A D2|mp:f4408aa0-0eb1-41f4-82a8-548a513b73f2|mp:6e4cd0e9-f4e3-4959-b0fe-f67539e4ce48": {
   "date": "2026-11-12",
   "description": "The Plains (TX) varsity football team has a neutral playoff game vs. Gruver (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details At Bovina"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details At Bovina",
+  "time": "7:00 PM"
  },
  "2A D2|mp:f74ad552-9cb5-47ca-a03f-126f70e30347|mp:4a8d1ca4-5692-4c24-bc8b-bf8dd546665a": {
   "date": "2026-11-12",
   "description": "The Evadale (TX) varsity football team has a neutral playoff game vs. Overton (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Diboll High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Diboll High School",
+  "time": "7:00 PM"
  },
  "2A D2|mp:ffc537e8-96f5-45b3-88b9-ab22e906c876|mp:affb3d4b-6c0d-4238-8b28-6d3e4dfff802": {
   "date": "2026-11-13",
   "description": "The Three Rivers (TX) varsity football team has an away playoff game @ Ben Bolt (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "3A D1|mp:1a9fd993-b1e9-4deb-a304-5dd375d7a6c3|mp:2693b06c-9d51-441b-a9c2-b61135c15323": {
   "date": "2026-11-12",
-  "description": "The Dalhart (TX) varsity football team has a neutral playoff game vs. Sweetwater (TX) on Thursday, November 12 @ 7p.",
+  "description": "The Dalhart (TX) varsity football team has an away playoff game @ Sweetwater (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Frenship High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Frenship High School",
+  "time": "7:00 PM"
  },
  "3A D1|mp:1b88ec6d-4a2c-48ae-8b4e-e8d3293f8a7a|mp:4c6f1c10-bd5d-48f5-a660-4c2b10e6139c": {
   "date": "2026-11-13",
   "description": "The Buna (TX) varsity football team has an away playoff game @ Diboll (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -842,15 +887,16 @@
   "description": "The Mount Vernon (TX) varsity football team has an away playoff game @ Atlanta (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Pittsburg High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Pittsburg High School",
+  "time": "7:00 PM"
  },
  "3A D1|mp:2a6f5805-7932-4c88-b078-be7db28d770e|mp:d935e76f-b0e8-4f81-a13e-00d7284720d2": {
   "date": "2026-11-12",
   "description": "The Tatum (TX) varsity football team has an away playoff game @ Winnsboro (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -875,8 +921,8 @@
   "description": "The Liberty-Eylau (Texarkana, TX) varsity football team has a neutral playoff game vs. Commerce (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
-  "site": "",
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Sam Parker Stadium - Mount Pleasant",
   "time": "7:00 PM"
  },
  "3A D1|mp:4b379f1c-76ea-4c28-960b-69246e5ec357|mp:b57622bb-efbf-4d80-9c64-bebe6aa60163": {
@@ -884,8 +930,9 @@
   "description": "The Gunter (TX) varsity football team has a neutral playoff game vs. Groesbeck (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Mesquite: Memorial Stadium"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Mesquite: Memorial Stadium",
+  "time": "7:00 PM"
  },
  "3A D1|mp:55e71a00-787a-4cc0-a2ab-128b1947f1cc|mp:d89980d7-8473-4646-9632-7f47103bae3d": {
   "date": "2026-11-13",
@@ -901,16 +948,18 @@
   "description": "The Mexia (TX) varsity football team has a neutral playoff game vs. Pilot Point (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Midlothian ISD Multi-Purpose"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Midlothian ISD Multi-Purpose",
+  "time": "7:00 PM"
  },
  "3A D1|mp:5a8481e8-aa0d-4cc9-9d67-df07a4923187|mp:8b7a99b2-31d2-4665-b39d-91ab4bfcc8ec": {
   "date": "2026-11-12",
   "description": "The Clyde (TX) varsity football team has an away playoff game @ Denver City (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Big Spring High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Big Spring High School",
+  "time": "7:00 PM"
  },
  "3A D1|mp:670c480b-0c98-44a8-a888-90e7149e9ae9|mp:d815ea88-ef5c-43d4-9010-6525739aa235": {
   "date": "2026-11-12",
@@ -931,8 +980,9 @@
  "3A D1|mp:688f290c-b0c1-4754-a410-8896d48a4f46|mp:e89ae7df-941f-42f7-a712-b588e025c67f": {
   "date": "2026-11-13",
   "description": "The Trinity (TX) varsity football team has a neutral playoff game vs. Orangefield (TX) on Friday, November 13 @ 7:30p.",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Game played at Crosby High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Game played at Crosby High School",
+  "time": "7:30 PM"
  },
  "3A D1|mp:715d688c-83c7-4b3a-b6eb-20de9746f73c|mp:24fe53ee-3542-4709-8b8f-fa1d191a63da": {
   "date": "2026-11-13",
@@ -945,11 +995,12 @@
  },
  "3A D1|mp:7d929116-735b-4334-9697-74990f8c2b02|mp:d0d412a5-e427-47fc-a075-28363b8aa94a": {
   "date": "2026-11-13",
-  "description": "The Bowie (TX) varsity football team has a neutral playoff game vs. Wall (TX) on Friday, November 13 @ 6p.",
+  "description": "The Bowie (TX) varsity football team has an away playoff game @ Wall (TX) on Friday, November 13 @ 6p.",
   "filled_date": "2026-11-13",
   "filled_time": "6:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Cisco High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Cisco High School",
+  "time": "6:00 PM"
  },
  "3A D1|mp:85e9f244-0f3e-4d68-b5b3-f4bc9e251a3e|mp:6e486efd-ae50-4d7b-8dfb-c6d73168780c": {
   "date": "2026-11-12",
@@ -963,14 +1014,16 @@
   "description": "The Little River Academy (TX) varsity football team has an away playoff game @ Columbus (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Caldwell HS"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Caldwell HS",
+  "time": "7:00 PM"
  },
  "3A D1|mp:8d22d4e0-4bfd-4a88-99e8-d4e73dfefd6e|mp:d1dbaa6b-da93-4b88-996e-6caa6f8c31b0": {
   "date": "2026-11-13",
   "description": "The Fairfield (TX) varsity football team has a neutral playoff game vs. East Chambers (Winnie, TX) on Friday, November 13 @ 7p.",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Willis"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Willis",
+  "time": "7:00 PM"
  },
  "3A D1|mp:90352165-2f3c-4b41-8e78-becc0927a0b9|mp:7d5af367-4af9-4b54-905c-bed5eb9f9dad": {
   "date": "2026-11-13",
@@ -1004,7 +1057,7 @@
   "description": "The Raymondville (TX) varsity football team has a neutral playoff game vs. Orange Grove (TX) on Friday, November 13 @ 7:30p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:30 PM"
  },
@@ -1013,7 +1066,7 @@
   "description": "The Vernon (TX) varsity football team has a neutral playoff game vs. Ingram Moore (Ingram, TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -1031,7 +1084,7 @@
   "description": "The Sweeny (TX) varsity football team has a neutral playoff game vs. Lorena (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -1056,15 +1109,16 @@
   "description": "The Early (TX) varsity football team has a neutral playoff game vs. Peaster (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Stephenville's Art Briles Stadium"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Stephenville's Art Briles Stadium",
+  "time": "7:00 PM"
  },
  "3A D1|mp:eafce683-9ac1-43fe-a3d8-49e345590e73|mp:250773e0-8355-4998-b482-7bad188130f4": {
   "date": "2026-11-12",
   "description": "The Gladewater (TX) varsity football team has an away playoff game @ Malakoff (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -1089,8 +1143,9 @@
   "description": "The Stockdale (TX) varsity football team has a neutral playoff game vs. Cotulla (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Bandera HS"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Bandera HS",
+  "time": "7:00 PM"
  },
  "3A D2|mp:15b99622-dd2d-49ca-b7b3-d6c7d781f052|mp:1b2384a5-1f7f-4417-aeab-40b901dd6d59": {
   "date": "2026-11-12",
@@ -1104,8 +1159,9 @@
   "description": "The Boling (TX) varsity football team has a neutral playoff game vs. Lexington (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details La Grange"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details La Grange",
+  "time": "7:00 PM"
  },
  "3A D2|mp:29547014-4931-4c52-ae0d-5d5d055ee189|mp:bfec43b0-aa43-4c85-8f1c-c5d133e8d212": {
   "date": "2026-11-13",
@@ -1121,8 +1177,9 @@
   "description": "The Hebbronville (TX) varsity football team has a neutral playoff game vs. Blanco (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details at Natalia"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details at Natalia",
+  "time": "7:00 PM"
  },
  "3A D2|mp:3107a77e-a214-4eb7-88e3-eaa5be4487ea|mp:0d10bc31-eccd-4458-ba7b-8f4fc84b5b33": {
   "date": "2026-11-13",
@@ -1176,45 +1233,48 @@
  },
  "3A D2|mp:480b2118-5993-4e10-80d5-0c885272dd25|mp:f9d092ee-004f-490c-92c2-f282f17af288": {
   "date": "2026-11-13",
-  "description": "The New Waverly (TX) varsity football team has an away playoff game @ Buffalo (TX) on Friday, November 13 @ 7p.",
+  "description": "The New Waverly (TX) varsity football team has a neutral playoff game vs. Buffalo (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Centerville High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Centerville High School",
+  "time": "7:00 PM"
  },
  "3A D2|mp:603b7bcc-5cf0-47a7-81fd-4ad37844f9bc|mp:8dee9b95-968e-40e1-afb8-073ff719055a": {
   "date": "2026-11-12",
   "description": "The Rogers (TX) varsity football team has a neutral playoff game vs. Rice Consolidated (Altair, TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "3A D2|mp:7a9a36ae-5b54-422e-9f45-a61724165b54|mp:9c7e823e-83c7-4fa5-9896-64e6f4947301": {
   "date": "2026-11-13",
-  "description": "The Stanton (TX) varsity football team has a neutral playoff game vs. Henrietta (TX) on Friday, November 13 @ 7p.",
+  "description": "The Stanton (TX) varsity football team has an away playoff game @ Henrietta (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Snyder High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Snyder High School",
+  "time": "7:00 PM"
  },
  "3A D2|mp:81915803-4e89-4db5-8f6d-693f4187b6ba|mp:1e63bfb4-d4c2-4f52-80dc-2d2e83fc50ab": {
   "date": "2026-11-13",
   "description": "The Bells (TX) varsity football team has a neutral playoff game vs. Lone Oak (TX) on Friday, November 13 @ 7:30p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:30 PM"
  },
  "3A D2|mp:8563cd02-9b43-468b-9e11-b4011070ac54|mp:bfc4a6a7-3687-435b-8644-a82d64f74a1a": {
   "date": "2026-11-13",
-  "description": "The Childress (TX) varsity football team has a neutral playoff game vs. Littlefield (TX) on Friday, November 13 @ 7p.",
+  "description": "The Childress (TX) varsity football team has an away playoff game @ Littlefield (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Floydada HS"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Floydada HS",
+  "time": "7:00 PM"
  },
  "3A D2|mp:92202ed7-3fc8-4b67-88f4-5c729e58f8c6|mp:0fc8c45f-decb-4d62-adbd-ec37ba9fcfb0": {
   "date": "2026-11-13",
@@ -1246,8 +1306,9 @@
   "description": "The Hardin (TX) varsity football team has an away playoff game @ Teague (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Nacogdoches High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Nacogdoches High School",
+  "time": "7:00 PM"
  },
  "3A D2|mp:9efb114d-6107-4358-bd9c-347093fef37e|mp:929d283d-e91e-483e-90be-98d247ff7f72": {
   "date": "2026-11-13",
@@ -1258,11 +1319,12 @@
  },
  "3A D2|mp:a2302efc-a455-4329-a1b2-2408d7d4cb79|mp:a4bd3575-eedd-4657-9ca3-d8b1e68c65e4": {
   "date": "2026-11-13",
-  "description": "The Slaton (TX) varsity football team has a neutral playoff game vs. Friona (TX) on Friday, November 13 @ 7p.",
+  "description": "The Slaton (TX) varsity football team has an away playoff game @ Friona (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Greg Sherwood Memorial Bulldog Stadium"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Greg Sherwood Memorial Bulldog Stadium",
+  "time": "7:00 PM"
  },
  "3A D2|mp:b5368a33-8186-49c1-b50c-ddf7f6235b50|mp:e37fd22c-b7a5-45da-97b8-230c61dda7a9": {
   "date": "2026-11-12",
@@ -1284,35 +1346,37 @@
  },
  "3A D2|mp:c37f2374-7f35-4977-8805-7dc031fc2c60|mp:334f2bb7-6ab6-4fe2-8688-2920c37fef6f": {
   "date": "2026-11-13",
-  "description": "The Howe (TX) varsity football team has a neutral playoff game vs. Quitman (TX) on Friday, November 13 @ 7p.",
+  "description": "The Howe (TX) varsity football team has an away playoff game @ Quitman (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Honey Grove High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Honey Grove High School",
+  "time": "7:00 PM"
  },
  "3A D2|mp:c961bf15-bb80-411d-a010-4543aa7c0746|mp:c3a36505-ab71-4560-91dd-377f08a91792": {
   "date": "2026-11-13",
   "description": "The Mildred (Corsicana, TX) varsity football team has a neutral playoff game vs. Woodville (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "3A D2|mp:cb1602f1-07e1-4207-9778-d3aca7d6d61c|mp:98e34ba4-b604-4842-a1c1-86b337f06651": {
   "date": "2026-11-13",
-  "description": "The Dimmitt (TX) varsity football team has a neutral playoff game vs. Idalou (TX) on Friday, November 13 @ 6p.",
+  "description": "The Dimmitt (TX) varsity football team has an away playoff game @ Idalou (TX) on Friday, November 13 @ 6p.",
   "filled_date": "2026-11-13",
   "filled_time": "6:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Levelland High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Levelland High School",
+  "time": "6:00 PM"
  },
  "3A D2|mp:d03e1aaf-036c-4a0c-a289-3cc3608a8e52|mp:fba131c9-48d9-4645-b2ef-28e255a6c879": {
   "date": "2026-11-13",
   "description": "The Hamilton (TX) varsity football team has a neutral playoff game vs. Madison (Dallas, TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -1337,15 +1401,16 @@
   "description": "The Grape Creek (San Angelo, TX) varsity football team has a neutral playoff game vs. Jacksboro (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Brownwood High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Brownwood High School",
+  "time": "7:00 PM"
  },
  "4A D1|mp:016461cc-94cd-44c1-932e-405660975465|mp:5bc33aef-453d-4fa9-9f98-ddf0ba27add0": {
   "date": "2026-11-13",
   "description": "The Henderson (TX) varsity football team has an away playoff game @ Sulphur Springs (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -1354,7 +1419,7 @@
   "description": "The Calhoun (Port Lavaca, TX) varsity football team has a neutral playoff game vs. Edcouch-Elsa (Edcouch, TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -1363,7 +1428,7 @@
   "description": "The Carter (Dallas, TX) varsity football team has an away playoff game @ Kennedale (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -1372,7 +1437,7 @@
   "description": "The Navasota (TX) varsity football team has an away playoff game @ Stephenville (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -1381,7 +1446,7 @@
   "description": "The Tuloso-Midway (Corpus Christi, TX) varsity football team has an away playoff game @ Alice (TX) on Friday, November 13 @ 7:30p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:30 PM"
  },
@@ -1390,7 +1455,7 @@
   "description": "The La Vernia (TX) varsity football team has a neutral playoff game vs. Tivy (Kerrville, TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "Game Details Bi-District Championship",
   "time": "7:00 PM"
  },
@@ -1399,7 +1464,7 @@
   "description": "The El Campo (TX) varsity football team has an away playoff game @ Jarrell (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -1408,7 +1473,7 @@
   "description": "The Pleasanton (TX) varsity football team has a neutral playoff game vs. Canyon Lake (Fischer, TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -1417,40 +1482,43 @@
   "description": "The Hidalgo Early College (Hidalgo, TX) varsity football team has an away playoff game @ Calallen (Corpus Christi, TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "4A D1|mp:348cf5eb-33ce-457f-9021-98a98000315c|mp:f245a6bc-5e59-40c0-ad00-e2a3ea9225bc": {
   "date": "2026-11-12",
-  "description": "The Riverside (El Paso, TX) varsity football team has a neutral playoff game vs. Canyon (TX) on Thursday, November 12 @ 6p.",
+  "description": "The Riverside (El Paso, TX) varsity football team has an away playoff game @ Canyon (TX) on Thursday, November 12 @ 6p.",
   "filled_date": "2026-11-12",
   "filled_time": "6:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Andrews HS"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Andrews HS",
+  "time": "6:00 PM"
  },
  "4A D1|mp:36acc361-3d34-427c-87e5-b5d7376481b0|mp:4308c707-9ed6-4dc7-aba0-e89ec3fd5be9": {
   "date": "2026-11-13",
-  "description": "The Plainview (TX) varsity football team has a neutral playoff game vs. Lake Dallas (Corinth, TX) on Friday, November 13 @ 7p.",
+  "description": "The Plainview (TX) varsity football team has an away playoff game @ Lake Dallas (Corinth, TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Clyde High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Clyde High School",
+  "time": "7:00 PM"
  },
  "4A D1|mp:3f856a70-a32d-4d6d-a727-bbcce636bcdd|mp:aebc1941-1438-4b6f-b778-9b749e87f617": {
-  "date": "2026-11-12",
-  "description": "The Austin (El Paso, TX) varsity football team has a neutral playoff game vs. Randall (Amarillo, TX) on Thursday, November 12 @ 6p.",
-  "filled_date": "2026-11-12",
+  "date": "2026-11-13",
+  "description": "The Austin (El Paso, TX) varsity football team has an away playoff game @ Randall (Amarillo, TX) on Friday, November 13 @ 6p.",
+  "filled_date": "2026-11-13",
   "filled_time": "6:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Kermit HS"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Kermit HS",
+  "time": "6:00 PM"
  },
  "4A D1|mp:440124c0-b1a4-41f1-9b2e-e69ab3077aa2|mp:965a2449-0546-4d51-a2b6-25ff722ce3df": {
   "date": "2026-11-13",
   "description": "The Kilgore (TX) varsity football team has an away playoff game @ Paris (TX) on Friday, November 13 @ 7:30p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:30 PM"
  },
@@ -1459,7 +1527,7 @@
   "description": "The Kaufman (TX) varsity football team has an away playoff game @ Lindale (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -1468,15 +1536,16 @@
   "description": "The Lampasas (TX) varsity football team has a neutral playoff game vs. Bay City (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Tiger Stad., 285 St. Hwy 95, Smithville, TX 78957"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Tiger Stad., 285 St. Hwy 95, Smithville, TX 78957",
+  "time": "7:00 PM"
  },
  "4A D1|mp:53ead7c1-d313-4cb7-9157-0b33325ca281|mp:8abfc59f-ab64-42e3-b515-e87e481b2af1": {
   "date": "2026-11-13",
   "description": "The Zapata (TX) varsity football team has an away playoff game @ Miller (Corpus Christi, TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -1485,56 +1554,59 @@
   "description": "The Sterling (Houston, TX) varsity football team has an away playoff game @ Vidor (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "4A D1|mp:6162d4cc-be55-48db-9561-26ba8414be6a|mp:49ea89c0-5105-4ebd-9c40-a744720daf29": {
   "date": "2026-11-13",
   "description": "The Hargrave (Huffman, TX) varsity football team has an away playoff game @ Fort Bend Willowridge (Houston, TX) on Friday, November 13 @ 7p.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "4A D1|mp:7b42da43-52e8-4e48-b4c7-337ffd3dfe84|mp:3a07b229-5d8f-453d-992b-19bc8cb1d55b": {
   "date": "2026-11-13",
-  "description": "The Dumas (TX) varsity football team has a neutral playoff game vs. Andress (El Paso, TX) on Friday, November 13 @ 6p.",
+  "description": "The Dumas (TX) varsity football team has an away playoff game @ Andress (El Paso, TX) on Friday, November 13 @ 6p.",
   "filled_date": "2026-11-13",
   "filled_time": "6:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Denver City High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Denver City High School",
+  "time": "6:00 PM"
  },
  "4A D1|mp:80384819-4dd1-433f-b905-70a4f4e03187|mp:1bacfc47-48b0-4164-b7dd-50c6bea5f52a": {
   "date": "2026-11-13",
-  "description": "The Decatur (TX) varsity football team has a neutral playoff game vs. Lake View (San Angelo, TX) on Friday, November 13 @ 7p.",
+  "description": "The Decatur (TX) varsity football team has an away playoff game @ Lake View (San Angelo, TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Mineral Wells High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Mineral Wells High School",
+  "time": "7:00 PM"
  },
  "4A D1|mp:9366f169-fe02-4c0d-b877-e7e3dc92f6ed|mp:9214cc36-5fbb-4363-a94c-ec22207335cd": {
   "date": "2026-11-13",
   "description": "The Fredericksburg (TX) varsity football team has an away playoff game @ Floresville (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "4A D1|mp:9e9672fd-1ae7-4d1c-b361-bae810ac89ac|mp:e3eeb2ac-5a9e-43c6-9422-d0249d7c994f": {
   "date": "2026-11-13",
-  "description": "The Springtown (TX) varsity football team has a neutral playoff game vs. Greenwood (Midland, TX) on Friday, November 13 @ 6p.",
+  "description": "The Springtown (TX) varsity football team has an away playoff game @ Greenwood (Midland, TX) on Friday, November 13 @ 6p.",
   "filled_date": "2026-11-13",
   "filled_time": "6:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Buckaroo Stadium; Breckenridge, TX"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Buckaroo Stadium; Breckenridge, TX",
+  "time": "6:00 PM"
  },
  "4A D1|mp:a4007d35-8ff9-4e24-bff1-afb9768d5018|mp:5cba51b5-4ee4-433b-968f-74d2c2a2c1ac": {
   "date": "2026-11-12",
   "description": "The Andrews (TX) varsity football team has an away playoff game @ Aubrey (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -1543,7 +1615,7 @@
   "description": "The Davenport (San Antonio, TX) varsity football team has a neutral playoff game vs. Somerset (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -1552,14 +1624,14 @@
   "description": "The China Spring (TX) varsity football team has an away playoff game @ Sealy (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "4A D1|mp:bc9dedb6-e657-4c2d-8be3-4d6494382856|mp:480a3ca5-78ac-408c-94dd-a1f69c30b37f": {
   "date": "2026-11-13",
   "description": "The Wilmer-Hutchins (Dallas, TX) varsity football team has an away playoff game @ Eastern Hills (Fort Worth, TX) on Friday, November 13 @ 7:30p.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:30 PM"
  },
@@ -1568,7 +1640,7 @@
   "description": "The Bridge City (TX) varsity football team has an away playoff game @ Stafford (TX) on Friday, November 13 @ 7:30p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:30 PM"
  },
@@ -1577,14 +1649,14 @@
   "description": "The Southwest (Fort Worth, TX) varsity football team has an away playoff game @ Lincoln (Dallas, TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "4A D1|mp:e6cb1374-d5c9-42fa-a7bd-9dd0d5c89c32|mp:3adca98f-05e2-4017-ae90-aa229cfce4f6": {
   "date": "2026-11-13",
   "description": "The Austin (Houston, TX) varsity football team has a neutral playoff game vs. Little Cypress-Mauriceville (Orange, TX) on Friday, November 13 @ 7:30p.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:30 PM"
  },
@@ -1593,7 +1665,7 @@
   "description": "The Caddo Mills (TX) varsity football team has an away playoff game @ Pine Tree (Longview, TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -1602,7 +1674,7 @@
   "description": "The Ysleta (El Paso, TX) varsity football team has an away playoff game @ West Plains (Amarillo, TX) on Thursday, November 12 @ 6p.",
   "filled_date": "2026-11-12",
   "filled_time": "6:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "6:00 PM"
  },
@@ -1611,38 +1683,39 @@
   "description": "The Benbrook (TX) varsity football team has an away playoff game @ Kimball (Dallas, TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "4A D2|mp:0c39e7b7-a5cd-4243-bd60-6c0c68ce960e|mp:71370ca8-cf9e-434d-9f52-cf8eddb9669f": {
   "date": "2026-11-13",
   "description": "The North Lamar (Paris, TX) varsity football team has an away playoff game @ Gilmer (TX) on Friday, November 13 @ 7p.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "4A D2|mp:0e1ad0e3-6982-41bd-8392-ce1ad831353d|mp:dafda91e-f4ac-4c5c-b2e8-30c83f000445": {
   "date": "2026-11-12",
-  "description": "The Brock (TX) varsity football team has a neutral playoff game vs. Perryton (TX) on Thursday, November 12 @ 5p.",
+  "description": "The Brock (TX) varsity football team has an away playoff game @ Perryton (TX) on Thursday, November 12 @ 5p.",
   "filled_date": "2026-11-12",
   "filled_time": "5:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Lowrey Field"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Lowrey Field",
+  "time": "5:00 PM"
  },
  "4A D2|mp:18d95aa7-a0de-4e76-a1a1-039beeaaf620|mp:15a3300a-e76c-4db1-8e77-79b1fc070602": {
   "date": "2026-11-12",
   "description": "The Pleasant Grove (Texarkana, TX) varsity football team has an away playoff game @ Farmersville (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "4A D2|mp:2025e9f9-cedd-4912-b298-536a7cb61591|mp:0266834d-a4cf-4cf5-8803-0adcdfb34257": {
   "date": "2026-11-12",
   "description": "The Hitchcock (TX) varsity football team has an away playoff game @ Wheatley (Houston, TX) on Thursday, November 12 @ 7p.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -1651,14 +1724,14 @@
   "description": "The La Grange (TX) varsity football team has an away playoff game @ Yates (Houston, TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "4A D2|mp:288d4cda-dcc1-4284-844f-58683384fcd0|mp:65b2b405-e451-4909-aa48-fd6233bc64b2": {
   "date": "2026-11-13",
   "description": "The Gonzales (TX) varsity football team has an away playoff game @ Rockport-Fulton (Rockport, TX) on Friday, November 13 @ 7p.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -1676,82 +1749,87 @@
   "description": "The Big Spring (TX) varsity football team has an away playoff game @ Mountain View (El Paso, TX) on Friday, November 13 @ 6:30p.",
   "filled_date": "2026-11-13",
   "filled_time": "6:30 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Mountain View HS"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Mountain View HS",
+  "time": "6:30 PM"
  },
  "4A D2|mp:41e931ec-a457-468d-a941-0626e246d95c|mp:fa488e7a-2b81-4322-9776-02b49550d18d": {
   "date": "2026-11-13",
   "description": "The Navarro (Geronimo, TX) varsity football team has an away playoff game @ London (Corpus Christi, TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "4A D2|mp:4a2ccf17-2c75-4adb-86b6-de11c9a479f3|mp:4b9fcf10-5b7b-4eab-9ac8-13da21f15c89": {
   "date": "2026-11-12",
   "description": "The Ingleside (TX) varsity football team has an away playoff game @ Cuero (TX) on Thursday, November 12 @ 7p.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "4A D2|mp:4ccbc2a2-3669-4d67-b443-6c78dc0df118|mp:bd4dd10c-f515-42ed-899f-5ee707f00037": {
   "date": "2026-11-12",
   "description": "The Salado (TX) varsity football team has an away playoff game @ Wimberley (TX) on Thursday, November 12 @ 7p.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "4A D2|mp:64108f0e-d50d-4fa4-84f7-df45fe54ab1b|mp:66185f95-14c7-4eef-817e-1782c2952dd6": {
   "date": "2026-11-13",
-  "description": "The Shepherd (TX) varsity football team has a neutral playoff game vs. Canton (TX) on Friday, November 13 @ 7p.",
+  "description": "The Shepherd (TX) varsity football team has an away playoff game @ Canton (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Madisonville High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Madisonville High School",
+  "time": "7:00 PM"
  },
  "4A D2|mp:791701cc-adf1-4230-9d78-605e643e4399|mp:753b4cdb-21dc-47d0-aab6-ec6922504f99": {
   "date": "2026-11-12",
   "description": "The Bowie (El Paso, TX) varsity football team has an away playoff game @ Seminole (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Seminole HS"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Seminole HS",
+  "time": "7:00 PM"
  },
  "4A D2|mp:7995b72f-5789-4a4f-aea1-2817ae873f5f|mp:314733b0-3795-4cad-a5ad-65db00b3e860": {
   "date": "2026-11-12",
   "description": "The Clint (TX) varsity football team has an away playoff game @ Monahans (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Monahans High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Monahans High School",
+  "time": "7:00 PM"
  },
  "4A D2|mp:7aef9350-e70e-4f92-87dc-dfbc3729b9e1|mp:a25356b9-3545-4ece-8ff2-2d460ef5d78a": {
   "date": "2026-11-13",
   "description": "The Madisonville (TX) varsity football team has a neutral playoff game vs. Silsbee (TX) on Friday, November 13 @ 7:30p.",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Abe Martin Stadium - Lufkin, TX. Silsbee is home."
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Abe Martin Stadium - Lufkin, TX. Silsbee is home.",
+  "time": "7:30 PM"
  },
  "4A D2|mp:7cdbf1a0-5b37-4eac-a804-fc818bfb3ae6|mp:e91e9c95-acab-4266-9af0-f55ff4e7ae07": {
   "date": "2026-11-13",
   "description": "The Kemp (TX) varsity football team has an away playoff game @ Krum (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "4A D2|mp:7deffa9d-584c-4aaa-8cc1-90ae6760efe5|mp:0e7f914c-ebc9-4884-8452-32d291ea71e7": {
   "date": "2026-11-13",
   "description": "The Pittsburg (TX) varsity football team has an away playoff game @ Sunnyvale (TX) on Friday, November 13 @ 7p.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "4A D2|mp:80980c3e-d023-4fac-86ea-97e17c46b2fe|mp:991e7a51-4e62-4f55-aa2b-b166831a0345": {
   "date": "2026-11-13",
   "description": "The Van (TX) varsity football team has an away playoff game @ West Orange-Stark (Orange, TX) on Friday, November 13 @ 7:30p.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:30 PM"
  },
@@ -1760,7 +1838,7 @@
   "description": "The Van Alstyne (TX) varsity football team has a neutral playoff game vs. Venus (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -1769,30 +1847,32 @@
   "description": "The Manor New Tech (Manor, TX) varsity football team has a neutral playoff game vs. La Vega (Waco, TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Leo Buckley Stadium - Killeen"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Leo Buckley Stadium - Killeen",
+  "time": "7:00 PM"
  },
  "4A D2|mp:ad2bc15b-51c3-45f2-b9a2-04cab47f9f5c|mp:540c26f9-43fd-4cbc-a2c9-d5a1231f10df": {
   "date": "2026-11-13",
   "description": "The Pecos (TX) varsity football team has an away playoff game @ Irvin (El Paso, TX) on Friday, November 13 @ 6:30p.",
   "filled_date": "2026-11-13",
   "filled_time": "6:30 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Irvin HS"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Irvin HS",
+  "time": "6:30 PM"
  },
  "4A D2|mp:af2e9277-7d56-4b1b-845e-a991a2b4ce15|mp:987a8773-038c-44e6-a6f7-e5460808095a": {
   "date": "2026-11-13",
   "description": "The Giddings (TX) varsity football team has a neutral playoff game vs. Robinson (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "4A D2|mp:b8d7c027-518f-471d-b46b-97af89b291fd|mp:8a4b5d8d-e68f-4444-9350-f15d77a9b3ae": {
   "date": "2026-11-13",
   "description": "The Brownwood (TX) varsity football team has a neutral playoff game vs. Lago Vista (TX) on Friday, November 13 @ 7:30p.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:30 PM"
  },
@@ -1808,7 +1888,7 @@
  "4A D2|mp:c13df5f7-d1d2-4018-803e-7ecc518b2576|mp:0fe067e2-23dd-4430-99d1-f869353eae29": {
   "date": "2026-11-12",
   "description": "The King (Kingsville, TX) varsity football team has an away playoff game @ Bandera (TX) on Thursday, November 12 @ 7p.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -1817,7 +1897,7 @@
   "description": "The Ponder (TX) varsity football team has an away playoff game @ Glen Rose (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -1826,7 +1906,7 @@
   "description": "The Sanger (TX) varsity football team has an away playoff game @ Hillsboro (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -1835,8 +1915,9 @@
   "description": "The Estacado (Lubbock, TX) varsity football team has an away playoff game @ Graham (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Sweetwater HS"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Sweetwater HS",
+  "time": "7:00 PM"
  },
  "4A D2|mp:e59c57a1-2080-4f3d-b660-5532bf34a950|mp:85895d85-ae24-412b-a210-24e26ee1a367": {
   "date": "2026-11-12",
@@ -1862,7 +1943,7 @@
  "4A D2|mp:ffe8f067-c164-4c5b-a98f-3e86501961de|mp:afe91e8d-f63c-4d28-9ea1-349f8ef6daf7": {
   "date": "2026-11-13",
   "description": "The Hamshire-Fannett (Hamshire, TX) varsity football team has an away playoff game @ Athens (TX) on Friday, November 13 @ 7:30p.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:30 PM"
  },
@@ -1878,7 +1959,7 @@
  "5A D1|mp:17a3ef93-bedf-4b23-8f58-719f61af2715|mp:0fa7eda8-491f-4cef-8ded-76006d407f21": {
   "date": "2026-11-12",
   "description": "The Weslaco East (Weslaco, TX) varsity football team has a neutral playoff game vs. McAllen (TX) , but the date has not been set.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": ""
  },
@@ -1896,7 +1977,7 @@
   "description": "The Anderson (Austin, TX) varsity football team has a neutral playoff game vs. Southside (San Antonio, TX) on Friday, November 13 @ 7:30p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:30 PM"
  },
@@ -1905,7 +1986,7 @@
   "description": "The Naaman Forest (Garland, TX) varsity football team has an away playoff game @ Melissa (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -1914,7 +1995,7 @@
   "description": "The Iowa Colony (TX) varsity football team has an away playoff game @ Weiss (Pflugerville, TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -1922,7 +2003,7 @@
   "date": "2026-11-13",
   "description": "The Manor (TX) varsity football team has a neutral playoff game vs. Medina Valley (Castroville, TX) on Friday, November 13.",
   "filled_date": "2026-11-13",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": ""
  },
@@ -1947,14 +2028,14 @@
  "5A D1|mp:523ae181-652f-452d-8c58-2c4f94e33280|mp:abf217f7-9d7c-4fe3-989d-2ad16dfd3e23": {
   "date": "2026-11-12",
   "description": "The Northbrook (Houston, TX) varsity football team has a neutral playoff game vs. La Porte (TX) , but the date has not been set.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": ""
  },
  "5A D1|mp:60438c1b-ca51-4e25-9a38-4536c8f82e69|mp:3a38912a-ce12-4864-a3f8-d42c102936d7": {
   "date": "2026-11-12",
   "description": "The Abilene (TX) varsity football team has a neutral playoff game vs. Hanks (El Paso, TX) , but the date has not been set.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": ""
  },
@@ -1970,7 +2051,7 @@
  "5A D1|mp:82c030b7-3b6b-4b7a-9074-686af2d2e7b2|mp:a1dd48c4-91fe-4f47-adcd-38c35bf797e4": {
   "date": "2026-11-12",
   "description": "The Goose Creek Memorial (Baytown, TX) varsity football team has a neutral playoff game vs. Milby (Houston, TX) , but the date has not been set.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": ""
  },
@@ -1979,41 +2060,42 @@
   "description": "The Bel Air (El Paso, TX) varsity football team has an away playoff game @ Amarillo (TX) on Friday, November 13 @ 6p.",
   "filled_date": "2026-11-13",
   "filled_time": "6:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Dick Bivins (Amarillo)"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Dick Bivins (Amarillo)",
+  "time": "6:00 PM"
  },
  "5A D1|mp:8edeaac4-5a9e-450d-afb3-699ea6fbb4dd|mp:27d249f0-494a-4832-a163-436a1a7f1680": {
   "date": "2026-11-12",
   "description": "The A&M Consolidated (College Station, TX) varsity football team has a neutral playoff game vs. Randle (Richmond, TX) , but the date has not been set.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": ""
  },
  "5A D1|mp:8f96a6c0-af02-45a5-83fe-cc2714808f48|mp:64b145cb-b2bf-4cc2-b2a8-30e7152e6c09": {
   "date": "2026-11-12",
   "description": "The Georgetown (TX) varsity football team has a neutral playoff game vs. Angleton (TX) , but the date has not been set.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": ""
  },
  "5A D1|mp:96083d72-055b-45fe-99ae-cee075ace731|mp:a221d051-60d0-44f1-9efb-9bc1a73b9c5b": {
   "date": "2026-11-12",
   "description": "The Waltrip (Houston, TX) varsity football team has a neutral playoff game vs. Port Arthur Memorial (Port Arthur, TX) , but the date has not been set.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": ""
  },
  "5A D1|mp:9684836a-0fc7-4685-99e4-1acf0f46468c|mp:41061aea-67f7-4310-82f6-caa308d2bcfe": {
   "date": "2026-11-12",
   "description": "The Flour Bluff (Corpus Christi, TX) varsity football team has a neutral playoff game vs. Rowe (McAllen, TX) , but the date has not been set.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": ""
  },
  "5A D1|mp:9a075e03-96fb-4f90-9768-1541d5385443|mp:855950c6-3ffc-4d8a-942d-cc42685e9f24": {
   "date": "2026-11-12",
   "description": "The North Mesquite (Mesquite, TX) varsity football team has a neutral playoff game vs. DeSoto (TX) , but the date has not been set.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": ""
  },
@@ -2022,15 +2104,16 @@
   "description": "The Nixon (Laredo, TX) varsity football team has an away playoff game @ Smithson Valley (Spring Branch, TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Smithson Valley Ranger Stadium"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Smithson Valley Ranger Stadium",
+  "time": "7:00 PM"
  },
  "5A D1|mp:a0ac44ab-24ee-40c6-8502-73c135849daf|mp:d4915b03-7586-476e-918f-661703d25ea5": {
   "date": "2026-11-13",
   "description": "The Midlothian (TX) varsity football team has an away playoff game @ Tyler (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -2048,8 +2131,9 @@
   "description": "The Friendswood (TX) varsity football team has an away playoff game @ College Station (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details College Station HS"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details College Station HS",
+  "time": "7:00 PM"
  },
  "5A D1|mp:ce78b157-7152-490b-b8f2-7f4782602d15|mp:f634eab6-7280-4284-bf98-6eda5b34c04a": {
   "date": "2026-11-13",
@@ -2063,7 +2147,7 @@
  "5A D1|mp:d3f38edd-f3b3-4768-b4d7-5776cef0cf91|mp:61345212-d868-4a9e-bb71-38fb2788bca9": {
   "date": "2026-11-12",
   "description": "The Palmview (La Joya, TX) varsity football team has a neutral playoff game vs. Carroll (Corpus Christi, TX) , but the date has not been set.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": ""
  },
@@ -2072,7 +2156,7 @@
   "description": "The Azle (TX) varsity football team has an away playoff game @ Brewer (Fort Worth, TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -2081,20 +2165,21 @@
   "description": "The Chisholm Trail (Fort Worth, TX) varsity football team has a neutral playoff game vs. Arlington Heights (Fort Worth, TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details FWISD Farrington"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details FWISD Farrington",
+  "time": "7:00 PM"
  },
  "5A D1|mp:dbd78f6f-ec2e-4f4c-a33b-43c1ab8b78e3|mp:f57549e0-2b53-4dc5-a946-6ebf0b5b8ec4": {
   "date": "2026-11-12",
   "description": "The Beaumont United (Beaumont, TX) varsity football team has a neutral playoff game vs. Madison (Houston, TX) , but the date has not been set.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": ""
  },
  "5A D1|mp:de591d37-77d1-426f-be5a-d921f0823117|mp:4757941c-b30c-40dc-adc3-1c3d08c81628": {
   "date": "2026-11-12",
   "description": "The Winn (Eagle Pass, TX) varsity football team has a neutral playoff game vs. Boerne-Champion (Boerne, TX) , but the date has not been set.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": ""
  },
@@ -2103,8 +2188,9 @@
   "description": "The Ryan (Denton, TX) varsity football team has a neutral playoff game vs. Paschal (Fort Worth, TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details CH Collins"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details CH Collins",
+  "time": "7:00 PM"
  },
  "5A D1|mp:f0fde8bd-2027-4ceb-85ea-6cbaed35c079|mp:f69339b5-22d2-4afd-8809-c1c22373f8df": {
   "date": "2026-11-13",
@@ -2127,7 +2213,7 @@
   "description": "The Ennis (TX) varsity football team has a neutral playoff game vs. Belton (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -2136,22 +2222,23 @@
   "description": "The Pioneer (Mission, TX) varsity football team has an away playoff game @ Gregory-Portland (Portland, TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Ray Akins Wildcat Stadium"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Ray Akins Wildcat Stadium",
+  "time": "7:00 PM"
  },
  "5A D2|mp:314a23ff-5099-44c7-931f-a4497159a9a7|mp:db2da669-ae13-4f7e-8523-3be0b32b053f": {
   "date": "2026-11-12",
   "description": "The Brackenridge (San Antonio, TX) varsity football team has a neutral playoff game vs. Boerne (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "5A D2|mp:3bb9ad06-2f84-4302-974c-23488996eaaa|mp:8ad78532-e54e-4479-9294-bf595496d9d1": {
   "date": "2026-11-12",
   "description": "The Liberty Hill (TX) varsity football team has a neutral playoff game vs. Harlandale (San Antonio, TX) , but the date has not been set.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": ""
  },
@@ -2160,14 +2247,14 @@
   "description": "The Midlothian Heritage (Midlothian, TX) varsity football team has a neutral playoff game vs. Ellison (Killeen, TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "5A D2|mp:3de0639a-f7a5-4e1a-8c89-e0d0d0b58258|mp:f169e2e1-d884-4111-8b91-e7bda852426d": {
   "date": "2026-11-12",
   "description": "The Legacy Ranch (Liberty Hill, TX) varsity football team has a neutral playoff game vs. Sam Houston (San Antonio, TX) , but the date has not been set.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": ""
  },
@@ -2176,7 +2263,7 @@
   "description": "The Tomas (Richmond, TX) varsity football team has a neutral playoff game vs. Pflugerville (TX) on Saturday, November 14 @ 2p.",
   "filled_date": "2026-11-14",
   "filled_time": "2:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "2:00 PM"
  },
@@ -2185,8 +2272,9 @@
   "description": "The Seguin (Arlington, TX) varsity football team has an away playoff game @ Brenham (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Brenham Cub Stadium"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Brenham Cub Stadium",
+  "time": "7:00 PM"
  },
  "5A D2|mp:761e1afd-d386-4edd-a4ef-5e4f79d1fbf0|mp:a779a2c9-df77-4d6f-a04e-dfc380fe0f70": {
   "date": "2026-11-13",
@@ -2199,11 +2287,12 @@
  },
  "5A D2|mp:7c4c5c93-8816-4135-ad85-dab4b8583891|mp:540b1cdb-27ed-462a-bf27-5b8d8dd51d11": {
   "date": "2026-11-12",
-  "description": "The Burges (El Paso, TX) varsity football team has a neutral playoff game vs. Palo Duro (Amarillo, TX) on Thursday, November 12 @ 6p.",
+  "description": "The Burges (El Paso, TX) varsity football team has an away playoff game @ Palo Duro (Amarillo, TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
-  "filled_time": "6:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Dick Bivins Stadium (Amarillo)"
+  "filled_time": "7:00 PM",
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Dick Bivins Stadium",
+  "time": "7:00 PM"
  },
  "5A D2|mp:7cb7e6a9-f837-4204-8c37-f9cb9dd17ce8|mp:6bb655cf-3020-4ea8-a2c7-c35800ec1953": {
   "date": "2026-11-12",
@@ -2217,14 +2306,14 @@
  "5A D2|mp:850020a1-7635-40fc-bfc8-f7c77d95c019|mp:49cc3751-aa79-424a-8036-42593c70617b": {
   "date": "2026-11-12",
   "description": "The Lake Creek (Montgomery, TX) varsity football team has a neutral playoff game vs. Texas City (TX) , but the date has not been set.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": ""
  },
  "5A D2|mp:8c113220-90fe-4ef8-b458-8c0629d620f4|mp:36c0cace-6022-4dee-b1f2-c0058997ecad": {
   "date": "2026-11-12",
   "description": "The Wilson (Dallas, TX) varsity football team has a neutral playoff game vs. Texas (Texarkana, TX) , but the date has not been set.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": ""
  },
@@ -2233,21 +2322,21 @@
   "description": "The Colleyville Heritage (Colleyville, TX) varsity football team has an away playoff game @ Frisco (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "5A D2|mp:a03335a4-e848-4fad-bc6c-0a47216b2170|mp:c2500760-c49e-4ee7-9393-b35a418ea142": {
   "date": "2026-11-12",
   "description": "The Victoria West (Victoria, TX) varsity football team has a neutral playoff game vs. Bastrop (TX) , but the date has not been set.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": ""
  },
  "5A D2|mp:a3bd01c9-3acc-45bb-917d-d01b7ef73ce1|mp:33cebbc7-67f6-4c66-8fd1-b12f7c1bf72f": {
   "date": "2026-11-12",
   "description": "The Hallsville (TX) varsity football team has a neutral playoff game vs. Hillcrest (Dallas, TX) , but the date has not been set.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": ""
  },
@@ -2256,7 +2345,7 @@
   "description": "The Sharyland (Mission, TX) varsity football team has a neutral playoff game vs. Pace (Brownsville, TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -2272,17 +2361,18 @@
   "description": "The Samuell (Dallas, TX) varsity football team has a neutral playoff game vs. Terrell (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "5A D2|mp:b4713352-a2cb-4bfe-949a-edbe500f9b29|mp:55e7ef00-811a-40df-b9f5-845fbdd07fe4": {
   "date": "2026-11-13",
-  "description": "The Cooper (Abilene, TX) varsity football team has a neutral playoff game vs. Canutillo (TX) on Friday, November 13 @ 6p.",
+  "description": "The Cooper (Abilene, TX) varsity football team has an away playoff game @ Canutillo (TX) on Friday, November 13 @ 6p.",
   "filled_date": "2026-11-13",
   "filled_time": "6:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Canutillo HS"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Canutillo HS",
+  "time": "6:00 PM"
  },
  "5A D2|mp:b53ed77b-e4f4-4174-966a-84cfcf5aeac6|mp:95c592de-1bf7-4ab3-972a-08e8aa86a958": {
   "date": "2026-11-13",
@@ -2295,23 +2385,24 @@
  },
  "5A D2|mp:c45343b8-f2c8-410d-b896-66d3aeea5851|mp:ba4ec0a4-7fa6-473e-967b-7a68ca169609": {
   "date": "2026-11-13",
-  "description": "The Panther Creek (Frisco, TX) varsity football team has a neutral playoff game vs. Argyle (TX) on Friday, November 13 @ 7p.",
+  "description": "The Panther Creek (Frisco, TX) varsity football team has an away playoff game @ Argyle (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Argyle ISD Stadium - Round 1 - UIL State Playoffs"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Argyle ISD Stadium - Round 1 - UIL State Playoffs",
+  "time": "7:00 PM"
  },
  "5A D2|mp:c8567519-b7b4-44bc-85f6-354242d6bdc8|mp:ccd24da9-93e6-4dad-aeb3-dd9f95dbae74": {
   "date": "2026-11-12",
   "description": "The Mercedes (TX) varsity football team has a neutral playoff game vs. Mission Veterans Memorial (Mission, TX) , but the date has not been set.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": ""
  },
  "5A D2|mp:d45fe67b-132a-4902-bb2e-9a113e25b37a|mp:53835be8-1d03-4059-9a09-49e88f682a96": {
   "date": "2026-11-12",
   "description": "The West Fork (Kingwood, TX) varsity football team has a neutral playoff game vs. Port Neches-Groves (Port Neches, TX) , but the date has not been set.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": ""
  },
@@ -2320,14 +2411,14 @@
   "description": "The Fort Bend Marshall (Missouri City, TX) varsity football team has a neutral playoff game vs. Crockett (Austin, TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "Game Details 1st Round Bi-District Playoffs",
   "time": "7:00 PM"
  },
  "5A D2|mp:d60711a7-4a6a-4134-9834-2dc509231682|mp:c4980880-125a-4471-9a81-f5e14acf31c2": {
   "date": "2026-11-13",
   "description": "The Dayton (TX) varsity football team has a neutral playoff game vs. Montgomery (TX) on Friday, November 13 @ 7p.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -2336,7 +2427,7 @@
   "description": "The Nederland (TX) varsity football team has an away playoff game @ Huntsville (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -2345,24 +2436,25 @@
   "description": "The McCollum (San Antonio, TX) varsity football team has an away playoff game @ Alamo Heights (San Antonio, TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "5A D2|mp:e4827d31-9641-4195-a2c3-dd69ad7aaa62|mp:edfaac0b-2ecb-491b-876f-48bde40b9d46": {
   "date": "2026-11-13",
-  "description": "The Del Valle (El Paso, TX) varsity football team has a neutral playoff game vs. Wylie (Abilene, TX) on Friday, November 13 @ 7p.",
+  "description": "The Del Valle (El Paso, TX) varsity football team has an away playoff game @ Wylie (Abilene, TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Wylie High School"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Wylie High School",
+  "time": "7:00 PM"
  },
  "5A D2|mp:e74bd9fa-ed90-439d-9341-a60fb50fa7d3|mp:7cc2d2e1-46c5-4d84-9755-b487b95399d8": {
   "date": "2026-11-12",
   "description": "The Cigarroa (Laredo, TX) varsity football team has a neutral playoff game vs. Ray (Corpus Christi, TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -2371,15 +2463,16 @@
   "description": "The Waco (TX) varsity football team has an away playoff game @ Mansfield Timberview (Arlington, TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Newsom Stadium"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Newsom Stadium",
+  "time": "7:00 PM"
  },
  "5A D2|mp:eb6bb436-fdd0-4583-9ac0-5f086e8761ae|mp:15f74e18-a4b1-451a-92aa-d022ed36204d": {
   "date": "2026-11-13",
   "description": "The Anna (TX) varsity football team has a neutral playoff game vs. The Colony (TX) on Friday, November 13 @ 7:30p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:30 PM"
  },
@@ -2388,14 +2481,14 @@
   "description": "The Hebron (Carrollton, TX) varsity football team has an away playoff game @ Allen (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "6A D1|mp:0bcb98b4-30ea-4f0c-aaf5-c35f45870f53|mp:768197dc-fd50-4df1-9c27-a2c0ffffd755": {
   "date": "2026-11-13",
   "description": "The Deer Park (TX) varsity football team has an away playoff game @ North Shore (Houston, TX) on Friday, November 13 @ 7p.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -2404,7 +2497,7 @@
   "description": "The Wylie (TX) varsity football team has an away playoff game @ Rockwall (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -2426,19 +2519,21 @@
  },
  "6A D1|mp:4a654ac5-2441-45ec-a978-e03add42d805|mp:1bf59c8f-3e5c-44a0-9374-7f2fd8918bb2": {
   "date": "2026-11-13",
-  "description": "The Harlan (San Antonio, TX) varsity football team has a neutral playoff game vs. United (Laredo, TX) on Friday, November 13 @ 7:30p.",
+  "description": "The Harlan (San Antonio, TX) varsity football team has an away playoff game @ United (Laredo, TX) on Friday, November 13 @ 7:30p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Laredo Student Activity Center"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Laredo Student Activity Center",
+  "time": "7:30 PM"
  },
  "6A D1|mp:4be0fbea-cb98-4f0f-9fa4-133b840d0a29|mp:316a1cd0-ca9f-4edb-8b6c-249656be6977": {
   "date": "2026-11-13",
   "description": "The South Grand Prairie (Grand Prairie, TX) varsity football team has a neutral playoff game vs. Coppell (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Mustang Panther Stadium"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Mustang Panther Stadium",
+  "time": "7:00 PM"
  },
  "6A D1|mp:51a52eb7-01a9-484d-a62c-db839b4cb672|mp:a61b2bf5-0247-400c-9c28-a55ab01086aa": {
   "date": "2026-11-12",
@@ -2452,7 +2547,7 @@
  "6A D1|mp:554db2c5-52a3-43ec-b13c-50fc13ddc017|mp:32870375-fea3-4f6a-9842-99d52452cff6": {
   "date": "2026-11-13",
   "description": "The Alief Taylor (Houston, TX) varsity football team has an away playoff game @ Pearland (TX) on Friday, November 13 @ 7p.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -2461,7 +2556,7 @@
   "description": "The Round Rock (TX) varsity football team has an away playoff game @ Bowie (Austin, TX) on Friday, November 13 @ 7:30p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:30 PM"
  },
@@ -2470,7 +2565,7 @@
   "description": "The Arlington (TX) varsity football team has an away playoff game @ Keller (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "Game Details BI-DISTRICT ROUND 1",
   "time": "7:00 PM"
  },
@@ -2510,14 +2605,15 @@
  },
  "6A D1|mp:83473951-816b-4241-ab16-44ace452e14f|mp:1fb7ad95-4030-4b33-b9be-ec792f074241": {
   "date": "2026-11-13",
-  "description": "The Strake Jesuit (Houston, TX) varsity football team has a neutral playoff game vs. Jordan (Fulshear, TX) on Friday, November 13 @ 7p.",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Crusader Stadium"
+  "description": "The Jordan (Fulshear, TX) varsity football team has an away playoff game @ Strake Jesuit (Houston, TX) on Friday, November 13 @ 7p.",
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Crusader Stadium",
+  "time": "7:00 PM"
  },
  "6A D1|mp:84c0a8bb-f03b-40c7-b5c8-954a81e45bcc|mp:775f0480-6997-4f5c-9ce6-13984d2f5fa9": {
   "date": "2026-11-13",
   "description": "The Cypress Woods (Cypress, TX) varsity football team has an away playoff game @ Klein (TX) on Friday, November 13 @ 7p.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -2526,7 +2622,7 @@
   "description": "The Prosper (TX) varsity football team has an away playoff game @ Lewisville (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -2542,14 +2638,14 @@
   "description": "The Rockwall-Heath (Rockwall, TX) varsity football team has an away playoff game @ Sachse (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "6A D1|mp:b510c55b-5ef3-456f-b452-b7c2491eebdd|mp:2eca2ffb-0fb5-4902-8287-534005427352": {
   "date": "2026-11-13",
   "description": "The Summer Creek (Houston, TX) varsity football team has an away playoff game @ Dickinson (TX) on Friday, November 13 @ 7p.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "Game Details BI-DISTRICT PLAYOFF",
   "time": "7:00 PM"
  },
@@ -2558,7 +2654,7 @@
   "description": "The Vandegrift (Austin, TX) varsity football team has an away playoff game @ Bridgeland (Cypress, TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -2576,24 +2672,25 @@
   "description": "The Weslaco (TX) varsity football team has an away playoff game @ Los Fresnos (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "6A D1|mp:dd7f6cd3-513d-4052-afd4-928ea646ddd0|mp:f6ec707a-d56f-4144-ac82-24699ba74ef8": {
   "date": "2026-11-12",
-  "description": "The Reagan (San Antonio, TX) varsity football team has a neutral playoff game vs. Steele (Cibolo, TX) on Thursday, November 12 @ 7p.",
+  "description": "The Reagan (San Antonio, TX) varsity football team has an away playoff game @ Steele (Cibolo, TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Lehnhoff Stadium"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Lehnhoff Stadium",
+  "time": "7:00 PM"
  },
  "6A D1|mp:e095cff2-1a68-48bf-a8cb-7c85ea824e67|mp:70eeef3f-f98a-428c-a0a7-69a6628487e4": {
   "date": "2026-11-13",
   "description": "The Johnson (Buda, TX) varsity football team has an away playoff game @ Lake Travis (Austin, TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -2602,7 +2699,7 @@
   "description": "The Byron Nelson (Trophy Club, TX) varsity football team has an away playoff game @ Martin (Arlington, TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -2611,35 +2708,37 @@
   "description": "The La Joya (TX) varsity football team has an away playoff game @ Harlingen (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "6A D1|mp:e7143c77-1fcf-49b5-866c-6320fdc69f78|mp:232db70e-cc4d-493b-9454-44ab70e4a687": {
   "date": "2026-11-13",
-  "description": "The Permian (Odessa, TX) varsity football team has a neutral playoff game vs. Eastlake (El Paso, TX) on Friday, November 13 @ 7p.",
+  "description": "The Eastlake (El Paso, TX) varsity football team has an away playoff game @ Permian (Odessa, TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Ratliff Stadium Odessa Texas 6pm CST"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Ratliff Stadium Odessa Texas 6pm CST",
+  "time": "7:00 PM"
  },
  "6A D1|mp:eb9891a7-b1a1-4a32-b361-5e2912e8696d|mp:bf77e3be-17df-4ecb-a620-507cade6b4f4": {
   "date": "2026-11-13",
-  "description": "The Fort Bend Travis (Richmond, TX) varsity football team has a neutral playoff game vs. Katy (TX) on Friday, November 13 @ 6:30p.",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Legacy Stadium"
+  "description": "The Fort Bend Travis (Richmond, TX) varsity football team has an away playoff game @ Katy (TX) on Friday, November 13 @ 6:30p.",
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Legacy Stadium",
+  "time": "6:30 PM"
  },
  "6A D1|mp:ee4981b9-3b4c-462c-9ac7-cbb22ec1a98e|mp:caaa42e0-2446-4f0f-a329-ad77256d673f": {
   "date": "2026-11-13",
   "description": "The Copperas Cove (TX) varsity football team has an away playoff game @ Waxahachie (TX) on Friday, November 13 @ 7p.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "6A D1|mp:faa7802b-b5bb-44ad-a560-000e9a89e6df|mp:34cc3bac-1239-4793-94d1-e4b260837617": {
   "date": "2026-11-13",
   "description": "The Dawson (Pearland, TX) varsity football team has an away playoff game @ Lamar (Houston, TX) on Friday, November 13 @ 7p.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -2648,60 +2747,62 @@
   "description": "The Hays (Buda, TX) varsity football team has a neutral playoff game vs. Westlake (Austin, TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "6A D2|mp:06029cb1-3078-461f-bf7e-0a43acf40a7f|mp:315394e9-798b-41ad-af8d-5ea4ea66d784": {
   "date": "2026-11-12",
   "description": "The Dekaney (Houston, TX) varsity football team has a neutral playoff game vs. College Park (The Woodlands, TX) on Thursday, November 12 @ 7p.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "6A D2|mp:0797bfcd-d38c-4077-8d4a-4c3e6201b074|mp:0ce5b8dc-e9d7-4629-9a6b-eebd810ad3fd": {
   "date": "2026-11-13",
-  "description": "The Judson (Converse, TX) varsity football team has a neutral playoff game vs. Brandeis (San Antonio, TX) on Friday, November 13 @ 7:30p.",
+  "description": "The Judson (Converse, TX) varsity football team has an away playoff game @ Brandeis (San Antonio, TX) on Friday, November 13 @ 7:30p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Farris Stadium"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Farris Stadium",
+  "time": "7:30 PM"
  },
  "6A D2|mp:0c82b6cb-fbfe-4204-bc05-717e542d4419|mp:27499ee4-4dfa-4420-9541-1df0cc752365": {
   "date": "2026-11-14",
   "description": "The Warren (San Antonio, TX) varsity football team has a neutral playoff game vs. Alexander (Laredo, TX) on Saturday, November 14 @ 2p.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "2:00 PM"
  },
  "6A D2|mp:0e9106ab-0712-45d0-81e4-5b3a74c060e2|mp:4d737300-e39b-437a-b127-fe573c5f2ae1": {
   "date": "2026-11-13",
-  "description": "The Braswell (Little Elm, TX) varsity football team has a neutral playoff game vs. Walnut Grove (Prosper, TX) on Friday, November 13 @ 7p.",
+  "description": "The Braswell (Little Elm, TX) varsity football team has an away playoff game @ Walnut Grove (Prosper, TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Bi District - at Children's Health Stadium"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Bi District - at Children's Health Stadium",
+  "time": "7:00 PM"
  },
  "6A D2|mp:25344d3c-9f6f-4ee5-9c86-22be0c4b4ad7|mp:0f51b0ba-7e5a-42f3-8fcd-4824f6cbed5e": {
   "date": "2026-11-12",
   "description": "The Churchill (San Antonio, TX) varsity football team has a neutral playoff game vs. Pieper (San Antonio, TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "6A D2|mp:2660bce4-d12b-4e3c-8a9e-2036a7caf5f3|mp:be659aa5-a00a-4d04-95a9-6f53755eadc9": {
   "date": "2026-11-13",
   "description": "The Willis (TX) varsity football team has a neutral playoff game vs. Westfield (Houston, TX) on Friday, November 13 @ 7p.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "6A D2|mp:2c86ab29-2f04-4812-ac27-53de267a76af|mp:ce271035-67da-4c71-b085-b0a727d8e722": {
   "date": "2026-11-13",
   "description": "The Rowlett (TX) varsity football team has a neutral playoff game vs. Longview (TX) on Friday, November 13 @ 7p.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -2710,7 +2811,7 @@
   "description": "The East View (Georgetown, TX) varsity football team has an away playoff game @ Fulshear (TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -2728,7 +2829,7 @@
   "description": "The Edinburg (TX) varsity football team has an away playoff game @ Pharr-San Juan-Alamo North (Pharr, TX) on Thursday, November 12 @ 7p.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -2751,14 +2852,14 @@
   "description": "The Franklin (El Paso, TX) varsity football team has an away playoff game @ Midland (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "6A D2|mp:6c52102d-93b7-4b91-a3b1-809756bf5223|mp:5bd84368-72de-455b-99bd-cfe1ab8cdb8d": {
   "date": "2026-11-13",
   "description": "The Katy Taylor (Katy, TX) varsity football team has a neutral playoff game vs. Ridge Point (Missouri City, TX) on Friday, November 13 @ 7p.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -2776,7 +2877,7 @@
   "description": "The Waller (TX) varsity football team has an away playoff game @ Cedar Park (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -2792,7 +2893,7 @@
  "6A D2|mp:9426bc41-6bf4-40b3-adca-9e0e43693e64|mp:1d8ce25d-8f41-4235-846f-eba8c7051484": {
   "date": "2026-11-13",
   "description": "The Magnolia (TX) varsity football team has a neutral playoff game vs. Cypress Falls (Houston, TX) on Friday, November 13 @ 7p.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -2819,43 +2920,44 @@
   "description": "The Cedar Ridge (Round Rock, TX) varsity football team has a neutral playoff game vs. Dripping Springs (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "6A D2|mp:b4965d0e-831a-43a8-a37d-3943386aca73|mp:435246ce-9c84-4187-b1cd-7b7e403aa4a7": {
   "date": "2026-11-12",
   "description": "The Fort Bend Hightower (Missouri City, TX) varsity football team has an away playoff game @ Tompkins (Katy, TX) on Thursday, November 12 @ 7p.",
-  "read": "2026-11-08T20:17:54+00:00",
-  "site": "Game Details Legacy Stadium, 1830 Katyland Dr, Katy, TX 77493"
+  "read": "2026-11-09T19:52:42+00:00",
+  "site": "Game Details Legacy Stadium, 1830 Katyland Dr, Katy, TX 77493",
+  "time": "7:00 PM"
  },
  "6A D2|mp:b7b7af93-7db3-4ed8-95de-3e38501796ea|mp:6edfa2e8-47d8-4fca-85d9-6b6a82dce5b7": {
   "date": "2026-11-13",
   "description": "The Red Oak (TX) varsity football team has a neutral playoff game vs. Harker Heights (TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "6A D2|mp:d874e33f-7e4b-4222-9538-bef0f64f1e47|mp:2556953b-acd8-4a89-9763-d0fab04e1aac": {
   "date": "2026-11-13",
   "description": "The Atascocita (Humble, TX) varsity football team has a neutral playoff game vs. Barbers Hill (Mt. Belvieu, TX) on Friday, November 13 @ 7p.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "Game Details 6A-D2 Bi-District Playoff",
   "time": "7:00 PM"
  },
  "6A D2|mp:dbe44b91-13a1-4d0d-8f57-09791381aaca|mp:d8af3744-b589-4a12-b5bf-ca8053a8143c": {
   "date": "2026-11-13",
   "description": "The Langham Creek (Houston, TX) varsity football team has a neutral playoff game vs. Tomball (TX) on Friday, November 13 @ 7p.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
  "6A D2|mp:e78f7230-8c7b-4582-aa8c-aa1fa20c34fb|mp:f499e413-1526-400f-bf96-901429c6c741": {
   "date": "2026-11-13",
   "description": "The Manvel (TX) varsity football team has an away playoff game @ Memorial (Houston, TX) on Friday, November 13 @ 7p.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -2880,14 +2982,14 @@
  "6A D2|mp:f574c035-ca19-4267-ba0f-e046392a7ba8|mp:93e448a3-d7b9-4b28-b263-d40d9c53d415": {
   "date": "2026-11-13",
   "description": "The Clear Springs (League City, TX) varsity football team has a neutral playoff game vs. King (Houston, TX) on Friday, November 13 @ 7p.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "Game Details Bi-District",
   "time": "7:00 PM"
  },
  "6A D2|mp:f5a92668-e5bc-497c-b87a-cd0c4736ed9a|mp:52047b67-3a05-463f-9548-27ecbefb36d1": {
   "date": "2026-11-12",
   "description": "The Eagle Pass (TX) varsity football team has a neutral playoff game vs. Sotomayor (San Antonio, TX) on Thursday, November 12 @ 7p.",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -2896,7 +2998,7 @@
   "description": "The Weatherford (TX) varsity football team has an away playoff game @ Southlake Carroll (Southlake, TX) on Friday, November 13 @ 7p.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-09T19:33:53+00:00",
+  "read": "2026-11-09T19:52:42+00:00",
   "site": "Game Details Bi-District Playoff Game",
   "time": "7:00 PM"
  }

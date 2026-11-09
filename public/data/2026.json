@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-09T19:50+00:00",
+    "updated": "2026-11-09T20:04+00:00",
     "games": 352,
     "played": 0,
     "assigned": 211,
@@ -2349,6 +2349,7 @@
       "team2": "Commerce",
       "score2": null,
       "winner": null,
+      "site": "Sam Parker Stadium - Mount Pleasant",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -3153,7 +3154,7 @@
       "stadium": "Walton Field",
       "map_link": "https://goo.gl/maps/GJanAyyu3He6RB5PA",
       "city": "Kermit",
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "time": "6:00 PM"
     },
     {
@@ -4828,7 +4829,7 @@
       "map_link": "https://goo.gl/maps/F9wZMeXxkqjjEzha6",
       "city": "Amarillo",
       "date": "2026-11-12",
-      "time": "6:00 PM"
+      "time": "7:00 PM"
     },
     {
       "year": 2026,

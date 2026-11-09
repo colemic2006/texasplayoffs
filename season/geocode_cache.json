@@ -2369,6 +2369,16 @@
   "stadium": "SAISD Sports Complex",
   "stadium_id": 853
  },
+ "Sam Parker Stadium - Mount Pleasant || Liberty-Eylau v Commerce": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-09",
+  "rules": 7,
+  "site": "Sam Parker Stadium - Mount Pleasant",
+  "stadium": null,
+  "stadium_id": null
+ },
  "San Angelo || Roscoe v Eldorado": {
   "address": "",
   "city": "San Angelo",
