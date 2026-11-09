@@ -1,40 +1,5 @@
 [
  {
-  "site": "Atlanta's Rabbitt Stadium",
-  "game": "Jefferson v Redwater",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Birdville Complex",
-  "game": "Richland v Frisco Reedy",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Canyon's Happy State Bank Sta",
-  "game": "Canadian v Muleshoe",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Coppell's Echols Field",
-  "game": "Hurst Bell v Richardson Berkner",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Denton's Collins Stadium",
-  "game": "Denton Guyer v Frisco Rock Hill",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Don Lucy Stadium Holliday TX",
-  "game": "Coahoma v Holliday",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Dublin's Cervetto Stadium",
-  "game": "Paradise v Llano",
-  "why": "no stadium, school or town matched"
- },
- {
   "site": "Eagle Mountain HS",
   "game": "Millsap v Trinity Leadership",
   "why": "no stadium, school or town matched"
@@ -42,37 +7,12 @@
  {
   "site": "El Paso's SAC 2 Stadium",
   "game": "El Paso Pebble Hills v Midland Lee",
-  "why": "no stadium, school or town matched"
+  "why": "named:SAC 2 Stadium, El Paso"
  },
  {
   "site": "Fort Worth's Kight Stadium",
   "game": "Aledo v Keller Central",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Frisco Ford Center",
-  "game": "Frisco Lone Star v Birdville",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Garland's Homer B. Johnson St",
-  "game": "Edgewood v Valley View",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Gladewater's Murphy Stadium",
-  "game": "West Rusk v New Boston",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Godley's Wildcat Stadium",
-  "game": "Maypearl v Clifton",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Grand Prairie's Gopher-Warrior B",
-  "game": "Whitesboro v Grandview",
-  "why": "no stadium, school or town matched"
+  "why": "named:Kight Stadium, Fort Worth"
  },
  {
   "site": "Highlander Stadium",
@@ -80,33 +20,13 @@
   "why": "no stadium, school or town matched"
  },
  {
-  "site": "Mineola's Meredith Memorial S",
-  "game": "De Kalb v Troup",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Sam Parker Stadium - Mount Pleasant",
-  "game": "Liberty-Eylau v Commerce",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "San Angelo's San Angelo Stadi",
-  "game": "Merkel v Crane",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "San Antonio's Gustafson Stadi",
-  "game": "Yoakum v Carrizo Springs",
-  "why": "no stadium, school or town matched"
+  "site": "Joseph L. Sears III Stadium in Killeen, TX",
+  "game": "Mason v Itasca",
+  "why": "named:Joseph L. Sears III Stadium, Killeen"
  },
  {
   "site": "San Marcos Academy",
   "game": "Apple Springs v Benavides",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Snyder's Teaff Tiger Stadium",
-  "game": "Shallowater v Odessa Compass Academy",
   "why": "no stadium, school or town matched"
  },
  {
