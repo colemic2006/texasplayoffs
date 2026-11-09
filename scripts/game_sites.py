@@ -160,7 +160,7 @@ def miles(a, b):
     return 3959 * 2 * math.asin(math.sqrt(h))
 
 
-def nominatim(q, town='', zipcode='', near=None):
+def nominatim(q, town='', zipcode='', near=None, strict_zip=False):
     """Coordinates for a search (text, or a dict of structured fields). With a town or ZIP
     given, a result only counts if it is in that town or ZIP code -- a search for "Crosby,
     Texas" must not land in Crosby County. With near=(lat, lng, miles), it must be that close."""
@@ -177,6 +177,8 @@ def nominatim(q, town='', zipcode='', near=None):
         if town or zipcode:
             in_town = town and any(norm(a.get(k, '')) == norm(town) for k in PLACE_KEYS)
             in_zip = zipcode and a.get('postcode', '').startswith(zipcode)
+            if strict_zip and zipcode and a.get('postcode') and not in_zip:
+                continue   # two towns share a name (Cedar Creek near Bastrop, and another 90 miles east)
             if not (in_town or in_zip):
                 continue
         if near and miles(near[:2], (float(h['lat']), float(h['lon']))) > near[2]:
@@ -363,9 +365,9 @@ def locate(games, review_path=None):
         elif how.startswith('address:'):
             text = how[8:]
             t, z = town_in(text), (re.findall(r'\b(\d{5})\b', text) or [''])[-1]
-            tries = [(text if re.search(r'\b(TX|Texas)\b', text) else text + ', Texas', 'address in site text', t, z)]
+            tries = [(text if re.search(r'\b(TX|Texas)\b', text) else text + ', Texas', 'address in site text', t, z, None, True)]
             if ',' in text and t:
-                tries.append((dict(city=t, state='Texas'), 'town (approximate)', t, z))
+                tries.append((dict(city=t, state='Texas', **({'postalcode': z} if z else {})), 'town (approximate)', t, z, None, True))
         else:
             tries = []
         # the town the game is in, for "Stadium, Town, TX"
@@ -373,9 +375,9 @@ def locate(games, review_path=None):
             (how.split(':', 1)[1].rsplit(',', 1)[-1].strip() if how.startswith(('named:', 'named+town:')) else '') or \
             (town_in(how[8:]) if how.startswith('address:') else '')
         coords = None
-        for q, q_how, want_town, want_zip, *near in tries:
+        for q, q_how, want_town, want_zip, *more in tries:
             try:
-                coords = nominatim(q, want_town, want_zip, near[0] if near else None)
+                coords = nominatim(q, want_town, want_zip, *more)
             except Exception as e:
                 print(f'  ! geocode {q}: {e}')
             time.sleep(1.1)   # Nominatim allows one request a second

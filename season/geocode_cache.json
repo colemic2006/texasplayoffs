@@ -1109,17 +1109,6 @@
   "stadium": "Creek View High School Stadium",
   "stadium_id": 5839
  },
- "Crosby High School || Orangefield v Trinity": {
-  "address": "14703 FM 2100 Rd., Crosby, Texas 77532",
-  "city": "Crosby",
-  "how": "school (town only)",
-  "lat": 33.57788,
-  "lng": -101.28557,
-  "map_link": "https://goo.gl/maps/u5VxZUufEKjjSTaa8",
-  "site": "Crosby High School",
-  "stadium": "Cougar Stadium",
-  "stadium_id": 615
- },
  "Crosby ISD Cougar Stadium || Orangefield v Trinity": {
   "address": "14703 FM 2100 Rd., Crosby, Texas 77532",
   "city": "Crosby",
@@ -2956,32 +2945,6 @@
   "site": "Memorial Stadium, Alice",
   "stadium": "Memorial Stadium",
   "stadium_id": 889
- },
- "Memorial Stadium, Bastrop || Bastrop v Victoria West": {
-  "address": "",
-  "city": "Cedar Creek",
-  "confirmed_as": "755 TX-21 W, Cedar Creek, TX 78612",
-  "how": "town (approximate)",
-  "lat": 30.19466,
-  "lng": -96.06024,
-  "map_link": "",
-  "rules": 10,
-  "site": "Memorial Stadium, Bastrop",
-  "stadium": null,
-  "stadium_id": null
- },
- "Memorial Stadium, Bastrop || Rice Consolidated v Rogers": {
-  "address": "",
-  "city": "Cedar Creek",
-  "confirmed_as": "755 TX-21 W, Cedar Creek, TX 78612",
-  "how": "town (approximate)",
-  "lat": 30.19466,
-  "lng": -96.06024,
-  "map_link": "",
-  "rules": 10,
-  "site": "Memorial Stadium, Bastrop",
-  "stadium": null,
-  "stadium_id": null
  },
  "Memorial Stadium, Hutto || Robinson v Giddings": {
   "address": "573 Chris Kelley Blvd, Hutto, Texas 78634",
