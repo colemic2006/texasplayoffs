@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parent.parent
 CACHE = ROOT / 'season' / 'geocode_cache.json'
 UA = 'texasplayoffs.com season map (https://texasplayoffs.com)'
 RETRY_MISS_DAYS = 3
-RULES = 7   # bump when the matching rules change: every site is looked up again under the new rules
+RULES = 8   # bump when the matching rules change: every site is looked up again under the new rules
 
 
 SCHOOLS = ROOT / 'season' / 'texasbob_schools.json'   # [[stadium_id, city, school, stadium], ...]
@@ -109,6 +109,10 @@ def find_stadium(site, stadiums, teams=()):
         words = norm(re.split(r'[,(;]| - | in ', site)[0])
         if len(words.split()) >= 2:
             named = [st for st in stadiums if f' {words} ' in f' {norm(st["name"])} ']
+            if not named:   # MaxPreps cuts long names off mid-word ("Meredith Memorial S"):
+                # only good enough with the stadium's town in the text too
+                named = [st for st in stadiums if f' {norm(st["name"])}'.find(f' {words}') >= 0
+                         and st.get('city') and f' {norm(st["city"])} ' in s]
     in_city = [st for st in named if st.get('city') and f' {norm(st["city"])} ' in s]
     for group in (in_city, named, [st for st in named if plays_there(st, teams)]):
         if len({(st['name'], st.get('city')) for st in group}) == 1:
@@ -160,11 +164,44 @@ def nominatim(q, town='', zipcode='', near=None):
 DISTRICT = re.compile(r'^(.+?)\s+C?ISD\s+(.+)$')
 
 
+def reword(site, schools):
+    """MaxPreps' other ways of naming a town: "Denton's Collins Stadium", "Sam Parker Stadium -
+    Mount Pleasant", "Don Lucy Stadium Holliday TX" all become "Stadium, Town"."""
+    towns = {norm(r[1]) for r in schools}
+    m = re.match(r"^(.+?)'s\s+(.+)$", site)
+    if m and norm(m.group(1)) in towns:
+        return f'{m.group(2)}, {m.group(1)}'
+    m = re.match(r'^(.+?)\s+-\s+([A-Za-z .]+)$', site)
+    if m and norm(m.group(2)) in towns:
+        return f'{m.group(1)}, {m.group(2)}'
+    m = re.match(r'^(.+?)\s+((?:\w+\s+){0,2}\w+),?\s+(?:TX|Texas)$', site)
+    if m:
+        words = m.group(2).split()
+        for i in range(len(words)):   # the longest tail that is a town ("Mount Pleasant", "Holliday")
+            town = ' '.join(words[i:])
+            if norm(town) in towns:
+                return re.sub(r'\s+(in|at)$', '', f"{m.group(1)} {' '.join(words[:i])}".strip()) + f', {town}'
+    return site
+
+
+GENERIC = {'stadium', 'stadi', 'field', 'complex', 'memorial', 'bowl', 'the', 'park', 'athletic', 'athletics',
+           'sports', 'center', 'isd', 'cisd', 'high', 'school', 'hs', 'at', 'and', 'of', 'district'}
+
+
+def same_place(text, name):
+    """Does the text name this stadium? A distinctive word in common, allowing one typo or a
+    cut-off end ("Rabbitt Stadium" / "Rabbit Stadium", "Teaff Tiger Stadium" / "Grant Teaff Tiger Stadium")."""
+    a = [w for w in norm(text).split() if w not in GENERIC and len(w) >= 4]
+    b = [w for w in norm(name).split() if w not in GENERIC and len(w) >= 4]
+    return any(x == y or x.startswith(y) or y.startswith(x) for x in a for y in b)
+
+
 def resolve(site, stadiums, schools, teams=()):
     """(stadium or None, how) for a site; a town alone gives (None, 'town:<name>').
     "Katy ISD Legacy Stadium" is read as "Legacy Stadium, Katy"; if that isn't a known
     stadium it is looked up as written ("Tully Stadium, Spring Branch") -- never placed
     at the district's town, which may be somewhere else entirely."""
+    site = reword(site, schools)
     whole = find_stadium(site, stadiums, teams)
     if whole:
         return whole, 'stadium'   # the full name is a known stadium ("Argyle ISD Stadium")
@@ -179,8 +216,25 @@ def resolve(site, stadiums, schools, teams=()):
     if st or how.startswith(('town:', 'address:')) or ',' not in site:
         return st, how
     # "Groom High School, Football Field": try each part on its own
-    for part in [p.strip() for p in site.split(',') if p.strip()]:
-        pst, phow = resolve_plain(part, stadiums, schools, teams)
+    towns = {norm(r[1]): r[1] for r in schools}
+    parts = [p.strip() for p in site.split(',') if p.strip()]
+    for part in parts:
+        if norm(part) in towns:   # a town is a town, not "El Paso Field" in Shamrock
+            # "Atlanta's Rabbitt Stadium": a town with one stadium means that one
+            in_town = {r[0] for r in schools if norm(r[1]) == norm(part)}
+            pst = next((x for x in stadiums if x.get('id') in in_town), None) if len(in_town) == 1 else None
+            named_here = ', '.join(p for p in parts if p != part) + ', ' + towns[norm(part)]
+            if pst and len(parts) > 1 and not same_place(named_here, pst['name']):
+                # the town's one stadium isn't the one named ("Mustang-Panther" isn't "Gopher Warrior
+                # Bowl"): look the named one up, falling back to the (small) town
+                return None, 'named+town:' + named_here
+            phow = 'town' if pst else 'town:' + towns[norm(part)]
+            if not pst and len(in_town) > 1 and len(parts) > 1:
+                # an unknown stadium in a city with several ("Kight Stadium, Fort Worth"): only the
+                # stadium itself, found by name in that city, will do -- never the city's middle
+                return None, 'named:' + named_here
+        else:
+            pst, phow = resolve_plain(part, stadiums, schools, teams)
         if pst or phow.startswith('town:'):
             return pst, phow
     return st, how
@@ -266,6 +320,12 @@ def locate(games, review_path=None):
             time.sleep(1.1)
             if center:
                 tries.append((how[9:] + ', Texas', 'stadium found by name, near the district', '', '', (*center, 20)))
+        elif how.startswith(('named:', 'named+town:')):
+            text = how.split(':', 1)[1]
+            t = text.rsplit(',', 1)[-1].strip()
+            tries = [(text + ', Texas', 'stadium found by name', t, '')]
+            if how.startswith('named+town:'):
+                tries.append((dict(city=t, state='Texas'), 'town (approximate)', t, ''))
         elif how.startswith('address:'):
             text = how[8:]
             t, z = town_in(text), (re.findall(r'\b(\d{5})\b', text) or [''])[-1]
@@ -276,6 +336,7 @@ def locate(games, review_path=None):
             tries = []
         # the town the game is in, for "Stadium, Town, TX"
         town = (st or {}).get('city') or (how[5:] if how.startswith('town:') else '') or \
+            (how.split(':', 1)[1].rsplit(',', 1)[-1].strip() if how.startswith(('named:', 'named+town:')) else '') or \
             (town_in(how[8:]) if how.startswith('address:') else '')
         coords = None
         for q, q_how, want_town, want_zip, *near in tries:
