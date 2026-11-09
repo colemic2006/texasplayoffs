@@ -209,6 +209,17 @@
   "stadium": "Switzer Field",
   "stadium_id": 161
  },
+ "Bovina High School, Football Field || Gruver v Plains": {
+  "address": "606 Halsell St, Bovina, Texas 79009",
+  "city": "Bovina",
+  "how": "school",
+  "lat": 34.51329,
+  "lng": -102.88816,
+  "map_link": "https://goo.gl/maps/E3UVJGncjTLrKgsH8",
+  "site": "Bovina High School, Football Field",
+  "stadium": "Mustang Stadium",
+  "stadium_id": 797
+ },
  "Bovina || Gruver v Plains": {
   "address": "606 Halsell St, Bovina, Texas 79009",
   "city": "Bovina",
@@ -364,6 +375,28 @@
   "stadium": "Fair Park Stadium",
   "stadium_id": 760
  },
+ "Childress High School, Fair Park || Haskell v Clarendon": {
+  "address": "312 Ave. I NW, Childress, Texas 79201",
+  "city": "Childress",
+  "how": "school",
+  "lat": 34.51966,
+  "lng": -100.20677,
+  "map_link": "https://goo.gl/maps/T5USJpM1hofREJkc6",
+  "site": "Childress High School, Fair Park",
+  "stadium": "Fair Park Stadium",
+  "stadium_id": 760
+ },
+ "Childress High School, Fair Park || Wellington v Munday": {
+  "address": "312 Ave. I NW, Childress, Texas 79201",
+  "city": "Childress",
+  "how": "school",
+  "lat": 34.51966,
+  "lng": -100.20677,
+  "map_link": "https://goo.gl/maps/T5USJpM1hofREJkc6",
+  "site": "Childress High School, Fair Park",
+  "stadium": "Fair Park Stadium",
+  "stadium_id": 760
+ },
  "Cisco High School || Wall v Bowie": {
   "address": "300 Front St, Cisco, Texas 76437",
   "city": "Cisco",
@@ -372,6 +405,17 @@
   "lng": -98.99193,
   "map_link": "https://goo.gl/maps/gtBB4MnLCqAxAhcm8",
   "site": "Cisco High School",
+  "stadium": "Chesley Stadium",
+  "stadium_id": 486
+ },
+ "Cisco High School, Cisco High School || Wall v Bowie": {
+  "address": "300 Front St, Cisco, Texas 76437",
+  "city": "Cisco",
+  "how": "school",
+  "lat": 32.38734,
+  "lng": -98.99193,
+  "map_link": "https://goo.gl/maps/gtBB4MnLCqAxAhcm8",
+  "site": "Cisco High School, Cisco High School",
   "stadium": "Chesley Stadium",
   "stadium_id": 486
  },
@@ -565,6 +609,17 @@
   "stadium": "Mustang Stadium",
   "stadium_id": 995
  },
+ "Denver City High School, Football Field || El Paso Andress v Dumas": {
+  "address": "601 Mustang Ave, Denver City, Texas 79323",
+  "city": "Denver City",
+  "how": "school",
+  "lat": 32.97337,
+  "lng": -102.83726,
+  "map_link": "https://goo.gl/maps/kxG68a59E33aYR1v6",
+  "site": "Denver City High School, Football Field",
+  "stadium": "Mustang Stadium",
+  "stadium_id": 995
+ },
  "Diboll High School || Overton v Evadale": {
   "address": "Lumberjack Dr & Arrington Rd, Diboll, Texas 75941",
   "city": "Diboll",
@@ -699,6 +754,17 @@
   "stadium": "Peoples Bank Stadium",
   "stadium_id": 823
  },
+ "Frenship High School, People's Bank Stadium || Sweetwater v Dalhart": {
+  "address": "Tiger St. & FM 179, Wolfforth, Texas 79382",
+  "city": "Wolfforth",
+  "how": "school",
+  "lat": 33.51832,
+  "lng": -102.0066,
+  "map_link": "https://goo.gl/maps/yTzp5e5h4y9HwbGZ9",
+  "site": "Frenship High School, People's Bank Stadium",
+  "stadium": "Peoples Bank Stadium",
+  "stadium_id": 823
+ },
  "Galena Park ISD Stadium || Galena Park North Shore v Deer Park": {
   "address": "15025 Wallisville Rd, Houston, Texas 77015",
   "city": "Houston",
@@ -732,6 +798,17 @@
   "stadium": "Newton Field",
   "stadium_id": 688
  },
+ "Graham High School, Graham High School || Cisco v Nocona": {
+  "address": "1100 Calaveras St, Graham, Texas 76450",
+  "city": "Graham",
+  "how": "school",
+  "lat": 33.09504,
+  "lng": -98.58039,
+  "map_link": "https://goo.gl/maps/5cwr5aXZ47YTGrxb7",
+  "site": "Graham High School, Graham High School",
+  "stadium": "Newton Field",
+  "stadium_id": 688
+ },
  "Greg Sherwood Memorial Bulldog Stadium || Slaton v Friona": {
   "address": "",
   "city": "Plainview",
@@ -744,6 +821,18 @@
   "stadium": null,
   "stadium_id": null
  },
+ "Greg Sherwood Memorial Bulldog Stadium, Stadium || Slaton v Friona": {
+  "address": "W 24th St at Yonkers St, Plainview, Texas 79072",
+  "city": "Plainview",
+  "confirmed_as": "Greg Sherwood Memorial Bulldog Stadium, Plainview",
+  "how": "school (town only)",
+  "lat": 34.18479,
+  "lng": -101.70684,
+  "map_link": "https://goo.gl/maps/ic96ws2fQmQuXh4m8",
+  "site": "Greg Sherwood Memorial Bulldog Stadium, Stadium",
+  "stadium": "Greg Sherwood Memorial Stadium",
+  "stadium_id": 735
+ },
  "Groom High School || Boys Ranch v Nazareth": {
   "address": "304 W 3rd St, Groom, Texas 79039",
   "city": "Groom",
@@ -752,6 +841,17 @@
   "lng": -101.10964,
   "map_link": "https://goo.gl/maps/pMaHcCPRSV2aidgG7",
   "site": "Groom High School",
+  "stadium": "Tiger Field",
+  "stadium_id": 820
+ },
+ "Groom High School, Football Field || Boys Ranch v Nazareth": {
+  "address": "304 W 3rd St, Groom, Texas 79039",
+  "city": "Groom",
+  "how": "school",
+  "lat": 35.20489,
+  "lng": -101.11046,
+  "map_link": "https://goo.gl/maps/pMaHcCPRSV2aidgG7",
+  "site": "Groom High School, Football Field",
   "stadium": "Tiger Field",
   "stadium_id": 820
  },
@@ -874,6 +974,17 @@
   "lng": -100.57386,
   "map_link": "https://goo.gl/maps/8DYkDAKd97hjqzdz7",
   "site": "Jayton High School",
+  "stadium": "Jaybird Stadium",
+  "stadium_id": 778
+ },
+ "Jayton High School, Stadium || Jayton v Kress": {
+  "address": "700 Madison St, Jayton, Texas 79528",
+  "city": "Jayton",
+  "how": "town (town only)",
+  "lat": 33.24807,
+  "lng": -100.57386,
+  "map_link": "https://goo.gl/maps/8DYkDAKd97hjqzdz7",
+  "site": "Jayton High School, Stadium",
   "stadium": "Jaybird Stadium",
   "stadium_id": 778
  },
@@ -1033,6 +1144,17 @@
   "stadium": "Lobo Stadium",
   "stadium_id": 786
  },
+ "Levelland High School, Lobo Stadium || Idalou v Dimmitt": {
+  "address": "1406 Ellis, Levelland, Texas 79336",
+  "city": "Levelland",
+  "how": "stadium",
+  "lat": 33.60072,
+  "lng": -102.34339,
+  "map_link": "https://goo.gl/maps/ZM9mBCF3zC377H856",
+  "site": "Levelland High School, Lobo Stadium",
+  "stadium": "Lobo Stadium",
+  "stadium_id": 786
+ },
  "Longview ISD Lobo Stadium || Longview v Rowlett": {
   "address": "Airline Rd at Hawkins Pkwy, Longview, Texas 75605",
   "city": "Longview",
@@ -1055,6 +1177,30 @@
   "site": "Lowrey Field",
   "stadium": null,
   "stadium_id": null
+ },
+ "Lowrey Field, PlainsCapital Park || Brock v Perryton": {
+  "address": "Avenue P at 66th St, Lubbock, Texas 79412",
+  "city": "Lubbock",
+  "confirmed_as": "Lowrey Field at PlainsCapital Park, Lubbock",
+  "how": "school (town only)",
+  "lat": 33.58557,
+  "lng": -101.84702,
+  "map_link": "https://goo.gl/maps/8DGWRhdF8PcJ6Znn7",
+  "site": "Lowrey Field, PlainsCapital Park",
+  "stadium": "Lowery Field at Plains Capital Park",
+  "stadium_id": 791
+ },
+ "Lowrey Field, PlainsCapital Park || Bushland v Jim Ned": {
+  "address": "Avenue P at 66th St, Lubbock, Texas 79412",
+  "city": "Lubbock",
+  "confirmed_as": "Lowrey Field at PlainsCapital Park, Lubbock",
+  "how": "school (town only)",
+  "lat": 33.58557,
+  "lng": -101.84702,
+  "map_link": "https://goo.gl/maps/8DGWRhdF8PcJ6Znn7",
+  "site": "Lowrey Field, PlainsCapital Park",
+  "stadium": "Lowery Field at Plains Capital Park",
+  "stadium_id": 791
  },
  "Lufkin ISD Abe Martin Stadium || Silsbee v Madisonville": {
   "address": "309 South Medford Dr., Lufkin, Texas 75902",
@@ -1180,6 +1326,17 @@
   "stadium": "Estes Memorial Stadium",
   "stadium_id": 495
  },
+ "Monahans High School, Estes Memorial Stadium || Monahans v Clint": {
+  "address": "700 W 10th, Monahans, Texas 79756",
+  "city": "Monahans",
+  "how": "stadium",
+  "lat": 31.58382,
+  "lng": -102.89709,
+  "map_link": "https://goo.gl/maps/yPYAiviWYXsXwswA9",
+  "site": "Monahans High School, Estes Memorial Stadium",
+  "stadium": "Estes Memorial Stadium",
+  "stadium_id": 495
+ },
  "Montgomery ISD Athletic Complex || Montgomery v Dayton": {
   "address": "",
   "how": "stadium found by name",
@@ -1199,6 +1356,18 @@
   "lng": -106.15839,
   "map_link": "https://goo.gl/maps/FdFekKEL4gwiRHNh9",
   "site": "Mountain View HS",
+  "stadium": "Lobo Stadium",
+  "stadium_id": 313
+ },
+ "Mountain View HS, Football Field || Clint Mountain View v Big Spring": {
+  "address": "14964 Greg Dr, El Paso, Texas 79938",
+  "city": "El Paso",
+  "confirmed_as": "Lobo Stadium, El Paso",
+  "how": "stadium",
+  "lat": 31.79748,
+  "lng": -106.15839,
+  "map_link": "https://goo.gl/maps/FdFekKEL4gwiRHNh9",
+  "site": "Mountain View HS, Football Field",
   "stadium": "Lobo Stadium",
   "stadium_id": 313
  },
@@ -1334,6 +1503,17 @@
   "stadium": "Buffalo Stadium",
   "stadium_id": 730
  },
+ "Petersburg High School, Football Field || Happy v Hermleigh": {
+  "address": "1411 W 4th St, Petersburg, Texas 79250",
+  "city": "Petersburg",
+  "how": "school",
+  "lat": 33.87087,
+  "lng": -101.60416,
+  "map_link": "https://goo.gl/maps/wLaVtEYg4Nvitjr89",
+  "site": "Petersburg High School, Football Field",
+  "stadium": "Buffalo Stadium",
+  "stadium_id": 730
+ },
  "Pittsburg High School || Atlanta v Mount Vernon": {
   "address": "300 N Texas St., Pittsburg, Texas 75686",
   "city": "Pittsburg",
@@ -1444,6 +1624,17 @@
   "stadium": null,
   "stadium_id": null
  },
+ "San Angelo, Stadium || Roscoe v Eldorado": {
+  "address": "1919 Knickerbocker Rd, San Angelo, Texas 76904",
+  "city": "San Angelo",
+  "how": "stadium",
+  "lat": 31.43046,
+  "lng": -100.46004,
+  "map_link": "https://goo.gl/maps/zSVX5h2VG152aGnt9",
+  "site": "San Angelo, Stadium",
+  "stadium": "San Angelo Stadium",
+  "stadium_id": 1004
+ },
  "San Antonio ISD Alamo Stadium || San Antonio Sam Houston v Legacy Ranch": {
   "address": "760 Stadium Dr., San Antonio, Texas 78212",
   "city": "San Antonio",
@@ -1477,6 +1668,17 @@
   "stadium": "Wigwam Stadium",
   "stadium_id": 829
  },
+ "Seminole HS, Football Field || Seminole v Bowie": {
+  "address": "NW Ave F at NW 8th, Seminole, Texas 79360",
+  "city": "Seminole",
+  "how": "school",
+  "lat": 32.71674,
+  "lng": -102.6491,
+  "map_link": "https://goo.gl/maps/Ldj6eueXwab4Znh6A",
+  "site": "Seminole HS, Football Field",
+  "stadium": "Wigwam Stadium",
+  "stadium_id": 829
+ },
  "Sheldon ISD Panther Stadium || Houston King v Clear Springs": {
   "address": "11433C East Sam Houston Parkway North, Houston, Texas 77044",
   "city": "Houston",
@@ -1487,6 +1689,17 @@
   "site": "Sheldon ISD Panther Stadium",
   "stadium": "Sheldon ISD Panther Stadium",
   "stadium_id": 3381
+ },
+ "Silverton High School, Football Field || Motley County v Lefors": {
+  "address": "700 Loretta St, Silverton, Texas 79257",
+  "city": "Silverton",
+  "how": "school",
+  "lat": 34.47077,
+  "lng": -101.30942,
+  "map_link": "https://goo.gl/maps/qG4KzVeeHVviUgVh9",
+  "site": "Silverton High School, Football Field",
+  "stadium": "Payne Field",
+  "stadium_id": 801
  },
  "Smithson Valley Ranger Stadium || Smithson Valley v Laredo Nixon": {
   "address": "14001 State Highway 46 W, Spring Branch, Texas 78070",
@@ -1507,6 +1720,17 @@
   "lng": -100.93113,
   "map_link": "https://maps.app.goo.gl/isXFJpXnaUGkXRir6",
   "site": "Snyder High School",
+  "stadium": "Grant Teaff Tiger Stadium",
+  "stadium_id": 1009
+ },
+ "Snyder High School, Snyder High School || Stanton v Henrietta": {
+  "address": "3901 Denison Ave, Snyder, Texas 79549",
+  "city": "Snyder",
+  "how": "school",
+  "lat": 32.69666,
+  "lng": -100.93113,
+  "map_link": "https://maps.app.goo.gl/isXFJpXnaUGkXRir6",
+  "site": "Snyder High School, Snyder High School",
   "stadium": "Grant Teaff Tiger Stadium",
   "stadium_id": 1009
  },
@@ -1544,6 +1768,17 @@
   "stadium": "Wolverine Stadium",
   "stadium_id": 834
  },
+ "Springlake-Earth HS, Football Field || Hart v Meadow": {
+  "address": "472 FM302, Earth, Texas 79031",
+  "city": "Earth",
+  "how": "school (town only)",
+  "lat": 34.23314,
+  "lng": -102.41075,
+  "map_link": "https://goo.gl/maps/XQdNd8GbXJMxWJfy5",
+  "site": "Springlake-Earth HS, Football Field",
+  "stadium": "Wolverine Stadium",
+  "stadium_id": 834
+ },
  "Stephenville's Art Briles Stadium || Peaster v Early": {
   "address": "N Wolfe Nursery Rd, Stephenville, Texas 76401",
   "city": "Stephenville",
@@ -1563,6 +1798,17 @@
   "lng": -100.98764,
   "map_link": "https://goo.gl/maps/UkbX6mwgTKGdcLHg7",
   "site": "Sterling City High School",
+  "stadium": "Eagle Stadium",
+  "stadium_id": 493
+ },
+ "Sterling City High School, Stadium || Robert Lee v Water Valley": {
+  "address": "700 7th St, Sterling City, Texas 76951",
+  "city": "Sterling City",
+  "how": "school",
+  "lat": 31.84135,
+  "lng": -100.98764,
+  "map_link": "https://goo.gl/maps/UkbX6mwgTKGdcLHg7",
+  "site": "Sterling City High School, Stadium",
   "stadium": "Eagle Stadium",
   "stadium_id": 493
  },
