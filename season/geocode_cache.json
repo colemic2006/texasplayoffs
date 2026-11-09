@@ -97,6 +97,18 @@
   "stadium": "Alvin ISD Freedom Field",
   "stadium_id": 1758
  },
+ "Andrews HS || El Paso Riverside v Canyon": {
+  "address": "918 NW Mustang Dr, Andrews, Texas 79714",
+  "city": "Andrews",
+  "how": "school",
+  "lat": 32.32274,
+  "lng": -102.57009,
+  "map_link": "https://maps.app.goo.gl/DZWYSntZDeRASZYz9",
+  "rules": 8,
+  "site": "Andrews HS",
+  "stadium": "Mustang Bowl",
+  "stadium_id": 992
+ },
  "Andrews HS || El Paso Riverside v New Braunfels Canyon": {
   "address": "918 NW Mustang Dr, Andrews, Texas 79714",
   "city": "Andrews",
@@ -1895,6 +1907,18 @@
   "stadium_id": 1656
  },
  "McKee Stadium || El Paso Chapin v Von Ormy Southwest Legacy": {
+  "address": "3500 Memphis, El Paso, Texas 79930",
+  "city": "El Paso",
+  "how": "stadium",
+  "lat": 31.79846,
+  "lng": -106.45073,
+  "map_link": "https://goo.gl/maps/BPGAcNmUzMMcN1FJ6",
+  "rules": 8,
+  "site": "McKee Stadium",
+  "stadium": "McKee Stadium",
+  "stadium_id": 591
+ },
+ "McKee Stadium || El Paso Chapin v Wichita Falls Legacy": {
   "address": "3500 Memphis, El Paso, Texas 79930",
   "city": "El Paso",
   "how": "stadium",

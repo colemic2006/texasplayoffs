@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-09T21:31+00:00",
+    "updated": "2026-11-09T21:41+00:00",
     "games": 352,
     "played": 0,
     "assigned": 230,
@@ -3309,6 +3309,11 @@
       "score2": null,
       "winner": null,
       "site": "Andrews HS",
+      "lat": 32.32274,
+      "lng": -102.57009,
+      "stadium": "Mustang Bowl",
+      "map_link": "https://maps.app.goo.gl/DZWYSntZDeRASZYz9",
+      "city": "Andrews",
       "date": "2026-11-12",
       "time": "6:00 PM"
     },
@@ -4897,6 +4902,11 @@
       "score2": null,
       "winner": null,
       "site": "McKee Stadium",
+      "lat": 31.79846,
+      "lng": -106.45073,
+      "stadium": "McKee Stadium",
+      "map_link": "https://goo.gl/maps/BPGAcNmUzMMcN1FJ6",
+      "city": "El Paso",
       "date": "2026-11-13",
       "time": "7:30 PM"
     },
