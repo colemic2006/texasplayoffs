@@ -41,7 +41,7 @@
       "classification": "5A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "WC",
+      "chapter": "WAC",
       "team1": "DeSoto",
       "score1": 67,
       "team2": "Copperas Cove",
@@ -329,7 +329,7 @@
       "classification": "5A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "CCC",
+      "chapter": "STX",
       "team1": "Weslaco",
       "score1": 21,
       "team2": "Los Fresnos",
@@ -1229,7 +1229,7 @@
       "classification": "5A D2",
       "week": 2,
       "round": "Area",
-      "chapter": "WC",
+      "chapter": "WAC",
       "team1": "A&M Consolidated",
       "score1": 41,
       "team2": "Austin Westlake",
@@ -1649,7 +1649,7 @@
       "classification": "4A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "WC",
+      "chapter": "WAC",
       "team1": "Mansfield Summit",
       "score1": 25,
       "team2": "Nacogdoches",
@@ -1709,7 +1709,7 @@
       "classification": "4A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "WC",
+      "chapter": "WAC",
       "team1": "Manor",
       "score1": 20,
       "team2": "Magnolia West",
@@ -1913,7 +1913,7 @@
       "classification": "4A D1",
       "week": 2,
       "round": "Area",
-      "chapter": "SJC",
+      "chapter": "SAN",
       "team1": "Denton Guyer",
       "score1": 42,
       "team2": "Waco",
@@ -2345,7 +2345,7 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "WC",
+      "chapter": "WAC",
       "team1": "Wichita Falls High School",
       "score1": 17,
       "team2": "Fort Worth Dunbar",
@@ -2993,7 +2993,7 @@
       "classification": "4A D2",
       "week": 5,
       "round": "Semifinal",
-      "chapter": "WC",
+      "chapter": "WAC",
       "team1": "Aledo",
       "score1": 29,
       "team2": "Ennis",
@@ -3101,7 +3101,7 @@
       "classification": "3A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "WC",
+      "chapter": "WAC",
       "team1": "Burkburnett",
       "score1": 28,
       "team2": "Kennedale",
@@ -3125,7 +3125,7 @@
       "classification": "3A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "WC",
+      "chapter": "WAC",
       "team1": "Decatur",
       "score1": 62,
       "team2": "Carrollton Ranchview",
@@ -3185,7 +3185,7 @@
       "classification": "3A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "CM",
+      "chapter": "COM",
       "team1": "Ferris",
       "score1": 22,
       "team2": "Princeton",
@@ -3497,7 +3497,7 @@
       "classification": "3A D1",
       "week": 2,
       "round": "Area",
-      "chapter": "WC",
+      "chapter": "WAC",
       "team1": "Kaufman",
       "score1": 14,
       "team2": "Kilgore",
@@ -3569,7 +3569,7 @@
       "classification": "3A D1",
       "week": 2,
       "round": "Area",
-      "chapter": "CCC",
+      "chapter": "STX",
       "team1": "Rockport-Fulton",
       "score1": 14,
       "team2": "Kingsville King",
@@ -3641,7 +3641,7 @@
       "classification": "3A D1",
       "week": 3,
       "round": "Regional",
-      "chapter": "WC",
+      "chapter": "WAC",
       "team1": "Frisco Lone Star",
       "score1": 21,
       "team2": "Kilgore",
@@ -3653,7 +3653,7 @@
       "classification": "3A D1",
       "week": 3,
       "round": "Regional",
-      "chapter": "WC",
+      "chapter": "WAC",
       "team1": "Jasper",
       "score1": 16,
       "team2": "West Orange-Stark",
@@ -3797,7 +3797,7 @@
       "classification": "3A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "SJC",
+      "chapter": "SAN",
       "team1": "Clint",
       "score1": 21,
       "team2": "Snyder",
@@ -4121,7 +4121,7 @@
       "classification": "3A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "CCC",
+      "chapter": "STX",
       "team1": "Wharton",
       "score1": 59,
       "team2": "Yoakum",
@@ -4205,7 +4205,7 @@
       "classification": "3A D2",
       "week": 2,
       "round": "Area",
-      "chapter": "WC",
+      "chapter": "WAC",
       "team1": "Vernon",
       "score1": 34,
       "team2": "Liberty Hill",
@@ -4301,7 +4301,7 @@
       "classification": "3A D2",
       "week": 2,
       "round": "Area",
-      "chapter": "WC",
+      "chapter": "WAC",
       "team1": "Coldspring-Oakhurst",
       "score1": 37,
       "team2": "La Marque",
@@ -4373,7 +4373,7 @@
       "classification": "3A D2",
       "week": 3,
       "round": "Regional",
-      "chapter": "WC",
+      "chapter": "WAC",
       "team1": "Shallowater",
       "score1": 35,
       "team2": "Vernon",
@@ -4385,7 +4385,7 @@
       "classification": "3A D2",
       "week": 3,
       "round": "Regional",
-      "chapter": "WC",
+      "chapter": "WAC",
       "team1": "Gainesville",
       "score1": 17,
       "team2": "Gladewater",
@@ -4433,7 +4433,7 @@
       "classification": "3A D2",
       "week": 3,
       "round": "Regional",
-      "chapter": "WC",
+      "chapter": "WAC",
       "team1": "Cuero",
       "score1": 19,
       "team2": "Sinton",
@@ -4457,7 +4457,7 @@
       "classification": "3A D2",
       "week": 4,
       "round": "Quarterfinal",
-      "chapter": "WC",
+      "chapter": "WAC",
       "team1": "Graham",
       "score1": 45,
       "team2": "Shallowater",
@@ -4553,7 +4553,7 @@
       "classification": "2A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "WC",
+      "chapter": "WAC",
       "team1": "Clyde",
       "score1": 30,
       "team2": "Comfort",
@@ -4877,7 +4877,7 @@
       "classification": "2A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "CCC",
+      "chapter": "STX",
       "team1": "Santa Rosa",
       "score1": 13,
       "team2": "Goliad",
@@ -4985,7 +4985,7 @@
       "classification": "2A D1",
       "week": 2,
       "round": "Area",
-      "chapter": "WC",
+      "chapter": "WAC",
       "team1": "Malakoff",
       "score1": 38,
       "team2": "Van Alstyne",
@@ -5261,7 +5261,7 @@
       "classification": "2A D1",
       "week": 5,
       "round": "Semifinal",
-      "chapter": "WC",
+      "chapter": "WAC",
       "team1": "Wall",
       "score1": 31,
       "team2": "New Boston",
@@ -5321,7 +5321,7 @@
       "classification": "2A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "SJC",
+      "chapter": "SAN",
       "team1": "Sonora",
       "score1": 67,
       "team2": "Ballinger",
@@ -5345,7 +5345,7 @@
       "classification": "2A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "SJC",
+      "chapter": "SAN",
       "team1": "Cisco",
       "score1": 54,
       "team2": "Stanton",
@@ -6293,7 +6293,7 @@
       "classification": "1A D1",
       "week": 2,
       "round": "Area",
-      "chapter": "WC",
+      "chapter": "WAC",
       "team1": "Goldthwaite",
       "score1": 32,
       "team2": "Simms Bowie",
@@ -6413,7 +6413,7 @@
       "classification": "1A D1",
       "week": 2,
       "round": "Area",
-      "chapter": "CCC",
+      "chapter": "STX",
       "team1": "La Villa",
       "score1": 14,
       "team2": "Flatonia",
@@ -6581,7 +6581,7 @@
       "classification": "1A D1",
       "week": 5,
       "round": "Semifinal",
-      "chapter": "SJC",
+      "chapter": "SAN",
       "team1": "Stamford",
       "score1": 34,
       "team2": "Hico",
@@ -7157,7 +7157,7 @@
       "classification": "1A D2",
       "week": 5,
       "round": "Semifinal",
-      "chapter": "WC",
+      "chapter": "WAC",
       "team1": "Teneha",
       "score1": 34,
       "team2": "Falls City",
@@ -7229,7 +7229,7 @@
       "classification": "Six Man D1",
       "week": 1,
       "round": "Area",
-      "chapter": "SJC",
+      "chapter": "SAN",
       "team1": "Garden City",
       "score1": 54,
       "team2": "Sterling City",
@@ -7253,7 +7253,7 @@
       "classification": "Six Man D1",
       "week": 1,
       "round": "Area",
-      "chapter": "SJC",
+      "chapter": "SAN",
       "team1": "Rankin",
       "score1": 6,
       "team2": "Water Valley",
@@ -7265,7 +7265,7 @@
       "classification": "Six Man D1",
       "week": 1,
       "round": "Area",
-      "chapter": "SJC",
+      "chapter": "SAN",
       "team1": "Hermleigh",
       "score1": 0,
       "team2": "Crowell",
@@ -7325,7 +7325,7 @@
       "classification": "Six Man D1",
       "week": 1,
       "round": "Area",
-      "chapter": "WC",
+      "chapter": "WAC",
       "team1": "Aquilla",
       "score1": 64,
       "team2": "Coolidge",
@@ -7349,7 +7349,7 @@
       "classification": "Six Man D1",
       "week": 1,
       "round": "Area",
-      "chapter": "WC",
+      "chapter": "WAC",
       "team1": "Abbott",
       "score1": 108,
       "team2": "Buckholts",
@@ -7361,7 +7361,7 @@
       "classification": "Six Man D1",
       "week": 1,
       "round": "Area",
-      "chapter": "WC",
+      "chapter": "WAC",
       "team1": "Leverett's Chapel",
       "score1": 6,
       "team2": "Oakwood",
@@ -7457,7 +7457,7 @@
       "classification": "Six Man D1",
       "week": 2,
       "round": "Regional",
-      "chapter": "WC",
+      "chapter": "WAC",
       "team1": "Abbott",
       "score1": 60,
       "team2": "Oakwood",
@@ -7505,7 +7505,7 @@
       "classification": "Six Man D1",
       "week": 3,
       "round": "Quarterfinal",
-      "chapter": "WC",
+      "chapter": "WAC",
       "team1": "Aquilla",
       "score1": 50,
       "team2": "Abbott",
@@ -7733,7 +7733,7 @@
       "classification": "Six Man D2",
       "week": 1,
       "round": "Area",
-      "chapter": "WC",
+      "chapter": "WAC",
       "team1": "Cranfills Gap",
       "score1": 34,
       "team2": "Milford",
@@ -7853,7 +7853,7 @@
       "classification": "Six Man D2",
       "week": 3,
       "round": "Quarterfinal",
-      "chapter": "SJC",
+      "chapter": "SAN",
       "team1": "Loraine",
       "score1": 14,
       "team2": "Grandfalls-Royalty",
@@ -7865,7 +7865,7 @@
       "classification": "Six Man D2",
       "week": 3,
       "round": "Quarterfinal",
-      "chapter": "SJC",
+      "chapter": "SAN",
       "team1": "Newcastle",
       "score1": 64,
       "team2": "Strawn",
@@ -7877,7 +7877,7 @@
       "classification": "Six Man D2",
       "week": 3,
       "round": "Quarterfinal",
-      "chapter": "WC",
+      "chapter": "WAC",
       "team1": "Calvert",
       "score1": 32,
       "team2": "Milford",
@@ -8426,58 +8426,6 @@
       }
     },
     {
-      "code": "WC",
-      "total": 29,
-      "weeks": {
-        "1": {
-          "total": 11,
-          "classifications": {
-            "5A D1": 1,
-            "4A D1": 2,
-            "4A D2": 1,
-            "3A D1": 2,
-            "2A D1": 1,
-            "Six Man D1": 3,
-            "Six Man D2": 1
-          }
-        },
-        "2": {
-          "total": 7,
-          "classifications": {
-            "5A D2": 1,
-            "3A D1": 1,
-            "3A D2": 2,
-            "2A D1": 1,
-            "1A D1": 1,
-            "Six Man D1": 1
-          }
-        },
-        "5": {
-          "total": 3,
-          "classifications": {
-            "4A D2": 1,
-            "2A D1": 1,
-            "1A D2": 1
-          }
-        },
-        "3": {
-          "total": 7,
-          "classifications": {
-            "3A D1": 2,
-            "3A D2": 3,
-            "Six Man D1": 1,
-            "Six Man D2": 1
-          }
-        },
-        "4": {
-          "total": 1,
-          "classifications": {
-            "3A D2": 1
-          }
-        }
-      }
-    },
-    {
       "code": "CSC",
       "total": 22,
       "weeks": {
@@ -8614,38 +8562,6 @@
       }
     },
     {
-      "code": "SJC",
-      "total": 10,
-      "weeks": {
-        "2": {
-          "total": 1,
-          "classifications": {
-            "4A D1": 1
-          }
-        },
-        "1": {
-          "total": 6,
-          "classifications": {
-            "3A D2": 1,
-            "2A D2": 2,
-            "Six Man D1": 3
-          }
-        },
-        "5": {
-          "total": 1,
-          "classifications": {
-            "1A D1": 1
-          }
-        },
-        "3": {
-          "total": 2,
-          "classifications": {
-            "Six Man D2": 2
-          }
-        }
-      }
-    },
-    {
       "code": "PBC",
       "total": 10,
       "weeks": {
@@ -8731,27 +8647,6 @@
       }
     },
     {
-      "code": "CCC",
-      "total": 5,
-      "weeks": {
-        "1": {
-          "total": 3,
-          "classifications": {
-            "5A D1": 1,
-            "3A D2": 1,
-            "2A D1": 1
-          }
-        },
-        "2": {
-          "total": 2,
-          "classifications": {
-            "3A D1": 1,
-            "1A D1": 1
-          }
-        }
-      }
-    },
-    {
       "code": "ELP",
       "total": 4,
       "weeks": {
@@ -8803,18 +8698,6 @@
       }
     },
     {
-      "code": "CM",
-      "total": 1,
-      "weeks": {
-        "1": {
-          "total": 1,
-          "classifications": {
-            "3A D1": 1
-          }
-        }
-      }
-    },
-    {
       "code": "AMA",
       "total": 14,
       "weeks": {
@@ -8845,6 +8728,123 @@
           "classifications": {
             "Six Man D1": 2,
             "Six Man D2": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "WAC",
+      "total": 29,
+      "weeks": {
+        "1": {
+          "total": 11,
+          "classifications": {
+            "5A D1": 1,
+            "4A D1": 2,
+            "4A D2": 1,
+            "3A D1": 2,
+            "2A D1": 1,
+            "Six Man D1": 3,
+            "Six Man D2": 1
+          }
+        },
+        "2": {
+          "total": 7,
+          "classifications": {
+            "5A D2": 1,
+            "3A D1": 1,
+            "3A D2": 2,
+            "2A D1": 1,
+            "1A D1": 1,
+            "Six Man D1": 1
+          }
+        },
+        "5": {
+          "total": 3,
+          "classifications": {
+            "4A D2": 1,
+            "2A D1": 1,
+            "1A D2": 1
+          }
+        },
+        "3": {
+          "total": 7,
+          "classifications": {
+            "3A D1": 2,
+            "3A D2": 3,
+            "Six Man D1": 1,
+            "Six Man D2": 1
+          }
+        },
+        "4": {
+          "total": 1,
+          "classifications": {
+            "3A D2": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "SAN",
+      "total": 10,
+      "weeks": {
+        "2": {
+          "total": 1,
+          "classifications": {
+            "4A D1": 1
+          }
+        },
+        "1": {
+          "total": 6,
+          "classifications": {
+            "3A D2": 1,
+            "2A D2": 2,
+            "Six Man D1": 3
+          }
+        },
+        "5": {
+          "total": 1,
+          "classifications": {
+            "1A D1": 1
+          }
+        },
+        "3": {
+          "total": 2,
+          "classifications": {
+            "Six Man D2": 2
+          }
+        }
+      }
+    },
+    {
+      "code": "STX",
+      "total": 5,
+      "weeks": {
+        "1": {
+          "total": 3,
+          "classifications": {
+            "5A D1": 1,
+            "3A D2": 1,
+            "2A D1": 1
+          }
+        },
+        "2": {
+          "total": 2,
+          "classifications": {
+            "3A D1": 1,
+            "1A D1": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "COM",
+      "total": 1,
+      "weeks": {
+        "1": {
+          "total": 1,
+          "classifications": {
+            "3A D1": 1
           }
         }
       }
