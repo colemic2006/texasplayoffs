@@ -1,42 +1,22 @@
 [
  {
-  "site": "Eagle Mountain HS",
-  "game": "Millsap v Trinity Leadership",
-  "why": "no stadium, school or town matched"
+  "site": "Creek View Cougar Stadium, San Antonio",
+  "game": "Canyon Lake v Pleasanton",
+  "why": "named:Creek View Cougar Stadium, San Antonio"
  },
  {
-  "site": "El Paso's SAC 2 Stadium",
-  "game": "El Paso Pebble Hills v Midland Lee",
-  "why": "named:SAC 2 Stadium, El Paso"
+  "site": "Hornet Field, Huntsville",
+  "game": "Huntsville v Nederland",
+  "why": "named:Hornet Field, Huntsville"
  },
  {
-  "site": "Fort Worth's Kight Stadium",
-  "game": "Aledo v Keller Central",
-  "why": "named:Kight Stadium, Fort Worth"
- },
- {
-  "site": "Highlander Stadium",
-  "game": "Dallas Highland Park v McKinney North",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Joseph L. Sears III Stadium in Killeen, TX",
-  "game": "Mason v Itasca",
-  "why": "named:Joseph L. Sears III Stadium, Killeen"
+  "site": "Memorial Stadium, Bastrop",
+  "game": "Rice Consolidated v Rogers",
+  "why": "named:Memorial Stadium, Bastrop"
  },
  {
   "site": "San Marcos Academy",
   "game": "Apple Springs v Benavides",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Socorro ISD Student Activity Cen",
-  "game": "El Paso Americas v Amarillo Tascosa",
-  "why": "district:Student Activity Cen, Socorro"
- },
- {
-  "site": "Tiger Stadium",
-  "game": "Lancaster v Crandall",
   "why": "no stadium, school or town matched"
  }
 ]
