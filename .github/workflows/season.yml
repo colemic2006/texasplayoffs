@@ -1,19 +1,21 @@
 name: Update season data
 
 # Pulls UIL brackets into season/<year>/<year>_season.xlsx and rebuilds
-# public/data/<year>.json. Runs daily during the playoffs, whenever the season
-# workbook is uploaded, and on demand from the Actions tab.
+# public/data/<year>.json. Runs every 15 minutes during the playoffs (Nov-Dec), whenever
+# the season workbook is uploaded, and on demand from the Actions tab. A run that changes
+# nothing on the site commits nothing and doesn't redeploy.
 on:
   push:
     branches: [main]
     paths: ['season/**']
   schedule:
-    - cron: '23 13 * 11,12 *'   # 7:23am Central, every day in Nov and Dec
+    - cron: '*/15 * * 11,12 *'   # every 15 minutes in Nov and Dec (GitHub may run it a few minutes late)
   workflow_dispatch:
 
 permissions:
   contents: write
   issues: write
+  actions: write   # to start the site deploy after a commit
 
 concurrency:
   group: season-data
@@ -50,14 +52,21 @@ jobs:
         run: python3 scripts/season.py review-issue
 
       - name: Commit changes
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
           for attempt in 1 2 3; do
             git add season public/data
-            if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+            # only the "last read" times of MaxPreps cards changed: nothing new for the site
+            if git diff --cached --quiet -- . ':!season/*/maxpreps_cards.json'; then echo "No changes"; exit 0; fi
             git commit -q -m "Update season data from UIL brackets"
-            if git push; then exit 0; fi
+            if git push; then
+              # the built-in token's push doesn't start the deploy on its own
+              gh workflow run deploy.yml --ref main || true
+              exit 0
+            fi
             # main moved on while this ran (someone pushed): redo the update on top of it,
             # keeping the MaxPreps cards and map lookups this run already fetched
             echo "main changed during the run; redoing the update on top of it (attempt $attempt)"

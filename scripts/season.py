@@ -213,8 +213,8 @@ def date_set(info):
 
 
 def fill_sites(year, ws, placed):
-    """Fill Site/Date cells from MaxPreps details cards. A card is read at most every 6 hours per
-    game until the game has both a site and a set date. A site typed in by hand is kept; the
+    """Fill Site/Date cells from MaxPreps details cards. A card is read again on each run (at
+    most every 10 minutes) until the game has a site, a set date and a kickoff time. A site typed in by hand is kept; the
     date follows MaxPreps (a placeholder date is never used)."""
     cards = json.loads(cards_path(year).read_text()) if cards_path(year).exists() else {}
     now = datetime.datetime.now(datetime.timezone.utc)
@@ -228,9 +228,10 @@ def fill_sites(year, ws, placed):
             continue
         key = f"{g['cls']}|{g['key1']}|{g['key2']}"
         seen = cards.get(key, {})
-        recent = seen.get('read') and (now - datetime.datetime.fromisoformat(seen['read'])).total_seconds() < 6 * 3600   # re-read cards at most every 6 hours
-        if seen.get('read') and ((game_sites.clean_site(seen.get('site')) and date_set(seen)) or recent):
-            info = seen          # complete, or read in the last day
+        recent = seen.get('read') and (now - datetime.datetime.fromisoformat(seen['read'])).total_seconds() < 10 * 60   # the job runs every 15 minutes
+        complete = game_sites.clean_site(seen.get('site')) and date_set(seen) and seen.get('time')
+        if seen.get('read') and (complete or recent):
+            info = seen          # complete, or just read
         else:
             try:
                 info = read_card(g['card'])
