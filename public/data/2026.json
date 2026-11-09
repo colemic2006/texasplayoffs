@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-09T05:54+00:00",
+    "updated": "2026-11-09T05:56+00:00",
     "games": 352,
     "played": 0,
     "assigned": 181,
@@ -3623,6 +3623,11 @@
       "score2": null,
       "winner": null,
       "site": "Irvin HS",
+      "lat": 31.87947,
+      "lng": -106.41512,
+      "stadium": "Irvin Memorial Stadium",
+      "map_link": "https://goo.gl/maps/2yHJacDAySN1G75e7",
+      "city": "El Paso",
       "date": "2026-11-13",
       "time": "6:30 PM"
     },
@@ -5456,6 +5461,11 @@
       "score2": null,
       "winner": null,
       "site": "Children's Health Stadium",
+      "lat": 33.2607,
+      "lng": -96.80421,
+      "stadium": "Children's Health Stadium",
+      "map_link": "https://goo.gl/maps/D7qScRX8Tt9kchyAA",
+      "city": "Prosper",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },

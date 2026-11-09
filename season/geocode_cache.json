@@ -433,6 +433,18 @@
   "stadium": "Children's Health Stadium",
   "stadium_id": 2439
  },
+ "Children's Health Stadium || Prosper Walnut Grove v Denton Braswell": {
+  "address": "2000 Stadium Drive, Prosper, Texas 75078",
+  "city": "Prosper",
+  "how": "stadium",
+  "lat": 33.2607,
+  "lng": -96.80421,
+  "map_link": "https://goo.gl/maps/D7qScRX8Tt9kchyAA",
+  "rules": 6,
+  "site": "Children's Health Stadium",
+  "stadium": "Children's Health Stadium",
+  "stadium_id": 2439
+ },
  "Childress High School || Haskell v Clarendon": {
   "address": "312 Ave. I NW, Childress, Texas 79201",
   "city": "Childress",
@@ -1102,6 +1114,18 @@
   "site": "Indian Memorial Stadium, Grand Saline High School",
   "stadium": "Indian Memorial Stadium",
   "stadium_id": null
+ },
+ "Irvin HS || El Paso Irvin v Pecos": {
+  "address": "9465 Roanoke Dr, El Paso, Texas 79924",
+  "city": "El Paso",
+  "how": "school",
+  "lat": 31.87947,
+  "lng": -106.41512,
+  "map_link": "https://goo.gl/maps/2yHJacDAySN1G75e7",
+  "rules": 6,
+  "site": "Irvin HS",
+  "stadium": "Irvin Memorial Stadium",
+  "stadium_id": 597
  },
  "Irvin HS || Irvin v Pecos": {
   "address": "9465 Roanoke Dr, El Paso, Texas 79924",
