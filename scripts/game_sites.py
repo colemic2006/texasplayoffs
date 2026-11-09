@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parent.parent
 CACHE = ROOT / 'season' / 'geocode_cache.json'
 UA = 'texasplayoffs.com season map (https://texasplayoffs.com)'
 RETRY_MISS_DAYS = 3
-RULES = 5   # bump when the matching rules change: every site is looked up again under the new rules
+RULES = 6   # bump when the matching rules change: every site is looked up again under the new rules
 
 
 SCHOOLS = ROOT / 'season' / 'texasbob_schools.json'   # [[stadium_id, city, school, stadium], ...]
