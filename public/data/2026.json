@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-09T12:43+00:00",
+    "updated": "2026-11-09T12:54+00:00",
     "games": 352,
     "played": 0,
     "assigned": 210,
@@ -378,7 +378,8 @@
       "stadium": "Hornet Stadium",
       "map_link": "https://goo.gl/maps/z361CK1aJS1j41Hn9",
       "city": "Blackwell",
-      "date": "2026-11-12"
+      "date": "2026-11-12",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -411,7 +412,8 @@
       "team2": "May",
       "score2": null,
       "winner": null,
-      "date": "2026-11-12"
+      "date": "2026-11-13",
+      "time": "7:30 PM"
     },
     {
       "year": 2026,
@@ -582,7 +584,9 @@
       "score1": null,
       "team2": "Fannindel (?)",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "date": "2026-11-13",
+      "time": "5:30 AM"
     },
     {
       "year": 2026,
@@ -606,7 +610,15 @@
       "score1": null,
       "team2": "Calvert",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Luling ISD",
+      "lat": 29.67797,
+      "lng": -97.65208,
+      "stadium": "Eagle Field",
+      "map_link": "https://goo.gl/maps/xumeeUwXq7LXDSJN7",
+      "city": "Luling",
+      "date": "2026-11-12",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -1646,7 +1658,9 @@
       "score1": null,
       "team2": "D'Hanis",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "date": "2026-11-12",
+      "time": "7:30 PM"
     },
     {
       "year": 2026,
@@ -2341,7 +2355,9 @@
       "score1": null,
       "team2": "Holliday",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "date": "2026-11-13",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -3735,7 +3751,14 @@
       "team2": "Mineral Wells",
       "score2": null,
       "winner": null,
-      "date": "2026-11-12"
+      "site": "P.E. Shotwell Stadium, Abilene, Texas",
+      "lat": 32.43373,
+      "lng": -99.6982,
+      "stadium": "P.E. Shotwell Stadium",
+      "map_link": "https://goo.gl/maps/CejNppU8gPYVjYwX6",
+      "city": "Abilene",
+      "date": "2026-11-13",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -3983,7 +4006,9 @@
       "score1": null,
       "team2": "Iowa Colony",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "date": "2026-11-13",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -4387,6 +4412,9 @@
       "score2": null,
       "winner": null,
       "site": "Montgomery ISD Athletic Complex",
+      "lat": 30.38826,
+      "lng": -95.69634,
+      "city": "Montgomery",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -4814,7 +4842,9 @@
       "score1": null,
       "team2": "San Antonio McCollum",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "date": "2026-11-12",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -5288,7 +5318,8 @@
       "team2": "Cy Ranch",
       "score2": null,
       "winner": null,
-      "date": "2026-11-12"
+      "date": "2026-11-12",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -5460,7 +5491,9 @@
       "score1": null,
       "team2": "Edinburg",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "date": "2026-11-12",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -5799,7 +5832,8 @@
       "team2": "Waller",
       "score2": null,
       "winner": null,
-      "date": "2026-11-12"
+      "date": "2026-11-13",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,

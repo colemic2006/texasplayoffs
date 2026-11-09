@@ -1403,6 +1403,18 @@
   "stadium": "Abe Martin Stadium",
   "stadium_id": 417
  },
+ "Luling ISD || Runge v Calvert": {
+  "address": "112 E. Travis, Luling, Texas 78648",
+  "city": "Luling",
+  "how": "school",
+  "lat": 29.67797,
+  "lng": -97.65208,
+  "map_link": "https://goo.gl/maps/xumeeUwXq7LXDSJN7",
+  "rules": 7,
+  "site": "Luling ISD",
+  "stadium": "Eagle Field",
+  "stadium_id": 68
+ },
  "Madisonville CISD Stadium || Anahuac v Westwood": {
   "address": "811 S May St,, Madisonville, Texas 77864",
   "city": "Madisonville",
@@ -1539,9 +1551,12 @@
  },
  "Montgomery ISD Athletic Complex || Montgomery v Dayton": {
   "address": "",
-  "how": "district:Athletic Complex, Montgomery",
+  "city": "Montgomery",
+  "confirmed_as": "Montgomery ISD Athletic Complex, 22825 Highway 105 W, Montgomery, TX 77356",
+  "how": "town (approximate)",
+  "lat": 30.38826,
+  "lng": -95.69634,
   "map_link": "",
-  "missed": "2026-11-09",
   "rules": 7,
   "site": "Montgomery ISD Athletic Complex",
   "stadium": null,
@@ -1656,6 +1671,18 @@
   "site": "Oglesby ISD",
   "stadium": "Tiger Stadium",
   "stadium_id": 166
+ },
+ "P.E. Shotwell Stadium, Abilene, Texas || Levelland v Mineral Wells": {
+  "address": "1525 E. S. 11th St, Abilene, Texas 79602",
+  "city": "Abilene",
+  "how": "stadium",
+  "lat": 32.43373,
+  "lng": -99.6982,
+  "map_link": "https://goo.gl/maps/CejNppU8gPYVjYwX6",
+  "rules": 7,
+  "site": "P.E. Shotwell Stadium, Abilene, Texas",
+  "stadium": "P.E. Shotwell Stadium",
+  "stadium_id": 997
  },
  "Panther Creek High School || Richland Springs v Valera Panther Creek": {
   "address": "129 Pr 3421, Valera, Texas 76884",
