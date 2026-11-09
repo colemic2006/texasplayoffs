@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parent.parent
 CACHE = ROOT / 'season' / 'geocode_cache.json'
 UA = 'texasplayoffs.com season map (https://texasplayoffs.com)'
 RETRY_MISS_DAYS = 3
-RULES = 2   # bump when the matching rules change, so earlier misses are tried again
+RULES = 3   # bump when the matching rules change, so earlier misses are tried again
 
 
 SCHOOLS = ROOT / 'season' / 'texasbob_schools.json'   # [[stadium_id, city, school, stadium], ...]
@@ -131,8 +131,25 @@ def nominatim(q):
     return (float(hits[0]['lat']), float(hits[0]['lon'])) if hits else None
 
 
+DISTRICT = re.compile(r'^(.+?)\s+C?ISD\s+(.+)$')
+
+
 def resolve(site, stadiums, schools, teams=()):
-    """(stadium or None, how) for a site; a town alone gives (None, 'town:<name>')."""
+    """(stadium or None, how) for a site; a town alone gives (None, 'town:<name>').
+    "Katy ISD Legacy Stadium" is read as "Legacy Stadium, Katy"; if that isn't a known
+    stadium it is looked up as written ("Tully Stadium, Spring Branch") -- never placed
+    at the district's town, which may be somewhere else entirely."""
+    m = DISTRICT.match(site)
+    if m:
+        district, rest = m.group(1).strip(), m.group(2).strip()
+        st, how = resolve_plain(f'{rest}, {district}', stadiums, schools, teams)
+        if st:
+            return st, how
+        return None, f'district:{rest}, {district}'
+    return resolve_plain(site, stadiums, schools, teams)
+
+
+def resolve_plain(site, stadiums, schools, teams=()):
     st = find_stadium(site, stadiums, teams)
     if st:
         return st, 'stadium'
@@ -191,6 +208,9 @@ def locate(games, review_path=None):
                      (f"{st['city']}, Texas", how + ' (town only)')]
         elif how.startswith('town:'):
             tries = [(f"{how[5:]}, Texas", 'town (approximate)')]
+        elif how.startswith('district:'):
+            # "Tully Stadium, Spring Branch": only the stadium itself counts, never the district's "town"
+            tries = [(how[9:] + ', Texas', 'stadium found by name')]
         elif how.startswith('address:'):
             text = how[8:]
             tries = [(text if re.search(r'\b(TX|Texas)\b', text) else text + ', Texas', 'address in site text')]
