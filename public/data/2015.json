@@ -7602,7 +7602,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "Turkey Valley",
       "score1": 66,
       "team2": "Nazareth",
@@ -7938,7 +7938,7 @@
       "classification": "1A D2",
       "week": 1,
       "round": "Area",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "Follett",
       "score1": 68,
       "team2": "McLean",
@@ -7974,7 +7974,7 @@
       "classification": "1A D2",
       "week": 1,
       "round": "Area",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "Groom",
       "score1": 70,
       "team2": "Lefors",
@@ -8130,7 +8130,7 @@
       "classification": "1A D2",
       "week": 2,
       "round": "Regional",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "Follett",
       "score1": 54,
       "team2": "Whitharral",
@@ -8226,7 +8226,7 @@
       "classification": "1A D2",
       "week": 3,
       "round": "Quarterfinal",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "Follett",
       "score1": 58,
       "team2": "Southland",
@@ -8341,20 +8341,23 @@
     },
     {
       "code": "AMA",
-      "total": 10,
+      "total": 15,
       "weeks": {
         "1": {
-          "total": 5,
+          "total": 8,
           "classifications": {
             "6A D1": 1,
             "2A D1": 2,
-            "2A D2": 2
+            "2A D2": 2,
+            "1A D1": 1,
+            "1A D2": 2
           }
         },
         "3": {
-          "total": 1,
+          "total": 2,
           "classifications": {
-            "2A D1": 1
+            "2A D1": 1,
+            "1A D2": 1
           }
         },
         "4": {
@@ -8364,9 +8367,10 @@
           }
         },
         "2": {
-          "total": 2,
+          "total": 3,
           "classifications": {
-            "2A D2": 2
+            "2A D2": 2,
+            "1A D2": 1
           }
         },
         "5": {
@@ -9262,31 +9266,6 @@
           "total": 2,
           "classifications": {
             "1A D1": 2
-          }
-        }
-      }
-    },
-    {
-      "code": "AMI",
-      "total": 5,
-      "weeks": {
-        "1": {
-          "total": 3,
-          "classifications": {
-            "1A D1": 1,
-            "1A D2": 2
-          }
-        },
-        "2": {
-          "total": 1,
-          "classifications": {
-            "1A D2": 1
-          }
-        },
-        "3": {
-          "total": 1,
-          "classifications": {
-            "1A D2": 1
           }
         }
       }

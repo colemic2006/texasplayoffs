@@ -3029,7 +3029,7 @@
       "classification": "4A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "El Paso Riverside",
       "score1": 34,
       "team2": "Big Spring",
@@ -4949,7 +4949,7 @@
       "classification": "3A D1",
       "week": 2,
       "round": "Area",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "Jim Ned",
       "score1": 49,
       "team2": "Muleshoe",
@@ -6821,7 +6821,7 @@
       "classification": "2A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "Wellington",
       "score1": 38,
       "team2": "Vega",
@@ -6845,7 +6845,7 @@
       "classification": "2A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "Gruver",
       "score1": 63,
       "team2": "Shamrock",
@@ -6857,7 +6857,7 @@
       "classification": "2A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "Stratford",
       "score1": 72,
       "team2": "Wheeler",
@@ -6881,7 +6881,7 @@
       "classification": "2A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "Clarendon",
       "score1": 43,
       "team2": "Sunray",
@@ -7205,7 +7205,7 @@
       "classification": "2A D2",
       "week": 2,
       "round": "Area",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "New Home",
       "score1": 12,
       "team2": "Gruver",
@@ -7385,7 +7385,7 @@
       "classification": "2A D2",
       "week": 3,
       "round": "Regional",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "Wellington",
       "score1": 36,
       "team2": "Gruver",
@@ -7481,7 +7481,7 @@
       "classification": "2A D2",
       "week": 4,
       "round": "Quarterfinal",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "Wellington",
       "score1": 6,
       "team2": "Stratford",
@@ -7565,7 +7565,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Area",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "Valley",
       "score1": 77,
       "team2": "Nazareth",
@@ -7853,7 +7853,7 @@
       "classification": "1A D1",
       "week": 3,
       "round": "Quarterfinal",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "Valley",
       "score1": 36,
       "team2": "Happy",
@@ -7937,7 +7937,7 @@
       "classification": "1A D2",
       "week": 1,
       "round": "Area",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "Follett",
       "score1": 60,
       "team2": "Wildorado",
@@ -7973,7 +7973,7 @@
       "classification": "1A D2",
       "week": 1,
       "round": "Area",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "Groom",
       "score1": 72,
       "team2": "Miami",
@@ -8129,7 +8129,7 @@
       "classification": "1A D2",
       "week": 2,
       "round": "Regional",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "Follett",
       "score1": 48,
       "team2": "Anton",
@@ -8141,7 +8141,7 @@
       "classification": "1A D2",
       "week": 2,
       "round": "Regional",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "Klondike",
       "score1": 72,
       "team2": "Groom",
@@ -8225,7 +8225,7 @@
       "classification": "1A D2",
       "week": 3,
       "round": "Quarterfinal",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "Anton",
       "score1": 54,
       "team2": "Klondike",
@@ -8893,43 +8893,6 @@
       }
     },
     {
-      "code": "AMI",
-      "total": 16,
-      "weeks": {
-        "1": {
-          "total": 8,
-          "classifications": {
-            "4A D1": 1,
-            "2A D2": 4,
-            "1A D1": 1,
-            "1A D2": 2
-          }
-        },
-        "2": {
-          "total": 4,
-          "classifications": {
-            "3A D1": 1,
-            "2A D2": 1,
-            "1A D2": 2
-          }
-        },
-        "3": {
-          "total": 3,
-          "classifications": {
-            "2A D2": 1,
-            "1A D1": 1,
-            "1A D2": 1
-          }
-        },
-        "4": {
-          "total": 1,
-          "classifications": {
-            "2A D2": 1
-          }
-        }
-      }
-    },
-    {
       "code": "SJC",
       "total": 14,
       "weeks": {
@@ -9209,6 +9172,43 @@
           "total": 1,
           "classifications": {
             "4A D1": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "AMA",
+      "total": 16,
+      "weeks": {
+        "1": {
+          "total": 8,
+          "classifications": {
+            "4A D1": 1,
+            "2A D2": 4,
+            "1A D1": 1,
+            "1A D2": 2
+          }
+        },
+        "2": {
+          "total": 4,
+          "classifications": {
+            "3A D1": 1,
+            "2A D2": 1,
+            "1A D2": 2
+          }
+        },
+        "3": {
+          "total": 3,
+          "classifications": {
+            "2A D2": 1,
+            "1A D1": 1,
+            "1A D2": 1
+          }
+        },
+        "4": {
+          "total": 1,
+          "classifications": {
+            "2A D2": 1
           }
         }
       }

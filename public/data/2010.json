@@ -4446,7 +4446,7 @@
       "classification": "2A D1",
       "week": 3,
       "round": "Regional",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "Littlefield",
       "score1": 28,
       "team2": "Colorado City",
@@ -4626,7 +4626,7 @@
       "classification": "2A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "Spearman",
       "score1": 27,
       "team2": "Coahoma",
@@ -5130,7 +5130,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "West Texas Stinnett",
       "score1": 27,
       "team2": "Quanah",
@@ -5142,7 +5142,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "Stratford",
       "score1": 60,
       "team2": "Panhandle",
@@ -5322,7 +5322,7 @@
       "classification": "1A D1",
       "week": 2,
       "round": "Area",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "Quanah",
       "score1": 26,
       "team2": "Sundown",
@@ -5490,7 +5490,7 @@
       "classification": "1A D1",
       "week": 3,
       "round": "Regional",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "Canadian",
       "score1": 56,
       "team2": "Quanah",
@@ -5670,7 +5670,7 @@
       "classification": "1A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "Bovina",
       "score1": 44,
       "team2": "Smyer",
@@ -5682,7 +5682,7 @@
       "classification": "1A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "Vega",
       "score1": 13,
       "team2": "Wheeler",
@@ -5694,7 +5694,7 @@
       "classification": "1A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "Gruver",
       "score1": 13,
       "team2": "Shamrock",
@@ -5706,7 +5706,7 @@
       "classification": "1A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "Springlake-Earth",
       "score1": 42,
       "team2": "Seagraves",
@@ -5862,7 +5862,7 @@
       "classification": "1A D2",
       "week": 2,
       "round": "Area",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "White Deer",
       "score1": 18,
       "team2": "Bovina",
@@ -5898,7 +5898,7 @@
       "classification": "1A D2",
       "week": 2,
       "round": "Area",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "Wellington",
       "score1": 28,
       "team2": "Springlake-Earth",
@@ -6054,7 +6054,7 @@
       "classification": "1A D2",
       "week": 3,
       "round": "Regional",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "Bovina",
       "score1": 21,
       "team2": "Farwell",
@@ -6222,7 +6222,7 @@
       "classification": "Six Man D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "Follett",
       "score1": 46,
       "team2": "Crowell",
@@ -6390,7 +6390,7 @@
       "classification": "Six Man D1",
       "week": 2,
       "round": "Area",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "Follett",
       "score1": 68,
       "team2": "Petersburg",
@@ -6486,7 +6486,7 @@
       "classification": "Six Man D1",
       "week": 3,
       "round": "Regional",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "Follett",
       "score1": 90,
       "team2": "Paducah",
@@ -6570,7 +6570,7 @@
       "classification": "Six Man D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "Miami",
       "score1": 36,
       "team2": "Hedley",
@@ -6594,7 +6594,7 @@
       "classification": "Six Man D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": "AMI",
+      "chapter": "AMA",
       "team1": "Groom",
       "score1": 62,
       "team2": "Briscoe Fort Elliott",
@@ -6915,7 +6915,7 @@
     }
   ],
   "generated": "2025-07-03",
-  "source": "2010TRNYFINAL.xls \u2014 chapter and per-week totals from '2010 Tot.' sheet; individual game data not yet entered",
+  "source": "2010TRNYFINAL.xls — chapter and per-week totals from '2010 Tot.' sheet; individual game data not yet entered",
   "chapters": [
     {
       "code": "HOU",
@@ -7539,39 +7539,6 @@
       }
     },
     {
-      "code": "AMI",
-      "total": 18,
-      "weeks": {
-        "3": {
-          "total": 4,
-          "classifications": {
-            "2A D1": 1,
-            "1A D1": 1,
-            "1A D2": 1,
-            "Six Man D1": 1
-          }
-        },
-        "1": {
-          "total": 10,
-          "classifications": {
-            "2A D2": 1,
-            "1A D1": 2,
-            "1A D2": 4,
-            "Six Man D1": 1,
-            "Six Man D2": 2
-          }
-        },
-        "2": {
-          "total": 4,
-          "classifications": {
-            "1A D1": 1,
-            "1A D2": 2,
-            "Six Man D1": 1
-          }
-        }
-      }
-    },
-    {
       "code": "RGV",
       "total": 10,
       "weeks": {
@@ -7829,6 +7796,39 @@
           "total": 1,
           "classifications": {
             "4A D2": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "AMA",
+      "total": 18,
+      "weeks": {
+        "3": {
+          "total": 4,
+          "classifications": {
+            "2A D1": 1,
+            "1A D1": 1,
+            "1A D2": 1,
+            "Six Man D1": 1
+          }
+        },
+        "1": {
+          "total": 10,
+          "classifications": {
+            "2A D2": 1,
+            "1A D1": 2,
+            "1A D2": 4,
+            "Six Man D1": 1,
+            "Six Man D2": 2
+          }
+        },
+        "2": {
+          "total": 4,
+          "classifications": {
+            "1A D1": 1,
+            "1A D2": 2,
+            "Six Man D1": 1
           }
         }
       }
