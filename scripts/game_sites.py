@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parent.parent
 CACHE = ROOT / 'season' / 'geocode_cache.json'
 UA = 'texasplayoffs.com season map (https://texasplayoffs.com)'
 RETRY_MISS_DAYS = 3
-RULES = 6   # bump when the matching rules change: every site is looked up again under the new rules
+RULES = 7   # bump when the matching rules change: every site is looked up again under the new rules
 
 
 SCHOOLS = ROOT / 'season' / 'texasbob_schools.json'   # [[stadium_id, city, school, stadium], ...]
@@ -125,10 +125,17 @@ def query_for(site, stadium):
 PLACE_KEYS = ('city', 'town', 'village', 'hamlet', 'suburb', 'municipality')
 
 
-def nominatim(q, town='', zipcode=''):
+def miles(a, b):
+    import math
+    la1, lo1, la2, lo2 = map(math.radians, (*a, *b))
+    h = math.sin((la2 - la1) / 2) ** 2 + math.cos(la1) * math.cos(la2) * math.sin((lo2 - lo1) / 2) ** 2
+    return 3959 * 2 * math.asin(math.sqrt(h))
+
+
+def nominatim(q, town='', zipcode='', near=None):
     """Coordinates for a search (text, or a dict of structured fields). With a town or ZIP
     given, a result only counts if it is in that town or ZIP code -- a search for "Crosby,
-    Texas" must not land in Crosby County."""
+    Texas" must not land in Crosby County. With near=(lat, lng, miles), it must be that close."""
     params = dict(q) if isinstance(q, dict) else dict(q=q)
     params.update(format='json', limit=5, countrycodes='us', addressdetails=1)
     url = 'https://nominatim.openstreetmap.org/search?' + urllib.parse.urlencode(params)
@@ -144,6 +151,8 @@ def nominatim(q, town='', zipcode=''):
             in_zip = zipcode and a.get('postcode', '').startswith(zipcode)
             if not (in_town or in_zip):
                 continue
+        if near and miles(near[:2], (float(h['lat']), float(h['lon']))) > near[2]:
+            continue
         return float(h['lat']), float(h['lon'])
     return None
 
@@ -244,8 +253,19 @@ def locate(games, review_path=None):
         elif how.startswith('town:'):
             tries = [(dict(city=how[5:], state='Texas'), 'town (approximate)', how[5:], '')]
         elif how.startswith('district:'):
-            # "Tully Stadium, Spring Branch": only the stadium itself counts, never the district's "town"
-            tries = [(how[9:] + ', Texas', 'stadium found by name', '', '')]
+            # "Tully Stadium, Spring Branch": only the stadium itself counts, never the district's
+            # "town" -- but the stadium must be in that town, or near it ("Willis HS" is not in
+            # San Antonio). A district that isn't a town can't vouch for anything: review.
+            district = how[9:].rsplit(',', 1)[-1].strip()
+            tries = [(how[9:] + ', Texas', 'stadium found by name', district, '')]
+            try:
+                center = nominatim(dict(city=district, state='Texas'), district)
+            except Exception as e:
+                center = None
+                print(f'  ! geocode {district}: {e}')
+            time.sleep(1.1)
+            if center:
+                tries.append((how[9:] + ', Texas', 'stadium found by name, near the district', '', '', (*center, 20)))
         elif how.startswith('address:'):
             text = how[8:]
             t, z = town_in(text), (re.findall(r'\b(\d{5})\b', text) or [''])[-1]
@@ -258,9 +278,9 @@ def locate(games, review_path=None):
         town = (st or {}).get('city') or (how[5:] if how.startswith('town:') else '') or \
             (town_in(how[8:]) if how.startswith('address:') else '')
         coords = None
-        for q, q_how, want_town, want_zip in tries:
+        for q, q_how, want_town, want_zip, *near in tries:
             try:
-                coords = nominatim(q, want_town, want_zip)
+                coords = nominatim(q, want_town, want_zip, near[0] if near else None)
             except Exception as e:
                 print(f'  ! geocode {q}: {e}')
             time.sleep(1.1)   # Nominatim allows one request a second
