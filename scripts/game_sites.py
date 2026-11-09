@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parent.parent
 CACHE = ROOT / 'season' / 'geocode_cache.json'
 UA = 'texasplayoffs.com season map (https://texasplayoffs.com)'
 RETRY_MISS_DAYS = 3
-RULES = 8   # bump when the matching rules change: every site is looked up again under the new rules
+RULES = 9   # bump when the matching rules change: every site is looked up again under the new rules
 
 
 SCHOOLS = ROOT / 'season' / 'texasbob_schools.json'   # [[stadium_id, city, school, stadium], ...]
@@ -102,20 +102,34 @@ def find_stadium(site, stadiums, teams=()):
     """The stadium a site names, only when exactly one fits ("Ratliff Stadium, Odessa").
     Several stadiums with the name are narrowed by the city in the text, then by the teams
     playing; a shortened name ("Newsom Stadium" for "Vernon Newsom Stadium") counts when
-    only one stadium has it."""
+    only one stadium has it. When the text ends in a town ("Memorial Stadium, Bastrop"),
+    the stadium must be in that town or its county: never Victoria's Memorial Stadium."""
     s = f' {norm(site)} '
     named = [st for st in stadiums if f' {norm(st["name"])} ' in s]
-    if not named:
-        words = norm(re.split(r'[,(;]| - | in ', site)[0])
-        if len(words.split()) >= 2:
-            named = [st for st in stadiums if f' {words} ' in f' {norm(st["name"])} ']
-            if not named:   # MaxPreps cuts long names off mid-word ("Meredith Memorial S"):
-                # only good enough with the stadium's town in the text too
-                named = [st for st in stadiums if f' {norm(st["name"])}'.find(f' {words}') >= 0
-                         and st.get('city') and f' {norm(st["city"])} ' in s]
+    words = norm(re.split(r'[,(;]| - | in ', site)[0])
+    loose = []
+    if len(words.split()) >= 2:
+        loose = [st for st in stadiums if f' {words} ' in f' {norm(st["name"])} ']
+        if not loose:   # MaxPreps cuts long names off mid-word ("Meredith Memorial S"):
+            # only good enough with the stadium's town in the text too
+            loose = [st for st in stadiums if f' {norm(st["name"])}'.find(f' {words}') >= 0
+                     and st.get('city') and f' {norm(st["city"])} ' in s]
+    one = lambda group: group[0] if group and len({(st['name'], st.get('city')) for st in group}) == 1 else None
+    county = {norm(st['city']): st.get('county') for st in stadiums if st.get('city') and st.get('county')}
+    parts = [p.strip() for p in site.split(',') if p.strip()]
+    stated = norm(parts[-1]) if len(parts) > 1 and norm(parts[-1]) in county else ''
+    if stated:
+        pool = named + [st for st in loose if st not in named]
+        in_town = [st for st in pool if norm(st.get('city', '')) == stated]
+        in_county = [st for st in pool if st.get('county') and st.get('county') == county[stated]]
+        # "TMF Rose Stadium, Tyler" is Tyler's "Christus Trinity Mother Frances Rose Stadium"
+        text = ' '.join(w for w in norm(', '.join(parts[:-1])).split() if w not in stated.split())
+        alike = [st for st in stadiums if norm(st.get('city', '')) == stated and same_place(text, st['name'])]
+        return one(in_town) or one(in_county) or one(alike)
+    named = named or loose
     in_city = [st for st in named if st.get('city') and f' {norm(st["city"])} ' in s]
     for group in (in_city, named, [st for st in named if plays_there(st, teams)]):
-        if len({(st['name'], st.get('city')) for st in group}) == 1:
+        if one(group):
             return group[0]
     return None
 

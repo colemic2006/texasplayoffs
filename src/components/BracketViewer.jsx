@@ -395,6 +395,7 @@ export function GameMap({ markers }) {
           radius: 7, weight: 2, color: '#fff', fillOpacity: 0.9,
           fillColor: color || (game.chapter ? '#c1440e' : '#2c4a6e'),
         }).addTo(leafletMap.current).bindPopup(popup)
+        marker._home = L.latLng(lat, lng)
         markersRef.current.push(marker)
       })
 
@@ -403,6 +404,35 @@ export function GameMap({ markers }) {
         const bounds = L.latLngBounds(markers.map(m => [m.lat, m.lng]))
         leafletMap.current.fitBounds(bounds, { padding: [40, 40], maxZoom: 9 })
       }
+
+      // Pins closer than a dot's width (two games at one stadium, or Canutillo and El Paso at
+      // state zoom) are fanned out in a small ring so each one can be seen and clicked;
+      // they settle back on their true spots as you zoom in
+      const map = leafletMap.current
+      const spread = () => {
+        const ms = markersRef.current
+        const pts = ms.map(m => map.latLngToContainerPoint(m._home))
+        const seen = new Set()
+        ms.forEach((m, i) => {
+          if (seen.has(i)) return
+          const group = [i]
+          for (let j = i + 1; j < ms.length; j++)
+            if (!seen.has(j) && group.some(k => pts[k].distanceTo(pts[j]) < 12)) group.push(j)
+          group.forEach(k => seen.add(k))
+          if (group.length === 1) { m.setLatLng(m._home); return }
+          const cx = group.reduce((a, k) => a + pts[k].x, 0) / group.length
+          const cy = group.reduce((a, k) => a + pts[k].y, 0) / group.length
+          const r = 8 + 2 * group.length
+          group.forEach((k, n) => {
+            const a = (2 * Math.PI * n) / group.length - Math.PI / 2
+            ms[k].setLatLng(map.containerPointToLatLng(L.point(cx + r * Math.cos(a), cy + r * Math.sin(a))))
+          })
+        })
+      }
+      map.off('zoomend', map._spread)
+      map._spread = spread
+      map.on('zoomend', spread)
+      spread()
     })
 
     return () => {

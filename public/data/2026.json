@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-09T21:47+00:00",
+    "updated": "2026-11-09T21:53+00:00",
     "games": 352,
     "played": 0,
     "assigned": 230,
@@ -877,6 +877,7 @@
       "team2": "Hawley",
       "score2": null,
       "winner": null,
+      "site": "Ram Stadium, Mineral Wells",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -891,6 +892,7 @@
       "team2": "Anson",
       "score2": null,
       "winner": null,
+      "site": "Newton Field, Graham",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -905,6 +907,7 @@
       "team2": "Alvord",
       "score2": null,
       "winner": null,
+      "site": "Tiger Stadium, Jacksboro",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -959,6 +962,7 @@
       "team2": "Sanford-Fritch",
       "score2": null,
       "winner": null,
+      "site": "Happy State Bank Stadium, Canyon",
       "date": "2026-11-13",
       "time": "7:30 PM"
     },
@@ -993,6 +997,7 @@
       "team2": "Ozona",
       "score2": null,
       "winner": null,
+      "site": "Ratliff Stadium, Odessa",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -1067,6 +1072,7 @@
       "team2": "Johnson City",
       "score2": null,
       "winner": null,
+      "site": "Lion Stadium, Granger",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -1081,6 +1087,7 @@
       "team2": "Valley Mills",
       "score2": null,
       "winner": null,
+      "site": "Searles Stadium, Killeen",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -1095,7 +1102,7 @@
       "team2": "Itasca",
       "score2": null,
       "winner": null,
-      "site": "Joseph L. Sears III Stadium in Killeen, TX",
+      "site": "Searles Stadium, Killeen",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -1110,6 +1117,7 @@
       "team2": "Bangs",
       "score2": null,
       "winner": null,
+      "site": "Cub Stadium, Clifton",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -1184,6 +1192,7 @@
       "team2": "Taft",
       "score2": null,
       "winner": null,
+      "site": "Greyhound Stadium, Taft",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -1198,6 +1207,7 @@
       "team2": "Freer",
       "score2": null,
       "winner": null,
+      "site": "Johnson Field, Karnes City",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -1310,6 +1320,7 @@
       "team2": "Whitewright",
       "score2": null,
       "winner": null,
+      "site": "Panther Stadium, Mabank",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -1324,6 +1335,7 @@
       "team2": "Hawkins",
       "score2": null,
       "winner": null,
+      "site": "Norville Field, Kaufman",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -1338,6 +1350,7 @@
       "team2": "Waskom",
       "score2": null,
       "winner": null,
+      "site": "Bulldog Stadium, Carthage",
       "date": "2026-11-13",
       "time": "7:30 PM"
     },
@@ -1352,6 +1365,7 @@
       "team2": "Garrison",
       "score2": null,
       "winner": null,
+      "site": "Lion Stadium, Henderson",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -1366,6 +1380,7 @@
       "team2": "Joaquin",
       "score2": null,
       "winner": null,
+      "site": "Panther Stadium, Longview",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -1500,6 +1515,7 @@
       "team2": "West Texas Stinnett",
       "score2": null,
       "winner": null,
+      "site": "Happy State Bank Stadium, Canyon",
       "date": "2026-11-12",
       "time": "7:30 PM"
     },
@@ -1574,6 +1590,7 @@
       "team2": "Quanah",
       "score2": null,
       "winner": null,
+      "site": "Hawk Stadium, Iowa Park",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -1608,6 +1625,7 @@
       "team2": "Seymour",
       "score2": null,
       "winner": null,
+      "site": "Lion Stadium, Vernon",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -1622,6 +1640,7 @@
       "team2": "Albany",
       "score2": null,
       "winner": null,
+      "site": "Kangaroo Stadium, Weatherford",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -1636,6 +1655,7 @@
       "team2": "Mart",
       "score2": null,
       "winner": null,
+      "site": "Porcupine Stadium, Springtown",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -1670,6 +1690,7 @@
       "team2": "Miles",
       "score2": null,
       "winner": null,
+      "site": "Cervetto Stadium, Dublin",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -1744,6 +1765,7 @@
       "team2": "Tenaha",
       "score2": null,
       "winner": null,
+      "site": "Wolf Stadium, San Augustine",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -1758,6 +1780,7 @@
       "team2": "D'Hanis",
       "score2": null,
       "winner": null,
+      "site": "Bulldog Stadium, Yoakum",
       "date": "2026-11-12",
       "time": "7:30 PM"
     },
@@ -1772,6 +1795,7 @@
       "team2": "Three Rivers",
       "score2": null,
       "winner": null,
+      "site": "Pirate Stadium, Sinton",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -1786,6 +1810,7 @@
       "team2": "Bartlett",
       "score2": null,
       "winner": null,
+      "site": "Shelton Stadium, Buda",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -1800,6 +1825,7 @@
       "team2": "Santa Maria",
       "score2": null,
       "winner": null,
+      "site": "Bear Stadium, Corpus Christi",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -1814,6 +1840,7 @@
       "team2": "Agua Dulce",
       "score2": null,
       "winner": null,
+      "site": "Beauchamp Stadium, Pettus",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -1828,6 +1855,7 @@
       "team2": "Burton",
       "score2": null,
       "winner": null,
+      "site": "Matador Stadium, Seguin",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -1842,6 +1870,7 @@
       "team2": "Pettus",
       "score2": null,
       "winner": null,
+      "site": "Cowboy Stadium, Premont",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -1856,6 +1885,7 @@
       "team2": "Brackett",
       "score2": null,
       "winner": null,
+      "site": "Eschenberg Field, Floresville",
       "date": "2026-11-14",
       "time": "5:00 PM"
     },
@@ -1870,6 +1900,7 @@
       "team2": "Maud",
       "score2": null,
       "winner": null,
+      "site": "Wildcat Stadium, Paris",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -1884,7 +1915,7 @@
       "team2": "Quinlan Boles",
       "score2": null,
       "winner": null,
-      "site": "Winnsboro High School",
+      "site": "Red Raider Stadium, Winnsboro",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -1899,6 +1930,7 @@
       "team2": "Era",
       "score2": null,
       "winner": null,
+      "site": "Tiger Stadium, Blue Ridge",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -1913,6 +1945,7 @@
       "team2": "Simms Bowie",
       "score2": null,
       "winner": null,
+      "site": "Patriot Stadium, Pattonville",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -1987,6 +2020,7 @@
       "team2": "Vernon",
       "score2": null,
       "winner": null,
+      "site": "Gordon Wood Stadium, Brownwood",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -2159,6 +2193,7 @@
       "team2": "Sweeny",
       "score2": null,
       "winner": null,
+      "site": "Mustang Stadium, Magnolia",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -2293,6 +2328,7 @@
       "team2": "Raymondville",
       "score2": null,
       "winner": null,
+      "site": "Jersey Bull Stadium, Falfurrias",
       "date": "2026-11-13",
       "time": "7:30 PM"
     },
@@ -2407,6 +2443,7 @@
       "team2": "Tatum",
       "score2": null,
       "winner": null,
+      "site": "Meredith Memorial Stadium, Mineola",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -2421,6 +2458,7 @@
       "team2": "Gladewater",
       "score2": null,
       "winner": null,
+      "site": "TMF Rose Stadium, Tyler",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -2455,6 +2493,7 @@
       "team2": "Buna",
       "score2": null,
       "winner": null,
+      "site": "Bulldog Stadium, Jasper",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -2489,7 +2528,7 @@
       "team2": "Palestine Westwood",
       "score2": null,
       "winner": null,
-      "site": "Madisonville CISD Stadium",
+      "site": "Mustang Stadium, Madisonville",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -2680,7 +2719,7 @@
       "team2": "Trinity Leadership",
       "score2": null,
       "winner": null,
-      "site": "Eagle Mountain HS",
+      "site": "Knight Stadium, Fort Worth",
       "date": "2026-11-12",
       "time": "7:30 PM"
     },
@@ -2715,6 +2754,7 @@
       "team2": "Hamilton",
       "score2": null,
       "winner": null,
+      "site": "Head Stadium, Alvarado",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -2789,6 +2829,7 @@
       "team2": "Woodville",
       "score2": null,
       "winner": null,
+      "site": "Eagle Stadium, Rusk",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -2861,6 +2902,7 @@
       "team2": "Rogers",
       "score2": null,
       "winner": null,
+      "site": "Memorial Stadium, Bastrop",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -2935,6 +2977,7 @@
       "team2": "Lone Oak",
       "score2": null,
       "winner": null,
+      "site": "Kimbrough Stadium, Murphy",
       "date": "2026-11-13",
       "time": "7:30 PM"
     },
@@ -3129,6 +3172,7 @@
       "team2": "Pleasanton",
       "score2": null,
       "winner": null,
+      "site": "Creek View Cougar Stadium, San Antonio",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -3143,6 +3187,7 @@
       "team2": "San Antonio Davenport",
       "score2": null,
       "winner": null,
+      "site": "Heroes Stadium, San Antonio",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -3157,6 +3202,7 @@
       "team2": "Fredericksburg",
       "score2": null,
       "winner": null,
+      "site": "Battlin Billie Stadium, Fredericksburg",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -3171,6 +3217,7 @@
       "team2": "La Vernia",
       "score2": null,
       "winner": null,
+      "site": "Bear Stadium, La Vernia",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -3285,6 +3332,7 @@
       "team2": "El Paso Ysleta",
       "score2": null,
       "winner": null,
+      "site": "Astound Broadband Stadium, Midland",
       "date": "2026-11-12",
       "time": "6:00 PM"
     },
@@ -3299,6 +3347,7 @@
       "team2": "Andrews",
       "score2": null,
       "winner": null,
+      "site": "Mustang Bowl, Sweetwater",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -3333,6 +3382,7 @@
       "team2": "Dallas Carter",
       "score2": null,
       "winner": null,
+      "site": "Kincaide Stadium, Dallas",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -3347,6 +3397,7 @@
       "team2": "Fort Worth Southwest",
       "score2": null,
       "winner": null,
+      "site": "Clark Stadium, Fort Worth",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -3361,6 +3412,7 @@
       "team2": "Benbrook",
       "score2": null,
       "winner": null,
+      "site": "Loos Stadium, Dallas",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -3375,6 +3427,7 @@
       "team2": "Wilmer-Hutchins",
       "score2": null,
       "winner": null,
+      "site": "Ellis Stadium, Irving",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -3409,6 +3462,7 @@
       "team2": "El Campo",
       "score2": null,
       "winner": null,
+      "site": "Toyota Rattler Stadium, San Marcos",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -3423,6 +3477,7 @@
       "team2": "Bridge City",
       "score2": null,
       "winner": null,
+      "site": "Abshier Stadium, Deer Park",
       "date": "2026-11-13",
       "time": "7:30 PM"
     },
@@ -3437,6 +3492,7 @@
       "team2": "China Spring",
       "score2": null,
       "winner": null,
+      "site": "Matador Stadium, Seguin",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -3488,6 +3544,7 @@
       "team2": "Navasota",
       "score2": null,
       "winner": null,
+      "site": "Wildcat Stadium, Temple",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -3522,6 +3579,7 @@
       "team2": "Caddo Mills",
       "score2": null,
       "winner": null,
+      "site": "Pirate Stadium, Longview",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -3536,6 +3594,7 @@
       "team2": "Kilgore",
       "score2": null,
       "winner": null,
+      "site": "Wildcat Stadium, Paris",
       "date": "2026-11-12",
       "time": "7:30 PM"
     },
@@ -3550,6 +3609,7 @@
       "team2": "Henderson",
       "score2": null,
       "winner": null,
+      "site": "Prim Stadium, Sulphur Springs",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -3564,6 +3624,7 @@
       "team2": "Kaufman",
       "score2": null,
       "winner": null,
+      "site": "Eagle Stadium, Lindale",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -3578,6 +3639,7 @@
       "team2": "Port Lavaca Calhoun",
       "score2": null,
       "winner": null,
+      "site": "Cotton Picker Stadium, Robstown",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -3592,6 +3654,7 @@
       "team2": "Corpus Christi Miller",
       "score2": null,
       "winner": null,
+      "site": "Javelina Stadium, Kingsville",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -3606,6 +3669,7 @@
       "team2": "Hidalgo Early College",
       "score2": null,
       "winner": null,
+      "site": "Danaher Stadium, Corpus Christi",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -3620,6 +3684,7 @@
       "team2": "CC Tuloso-Midway",
       "score2": null,
       "winner": null,
+      "site": "Memorial Stadium, Alice",
       "date": "2026-11-12",
       "time": "7:30 PM"
     },
@@ -3634,6 +3699,7 @@
       "team2": "Ponder",
       "score2": null,
       "winner": null,
+      "site": "Crowley ISD Stadium, Fort Worth",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -3648,6 +3714,7 @@
       "team2": "Venus",
       "score2": null,
       "winner": null,
+      "site": "Kimbrough Stadium, Murphy",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -3662,6 +3729,7 @@
       "team2": "Kemp",
       "score2": null,
       "winner": null,
+      "site": "Royse City ISD Stadium, Royse City",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -3676,6 +3744,7 @@
       "team2": "Sanger",
       "score2": null,
       "winner": null,
+      "site": "Buchanan Stadium, Aledo",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -3790,6 +3859,7 @@
       "team2": "Navarro",
       "score2": null,
       "winner": null,
+      "site": "Johnson Field, Karnes City",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -3904,6 +3974,7 @@
       "team2": "Giddings",
       "score2": null,
       "winner": null,
+      "site": "Memorial Stadium, Hutto",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -3938,6 +4009,7 @@
       "team2": "Pleasant Grove",
       "score2": null,
       "winner": null,
+      "site": "Farmer Stadium, Farmersville",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -3972,6 +4044,7 @@
       "team2": "Paris North Lamar",
       "score2": null,
       "winner": null,
+      "site": "Hanby Stadium, Mesquite",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -4026,6 +4099,7 @@
       "team2": "La Grange",
       "score2": null,
       "winner": null,
+      "site": "Rhodes Stadium, Katy",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -4238,7 +4312,7 @@
       "team2": "Crandall",
       "score2": null,
       "winner": null,
-      "site": "Tiger Stadium",
+      "site": "Tiger Stadium, Lancaster",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -4253,7 +4327,7 @@
       "team2": "McKinney North",
       "score2": null,
       "winner": null,
-      "site": "Highlander Stadium",
+      "site": "Highlander Stadium, University Park",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -4268,6 +4342,7 @@
       "team2": "Midlothian",
       "score2": null,
       "winner": null,
+      "site": "TMF Rose Stadium, Tyler",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -4322,6 +4397,7 @@
       "team2": "North Mesquite",
       "score2": null,
       "winner": null,
+      "site": "Eagle Stadium, DeSoto",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -4336,6 +4412,7 @@
       "team2": "Garland Naaman Forest",
       "score2": null,
       "winner": null,
+      "site": "Kenny Deel Stadium, Melissa",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -4390,6 +4467,7 @@
       "team2": "A&M Consolidated",
       "score2": null,
       "winner": null,
+      "site": "Traylor Stadium, Rosenberg",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -4404,6 +4482,7 @@
       "team2": "Iowa Colony",
       "score2": null,
       "winner": null,
+      "site": "The Pfield, Pflugerville",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -4417,7 +4496,10 @@
       "score1": null,
       "team2": "Abilene",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Excalibur Stadium, El Paso",
+      "date": "2026-11-12",
+      "time": "6:00 PM"
     },
     {
       "year": 2026,
@@ -4530,6 +4612,7 @@
       "team2": "Azle",
       "score2": null,
       "winner": null,
+      "site": "Bear Stadium, Fort Worth",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -4544,7 +4627,7 @@
       "team2": "Amarillo Tascosa",
       "score2": null,
       "winner": null,
-      "site": "Socorro ISD Student Activity Cen",
+      "site": "Socorro ISD Student Activity Center, El Paso",
       "date": "2026-11-12",
       "time": "7:30 PM"
     },
@@ -4659,6 +4742,7 @@
       "team2": "Corpus Christi Flour Bluff",
       "score2": null,
       "winner": null,
+      "site": "Memorial Stadium, McAllen",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -4673,6 +4757,7 @@
       "team2": "Manor",
       "score2": null,
       "winner": null,
+      "site": "Panther Stadium, Castroville",
       "date": "2026-11-13",
       "time": "7:30 PM"
     },
@@ -4724,6 +4809,7 @@
       "team2": "Austin Anderson",
       "score2": null,
       "winner": null,
+      "site": "Southside ISD Stadium, San Antonio",
       "date": "2026-11-13",
       "time": "7:30 PM"
     },
@@ -4738,6 +4824,7 @@
       "team2": "Weslaco East",
       "score2": null,
       "winner": null,
+      "site": "Memorial Stadium, McAllen",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -4752,6 +4839,7 @@
       "team2": "Eagle Pass Winn",
       "score2": null,
       "winner": null,
+      "site": "Boerne ISD Stadium, Boerne",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -4766,6 +4854,7 @@
       "team2": "Colleyville Heritage",
       "score2": null,
       "winner": null,
+      "site": "Ford Center, Frisco",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -4820,6 +4909,7 @@
       "team2": "The Colony",
       "score2": null,
       "winner": null,
+      "site": "Coyote Stadium, Anna",
       "date": "2026-11-13",
       "time": "7:30 PM"
     },
@@ -4892,6 +4982,7 @@
       "team2": "Nederland",
       "score2": null,
       "winner": null,
+      "site": "Hornet Field, Huntsville",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -5006,6 +5097,7 @@
       "team2": "Ennis",
       "score2": null,
       "winner": null,
+      "site": "Tiger Field, Belton",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -5020,6 +5112,7 @@
       "team2": "Dallas Samuell",
       "score2": null,
       "winner": null,
+      "site": "Memorial Stadium, Terrell",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -5034,6 +5127,7 @@
       "team2": "Killeen Ellison",
       "score2": null,
       "winner": null,
+      "site": "Midlothian ISD Stadium, Midlothian",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -5068,6 +5162,7 @@
       "team2": "Dallas Wilson",
       "score2": null,
       "winner": null,
+      "site": "Tiger Stadium, Texarkana",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -5102,6 +5197,7 @@
       "team2": "Hallsville",
       "score2": null,
       "winner": null,
+      "site": "Franklin Stadium, Dallas",
       "date": "2026-11-13",
       "time": "7:30 PM"
     },
@@ -5116,6 +5212,7 @@
       "team2": "Tomas",
       "score2": null,
       "winner": null,
+      "site": "The Pfield, Pflugerville",
       "date": "2026-11-14",
       "time": "2:00 PM"
     },
@@ -5170,6 +5267,7 @@
       "team2": "Victoria West",
       "score2": null,
       "winner": null,
+      "site": "Memorial Stadium, Bastrop",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -5184,6 +5282,7 @@
       "team2": "San Antonio Brackenridge",
       "score2": null,
       "winner": null,
+      "site": "Boerne ISD Stadium, Boerne",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -5198,6 +5297,7 @@
       "team2": "Mercedes",
       "score2": null,
       "winner": null,
+      "site": "Tom Landry Stadium, Mission",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -5232,6 +5332,7 @@
       "team2": "Cigarroa",
       "score2": null,
       "winner": null,
+      "site": "Buccaneer Stadium, Corpus Christi",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -5266,6 +5367,7 @@
       "team2": "Liberty Hill",
       "score2": null,
       "winner": null,
+      "site": "Harlandale Memorial Stadium, San Antonio",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -5280,6 +5382,7 @@
       "team2": "Brownsville Pace",
       "score2": null,
       "winner": null,
+      "site": "Thompson Stadium, Mission",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -5294,6 +5397,7 @@
       "team2": "San Antonio McCollum",
       "score2": null,
       "winner": null,
+      "site": "Orem Stadium, Alamo Heights",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -5308,6 +5412,7 @@
       "team2": "Byron Nelson",
       "score2": null,
       "winner": null,
+      "site": "Glaspie Field, Arlington",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -5322,10 +5427,7 @@
       "team2": "South Grand Prairie",
       "score2": null,
       "winner": null,
-      "site": "Mustang Panther Stadium",
-      "lat": 32.74596,
-      "lng": -96.99778,
-      "city": "Grand Prairie",
+      "site": "Mustang-Panther Stadium, Grapevine",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -5340,6 +5442,7 @@
       "team2": "Arlington",
       "score2": null,
       "winner": null,
+      "site": "Keller ISD Stadium, Keller",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -5374,6 +5477,7 @@
       "team2": "Rockwall-Heath",
       "score2": null,
       "winner": null,
+      "site": "Homer B. Johnson Stadium, Garland",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -5406,6 +5510,7 @@
       "team2": "Wylie",
       "score2": null,
       "winner": null,
+      "site": "Wilkerson-Sanders Stadium, Rockwall",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -5440,6 +5545,7 @@
       "team2": "Los Fresnos",
       "score2": null,
       "winner": null,
+      "site": "Lackey Stadium, Weslaco",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -5454,6 +5560,7 @@
       "team2": "La Joya",
       "score2": null,
       "winner": null,
+      "site": "Boggus Stadium, Harlingen",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -5468,7 +5575,7 @@
       "team2": "Midland Lee",
       "score2": null,
       "winner": null,
-      "site": "El Paso's SAC 2 Stadium",
+      "site": "SAC 2 Stadium, El Paso",
       "date": "2026-11-12",
       "time": "8:00 PM"
     },
@@ -5483,6 +5590,7 @@
       "team2": "Prosper",
       "score2": null,
       "winner": null,
+      "site": "Goldsmith Stadium, Lewisville",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -5517,6 +5625,7 @@
       "team2": "Lewisville Hebron",
       "score2": null,
       "winner": null,
+      "site": "Eagle Stadium, Allen",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -5744,7 +5853,7 @@
       "team2": "Pearland Dawson",
       "score2": null,
       "winner": null,
-      "site": "Houston ISD Delmar Stadium",
+      "site": "Delmar Stadium, Houston",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -5759,7 +5868,7 @@
       "team2": "Aldine Nimitz",
       "score2": null,
       "winner": null,
-      "site": "Conroe ISD Woodforest Stadium",
+      "site": "Woodforest Bank Stadium, Shenandoah",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -5794,6 +5903,7 @@
       "team2": "Leander Vandegrift",
       "score2": null,
       "winner": null,
+      "site": "Cy-Fair FCU Stadium, Cypress",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -5828,6 +5938,7 @@
       "team2": "Buda Johnson",
       "score2": null,
       "winner": null,
+      "site": "Cavalier Stadium, Austin",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -5842,6 +5953,7 @@
       "team2": "Round Rock",
       "score2": null,
       "winner": null,
+      "site": "Burger Stadium, Austin",
       "date": "2026-11-12",
       "time": "7:30 PM"
     },
@@ -5856,7 +5968,7 @@
       "team2": "Keller Central",
       "score2": null,
       "winner": null,
-      "site": "Fort Worth's Kight Stadium",
+      "site": "Knight Stadium, Fort Worth",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -5891,6 +6003,7 @@
       "team2": "Weatherford",
       "score2": null,
       "winner": null,
+      "site": "Dragon Stadium, Southlake",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -5985,6 +6098,7 @@
       "team2": "Red Oak",
       "score2": null,
       "winner": null,
+      "site": "Buckley Stadium, Killeen",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -5999,7 +6113,7 @@
       "team2": "Brownsville Veterans Memorial",
       "score2": null,
       "winner": null,
-      "site": "Richard Flores Stadium Edinburg, Texas",
+      "site": "Flores Stadium, Edinburg",
       "date": "2026-11-13",
       "time": "7:30 PM"
     },
@@ -6014,6 +6128,7 @@
       "team2": "Edinburg",
       "score2": null,
       "winner": null,
+      "site": "PSJA Stadium, Pharr",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -6068,6 +6183,7 @@
       "team2": "El Paso Franklin",
       "score2": null,
       "winner": null,
+      "site": "Astound Broadband Stadium, Midland",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -6222,6 +6338,7 @@
       "team2": "San Antonio Churchill",
       "score2": null,
       "winner": null,
+      "site": "Warrior Coliseum, San Antonio",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -6294,7 +6411,7 @@
       "team2": "Houston Heights",
       "score2": null,
       "winner": null,
-      "site": "Alvin ISD Freedom Field",
+      "site": "Freedom Field, Iowa Colony",
       "date": "2026-11-12",
       "time": "7:30 PM"
     },
@@ -6309,7 +6426,7 @@
       "team2": "Manvel",
       "score2": null,
       "winner": null,
-      "site": "Spring Branch ISD Tully Stadium",
+      "site": "Tully Stadium, Houston",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -6324,7 +6441,7 @@
       "team2": "Spring Dekaney",
       "score2": null,
       "winner": null,
-      "site": "Conroe ISD Woodforest Stadium",
+      "site": "Woodforest Bank Stadium, Shenandoah",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -6339,7 +6456,7 @@
       "team2": "Willis",
       "score2": null,
       "winner": null,
-      "site": "Spring ISD Planet Ford District Stadium",
+      "site": "Planet Ford Stadium, Spring",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -6354,6 +6471,7 @@
       "team2": "Georgetown East View",
       "score2": null,
       "winner": null,
+      "site": "Scherer Stadium, Richmond",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -6368,6 +6486,7 @@
       "team2": "Waller",
       "score2": null,
       "winner": null,
+      "site": "Gupton Stadium, Cedar Park",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -6382,6 +6501,7 @@
       "team2": "Buda Hays",
       "score2": null,
       "winner": null,
+      "site": "Chaparral Stadium, Austin",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -6396,6 +6516,7 @@
       "team2": "Round Rock Cedar Ridge",
       "score2": null,
       "winner": null,
+      "site": "Tiger Stadium, Dripping Springs",
       "date": "2026-11-12",
       "time": "7:00 PM"
     }
