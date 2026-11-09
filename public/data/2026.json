@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-09T00:27+00:00",
+    "updated": "2026-11-09T00:31+00:00",
     "games": 352,
     "played": 0,
     "assigned": 85,
@@ -1387,7 +1387,9 @@
       "team2": "West Hardin",
       "score2": null,
       "winner": null,
-      "site": "Willis ISD Willis HS"
+      "site": "Willis ISD Willis HS",
+      "lat": 29.71769,
+      "lng": -98.45437
     },
     {
       "year": 2026,
@@ -2024,6 +2026,11 @@
       "score2": null,
       "winner": null,
       "site": "Willis ISD Yates Stadium",
+      "lat": 30.43206,
+      "lng": -95.48742,
+      "stadium": "Berton A. Yates Stadium",
+      "map_link": "https://goo.gl/maps/KJhdp6tmumPyTyDo8",
+      "city": "Willis",
       "date": "2026-11-13"
     },
     {
@@ -2811,6 +2818,8 @@
       "score2": null,
       "winner": null,
       "site": "Channelview ISD Maddry Stadium",
+      "lat": 29.79247,
+      "lng": -95.12057,
       "date": "2026-11-13"
     },
     {
@@ -3108,7 +3117,12 @@
       "team2": "Salado",
       "score2": null,
       "winner": null,
-      "site": "Leander ISD Gupton Stadium"
+      "site": "Leander ISD Gupton Stadium",
+      "lat": 30.51518,
+      "lng": -97.79196,
+      "stadium": "John Gupton Stadium",
+      "map_link": "https://goo.gl/maps/dJoKL6tqpt1DgXV18",
+      "city": "Cedar Park"
     },
     {
       "year": 2026,
@@ -3232,6 +3246,11 @@
       "score2": null,
       "winner": null,
       "site": "Tyler ISD Rose Stadium",
+      "lat": 32.34228,
+      "lng": -95.32406,
+      "stadium": "Christus Trinity Mother Frances Rose Stadium",
+      "map_link": "https://goo.gl/maps/ZwesgiaqJ8b5bMgQ7",
+      "city": "Tyler",
       "date": "2026-11-13"
     },
     {
@@ -3750,6 +3769,11 @@
       "score2": null,
       "winner": null,
       "site": "Houston ISD Butler Stadium",
+      "lat": 29.64881,
+      "lng": -95.45454,
+      "stadium": "Joe K. Butler Stadium",
+      "map_link": "https://goo.gl/maps/JMeoss3AJbuAd4RY8",
+      "city": "Houston",
       "date": "2026-11-13"
     },
     {
@@ -3763,7 +3787,12 @@
       "team2": "Goose Creek Memorial",
       "score2": null,
       "winner": null,
-      "site": "Houston ISD Barnett Stadium"
+      "site": "Houston ISD Barnett Stadium",
+      "lat": 29.69362,
+      "lng": -95.30498,
+      "stadium": "Herman A. Barnett Stadium",
+      "map_link": "https://goo.gl/maps/SDaszQzbgCemRvfX8",
+      "city": "Houston"
     },
     {
       "year": 2026,
@@ -3964,6 +3993,8 @@
       "score2": null,
       "winner": null,
       "site": "Montgomery ISD Athletic Complex",
+      "lat": 30.25239,
+      "lng": -95.19943,
       "date": "2026-11-13"
     },
     {
@@ -4237,7 +4268,12 @@
       "team2": "Elgin",
       "score2": null,
       "winner": null,
-      "site": "Fort Bend ISD Hall Stadium"
+      "site": "Fort Bend ISD Hall Stadium",
+      "lat": 29.53233,
+      "lng": -95.49701,
+      "stadium": "Ken Hall Stadium",
+      "map_link": "https://goo.gl/maps/F4gUBwst8H7sUr7v6",
+      "city": "Missouri City"
     },
     {
       "year": 2026,
@@ -4629,6 +4665,11 @@
       "score2": null,
       "winner": null,
       "site": "Dickinson ISD Vitanza Stadium",
+      "lat": 29.47148,
+      "lng": -95.03173,
+      "stadium": "Sam Vitanza Stadium",
+      "map_link": "https://goo.gl/maps/e6sWW2n5DGJfEqpu5",
+      "city": "Dickinson",
       "date": "2026-11-13"
     },
     {
@@ -4643,6 +4684,11 @@
       "score2": null,
       "winner": null,
       "site": "Katy ISD Legacy Stadium",
+      "lat": 29.80121,
+      "lng": -95.80476,
+      "stadium": "Mike Johnston Field at Legacy Stadium",
+      "map_link": "https://goo.gl/maps/km2SPmR8CsAASd3H6",
+      "city": "Katy",
       "date": "2026-11-13"
     },
     {
@@ -4762,6 +4808,11 @@
       "score2": null,
       "winner": null,
       "site": "Aldine ISD Thorne Stadium",
+      "lat": 29.93025,
+      "lng": -95.32566,
+      "stadium": "W. W. Thorne Stadium",
+      "map_link": "https://goo.gl/maps/7sh3THKVEVzwZ1fk8",
+      "city": "Houston",
       "date": "2026-11-13"
     },
     {
@@ -5072,6 +5123,11 @@
       "score2": null,
       "winner": null,
       "site": "Fort Bend ISD Hall Stadium",
+      "lat": 29.53015,
+      "lng": -95.50134,
+      "stadium": "Ken Hall Stadium",
+      "map_link": "https://goo.gl/maps/F4gUBwst8H7sUr7v6",
+      "city": "Missouri City",
       "date": "2026-11-13"
     },
     {
@@ -5105,6 +5161,11 @@
       "score2": null,
       "winner": null,
       "site": "Katy ISD Legacy Stadium",
+      "lat": 29.80121,
+      "lng": -95.80476,
+      "stadium": "Mike Johnston Field at Legacy Stadium",
+      "map_link": "https://goo.gl/maps/km2SPmR8CsAASd3H6",
+      "city": "Katy",
       "date": "2026-11-12"
     },
     {

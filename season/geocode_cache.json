@@ -23,14 +23,15 @@
   "stadium_id": 417
  },
  "Aldine ISD Thorne Stadium || Houston Benjamin Davis v Grand Oaks": {
-  "address": "",
-  "how": "no stadium, school or town matched",
-  "map_link": "",
-  "missed": "2026-11-09",
-  "rules": 2,
+  "address": "1865 Aldine Bender, Houston, Texas 77032",
+  "city": "Houston",
+  "how": "stadium",
+  "lat": 29.93025,
+  "lng": -95.32566,
+  "map_link": "https://goo.gl/maps/7sh3THKVEVzwZ1fk8",
   "site": "Aldine ISD Thorne Stadium",
-  "stadium": null,
-  "stadium_id": null
+  "stadium": "W. W. Thorne Stadium",
+  "stadium_id": 366
  },
  "Alvin ISD Freedom Field || Shadow Creek v Heights": {
   "address": "10855 County Road 65, Iowa Colony, Texas 77583",
@@ -322,10 +323,10 @@
  },
  "Channelview ISD Maddry Stadium || Fort Bend Willowridge v Hargrave": {
   "address": "",
-  "how": "no stadium, school or town matched",
+  "how": "stadium found by name",
+  "lat": 29.79247,
+  "lng": -95.12057,
   "map_link": "",
-  "missed": "2026-11-09",
-  "rules": 2,
   "site": "Channelview ISD Maddry Stadium",
   "stadium": null,
   "stadium_id": null
@@ -409,10 +410,10 @@
  },
  "College Station ISD Cougar Stadium || Lovelady v Granger": {
   "address": "",
-  "how": "no stadium, school or town matched",
+  "how": "district:Cougar Stadium, College Station",
   "map_link": "",
   "missed": "2026-11-09",
-  "rules": 2,
+  "rules": 3,
   "site": "College Station ISD Cougar Stadium",
   "stadium": null,
   "stadium_id": null
@@ -430,20 +431,20 @@
  },
  "Conroe ISD Woodforest Stadium || College Park v Spring Dekaney": {
   "address": "",
-  "how": "no stadium, school or town matched",
+  "how": "district:Woodforest Stadium, Conroe",
   "map_link": "",
   "missed": "2026-11-09",
-  "rules": 2,
+  "rules": 3,
   "site": "Conroe ISD Woodforest Stadium",
   "stadium": null,
   "stadium_id": null
  },
  "Conroe ISD Woodforest Stadium || The Woodlands v Nimitz": {
   "address": "",
-  "how": "no stadium, school or town matched",
+  "how": "district:Woodforest Stadium, Conroe",
   "map_link": "",
   "missed": "2026-11-09",
-  "rules": 2,
+  "rules": 3,
   "site": "Conroe ISD Woodforest Stadium",
   "stadium": null,
   "stadium_id": null
@@ -582,14 +583,15 @@
   "stadium_id": 722
  },
  "Dickinson ISD Vitanza Stadium || Dickinson v Houston Summer Creek": {
-  "address": "",
-  "how": "no stadium, school or town matched",
-  "map_link": "",
-  "missed": "2026-11-09",
-  "rules": 2,
+  "address": "3800 Baker Avenue, Dickinson, Texas 77539",
+  "city": "Dickinson",
+  "how": "stadium",
+  "lat": 29.47148,
+  "lng": -95.03173,
+  "map_link": "https://goo.gl/maps/e6sWW2n5DGJfEqpu5",
   "site": "Dickinson ISD Vitanza Stadium",
-  "stadium": null,
-  "stadium_id": null
+  "stadium": "Sam Vitanza Stadium",
+  "stadium_id": 1136
  },
  "Dimmitt High School || Ropes v Vega": {
   "address": "1572 FM 3215, Dimmitt, Texas 79027",
@@ -649,24 +651,26 @@
   "stadium_id": 827
  },
  "Fort Bend ISD Hall Stadium || Almeta Crawford v Elgin": {
-  "address": "",
-  "how": "no stadium, school or town matched",
-  "map_link": "",
-  "missed": "2026-11-09",
-  "rules": 2,
+  "address": "3333 Hurricane Ln, Missouri City, Texas 77459",
+  "city": "Missouri City",
+  "how": "stadium",
+  "lat": 29.53233,
+  "lng": -95.49701,
+  "map_link": "https://goo.gl/maps/F4gUBwst8H7sUr7v6",
   "site": "Fort Bend ISD Hall Stadium",
-  "stadium": null,
-  "stadium_id": null
+  "stadium": "Ken Hall Stadium",
+  "stadium_id": 520
  },
  "Fort Bend ISD Hall Stadium || Fort Bend Ridge Point v Katy Taylor": {
-  "address": "",
-  "how": "no stadium, school or town matched",
-  "map_link": "",
-  "missed": "2026-11-09",
-  "rules": 2,
+  "address": "3333 Hurricane Ln, Missouri City, Texas 77459",
+  "city": "Missouri City",
+  "how": "stadium",
+  "lat": 29.53015,
+  "lng": -95.50134,
+  "map_link": "https://goo.gl/maps/F4gUBwst8H7sUr7v6",
   "site": "Fort Bend ISD Hall Stadium",
-  "stadium": null,
-  "stadium_id": null
+  "stadium": "Ken Hall Stadium",
+  "stadium_id": 520
  },
  "Frenship High School || Sweetwater v Dalhart": {
   "address": "Tiger St. & FM 179, Wolfforth, Texas 79382",
@@ -792,24 +796,26 @@
   "stadium_id": 713
  },
  "Houston ISD Barnett Stadium || Houston Milby v Goose Creek Memorial": {
-  "address": "",
-  "how": "no stadium, school or town matched",
-  "map_link": "",
-  "missed": "2026-11-09",
-  "rules": 2,
+  "address": "6800 Fairway, Houston, Texas 77087",
+  "city": "Houston",
+  "how": "stadium",
+  "lat": 29.69362,
+  "lng": -95.30498,
+  "map_link": "https://goo.gl/maps/SDaszQzbgCemRvfX8",
   "site": "Houston ISD Barnett Stadium",
-  "stadium": null,
-  "stadium_id": null
+  "stadium": "Herman A. Barnett Stadium",
+  "stadium_id": 605
  },
  "Houston ISD Butler Stadium || Houston Madison v Beaumont United": {
-  "address": "",
-  "how": "no stadium, school or town matched",
-  "map_link": "",
-  "missed": "2026-11-09",
-  "rules": 2,
+  "address": "13755 South Main, Houston, Texas 77035",
+  "city": "Houston",
+  "how": "stadium",
+  "lat": 29.64881,
+  "lng": -95.45454,
+  "map_link": "https://goo.gl/maps/JMeoss3AJbuAd4RY8",
   "site": "Houston ISD Butler Stadium",
-  "stadium": null,
-  "stadium_id": null
+  "stadium": "Joe K. Butler Stadium",
+  "stadium_id": 610
  },
  "Houston ISD Delmar Stadium || Lamar v Dawson": {
   "address": "2020 Mangum Rd, Houston, Texas 77455",
@@ -867,24 +873,26 @@
   "stadium_id": null
  },
  "Katy ISD Legacy Stadium || Katy Tompkins v Fort Bend Hightower": {
-  "address": "",
-  "how": "no stadium, school or town matched",
-  "map_link": "",
-  "missed": "2026-11-09",
-  "rules": 2,
+  "address": "5175 Franz Rd, Katy, Texas 77493",
+  "city": "Katy",
+  "how": "stadium",
+  "lat": 29.80121,
+  "lng": -95.80476,
+  "map_link": "https://goo.gl/maps/km2SPmR8CsAASd3H6",
   "site": "Katy ISD Legacy Stadium",
-  "stadium": null,
-  "stadium_id": null
+  "stadium": "Mike Johnston Field at Legacy Stadium",
+  "stadium_id": 1699
  },
  "Katy ISD Legacy Stadium || Katy v Fort Bend Travis": {
-  "address": "",
-  "how": "no stadium, school or town matched",
-  "map_link": "",
-  "missed": "2026-11-09",
-  "rules": 2,
+  "address": "5175 Franz Rd, Katy, Texas 77493",
+  "city": "Katy",
+  "how": "stadium",
+  "lat": 29.80121,
+  "lng": -95.80476,
+  "map_link": "https://goo.gl/maps/km2SPmR8CsAASd3H6",
   "site": "Katy ISD Legacy Stadium",
-  "stadium": null,
-  "stadium_id": null
+  "stadium": "Mike Johnston Field at Legacy Stadium",
+  "stadium_id": 1699
  },
  "Kermit HS || Canyon Randall v El Paso Austin": {
   "address": "601 S Poplar St, Kermit, Texas 79745",
@@ -899,10 +907,10 @@
  },
  "Klein ISD Memorial Stadium || Klein v Cypress Woods": {
   "address": "",
-  "how": "no stadium, school or town matched",
+  "how": "district:Memorial Stadium, Klein",
   "map_link": "",
   "missed": "2026-11-09",
-  "rules": 2,
+  "rules": 3,
   "site": "Klein ISD Memorial Stadium",
   "stadium": null,
   "stadium_id": null
@@ -942,14 +950,15 @@
   "stadium_id": 955
  },
  "Leander ISD Gupton Stadium || Wimberley v Salado": {
-  "address": "",
-  "how": "no stadium, school or town matched",
-  "map_link": "",
-  "missed": "2026-11-09",
-  "rules": 2,
+  "address": "S. Vista Ridge Blvd at E. Park St, Cedar Park, Texas 78613",
+  "city": "Cedar Park",
+  "how": "stadium",
+  "lat": 30.51518,
+  "lng": -97.79196,
+  "map_link": "https://goo.gl/maps/dJoKL6tqpt1DgXV18",
   "site": "Leander ISD Gupton Stadium",
-  "stadium": null,
-  "stadium_id": null
+  "stadium": "John Gupton Stadium",
+  "stadium_id": 1340
  },
  "Legacy Stadium || Katy v Fort Bend Travis": {
   "address": "5175 Franz Rd, Katy, Texas 77493",
@@ -1042,10 +1051,10 @@
  },
  "Madisonville CISD Stadium || Anahuac v Westwood": {
   "address": "",
-  "how": "no stadium, school or town matched",
+  "how": "district:Stadium, Madisonville",
   "map_link": "",
   "missed": "2026-11-09",
-  "rules": 2,
+  "rules": 3,
   "site": "Madisonville CISD Stadium",
   "stadium": null,
   "stadium_id": null
@@ -1153,10 +1162,10 @@
  },
  "Montgomery ISD Athletic Complex || Montgomery v Dayton": {
   "address": "",
-  "how": "no stadium, school or town matched",
+  "how": "stadium found by name",
+  "lat": 30.25239,
+  "lng": -95.19943,
   "map_link": "",
-  "missed": "2026-11-09",
-  "rules": 2,
   "site": "Montgomery ISD Athletic Complex",
   "stadium": null,
   "stadium_id": null
@@ -1286,10 +1295,10 @@
  },
  "Pearland ISD The Rig || Pearland v Alief Taylor": {
   "address": "",
-  "how": "no stadium, school or town matched",
+  "how": "stadium found by name",
+  "lat": 29.53869,
+  "lng": -95.26726,
   "map_link": "",
-  "missed": "2026-11-09",
-  "rules": 2,
   "site": "Pearland ISD The Rig",
   "stadium": null,
   "stadium_id": null
@@ -1482,21 +1491,22 @@
   "stadium_id": 1009
  },
  "Spring Branch ISD Tully Stadium || Memorial v Manvel": {
-  "address": "",
-  "how": "no stadium, school or town matched",
-  "map_link": "",
-  "missed": "2026-11-09",
-  "rules": 2,
+  "address": "1050 Dairy Ashford, Houston, Texas 77079",
+  "city": "Houston",
+  "how": "stadium",
+  "lat": 29.77868,
+  "lng": -95.6063,
+  "map_link": "https://goo.gl/maps/dt5v3mkS1Y6E9dzx5",
   "site": "Spring Branch ISD Tully Stadium",
-  "stadium": null,
-  "stadium_id": null
+  "stadium": "Darrell Tully Stadium",
+  "stadium_id": 364
  },
  "Spring ISD Planet Ford District Stadium || Westfield v Willis": {
   "address": "",
-  "how": "no stadium, school or town matched",
+  "how": "district:Planet Ford District Stadium, Spring",
   "map_link": "",
   "missed": "2026-11-09",
-  "rules": 2,
+  "rules": 3,
   "site": "Spring ISD Planet Ford District Stadium",
   "stadium": null,
   "stadium_id": null
@@ -1613,10 +1623,10 @@
  },
  "Timpson ISD Bear Stadium || Newton v Elkhart": {
   "address": "",
-  "how": "no stadium, school or town matched",
+  "how": "district:Bear Stadium, Timpson",
   "map_link": "",
   "missed": "2026-11-09",
-  "rules": 2,
+  "rules": 3,
   "site": "Timpson ISD Bear Stadium",
   "stadium": null,
   "stadium_id": null
@@ -1634,23 +1644,24 @@
  },
  "Tuloso Midway ISD Tuloso Midway HS || Rio Hondo v Goliad": {
   "address": "",
-  "how": "no stadium, school or town matched",
+  "how": "district:Tuloso Midway HS, Tuloso Midway",
   "map_link": "",
   "missed": "2026-11-09",
-  "rules": 2,
+  "rules": 3,
   "site": "Tuloso Midway ISD Tuloso Midway HS",
   "stadium": null,
   "stadium_id": null
  },
  "Tyler ISD Rose Stadium || Sunnyvale v Pittsburg": {
-  "address": "",
-  "how": "no stadium, school or town matched",
-  "map_link": "",
-  "missed": "2026-11-09",
-  "rules": 2,
+  "address": "609 Fair Park Drive, Tyler, Texas 75701",
+  "city": "Tyler",
+  "how": "stadium",
+  "lat": 32.34228,
+  "lng": -95.32406,
+  "map_link": "https://goo.gl/maps/ZwesgiaqJ8b5bMgQ7",
   "site": "Tyler ISD Rose Stadium",
-  "stadium": null,
-  "stadium_id": null
+  "stadium": "Christus Trinity Mother Frances Rose Stadium",
+  "stadium_id": 568
  },
  "United ISD Student Activity Center Field (Laredo) || Laredo Alexander v San Antonio Warren": {
   "address": "",
@@ -1665,10 +1676,10 @@
  },
  "Waxahachie ISD Lumpkin Stadium || Waxahachie v Copperas Cove": {
   "address": "",
-  "how": "no stadium, school or town matched",
+  "how": "district:Lumpkin Stadium, Waxahachie",
   "map_link": "",
   "missed": "2026-11-09",
-  "rules": 2,
+  "rules": 3,
   "site": "Waxahachie ISD Lumpkin Stadium",
   "stadium": null,
   "stadium_id": null
@@ -1686,23 +1697,24 @@
  },
  "Willis ISD Willis HS || Grapeland v West Hardin": {
   "address": "",
-  "how": "no stadium, school or town matched",
+  "how": "stadium found by name",
+  "lat": 29.71769,
+  "lng": -98.45437,
   "map_link": "",
-  "missed": "2026-11-09",
-  "rules": 2,
   "site": "Willis ISD Willis HS",
   "stadium": null,
   "stadium_id": null
  },
  "Willis ISD Yates Stadium || Fairfield v East Chambers": {
-  "address": "",
-  "how": "no stadium, school or town matched",
-  "map_link": "",
-  "missed": "2026-11-09",
-  "rules": 2,
+  "address": "Longstreet Rd at Bybee, Willis, Texas 77378",
+  "city": "Willis",
+  "how": "stadium",
+  "lat": 30.43206,
+  "lng": -95.48742,
+  "map_link": "https://goo.gl/maps/KJhdp6tmumPyTyDo8",
   "site": "Willis ISD Yates Stadium",
-  "stadium": null,
-  "stadium_id": null
+  "stadium": "Berton A. Yates Stadium",
+  "stadium_id": 483
  },
  "Willis || Fairfield v East Chambers": {
   "address": "Longstreet Rd at Bybee, Willis, Texas 77378",
