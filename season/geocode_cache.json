@@ -1,13 +1,16 @@
 {
  "@ Lovejoy 11/13 @ || Lucas Lovejoy v Celina": {
-  "address": "",
-  "how": "no stadium, school or town matched",
-  "map_link": "",
-  "missed": "2026-11-09",
+  "address": "2350 Estates Pkwy, Lucas, Texas 75002",
+  "city": "Lucas",
+  "confirmed_as": "Leopard Stadium, Lucas",
+  "how": "stadium",
+  "lat": 33.10021,
+  "lng": -96.61224,
+  "map_link": "https://goo.gl/maps/YteoTrpG1m5PkJRL9",
   "rules": 5,
   "site": "@ Lovejoy 11/13 @",
-  "stadium": null,
-  "stadium_id": null
+  "stadium": "Leopard Stadium",
+  "stadium_id": 338
  },
  "A&M Consolidated HS || Rosebud-Lott v Corrigan-Camden": {
   "address": "4002 Victoria Avenue, College Station, Texas 77845",
@@ -34,14 +37,17 @@
   "stadium_id": 417
  },
  "Abilene Christian University || Lubbock Liberty v Burkburnett": {
-  "address": "",
-  "how": "no stadium, school or town matched",
-  "map_link": "",
-  "missed": "2026-11-09",
+  "address": "2225 Oliver Jackson Boulevard, Abilene, Texas 79602",
+  "city": "Abilene",
+  "confirmed_as": "Anthony Field at Wildcat Stadium, Abilene",
+  "how": "stadium",
+  "lat": 32.47352,
+  "lng": -99.70896,
+  "map_link": "https://goo.gl/maps/BmRi2NZMvheTgJtJ9",
   "rules": 5,
   "site": "Abilene Christian University",
-  "stadium": null,
-  "stadium_id": null
+  "stadium": "Anthony Field at Wildcat Stadium",
+  "stadium_id": 1062
  },
  "Aldine ISD Thorne Stadium || Houston Benjamin Davis v Grand Oaks": {
   "address": "1865 Aldine Bender, Houston, Texas 77032",
@@ -985,14 +991,17 @@
   "stadium_id": 820
  },
  "Gustafson-Northside ISD Stadium (San Antonio) || San Antonio Sotomayor v Eagle Pass": {
-  "address": "",
-  "how": "district:Stadium (San Antonio), Gustafson-Northside",
-  "map_link": "",
-  "missed": "2026-11-09",
+  "address": "7001 Culebra, San Antonio, Texas 78238",
+  "city": "San Antonio",
+  "confirmed_as": "Gustafson Stadium, San Antonio",
+  "how": "stadium",
+  "lat": 29.44972,
+  "lng": -98.62205,
+  "map_link": "https://goo.gl/maps/JZrEVmzY6YKz9yoE8",
   "rules": 5,
   "site": "Gustafson-Northside ISD Stadium (San Antonio)",
-  "stadium": null,
-  "stadium_id": null
+  "stadium": "Gustafson Stadium",
+  "stadium_id": 846
  },
  "Happy State Bank Stadium, Canyon || Spearman v Farwell": {
   "address": "2800 N 23rd St, Canyon, Texas 79015",
@@ -2178,14 +2187,17 @@
   "stadium_id": 568
  },
  "United ISD Student Activity Center Field (Laredo) || Laredo Alexander v San Antonio Warren": {
-  "address": "",
-  "how": "district:Student Activity Center Field (Laredo), United",
-  "map_link": "",
-  "missed": "2026-11-09",
+  "address": "5208 St. Claudia Lane, Laredo, Texas 78040",
+  "city": "Laredo",
+  "confirmed_as": "Student Activity Center, Laredo",
+  "how": "stadium",
+  "lat": 27.49874,
+  "lng": -99.43674,
+  "map_link": "https://goo.gl/maps/9EZxX2FDWUAoxfz2A",
   "rules": 5,
   "site": "United ISD Student Activity Center Field (Laredo)",
-  "stadium": null,
-  "stadium_id": null
+  "stadium": "Bill Johnson Student Activity Center",
+  "stadium_id": 955
  },
  "Waxahachie ISD Lumpkin Stadium || Waxahachie v Copperas Cove": {
   "address": "600 Indian Dr, Waxahachie, Texas 75165",
