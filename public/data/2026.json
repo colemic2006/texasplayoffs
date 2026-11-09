@@ -2,14 +2,14 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-09T03:18+00:00",
+    "updated": "2026-11-09T03:19+00:00",
     "games": 352,
     "played": 0,
-    "assigned": 120,
+    "assigned": 121,
     "weeks": {
       "1": {
         "games": 352,
-        "assigned": 120
+        "assigned": 121
       },
       "2": {
         "games": 0,
@@ -79,15 +79,15 @@
     {
       "code": "ABI",
       "name": "Abilene",
-      "total": 14,
+      "total": 15,
       "weeks": {
         "1": {
-          "total": 14,
+          "total": 15,
           "classifications": {
             "1A D1": 3,
             "1A D2": 2,
             "2A D1": 3,
-            "2A D2": 1,
+            "2A D2": 2,
             "3A D2": 2,
             "4A D1": 2,
             "4A D2": 1
@@ -1331,7 +1331,7 @@
       "classification": "2A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "ABI",
       "team1": "Sudan",
       "score1": null,
       "team2": "West Texas",
