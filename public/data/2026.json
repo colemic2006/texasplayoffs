@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-09T02:23+00:00",
+    "updated": "2026-11-09T02:25+00:00",
     "games": 352,
     "played": 0,
     "assigned": 116,
@@ -291,6 +291,11 @@
       "score2": null,
       "winner": null,
       "site": "Blackwell",
+      "lat": 32.08697,
+      "lng": -100.31889,
+      "stadium": "Hornet Stadium",
+      "map_link": "https://goo.gl/maps/z361CK1aJS1j41Hn9",
+      "city": "Blackwell",
       "date": "2026-11-12"
     },
     {
@@ -802,7 +807,12 @@
       "team2": "Ballinger",
       "score2": null,
       "winner": null,
-      "site": "Ballinger"
+      "site": "Ballinger",
+      "lat": 31.74586,
+      "lng": -99.96227,
+      "stadium": "Bearcat Stadium",
+      "map_link": "https://goo.gl/maps/V3vgRwM8quF9toju6",
+      "city": "Ballinger"
     },
     {
       "year": 2026,

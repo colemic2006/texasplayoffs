@@ -88,6 +88,17 @@
   "stadium": "Argyle ISD Stadium",
   "stadium_id": 5843
  },
+ "Ballinger || New Home v Ballinger": {
+  "address": "1001 Broad Ave, Ballinger, Texas 76821",
+  "city": "Ballinger",
+  "how": "school",
+  "lat": 31.74586,
+  "lng": -99.96227,
+  "map_link": "https://goo.gl/maps/V3vgRwM8quF9toju6",
+  "site": "Ballinger",
+  "stadium": "Bearcat Stadium",
+  "stadium_id": 971
+ },
  "Balmorhea High School || Grandfalls-Royalty v Dell City": {
   "address": "2481 El Paso St, Balmorhea, Texas 79718",
   "city": "Balmorhea",
@@ -197,6 +208,17 @@
   "site": "Big Spring High School",
   "stadium": "Memorial Stadium",
   "stadium_id": 989
+ },
+ "Blackwell || Menard v Highland": {
+  "address": "100 Hornet Dr, Blackwell, Texas 79506",
+  "city": "Blackwell",
+  "how": "school (town only)",
+  "lat": 32.08697,
+  "lng": -100.31889,
+  "map_link": "https://goo.gl/maps/z361CK1aJS1j41Hn9",
+  "site": "Blackwell",
+  "stadium": "Hornet Stadium",
+  "stadium_id": 97
  },
  "Blanket High School || Zephyr v Sidney": {
   "address": "901 Ave H, Blanket, Texas 76432",
