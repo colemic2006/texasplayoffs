@@ -156,6 +156,9 @@ def resolve(site, stadiums, schools, teams=()):
     "Katy ISD Legacy Stadium" is read as "Legacy Stadium, Katy"; if that isn't a known
     stadium it is looked up as written ("Tully Stadium, Spring Branch") -- never placed
     at the district's town, which may be somewhere else entirely."""
+    whole = find_stadium(site, stadiums, teams)
+    if whole:
+        return whole, 'stadium'   # the full name is a known stadium ("Argyle ISD Stadium")
     m = DISTRICT.match(site)
     if m:
         district, rest = m.group(1).strip(), m.group(2).strip()
