@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-09T00:24+00:00",
+    "updated": "2026-11-09T00:27+00:00",
     "games": 352,
     "played": 0,
     "assigned": 85,
@@ -913,7 +913,11 @@
       "score2": null,
       "winner": null,
       "site": "Robinson ISD Rocket Field",
-      "date": "2026-11-12"
+      "lat": 31.46767,
+      "lng": -97.11472,
+      "stadium": "Rocket Field",
+      "map_link": "https://goo.gl/maps/398JXxzfsGa2UhDR6",
+      "city": "Robinson"
     },
     {
       "year": 2026,
@@ -1383,8 +1387,7 @@
       "team2": "West Hardin",
       "score2": null,
       "winner": null,
-      "site": "Willis ISD Willis HS",
-      "date": "2026-11-12"
+      "site": "Willis ISD Willis HS"
     },
     {
       "year": 2026,
@@ -1831,8 +1834,7 @@
       "team2": "Goliad",
       "score2": null,
       "winner": null,
-      "site": "Tuloso Midway ISD Tuloso Midway HS",
-      "date": "2026-11-12"
+      "site": "Tuloso Midway ISD Tuloso Midway HS"
     },
     {
       "year": 2026,
@@ -1989,6 +1991,11 @@
       "score2": null,
       "winner": null,
       "site": "Crosby ISD Cougar Stadium",
+      "lat": 33.57788,
+      "lng": -101.28557,
+      "stadium": "Cougar Stadium",
+      "map_link": "https://goo.gl/maps/u5VxZUufEKjjSTaa8",
+      "city": "Crosby",
       "date": "2026-11-13"
     },
     {
@@ -2259,8 +2266,7 @@
       "team2": "Elkhart",
       "score2": null,
       "winner": null,
-      "site": "Timpson ISD Bear Stadium",
-      "date": "2026-11-12"
+      "site": "Timpson ISD Bear Stadium"
     },
     {
       "year": 2026,
@@ -2733,6 +2739,11 @@
       "score2": null,
       "winner": null,
       "site": "Beaumont Doggett Family Stadium",
+      "lat": 30.08293,
+      "lng": -94.09843,
+      "stadium": "Doggett Family Stadium",
+      "map_link": "https://goo.gl/maps/3M75akREmEgxQM3aA",
+      "city": "Beaumont",
       "date": "2026-11-13"
     },
     {
@@ -3010,6 +3021,11 @@
       "score2": null,
       "winner": null,
       "site": "New Caney ISD Randall Reed Stadium",
+      "lat": 30.13568,
+      "lng": -95.23305,
+      "stadium": "Randall Reed Stadium",
+      "map_link": "https://goo.gl/maps/TVJ1cEsvBjaJfuUJ7",
+      "city": "New Caney",
       "date": "2026-11-13"
     },
     {
@@ -3024,6 +3040,11 @@
       "score2": null,
       "winner": null,
       "site": "Lufkin ISD Abe Martin Stadium",
+      "lat": 31.33598,
+      "lng": -94.68785,
+      "stadium": "Abe Martin Stadium",
+      "map_link": "https://goo.gl/maps/RpMBJXihnh5SiQVF9",
+      "city": "Lufkin",
       "date": "2026-11-13"
     },
     {
@@ -3038,6 +3059,11 @@
       "score2": null,
       "winner": null,
       "site": "Bryan ISD Merrill Green Stadium",
+      "lat": 30.65651,
+      "lng": -96.33315,
+      "stadium": "Merrill Green Stadium",
+      "map_link": "https://goo.gl/maps/jbwDcfrRANqXJiX78",
+      "city": "Bryan",
       "date": "2026-11-13"
     },
     {
@@ -3082,8 +3108,7 @@
       "team2": "Salado",
       "score2": null,
       "winner": null,
-      "site": "Leander ISD Gupton Stadium",
-      "date": "2026-11-12"
+      "site": "Leander ISD Gupton Stadium"
     },
     {
       "year": 2026,
@@ -3097,7 +3122,11 @@
       "score2": null,
       "winner": null,
       "site": "Pleasanton ISD Eagle Stadium",
-      "date": "2026-11-12"
+      "lat": 28.96623,
+      "lng": -98.49283,
+      "stadium": "Eagle Stadium",
+      "map_link": "https://maps.app.goo.gl/LCaH64sxH9hZNfaf7",
+      "city": "Pleasanton"
     },
     {
       "year": 2026,
@@ -3111,7 +3140,11 @@
       "score2": null,
       "winner": null,
       "site": "Beeville ISD Veterans Memorial Stadium",
-      "date": "2026-11-12"
+      "lat": 28.41906,
+      "lng": -97.75418,
+      "stadium": "Veterans Memorial Stadium",
+      "map_link": "https://goo.gl/maps/RHqLmQvdY72SEboc9",
+      "city": "Beeville"
     },
     {
       "year": 2026,
@@ -3125,6 +3158,11 @@
       "score2": null,
       "winner": null,
       "site": "Belton Mary Hardin Baylor Crusader Stadium",
+      "lat": 31.06868,
+      "lng": -97.46483,
+      "stadium": "Crusader Stadium",
+      "map_link": "https://goo.gl/maps/di33t6EqKwJGmr33A",
+      "city": "Belton",
       "date": "2026-11-13"
     },
     {
@@ -3139,6 +3177,11 @@
       "score2": null,
       "winner": null,
       "site": "Beeville ISD Veterans Memorial Stadium",
+      "lat": 28.41906,
+      "lng": -97.75418,
+      "stadium": "Veterans Memorial Stadium",
+      "map_link": "https://goo.gl/maps/RHqLmQvdY72SEboc9",
+      "city": "Beeville",
       "date": "2026-11-13"
     },
     {
@@ -3215,6 +3258,11 @@
       "score2": null,
       "winner": null,
       "site": "Pasadena ISD Veterans Memorial Stadium",
+      "lat": 29.66765,
+      "lng": -95.18413,
+      "stadium": "Veterans Memorial Stadium",
+      "map_link": "https://goo.gl/maps/vvEJARHWmKx9XVKS9",
+      "city": "Pasadena",
       "date": "2026-11-13"
     },
     {
@@ -3229,7 +3277,11 @@
       "score2": null,
       "winner": null,
       "site": "Pasadena ISD Veterans Memorial Stadium",
-      "date": "2026-11-12"
+      "lat": 29.66765,
+      "lng": -95.18413,
+      "stadium": "Veterans Memorial Stadium",
+      "map_link": "https://goo.gl/maps/vvEJARHWmKx9XVKS9",
+      "city": "Pasadena"
     },
     {
       "year": 2026,
@@ -3255,7 +3307,11 @@
       "score2": null,
       "winner": null,
       "site": "Cypress-Fairbanks ISD Pridgeon Stadium",
-      "date": "2026-11-12"
+      "lat": 29.93565,
+      "lng": -95.56999,
+      "stadium": "Pridgeon Stadium",
+      "map_link": "https://goo.gl/maps/WGtow4sC3X82",
+      "city": "Houston"
     },
     {
       "year": 2026,
@@ -3516,6 +3572,11 @@
       "score2": null,
       "winner": null,
       "site": "Angleton ISD Wildcat Stadium",
+      "lat": 29.19791,
+      "lng": -95.41703,
+      "stadium": "Wildcat Stadium",
+      "map_link": "https://goo.gl/maps/jjdvn1wwTtTYzirh6",
+      "city": "Angleton",
       "date": "2026-11-13"
     },
     {
@@ -3671,7 +3732,11 @@
       "score2": null,
       "winner": null,
       "site": "La Porte ISD Bulldog Stadium",
-      "date": "2026-11-12"
+      "lat": 29.65258,
+      "lng": -95.01704,
+      "stadium": "Bulldog Stadium",
+      "map_link": "https://goo.gl/maps/YuhAMeUQsk3juEEP6",
+      "city": "La Porte"
     },
     {
       "year": 2026,
@@ -3698,8 +3763,7 @@
       "team2": "Goose Creek Memorial",
       "score2": null,
       "winner": null,
-      "site": "Houston ISD Barnett Stadium",
-      "date": "2026-11-12"
+      "site": "Houston ISD Barnett Stadium"
     },
     {
       "year": 2026,
@@ -3713,6 +3777,11 @@
       "score2": null,
       "winner": null,
       "site": "Port Arthur ISD Memorial Stadium",
+      "lat": 29.92162,
+      "lng": -93.91352,
+      "stadium": "Memorial Stadium",
+      "map_link": "https://goo.gl/maps/z9eNTKLGDxhV3bma8",
+      "city": "Port Arthur",
       "date": "2026-11-13"
     },
     {
@@ -3783,6 +3852,11 @@
       "score2": null,
       "winner": null,
       "site": "Corpus Christi ISD Buccaneer Stadium",
+      "lat": 27.79536,
+      "lng": -97.42433,
+      "stadium": "Buccaneer Stadium",
+      "map_link": "https://goo.gl/maps/ReLaXTsDbA8z2EWQ9",
+      "city": "Corpus Christi",
       "date": "2026-11-13"
     },
     {
@@ -3904,6 +3978,11 @@
       "score2": null,
       "winner": null,
       "site": "Port Neches-Groves ISD Indian Stadium",
+      "lat": 29.98769,
+      "lng": -93.95423,
+      "stadium": "Indian Stadium",
+      "map_link": "https://goo.gl/maps/fHE4K3TVM5pPbUyA8",
+      "city": "Port Neches",
       "date": "2026-11-13"
     },
     {
@@ -3918,6 +3997,11 @@
       "score2": null,
       "winner": null,
       "site": "Texas City ISD Stingaree Stadium",
+      "lat": 29.39325,
+      "lng": -94.92863,
+      "stadium": "Stingaree Stadium",
+      "map_link": "https://goo.gl/maps/Ba4TN5d6UYXznHdVA",
+      "city": "Texas City",
       "date": "2026-11-13"
     },
     {
@@ -4153,8 +4237,7 @@
       "team2": "Elgin",
       "score2": null,
       "winner": null,
-      "site": "Fort Bend ISD Hall Stadium",
-      "date": "2026-11-12"
+      "site": "Fort Bend ISD Hall Stadium"
     },
     {
       "year": 2026,
@@ -4205,6 +4288,11 @@
       "score2": null,
       "winner": null,
       "site": "San Antonio ISD Alamo Stadium",
+      "lat": 29.46372,
+      "lng": -98.48035,
+      "stadium": "Alamo Stadium",
+      "map_link": "https://goo.gl/maps/9ZHVH4NooUHkfakd8",
+      "city": "San Antonio",
       "date": "2026-11-13"
     },
     {
@@ -4488,7 +4576,11 @@
       "score2": null,
       "winner": null,
       "site": "Cypress-Fairbanks ISD Cy Fair FCU Stadium",
-      "date": "2026-11-12"
+      "lat": 29.99014,
+      "lng": -95.67814,
+      "stadium": "Cy Fair FCU Stadium",
+      "map_link": "https://goo.gl/maps/wcVPi2Ck2BR2",
+      "city": "Cypress"
     },
     {
       "year": 2026,
@@ -4502,7 +4594,11 @@
       "score2": null,
       "winner": null,
       "site": "Galena Park ISD Stadium",
-      "date": "2026-11-12"
+      "lat": 29.80614,
+      "lng": -95.17934,
+      "stadium": "Galena Park ISD Stadium",
+      "map_link": "https://goo.gl/maps/ZT8RxzH2DPJiptsd9",
+      "city": "Houston"
     },
     {
       "year": 2026,
@@ -4516,6 +4612,9 @@
       "score2": null,
       "winner": null,
       "site": "Strake Jesuit Clay Crusader Stadium (Houston)",
+      "lat": 29.75894,
+      "lng": -95.3677,
+      "city": "Houston",
       "date": "2026-11-13"
     },
     {
@@ -4804,6 +4903,11 @@
       "score2": null,
       "winner": null,
       "site": "Longview ISD Lobo Stadium",
+      "lat": 32.5007,
+      "lng": -94.74049,
+      "stadium": "Lobo Stadium",
+      "map_link": "https://goo.gl/maps/3ExdCqHgrrWuPew5A",
+      "city": "Longview",
       "date": "2026-11-13"
     },
     {
@@ -4911,6 +5015,11 @@
       "score2": null,
       "winner": null,
       "site": "Tomball ISD Stadium",
+      "lat": 30.11165,
+      "lng": -95.6257,
+      "stadium": "Tomball ISD Stadium",
+      "map_link": "https://goo.gl/maps/Z6Jh79x8crv1Gjhu6",
+      "city": "Tomball",
       "date": "2026-11-13"
     },
     {
@@ -4925,6 +5034,11 @@
       "score2": null,
       "winner": null,
       "site": "Cypress-Fairbanks ISD Pridgeon Stadium",
+      "lat": 29.93565,
+      "lng": -95.56999,
+      "stadium": "Pridgeon Stadium",
+      "map_link": "https://goo.gl/maps/WGtow4sC3X82",
+      "city": "Houston",
       "date": "2026-11-13"
     },
     {
@@ -4939,6 +5053,11 @@
       "score2": null,
       "winner": null,
       "site": "Sheldon ISD Panther Stadium",
+      "lat": 29.75894,
+      "lng": -95.3677,
+      "stadium": "Sheldon ISD Panther Stadium",
+      "map_link": "https://goo.gl/maps/QmGujjAKuiCSnGxo7",
+      "city": "Houston",
       "date": "2026-11-13"
     },
     {
@@ -4967,6 +5086,11 @@
       "score2": null,
       "winner": null,
       "site": "Barbers Hill ISD Eagle Stadium",
+      "lat": 29.83166,
+      "lng": -94.84743,
+      "stadium": "Eagle Stadium",
+      "map_link": "https://goo.gl/maps/BWSMBKX8rq8HLYGF6",
+      "city": "Mont Belvieu",
       "date": "2026-11-13"
     },
     {
@@ -5008,7 +5132,9 @@
       "score2": null,
       "winner": null,
       "site": "Gustafson-Northside ISD Stadium (San Antonio)",
-      "date": "2026-11-12"
+      "lat": 29.4246,
+      "lng": -98.49514,
+      "city": "San Antonio"
     },
     {
       "year": 2026,
@@ -5039,6 +5165,9 @@
       "score2": null,
       "winner": null,
       "site": "United ISD Student Activity Center Field (Laredo)",
+      "lat": 27.50792,
+      "lng": -99.50698,
+      "city": "Laredo",
       "date": "2026-11-14"
     },
     {
@@ -5052,8 +5181,7 @@
       "team2": "Heights (?)",
       "score2": null,
       "winner": null,
-      "site": "Alvin ISD Freedom Field",
-      "date": "2026-11-12"
+      "site": "Alvin ISD Freedom Field"
     },
     {
       "year": 2026,
@@ -5080,8 +5208,7 @@
       "team2": "Spring Dekaney",
       "score2": null,
       "winner": null,
-      "site": "Conroe ISD Woodforest Stadium",
-      "date": "2026-11-12"
+      "site": "Conroe ISD Woodforest Stadium"
     },
     {
       "year": 2026,
