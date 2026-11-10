@@ -1531,10 +1531,10 @@
     "2007": [
       {
         "classification": "6M",
-        "team1": "Rule",
-        "team2": "Richland Springs",
-        "score1": null,
-        "score2": null
+        "team1": "Richland Springs",
+        "team2": "Rule",
+        "score1": 98,
+        "score2": 54
       }
     ]
   },
