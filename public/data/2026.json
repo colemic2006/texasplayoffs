@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-10T23:08+00:00",
+    "updated": "2026-11-10T23:09+00:00",
     "games": 352,
     "played": 0,
     "assigned": 350,
@@ -4608,10 +4608,9 @@
       "score2": null,
       "winner": null,
       "site": "Bulldog Stadium, Tyler",
-      "lat": 32.35126,
-      "lng": -95.30106,
-      "stadium": "Bulldog Stadium",
-      "map_link": "https://goo.gl/maps/dr3F7Gwex63W83Y29",
+      "lat": 32.31056,
+      "lng": -95.1896,
+      "stadium": "Bulldog Stadium (Chapel Hill HS)",
       "city": "Tyler",
       "date": "2026-11-13",
       "time": "7:00 PM"

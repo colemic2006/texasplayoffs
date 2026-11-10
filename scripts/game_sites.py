@@ -18,6 +18,8 @@ RULES = 10   # bump when the matching rules change: every site is looked up agai
 
 SCHOOLS = ROOT / 'season' / 'texasbob_schools.json'   # [[stadium_id, city, school, stadium], ...]
 CONFIRMED = ROOT / 'season' / 'site_names.json'     # confirmed: {"site as MaxPreps writes it": "Stadium, City"}
+# exact spots for sites the map lookup can't find: {"site text": {"lat", "lng", "stadium", "city", "source"}}
+COORDS = ROOT / 'season' / 'site_coords.json'
 REVIEW = 'sites_review.json'
 NOT_A_PLACE = re.compile(r'\b(bi[- ]?district|area|regional|quarterfinals?|semifinals?|playoffs?|championship|'
                          r'round \d|\d(st|nd|rd|th) round|uil|state|game|tba|tbd|[1-6]a[- ]?d[12]|neutral site)\b', re.I)
@@ -319,9 +321,15 @@ def locate(games, review_path=None):
     stadiums, schools = load_stadiums(), load_schools()
     today = datetime.date.today()
     added = 0
+    fixed = json.loads(COORDS.read_text()) if COORDS.exists() else {}
     for site, t1, t2 in sorted(set(games)):
         key = cache_key(site, t1, t2)
         hit = cache.get(key)
+        if site in fixed:   # a spot confirmed by hand always wins
+            f = fixed[site]
+            cache[key] = dict(site=site, lat=f['lat'], lng=f['lng'], stadium=f.get('stadium'), city=f.get('city', ''),
+                              stadium_id=None, address='', map_link=f.get('map_link', ''), how='coordinates confirmed by hand', rules=RULES)
+            continue
         conf = json.loads(CONFIRMED.read_text() if CONFIRMED.exists() else '{}')
         known_now = conf.get(site) or next((conf[p.strip()] for p in site.split(',') if p.strip() in conf), None)
         if hit and known_now not in (None, hit.get('confirmed_as')):
