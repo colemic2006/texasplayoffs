@@ -11,6 +11,7 @@ import ContactView from './components/ContactView'
 import SubmitAssignmentView from './components/SubmitAssignmentView'
 import SeasonBanner from './components/SeasonBanner'
 import WeekMap from './components/WeekMap'
+import MissingGames from './components/MissingGames'
 
 const YEARS = [2026, 2025, 2024, 2023, 2022, 2021, 2018, 2015, 2013, 2010]
 
@@ -84,6 +85,7 @@ export default function App() {
             {!loading && !error && yearData && (
               <>
                 {(page === 'chapters' || page === 'brackets') && <SeasonBanner data={yearData} year={year} />}
+                {page === 'chapters' && <MissingGames data={yearData} onSubmit={() => setPage('submit')} />}
                 {page === 'chapters' && yearData.season && <WeekMap data={yearData} />}
                 {page === 'chapters' && <ChapterDashboard data={yearData} year={year} />}
                 {page === 'brackets' && <BracketViewer data={yearData} year={year} />}
