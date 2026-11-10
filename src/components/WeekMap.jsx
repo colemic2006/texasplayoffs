@@ -97,7 +97,7 @@ export default function WeekMap({ data }) {
           {picked.length
             ? picked.map(c => <span key={c}>{dot(colorOf(c))}{label(c)} · {onMap(c)} of {inWeek(c)} on the map</span>)
             : <>
-                <span>{dot('#5B2D8E')}Chapter assigned</span>
+                <span>{dot('#461D7C')}Chapter assigned</span>
                 <span>{dot(UNASSIGNED)}Not assigned yet</span>
               </>}
           {markers.length < weekGames.length && (

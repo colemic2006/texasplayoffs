@@ -66,7 +66,7 @@ export default function SubmitAssignmentView() {
   return (
     <div style={{ maxWidth: 560 }}>
       <div style={{ marginBottom: 28 }}>
-        <div style={{ fontFamily: 'var(--display)', fontSize: 20, letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: 8 }}>
+        <div style={{ fontFamily: 'var(--display)', fontSize: 20, letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--burnt)', marginBottom: 8 }}>
           Submit a Game Assignment
         </div>
         <div style={{ fontFamily: 'var(--mono)', fontSize: 11, color: 'var(--mid)', lineHeight: 1.7 }}>
@@ -126,7 +126,7 @@ export default function SubmitAssignmentView() {
           <button type="submit" disabled={state.submitting} style={{
             fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.14em', textTransform: 'uppercase',
             padding: '11px 20px', borderRadius: 6, border: 'none', color: '#fff', alignSelf: 'flex-start',
-            background: state.submitting ? 'rgba(91,45,142,0.5)' : 'var(--burnt)', cursor: state.submitting ? 'default' : 'pointer',
+            background: state.submitting ? 'rgba(70,29,124,0.5)' : 'var(--burnt)', cursor: state.submitting ? 'default' : 'pointer',
           }}>
             {state.submitting ? 'Sending…' : 'Submit Assignment'}
           </button>

@@ -169,7 +169,7 @@ export default function ChapterDashboard({ data, year }) {
         {/* how to use the chart */}
         <div style={{
           display:'flex', alignItems:'center', gap:12, marginBottom:14, padding:'12px 16px',
-          background:'rgba(91,45,142,0.07)', border:'1px solid rgba(91,45,142,0.25)', borderLeft:'3px solid var(--burnt)', borderRadius:8,
+          background:'rgba(70,29,124,0.07)', border:'1px solid rgba(70,29,124,0.25)', borderLeft:'3px solid var(--burnt)', borderRadius:8,
         }}>
           <span style={{ fontSize:20, lineHeight:1 }} aria-hidden="true">👆</span>
           <div style={{ fontSize:13, color:'var(--ink)', lineHeight:1.5 }}>
@@ -259,7 +259,7 @@ export default function ChapterDashboard({ data, year }) {
                         <tr key={w} onClick={() => games && setDetailWeek(detailWeek === w ? 'all' : w)}
                           title={games ? 'Show these games below' : undefined}
                           style={{ borderBottom:'1px solid rgba(15,13,11,0.05)', cursor: games ? 'pointer' : 'default',
-                                   background: detailWeek === w ? 'rgba(227,177,43,0.12)' : undefined }}>
+                                   background: detailWeek === w ? 'rgba(253,208,35,0.12)' : undefined }}>
                           <td style={{ ...tdStyle, textAlign:'center' }}>{w}</td>
                           <td style={{ ...tdStyle, color:'var(--mid)', fontSize:11, textAlign:'center' }}>{ROUND_LABELS[w]}</td>
                           <td style={{ ...tdStyle, fontWeight:500, textAlign:'center' }}>{games}</td>
@@ -270,7 +270,7 @@ export default function ChapterDashboard({ data, year }) {
                       )
                     })
                   })()}
-                  <tr style={{ background:'rgba(227,177,43,0.06)' }}>
+                  <tr style={{ background:'rgba(253,208,35,0.06)' }}>
                     <td colSpan={2} style={{ ...tdStyle, fontFamily:'var(--mono)', fontSize:10, textTransform:'uppercase', letterSpacing:'0.1em', color:'var(--mid)' }}>Post-Season Total</td>
                     <td colSpan={2} style={{ ...tdStyle, fontFamily:"'Bebas Neue', sans-serif", fontSize:22, color:'var(--burnt)', textAlign:'center' }}>
                       {selectedChapterData.total}
@@ -356,14 +356,14 @@ export default function ChapterDashboard({ data, year }) {
                     onClick={() => setSelectedChapter(ch.code === selectedChapter ? null : ch.code)}
                     style={{
                       borderBottom:'1px solid rgba(15,13,11,0.05)',
-                      background: ch.code === selectedChapter ? 'rgba(227,177,43,0.06)' : idx % 2 === 0 ? 'transparent' : 'rgba(15,13,11,0.015)',
+                      background: ch.code === selectedChapter ? 'rgba(253,208,35,0.06)' : idx % 2 === 0 ? 'transparent' : 'rgba(15,13,11,0.015)',
                       cursor:'pointer',
                       transition:'background 0.1s'
                     }}
                   >
                     <td style={{
                       ...tdStyle, position:'sticky', left:0, zIndex:1,
-                      background: ch.code === selectedChapter ? 'rgba(227,177,43,0.1)' : idx % 2 === 0 ? 'var(--surface)' : 'rgba(245,240,232,0.98)',
+                      background: ch.code === selectedChapter ? 'rgba(253,208,35,0.1)' : idx % 2 === 0 ? 'var(--surface)' : 'rgba(245,240,232,0.98)',
                     }}>
                       <span style={{ fontFamily:'var(--mono)', fontSize:11, fontWeight:500, color:'var(--ink)' }}>{ch.code}</span>
                       <span style={{ fontFamily:'DM Sans', fontSize:11, color:'var(--mid)', marginLeft:8 }}>{ch.name}</span>

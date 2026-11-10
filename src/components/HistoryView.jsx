@@ -2,7 +2,7 @@ import React, { useState, useMemo, useEffect } from 'react'
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend } from 'recharts'
 
 const CHAPTER_COLORS = [
-  '#5B2D8E','#E3B12B','#2C4A6E','#2B5C4E','#5C2B5C','#6B6058',
+  '#461D7C','#FDD023','#2C4A6E','#2B5C4E','#5C2B5C','#6B6058',
   '#8B1A1A','#1A5276','#1E8449','#7D3C98','#B7770D','#2E86C1'
 ]
 
@@ -74,15 +74,15 @@ export default function HistoryView({ allData, years, loadYear }) {
 
       {missingYears.length > 0 && (
         <div style={{
-          background:'rgba(227,177,43,0.06)', border:'1px solid rgba(227,177,43,0.2)',
+          background:'rgba(253,208,35,0.06)', border:'1px solid rgba(253,208,35,0.2)',
           borderRadius:8, padding:'12px 16px', marginBottom:20, fontSize:12, color:'var(--mid)'
         }}>
-          <strong style={{ color:'var(--gold)' }}>Note:</strong> Data for {missingYears.join(', ')} hasn't been loaded yet.{' '}
+          <strong style={{ color:'var(--burnt)' }}>Note:</strong> Data for {missingYears.join(', ')} hasn't been loaded yet.{' '}
           {missingYears.map(y => (
             <button key={y} onClick={() => loadYear(y)} style={{
               fontFamily:'var(--mono)', fontSize:10, padding:'2px 8px', marginLeft:6,
               borderRadius:3, border:'1px solid var(--gold)', background:'transparent',
-              color:'var(--gold)', cursor:'pointer'
+              color:'var(--burnt)', cursor:'pointer'
             }}>Load {y}</button>
           ))}
         </div>
@@ -193,7 +193,7 @@ function ComparisonTable({ allData, years, allChapters }) {
             {sortedYears.map(y => (
               <th key={y} style={thStyle}>{y}</th>
             ))}
-            <th style={{ ...thStyle, color:'var(--gold)' }}>Avg</th>
+            <th style={{ ...thStyle, color:'var(--burnt)' }}>Avg</th>
           </tr>
         </thead>
         <tbody>
@@ -236,7 +236,7 @@ function ComparisonTable({ allData, years, allChapters }) {
                     </td>
                   )
                 })}
-                <td style={{ ...tdStyle, textAlign:'center', fontFamily:"'Bebas Neue', sans-serif", fontSize:16, color:'var(--gold)' }}>
+                <td style={{ ...tdStyle, textAlign:'center', fontFamily:"'Bebas Neue', sans-serif", fontSize:16, color:'var(--burnt)' }}>
                   {avg}
                 </td>
               </tr>

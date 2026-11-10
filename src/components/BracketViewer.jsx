@@ -386,14 +386,14 @@ export function GameMap({ markers }) {
             ${placeName(game, stadium) ? `<div style="margin-top:6px;font-size:11px;color:#666">${placeName(game, stadium)}</div>` : ''}
             ${game.date ? `<div style="font-size:11px;color:#666">${gameWhen(game)}</div>` : ''}
             ${game.chapter ? `<div style="margin-top:4px;font-size:11px">Chapter: <strong>${game.chapter}</strong></div>` : ''}
-            ${winner ? `<div style="margin-top:4px;color:#5B2D8E;font-size:11px">▲ ${winner}</div>` : ''}
+            ${winner ? `<div style="margin-top:4px;color:#461D7C;font-size:11px">▲ ${winner}</div>` : ''}
             <div style="margin-top:8px"><a href="${mapsUrl}" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:#1a73e8;text-decoration:none">📍 Open in Google Maps</a></div>
           </div>
         `
         // drawn dots (no image downloads): orange once a chapter is assigned, blue until then
         const marker = L.circleMarker([lat, lng], {
           radius: 7, weight: 2, color: '#fff', fillOpacity: 0.9,
-          fillColor: color || (game.chapter ? '#5B2D8E' : '#C99A1E'),
+          fillColor: color || (game.chapter ? '#461D7C' : '#FDD023'),
         }).addTo(leafletMap.current).bindPopup(popup)
         marker._home = L.latLng(lat, lng)
         markersRef.current.push(marker)

@@ -304,7 +304,7 @@ export default function TeamsView({ allData, years }) {
               const topCount = selected.chapters[0].count
               const favs = selected.chapters.filter(c => c.count === topCount)
               return (
-                <div style={{ padding:'12px 18px', borderBottom:'1px solid var(--border)', background:'rgba(227,177,43,0.04)' }}>
+                <div style={{ padding:'12px 18px', borderBottom:'1px solid var(--border)', background:'rgba(253,208,35,0.04)' }}>
                   <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginBottom:8 }}>
                     Favorite Chapter{favs.length > 1 ? 's' : ''}
                   </div>

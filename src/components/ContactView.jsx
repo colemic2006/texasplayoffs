@@ -26,7 +26,7 @@ export default function ContactView() {
       <div style={{ marginBottom: 28 }}>
         <div style={{
           fontFamily: 'var(--display)', fontSize: 20, letterSpacing: '0.06em',
-          textTransform: 'uppercase', color: 'var(--gold)', marginBottom: 8,
+          textTransform: 'uppercase', color: 'var(--burnt)', marginBottom: 8,
         }}>
           Contact Us
         </div>
@@ -83,7 +83,7 @@ export default function ContactView() {
             style={{
               fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.14em',
               textTransform: 'uppercase', padding: '11px 20px', borderRadius: 6,
-              background: state.submitting ? 'rgba(91,45,142,0.5)' : 'var(--burnt)',
+              background: state.submitting ? 'rgba(70,29,124,0.5)' : 'var(--burnt)',
               border: 'none', color: '#fff',
               cursor: state.submitting ? 'default' : 'pointer',
               alignSelf: 'flex-start',

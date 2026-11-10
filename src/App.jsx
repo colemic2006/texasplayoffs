@@ -134,7 +134,7 @@ function LoadingState() {
 function ErrorState({ message }) {
   return (
     <div style={{
-      background: 'rgba(91,45,142,0.06)', border: '1px solid rgba(91,45,142,0.2)',
+      background: 'rgba(70,29,124,0.06)', border: '1px solid rgba(70,29,124,0.2)',
       borderRadius: 10, padding: '24px 28px', marginTop: 24
     }}>
       <div style={{ fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--burnt)', marginBottom: 8 }}>
