@@ -2,14 +2,14 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-10T01:26+00:00",
+    "updated": "2026-11-10T02:09+00:00",
     "games": 352,
     "played": 0,
-    "assigned": 294,
+    "assigned": 299,
     "weeks": {
       "1": {
         "games": 352,
-        "assigned": 294
+        "assigned": 299
       },
       "2": {
         "games": 0,
@@ -268,6 +268,22 @@
             "1A D1": 1,
             "2A D1": 3,
             "3A D2": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "COM",
+      "name": "Commerce",
+      "total": 5,
+      "weeks": {
+        "1": {
+          "total": 5,
+          "classifications": {
+            "1A D1": 1,
+            "2A D1": 1,
+            "2A D2": 1,
+            "3A D2": 2
           }
         }
       }
@@ -579,7 +595,7 @@
       "classification": "1A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "COM",
       "team1": "Union Hill",
       "score1": null,
       "team2": "Abbott",
@@ -1403,7 +1419,7 @@
       "classification": "2A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "COM",
       "team1": "Cooper",
       "score1": null,
       "team2": "Como-Pickton",
@@ -2141,7 +2157,7 @@
       "classification": "2A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "COM",
       "team1": "Clarksville",
       "score1": null,
       "team2": "Quinlan Boles",
@@ -3255,7 +3271,7 @@
       "classification": "3A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "COM",
       "team1": "Howe",
       "score1": null,
       "team2": "Quitman",
@@ -3295,7 +3311,7 @@
       "classification": "3A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "COM",
       "team1": "Grand Saline",
       "score1": null,
       "team2": "Leonard",
