@@ -67,21 +67,31 @@ export default function ChapterDashboard({ data, year, allData = {}, years = [],
 
   // each chapter's average season in the other finished seasons, for the table's Hist. Avg column
   useEffect(() => { if (loadAllYears) loadAllYears() }, [])
+  // weeks with games so far in a season still being played (all six once it's over)
+  const inProgress = data?.season?.status === 'in_progress'
+  const playedThrough = inProgress
+    ? Math.max(0, ...WEEKS.map(Number).filter(w => chapters.some(c => (c.weeks?.[w]?.total || 0) > 0) || (data?.games || []).some(g => g.week === w)))
+    : 6
   const histAvg = useMemo(() => {
     const per = {}
+    const n = (ch, w) => tableClass === 'all' ? (ch.weeks?.[w]?.total || 0) : (ch.weeks?.[w]?.classifications?.[tableClass] || 0)
     for (const y of years) {
       const d = allData[y]
       if (y === year || !d || d.season?.status === 'in_progress') continue
       for (const ch of d.chapters || []) {
         if (!(ch.total > 0)) continue      // seasons the chapter worked games in
-        const n = tableClass === 'all' ? ch.total
-          : WEEKS.reduce((s, w) => s + (ch.weeks?.[w]?.classifications?.[tableClass] || 0), 0)
         const code = ch.code === 'WACO' ? 'WAC' : ch.code
-        ;(per[code] = per[code] || []).push(n)
+        const row = (per[code] = per[code] || { seasons: 0, weeks: {}, thru: 0 })
+        row.seasons++
+        for (const w of WEEKS) row.weeks[w] = (row.weeks[w] || 0) + n(ch, w)
+        row.thru += WEEKS.filter(w => Number(w) <= playedThrough).reduce((s, w) => s + n(ch, w), 0)
       }
     }
-    return Object.fromEntries(Object.entries(per).map(([c, xs]) => [c, { avg: xs.reduce((a, b) => a + b, 0) / xs.length, seasons: xs.length }]))
-  }, [allData, years, year, tableClass])
+    return Object.fromEntries(Object.entries(per).map(([c, r]) => [c, {
+      seasons: r.seasons, avg: r.thru / r.seasons,
+      weeks: Object.fromEntries(WEEKS.map(w => [w, r.weeks[w] / r.seasons])),
+    }]))
+  }, [allData, years, year, tableClass, playedThrough])
 
   const sorted = useMemo(() => {
     return [...chapters].sort((a, b) => {
@@ -355,7 +365,7 @@ export default function ChapterDashboard({ data, year, allData = {}, years = [],
                 <th style={{ ...thStyle, textAlign:'left', position:'sticky', left:0, background:'rgba(245,240,232,0.98)' }}>Chapter</th>
                 {WEEKS.map(w => <th key={w} style={thStyle}>Wk {w}</th>)}
                 <th style={{ ...thStyle, color:'var(--burnt)' }}>Total</th>
-                <th style={thStyle} title="Average games per season in the other seasons on the site, counting the seasons the chapter worked playoff games">Hist. Avg</th>
+                <th style={thStyle} title="Average games per season in the other seasons on the site, counting the seasons the chapter worked playoff games">{playedThrough < 6 ? `Hist. Avg thru Wk ${playedThrough}` : 'Hist. Avg'}</th>
                 <th style={thStyle}>% of Games</th>
               </tr>
             </thead>
@@ -398,6 +408,12 @@ export default function ChapterDashboard({ data, year, allData = {}, years = [],
                             fontWeight: val > 0 ? 500 : 400,
                             color: val > 0 ? 'var(--ink)' : 'rgba(15,13,11,0.2)'
                           }}>{val}</span>
+                          {histAvg[ch.code] && (
+                            <div title={`Average in week ${w}, ${histAvg[ch.code].seasons} other season${histAvg[ch.code].seasons === 1 ? '' : 's'}`}
+                                 style={{ fontSize:9, color:'var(--mid)', opacity:0.75, marginTop:1 }}>
+                              avg {histAvg[ch.code].weeks[w].toFixed(1)}
+                            </div>
+                          )}
                         </td>
                       )
                     })}
