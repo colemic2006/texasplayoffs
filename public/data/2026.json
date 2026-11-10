@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-10T05:44+00:00",
+    "updated": "2026-11-10T15:29+00:00",
     "games": 352,
     "played": 0,
     "assigned": 341,
@@ -584,6 +584,7 @@
       "team2": "May",
       "score2": null,
       "winner": null,
+      "site": "The Bears' Den, Baird",
       "date": "2026-11-13",
       "time": "7:30 PM"
     },
