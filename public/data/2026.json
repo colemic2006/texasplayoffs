@@ -2,14 +2,14 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-10T01:02+00:00",
+    "updated": "2026-11-10T01:11+00:00",
     "games": 352,
     "played": 0,
-    "assigned": 235,
+    "assigned": 238,
     "weeks": {
       "1": {
         "games": 352,
-        "assigned": 235
+        "assigned": 238
       },
       "2": {
         "games": 0,
@@ -243,6 +243,21 @@
             "2A D1": 1,
             "2A D2": 2,
             "4A D1": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "CTX",
+      "name": "Central Texas",
+      "total": 3,
+      "weeks": {
+        "1": {
+          "total": 3,
+          "classifications": {
+            "2A D2": 1,
+            "4A D1": 1,
+            "4A D2": 1
           }
         }
       }
@@ -1807,7 +1822,7 @@
       "classification": "2A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "CTX",
       "team1": "Santo",
       "score1": null,
       "team2": "Miles",
@@ -3619,7 +3634,7 @@
       "classification": "4A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "CTX",
       "team1": "Aubrey",
       "score1": null,
       "team2": "Andrews",
@@ -4219,7 +4234,7 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "CTX",
       "team1": "Waco La Vega",
       "score1": null,
       "team2": "Manor New Tech",
