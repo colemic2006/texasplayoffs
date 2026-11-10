@@ -82,6 +82,43 @@ export default function TeamsView({ allData, years }) {
   const [lbYear, setLbYear] = useState('all')
   const [homeStadiums, setHomeStadiums] = useState({})
 
+  const [champGames, setChampGames] = useState({})
+  useEffect(() => {
+    fetch(`${import.meta.env.BASE_URL}data/championship_games.json?v=${__BUILD_TIME__}`)
+      .then(r => r.ok ? r.json() : null).then(d => d && setChampGames(d)).catch(() => {})
+  }, [])
+
+  // state finals each team played: from the season files' championship round where we have
+  // them, else the championship list (winner listed first, or the higher score)
+  const finals = useMemo(() => {
+    const out = {}
+    const add = (year, cls, win, lose) => {
+      if (!win || !lose) return
+      for (const [t, won] of [[win, true], [lose, false]]) {
+        const k = canonicalize(t)
+        ;(out[k] = out[k] || []).push({ year: Number(year), cls, won, opp: canonicalize(won ? lose : win) })
+      }
+    }
+    const fromSeasons = new Set()
+    for (const y of years) {
+      const fin = (allData[y]?.games || []).filter(g => g.week === 6 && (g.round === 'State Final' || g.round === 'Championship') && g.winner)
+      if (!fin.length) continue
+      fromSeasons.add(String(y))
+      for (const g of fin) add(y, g.classification, g.winner, g.winner === g.team1 ? g.team2 : g.team1)
+    }
+    for (const byYear of Object.values(champGames)) {
+      for (const [y, games] of Object.entries(byYear)) {
+        if (fromSeasons.has(y)) continue
+        for (const g of games) {
+          const firstWon = g.score1 == null || g.score2 == null || g.score1 >= g.score2
+          add(y, g.classification === '6M' ? 'Six-Man' : g.classification, firstWon ? g.team1 : g.team2, firstWon ? g.team2 : g.team1)
+        }
+      }
+    }
+    for (const k in out) out[k].sort((a, b) => b.year - a.year)
+    return out
+  }, [champGames, allData, years])
+
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/home_stadiums.json?v=${__BUILD_TIME__}`)
       .then(r => r.ok ? r.json() : null)
@@ -249,7 +286,11 @@ export default function TeamsView({ allData, years }) {
                     background: isSelected ? 'rgba(44,74,110,0.07)' : 'transparent',
                     cursor:'pointer', transition:'background 0.1s',
                   }}>
-                    <td style={{ ...tdStyle, fontWeight: isSelected ? 600 : 400, color:'var(--ink)' }}>{team.name}</td>
+                    <td style={{ ...tdStyle, fontWeight: isSelected ? 600 : 400, color:'var(--ink)' }}>
+                      {team.name}
+                      {(() => { const w = (finals[team.name] || []).filter(f => f.won).length
+                        return w ? <span title={`${w} state championship${w === 1 ? '' : 's'}`} style={{ marginLeft:6, fontSize:11, whiteSpace:'nowrap' }}>🏆{w > 1 ? <span style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)' }}>×{w}</span> : null}</span> : null })()}
+                    </td>
                     <td style={{ ...tdStyle, textAlign:'center' }}>
                       <span style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--steel)' }}>{team.classifications.join(', ')}</span>
                     </td>
@@ -322,6 +363,33 @@ export default function TeamsView({ allData, years }) {
                       </div>
                     ))}
                   </div>
+                </div>
+              )
+            })()}
+            {(finals[selected.name] || []).length > 0 && (() => {
+              const f = finals[selected.name], won = f.filter(x => x.won), lost = f.filter(x => !x.won)
+              const chip = (x, i) => (
+                <span key={i} title={`${x.year} ${x.cls} final vs ${x.opp}`} style={{
+                  fontFamily:'var(--mono)', fontSize:10, padding:'3px 8px', borderRadius:4,
+                  background: x.won ? 'rgba(253,208,35,0.25)' : 'rgba(15,13,11,0.05)', color:'var(--ink)',
+                  border: x.won ? '1px solid rgba(201,154,30,0.5)' : '1px solid var(--border)',
+                }}>{x.year} <span style={{ color:'var(--mid)' }}>{x.cls}</span></span>
+              )
+              return (
+                <div style={{ padding:'12px 18px', borderBottom:'1px solid var(--border)' }}>
+                  <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginBottom:8 }}>
+                    🏆 State Championships · {won.length}
+                  </div>
+                  {won.length ? <div style={{ display:'flex', flexWrap:'wrap', gap:6 }}>{won.map(chip)}</div>
+                    : <div style={{ fontSize:12, color:'var(--mid)' }}>None on record</div>}
+                  {lost.length > 0 && (
+                    <>
+                      <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', margin:'10px 0 6px' }}>
+                        State final runner-up · {lost.length}
+                      </div>
+                      <div style={{ display:'flex', flexWrap:'wrap', gap:6 }}>{lost.map(chip)}</div>
+                    </>
+                  )}
                 </div>
               )
             })()}
