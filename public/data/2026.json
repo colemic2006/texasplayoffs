@@ -2,14 +2,14 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-10T04:22+00:00",
+    "updated": "2026-11-10T04:24+00:00",
     "games": 352,
     "played": 0,
-    "assigned": 327,
+    "assigned": 328,
     "weeks": {
       "1": {
         "games": 352,
-        "assigned": 327
+        "assigned": 328
       },
       "2": {
         "games": 0,
@@ -103,6 +103,28 @@
       }
     },
     {
+      "code": "DAL",
+      "name": "Dallas",
+      "total": 29,
+      "weeks": {
+        "1": {
+          "total": 29,
+          "classifications": {
+            "1A D1": 1,
+            "1A D2": 1,
+            "2A D1": 1,
+            "2A D2": 2,
+            "3A D2": 4,
+            "4A D2": 2,
+            "5A D1": 6,
+            "5A D2": 4,
+            "6A D1": 6,
+            "6A D2": 2
+          }
+        }
+      }
+    },
+    {
       "code": "TYL",
       "name": "Tyler",
       "total": 29,
@@ -119,27 +141,6 @@
             "5A D1": 1,
             "5A D2": 4,
             "6A D2": 1
-          }
-        }
-      }
-    },
-    {
-      "code": "DAL",
-      "name": "Dallas",
-      "total": 28,
-      "weeks": {
-        "1": {
-          "total": 28,
-          "classifications": {
-            "1A D1": 1,
-            "2A D1": 1,
-            "2A D2": 2,
-            "3A D2": 4,
-            "4A D2": 2,
-            "5A D1": 6,
-            "5A D2": 4,
-            "6A D1": 6,
-            "6A D2": 2
           }
         }
       }
@@ -745,7 +746,7 @@
       "classification": "1A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "DAL",
       "team1": "Three Way",
       "score1": null,
       "team2": "Fannindel",
