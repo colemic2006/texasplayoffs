@@ -3,7 +3,7 @@
     "2016": [
       {
         "classification": "5A D1",
-        "team1": "Highland Park",
+        "team1": "Dallas Highland Park",
         "team2": "Temple",
         "score1": 16,
         "score2": 7
@@ -62,13 +62,13 @@
       {
         "classification": "4A D2",
         "team1": "Cuero",
-        "team2": "Pleasant Grove",
+        "team2": "Texarkana Pleasant Grove",
         "score1": 40,
         "score2": 28
       },
       {
         "classification": "5A D1",
-        "team1": "Highland Park",
+        "team1": "Dallas Highland Park",
         "team2": "Alvin Shadow Creek",
         "score1": 27,
         "score2": 17
@@ -176,7 +176,7 @@
       {
         "classification": "3A D2",
         "team1": "Bandera",
-        "team2": "Greenwood",
+        "team2": "Midland Greenwood",
         "score1": null,
         "score2": null
       },
@@ -229,7 +229,7 @@
       {
         "classification": "5A D2",
         "team1": "Southlake Carroll",
-        "team2": "Smithson Valley",
+        "team2": "Comal Smithson Valley",
         "score1": null,
         "score2": null
       }
@@ -237,7 +237,7 @@
     "2005": [
       {
         "classification": "4A D1",
-        "team1": "Highland Park",
+        "team1": "Dallas Highland Park",
         "team2": "Marshall",
         "score1": null,
         "score2": null
@@ -245,7 +245,7 @@
       {
         "classification": "4A D2",
         "team1": "Lewisville Hebron",
-        "team2": "CC Calallen",
+        "team2": "Corpus Christi Calallen",
         "score1": null,
         "score2": null
       },
@@ -260,8 +260,8 @@
     "2007": [
       {
         "classification": "4A D2",
-        "team1": "Lake Travis",
-        "team2": "Highland Park",
+        "team1": "Austin Lake Travis",
+        "team2": "Dallas Highland Park",
         "score1": null,
         "score2": null
       },
@@ -453,7 +453,7 @@
     "2008": [
       {
         "classification": "4A D2",
-        "team1": "Sulpher Springs",
+        "team1": "Sulphur Springs",
         "team2": "Dayton",
         "score1": null,
         "score2": null
@@ -663,7 +663,7 @@
       },
       {
         "classification": "4A D2",
-        "team1": "Pleasant Grove",
+        "team1": "Texarkana Pleasant Grove",
         "team2": "Whitney",
         "score1": 35,
         "score2": 21
@@ -1250,7 +1250,7 @@
       {
         "classification": "3A D1",
         "team1": "Jim Ned",
-        "team2": "Halletsville",
+        "team2": "Hallettsville",
         "score1": 29,
         "score2": 28,
         "ot": "OT"
@@ -1364,14 +1364,14 @@
     "2017": [
       {
         "classification": "4A D2",
-        "team1": "Pleasant Grove",
+        "team1": "Texarkana Pleasant Grove",
         "team2": "West Orange-Stark",
         "score1": 41,
         "score2": 21
       },
       {
         "classification": "5A D1",
-        "team1": "Highland Park",
+        "team1": "Dallas Highland Park",
         "team2": "Manvel",
         "score1": 53,
         "score2": 49

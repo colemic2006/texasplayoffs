@@ -967,11 +967,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "LaPorte",
+      "team1": "La Porte",
       "score1": 42,
       "team2": "South Houston",
       "score2": 7,
-      "winner": "LaPorte"
+      "winner": "La Porte"
     },
     {
       "year": 2010,
@@ -2397,7 +2397,7 @@
       "chapter": "DAL",
       "team1": "Dallas Hillcrest",
       "score1": 15,
-      "team2": "Dallas Seagoville",
+      "team2": "Seagoville",
       "score2": 14,
       "winner": "Dallas Hillcrest"
     },
@@ -2469,9 +2469,9 @@
       "chapter": "HOU",
       "team1": "El Campo",
       "score1": 21,
-      "team2": "LaMarque",
+      "team2": "La Marque",
       "score2": 28,
-      "winner": "LaMarque"
+      "winner": "La Marque"
     },
     {
       "year": 2010,
@@ -2515,11 +2515,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Alvin Manvel",
+      "team1": "Manvel",
       "score1": 24,
       "team2": "Rosenburg Terry",
       "score2": 17,
-      "winner": "Alvin Manvel"
+      "winner": "Manvel"
     },
     {
       "year": 2010,
@@ -2733,9 +2733,9 @@
       "chapter": "BEA",
       "team1": "Houston Yates",
       "score1": 23,
-      "team2": "LaMarque",
+      "team2": "La Marque",
       "score2": 31,
-      "winner": "LaMarque"
+      "winner": "La Marque"
     },
     {
       "year": 2010,
@@ -2853,9 +2853,9 @@
       "chapter": "SAT",
       "team1": "Dayton",
       "score1": 3,
-      "team2": "LaMarque",
+      "team2": "La Marque",
       "score2": 23,
-      "winner": "LaMarque"
+      "winner": "La Marque"
     },
     {
       "year": 2010,
@@ -2865,9 +2865,9 @@
       "chapter": "HOU",
       "team1": "Port Neches-Groves",
       "score1": 46,
-      "team2": "Alvin Manvel",
+      "team2": "Manvel",
       "score2": 56,
-      "winner": "Alvin Manvel"
+      "winner": "Manvel"
     },
     {
       "year": 2010,
@@ -2923,11 +2923,11 @@
       "week": 4,
       "round": "Quarterfinal",
       "chapter": "HOU",
-      "team1": "LaMarque",
+      "team1": "La Marque",
       "score1": 44,
-      "team2": "Alvin Manvel",
+      "team2": "Manvel",
       "score2": 28,
-      "winner": "LaMarque"
+      "winner": "La Marque"
     },
     {
       "year": 2010,
@@ -2959,11 +2959,11 @@
       "week": 5,
       "round": "Semifinal",
       "chapter": "AUS",
-      "team1": "LaMarque",
+      "team1": "La Marque",
       "score1": 42,
       "team2": "Corpus Christi Calallen",
       "score2": 18,
-      "winner": "LaMarque"
+      "winner": "La Marque"
     },
     {
       "year": 2010,
@@ -2973,7 +2973,7 @@
       "chapter": "SPC",
       "team1": "Aledo",
       "score1": 69,
-      "team2": "LaMarque",
+      "team2": "La Marque",
       "score2": 34,
       "winner": "Aledo"
     },
@@ -3595,7 +3595,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "TYL",
-      "team1": "Waco La Vega",
+      "team1": "La Vega",
       "score1": 42,
       "team2": "Fairfield",
       "score2": null,
@@ -3849,7 +3849,7 @@
       "chapter": "CSC",
       "team1": "Kirbyville",
       "score1": 43,
-      "team2": "Waco La Vega",
+      "team2": "La Vega",
       "score2": 34,
       "winner": "Kirbyville"
     },
@@ -4653,7 +4653,7 @@
       "chapter": "DAL",
       "team1": "Linden-Kildare",
       "score1": 59,
-      "team2": "Bogota Rivercrest",
+      "team2": "Bogata Rivercrest",
       "score2": 14,
       "winner": "Linden-Kildare"
     },
@@ -5275,7 +5275,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "AUS",
-      "team1": "LaPryor",
+      "team1": "La Pryor",
       "score1": 25,
       "team2": "Winters",
       "score2": 28,
@@ -6295,7 +6295,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SPC",
-      "team1": "Grady",
+      "team1": "Lenorah Grady",
       "score1": 43,
       "team2": "Ira",
       "score2": 56,

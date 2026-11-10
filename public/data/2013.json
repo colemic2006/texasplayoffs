@@ -114,11 +114,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "DAL",
-      "team1": "Garland Sachse",
+      "team1": "Sachse",
       "score1": 63,
       "team2": "Mesquite",
       "score2": 56,
-      "winner": "Garland Sachse"
+      "winner": "Sachse"
     },
     {
       "year": 2013,
@@ -150,7 +150,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "DAL",
-      "team1": "Lake Highlands",
+      "team1": "Dallas Lake Highlands",
       "score1": 6,
       "team2": "Allen",
       "score2": 63,
@@ -248,9 +248,9 @@
       "chapter": "HOU",
       "team1": "Langham Creek",
       "score1": 23,
-      "team2": "Alief Taylor",
+      "team2": "Houston Alief Taylor",
       "score2": 27,
-      "winner": "Alief Taylor"
+      "winner": "Houston Alief Taylor"
     },
     {
       "year": 2013,
@@ -440,7 +440,7 @@
       "chapter": "DAL",
       "team1": "Dallas Skyline",
       "score1": 51,
-      "team2": "Garland Sachse",
+      "team2": "Sachse",
       "score2": 10,
       "winner": "Dallas Skyline"
     },
@@ -510,7 +510,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Alief Taylor",
+      "team1": "Houston Alief Taylor",
       "score1": 0,
       "team2": "Houston Lamar",
       "score2": 36,
@@ -894,11 +894,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "AUS",
-      "team1": "Lake Travis",
+      "team1": "Austin Lake Travis",
       "score1": 52,
       "team2": "Round Rock Westwood",
       "score2": 7,
-      "winner": "Lake Travis"
+      "winner": "Austin Lake Travis"
     },
     {
       "year": 2013,
@@ -1028,9 +1028,9 @@
       "chapter": "HOU",
       "team1": "La Porte",
       "score1": 21,
-      "team2": "Alvin Manvel",
+      "team2": "Manvel",
       "score2": 45,
-      "winner": "Alvin Manvel"
+      "winner": "Manvel"
     },
     {
       "year": 2013,
@@ -1040,7 +1040,7 @@
       "chapter": "HOU",
       "team1": "Fort Bend Bush",
       "score1": 47,
-      "team2": "Clear Creek",
+      "team2": "League City Clear Creek",
       "score2": 28,
       "winner": "Fort Bend Bush"
     },
@@ -1050,7 +1050,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "Smithson Valley",
+      "team1": "Comal Smithson Valley",
       "score1": 45,
       "team2": "San Antonio Johnson",
       "score2": 49,
@@ -1208,9 +1208,9 @@
       "chapter": "HOU",
       "team1": "Humble Atascocita",
       "score1": 16,
-      "team2": "Lake Travis",
+      "team2": "Austin Lake Travis",
       "score2": 41,
-      "winner": "Lake Travis"
+      "winner": "Austin Lake Travis"
     },
     {
       "year": 2013,
@@ -1278,11 +1278,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Alvin Manvel",
+      "team1": "Manvel",
       "score1": 51,
       "team2": "Fort Bend Bush",
       "score2": 44,
-      "winner": "Alvin Manvel"
+      "winner": "Manvel"
     },
     {
       "year": 2013,
@@ -1364,9 +1364,9 @@
       "chapter": "HOU",
       "team1": "Dallas Jesuit",
       "score1": 30,
-      "team2": "Lake Travis",
+      "team2": "Austin Lake Travis",
       "score2": 55,
-      "winner": "Lake Travis"
+      "winner": "Austin Lake Travis"
     },
     {
       "year": 2013,
@@ -1400,9 +1400,9 @@
       "chapter": "HOU",
       "team1": "Houston Memorial",
       "score1": 21,
-      "team2": "Alvin Manvel",
+      "team2": "Manvel",
       "score2": 49,
-      "winner": "Alvin Manvel"
+      "winner": "Manvel"
     },
     {
       "year": 2013,
@@ -1446,11 +1446,11 @@
       "week": 4,
       "round": "Quarterfinal",
       "chapter": "HOU",
-      "team1": "Lake Travis",
+      "team1": "Austin Lake Travis",
       "score1": 21,
       "team2": "A&M Consolidated",
       "score2": 7,
-      "winner": "Lake Travis"
+      "winner": "Austin Lake Travis"
     },
     {
       "year": 2013,
@@ -1460,7 +1460,7 @@
       "chapter": "HOU",
       "team1": "Katy",
       "score1": 56,
-      "team2": "Alvin Manvel",
+      "team2": "Manvel",
       "score2": 14,
       "winner": "Katy"
     },
@@ -1484,7 +1484,7 @@
       "chapter": "ABI",
       "team1": "Cedar Hill",
       "score1": 18,
-      "team2": "Lake Travis",
+      "team2": "Austin Lake Travis",
       "score2": 10,
       "winner": "Cedar Hill"
     },
@@ -1662,7 +1662,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "DAL",
-      "team1": "Lewisville The Colony",
+      "team1": "The Colony",
       "score1": 17,
       "team2": "Dallas Highland Park",
       "score2": 38,
@@ -2324,9 +2324,9 @@
       "chapter": "ELP",
       "team1": "El Paso High",
       "score1": 7,
-      "team2": "Canutillo",
+      "team2": "El Paso Canutillo",
       "score2": 45,
-      "winner": "Canutillo"
+      "winner": "El Paso Canutillo"
     },
     {
       "year": 2013,
@@ -2394,11 +2394,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "CTX",
-      "team1": "Lucas Lovejoy",
+      "team1": "Lovejoy",
       "score1": 55,
       "team2": "Hallsville",
       "score2": 51,
-      "winner": "Lucas Lovejoy"
+      "winner": "Lovejoy"
     },
     {
       "year": 2013,
@@ -2430,7 +2430,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "DAL",
-      "team1": "Dallas Seagoville",
+      "team1": "Seagoville",
       "score1": 10,
       "team2": "Dallas Wilson",
       "score2": 47,
@@ -2454,7 +2454,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "TYL",
-      "team1": "Arlington Seguin",
+      "team1": "Seguin",
       "score1": 44,
       "team2": "Whitehouse",
       "score2": 50,
@@ -2528,7 +2528,7 @@
       "chapter": "SFA",
       "team1": "Dayton",
       "score1": 49,
-      "team2": "Orange Little Cypress-Mauriceville",
+      "team2": "Little Cypress-Mauriceville",
       "score2": 16,
       "winner": "Dayton"
     },
@@ -2622,11 +2622,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "Alamo Heights",
+      "team1": "San Antonio Alamo Heights",
       "score1": 28,
       "team2": "San Antonio Lanier",
       "score2": 7,
-      "winner": "Alamo Heights"
+      "winner": "San Antonio Alamo Heights"
     },
     {
       "year": 2013,
@@ -2634,7 +2634,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Castroville Medina Valley",
+      "team1": "Medina Valley",
       "score1": 6,
       "team2": "Corpus Christi Calallen",
       "score2": 49,
@@ -2682,11 +2682,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "ABI",
-      "team1": "Canutillo",
+      "team1": "El Paso Canutillo",
       "score1": 28,
       "team2": "Canyon Randall",
       "score2": 21,
-      "winner": "Canutillo"
+      "winner": "El Paso Canutillo"
     },
     {
       "year": 2013,
@@ -2718,7 +2718,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "CTX",
-      "team1": "Lucas Lovejoy",
+      "team1": "Lovejoy",
       "score1": 13,
       "team2": "Ennis",
       "score2": 64,
@@ -2828,9 +2828,9 @@
       "chapter": "HOU",
       "team1": "Austin Vandegrift",
       "score1": 21,
-      "team2": "Alamo Heights",
+      "team2": "San Antonio Alamo Heights",
       "score2": 24,
-      "winner": "Alamo Heights"
+      "winner": "San Antonio Alamo Heights"
     },
     {
       "year": 2013,
@@ -2862,7 +2862,7 @@
       "week": 3,
       "round": "Regional",
       "chapter": "PBC",
-      "team1": "Canutillo",
+      "team1": "El Paso Canutillo",
       "score1": 10,
       "team2": "Wichita Falls High School",
       "score2": 19,
@@ -2934,11 +2934,11 @@
       "week": 3,
       "round": "Regional",
       "chapter": "HOU",
-      "team1": "Alamo Heights",
+      "team1": "San Antonio Alamo Heights",
       "score1": 31,
       "team2": "Corpus Christi Calallen",
       "score2": 7,
-      "winner": "Alamo Heights"
+      "winner": "San Antonio Alamo Heights"
     },
     {
       "year": 2013,
@@ -2984,7 +2984,7 @@
       "chapter": "HOU",
       "team1": "Port Lavaca Calhoun",
       "score1": 46,
-      "team2": "Alamo Heights",
+      "team2": "San Antonio Alamo Heights",
       "score2": 22,
       "winner": "Port Lavaca Calhoun"
     },
@@ -3222,11 +3222,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "TYL",
-      "team1": "Waco La Vega",
+      "team1": "La Vega",
       "score1": 42,
       "team2": "Taylor",
       "score2": 19,
-      "winner": "Waco La Vega"
+      "winner": "La Vega"
     },
     {
       "year": 2013,
@@ -3378,11 +3378,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "Fischer Canyon Lake",
+      "team1": "Canyon Lake",
       "score1": 24,
       "team2": "Pleasanton",
       "score2": 21,
-      "winner": "Fischer Canyon Lake"
+      "winner": "Canyon Lake"
     },
     {
       "year": 2013,
@@ -3510,7 +3510,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "DAL",
-      "team1": "Waco La Vega",
+      "team1": "La Vega",
       "score1": 20,
       "team2": "Jasper",
       "score2": 58,
@@ -3584,7 +3584,7 @@
       "chapter": "AUS",
       "team1": "La Grange",
       "score1": 50,
-      "team2": "Fischer Canyon Lake",
+      "team2": "Canyon Lake",
       "score2": 8,
       "winner": "La Grange"
     },
@@ -4772,7 +4772,7 @@
       "chapter": "ETX",
       "team1": "Kirbyville",
       "score1": 61,
-      "team2": "Gilmer Harmony",
+      "team2": "Big Sandy Harmony",
       "score2": 26,
       "winner": "Kirbyville"
     },
@@ -4892,7 +4892,7 @@
       "chapter": "CSC",
       "team1": "McGregor",
       "score1": 42,
-      "team2": "Altair Rice Consolidated",
+      "team2": "Rice Consolidated",
       "score2": 20,
       "winner": "McGregor"
     },
@@ -5492,7 +5492,7 @@
       "chapter": "ETX",
       "team1": "Waskom",
       "score1": 56,
-      "team2": "Gilmer Union Grove",
+      "team2": "Union Grove",
       "score2": 17,
       "winner": "Waskom"
     },
@@ -7338,11 +7338,11 @@
       "week": 1,
       "round": "Area",
       "chapter": "TYL",
-      "team1": "Ladonia Fannindel",
+      "team1": "Fannindel",
       "score1": 54,
       "team2": "Apple Springs",
       "score2": 48,
-      "winner": "Ladonia Fannindel"
+      "winner": "Fannindel"
     },
     {
       "year": 2013,
@@ -7448,7 +7448,7 @@
       "chapter": "TYL",
       "team1": "Aquilla",
       "score1": 77,
-      "team2": "Ladonia Fannindel",
+      "team2": "Fannindel",
       "score2": 26,
       "winner": "Aquilla"
     },

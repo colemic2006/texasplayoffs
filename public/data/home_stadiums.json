@@ -57,14 +57,6 @@
    "map_link": "https://goo.gl/maps/pgDNT93itBsYCHpAA",
    "how": "city + school"
   },
-  "Alamo Heights": {
-   "stadium_id": 847,
-   "stadium": "Harry B. Orem Stadium",
-   "city": "San Antonio",
-   "capacity": 7791,
-   "map_link": "https://goo.gl/maps/1GJHhtGG6iFqs6nK8",
-   "how": "only school with this name"
-  },
   "Alba-Golden": {
    "stadium_id": 418,
    "stadium": "Alba - Golden Stadium",
@@ -353,14 +345,6 @@
    "map_link": "https://goo.gl/maps/hHZEBpf6PZrbWPKn7",
    "how": "city + school"
   },
-  "Arlington Seguin": {
-   "stadium_id": 318,
-   "stadium": "C. H. Wilemon Field",
-   "city": "Arlington",
-   "capacity": 8800,
-   "map_link": "https://goo.gl/maps/SY3JyRDLZjBSFjHP8",
-   "how": "city + school"
-  },
   "Arp": {
    "stadium_id": 420,
    "stadium": "Bill Herrington Tiger Stadium",
@@ -593,14 +577,6 @@
    "map_link": "https://goo.gl/maps/3M75akREmEgxQM3aA",
    "how": "only school with this name"
   },
-  "Bellaire": {
-   "stadium_id": 610,
-   "stadium": "Joe K. Butler Stadium",
-   "city": "Houston",
-   "capacity": 8280,
-   "map_link": "https://goo.gl/maps/JMeoss3AJbuAd4RY8",
-   "how": "city + school"
-  },
   "Bells": {
    "stadium_id": 690,
    "stadium": "Panther Stadium",
@@ -623,6 +599,14 @@
    "city": "Belton",
    "capacity": 9000,
    "map_link": "https://goo.gl/maps/4UWL5W2WT6pHMChP9",
+   "how": "city + school"
+  },
+  "Benbrook": {
+   "stadium_id": 255,
+   "stadium": "Herman Clark Stadium",
+   "city": "Fort Worth",
+   "capacity": 12220,
+   "map_link": "https://goo.gl/maps/X9dDD7rfzJiWBJKi6",
    "how": "city + school"
   },
   "Benjamin": {
@@ -799,6 +783,14 @@
    "city": "Brady",
    "capacity": 2871,
    "map_link": "https://goo.gl/maps/e4ittUem5f7ikWLq7",
+   "how": "city + school"
+  },
+  "Brazosport": {
+   "stadium_id": 401,
+   "stadium": "Hopper Field",
+   "city": "Freeport",
+   "capacity": 9847,
+   "map_link": "https://goo.gl/maps/fuKeC6dLVopaBPHf8",
    "how": "city + school"
   },
   "Breckenridge": {
@@ -1089,60 +1081,12 @@
    "map_link": "https://goo.gl/maps/xM5GRRetm2GYZeTY8",
    "how": "only school with this name"
   },
-  "CC Calallen": {
-   "stadium_id": 212,
-   "stadium": "Phil Danaher Stadium",
-   "city": "Corpus Christi",
-   "capacity": 9159,
-   "map_link": "https://goo.gl/maps/244We57Gr8Nq7eQ3A",
-   "how": "city + school"
-  },
-  "CC Carroll": {
-   "stadium_id": 203,
-   "stadium": "Buccaneer Stadium",
-   "city": "Corpus Christi",
-   "capacity": 11000,
-   "map_link": "https://goo.gl/maps/ReLaXTsDbA8z2EWQ9",
-   "how": "city + school"
-  },
-  "CC Flour Bluff": {
-   "stadium_id": 206,
-   "stadium": "Hornet Stadium",
-   "city": "Corpus Christi",
-   "capacity": 5459,
-   "map_link": "https://goo.gl/maps/igf83hDgKsQtwMwQ7",
-   "how": "city + school"
-  },
-  "CC Ray": {
-   "stadium_id": 204,
-   "stadium": "Cabaniss Athletic Complex",
-   "city": "Corpus Christi",
-   "capacity": 8541,
-   "map_link": "https://goo.gl/maps/Wqr4iEotLZPUBWiq6",
-   "how": "city + school"
-  },
-  "CC Tuloso Midway": {
-   "stadium_id": 211,
-   "stadium": "Warrior Stadium",
-   "city": "Corpus Christi",
-   "capacity": 5918,
-   "map_link": "https://goo.gl/maps/vP8dH4Z53hXBLkjP7",
-   "how": "city + school"
-  },
   "CC Tuloso-Midway": {
    "stadium_id": 211,
    "stadium": "Warrior Stadium",
    "city": "Corpus Christi",
    "capacity": 5918,
    "map_link": "https://goo.gl/maps/vP8dH4Z53hXBLkjP7",
-   "how": "city + school"
-  },
-  "CC Veterans Memorial": {
-   "stadium_id": 203,
-   "stadium": "Buccaneer Stadium",
-   "city": "Corpus Christi",
-   "capacity": 11000,
-   "map_link": "https://goo.gl/maps/ReLaXTsDbA8z2EWQ9",
    "how": "city + school"
   },
   "Caddo Mills": {
@@ -1209,14 +1153,6 @@
    "map_link": "https://goo.gl/maps/CLhgnWudf6kp87jd7",
    "how": "city + school"
   },
-  "Canutillo": {
-   "stadium_id": 580,
-   "stadium": "Eagle Stadium",
-   "city": "Canutillo",
-   "capacity": 6212,
-   "map_link": "https://goo.gl/maps/dzsCx6o43vrCxi8a9",
-   "how": "city + school"
-  },
   "Canyon Lake": {
    "stadium_id": 1137,
    "stadium": "Hawk Stadium",
@@ -1263,14 +1199,6 @@
    "city": "Carthage",
    "capacity": 6753,
    "map_link": "https://goo.gl/maps/FYckkHEaNWZHA3tz9",
-   "how": "city + school"
-  },
-  "Castroville Medina Valley": {
-   "stadium_id": 946,
-   "stadium": "Panther Stadium",
-   "city": "Castroville",
-   "capacity": 5485,
-   "map_link": "https://maps.app.goo.gl/UiEANJUS83KWdCH78",
    "how": "city + school"
   },
   "Cayuga": {
@@ -1417,14 +1345,6 @@
    "map_link": "https://goo.gl/maps/ykrMXGo8B4Krwnbk9",
    "how": "city + school"
   },
-  "Cinco Ranch": {
-   "stadium_id": 1699,
-   "stadium": "Mike Johnston Field at Legacy Stadium",
-   "city": "Katy",
-   "capacity": 12000,
-   "map_link": "https://goo.gl/maps/km2SPmR8CsAASd3H6",
-   "how": "only school with this name"
-  },
   "Cisco": {
    "stadium_id": 486,
    "stadium": "Chesley Stadium",
@@ -1456,14 +1376,6 @@
    "capacity": 930,
    "map_link": "https://goo.gl/maps/Q8KwQKPkZ6kMPf629",
    "how": "city + school"
-  },
-  "Clear Creek": {
-   "stadium_id": 1701,
-   "stadium": "Challenger Columbia Stadium",
-   "city": "League City",
-   "capacity": 10000,
-   "map_link": "https://goo.gl/maps/JUwjMAsAHo5wpKjU7",
-   "how": "only school with this name"
   },
   "Clear Falls": {
    "stadium_id": 1701,
@@ -1568,6 +1480,14 @@
    "capacity": 4538,
    "map_link": "https://goo.gl/maps/fJY6qgiGrxzF6UCa6",
    "how": "city + school"
+  },
+  "Comal Smithson Valley": {
+   "stadium_id": 159,
+   "stadium": "Ranger Stadium",
+   "city": "Spring Branch",
+   "capacity": 8565,
+   "map_link": "https://goo.gl/maps/LbwLZ82tBRFpCHJCA",
+   "how": "only school with this name"
   },
   "Comanche": {
    "stadium_id": 101,
@@ -1679,14 +1599,6 @@
    "city": "Corpus Christi",
    "capacity": 11000,
    "map_link": "https://goo.gl/maps/ReLaXTsDbA8z2EWQ9",
-   "how": "city + school"
-  },
-  "Corpus Christi London": {
-   "stadium_id": 1688,
-   "stadium": "Pirate Stadium",
-   "city": "Corpus Christi",
-   "capacity": 1576,
-   "map_link": "https://goo.gl/maps/abMjgnrT5CJqB4gC7",
    "how": "city + school"
   },
   "Corpus Christi Ray": {
@@ -2385,6 +2297,14 @@
    "map_link": "https://goo.gl/maps/rMk2isD9kezCyPHL8",
    "how": "city + school"
   },
+  "El Paso Canutillo": {
+   "stadium_id": 580,
+   "stadium": "Eagle Stadium",
+   "city": "Canutillo",
+   "capacity": 6212,
+   "map_link": "https://goo.gl/maps/dzsCx6o43vrCxi8a9",
+   "how": "city + school"
+  },
   "El Paso Chapin": {
    "stadium_id": 1729,
    "stadium": "Chapin Stadium",
@@ -2601,22 +2521,6 @@
    "map_link": "https://goo.gl/maps/Qsi5dmszwDtiM3PA7",
    "how": "city + school"
   },
-  "FW Arlington Heights": {
-   "stadium_id": 242,
-   "stadium": "Farrington Field",
-   "city": "Fort Worth",
-   "capacity": 18300,
-   "map_link": "https://goo.gl/maps/5hpRUksSEBEZD7EK7",
-   "how": "city + school"
-  },
-  "FW Brewer": {
-   "stadium_id": 1269,
-   "stadium": "Ben Davis Stadium",
-   "city": "Fort Worth",
-   "capacity": 7984,
-   "map_link": "https://goo.gl/maps/8C6DRCUx2nqaSJEu7",
-   "how": "city + school"
-  },
   "FW Carter-Riverside": {
    "stadium_id": 252,
    "stadium": "Scarborough-Handley Field",
@@ -2633,31 +2537,7 @@
    "map_link": "https://goo.gl/maps/xkreWcdtQJ3pQLCq9",
    "how": "city + school"
   },
-  "FW Dunbar": {
-   "stadium_id": 255,
-   "stadium": "Herman Clark Stadium",
-   "city": "Fort Worth",
-   "capacity": 12220,
-   "map_link": "https://goo.gl/maps/X9dDD7rfzJiWBJKi6",
-   "how": "city + school"
-  },
-  "FW Eastern Hills": {
-   "stadium_id": 255,
-   "stadium": "Herman Clark Stadium",
-   "city": "Fort Worth",
-   "capacity": 12220,
-   "map_link": "https://goo.gl/maps/X9dDD7rfzJiWBJKi6",
-   "how": "city + school"
-  },
   "FW Paschal": {
-   "stadium_id": 242,
-   "stadium": "Farrington Field",
-   "city": "Fort Worth",
-   "capacity": 18300,
-   "map_link": "https://goo.gl/maps/5hpRUksSEBEZD7EK7",
-   "how": "city + school"
-  },
-  "FW Southwest": {
    "stadium_id": 242,
    "stadium": "Farrington Field",
    "city": "Fort Worth",
@@ -2729,14 +2609,6 @@
    "map_link": "https://goo.gl/maps/UtW2N1p2sTBvPqYZ7",
    "how": "city + school"
   },
-  "Fischer Canyon Lake": {
-   "stadium_id": 1137,
-   "stadium": "Hawk Stadium",
-   "city": "Fischer",
-   "capacity": 3553,
-   "map_link": "https://goo.gl/maps/mP5pLM6UqSMAhmwz7",
-   "how": "city + school"
-  },
   "Floresville": {
    "stadium_id": 919,
    "stadium": "Eschenburg Field",
@@ -2744,14 +2616,6 @@
    "capacity": 4635,
    "map_link": "https://goo.gl/maps/vNZLhRKta1aMvVSi9",
    "how": "city + school"
-  },
-  "Flour Bluff": {
-   "stadium_id": 206,
-   "stadium": "Hornet Stadium",
-   "city": "Corpus Christi",
-   "capacity": 5459,
-   "map_link": "https://goo.gl/maps/igf83hDgKsQtwMwQ7",
-   "how": "only school with this name"
   },
   "Flower Mound": {
    "stadium_id": 265,
@@ -2809,6 +2673,14 @@
    "map_link": "https://goo.gl/maps/nxx2mf2dAdhts7bQ8",
    "how": "city + school"
   },
+  "Fort Bend Ridge Point": {
+   "stadium_id": 520,
+   "stadium": "Ken Hall Stadium",
+   "city": "Missouri City",
+   "capacity": 9176,
+   "map_link": "https://goo.gl/maps/F4gUBwst8H7sUr7v6",
+   "how": "only school with this name"
+  },
   "Fort Davis": {
    "stadium_id": 573,
    "stadium": "Bart Coan Field",
@@ -2831,14 +2703,6 @@
    "city": "Fort Worth",
    "capacity": 18300,
    "map_link": "https://goo.gl/maps/5hpRUksSEBEZD7EK7",
-   "how": "city + school"
-  },
-  "Fort Worth Benbrook": {
-   "stadium_id": 255,
-   "stadium": "Herman Clark Stadium",
-   "city": "Fort Worth",
-   "capacity": 12220,
-   "map_link": "https://goo.gl/maps/X9dDD7rfzJiWBJKi6",
    "how": "city + school"
   },
   "Fort Worth Boswell": {
@@ -2929,20 +2793,20 @@
    "map_link": "https://goo.gl/maps/nXrmvUnANqVmzvFx6",
    "how": "city + school"
   },
-  "Freeport Brazosport": {
-   "stadium_id": 401,
-   "stadium": "Hopper Field",
-   "city": "Freeport",
-   "capacity": 9847,
-   "map_link": "https://goo.gl/maps/fuKeC6dLVopaBPHf8",
-   "how": "city + school"
-  },
   "Freer": {
    "stadium_id": 1734,
    "stadium": "Buckaroo Stadium",
    "city": "Freer",
    "capacity": 2786,
    "map_link": "https://goo.gl/maps/FrdnDSieMoYBpxD6A",
+   "how": "city + school"
+  },
+  "Frenship": {
+   "stadium_id": 823,
+   "stadium": "Peoples Bank Stadium",
+   "city": "Wolfforth",
+   "capacity": 9953,
+   "map_link": "https://goo.gl/maps/yTzp5e5h4y9HwbGZ9",
    "how": "city + school"
   },
   "Friendswood": {
@@ -3216,14 +3080,6 @@
    "capacity": 4959,
    "map_link": "https://goo.gl/maps/Nb494xuW61MM4wT96",
    "how": "city + school"
-  },
-  "Goose Creek Memorial": {
-   "stadium_id": 637,
-   "stadium": "Stallworth Stadium",
-   "city": "Baytown",
-   "capacity": 16500,
-   "map_link": "https://goo.gl/maps/HZWfvTF1BZ9Z2Szt7",
-   "how": "only school with this name"
   },
   "Gordon": {
    "stadium_id": 681,
@@ -3705,6 +3561,14 @@
    "map_link": "https://goo.gl/maps/SDaszQzbgCemRvfX8",
    "how": "city + school"
   },
+  "Houston Bellaire": {
+   "stadium_id": 610,
+   "stadium": "Joe K. Butler Stadium",
+   "city": "Houston",
+   "capacity": 8280,
+   "map_link": "https://goo.gl/maps/JMeoss3AJbuAd4RY8",
+   "how": "city + school"
+  },
   "Houston Chavez": {
    "stadium_id": 605,
    "stadium": "Herman A. Barnett Stadium",
@@ -3776,6 +3640,14 @@
    "capacity": 12000,
    "map_link": "https://goo.gl/maps/ZeFpyvP6AT2FBnRG8",
    "how": "city + school"
+  },
+  "Houston Klein Cain": {
+   "stadium_id": 626,
+   "stadium": "Klein Memorial Stadium",
+   "city": "Klein",
+   "capacity": 7800,
+   "map_link": "https://goo.gl/maps/zoC4eqjDQE1myASb6",
+   "how": "only school with this name"
   },
   "Houston Lamar": {
    "stadium_id": 621,
@@ -4001,6 +3873,14 @@
    "map_link": "https://goo.gl/maps/G8wYEzoiyuLYwYDM8",
    "how": "city + school"
   },
+  "Humble Kingwood": {
+   "stadium_id": 365,
+   "stadium": "Turner Stadium",
+   "city": "Humble",
+   "capacity": 10200,
+   "map_link": "https://goo.gl/maps/G8wYEzoiyuLYwYDM8",
+   "how": "city + school"
+  },
   "Huntington": {
    "stadium_id": 550,
    "stadium": "Red Devil Field",
@@ -4184,14 +4064,6 @@
    "capacity": 6028,
    "map_link": "https://goo.gl/maps/eSu7joz7AAU99PoLA",
    "how": "city + school"
-  },
-  "Jersey Village": {
-   "stadium_id": 1050,
-   "stadium": "Cy Fair FCU Stadium",
-   "city": "Cypress",
-   "capacity": 11000,
-   "map_link": "https://goo.gl/maps/wcVPi2Ck2BR2",
-   "how": "only school with this name"
   },
   "Jewett Leon": {
    "stadium_id": 54,
@@ -4433,14 +4305,6 @@
    "map_link": "https://goo.gl/maps/iRCx4CvmWew9RcTU9",
    "how": "city + school"
   },
-  "Kingwood": {
-   "stadium_id": 365,
-   "stadium": "Turner Stadium",
-   "city": "Humble",
-   "capacity": 10200,
-   "map_link": "https://goo.gl/maps/G8wYEzoiyuLYwYDM8",
-   "how": "city + school"
-  },
   "Kirbyville": {
    "stadium_id": 481,
    "stadium": "Wildcat Stadium",
@@ -4456,22 +4320,6 @@
    "capacity": 7800,
    "map_link": "https://goo.gl/maps/zoC4eqjDQE1myASb6",
    "how": "city + school"
-  },
-  "Klein Cain": {
-   "stadium_id": 626,
-   "stadium": "Klein Memorial Stadium",
-   "city": "Klein",
-   "capacity": 7800,
-   "map_link": "https://goo.gl/maps/zoC4eqjDQE1myASb6",
-   "how": "only school with this name"
-  },
-  "Klein Collins": {
-   "stadium_id": 626,
-   "stadium": "Klein Memorial Stadium",
-   "city": "Klein",
-   "capacity": 7800,
-   "map_link": "https://goo.gl/maps/zoC4eqjDQE1myASb6",
-   "how": "only school with this name"
   },
   "Klein Oak": {
    "stadium_id": 626,
@@ -4617,22 +4465,6 @@
    "map_link": "https://goo.gl/maps/GHxtG5xLUFwg9QsY7",
    "how": "city + school"
   },
-  "Lake Highlands": {
-   "stadium_id": 317,
-   "stadium": "Wildcat-Ram Stadium",
-   "city": "Dallas",
-   "capacity": 8811,
-   "map_link": "https://goo.gl/maps/bZXXdrGMxMJ3Xosq8",
-   "how": "only school with this name"
-  },
-  "Lake Travis": {
-   "stadium_id": 13,
-   "stadium": "Cavalier Stadium at Lake Travis",
-   "city": "Austin",
-   "capacity": 11090,
-   "map_link": "https://goo.gl/maps/5KSG8aCD9QL2iW6C8",
-   "how": "only school with this name"
-  },
   "Lake Worth": {
    "stadium_id": 270,
    "stadium": "Kittrell Stadium",
@@ -4714,22 +4546,6 @@
    "how": "city + school"
   },
   "League City Clear Creek": {
-   "stadium_id": 1701,
-   "stadium": "Challenger Columbia Stadium",
-   "city": "League City",
-   "capacity": 10000,
-   "map_link": "https://goo.gl/maps/JUwjMAsAHo5wpKjU7",
-   "how": "city + school"
-  },
-  "League City Clear Falls": {
-   "stadium_id": 1701,
-   "stadium": "Challenger Columbia Stadium",
-   "city": "League City",
-   "capacity": 10000,
-   "map_link": "https://goo.gl/maps/JUwjMAsAHo5wpKjU7",
-   "how": "city + school"
-  },
-  "League City Clear Springs": {
    "stadium_id": 1701,
    "stadium": "Challenger Columbia Stadium",
    "city": "League City",
@@ -4921,6 +4737,14 @@
    "map_link": "https://goo.gl/maps/B6rvGxTc4ceFKpRp7",
    "how": "city + school"
   },
+  "London": {
+   "stadium_id": 1688,
+   "stadium": "Pirate Stadium",
+   "city": "Corpus Christi",
+   "capacity": 1576,
+   "map_link": "https://goo.gl/maps/abMjgnrT5CJqB4gC7",
+   "how": "city + school"
+  },
   "Lone Oak": {
    "stadium_id": 640,
    "stadium": "Buffalo Stadium",
@@ -4985,6 +4809,14 @@
    "map_link": "https://goo.gl/maps/3mg4z49CrSM5KXHx5",
    "how": "city + school"
   },
+  "Lovejoy": {
+   "stadium_id": 338,
+   "stadium": "Leopard Stadium",
+   "city": "Lucas",
+   "capacity": 7341,
+   "map_link": "https://goo.gl/maps/YteoTrpG1m5PkJRL9",
+   "how": "city + school"
+  },
   "Lubbock Cooper": {
    "stadium_id": 1313,
    "stadium": "Pirate Stadium at First United Park",
@@ -5023,14 +4855,6 @@
    "city": "Lubbock",
    "capacity": 2141,
    "map_link": "https://goo.gl/maps/mKAZ2ZUQ5kBW8EpE6",
-   "how": "city + school"
-  },
-  "Lucas Lovejoy": {
-   "stadium_id": 338,
-   "stadium": "Leopard Stadium",
-   "city": "Lucas",
-   "capacity": 7341,
-   "map_link": "https://goo.gl/maps/YteoTrpG1m5PkJRL9",
    "how": "city + school"
   },
   "Lueders-Avoca": {
@@ -5625,7 +5449,7 @@
    "map_link": "https://goo.gl/maps/gEGVExWtQrX14JzT6",
    "how": "city + school"
   },
-  "Mt. Enterprise": {
+  "Mount Enterprise": {
    "stadium_id": 1600,
    "stadium": "John Webb Stadium",
    "city": "Mount Enterprise",
@@ -5656,14 +5480,6 @@
    "capacity": 1416,
    "map_link": "https://goo.gl/maps/ZXBbqvrNWzM3BWqA9",
    "how": "city + school"
-  },
-  "Naaman Forest": {
-   "stadium_id": 320,
-   "stadium": "Williams Stadium",
-   "city": "Garland",
-   "capacity": 8218,
-   "map_link": "https://goo.gl/maps/LLqjMCyrfi87eZCF8",
-   "how": "only school with this name"
   },
   "Nacogdoches": {
    "stadium_id": 446,
@@ -5985,14 +5801,6 @@
    "map_link": "https://goo.gl/maps/jPbAspzdsyCWxmpP9",
    "how": "only school with this name"
   },
-  "PSJA North": {
-   "stadium_id": 948,
-   "stadium": "PSJA Stadium",
-   "city": "Pharr",
-   "capacity": 12000,
-   "map_link": "https://goo.gl/maps/jPbAspzdsyCWxmpP9",
-   "how": "only school with this name"
-  },
   "Paducah": {
    "stadium_id": 749,
    "stadium": "Dragon Stadium",
@@ -6233,20 +6041,20 @@
    "map_link": "https://goo.gl/maps/Qmo6TXwpJjHdjbNJ9",
    "how": "city + school"
   },
+  "Pharr-San Juan-Alamo North": {
+   "stadium_id": 948,
+   "stadium": "PSJA Stadium",
+   "city": "Pharr",
+   "capacity": 12000,
+   "map_link": "https://goo.gl/maps/jPbAspzdsyCWxmpP9",
+   "how": "only school with this name"
+  },
   "Pilot Point": {
    "stadium_id": 682,
    "stadium": "Massey Stadium",
    "city": "Pilot Point",
    "capacity": 2388,
    "map_link": "https://goo.gl/maps/Pi5w3gCdjEaUhC6T7",
-   "how": "city + school"
-  },
-  "Pineland West Sabine": {
-   "stadium_id": 562,
-   "stadium": "Tiger Stadium",
-   "city": "Pineland",
-   "capacity": 1278,
-   "map_link": "https://goo.gl/maps/RWL5YjB3nuyVRfEa9",
    "how": "city + school"
   },
   "Pittsburg": {
@@ -6272,14 +6080,6 @@
    "capacity": 7035,
    "map_link": "https://goo.gl/maps/ic96ws2fQmQuXh4m8",
    "how": "city + school"
-  },
-  "Pleasant Grove": {
-   "stadium_id": 1306,
-   "stadium": "Hawk Stadium",
-   "city": "Texarkana",
-   "capacity": 3529,
-   "map_link": "https://goo.gl/maps/yWQ8QAhZAqQ4nuzj7",
-   "how": "only school with this name"
   },
   "Pleasanton": {
    "stadium_id": 917,
@@ -6449,6 +6249,14 @@
    "map_link": "https://goo.gl/maps/P82iwBKH5k56NFwK8",
    "how": "city + school"
   },
+  "Randolph": {
+   "stadium_id": 852,
+   "stadium": "Mickler Memorial Field",
+   "city": "San Antonio",
+   "capacity": 2735,
+   "map_link": "https://goo.gl/maps/MQd3ioaFHK5TZgLGA",
+   "how": "city + school"
+  },
   "Ranger": {
    "stadium_id": 47,
    "stadium": "O.C. Warden Stadium",
@@ -6544,14 +6352,6 @@
    "capacity": 10506,
    "map_link": "https://goo.gl/maps/Aa4K7HyPBBR2",
    "how": "city + school"
-  },
-  "Ridge Point": {
-   "stadium_id": 520,
-   "stadium": "Ken Hall Stadium",
-   "city": "Missouri City",
-   "capacity": 9176,
-   "map_link": "https://goo.gl/maps/F4gUBwst8H7sUr7v6",
-   "how": "only school with this name"
   },
   "Riesel": {
    "stadium_id": 153,
@@ -6777,103 +6577,7 @@
    "map_link": "https://goo.gl/maps/rD7zuQeedRYhL3fn9",
    "how": "city + school"
   },
-  "SA  Clark": {
-   "stadium_id": 846,
-   "stadium": "Gustafson Stadium",
-   "city": "San Antonio",
-   "capacity": 10100,
-   "map_link": "https://goo.gl/maps/JZrEVmzY6YKz9yoE8",
-   "how": "city + school"
-  },
-  "SA Alamo Heights": {
-   "stadium_id": 847,
-   "stadium": "Harry B. Orem Stadium",
-   "city": "San Antonio",
-   "capacity": 7791,
-   "map_link": "https://goo.gl/maps/1GJHhtGG6iFqs6nK8",
-   "how": "city + school"
-  },
-  "SA Burbank": {
-   "stadium_id": 853,
-   "stadium": "SAISD Sports Complex",
-   "city": "San Antonio",
-   "capacity": 4047,
-   "map_link": "https://goo.gl/maps/aEkZf8bfWnTheyx87",
-   "how": "city + school"
-  },
-  "SA Churchill": {
-   "stadium_id": 842,
-   "stadium": "Comalander Stadium",
-   "city": "San Antonio",
-   "capacity": 12000,
-   "map_link": "https://goo.gl/maps/BdcVt5WfnTKrQfdA8",
-   "how": "city + school"
-  },
   "SA Clark": {
-   "stadium_id": 846,
-   "stadium": "Gustafson Stadium",
-   "city": "San Antonio",
-   "capacity": 10100,
-   "map_link": "https://goo.gl/maps/JZrEVmzY6YKz9yoE8",
-   "how": "city + school"
-  },
-  "SA East Central": {
-   "stadium_id": 845,
-   "stadium": "East Central Stadium",
-   "city": "San Antonio",
-   "capacity": 8298,
-   "map_link": "https://goo.gl/maps/8tRiQybGMHhuuZcU9",
-   "how": "city + school"
-  },
-  "SA Jay": {
-   "stadium_id": 846,
-   "stadium": "Gustafson Stadium",
-   "city": "San Antonio",
-   "capacity": 10100,
-   "map_link": "https://goo.gl/maps/JZrEVmzY6YKz9yoE8",
-   "how": "city + school"
-  },
-  "SA Jefferson": {
-   "stadium_id": 853,
-   "stadium": "SAISD Sports Complex",
-   "city": "San Antonio",
-   "capacity": 4047,
-   "map_link": "https://goo.gl/maps/aEkZf8bfWnTheyx87",
-   "how": "city + school"
-  },
-  "SA Johnson": {
-   "stadium_id": 842,
-   "stadium": "Comalander Stadium",
-   "city": "San Antonio",
-   "capacity": 12000,
-   "map_link": "https://goo.gl/maps/BdcVt5WfnTKrQfdA8",
-   "how": "city + school"
-  },
-  "SA Lanier": {
-   "stadium_id": 853,
-   "stadium": "SAISD Sports Complex",
-   "city": "San Antonio",
-   "capacity": 4047,
-   "map_link": "https://goo.gl/maps/aEkZf8bfWnTheyx87",
-   "how": "city + school"
-  },
-  "SA Reagan": {
-   "stadium_id": 842,
-   "stadium": "Comalander Stadium",
-   "city": "San Antonio",
-   "capacity": 12000,
-   "map_link": "https://goo.gl/maps/BdcVt5WfnTKrQfdA8",
-   "how": "city + school"
-  },
-  "SA Southwest": {
-   "stadium_id": 856,
-   "stadium": "Frazier Field at Dragon Stadium",
-   "city": "San Antonio",
-   "capacity": 9471,
-   "map_link": "https://goo.gl/maps/CYygHVmigVMG15tW7",
-   "how": "city + school"
-  },
-  "SA Taft": {
    "stadium_id": 846,
    "stadium": "Gustafson Stadium",
    "city": "San Antonio",
@@ -6920,14 +6624,6 @@
    "capacity": 5600,
    "map_link": "https://goo.gl/maps/DgLtk8dqghqn1XA77",
    "how": "city + school"
-  },
-  "Sam Houston": {
-   "stadium_id": 318,
-   "stadium": "C. H. Wilemon Field",
-   "city": "Arlington",
-   "capacity": 8800,
-   "map_link": "https://goo.gl/maps/SY3JyRDLZjBSFjHP8",
-   "how": "only school with this name"
   },
   "San Angelo Central": {
    "stadium_id": 1004,
@@ -7113,6 +6809,14 @@
    "map_link": "https://goo.gl/maps/BdcVt5WfnTKrQfdA8",
    "how": "city + school"
   },
+  "San Antonio Sam Houston": {
+   "stadium_id": 318,
+   "stadium": "C. H. Wilemon Field",
+   "city": "Arlington",
+   "capacity": 8800,
+   "map_link": "https://goo.gl/maps/SY3JyRDLZjBSFjHP8",
+   "how": "only school with this name"
+  },
   "San Antonio Southside": {
    "stadium_id": 855,
    "stadium": "Southside ISD Stadium",
@@ -7265,14 +6969,6 @@
    "map_link": "https://goo.gl/maps/8yjcDXoSn8g16Uj76",
    "how": "city + school"
   },
-  "Saratoga West Hardin": {
-   "stadium_id": 480,
-   "stadium": "West Hardin Oiler Stadium",
-   "city": "Saratoga",
-   "capacity": 1641,
-   "map_link": "https://goo.gl/maps/zbqczzMnz2P6Q15cA",
-   "how": "city + school"
-  },
   "Savoy": {
    "stadium_id": 649,
    "stadium": "Robert F. Hodge Field",
@@ -7311,6 +7007,14 @@
    "city": "Sealy",
    "capacity": 3807,
    "map_link": "https://maps.app.goo.gl/DdBgRXvmuJFGB4wQA",
+   "how": "city + school"
+  },
+  "Seguin": {
+   "stadium_id": 318,
+   "stadium": "C. H. Wilemon Field",
+   "city": "Arlington",
+   "capacity": 8800,
+   "map_link": "https://goo.gl/maps/SY3JyRDLZjBSFjHP8",
    "how": "city + school"
   },
   "Seminole": {
@@ -7441,14 +7145,6 @@
    "map_link": "https://goo.gl/maps/v8wxccePDXoFuiug9",
    "how": "city + school"
   },
-  "Smithson Valley": {
-   "stadium_id": 159,
-   "stadium": "Ranger Stadium",
-   "city": "Spring Branch",
-   "capacity": 8565,
-   "map_link": "https://goo.gl/maps/LbwLZ82tBRFpCHJCA",
-   "how": "only school with this name"
-  },
   "Smithville": {
    "stadium_id": 175,
    "stadium": "Tiger Stadium",
@@ -7576,14 +7272,6 @@
    "capacity": 7800,
    "map_link": "https://goo.gl/maps/zoC4eqjDQE1myASb6",
    "how": "city + school"
-  },
-  "Springlake Earth": {
-   "stadium_id": 834,
-   "stadium": "Wolverine Stadium",
-   "city": "Earth",
-   "capacity": 1100,
-   "map_link": "https://goo.gl/maps/XQdNd8GbXJMxWJfy5",
-   "how": "only school with this name"
   },
   "Springlake-Earth": {
    "stadium_id": 834,
@@ -7945,14 +7633,6 @@
    "map_link": "https://goo.gl/maps/WrquVBV48cZVHQpRA",
    "how": "city + school"
   },
-  "Trophy Club Byron Nelson": {
-   "stadium_id": 299,
-   "stadium": "Northwest ISD Stadium",
-   "city": "Justin",
-   "capacity": 9162,
-   "map_link": "https://goo.gl/maps/xM5GRRetm2GYZeTY8",
-   "how": "city + school"
-  },
   "Troup": {
    "stadium_id": 565,
    "stadium": "Tiger Stadium",
@@ -7977,22 +7657,6 @@
    "map_link": "https://goo.gl/maps/NnSnqZU4gUMWJTXz7",
    "how": "city + school"
   },
-  "Tuloso Midway": {
-   "stadium_id": 211,
-   "stadium": "Warrior Stadium",
-   "city": "Corpus Christi",
-   "capacity": 5918,
-   "map_link": "https://goo.gl/maps/vP8dH4Z53hXBLkjP7",
-   "how": "only school with this name"
-  },
-  "Tuloso-Midway": {
-   "stadium_id": 211,
-   "stadium": "Warrior Stadium",
-   "city": "Corpus Christi",
-   "capacity": 5918,
-   "map_link": "https://goo.gl/maps/vP8dH4Z53hXBLkjP7",
-   "how": "only school with this name"
-  },
   "Turkey Valley": {
    "stadium_id": 807,
    "stadium": "Patriot Stadium",
@@ -8001,20 +7665,20 @@
    "map_link": "https://goo.gl/maps/SXXssNUUfPUX486b8",
    "how": "city + school"
   },
-  "Tyler": {
-   "stadium_id": 568,
-   "stadium": "Christus Trinity Mother Frances Rose Stadium",
-   "city": "Tyler",
-   "capacity": 10566,
-   "map_link": "https://goo.gl/maps/ZwesgiaqJ8b5bMgQ7",
-   "how": "city + school"
-  },
   "Tyler Chapel Hill": {
    "stadium_id": 443,
    "stadium": "Bulldog Stadium",
    "city": "Tyler",
    "capacity": 4774,
    "map_link": "https://goo.gl/maps/dr3F7Gwex63W83Y29",
+   "how": "city + school"
+  },
+  "Tyler John Tyler": {
+   "stadium_id": 568,
+   "stadium": "Christus Trinity Mother Frances Rose Stadium",
+   "city": "Tyler",
+   "capacity": 10566,
+   "map_link": "https://goo.gl/maps/ZwesgiaqJ8b5bMgQ7",
    "how": "city + school"
   },
   "Tyler Legacy": {
@@ -8040,14 +7704,6 @@
    "capacity": 625,
    "map_link": "https://goo.gl/maps/Cd3Q1E1FMxrSCFG59",
    "how": "only school with this name"
-  },
-  "Universal City Randolph": {
-   "stadium_id": 852,
-   "stadium": "Mickler Memorial Field",
-   "city": "San Antonio",
-   "capacity": 2735,
-   "map_link": "https://goo.gl/maps/MQd3ioaFHK5TZgLGA",
-   "how": "city + school"
   },
   "Uvalde": {
    "stadium_id": 926,
@@ -8184,14 +7840,6 @@
    "capacity": 3741,
    "map_link": "https://goo.gl/maps/fSMC2nFSC2h92pKCA",
    "how": "only school with this name"
-  },
-  "Waco La Vega": {
-   "stadium_id": 149,
-   "stadium": "Willie Williams Stadium",
-   "city": "Waco",
-   "capacity": 3649,
-   "map_link": "https://goo.gl/maps/4iLus3CHgUYopuuRA",
-   "how": "city + school"
   },
   "Waco University": {
    "stadium_id": 183,
@@ -8575,14 +8223,6 @@
    "city": "Wolfe City",
    "capacity": 824,
    "map_link": "https://goo.gl/maps/GR4GySYEZFXxz22A6",
-   "how": "city + school"
-  },
-  "Wolfforth Frenship": {
-   "stadium_id": 823,
-   "stadium": "Peoples Bank Stadium",
-   "city": "Wolfforth",
-   "capacity": 9953,
-   "map_link": "https://goo.gl/maps/yTzp5e5h4y9HwbGZ9",
    "how": "city + school"
   },
   "Woodsboro": {

@@ -115,11 +115,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "ABI",
-      "team1": "Garland Rowlett",
+      "team1": "Rowlett",
       "score1": 64,
       "team2": "Belton",
       "score2": 51,
-      "winner": "Garland Rowlett"
+      "winner": "Rowlett"
     },
     {
       "year": 2015,
@@ -165,7 +165,7 @@
       "chapter": "AUS",
       "team1": "Killeen Shoemaker",
       "score1": 10,
-      "team2": "Garland Sachse",
+      "team2": "Sachse",
       "score2": 7,
       "winner": "Killeen Shoemaker"
     },
@@ -441,9 +441,9 @@
       "chapter": "DAL",
       "team1": "Dallas Skyline",
       "score1": 21,
-      "team2": "Garland Rowlett",
+      "team2": "Rowlett",
       "score2": 24,
-      "winner": "Garland Rowlett"
+      "winner": "Rowlett"
     },
     {
       "year": 2015,
@@ -607,7 +607,7 @@
       "week": 3,
       "round": "Regional",
       "chapter": "HOU",
-      "team1": "Garland Rowlett",
+      "team1": "Rowlett",
       "score1": 24,
       "team2": "Humble Atascocita",
       "score2": 31,
@@ -1629,9 +1629,9 @@
       "chapter": "DAL",
       "team1": "Carrollton Creekview",
       "score1": 7,
-      "team2": "Rockwall Heath",
+      "team2": "Rockwall-Heath",
       "score2": 27,
-      "winner": "Rockwall Heath"
+      "winner": "Rockwall-Heath"
     },
     {
       "year": 2015,
@@ -1953,7 +1953,7 @@
       "chapter": "DAL",
       "team1": "Wylie",
       "score1": 24,
-      "team2": "Rockwall Heath",
+      "team2": "Rockwall-Heath",
       "score2": 17,
       "winner": "Wylie"
     },
@@ -2445,7 +2445,7 @@
       "chapter": "DAL",
       "team1": "Lancaster",
       "score1": 50,
-      "team2": "Dallas Seagoville",
+      "team2": "Seagoville",
       "score2": 3,
       "winner": "Lancaster"
     },
@@ -4857,7 +4857,7 @@
       "chapter": "CSC",
       "team1": "Edna",
       "score1": 40,
-      "team2": "Universal City Randolph",
+      "team2": "Randolph",
       "score2": 7,
       "winner": "Edna"
     },
@@ -6417,7 +6417,7 @@
       "chapter": "SAT",
       "team1": "Flatonia",
       "score1": 48,
-      "team2": "Corpus Christi London",
+      "team2": "London",
       "score2": 7,
       "winner": "Flatonia"
     },
@@ -7989,7 +7989,7 @@
       "chapter": "PBC",
       "team1": "Balmorhea",
       "score1": 60,
-      "team2": "Ackerly Sands",
+      "team2": "Sands",
       "score2": 14,
       "winner": "Balmorhea"
     },

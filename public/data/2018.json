@@ -105,7 +105,7 @@
       "chapter": "DAL",
       "team1": "Allen",
       "score1": 56,
-      "team2": "Garland Rowlett",
+      "team2": "Rowlett",
       "score2": 21,
       "winner": "Allen"
     },
@@ -151,11 +151,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "DAL",
-      "team1": "Garland Sachse",
+      "team1": "Sachse",
       "score1": 35,
       "team2": "Plano East",
       "score2": 25,
-      "winner": "Garland Sachse"
+      "winner": "Sachse"
     },
     {
       "year": 2018,
@@ -463,7 +463,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "FTW",
-      "team1": "Garland Sachse",
+      "team1": "Sachse",
       "score1": 28,
       "team2": "Waco Midway",
       "score2": 56,
@@ -2337,7 +2337,7 @@
       "chapter": "ELP",
       "team1": "El Paso Austin",
       "score1": 35,
-      "team2": "Canutillo",
+      "team2": "El Paso Canutillo",
       "score2": 14,
       "winner": "El Paso Austin"
     },
@@ -2385,9 +2385,9 @@
       "chapter": "FTW",
       "team1": "Kaufman",
       "score1": 29,
-      "team2": "Lucas Lovejoy",
+      "team2": "Lovejoy",
       "score2": 45,
-      "winner": "Lucas Lovejoy"
+      "winner": "Lovejoy"
     },
     {
       "year": 2018,
@@ -2649,7 +2649,7 @@
       "chapter": "HOU",
       "team1": "Brenham",
       "score1": 23,
-      "team2": "Boerne-Champion",
+      "team2": "Boerne Champion",
       "score2": 20,
       "winner": "Brenham"
     },
@@ -2709,7 +2709,7 @@
       "chapter": "CTX",
       "team1": "Aledo",
       "score1": 62,
-      "team2": "Lucas Lovejoy",
+      "team2": "Lovejoy",
       "score2": 28,
       "winner": "Aledo"
     },
@@ -3187,7 +3187,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "TYL",
-      "team1": "Fort Worth Benbrook",
+      "team1": "Benbrook",
       "score1": 15,
       "team2": "China Spring",
       "score2": 48,
@@ -3259,11 +3259,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Huffman Hargraves",
+      "team1": "Huffman-Hargrave",
       "score1": 40,
       "team2": "Houston Furr",
       "score2": 24,
-      "winner": "Huffman Hargraves"
+      "winner": "Huffman-Hargrave"
     },
     {
       "year": 2018,
@@ -3381,7 +3381,7 @@
       "chapter": "SAT",
       "team1": "Lampasas",
       "score1": 42,
-      "team2": "Freeport Brazosport",
+      "team2": "Brazosport",
       "score2": 35,
       "winner": "Lampasas"
     },
@@ -3525,7 +3525,7 @@
       "chapter": "AUS",
       "team1": "Carthage",
       "score1": 46,
-      "team2": "Huffman Hargraves",
+      "team2": "Huffman-Hargrave",
       "score2": 0,
       "winner": "Carthage"
     },
@@ -4905,7 +4905,7 @@
       "chapter": "SAT",
       "team1": "George West",
       "score1": 54,
-      "team2": "Universal City Randolph",
+      "team2": "Randolph",
       "score2": 7,
       "winner": "George West"
     },
@@ -5599,11 +5599,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "Corpus Christi London",
+      "team1": "London",
       "score1": 27,
       "team2": "Stockdale",
       "score2": 14,
-      "winner": "Corpus Christi London"
+      "winner": "London"
     },
     {
       "year": 2018,
@@ -5829,7 +5829,7 @@
       "chapter": "CTX",
       "team1": "Blanco",
       "score1": 55,
-      "team2": "Corpus Christi London",
+      "team2": "London",
       "score2": 29,
       "winner": "Blanco"
     },
@@ -6237,7 +6237,7 @@
       "chapter": "COM",
       "team1": "Celeste",
       "score1": 42,
-      "team2": "Bogota Rivercrest",
+      "team2": "Bogata Rivercrest",
       "score2": 6,
       "winner": "Celeste"
     },
@@ -6285,7 +6285,7 @@
       "chapter": "CTX",
       "team1": "Joaquin",
       "score1": 42,
-      "team2": "Pineland West Sabine",
+      "team2": "West Sabine",
       "score2": 0,
       "winner": "Joaquin"
     },
@@ -7053,7 +7053,7 @@
       "chapter": "CSC",
       "team1": "Mart",
       "score1": 80,
-      "team2": "Saratoga West Hardin",
+      "team2": "West Hardin",
       "score2": 0,
       "winner": "Mart"
     },
@@ -8035,11 +8035,11 @@
       "week": 1,
       "round": "Area",
       "chapter": "ABI",
-      "team1": "Ladonia Fannindel",
+      "team1": "Fannindel",
       "score1": 66,
       "team2": "Gordon",
       "score2": 48,
-      "winner": "Ladonia Fannindel"
+      "winner": "Fannindel"
     },
     {
       "year": 2018,
@@ -8097,7 +8097,7 @@
       "chapter": "PVC",
       "team1": "Blanket",
       "score1": 75,
-      "team2": "Valera Panther Creeek",
+      "team2": "Valera Panther Creek",
       "score2": 30,
       "winner": "Blanket"
     },
@@ -8179,7 +8179,7 @@
       "week": 2,
       "round": "Regional",
       "chapter": "WAC",
-      "team1": "Ladonia Fannindel",
+      "team1": "Fannindel",
       "score1": 13,
       "team2": "Iredell",
       "score2": 58,

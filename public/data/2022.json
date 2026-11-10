@@ -1377,9 +1377,9 @@
       "chapter": "FTW",
       "team1": "Calvert",
       "score1": 30,
-      "team2": "Bluffdale",
+      "team2": "Bluff Dale",
       "score2": 80,
-      "winner": "Bluffdale"
+      "winner": "Bluff Dale"
     },
     {
       "year": 2022,
@@ -1509,9 +1509,9 @@
       "chapter": "FTW",
       "team1": "Morgan",
       "score1": 35,
-      "team2": "Bluffdale",
+      "team2": "Bluff Dale",
       "score2": 81,
-      "winner": "Bluffdale"
+      "winner": "Bluff Dale"
     },
     {
       "year": 2022,
@@ -1567,7 +1567,7 @@
       "week": 3,
       "round": "Quarterfinals",
       "chapter": "DAL",
-      "team1": "Bluffdale",
+      "team1": "Bluff Dale",
       "score1": 51,
       "team2": "Oakwood",
       "score2": 64,
@@ -1797,7 +1797,7 @@
       "chapter": "TYL",
       "team1": "Beckville",
       "score1": 77,
-      "team2": "Bogota Rivercrest",
+      "team2": "Bogata Rivercrest",
       "score2": 7,
       "winner": "Beckville"
     },
@@ -2575,11 +2575,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SFA",
-      "team1": "Carlisle",
+      "team1": "Price Carlisle",
       "score1": 74,
       "team2": "Evadale",
       "score2": 14,
-      "winner": "Carlisle"
+      "winner": "Price Carlisle"
     },
     {
       "year": 2022,
@@ -2659,11 +2659,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "AUS",
-      "team1": "Rock Springs",
+      "team1": "Rocksprings",
       "score1": 50,
       "team2": "Agua Dulce",
       "score2": 20,
-      "winner": "Rock Springs"
+      "winner": "Rocksprings"
     },
     {
       "year": 2022,
@@ -2839,11 +2839,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "SFA",
-      "team1": "Carlisle",
+      "team1": "Price Carlisle",
       "score1": 40,
       "team2": "Wortham",
       "score2": 36,
-      "winner": "Carlisle"
+      "winner": "Price Carlisle"
     },
     {
       "year": 2022,
@@ -2877,7 +2877,7 @@
       "chapter": "SAT",
       "team1": "Burton",
       "score1": 55,
-      "team2": "Rock Springs",
+      "team2": "Rocksprings",
       "score2": 0,
       "winner": "Burton"
     },
@@ -2971,7 +2971,7 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "CTX",
-      "team1": "Carlisle",
+      "team1": "Price Carlisle",
       "score1": 14,
       "team2": "Lovelady",
       "score2": 21,
@@ -3415,11 +3415,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "Industrial",
+      "team1": "Vanderbilt Industrial",
       "score1": 49,
       "team2": "Falfurrias",
       "score2": 13,
-      "winner": "Industrial"
+      "winner": "Vanderbilt Industrial"
     },
     {
       "year": 2022,
@@ -3633,9 +3633,9 @@
       "chapter": "SAT",
       "team1": "Jourdanton",
       "score1": 8,
-      "team2": "Industrial",
+      "team2": "Vanderbilt Industrial",
       "score2": 13,
-      "winner": "Industrial"
+      "winner": "Vanderbilt Industrial"
     },
     {
       "year": 2022,
@@ -3739,7 +3739,7 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "SAT",
-      "team1": "Industrial",
+      "team1": "Vanderbilt Industrial",
       "score1": 13,
       "team2": "Llano",
       "score2": 42,
@@ -4015,7 +4015,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": null,
-      "team1": "Cedar Hill Trinity Leadership",
+      "team1": "Trinity Leadership",
       "score1": 0,
       "team2": "Gunter",
       "score2": 2,
@@ -4077,9 +4077,9 @@
       "chapter": "AUS",
       "team1": "New Waverly",
       "score1": 20,
-      "team2": "Gilmer Harmony",
+      "team2": "Big Sandy Harmony",
       "score2": 25,
-      "winner": "Gilmer Harmony"
+      "winner": "Big Sandy Harmony"
     },
     {
       "year": 2022,
@@ -4341,9 +4341,9 @@
       "chapter": "DAL",
       "team1": "Hooks",
       "score1": 23,
-      "team2": "Gilmer Harmony",
+      "team2": "Big Sandy Harmony",
       "score2": 37,
-      "winner": "Gilmer Harmony"
+      "winner": "Big Sandy Harmony"
     },
     {
       "year": 2022,
@@ -4473,9 +4473,9 @@
       "chapter": "DAL",
       "team1": "West Rusk",
       "score1": 35,
-      "team2": "Gilmer Harmony",
+      "team2": "Big Sandy Harmony",
       "score2": 38,
-      "winner": "Gilmer Harmony"
+      "winner": "Big Sandy Harmony"
     },
     {
       "year": 2022,
@@ -4545,9 +4545,9 @@
       "chapter": "HOU",
       "team1": "Newton",
       "score1": 21,
-      "team2": "Gilmer Harmony",
+      "team2": "Big Sandy Harmony",
       "score2": 36,
-      "winner": "Gilmer Harmony"
+      "winner": "Big Sandy Harmony"
     },
     {
       "year": 2022,
@@ -4579,7 +4579,7 @@
       "week": 5,
       "round": "Semifinals",
       "chapter": "HOU",
-      "team1": "Gilmer Harmony",
+      "team1": "Big Sandy Harmony",
       "score1": 28,
       "team2": "Poth",
       "score2": 51,
@@ -4639,7 +4639,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SPC",
-      "team1": "Greenwood",
+      "team1": "Midland Greenwood",
       "score1": 7,
       "team2": "Godley",
       "score2": 26,
@@ -4737,9 +4737,9 @@
       "chapter": "TYL",
       "team1": "Van",
       "score1": 13,
-      "team2": "Pleasant Grove",
+      "team2": "Texarkana Pleasant Grove",
       "score2": 48,
-      "winner": "Pleasant Grove"
+      "winner": "Texarkana Pleasant Grove"
     },
     {
       "year": 2022,
@@ -4783,7 +4783,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "DAL",
-      "team1": "Ford",
+      "team1": "Quinlan Ford",
       "score1": 27,
       "team2": "Van Alstyne",
       "score2": 55,
@@ -4795,7 +4795,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Columbia",
+      "team1": "West Columbia",
       "score1": 10,
       "team2": "Silsbee",
       "score2": 34,
@@ -4855,7 +4855,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "Royal",
+      "team1": "Brookshire Royal",
       "score1": 10,
       "team2": "Hamshire-Fannett",
       "score2": 40,
@@ -5049,9 +5049,9 @@
       "chapter": "TYL",
       "team1": "Caddo Mills",
       "score1": 21,
-      "team2": "Pleasant Grove",
+      "team2": "Texarkana Pleasant Grove",
       "score2": 55,
-      "winner": "Pleasant Grove"
+      "winner": "Texarkana Pleasant Grove"
     },
     {
       "year": 2022,
@@ -5205,9 +5205,9 @@
       "chapter": "TYL",
       "team1": "Aubrey",
       "score1": 14,
-      "team2": "Pleasant Grove",
+      "team2": "Texarkana Pleasant Grove",
       "score2": 37,
-      "winner": "Pleasant Grove"
+      "winner": "Texarkana Pleasant Grove"
     },
     {
       "year": 2022,
@@ -5287,7 +5287,7 @@
       "week": 4,
       "round": "Quarterfinals",
       "chapter": "TYL",
-      "team1": "Pleasant Grove",
+      "team1": "Texarkana Pleasant Grove",
       "score1": 14,
       "team2": "Carthage",
       "score2": 45,
@@ -5383,7 +5383,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "PBC",
-      "team1": "Irvin",
+      "team1": "El Paso Irvin",
       "score1": 0,
       "team2": "Brownwood",
       "score2": 63,
@@ -5635,7 +5635,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "CSC",
-      "team1": "Mauriceville Little Cypress",
+      "team1": "Little Cypress-Mauriceville",
       "score1": 6,
       "team2": "Kilgore",
       "score2": 28,
@@ -5683,7 +5683,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "AUS",
-      "team1": "Tuloso-Midway",
+      "team1": "CC Tuloso-Midway",
       "score1": 20,
       "team2": "Pleasanton",
       "score2": 42,
@@ -6117,9 +6117,9 @@
       "chapter": "PBC",
       "team1": "Amarillo Palo Duro",
       "score1": 0,
-      "team2": "Canutillo",
+      "team2": "El Paso Canutillo",
       "score2": 28,
-      "winner": "Canutillo"
+      "winner": "El Paso Canutillo"
     },
     {
       "year": 2022,
@@ -6501,9 +6501,9 @@
       "chapter": "SPC",
       "team1": "Fort Worth Arlington Heights",
       "score1": 14,
-      "team2": "Canutillo",
+      "team2": "El Paso Canutillo",
       "score2": 21,
-      "winner": "Canutillo"
+      "winner": "El Paso Canutillo"
     },
     {
       "year": 2022,
@@ -6691,7 +6691,7 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "SPC",
-      "team1": "Canutillo",
+      "team1": "El Paso Canutillo",
       "score1": 18,
       "team2": "Abilene Wylie",
       "score2": 22,
@@ -6885,7 +6885,7 @@
       "chapter": "DAL",
       "team1": "Red Oak",
       "score1": 29,
-      "team2": "Ryan",
+      "team2": "Denton Ryan",
       "score2": 28,
       "winner": "Red Oak"
     },
@@ -6945,7 +6945,7 @@
       "chapter": "FTW",
       "team1": "Midlothian",
       "score1": 51,
-      "team2": "Northwest",
+      "team2": "Justin Northwest",
       "score2": 34,
       "winner": "Midlothian"
     },
@@ -7137,9 +7137,9 @@
       "chapter": "TYL",
       "team1": "Birdville",
       "score1": 21,
-      "team2": "Wakeland",
+      "team2": "Frisco Wakeland",
       "score2": 42,
-      "winner": "Wakeland"
+      "winner": "Frisco Wakeland"
     },
     {
       "year": 2022,
@@ -7185,7 +7185,7 @@
       "chapter": "SAT",
       "team1": "Port Arthur Memorial",
       "score1": 52,
-      "team2": "Wakeland",
+      "team2": "Frisco Wakeland",
       "score2": 20,
       "winner": "Port Arthur Memorial"
     },
@@ -7269,7 +7269,7 @@
       "chapter": "HOU",
       "team1": "College Station",
       "score1": 37,
-      "team2": "Wagner",
+      "team2": "San Antonio Wagner",
       "score2": 19,
       "winner": "College Station"
     },
@@ -7317,9 +7317,9 @@
       "chapter": "HOU",
       "team1": "Houston Waltrip",
       "score1": 3,
-      "team2": "Alvin Manvel",
+      "team2": "Manvel",
       "score2": 42,
-      "winner": "Alvin Manvel"
+      "winner": "Manvel"
     },
     {
       "year": 2022,
@@ -7365,7 +7365,7 @@
       "chapter": "CSC",
       "team1": "Comal Smithson Valley",
       "score1": 38,
-      "team2": "Alvin Manvel",
+      "team2": "Manvel",
       "score2": 28,
       "winner": "Comal Smithson Valley"
     },
@@ -7447,11 +7447,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "RGV",
-      "team1": "Vela",
+      "team1": "Edinburg Vela",
       "score1": 49,
       "team2": "Weslaco East",
       "score2": 3,
-      "winner": "Vela"
+      "winner": "Edinburg Vela"
     },
     {
       "year": 2022,
@@ -7485,7 +7485,7 @@
       "chapter": "RGV",
       "team1": "Brownsville Veterans Memorial",
       "score1": 45,
-      "team2": "Rowe",
+      "team2": "McAllen Rowe",
       "score2": 3,
       "winner": "Brownsville Veterans Memorial"
     },
@@ -7521,7 +7521,7 @@
       "chapter": "HOU",
       "team1": "Corpus Christi Veterans Memorial",
       "score1": 14,
-      "team2": "Vela",
+      "team2": "Edinburg Vela",
       "score2": 7,
       "winner": "Corpus Christi Veterans Memorial"
     },
@@ -7809,9 +7809,9 @@
       "chapter": "DAL",
       "team1": "Wylie East",
       "score1": 16,
-      "team2": "Rockwall Heath",
+      "team2": "Rockwall-Heath",
       "score2": 23,
-      "winner": "Rockwall Heath"
+      "winner": "Rockwall-Heath"
     },
     {
       "year": 2022,
@@ -7905,7 +7905,7 @@
       "chapter": "HOU",
       "team1": "DeSoto",
       "score1": 52,
-      "team2": "Rockwall Heath",
+      "team2": "Rockwall-Heath",
       "score2": 7,
       "winner": "DeSoto"
     },

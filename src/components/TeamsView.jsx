@@ -45,9 +45,9 @@ const NAME_FIXES = {
   'Rosebudd-Lott':          'Rosebud-Lott',
   'Waxahatchie':            'Waxahachie',
   'WF Hirshi':              'WF Hirschi',
-  'Wolfe City':             'Wolf City',
-  'Ridge Point':            'FB Ridge Point',
-  'Wyatt':                  'FW Wyatt',
+  'Wolf City':              'Wolfe City',
+  'Ridge Point':            'Fort Bend Ridge Point',
+  'Wyatt':                  'Fort Worth Wyatt',
   'Maude':                  'Maud',
   'Gold-Burg':              'Goldburg',
 }

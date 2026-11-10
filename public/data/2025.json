@@ -486,11 +486,11 @@
       "week": 1,
       "round": "Area",
       "chapter": "FTW",
-      "team1": "Bluffdale",
+      "team1": "Bluff Dale",
       "score1": 70,
       "team2": "Mount Calm",
       "score2": 30,
-      "winner": "Bluffdale"
+      "winner": "Bluff Dale"
     },
     {
       "year": 2025,
@@ -620,7 +620,7 @@
       "chapter": "PBC",
       "team1": "Strawn",
       "score1": 74,
-      "team2": "Bluffdale",
+      "team2": "Bluff Dale",
       "score2": 26,
       "winner": "Strawn"
     },
@@ -884,9 +884,9 @@
       "chapter": "DAL",
       "team1": "Valley Mills",
       "score1": 8,
-      "team2": "Carlisle",
+      "team2": "Price Carlisle",
       "score2": 24,
-      "winner": "Carlisle"
+      "winner": "Price Carlisle"
     },
     {
       "year": 2025,
@@ -932,7 +932,7 @@
       "chapter": "CTX",
       "team1": "De Leon",
       "score1": 30,
-      "team2": "Wolf City",
+      "team2": "Wolfe City",
       "score2": 28,
       "winner": "De Leon"
     },
@@ -1004,7 +1004,7 @@
       "chapter": "TYL",
       "team1": "Waskom",
       "score1": 41,
-      "team2": "Cooper Mineola",
+      "team2": "Mineola",
       "score2": 14,
       "winner": "Waskom"
     },
@@ -1196,9 +1196,9 @@
       "chapter": "SAT",
       "team1": "Alvord",
       "score1": 23,
-      "team2": "Carlisle",
+      "team2": "Price Carlisle",
       "score2": 41,
-      "winner": "Carlisle"
+      "winner": "Price Carlisle"
     },
     {
       "year": 2025,
@@ -1352,7 +1352,7 @@
       "chapter": "FTW",
       "team1": "Hamilton",
       "score1": 29,
-      "team2": "Carlisle",
+      "team2": "Price Carlisle",
       "score2": 7,
       "winner": "Hamilton"
     },
@@ -2504,7 +2504,7 @@
       "chapter": "TYL",
       "team1": "Franklin",
       "score1": 51,
-      "team2": "Halletsville",
+      "team2": "Hallettsville",
       "score2": 27,
       "winner": "Franklin"
     },
@@ -2538,11 +2538,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Westwood",
+      "team1": "Palestine Westwood",
       "score1": 49,
       "team2": "East Chambers",
       "score2": 42,
-      "winner": "Westwood"
+      "winner": "Palestine Westwood"
     },
     {
       "year": 2025,
@@ -2610,7 +2610,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "Jourdantown",
+      "team1": "Jourdanton",
       "score1": 22,
       "team2": "Marion",
       "score2": 28,
@@ -2780,7 +2780,7 @@
       "chapter": "HOU",
       "team1": "Columbus",
       "score1": 48,
-      "team2": "Westwood",
+      "team2": "Palestine Westwood",
       "score2": 26,
       "winner": "Columbus"
     },
@@ -3044,7 +3044,7 @@
       "chapter": "SPC",
       "team1": "Idalou",
       "score1": 49,
-      "team2": "Dimmit",
+      "team2": "Dimmitt",
       "score2": 7,
       "winner": "Idalou"
     },
@@ -3066,7 +3066,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "FTW",
-      "team1": "Compass Academy",
+      "team1": "Odessa Compass Academy",
       "score1": 18,
       "team2": "Merkel",
       "score2": 35,
@@ -3236,7 +3236,7 @@
       "chapter": "TYL",
       "team1": "Daingerfield",
       "score1": 48,
-      "team2": "Harmony",
+      "team2": "Big Sandy Harmony",
       "score2": 6,
       "winner": "Daingerfield"
     },
@@ -3906,11 +3906,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "WAC",
-      "team1": "Sulpher Springs",
+      "team1": "Sulphur Springs",
       "score1": 62,
       "team2": "Dallas Kimball",
       "score2": 9,
-      "winner": "Sulpher Springs"
+      "winner": "Sulphur Springs"
     },
     {
       "year": 2025,
@@ -3920,7 +3920,7 @@
       "chapter": "TYL",
       "team1": "Celina",
       "score1": 77,
-      "team2": "Pinkston",
+      "team2": "Dallas Pinkston",
       "score2": 0,
       "winner": "Celina"
     },
@@ -3932,9 +3932,9 @@
       "chapter": "FTW",
       "team1": "Kennedale",
       "score1": 17,
-      "team2": "FW Eastern Hills",
+      "team2": "Fort Worth Eastern Hills",
       "score2": 22,
-      "winner": "FW Eastern Hills"
+      "winner": "Fort Worth Eastern Hills"
     },
     {
       "year": 2025,
@@ -3968,7 +3968,7 @@
       "chapter": "HOU",
       "team1": "Kilgore",
       "score1": 61,
-      "team2": "Mauriceville Little Cypress",
+      "team2": "Little Cypress-Mauriceville",
       "score2": 14,
       "winner": "Kilgore"
     },
@@ -4014,11 +4014,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Yates",
+      "team1": "Houston Yates",
       "score1": 50,
       "team2": "Needville",
       "score2": 24,
-      "winner": "Yates"
+      "winner": "Houston Yates"
     },
     {
       "year": 2025,
@@ -4040,7 +4040,7 @@
       "chapter": "HOU",
       "team1": "Fort Bend Crawford",
       "score1": 50,
-      "team2": "Worthing",
+      "team2": "Houston Worthing",
       "score2": 7,
       "winner": "Fort Bend Crawford"
     },
@@ -4052,7 +4052,7 @@
       "chapter": "CSC",
       "team1": "Lindale",
       "score1": 49,
-      "team2": "Huffman Hargraves",
+      "team2": "Huffman-Hargrave",
       "score2": 42,
       "winner": "Lindale"
     },
@@ -4086,11 +4086,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "Davenport",
+      "team1": "San Antonio Davenport",
       "score1": 62,
       "team2": "Eastside Early College",
       "score2": 0,
-      "winner": "Davenport"
+      "winner": "San Antonio Davenport"
     },
     {
       "year": 2025,
@@ -4100,9 +4100,9 @@
       "chapter": "STX",
       "team1": "Zapata",
       "score1": 14,
-      "team2": "Calhoun",
+      "team2": "Port Lavaca Calhoun",
       "score2": 54,
-      "winner": "Calhoun"
+      "winner": "Port Lavaca Calhoun"
     },
     {
       "year": 2025,
@@ -4134,11 +4134,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "CC Calallen",
+      "team1": "Corpus Christi Calallen",
       "score1": 27,
       "team2": "El Campo",
       "score2": 14,
-      "winner": "CC Calallen"
+      "winner": "Corpus Christi Calallen"
     },
     {
       "year": 2025,
@@ -4220,7 +4220,7 @@
       "chapter": "HOU",
       "team1": "Alvarado",
       "score1": 51,
-      "team2": "Sulpher Springs",
+      "team2": "Sulphur Springs",
       "score2": 43,
       "winner": "Alvarado"
     },
@@ -4232,7 +4232,7 @@
       "chapter": "TYL",
       "team1": "Celina",
       "score1": 70,
-      "team2": "FW Eastern Hills",
+      "team2": "Fort Worth Eastern Hills",
       "score2": 22,
       "winner": "Celina"
     },
@@ -4278,7 +4278,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "FTW",
-      "team1": "Yates",
+      "team1": "Houston Yates",
       "score1": 28,
       "team2": "Longview Pine Tree",
       "score2": 35,
@@ -4314,11 +4314,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Davenport",
+      "team1": "San Antonio Davenport",
       "score1": 38,
-      "team2": "Calhoun",
+      "team2": "Port Lavaca Calhoun",
       "score2": 28,
-      "winner": "Davenport"
+      "winner": "San Antonio Davenport"
     },
     {
       "year": 2025,
@@ -4338,11 +4338,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "CC Calallen",
+      "team1": "Corpus Christi Calallen",
       "score1": 42,
       "team2": "Canyon Lake",
       "score2": 14,
-      "winner": "CC Calallen"
+      "winner": "Corpus Christi Calallen"
     },
     {
       "year": 2025,
@@ -4424,9 +4424,9 @@
       "chapter": "HOU",
       "team1": "Bay City",
       "score1": 19,
-      "team2": "Davenport",
+      "team2": "San Antonio Davenport",
       "score2": 34,
-      "winner": "Davenport"
+      "winner": "San Antonio Davenport"
     },
     {
       "year": 2025,
@@ -4436,7 +4436,7 @@
       "chapter": "HOU",
       "team1": "La Vernia",
       "score1": 31,
-      "team2": "CC Calallen",
+      "team2": "Corpus Christi Calallen",
       "score2": 13,
       "winner": "La Vernia"
     },
@@ -4482,7 +4482,7 @@
       "week": 4,
       "round": "Quarterfinals",
       "chapter": "SAT",
-      "team1": "Davenport",
+      "team1": "San Antonio Davenport",
       "score1": 27,
       "team2": "La Vernia",
       "score2": 38,
@@ -4580,7 +4580,7 @@
       "chapter": "FTW",
       "team1": "Brock",
       "score1": 49,
-      "team2": "FW Dunbar",
+      "team2": "Fort Worth Dunbar",
       "score2": 0,
       "winner": "Brock"
     },
@@ -4674,11 +4674,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "TYL",
-      "team1": "Pleasant Grove",
+      "team1": "Texarkana Pleasant Grove",
       "score1": 56,
       "team2": "Brownsboro",
       "score2": 13,
-      "winner": "Pleasant Grove"
+      "winner": "Texarkana Pleasant Grove"
     },
     {
       "year": 2025,
@@ -4746,11 +4746,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Columbia",
+      "team1": "West Columbia",
       "score1": 35,
       "team2": "Shepherd",
       "score2": 24,
-      "winner": "Columbia"
+      "winner": "West Columbia"
     },
     {
       "year": 2025,
@@ -4868,7 +4868,7 @@
       "chapter": "SAT",
       "team1": "Sinton",
       "score1": 71,
-      "team2": "Grulla",
+      "team2": "Rio Grande City Grulla",
       "score2": 7,
       "winner": "Sinton"
     },
@@ -4986,11 +4986,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "TYL",
-      "team1": "Pleasant Grove",
+      "team1": "Texarkana Pleasant Grove",
       "score1": 48,
       "team2": "Canton",
       "score2": 7,
-      "winner": "Pleasant Grove"
+      "winner": "Texarkana Pleasant Grove"
     },
     {
       "year": 2025,
@@ -5022,7 +5022,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "AUS",
-      "team1": "Columbia",
+      "team1": "West Columbia",
       "score1": 7,
       "team2": "Sealy",
       "score2": 54,
@@ -5142,7 +5142,7 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "CSC",
-      "team1": "Pleasant Grove",
+      "team1": "Texarkana Pleasant Grove",
       "score1": 20,
       "team2": "Carthage",
       "score2": 34,
@@ -5298,7 +5298,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "NTX",
-      "team1": "FW Wyatt",
+      "team1": "Fort Worth Wyatt",
       "score1": 43,
       "team2": "Richland",
       "score2": 77,
@@ -5312,7 +5312,7 @@
       "chapter": "ABI",
       "team1": "Abilene High",
       "score1": 84,
-      "team2": "El Paso Bel Aire",
+      "team2": "El Paso Bel Air",
       "score2": 25,
       "winner": "Abilene High"
     },
@@ -5358,11 +5358,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "FTW",
-      "team1": "FW Arlington Heights",
+      "team1": "Fort Worth Arlington Heights",
       "score1": 36,
-      "team2": "FW Brewer",
+      "team2": "Fort Worth Brewer",
       "score2": 23,
-      "winner": "FW Arlington Heights"
+      "winner": "Fort Worth Arlington Heights"
     },
     {
       "year": 2025,
@@ -5430,11 +5430,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "WAC",
-      "team1": "Highland Park",
+      "team1": "Dallas Highland Park",
       "score1": 56,
       "team2": "Lake Belton",
       "score2": 13,
-      "winner": "Highland Park"
+      "winner": "Dallas Highland Park"
     },
     {
       "year": 2025,
@@ -5574,11 +5574,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "Smithson Valley",
+      "team1": "Comal Smithson Valley",
       "score1": 49,
       "team2": "San Antonio Southside",
       "score2": 0,
-      "winner": "Smithson Valley"
+      "winner": "Comal Smithson Valley"
     },
     {
       "year": 2025,
@@ -5588,9 +5588,9 @@
       "chapter": "DAL",
       "team1": "Edinburg Vela",
       "score1": 26,
-      "team2": "CC Veterans Memorial",
+      "team2": "Corpus Christi Veterans Memorial",
       "score2": 31,
-      "winner": "CC Veterans Memorial"
+      "winner": "Corpus Christi Veterans Memorial"
     },
     {
       "year": 2025,
@@ -5610,11 +5610,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "CC Flour Bluff",
+      "team1": "Corpus Christi Flour Bluff",
       "score1": 45,
       "team2": "McAllen",
       "score2": 7,
-      "winner": "CC Flour Bluff"
+      "winner": "Corpus Christi Flour Bluff"
     },
     {
       "year": 2025,
@@ -5622,11 +5622,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "RGV",
-      "team1": "PSJA North",
+      "team1": "Pharr-San Juan-Alamo North",
       "score1": 65,
       "team2": "Mission",
       "score2": 14,
-      "winner": "PSJA North"
+      "winner": "Pharr-San Juan-Alamo North"
     },
     {
       "year": 2025,
@@ -5660,7 +5660,7 @@
       "chapter": "HOU",
       "team1": "New Braunfels",
       "score1": 49,
-      "team2": "Nixon",
+      "team2": "Laredo Nixon",
       "score2": 14,
       "winner": "New Braunfels"
     },
@@ -5706,11 +5706,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "SAN",
-      "team1": "FW Arlington Heights",
+      "team1": "Fort Worth Arlington Heights",
       "score1": 56,
       "team2": "Lubbock Monterey",
       "score2": 41,
-      "winner": "FW Arlington Heights"
+      "winner": "Fort Worth Arlington Heights"
     },
     {
       "year": 2025,
@@ -5742,11 +5742,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "DAL",
-      "team1": "Highland Park",
+      "team1": "Dallas Highland Park",
       "score1": 45,
       "team2": "Frisco Reedy",
       "score2": 10,
-      "winner": "Highland Park"
+      "winner": "Dallas Highland Park"
     },
     {
       "year": 2025,
@@ -5814,11 +5814,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Smithson Valley",
+      "team1": "Comal Smithson Valley",
       "score1": 34,
-      "team2": "CC Veterans Memorial",
+      "team2": "Corpus Christi Veterans Memorial",
       "score2": 0,
-      "winner": "Smithson Valley"
+      "winner": "Comal Smithson Valley"
     },
     {
       "year": 2025,
@@ -5828,7 +5828,7 @@
       "chapter": "HOU",
       "team1": "San Antonio Pieper",
       "score1": 42,
-      "team2": "CC Flour Bluff",
+      "team2": "Corpus Christi Flour Bluff",
       "score2": 35,
       "winner": "San Antonio Pieper"
     },
@@ -5838,7 +5838,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "PSJA North",
+      "team1": "Pharr-San Juan-Alamo North",
       "score1": 21,
       "team2": "Boerne Champion",
       "score2": 24,
@@ -5876,7 +5876,7 @@
       "chapter": "FTW",
       "team1": "Aledo",
       "score1": 55,
-      "team2": "FW Arlington Heights",
+      "team2": "Fort Worth Arlington Heights",
       "score2": 0,
       "winner": "Aledo"
     },
@@ -5898,11 +5898,11 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "DAL",
-      "team1": "Highland Park",
+      "team1": "Dallas Highland Park",
       "score1": 47,
       "team2": "Frisco Wakeland",
       "score2": 20,
-      "winner": "Highland Park"
+      "winner": "Dallas Highland Park"
     },
     {
       "year": 2025,
@@ -5934,11 +5934,11 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "AUS",
-      "team1": "Smithson Valley",
+      "team1": "Comal Smithson Valley",
       "score1": 30,
       "team2": "San Antonio Pieper",
       "score2": 14,
-      "winner": "Smithson Valley"
+      "winner": "Comal Smithson Valley"
     },
     {
       "year": 2025,
@@ -5972,7 +5972,7 @@
       "chapter": "FTW",
       "team1": "Frisco Lone Star",
       "score1": 58,
-      "team2": "Highland Park",
+      "team2": "Dallas Highland Park",
       "score2": 38,
       "winner": "Frisco Lone Star"
     },
@@ -5994,11 +5994,11 @@
       "week": 4,
       "round": "Quarterfinals",
       "chapter": "SAT",
-      "team1": "Smithson Valley",
+      "team1": "Comal Smithson Valley",
       "score1": 24,
       "team2": "New Braunfels",
       "score2": 0,
-      "winner": "Smithson Valley"
+      "winner": "Comal Smithson Valley"
     },
     {
       "year": 2025,
@@ -6020,9 +6020,9 @@
       "chapter": "DAL",
       "team1": "Port Arthur",
       "score1": 28,
-      "team2": "Smithson Valley",
+      "team2": "Comal Smithson Valley",
       "score2": 31,
-      "winner": "Smithson Valley"
+      "winner": "Comal Smithson Valley"
     },
     {
       "year": 2025,
@@ -6032,9 +6032,9 @@
       "chapter": "HOU",
       "team1": "Frisco Lone Star",
       "score1": 6,
-      "team2": "Smithson Valley",
+      "team2": "Comal Smithson Valley",
       "score2": 28,
-      "winner": "Smithson Valley"
+      "winner": "Comal Smithson Valley"
     },
     {
       "year": 2025,
@@ -6116,7 +6116,7 @@
       "chapter": "DAL",
       "team1": "Prosper Walnut Grove",
       "score1": 35,
-      "team2": "Arlington Seguin",
+      "team2": "Seguin",
       "score2": 21,
       "winner": "Prosper Walnut Grove"
     },
@@ -6126,7 +6126,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "PBC",
-      "team1": "El Paso De Valle",
+      "team1": "El Paso Del Valle",
       "score1": 42,
       "team2": "Lubbock Cooper",
       "score2": 45,
@@ -6210,11 +6210,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Port Neches-Grove",
+      "team1": "Port Neches-Groves",
       "score1": 48,
       "team2": "Nacogdoches",
       "score2": 7,
-      "winner": "Port Neches-Grove"
+      "winner": "Port Neches-Groves"
     },
     {
       "year": 2025,
@@ -6284,7 +6284,7 @@
       "chapter": "AUS",
       "team1": "Liberty Hill",
       "score1": 62,
-      "team2": "SA Lanier",
+      "team2": "San Antonio Lanier",
       "score2": 0,
       "winner": "Liberty Hill"
     },
@@ -6306,7 +6306,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "Sam Houston",
+      "team1": "San Antonio Sam Houston",
       "score1": 35,
       "team2": "Pflugerville",
       "score2": 64,
@@ -6332,7 +6332,7 @@
       "chapter": "AUS",
       "team1": "Boerne",
       "score1": 42,
-      "team2": "CC Ray",
+      "team2": "Corpus Christi Ray",
       "score2": 13,
       "winner": "Boerne"
     },
@@ -6390,7 +6390,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "CC Miller",
+      "team1": "Corpus Christi Miller",
       "score1": 23,
       "team2": "Victoria West",
       "score2": 61,
@@ -6414,11 +6414,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "SA Alamo Heights",
+      "team1": "San Antonio Alamo Heights",
       "score1": 60,
-      "team2": "CC Carroll",
+      "team2": "Corpus Christi Carroll",
       "score2": 0,
-      "winner": "SA Alamo Heights"
+      "winner": "San Antonio Alamo Heights"
     },
     {
       "year": 2025,
@@ -6510,11 +6510,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "FTW",
-      "team1": "Port Neches-Grove",
+      "team1": "Port Neches-Groves",
       "score1": 63,
       "team2": "Ennis",
       "score2": 29,
-      "winner": "Port Neches-Grove"
+      "winner": "Port Neches-Groves"
     },
     {
       "year": 2025,
@@ -6608,9 +6608,9 @@
       "chapter": "HOU",
       "team1": "Mercedes",
       "score1": 21,
-      "team2": "SA Alamo Heights",
+      "team2": "San Antonio Alamo Heights",
       "score2": 63,
-      "winner": "SA Alamo Heights"
+      "winner": "San Antonio Alamo Heights"
     },
     {
       "year": 2025,
@@ -6656,9 +6656,9 @@
       "chapter": "FTW",
       "team1": "Midlothian Heritage",
       "score1": 14,
-      "team2": "Port Neches-Grove",
+      "team2": "Port Neches-Groves",
       "score2": 17,
-      "winner": "Port Neches-Grove"
+      "winner": "Port Neches-Groves"
     },
     {
       "year": 2025,
@@ -6704,9 +6704,9 @@
       "chapter": "AUS",
       "team1": "Victoria West",
       "score1": 18,
-      "team2": "SA Alamo Heights",
+      "team2": "San Antonio Alamo Heights",
       "score2": 41,
-      "winner": "SA Alamo Heights"
+      "winner": "San Antonio Alamo Heights"
     },
     {
       "year": 2025,
@@ -6728,7 +6728,7 @@
       "chapter": "FTW",
       "team1": "South Oak Cliff",
       "score1": 28,
-      "team2": "Port Neches-Grove",
+      "team2": "Port Neches-Groves",
       "score2": 0,
       "winner": "South Oak Cliff"
     },
@@ -6752,7 +6752,7 @@
       "chapter": "SAT",
       "team1": "Boerne",
       "score1": 56,
-      "team2": "SA Alamo Heights",
+      "team2": "San Antonio Alamo Heights",
       "score2": 49,
       "winner": "Boerne"
     },
@@ -6798,7 +6798,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "El Paso Frankin",
+      "team1": "El Paso Franklin",
       "score1": 42,
       "team2": "Midland Legacy",
       "score2": 62,
@@ -6848,7 +6848,7 @@
       "chapter": "AUS",
       "team1": "Odessa Permian",
       "score1": 59,
-      "team2": "Eastlake",
+      "team2": "El Paso Eastlake",
       "score2": 7,
       "winner": "Odessa Permian"
     },
@@ -6930,11 +6930,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Klein Collins",
+      "team1": "Spring Klein Collins",
       "score1": 37,
-      "team2": "Bridgeland",
+      "team2": "Cypress Bridgeland",
       "score2": 27,
-      "winner": "Klein Collins"
+      "winner": "Spring Klein Collins"
     },
     {
       "year": 2025,
@@ -6956,9 +6956,9 @@
       "chapter": "HOU",
       "team1": "Waco Midway",
       "score1": 16,
-      "team2": "Waxahatchie",
+      "team2": "Waxahachie",
       "score2": 48,
-      "winner": "Waxahatchie"
+      "winner": "Waxahachie"
     },
     {
       "year": 2025,
@@ -7002,11 +7002,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Cinco Ranch",
+      "team1": "Katy Cinco Ranch",
       "score1": 47,
-      "team2": "Fulshear",
+      "team2": "Lamar Fulshear",
       "score2": 21,
-      "winner": "Cinco Ranch"
+      "winner": "Katy Cinco Ranch"
     },
     {
       "year": 2025,
@@ -7014,11 +7014,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Ridge Point",
+      "team1": "Fort Bend Ridge Point",
       "score1": 21,
       "team2": "Pearland Dawson",
       "score2": 16,
-      "winner": "Ridge Point"
+      "winner": "Fort Bend Ridge Point"
     },
     {
       "year": 2025,
@@ -7038,11 +7038,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Lamar",
+      "team1": "Houston Lamar",
       "score1": 35,
       "team2": "Cy-Fair",
       "score2": 24,
-      "winner": "Lamar"
+      "winner": "Houston Lamar"
     },
     {
       "year": 2025,
@@ -7050,11 +7050,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Strake Jesuit",
+      "team1": "Houston Strake Jesuit",
       "score1": 36,
       "team2": "Katy Paetow",
       "score2": 21,
-      "winner": "Strake Jesuit"
+      "winner": "Houston Strake Jesuit"
     },
     {
       "year": 2025,
@@ -7076,7 +7076,7 @@
       "chapter": "HOU",
       "team1": "Dickinson",
       "score1": 51,
-      "team2": "Atascocita",
+      "team2": "Humble Atascocita",
       "score2": 47,
       "winner": "Dickinson"
     },
@@ -7134,11 +7134,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "AUS",
-      "team1": "Lake Travis",
+      "team1": "Austin Lake Travis",
       "score1": 41,
       "team2": "Round Rock Westwood",
       "score2": 14,
-      "winner": "Lake Travis"
+      "winner": "Austin Lake Travis"
     },
     {
       "year": 2025,
@@ -7244,9 +7244,9 @@
       "chapter": "HOU",
       "team1": "The Woodlands",
       "score1": 27,
-      "team2": "Klein Collins",
+      "team2": "Spring Klein Collins",
       "score2": 42,
-      "winner": "Klein Collins"
+      "winner": "Spring Klein Collins"
     },
     {
       "year": 2025,
@@ -7256,9 +7256,9 @@
       "chapter": "DAL",
       "team1": "North Forney",
       "score1": 20,
-      "team2": "Waxahatchie",
+      "team2": "Waxahachie",
       "score2": 37,
-      "winner": "Waxahatchie"
+      "winner": "Waxahachie"
     },
     {
       "year": 2025,
@@ -7280,7 +7280,7 @@
       "chapter": "HOU",
       "team1": "Cy Falls",
       "score1": 46,
-      "team2": "Cinco Ranch",
+      "team2": "Katy Cinco Ranch",
       "score2": 25,
       "winner": "Cy Falls"
     },
@@ -7290,7 +7290,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Ridge Point",
+      "team1": "Fort Bend Ridge Point",
       "score1": 7,
       "team2": "Galena Park North Shore",
       "score2": 41,
@@ -7302,11 +7302,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Lamar",
+      "team1": "Houston Lamar",
       "score1": 35,
-      "team2": "Strake Jesuit",
+      "team2": "Houston Strake Jesuit",
       "score2": 50,
-      "winner": "Strake Jesuit"
+      "winner": "Houston Strake Jesuit"
     },
     {
       "year": 2025,
@@ -7350,11 +7350,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Lake Travis",
+      "team1": "Austin Lake Travis",
       "score1": 13,
       "team2": "San Antonio Brennan",
       "score2": 7,
-      "winner": "Lake Travis"
+      "winner": "Austin Lake Travis"
     },
     {
       "year": 2025,
@@ -7400,7 +7400,7 @@
       "chapter": "HOU",
       "team1": "Duncanville",
       "score1": 34,
-      "team2": "Klein Collins",
+      "team2": "Spring Klein Collins",
       "score2": 7,
       "winner": "Duncanville"
     },
@@ -7410,11 +7410,11 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "SAT",
-      "team1": "Waxahatchie",
+      "team1": "Waxahachie",
       "score1": 38,
       "team2": "Cy Ranch",
       "score2": 31,
-      "winner": "Waxahatchie"
+      "winner": "Waxahachie"
     },
     {
       "year": 2025,
@@ -7434,7 +7434,7 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "HOU",
-      "team1": "Strake Jesuit",
+      "team1": "Houston Strake Jesuit",
       "score1": 8,
       "team2": "Dickinson",
       "score2": 52,
@@ -7458,11 +7458,11 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "HOU",
-      "team1": "Lake Travis",
+      "team1": "Austin Lake Travis",
       "score1": 41,
       "team2": "Laredo United",
       "score2": 7,
-      "winner": "Lake Travis"
+      "winner": "Austin Lake Travis"
     },
     {
       "year": 2025,
@@ -7484,7 +7484,7 @@
       "chapter": "HOU",
       "team1": "Duncanville",
       "score1": 35,
-      "team2": "Waxahatchie",
+      "team2": "Waxahachie",
       "score2": 27,
       "winner": "Duncanville"
     },
@@ -7508,9 +7508,9 @@
       "chapter": "HOU",
       "team1": "San Antonio Johnson",
       "score1": 19,
-      "team2": "Lake Travis",
+      "team2": "Austin Lake Travis",
       "score2": 27,
-      "winner": "Lake Travis"
+      "winner": "Austin Lake Travis"
     },
     {
       "year": 2025,
@@ -7532,7 +7532,7 @@
       "chapter": "FTW",
       "team1": "Galena Park North Shore",
       "score1": 28,
-      "team2": "Lake Travis",
+      "team2": "Austin Lake Travis",
       "score2": 6,
       "winner": "Galena Park North Shore"
     },
@@ -7556,7 +7556,7 @@
       "chapter": "AUS",
       "team1": "El Paso Eastwood",
       "score1": 45,
-      "team2": "Wolfforth Frenship",
+      "team2": "Frenship",
       "score2": 30,
       "winner": "El Paso Eastwood"
     },
@@ -7604,7 +7604,7 @@
       "chapter": "SAT",
       "team1": "San Angelo Central",
       "score1": 24,
-      "team2": "Pebble Hills",
+      "team2": "El Paso Pebble Hills",
       "score2": 14,
       "winner": "San Angelo Central"
     },
@@ -7628,7 +7628,7 @@
       "chapter": "DAL",
       "team1": "Prosper",
       "score1": 66,
-      "team2": "Hebron",
+      "team2": "Lewisville Hebron",
       "score2": 39,
       "winner": "Prosper"
     },
@@ -7700,7 +7700,7 @@
       "chapter": "DAL",
       "team1": "Forney",
       "score1": 56,
-      "team2": "Naaman Forest",
+      "team2": "Garland Naaman Forest",
       "score2": 27,
       "winner": "Forney"
     },
@@ -7760,7 +7760,7 @@
       "chapter": "HOU",
       "team1": "Katy",
       "score1": 42,
-      "team2": "Richmond George Ranch",
+      "team2": "George Ranch",
       "score2": 7,
       "winner": "Katy"
     },
@@ -7878,11 +7878,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "RGV",
-      "team1": "Edinbug",
+      "team1": "Edinburg",
       "score1": 24,
       "team2": "Brownsville Veterans Memorial",
       "score2": 13,
-      "winner": "Edinbug"
+      "winner": "Edinburg"
     },
     {
       "year": 2025,
@@ -8096,7 +8096,7 @@
       "chapter": "RGV",
       "team1": "San Marcos",
       "score1": 33,
-      "team2": "Edinbug",
+      "team2": "Edinburg",
       "score2": 3,
       "winner": "San Marcos"
     },

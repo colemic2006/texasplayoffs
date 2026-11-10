@@ -32,7 +32,7 @@
       "chapter": "FTW",
       "team1": "Allen",
       "score1": 59,
-      "team2": "Hebron",
+      "team2": "Lewisville Hebron",
       "score2": 30,
       "winner": "Allen"
     },
@@ -42,11 +42,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "WAC",
-      "team1": "Lake Highlands",
+      "team1": "Dallas Lake Highlands",
       "score1": 29,
       "team2": "South Grand Prairie",
       "score2": 24,
-      "winner": "Lake Highlands"
+      "winner": "Dallas Lake Highlands"
     },
     {
       "year": 2021,
@@ -102,7 +102,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "DAL",
-      "team1": "Garland Sachse",
+      "team1": "Sachse",
       "score1": 19,
       "team2": "Mesquite",
       "score2": 42,
@@ -138,11 +138,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Klein Cain",
+      "team1": "Houston Klein Cain",
       "score1": 52,
       "team2": "Cypress Woods",
       "score2": 20,
-      "winner": "Klein Cain"
+      "winner": "Houston Klein Cain"
     },
     {
       "year": 2021,
@@ -198,11 +198,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Jersey Village",
+      "team1": "Houston Jersey Village",
       "score1": 56,
       "team2": "Houston Westside",
       "score2": 23,
-      "winner": "Jersey Village"
+      "winner": "Houston Jersey Village"
     },
     {
       "year": 2021,
@@ -284,7 +284,7 @@
       "chapter": "HOU",
       "team1": "Dickinson",
       "score1": 49,
-      "team2": "Alief Taylor",
+      "team2": "Houston Alief Taylor",
       "score2": 20,
       "winner": "Dickinson"
     },
@@ -306,11 +306,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "Smithson Valley",
+      "team1": "Comal Smithson Valley",
       "score1": 35,
       "team2": "San Antonio Madison",
       "score2": 25,
-      "winner": "Smithson Valley"
+      "winner": "Comal Smithson Valley"
     },
     {
       "year": 2021,
@@ -342,11 +342,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "AUS",
-      "team1": "Lake Travis",
+      "team1": "Austin Lake Travis",
       "score1": 48,
       "team2": "Round Rock Cedar Ridge",
       "score2": 7,
-      "winner": "Lake Travis"
+      "winner": "Austin Lake Travis"
     },
     {
       "year": 2021,
@@ -404,7 +404,7 @@
       "chapter": "DAL",
       "team1": "Allen",
       "score1": 49,
-      "team2": "Lake Highlands",
+      "team2": "Dallas Lake Highlands",
       "score2": 24,
       "winner": "Allen"
     },
@@ -452,7 +452,7 @@
       "chapter": "HOU",
       "team1": "Spring",
       "score1": 56,
-      "team2": "Klein Cain",
+      "team2": "Houston Klein Cain",
       "score2": 53,
       "winner": "Spring"
     },
@@ -486,7 +486,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Jersey Village",
+      "team1": "Houston Jersey Village",
       "score1": 14,
       "team2": "Katy Tompkins",
       "score2": 42,
@@ -536,7 +536,7 @@
       "chapter": "HOU",
       "team1": "Austin Bowie",
       "score1": 28,
-      "team2": "Smithson Valley",
+      "team2": "Comal Smithson Valley",
       "score2": 21,
       "winner": "Austin Bowie"
     },
@@ -558,11 +558,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "SAT",
-      "team1": "Lake Travis",
+      "team1": "Austin Lake Travis",
       "score1": 56,
       "team2": "San Antonio East Central",
       "score2": 14,
-      "winner": "Lake Travis"
+      "winner": "Austin Lake Travis"
     },
     {
       "year": 2021,
@@ -666,11 +666,11 @@
       "week": 3,
       "round": "Regional",
       "chapter": "DAL",
-      "team1": "Lake Travis",
+      "team1": "Austin Lake Travis",
       "score1": 35,
       "team2": "Laredo United South",
       "score2": 19,
-      "winner": "Lake Travis"
+      "winner": "Austin Lake Travis"
     },
     {
       "year": 2021,
@@ -716,9 +716,9 @@
       "chapter": "HOU",
       "team1": "San Antonio Brennan",
       "score1": 17,
-      "team2": "Lake Travis",
+      "team2": "Austin Lake Travis",
       "score2": 42,
-      "winner": "Lake Travis"
+      "winner": "Austin Lake Travis"
     },
     {
       "year": 2021,
@@ -740,7 +740,7 @@
       "chapter": "HOU",
       "team1": "Galena Park North Shore",
       "score1": 49,
-      "team2": "Lake Travis",
+      "team2": "Austin Lake Travis",
       "score2": 21,
       "winner": "Galena Park North Shore"
     },
@@ -894,7 +894,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Klein Collins",
+      "team1": "Spring Klein Collins",
       "score1": 33,
       "team2": "Cypress Bridgeland",
       "score2": 34,
@@ -906,11 +906,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "DAL",
-      "team1": "Rockwall Heath",
+      "team1": "Rockwall-Heath",
       "score1": 35,
       "team2": "Garland Naaman Forest",
       "score2": 6,
-      "winner": "Rockwall Heath"
+      "winner": "Rockwall-Heath"
     },
     {
       "year": 2021,
@@ -992,7 +992,7 @@
       "chapter": "HOU",
       "team1": "Alvin Shadow Creek",
       "score1": 45,
-      "team2": "Clear Creek",
+      "team2": "League City Clear Creek",
       "score2": 38,
       "winner": "Alvin Shadow Creek"
     },
@@ -1136,9 +1136,9 @@
       "chapter": "RGV",
       "team1": "Harlingen South",
       "score1": 26,
-      "team2": "PSJA North",
+      "team2": "Pharr-San Juan-Alamo North",
       "score2": 56,
-      "winner": "PSJA North"
+      "winner": "Pharr-San Juan-Alamo North"
     },
     {
       "year": 2021,
@@ -1218,11 +1218,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Rockwall Heath",
+      "team1": "Rockwall-Heath",
       "score1": 45,
       "team2": "Temple",
       "score2": 33,
-      "winner": "Rockwall Heath"
+      "winner": "Rockwall-Heath"
     },
     {
       "year": 2021,
@@ -1328,9 +1328,9 @@
       "chapter": "DAL",
       "team1": "Eagle Pass",
       "score1": 28,
-      "team2": "PSJA North",
+      "team2": "Pharr-San Juan-Alamo North",
       "score2": 56,
-      "winner": "PSJA North"
+      "winner": "Pharr-San Juan-Alamo North"
     },
     {
       "year": 2021,
@@ -1374,7 +1374,7 @@
       "week": 3,
       "round": "Regional",
       "chapter": "HOU",
-      "team1": "Rockwall Heath",
+      "team1": "Rockwall-Heath",
       "score1": 21,
       "team2": "Tomball",
       "score2": 35,
@@ -1424,7 +1424,7 @@
       "chapter": "CSC",
       "team1": "Austin Westlake",
       "score1": 56,
-      "team2": "PSJA North",
+      "team2": "Pharr-San Juan-Alamo North",
       "score2": 0,
       "winner": "Austin Westlake"
     },
@@ -1628,7 +1628,7 @@
       "chapter": "SAT",
       "team1": "Magnolia West",
       "score1": 56,
-      "team2": "Tyler",
+      "team2": "Tyler John Tyler",
       "score2": 14,
       "winner": "Magnolia West"
     },
@@ -1662,11 +1662,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "ETX",
-      "team1": "Highland Park",
+      "team1": "Dallas Highland Park",
       "score1": 45,
       "team2": "New Caney",
       "score2": 13,
-      "winner": "Highland Park"
+      "winner": "Dallas Highland Park"
     },
     {
       "year": 2021,
@@ -1820,9 +1820,9 @@
       "chapter": "HOU",
       "team1": "McAllen Rowe",
       "score1": 14,
-      "team2": "Flour Bluff",
+      "team2": "Corpus Christi Flour Bluff",
       "score2": 28,
-      "winner": "Flour Bluff"
+      "winner": "Corpus Christi Flour Bluff"
     },
     {
       "year": 2021,
@@ -1974,7 +1974,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "DAL",
-      "team1": "Highland Park",
+      "team1": "Dallas Highland Park",
       "score1": 28,
       "team2": "Frisco Wakeland",
       "score2": 29,
@@ -2048,9 +2048,9 @@
       "chapter": "HOU",
       "team1": "Eagle Pass Winn",
       "score1": 7,
-      "team2": "Flour Bluff",
+      "team2": "Corpus Christi Flour Bluff",
       "score2": 47,
-      "winner": "Flour Bluff"
+      "winner": "Corpus Christi Flour Bluff"
     },
     {
       "year": 2021,
@@ -2166,11 +2166,11 @@
       "week": 3,
       "round": "Regional",
       "chapter": "HOU",
-      "team1": "Flour Bluff",
+      "team1": "Corpus Christi Flour Bluff",
       "score1": 47,
       "team2": "Gregory-Portland",
       "score2": 44,
-      "winner": "Flour Bluff"
+      "winner": "Corpus Christi Flour Bluff"
     },
     {
       "year": 2021,
@@ -2226,11 +2226,11 @@
       "week": 4,
       "round": "Quarterfinal",
       "chapter": "HOU",
-      "team1": "Flour Bluff",
+      "team1": "Corpus Christi Flour Bluff",
       "score1": 13,
       "team2": "Corpus Christi Veterans Memorial",
       "score2": 7,
-      "winner": "Flour Bluff"
+      "winner": "Corpus Christi Flour Bluff"
     },
     {
       "year": 2021,
@@ -2252,7 +2252,7 @@
       "chapter": "SAT",
       "team1": "Katy Paetow",
       "score1": 73,
-      "team2": "Flour Bluff",
+      "team2": "Corpus Christi Flour Bluff",
       "score2": 14,
       "winner": "Katy Paetow"
     },
@@ -2274,11 +2274,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "ELP",
-      "team1": "Canutillo",
+      "team1": "El Paso Canutillo",
       "score1": 41,
       "team2": "El Paso Jefferson",
       "score2": 13,
-      "winner": "Canutillo"
+      "winner": "El Paso Canutillo"
     },
     {
       "year": 2021,
@@ -2610,11 +2610,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "Alamo Heights",
+      "team1": "San Antonio Alamo Heights",
       "score1": 53,
       "team2": "Edcouch-Elsa",
       "score2": 7,
-      "winner": "Alamo Heights"
+      "winner": "San Antonio Alamo Heights"
     },
     {
       "year": 2021,
@@ -2658,11 +2658,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "SAT",
-      "team1": "Canutillo",
+      "team1": "El Paso Canutillo",
       "score1": 27,
       "team2": "Canyon Randall",
       "score2": 24,
-      "winner": "Canutillo"
+      "winner": "El Paso Canutillo"
     },
     {
       "year": 2021,
@@ -2826,11 +2826,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Alamo Heights",
+      "team1": "San Antonio Alamo Heights",
       "score1": 55,
       "team2": "Austin McCallum",
       "score2": 28,
-      "winner": "Alamo Heights"
+      "winner": "San Antonio Alamo Heights"
     },
     {
       "year": 2021,
@@ -2850,7 +2850,7 @@
       "week": 3,
       "round": "Regional",
       "chapter": "WAC",
-      "team1": "Canutillo",
+      "team1": "El Paso Canutillo",
       "score1": 7,
       "team2": "Wichita Falls Rider",
       "score2": 28,
@@ -2934,11 +2934,11 @@
       "week": 3,
       "round": "Regional",
       "chapter": "CSC",
-      "team1": "Alamo Heights",
+      "team1": "San Antonio Alamo Heights",
       "score1": 10,
       "team2": "Marble Falls",
       "score2": 7,
-      "winner": "Alamo Heights"
+      "winner": "San Antonio Alamo Heights"
     },
     {
       "year": 2021,
@@ -2984,7 +2984,7 @@
       "chapter": "CSC",
       "team1": "Liberty Hill",
       "score1": 43,
-      "team2": "Alamo Heights",
+      "team2": "San Antonio Alamo Heights",
       "score2": 40,
       "winner": "Liberty Hill"
     },
@@ -3186,7 +3186,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "FTW",
-      "team1": "Fort Worth Benbrook",
+      "team1": "Benbrook",
       "score1": 20,
       "team2": "Midlothian Heritage",
       "score2": 49,
@@ -3224,7 +3224,7 @@
       "chapter": "CSC",
       "team1": "Kilgore",
       "score1": 37,
-      "team2": "Huffman Hargraves",
+      "team2": "Huffman-Hargrave",
       "score2": 20,
       "winner": "Kilgore"
     },
@@ -4916,7 +4916,7 @@
       "chapter": "CSC",
       "team1": "Lago Vista",
       "score1": 36,
-      "team2": "Universal City Randolph",
+      "team2": "Randolph",
       "score2": 13,
       "winner": "Lago Vista"
     },

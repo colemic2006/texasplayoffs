@@ -11,6 +11,19 @@
   "stadium": "Tornado Stadium",
   "stadium_id": 825
  },
+ "@ Lovejoy 11/13 @ || Lovejoy v Celina": {
+  "address": "2350 Estates Pkwy, Lucas, Texas 75002",
+  "city": "Lucas",
+  "confirmed_as": "Leopard Stadium, Lucas",
+  "how": "stadium",
+  "lat": 33.10021,
+  "lng": -96.61224,
+  "map_link": "https://goo.gl/maps/YteoTrpG1m5PkJRL9",
+  "rules": 10,
+  "site": "@ Lovejoy 11/13 @",
+  "stadium": "Leopard Stadium",
+  "stadium_id": 338
+ },
  "@ Lovejoy 11/13 @ || Lucas Lovejoy v Celina": {
   "address": "2350 Estates Pkwy, Lucas, Texas 75002",
   "city": "Lucas",
@@ -62,6 +75,18 @@
   "stadium_id": 1062
  },
  "Abshier Stadium, Deer Park || Houston Stafford v Bridge City": {
+  "address": "710 W. San Augustine, Deer Park, Texas 77536",
+  "city": "Deer Park",
+  "how": "stadium",
+  "lat": 29.69012,
+  "lng": -95.0903,
+  "map_link": "https://goo.gl/maps/Zo29mgekZZ3hSgww7",
+  "rules": 10,
+  "site": "Abshier Stadium, Deer Park",
+  "stadium": "Clyde Abshier Stadium",
+  "stadium_id": 614
+ },
+ "Abshier Stadium, Deer Park || Stafford v Bridge City": {
   "address": "710 W. San Augustine, Deer Park, Texas 77536",
   "city": "Deer Park",
   "how": "stadium",
@@ -336,6 +361,18 @@
   "site": "Beauchamp Stadium, Pettus",
   "stadium": "James V. Beauchamp Stadium",
   "stadium_id": 916
+ },
+ "Beaumont Doggett Family Stadium || Little Cypress-Mauriceville v Houston Austin": {
+  "address": "5250 Bayou Willow Way, Beaumont, Texas 77707",
+  "city": "Beaumont",
+  "how": "stadium (town only)",
+  "lat": 30.08293,
+  "lng": -94.09843,
+  "map_link": "https://goo.gl/maps/3M75akREmEgxQM3aA",
+  "rules": 10,
+  "site": "Beaumont Doggett Family Stadium",
+  "stadium": "Doggett Family Stadium",
+  "stadium_id": 1288
  },
  "Beaumont Doggett Family Stadium || Orange Little Cypress-Mauriceville v Houston Austin": {
   "address": "5250 Bayou Willow Way, Beaumont, Texas 77707",
@@ -771,6 +808,18 @@
   "stadium": "Ray Maddry Memorial Stadium",
   "stadium_id": 475
  },
+ "Channelview ISD Maddry Stadium || Fort Bend Willowridge v Huffman-Hargrave": {
+  "address": "828 Sheldon Rd., Channelview, Texas 77530",
+  "city": "Channelview",
+  "how": "stadium",
+  "lat": 29.79015,
+  "lng": -95.1247,
+  "map_link": "https://goo.gl/maps/y1WnDaSAJAQtReKx9",
+  "rules": 10,
+  "site": "Channelview ISD Maddry Stadium",
+  "stadium": "Ray Maddry Memorial Stadium",
+  "stadium_id": 475
+ },
  "Chaparral Stadium, Austin || Austin Westlake v Buda Hays": {
   "address": "4100 Westbank Dr., Austin, Texas 78746",
   "city": "Austin",
@@ -1157,6 +1206,18 @@
   "stadium": "Crowley ISD Multi-Purpose Stadium",
   "stadium_id": 164
  },
+ "Crusader Stadium || Houston Strake Jesuit v Fulshear Jordan": {
+  "address": "",
+  "city": "Houston",
+  "confirmed_as": "Strake Jesuit College Preparatory, 8900 Bellaire Blvd, Houston",
+  "how": "town (approximate)",
+  "lat": 29.75894,
+  "lng": -95.3677,
+  "map_link": "",
+  "site": "Crusader Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Crusader Stadium || Strake Jesuit v Fulshear Jordan": {
   "address": "",
   "city": "Houston",
@@ -1206,6 +1267,18 @@
   "stadium_id": 1050
  },
  "Cypress-Fairbanks ISD Cy Fair FCU Stadium || Katy Cypress Lakes v Klein Collins": {
+  "address": "8877 Barker-Cypress Rd., Cypress, Texas 77433",
+  "city": "Cypress",
+  "how": "stadium",
+  "lat": 29.99014,
+  "lng": -95.67814,
+  "map_link": "https://goo.gl/maps/wcVPi2Ck2BR2",
+  "rules": 10,
+  "site": "Cypress-Fairbanks ISD Cy Fair FCU Stadium",
+  "stadium": "Cy Fair FCU Stadium",
+  "stadium_id": 1050
+ },
+ "Cypress-Fairbanks ISD Cy Fair FCU Stadium || Katy Cypress Lakes v Spring Klein Collins": {
   "address": "8877 Barker-Cypress Rd., Cypress, Texas 77433",
   "city": "Cypress",
   "how": "stadium",
@@ -1312,6 +1385,18 @@
   "site": "Denver City High School, Football Field",
   "stadium": "Mustang Stadium",
   "stadium_id": 995
+ },
+ "Devine's Warhorse Stadium || Devine v Randolph": {
+  "address": "Colonial Pkwy at Warhorse, Devine, Texas 78016",
+  "city": "Devine",
+  "how": "stadium",
+  "lat": 29.15267,
+  "lng": -98.91324,
+  "map_link": "https://goo.gl/maps/w7PwYjV3q9q88cwt8",
+  "rules": 10,
+  "site": "Devine's Warhorse Stadium",
+  "stadium": "Warhorse Stadium",
+  "stadium_id": 184
  },
  "Devine's Warhorse Stadium || Devine v San Antonio Randolph": {
   "address": "Colonial Pkwy at Warhorse, Devine, Texas 78016",
@@ -1490,6 +1575,18 @@
   "stadium": null,
   "stadium_id": null
  },
+ "Ellis Stadium, Irving || Fort Worth Eastern Hills v Dallas Wilmer-Hutchins": {
+  "address": "600 E. 6th Street, Irving, Texas 75060",
+  "city": "Irving",
+  "how": "stadium",
+  "lat": 32.80728,
+  "lng": -96.93747,
+  "map_link": "https://goo.gl/maps/QLFBhBUBoXdQ5CT36",
+  "rules": 10,
+  "site": "Ellis Stadium, Irving",
+  "stadium": "Joy & Ralph Ellis Stadium",
+  "stadium_id": 263
+ },
  "Ellis Stadium, Irving || Fort Worth Eastern Hills v Wilmer-Hutchins": {
   "address": "600 E. 6th Street, Irving, Texas 75060",
   "city": "Irving",
@@ -1564,6 +1661,18 @@
   "stadium_id": null
  },
  "Farmer Stadium, Farmersville || Farmersville v Pleasant Grove": {
+  "address": "507 N. Hwy. 78, Farmersville, Texas 75442",
+  "city": "Farmersville",
+  "how": "stadium",
+  "lat": 33.16322,
+  "lng": -96.36035,
+  "map_link": "https://goo.gl/maps/3Rqt1DNFnaghnLXe9",
+  "rules": 10,
+  "site": "Farmer Stadium, Farmersville",
+  "stadium": "Farmer Stadium",
+  "stadium_id": 241
+ },
+ "Farmer Stadium, Farmersville || Farmersville v Texarkana Pleasant Grove": {
   "address": "507 N. Hwy. 78, Farmersville, Texas 75442",
   "city": "Farmersville",
   "how": "stadium",
@@ -2225,6 +2334,18 @@
   "stadium": null,
   "stadium_id": null
  },
+ "Houston ISD Barnett Stadium || Houston Milby v Baytown Goose Creek Memorial": {
+  "address": "6800 Fairway, Houston, Texas 77087",
+  "city": "Houston",
+  "how": "stadium",
+  "lat": 29.69362,
+  "lng": -95.30498,
+  "map_link": "https://goo.gl/maps/SDaszQzbgCemRvfX8",
+  "rules": 10,
+  "site": "Houston ISD Barnett Stadium",
+  "stadium": "Herman A. Barnett Stadium",
+  "stadium_id": 605
+ },
  "Houston ISD Barnett Stadium || Houston Milby v Goose Creek Memorial": {
   "address": "6800 Fairway, Houston, Texas 77087",
   "city": "Houston",
@@ -2248,6 +2369,18 @@
   "site": "Houston ISD Butler Stadium",
   "stadium": "Joe K. Butler Stadium",
   "stadium_id": 610
+ },
+ "Houston ISD Delmar Stadium || Houston Lamar v Dawson": {
+  "address": "2020 Mangum Rd, Houston, Texas 77455",
+  "city": "Houston",
+  "how": "stadium",
+  "lat": 29.80366,
+  "lng": -95.45623,
+  "map_link": "https://goo.gl/maps/ZeFpyvP6AT2FBnRG8",
+  "rules": 8,
+  "site": "Houston ISD Delmar Stadium",
+  "stadium": "Delmar Stadium",
+  "stadium_id": 621
  },
  "Houston ISD Delmar Stadium || Houston Lamar v Pearland Dawson": {
   "address": "2020 Mangum Rd, Houston, Texas 77455",
@@ -2274,6 +2407,18 @@
   "stadium_id": 621
  },
  "Indian Memorial Stadium, Grand Saline High School || Carlisle v Honey Grove": {
+  "address": "500 Stadium Dr, Grand Saline, Texas 75140",
+  "city": "Grand Saline",
+  "how": "stadium",
+  "lat": 32.68427,
+  "lng": -95.71363,
+  "map_link": "https://goo.gl/maps/e73NvD6a8HA2",
+  "rules": 10,
+  "site": "Indian Memorial Stadium, Grand Saline High School",
+  "stadium": "Indian Memorial Stadium",
+  "stadium_id": null
+ },
+ "Indian Memorial Stadium, Grand Saline High School || Price Carlisle v Honey Grove": {
   "address": "500 Stadium Dr, Grand Saline, Texas 75140",
   "city": "Grand Saline",
   "how": "stadium",
@@ -2355,6 +2500,18 @@
   "site": "Jersey Bull Stadium, Falfurrias",
   "stadium": "Jersey Bull Stadium",
   "stadium_id": 932
+ },
+ "Johnson Field, Karnes City || London v Geronimo Navarro": {
+  "address": "400 North Highway 123, Karnes City, Texas 78118",
+  "city": "Karnes City",
+  "how": "stadium (town only)",
+  "lat": 28.88498,
+  "lng": -97.90084,
+  "map_link": "https://goo.gl/maps/Zds1rXChHE7S4x139",
+  "rules": 10,
+  "site": "Johnson Field, Karnes City",
+  "stadium": "Poss Johnson Field",
+  "stadium_id": 892
  },
  "Johnson Field, Karnes City || London v Navarro": {
   "address": "400 North Highway 123, Karnes City, Texas 78118",
@@ -2641,6 +2798,18 @@
   "site": "Lehnhoff Stadium",
   "stadium": "Robert and Glenda Lehnhoff Stadium",
   "stadium_id": 840
+ },
+ "Leo Buckley Stadium - Killeen || La Vega v Manor New Tech": {
+  "address": "3498 Atkinson Ave, Killeen, Texas 76543",
+  "city": "Killeen",
+  "how": "stadium",
+  "lat": 31.10987,
+  "lng": -97.69441,
+  "map_link": "https://goo.gl/maps/iRCx4CvmWew9RcTU9",
+  "rules": 10,
+  "site": "Leo Buckley Stadium - Killeen",
+  "stadium": "Leo Buckley Stadium",
+  "stadium_id": 110
  },
  "Leo Buckley Stadium - Killeen || Waco La Vega v Manor New Tech": {
   "address": "3498 Atkinson Ave, Killeen, Texas 76543",
@@ -3539,6 +3708,29 @@
   "stadium": null,
   "stadium_id": null
  },
+ "Pearland ISD The Rig || Pearland v Houston Alief Taylor": {
+  "address": "",
+  "how": "stadium found by name",
+  "lat": 29.53869,
+  "lng": -95.26726,
+  "map_link": "",
+  "rules": 10,
+  "site": "Pearland ISD The Rig",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Peoples Bank Stadium || Frenship v El Paso El Dorado": {
+  "address": "Tiger St. & FM 179, Wolfforth, Texas 79382",
+  "city": "Wolfforth",
+  "how": "stadium",
+  "lat": 33.51832,
+  "lng": -102.0066,
+  "map_link": "https://goo.gl/maps/yTzp5e5h4y9HwbGZ9",
+  "rules": 10,
+  "site": "Peoples Bank Stadium",
+  "stadium": "Peoples Bank Stadium",
+  "stadium_id": 823
+ },
  "Peoples Bank Stadium || Wolfforth Frenship v El Paso El Dorado": {
   "address": "Tiger St. & FM 179, Wolfforth, Texas 79382",
   "city": "Wolfforth",
@@ -3814,6 +4006,18 @@
   "stadium": "Wildcat Stadium",
   "stadium_id": 830
  },
+ "Robinson ISD Rocket Field || Jewett Leon v Bruceville-Eddy": {
+  "address": "500 W Lyndale Ave, Robinson, Texas 76706",
+  "city": "Robinson",
+  "how": "stadium (town only)",
+  "lat": 31.46767,
+  "lng": -97.11472,
+  "map_link": "https://goo.gl/maps/398JXxzfsGa2UhDR6",
+  "rules": 10,
+  "site": "Robinson ISD Rocket Field",
+  "stadium": "Rocket Field",
+  "stadium_id": 154
+ },
  "Robinson ISD Rocket Field || Leon v Bruceville-Eddy": {
   "address": "500 W Lyndale Ave, Robinson, Texas 76706",
   "city": "Robinson",
@@ -3971,6 +4175,18 @@
   "stadium": null,
   "stadium_id": null
  },
+ "Scherer Stadium, Richmond || Lamar Fulshear v Georgetown East View": {
+  "address": "",
+  "city": "Richmond",
+  "how": "town (approximate)",
+  "lat": 29.58218,
+  "lng": -95.76078,
+  "map_link": "",
+  "rules": 10,
+  "site": "Scherer Stadium, Richmond",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Searles Stadium, Killeen || Mason v Itasca": {
   "address": "4400 Chaparral Rd, Killeen, Texas 76542",
   "city": "Killeen",
@@ -4088,6 +4304,18 @@
   "site": "Sinton's Pirate Stadium",
   "stadium": "Pirate Stadium",
   "stadium_id": 210
+ },
+ "Smithson Valley Ranger Stadium || Comal Smithson Valley v Laredo Nixon": {
+  "address": "14001 State Highway 46 W, Spring Branch, Texas 78070",
+  "city": "Spring Branch",
+  "how": "stadium",
+  "lat": 29.80059,
+  "lng": -98.35737,
+  "map_link": "https://goo.gl/maps/LbwLZ82tBRFpCHJCA",
+  "rules": 10,
+  "site": "Smithson Valley Ranger Stadium",
+  "stadium": "Ranger Stadium",
+  "stadium_id": 159
  },
  "Smithson Valley Ranger Stadium || Smithson Valley v Laredo Nixon": {
   "address": "14001 State Highway 46 W, Spring Branch, Texas 78070",
@@ -4290,6 +4518,18 @@
   "site": "Sterling City High School, Stadium",
   "stadium": "Eagle Stadium",
   "stadium_id": 493
+ },
+ "Strake Jesuit Clay Crusader Stadium (Houston) || Houston Strake Jesuit v Fulshear Jordan": {
+  "address": "",
+  "city": "Houston",
+  "how": "town (approximate)",
+  "lat": 29.75894,
+  "lng": -95.3677,
+  "map_link": "",
+  "rules": 10,
+  "site": "Strake Jesuit Clay Crusader Stadium (Houston)",
+  "stadium": null,
+  "stadium_id": null
  },
  "Strake Jesuit Clay Crusader Stadium (Houston) || Strake Jesuit v Fulshear Jordan": {
   "address": "",
@@ -4762,6 +5002,18 @@
   "stadium_id": 190
  },
  "Wildcat Stadium, Westbrook || Borden County v Grady": {
+  "address": "100 Morrison St, Westbrook, Texas 79565",
+  "city": "Westbrook",
+  "how": "stadium",
+  "lat": 32.36069,
+  "lng": -101.01379,
+  "map_link": "https://goo.gl/maps/oijXtWPis21bs8zZ8",
+  "rules": 10,
+  "site": "Wildcat Stadium, Westbrook",
+  "stadium": "Wildcat Stadium",
+  "stadium_id": 1014
+ },
+ "Wildcat Stadium, Westbrook || Borden County v Lenorah Grady": {
   "address": "100 Morrison St, Westbrook, Texas 79565",
   "city": "Westbrook",
   "how": "stadium",

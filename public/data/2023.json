@@ -1148,7 +1148,7 @@
       "chapter": "TYL",
       "team1": "Garrison",
       "score1": 58,
-      "team2": "Leon",
+      "team2": "Jewett Leon",
       "score2": 0,
       "winner": "Garrison"
     },
@@ -1940,7 +1940,7 @@
       "chapter": "HOU",
       "team1": "Lovelady",
       "score1": 30,
-      "team2": "Carlisle",
+      "team2": "Price Carlisle",
       "score2": 14,
       "winner": "Lovelady"
     },
@@ -2816,9 +2816,9 @@
       "chapter": "CSC",
       "team1": "Lyford",
       "score1": 20,
-      "team2": "Industrial",
+      "team2": "Vanderbilt Industrial",
       "score2": 49,
-      "winner": "Industrial"
+      "winner": "Vanderbilt Industrial"
     },
     {
       "year": 2023,
@@ -2900,9 +2900,9 @@
       "chapter": "CSC",
       "team1": "Randolph",
       "score1": 21,
-      "team2": "Industrial",
+      "team2": "Vanderbilt Industrial",
       "score2": 38,
-      "winner": "Industrial"
+      "winner": "Vanderbilt Industrial"
     },
     {
       "year": 2023,
@@ -2946,7 +2946,7 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "HOU",
-      "team1": "Industrial",
+      "team1": "Vanderbilt Industrial",
       "score1": 24,
       "team2": "Edna",
       "score2": 27,
@@ -3272,7 +3272,7 @@
       "chapter": "FTW",
       "team1": "Gunter",
       "score1": 75,
-      "team2": "Cedar Hill Trinity Leadership",
+      "team2": "Trinity Leadership",
       "score2": 0,
       "winner": "Gunter"
     },
@@ -3426,11 +3426,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "DAL",
-      "team1": "Gilmer Harmony",
+      "team1": "Big Sandy Harmony",
       "score1": 55,
       "team2": "Hemphill",
       "score2": 12,
-      "winner": "Gilmer Harmony"
+      "winner": "Big Sandy Harmony"
     },
     {
       "year": 2023,
@@ -3498,11 +3498,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "WAC",
-      "team1": "Gilmer Harmony",
+      "team1": "Big Sandy Harmony",
       "score1": 48,
       "team2": "Arp",
       "score2": 21,
-      "winner": "Gilmer Harmony"
+      "winner": "Big Sandy Harmony"
     },
     {
       "year": 2023,
@@ -3534,7 +3534,7 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "WAC",
-      "team1": "Gilmer Harmony",
+      "team1": "Big Sandy Harmony",
       "score1": 24,
       "team2": "Newton",
       "score2": 54,
@@ -4314,11 +4314,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAT",
-      "team1": "Davenport",
+      "team1": "San Antonio Davenport",
       "score1": 62,
       "team2": "Fredericksburg",
       "score2": 14,
-      "winner": "Davenport"
+      "winner": "San Antonio Davenport"
     },
     {
       "year": 2023,
@@ -4326,7 +4326,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "STX",
-      "team1": "Calallen",
+      "team1": "Corpus Christi Calallen",
       "score1": 25,
       "team2": "Beeville Jones",
       "score2": 27,
@@ -4350,7 +4350,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "STX",
-      "team1": "Tuloso Midway",
+      "team1": "CC Tuloso-Midway",
       "score1": 14,
       "team2": "La Vernia",
       "score2": 35,
@@ -4410,11 +4410,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Davenport",
+      "team1": "San Antonio Davenport",
       "score1": 63,
       "team2": "Beeville Jones",
       "score2": 28,
-      "winner": "Davenport"
+      "winner": "San Antonio Davenport"
     },
     {
       "year": 2023,
@@ -4458,11 +4458,11 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "SAT",
-      "team1": "Davenport",
+      "team1": "San Antonio Davenport",
       "score1": 45,
       "team2": "La Vernia",
       "score2": 31,
-      "winner": "Davenport"
+      "winner": "San Antonio Davenport"
     },
     {
       "year": 2023,
@@ -4482,11 +4482,11 @@
       "week": 4,
       "round": "Quarterfinals",
       "chapter": "SAT",
-      "team1": "Davenport",
+      "team1": "San Antonio Davenport",
       "score1": 55,
       "team2": "Port Lavaca Calhoun",
       "score2": 20,
-      "winner": "Davenport"
+      "winner": "San Antonio Davenport"
     },
     {
       "year": 2023,
@@ -4508,7 +4508,7 @@
       "chapter": "HOU",
       "team1": "Tyler Chapel Hill",
       "score1": 56,
-      "team2": "Davenport",
+      "team2": "San Antonio Davenport",
       "score2": 33,
       "winner": "Tyler Chapel Hill"
     },
@@ -4950,7 +4950,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Columbia",
+      "team1": "West Columbia",
       "score1": 12,
       "team2": "Jasper",
       "score2": 35,
@@ -4976,7 +4976,7 @@
       "chapter": "HOU",
       "team1": "Hamshire-Fannett",
       "score1": 57,
-      "team2": "Royal",
+      "team2": "Brookshire Royal",
       "score2": 7,
       "winner": "Hamshire-Fannett"
     },
@@ -5108,7 +5108,7 @@
       "chapter": "SAT",
       "team1": "Ingleside",
       "score1": 50,
-      "team2": "Grulla",
+      "team2": "Rio Grande City Grulla",
       "score2": 20,
       "winner": "Ingleside"
     },
@@ -5516,7 +5516,7 @@
       "chapter": "CSC",
       "team1": "Longview",
       "score1": 59,
-      "team2": "Porter",
+      "team2": "New Caney Porter",
       "score2": 7,
       "winner": "Longview"
     },
@@ -5538,7 +5538,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "AUS",
-      "team1": "LaPorte",
+      "team1": "La Porte",
       "score1": 13,
       "team2": "Lancaster",
       "score2": 27,
@@ -5684,7 +5684,7 @@
       "chapter": "HOU",
       "team1": "A&M Consolidated",
       "score1": 45,
-      "team2": "Judson Wagner",
+      "team2": "San Antonio Wagner",
       "score2": 17,
       "winner": "A&M Consolidated"
     },
@@ -5874,11 +5874,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "RGV",
-      "team1": "PSJA North",
+      "team1": "Pharr-San Juan-Alamo North",
       "score1": 45,
       "team2": "Donna",
       "score2": 7,
-      "winner": "PSJA North"
+      "winner": "Pharr-San Juan-Alamo North"
     },
     {
       "year": 2023,
@@ -5946,11 +5946,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "CSC",
-      "team1": "PSJA North",
+      "team1": "Pharr-San Juan-Alamo North",
       "score1": 42,
       "team2": "Victoria East",
       "score2": 7,
-      "winner": "PSJA North"
+      "winner": "Pharr-San Juan-Alamo North"
     },
     {
       "year": 2023,
@@ -5982,7 +5982,7 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "RGV",
-      "team1": "PSJA North",
+      "team1": "Pharr-San Juan-Alamo North",
       "score1": 28,
       "team2": "Brownsville Veterans Memorial",
       "score2": 45,
@@ -6092,7 +6092,7 @@
       "chapter": "FTW",
       "team1": "Argyle",
       "score1": 45,
-      "team2": "Wyatt",
+      "team2": "Fort Worth Wyatt",
       "score2": 14,
       "winner": "Argyle"
     },
@@ -6414,11 +6414,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "AUS",
-      "team1": "McCallum",
+      "team1": "Austin McCallum",
       "score1": 27,
-      "team2": "Rouse",
+      "team2": "Leander Rouse",
       "score2": 55,
-      "winner": "Rouse"
+      "winner": "Leander Rouse"
     },
     {
       "year": 2023,
@@ -6500,7 +6500,7 @@
       "chapter": "CSC",
       "team1": "Port Neches-Groves",
       "score1": 51,
-      "team2": "Rouse",
+      "team2": "Leander Rouse",
       "score2": 14,
       "winner": "Port Neches-Groves"
     },
@@ -7062,7 +7062,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Bridgeland",
+      "team1": "Cypress Bridgeland",
       "score1": 49,
       "team2": "Houston Klein Cain",
       "score2": 50,
@@ -7614,11 +7614,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "FTW",
-      "team1": "Trophy Club Byron Nelson",
+      "team1": "Byron Nelson",
       "score1": 52,
       "team2": "Crowley",
       "score2": 28,
-      "winner": "Trophy Club Byron Nelson"
+      "winner": "Byron Nelson"
     },
     {
       "year": 2023,
@@ -7676,9 +7676,9 @@
       "chapter": "SPC",
       "team1": "Midland High",
       "score1": 7,
-      "team2": "Trophy Club Byron Nelson",
+      "team2": "Byron Nelson",
       "score2": 35,
-      "winner": "Trophy Club Byron Nelson"
+      "winner": "Byron Nelson"
     },
     {
       "year": 2023,
@@ -7710,11 +7710,11 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "FTW",
-      "team1": "Trophy Club Byron Nelson",
+      "team1": "Byron Nelson",
       "score1": 52,
       "team2": "Coppell",
       "score2": 45,
-      "winner": "Trophy Club Byron Nelson"
+      "winner": "Byron Nelson"
     },
     {
       "year": 2023,
@@ -7724,7 +7724,7 @@
       "chapter": "FTW",
       "team1": "Southlake Carroll",
       "score1": 56,
-      "team2": "Trophy Club Byron Nelson",
+      "team2": "Byron Nelson",
       "score2": 7,
       "winner": "Southlake Carroll"
     },
