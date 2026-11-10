@@ -2,14 +2,14 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-10T19:56+00:00",
+    "updated": "2026-11-10T19:58+00:00",
     "games": 352,
     "played": 0,
-    "assigned": 349,
+    "assigned": 350,
     "weeks": {
       "1": {
         "games": 352,
-        "assigned": 349
+        "assigned": 350
       },
       "2": {
         "games": 0,
@@ -37,17 +37,17 @@
     {
       "code": "HOU",
       "name": "Houston",
-      "total": 62,
+      "total": 63,
       "weeks": {
         "1": {
-          "total": 62,
+          "total": 63,
           "classifications": {
             "2A D1": 2,
             "2A D2": 1,
             "3A D1": 4,
             "3A D2": 1,
             "4A D1": 4,
-            "4A D2": 12,
+            "4A D2": 13,
             "5A D1": 7,
             "5A D2": 6,
             "6A D1": 12,
@@ -4551,7 +4551,7 @@
       "classification": "4A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Farmersville",
       "score1": null,
       "team2": "Pleasant Grove",
