@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-10T20:56+00:00",
+    "updated": "2026-11-10T21:05+00:00",
     "games": 352,
     "played": 0,
     "assigned": 350,
@@ -820,6 +820,11 @@
       "score2": null,
       "winner": null,
       "site": "Yellow Jacket Field, 1002 Kirven St, Coolidge, TX 76635",
+      "lat": 31.7485,
+      "lng": -96.65583,
+      "stadium": "Coolidge Yellow Jacket Athletic Complex",
+      "map_link": "https://maps.app.goo.gl/Dh9kMGrjncAQdH4G6",
+      "city": "Coolidge",
       "date": "2026-11-13",
       "time": "5:30 PM"
     },

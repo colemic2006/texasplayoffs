@@ -4928,5 +4928,18 @@
   "site": "Wylie ISD Stadium",
   "stadium": "Wylie ISD Stadium",
   "stadium_id": 289
+ },
+ "Yellow Jacket Field, 1002 Kirven St, Coolidge, TX 76635 || Three Way v Fannindel": {
+  "address": "1002 Kirven St., Coolidge, Texas 76635",
+  "city": "Coolidge",
+  "confirmed_as": "Coolidge Yellow Jacket Athletic Complex, Coolidge",
+  "how": "stadium",
+  "lat": 31.7485,
+  "lng": -96.65583,
+  "map_link": "https://maps.app.goo.gl/Dh9kMGrjncAQdH4G6",
+  "rules": 10,
+  "site": "Yellow Jacket Field, 1002 Kirven St, Coolidge, TX 76635",
+  "stadium": "Coolidge Yellow Jacket Athletic Complex",
+  "stadium_id": 197
  }
 }
