@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react'
 import { placeName, gameWhen } from '../placeName'
 import { useDctfTeams, DctfLinks } from '../dctf'
 import { canonicalize, isValidTeam } from './TeamsView'
+import { useFinals } from '../finals'
 
 const ROUNDS = { 1:'Bi-District', 2:'Area', 3:'Regionals', 4:'Quarterfinals', 5:'Semifinals', 6:'Championship' }
 const CHAPTERS = {
@@ -21,6 +22,7 @@ export default function TeamSearch({ data, year, allData = {}, years = [], loadA
   const [open, setOpen] = useState(null)   // team whose past games are listed
   const [homes, setHomes] = useState({})
   const dctf = useDctfTeams()
+  const finals = useFinals(allData, years)
   const games = data?.games || []
   const inProgress = data?.season?.status === 'in_progress'
   const searching = q.trim().length >= 2
@@ -82,7 +84,7 @@ export default function TeamSearch({ data, year, allData = {}, years = [], loadA
         <div style={{ marginTop:14 }}>
           {loading && <div style={{ fontSize:12, color:'var(--mid)', marginBottom:8 }}>Loading past seasons…</div>}
           {!loading && !hits.length && <div style={{ fontSize:13, color:'var(--mid)' }}>No team matches “{q}”. Try fewer letters or another part of the name.</div>}
-          {hits.slice(0, 6).map(t => <TeamCard key={t.name} t={t} year={year} inProgress={inProgress} home={homes[t.name]} dctf={dctf}
+          {hits.slice(0, 6).map(t => <TeamCard key={t.name} t={t} finals={finals[t.name] || []} year={year} inProgress={inProgress} home={homes[t.name]} dctf={dctf}
                                                open={open === t.name || hits.length === 1} toggle={() => setOpen(open === t.name ? null : t.name)} />)}
           {hits.length > 6 && <div style={{ fontSize:12, color:'var(--mid)', marginTop:6 }}>{hits.length - 6} more teams match; type more of the name to narrow it down.</div>}
         </div>
@@ -91,7 +93,7 @@ export default function TeamSearch({ data, year, allData = {}, years = [], loadA
   )
 }
 
-function TeamCard({ t, year, inProgress, home, dctf, open, toggle }) {
+function TeamCard({ t, finals, year, inProgress, home, dctf, open, toggle }) {
   const now = t.games.filter(x => x.year === year).sort((a, b) => b.game.week - a.game.week)
   const past = t.games.filter(x => x.year !== year).sort((a, b) => b.year - a.year || b.game.week - a.game.week)
   const seasons = [...new Set(t.games.map(x => x.year))].sort((a, b) => b - a)
@@ -104,7 +106,9 @@ function TeamCard({ t, year, inProgress, home, dctf, open, toggle }) {
     <div style={{ border:'1px solid var(--border)', borderRadius:8, padding:'14px 16px', marginBottom:12 }}>
       <div style={{ display:'flex', flexWrap:'wrap', justifyContent:'space-between', gap:8, alignItems:'baseline' }}>
         <div>
-          <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:24, color:'var(--ink)', letterSpacing:0.5, lineHeight:1 }}>{t.name}</div>
+          <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:24, color:'var(--ink)', letterSpacing:0.5, lineHeight:1 }}>
+            {t.name}{finals.some(f => f.won) && <span style={{ fontSize:16, marginLeft:8 }} title="State champion">🏆{finals.filter(f => f.won).length > 1 ? `×${finals.filter(f => f.won).length}` : ''}</span>}
+          </div>
           <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--steel)', marginTop:4 }}>{classes}</div>
           {home && (
             <div style={{ fontSize:12, color:'var(--mid)', marginTop:4 }}>
@@ -162,6 +166,33 @@ function TeamCard({ t, year, inProgress, home, dctf, open, toggle }) {
           </div>
         </div>
       </div>
+
+      {finals.length > 0 && (() => {
+        const won = finals.filter(f => f.won), lost = finals.filter(f => !f.won)
+        const chip = (x, i) => (
+          <span key={i} title={`${x.year} ${x.cls} state final vs ${x.opp}`} style={{
+            fontFamily:'var(--mono)', fontSize:10, padding:'3px 8px', borderRadius:4, color:'var(--ink)',
+            background: x.won ? 'rgba(253,208,35,0.25)' : 'rgba(15,13,11,0.05)',
+            border: x.won ? '1px solid rgba(201,154,30,0.5)' : '1px solid var(--border)',
+          }}>{x.year} <span style={{ color:'var(--mid)' }}>{x.cls} vs {x.opp}</span></span>
+        )
+        return (
+          <div style={{ display:'flex', flexWrap:'wrap', gap:'10px 28px', marginTop:12 }}>
+            <div style={{ flex:'1 1 260px' }}>
+              <div style={label}>🏆 State championships · {won.length}</div>
+              <div style={{ display:'flex', flexWrap:'wrap', gap:6, marginTop:6 }}>
+                {won.length ? won.map(chip) : <span style={{ fontSize:12, color:'var(--mid)' }}>None on record</span>}
+              </div>
+            </div>
+            {lost.length > 0 && (
+              <div style={{ flex:'1 1 260px' }}>
+                <div style={label}>State final runner-up · {lost.length}</div>
+                <div style={{ display:'flex', flexWrap:'wrap', gap:6, marginTop:6 }}>{lost.map(chip)}</div>
+              </div>
+            )}
+          </div>
+        )
+      })()}
 
       {past.length > 0 && (
         <div style={{ marginTop:12 }}>
