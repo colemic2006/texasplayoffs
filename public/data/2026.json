@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-10T20:43+00:00",
+    "updated": "2026-11-10T20:44+00:00",
     "games": 352,
     "played": 0,
     "assigned": 350,
@@ -454,6 +454,7 @@
       "team2": "Knippa",
       "score2": null,
       "winner": null,
+      "site": "R. Clinton Schulze Puncher Dome Stadium, Mason",
       "date": "2026-11-13",
       "time": "6:30 PM"
     },
@@ -528,6 +529,7 @@
       "team2": "Grady",
       "score2": null,
       "winner": null,
+      "site": "Wildcat Stadium, Westbrook",
       "date": "2026-11-13",
       "time": "6:30 PM"
     },
