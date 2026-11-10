@@ -2,14 +2,14 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-10T01:11+00:00",
+    "updated": "2026-11-10T01:15+00:00",
     "games": 352,
     "played": 0,
-    "assigned": 238,
+    "assigned": 249,
     "weeks": {
       "1": {
         "games": 352,
-        "assigned": 238
+        "assigned": 249
       },
       "2": {
         "games": 0,
@@ -194,6 +194,24 @@
             "3A D1": 4,
             "4A D1": 2,
             "5A D2": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "RGV",
+      "name": "Rio Grande Valley",
+      "total": 11,
+      "weeks": {
+        "1": {
+          "total": 11,
+          "classifications": {
+            "2A D2": 1,
+            "4A D1": 1,
+            "5A D1": 1,
+            "5A D2": 4,
+            "6A D1": 2,
+            "6A D2": 2
           }
         }
       }
@@ -2022,7 +2040,7 @@
       "classification": "2A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "RGV",
       "team1": "Harper",
       "score1": null,
       "team2": "Burton",
@@ -4014,7 +4032,7 @@
       "classification": "4A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "RGV",
       "team1": "Zapata",
       "score1": null,
       "team2": "Corpus Christi Miller",
@@ -4026,7 +4044,7 @@
       "stadium": "Pepsi Field at Javelina Stadium",
       "map_link": "https://goo.gl/maps/Y45rgLDEUFeBbeZP7",
       "city": "Kingsville",
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "time": "7:00 PM"
     },
     {
@@ -5312,7 +5330,7 @@
       "classification": "5A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "RGV",
       "team1": "McAllen",
       "score1": null,
       "team2": "Weslaco East",
@@ -5846,7 +5864,7 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "RGV",
       "team1": "Mission Veterans Memorial",
       "score1": null,
       "team2": "Mercedes",
@@ -5886,7 +5904,7 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "RGV",
       "team1": "Corpus Christi Ray",
       "score1": null,
       "team2": "Cigarroa",
@@ -5906,7 +5924,7 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "RGV",
       "team1": "Gregory-Portland",
       "score1": null,
       "team2": "Mission Sharyland Pioneer",
@@ -5946,7 +5964,7 @@
       "classification": "5A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "RGV",
       "team1": "Mission Sharyland",
       "score1": null,
       "team2": "Brownsville Pace",
@@ -6143,7 +6161,7 @@
       "classification": "6A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "RGV",
       "team1": "Weslaco",
       "score1": null,
       "team2": "Los Fresnos",
@@ -6163,7 +6181,7 @@
       "classification": "6A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "RGV",
       "team1": "Harlingen",
       "score1": null,
       "team2": "La Joya",
@@ -6776,7 +6794,7 @@
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "RGV",
       "team1": "Edinburg Vela",
       "score1": null,
       "team2": "Brownsville Veterans Memorial",
@@ -6796,7 +6814,7 @@
       "classification": "6A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "RGV",
       "team1": "Pharr-San Juan-Alamo North",
       "score1": null,
       "team2": "Edinburg",
