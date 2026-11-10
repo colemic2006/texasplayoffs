@@ -63,7 +63,15 @@ export default function ChapterDashboard({ data, year, allData = {}, years = [],
   const [filterClass, setFilterClass] = useState('all')
   const [tableClass, setTableClass] = useState('all')
 
-  const chapters = data?.chapters || []
+  // every chapter, including those with no games yet, so all of them show on the chart and table
+  const chapters = useMemo(() => {
+    const have = data?.chapters || []
+    const codes = new Set(have.map(c => c.code === 'WACO' ? 'WAC' : c.code))
+    const missing = Object.entries(CHAPTER_NAMES)
+      .filter(([code]) => code !== 'WACO' && !codes.has(code))
+      .map(([code, name]) => ({ code, name, total: 0, weeks: {} }))
+    return [...have, ...missing]
+  }, [data])
 
   // each chapter's average season in the other finished seasons, for the table's Hist. Avg column
   useEffect(() => { if (loadAllYears) loadAllYears() }, [])
@@ -109,7 +117,7 @@ export default function ChapterDashboard({ data, year, allData = {}, years = [],
 
   // Bar chart data: games per chapter for selected week (or total)
   const barData = useMemo(() => {
-    return sorted.slice(0, 22).map(c => {
+    return sorted.map(c => {
       let val
       if (selectedWeek === 'all') {
         val = filterClass === 'all'
