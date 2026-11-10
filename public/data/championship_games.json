@@ -1527,6 +1527,15 @@
         "score1": 78,
         "score2": 52
       }
+    ],
+    "2007": [
+      {
+        "classification": "6M",
+        "team1": "Rule",
+        "team2": "Richland Springs",
+        "score1": null,
+        "score2": null
+      }
     ]
   },
   "AMA": {
