@@ -190,6 +190,26 @@ def nominatim(q, town='', zipcode='', near=None, strict_zip=False):
     return None
 
 
+TEXAS = (25.8, 36.6, -106.7, -93.5)   # lat/lng box around Texas
+
+
+def map_link_coords(url):
+    """The spot a Google Maps share link (TexasBob's map_link) points at, or None."""
+    if not url:
+        return None
+    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (texasplayoffs.com map pins)'})
+    with urllib.request.urlopen(req, timeout=30) as r:   # follows the short link's redirects
+        final, body = r.geturl(), r.read(400000).decode('utf-8', 'replace')
+    text = urllib.parse.unquote(final) + ' ' + urllib.parse.unquote(body[:400000])
+    for pat in (r'!3d(-?\d+\.\d+)!4d(-?\d+\.\d+)', r'@(-?\d+\.\d+),(-?\d+\.\d+)',
+                r'[?&](?:q|ll|query|center)=(-?\d+\.\d+),\s*(-?\d+\.\d+)'):
+        for m in re.finditer(pat, text):
+            lat, lng = float(m.group(1)), float(m.group(2))
+            if TEXAS[0] <= lat <= TEXAS[1] and TEXAS[2] <= lng <= TEXAS[3]:
+                return lat, lng
+    return None
+
+
 DISTRICT = re.compile(r'^(.+?)\s+C?ISD\s+(.+)$')
 
 
@@ -334,6 +354,8 @@ def locate(games, review_path=None):
         known_now = conf.get(site) or next((conf[p.strip()] for p in site.split(',') if p.strip() in conf), None)
         if hit and known_now not in (None, hit.get('confirmed_as')):
             hit = None   # newly confirmed: look it up again
+        if hit and 'town' in hit.get('how', '') and hit.get('map_link') and not hit.get('link_tried'):
+            hit = None   # placed at the town's middle: try the stadium's own map link once
         if hit and hit.get('rules') == RULES and ('lat' in hit or
                                                   (today - datetime.date.fromisoformat(hit['missed'])).days < RETRY_MISS_DAYS):
             continue
@@ -384,6 +406,20 @@ def locate(games, review_path=None):
             (how.split(':', 1)[1].rsplit(',', 1)[-1].strip() if how.startswith(('named:', 'named+town:')) else '') or \
             (town_in(how[8:]) if how.startswith('address:') else '')
         coords = None
+        link_tried = False
+        if st and st.get('map_link'):
+            # the stadium's own Google Maps pin, when it is in the right town (within 30 miles)
+            link_tried = True
+            try:
+                spot = map_link_coords(st['map_link'])
+                if spot:
+                    centre = nominatim(dict(city=st.get('city', ''), state='Texas'), st.get('city', ''))
+                    time.sleep(1.1)
+                    if not centre or miles(centre, spot) <= 30:
+                        coords, tries = spot, []
+                        how = how + ' (map link)'
+            except Exception as e:
+                print(f'  ! map link {st["map_link"]}: {e}')
         for q, q_how, want_town, want_zip, *more in tries:
             try:
                 coords = nominatim(q, want_town, want_zip, *more)
@@ -396,6 +432,8 @@ def locate(games, review_path=None):
         entry = dict(stadium_id=st.get('id') if st else None, stadium=st['name'] if st else None,
                      address=query_for(site, st) if st else '', map_link=(st or {}).get('map_link', ''), how=how)
         entry['rules'] = RULES
+        if link_tried:
+            entry['link_tried'] = True
         if coords:
             entry.update(lat=round(coords[0], 5), lng=round(coords[1], 5))
             added += 1
