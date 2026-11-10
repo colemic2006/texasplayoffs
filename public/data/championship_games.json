@@ -243,13 +243,6 @@
         "score2": null
       },
       {
-        "classification": "4A D1",
-        "team1": "San Antonio Alamo Heights",
-        "team2": "Copperas Cove",
-        "score1": null,
-        "score2": null
-      },
-      {
         "classification": "4A D2",
         "team1": "Lewisville Hebron",
         "team2": "CC Calallen",
@@ -1218,13 +1211,6 @@
       }
     ],
     "2005": [
-      {
-        "classification": "5A D1",
-        "team1": "Southlake Carroll",
-        "team2": "Austin Westlake",
-        "score1": null,
-        "score2": null
-      },
       {
         "classification": "5A D2",
         "team1": "Southlake Carroll",
