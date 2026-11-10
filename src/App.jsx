@@ -40,6 +40,15 @@ export default function App() {
       .catch(err => { setError(err.message); setLoading(false) })
   }, [year])
 
+  // every season's games (the Teams pages, and team search's history)
+  const loadAllYears = () => YEARS.forEach(y => {
+    if (data[y]) return
+    fetch(`${import.meta.env.BASE_URL}data/${y}.json?v=${__BUILD_TIME__}`)
+      .then(r => r.ok ? r.json() : null)
+      .then(d => { if (d) setData(prev => ({ ...prev, [y]: d })) })
+      .catch(() => {})
+  })
+
   // Preload all years when Teams or Chapter Regulars tab is active
   useEffect(() => {
     if (page !== 'teams' && page !== 'regulars') return
@@ -86,7 +95,7 @@ export default function App() {
             {!loading && !error && yearData && (
               <>
                 {(page === 'chapters' || page === 'brackets') && <SeasonBanner data={yearData} year={year} />}
-                {page === 'chapters' && <TeamSearch data={yearData} year={year} />}
+                {page === 'chapters' && <TeamSearch data={yearData} year={year} allData={data} years={YEARS} loadAllYears={loadAllYears} />}
                 {page === 'chapters' && <MissingGames data={yearData} onSubmit={() => setPage('submit')} />}
                 {page === 'chapters' && yearData.season && <WeekMap data={yearData} />}
                 {page === 'chapters' && <ChapterDashboard data={yearData} year={year} />}

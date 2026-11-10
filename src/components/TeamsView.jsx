@@ -3,7 +3,7 @@ import React, { useMemo, useState, useEffect } from 'react'
 const KNOWN_CHAPTERS = new Set(['ABI','AMA','AUS','BEA','STX','COM','CSC','CTX','DAL','ELP','FTW','HOU','NTX','PBC','PVC','RGV','SAT','SAN','SFA','SPC','TYL','WAC','WACO'])
 const BAD_NAMES = new Set(['total bracket counts','totals','total','bye','filler',''])
 
-function isValidTeam(name) {
+export function isValidTeam(name) {
   if (!name) return false
   const n = name.trim()
   if (!n) return false
@@ -51,7 +51,7 @@ const NAME_FIXES = {
   'Gold-Burg':              'Goldburg',
 }
 
-function canonicalize(name) {
+export function canonicalize(name) {
   const n = name.trim()
   return NAME_FIXES[n] || n
 }
