@@ -2,14 +2,14 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-10T04:52+00:00",
+    "updated": "2026-11-10T05:06+00:00",
     "games": 352,
     "played": 0,
-    "assigned": 329,
+    "assigned": 333,
     "weeks": {
       "1": {
         "games": 352,
-        "assigned": 329
+        "assigned": 333
       },
       "2": {
         "games": 0,
@@ -325,6 +325,20 @@
             "2A D1": 1,
             "2A D2": 2,
             "4A D1": 1
+          }
+        }
+      }
+    },
+    {
+      "code": "SFA",
+      "name": "Stephen F. Austin",
+      "total": 4,
+      "weeks": {
+        "1": {
+          "total": 4,
+          "classifications": {
+            "2A D1": 1,
+            "2A D2": 3
           }
         }
       }
@@ -1597,7 +1611,7 @@
       "classification": "2A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "SFA",
       "team1": "San Augustine",
       "score1": null,
       "team2": "Union Grove",
@@ -1897,7 +1911,7 @@
       "classification": "2A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "SFA",
       "team1": "Goldthwaite",
       "score1": null,
       "team2": "Hubbard",
@@ -1937,7 +1951,7 @@
       "classification": "2A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "SFA",
       "team1": "Colmesneil",
       "score1": null,
       "team2": "Cushing",
@@ -1977,7 +1991,7 @@
       "classification": "2A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "SFA",
       "team1": "Overton",
       "score1": null,
       "team2": "Evadale",
