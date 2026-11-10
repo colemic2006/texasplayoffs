@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-10T22:57+00:00",
+    "updated": "2026-11-10T22:59+00:00",
     "games": 352,
     "played": 0,
     "assigned": 350,
@@ -4607,12 +4607,7 @@
       "team2": "Pittsburg",
       "score2": null,
       "winner": null,
-      "site": "Tyler ISD Rose Stadium",
-      "lat": 32.34228,
-      "lng": -95.32406,
-      "stadium": "Christus Trinity Mother Frances Rose Stadium",
-      "map_link": "https://goo.gl/maps/ZwesgiaqJ8b5bMgQ7",
-      "city": "Tyler",
+      "site": "Bulldog Stadium, Tyler",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
