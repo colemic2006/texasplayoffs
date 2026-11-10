@@ -662,6 +662,18 @@
   "stadium": "Bulldog Field",
   "stadium_id": 867
  },
+ "Bulldog Stadium, Tyler || Sunnyvale v Pittsburg": {
+  "address": "13172 State Hwy 64 E, Tyler, Texas 75707",
+  "city": "Tyler",
+  "how": "stadium (town only)",
+  "lat": 32.35126,
+  "lng": -95.30106,
+  "map_link": "https://goo.gl/maps/dr3F7Gwex63W83Y29",
+  "rules": 10,
+  "site": "Bulldog Stadium, Tyler",
+  "stadium": "Bulldog Stadium",
+  "stadium_id": 443
+ },
  "Bulldog Stadium, Yoakum || Bremond v D'Hanis": {
   "address": "102 Koether Drive #2, Yoakum, Texas 77995",
   "city": "Yoakum",
