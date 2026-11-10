@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-10T19:58+00:00",
+    "updated": "2026-11-10T20:38+00:00",
     "games": 352,
     "played": 0,
     "assigned": 350,
@@ -795,6 +795,7 @@
       "team2": "Fannindel",
       "score2": null,
       "winner": null,
+      "site": "Yellow Jacket Field, 1002 Kirven St, Coolidge, TX 76635",
       "date": "2026-11-13",
       "time": "5:30 PM"
     },
