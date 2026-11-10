@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useEffect } from 'react'
+import React, { useState, useMemo, useEffect, useRef } from 'react'
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell
 } from 'recharts'
@@ -50,6 +50,11 @@ export default function ChapterDashboard({ data, year }) {
   const [sortBy, setSortBy] = useState('total')
   const [selectedWeek, setSelectedWeek] = useState('all')
   const [selectedChapter, setSelectedChapter] = useState(null)
+  // bring the chapter's games into view when a bar or row is clicked
+  const detailRef = useRef(null)
+  useEffect(() => {
+    if (selectedChapter && detailRef.current) detailRef.current.scrollIntoView({ behavior:'smooth', block:'start' })
+  }, [selectedChapter])
   const [detailWeek, setDetailWeek] = useState('all')
   const [detailClass, setDetailClass] = useState('all')
 
@@ -161,8 +166,21 @@ export default function ChapterDashboard({ data, year }) {
           />
         </div>
 
+        {/* how to use the chart */}
+        <div style={{
+          display:'flex', alignItems:'center', gap:12, marginBottom:14, padding:'12px 16px',
+          background:'rgba(193,68,14,0.07)', border:'1px solid rgba(193,68,14,0.25)', borderLeft:'3px solid var(--burnt)', borderRadius:8,
+        }}>
+          <span style={{ fontSize:20, lineHeight:1 }} aria-hidden="true">👆</span>
+          <div style={{ fontSize:13, color:'var(--ink)', lineHeight:1.5 }}>
+            {selectedChapterData
+              ? <>Showing <strong>{CHAPTER_NAMES[selectedChapterData.code] || selectedChapterData.code}</strong> below. Click another bar to switch chapters, or the same bar again to close it.</>
+              : <><strong>Click any chapter's bar</strong> to see every game that chapter is working: matchups, sites, dates and kickoff times, with a week-by-week breakdown. You can also click a chapter's row in the table further down.</>}
+          </div>
+        </div>
+
         <div style={{ display:'flex', gap:16, alignItems:'stretch' }}>
-          <div style={{ flex:1, background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, padding:'24px 8px 8px' }}>
+          <div style={{ flex:1, background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, padding:'24px 8px 8px', cursor:'pointer' }}>
             <ResponsiveContainer width="100%" height={260}>
               <BarChart data={barData} margin={{ top:4, right:8, left:0, bottom:30 }}>
                 <XAxis dataKey="code" tick={{ fontFamily:'DM Mono', fontSize:9, fill:'var(--mid)' }} angle={-45} textAnchor="end" />
@@ -210,14 +228,11 @@ export default function ChapterDashboard({ data, year }) {
             )}
           </div>
         </div>
-        <div style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)', marginTop:6, textAlign:'center', letterSpacing:'0.1em' }}>
-          Click a bar to drill into that chapter's weekly breakdown
-        </div>
       </div>
 
       {/* ── CHAPTER DETAIL (drill-in) ── */}
       {selectedChapterData && (
-        <div style={{ marginBottom:48 }}>
+        <div ref={detailRef} style={{ marginBottom:48, scrollMarginTop:90 }}>
           <SectionLabel>Chapter Detail</SectionLabel>
           <SectionTitle accent="var(--gold)">{CHAPTER_NAMES[selectedChapterData.code] || selectedChapterData.name} ({selectedChapterData.code})</SectionTitle>
 
