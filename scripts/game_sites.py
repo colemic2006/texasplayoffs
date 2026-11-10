@@ -126,7 +126,8 @@ def find_stadium(site, stadiums, teams=()):
                      and st.get('city') and f' {norm(st["city"])} ' in s]
     one = lambda group: group[0] if group and len({(st['name'], st.get('city')) for st in group}) == 1 else None
     county = {norm(st['city']): st.get('county') for st in stadiums if st.get('city') and st.get('county')}
-    parts = [p.strip() for p in site.split(',') if p.strip()]
+    # "..., Coolidge, TX 76635": the state and ZIP code aren't the town
+    parts = [p for p in (re.sub(r'\b(TX|Texas)\b|\b\d{5}(-\d{4})?\b', '', p).strip(' .') for p in site.split(',')) if p]
     stated = norm(parts[-1]) if len(parts) > 1 and (norm(parts[-1]) in county or norm(parts[-1]) in school_towns()) else ''
     if stated:
         pool = named + [st for st in loose if st not in named]
