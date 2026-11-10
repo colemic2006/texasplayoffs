@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-10T15:29+00:00",
+    "updated": "2026-11-10T15:40+00:00",
     "games": 352,
     "played": 0,
     "assigned": 341,
@@ -585,6 +585,11 @@
       "score2": null,
       "winner": null,
       "site": "The Bears' Den, Baird",
+      "lat": 32.39871,
+      "lng": -99.40003,
+      "stadium": "The Bears' Den",
+      "map_link": "https://goo.gl/maps/G551wrtuVmVkLiB98",
+      "city": "Baird",
       "date": "2026-11-13",
       "time": "7:30 PM"
     },

@@ -4350,6 +4350,18 @@
   "stadium": "Stingaree Stadium",
   "stadium_id": 362
  },
+ "The Bears' Den, Baird || Newcastle v May": {
+  "address": "600 W. 7th, Baird, Texas 79504",
+  "city": "Baird",
+  "how": "stadium",
+  "lat": 32.39871,
+  "lng": -99.40003,
+  "map_link": "https://goo.gl/maps/G551wrtuVmVkLiB98",
+  "rules": 10,
+  "site": "The Bears' Den, Baird",
+  "stadium": "The Bears' Den",
+  "stadium_id": 1007
+ },
  "The Pfield, Pflugerville || Pflugerville Weiss v Iowa Colony": {
   "address": "1440 W Pecan St, Pflugerville, Texas 78660",
   "city": "Pflugerville",
