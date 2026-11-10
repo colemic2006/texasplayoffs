@@ -2,14 +2,14 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-10T15:47+00:00",
+    "updated": "2026-11-10T18:13+00:00",
     "games": 352,
     "played": 0,
-    "assigned": 347,
+    "assigned": 348,
     "weeks": {
       "1": {
         "games": 352,
-        "assigned": 347
+        "assigned": 348
       },
       "2": {
         "games": 0,
@@ -302,15 +302,15 @@
     {
       "code": "AMA",
       "name": "Amarillo",
-      "total": 6,
+      "total": 7,
       "weeks": {
         "1": {
-          "total": 6,
+          "total": 7,
           "classifications": {
             "1A D1": 1,
             "1A D2": 1,
             "2A D1": 3,
-            "3A D2": 1
+            "3A D2": 2
           }
         }
       }
@@ -2996,7 +2996,7 @@
       "classification": "3A D2",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "AMA",
       "team1": "Coahoma",
       "score1": null,
       "team2": "Holliday",
