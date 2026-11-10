@@ -2,14 +2,14 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-10T05:43+00:00",
+    "updated": "2026-11-10T05:44+00:00",
     "games": 352,
     "played": 0,
-    "assigned": 340,
+    "assigned": 341,
     "weeks": {
       "1": {
         "games": 352,
-        "assigned": 340
+        "assigned": 341
       },
       "2": {
         "games": 0,
@@ -37,16 +37,16 @@
     {
       "code": "HOU",
       "name": "Houston",
-      "total": 61,
+      "total": 62,
       "weeks": {
         "1": {
-          "total": 61,
+          "total": 62,
           "classifications": {
             "2A D1": 2,
             "2A D2": 1,
             "3A D1": 4,
             "3A D2": 1,
-            "4A D1": 3,
+            "4A D1": 4,
             "4A D2": 12,
             "5A D1": 7,
             "5A D2": 6,
@@ -3908,7 +3908,7 @@
       "classification": "4A D1",
       "week": 1,
       "round": "Bi-District",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Houston Stafford",
       "score1": null,
       "team2": "Bridge City",
