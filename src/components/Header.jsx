@@ -35,7 +35,7 @@ export default function Header({ yearData, year }) {
         letterSpacing: 1.5, marginBottom: 10
       }}>
         Texas Playoffs<br />
-        <span style={{ color: 'var(--burnt)' }}>Chapter Tracker</span>
+        <span style={{ color: 'var(--gold)' }}>Chapter Tracker</span>
       </h1>
 
       <p className="header-subtitle" style={{

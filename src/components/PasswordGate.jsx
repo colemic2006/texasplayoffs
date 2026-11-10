@@ -79,7 +79,7 @@ export default function PasswordGate({ onUnlock }) {
           style={{
             fontFamily: 'var(--mono)', fontSize: 13,
             padding: '10px 14px', borderRadius: 6,
-            border: `1px solid ${error ? 'rgba(193,68,14,0.7)' : 'rgba(255,255,255,0.15)'}`,
+            border: `1px solid ${error ? 'rgba(91,45,142,0.7)' : 'rgba(255,255,255,0.15)'}`,
             background: 'rgba(255,255,255,0.04)', color: 'var(--paper)',
             outline: 'none', width: '100%', boxSizing: 'border-box',
           }}

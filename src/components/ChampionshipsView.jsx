@@ -11,11 +11,11 @@ const CHAPTER_NAMES = {
 
 const HEAT_COLORS = [
   'transparent',
-  'rgba(193,68,14,0.18)',
-  'rgba(193,68,14,0.38)',
-  'rgba(193,68,14,0.58)',
-  'rgba(193,68,14,0.78)',
-  'rgba(193,68,14,0.95)',
+  'rgba(91,45,142,0.18)',
+  'rgba(91,45,142,0.38)',
+  'rgba(91,45,142,0.58)',
+  'rgba(91,45,142,0.78)',
+  'rgba(91,45,142,0.95)',
 ]
 
 function heatColor(val, max) {

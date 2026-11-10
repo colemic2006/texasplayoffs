@@ -2,7 +2,7 @@ import React, { useState, useMemo, useEffect } from 'react'
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend } from 'recharts'
 
 const CHAPTER_COLORS = [
-  '#C1440E','#D4920A','#2C4A6E','#2B5C4E','#5C2B5C','#6B6058',
+  '#5B2D8E','#E3B12B','#2C4A6E','#2B5C4E','#5C2B5C','#6B6058',
   '#8B1A1A','#1A5276','#1E8449','#7D3C98','#B7770D','#2E86C1'
 ]
 
@@ -74,7 +74,7 @@ export default function HistoryView({ allData, years, loadYear }) {
 
       {missingYears.length > 0 && (
         <div style={{
-          background:'rgba(212,146,10,0.06)', border:'1px solid rgba(212,146,10,0.2)',
+          background:'rgba(227,177,43,0.06)', border:'1px solid rgba(227,177,43,0.2)',
           borderRadius:8, padding:'12px 16px', marginBottom:20, fontSize:12, color:'var(--mid)'
         }}>
           <strong style={{ color:'var(--gold)' }}>Note:</strong> Data for {missingYears.join(', ')} hasn't been loaded yet.{' '}

@@ -83,7 +83,7 @@ export default function ContactView() {
             style={{
               fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.14em',
               textTransform: 'uppercase', padding: '11px 20px', borderRadius: 6,
-              background: state.submitting ? 'rgba(193,68,14,0.5)' : 'var(--burnt)',
+              background: state.submitting ? 'rgba(91,45,142,0.5)' : 'var(--burnt)',
               border: 'none', color: '#fff',
               cursor: state.submitting ? 'default' : 'pointer',
               alignSelf: 'flex-start',

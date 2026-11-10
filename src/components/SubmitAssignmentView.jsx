@@ -126,7 +126,7 @@ export default function SubmitAssignmentView() {
           <button type="submit" disabled={state.submitting} style={{
             fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.14em', textTransform: 'uppercase',
             padding: '11px 20px', borderRadius: 6, border: 'none', color: '#fff', alignSelf: 'flex-start',
-            background: state.submitting ? 'rgba(193,68,14,0.5)' : 'var(--burnt)', cursor: state.submitting ? 'default' : 'pointer',
+            background: state.submitting ? 'rgba(91,45,142,0.5)' : 'var(--burnt)', cursor: state.submitting ? 'default' : 'pointer',
           }}>
             {state.submitting ? 'Sending…' : 'Submit Assignment'}
           </button>
