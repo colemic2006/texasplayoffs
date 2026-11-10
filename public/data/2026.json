@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-10T03:23+00:00",
+    "updated": "2026-11-10T03:24+00:00",
     "games": 352,
     "played": 0,
     "assigned": 322,
@@ -6667,7 +6667,7 @@
       "stadium": "Cavalier Stadium at Lake Travis",
       "map_link": "https://goo.gl/maps/5KSG8aCD9QL2iW6C8",
       "city": "Austin",
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "time": "7:00 PM"
     },
     {
@@ -6687,7 +6687,7 @@
       "stadium": "Burger Stadium",
       "map_link": "https://goo.gl/maps/mau3jqhnG9jNcbuS6",
       "city": "Austin",
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "time": "7:30 PM"
     },
     {
@@ -7325,7 +7325,7 @@
       "stadium": "Tiger Stadium",
       "map_link": "https://goo.gl/maps/wy4WZ2bh1WEt45D88",
       "city": "Dripping Springs",
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "time": "7:00 PM"
     }
   ]
