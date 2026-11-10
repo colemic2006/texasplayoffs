@@ -6,6 +6,7 @@ import { placeName, gameWhen } from '../placeName'
 import { useDctfTeams, DctfLinks } from '../dctf'
 
 const WEEKS = ['1','2','3','4','5','6']
+const RETIRED = new Set(['WACO', 'ETX'])   // codes no longer in use: WACO is WAC; East Texas merged into Tyler
 const ROUND_LABELS = { '1':'Week 1', '2':'Week 2', '3':'Week 3', '4':'Week 4', '5':'Week 5', '6':'Week 6' }
 const CLASSIFICATIONS = ['1A D1','1A D2','2A D1','2A D2','3A D1','3A D2','4A D1','4A D2','5A D1','5A D2','6A D1','6A D2']
 
@@ -63,12 +64,12 @@ export default function ChapterDashboard({ data, year, allData = {}, years = [],
   const [filterClass, setFilterClass] = useState('all')
   const [tableClass, setTableClass] = useState('all')
 
-  // every chapter, including those with no games yet, so all of them show on the chart and table
+  // every current chapter, including those with no games yet (East Texas was folded into Tyler), so all of them show on the chart and table
   const chapters = useMemo(() => {
     const have = data?.chapters || []
     const codes = new Set(have.map(c => c.code === 'WACO' ? 'WAC' : c.code))
     const missing = Object.entries(CHAPTER_NAMES)
-      .filter(([code]) => code !== 'WACO' && !codes.has(code))
+      .filter(([code]) => !RETIRED.has(code) && !codes.has(code))
       .map(([code, name]) => ({ code, name, total: 0, weeks: {} }))
     return [...have, ...missing]
   }, [data])
