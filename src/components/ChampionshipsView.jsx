@@ -32,6 +32,7 @@ export default function ChampionshipsView() {
   const [sortBy, setSortBy] = useState('total') // 'total' | 'name'
   const [highlightChapter, setHighlightChapter] = useState(null)
   const [gamesByChYear, setGamesByChYear] = useState({}) // { 'HOU': { '2022': [game,...] } }
+  const [range, setRange] = useState(null)   // [from, to] seasons shown; null = all
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/championships.json?v=${__BUILD_TIME__}`)
@@ -81,8 +82,11 @@ export default function ChampionshipsView() {
 
   const { chapters, years, maxVal, sorted, grandTotal } = useMemo(() => {
     if (!data) return { chapters: {}, years: [], maxVal: 1, sorted: [], grandTotal: 0 }
-    const chapters = data.chapters
-    const years = data.years
+    // only the seasons in the chosen range
+    const [lo, hi] = range || [data.years[0], data.years[data.years.length - 1]]
+    const years = data.years.filter(y => y >= lo && y <= hi)
+    const chapters = Object.fromEntries(Object.entries(data.chapters).map(([ch, byYear]) =>
+      [ch, Object.fromEntries(Object.entries(byYear).filter(([y]) => years.includes(y)))]))
 
     let maxVal = 1
     Object.values(chapters).forEach(byYear => {
@@ -103,7 +107,7 @@ export default function ChampionshipsView() {
     const grandTotal = totals.reduce((s, t) => s + t.total, 0)
 
     return { chapters, years, maxVal, sorted, grandTotal }
-  }, [data, sortBy])
+  }, [data, sortBy, range])
 
   if (!data) return (
     <div style={{ display:'flex', alignItems:'center', justifyContent:'center', padding:80, gap:12, color:'var(--mid)' }}>
@@ -128,10 +132,13 @@ export default function ChampionshipsView() {
       </div>
 
       <div style={{ fontFamily:'var(--mono)', fontSize:11, color:'var(--mid)', marginBottom:20 }}>
-        Texas High School Football Championships per chapter, 2000–2025 ·{' '}
+        Texas High School Football Championships per chapter, {years[0]}{years.length > 1 ? `–${years[years.length - 1]}` : ''} ·{' '}
         <span style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:16, color:'var(--burnt)' }}>{grandTotal}</span>{' '}
         known championship assignments
       </div>
+
+      {/* Seasons shown */}
+      <RangePicker all={data.years} range={range} setRange={setRange} />
 
       {/* Controls */}
       <div style={{ display:'flex', gap:8, marginBottom:20, flexWrap:'wrap', alignItems:'center' }}>
@@ -200,6 +207,14 @@ export default function ChampionshipsView() {
 function GameCardsPanel({ ch, name, byYear, gamesByYear, onClose }) {
   const years = Object.keys(byYear).filter(y => byYear[y] > 0).sort()
   if (years.length === 0) return null
+  // one tile per game; a season whose games aren't on file gets a tile for each game it counts
+  const tiles = years.flatMap(year => {
+    const games = gamesByYear[year] || []
+    const known = games.map(g => ({ year, g }))
+    const missing = Math.max(0, (byYear[year] || 0) - known.length)
+    return [...known, ...Array.from({ length: missing }, () => ({ year, g: null }))]
+  })
+  const total = Object.values(byYear).reduce((s, v) => s + v, 0)
   return (
     <div style={{
       marginTop:20, marginBottom:8,
@@ -211,7 +226,7 @@ function GameCardsPanel({ ch, name, byYear, gamesByYear, onClose }) {
           <span style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:20, color:'var(--mid)' }}>{ch}</span>
           <span style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:20, color:'var(--ink)' }}>{name}</span>
           <span style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)', textTransform:'uppercase', letterSpacing:'0.1em' }}>
-            · {years.length} season{years.length !== 1 ? 's' : ''} · {Object.values(byYear).reduce((s,v)=>s+v,0)} games
+            · {years.length} season{years.length !== 1 ? 's' : ''} · {total} game{total !== 1 ? 's' : ''}
           </span>
         </div>
         <button onClick={onClose} style={{
@@ -220,62 +235,62 @@ function GameCardsPanel({ ch, name, byYear, gamesByYear, onClose }) {
         }}>✕</button>
       </div>
       <div style={{ display:'flex', flexWrap:'wrap', gap:10 }}>
-        {years.map(year => {
-          const games = gamesByYear[year]
+        {tiles.map(({ year, g }, i) => {
+          const scored = g && g.score1 != null && g.score2 != null
+          const win = scored ? (g.score1 > g.score2 ? 1 : g.score2 > g.score1 ? 2 : 0) : 0
+          const team = (t, sc, me) => (
+            <div style={{ display:'flex', justifyContent:'space-between', gap:12 }}>
+              <span style={{ fontFamily:'DM Sans', fontSize:12, fontWeight: win === me ? 600 : 400, color: win === me || !scored ? 'var(--ink)' : 'var(--mid)' }}>{t}</span>
+              {scored && <span style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:16, lineHeight:1.2, color: win === me ? 'var(--burnt)' : 'var(--mid)' }}>{sc}</span>}
+            </div>
+          )
           return (
-            <div key={year} style={{
-              background:'var(--bg)', border:'1px solid var(--border)',
-              borderRadius:8, padding:'10px 14px', minWidth:200
-            }}>
-              <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:16, color:'var(--burnt)', marginBottom:8 }}>{year}</div>
-              {games ? games.map((g, i) => (
-                <div key={i} style={{ marginBottom: i < games.length - 1 ? 8 : 0 }}>
-                  <div style={{ fontFamily:'var(--mono)', fontSize:8, color:'var(--mid)', textTransform:'uppercase', letterSpacing:'0.1em', marginBottom:4 }}>
-                    {g.classification}
-                  </div>
-                  {g.score1 != null && g.score2 != null ? (
-                    <>
-                      <div style={{ display:'flex', alignItems:'center', gap:6 }}>
-                        <div style={{ flex:1 }}>
-                          <div style={{
-                            fontFamily:'DM Sans', fontSize:12, fontWeight: g.winner === g.team1 ? 600 : 400,
-                            color: g.winner === g.team1 ? 'var(--ink)' : 'var(--mid)'
-                          }}>{g.team1}</div>
-                          <div style={{
-                            fontFamily:'DM Sans', fontSize:12, fontWeight: g.winner === g.team2 ? 600 : 400,
-                            color: g.winner === g.team2 ? 'var(--ink)' : 'var(--mid)'
-                          }}>{g.team2}</div>
-                        </div>
-                        <div style={{ textAlign:'right' }}>
-                          <div style={{
-                            fontFamily:"'Bebas Neue', sans-serif", fontSize:16,
-                            color: g.winner === g.team1 ? 'var(--burnt)' : 'var(--mid)', lineHeight:1.2
-                          }}>{g.score1}</div>
-                          <div style={{
-                            fontFamily:"'Bebas Neue', sans-serif", fontSize:16,
-                            color: g.winner === g.team2 ? 'var(--burnt)' : 'var(--mid)', lineHeight:1.2
-                          }}>{g.score2}</div>
-                        </div>
-                      </div>
-                      {g.ot && (
-                        <div style={{ fontFamily:'var(--mono)', fontSize:8, color:'var(--mid)', marginTop:3 }}>({g.ot})</div>
-                      )}
-                    </>
-                  ) : (
-                    <div style={{ fontFamily:'DM Sans', fontSize:12, color:'var(--mid)' }}>
-                      {g.team1} vs {g.team2}
-                    </div>
-                  )}
-                </div>
-              )) : (
-                <div style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)' }}>
-                  {byYear[year]} game{byYear[year] !== 1 ? 's' : ''} — no detail available
-                </div>
+            <div key={i} style={{ background:'var(--bg)', border:'1px solid var(--border)', borderRadius:8, padding:'10px 14px', width:210, boxSizing:'border-box' }}>
+              <div style={{ display:'flex', alignItems:'baseline', justifyContent:'space-between', marginBottom:6 }}>
+                <span style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:16, color:'var(--burnt)' }}>{year}</span>
+                {g && <span style={{ fontFamily:'var(--mono)', fontSize:8, color:'var(--mid)', textTransform:'uppercase', letterSpacing:'0.1em' }}>{g.classification === '6M' ? 'Six-Man' : g.classification}</span>}
+              </div>
+              {g ? (
+                <>
+                  {team(g.team1, g.score1, 1)}
+                  {team(g.team2, g.score2, 2)}
+                  {g.ot && <div style={{ fontFamily:'var(--mono)', fontSize:8, color:'var(--mid)', marginTop:3 }}>({g.ot})</div>}
+                </>
+              ) : (
+                <div style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)' }}>Game details not on file</div>
               )}
             </div>
           )
         })}
       </div>
+    </div>
+  )
+}
+
+const RANGE_PRESETS = [['All years', null], ['2000s', [2000, 2009]], ['2010s', [2010, 2019]], ['2020s', [2020, 2029]], ['Last 5', 5], ['Last 10', 10]]
+
+function RangePicker({ all, range, setRange }) {
+  const first = all[0], last = all[all.length - 1]
+  const [lo, hi] = range || [first, last]
+  const pick = p => setRange(p === null ? null : typeof p === 'number' ? [all[Math.max(0, all.length - p)], last] : [String(p[0]), String(Math.min(p[1], +last))])
+  const isOn = p => JSON.stringify(p === null ? null : typeof p === 'number' ? [all[Math.max(0, all.length - p)], last] : [String(p[0]), String(Math.min(p[1], +last))]) === JSON.stringify(range)
+  const btn = on => ({
+    fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.08em', padding:'5px 10px', borderRadius:4, cursor:'pointer',
+    border:'1px solid var(--border)', background: on ? 'var(--ink)' : 'transparent', color: on ? 'var(--cream)' : 'var(--mid)',
+  })
+  const sel = { fontFamily:'var(--mono)', fontSize:11, padding:'4px 6px', borderRadius:4, border:'1px solid var(--border)', background:'var(--surface)', color:'var(--ink)' }
+  return (
+    <div style={{ display:'flex', gap:8, flexWrap:'wrap', alignItems:'center', marginBottom:16 }}>
+      <span style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--mid)' }}>Seasons:</span>
+      {RANGE_PRESETS.map(([lbl, p]) => <button key={lbl} onClick={() => pick(p)} style={btn(range === null ? p === null : isOn(p))}>{lbl}</button>)}
+      <span style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginLeft:6 }}>or from</span>
+      <select value={lo} onChange={e => setRange([e.target.value, e.target.value > hi ? e.target.value : hi])} style={sel}>
+        {all.map(y => <option key={y} value={y}>{y}</option>)}
+      </select>
+      <span style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)' }}>to</span>
+      <select value={hi} onChange={e => setRange([e.target.value < lo ? e.target.value : lo, e.target.value])} style={sel}>
+        {all.map(y => <option key={y} value={y}>{y}</option>)}
+      </select>
     </div>
   )
 }
