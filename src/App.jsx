@@ -98,7 +98,7 @@ export default function App() {
                 {page === 'chapters' && <TeamSearch data={yearData} year={year} allData={data} years={YEARS} loadAllYears={loadAllYears} />}
                 {page === 'chapters' && <MissingGames data={yearData} onSubmit={() => setPage('submit')} />}
                 {page === 'chapters' && yearData.season && <WeekMap data={yearData} />}
-                {page === 'chapters' && <ChapterDashboard data={yearData} year={year} />}
+                {page === 'chapters' && <ChapterDashboard data={yearData} year={year} allData={data} years={YEARS} loadAllYears={loadAllYears} />}
                 {page === 'brackets' && <BracketViewer data={yearData} year={year} />}
                 {page === 'history' && <HistoryView allData={data} years={HISTORY_YEARS} loadYear={(y) => {
                   if (data[y]) return

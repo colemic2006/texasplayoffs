@@ -46,7 +46,7 @@ function SectionTitle({ accent, children }) {
   )
 }
 
-export default function ChapterDashboard({ data, year }) {
+export default function ChapterDashboard({ data, year, allData = {}, years = [], loadAllYears }) {
   const [sortBy, setSortBy] = useState('total')
   const [selectedWeek, setSelectedWeek] = useState('all')
   const [selectedChapter, setSelectedChapter] = useState(null)
@@ -64,6 +64,24 @@ export default function ChapterDashboard({ data, year }) {
   const [tableClass, setTableClass] = useState('all')
 
   const chapters = data?.chapters || []
+
+  // each chapter's average season in the other finished seasons, for the table's Hist. Avg column
+  useEffect(() => { if (loadAllYears) loadAllYears() }, [])
+  const histAvg = useMemo(() => {
+    const per = {}
+    for (const y of years) {
+      const d = allData[y]
+      if (y === year || !d || d.season?.status === 'in_progress') continue
+      for (const ch of d.chapters || []) {
+        if (!(ch.total > 0)) continue      // seasons the chapter worked games in
+        const n = tableClass === 'all' ? ch.total
+          : WEEKS.reduce((s, w) => s + (ch.weeks?.[w]?.classifications?.[tableClass] || 0), 0)
+        const code = ch.code === 'WACO' ? 'WAC' : ch.code
+        ;(per[code] = per[code] || []).push(n)
+      }
+    }
+    return Object.fromEntries(Object.entries(per).map(([c, xs]) => [c, { avg: xs.reduce((a, b) => a + b, 0) / xs.length, seasons: xs.length }]))
+  }, [allData, years, year, tableClass])
 
   const sorted = useMemo(() => {
     return [...chapters].sort((a, b) => {
@@ -337,6 +355,7 @@ export default function ChapterDashboard({ data, year }) {
                 <th style={{ ...thStyle, textAlign:'left', position:'sticky', left:0, background:'rgba(245,240,232,0.98)' }}>Chapter</th>
                 {WEEKS.map(w => <th key={w} style={thStyle}>Wk {w}</th>)}
                 <th style={{ ...thStyle, color:'var(--burnt)' }}>Total</th>
+                <th style={thStyle} title="Average games per season in the other seasons on the site, counting the seasons the chapter worked playoff games">Hist. Avg</th>
                 <th style={thStyle}>% of Games</th>
               </tr>
             </thead>
@@ -384,6 +403,10 @@ export default function ChapterDashboard({ data, year }) {
                     })}
                     <td style={{ ...tdStyle, textAlign:'center', fontFamily:"'Bebas Neue', sans-serif", fontSize:18, color:'var(--burnt)' }}>
                       {rowTotal}
+                    </td>
+                    <td style={{ ...tdStyle, textAlign:'center', fontFamily:"'Bebas Neue', sans-serif", fontSize:18, color:'var(--mid)' }}
+                        title={histAvg[ch.code] ? `Average of ${histAvg[ch.code].seasons} season${histAvg[ch.code].seasons === 1 ? '' : 's'}` : 'No other seasons on record'}>
+                      {histAvg[ch.code] ? histAvg[ch.code].avg.toFixed(1) : '—'}
                     </td>
                     <td style={{ ...tdStyle, textAlign:'center' }}>
                       <PctBar pct={parseFloat(pct)} />
