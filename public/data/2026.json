@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-10T20:38+00:00",
+    "updated": "2026-11-10T20:43+00:00",
     "games": 352,
     "played": 0,
     "assigned": 350,
@@ -439,6 +439,7 @@
       "team2": "Claude",
       "score2": null,
       "winner": null,
+      "site": "Mustang Stadium, Claude",
       "date": "2026-11-13",
       "time": "7:30 PM"
     },
