@@ -1911,6 +1911,18 @@
   "stadium": "Gopher Warrior Bowl",
   "stadium_id": 248
  },
+ "Grapeland Sandies Stadium, Grapeland || Aquilla v Chester": {
+  "address": "1257 N Olive St, Grapeland, Texas 75844",
+  "city": "Grapeland",
+  "how": "stadium",
+  "lat": 31.49523,
+  "lng": -95.48492,
+  "map_link": "https://goo.gl/maps/wri5EzghE7nnRcCg8",
+  "rules": 10,
+  "site": "Grapeland Sandies Stadium, Grapeland",
+  "stadium": "Grapeland Sandies Stadium",
+  "stadium_id": 459
+ },
  "Greenville HS || Grand Saline v Leonard": {
   "address": "3515 Lions Lair Road, Greenville, Texas 75401",
   "city": "Greenville",
@@ -3228,6 +3240,18 @@
   "stadium": null,
   "stadium_id": null
  },
+ "Mustang Stadium, Claude || Whiteface v Claude": {
+  "address": "605 Cherry Street, Claude, Texas 79019",
+  "city": "Claude",
+  "how": "stadium",
+  "lat": 35.10564,
+  "lng": -101.3648,
+  "map_link": "https://goo.gl/maps/Q8KwQKPkZ6kMPf629",
+  "rules": 10,
+  "site": "Mustang Stadium, Claude",
+  "stadium": "Mustang Stadium",
+  "stadium_id": 798
+ },
  "Mustang Stadium, Madisonville || Anahuac v Palestine Westwood": {
   "address": "811 S May St,, Madisonville, Texas 77864",
   "city": "Madisonville",
@@ -3657,6 +3681,18 @@
   "site": "Prim Stadium, Sulphur Springs",
   "stadium": "Gerald Prim Stadium",
   "stadium_id": 699
+ },
+ "R. Clinton Schulze Puncher Dome Stadium, Mason || Oglesby v Knippa": {
+  "address": "566 Fairground Rd, Mason, Texas 76856",
+  "city": "Mason",
+  "how": "stadium (town only)",
+  "lat": 30.74848,
+  "lng": -99.23193,
+  "map_link": "https://goo.gl/maps/KtFLPG9DVPtK26Jz8",
+  "rules": 10,
+  "site": "R. Clinton Schulze Puncher Dome Stadium, Mason",
+  "stadium": "R. Clinton Schulze Puncher Dome Stadium",
+  "stadium_id": 151
  },
  "Ram Stadium, Mineral Wells || Muenster v Hawley": {
   "address": "3801 Ram Blvd, Mineral Wells, Texas 76067",
@@ -4725,6 +4761,18 @@
   "stadium": "Wildcat Stadium",
   "stadium_id": 190
  },
+ "Wildcat Stadium, Westbrook || Borden County v Grady": {
+  "address": "100 Morrison St, Westbrook, Texas 79565",
+  "city": "Westbrook",
+  "how": "stadium",
+  "lat": 32.36069,
+  "lng": -101.01379,
+  "map_link": "https://goo.gl/maps/oijXtWPis21bs8zZ8",
+  "rules": 10,
+  "site": "Wildcat Stadium, Westbrook",
+  "stadium": "Wildcat Stadium",
+  "stadium_id": 1014
+ },
  "Wildcat-Ram Stadium || Dallas Lake Highlands v Haltom": {
   "address": "9449 Church Rd, Dallas, Texas 75238",
   "city": "Dallas",
@@ -4880,5 +4928,17 @@
   "site": "Wylie ISD Stadium",
   "stadium": "Wylie ISD Stadium",
   "stadium_id": 289
+ },
+ "Yellow Jacket Field, 1002 Kirven St, Coolidge, TX 76635 || Three Way v Fannindel": {
+  "address": "600 N Reiffert, Runge, Texas 78151",
+  "city": "Runge",
+  "how": "stadium",
+  "lat": 28.88621,
+  "lng": -97.71123,
+  "map_link": "https://goo.gl/maps/daJodxHZ8ufwhaYi8",
+  "rules": 10,
+  "site": "Yellow Jacket Field, 1002 Kirven St, Coolidge, TX 76635",
+  "stadium": "Yellow Jacket Field",
+  "stadium_id": 965
  }
 }
