@@ -124,7 +124,6 @@ function TeamCard({ t, seasonsOnSite, homeChapter, finals, year, inProgress, hom
             {t.name}{finals.some(f => f.won) && <span style={{ fontSize:16, marginLeft:8 }} title="State champion">🏆{finals.filter(f => f.won).length > 1 ? `×${finals.filter(f => f.won).length}` : ''}</span>}
           </div>
           <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--steel)', marginTop:4 }}>{classes}</div>
-          {homeChapter && <div style={{ fontSize:12, color:'var(--mid)', marginTop:4 }}>Home chapter: <strong style={{ color:'var(--burnt)' }}>{chName(homeChapter)}</strong></div>}
           {home && (
             <div style={{ fontSize:12, color:'var(--mid)', marginTop:4 }}>
               Home stadium: <a href={home.map_link || `https://texasbob.com/stadium/stadium.php?id=${home.stadium_id}`} target="_blank" rel="noopener noreferrer" style={{ color:'var(--ink)' }}>{home.stadium}</a>
@@ -168,6 +167,20 @@ function TeamCard({ t, seasonsOnSite, homeChapter, finals, year, inProgress, hom
 
       {/* history, as on the Teams page */}
       <div style={{ display:'flex', flexWrap:'wrap', gap:'10px 28px', marginTop:14, paddingTop:12, borderTop:'1px solid var(--border)' }}>
+        <div style={{ flex:'1 1 150px' }}>
+          <div style={label}>Home chapter</div>
+          <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:22, color: homeChapter ? 'var(--burnt)' : 'var(--mid)', lineHeight:1.15, marginTop:2 }}>
+            {homeChapter ? (CHAPTERS[homeChapter] || homeChapter) : '—'}
+          </div>
+          <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)' }}>{homeChapter || 'Not on file yet'}</div>
+        </div>
+        <div style={{ flex:'1 1 150px' }}>
+          <div style={label}>Favorite chapter</div>
+          <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:22, color: chapters.length ? 'var(--burnt)' : 'var(--mid)', lineHeight:1.15, marginTop:2 }}>
+            {chapters.length ? chapters.filter(([, n]) => n === chapters[0][1]).map(([c]) => CHAPTERS[c] || c).join(' / ') : '—'}
+          </div>
+          <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)' }}>{chapters.length ? `${chapters[0][1]} game${chapters[0][1] === 1 ? '' : 's'}` : 'None recorded'}</div>
+        </div>
         <Fact k="Playoff appearances" v={seasons.length} sub={seasons.join(', ')} />
         <Fact k="Playoff games" v={t.games.length} sub={record.w + record.l ? `${record.w}–${record.l} where scores are known` : ''} />
         <div style={{ flex:'2 1 260px' }}>
