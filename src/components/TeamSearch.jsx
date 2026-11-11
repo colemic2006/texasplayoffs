@@ -3,6 +3,7 @@ import { placeName, gameWhen } from '../placeName'
 import { useDctfTeams, DctfLinks } from '../dctf'
 import { canonicalize, isValidTeam } from './TeamsView'
 import { useFinals } from '../finals'
+import { useHomeChapters } from '../homeChapters'
 
 const ROUNDS = { 1:'Bi-District', 2:'Area', 3:'Regionals', 4:'Quarterfinals', 5:'Semifinals', 6:'Championship' }
 const CHAPTERS = {
@@ -23,6 +24,7 @@ export default function TeamSearch({ data, year, allData = {}, years = [], loadA
   const [homes, setHomes] = useState({})
   const dctf = useDctfTeams()
   const finals = useFinals(allData, years)
+  const homeCh = useHomeChapters()
   const games = data?.games || []
   const inProgress = data?.season?.status === 'in_progress'
   const searching = q.trim().length >= 2
@@ -84,7 +86,7 @@ export default function TeamSearch({ data, year, allData = {}, years = [], loadA
         <div style={{ marginTop:14 }}>
           {loading && <div style={{ fontSize:12, color:'var(--mid)', marginBottom:8 }}>Loading past seasons…</div>}
           {!loading && !hits.length && <div style={{ fontSize:13, color:'var(--mid)' }}>No team matches “{q}”. Try fewer letters or another part of the name.</div>}
-          {hits.slice(0, 6).map(t => <TeamCard key={t.name} t={t} finals={finals[t.name] || []} year={year} inProgress={inProgress} home={homes[t.name]} dctf={dctf}
+          {hits.slice(0, 6).map(t => <TeamCard key={t.name} t={t} homeChapter={homeCh[t.name]} finals={finals[t.name] || []} year={year} inProgress={inProgress} home={homes[t.name]} dctf={dctf}
                                                open={open === t.name || hits.length === 1} toggle={() => setOpen(open === t.name ? null : t.name)} />)}
           {hits.length > 6 && <div style={{ fontSize:12, color:'var(--mid)', marginTop:6 }}>{hits.length - 6} more teams match; type more of the name to narrow it down.</div>}
         </div>
@@ -93,7 +95,7 @@ export default function TeamSearch({ data, year, allData = {}, years = [], loadA
   )
 }
 
-function TeamCard({ t, finals, year, inProgress, home, dctf, open, toggle }) {
+function TeamCard({ t, homeChapter, finals, year, inProgress, home, dctf, open, toggle }) {
   const now = t.games.filter(x => x.year === year).sort((a, b) => b.game.week - a.game.week)
   const past = t.games.filter(x => x.year !== year).sort((a, b) => b.year - a.year || b.game.week - a.game.week)
   const seasons = [...new Set(t.games.map(x => x.year))].sort((a, b) => b - a)
@@ -110,6 +112,7 @@ function TeamCard({ t, finals, year, inProgress, home, dctf, open, toggle }) {
             {t.name}{finals.some(f => f.won) && <span style={{ fontSize:16, marginLeft:8 }} title="State champion">🏆{finals.filter(f => f.won).length > 1 ? `×${finals.filter(f => f.won).length}` : ''}</span>}
           </div>
           <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--steel)', marginTop:4 }}>{classes}</div>
+          {homeChapter && <div style={{ fontSize:12, color:'var(--mid)', marginTop:4 }}>Home chapter: <strong style={{ color:'var(--burnt)' }}>{chName(homeChapter)}</strong></div>}
           {home && (
             <div style={{ fontSize:12, color:'var(--mid)', marginTop:4 }}>
               Home stadium: <a href={home.map_link || `https://texasbob.com/stadium/stadium.php?id=${home.stadium_id}`} target="_blank" rel="noopener noreferrer" style={{ color:'var(--ink)' }}>{home.stadium}</a>

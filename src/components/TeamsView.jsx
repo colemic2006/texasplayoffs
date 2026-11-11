@@ -1,5 +1,6 @@
 import React, { useMemo, useState, useEffect } from 'react'
 import { useFinals } from '../finals'
+import { useHomeChapters } from '../homeChapters'
 import { placeName, gameWhen } from '../placeName'
 
 const KNOWN_CHAPTERS = new Set(['ABI','AMA','AUS','BEA','STX','COM','CSC','CTX','DAL','ELP','FTW','HOU','NTX','PBC','PVC','RGV','SAT','SAN','SFA','SPC','TYL','WAC'])   // not 'WACO': Waco is also a school (Waco High)
@@ -85,6 +86,7 @@ export default function TeamsView({ allData, years }) {
   const [homeStadiums, setHomeStadiums] = useState({})
 
   const finals = useFinals(allData, years)
+  const homeCh = useHomeChapters()
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/home_stadiums.json?v=${__BUILD_TIME__}`)
@@ -297,6 +299,11 @@ export default function TeamsView({ allData, years }) {
               <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginBottom:4 }}>Team Detail</div>
               <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:22, color:'var(--ink)', letterSpacing:0.5 }}>{selected.name}</div>
               <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--steel)', marginTop:2 }}>{selected.classifications.join(' · ')}</div>
+              {homeCh[selected.name] && (
+                <div style={{ fontSize:12, color:'var(--mid)', marginTop:6 }}>
+                  Home chapter: <strong style={{ color:'var(--burnt)' }}>{CHAPTER_NAMES[homeCh[selected.name]] || homeCh[selected.name]} ({homeCh[selected.name]})</strong>
+                </div>
+              )}
               {homeStadiums[selected.name] && (() => {
                 const h = homeStadiums[selected.name]
                 return (
