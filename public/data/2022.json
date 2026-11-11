@@ -6873,9 +6873,9 @@
       "chapter": "SAN",
       "team1": "El Paso Del Valle",
       "score1": 14,
-      "team2": "Abilene High",
+      "team2": "Abilene",
       "score2": 42,
-      "winner": "Abilene High"
+      "winner": "Abilene"
     },
     {
       "year": 2022,
@@ -6967,11 +6967,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "WAC",
-      "team1": "Abilene High",
+      "team1": "Abilene",
       "score1": 35,
       "team2": "Red Oak",
       "score2": 0,
-      "winner": "Abilene High"
+      "winner": "Abilene"
     },
     {
       "year": 2022,
@@ -7015,7 +7015,7 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "HOU",
-      "team1": "Abilene High",
+      "team1": "Abilene",
       "score1": 14,
       "team2": "Burleson Centennial",
       "score2": 24,

@@ -5346,11 +5346,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "AUS",
-      "team1": "Abilene High",
+      "team1": "Abilene",
       "score1": 84,
       "team2": "El Paso Parkland",
       "score2": 0,
-      "winner": "Abilene High"
+      "winner": "Abilene"
     },
     {
       "year": 2024,
@@ -5696,7 +5696,7 @@
       "chapter": "WAC",
       "team1": "Aledo",
       "score1": 59,
-      "team2": "Abilene High",
+      "team2": "Abilene",
       "score2": 14,
       "winner": "Aledo"
     },

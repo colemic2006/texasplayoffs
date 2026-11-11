@@ -5310,11 +5310,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "ABI",
-      "team1": "Abilene High",
+      "team1": "Abilene",
       "score1": 84,
       "team2": "El Paso Bel Air",
       "score2": 25,
-      "winner": "Abilene High"
+      "winner": "Abilene"
     },
     {
       "year": 2025,
@@ -5682,7 +5682,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "AUS",
-      "team1": "Abilene High",
+      "team1": "Abilene",
       "score1": 0,
       "team2": "Denton Ryan",
       "score2": 59,

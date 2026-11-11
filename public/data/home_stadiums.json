@@ -33,14 +33,6 @@
    "map_link": "https://goo.gl/maps/CejNppU8gPYVjYwX6",
    "how": "city + school"
   },
-  "Abilene High": {
-   "stadium_id": 997,
-   "stadium": "P.E. Shotwell Stadium",
-   "city": "Abilene",
-   "capacity": 15075,
-   "map_link": "https://goo.gl/maps/CejNppU8gPYVjYwX6",
-   "how": "city + school"
-  },
   "Abilene Wylie": {
    "stadium_id": 986,
    "stadium": "Hugh Sandifer Stadium",

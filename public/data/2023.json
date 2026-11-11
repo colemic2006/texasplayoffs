@@ -5310,11 +5310,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "AUS",
-      "team1": "Abilene High",
+      "team1": "Abilene",
       "score1": 84,
       "team2": "El Paso Hanks",
       "score2": 14,
-      "winner": "Abilene High"
+      "winner": "Abilene"
     },
     {
       "year": 2023,
@@ -5394,11 +5394,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Abilene High",
+      "team1": "Abilene",
       "score1": 31,
       "team2": "Denton Ryan",
       "score2": 21,
-      "winner": "Abilene High"
+      "winner": "Abilene"
     },
     {
       "year": 2023,
@@ -5432,9 +5432,9 @@
       "chapter": "AUS",
       "team1": "Justin Northwest",
       "score1": 16,
-      "team2": "Abilene High",
+      "team2": "Abilene",
       "score2": 27,
-      "winner": "Abilene High"
+      "winner": "Abilene"
     },
     {
       "year": 2023,
@@ -5454,7 +5454,7 @@
       "week": 4,
       "round": "Quarterfinals",
       "chapter": "AUS",
-      "team1": "Abilene High",
+      "team1": "Abilene",
       "score1": 21,
       "team2": "Aledo",
       "score2": 56,
