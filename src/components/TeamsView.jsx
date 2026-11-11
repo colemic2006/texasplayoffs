@@ -1,5 +1,6 @@
 import React, { useMemo, useState, useEffect } from 'react'
 import { useFinals } from '../finals'
+import { placeName, gameWhen } from '../placeName'
 
 const KNOWN_CHAPTERS = new Set(['ABI','AMA','AUS','BEA','STX','COM','CSC','CTX','DAL','ELP','FTW','HOU','NTX','PBC','PVC','RGV','SAT','SAN','SFA','SPC','TYL','WAC'])   // not 'WACO': Waco is also a school (Waco High)
 const BAD_NAMES = new Set(['total bracket counts','totals','total','bye','filler',''])
@@ -307,6 +308,49 @@ export default function TeamsView({ allData, years }) {
                 )
               })()}
             </div>
+            {(() => {
+              // this season's games (the newest season on the site): matchup, chapter, site, kickoff
+              const yr = Math.max(...years.filter(y => allData[y]?.games?.length))
+              const inProg = allData[yr]?.season?.status === 'in_progress'
+              const ROUNDS = { 1:'Bi-District', 2:'Area', 3:'Regionals', 4:'Quarterfinals', 5:'Semifinals', 6:'Championship' }
+              const mine = (allData[yr]?.games || [])
+                .filter(g => canonicalize(g.team1) === selected.name || canonicalize(g.team2) === selected.name)
+                .sort((a, b) => b.week - a.week)
+              if (!mine.length) return null
+              return (
+                <div style={{ padding:'12px 18px', borderBottom:'1px solid var(--border)', background:'rgba(70,29,124,0.04)' }}>
+                  <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--burnt)', marginBottom:8 }}>
+                    {yr} Playoffs{inProg ? ' · in progress' : ''}
+                  </div>
+                  {mine.map((g, i) => {
+                    const opp = canonicalize(g.team1) === selected.name ? g.team2 : g.team1
+                    const me = canonicalize(g.team1) === selected.name ? [g.score1, g.score2] : [g.score2, g.score1]
+                    const res = me[0] != null && me[1] != null ? `${me[0] > me[1] ? 'W' : me[0] < me[1] ? 'L' : 'T'} ${me[0]}–${me[1]}` : null
+                    return (
+                      <div key={i} style={{ padding:'6px 0', borderTop: i ? '1px solid rgba(15,13,11,0.06)' : 'none' }}>
+                        <div style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)', textTransform:'uppercase', letterSpacing:'0.1em' }}>
+                          {ROUNDS[g.week] || `Week ${g.week}`} · {g.classification}
+                        </div>
+                        <div style={{ fontSize:14, color:'var(--ink)', marginTop:2 }}>
+                          vs <strong>{opp}</strong>{res && <span style={{ fontFamily:'var(--mono)', fontSize:11, marginLeft:8 }}>{res}</span>}
+                        </div>
+                        <div style={{ fontSize:12, color:'var(--mid)', marginTop:2 }}>
+                          Chapter: <strong style={{ color: g.chapter ? 'var(--burnt)' : 'var(--mid)' }}>{g.chapter ? `${CHAPTER_NAMES[g.chapter] || g.chapter} (${g.chapter})` : 'not assigned yet'}</strong>
+                        </div>
+                        <div style={{ fontSize:12, color:'var(--mid)', marginTop:1 }}>
+                          {g.site
+                            ? (g.map_link || g.lat != null)
+                              ? <a href={g.map_link || `https://www.google.com/maps?q=${g.lat},${g.lng}`} target="_blank" rel="noopener noreferrer" style={{ color:'var(--ink)' }}>{placeName(g)}</a>
+                              : placeName(g)
+                            : 'Site TBD'}
+                          {' · '}{g.date ? gameWhen(g) : 'Date TBD'}
+                        </div>
+                      </div>
+                    )
+                  })}
+                </div>
+              )
+            })()}
             {selected.chapters.length > 0 && (() => {
               const topCount = selected.chapters[0].count
               const favs = selected.chapters.filter(c => c.count === topCount)

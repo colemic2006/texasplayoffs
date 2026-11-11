@@ -89,6 +89,8 @@ def main():
     teams = site_teams()
     links = {}
     for t in sorted(teams):
+        if t in confirmed and not confirmed[t]:
+            continue   # confirmed: no page on the site (a "" entry)
         x = confirmed.get(t) or link(t, slugs, masc)
         if not x and t.endswith(' High'):   # "Katy High" is "katy-tigers"
             x = link(t[:-5], slugs, {t[:-5]: masc.get(t, set())})
