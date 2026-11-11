@@ -78,6 +78,7 @@ const RANK_COLORS = ['var(--burnt)', 'var(--gold)', 'var(--steel)', 'var(--mid)'
 
 
 export default function TeamsView({ allData, years }) {
+  const homeCh = useHomeChapters()
   const [search, setSearch] = useState('')
   const [sortBy, setSortBy] = useState('appearances')
   const [selectedTeam, setSelectedTeam] = useState(null)
@@ -86,7 +87,6 @@ export default function TeamsView({ allData, years }) {
   const [homeStadiums, setHomeStadiums] = useState({})
 
   const finals = useFinals(allData, years)
-  const homeCh = useHomeChapters()
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/home_stadiums.json?v=${__BUILD_TIME__}`)
@@ -139,8 +139,14 @@ export default function TeamsView({ allData, years }) {
       classifications: Array.from(t.classSet).sort(),
     }))
 
+    // schools on a chapter's home list that haven't made the playoffs in the seasons on the site
+    for (const name of Object.keys(homeCh)) {
+      if (map.has(name)) continue
+      teams.push({ name, appearances: 0, years: [], totalGames: 0, yearGames: {}, chapters: [], classifications: [], noPlayoffs: true })
+    }
+
     return { teams, classifications: Array.from(classSet).sort() }
-  }, [allData, years])
+  }, [allData, years, homeCh])
 
   // Leaderboard: top 10 by games for selected year
   const leaderboard = useMemo(() => {
@@ -265,7 +271,7 @@ export default function TeamsView({ allData, years }) {
                     </td>
                     <td style={{ ...tdStyle, textAlign:'center' }}>
                       <span style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:18, color: team.appearances >= 4 ? 'var(--burnt)' : team.appearances >= 2 ? 'var(--gold)' : 'var(--mid)' }}>{team.appearances}</span>
-                      <span style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)', marginLeft:4 }}>({team.years.join(', ')})</span>
+                      <span style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)', marginLeft:4 }}>{team.years.length ? `(${team.years.join(', ')})` : '(not in the playoffs yet)'}</span>
                     </td>
                     <td style={{ ...tdStyle, textAlign:'center', fontFamily:"'Bebas Neue', sans-serif", fontSize:18, color:'var(--ink)' }}>{team.totalGames}</td>
                     <td style={tdStyle}>
@@ -310,6 +316,13 @@ export default function TeamsView({ allData, years }) {
                 )
               })()}
             </div>
+            {selected.noPlayoffs && (
+              <div style={{ padding:'14px 18px', borderBottom:'1px solid var(--border)', fontSize:13, color:'var(--mid)', lineHeight:1.5 }}>
+                {selected.name} hasn't made the playoffs in the seasons on this site
+                ({years.filter(y => allData[y]?.games?.length).sort((a, b) => a - b).join(', ')}).
+                Its games, chapters and history will fill in here if it does.
+              </div>
+            )}
             {(() => {
               // this season's games (the newest season on the site): matchup, chapter, site, kickoff
               const yr = Math.max(...years.filter(y => allData[y]?.games?.length))

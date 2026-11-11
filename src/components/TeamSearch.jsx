@@ -50,8 +50,10 @@ export default function TeamSearch({ data, year, allData = {}, years = [], loadA
         }
       }
     }
+    // schools on a chapter's home list that haven't made the playoffs in the seasons on the site
+    for (const name of Object.keys(homeCh)) if (!map.has(name)) map.set(name, { name, games: [] })
     return map
-  }, [allData, years])
+  }, [allData, years, homeCh])
   const names = useMemo(() => [...teams.keys()].sort(), [teams])
 
   const hits = useMemo(() => {
@@ -86,7 +88,7 @@ export default function TeamSearch({ data, year, allData = {}, years = [], loadA
         <div style={{ marginTop:14 }}>
           {loading && <div style={{ fontSize:12, color:'var(--mid)', marginBottom:8 }}>Loading past seasons…</div>}
           {!loading && !hits.length && <div style={{ fontSize:13, color:'var(--mid)' }}>No team matches “{q}”. Try fewer letters or another part of the name.</div>}
-          {hits.slice(0, 6).map(t => <TeamCard key={t.name} t={t} homeChapter={homeCh[t.name]} finals={finals[t.name] || []} year={year} inProgress={inProgress} home={homes[t.name]} dctf={dctf}
+          {hits.slice(0, 6).map(t => <TeamCard key={t.name} t={t} seasonsOnSite={years.filter(y => allData[y]?.games?.length).sort((a, b) => a - b)} homeChapter={homeCh[t.name]} finals={finals[t.name] || []} year={year} inProgress={inProgress} home={homes[t.name]} dctf={dctf}
                                                open={open === t.name || hits.length === 1} toggle={() => setOpen(open === t.name ? null : t.name)} />)}
           {hits.length > 6 && <div style={{ fontSize:12, color:'var(--mid)', marginTop:6 }}>{hits.length - 6} more teams match; type more of the name to narrow it down.</div>}
         </div>
@@ -95,7 +97,7 @@ export default function TeamSearch({ data, year, allData = {}, years = [], loadA
   )
 }
 
-function TeamCard({ t, homeChapter, finals, year, inProgress, home, dctf, open, toggle }) {
+function TeamCard({ t, seasonsOnSite, homeChapter, finals, year, inProgress, home, dctf, open, toggle }) {
   const now = t.games.filter(x => x.year === year).sort((a, b) => b.game.week - a.game.week)
   const past = t.games.filter(x => x.year !== year).sort((a, b) => b.year - a.year || b.game.week - a.game.week)
   const seasons = [...new Set(t.games.map(x => x.year))].sort((a, b) => b - a)
@@ -104,6 +106,16 @@ function TeamCard({ t, homeChapter, finals, year, inProgress, home, dctf, open, 
   const record = t.games.reduce((r, x) => (x.mine != null && x.theirs != null ? (x.mine > x.theirs ? r.w++ : x.mine < x.theirs ? r.l++ : 0, r) : r), { w:0, l:0 })
   const classes = [...new Set(t.games.map(x => x.game.classification))].join(' · ')
 
+  if (!t.games.length) return (
+    <div style={{ border:'1px solid var(--border)', borderRadius:8, padding:'14px 16px', marginBottom:12 }}>
+      <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:24, color:'var(--ink)', letterSpacing:0.5, lineHeight:1 }}>{t.name}</div>
+      {homeChapter && <div style={{ fontSize:12, color:'var(--mid)', marginTop:4 }}>Home chapter: <strong style={{ color:'var(--burnt)' }}>{chName(homeChapter)}</strong></div>}
+      <div style={{ fontSize:13, color:'var(--mid)', marginTop:10, lineHeight:1.5 }}>
+        {t.name} hasn't made the playoffs in the seasons on this site ({(seasonsOnSite || []).join(', ')}).
+        Its games, chapters and history will fill in here if it does.
+      </div>
+    </div>
+  )
   return (
     <div style={{ border:'1px solid var(--border)', borderRadius:8, padding:'14px 16px', marginBottom:12 }}>
       <div style={{ display:'flex', flexWrap:'wrap', justifyContent:'space-between', gap:8, alignItems:'baseline' }}>
