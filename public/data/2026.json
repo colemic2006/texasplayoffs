@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-11T14:50+00:00",
+    "updated": "2026-11-11T18:07+00:00",
     "games": 352,
     "played": 0,
     "assigned": 352,
@@ -2214,7 +2214,8 @@
       "stadium": "Matador Stadium",
       "map_link": "https://goo.gl/maps/fSivQY3srfusAWv58",
       "city": "Seguin",
-      "date": "2026-11-09"
+      "date": "2026-11-12",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -3426,7 +3427,7 @@
       "map_link": "https://goo.gl/maps/UezPvE2RNU1rFcZn7",
       "city": "Murphy",
       "date": "2026-11-13",
-      "time": "7:30 PM"
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
