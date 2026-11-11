@@ -822,7 +822,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "FTW",
-      "team1": "Arlington",
+      "team1": "Arlington High",
       "score1": 9,
       "team2": "Keller Fossil Ridge",
       "score2": 45,
@@ -872,9 +872,9 @@
       "chapter": "DAL",
       "team1": "Garland Naaman Forest",
       "score1": 31,
-      "team2": "Rockwall",
+      "team2": "Rockwall High",
       "score2": 41,
-      "winner": "Rockwall"
+      "winner": "Rockwall High"
     },
     {
       "year": 2013,
@@ -966,11 +966,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Katy",
+      "team1": "Katy High",
       "score1": 70,
       "team2": "Houston Madison",
       "score2": 0,
-      "winner": "Katy"
+      "winner": "Katy High"
     },
     {
       "year": 2013,
@@ -1196,7 +1196,7 @@
       "chapter": "DAL",
       "team1": "Dallas Jesuit",
       "score1": 46,
-      "team2": "Rockwall",
+      "team2": "Rockwall High",
       "score2": 26,
       "winner": "Dallas Jesuit"
     },
@@ -1244,9 +1244,9 @@
       "chapter": "HOU",
       "team1": "Cypress Woods",
       "score1": 7,
-      "team2": "Katy",
+      "team2": "Katy High",
       "score2": 51,
-      "winner": "Katy"
+      "winner": "Katy High"
     },
     {
       "year": 2013,
@@ -1386,11 +1386,11 @@
       "week": 3,
       "round": "Regional",
       "chapter": "HOU",
-      "team1": "Katy",
+      "team1": "Katy High",
       "score1": 56,
       "team2": "Fort Bend Elkins",
       "score2": 26,
-      "winner": "Katy"
+      "winner": "Katy High"
     },
     {
       "year": 2013,
@@ -1458,11 +1458,11 @@
       "week": 4,
       "round": "Quarterfinal",
       "chapter": "HOU",
-      "team1": "Katy",
+      "team1": "Katy High",
       "score1": 56,
       "team2": "Manvel",
       "score2": 14,
-      "winner": "Katy"
+      "winner": "Katy High"
     },
     {
       "year": 2013,
@@ -1494,11 +1494,11 @@
       "week": 5,
       "round": "Semifinal",
       "chapter": "DAL",
-      "team1": "Katy",
+      "team1": "Katy High",
       "score1": 45,
       "team2": "San Antonio Johnson",
       "score2": 0,
-      "winner": "Katy"
+      "winner": "Katy High"
     },
     {
       "year": 2013,
@@ -1508,9 +1508,9 @@
       "chapter": "TYL",
       "team1": "Cedar Hill",
       "score1": null,
-      "team2": "Katy",
+      "team2": "Katy High",
       "score2": null,
-      "winner": "Katy"
+      "winner": "Katy High"
     },
     {
       "year": 2013,
@@ -1530,11 +1530,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "ABI",
-      "team1": "Amarillo",
+      "team1": "Amarillo High",
       "score1": 55,
       "team2": "Lubbock Monterey",
       "score2": 27,
-      "winner": "Amarillo"
+      "winner": "Amarillo High"
     },
     {
       "year": 2013,
@@ -1904,9 +1904,9 @@
       "chapter": "ABI",
       "team1": "El Paso Chapin",
       "score1": 35,
-      "team2": "Amarillo",
+      "team2": "Amarillo High",
       "score2": 42,
-      "winner": "Amarillo"
+      "winner": "Amarillo High"
     },
     {
       "year": 2013,
@@ -2094,7 +2094,7 @@
       "week": 3,
       "round": "Regional",
       "chapter": "ABI",
-      "team1": "Amarillo",
+      "team1": "Amarillo High",
       "score1": 21,
       "team2": "Denton Guyer",
       "score2": 63,
@@ -2286,11 +2286,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "AMA",
-      "team1": "Canyon",
+      "team1": "Canyon High",
       "score1": 71,
       "team2": "Hereford",
       "score2": 21,
-      "winner": "Canyon"
+      "winner": "Canyon High"
     },
     {
       "year": 2013,
@@ -2346,11 +2346,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "WAC",
-      "team1": "Wichita Falls High School",
+      "team1": "Wichita Falls High",
       "score1": 17,
       "team2": "Fort Worth Dunbar",
       "score2": 7,
-      "winner": "Wichita Falls High School"
+      "winner": "Wichita Falls High"
     },
     {
       "year": 2013,
@@ -2660,9 +2660,9 @@
       "chapter": "PBC",
       "team1": "El Paso Bowie",
       "score1": 6,
-      "team2": "Canyon",
+      "team2": "Canyon High",
       "score2": 45,
-      "winner": "Canyon"
+      "winner": "Canyon High"
     },
     {
       "year": 2013,
@@ -2694,11 +2694,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "SPC",
-      "team1": "Wichita Falls High School",
+      "team1": "Wichita Falls High",
       "score1": 31,
       "team2": "Everman",
       "score2": 28,
-      "winner": "Wichita Falls High School"
+      "winner": "Wichita Falls High"
     },
     {
       "year": 2013,
@@ -2850,7 +2850,7 @@
       "week": 3,
       "round": "Regional",
       "chapter": "ABI",
-      "team1": "Canyon",
+      "team1": "Canyon High",
       "score1": 14,
       "team2": "Aledo",
       "score2": 54,
@@ -2864,9 +2864,9 @@
       "chapter": "PBC",
       "team1": "El Paso Canutillo",
       "score1": 10,
-      "team2": "Wichita Falls High School",
+      "team2": "Wichita Falls High",
       "score2": 19,
-      "winner": "Wichita Falls High School"
+      "winner": "Wichita Falls High"
     },
     {
       "year": 2013,
@@ -2948,7 +2948,7 @@
       "chapter": "FTW",
       "team1": "Aledo",
       "score1": 69,
-      "team2": "Wichita Falls High School",
+      "team2": "Wichita Falls High",
       "score2": 14,
       "winner": "Aledo"
     },

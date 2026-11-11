@@ -150,11 +150,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "DAL",
-      "team1": "Rockwall",
+      "team1": "Rockwall High",
       "score1": 55,
       "team2": "North Garland",
       "score2": 14,
-      "winner": "Rockwall"
+      "winner": "Rockwall High"
     },
     {
       "year": 2021,
@@ -462,7 +462,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "DAL",
-      "team1": "Rockwall",
+      "team1": "Rockwall High",
       "score1": 28,
       "team2": "DeSoto",
       "score2": 49,
@@ -800,7 +800,7 @@
       "chapter": "AUS",
       "team1": "Dallas Jesuit",
       "score1": 69,
-      "team2": "Arlington",
+      "team2": "Arlington High",
       "score2": 36,
       "winner": "Dallas Jesuit"
     },
@@ -810,7 +810,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "FTW",
-      "team1": "Abilene",
+      "team1": "Abilene High",
       "score1": 27,
       "team2": "El Paso Eastwood",
       "score2": 31,
@@ -944,9 +944,9 @@
       "chapter": "HOU",
       "team1": "Cypress Park",
       "score1": 29,
-      "team2": "Tomball",
+      "team2": "Tomball High",
       "score2": 52,
-      "winner": "Tomball"
+      "winner": "Tomball High"
     },
     {
       "year": 2021,
@@ -966,11 +966,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Katy",
+      "team1": "Katy High",
       "score1": 56,
       "team2": "Fort Bend Clements",
       "score2": 7,
-      "winner": "Katy"
+      "winner": "Katy High"
     },
     {
       "year": 2021,
@@ -1232,9 +1232,9 @@
       "chapter": "HOU",
       "team1": "Willis",
       "score1": 7,
-      "team2": "Tomball",
+      "team2": "Tomball High",
       "score2": 37,
-      "winner": "Tomball"
+      "winner": "Tomball High"
     },
     {
       "year": 2021,
@@ -1244,9 +1244,9 @@
       "chapter": "HOU",
       "team1": "Houston Stratford",
       "score1": 7,
-      "team2": "Katy",
+      "team2": "Katy High",
       "score2": 59,
-      "winner": "Katy"
+      "winner": "Katy High"
     },
     {
       "year": 2021,
@@ -1376,9 +1376,9 @@
       "chapter": "HOU",
       "team1": "Rockwall-Heath",
       "score1": 21,
-      "team2": "Tomball",
+      "team2": "Tomball High",
       "score2": 35,
-      "winner": "Tomball"
+      "winner": "Tomball High"
     },
     {
       "year": 2021,
@@ -1386,11 +1386,11 @@
       "week": 3,
       "round": "Regional",
       "chapter": "HOU",
-      "team1": "Katy",
+      "team1": "Katy High",
       "score1": 41,
       "team2": "Houston King",
       "score2": 24,
-      "winner": "Katy"
+      "winner": "Katy High"
     },
     {
       "year": 2021,
@@ -1448,9 +1448,9 @@
       "chapter": "HOU",
       "team1": "Cypress Bridgeland",
       "score1": 13,
-      "team2": "Tomball",
+      "team2": "Tomball High",
       "score2": 48,
-      "winner": "Tomball"
+      "winner": "Tomball High"
     },
     {
       "year": 2021,
@@ -1458,11 +1458,11 @@
       "week": 4,
       "round": "Quarterfinal",
       "chapter": "HOU",
-      "team1": "Katy",
+      "team1": "Katy High",
       "score1": 34,
       "team2": "Humble Summer Creek",
       "score2": 31,
-      "winner": "Katy"
+      "winner": "Katy High"
     },
     {
       "year": 2021,
@@ -1484,7 +1484,7 @@
       "chapter": "TYL",
       "team1": "Denton Guyer",
       "score1": 59,
-      "team2": "Tomball",
+      "team2": "Tomball High",
       "score2": 14,
       "winner": "Denton Guyer"
     },
@@ -1494,7 +1494,7 @@
       "week": 5,
       "round": "Semifinal",
       "chapter": "TYL",
-      "team1": "Katy",
+      "team1": "Katy High",
       "score1": 14,
       "team2": "Austin Westlake",
       "score2": 46,
@@ -1604,9 +1604,9 @@
       "chapter": "PVC",
       "team1": "El Paso Del Valle",
       "score1": 21,
-      "team2": "Amarillo",
+      "team2": "Amarillo High",
       "score2": 45,
-      "winner": "Amarillo"
+      "winner": "Amarillo High"
     },
     {
       "year": 2021,
@@ -1940,7 +1940,7 @@
       "chapter": "HOU",
       "team1": "Colleyville Heritage",
       "score1": 31,
-      "team2": "Amarillo",
+      "team2": "Amarillo High",
       "score2": 10,
       "winner": "Colleyville Heritage"
     },
@@ -2348,7 +2348,7 @@
       "chapter": "WAC",
       "team1": "Grapevine",
       "score1": 44,
-      "team2": "Wichita Falls",
+      "team2": "Wichita Falls High",
       "score2": 7,
       "winner": "Grapevine"
     },
@@ -3066,7 +3066,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SAN",
-      "team1": "Canyon",
+      "team1": "Canyon High",
       "score1": 13,
       "team2": "Springtown",
       "score2": 49,

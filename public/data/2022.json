@@ -5373,9 +5373,9 @@
       "chapter": "SPC",
       "team1": "Dumas",
       "score1": 10,
-      "team2": "Wichita Falls High School",
+      "team2": "Wichita Falls High",
       "score2": 15,
-      "winner": "Wichita Falls High School"
+      "winner": "Wichita Falls High"
     },
     {
       "year": 2022,
@@ -5397,9 +5397,9 @@
       "chapter": "SPC",
       "team1": "Burkburnett",
       "score1": 14,
-      "team2": "Canyon",
+      "team2": "Canyon High",
       "score2": 42,
-      "winner": "Canyon"
+      "winner": "Canyon High"
     },
     {
       "year": 2022,
@@ -5745,9 +5745,9 @@
       "chapter": "ABI",
       "team1": "Big Spring",
       "score1": 7,
-      "team2": "Wichita Falls High School",
+      "team2": "Wichita Falls High",
       "score2": 31,
-      "winner": "Wichita Falls High School"
+      "winner": "Wichita Falls High"
     },
     {
       "year": 2022,
@@ -5755,7 +5755,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "PBC",
-      "team1": "Canyon",
+      "team1": "Canyon High",
       "score1": 10,
       "team2": "Brownwood",
       "score2": 31,
@@ -5937,9 +5937,9 @@
       "chapter": "FTW",
       "team1": "Brownwood",
       "score1": 19,
-      "team2": "Wichita Falls High School",
+      "team2": "Wichita Falls High",
       "score2": 41,
-      "winner": "Wichita Falls High School"
+      "winner": "Wichita Falls High"
     },
     {
       "year": 2022,
@@ -6031,7 +6031,7 @@
       "week": 4,
       "round": "Quarterfinals",
       "chapter": "ABI",
-      "team1": "Wichita Falls High School",
+      "team1": "Wichita Falls High",
       "score1": 21,
       "team2": "Decatur",
       "score2": 35,
@@ -6873,9 +6873,9 @@
       "chapter": "SAN",
       "team1": "El Paso Del Valle",
       "score1": 14,
-      "team2": "Abilene",
+      "team2": "Abilene High",
       "score2": 42,
-      "winner": "Abilene"
+      "winner": "Abilene High"
     },
     {
       "year": 2022,
@@ -6967,11 +6967,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "WAC",
-      "team1": "Abilene",
+      "team1": "Abilene High",
       "score1": 35,
       "team2": "Red Oak",
       "score2": 0,
-      "winner": "Abilene"
+      "winner": "Abilene High"
     },
     {
       "year": 2022,
@@ -7015,7 +7015,7 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "HOU",
-      "team1": "Abilene",
+      "team1": "Abilene High",
       "score1": 14,
       "team2": "Burleson Centennial",
       "score2": 24,
@@ -7701,9 +7701,9 @@
       "chapter": "DAL",
       "team1": "Coppell",
       "score1": 26,
-      "team2": "McKinney",
+      "team2": "McKinney High",
       "score2": 44,
-      "winner": "McKinney"
+      "winner": "McKinney High"
     },
     {
       "year": 2022,
@@ -7759,11 +7759,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "DAL",
-      "team1": "McKinney",
+      "team1": "McKinney High",
       "score1": 42,
       "team2": "Dallas Jesuit",
       "score2": 7,
-      "winner": "McKinney"
+      "winner": "McKinney High"
     },
     {
       "year": 2022,
@@ -7785,7 +7785,7 @@
       "chapter": "FTW",
       "team1": "Southlake Carroll",
       "score1": 42,
-      "team2": "McKinney",
+      "team2": "McKinney High",
       "score2": 35,
       "winner": "Southlake Carroll"
     },
@@ -7843,11 +7843,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Tomball",
+      "team1": "Tomball High",
       "score1": 30,
       "team2": "Cy Woods",
       "score2": 3,
-      "winner": "Tomball"
+      "winner": "Tomball High"
     },
     {
       "year": 2022,
@@ -7915,11 +7915,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Tomball",
+      "team1": "Tomball High",
       "score1": 16,
       "team2": "New Caney",
       "score2": 15,
-      "winner": "Tomball"
+      "winner": "Tomball High"
     },
     {
       "year": 2022,
@@ -7953,7 +7953,7 @@
       "chapter": "SAT",
       "team1": "DeSoto",
       "score1": 38,
-      "team2": "Tomball",
+      "team2": "Tomball High",
       "score2": 14,
       "winner": "DeSoto"
     },
@@ -7999,11 +7999,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Katy",
+      "team1": "Katy High",
       "score1": 59,
       "team2": "Fort Bend Clements",
       "score2": 0,
-      "winner": "Katy"
+      "winner": "Katy High"
     },
     {
       "year": 2022,
@@ -8083,11 +8083,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Katy",
+      "team1": "Katy High",
       "score1": 62,
       "team2": "Spring Branch Memorial",
       "score2": 21,
-      "winner": "Katy"
+      "winner": "Katy High"
     },
     {
       "year": 2022,
@@ -8131,11 +8131,11 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "HOU",
-      "team1": "Katy",
+      "team1": "Katy High",
       "score1": 35,
       "team2": "Humble Summer Creek",
       "score2": 7,
-      "winner": "Katy"
+      "winner": "Katy High"
     },
     {
       "year": 2022,
@@ -8155,11 +8155,11 @@
       "week": 4,
       "round": "Quarterfinals",
       "chapter": "HOU",
-      "team1": "Katy",
+      "team1": "Katy High",
       "score1": 56,
       "team2": "Houston King",
       "score2": 34,
-      "winner": "Katy"
+      "winner": "Katy High"
     },
     {
       "year": 2022,
@@ -8359,7 +8359,7 @@
       "week": 5,
       "round": "Semifinals",
       "chapter": "DAL",
-      "team1": "Katy",
+      "team1": "Katy High",
       "score1": 35,
       "team2": "Austin Vandegrift",
       "score2": 38,
@@ -8611,11 +8611,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "DAL",
-      "team1": "Rockwall",
+      "team1": "Rockwall High",
       "score1": 50,
       "team2": "Sachse",
       "score2": 24,
-      "winner": "Rockwall"
+      "winner": "Rockwall High"
     },
     {
       "year": 2022,
@@ -8683,7 +8683,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "DAL",
-      "team1": "Rockwall",
+      "team1": "Rockwall High",
       "score1": 25,
       "team2": "Waxahachie",
       "score2": 31,

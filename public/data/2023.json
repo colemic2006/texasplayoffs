@@ -3824,7 +3824,7 @@
       "chapter": "SPC",
       "team1": "Canyon High",
       "score1": 51,
-      "team2": "Wichita Falls High School",
+      "team2": "Wichita Falls High",
       "score2": 33,
       "winner": "Canyon High"
     },
@@ -5310,11 +5310,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "AUS",
-      "team1": "Abilene",
+      "team1": "Abilene High",
       "score1": 84,
       "team2": "El Paso Hanks",
       "score2": 14,
-      "winner": "Abilene"
+      "winner": "Abilene High"
     },
     {
       "year": 2023,
@@ -5394,11 +5394,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Abilene",
+      "team1": "Abilene High",
       "score1": 31,
       "team2": "Denton Ryan",
       "score2": 21,
-      "winner": "Abilene"
+      "winner": "Abilene High"
     },
     {
       "year": 2023,
@@ -5432,9 +5432,9 @@
       "chapter": "AUS",
       "team1": "Justin Northwest",
       "score1": 16,
-      "team2": "Abilene",
+      "team2": "Abilene High",
       "score2": 27,
-      "winner": "Abilene"
+      "winner": "Abilene High"
     },
     {
       "year": 2023,
@@ -5454,7 +5454,7 @@
       "week": 4,
       "round": "Quarterfinals",
       "chapter": "AUS",
-      "team1": "Abilene",
+      "team1": "Abilene High",
       "score1": 21,
       "team2": "Aledo",
       "score2": 56,
@@ -7592,7 +7592,7 @@
       "chapter": "DAL",
       "team1": "Dallas Highland Park",
       "score1": 45,
-      "team2": "Arlington",
+      "team2": "Arlington High",
       "score2": 17,
       "winner": "Dallas Highland Park"
     },

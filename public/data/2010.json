@@ -19,11 +19,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "ABI",
-      "team1": "Midland",
+      "team1": "Midland High",
       "score1": 39,
       "team2": "Arlington Bowie",
       "score2": 35,
-      "winner": "Midland"
+      "winner": "Midland High"
     },
     {
       "year": 2010,
@@ -211,11 +211,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Katy",
+      "team1": "Katy High",
       "score1": 41,
       "team2": "Houston Bellaire",
       "score2": 6,
-      "winner": "Katy"
+      "winner": "Katy High"
     },
     {
       "year": 2010,
@@ -393,9 +393,9 @@
       "chapter": "WAC",
       "team1": "El Paso El Dorado",
       "score1": 7,
-      "team2": "Midland",
+      "team2": "Midland High",
       "score2": 31,
-      "winner": "Midland"
+      "winner": "Midland High"
     },
     {
       "year": 2010,
@@ -477,9 +477,9 @@
       "chapter": "HOU",
       "team1": "Cy-Fair",
       "score1": 20,
-      "team2": "Katy",
+      "team2": "Katy High",
       "score2": 55,
-      "winner": "Katy"
+      "winner": "Katy High"
     },
     {
       "year": 2010,
@@ -571,7 +571,7 @@
       "week": 3,
       "round": "Regional",
       "chapter": "SAT",
-      "team1": "Midland",
+      "team1": "Midland High",
       "score1": 7,
       "team2": "Coppell",
       "score2": 49,
@@ -619,11 +619,11 @@
       "week": 3,
       "round": "Regional",
       "chapter": "HOU",
-      "team1": "Katy",
+      "team1": "Katy High",
       "score1": 32,
       "team2": "Galena Park North Shore",
       "score2": 27,
-      "winner": "Katy"
+      "winner": "Katy High"
     },
     {
       "year": 2010,
@@ -691,7 +691,7 @@
       "week": 4,
       "round": "Quarterfinal",
       "chapter": "HOU",
-      "team1": "Katy",
+      "team1": "Katy High",
       "score1": 35,
       "team2": "Pearland",
       "score2": 38,
@@ -799,7 +799,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "PBC",
-      "team1": "Amarillo",
+      "team1": "Amarillo High",
       "score1": 13,
       "team2": "El Paso Coronado",
       "score2": 27,
@@ -811,11 +811,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "FTW",
-      "team1": "Arlington",
+      "team1": "Arlington High",
       "score1": 28,
-      "team2": "Abilene",
+      "team2": "Abilene High",
       "score2": 31,
-      "winner": "Abilene"
+      "winner": "Abilene High"
     },
     {
       "year": 2010,
@@ -871,11 +871,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Tomball",
+      "team1": "Tomball High",
       "score1": 27,
       "team2": "Humble Kingwood",
       "score2": 3,
-      "winner": "Tomball"
+      "winner": "Tomball High"
     },
     {
       "year": 2010,
@@ -933,7 +933,7 @@
       "chapter": "HOU",
       "team1": "Leander",
       "score1": 24,
-      "team2": "Austin",
+      "team2": "Austin High",
       "score2": null,
       "winner": null
     },
@@ -1161,9 +1161,9 @@
       "chapter": "SPC",
       "team1": "El Paso Coronado",
       "score1": 28,
-      "team2": "Abilene",
+      "team2": "Abilene High",
       "score2": 45,
-      "winner": "Abilene"
+      "winner": "Abilene High"
     },
     {
       "year": 2010,
@@ -1195,11 +1195,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "SAT",
-      "team1": "Tomball",
+      "team1": "Tomball High",
       "score1": 40,
       "team2": "Austin Anderson",
       "score2": 20,
-      "winner": "Tomball"
+      "winner": "Tomball High"
     },
     {
       "year": 2010,
@@ -1327,7 +1327,7 @@
       "week": 3,
       "round": "Regional",
       "chapter": "TYL",
-      "team1": "Abilene",
+      "team1": "Abilene High",
       "score1": 24,
       "team2": "Southlake Carroll",
       "score2": 38,
@@ -1627,7 +1627,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "DAL",
-      "team1": "Rockwall",
+      "team1": "Rockwall High",
       "score1": 14,
       "team2": "Carrollton Smith",
       "score2": 28,

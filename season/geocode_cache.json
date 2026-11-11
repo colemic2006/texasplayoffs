@@ -158,6 +158,18 @@
   "stadium": "Mustang Bowl",
   "stadium_id": 992
  },
+ "Andrews HS || El Paso Riverside v Canyon High": {
+  "address": "918 NW Mustang Dr, Andrews, Texas 79714",
+  "city": "Andrews",
+  "how": "school",
+  "lat": 32.32274,
+  "lng": -102.57009,
+  "map_link": "https://maps.app.goo.gl/DZWYSntZDeRASZYz9",
+  "rules": 10,
+  "site": "Andrews HS",
+  "stadium": "Mustang Bowl",
+  "stadium_id": 992
+ },
  "Andrews HS || El Paso Riverside v New Braunfels Canyon": {
   "address": "918 NW Mustang Dr, Andrews, Texas 79714",
   "city": "Andrews",
@@ -208,6 +220,18 @@
   "stadium_id": 5843
  },
  "Astound Broadband Stadium, Midland || Canyon West Plains v El Paso Ysleta": {
+  "address": "Tradewinds Blvd, Midland, Texas 79706",
+  "city": "Midland",
+  "how": "stadium",
+  "lat": 31.96078,
+  "lng": -102.14848,
+  "map_link": "https://goo.gl/maps/2xizkpWLXy9xkYWw9",
+  "rules": 10,
+  "site": "Astound Broadband Stadium, Midland",
+  "stadium": "Astound Broadband Stadium",
+  "stadium_id": 521
+ },
+ "Astound Broadband Stadium, Midland || Midland High v El Paso Franklin": {
   "address": "Tradewinds Blvd, Midland, Texas 79706",
   "city": "Midland",
   "how": "stadium",
@@ -1448,6 +1472,18 @@
   "stadium": "Lumberjack Stadium",
   "stadium_id": 352
  },
+ "Dick Bivins (Amarillo) || Amarillo High v El Paso Bel Air": {
+  "address": "3101 E 10th Ave, Amarillo, Texas 79106",
+  "city": "Amarillo",
+  "how": "stadium",
+  "lat": 35.20023,
+  "lng": -101.81035,
+  "map_link": "https://goo.gl/maps/F9wZMeXxkqjjEzha6",
+  "rules": 10,
+  "site": "Dick Bivins (Amarillo)",
+  "stadium": "Dick Bivins Stadium",
+  "stadium_id": 722
+ },
  "Dick Bivins (Amarillo) || Amarillo v El Paso Bel Air": {
   "address": "3101 E 10th Ave, Amarillo, Texas 79106",
   "city": "Amarillo",
@@ -1651,6 +1687,18 @@
   "stadium_id": 440
  },
  "Excalibur Stadium, El Paso || El Paso Hanks v Abilene": {
+  "address": "2001 Lee Trevino, El Paso, Texas 79936",
+  "city": "El Paso",
+  "how": "stadium",
+  "lat": 31.75772,
+  "lng": -106.3188,
+  "map_link": "https://goo.gl/maps/J56PP7Nqx9DSZBCRA",
+  "rules": 10,
+  "site": "Excalibur Stadium, El Paso",
+  "stadium": "Excalibur Stadium",
+  "stadium_id": 584
+ },
+ "Excalibur Stadium, El Paso || El Paso Hanks v Abilene High": {
   "address": "2001 Lee Trevino, El Paso, Texas 79936",
   "city": "El Paso",
   "how": "stadium",
@@ -2596,6 +2644,18 @@
   "stadium": "Kangaroo Stadium",
   "stadium_id": 676
  },
+ "Katy ISD Legacy Stadium || Katy High v Fort Bend Travis": {
+  "address": "5175 Franz Rd, Katy, Texas 77493",
+  "city": "Katy",
+  "how": "stadium",
+  "lat": 29.80121,
+  "lng": -95.80476,
+  "map_link": "https://goo.gl/maps/km2SPmR8CsAASd3H6",
+  "rules": 10,
+  "site": "Katy ISD Legacy Stadium",
+  "stadium": "Mike Johnston Field at Legacy Stadium",
+  "stadium_id": 1699
+ },
  "Katy ISD Legacy Stadium || Katy Tompkins v Fort Bend Hightower": {
   "address": "5175 Franz Rd, Katy, Texas 77493",
   "city": "Katy",
@@ -2621,6 +2681,17 @@
   "stadium_id": 1699
  },
  "Keller ISD Stadium, Keller || Keller v Arlington": {
+  "address": "",
+  "how": "stadium found by name",
+  "lat": 32.93978,
+  "lng": -97.24768,
+  "map_link": "",
+  "rules": 10,
+  "site": "Keller ISD Stadium, Keller",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Keller ISD Stadium, Keller || Keller v Arlington High": {
   "address": "",
   "how": "stadium found by name",
   "lat": 32.93978,
@@ -2801,6 +2872,17 @@
   "site": "Leander ISD Gupton Stadium",
   "stadium": "John Gupton Stadium",
   "stadium_id": 1340
+ },
+ "Legacy Stadium || Katy High v Fort Bend Travis": {
+  "address": "5175 Franz Rd, Katy, Texas 77493",
+  "city": "Katy",
+  "how": "stadium",
+  "lat": 29.80121,
+  "lng": -95.80476,
+  "map_link": "https://goo.gl/maps/km2SPmR8CsAASd3H6",
+  "site": "Legacy Stadium",
+  "stadium": "Mike Johnston Field at Legacy Stadium",
+  "stadium_id": 1699
  },
  "Legacy Stadium || Katy v Fort Bend Travis": {
   "address": "5175 Franz Rd, Katy, Texas 77493",
@@ -4870,6 +4952,18 @@
   "stadium": "Tom Landry Stadium",
   "stadium_id": 960
  },
+ "Tomball ISD Stadium || Tomball High v Langham Creek": {
+  "address": "20235 Cypress Rosehill Road, Tomball, Texas 77375",
+  "city": "Tomball",
+  "how": "stadium",
+  "lat": 30.11165,
+  "lng": -95.6257,
+  "map_link": "https://goo.gl/maps/Z6Jh79x8crv1Gjhu6",
+  "rules": 10,
+  "site": "Tomball ISD Stadium",
+  "stadium": "Tomball ISD Stadium",
+  "stadium_id": 616
+ },
  "Tomball ISD Stadium || Tomball v Langham Creek": {
   "address": "20235 Cypress Rosehill Road, Tomball, Texas 77375",
   "city": "Tomball",
@@ -5089,6 +5183,18 @@
   "site": "Wildcat-Ram Stadium",
   "stadium": "Wildcat-Ram Stadium",
   "stadium_id": 317
+ },
+ "Wilkerson-Sanders Stadium, Rockwall || Rockwall High v Wylie": {
+  "address": "1197 T.L. Townsend Dr, Rockwall, Texas 75087",
+  "city": "Rockwall",
+  "how": "stadium",
+  "lat": 32.91749,
+  "lng": -96.45063,
+  "map_link": "https://goo.gl/maps/5MpwMEd2BthysAyp8",
+  "rules": 10,
+  "site": "Wilkerson-Sanders Stadium, Rockwall",
+  "stadium": "Wilkerson-Sanders Memorial Stadium",
+  "stadium_id": 319
  },
  "Wilkerson-Sanders Stadium, Rockwall || Rockwall v Wylie": {
   "address": "1197 T.L. Townsend Dr, Rockwall, Texas 75087",

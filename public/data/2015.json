@@ -55,11 +55,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "PBC",
-      "team1": "Amarillo",
+      "team1": "Amarillo High",
       "score1": 44,
       "team2": "El Paso Montwood",
       "score2": 27,
-      "winner": "Amarillo"
+      "winner": "Amarillo High"
     },
     {
       "year": 2015,
@@ -69,7 +69,7 @@
       "chapter": "FTW",
       "team1": "Arlington Martin",
       "score1": 76,
-      "team2": "Midland",
+      "team2": "Midland High",
       "score2": 18,
       "winner": "Arlington Martin"
     },
@@ -415,7 +415,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "NTX",
-      "team1": "Amarillo",
+      "team1": "Amarillo High",
       "score1": 27,
       "team2": "Arlington Martin",
       "score2": 49,
@@ -777,7 +777,7 @@
       "chapter": "HOU",
       "team1": "San Angelo Central",
       "score1": 45,
-      "team2": "Arlington",
+      "team2": "Arlington High",
       "score2": 28,
       "winner": "San Angelo Central"
     },
@@ -825,7 +825,7 @@
       "chapter": "FTW",
       "team1": "Arlington Lamar",
       "score1": 39,
-      "team2": "Abilene",
+      "team2": "Abilene High",
       "score2": 33,
       "winner": "Arlington Lamar"
     },
@@ -871,11 +871,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "ABI",
-      "team1": "Rockwall",
+      "team1": "Rockwall High",
       "score1": 67,
       "team2": "Copperas Cove",
       "score2": 35,
-      "winner": "Rockwall"
+      "winner": "Rockwall High"
     },
     {
       "year": 2015,
@@ -967,11 +967,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Katy",
+      "team1": "Katy High",
       "score1": 77,
       "team2": "Houston Westside",
       "score2": 0,
-      "winner": "Katy"
+      "winner": "Katy High"
     },
     {
       "year": 2015,
@@ -1197,9 +1197,9 @@
       "chapter": "DAL",
       "team1": "Dallas Jesuit",
       "score1": 27,
-      "team2": "Rockwall",
+      "team2": "Rockwall High",
       "score2": 38,
-      "winner": "Rockwall"
+      "winner": "Rockwall High"
     },
     {
       "year": 2015,
@@ -1245,9 +1245,9 @@
       "chapter": "HOU",
       "team1": "Cy Ranch",
       "score1": 20,
-      "team2": "Katy",
+      "team2": "Katy High",
       "score2": 59,
-      "winner": "Katy"
+      "winner": "Katy High"
     },
     {
       "year": 2015,
@@ -1363,11 +1363,11 @@
       "week": 3,
       "round": "Regional",
       "chapter": "TYL",
-      "team1": "Rockwall",
+      "team1": "Rockwall High",
       "score1": 43,
       "team2": "Spring",
       "score2": 26,
-      "winner": "Rockwall"
+      "winner": "Rockwall High"
     },
     {
       "year": 2015,
@@ -1387,11 +1387,11 @@
       "week": 3,
       "round": "Regional",
       "chapter": "HOU",
-      "team1": "Katy",
+      "team1": "Katy High",
       "score1": 66,
       "team2": "Friendswood",
       "score2": 0,
-      "winner": "Katy"
+      "winner": "Katy High"
     },
     {
       "year": 2015,
@@ -1447,7 +1447,7 @@
       "week": 4,
       "round": "Quarterfinal",
       "chapter": "TYL",
-      "team1": "Rockwall",
+      "team1": "Rockwall High",
       "score1": 24,
       "team2": "Austin Lake Travis",
       "score2": 45,
@@ -1459,11 +1459,11 @@
       "week": 4,
       "round": "Quarterfinal",
       "chapter": "FTW",
-      "team1": "Katy",
+      "team1": "Katy High",
       "score1": 35,
       "team2": "Manvel",
       "score2": 17,
-      "winner": "Katy"
+      "winner": "Katy High"
     },
     {
       "year": 2015,
@@ -1495,11 +1495,11 @@
       "week": 5,
       "round": "Semifinal",
       "chapter": "DAL",
-      "team1": "Katy",
+      "team1": "Katy High",
       "score1": 38,
       "team2": "Cibolo Steele",
       "score2": 0,
-      "winner": "Katy"
+      "winner": "Katy High"
     },
     {
       "year": 2015,
@@ -1509,9 +1509,9 @@
       "chapter": "TYL",
       "team1": "Austin Lake Travis",
       "score1": 7,
-      "team2": "Katy",
+      "team2": "Katy High",
       "score2": 34,
-      "winner": "Katy"
+      "winner": "Katy High"
     },
     {
       "year": 2015,
@@ -2287,11 +2287,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "SPC",
-      "team1": "Canyon",
+      "team1": "Canyon High",
       "score1": 58,
       "team2": "San Angelo Lake View",
       "score2": 37,
-      "winner": "Canyon"
+      "winner": "Canyon High"
     },
     {
       "year": 2015,
@@ -2661,9 +2661,9 @@
       "chapter": "SPC",
       "team1": "El Paso Burges",
       "score1": 7,
-      "team2": "Canyon",
+      "team2": "Canyon High",
       "score2": 42,
-      "winner": "Canyon"
+      "winner": "Canyon High"
     },
     {
       "year": 2015,
@@ -2851,7 +2851,7 @@
       "week": 3,
       "round": "Regional",
       "chapter": "SAN",
-      "team1": "Canyon",
+      "team1": "Canyon High",
       "score1": 33,
       "team2": "Everman",
       "score2": 49,

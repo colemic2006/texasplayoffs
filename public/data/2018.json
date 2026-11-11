@@ -9,7 +9,7 @@
       "chapter": "SAT",
       "team1": "El Paso Franklin",
       "score1": 77,
-      "team2": "Midland",
+      "team2": "Midland High",
       "score2": 56,
       "winner": "El Paso Franklin"
     },
@@ -115,11 +115,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "FTW",
-      "team1": "Rockwall",
+      "team1": "Rockwall High",
       "score1": 50,
       "team2": "Belton",
       "score2": 14,
-      "winner": "Rockwall"
+      "winner": "Rockwall High"
     },
     {
       "year": 2018,
@@ -211,11 +211,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Katy",
+      "team1": "Katy High",
       "score1": 52,
       "team2": "Fort Bend Travis",
       "score2": 7,
-      "winner": "Katy"
+      "winner": "Katy High"
     },
     {
       "year": 2018,
@@ -441,7 +441,7 @@
       "chapter": "DAL",
       "team1": "Allen",
       "score1": 52,
-      "team2": "Rockwall",
+      "team2": "Rockwall High",
       "score2": 40,
       "winner": "Allen"
     },
@@ -489,9 +489,9 @@
       "chapter": "HOU",
       "team1": "Houston Jersey Village",
       "score1": 14,
-      "team2": "Katy",
+      "team2": "Katy High",
       "score2": 58,
-      "winner": "Katy"
+      "winner": "Katy High"
     },
     {
       "year": 2018,
@@ -631,7 +631,7 @@
       "week": 3,
       "round": "Regional",
       "chapter": "HOU",
-      "team1": "Katy",
+      "team1": "Katy High",
       "score1": 38,
       "team2": "Galena Park North Shore",
       "score2": 49,
@@ -823,11 +823,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "FTW",
-      "team1": "Arlington",
+      "team1": "Arlington High",
       "score1": 49,
       "team2": "Weatherford",
       "score2": 16,
-      "winner": "Arlington"
+      "winner": "Arlington High"
     },
     {
       "year": 2018,
@@ -909,7 +909,7 @@
       "chapter": "DAL",
       "team1": "Wylie",
       "score1": 38,
-      "team2": "McKinney",
+      "team2": "McKinney High",
       "score2": 28,
       "winner": "Wylie"
     },
@@ -1173,7 +1173,7 @@
       "chapter": "AUS",
       "team1": "Amarillo Tascosa",
       "score1": 35,
-      "team2": "Arlington",
+      "team2": "Arlington High",
       "score2": 24,
       "winner": "Amarillo Tascosa"
     },
@@ -1605,7 +1605,7 @@
       "chapter": "PBC",
       "team1": "El Paso Del Valle",
       "score1": 21,
-      "team2": "Amarillo",
+      "team2": "Amarillo High",
       "score2": 10,
       "winner": "El Paso Del Valle"
     },
@@ -1665,7 +1665,7 @@
       "chapter": "WAC",
       "team1": "Tyler John Tyler",
       "score1": 43,
-      "team2": "Tomball",
+      "team2": "Tomball High",
       "score2": 17,
       "winner": "Tyler John Tyler"
     },
@@ -2349,7 +2349,7 @@
       "chapter": "DAL",
       "team1": "Justin Northwest",
       "score1": 58,
-      "team2": "Wichita Falls High School",
+      "team2": "Wichita Falls High",
       "score2": 20,
       "winner": "Justin Northwest"
     },
@@ -3067,11 +3067,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "ABI",
-      "team1": "Canyon",
+      "team1": "Canyon High",
       "score1": 62,
       "team2": "Gainesville",
       "score2": 14,
-      "winner": "Canyon"
+      "winner": "Canyon High"
     },
     {
       "year": 2018,
@@ -3429,9 +3429,9 @@
       "chapter": "SPC",
       "team1": "Seminole",
       "score1": 21,
-      "team2": "Canyon",
+      "team2": "Canyon High",
       "score2": 35,
-      "winner": "Canyon"
+      "winner": "Canyon High"
     },
     {
       "year": 2018,
@@ -3609,7 +3609,7 @@
       "chapter": "AMA",
       "team1": "Hereford",
       "score1": 14,
-      "team2": "Canyon",
+      "team2": "Canyon High",
       "score2": 3,
       "winner": "Hereford"
     },

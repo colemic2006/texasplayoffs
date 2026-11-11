@@ -5346,11 +5346,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "AUS",
-      "team1": "Abilene",
+      "team1": "Abilene High",
       "score1": 84,
       "team2": "El Paso Parkland",
       "score2": 0,
-      "winner": "Abilene"
+      "winner": "Abilene High"
     },
     {
       "year": 2024,
@@ -5696,7 +5696,7 @@
       "chapter": "WAC",
       "team1": "Aledo",
       "score1": 59,
-      "team2": "Abilene",
+      "team2": "Abilene High",
       "score2": 14,
       "winner": "Aledo"
     },
@@ -6896,9 +6896,9 @@
       "chapter": "DAL",
       "team1": "Sachse",
       "score1": 17,
-      "team2": "Rockwall",
+      "team2": "Rockwall High",
       "score2": 50,
-      "winner": "Rockwall"
+      "winner": "Rockwall High"
     },
     {
       "year": 2024,
@@ -7002,11 +7002,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Katy",
+      "team1": "Katy High",
       "score1": 65,
       "team2": "Alief Elsik",
       "score2": 13,
-      "winner": "Katy"
+      "winner": "Katy High"
     },
     {
       "year": 2024,
@@ -7230,7 +7230,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "DAL",
-      "team1": "Rockwall",
+      "team1": "Rockwall High",
       "score1": 14,
       "team2": "Duncanville",
       "score2": 56,
@@ -7280,9 +7280,9 @@
       "chapter": "HOU",
       "team1": "Cy Falls",
       "score1": 20,
-      "team2": "Katy",
+      "team2": "Katy High",
       "score2": 49,
-      "winner": "Katy"
+      "winner": "Katy High"
     },
     {
       "year": 2024,
@@ -7422,7 +7422,7 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "HOU",
-      "team1": "Katy",
+      "team1": "Katy High",
       "score1": 28,
       "team2": "Galena Park North Shore",
       "score2": 42,
@@ -7580,7 +7580,7 @@
       "chapter": "FTW",
       "team1": "Denton Guyer",
       "score1": 52,
-      "team2": "McKinney",
+      "team2": "McKinney High",
       "score2": 30,
       "winner": "Denton Guyer"
     },
@@ -7592,7 +7592,7 @@
       "chapter": "FTW",
       "team1": "Richardson Pearce",
       "score1": 36,
-      "team2": "Arlington",
+      "team2": "Arlington High",
       "score2": 28,
       "winner": "Richardson Pearce"
     },
@@ -7686,11 +7686,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Tomball",
+      "team1": "Tomball High",
       "score1": 35,
       "team2": "Cypress Springs",
       "score2": 25,
-      "winner": "Tomball"
+      "winner": "Tomball High"
     },
     {
       "year": 2024,
@@ -8000,7 +8000,7 @@
       "chapter": "HOU",
       "team1": "Willis",
       "score1": 28,
-      "team2": "Tomball",
+      "team2": "Tomball High",
       "score2": 24,
       "winner": "Willis"
     },

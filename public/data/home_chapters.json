@@ -11,11 +11,11 @@
     "chapter": "SPC",
     "confidence": "HIGH"
   },
-  "Abilene": {
+  "Abilene Cooper": {
     "chapter": "ABI",
     "confidence": "HIGH"
   },
-  "Abilene Cooper": {
+  "Abilene High": {
     "chapter": "ABI",
     "confidence": "HIGH"
   },
@@ -150,10 +150,6 @@
   "Argyle": {
     "chapter": "NTX",
     "confidence": "HIGH"
-  },
-  "Arlington": {
-    "chapter": "FTW",
-    "confidence": "MEDIUM"
   },
   "Arlington Bowie": {
     "chapter": "FTW",
@@ -586,10 +582,6 @@
   "Canton": {
     "chapter": "TYL",
     "confidence": "LOW"
-  },
-  "Canyon": {
-    "chapter": "AMA",
-    "confidence": "HIGH"
   },
   "Canyon High": {
     "chapter": "AMA",
@@ -2103,10 +2095,6 @@
     "chapter": "SAT",
     "confidence": "MEDIUM"
   },
-  "Katy": {
-    "chapter": "HOU",
-    "confidence": "HIGH"
-  },
   "Katy Cinco Ranch": {
     "chapter": "HOU",
     "confidence": "HIGH"
@@ -2630,10 +2618,6 @@
   "McGregor": {
     "chapter": "WAC",
     "confidence": "MEDIUM"
-  },
-  "McKinney": {
-    "chapter": "DAL",
-    "confidence": "LOW"
   },
   "McKinney High": {
     "chapter": "DAL",
@@ -3307,10 +3291,6 @@
     "chapter": "SAN",
     "confidence": "LOW"
   },
-  "Rockwall": {
-    "chapter": "DAL",
-    "confidence": "HIGH"
-  },
   "Rockwall High": {
     "chapter": "DAL",
     "confidence": "HIGH"
@@ -3935,10 +3915,6 @@
     "chapter": "COM",
     "confidence": "LOW"
   },
-  "Tomball": {
-    "chapter": "HOU",
-    "confidence": "HIGH"
-  },
   "Tomball High": {
     "chapter": "HOU",
     "confidence": "HIGH"
@@ -4193,10 +4169,6 @@
   },
   "Whitney": {
     "chapter": "WAC",
-    "confidence": "HIGH"
-  },
-  "Wichita Falls": {
-    "chapter": "NTX",
     "confidence": "HIGH"
   },
   "Wichita Falls City View": {

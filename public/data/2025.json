@@ -3776,9 +3776,9 @@
       "chapter": "PBC",
       "team1": "El Paso Ysleta",
       "score1": 13,
-      "team2": "Canyon",
+      "team2": "Canyon High",
       "score2": 66,
-      "winner": "Canyon"
+      "winner": "Canyon High"
     },
     {
       "year": 2025,
@@ -4158,11 +4158,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "SPC",
-      "team1": "Canyon",
+      "team1": "Canyon High",
       "score1": 31,
       "team2": "Brownwood",
       "score2": 28,
-      "winner": "Canyon"
+      "winner": "Canyon High"
     },
     {
       "year": 2025,
@@ -4350,7 +4350,7 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "AMA",
-      "team1": "Canyon",
+      "team1": "Canyon High",
       "score1": 3,
       "team2": "Canyon West Plains",
       "score2": 35,
@@ -5310,11 +5310,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "ABI",
-      "team1": "Abilene",
+      "team1": "Abilene High",
       "score1": 84,
       "team2": "El Paso Bel Air",
       "score2": 25,
-      "winner": "Abilene"
+      "winner": "Abilene High"
     },
     {
       "year": 2025,
@@ -5682,7 +5682,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "AUS",
-      "team1": "Abilene",
+      "team1": "Abilene High",
       "score1": 0,
       "team2": "Denton Ryan",
       "score2": 59,
@@ -7736,9 +7736,9 @@
       "chapter": "HOU",
       "team1": "Waller",
       "score1": 42,
-      "team2": "Tomball",
+      "team2": "Tomball High",
       "score2": 56,
-      "winner": "Tomball"
+      "winner": "Tomball High"
     },
     {
       "year": 2025,
@@ -7758,11 +7758,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Katy",
+      "team1": "Katy High",
       "score1": 42,
       "team2": "George Ranch",
       "score2": 7,
-      "winner": "Katy"
+      "winner": "Katy High"
     },
     {
       "year": 2025,
@@ -8024,7 +8024,7 @@
       "chapter": "HOU",
       "team1": "Willis",
       "score1": 37,
-      "team2": "Tomball",
+      "team2": "Tomball High",
       "score2": 24,
       "winner": "Willis"
     },
@@ -8036,9 +8036,9 @@
       "chapter": "HOU",
       "team1": "Houston Memorial",
       "score1": 7,
-      "team2": "Katy",
+      "team2": "Katy High",
       "score2": 48,
-      "winner": "Katy"
+      "winner": "Katy High"
     },
     {
       "year": 2025,
@@ -8178,7 +8178,7 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "HOU",
-      "team1": "Katy",
+      "team1": "Katy High",
       "score1": 37,
       "team2": "Houston Summer Creek",
       "score2": 38,

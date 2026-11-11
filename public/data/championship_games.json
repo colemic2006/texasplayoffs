@@ -444,7 +444,7 @@
       },
       {
         "classification": "5A D2",
-        "team1": "Katy",
+        "team1": "Katy High",
         "team2": "Pflugerville",
         "score1": null,
         "score2": null
@@ -462,8 +462,8 @@
     "2009": [
       {
         "classification": "5A D2",
-        "team1": "Abilene",
-        "team2": "Katy",
+        "team1": "Abilene High",
+        "team2": "Katy High",
         "score1": null,
         "score2": null
       }
@@ -820,7 +820,7 @@
       },
       {
         "classification": "6A D2",
-        "team1": "Katy",
+        "team1": "Katy High",
         "team2": "Austin Lake Travis",
         "score1": 34,
         "score2": 7
@@ -837,7 +837,7 @@
       {
         "classification": "6A D2",
         "team1": "Cedar Hill",
-        "team2": "Katy",
+        "team2": "Katy High",
         "score1": 23,
         "score2": 20
       }
@@ -901,7 +901,7 @@
       {
         "classification": "5A D2",
         "team1": "Cedar Hill",
-        "team2": "Katy",
+        "team2": "Katy High",
         "score1": 34,
         "score2": 24
       }
@@ -916,7 +916,7 @@
       },
       {
         "classification": "5A D2",
-        "team1": "Katy",
+        "team1": "Katy High",
         "team2": "Cedar Hill",
         "score1": 35,
         "score2": 24
@@ -971,7 +971,7 @@
       },
       {
         "classification": "6A D2",
-        "team1": "Katy",
+        "team1": "Katy High",
         "team2": "Cedar Hill",
         "score1": 51,
         "score2": 14
@@ -1037,7 +1037,7 @@
       },
       {
         "classification": "5A D2",
-        "team1": "Katy",
+        "team1": "Katy High",
         "team2": "Wylie",
         "score1": null,
         "score2": null
@@ -1195,7 +1195,7 @@
     "2003": [
       {
         "classification": "5A D2",
-        "team1": "Katy",
+        "team1": "Katy High",
         "team2": "Southlake Carroll",
         "score1": null,
         "score2": null
@@ -1214,7 +1214,7 @@
       {
         "classification": "5A D2",
         "team1": "Southlake Carroll",
-        "team2": "Katy",
+        "team2": "Katy High",
         "score1": null,
         "score2": null
       }

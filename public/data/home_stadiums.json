@@ -17,7 +17,7 @@
    "map_link": "https://goo.gl/maps/tPyaEW5NrQgX1iCx5",
    "how": "city + school"
   },
-  "Abilene": {
+  "Abilene Cooper": {
    "stadium_id": 997,
    "stadium": "P.E. Shotwell Stadium",
    "city": "Abilene",
@@ -25,7 +25,7 @@
    "map_link": "https://goo.gl/maps/CejNppU8gPYVjYwX6",
    "how": "city + school"
   },
-  "Abilene Cooper": {
+  "Abilene High": {
    "stadium_id": 997,
    "stadium": "P.E. Shotwell Stadium",
    "city": "Abilene",
@@ -119,14 +119,6 @@
    "city": "Alvord",
    "capacity": 1760,
    "map_link": "https://goo.gl/maps/L7mr4gtSgfefA4H99",
-   "how": "city + school"
-  },
-  "Amarillo": {
-   "stadium_id": 722,
-   "stadium": "Dick Bivins Stadium",
-   "city": "Amarillo",
-   "capacity": 15000,
-   "map_link": "https://goo.gl/maps/F9wZMeXxkqjjEzha6",
    "how": "city + school"
   },
   "Amarillo Caprock": {
@@ -287,14 +279,6 @@
    "city": "Flower Mound",
    "capacity": 5000,
    "map_link": "https://goo.gl/maps/ZiNDZ6vZx5CuxndG8",
-   "how": "city + school"
-  },
-  "Arlington": {
-   "stadium_id": 274,
-   "stadium": "Maverick Stadium",
-   "city": "Arlington",
-   "capacity": 12500,
-   "map_link": "https://goo.gl/maps/hHZEBpf6PZrbWPKn7",
    "how": "city + school"
   },
   "Arlington Bowie": {
@@ -4121,14 +4105,6 @@
    "map_link": "https://goo.gl/maps/Zds1rXChHE7S4x139",
    "how": "city + school"
   },
-  "Katy": {
-   "stadium_id": 1699,
-   "stadium": "Mike Johnston Field at Legacy Stadium",
-   "city": "Katy",
-   "capacity": 12000,
-   "map_link": "https://goo.gl/maps/km2SPmR8CsAASd3H6",
-   "how": "city + school"
-  },
   "Katy Cinco Ranch": {
    "stadium_id": 1699,
    "stadium": "Mike Johnston Field at Legacy Stadium",
@@ -5105,14 +5081,6 @@
    "map_link": "https://goo.gl/maps/faTDFYgNFRRSHBsJ7",
    "how": "city + school"
   },
-  "McKinney": {
-   "stadium_id": 1755,
-   "stadium": "McKinney ISD Stadium",
-   "city": "McKinney",
-   "capacity": 12000,
-   "map_link": "https://goo.gl/maps/46cUGoZ2vBwbN8Yj8",
-   "how": "city + school"
-  },
   "McKinney Boyd": {
    "stadium_id": 1755,
    "stadium": "McKinney ISD Stadium",
@@ -5247,14 +5215,6 @@
    "city": "Miami",
    "capacity": 602,
    "map_link": "https://goo.gl/maps/frt8jfFu3q8ogfw28",
-   "how": "city + school"
-  },
-  "Midland": {
-   "stadium_id": 521,
-   "stadium": "Astound Broadband Stadium",
-   "city": "Midland",
-   "capacity": 15000,
-   "map_link": "https://goo.gl/maps/2xizkpWLXy9xkYWw9",
    "how": "city + school"
   },
   "Midland Greenwood": {
@@ -6457,14 +6417,6 @@
    "map_link": "https://goo.gl/maps/YwPjwSJWRoeFzM3j9",
    "how": "city + school"
   },
-  "Rockwall": {
-   "stadium_id": 319,
-   "stadium": "Wilkerson-Sanders Memorial Stadium",
-   "city": "Rockwall",
-   "capacity": 9718,
-   "map_link": "https://goo.gl/maps/5MpwMEd2BthysAyp8",
-   "how": "city + school"
-  },
   "Rockwall High": {
    "stadium_id": 319,
    "stadium": "Wilkerson-Sanders Memorial Stadium",
@@ -7577,14 +7529,6 @@
    "map_link": "https://goo.gl/maps/SGzbXi8LigUJq46y5",
    "how": "city + school"
   },
-  "Tomball": {
-   "stadium_id": 616,
-   "stadium": "Tomball ISD Stadium",
-   "city": "Tomball",
-   "capacity": 10002,
-   "map_link": "https://goo.gl/maps/Z6Jh79x8crv1Gjhu6",
-   "how": "city + school"
-  },
   "Tomball High": {
    "stadium_id": 616,
    "stadium": "Tomball ISD Stadium",
@@ -8095,14 +8039,6 @@
    "city": "Whitney",
    "capacity": 3572,
    "map_link": "https://goo.gl/maps/Vfr6k4Kem1BqGz7U9",
-   "how": "city + school"
-  },
-  "Wichita Falls": {
-   "stadium_id": 683,
-   "stadium": "Memorial Stadium",
-   "city": "Wichita Falls",
-   "capacity": 14824,
-   "map_link": "https://goo.gl/maps/iAQNicf1EvGtWVBr9",
    "how": "city + school"
   },
   "Wichita Falls High": {
