@@ -19,5 +19,10 @@ for ch, schools in lists.items():
         if team in out and out[team] != ch:
             raise SystemExit(f'{team} is listed under both {out[team]} and {ch}')
         out[team] = ch
+aliases = ROOT / 'season' / 'home_chapter_aliases.json'
+if aliases.exists():
+    for team, ch in json.loads(aliases.read_text()).items():
+        if not team.startswith('_'):
+            out.setdefault(team, ch)
 (ROOT / 'public' / 'data' / 'home_chapters_confirmed.json').write_text(json.dumps(dict(sorted(out.items())), indent=1) + '\n')
 print(f'home chapters: {len(out)} schools in {len([c for c in lists if not c.startswith("_")])} chapters')
