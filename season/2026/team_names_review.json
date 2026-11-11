@@ -8,5 +8,61 @@
     "other_options": [
       "Frisco Panther Creek"
     ]
+  },
+  {
+    "key": "mp:3a38912a-ce12-4864-a3f8-d42c102936d7",
+    "source_name": "Abilene",
+    "classification": "5A D1",
+    "opponent": "Hanks",
+    "recommended": "Abilene",
+    "other_options": []
+  },
+  {
+    "key": "mp:8dd9d584-b4aa-4d6e-a625-b5fa746832b1",
+    "source_name": "Amarillo",
+    "classification": "5A D1",
+    "opponent": "Bel Air",
+    "recommended": "Amarillo",
+    "other_options": []
+  },
+  {
+    "key": "mp:8b5e5d6e-78fc-4ee2-aa68-faab9f7204b4",
+    "source_name": "Arlington",
+    "classification": "6A D1",
+    "opponent": "Keller",
+    "recommended": "Arlington",
+    "other_options": []
+  },
+  {
+    "key": "mp:eb9891a7-b1a1-4a32-b361-5e2912e8696d",
+    "source_name": "Katy",
+    "classification": "6A D1",
+    "opponent": "Fort Bend Travis",
+    "recommended": "Katy",
+    "other_options": []
+  },
+  {
+    "key": "mp:2f9d779a-3559-44ad-a335-e82ac1bf9666",
+    "source_name": "Rockwall",
+    "classification": "6A D1",
+    "opponent": "Wylie",
+    "recommended": "Rockwall",
+    "other_options": []
+  },
+  {
+    "key": "mp:577f6b3c-90f8-4adf-bca2-23839f42a17c",
+    "source_name": "Midland",
+    "classification": "6A D2",
+    "opponent": "Franklin",
+    "recommended": "Midland",
+    "other_options": []
+  },
+  {
+    "key": "mp:dbe44b91-13a1-4d0d-8f57-09791381aaca",
+    "source_name": "Tomball",
+    "classification": "6A D2",
+    "opponent": "Langham Creek",
+    "recommended": "Tomball",
+    "other_options": []
   }
 ]
