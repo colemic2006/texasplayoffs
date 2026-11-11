@@ -20,7 +20,7 @@ const BAD_NAMES = new Set(['total bracket counts','totals','total','bye','filler
 function isValidTeam(name) {
   if (!name) return false
   const n = name.trim()
-  if (!n || /^\d+$/.test(n) || KNOWN_CHAPTERS.has(n.toUpperCase()) || BAD_NAMES.has(n.toLowerCase())) return false
+  if (!n || /^\d+$/.test(n) || (KNOWN_CHAPTERS.has(n.toUpperCase()) && n.toUpperCase() !== 'WACO') || BAD_NAMES.has(n.toLowerCase())) return false
   return true
 }
 
