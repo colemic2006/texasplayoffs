@@ -299,11 +299,6 @@ export default function TeamsView({ allData, years }) {
               <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginBottom:4 }}>Team Detail</div>
               <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:22, color:'var(--ink)', letterSpacing:0.5 }}>{selected.name}</div>
               <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--steel)', marginTop:2 }}>{selected.classifications.join(' · ')}</div>
-              {homeCh[selected.name] && (
-                <div style={{ fontSize:12, color:'var(--mid)', marginTop:6 }}>
-                  Home chapter: <strong style={{ color:'var(--burnt)' }}>{CHAPTER_NAMES[homeCh[selected.name]] || homeCh[selected.name]} ({homeCh[selected.name]})</strong>
-                </div>
-              )}
               {homeStadiums[selected.name] && (() => {
                 const h = homeStadiums[selected.name]
                 return (
@@ -358,27 +353,39 @@ export default function TeamsView({ allData, years }) {
                 </div>
               )
             })()}
-            {selected.chapters.length > 0 && (() => {
-              const topCount = selected.chapters[0].count
-              const favs = selected.chapters.filter(c => c.count === topCount)
+            {(() => {
+              // home chapter (owner's lists) beside the chapter that has worked the most of their games
+              const topCount = selected.chapters[0]?.count || 0
+              const favs = topCount ? selected.chapters.filter(c => c.count === topCount) : []
+              const home = homeCh[selected.name]
+              const lbl = { fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginBottom:8 }
+              const big = { fontFamily:"'Bebas Neue', sans-serif", fontSize:24, color:'var(--burnt)', lineHeight:1 }
               return (
-                <div style={{ padding:'12px 18px', borderBottom:'1px solid var(--border)', background:'rgba(253,208,35,0.04)' }}>
-                  <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginBottom:8 }}>
-                    Favorite Chapter{favs.length > 1 ? 's' : ''}
+                <div style={{ padding:'12px 18px', borderBottom:'1px solid var(--border)', background:'rgba(253,208,35,0.04)',
+                              display:'grid', gridTemplateColumns:'1fr 1fr', gap:14 }}>
+                  <div>
+                    <div style={lbl}>Home Chapter</div>
+                    {home ? (
+                      <>
+                        <div style={big}>{CHAPTER_NAMES[home] || home}</div>
+                        <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:1 }}>{home}</div>
+                      </>
+                    ) : <div style={{ fontSize:12, color:'var(--mid)' }}>Not on file yet</div>}
                   </div>
-                  <div style={{ display:'flex', flexDirection:'column', gap:6 }}>
-                    {favs.map(fav => (
-                      <div key={fav.ch} style={{ display:'flex', alignItems:'center', justifyContent:'space-between' }}>
+                  <div style={{ borderLeft:'1px solid var(--border)', paddingLeft:14 }}>
+                    <div style={lbl}>Favorite Chapter{favs.length > 1 ? 's' : ''}</div>
+                    {favs.length ? favs.map(fav => (
+                      <div key={fav.ch} style={{ display:'flex', alignItems:'flex-end', justifyContent:'space-between', gap:8, marginBottom:4 }}>
                         <div>
-                          <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:26, color:'var(--burnt)', lineHeight:1 }}>{CHAPTER_NAMES[fav.ch] || fav.ch}</div>
+                          <div style={big}>{CHAPTER_NAMES[fav.ch] || fav.ch}</div>
                           <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:1 }}>{fav.ch}</div>
                         </div>
                         <div style={{ textAlign:'right' }}>
-                          <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:36, color:'var(--burnt)', lineHeight:1 }}>{fav.count}</div>
+                          <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:30, color:'var(--burnt)', lineHeight:1 }}>{fav.count}</div>
                           <div style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)' }}>games</div>
                         </div>
                       </div>
-                    ))}
+                    )) : <div style={{ fontSize:12, color:'var(--mid)' }}>None recorded</div>}
                   </div>
                 </div>
               )
