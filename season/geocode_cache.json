@@ -3114,6 +3114,18 @@
   "stadium": "Eagle Field",
   "stadium_id": 68
  },
+ "Luling's Eagle Field || Edna v Cameron Yoe": {
+  "address": "112 E. Travis, Luling, Texas 78648",
+  "city": "Luling",
+  "how": "stadium",
+  "lat": 29.67797,
+  "lng": -97.65208,
+  "map_link": "https://goo.gl/maps/xumeeUwXq7LXDSJN7",
+  "rules": 10,
+  "site": "Luling's Eagle Field",
+  "stadium": "Eagle Field",
+  "stadium_id": 68
+ },
  "Madisonville CISD Stadium || Anahuac v Palestine Westwood": {
   "address": "811 S May St,, Madisonville, Texas 77864",
   "city": "Madisonville",
