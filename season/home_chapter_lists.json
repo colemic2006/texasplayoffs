@@ -500,5 +500,31 @@
   "Hart": "Hart",
   "Valley": "Turkey Valley",
   "Turkey": "Turkey Valley"
+ },
+ "CSC": {
+  "A&M Consolidated": "A&M Consolidated",
+  "Anderson HS": "Anderson-Shiro",
+  "Bryan HS": "Bryan",
+  "Rudder HS": "Bryan Rudder",
+  "Caldwell": "Caldwell",
+  "College Station High School": "College Station",
+  "Hearn HS & JH": "Hearne",
+  "Iola HS": "Iola",
+  "Navasota HS": "Navasota",
+  "Snook HS": "Snook",
+  "Somerville": "Somerville",
+  "Bremond HS": "Bremond",
+  "Brenham HS": "Brenham",
+  "Burton": "Burton",
+  "Calvert": "Calvert",
+  "Centerville HS": "Centerville",
+  "Dime Box HS": "Dime Box",
+  "Franklin HS": "Franklin",
+  "Giddings HS": "Giddings",
+  "Huntsville HS": "Huntsville",
+  "Madisonville HS": "Madisonville",
+  "Milano": "Milano",
+  "Normangee": "Normangee",
+  "Leon": "Jewett Leon"
  }
 }
