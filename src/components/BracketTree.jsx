@@ -1,5 +1,6 @@
 import React, { useMemo, useState } from 'react'
 import { placeName, gameWhen } from '../placeName'
+import { chapterColor, UNASSIGNED } from '../chapterColors'
 
 // Classic bracket tree for one classification, drawn from the season's games.
 // The games come from the UIL / MaxPreps brackets in bracket order, so first-round games
@@ -70,6 +71,7 @@ export default function BracketTree({ data, year }) {
   const current = classes.includes(cls) ? cls : classes[0]
   const [from, setFrom] = useState(0)
   const [follow, setFollow] = useState(null)
+  const [onlyCh, setOnlyCh] = useState(null)
 
   const bracket = useMemo(() => current ? buildBracket(games.filter(g => g.classification === current)) : null, [games, current])
   if (!bracket) return null
@@ -82,6 +84,9 @@ export default function BracketTree({ data, year }) {
   const y = (r, k) => (k * 2 ** r + (2 ** r - 1) / 2) * ROW + (ROW - BOX_H) / 2
   const x = r => r * (BOX_W + GAP)
   const champ = winnerOf(slots[R - 1][0])
+  const legendCount = {}
+  cols.flat().forEach(g => { if (g) legendCount[g.chapter || 'none'] = (legendCount[g.chapter || 'none'] || 0) + 1 })
+  const legend = Object.entries(legendCount).sort((a, b) => (a[0] === 'none') - (b[0] === 'none') || b[1] - a[1] || a[0].localeCompare(b[0]))
 
   const chip = on => ({
     fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.08em', padding:'4px 10px', borderRadius:3,
@@ -92,7 +97,7 @@ export default function BracketTree({ data, year }) {
   return (
     <div>
       <div style={{ display:'flex', gap:4, flexWrap:'wrap', marginBottom:10 }}>
-        {classes.map(c => <button key={c} onClick={() => { setCls(c); setFollow(null) }} style={chip(c === current)}>{c}</button>)}
+        {classes.map(c => <button key={c} onClick={() => { setCls(c); setFollow(null); setOnlyCh(null) }} style={chip(c === current)}>{c}</button>)}
       </div>
       <div style={{ display:'flex', alignItems:'center', gap:4, flexWrap:'wrap', marginBottom:14 }}>
         <span style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginRight:4 }}>Start at:</span>
@@ -103,6 +108,26 @@ export default function BracketTree({ data, year }) {
           <button onClick={() => setFollow(null)} style={{ ...chip(true), marginLeft:'auto' }}>Following {follow} ✕</button>
         )}
       </div>
+
+      {legend.length > 0 && (
+        <div style={{ display:'flex', alignItems:'center', gap:4, flexWrap:'wrap', marginBottom:14 }}>
+          <span style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginRight:4 }}>Chapters:</span>
+          {legend.map(([c, n]) => {
+            const on = onlyCh === c, col = c === 'none' ? UNASSIGNED : chapterColor(c)
+            return (
+              <button key={c} onClick={() => setOnlyCh(on ? null : c)} title={on ? 'Show all chapters' : 'Show only this chapter'} style={{
+                display:'flex', alignItems:'center', gap:5, fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.06em',
+                padding:'3px 8px', borderRadius:3, cursor:'pointer', border:`1px solid ${on ? col : 'var(--border)'}`,
+                background: on ? col : 'transparent', color: on ? (c === 'none' ? 'var(--ink)' : '#fff') : 'var(--ink)',
+                opacity: onlyCh && !on ? 0.5 : 1,
+              }}>
+                <span style={{ width:9, height:9, borderRadius:2, background:col, border: on ? '1px solid #fff' : 'none' }} />
+                {c === 'none' ? 'Unassigned' : c} · {n}
+              </button>
+            )
+          })}
+        </div>
+      )}
 
       <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, padding:'16px 16px 20px' }}>
         <div style={{ display:'flex', justifyContent:'space-between', alignItems:'baseline', flexWrap:'wrap', gap:8, marginBottom:4 }}>
@@ -139,7 +164,7 @@ export default function BracketTree({ data, year }) {
             </svg>
             {cols.map((col, i) => col.map((g, k) => (
               <Box key={`${i}-${k}`} g={g} left={x(i)} top={y(i, k)} follow={follow} setFollow={setFollow}
-                   inProgress={inProgress} final={start + i === R - 1} />
+                   inProgress={inProgress} final={start + i === R - 1} onlyCh={onlyCh} />
             )))}
           </div>
         </div>
@@ -151,7 +176,7 @@ export default function BracketTree({ data, year }) {
   )
 }
 
-function Box({ g, left, top, follow, setFollow, inProgress, final }) {
+function Box({ g, left, top, follow, setFollow, inProgress, final, onlyCh }) {
   const base = { position:'absolute', left, top, width:BOX_W, height:BOX_H, borderRadius:5, boxSizing:'border-box' }
   if (!g) {
     return <div style={{ ...base, border:'1px dashed var(--border)', background:'transparent' }} />
@@ -174,11 +199,12 @@ function Box({ g, left, top, follow, setFollow, inProgress, final }) {
   return (
     <div title={tip || (inProgress ? 'Site and date to be announced' : '')}
          style={{ ...base, background:'var(--surface)', overflow:'hidden', display:'flex',
+                  opacity: onlyCh && (g.chapter || 'none') !== onlyCh ? 0.25 : 1, transition:'opacity 0.15s',
                   border: `1px solid ${lit ? 'var(--burnt)' : final ? 'var(--gold)' : 'var(--border)'}`,
                   boxShadow: lit ? '0 0 0 1px var(--burnt)' : 'none' }}>
       <div style={{ width:28, flexShrink:0, display:'flex', alignItems:'center', justifyContent:'center',
                     fontFamily:'var(--mono)', fontSize:8, letterSpacing:'0.04em',
-                    background: g.chapter ? 'var(--burnt)' : 'var(--gold)', color: g.chapter ? '#fff' : 'var(--ink)' }}>
+                    background: g.chapter ? chapterColor(g.chapter) : UNASSIGNED, color: g.chapter ? '#fff' : 'var(--ink)' }}>
         {g.chapter || '?'}
       </div>
       <div style={{ flex:1, minWidth:0 }}>
