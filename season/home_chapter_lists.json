@@ -593,5 +593,33 @@
   "Fort Bend ISD Marshall HS": "Fort Bend Marshall",
   "Houston ISD Sterling HS": "Houston Sterling",
   "Emery/Weiner School HS (Houston)": "Houston Emery/Weiner"
+ },
+ "SAN": {
+  "Ballinger": "Ballinger",
+  "Brownwood": "Brownwood",
+  "Blackwell": "Blackwell",
+  "Brady": "Brady",
+  "Bronte": "Bronte",
+  "San Angelo Central": "San Angelo Central",
+  "Christoval": "Christoval",
+  "Eden": "Eden",
+  "Eldorado": "Eldorado",
+  "Grape Creek": "Grape Creek",
+  "Irion County": "Irion County",
+  "Junction": "Junction",
+  "San Angelo Lake View": "San Angelo Lake View",
+  "Menard": "Menard",
+  "Miles": "Miles",
+  "Olfen": "Olfen",
+  "Ozona": "Ozona",
+  "Paint Rock": "Paint Rock",
+  "Robert Lee": "Robert Lee",
+  "Rochelle": "Rochelle",
+  "Sonora": "Sonora",
+  "Sterling City": "Sterling City",
+  "San Angelo TLCA": "San Angelo TLCA",
+  "Veribest": "Veribest",
+  "Wall": "Wall",
+  "Water Valley": "Water Valley"
  }
 }
