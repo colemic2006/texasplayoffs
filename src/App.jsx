@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Nav from './components/Nav'
 import ChapterDashboard from './components/ChapterDashboard'
 import BracketViewer from './components/BracketViewer'
+import ChapterTravel from './components/ChapterTravel'
 import HistoryView from './components/HistoryView'
 import TeamsView from './components/TeamsView'
 import ChapterRegulars from './components/ChapterRegulars'
@@ -99,6 +100,7 @@ export default function App() {
                 {page === 'chapters' && <MissingGames data={yearData} onSubmit={() => setPage('submit')} />}
                 {page === 'chapters' && yearData.season && <WeekMap data={yearData} />}
                 {page === 'chapters' && <ChapterDashboard data={yearData} year={year} allData={data} years={YEARS} loadAllYears={loadAllYears} />}
+                {page === 'chapters' && <ChapterTravel data={yearData} />}
                 {page === 'brackets' && <BracketViewer data={yearData} year={year} />}
                 {page === 'history' && <HistoryView allData={data} years={HISTORY_YEARS} loadYear={(y) => {
                   if (data[y]) return
