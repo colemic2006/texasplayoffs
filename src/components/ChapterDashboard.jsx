@@ -4,6 +4,7 @@ import {
 } from 'recharts'
 import { placeName, gameWhen } from '../placeName'
 import { useDctfTeams, DctfLinks } from '../dctf'
+import { chapterColor } from '../chapterColors'
 
 const WEEKS = ['1','2','3','4','5','6']
 const RETIRED = new Set(['WACO', 'ETX'])   // codes no longer in use: WACO is WAC; East Texas merged into Tyler
@@ -229,8 +230,9 @@ export default function ChapterDashboard({ data, year, allData = {}, years = [],
                 <Bar dataKey="value" radius={[3,3,0,0]}>
                   {barData.map((entry, i) => (
                     <Cell key={entry.code}
-                      fill={entry.code === selectedChapter ? 'var(--gold)' : 'var(--burnt)'}
-                      fillOpacity={entry.value === 0 ? 0.2 : 0.85}
+                      fill={chapterColor(entry.code)}
+                      fillOpacity={entry.value === 0 ? 0.2 : selectedChapter && entry.code !== selectedChapter ? 0.25 : 0.9}
+                      stroke={entry.code === selectedChapter ? 'var(--ink)' : 'none'} strokeWidth={1.5}
                       onClick={() => setSelectedChapter(entry.code === selectedChapter ? null : entry.code)}
                       style={{ cursor:'pointer' }}
                     />
@@ -403,6 +405,7 @@ export default function ChapterDashboard({ data, year, allData = {}, years = [],
                       ...tdStyle, position:'sticky', left:0, zIndex:1,
                       background: ch.code === selectedChapter ? 'rgba(253,208,35,0.1)' : idx % 2 === 0 ? 'var(--surface)' : 'rgba(245,240,232,0.98)',
                     }}>
+                      <span style={{ display:'inline-block', width:8, height:8, borderRadius:2, background:chapterColor(ch.code), marginRight:6 }} />
                       <span style={{ fontFamily:'var(--mono)', fontSize:11, fontWeight:500, color:'var(--ink)' }}>{ch.code}</span>
                       <span style={{ fontFamily:'DM Sans', fontSize:11, color:'var(--mid)', marginLeft:8 }}>{ch.name}</span>
                     </td>
