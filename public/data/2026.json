@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-12T23:45+00:00",
+    "updated": "2026-11-12T23:59+00:00",
     "games": 352,
     "played": 0,
     "assigned": 352,
@@ -2706,9 +2706,9 @@
       "team2": "Randolph",
       "score2": null,
       "winner": null,
-      "site": "Devine's Warhorse Stadium",
-      "lat": 29.15267,
-      "lng": -98.91324,
+      "site": "@ Devine's Warhorse Stadium",
+      "lat": 29.15198,
+      "lng": -98.91419,
       "stadium": "Warhorse Stadium",
       "map_link": "https://goo.gl/maps/w7PwYjV3q9q88cwt8",
       "city": "Devine",
@@ -2993,7 +2993,15 @@
       "map_link": "https://goo.gl/maps/uL2MSfaBvwkSJvek7",
       "city": "Canyon",
       "date": "2026-11-12",
-      "time": "4:00 PM"
+      "changes": [
+        {
+          "field": "time",
+          "old": "4:00 PM",
+          "new": "",
+          "at": "2026-11-12T23:59+00:00",
+          "status": "changed"
+        }
+      ]
     },
     {
       "year": 2026,
@@ -4875,7 +4883,15 @@
       "map_link": "https://goo.gl/maps/8DGWRhdF8PcJ6Znn7",
       "city": "Lubbock",
       "date": "2026-11-12",
-      "time": "5:00 PM"
+      "changes": [
+        {
+          "field": "time",
+          "old": "5:00 PM",
+          "new": "",
+          "at": "2026-11-12T23:59+00:00",
+          "status": "changed"
+        }
+      ]
     },
     {
       "year": 2026,
@@ -5293,7 +5309,16 @@
       "lng": -106.26676,
       "city": "El Paso",
       "date": "2026-11-12",
-      "time": "7:30 PM"
+      "time": "6:30 PM",
+      "changes": [
+        {
+          "field": "time",
+          "old": "7:30 PM",
+          "new": "6:30 PM",
+          "at": "2026-11-12T23:59+00:00",
+          "status": "changed"
+        }
+      ]
     },
     {
       "year": 2026,

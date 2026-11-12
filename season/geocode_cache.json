@@ -1,4 +1,17 @@
 {
+ "@ Devine's Warhorse Stadium || Devine v Randolph": {
+  "address": "Colonial Pkwy at Warhorse, Devine, Texas 78016",
+  "city": "Devine",
+  "how": "stadium (map link)",
+  "lat": 29.15198,
+  "link_tried": true,
+  "lng": -98.91419,
+  "map_link": "https://goo.gl/maps/w7PwYjV3q9q88cwt8",
+  "rules": 10,
+  "site": "@ Devine's Warhorse Stadium",
+  "stadium": "Warhorse Stadium",
+  "stadium_id": 184
+ },
  "@ Lamesa High School || Wink v Ralls": {
   "address": "600 N 14th St, Lamesa, Texas 79331",
   "city": "Lamesa",
