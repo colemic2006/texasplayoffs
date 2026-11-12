@@ -7425,14 +7425,6 @@
    "map_link": "https://goo.gl/maps/Ba4TN5d6UYXznHdVA",
    "how": "city + school"
   },
-  "Texas High": {
-   "stadium_id": 460,
-   "stadium": "Tiger Stadium at Grim Park",
-   "city": "Texarkana",
-   "capacity": 7511,
-   "map_link": "https://goo.gl/maps/nyHd5xtgoKNbQYK39",
-   "how": "city + school"
-  },
   "The Colony": {
    "stadium_id": 305,
    "stadium": "Tommy Briggs Stadium",
@@ -7609,7 +7601,7 @@
    "map_link": "https://goo.gl/maps/dr3F7Gwex63W83Y29",
    "how": "city + school"
   },
-  "Tyler John Tyler": {
+  "Tyler High": {
    "stadium_id": 568,
    "stadium": "Christus Trinity Mother Frances Rose Stadium",
    "city": "Tyler",

@@ -4746,6 +4746,18 @@
   "stadium": "Christus Trinity Mother Frances Rose Stadium",
   "stadium_id": 568
  },
+ "TMF Rose Stadium, Tyler || Tyler High v Midlothian": {
+  "address": "609 Fair Park Drive, Tyler, Texas 75701",
+  "city": "Tyler",
+  "how": "stadium",
+  "lat": 32.34228,
+  "lng": -95.32406,
+  "map_link": "https://goo.gl/maps/ZwesgiaqJ8b5bMgQ7",
+  "rules": 10,
+  "site": "TMF Rose Stadium, Tyler",
+  "stadium": "Christus Trinity Mother Frances Rose Stadium",
+  "stadium_id": 568
+ },
  "TMF Rose Stadium, Tyler || Tyler John Tyler v Midlothian": {
   "address": "609 Fair Park Drive, Tyler, Texas 75701",
   "city": "Tyler",

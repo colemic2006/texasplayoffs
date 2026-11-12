@@ -165,7 +165,7 @@
       "chapter": "AUS",
       "team1": "A&M Consolidated",
       "score1": 28,
-      "team2": "Tyler Lee",
+      "team2": "Tyler Legacy",
       "score2": 13,
       "winner": "A&M Consolidated"
     },
@@ -1651,11 +1651,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "TYL",
-      "team1": "Tyler John Tyler",
+      "team1": "Tyler High",
       "score1": 26,
       "team2": "Texarkana Texas",
       "score2": 17,
-      "winner": "Tyler John Tyler"
+      "winner": "Tyler High"
     },
     {
       "year": 2010,
@@ -1951,11 +1951,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Tyler John Tyler",
+      "team1": "Tyler High",
       "score1": 48,
       "team2": "Pflugerville Connally",
       "score2": 24,
-      "winner": "Tyler John Tyler"
+      "winner": "Tyler High"
     },
     {
       "year": 2010,
@@ -2097,9 +2097,9 @@
       "chapter": "SAT",
       "team1": "Carrollton Smith",
       "score1": 34,
-      "team2": "Tyler John Tyler",
+      "team2": "Tyler High",
       "score2": 45,
-      "winner": "Tyler John Tyler"
+      "winner": "Tyler High"
     },
     {
       "year": 2010,
@@ -2169,7 +2169,7 @@
       "chapter": "HOU",
       "team1": "Wylie",
       "score1": 20,
-      "team2": "Tyler John Tyler",
+      "team2": "Tyler High",
       "score2": 16,
       "winner": "Wylie"
     },

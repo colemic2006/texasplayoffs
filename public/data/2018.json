@@ -1663,11 +1663,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "WAC",
-      "team1": "Tyler John Tyler",
+      "team1": "Tyler High",
       "score1": 43,
       "team2": "Tomball High",
       "score2": 17,
-      "winner": "Tyler John Tyler"
+      "winner": "Tyler High"
     },
     {
       "year": 2018,
@@ -1975,11 +1975,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Tyler John Tyler",
+      "team1": "Tyler High",
       "score1": 22,
       "team2": "Lancaster",
       "score2": 10,
-      "winner": "Tyler John Tyler"
+      "winner": "Tyler High"
     },
     {
       "year": 2018,
@@ -2131,11 +2131,11 @@
       "week": 3,
       "round": "Regional",
       "chapter": "FTW",
-      "team1": "Tyler John Tyler",
+      "team1": "Tyler High",
       "score1": 31,
       "team2": "Frisco Lone Star",
       "score2": 13,
-      "winner": "Tyler John Tyler"
+      "winner": "Tyler High"
     },
     {
       "year": 2018,
@@ -2205,7 +2205,7 @@
       "chapter": "HOU",
       "team1": "Dallas Highland Park",
       "score1": 42,
-      "team2": "Tyler John Tyler",
+      "team2": "Tyler High",
       "score2": 35,
       "winner": "Dallas Highland Park"
     },
