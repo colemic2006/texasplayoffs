@@ -2,9 +2,9 @@
 export const UNASSIGNED = '#FDD023'
 export const PALETTE = ['#461D7C', '#00838f', '#2e7d4f', '#c2185b', '#2c4a6e', '#e65100', '#6d4c41', '#558b2f', '#283593', '#00695c']
 
-// picked: chapter codes and/or 'none'; a chapter keeps its color while it stays picked
+// a chapter's map/bracket color; 'none' (unassigned) is LSU gold. picked is kept for old callers.
 export function colorFor(picked, c) {
-  return c === 'none' ? UNASSIGNED : PALETTE[picked.filter(x => x !== 'none').indexOf(c) % PALETTE.length]
+  return !c || c === 'none' ? UNASSIGNED : chapterColor(c)
 }
 
 // One fixed color per chapter for the bracket tree (white text reads on all of them)

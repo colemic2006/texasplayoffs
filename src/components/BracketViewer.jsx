@@ -115,7 +115,7 @@ export default function BracketViewer({ data, year }) {
     if (!showMap) return
     setMapMarkers(weekGames.filter(g => g.site && g.lat != null && g.lng != null).map(g => ({
       lat: g.lat, lng: g.lng, game: g,
-      color: picked.length ? colorFor(picked, g.chapter || 'none') : undefined,
+      color: colorFor(picked, g.chapter || 'none'),
       stadium: findStadium(g.site, stadiums) || (g.stadium ? { name: g.stadium, city: g.city || '', map_link: g.map_link } : null),
     })))
   }, [showMap, weekGames, stadiums])
@@ -201,7 +201,9 @@ export default function BracketViewer({ data, year }) {
           )}
           {weekChapters.map(([c, n]) => (
             <button key={c} onClick={() => toggleChapter(c)}
-                    style={chapterChip(picked.includes(c), picked.includes(c) ? colorFor(picked, c) : null)}>{c} ({n})</button>
+                    style={{ ...chapterChip(picked.includes(c), colorFor(picked, c)), display:'inline-flex', alignItems:'center' }}>
+              <span style={{ width:8, height:8, borderRadius:'50%', background:colorFor(picked, c), marginRight:5, boxShadow: picked.includes(c) ? '0 0 0 1px #fff' : 'none' }} />{c} ({n})
+            </button>
           ))}
         </div>
       )}
@@ -410,7 +412,7 @@ export function GameMap({ markers }) {
         // drawn dots (no image downloads): orange once a chapter is assigned, blue until then
         const marker = L.circleMarker([lat, lng], {
           radius: 7, weight: 2, color: '#fff', fillOpacity: 0.9,
-          fillColor: color || (game.chapter ? '#461D7C' : '#FDD023'),
+          fillColor: color || colorFor([], game.chapter),
         }).addTo(leafletMap.current).bindPopup(popup)
         marker._home = L.latLng(lat, lng)
         markersRef.current.push(marker)

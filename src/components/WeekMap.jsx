@@ -38,7 +38,7 @@ export default function WeekMap({ data }) {
   const markers = useMemo(() => weekGames
     .filter(g => g.lat != null && g.lng != null)
     .map(g => ({ lat: g.lat, lng: g.lng, game: g,
-                 color: picked.length ? colorOf(g.chapter || 'none') : undefined,
+                 color: colorOf(g.chapter || 'none'),
                  stadium: { name: g.stadium || g.site, city: g.city || '', map_link: g.map_link } })),
     [week, games, picked])
 
@@ -79,7 +79,9 @@ export default function WeekMap({ data }) {
           <button onClick={() => toggle('none')} style={chip(picked.includes('none'), UNASSIGNED)}>Unassigned ({unassigned})</button>
         )}
         {chapters.map(([c, n]) => (
-          <button key={c} onClick={() => toggle(c)} style={chip(picked.includes(c), picked.includes(c) ? colorOf(c) : null)}>{c} ({n})</button>
+          <button key={c} onClick={() => toggle(c)} style={{ ...chip(picked.includes(c), colorOf(c)), display:'inline-flex', alignItems:'center' }}>
+            <span style={{ width:8, height:8, borderRadius:'50%', background:colorOf(c), marginRight:5, boxShadow: picked.includes(c) ? '0 0 0 1px #fff' : 'none' }} />{c} ({n})
+          </button>
         ))}
       </div>
       <div style={{ borderRadius:10, overflow:'hidden', border:'1px solid var(--border)', height:440 }}>
@@ -97,7 +99,7 @@ export default function WeekMap({ data }) {
           {picked.length
             ? picked.map(c => <span key={c}>{dot(colorOf(c))}{label(c)} · {onMap(c)} of {inWeek(c)} on the map</span>)
             : <>
-                <span>{dot('#461D7C')}Chapter assigned</span>
+                <span>Pin colors match the chapter buttons above</span>
                 <span>{dot(UNASSIGNED)}Not assigned yet</span>
               </>}
           {markers.length < weekGames.length && (
