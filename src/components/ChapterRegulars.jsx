@@ -1,4 +1,5 @@
 import React, { useMemo, useState } from 'react'
+import { useHomeChapters } from '../homeChapters'
 
 const KNOWN_CHAPTERS = new Set(['ABI','AMA','AUS','BEA','COM','CSC','CTX','DAL','ELP','ETX','FTW','HOU','NTX','PBC','PVC','RGV','SAT','SAN','SFA','SPC','STX','TYL','WAC','WACO'])
 const BAD_NAMES = new Set(['total bracket counts','totals','total','bye','filler',''])
@@ -26,6 +27,11 @@ const NAME_FIXES = {
   'Wolfe City':'Wolf City','FW Arlington Heights':'Arlington Heights','WF City View':'City View',
   'SA Davenport':'Davenport','Ridge Point':'FB Ridge Point','Wyatt':'FW Wyatt',
   'SA Jefferson':'Jefferson','Maude':'Maud','Alamo Heights':'SA Alamo Heights','SA Taft':'Taft','FW Dunbar':'Dunbar',
+}
+
+const localBadge = {
+  fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.06em', padding:'1px 6px', borderRadius:3,
+  background:'var(--gold)', color:'var(--ink)', fontWeight:600, whiteSpace:'nowrap',
 }
 
 function canonicalize(name) {
@@ -94,6 +100,12 @@ export default function ChapterRegulars({ allData, years }) {
       .slice(0, 20)
   }, [teams, regularsChapter])
 
+  // home chapters from the owner's lists; East Texas was folded into Tyler, WACO is Waco's old code
+  const homeCh = useHomeChapters()
+  const sameChapter = c => ({ ETX: 'TYL', WACO: 'WAC' }[c] || c)
+  const homeOf = name => homeCh[name] || homeCh[Object.keys(NAME_FIXES).find(k => NAME_FIXES[k] === name)] || null
+  const localCount = regularsChapter ? chapterRegularsList.filter(t => homeOf(t.name) === sameChapter(regularsChapter)).length : 0
+
   return (
     <div>
       <div style={{ fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.18em', textTransform:'uppercase', color:'var(--mid)', marginBottom:6 }}>
@@ -142,6 +154,14 @@ export default function ChapterRegulars({ allData, years }) {
             <span style={{ fontFamily:'var(--mono)', fontSize:11, color:'var(--mid)', marginLeft:10 }}>
               ({regularsChapter}) · Top {chapterRegularsList.length} teams by cumulative game assignments
             </span>
+            <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:6, display:'flex', alignItems:'center', gap:8, flexWrap:'wrap' }}>
+              <span style={localBadge}>★ Local school</span>
+              <span>
+                = a school in this chapter's own coverage area.{' '}
+                <strong style={{ color:'var(--ink)' }}>{localCount} of {chapterRegularsList.length}</strong> of its top teams are local.
+                {!Object.values(homeCh).includes(sameChapter(regularsChapter)) && ' (This chapter\'s school list isn\'t on file yet.)'}
+              </span>
+            </div>
           </div>
 
           <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(280px, 1fr))', gap:8 }}>
@@ -161,6 +181,7 @@ export default function ChapterRegulars({ allData, years }) {
                   style={{
                     background: isSelected ? 'rgba(44,74,110,0.07)' : 'var(--surface)',
                     border: `1px solid ${isSelected ? 'var(--steel)' : 'var(--border)'}`,
+                    borderLeft: homeOf(team.name) === sameChapter(regularsChapter) ? '4px solid var(--gold)' : undefined,
                     borderRadius:8, padding:'10px 14px', cursor:'pointer', transition:'all 0.15s'
                   }}
                 >
@@ -168,6 +189,9 @@ export default function ChapterRegulars({ allData, years }) {
                     <div style={{ display:'flex', alignItems:'baseline', gap:8 }}>
                       <span style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:20, color: rankColor, lineHeight:1 }}>#{i+1}</span>
                       <span style={{ fontFamily:'DM Sans', fontSize:13, fontWeight:500, color:'var(--ink)' }}>{team.name}</span>
+                      {homeOf(team.name) === sameChapter(regularsChapter)
+                        ? <span style={localBadge} title="This school is in the chapter's own coverage area">★ Local</span>
+                        : homeOf(team.name) && <span style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)' }} title="This school's home chapter">home: {homeOf(team.name)}</span>}
                     </div>
                     <div style={{ display:'flex', alignItems:'baseline', gap:4 }}>
                       <span style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:24, color: rankColor, lineHeight:1 }}>{team.count}</span>
