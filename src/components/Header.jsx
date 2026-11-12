@@ -30,13 +30,17 @@ export default function Header({ yearData, year }) {
         Texas High School Football · Officiating Data
       </div>
 
+      <div style={{ display:'flex', alignItems:'center', gap:18, marginBottom:10 }}>
+      <img className="header-logo" src={`${import.meta.env.BASE_URL}logo.svg`} alt="" width={104} height={96}
+           style={{ flexShrink:0, display:'block' }} />
       <h1 className="header-title" style={{
         fontFamily: "'Bebas Neue', sans-serif", fontSize: 56, lineHeight: 0.95,
-        letterSpacing: 1.5, marginBottom: 10
+        letterSpacing: 1.5, margin: 0
       }}>
         Texas Playoffs<br />
         <span style={{ color: 'var(--gold)' }}>Chapter Tracker</span>
       </h1>
+      </div>
 
       <p className="header-subtitle" style={{
         maxWidth: 560, fontSize: 14, fontWeight: 300,
