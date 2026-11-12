@@ -7566,11 +7566,11 @@
       "week": 1,
       "round": "Area",
       "chapter": "AMA",
-      "team1": "Valley",
+      "team1": "Turkey Valley",
       "score1": 77,
       "team2": "Nazareth",
       "score2": 32,
-      "winner": "Valley"
+      "winner": "Turkey Valley"
     },
     {
       "year": 2021,
@@ -7758,11 +7758,11 @@
       "week": 2,
       "round": "Regional",
       "chapter": "SPC",
-      "team1": "Valley",
+      "team1": "Turkey Valley",
       "score1": 66,
       "team2": "Spur",
       "score2": 54,
-      "winner": "Valley"
+      "winner": "Turkey Valley"
     },
     {
       "year": 2021,
@@ -7854,7 +7854,7 @@
       "week": 3,
       "round": "Quarterfinal",
       "chapter": "AMA",
-      "team1": "Valley",
+      "team1": "Turkey Valley",
       "score1": 36,
       "team2": "Happy",
       "score2": 38,
