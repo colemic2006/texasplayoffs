@@ -2,6 +2,7 @@ import React, { useState, useMemo, useEffect, useRef } from 'react'
 import { placeName, gameWhen } from '../placeName'
 import { UNASSIGNED, colorFor } from '../chapterColors'
 import 'leaflet/dist/leaflet.css'
+import BracketTree from './BracketTree'
 
 const CLASSIFICATIONS = ['1A D1','1A D2','2A D1','2A D2','3A D1','3A D2','4A D1','4A D2','5A D1','5A D2','6A D1','6A D2','Six Man D1','Six Man D2']
 const WEEKS = [1,2,3,4,5,6]
@@ -48,6 +49,8 @@ function findStadium(site, stadiums) {
 
 export default function BracketViewer({ data, year }) {
   const [selectedWeek, setSelectedWeek] = useState(1)
+  const [view, setViewState] = useState(() => { try { return localStorage.getItem('bracketView') || 'tree' } catch { return 'tree' } })
+  const setView = v => { setViewState(v); try { localStorage.setItem('bracketView', v) } catch {} }
   const [classFilter, setClassFilter] = useState('all')
   const [picked, setPicked] = useState([])   // chapter codes and/or 'none' (unassigned); empty = all
   const toggleChapter = c => setPicked(p => p.includes(c) ? p.filter(x => x !== c) : [...p, c])
@@ -135,6 +138,19 @@ export default function BracketViewer({ data, year }) {
         <div style={{ width:4, height:28, borderRadius:2, background:'var(--steel)', flexShrink:0 }} />
         Playoff Brackets · {year}
       </div>
+
+      <div style={{ display:'flex', gap:4, marginBottom:18 }}>
+        {[['tree','Bracket'],['list','Games & Map']].map(([v, label]) => (
+          <button key={v} onClick={() => setView(v)} style={{
+            fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.12em', textTransform:'uppercase',
+            padding:'7px 16px', borderRadius:4, cursor:'pointer',
+            border:`1px solid ${view === v ? 'var(--burnt)' : 'var(--border)'}`,
+            background: view === v ? 'var(--burnt)' : 'transparent', color: view === v ? '#fff' : 'var(--mid)'
+          }}>{label}</button>
+        ))}
+      </div>
+
+      {view === 'tree' ? <BracketTree data={data} year={year} /> : <>
 
       {/* Week tabs */}
       <div style={{ display:'flex', gap:4, flexWrap:'wrap', marginBottom:16 }}>
@@ -264,6 +280,7 @@ export default function BracketViewer({ data, year }) {
           })}
         </div>
       )}
+      </>}
     </div>
   )
 }
