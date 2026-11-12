@@ -50,7 +50,7 @@ export default function ChapterTravel({ data }) {
               <th style={{ ...th, textAlign:'left' }}>Chapter</th>
               {weeks.map(w => <th key={w} style={th}>Wk {w}<div style={{ fontSize:8, letterSpacing:'0.06em', opacity:0.7 }}>{ROUNDS[w]}</div></th>)}
               <th style={th}>Games</th>
-              <th style={th}>Per game</th>
+              <th style={th}>Avg per game<div style={{ fontSize:8, letterSpacing:'0.06em', opacity:0.7 }}>round trip</div></th>
               <th style={{ ...th, color:'var(--burnt)' }}>Season total</th>
               <th style={{ ...th, width:'22%' }}></th>
             </tr>
