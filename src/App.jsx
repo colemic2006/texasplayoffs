@@ -5,6 +5,7 @@ import ChapterDashboard from './components/ChapterDashboard'
 import BracketViewer from './components/BracketViewer'
 import ChapterTravel from './components/ChapterTravel'
 import OutsideChapterGames from './components/OutsideChapterGames'
+import OfficialsCost from './components/OfficialsCost'
 import HistoryView from './components/HistoryView'
 import TeamsView from './components/TeamsView'
 import ChapterRegulars from './components/ChapterRegulars'
@@ -103,6 +104,7 @@ export default function App() {
                 {page === 'chapters' && <ChapterDashboard data={yearData} year={year} allData={data} years={YEARS} loadAllYears={loadAllYears} />}
                 {page === 'chapters' && <ChapterTravel data={yearData} />}
                 {page === 'chapters' && <OutsideChapterGames data={yearData} />}
+                {page === 'chapters' && <OfficialsCost data={yearData} />}
                 {page === 'brackets' && <BracketViewer data={yearData} year={year} />}
                 {page === 'history' && <HistoryView allData={data} years={HISTORY_YEARS} loadYear={(y) => {
                   if (data[y]) return
