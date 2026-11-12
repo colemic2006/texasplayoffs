@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react'
 import { placeName, gameWhen } from '../placeName'
+import { ChangeBadge, ChangeDetail } from '../changes'
 import { useDctfTeams, DctfLinks } from '../dctf'
 import { canonicalize, isValidTeam } from './TeamsView'
 import { useFinals } from '../finals'
@@ -160,7 +161,9 @@ function TeamCard({ t, seasonsOnSite, homeChapter, finals, year, inProgress, hom
                   : placeName(g)
                 : (inProgress ? 'Site TBD' : '—')}
               <span style={{ fontFamily:'var(--mono)', fontSize:11, color:'var(--mid)', marginLeft:8 }}>{g.date ? gameWhen(g) : (inProgress ? 'Date TBD' : '')}</span>
+              {' '}<ChangeBadge game={g} />
             </div>
+            <ChangeDetail game={g} />
           </div>
         </div>
       ))}

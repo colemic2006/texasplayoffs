@@ -1,5 +1,6 @@
 import React from 'react'
 import { placeName, gameWhen } from '../placeName'
+import { ChangeBadge, ChangeDetail } from '../changes'
 
 const ROUNDS = { 1:'Bi-District', 2:'Area', 3:'Regionals', 4:'Quarterfinals', 5:'Semifinals', 6:'Championship' }
 const CLASSES = ['1A D1','1A D2','2A D1','2A D2','3A D1','3A D2','4A D1','4A D2','5A D1','5A D2','6A D1','6A D2']
@@ -45,7 +46,7 @@ export default function MissingGames({ data, onSubmit }) {
                 <td style={{ ...td, fontFamily:'var(--mono)', fontSize:10, color:'var(--steel)', whiteSpace:'nowrap' }}>{g.classification}</td>
                 <td style={td}>{g.team1} <span style={{ color:'var(--mid)' }}>vs</span> {g.team2}</td>
                 <td style={{ ...td, color:'var(--mid)' }}>{g.site ? placeName(g) : 'TBD'}</td>
-                <td style={{ ...td, fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', whiteSpace:'nowrap' }}>{g.date ? gameWhen(g) : 'TBD'}</td>
+                <td style={{ ...td, fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', whiteSpace:'nowrap' }}>{g.date ? gameWhen(g) : 'TBD'} <ChangeBadge game={g} /></td>
               </tr>
             ))}
           </tbody>

@@ -2,6 +2,7 @@ import React, { useMemo, useState, useEffect } from 'react'
 import { useFinals } from '../finals'
 import { useHomeChapters } from '../homeChapters'
 import { placeName, gameWhen } from '../placeName'
+import { ChangeBadge, ChangeDetail } from '../changes'
 
 const KNOWN_CHAPTERS = new Set(['ABI','AMA','AUS','BEA','STX','COM','CSC','CTX','DAL','ELP','FTW','HOU','NTX','PBC','PVC','RGV','SAT','SAN','SFA','SPC','TYL','WAC'])   // not 'WACO': Waco is also a school (Waco High)
 const BAD_NAMES = new Set(['total bracket counts','totals','total','bye','filler',''])
@@ -359,7 +360,9 @@ export default function TeamsView({ allData, years }) {
                               : placeName(g)
                             : 'Site TBD'}
                           {' · '}{g.date ? gameWhen(g) : 'Date TBD'}
+                          {' '}<ChangeBadge game={g} />
                         </div>
+                        <ChangeDetail game={g} />
                       </div>
                     )
                   })}

@@ -3,6 +3,7 @@ import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell
 } from 'recharts'
 import { placeName, gameWhen } from '../placeName'
+import { ChangeBadge, ChangeDetail } from '../changes'
 import { useDctfTeams, DctfLinks } from '../dctf'
 import { chapterColor } from '../chapterColors'
 
@@ -610,6 +611,8 @@ function ChapterGames({ games, week, setWeek, cls, setCls, inProgress }) {
                       : placeName(g)
                     : (inProgress ? 'TBD' : '—')}
                   {(g.date || inProgress) && <span style={{ fontFamily:'var(--mono)', fontSize:10, marginLeft:6 }}>{g.date ? gameWhen(g) : 'Date TBD'}</span>}
+                  {' '}<ChangeBadge game={g} />
+                  <ChangeDetail game={g} />
                 </td>
                 <td style={tdStyle}><DctfLinks game={g} teams={dctf} /></td>
               </tr>

@@ -6,6 +6,7 @@ import BracketViewer from './components/BracketViewer'
 import ChapterTravel from './components/ChapterTravel'
 import OutsideChapterGames from './components/OutsideChapterGames'
 import OfficialsCost from './components/OfficialsCost'
+import RecentChanges from './components/RecentChanges'
 import HistoryView from './components/HistoryView'
 import TeamsView from './components/TeamsView'
 import ChapterRegulars from './components/ChapterRegulars'
@@ -98,6 +99,7 @@ export default function App() {
             {!loading && !error && yearData && (
               <>
                 {(page === 'chapters' || page === 'brackets') && <SeasonBanner data={yearData} year={year} />}
+                {(page === 'chapters' || page === 'brackets') && <RecentChanges data={yearData} />}
                 {page === 'chapters' && <TeamSearch data={yearData} year={year} allData={data} years={YEARS} loadAllYears={loadAllYears} />}
                 {page === 'chapters' && <MissingGames data={yearData} onSubmit={() => setPage('submit')} />}
                 {page === 'chapters' && yearData.season && <WeekMap data={yearData} />}

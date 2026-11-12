@@ -212,6 +212,34 @@ def date_set(info):
     return bool(info.get('date')) and 'date has not been set' not in info.get('description', '')
 
 
+def changes_path(year):
+    return ROOT / 'season' / str(year) / 'changes.json'
+
+
+def load_changes(year):
+    return json.loads(changes_path(year).read_text()) if changes_path(year).exists() else []
+
+
+def save_changes(year, changes):
+    changes_path(year).write_text(json.dumps(changes, indent=1) + '\n')
+
+
+def now_iso():
+    return datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='minutes')
+
+
+def note_conflict(year, game, field, shown, source):
+    """The source (MaxPreps / UIL) now lists a different value than one the owner set by hand."""
+    changes = load_changes(year)
+    for c in changes:
+        if c.get('status') == 'conflict' and c['field'] == field and c['new'] == source and \
+                {c['team1'], c['team2']} == {game['team1'], game['team2']} and c['classification'] == game['classification']:
+            return   # already flagged
+    changes.append(dict(game, field=field, old=shown, new=source, at=now_iso(), status='conflict'))
+    save_changes(year, changes)
+    print(f'  ! {game["team1"]} v {game["team2"]}: source now lists {field} {source!r}; the site keeps {shown!r} (set by hand)')
+
+
 def fill_sites(year, ws, placed):
     """Fill Site/Date cells from MaxPreps details cards. A card is read again on each run (at
     most every 10 minutes) until the game has a site, a set date and a kickoff time. A site typed in by hand is kept; the
@@ -228,10 +256,12 @@ def fill_sites(year, ws, placed):
             continue
         key = f"{g['cls']}|{g['key1']}|{g['key2']}"
         seen = cards.get(key, {})
-        recent = seen.get('read') and (now - datetime.datetime.fromisoformat(seen['read'])).total_seconds() < 10 * 60   # the job runs every 15 minutes
-        complete = game_sites.clean_site(seen.get('site')) and date_set(seen) and seen.get('time')
-        if seen.get('read') and (complete or recent):
-            info = seen          # complete, or just read
+        recent = seen.get('read') and (now - datetime.datetime.fromisoformat(seen['read'])).total_seconds() < 12 * 60   # the job runs every 15 minutes
+        played = r.get('score1') is not None and r.get('score2') is not None
+        # games not yet played are read again on every run, so a moved date, kickoff or site
+        # is caught within 15 minutes (a complete card used to be read only once)
+        if seen.get('read') and (recent or played):
+            info = seen          # just read, or already played
         else:
             try:
                 info = read_card(g['card'])
@@ -241,11 +271,23 @@ def fill_sites(year, ws, placed):
             info['read'] = now.isoformat(timespec='seconds')
             info.update({k: v for k, v in seen.items() if k.startswith('filled_')})   # keep what the job wrote
             cards[key] = info
-            time.sleep(1.5)   # be gentle with MaxPreps
+            time.sleep(1.0)   # be gentle with MaxPreps
         site = game_sites.clean_site(info.get('site'))
+        prev_site = game_sites.clean_site(seen.get('site'))
+        game = dict(classification=r['cls'], week=r['week'], team1=r['team1'], team2=r['team2'])
         if site and not r['site']:
             ws[f'{COL["site"]}{r["row"]}'] = r['site'] = site
+            cards.setdefault(key, info)['filled_site'] = site
             filled += 1
+        elif site and site != r['site']:
+            # the source moved the game: follow it when the site shown is the source's old one
+            # (or one the job filled in); a site typed in by hand is kept and flagged instead
+            if r['site'] in (prev_site, seen.get('filled_site')):
+                ws[f'{COL["site"]}{r["row"]}'] = r['site'] = site
+                cards.setdefault(key, info)['filled_site'] = site
+                filled += 1
+            elif site != prev_site:
+                note_conflict(year, game, 'site', r['site'], site)
         # dates and kickoffs: the job only ever changes values it filled in itself
         # (remembered per game as filled_date / filled_time); the owner's are never touched
         for k, val in (('date', info['date'] if date_set(info) else ''),
@@ -258,6 +300,9 @@ def fill_sites(year, ws, placed):
                 ws[f'{COL[k]}{r["row"]}'] = r[k] = val or None
                 cards.setdefault(key, info)[f'filled_{k}'] = val
                 filled += 1
+            elif not mine and val and old != val and val != (seen.get(k) if date_set(seen) else ''):
+                # the source changed a value the owner set by hand: keep the owner's, flag it
+                note_conflict(year, game, k, old, val)
     cards_path(year).write_text(json.dumps(cards, indent=1, sort_keys=True) + '\n')
     with_site = sum(1 for c in cards.values() if game_sites.clean_site(c.get('site')))
     print(f'  cards: {len(cards)} read, {with_site} with a site')
@@ -431,6 +476,46 @@ def prefill(year):
         print('  score differs (left as is):', c)
 
 
+CHANGE_FIELDS = ('date', 'time', 'site')
+CHANGE_DAYS = 4   # a change stays highlighted this long, or until the game is played
+
+
+def game_key(g):
+    return (g['classification'], int(g['week']), frozenset((g['team1'], g['team2'])))
+
+
+def log_changes(year, games):
+    """Compare each game's date, kickoff and site with the published file; log what changed
+    (whoever changed it: the source, the owner's workbook or a fix) and attach recent changes."""
+    dest = ROOT / 'public' / 'data' / f'{year}.json'
+    before = {game_key(g): g for g in json.loads(dest.read_text()).get('games', [])} if dest.exists() else {}
+    changes = load_changes(year)
+    norm = lambda v: re.sub(r'[^a-z0-9:/]', '', str(v or '').lower())
+    stamp = now_iso()
+    for g in games:
+        old = before.get(game_key(g))
+        if not old:
+            continue
+        for f in CHANGE_FIELDS:
+            if old.get(f) and norm(old.get(f)) != norm(g.get(f)):
+                changes.append(dict(classification=g['classification'], week=g['week'], team1=g['team1'], team2=g['team2'],
+                                    field=f, old=old.get(f), new=g.get(f) or '', at=stamp, status='changed'))
+                print(f'  * {g["team1"]} v {g["team2"]}: {f} {old.get(f)!r} -> {g.get(f)!r}')
+    # a hand-set value that now matches the source is no longer a conflict
+    changes = [c for c in changes if not (c.get('status') == 'conflict' and any(
+        game_key(c) == game_key(g) and norm(g.get(c['field'])) == norm(c['new']) for g in games))]
+    save_changes(year, changes)
+    cutoff = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=CHANGE_DAYS)
+    by_game = {}
+    for c in changes:
+        if datetime.datetime.fromisoformat(c['at']) >= cutoff:
+            by_game.setdefault(game_key(c), []).append({k: c[k] for k in ('field', 'old', 'new', 'at', 'status')})
+    for g in games:
+        recent = by_game.get(game_key(g))
+        if recent and g['score1'] is None:
+            g['changes'] = recent
+
+
 def build(year, force=False):
     wb, path = open_workbook(year)
     ws = wb['Games']
@@ -465,6 +550,7 @@ def build(year, force=False):
             g['time'] = str(r['time'])
         games.append(g)
     games.sort(key=lambda g: (g['week'], CLASSES.index(g['classification']) if g['classification'] in CLASSES else 99))
+    log_changes(year, games)
 
     chapters = {}
     for g in games:

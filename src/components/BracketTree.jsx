@@ -1,6 +1,7 @@
 import React, { useMemo, useState } from 'react'
 import { placeName, gameWhen } from '../placeName'
 import { chapterColor, UNASSIGNED } from '../chapterColors'
+import { hasChanges, changeText, ALERT } from '../changes'
 
 // Classic bracket tree for one classification, drawn from the season's games.
 // The games come from the UIL / MaxPreps brackets in bracket order, so first-round games
@@ -183,7 +184,7 @@ function Box({ g, left, top, follow, setFollow, inProgress, final, onlyCh }) {
   }
   const w = winnerOf(g)
   const lit = follow && has(g, follow)
-  const tip = [g.chapter && `Chapter: ${g.chapter}`, g.site && placeName(g), g.date && gameWhen(g)].filter(Boolean).join(' · ')
+  const tip = [hasChanges(g) && `⚠ CHANGED: ${changeText(g)}`, g.chapter && `Chapter: ${g.chapter}`, g.site && placeName(g), g.date && gameWhen(g)].filter(Boolean).join(' · ')
   const row = (t, s) => {
     const win = w && t === w, lose = w && t !== w
     return (
@@ -200,7 +201,7 @@ function Box({ g, left, top, follow, setFollow, inProgress, final, onlyCh }) {
     <div title={tip || (inProgress ? 'Site and date to be announced' : '')}
          style={{ ...base, background:'var(--surface)', overflow:'hidden', display:'flex',
                   opacity: onlyCh && (g.chapter || 'none') !== onlyCh ? 0.25 : 1, transition:'opacity 0.15s',
-                  border: `1px solid ${lit ? 'var(--burnt)' : final ? 'var(--gold)' : 'var(--border)'}`,
+                  border: `${hasChanges(g) ? 2 : 1}px solid ${hasChanges(g) ? ALERT : lit ? 'var(--burnt)' : final ? 'var(--gold)' : 'var(--border)'}`,
                   boxShadow: lit ? '0 0 0 1px var(--burnt)' : 'none' }}>
       <div style={{ width:28, flexShrink:0, display:'flex', alignItems:'center', justifyContent:'center',
                     fontFamily:'var(--mono)', fontSize:8, letterSpacing:'0.04em',
@@ -212,6 +213,8 @@ function Box({ g, left, top, follow, setFollow, inProgress, final, onlyCh }) {
         <div style={{ height:1, background:'var(--border)', margin:'0 6px' }} />
         {row(g.team2, g.score2)}
       </div>
+      {hasChanges(g) && <span style={{ position:'absolute', right:0, top:0, background:ALERT, color:'#fff', fontSize:8, fontWeight:700,
+                                       fontFamily:'var(--mono)', padding:'0 4px', borderBottomLeftRadius:3, lineHeight:'12px' }}>!</span>}
     </div>
   )
 }

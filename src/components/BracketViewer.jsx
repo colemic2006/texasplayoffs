@@ -3,6 +3,7 @@ import { placeName, gameWhen } from '../placeName'
 import { UNASSIGNED, colorFor } from '../chapterColors'
 import 'leaflet/dist/leaflet.css'
 import BracketTree from './BracketTree'
+import { hasChanges, ChangeBadge, ChangeDetail, changeText, ALERT } from '../changes'
 
 const CLASSIFICATIONS = ['1A D1','1A D2','2A D1','2A D2','3A D1','3A D2','4A D1','4A D2','5A D1','5A D2','6A D1','6A D2','Six Man D1','Six Man D2']
 const WEEKS = [1,2,3,4,5,6]
@@ -293,7 +294,8 @@ function GameCard({ game, inProgress }) {
   const t2Wins = hasScore && game.score2 > game.score1
 
   return (
-    <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, overflow:'hidden' }}>
+    <div style={{ background:'var(--surface)', border: hasChanges(game) ? `2px solid ${ALERT}` : '1px solid var(--border)', borderRadius:10, overflow:'hidden' }}>
+      {hasChanges(game) && <div style={{ padding:'6px 12px', background:'rgba(198,40,40,0.08)', borderBottom:'1px solid rgba(198,40,40,0.25)' }}><ChangeBadge game={game} /><ChangeDetail game={game} /></div>}
       <div style={{ padding:'14px 16px' }}>
         <TeamRow name={game.team1} score={game.score1} isWinner={t1Wins} hasScore={hasScore} />
         <div style={{ height:1, background:'var(--border)', margin:'8px 0' }} />
@@ -404,6 +406,7 @@ export function GameMap({ markers }) {
             <div>${game.team2} <strong>${game.score2 ?? ''}</strong></div>
             ${placeName(game, stadium) ? `<div style="margin-top:6px;font-size:11px;color:#666">${placeName(game, stadium)}</div>` : ''}
             ${game.date ? `<div style="font-size:11px;color:#666">${gameWhen(game)}</div>` : ''}
+            ${hasChanges(game) ? `<div style="margin-top:4px;font-size:11px;font-weight:700;color:${ALERT}">⚠ Changed: ${changeText(game)}</div>` : ''}
             ${game.chapter ? `<div style="margin-top:4px;font-size:11px">Chapter: <strong>${game.chapter}</strong></div>` : ''}
             ${winner ? `<div style="margin-top:4px;color:#461D7C;font-size:11px">▲ ${winner}</div>` : ''}
             <div style="margin-top:8px"><a href="${mapsUrl}" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:#1a73e8;text-decoration:none">📍 Open in Google Maps</a></div>
