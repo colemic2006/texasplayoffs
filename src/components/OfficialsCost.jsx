@@ -36,6 +36,7 @@ export default function OfficialsCost({ data }) {
             <th style={{ ...th, textAlign:'left' }}>Game</th>
             <th style={{ ...th, textAlign:'left' }}>Crew from</th>
             <th style={th}>One way</th>
+            <th style={th}>Round trip</th>
             <th style={th}>Game fees</th>
             <th style={th}>Travel</th>
             <th style={th}>Riders</th>
@@ -57,8 +58,9 @@ export default function OfficialsCost({ data }) {
                     <span style={{ fontSize:10, padding:'2px 7px', borderRadius:3, background:chapterColor(g.chapter), color:'#fff' }}>{names[g.chapter] || g.chapter}</span>
                   </td>
                   <td style={td}>{Math.round(c.oneWay)} mi</td>
+                  <td style={td}>{Math.round(c.roundTrip)} mi</td>
                   <td style={td}>{usd(c.fees)}</td>
-                  <td style={td}>{usd(c.travel)}</td>
+                  <td style={td} title={c.band ? `${c.crew} officials × $${c.band} travel band` : `${Math.round(c.roundTrip)} round-trip miles × ${PAY.cars} cars × $${PAY.perMile} a mile`}>{usd(c.travel)}</td>
                   <td style={td}>{c.riders ? usd(c.riders) : '—'}</td>
                   <td style={td}>{c.meals ? usd(c.meals) : '—'}</td>
                   <td style={{ ...td, color:'var(--burnt)', fontWeight:700 }}>{usd(c.total)}</td>
@@ -72,7 +74,7 @@ export default function OfficialsCost({ data }) {
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.7 }}>
         How it's figured: crews of 7 for 2A-6A and 5 for six-man (1A). Game fee {usd(PAY.gameFee)} per official, the lowest gate band, since gate receipts aren't known.
         Up to 90 miles one way, each official gets the travel band ($20 up to 30 miles, $35 up to 60, $50 up to 90).
-        Past 90 miles: {PAY.cars} cars paid ${PAY.perMile} a mile round trip, ${PAY.riderFee} for each rider, and the ${PAY.meal} playoff meal for every official.
+        Past 90 miles: {PAY.cars} cars paid ${PAY.perMile} a mile for the round trip (there and back), ${PAY.riderFee} for each rider, and the ${PAY.meal} playoff meal for every official.
         Miles are estimated: straight-line from the chapter's center city × 1.2 for roads. "Per school" assumes the two schools split the cost evenly.
       </div>
     </div>

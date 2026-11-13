@@ -28,5 +28,5 @@ export function gameCost(g) {
     band = PAY.bands.find(([max]) => oneWay <= max)
     travel = crew * band[1]
   }
-  return { crew, oneWay, fees, travel, riders, meals, band: band && band[1], total: fees + travel + riders + meals }
+  return { crew, oneWay, roundTrip: 2 * oneWay, fees, travel, riders, meals, band: band && band[1], total: fees + travel + riders + meals }
 }
