@@ -17,13 +17,12 @@ permissions:
   issues: write
   actions: write   # to start the site deploy after a commit
 
-concurrency:
-  group: season-data
-  cancel-in-progress: false
-
 jobs:
   update:
     runs-on: ubuntu-latest
+    concurrency:
+      group: season-data
+      cancel-in-progress: false
     steps:
       - uses: actions/checkout@v4
 
@@ -84,3 +83,30 @@ jobs:
             python3 scripts/season.py build
           done
           echo "Could not push after 3 attempts"; exit 1
+
+  # GitHub's schedule is best-effort and often skips runs for hours, so each run queues the
+  # next one 15 minutes after it started. The schedule above stays as a backstop that restarts
+  # the cycle if it ever breaks. Only one cycle runs: a run that sees another season run queued
+  # or in progress leaves the next check to that one.
+  next:
+    needs: update
+    if: always() && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    steps:
+      - name: Queue the next check
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          month=$(date -u +%m)
+          if [ "$month" != 11 ] && [ "$month" != 12 ]; then echo "Off season: not queuing"; exit 0; fi
+          started=$(gh run view ${{ github.run_id }} --json startedAt --jq .startedAt)
+          wait=$(( $(date -d "$started" +%s) + 900 - $(date +%s) ))
+          if [ "$wait" -gt 0 ]; then echo "Waiting ${wait}s"; sleep "$wait"; fi
+          others=$(gh run list --workflow season.yml --limit 20 --json databaseId,status \
+            --jq '[.[] | select(.databaseId != ${{ github.run_id }} and (.status == "queued" or .status == "in_progress" or .status == "waiting" or .status == "pending" or .status == "requested"))] | length')
+          if [ "$others" -gt 0 ]; then echo "Another run is queued or running; it will queue the next check"; exit 0; fi
+          gh workflow run season.yml --ref main
+          echo "Next check queued"

@@ -240,6 +240,21 @@ def note_conflict(year, game, field, shown, source):
     print(f'  ! {game["team1"]} v {game["team2"]}: source now lists {field} {source!r}; the site keeps {shown!r} (set by hand)')
 
 
+def card_score(desc, g):
+    """(team1 score, team2 score) in the source game's order, from a final card's description, or None."""
+    m = re.search(r'^The (.+?) varsity football team (won|lost|tied)\b.*?\bby a score of (\d+)\s*-\s*(\d+)', desc or '')
+    if not m:
+        return None
+    subject = re.sub(r'\s*\(.*?\)', '', m.group(1)).strip()
+    a, b = int(m.group(3)), int(m.group(4))
+    mine, theirs = (max(a, b), min(a, b)) if m.group(2) == 'won' else (min(a, b), max(a, b)) if m.group(2) == 'lost' else (a, b)
+    s1 = sim(subject, re.sub(r'\s*\(.*?\)', '', g['team1']))
+    s2 = sim(subject, re.sub(r'\s*\(.*?\)', '', g['team2']))
+    if max(s1, s2) < 0.8 or s1 == s2:
+        return None   # can't tell whose score is whose: leave it for the bracket page
+    return (mine, theirs) if s1 > s2 else (theirs, mine)
+
+
 def fill_sites(year, ws, placed):
     """Fill Site/Date cells from MaxPreps details cards. A card is read again on each run (at
     most every 10 minutes) until the game has a site, a set date and a kickoff time. A site typed in by hand is kept; the
@@ -272,6 +287,15 @@ def fill_sites(year, ws, placed):
             info.update({k: v for k, v in seen.items() if k.startswith('filled_')})   # keep what the job wrote
             cards[key] = info
             time.sleep(1.0)   # be gentle with MaxPreps
+        # final score from the card ("... won Thursday's home playoff game against X by a score of 35-14"),
+        # for when the bracket page hasn't posted it yet; only fills an empty score
+        fin = card_score(info.get('description', ''), g)
+        if fin and r['score1'] is None and r['score2'] is None:
+            s1, s2 = fin if r['key1'] == g['key1'] else fin[::-1]
+            ws[f'{COL["score1"]}{r["row"]}'], ws[f'{COL["score2"]}{r["row"]}'] = s1, s2
+            r['score1'], r['score2'] = s1, s2
+            filled += 1
+            print(f'  final from card: {r["team1"]} {s1}, {r["team2"]} {s2}')
         site = game_sites.clean_site(info.get('site'))
         prev_site = game_sites.clean_site(seen.get('site'))
         game = dict(classification=r['cls'], week=r['week'], team1=r['team1'], team2=r['team2'])
