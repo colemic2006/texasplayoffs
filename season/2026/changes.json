@@ -42,5 +42,16 @@
   "new": "6:00 PM",
   "at": "2026-11-13T04:39+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "Katy Tompkins",
+  "team2": "Fort Bend Hightower",
+  "field": "score",
+  "old": "Katy Tompkins 33, Fort Bend Hightower 22",
+  "new": "Katy Tompkins 36, Fort Bend Hightower 22",
+  "at": "2026-11-13T04:51+00:00",
+  "status": "changed"
  }
 ]
