@@ -2,8 +2,8 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-13T12:02+00:00",
-    "games": 363,
+    "updated": "2026-11-13T12:15+00:00",
+    "games": 366,
     "played": 87,
     "assigned": 352,
     "weeks": {
@@ -12,7 +12,7 @@
         "assigned": 352
       },
       "2": {
-        "games": 11,
+        "games": 14,
         "assigned": 0
       },
       "3": {
@@ -7524,6 +7524,18 @@
     },
     {
       "year": 2026,
+      "classification": "2A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Wellington",
+      "score1": null,
+      "team2": "Crawford",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
       "classification": "3A D1",
       "week": 2,
       "round": "Area",
@@ -7531,6 +7543,18 @@
       "team1": "Gunter",
       "score1": null,
       "team2": "Liberty-Eylau",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "3A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Whitney",
+      "score1": null,
+      "team2": "Tatum",
       "score2": null,
       "winner": null
     },
@@ -7579,6 +7603,18 @@
       "team1": "Fort Worth Brewer",
       "score1": null,
       "team2": "Amarillo Tascosa",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "5A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Frisco Lone Star",
+      "score1": null,
+      "team2": "Lancaster",
       "score2": null,
       "winner": null
     },
