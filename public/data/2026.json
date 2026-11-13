@@ -2,8 +2,8 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-13T06:39+00:00",
-    "games": 362,
+    "updated": "2026-11-13T06:51+00:00",
+    "games": 363,
     "played": 78,
     "assigned": 352,
     "weeks": {
@@ -12,7 +12,7 @@
         "assigned": 352
       },
       "2": {
-        "games": 10,
+        "games": 11,
         "assigned": 0
       },
       "3": {
@@ -7495,6 +7495,18 @@
       "team1": "Shiner",
       "score1": null,
       "team2": "Lovelady",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "2A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Ozona",
+      "score1": null,
+      "team2": "Olton",
       "score2": null,
       "winner": null
     },
