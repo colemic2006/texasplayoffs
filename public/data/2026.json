@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-13T09:40+00:00",
+    "updated": "2026-11-13T10:39+00:00",
     "games": 363,
-    "played": 81,
+    "played": 82,
     "assigned": 352,
     "weeks": {
       "1": {
@@ -1864,10 +1864,10 @@
       "round": "Bi-District",
       "chapter": "SPC",
       "team1": "Wellington",
-      "score1": null,
+      "score1": 47,
       "team2": "Munday",
-      "score2": null,
-      "winner": null,
+      "score2": 20,
+      "winner": "Wellington",
       "site": "Childress High School, Fair Park",
       "lat": 34.51966,
       "lng": -100.20677,
