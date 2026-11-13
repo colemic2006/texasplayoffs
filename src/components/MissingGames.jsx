@@ -4,7 +4,27 @@ import { ChangeBadge, ChangeDetail } from '../changes'
 
 const ROUNDS = { 1:'Bi-District', 2:'Area', 3:'Regionals', 4:'Quarterfinals', 5:'Semifinals', 6:'Championship' }
 const CLASSES = ['1A D1','1A D2','2A D1','2A D2','3A D1','3A D2','4A D1','4A D2','5A D1','5A D2','6A D1','6A D2']
-export const SHOW_AT_MOST = 24   // the list appears once this round is down to this many unassigned games
+export const SHOW_AT_MOST = 24
+
+const DAY = 86400000
+const todayCT = () => new Date().toLocaleDateString('en-CA', { timeZone: 'America/Chicago' })
+// the Tuesday on or before a YYYY-MM-DD game date
+const tuesdayOf = d => {
+  const t = new Date(d + 'T12:00:00Z')
+  return new Date(t - ((t.getUTCDay() + 5) % 7) * DAY).toISOString().slice(0, 10)
+}
+// true once it's the Tuesday of this round's game week; rounds with no dates yet count a week
+// after the round before
+export function roundOpen(games, week) {
+  for (let w = week, back = 0; w >= 1; w--, back++) {
+    const dates = games.filter(g => g.week === w && g.date).map(g => g.date.slice(0, 10)).sort()
+    if (dates.length) {
+      const tue = new Date(new Date(tuesdayOf(dates[0]) + 'T12:00:00Z').getTime() + back * 7 * DAY).toISOString().slice(0, 10)
+      return todayCT() >= tue
+    }
+  }
+  return false
+}   // the list appears once this round is down to this many unassigned games
 
 // While a season is in progress: the current round's games that no chapter has claimed yet,
 // shown only once there are few enough left to be worth chasing down.
@@ -13,6 +33,9 @@ export default function MissingGames({ data, onSubmit }) {
   const games = data.games || []
   const week = Math.max(0, ...games.map(g => g.week))
   const round = games.filter(g => g.week === week)
+  // Hold a round's list until the Tuesday of its game week (Central time), so the owner has
+  // time to enter that week's assignments; after that, what's left is genuinely unclaimed.
+  if (!roundOpen(games, week)) return null
   const missing = round.filter(g => !g.chapter)
     .sort((a, b) => CLASSES.indexOf(a.classification) - CLASSES.indexOf(b.classification) || (a.date || '').localeCompare(b.date || ''))
   if (!missing.length || missing.length > SHOW_AT_MOST) return null
