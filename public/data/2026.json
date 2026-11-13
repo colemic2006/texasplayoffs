@@ -2,8 +2,8 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-13T15:19+00:00",
-    "games": 367,
+    "updated": "2026-11-13T15:22+00:00",
+    "games": 381,
     "played": 93,
     "assigned": 352,
     "weeks": {
@@ -12,7 +12,7 @@
         "assigned": 352
       },
       "2": {
-        "games": 15,
+        "games": 29,
         "assigned": 0
       },
       "3": {
@@ -7439,6 +7439,18 @@
     },
     {
       "year": 2026,
+      "classification": "1A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Menard",
+      "score1": null,
+      "team2": "Rankin",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
       "classification": "1A D2",
       "week": 2,
       "round": "Area",
@@ -7446,6 +7458,18 @@
       "team1": "Zephyr",
       "score1": null,
       "team2": "Harrold",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "1A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Knox City",
+      "score1": null,
+      "team2": "Strawn",
       "score2": null,
       "winner": null
     },
@@ -7487,6 +7511,18 @@
     },
     {
       "year": 2026,
+      "classification": "2A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "San Augustine",
+      "score1": null,
+      "team2": "Tom Bean",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
       "classification": "2A D2",
       "week": 2,
       "round": "Area",
@@ -7506,6 +7542,42 @@
       "team1": "Wellington",
       "score1": null,
       "team2": "Crawford",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "2A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Windthorst",
+      "score1": null,
+      "team2": "Stamford",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "2A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Overton",
+      "score1": null,
+      "team2": "Era",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "2A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Falls City",
+      "score1": null,
+      "team2": "Harper",
       "score2": null,
       "winner": null
     },
@@ -7547,6 +7619,66 @@
     },
     {
       "year": 2026,
+      "classification": "3A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Malakoff",
+      "score1": null,
+      "team2": "Pilot Point",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "3A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Atlanta",
+      "score1": null,
+      "team2": "Whitesboro",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "3A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Canadian",
+      "score1": null,
+      "team2": "Merkel",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "3A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Millsap",
+      "score1": null,
+      "team2": "Edgewood",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "3A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Poth",
+      "score1": null,
+      "team2": "Rice Consolidated",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
       "classification": "4A D1",
       "week": 2,
       "round": "Area",
@@ -7566,6 +7698,30 @@
       "team1": "Van Alstyne",
       "score1": null,
       "team2": "Texarkana Pleasant Grove",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "4A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Glen Rose",
+      "score1": null,
+      "team2": "Carthage",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "4A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Wimberley",
+      "score1": null,
+      "team2": "Kingsville King",
       "score2": null,
       "winner": null
     },
@@ -7614,6 +7770,18 @@
       "team1": "Mission Sharyland",
       "score1": null,
       "team2": "San Antonio Alamo Heights",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "6A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Austin Westlake",
+      "score1": null,
+      "team2": "San Antonio Pieper",
       "score2": null,
       "winner": null
     }
