@@ -26,10 +26,10 @@
   "week": 1,
   "team1": "Canyon Randall",
   "team2": "El Paso Austin",
-  "field": "date",
-  "old": "2026-11-12",
-  "new": "2026-11-13",
-  "at": "2026-11-13T02:15+00:00",
+  "field": "time",
+  "old": "6:00 PM",
+  "new": "Delayed start",
+  "at": "2026-11-13T03:05+00:00",
   "status": "changed"
  }
 ]
