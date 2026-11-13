@@ -108,5 +108,16 @@
   "new": "Galena Park North Shore 62, Deer Park 14",
   "at": "2026-11-13T20:06+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Ganado",
+  "team2": "Taft",
+  "field": "score",
+  "old": "Ganado 42, Taft 0",
+  "new": "Ganado 63, Taft 7",
+  "at": "2026-11-13T21:05+00:00",
+  "status": "changed"
  }
 ]
