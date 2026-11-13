@@ -1,0 +1,869 @@
+{
+ "total": 1302,
+ "with_chapter": 1145,
+ "current_year": 2026,
+ "current_total": 704,
+ "current_missing": 77,
+ "missing": [
+  {
+   "name": "Abbott",
+   "last_playoffs": 2026,
+   "town": "Abbott",
+   "county": "Hill"
+  },
+  {
+   "name": "Agua Dulce",
+   "last_playoffs": 2026,
+   "town": "Agua Dulce",
+   "county": "Nueces"
+  },
+  {
+   "name": "Alba-Golden",
+   "last_playoffs": 2023,
+   "town": "Alba",
+   "county": "Wood"
+  },
+  {
+   "name": "Alice",
+   "last_playoffs": 2026,
+   "town": "Alice",
+   "county": "Jim Wells"
+  },
+  {
+   "name": "Aquilla",
+   "last_playoffs": 2026,
+   "town": "Aquilla",
+   "county": "Hill"
+  },
+  {
+   "name": "Aransas Pass",
+   "last_playoffs": 2018,
+   "town": "Aransas Pass",
+   "county": "San Patricio"
+  },
+  {
+   "name": "Axtell",
+   "last_playoffs": 2026,
+   "town": "Axtell",
+   "county": "McLennan"
+  },
+  {
+   "name": "Banquete",
+   "last_playoffs": 2021,
+   "town": "Banquete",
+   "county": "Nueces"
+  },
+  {
+   "name": "Beaumont Central",
+   "last_playoffs": 2015
+  },
+  {
+   "name": "Beeville Jones",
+   "last_playoffs": 2023
+  },
+  {
+   "name": "Bells",
+   "last_playoffs": 2026,
+   "town": "Bells",
+   "county": "Grayson"
+  },
+  {
+   "name": "Ben Bolt",
+   "last_playoffs": 2026
+  },
+  {
+   "name": "Benavides",
+   "last_playoffs": 2026
+  },
+  {
+   "name": "Bishop",
+   "last_playoffs": 2025,
+   "town": "Bishop",
+   "county": "Nueces"
+  },
+  {
+   "name": "Blanket",
+   "last_playoffs": 2025,
+   "town": "Blanket",
+   "county": "Brown"
+  },
+  {
+   "name": "Blooming Grove",
+   "last_playoffs": 2025,
+   "town": "Blooming Grove",
+   "county": "Navarro"
+  },
+  {
+   "name": "Bluff Dale",
+   "last_playoffs": 2026,
+   "town": "Bluff Dale",
+   "county": "Erath"
+  },
+  {
+   "name": "Blum",
+   "last_playoffs": 2022,
+   "town": "Blum",
+   "county": "Hill"
+  },
+  {
+   "name": "Bogata Rivercrest",
+   "last_playoffs": 2024,
+   "town": "Bogata",
+   "county": "Red River"
+  },
+  {
+   "name": "Bosqueville",
+   "last_playoffs": 2026
+  },
+  {
+   "name": "Brackettville",
+   "last_playoffs": 2025
+  },
+  {
+   "name": "Bridge City",
+   "last_playoffs": 2026,
+   "town": "Bridge City",
+   "county": "Orange"
+  },
+  {
+   "name": "Briscoe Fort Elliott",
+   "last_playoffs": 2010
+  },
+  {
+   "name": "Brookesmith",
+   "last_playoffs": 2018,
+   "town": "Brookesmith",
+   "county": "Brown"
+  },
+  {
+   "name": "Bruceville-Eddy",
+   "last_playoffs": 2026,
+   "town": "Eddy",
+   "county": "McLennan"
+  },
+  {
+   "name": "Bruni",
+   "last_playoffs": 2023,
+   "town": "Bruni",
+   "county": "Webb"
+  },
+  {
+   "name": "Buda Johnson",
+   "last_playoffs": 2026,
+   "town": "Buda",
+   "county": "Hays"
+  },
+  {
+   "name": "Buffalo",
+   "last_playoffs": 2026,
+   "town": "Buffalo",
+   "county": "Leon"
+  },
+  {
+   "name": "Buna",
+   "last_playoffs": 2026,
+   "town": "Buna",
+   "county": "Jasper"
+  },
+  {
+   "name": "Burlington Centennial",
+   "last_playoffs": 2015
+  },
+  {
+   "name": "Bynum",
+   "last_playoffs": 2024,
+   "town": "Bynum",
+   "county": "Hill"
+  },
+  {
+   "name": "Calvert (forfeit)",
+   "last_playoffs": 2024
+  },
+  {
+   "name": "Campbell",
+   "last_playoffs": 2026,
+   "town": "Campbell",
+   "county": "Hunt"
+  },
+  {
+   "name": "Carrollton Smith",
+   "last_playoffs": 2015,
+   "town": "Carrollton",
+   "county": "Dallas"
+  },
+  {
+   "name": "Celeste",
+   "last_playoffs": 2023,
+   "town": "Celeste",
+   "county": "Hunt"
+  },
+  {
+   "name": "China Spring",
+   "last_playoffs": 2026,
+   "town": "China Spring",
+   "county": "McLennan"
+  },
+  {
+   "name": "Cigarroa",
+   "last_playoffs": 2026
+  },
+  {
+   "name": "Clarksville",
+   "last_playoffs": 2026,
+   "town": "Clarksville",
+   "county": "Red River"
+  },
+  {
+   "name": "Coldspring",
+   "last_playoffs": 2024
+  },
+  {
+   "name": "Como-Pickton",
+   "last_playoffs": 2026,
+   "town": "Como",
+   "county": "Hopkins"
+  },
+  {
+   "name": "Coolidge",
+   "last_playoffs": 2025,
+   "town": "Coolidge",
+   "county": "Limestone"
+  },
+  {
+   "name": "Cooper",
+   "last_playoffs": 2026
+  },
+  {
+   "name": "Crawford",
+   "last_playoffs": 2026
+  },
+  {
+   "name": "Cumby",
+   "last_playoffs": 2025,
+   "town": "Cumby",
+   "county": "Hopkins"
+  },
+  {
+   "name": "De Leon",
+   "last_playoffs": 2026,
+   "town": "De Leon",
+   "county": "Comanche"
+  },
+  {
+   "name": "Detroit",
+   "last_playoffs": 2026,
+   "town": "Detroit",
+   "county": "Red River"
+  },
+  {
+   "name": "Deweyville",
+   "last_playoffs": 2025,
+   "town": "Deweyville",
+   "county": "Newton"
+  },
+  {
+   "name": "Donna",
+   "last_playoffs": 2023,
+   "town": "Donna",
+   "county": "Hidalgo"
+  },
+  {
+   "name": "East Chambers",
+   "last_playoffs": 2026,
+   "town": "Winnie",
+   "county": "Chambers"
+  },
+  {
+   "name": "Eastside Early College",
+   "last_playoffs": 2025
+  },
+  {
+   "name": "Edcouch-Elsa",
+   "last_playoffs": 2026,
+   "town": "Elsa",
+   "county": "Hidalgo"
+  },
+  {
+   "name": "Evadale",
+   "last_playoffs": 2026,
+   "town": "Evadale",
+   "county": "Jasper"
+  },
+  {
+   "name": "Evant",
+   "last_playoffs": 2025,
+   "town": "Evant",
+   "county": "Coryell"
+  },
+  {
+   "name": "Fairfield",
+   "last_playoffs": 2026,
+   "town": "Fairfield",
+   "county": "Freestone"
+  },
+  {
+   "name": "Fannindel",
+   "last_playoffs": 2026
+  },
+  {
+   "name": "Freer",
+   "last_playoffs": 2026,
+   "town": "Freer",
+   "county": "Duval"
+  },
+  {
+   "name": "Frost",
+   "last_playoffs": 2018,
+   "town": "Frost",
+   "county": "Navarro"
+  },
+  {
+   "name": "Galveston Ball",
+   "last_playoffs": 2024,
+   "town": "Galveston",
+   "county": "Galveston"
+  },
+  {
+   "name": "George West",
+   "last_playoffs": 2026,
+   "town": "George West",
+   "county": "Live Oak"
+  },
+  {
+   "name": "Gholson",
+   "last_playoffs": 2015
+  },
+  {
+   "name": "Gorman",
+   "last_playoffs": 2025,
+   "town": "Gorman",
+   "county": "Eastland"
+  },
+  {
+   "name": "Gregory-Portland",
+   "last_playoffs": 2026,
+   "town": "Portland",
+   "county": "San Patricio"
+  },
+  {
+   "name": "Gustine",
+   "last_playoffs": 2026,
+   "town": "Gustine",
+   "county": "Comanche"
+  },
+  {
+   "name": "Haltom City",
+   "last_playoffs": 2018,
+   "town": "North Richland Hills",
+   "county": "Tarrant"
+  },
+  {
+   "name": "Hamshire-Fannett",
+   "last_playoffs": 2026,
+   "town": "Hamshire",
+   "county": "Jefferson"
+  },
+  {
+   "name": "Hardin",
+   "last_playoffs": 2026,
+   "town": "Hardin",
+   "county": "Liberty"
+  },
+  {
+   "name": "Hardin-Jefferson",
+   "last_playoffs": 2013,
+   "town": "Sour Lake",
+   "county": "Hardin"
+  },
+  {
+   "name": "Hebbronville",
+   "last_playoffs": 2026,
+   "town": "Hebbronville",
+   "county": "Jim Hogg"
+  },
+  {
+   "name": "Hedley",
+   "last_playoffs": 2010,
+   "town": "Hedley",
+   "county": "Donley"
+  },
+  {
+   "name": "Helotes O'Connor",
+   "last_playoffs": 2025,
+   "town": "San Antonio",
+   "county": "Bexar"
+  },
+  {
+   "name": "Heritage",
+   "last_playoffs": 2022
+  },
+  {
+   "name": "Hidalgo",
+   "last_playoffs": 2024
+  },
+  {
+   "name": "Hidalgo Early College",
+   "last_playoffs": 2026,
+   "town": "Hidalgo",
+   "county": "Hidalgo"
+  },
+  {
+   "name": "High Island",
+   "last_playoffs": 2018,
+   "town": "High Island",
+   "county": "Galveston"
+  },
+  {
+   "name": "Hillsboro",
+   "last_playoffs": 2026,
+   "town": "Hillsboro",
+   "county": "Hill"
+  },
+  {
+   "name": "Honey Grove",
+   "last_playoffs": 2026,
+   "town": "Honey Grove",
+   "county": "Fannin"
+  },
+  {
+   "name": "Hubbard",
+   "last_playoffs": 2026,
+   "town": "Hubbard",
+   "county": "Hill"
+  },
+  {
+   "name": "Hull-Daisetta",
+   "last_playoffs": 2023,
+   "town": "Daisetta",
+   "county": "Liberty"
+  },
+  {
+   "name": "Ingleside",
+   "last_playoffs": 2026,
+   "town": "Ingleside",
+   "county": "San Patricio"
+  },
+  {
+   "name": "Iredell",
+   "last_playoffs": 2026,
+   "town": "Iredell",
+   "county": "Bosque"
+  },
+  {
+   "name": "Irving Universal Academy",
+   "last_playoffs": 2010,
+   "town": "Irving",
+   "county": "Dallas"
+  },
+  {
+   "name": "James Madison",
+   "last_playoffs": 2022,
+   "town": "Dallas",
+   "county": "Dallas"
+  },
+  {
+   "name": "Jasper",
+   "last_playoffs": 2024,
+   "town": "Jasper",
+   "county": "Jasper"
+  },
+  {
+   "name": "Kingsville King",
+   "last_playoffs": 2026
+  },
+  {
+   "name": "Kirbyville",
+   "last_playoffs": 2023,
+   "town": "Kirbyville",
+   "county": "Jasper"
+  },
+  {
+   "name": "Kopperl",
+   "last_playoffs": 2023,
+   "town": "Kopperl",
+   "county": "Bosque"
+  },
+  {
+   "name": "Kountze",
+   "last_playoffs": 2025,
+   "town": "Kountze",
+   "county": "Hardin"
+  },
+  {
+   "name": "Little Cypress-Mauriceville",
+   "last_playoffs": 2026
+  },
+  {
+   "name": "Lometa",
+   "last_playoffs": 2021,
+   "town": "Lometa",
+   "county": "Lampasas"
+  },
+  {
+   "name": "London",
+   "last_playoffs": 2026,
+   "town": "Corpus Christi",
+   "county": "Nueces"
+  },
+  {
+   "name": "Los Fresnos",
+   "last_playoffs": 2026,
+   "town": "Los Fresnos",
+   "county": "Cameron"
+  },
+  {
+   "name": "Lyford",
+   "last_playoffs": 2026,
+   "town": "Lyford",
+   "county": "Willacy"
+  },
+  {
+   "name": "Mathis",
+   "last_playoffs": 2026,
+   "town": "Mathis",
+   "county": "San Patricio"
+  },
+  {
+   "name": "Maude",
+   "last_playoffs": 2024
+  },
+  {
+   "name": "May",
+   "last_playoffs": 2026,
+   "town": "May",
+   "county": "Brown"
+  },
+  {
+   "name": "McGregor",
+   "last_playoffs": 2025,
+   "town": "McGregor",
+   "county": "McLennan"
+  },
+  {
+   "name": "McLean",
+   "last_playoffs": 2026,
+   "town": "McLean",
+   "county": "Gray"
+  },
+  {
+   "name": "Medina",
+   "last_playoffs": 2026,
+   "town": "Medina",
+   "county": "Bandera"
+  },
+  {
+   "name": "Mercedes",
+   "last_playoffs": 2026,
+   "town": "Mercedes",
+   "county": "Hidalgo"
+  },
+  {
+   "name": "Morgan",
+   "last_playoffs": 2022,
+   "town": "Morgan",
+   "county": "Bosque"
+  },
+  {
+   "name": "Mount Calm",
+   "last_playoffs": 2026,
+   "town": "Mount Calm",
+   "county": "Hill"
+  },
+  {
+   "name": "Nevada",
+   "last_playoffs": 2021
+  },
+  {
+   "name": "Northeast Early",
+   "last_playoffs": 2022
+  },
+  {
+   "name": "Northwest Nelson",
+   "last_playoffs": 2022
+  },
+  {
+   "name": "Novice",
+   "last_playoffs": 2010
+  },
+  {
+   "name": "Odem",
+   "last_playoffs": 2025,
+   "town": "Odem",
+   "county": "San Patricio"
+  },
+  {
+   "name": "Orange Grove",
+   "last_playoffs": 2026,
+   "town": "Orange Grove",
+   "county": "Jim Wells"
+  },
+  {
+   "name": "Orangefield",
+   "last_playoffs": 2026,
+   "town": "Orangefield",
+   "county": "Orange"
+  },
+  {
+   "name": "Paris",
+   "last_playoffs": 2026,
+   "town": "Paris",
+   "county": "Lamar"
+  },
+  {
+   "name": "Paris Chisum",
+   "last_playoffs": 2018,
+   "town": "Paris",
+   "county": "Lamar"
+  },
+  {
+   "name": "Paris North Lamar",
+   "last_playoffs": 2026,
+   "town": "Paris",
+   "county": "Lamar"
+  },
+  {
+   "name": "Penelope",
+   "last_playoffs": 2023,
+   "town": "Penelope",
+   "county": "Hill"
+  },
+  {
+   "name": "Pettus",
+   "last_playoffs": 2026,
+   "town": "Pettus",
+   "county": "Bee"
+  },
+  {
+   "name": "Prairiland",
+   "last_playoffs": 2015
+  },
+  {
+   "name": "Premont",
+   "last_playoffs": 2021,
+   "town": "Premont",
+   "county": "Jim Wells"
+  },
+  {
+   "name": "Quitman",
+   "last_playoffs": 2026,
+   "town": "Quitman",
+   "county": "Wood"
+  },
+  {
+   "name": "Refugio",
+   "last_playoffs": 2026,
+   "town": "Refugio",
+   "county": "Refugio"
+  },
+  {
+   "name": "Rice Consolidated",
+   "last_playoffs": 2026
+  },
+  {
+   "name": "Rising Star",
+   "last_playoffs": 2023,
+   "town": "Rising Star",
+   "county": "Eastland"
+  },
+  {
+   "name": "Riviera",
+   "last_playoffs": 2015
+  },
+  {
+   "name": "Robstown",
+   "last_playoffs": 2025,
+   "town": "Robstown",
+   "county": "Nueces"
+  },
+  {
+   "name": "Roma",
+   "last_playoffs": 2025,
+   "town": "Roma",
+   "county": "Starr"
+  },
+  {
+   "name": "Santa Anna",
+   "last_playoffs": 2015
+  },
+  {
+   "name": "Santa Gertrudis Academy",
+   "last_playoffs": 2015,
+   "town": "Kingsville",
+   "county": "Kleberg"
+  },
+  {
+   "name": "Santa Maria",
+   "last_playoffs": 2026,
+   "town": "Santa Maria",
+   "county": "Cameron"
+  },
+  {
+   "name": "Santa Rosa",
+   "last_playoffs": 2026,
+   "town": "Santa Rosa",
+   "county": "Cameron"
+  },
+  {
+   "name": "Savoy",
+   "last_playoffs": 2018,
+   "town": "Savoy",
+   "county": "Fannin"
+  },
+  {
+   "name": "Seguin (Matadors)",
+   "last_playoffs": 2024
+  },
+  {
+   "name": "Sheldon King",
+   "last_playoffs": 2023
+  },
+  {
+   "name": "Shephard",
+   "last_playoffs": 2018
+  },
+  {
+   "name": "Sidney",
+   "last_playoffs": 2026,
+   "town": "Sidney",
+   "county": "Comanche"
+  },
+  {
+   "name": "Simms Bowie",
+   "last_playoffs": 2026
+  },
+  {
+   "name": "Sinton",
+   "last_playoffs": 2026,
+   "town": "Sinton",
+   "county": "San Patricio"
+  },
+  {
+   "name": "Skidmore-Tynan",
+   "last_playoffs": 2024,
+   "town": "Skidmore",
+   "county": "Bee"
+  },
+  {
+   "name": "Taft",
+   "last_playoffs": 2026
+  },
+  {
+   "name": "Teague",
+   "last_playoffs": 2026,
+   "town": "Teague",
+   "county": "Freestone"
+  },
+  {
+   "name": "Teneha",
+   "last_playoffs": 2023
+  },
+  {
+   "name": "Three Rivers",
+   "last_playoffs": 2026,
+   "town": "Three Rivers",
+   "county": "Live Oak"
+  },
+  {
+   "name": "Three Way",
+   "last_playoffs": 2026,
+   "town": "Stephenville",
+   "county": "Erath"
+  },
+  {
+   "name": "Tomas",
+   "last_playoffs": 2026
+  },
+  {
+   "name": "Trophy Club Nelson",
+   "last_playoffs": 2021
+  },
+  {
+   "name": "Valera Panther Creek",
+   "last_playoffs": 2026,
+   "town": "Valera",
+   "county": "Coleman"
+  },
+  {
+   "name": "Von Ormy Southwest Legacy",
+   "last_playoffs": 2024
+  },
+  {
+   "name": "Waco University",
+   "last_playoffs": 2025,
+   "town": "Waco",
+   "county": "McLennan"
+  },
+  {
+   "name": "Walnut Springs",
+   "last_playoffs": 2023,
+   "town": "Walnut Springs",
+   "county": "Bosque"
+  },
+  {
+   "name": "Waxahachie",
+   "last_playoffs": 2026,
+   "town": "Waxahachie",
+   "county": "Ellis"
+  },
+  {
+   "name": "Waxahachie Life",
+   "last_playoffs": 2018
+  },
+  {
+   "name": "Welch Dawson",
+   "last_playoffs": 2013,
+   "town": "Welch",
+   "county": "Dawson"
+  },
+  {
+   "name": "West",
+   "last_playoffs": 2025
+  },
+  {
+   "name": "West Hardin",
+   "last_playoffs": 2026,
+   "town": "Saratoga",
+   "county": "Hardin"
+  },
+  {
+   "name": "West Orange",
+   "last_playoffs": 2023
+  },
+  {
+   "name": "West Orange-Stark",
+   "last_playoffs": 2026,
+   "town": "West Orange",
+   "county": "Orange"
+  },
+  {
+   "name": "West Oso",
+   "last_playoffs": 2022,
+   "town": "Corpus Christi",
+   "county": "Nueces"
+  },
+  {
+   "name": "Woodsboro",
+   "last_playoffs": 2025,
+   "town": "Woodsboro",
+   "county": "Refugio"
+  },
+  {
+   "name": "Wortham",
+   "last_playoffs": 2024,
+   "town": "Wortham",
+   "county": "Freestone"
+  },
+  {
+   "name": "Zapata",
+   "last_playoffs": 2026,
+   "town": "Zapata",
+   "county": "Zapata"
+  },
+  {
+   "name": "Zephyr",
+   "last_playoffs": 2026,
+   "town": "Zephyr",
+   "county": "Brown"
+  }
+ ]
+}

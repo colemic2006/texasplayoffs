@@ -1,3 +1,4 @@
+import HomeChapterCoverage from './HomeChapterCoverage'
 import React, { useMemo, useState, useEffect } from 'react'
 import { useFinals } from '../finals'
 import { useHomeChapters } from '../homeChapters'
@@ -197,6 +198,8 @@ export default function TeamsView({ allData, years }) {
         <div style={{ width:4, height:28, borderRadius:2, background:'var(--burnt)', flexShrink:0 }} />
         Team Playoff History
       </div>
+
+      <HomeChapterCoverage />
 
       {/* ── SEARCH / FILTER BAR ── */}
       <div style={{ display:'flex', gap:12, flexWrap:'wrap', marginBottom:12, alignItems:'center' }}>
