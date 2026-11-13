@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-13T06:51+00:00",
+    "updated": "2026-11-13T07:09+00:00",
     "games": 363,
-    "played": 78,
+    "played": 79,
     "assigned": 352,
     "weeks": {
       "1": {
@@ -7311,10 +7311,10 @@
       "round": "Bi-District",
       "chapter": "HOU",
       "team1": "Alvin Shadow Creek",
-      "score1": null,
+      "score1": 48,
       "team2": "Houston Heights",
-      "score2": null,
-      "winner": null,
+      "score2": 10,
+      "winner": "Alvin Shadow Creek",
       "site": "Freedom Field, Iowa Colony",
       "lat": 29.39719,
       "lng": -95.41014,
