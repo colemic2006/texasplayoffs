@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react'
-import { useHomeChapters } from '../homeChapters'
+import { useHomeChapters, useHomeChapterStatus } from '../homeChapters'
 import { roundTripMiles } from '../chapterCenters'
 import { chapterColor } from '../chapterColors'
 import { placeName } from '../placeName'
@@ -10,7 +10,8 @@ const fmt = n => Math.round(n).toLocaleString()
 // Games where both schools share a home chapter but a different chapter worked the game
 export default function OutsideChapterGames({ data }) {
   const home = useHomeChapters()
-  const names = { ELP: 'El Paso', BEA: 'Beaumont', ...Object.fromEntries((data?.chapters || []).map(c => [c.code, c.name])) }
+  const status = useHomeChapterStatus()
+  const names = { ELP: 'El Paso', BEA: 'Beaumont', COM: 'Commerce', PVC: 'Pecan Valley', STX: 'South Texas', RGV: 'Rio Grande Valley', DAL: 'Dallas', FTW: 'Fort Worth', WAC: 'Waco', CSC: 'College Station', ...Object.fromEntries((data?.chapters || []).map(c => [c.code, c.name])) }
   const name = c => names[c] || c
   const { rows, shared, listed } = useMemo(() => {
     const games = data?.games || []
@@ -75,7 +76,9 @@ export default function OutsideChapterGames({ data }) {
         </div>
       )}
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6 }}>
-        Home chapters on file so far: {listed.map(name).join(', ')}. Schools in other chapters will be checked as their lists are added.
+        {status.missing.length > 0 && <>Still waiting on school lists from: {status.missing.map(name).join(', ')}.{' '}</>}
+        {status.partial.length > 0 && <>Partial list so far: {status.partial.map(name).join(', ')}.{' '}</>}
+        Games involving those chapters' schools may be missing from this list until their lists come in.
         Extra miles compare the estimated round trip from the chapter that worked the game with one from the schools' home chapter.
       </div>
     </div>

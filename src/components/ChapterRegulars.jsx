@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react'
-import { useHomeChapters } from '../homeChapters'
+import { useHomeChapters, useHomeChapterStatus } from '../homeChapters'
 
 const KNOWN_CHAPTERS = new Set(['ABI','AMA','AUS','BEA','COM','CSC','CTX','DAL','ELP','ETX','FTW','HOU','NTX','PBC','PVC','RGV','SAT','SAN','SFA','SPC','STX','TYL','WAC','WACO'])
 const BAD_NAMES = new Set(['total bracket counts','totals','total','bye','filler',''])
@@ -102,6 +102,7 @@ export default function ChapterRegulars({ allData, years }) {
 
   // home chapters from the owner's lists; East Texas was folded into Tyler, WACO is Waco's old code
   const homeCh = useHomeChapters()
+  const listStatus = useHomeChapterStatus()
   const sameChapter = c => ({ ETX: 'TYL', WACO: 'WAC' }[c] || c)
   const homeOf = name => homeCh[name] || homeCh[Object.keys(NAME_FIXES).find(k => NAME_FIXES[k] === name)] || null
   const localCount = regularsChapter ? chapterRegularsList.filter(t => homeOf(t.name) === sameChapter(regularsChapter)).length : 0
@@ -159,7 +160,7 @@ export default function ChapterRegulars({ allData, years }) {
               <span>
                 = a school in this chapter's own coverage area.{' '}
                 <strong style={{ color:'var(--ink)' }}>{localCount} of {chapterRegularsList.length}</strong> of its top teams are local.
-                {!Object.values(homeCh).includes(sameChapter(regularsChapter)) && ' (This chapter\'s school list isn\'t on file yet.)'}
+                {listStatus.missing.includes(sameChapter(regularsChapter)) ? ' (This chapter\'s full school list isn\'t on file yet.)' : listStatus.partial.includes(sameChapter(regularsChapter)) ? ' (Only part of this chapter\'s school list is on file.)' : ''}
               </span>
             </div>
           </div>

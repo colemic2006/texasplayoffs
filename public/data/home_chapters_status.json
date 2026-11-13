@@ -1,0 +1,20 @@
+{
+ "complete": [
+  "ABI",
+  "AMA",
+  "AUS",
+  "CTX",
+  "ELP",
+  "HOU",
+  "NTX",
+  "PBC",
+  "SAN",
+  "SAT",
+  "SFA",
+  "SPC",
+  "TYL"
+ ],
+ "partial": [
+  "CSC"
+ ]
+}

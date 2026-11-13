@@ -24,5 +24,7 @@ if aliases.exists():
     for team, ch in json.loads(aliases.read_text()).items():
         if not team.startswith('_'):
             out.setdefault(team, ch)
+(ROOT / 'public' / 'data' / 'home_chapters_status.json').write_text(json.dumps(dict(
+    complete=lists.get('_complete', []), partial=lists.get('_partial', [])), indent=1) + '\n')
 (ROOT / 'public' / 'data' / 'home_chapters_confirmed.json').write_text(json.dumps(dict(sorted(out.items())), indent=1) + '\n')
 print(f'home chapters: {len(out)} schools in {len([c for c in lists if not c.startswith("_")])} chapters')

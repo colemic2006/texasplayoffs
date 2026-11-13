@@ -918,7 +918,27 @@
   "Rankin": "Rankin",
   "Reagan County": "Reagan County",
   "Westbrook": "Westbrook",
-  "Wink": "Wink"
+  "Wink": "Wink",
+  "Fort Stockton": "Fort Stockton",
+  "Greenwood": "Midland Greenwood",
+  "Monahans": "Monahans",
+  "Andrews": "Andrews",
+  "Big Spring": "Big Spring",
+  "Pecos": "Pecos",
+  "Alpine": "Alpine",
+  "Crane": "Crane",
+  "Stanton": "Stanton",
+  "Iraan": "Iraan",
+  "Forsan": "Forsan",
+  "Pathway": "Odessa Pathway",
+  "Klondike": "Klondike",
+  "Balmorhea": "Balmorhea",
+  "Grandfalls": "Grandfalls-Royalty",
+  "Sanderson": "Sanderson",
+  "Buena Vista": "Buena Vista",
+  "Ganden City": "Garden City",
+  "Grady": "Lenorah Grady",
+  "Sands": "Sands"
  },
  "DAL": {
   "Dallas Adams": "Dallas Adams",
@@ -998,5 +1018,23 @@
   "Stephenville": "Stephenville",
   "Strawn": "Strawn",
   "Weatherford": "Weatherford"
- }
+ },
+ "_complete": [
+  "ABI",
+  "AMA",
+  "AUS",
+  "CTX",
+  "ELP",
+  "HOU",
+  "NTX",
+  "PBC",
+  "SAN",
+  "SAT",
+  "SFA",
+  "SPC",
+  "TYL"
+ ],
+ "_partial": [
+  "CSC"
+ ]
 }
