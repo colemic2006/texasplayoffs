@@ -1653,6 +1653,19 @@
   "stadium": "Eagle Stadium",
   "stadium_id": 450
  },
+ "Eagle Stadium, Pleasanton || Wimberley v Kingsville King": {
+  "address": "831 Stadium Dr., Pleasanton, Texas 78064",
+  "city": "Pleasanton",
+  "how": "stadium (map link)",
+  "lat": 28.96638,
+  "link_tried": true,
+  "lng": -98.49705,
+  "map_link": "https://maps.app.goo.gl/LCaH64sxH9hZNfaf7",
+  "rules": 10,
+  "site": "Eagle Stadium, Pleasanton",
+  "stadium": "Eagle Stadium",
+  "stadium_id": 917
+ },
  "Eagle Stadium, Rusk || Mildred v Woodville": {
   "address": "800 Salem Rd, Rusk, Texas 75785",
   "city": "Rusk",
