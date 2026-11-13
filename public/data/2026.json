@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-13T04:51+00:00",
+    "updated": "2026-11-13T05:39+00:00",
     "games": 361,
-    "played": 72,
+    "played": 73,
     "assigned": 352,
     "weeks": {
       "1": {
@@ -1744,10 +1744,10 @@
       "round": "Bi-District",
       "chapter": "SPC",
       "team1": "Ropes",
-      "score1": null,
+      "score1": 64,
       "team2": "Vega",
-      "score2": null,
-      "winner": null,
+      "score2": 14,
+      "winner": "Ropes",
       "site": "Dimmitt High School",
       "lat": 34.54152,
       "lng": -102.33217,
