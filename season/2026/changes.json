@@ -64,5 +64,16 @@
   "new": "Sudan 27, West Texas Stinnett 26",
   "at": "2026-11-13T15:19+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "5A D1",
+  "week": 1,
+  "team1": "Denton Ryan",
+  "team2": "FW Paschal",
+  "field": "score",
+  "old": "Denton Ryan 48, FW Paschal 17",
+  "new": "Denton Ryan 48, FW Paschal 9",
+  "at": "2026-11-13T15:47+00:00",
+  "status": "changed"
  }
 ]
