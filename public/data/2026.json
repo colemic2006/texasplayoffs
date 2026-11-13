@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-12T23:59+00:00",
+    "updated": "2026-11-13T00:00+00:00",
     "games": 352,
     "played": 0,
     "assigned": 352,
@@ -2993,15 +2993,7 @@
       "map_link": "https://goo.gl/maps/uL2MSfaBvwkSJvek7",
       "city": "Canyon",
       "date": "2026-11-12",
-      "changes": [
-        {
-          "field": "time",
-          "old": "4:00 PM",
-          "new": "",
-          "at": "2026-11-12T23:59+00:00",
-          "status": "changed"
-        }
-      ]
+      "time": "4:00 PM"
     },
     {
       "year": 2026,
@@ -4883,15 +4875,7 @@
       "map_link": "https://goo.gl/maps/8DGWRhdF8PcJ6Znn7",
       "city": "Lubbock",
       "date": "2026-11-12",
-      "changes": [
-        {
-          "field": "time",
-          "old": "5:00 PM",
-          "new": "",
-          "at": "2026-11-12T23:59+00:00",
-          "status": "changed"
-        }
-      ]
+      "time": "5:00 PM"
     },
     {
       "year": 2026,

@@ -11,28 +11,6 @@
   "status": "changed"
  },
  {
-  "classification": "3A D2",
-  "week": 1,
-  "team1": "Canadian",
-  "team2": "Muleshoe",
-  "field": "time",
-  "old": "4:00 PM",
-  "new": "",
-  "at": "2026-11-12T23:59+00:00",
-  "status": "changed"
- },
- {
-  "classification": "4A D2",
-  "week": 1,
-  "team1": "Brock",
-  "team2": "Perryton",
-  "field": "time",
-  "old": "5:00 PM",
-  "new": "",
-  "at": "2026-11-12T23:59+00:00",
-  "status": "changed"
- },
- {
   "classification": "5A D1",
   "week": 1,
   "team1": "El Paso Americas",

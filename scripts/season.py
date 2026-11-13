@@ -295,6 +295,8 @@ def fill_sites(year, ws, placed):
             if k == 'time' and 'time' not in info:
                 continue   # card saved before kickoffs were read: says nothing about the time
             old = str(r[k] or '')[:10] if k == 'date' else str(r[k] or '')
+            if not val and old:
+                continue   # MaxPreps drops the kickoff once a game is under way: never erase a known value
             mine = not old or old == cards.get(key, {}).get(f'filled_{k}')
             if mine and old != val:
                 ws[f'{COL[k]}{r["row"]}'] = r[k] = val or None
