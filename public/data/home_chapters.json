@@ -2843,6 +2843,10 @@
     "chapter": "DAL",
     "confidence": "HIGH"
   },
+  "North Richland Hills Richland": {
+    "chapter": "WAC",
+    "confidence": "LOW"
+  },
   "Northeast Early": {
     "chapter": "FTW",
     "confidence": "HIGH"
@@ -3170,10 +3174,6 @@
   "Richardson Pearce": {
     "chapter": "DAL",
     "confidence": "HIGH"
-  },
-  "Richland": {
-    "chapter": "WAC",
-    "confidence": "LOW"
   },
   "Richland Springs": {
     "chapter": "WAC",

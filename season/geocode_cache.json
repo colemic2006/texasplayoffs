@@ -498,6 +498,19 @@
   "stadium": "Memorial Stadium",
   "stadium_id": 989
  },
+ "Birdville Complex || North Richland Hills Richland v Frisco Reedy": {
+  "address": "9200 Mid-Cities Blvd, North Richland Hills, Texas 76054",
+  "city": "North Richland Hills",
+  "confirmed_as": "Birdville Fine Arts and Athletics Complex, North Richland Hills",
+  "how": "stadium",
+  "lat": 32.86199,
+  "lng": -97.18685,
+  "map_link": "https://goo.gl/maps/yEn58gKNyARVkf9i9",
+  "rules": 10,
+  "site": "Birdville Complex",
+  "stadium": "Birdville Fine Arts and Athletics Complex",
+  "stadium_id": 220
+ },
  "Birdville Complex || Richland v Frisco Reedy": {
   "address": "9200 Mid-Cities Blvd, North Richland Hills, Texas 76054",
   "city": "North Richland Hills",

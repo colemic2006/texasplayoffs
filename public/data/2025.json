@@ -5300,9 +5300,9 @@
       "chapter": "NTX",
       "team1": "Fort Worth Wyatt",
       "score1": 43,
-      "team2": "Richland",
+      "team2": "North Richland Hills Richland",
       "score2": 77,
-      "winner": "Richland"
+      "winner": "North Richland Hills Richland"
     },
     {
       "year": 2025,
@@ -5672,9 +5672,9 @@
       "chapter": "AUS",
       "team1": "El Paso El Dorado",
       "score1": 37,
-      "team2": "Richland",
+      "team2": "North Richland Hills Richland",
       "score2": 70,
-      "winner": "Richland"
+      "winner": "North Richland Hills Richland"
     },
     {
       "year": 2025,
@@ -5862,7 +5862,7 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "HOU",
-      "team1": "Richland",
+      "team1": "North Richland Hills Richland",
       "score1": 10,
       "team2": "Denton Ryan",
       "score2": 41,

@@ -5300,9 +5300,9 @@
       "chapter": "FTW",
       "team1": "Fort Worth Arlington Heights",
       "score1": 16,
-      "team2": "Richland",
+      "team2": "North Richland Hills Richland",
       "score2": 37,
-      "winner": "Richland"
+      "winner": "North Richland Hills Richland"
     },
     {
       "year": 2024,
@@ -5672,9 +5672,9 @@
       "chapter": "NTX",
       "team1": "Amarillo High",
       "score1": 27,
-      "team2": "Richland",
+      "team2": "North Richland Hills Richland",
       "score2": 55,
-      "winner": "Richland"
+      "winner": "North Richland Hills Richland"
     },
     {
       "year": 2024,
@@ -5862,7 +5862,7 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "DAL",
-      "team1": "Richland",
+      "team1": "North Richland Hills Richland",
       "score1": 35,
       "team2": "Denton Ryan",
       "score2": 48,
