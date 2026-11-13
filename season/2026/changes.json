@@ -97,5 +97,16 @@
   "new": "Axtell 48, Bangs 8",
   "at": "2026-11-13T17:30+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "Galena Park North Shore",
+  "team2": "Deer Park",
+  "field": "score",
+  "old": "Galena Park North Shore 55, Deer Park 7",
+  "new": "Galena Park North Shore 62, Deer Park 14",
+  "at": "2026-11-13T20:06+00:00",
+  "status": "changed"
  }
 ]

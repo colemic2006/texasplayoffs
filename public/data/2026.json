@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-13T17:58+00:00",
+    "updated": "2026-11-13T20:06+00:00",
     "games": 381,
     "played": 127,
     "assigned": 352,
@@ -6491,9 +6491,9 @@
       "round": "Bi-District",
       "chapter": "HOU",
       "team1": "Galena Park North Shore",
-      "score1": 55,
+      "score1": 62,
       "team2": "Deer Park",
-      "score2": 7,
+      "score2": 14,
       "winner": "Galena Park North Shore",
       "site": "Galena Park ISD Stadium",
       "lat": 29.80614,
@@ -7615,7 +7615,15 @@
       "score1": null,
       "team2": "Palestine Westwood",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Merrill Green Stadium (Bryan, TX)",
+      "lat": 30.65649,
+      "lng": -96.33336,
+      "stadium": "Merrill Green Stadium",
+      "map_link": "https://goo.gl/maps/jbwDcfrRANqXJiX78",
+      "city": "Bryan",
+      "date": "2026-11-19",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -7628,7 +7636,9 @@
       "team2": "Pilot Point",
       "score2": null,
       "winner": null,
-      "site": "Mesquite Hanby Stadium"
+      "site": "Mesquite Hanby Stadium",
+      "date": "2026-11-19",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,

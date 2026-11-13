@@ -3409,6 +3409,19 @@
   "stadium": "Meredith Memorial Stadium",
   "stadium_id": 357
  },
+ "Merrill Green Stadium (Bryan, TX) || Columbus v Palestine Westwood": {
+  "address": "3450 Campus Drive, Bryan, Texas 77802",
+  "city": "Bryan",
+  "how": "stadium (map link)",
+  "lat": 30.65649,
+  "link_tried": true,
+  "lng": -96.33336,
+  "map_link": "https://goo.gl/maps/jbwDcfrRANqXJiX78",
+  "rules": 10,
+  "site": "Merrill Green Stadium (Bryan, TX)",
+  "stadium": "Merrill Green Stadium",
+  "stadium_id": 181
+ },
  "Merrill Green Stadium || Thorndale v Groveton": {
   "address": "3450 Campus Drive, Bryan, Texas 77802",
   "city": "Bryan",
