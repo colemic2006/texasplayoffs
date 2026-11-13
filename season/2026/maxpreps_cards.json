@@ -179,6 +179,13 @@
   "site": "Game Details Oglesby ISD",
   "time": "7:00 PM"
  },
+ "1A D2|mp:637a439c-0e5e-479d-bb4a-4f0ce05574a0|mp:9a96c998-408e-4cb9-99a3-1ad813b37778": {
+  "date": "2026-11-19",
+  "description": "The Harrold (TX) varsity football team has a neutral playoff game vs. Zephyr (TX) , but the date has not been set.",
+  "read": "2026-11-13T03:48:33+00:00",
+  "site": "",
+  "time": ""
+ },
  "1A D2|mp:637a439c-0e5e-479d-bb4a-4f0ce05574a0|mp:9bef1695-4d7b-4f13-a646-1bee24c12c3c": {
   "date": "",
   "description": "The Sidney (TX) varsity football team lost Thursday's neutral playoff game against Zephyr (TX) by a score of 48-42.",
@@ -1848,6 +1855,13 @@
   "site": "",
   "time": "7:30 PM"
  },
+ "4A D2|mp:92377b02-534d-4cb9-9a3f-6563e09b78fc|mp:15a3300a-e76c-4db1-8e77-79b1fc070602": {
+  "date": "2026-11-19",
+  "description": "The Pleasant Grove (Texarkana, TX) varsity football team has a neutral playoff game vs. Van Alstyne (TX) , but the date has not been set.",
+  "read": "2026-11-13T03:48:33+00:00",
+  "site": "",
+  "time": ""
+ },
  "4A D2|mp:92377b02-534d-4cb9-9a3f-6563e09b78fc|mp:5a7d7b93-9ecb-4369-91ce-9e96df6cbbb6": {
   "date": "",
   "description": "The Van Alstyne (TX) varsity football team won Thursday's neutral playoff game against Venus (TX) by a score of 71-0.",
@@ -2380,6 +2394,13 @@
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
   "read": "2026-11-13T03:38:49+00:00",
+  "site": "",
+  "time": ""
+ },
+ "5A D2|mp:aab923b5-b024-432d-a17e-c5e8fbddfd9d|mp:e41933ef-bffb-4574-be33-23ff30f74c6b": {
+  "date": "2026-11-19",
+  "description": "The Sharyland (Mission, TX) varsity football team has a neutral playoff game vs. Alamo Heights (San Antonio, TX) , but the date has not been set.",
+  "read": "2026-11-13T03:48:33+00:00",
   "site": "",
   "time": ""
  },

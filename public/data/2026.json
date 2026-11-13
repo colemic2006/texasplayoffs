@@ -2,8 +2,8 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-13T03:45+00:00",
-    "games": 354,
+    "updated": "2026-11-13T03:48+00:00",
+    "games": 357,
     "played": 32,
     "assigned": 352,
     "weeks": {
@@ -12,7 +12,7 @@
         "assigned": 352
       },
       "2": {
-        "games": 2,
+        "games": 5,
         "assigned": 0
       },
       "3": {
@@ -7455,6 +7455,18 @@
     },
     {
       "year": 2026,
+      "classification": "1A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Zephyr",
+      "score1": null,
+      "team2": "Harrold",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
       "classification": "2A D1",
       "week": 2,
       "round": "Area",
@@ -7474,6 +7486,30 @@
       "team1": "Santo",
       "score1": null,
       "team2": "Wheeler",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "4A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Van Alstyne",
+      "score1": null,
+      "team2": "Texarkana Pleasant Grove",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "5A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Mission Sharyland",
+      "score1": null,
+      "team2": "San Antonio Alamo Heights",
       "score2": null,
       "winner": null
     }
