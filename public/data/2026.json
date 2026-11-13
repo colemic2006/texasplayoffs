@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-13T05:39+00:00",
-    "games": 361,
-    "played": 73,
+    "updated": "2026-11-13T06:09+00:00",
+    "games": 362,
+    "played": 76,
     "assigned": 352,
     "weeks": {
       "1": {
@@ -12,7 +12,7 @@
         "assigned": 352
       },
       "2": {
-        "games": 9,
+        "games": 10,
         "assigned": 0
       },
       "3": {
@@ -1386,10 +1386,10 @@
       "round": "Bi-District",
       "chapter": "CSC",
       "team1": "Thorndale",
-      "score1": null,
+      "score1": 42,
       "team2": "Groveton",
-      "score2": null,
-      "winner": null,
+      "score2": 15,
+      "winner": "Thorndale",
       "site": "Merrill Green Stadium",
       "lat": 30.65651,
       "lng": -96.33315,
@@ -1486,10 +1486,10 @@
       "round": "Bi-District",
       "chapter": "HOU",
       "team1": "Lovelady",
-      "score1": null,
+      "score1": 50,
       "team2": "Granger",
-      "score2": null,
-      "winner": null,
+      "score2": 20,
+      "winner": "Lovelady",
       "site": "College Station ISD Cougar Stadium",
       "lat": 30.55707,
       "lng": -96.28654,
@@ -6605,10 +6605,10 @@
       "round": "Bi-District",
       "chapter": "SAT",
       "team1": "San Antonio Brennan",
-      "score1": null,
+      "score1": 66,
       "team2": "Laredo LBJ",
-      "score2": null,
-      "winner": null,
+      "score2": 14,
+      "winner": "San Antonio Brennan",
       "site": "Farris Stadium",
       "lat": 29.56489,
       "lng": -98.65321,
@@ -7483,6 +7483,18 @@
       "team1": "Jewett Leon",
       "score1": null,
       "team2": "Ganado",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "2A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Shiner",
+      "score1": null,
+      "team2": "Lovelady",
       "score2": null,
       "winner": null
     },
