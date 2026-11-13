@@ -75,5 +75,27 @@
   "new": "Denton Ryan 48, FW Paschal 9",
   "at": "2026-11-13T15:47+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "1A D2",
+  "week": 1,
+  "team1": "Harrold",
+  "team2": "Benjamin",
+  "field": "score",
+  "old": "Harrold 48, Benjamin 46",
+  "new": "Harrold 52, Benjamin 6",
+  "at": "2026-11-13T17:30+00:00",
+  "status": "changed"
+ },
+ {
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Axtell",
+  "team2": "Bangs",
+  "field": "score",
+  "old": "Axtell 8, Bangs 48",
+  "new": "Axtell 48, Bangs 8",
+  "at": "2026-11-13T17:30+00:00",
+  "status": "changed"
  }
 ]
