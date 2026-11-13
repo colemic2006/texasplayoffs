@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-13T07:09+00:00",
+    "updated": "2026-11-13T08:09+00:00",
     "games": 363,
-    "played": 79,
+    "played": 80,
     "assigned": 352,
     "weeks": {
       "1": {
@@ -2942,10 +2942,10 @@
       "round": "Bi-District",
       "chapter": "HOU",
       "team1": "Anahuac",
-      "score1": null,
+      "score1": 27,
       "team2": "Palestine Westwood",
-      "score2": null,
-      "winner": null,
+      "score2": 41,
+      "winner": "Palestine Westwood",
       "site": "Mustang Stadium, Madisonville",
       "lat": 30.94501,
       "lng": -95.90846,
