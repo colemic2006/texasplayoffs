@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-13T10:39+00:00",
+    "updated": "2026-11-13T11:02+00:00",
     "games": 363,
-    "played": 82,
+    "played": 83,
     "assigned": 352,
     "weeks": {
       "1": {
@@ -1366,10 +1366,10 @@
       "round": "Bi-District",
       "chapter": "DAL",
       "team1": "Axtell",
-      "score1": null,
+      "score1": 8,
       "team2": "Bangs",
-      "score2": null,
-      "winner": null,
+      "score2": 48,
+      "winner": "Bangs",
       "site": "Cub Stadium, Clifton",
       "lat": 31.78876,
       "lng": -97.59065,
