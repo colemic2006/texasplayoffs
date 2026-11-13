@@ -49,6 +49,22 @@ function SectionTitle({ accent, children }) {
   )
 }
 
+const ROUND_SHORT = { 1:'Bi-District', 2:'Area', 3:'Regionals', 4:'Quarterfinals', 5:'Semifinals', 6:'Finals' }
+// games in each playoff week (week 5 has no 1A games: 1A plays its final in week 6)
+function RoundCounts({ games }) {
+  const weeks = [1, 2, 3, 4, 5, 6].map(w => [w, games.filter(g => g.week === w).length]).filter(([, n]) => n)
+  if (!weeks.length) return '—'
+  return (
+    <div style={{ fontFamily:'var(--mono)', fontSize:11, lineHeight:1.55, color:'var(--ink)' }}>
+      {weeks.map(([w, n]) => (
+        <div key={w} style={{ display:'flex', justifyContent:'space-between', gap:8 }}>
+          <span style={{ color:'var(--mid)' }}>Wk {w} · {ROUND_SHORT[w]}</span><strong>{n}</strong>
+        </div>
+      ))}
+    </div>
+  )
+}
+
 export default function ChapterDashboard({ data, year, allData = {}, years = [], loadAllYears }) {
   const [sortBy, setSortBy] = useState('total')
   const [selectedWeek, setSelectedWeek] = useState('all')
@@ -169,8 +185,8 @@ export default function ChapterDashboard({ data, year, allData = {}, years = [],
         {[
           { label:'Total Playoff Games', value: totalGames, color:'var(--burnt)' },
           { label:'Active Chapters', value: chapters.filter(c=>c.total>0).length, color:'var(--gold)' },
-          { label:'Largest Chapter', value: sorted[0]?.code || '—', color:'var(--steel)' },
-          { label:'Most Games', value: sorted[0]?.total || '—', color:'var(--sage)' },
+          { label:'Games by Round', value: <RoundCounts games={data?.games || []} />, color:'var(--steel)' },
+          { label:`Most Games${sorted[0]?.code ? ` · ${sorted[0].code}` : ''}`, value: sorted[0]?.total || '—', color:'var(--sage)' },
         ].map(({ label, value, color }) => (
           <div key={label} style={{
             background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10,

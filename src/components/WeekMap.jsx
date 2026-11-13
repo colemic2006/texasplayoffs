@@ -61,7 +61,7 @@ export default function WeekMap({ data }) {
             This Week's Game Sites
           </div>
           <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:26, color:'var(--ink)' }}>
-            {ROUND_NAMES[week]}{picked.length ? ` · ${picked.map(label).join(' + ')}` : ''} · {markers.length} of {weekGames.length} sites on the map
+            {ROUND_NAMES[week]} · Week {week}{picked.length ? ` · ${picked.map(label).join(' + ')}` : ''} · {markers.length} of {weekGames.length} sites on the map
           </div>
         </div>
         <div style={{ display:'flex', gap:4 }}>
