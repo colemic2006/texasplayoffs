@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-13T04:11+00:00",
+    "updated": "2026-11-13T04:39+00:00",
     "games": 360,
-    "played": 68,
+    "played": 72,
     "assigned": 352,
     "weeks": {
       "1": {
@@ -4691,10 +4691,10 @@
       "round": "Bi-District",
       "chapter": "HOU",
       "team1": "Houston Wheatley",
-      "score1": null,
+      "score1": 6,
       "team2": "Hitchcock",
-      "score2": null,
-      "winner": null,
+      "score2": 42,
+      "winner": "Hitchcock",
       "site": "Pasadena ISD Veterans Memorial Stadium",
       "lat": 29.66765,
       "lng": -95.18413,
@@ -5291,25 +5291,16 @@
       "round": "Bi-District",
       "chapter": "SAT",
       "team1": "El Paso Americas",
-      "score1": null,
+      "score1": 38,
       "team2": "Amarillo Tascosa",
-      "score2": null,
-      "winner": null,
+      "score2": 41,
+      "winner": "Amarillo Tascosa",
       "site": "Socorro ISD Student Activity Center, El Paso",
       "lat": 31.72599,
       "lng": -106.26676,
       "city": "El Paso",
       "date": "2026-11-12",
-      "time": "6:30 PM",
-      "changes": [
-        {
-          "field": "time",
-          "old": "7:30 PM",
-          "new": "6:30 PM",
-          "at": "2026-11-12T23:59+00:00",
-          "status": "changed"
-        }
-      ]
+      "time": "6:30 PM"
     },
     {
       "year": 2026,
@@ -5318,10 +5309,10 @@
       "round": "Bi-District",
       "chapter": "HOU",
       "team1": "La Porte",
-      "score1": null,
+      "score1": 70,
       "team2": "Northbrook",
-      "score2": null,
-      "winner": null,
+      "score2": 0,
+      "winner": "La Porte",
       "site": "La Porte ISD Bulldog Stadium",
       "lat": 29.65258,
       "lng": -95.01704,
@@ -5765,7 +5756,16 @@
       "map_link": "https://goo.gl/maps/NdS8WdJ5FqeWxro5A",
       "city": "Abilene",
       "date": "2026-11-13",
-      "time": "7:00 PM"
+      "time": "6:00 PM",
+      "changes": [
+        {
+          "field": "time",
+          "old": "7:00 PM",
+          "new": "6:00 PM",
+          "at": "2026-11-13T04:39+00:00",
+          "status": "changed"
+        }
+      ]
     },
     {
       "year": 2026,
@@ -6487,10 +6487,10 @@
       "round": "Bi-District",
       "chapter": "HOU",
       "team1": "Katy Cypress Lakes",
-      "score1": null,
+      "score1": 40,
       "team2": "Spring Klein Collins",
-      "score2": null,
-      "winner": null,
+      "score2": 38,
+      "winner": "Katy Cypress Lakes",
       "site": "Cypress-Fairbanks ISD Cy Fair FCU Stadium",
       "lat": 29.99014,
       "lng": -95.67814,
