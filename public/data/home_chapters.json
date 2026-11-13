@@ -903,15 +903,7 @@
     "chapter": "SFA",
     "confidence": "HIGH"
   },
-  "Cy Falls": {
-    "chapter": "HOU",
-    "confidence": "HIGH"
-  },
   "Cy Ranch": {
-    "chapter": "HOU",
-    "confidence": "HIGH"
-  },
-  "Cy Woods": {
     "chapter": "HOU",
     "confidence": "HIGH"
   },
@@ -924,6 +916,10 @@
     "confidence": "HIGH"
   },
   "Cypress Cy-Fair": {
+    "chapter": "HOU",
+    "confidence": "HIGH"
+  },
+  "Cypress Falls": {
     "chapter": "HOU",
     "confidence": "HIGH"
   },
@@ -1360,10 +1356,6 @@
     "confidence": "HIGH"
   },
   "Fort Bend Clements": {
-    "chapter": "HOU",
-    "confidence": "HIGH"
-  },
-  "Fort Bend Crawford": {
     "chapter": "HOU",
     "confidence": "HIGH"
   },
@@ -1831,14 +1823,6 @@
     "chapter": "HOU",
     "confidence": "HIGH"
   },
-  "Houston Dobie": {
-    "chapter": "HOU",
-    "confidence": "HIGH"
-  },
-  "Houston Eisenhower": {
-    "chapter": "HOU",
-    "confidence": "HIGH"
-  },
   "Houston Furr": {
     "chapter": "HOU",
     "confidence": "HIGH"
@@ -1875,10 +1859,6 @@
     "chapter": "HOU",
     "confidence": "HIGH"
   },
-  "Houston Nimitz": {
-    "chapter": "HOU",
-    "confidence": "HIGH"
-  },
   "Houston North Forest": {
     "chapter": "HOU",
     "confidence": "HIGH"
@@ -1895,10 +1875,6 @@
     "chapter": "HOU",
     "confidence": "HIGH"
   },
-  "Houston Summer Creek": {
-    "chapter": "HOU",
-    "confidence": "HIGH"
-  },
   "Houston Waltrip": {
     "chapter": "HOU",
     "confidence": "HIGH"
@@ -1908,10 +1884,6 @@
     "confidence": "HIGH"
   },
   "Houston Westbury": {
-    "chapter": "HOU",
-    "confidence": "HIGH"
-  },
-  "Houston Westfield": {
     "chapter": "HOU",
     "confidence": "HIGH"
   },
@@ -2099,10 +2071,6 @@
     "chapter": "HOU",
     "confidence": "HIGH"
   },
-  "Katy Jordan": {
-    "chapter": "HOU",
-    "confidence": "HIGH"
-  },
   "Katy Morton Ranch": {
     "chapter": "HOU",
     "confidence": "HIGH"
@@ -2284,10 +2252,6 @@
     "confidence": "MEDIUM"
   },
   "Lamar George Ranch": {
-    "chapter": "DAL",
-    "confidence": "MEDIUM"
-  },
-  "Lamar Randle": {
     "chapter": "DAL",
     "confidence": "MEDIUM"
   },
@@ -3011,10 +2975,6 @@
     "chapter": "HOU",
     "confidence": "HIGH"
   },
-  "Pearland Shadow Creek": {
-    "chapter": "HOU",
-    "confidence": "HIGH"
-  },
   "Pearsall": {
     "chapter": "SAT",
     "confidence": "HIGH"
@@ -3093,10 +3053,6 @@
   },
   "Pleasanton": {
     "chapter": "SAT",
-    "confidence": "HIGH"
-  },
-  "Port Arthur": {
-    "chapter": "BEA",
     "confidence": "HIGH"
   },
   "Port Arthur Memorial": {
@@ -3704,10 +3660,6 @@
     "confidence": "HIGH"
   },
   "Spring": {
-    "chapter": "HOU",
-    "confidence": "HIGH"
-  },
-  "Spring Branch Memorial": {
     "chapter": "HOU",
     "confidence": "HIGH"
   },

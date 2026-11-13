@@ -4038,11 +4038,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Fort Bend Crawford",
+      "team1": "Almeta Crawford",
       "score1": 50,
       "team2": "Houston Worthing",
       "score2": 7,
-      "winner": "Fort Bend Crawford"
+      "winner": "Almeta Crawford"
     },
     {
       "year": 2025,
@@ -4290,11 +4290,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "SAT",
-      "team1": "Fort Bend Crawford",
+      "team1": "Almeta Crawford",
       "score1": 35,
       "team2": "Lindale",
       "score2": 28,
-      "winner": "Fort Bend Crawford"
+      "winner": "Almeta Crawford"
     },
     {
       "year": 2025,
@@ -4412,9 +4412,9 @@
       "chapter": "FTW",
       "team1": "Longview Pine Tree",
       "score1": 10,
-      "team2": "Fort Bend Crawford",
+      "team2": "Almeta Crawford",
       "score2": 48,
-      "winner": "Fort Bend Crawford"
+      "winner": "Almeta Crawford"
     },
     {
       "year": 2025,
@@ -4472,7 +4472,7 @@
       "chapter": "HOU",
       "team1": "Kilgore",
       "score1": 30,
-      "team2": "Fort Bend Crawford",
+      "team2": "Almeta Crawford",
       "score2": 3,
       "winner": "Kilgore"
     },
@@ -5478,11 +5478,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Port Arthur",
+      "team1": "Port Arthur Memorial",
       "score1": 42,
       "team2": "Galena Park",
       "score2": 0,
-      "winner": "Port Arthur"
+      "winner": "Port Arthur Memorial"
     },
     {
       "year": 2025,
@@ -5766,11 +5766,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "SAT",
-      "team1": "Port Arthur",
+      "team1": "Port Arthur Memorial",
       "score1": 44,
       "team2": "A&M Consolidated",
       "score2": 27,
-      "winner": "Port Arthur"
+      "winner": "Port Arthur Memorial"
     },
     {
       "year": 2025,
@@ -5910,11 +5910,11 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "DAL",
-      "team1": "Port Arthur",
+      "team1": "Port Arthur Memorial",
       "score1": 45,
       "team2": "College Station",
       "score2": 24,
-      "winner": "Port Arthur"
+      "winner": "Port Arthur Memorial"
     },
     {
       "year": 2025,
@@ -5982,11 +5982,11 @@
       "week": 4,
       "round": "Quarterfinals",
       "chapter": "HOU",
-      "team1": "Port Arthur",
+      "team1": "Port Arthur Memorial",
       "score1": 48,
       "team2": "Barbers Hill",
       "score2": 35,
-      "winner": "Port Arthur"
+      "winner": "Port Arthur Memorial"
     },
     {
       "year": 2025,
@@ -6018,7 +6018,7 @@
       "week": 5,
       "round": "Semifinals",
       "chapter": "DAL",
-      "team1": "Port Arthur",
+      "team1": "Port Arthur Memorial",
       "score1": 28,
       "team2": "Comal Smithson Valley",
       "score2": 31,
@@ -6990,11 +6990,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Cy Falls",
+      "team1": "Cypress Falls",
       "score1": 63,
       "team2": "Houston Bellaire",
       "score2": 3,
-      "winner": "Cy Falls"
+      "winner": "Cypress Falls"
     },
     {
       "year": 2025,
@@ -7278,11 +7278,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Cy Falls",
+      "team1": "Cypress Falls",
       "score1": 46,
       "team2": "Katy Cinco Ranch",
       "score2": 25,
-      "winner": "Cy Falls"
+      "winner": "Cypress Falls"
     },
     {
       "year": 2025,
@@ -7422,7 +7422,7 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "HOU",
-      "team1": "Cy Falls",
+      "team1": "Cypress Falls",
       "score1": 27,
       "team2": "Galena Park North Shore",
       "score2": 54,
@@ -7676,7 +7676,7 @@
       "chapter": "HOU",
       "team1": "The Woodlands College Park",
       "score1": 45,
-      "team2": "Houston Eisenhower",
+      "team2": "Aldine Eisenhower",
       "score2": 6,
       "winner": "The Woodlands College Park"
     },
@@ -7722,7 +7722,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Houston Westfield",
+      "team1": "Spring Westfield",
       "score1": 20,
       "team2": "Willis",
       "score2": 23,
@@ -7782,11 +7782,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Houston Summer Creek",
+      "team1": "Humble Summer Creek",
       "score1": 58,
       "team2": "Clear Springs",
       "score2": 14,
-      "winner": "Houston Summer Creek"
+      "winner": "Humble Summer Creek"
     },
     {
       "year": 2025,
@@ -8048,9 +8048,9 @@
       "chapter": "HOU",
       "team1": "Manvel",
       "score1": 35,
-      "team2": "Houston Summer Creek",
+      "team2": "Humble Summer Creek",
       "score2": 72,
-      "winner": "Houston Summer Creek"
+      "winner": "Humble Summer Creek"
     },
     {
       "year": 2025,
@@ -8180,9 +8180,9 @@
       "chapter": "HOU",
       "team1": "Katy High",
       "score1": 37,
-      "team2": "Houston Summer Creek",
+      "team2": "Humble Summer Creek",
       "score2": 38,
-      "winner": "Houston Summer Creek"
+      "winner": "Humble Summer Creek"
     },
     {
       "year": 2025,
@@ -8250,7 +8250,7 @@
       "week": 4,
       "round": "Quarterfinals",
       "chapter": "HOU",
-      "team1": "Houston Summer Creek",
+      "team1": "Humble Summer Creek",
       "score1": 21,
       "team2": "Houston King",
       "score2": 24,

@@ -6462,11 +6462,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Lamar Randle",
+      "team1": "Richmond Randle",
       "score1": 35,
       "team2": "Fort Bend Marshall",
       "score2": 24,
-      "winner": "Lamar Randle"
+      "winner": "Richmond Randle"
     },
     {
       "year": 2023,
@@ -6524,9 +6524,9 @@
       "chapter": "FTW",
       "team1": "Belton",
       "score1": 21,
-      "team2": "Lamar Randle",
+      "team2": "Richmond Randle",
       "score2": 47,
-      "winner": "Lamar Randle"
+      "winner": "Richmond Randle"
     },
     {
       "year": 2023,
@@ -6558,7 +6558,7 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "HOU",
-      "team1": "Lamar Randle",
+      "team1": "Richmond Randle",
       "score1": 13,
       "team2": "Huntsville",
       "score2": 14,
@@ -7230,7 +7230,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Houston Dobie",
+      "team1": "Pasadena Dobie",
       "score1": 28,
       "team2": "Humble Atascocita",
       "score2": 65,
@@ -7818,7 +7818,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Cy Falls",
+      "team1": "Cypress Falls",
       "score1": 6,
       "team2": "Tomball High",
       "score2": 32,
@@ -7964,7 +7964,7 @@
       "chapter": "HOU",
       "team1": "Houston Heights",
       "score1": 42,
-      "team2": "Spring Branch Memorial",
+      "team2": "Houston Memorial",
       "score2": 20,
       "winner": "Houston Heights"
     },
@@ -7976,7 +7976,7 @@
       "chapter": "HOU",
       "team1": "Fort Bend Hightower",
       "score1": 35,
-      "team2": "Katy Jordan",
+      "team2": "Fulshear Jordan",
       "score2": 7,
       "winner": "Fort Bend Hightower"
     },

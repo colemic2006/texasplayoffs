@@ -57,6 +57,22 @@
    "map_link": "https://goo.gl/maps/19ppoehtEpuqbZ7M9",
    "how": "only school with this name"
   },
+  "Aldine Eisenhower": {
+   "stadium_id": 366,
+   "stadium": "W. W. Thorne Stadium",
+   "city": "Houston",
+   "capacity": 9768,
+   "map_link": "https://goo.gl/maps/7sh3THKVEVzwZ1fk8",
+   "how": "city + school"
+  },
+  "Aldine Nimitz": {
+   "stadium_id": 366,
+   "stadium": "W. W. Thorne Stadium",
+   "city": "Houston",
+   "capacity": 9768,
+   "map_link": "https://goo.gl/maps/7sh3THKVEVzwZ1fk8",
+   "how": "city + school"
+  },
   "Aledo": {
    "stadium_id": 1055,
    "stadium": "Tim Buchanan Stadium",
@@ -111,6 +127,14 @@
    "city": "Alvarado",
    "capacity": 5061,
    "map_link": "https://goo.gl/maps/42yRNzGVmn5b3hFA7",
+   "how": "city + school"
+  },
+  "Alvin Shadow Creek": {
+   "stadium_id": 1758,
+   "stadium": "Alvin ISD Freedom Field",
+   "city": "Iowa Colony",
+   "capacity": 10000,
+   "map_link": "https://goo.gl/maps/acSazZbAU2ovYKdUA",
    "how": "city + school"
   },
   "Alvord": {
@@ -1721,23 +1745,7 @@
    "map_link": "https://goo.gl/maps/34GNaVFwiW6E1HgU9",
    "how": "city + school"
   },
-  "Cy Falls": {
-   "stadium_id": 1050,
-   "stadium": "Cy Fair FCU Stadium",
-   "city": "Cypress",
-   "capacity": 11000,
-   "map_link": "https://goo.gl/maps/wcVPi2Ck2BR2",
-   "how": "only school with this name"
-  },
   "Cy Ranch": {
-   "stadium_id": 1050,
-   "stadium": "Cy Fair FCU Stadium",
-   "city": "Cypress",
-   "capacity": 11000,
-   "map_link": "https://goo.gl/maps/wcVPi2Ck2BR2",
-   "how": "only school with this name"
-  },
-  "Cy Woods": {
    "stadium_id": 1050,
    "stadium": "Cy Fair FCU Stadium",
    "city": "Cypress",
@@ -3569,22 +3577,6 @@
    "map_link": "https://goo.gl/maps/wcVPi2Ck2BR2",
    "how": "city + school"
   },
-  "Houston Dobie": {
-   "stadium_id": 631,
-   "stadium": "Veterans Memorial Stadium",
-   "city": "Pasadena",
-   "capacity": 12700,
-   "map_link": "https://goo.gl/maps/vvEJARHWmKx9XVKS9",
-   "how": "city + school"
-  },
-  "Houston Eisenhower": {
-   "stadium_id": 366,
-   "stadium": "W. W. Thorne Stadium",
-   "city": "Houston",
-   "capacity": 9768,
-   "map_link": "https://goo.gl/maps/7sh3THKVEVzwZ1fk8",
-   "how": "city + school"
-  },
   "Houston Furr": {
    "stadium_id": 519,
    "stadium": "Jones-Cowart Stadium",
@@ -3657,14 +3649,6 @@
    "map_link": "https://goo.gl/maps/SDaszQzbgCemRvfX8",
    "how": "city + school"
   },
-  "Houston Nimitz": {
-   "stadium_id": 366,
-   "stadium": "W. W. Thorne Stadium",
-   "city": "Houston",
-   "capacity": 9768,
-   "map_link": "https://goo.gl/maps/7sh3THKVEVzwZ1fk8",
-   "how": "city + school"
-  },
   "Houston North Forest": {
    "stadium_id": 519,
    "stadium": "Jones-Cowart Stadium",
@@ -3713,14 +3697,6 @@
    "map_link": "https://goo.gl/maps/dt5v3mkS1Y6E9dzx5",
    "how": "city + school"
   },
-  "Houston Summer Creek": {
-   "stadium_id": 365,
-   "stadium": "Turner Stadium",
-   "city": "Humble",
-   "capacity": 10200,
-   "map_link": "https://goo.gl/maps/G8wYEzoiyuLYwYDM8",
-   "how": "city + school"
-  },
   "Houston Waltrip": {
    "stadium_id": 621,
    "stadium": "Delmar Stadium",
@@ -3743,14 +3719,6 @@
    "city": "Houston",
    "capacity": 8280,
    "map_link": "https://goo.gl/maps/JMeoss3AJbuAd4RY8",
-   "how": "city + school"
-  },
-  "Houston Westfield": {
-   "stadium_id": 627,
-   "stadium": "Leonard George Stadium",
-   "city": "Spring",
-   "capacity": 8000,
-   "map_link": "https://goo.gl/maps/9tKCrVNiSS32",
    "how": "city + school"
   },
   "Houston Westside": {
@@ -3850,6 +3818,14 @@
    "how": "city + school"
   },
   "Humble Kingwood": {
+   "stadium_id": 365,
+   "stadium": "Turner Stadium",
+   "city": "Humble",
+   "capacity": 10200,
+   "map_link": "https://goo.gl/maps/G8wYEzoiyuLYwYDM8",
+   "how": "city + school"
+  },
+  "Humble Summer Creek": {
    "stadium_id": 365,
    "stadium": "Turner Stadium",
    "city": "Humble",
@@ -5857,6 +5833,14 @@
    "map_link": "https://goo.gl/maps/QLMgiZrakcMKmddE9",
    "how": "only school with this name"
   },
+  "Pasadena Dobie": {
+   "stadium_id": 631,
+   "stadium": "Veterans Memorial Stadium",
+   "city": "Pasadena",
+   "capacity": 12700,
+   "map_link": "https://goo.gl/maps/vvEJARHWmKx9XVKS9",
+   "how": "city + school"
+  },
   "Pasadena Memorial": {
    "stadium_id": 631,
    "stadium": "Veterans Memorial Stadium",
@@ -5887,14 +5871,6 @@
    "city": "Pearland",
    "capacity": 12500,
    "map_link": "https://goo.gl/maps/MoZuGpWPajXey3FU8",
-   "how": "city + school"
-  },
-  "Pearland Shadow Creek": {
-   "stadium_id": 1758,
-   "stadium": "Alvin ISD Freedom Field",
-   "city": "Iowa Colony",
-   "capacity": 10000,
-   "map_link": "https://goo.gl/maps/acSazZbAU2ovYKdUA",
    "how": "city + school"
   },
   "Pearsall": {
@@ -7215,6 +7191,14 @@
    "city": "Klein",
    "capacity": 7800,
    "map_link": "https://goo.gl/maps/zoC4eqjDQE1myASb6",
+   "how": "city + school"
+  },
+  "Spring Westfield": {
+   "stadium_id": 627,
+   "stadium": "Leonard George Stadium",
+   "city": "Spring",
+   "capacity": 8000,
+   "map_link": "https://goo.gl/maps/9tKCrVNiSS32",
    "how": "city + school"
   },
   "Springlake-Earth": {

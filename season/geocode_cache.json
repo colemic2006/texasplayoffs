@@ -1533,6 +1533,18 @@
   "stadium": "Sam Vitanza Stadium",
   "stadium_id": 1136
  },
+ "Dickinson ISD Vitanza Stadium || Dickinson v Humble Summer Creek": {
+  "address": "3800 Baker Avenue, Dickinson, Texas 77539",
+  "city": "Dickinson",
+  "how": "stadium",
+  "lat": 29.47148,
+  "lng": -95.03173,
+  "map_link": "https://goo.gl/maps/e6sWW2n5DGJfEqpu5",
+  "rules": 10,
+  "site": "Dickinson ISD Vitanza Stadium",
+  "stadium": "Sam Vitanza Stadium",
+  "stadium_id": 1136
+ },
  "Dimmitt High School || Ropes v Vega": {
   "address": "1572 FM 3215, Dimmitt, Texas 79027",
   "city": "Dimmitt",
@@ -4567,6 +4579,18 @@
   "stadium": "Southside ISD Stadium",
   "stadium_id": 855
  },
+ "Spring Branch ISD Tully Stadium || Houston Memorial v Manvel": {
+  "address": "1050 Dairy Ashford, Houston, Texas 77079",
+  "city": "Houston",
+  "how": "stadium",
+  "lat": 29.77868,
+  "lng": -95.6063,
+  "map_link": "https://goo.gl/maps/dt5v3mkS1Y6E9dzx5",
+  "rules": 8,
+  "site": "Spring Branch ISD Tully Stadium",
+  "stadium": "Darrell Tully Stadium",
+  "stadium_id": 364
+ },
  "Spring Branch ISD Tully Stadium || Memorial v Manvel": {
   "address": "1050 Dairy Ashford, Houston, Texas 77079",
   "city": "Houston",
@@ -5048,6 +5072,18 @@
   "site": "Trooper Stadium",
   "stadium": "Trooper Stadium",
   "stadium_id": 601
+ },
+ "Tully Stadium, Houston || Houston Memorial v Manvel": {
+  "address": "1050 Dairy Ashford, Houston, Texas 77079",
+  "city": "Houston",
+  "how": "stadium",
+  "lat": 29.77868,
+  "lng": -95.6063,
+  "map_link": "https://goo.gl/maps/dt5v3mkS1Y6E9dzx5",
+  "rules": 10,
+  "site": "Tully Stadium, Houston",
+  "stadium": "Darrell Tully Stadium",
+  "stadium_id": 364
  },
  "Tully Stadium, Houston || Spring Branch Memorial v Manvel": {
   "address": "1050 Dairy Ashford, Houston, Texas 77079",

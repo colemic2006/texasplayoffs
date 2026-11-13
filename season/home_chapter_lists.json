@@ -726,21 +726,8 @@
   "Brookshire Royal": "Brookshire Royal",
   "Sealy": "Sealy",
   "Waller": "Waller",
-  "(alt) Houston Dobie": "Houston Dobie",
-  "(alt) Houston Eisenhower": "Houston Eisenhower",
-  "(alt) Houston Nimitz": "Houston Nimitz",
-  "(alt) Houston Summer Creek": "Houston Summer Creek",
-  "(alt) Houston Westfield": "Houston Westfield",
-  "(alt) Pearland Shadow Creek": "Pearland Shadow Creek",
-  "(alt) Lamar Randle": "Lamar Randle",
-  "(alt) Katy Jordan": "Katy Jordan",
-  "(alt) Fort Bend Crawford": "Fort Bend Crawford",
-  "(alt) Spring Branch Memorial": "Spring Branch Memorial",
-  "(alt) Cy Falls": "Cy Falls",
-  "(alt) Cy Woods": "Cy Woods",
-  "(alt) Houston Reagan": "Houston Reagan",
-  "(alt) Fort Bend Eisenhower": "Fort Bend Eisenhower",
-  "(alt) Port Arthur": "Port Arthur"
+  "Victoria East": "Victoria East",
+  "Victoria West": "Victoria West"
  },
  "SAN": {
   "Ballinger": "Ballinger",
@@ -902,9 +889,7 @@
   "Corpus Christi Ray": "Corpus Christi Ray",
   "Corpus Christi Veterans Memorial": "Corpus Christi Veterans Memorial",
   "Port Lavaca Calhoun": "Port Lavaca Calhoun",
-  "Rockport-Fulton": "Rockport-Fulton",
-  "Victoria East": "Victoria East",
-  "Victoria West": "Victoria West"
+  "Rockport-Fulton": "Rockport-Fulton"
  },
  "WAC": {
   "Clifton": "Clifton",

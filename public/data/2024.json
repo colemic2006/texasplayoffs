@@ -6920,7 +6920,7 @@
       "chapter": "HOU",
       "team1": "The Woodlands",
       "score1": 42,
-      "team2": "Houston Nimitz",
+      "team2": "Aldine Nimitz",
       "score2": 20,
       "winner": "The Woodlands"
     },
@@ -6990,11 +6990,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Cy Falls",
+      "team1": "Cypress Falls",
       "score1": 59,
       "team2": "Houston Bellaire",
       "score2": 7,
-      "winner": "Cy Falls"
+      "winner": "Cypress Falls"
     },
     {
       "year": 2024,
@@ -7016,7 +7016,7 @@
       "chapter": "HOU",
       "team1": "Fort Bend Ridge Point",
       "score1": 49,
-      "team2": "Houston Dobie",
+      "team2": "Pasadena Dobie",
       "score2": 16,
       "winner": "Fort Bend Ridge Point"
     },
@@ -7278,7 +7278,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Cy Falls",
+      "team1": "Cypress Falls",
       "score1": 20,
       "team2": "Katy High",
       "score2": 49,
@@ -7724,7 +7724,7 @@
       "chapter": "HOU",
       "team1": "The Woodlands College Park",
       "score1": 16,
-      "team2": "Houston Westfield",
+      "team2": "Spring Westfield",
       "score2": 13,
       "winner": "The Woodlands College Park"
     },
@@ -7758,11 +7758,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Katy Jordan",
+      "team1": "Fulshear Jordan",
       "score1": 22,
       "team2": "Richmond Foster",
       "score2": 14,
-      "winner": "Katy Jordan"
+      "winner": "Fulshear Jordan"
     },
     {
       "year": 2024,
@@ -7782,11 +7782,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Houston Summer Creek",
+      "team1": "Humble Summer Creek",
       "score1": 66,
       "team2": "Clear Falls",
       "score2": 7,
-      "winner": "Houston Summer Creek"
+      "winner": "Humble Summer Creek"
     },
     {
       "year": 2024,
@@ -7818,7 +7818,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "HOU",
-      "team1": "Pearland Shadow Creek",
+      "team1": "Alvin Shadow Creek",
       "score1": 28,
       "team2": "Fort Bend Elkins",
       "score2": 31,
@@ -8036,9 +8036,9 @@
       "chapter": "HOU",
       "team1": "Houston Stratford",
       "score1": 10,
-      "team2": "Katy Jordan",
+      "team2": "Fulshear Jordan",
       "score2": 31,
-      "winner": "Katy Jordan"
+      "winner": "Fulshear Jordan"
     },
     {
       "year": 2024,
@@ -8048,9 +8048,9 @@
       "chapter": "HOU",
       "team1": "Manvel",
       "score1": 7,
-      "team2": "Houston Summer Creek",
+      "team2": "Humble Summer Creek",
       "score2": 49,
-      "winner": "Houston Summer Creek"
+      "winner": "Humble Summer Creek"
     },
     {
       "year": 2024,
@@ -8178,11 +8178,11 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "HOU",
-      "team1": "Katy Jordan",
+      "team1": "Fulshear Jordan",
       "score1": 20,
-      "team2": "Houston Summer Creek",
+      "team2": "Humble Summer Creek",
       "score2": 54,
-      "winner": "Houston Summer Creek"
+      "winner": "Humble Summer Creek"
     },
     {
       "year": 2024,
@@ -8250,11 +8250,11 @@
       "week": 4,
       "round": "Quarterfinals",
       "chapter": "HOU",
-      "team1": "Houston Summer Creek",
+      "team1": "Humble Summer Creek",
       "score1": 51,
       "team2": "Humble Kingwood",
       "score2": 7,
-      "winner": "Houston Summer Creek"
+      "winner": "Humble Summer Creek"
     },
     {
       "year": 2024,
@@ -8286,7 +8286,7 @@
       "week": 5,
       "round": "Semifinals",
       "chapter": "FTW",
-      "team1": "Houston Summer Creek",
+      "team1": "Humble Summer Creek",
       "score1": 31,
       "team2": "Leander Vandegrift",
       "score2": 34,
