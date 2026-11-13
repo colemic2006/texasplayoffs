@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-13T17:30+00:00",
+    "updated": "2026-11-13T17:58+00:00",
     "games": 381,
     "played": 127,
     "assigned": 352,
@@ -7627,7 +7627,8 @@
       "score1": null,
       "team2": "Pilot Point",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Mesquite Hanby Stadium"
     },
     {
       "year": 2026,

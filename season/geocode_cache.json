@@ -3421,6 +3421,16 @@
   "stadium": "Merrill Green Stadium",
   "stadium_id": 181
  },
+ "Mesquite Hanby Stadium || Malakoff v Pilot Point": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-13",
+  "rules": 10,
+  "site": "Mesquite Hanby Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Mesquite Memorial Stadium || West Mesquite v Mansfield Summit": {
   "address": "2411 W. Scyene Rd., Mesquite, Texas 75149",
   "city": "Mesquite",
