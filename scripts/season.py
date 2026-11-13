@@ -582,9 +582,13 @@ def log_changes(year, games):
     for c in changes:
         if datetime.datetime.fromisoformat(c['at']) >= cutoff:
             by_game.setdefault(game_key(c), []).append({k: c[k] for k in ('field', 'old', 'new', 'at', 'status')})
+    # a change matters through the game's day (Central time); after that it's dropped
+    today = (datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(hours=6)).date().isoformat()
     for g in games:
         recent = by_game.get(game_key(g))
-        # schedule changes matter until the game is played; score corrections stay up for the full window
+        if recent and g.get('date') and str(g['date'])[:10] < today:
+            recent = None
+        # schedule changes matter until the game is played; score corrections stay up through game day
         if recent and g['score1'] is not None:
             recent = [c for c in recent if c['field'] == 'score']
         if recent:

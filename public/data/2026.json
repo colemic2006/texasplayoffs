@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-13T14:05+00:00",
+    "updated": "2026-11-13T14:23+00:00",
     "games": 367,
     "played": 90,
     "assigned": 352,
@@ -3747,23 +3747,7 @@
       "map_link": "https://goo.gl/maps/GJanAyyu3He6RB5PA",
       "city": "Kermit",
       "date": "2026-11-12",
-      "time": "Delayed start",
-      "changes": [
-        {
-          "field": "date",
-          "old": "2026-11-13",
-          "new": "2026-11-12",
-          "at": "2026-11-12T23:45+00:00",
-          "status": "changed"
-        },
-        {
-          "field": "time",
-          "old": "6:00 PM",
-          "new": "Delayed start",
-          "at": "2026-11-13T03:05+00:00",
-          "status": "changed"
-        }
-      ]
+      "time": "Delayed start"
     },
     {
       "year": 2026,
@@ -7213,16 +7197,7 @@
       "map_link": "https://goo.gl/maps/km2SPmR8CsAASd3H6",
       "city": "Katy",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "score",
-          "old": "Katy Tompkins 33, Fort Bend Hightower 22",
-          "new": "Katy Tompkins 36, Fort Bend Hightower 22",
-          "at": "2026-11-13T04:51+00:00",
-          "status": "changed"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,

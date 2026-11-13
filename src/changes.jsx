@@ -8,7 +8,10 @@ const fmtDate = v => /^\d{4}-\d\d-\d\d/.test(v || '') ? `${v.slice(5, 7)}/${v.sl
 export const fmtValue = (field, v) => !v ? '(none)' : field === 'date' ? fmtDate(v) : v
 export const fmtWhen = at => new Date(at).toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'America/Chicago' }) + ' CT'
 
-export const hasChanges = g => !!(g && g.changes && g.changes.length)
+// today's date in Texas (Central time), YYYY-MM-DD
+const todayCT = () => new Date().toLocaleDateString('en-CA', { timeZone: 'America/Chicago' })
+// a change is shown through the game's day, then dropped
+export const hasChanges = g => !!(g && g.changes && g.changes.length && !(g.date && g.date.slice(0, 10) < todayCT()))
 export const changed = (g, field) => hasChanges(g) && g.changes.some(c => c.field === field)
 
 // one line per change: "Date: 11/13 → 11/12"
