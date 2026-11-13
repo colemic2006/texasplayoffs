@@ -79,8 +79,7 @@
   "Woodson High School": "Woodson",
   "Raymondville": "Raymondville",
   "Ropesville": "Ropesville",
-  "San Diego": "San Diego",
-  "South Grand Prairie": "South Grand Prairie"
+  "San Diego": "San Diego"
  },
  "ELP": {
   "Anthony High School": "Anthony",
@@ -875,7 +874,6 @@
   "Rio Grande City": "Rio Grande City",
   "Rio Grande City Grulla": "Rio Grande City Grulla",
   "Rio Hondo": "Rio Hondo",
-  "Rio Vista": "Rio Vista",
   "Weslaco": "Weslaco",
   "Weslaco East": "Weslaco East"
  },
@@ -893,7 +891,6 @@
  },
  "WAC": {
   "Clifton": "Clifton",
-  "Dublin": "Dublin",
   "Groesbeck": "Groesbeck",
   "Mexia": "Mexia",
   "Robinson": "Robinson",
@@ -1181,7 +1178,10 @@
   "Arlington Sam Houston High": "Arlington Sam Houston",
   "Arlington Seguin High": "Arlington Seguin",
   "Cleburne High": "Cleburne",
-  "Joshua High": "Joshua"
+  "Joshua High": "Joshua",
+  "Dublin High": "Dublin",
+  "Rio Vista High": "Rio Vista",
+  "South Grand Prairie High": "South Grand Prairie"
  },
  "_complete": [
   "ABI",
