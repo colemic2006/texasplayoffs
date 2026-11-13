@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-13T12:15+00:00",
-    "games": 366,
-    "played": 87,
+    "updated": "2026-11-13T14:05+00:00",
+    "games": 367,
+    "played": 90,
     "assigned": 352,
     "weeks": {
       "1": {
@@ -12,7 +12,7 @@
         "assigned": 352
       },
       "2": {
-        "games": 14,
+        "games": 15,
         "assigned": 0
       },
       "3": {
@@ -2622,10 +2622,10 @@
       "round": "Bi-District",
       "chapter": "AUS",
       "team1": "Columbus",
-      "score1": null,
+      "score1": 69,
       "team2": "Little River Academy",
-      "score2": null,
-      "winner": null,
+      "score2": 17,
+      "winner": "Columbus",
       "site": "Caldwell HS",
       "lat": 30.54922,
       "lng": -96.67618,
@@ -4731,10 +4731,10 @@
       "round": "Bi-District",
       "chapter": "HOU",
       "team1": "Bellville",
-      "score1": null,
+      "score1": 61,
       "team2": "Houston Worthing",
-      "score2": null,
-      "winner": null,
+      "score2": 6,
+      "winner": "Bellville",
       "site": "Cypress-Fairbanks ISD Pridgeon Stadium",
       "lat": 29.93565,
       "lng": -95.56999,
@@ -6389,10 +6389,10 @@
       "round": "Bi-District",
       "chapter": "AUS",
       "team1": "El Paso Pebble Hills",
-      "score1": null,
+      "score1": 39,
       "team2": "Midland Lee",
-      "score2": null,
-      "winner": null,
+      "score2": 27,
+      "winner": "El Paso Pebble Hills",
       "site": "SAC 2 Stadium, El Paso",
       "lat": 31.72599,
       "lng": -106.26676,
@@ -7555,6 +7555,18 @@
       "team1": "Whitney",
       "score1": null,
       "team2": "Tatum",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "3A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Columbus",
+      "score1": null,
+      "team2": "Palestine Westwood",
       "score2": null,
       "winner": null
     },
