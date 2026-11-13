@@ -35,6 +35,8 @@ def load_schools():
 
 def clean_site(raw):
     """The place in MaxPreps' free-text site, or '' when it doesn't name one."""
+    if re.search(r'playoff game|varsity football|\bis at their\b', raw or '', re.I):
+        return ''   # MaxPreps' "...is at their away playoff game @ X" status line, not a site
     t = re.sub(r'^\s*game details\s*', '', raw or '', flags=re.I)
     t = re.sub(r'\b[^.]*\bis home\b[^.]*\.?', '', t, flags=re.I)                 # "Silsbee is home."
     t = re.sub(r'\b\d{1,2}(:\d\d)?\s*(am|pm|p|a)\b(\s*c[sd]t)?', '', t, flags=re.I)   # "6pm CST"

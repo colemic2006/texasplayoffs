@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-13T02:45+00:00",
+    "updated": "2026-11-13T03:01+00:00",
     "games": 352,
     "played": 5,
     "assigned": 352,
@@ -599,16 +599,7 @@
       "map_link": "https://goo.gl/maps/z361CK1aJS1j41Hn9",
       "city": "Blackwell",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Blackwell",
-          "new": "their away playoff game @ Menard (TX)",
-          "at": "2026-11-13T02:06+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -1106,16 +1097,7 @@
       "map_link": "https://goo.gl/maps/tLrsxB1wW7KTD4cG9",
       "city": "Mineral Wells",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Ram Stadium, Mineral Wells",
-          "new": "their away playoff game @ Muenster (TX)",
-          "at": "2026-11-13T02:07+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -1255,16 +1237,7 @@
       "map_link": "https://goo.gl/maps/dLugWPkwfSzT5Hvd9",
       "city": "Odessa",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Ratliff Stadium, Odessa",
-          "new": "their away playoff game @ Post (TX)",
-          "at": "2026-11-13T02:07+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -1464,16 +1437,7 @@
       "map_link": "https://goo.gl/maps/398JXxzfsGa2UhDR6",
       "city": "Robinson",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Robinson ISD Rocket Field",
-          "new": "their away playoff game @ Leon (Jewett, TX)",
-          "at": "2026-11-13T02:07+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -1493,16 +1457,7 @@
       "map_link": "https://goo.gl/maps/PHFJxqJDJssbH5vGA",
       "city": "Taft",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Greyhound Stadium, Taft",
-          "new": "their away playoff game @ Ganado (TX)",
-          "at": "2026-11-13T02:07+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -1522,16 +1477,7 @@
       "map_link": "https://goo.gl/maps/Zds1rXChHE7S4x139",
       "city": "Karnes City",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Johnson Field, Karnes City",
-          "new": "their away playoff game @ Shiner (TX)",
-          "at": "2026-11-13T02:07+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -1649,16 +1595,7 @@
       "map_link": "https://goo.gl/maps/Tx5S5PxkaiZXQLpG8",
       "city": "Mabank",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Panther Stadium, Mabank",
-          "new": "their away playoff game @ Frankston (TX)",
-          "at": "2026-11-13T02:07+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -1678,16 +1615,7 @@
       "map_link": "https://goo.gl/maps/YbyGG1MnzX7iFpMZ6",
       "city": "Kaufman",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Norville Field, Kaufman",
-          "new": "their away playoff game @ Tom Bean (TX)",
-          "at": "2026-11-13T02:07+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -1887,16 +1815,7 @@
       "map_link": "https://goo.gl/maps/uL2MSfaBvwkSJvek7",
       "city": "Canyon",
       "date": "2026-11-12",
-      "time": "7:30 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Happy State Bank Stadium, Canyon",
-          "new": "their away playoff game @ Sudan (TX)",
-          "at": "2026-11-13T02:07+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:30 PM"
     },
     {
       "year": 2026,
@@ -1976,16 +1895,7 @@
       "map_link": "https://goo.gl/maps/WZAHSsNQwfW3dmpJ6",
       "city": "Iowa Park",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Hawk Stadium, Iowa Park",
-          "new": "their away playoff game @ Windthorst (TX)",
-          "at": "2026-11-13T02:07+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -2025,16 +1935,7 @@
       "map_link": "https://goo.gl/maps/qH9J1GHS28QjuZne7",
       "city": "Vernon",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Lion Stadium, Vernon",
-          "new": "their away playoff game @ Wheeler (TX)",
-          "at": "2026-11-13T02:08+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -2054,16 +1955,7 @@
       "map_link": "https://goo.gl/maps/hPtAqGbeGsbXFgSd8",
       "city": "Weatherford",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Kangaroo Stadium, Weatherford",
-          "new": "their away playoff game @ Albany (TX)",
-          "at": "2026-11-13T02:07+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -2083,16 +1975,7 @@
       "map_link": "https://goo.gl/maps/47JnPKukb5mzd3YG9",
       "city": "Springtown",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Porcupine Stadium, Springtown",
-          "new": "their away playoff game @ Mart (TX)",
-          "at": "2026-11-13T02:08+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -2132,16 +2015,7 @@
       "map_link": "https://goo.gl/maps/SnMek5KYTMWGGttj8",
       "city": "Dublin",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Cervetto Stadium, Dublin",
-          "new": "their away playoff game @ Santo (TX)",
-          "at": "2026-11-13T02:08+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -2181,16 +2055,7 @@
       "map_link": "https://goo.gl/maps/KJhdp6tmumPyTyDo8",
       "city": "Willis",
       "date": "2026-11-12",
-      "time": "7:30 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Willis ISD Willis HS",
-          "new": "their away playoff game @ Grapeland (TX)",
-          "at": "2026-11-13T02:08+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:30 PM"
     },
     {
       "year": 2026,
@@ -2330,16 +2195,7 @@
       "map_link": "https://goo.gl/maps/spmMc7ymYU8ZrwCw9",
       "city": "Pettus",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Beauchamp Stadium, Pettus",
-          "new": "their away playoff game @ Falls City (TX)",
-          "at": "2026-11-13T02:08+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -2359,16 +2215,7 @@
       "map_link": "https://goo.gl/maps/fSivQY3srfusAWv58",
       "city": "Seguin",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Matador Stadium, Seguin",
-          "new": "their away playoff game @ Harper (TX)",
-          "at": "2026-11-13T02:08+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -2426,16 +2273,7 @@
       "map_link": "https://goo.gl/maps/eqXmQDFkDoD28iJNA",
       "city": "Paris",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Wildcat Stadium, Paris",
-          "new": "their away playoff game @ Collinsville (TX)",
-          "at": "2026-11-13T02:08+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -2475,16 +2313,7 @@
       "map_link": "https://goo.gl/maps/5EnF8EYyc65VKw7G8",
       "city": "Blue Ridge",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Tiger Stadium, Blue Ridge",
-          "new": "their away playoff game @ Era (TX)",
-          "at": "2026-11-13T02:08+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -2504,16 +2333,7 @@
       "map_link": "https://goo.gl/maps/ZuUpavZ7hUGitbt57",
       "city": "Pattonville",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Patriot Stadium, Pattonville",
-          "new": "their away playoff game @ Lindsay (TX)",
-          "at": "2026-11-13T02:08+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -3033,16 +2853,7 @@
       "map_link": "https://goo.gl/maps/V5L21N25RUoxTeSX8",
       "city": "Mineola",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Meredith Memorial Stadium, Mineola",
-          "new": "their away playoff game @ Winnsboro (TX)",
-          "at": "2026-11-13T02:08+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -3062,16 +2873,7 @@
       "map_link": "https://goo.gl/maps/ZwesgiaqJ8b5bMgQ7",
       "city": "Tyler",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "TMF Rose Stadium, Tyler",
-          "new": "their away playoff game @ Malakoff (TX)",
-          "at": "2026-11-13T02:08+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -4021,16 +3823,7 @@
       "map_link": "https://goo.gl/maps/2xizkpWLXy9xkYWw9",
       "city": "Midland",
       "date": "2026-11-12",
-      "time": "6:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Astound Broadband Stadium, Midland",
-          "new": "their away playoff game @ West Plains (Amarillo, TX)",
-          "at": "2026-11-13T02:10+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "6:00 PM"
     },
     {
       "year": 2026,
@@ -4050,16 +3843,7 @@
       "map_link": "https://goo.gl/maps/ZoK3S1snEe41y7LW8",
       "city": "Sweetwater",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Mustang Bowl, Sweetwater",
-          "new": "their away playoff game @ Aubrey (TX)",
-          "at": "2026-11-13T02:10+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -4119,16 +3903,7 @@
       "map_link": "https://goo.gl/maps/X9dDD7rfzJiWBJKi6",
       "city": "Fort Worth",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Clark Stadium, Fort Worth",
-          "new": "their away playoff game @ Lincoln (Dallas, TX)",
-          "at": "2026-11-13T02:10+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -4508,16 +4283,7 @@
       "map_link": "https://goo.gl/maps/vD6WyxBQ71jJaVZ89",
       "city": "Fort Worth",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Crowley ISD Stadium, Fort Worth",
-          "new": "their away playoff game @ Glen Rose (TX)",
-          "at": "2026-11-13T02:11+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -4577,16 +4343,7 @@
       "map_link": "https://goo.gl/maps/c4kiZM1ofy1K7xnp9",
       "city": "Aledo",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Buchanan Stadium, Aledo",
-          "new": "their away playoff game @ Hillsboro (TX)",
-          "at": "2026-11-13T02:11+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -4726,16 +4483,7 @@
       "map_link": "https://goo.gl/maps/dJoKL6tqpt1DgXV18",
       "city": "Cedar Park",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Leander ISD Gupton Stadium",
-          "new": "their away playoff game @ Wimberley (TX)",
-          "at": "2026-11-13T02:11+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -4755,16 +4503,7 @@
       "map_link": "https://maps.app.goo.gl/LCaH64sxH9hZNfaf7",
       "city": "Pleasanton",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Pleasanton ISD Eagle Stadium",
-          "new": "their away playoff game @ Bandera (TX)",
-          "at": "2026-11-13T02:11+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -4784,16 +4523,7 @@
       "map_link": "https://goo.gl/maps/RHqLmQvdY72SEboc9",
       "city": "Beeville",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Beeville ISD Veterans Memorial Stadium",
-          "new": "their away playoff game @ Cuero (TX)",
-          "at": "2026-11-13T02:11+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -4893,16 +4623,7 @@
       "map_link": "https://goo.gl/maps/3Rqt1DNFnaghnLXe9",
       "city": "Farmersville",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Farmer Stadium, Farmersville",
-          "new": "their away playoff game @ Farmersville (TX)",
-          "at": "2026-11-13T02:11+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -4981,16 +4702,7 @@
       "map_link": "https://goo.gl/maps/vvEJARHWmKx9XVKS9",
       "city": "Pasadena",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Pasadena ISD Veterans Memorial Stadium",
-          "new": "their away playoff game @ Hitchcock (TX)",
-          "at": "2026-11-13T02:11+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -5330,16 +5042,7 @@
       "map_link": "https://goo.gl/maps/5QocV7MLgksqbhXx5",
       "city": "DeSoto",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Eagle Stadium, DeSoto",
-          "new": "their away playoff game @ DeSoto (TX)",
-          "at": "2026-11-13T02:12+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -5459,16 +5162,7 @@
       "map_link": "https://goo.gl/maps/J56PP7Nqx9DSZBCRA",
       "city": "El Paso",
       "date": "2026-11-12",
-      "time": "6:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Excalibur Stadium, El Paso",
-          "new": "their away playoff game @ Hanks (El Paso, TX)",
-          "at": "2026-11-13T02:11+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "6:00 PM"
     },
     {
       "year": 2026,
@@ -5588,16 +5282,7 @@
       "map_link": "https://goo.gl/maps/8C6DRCUx2nqaSJEu7",
       "city": "Fort Worth",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Bear Stadium, Fort Worth",
-          "new": "their away playoff game @ Brewer (Fort Worth, TX)",
-          "at": "2026-11-13T02:12+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -5644,16 +5329,7 @@
       "map_link": "https://goo.gl/maps/YuhAMeUQsk3juEEP6",
       "city": "La Porte",
       "date": "2026-11-12",
-      "time": "7:30 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "La Porte ISD Bulldog Stadium",
-          "new": "their away playoff game @ La Porte (TX)",
-          "at": "2026-11-13T02:12+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:30 PM"
     },
     {
       "year": 2026,
@@ -6507,16 +6183,7 @@
       "map_link": "https://goo.gl/maps/1GJHhtGG6iFqs6nK8",
       "city": "San Antonio",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Orem Stadium, Alamo Heights",
-          "new": "their away playoff game @ Alamo Heights (San Antonio, TX)",
-          "at": "2026-11-13T02:13+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -6791,16 +6458,7 @@
       "map_link": "https://goo.gl/maps/F6vHjvY4xeBeZCZs9",
       "city": "Allen",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Eagle Stadium, Allen",
-          "new": "their away playoff game @ Allen (TX)",
-          "at": "2026-11-13T02:13+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -6860,16 +6518,7 @@
       "map_link": "https://goo.gl/maps/ZT8RxzH2DPJiptsd9",
       "city": "Houston",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Galena Park ISD Stadium",
-          "new": "their away playoff game @ North Shore (Houston, TX)",
-          "at": "2026-11-13T02:14+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -7364,16 +7013,7 @@
       "map_link": "https://goo.gl/maps/jPbAspzdsyCWxmpP9",
       "city": "Pharr",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "PSJA Stadium, Pharr",
-          "new": "their away playoff game @ Pharr-San Juan-Alamo North (Pharr, TX)",
-          "at": "2026-11-13T02:15+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -7751,16 +7391,7 @@
       "lng": -95.76078,
       "city": "Richmond",
       "date": "2026-11-12",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Scherer Stadium, Richmond",
-          "new": "their away playoff game @ Fulshear (TX)",
-          "at": "2026-11-13T02:15+00:00",
-          "status": "conflict"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
