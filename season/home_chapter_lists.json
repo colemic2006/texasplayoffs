@@ -770,7 +770,10 @@
   "Bastrop": "Bastrop",
   "San Saba": "San Saba",
   "Killeen Ellison": "Killeen Ellison",
-  "Cherokee": "Cherokee"
+  "Cherokee": "Cherokee",
+  "Lago Vista": "Lago Vista",
+  "La Grange": "La Grange",
+  "Johnson City LBJ": "Johnson City LBJ"
  },
  "RGV": {
   "Brownsville Hanna": "Brownsville Hanna",
@@ -787,13 +790,11 @@
   "Harlingen": "Harlingen",
   "Harlingen South": "Harlingen South",
   "La Feria": "La Feria",
-  "La Grange": "La Grange",
   "La Joya": "La Joya",
   "La Joya Juarez-Lincoln": "La Joya Juarez-Lincoln",
   "La Joya Palmview": "La Joya Palmview",
   "La Vega": "La Vega",
   "La Villa": "La Villa",
-  "Lago Vista": "Lago Vista",
   "Laredo Alexander": "Laredo Alexander",
   "Laredo LBJ": "Laredo LBJ",
   "Laredo Martin": "Laredo Martin",
