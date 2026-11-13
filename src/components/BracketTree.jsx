@@ -20,8 +20,11 @@ export function buildBracket(games) {
   const counts = {}
   games.forEach(g => { counts[g.week] = (counts[g.week] || 0) + 1 })
   // first-round size: the largest the data implies (a later round of n games means 2^i n first-round games)
+  // weeks 1-5 are rounds 1-5; week 6 (the final) is round 5 for 1A (which skips week 5) and round 6 for
+  // everyone else, so it only sets the size when nothing earlier is known
   let size = 1
-  ;[1, 2, 3, 4, 5, 6].forEach((w, i) => { if (counts[w]) size = Math.max(size, counts[w] * 2 ** i) })
+  ;[1, 2, 3, 4, 5].forEach((w, i) => { if (counts[w]) size = Math.max(size, counts[w] * 2 ** i) })
+  if (size === 1 && counts[6]) size = 32
   const R = Math.round(Math.log2(size)) + 1
   // 1A (and old six-man) play their state final in week 6 after an open week 5
   const weeks = R >= 6 ? [1, 2, 3, 4, 5, 6] : [...Array(R - 1).keys()].map(i => i + 1).concat(6)
@@ -44,8 +47,23 @@ export function buildBracket(games) {
       })
     }
   } else {
-    // in progress: first round in source order, later rounds matched to the winners that feed them
-    byRound[0].forEach((g, k) => { if (k < slots[0].length) slots[0][k] = g })
+    // in progress: the source's first-round order isn't always bracket order, so arrange it from the
+    // later-round games already set: the two first-round blocks that feed a known game become siblings
+    const first = byRound[0].slice()
+    for (let r = 1; r < R; r++) {
+      const size = 2 ** (r - 1)   // first-round games per feeder block at this round
+      for (const g of byRound[r]) {
+        const blockOf = t => { const i = first.findIndex(x => has(x, t)); return i < 0 ? -1 : Math.floor(i / size) }
+        const a = blockOf(g.team1), b = blockOf(g.team2)
+        if (a < 0 || b < 0 || a === b || (a ^ 1) === b) continue
+        const s = a ^ 1   // swap block b into a's sibling place
+        for (let j = 0; j < size; j++) {
+          const x = s * size + j, y = b * size + j
+          ;[first[x], first[y]] = [first[y], first[x]]
+        }
+      }
+    }
+    first.forEach((g, k) => { if (k < slots[0].length) slots[0][k] = g })
     for (let r = 1; r < R; r++) {
       const used = new Set()
       slots[r].forEach((_, k) => {
