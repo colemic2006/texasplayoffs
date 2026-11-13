@@ -1,5 +1,5 @@
 {
- "total": 1302,
+ "total": 1301,
  "with_chapter": 1145,
  "current_year": 2026,
  "current_total": 704,
@@ -174,10 +174,6 @@
    "last_playoffs": 2024,
    "town": "Bynum",
    "county": "Hill"
-  },
-  {
-   "name": "Calvert (forfeit)",
-   "last_playoffs": 2024
   },
   {
    "name": "Campbell",

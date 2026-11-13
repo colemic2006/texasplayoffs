@@ -536,9 +536,10 @@
       "chapter": "AMA",
       "team1": "Richland Springs",
       "score1": null,
-      "team2": "Calvert (forfeit)",
+      "team2": "Calvert",
       "score2": null,
-      "winner": null
+      "winner": "Richland Springs",
+      "forfeit": true
     },
     {
       "year": 2024,
