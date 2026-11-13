@@ -53,5 +53,16 @@
   "new": "Katy Tompkins 36, Fort Bend Hightower 22",
   "at": "2026-11-13T04:51+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "Sudan",
+  "team2": "West Texas Stinnett",
+  "field": "score",
+  "old": "Sudan 21, West Texas Stinnett 32",
+  "new": "Sudan 27, West Texas Stinnett 26",
+  "at": "2026-11-13T15:19+00:00",
+  "status": "changed"
  }
 ]
