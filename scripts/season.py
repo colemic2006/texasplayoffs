@@ -228,6 +228,37 @@ def now_iso():
     return datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='minutes')
 
 
+def scores_path(year):
+    return ROOT / 'season' / str(year) / 'filled_scores.json'
+
+
+# scores the job itself wrote, per game ("cls|key1|key2" -> [score1, score2]): those follow the
+# source when it corrects them; a score typed in by hand is kept and flagged instead
+FILLED_SCORES = {}
+
+
+def score_text(r, s1, s2):
+    return f"{r['team1']} {s1}, {r['team2']} {s2}"
+
+
+def set_score(year, ws, r, s1, s2, source_label):
+    """Fill or correct a game's score from the source. Returns True when the workbook changed."""
+    key = f"{r['cls']}|{r['key1']}|{r['key2']}"
+    cur = (r['score1'], r['score2'])
+    if cur == (s1, s2):
+        FILLED_SCORES.setdefault(key, [s1, s2])
+        return False
+    if cur == (None, None) or FILLED_SCORES.get(key) == list(cur):
+        ws[f'{COL["score1"]}{r["row"]}'], ws[f'{COL["score2"]}{r["row"]}'] = s1, s2
+        r['score1'], r['score2'] = s1, s2
+        FILLED_SCORES[key] = [s1, s2]
+        print(f'  {"score from" if cur == (None, None) else "score corrected by"} {source_label}: {score_text(r, s1, s2)}')
+        return True
+    game = dict(classification=r['cls'], week=r['week'], team1=r['team1'], team2=r['team2'])
+    note_conflict(year, game, 'score', score_text(r, *cur), score_text(r, s1, s2))
+    return False
+
+
 def note_conflict(year, game, field, shown, source):
     """The source (MaxPreps / UIL) now lists a different value than one the owner set by hand."""
     changes = load_changes(year)
@@ -273,6 +304,11 @@ def fill_sites(year, ws, placed):
         seen = cards.get(key, {})
         recent = seen.get('read') and (now - datetime.datetime.fromisoformat(seen['read'])).total_seconds() < 12 * 60   # the job runs every 15 minutes
         played = r.get('score1') is not None and r.get('score2') is not None
+        if played and r.get('date'):
+            try:   # keep reading a finished game's card for 3 days, to catch corrected scores
+                played = (datetime.date.today() - datetime.date.fromisoformat(str(r['date'])[:10])).days > 3
+            except ValueError:
+                pass
         # games not yet played are read again on every run, so a moved date, kickoff or site
         # is caught within 15 minutes (a complete card used to be read only once)
         if seen.get('read') and (recent or played):
@@ -290,12 +326,10 @@ def fill_sites(year, ws, placed):
         # final score from the card ("... won Thursday's home playoff game against X by a score of 35-14"),
         # for when the bracket page hasn't posted it yet; only fills an empty score
         fin = card_score(info.get('description', ''), g)
-        if fin and r['score1'] is None and r['score2'] is None:
+        if fin:
             s1, s2 = fin if r['key1'] == g['key1'] else fin[::-1]
-            ws[f'{COL["score1"]}{r["row"]}'], ws[f'{COL["score2"]}{r["row"]}'] = s1, s2
-            r['score1'], r['score2'] = s1, s2
-            filled += 1
-            print(f'  final from card: {r["team1"]} {s1}, {r["team2"]} {s2}')
+            if set_score(year, ws, r, s1, s2, 'MaxPreps card'):
+                filled += 1
         site = game_sites.clean_site(info.get('site'))
         prev_site = game_sites.clean_site(seen.get('site'))
         game = dict(classification=r['cls'], week=r['week'], team1=r['team1'], team2=r['team2'])
@@ -391,6 +425,9 @@ def prefill(year):
     if not ws['Q1'].value:
         ws['Q1'] = 'Time'; ws.column_dimensions['Q'].width = 10
     resolver = Resolver(ROOT, year)
+    FILLED_SCORES.clear()
+    if scores_path(year).exists():
+        FILLED_SCORES.update(json.loads(scores_path(year).read_text()))
     answered = take_answers(wb, resolver)
     rows = read_rows(ws)
     fetched = {}
@@ -485,13 +522,13 @@ def prefill(year):
             s1, s2 = (g['score1'], g['score2']) if straight else (g['score2'], g['score1'])
             if s1 is None:
                 continue
-            if r['score1'] is None and r['score2'] is None:
-                ws[f'{COL["score1"]}{r["row"]}'], ws[f'{COL["score2"]}{r["row"]}'] = s1, s2
-                r['score1'], r['score2'] = s1, s2
+            before = (r['score1'], r['score2'])
+            if set_score(year, ws, r, s1, s2, 'bracket'):
                 updated += 1
-            elif (r['score1'], r['score2']) != (s1, s2):
-                conflicts.append(f'row {r["row"]} {cls} wk{g["week"]}: workbook {r["team1"]} {r["score1"]}-{r["score2"]} {r["team2"]}, UIL {s1}-{s2}')
+            elif before != (s1, s2):
+                conflicts.append(f'row {r["row"]} {cls} wk{g["week"]}: workbook {r["team1"]} {before[0]}-{before[1]} {r["team2"]}, UIL {s1}-{s2}')
     sited = fill_sites(year, ws, placed)
+    scores_path(year).write_text(json.dumps(FILLED_SCORES, indent=1, sort_keys=True) + '\n')
     if added or updated or renamed or answered or sited or review != old_review:
         write_review(wb, year, review)
         wb.calculation.fullCalcOnLoad = True
@@ -522,14 +559,23 @@ def log_changes(year, games):
         old = before.get(game_key(g))
         if not old:
             continue
+        if old.get('score1') is not None and (old['score1'], old['score2']) != (g['score1'], g['score2']):
+            # same team order as before (game_key ignores order)
+            o1, o2 = (old['score1'], old['score2']) if old['team1'] == g['team1'] else (old['score2'], old['score1'])
+            changes.append(dict(classification=g['classification'], week=g['week'], team1=g['team1'], team2=g['team2'],
+                                field='score', old=f"{g['team1']} {o1}, {g['team2']} {o2}",
+                                new=f"{g['team1']} {g['score1']}, {g['team2']} {g['score2']}" if g['score1'] is not None else '',
+                                at=stamp, status='changed'))
+            print(f'  * {g["team1"]} v {g["team2"]}: score {o1}-{o2} -> {g["score1"]}-{g["score2"]}')
         for f in CHANGE_FIELDS:
             if old.get(f) and norm(old.get(f)) != norm(g.get(f)):
                 changes.append(dict(classification=g['classification'], week=g['week'], team1=g['team1'], team2=g['team2'],
                                     field=f, old=old.get(f), new=g.get(f) or '', at=stamp, status='changed'))
                 print(f'  * {g["team1"]} v {g["team2"]}: {f} {old.get(f)!r} -> {g.get(f)!r}')
     # a hand-set value that now matches the source is no longer a conflict
+    shown = lambda g, f: f"{g['team1']} {g['score1']}, {g['team2']} {g['score2']}" if f == 'score' else g.get(f)
     changes = [c for c in changes if not (c.get('status') == 'conflict' and any(
-        game_key(c) == game_key(g) and norm(g.get(c['field'])) == norm(c['new']) for g in games))]
+        game_key(c) == game_key(g) and norm(shown(g, c['field'])) == norm(c['new']) for g in games))]
     save_changes(year, changes)
     cutoff = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=CHANGE_DAYS)
     by_game = {}
@@ -538,7 +584,10 @@ def log_changes(year, games):
             by_game.setdefault(game_key(c), []).append({k: c[k] for k in ('field', 'old', 'new', 'at', 'status')})
     for g in games:
         recent = by_game.get(game_key(g))
-        if recent and g['score1'] is None:
+        # schedule changes matter until the game is played; score corrections stay up for the full window
+        if recent and g['score1'] is not None:
+            recent = [c for c in recent if c['field'] == 'score']
+        if recent:
             g['changes'] = recent
 
 

@@ -3,7 +3,7 @@ import React from 'react'
 // Recent changes to a game's date, kickoff or site, from scripts/season.py (game.changes)
 export const ALERT = '#c62828'
 export const ALERT_BG = 'rgba(198,40,40,0.07)'
-const LABEL = { date: 'Date', time: 'Kickoff', site: 'Site' }
+const LABEL = { date: 'Date', time: 'Kickoff', site: 'Site', score: 'Score' }
 const fmtDate = v => /^\d{4}-\d\d-\d\d/.test(v || '') ? `${v.slice(5, 7)}/${v.slice(8, 10)}` : v
 export const fmtValue = (field, v) => !v ? '(none)' : field === 'date' ? fmtDate(v) : v
 export const fmtWhen = at => new Date(at).toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'America/Chicago' }) + ' CT'
