@@ -163,5 +163,27 @@
   "new": "Lorena 52, Sweeny 10",
   "at": "2026-11-14T14:56+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "Roscoe",
+  "team2": "Eldorado",
+  "field": "score",
+  "old": "Roscoe 52, Eldorado 14",
+  "new": "Roscoe 45, Eldorado 14",
+  "at": "2026-11-14T16:29+00:00",
+  "status": "changed"
+ },
+ {
+  "classification": "3A D1",
+  "week": 1,
+  "team1": "Edna",
+  "team2": "Cameron Yoe",
+  "field": "score",
+  "old": "Edna 7, Cameron Yoe 14",
+  "new": "Edna 28, Cameron Yoe 35",
+  "at": "2026-11-14T16:29+00:00",
+  "status": "changed"
  }
 ]
