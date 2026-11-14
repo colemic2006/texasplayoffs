@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-14T06:01+00:00",
+    "updated": "2026-11-14T06:14+00:00",
     "games": 517,
-    "played": 343,
+    "played": 342,
     "assigned": 352,
     "weeks": {
       "1": {
@@ -7731,10 +7731,10 @@
       "round": "Area",
       "chapter": null,
       "team1": "Axtell",
-      "score1": 48,
+      "score1": null,
       "team2": "De Leon",
-      "score2": 8,
-      "winner": "Axtell"
+      "score2": null,
+      "winner": null
     },
     {
       "year": 2026,

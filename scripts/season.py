@@ -273,16 +273,21 @@ def note_conflict(year, game, field, shown, source):
 
 def card_score(desc, g):
     """(team1 score, team2 score) in the source game's order, from a final card's description, or None."""
-    m = re.search(r'^The (.+?) varsity football team (won|lost|tied)\b.*?\bby a score of (\d+)\s*-\s*(\d+)', desc or '')
+    m = re.search(r'^The (.+?) varsity football team (won|lost|tied)\b.*?\bagainst (.+?) by a score of (\d+)\s*-\s*(\d+)', desc or '')
     if not m:
         return None
-    subject = re.sub(r'\s*\(.*?\)', '', m.group(1)).strip()
-    a, b = int(m.group(3)), int(m.group(4))
+    clean = lambda s: re.sub(r'\s*\(.*?\)', '', s).strip()
+    subject, opponent = clean(m.group(1)), clean(m.group(3))
+    a, b = int(m.group(4)), int(m.group(5))
     mine, theirs = (max(a, b), min(a, b)) if m.group(2) == 'won' else (min(a, b), max(a, b)) if m.group(2) == 'lost' else (a, b)
-    s1 = sim(subject, re.sub(r'\s*\(.*?\)', '', g['team1']))
-    s2 = sim(subject, re.sub(r'\s*\(.*?\)', '', g['team2']))
+    t1, t2 = clean(g['team1']), clean(g['team2'])
+    s1, s2 = sim(subject, t1), sim(subject, t2)
     if max(s1, s2) < 0.8 or s1 == s2:
         return None   # can't tell whose score is whose: leave it for the bracket page
+    # until a new game is played, MaxPreps' card for it still describes the team's last game:
+    # the opponent must be this game's other team, or the score is from a different game
+    if sim(opponent, t2 if s1 > s2 else t1) < 0.8:
+        return None
     return (mine, theirs) if s1 > s2 else (theirs, mine)
 
 
