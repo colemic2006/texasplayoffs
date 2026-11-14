@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-14T19:32+00:00",
+    "updated": "2026-11-14T19:45+00:00",
     "games": 524,
     "played": 348,
     "assigned": 356,
@@ -7762,7 +7762,9 @@
       "score1": null,
       "team2": "De Leon",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9716,7 +9718,15 @@
       "score1": null,
       "team2": "Edinburg Vela",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Richard Flores Stadium Edinburg, Texas",
+      "lat": 26.28298,
+      "lng": -98.1624,
+      "stadium": "Richard R. Flores Stadium",
+      "map_link": "https://goo.gl/maps/PurYScT9spqv4hrq5",
+      "city": "Edinburg",
+      "date": "2026-11-14",
+      "time": "3:00 PM"
     },
     {
       "year": 2026,

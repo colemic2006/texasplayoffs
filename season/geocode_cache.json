@@ -4413,6 +4413,19 @@
   "stadium": "Richard R. Flores Stadium",
   "stadium_id": 911
  },
+ "Richard Flores Stadium Edinburg, Texas || San Antonio Sotomayor v Edinburg Vela": {
+  "address": "1800 S Stadium Dr, Edinburg, Texas 78539",
+  "city": "Edinburg",
+  "how": "stadium (map link)",
+  "lat": 26.28298,
+  "link_tried": true,
+  "lng": -98.1624,
+  "map_link": "https://goo.gl/maps/PurYScT9spqv4hrq5",
+  "rules": 10,
+  "site": "Richard Flores Stadium Edinburg, Texas",
+  "stadium": "Richard R. Flores Stadium",
+  "stadium_id": 911
+ },
  "Richard Flores Stadium Edinburg, Texas || Vela v Brownsville Veterans Memorial": {
   "address": "1800 S Stadium Dr, Edinburg, Texas 78539",
   "city": "Edinburg",
