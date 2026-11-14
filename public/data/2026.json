@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-14T05:43+00:00",
-    "games": 513,
-    "played": 338,
+    "updated": "2026-11-14T06:01+00:00",
+    "games": 517,
+    "played": 343,
     "assigned": 352,
     "weeks": {
       "1": {
@@ -12,7 +12,7 @@
         "assigned": 352
       },
       "2": {
-        "games": 161,
+        "games": 165,
         "assigned": 0
       },
       "3": {
@@ -668,10 +668,10 @@
       "round": "Bi-District",
       "chapter": "DAL",
       "team1": "Campbell",
-      "score1": null,
+      "score1": 54,
       "team2": "Bluff Dale",
-      "score2": null,
-      "winner": null,
+      "score2": 58,
+      "winner": "Bluff Dale",
       "site": "Coolidge High School",
       "lat": 31.7485,
       "lng": -96.65583,
@@ -4655,10 +4655,10 @@
       "round": "Bi-District",
       "chapter": "HOU",
       "team1": "La Marque",
-      "score1": null,
+      "score1": 55,
       "team2": "Houston North Forest",
-      "score2": null,
-      "winner": null,
+      "score2": 21,
+      "winner": "La Marque",
       "site": "Pasadena ISD Veterans Memorial Stadium",
       "lat": 29.66765,
       "lng": -95.18413,
@@ -4746,16 +4746,7 @@
       "map_link": "https://goo.gl/maps/2yHJacDAySN1G75e7",
       "city": "El Paso",
       "date": "2026-11-13",
-      "time": "6:30 PM",
-      "changes": [
-        {
-          "field": "score",
-          "old": "El Paso Irvin 7, Pecos 52",
-          "new": "El Paso Irvin 14, Pecos 52",
-          "at": "2026-11-14T05:30+00:00",
-          "status": "changed"
-        }
-      ]
+      "time": "6:30 PM"
     },
     {
       "year": 2026,
@@ -4884,10 +4875,10 @@
       "round": "Bi-District",
       "chapter": "SPC",
       "team1": "Clint Mountain View",
-      "score1": null,
+      "score1": 20,
       "team2": "Big Spring",
-      "score2": null,
-      "winner": null,
+      "score2": 28,
+      "winner": "Big Spring",
       "site": "Mountain View HS, Football Field",
       "lat": 31.79748,
       "lng": -106.15839,
@@ -5442,10 +5433,10 @@
       "round": "Bi-District",
       "chapter": "HOU",
       "team1": "Corpus Christi Carroll",
-      "score1": null,
+      "score1": 48,
       "team2": "La Joya Palmview",
-      "score2": null,
-      "winner": null,
+      "score2": 17,
+      "winner": "Corpus Christi Carroll",
       "site": "Corpus Christi ISD Cabaniss Field",
       "lat": 27.86671,
       "lng": -97.65954,
@@ -5898,10 +5889,10 @@
       "round": "Bi-District",
       "chapter": "SAT",
       "team1": "Brenham",
-      "score1": null,
+      "score1": 51,
       "team2": "Seguin",
-      "score2": null,
-      "winner": null,
+      "score2": 13,
+      "winner": "Brenham",
       "site": "Brenham Cub Stadium",
       "lat": 30.15912,
       "lng": -96.37902,
@@ -8725,6 +8716,30 @@
     },
     {
       "year": 2026,
+      "classification": "4A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Brock",
+      "score1": null,
+      "team2": "Big Spring",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "4A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Canton",
+      "score1": null,
+      "team2": "La Marque",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
       "classification": "5A D1",
       "week": 2,
       "round": "Area",
@@ -8905,6 +8920,18 @@
     },
     {
       "year": 2026,
+      "classification": "5A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Medina Valley",
+      "score1": null,
+      "team2": "Corpus Christi Carroll",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
       "classification": "5A D2",
       "week": 2,
       "round": "Area",
@@ -9045,6 +9072,18 @@
       "team1": "Bastrop",
       "score1": null,
       "team2": "Huntsville",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "5A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Brenham",
+      "score1": null,
+      "team2": "Hallsville",
       "score2": null,
       "winner": null
     },
