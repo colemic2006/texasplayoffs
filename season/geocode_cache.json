@@ -2746,6 +2746,19 @@
   "stadium": null,
   "stadium_id": null
  },
+ "Joy & Ralph Ellis Stadium - Irving || North Forney v North Crowley": {
+  "address": "600 E. 6th Street, Irving, Texas 75060",
+  "city": "Irving",
+  "how": "stadium (map link)",
+  "lat": 32.80768,
+  "link_tried": true,
+  "lng": -96.93759,
+  "map_link": "https://goo.gl/maps/QLFBhBUBoXdQ5CT36",
+  "rules": 10,
+  "site": "Joy & Ralph Ellis Stadium - Irving",
+  "stadium": "Joy & Ralph Ellis Stadium",
+  "stadium_id": 263
+ },
  "Kangaroo Stadium, Weatherford || Crawford v Albany": {
   "address": "1007 S. Main St, Weatherford, Texas 76086",
   "city": "Weatherford",

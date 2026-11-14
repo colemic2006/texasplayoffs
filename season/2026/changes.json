@@ -141,5 +141,16 @@
   "new": "Houston Memorial 35, Manvel 28",
   "at": "2026-11-14T07:57+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "6A D2",
+  "week": 2,
+  "team1": "North Forney",
+  "team2": "North Crowley",
+  "field": "site",
+  "old": "Ellis Stadium - Irving, Tx",
+  "new": "Joy & Ralph Ellis Stadium - Irving",
+  "at": "2026-11-14T12:39+00:00",
+  "status": "changed"
  }
 ]
