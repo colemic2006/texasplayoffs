@@ -4,14 +4,14 @@
   "description": "The Grady (Lenorah, TX) varsity football team lost Friday's away playoff game against Borden County (Gail, TX) by a score of 48-0.",
   "filled_date": "2026-11-13",
   "filled_time": "6:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "1A D1|mp:068d65cb-4c19-4ee5-83ca-2fa774f7f265|mp:e83682d5-5a10-4a06-8223-ff5aea3a02f4": {
   "date": "2026-11-19",
   "description": "The Borden County (Gail, TX) varsity football team has a neutral playoff game vs. Water Valley (TX) , but the date has not been set.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -20,7 +20,7 @@
   "description": "The Newcastle (TX) varsity football team is at their away playoff game @ May (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "their away playoff game @ May (TX)",
   "time": ""
  },
@@ -29,7 +29,7 @@
   "description": "The Nazareth (TX) varsity football team is at their away playoff game @ Boys Ranch (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Groom High School",
   "time": ""
  },
@@ -38,7 +38,7 @@
   "description": "The Saint Jo (TX) varsity football team lost Thursday's neutral playoff game against Milford (TX) by a score of 70-22.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details at Willow Park Trinity",
   "time": ""
  },
@@ -47,7 +47,7 @@
   "description": "The Knippa (TX) varsity football team lost Friday's away playoff game against Oglesby (TX) by a score of 54-8.",
   "filled_date": "2026-11-13",
   "filled_time": "6:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -56,8 +56,15 @@
   "description": "The Kress (TX) varsity football team lost Friday's away playoff game against Jayton (TX) by a score of 75-6.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Jayton High School",
+  "time": ""
+ },
+ "1A D1|mp:5d2ce3f8-cd9f-4275-912d-561cae36cb21|mp:e60c8651-12a5-4b16-8235-b21ea66c2811": {
+  "date": "2026-11-19",
+  "description": "The Whiteface (TX) varsity football team has a neutral playoff game vs. Jayton (TX) , but the date has not been set.",
+  "read": "2026-11-14T04:00:44+00:00",
+  "site": "",
   "time": ""
  },
  "1A D1|mp:60473937-8b7a-4c34-babe-fc5e7b37723e|mp:04857524-c682-4788-83db-e31b4bbd0ac7": {
@@ -65,8 +72,15 @@
   "description": "The Bluff Dale (TX) varsity football team is at their neutral playoff game vs. Campbell (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Coolidge High School",
+  "time": ""
+ },
+ "1A D1|mp:6f544e3b-584a-456d-a095-0e5082d8252b|mp:2fbcd826-bbc2-4064-9abe-04b8fc03815b": {
+  "date": "2026-11-19",
+  "description": "The Union Hill (Gilmer, TX) varsity football team has a neutral playoff game vs. Oglesby (TX) , but the date has not been set.",
+  "read": "2026-11-14T04:00:44+00:00",
+  "site": "",
   "time": ""
  },
  "1A D1|mp:6f544e3b-584a-456d-a095-0e5082d8252b|mp:9d704db1-711d-4573-8fca-8f0819a4b118": {
@@ -74,7 +88,7 @@
   "description": "The Abbott (TX) varsity football team lost Friday's away playoff game against Union Hill (Gilmer, TX) by a score of 80-30.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Eustace High School",
   "time": ""
  },
@@ -83,7 +97,7 @@
   "description": "The Aquilla (TX) varsity football team is at their away playoff game @ Chester (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Game will be played in Grapeland, Aquilla is home",
   "time": ""
  },
@@ -92,14 +106,14 @@
   "description": "The Gordon (TX) varsity football team won Thursday's away playoff game against Northside (Vernon, TX) by a score of 90-48.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Throckmorton High School",
   "time": ""
  },
  "1A D1|mp:b967a52c-3b6b-46e1-84e2-f0b5e9451110|mp:d1cadbbc-1d62-41ce-9b61-f5bc11471c2c": {
   "date": "2026-11-19",
   "description": "The Rankin (TX) varsity football team has a neutral playoff game vs. Menard (TX) , but the date has not been set.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -108,7 +122,7 @@
   "description": "The Highland (Roscoe, TX) varsity football team lost Thursday's away playoff game against Menard (TX) by a score of 64-8.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -117,7 +131,7 @@
   "description": "The Jonesboro (TX) varsity football team lost Thursday's neutral playoff game against Medina (TX) by a score of 60-14.",
   "filled_date": "2026-11-12",
   "filled_time": "6:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Faith Academy Marble Falls",
   "time": ""
  },
@@ -126,7 +140,7 @@
   "description": "The Klondike (Lamesa, TX) varsity football team lost Thursday's away playoff game against Rankin (TX) by a score of 87-79.",
   "filled_date": "2026-11-12",
   "filled_time": "6:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Grady High School",
   "time": ""
  },
@@ -135,7 +149,7 @@
   "description": "The Whiteface (TX) varsity football team won Friday's away playoff game against Claude (TX) by a score of 57-12.",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -144,7 +158,7 @@
   "description": "The Water Valley (TX) varsity football team won Thursday's away playoff game against Robert Lee (TX) by a score of 98-50.",
   "filled_date": "2026-11-12",
   "filled_time": "6:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Sterling City High School",
   "time": ""
  },
@@ -153,7 +167,7 @@
   "description": "The Hermleigh (TX) varsity football team won Friday's away playoff game against Happy (TX) by a score of 64-16.",
   "filled_date": "2026-11-13",
   "filled_time": "6:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Petersburg High School",
   "time": ""
  },
@@ -162,7 +176,7 @@
   "description": "The McLean (TX) varsity football team lost Friday's away playoff game against Valley (Turkey, TX) by a score of 72-60.",
   "filled_date": "2026-11-13",
   "filled_time": "6:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Memphis High School",
   "time": ""
  },
@@ -171,7 +185,7 @@
   "description": "The Fannindel (Ladonia, TX) varsity football team won Friday's neutral playoff game against Three Way (Stephenville, TX) by a score of 61-59.",
   "filled_date": "2026-11-13",
   "filled_time": "5:30 AM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -180,8 +194,15 @@
   "description": "The Anton (TX) varsity football team lost Friday's away playoff game against Wellman-Union (Wellman, TX) by a score of 70-22.",
   "filled_date": "2026-11-13",
   "filled_time": "6:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Sudan High School",
+  "time": ""
+ },
+ "1A D2|mp:51bf7cea-2364-4344-889f-b351cf63729e|mp:da522797-d957-4715-a0a0-1427021e01d2": {
+  "date": "2026-11-19",
+  "description": "The Wellman-Union (Wellman, TX) varsity football team has a neutral playoff game vs. Motley County (Matador, TX) , but the date has not been set.",
+  "read": "2026-11-14T04:00:44+00:00",
+  "site": "",
   "time": ""
  },
  "1A D2|mp:53a797b5-cb67-4c4b-ba9b-5b5fa42f0dc9|mp:3948d4f8-8b2e-4270-a7f9-71f119522246": {
@@ -189,21 +210,21 @@
   "description": "The Mount Calm (TX) varsity football team won Friday's neutral playoff game against Iredell (TX) by a score of 64-14.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Oglesby ISD",
   "time": ""
  },
  "1A D2|mp:5c18d170-d4b9-4c19-b799-06a6d44d1e3a|mp:86877c0e-f2da-4633-9045-b2af0cfd6317": {
   "date": "2026-11-19",
   "description": "The Blackwell (TX) varsity football team has a neutral playoff game vs. Rocksprings (TX) , but the date has not been set.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "1A D2|mp:637a439c-0e5e-479d-bb4a-4f0ce05574a0|mp:9a96c998-408e-4cb9-99a3-1ad813b37778": {
   "date": "2026-11-19",
   "description": "The Harrold (TX) varsity football team has a neutral playoff game vs. Zephyr (TX) , but the date has not been set.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -212,8 +233,15 @@
   "description": "The Sidney (TX) varsity football team lost Thursday's neutral playoff game against Zephyr (TX) by a score of 48-42.",
   "filled_date": "2026-11-12",
   "filled_time": "7:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Blanket High School",
+  "time": ""
+ },
+ "1A D2|mp:838c10d3-c2ca-489e-8197-d0e993ac6adc|mp:88045c1b-6dac-4bcc-b706-36bcef4aafc7": {
+  "date": "2026-11-19",
+  "description": "The Meadow (TX) varsity football team has a neutral playoff game vs. Valley (Turkey, TX) , but the date has not been set.",
+  "read": "2026-11-14T04:00:44+00:00",
+  "site": "",
   "time": ""
  },
  "1A D2|mp:841e00cf-e2fc-4127-9312-9debe500afb5|mp:5c18d170-d4b9-4c19-b799-06a6d44d1e3a": {
@@ -221,7 +249,7 @@
   "description": "The Marfa (TX) varsity football team lost Thursday's away playoff game against Rocksprings (TX) by a score of 40-0.",
   "filled_date": "2026-11-12",
   "filled_time": "6:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Balmorhea High School",
   "time": ""
  },
@@ -230,7 +258,7 @@
   "description": "The Cherokee (TX) varsity football team lost Friday's away playoff game against Blackwell (TX) by a score of 66-54.",
   "filled_date": "2026-11-13",
   "filled_time": "6:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Menard High School",
   "time": ""
  },
@@ -239,7 +267,7 @@
   "description": "The Dell City (TX) varsity football team lost Thursday's away playoff game against Grandfalls-Royalty (Grandfalls, TX) by a score of 71-13.",
   "filled_date": "2026-11-12",
   "filled_time": "7:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Balmorhea High School",
   "time": ""
  },
@@ -248,7 +276,7 @@
   "description": "The Benjamin (TX) varsity football team lost Thursday's neutral playoff game against Harrold (TX) by a score of 52-6.",
   "filled_date": "2026-11-12",
   "filled_time": "7:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details at Crowell",
   "time": ""
  },
@@ -257,7 +285,7 @@
   "description": "The Gustine (TX) varsity football team lost Thursday's away playoff game against Strawn (TX) by a score of 71-22.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details at Rising Star",
   "time": ""
  },
@@ -266,7 +294,7 @@
   "description": "The Benavides (TX) varsity football team has a neutral playoff game vs. Apple Springs (TX) on Saturday, November 14 @ 2p.",
   "filled_date": "2026-11-14",
   "filled_time": "2:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details at San Marcos Academy",
   "time": "2:00 PM"
  },
@@ -275,14 +303,14 @@
   "description": "The Richland Springs (TX) varsity football team is at their away playoff game @ Panther Creek (Valera, TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Panther Creek High School",
   "time": ""
  },
  "1A D2|mp:c3c29859-7a60-41bb-99d6-53d2ca30c52e|mp:9f85316d-4fc6-47a2-b4e4-5454559a8df5": {
   "date": "2026-11-19",
   "description": "The Strawn (TX) varsity football team has a neutral playoff game vs. Knox City (TX) , but the date has not been set.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -291,7 +319,7 @@
   "description": "The Knox City (TX) varsity football team won Thursday's away playoff game against Woodson (TX) by a score of 76-28.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Newcastle High School",
   "time": ""
  },
@@ -300,7 +328,7 @@
   "description": "The Hart (TX) varsity football team lost Friday's away playoff game against Meadow (TX) by a score of 77-22.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Springlake-Earth HS",
   "time": ""
  },
@@ -309,14 +337,14 @@
   "description": "The Lefors (TX) varsity football team lost Friday's neutral playoff game against Motley County (Matador, TX) by a score of 72-0.",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details at Silverton",
   "time": ""
  },
  "1A D2|mp:e78a3153-f17c-481e-b660-64569808eb00|mp:53a797b5-cb67-4c4b-ba9b-5b5fa42f0dc9": {
   "date": "2026-11-19",
   "description": "The Mount Calm (TX) varsity football team has a neutral playoff game vs. Runge (TX) , but the date has not been set.",
-  "read": "2026-11-14T03:40:17+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -325,7 +353,7 @@
   "description": "The Calvert (TX) varsity football team lost Thursday's neutral playoff game against Runge (TX) by a score of 68-19.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Game will played at Luling ISD",
   "time": ""
  },
@@ -334,7 +362,7 @@
   "description": "The Whitewright (TX) varsity football team lost Thursday's away playoff game against Frankston (TX) by a score of 67-46.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -343,15 +371,29 @@
   "description": "The Groveton (TX) varsity football team lost Thursday's neutral playoff game against Thorndale (TX) by a score of 42-15.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Merrill Green Stadium",
+  "time": ""
+ },
+ "2A D1|mp:09f60ef6-9882-474d-ae92-1bd6f2a61f80|mp:87e755bf-0cb6-4bf4-9ae2-4a8314fe1d49": {
+  "date": "2026-11-19",
+  "description": "The Weimar (TX) varsity football team has a neutral playoff game vs. Thorndale (TX) , but the date has not been set.",
+  "read": "2026-11-14T04:00:44+00:00",
+  "site": "",
   "time": ""
  },
  "2A D1|mp:0e55ebfd-a813-40c2-a762-91d3ef72bcef|mp:66af101a-1af3-42ad-9699-f1b77a195936": {
   "date": "",
   "description": "The Granger (TX) varsity football team lost Thursday's away playoff game against Lovelady (TX) by a score of 50-20.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details College Station HS",
+  "time": ""
+ },
+ "2A D1|mp:1e606bbf-350a-4c9f-ac09-d50b3ff6ed6d|mp:926cbc9b-72c1-42db-b226-7aa3389f3646": {
+  "date": "2026-11-19",
+  "description": "The New Deal (TX) varsity football team has a neutral playoff game vs. Spearman (TX) , but the date has not been set.",
+  "read": "2026-11-14T04:00:44+00:00",
+  "site": "",
   "time": ""
  },
  "2A D1|mp:20441c1b-3153-4e90-931f-500acce4cba6|mp:cf302cba-6f95-4ce2-8649-78009fd6f1fc": {
@@ -359,7 +401,7 @@
   "description": "The Como-Pickton (Como, TX) varsity football team lost Thursday's away playoff game against Cooper (TX) by a score of 28-21.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Sulphur Springs HS",
   "time": ""
  },
@@ -368,7 +410,14 @@
   "description": "The Hawley (TX) varsity football team lost Thursday's away playoff game against Muenster (TX) by a score of 48-40.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
+  "site": "",
+  "time": ""
+ },
+ "2A D1|mp:2487eec4-5724-4ec0-99cf-f73651526a5c|mp:4bdf577a-b848-4f6f-a923-6183006ba0a9": {
+  "date": "2026-11-19",
+  "description": "The San Saba (TX) varsity football team has a neutral playoff game vs. Muenster (TX) , but the date has not been set.",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -377,7 +426,7 @@
   "description": "The Refugio (TX) varsity football team lost Friday's neutral playoff game against Weimar (TX) by a score of 22-16.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Cuero HS",
   "time": ""
  },
@@ -386,21 +435,21 @@
   "description": "The Alvord (TX) varsity football team is at their away playoff game @ De Leon (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "their away playoff game @ De Leon (TX)",
   "time": ""
  },
  "2A D1|mp:451d5a5b-0ba5-4acd-83ba-f021e670d506|mp:5bc17844-9349-424f-8530-5947c8a6f2ea": {
   "date": "2026-11-19",
   "description": "The Leon (Jewett, TX) varsity football team has a neutral playoff game vs. Ganado (TX) , but the date has not been set.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "2A D1|mp:451d5a5b-0ba5-4acd-83ba-f021e670d506|mp:bf3dcf75-6f0a-4820-b636-7440ffc95efc": {
   "date": "",
   "description": "The Bruceville-Eddy (Eddy, TX) varsity football team lost Thursday's away playoff game against Leon (Jewett, TX) by a score of 41-13.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -409,8 +458,15 @@
   "description": "The Honey Grove (TX) varsity football team lost Thursday's away playoff game against Carlisle (Price, TX) by a score of 35-19.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Indian Memorial Stadium, Grand Saline High School",
+  "time": ""
+ },
+ "2A D1|mp:453ef2ca-ddb3-427d-adc1-817dea2f481e|mp:d9b92df6-487b-4512-863b-b123185ec0ac": {
+  "date": "2026-11-19",
+  "description": "The Beckville (TX) varsity football team has a neutral playoff game vs. Carlisle (Price, TX) , but the date has not been set.",
+  "read": "2026-11-14T04:00:44+00:00",
+  "site": "",
   "time": ""
  },
  "2A D1|mp:471f1af1-ee30-4b8e-b183-fe69c44e4be6|mp:d67b0711-6650-44c9-bb1c-067b1a9104fe": {
@@ -418,7 +474,7 @@
   "description": "The Johnson City (TX) varsity football team won Friday's away playoff game against Bosqueville (Waco, TX) by a score of 49-21.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -427,14 +483,14 @@
   "description": "The Valley Mills (TX) varsity football team lost Friday's away playoff game against San Saba (TX) by a score of 25-7.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "2A D1|mp:52eeeaf7-937f-4665-8abd-91d1e3e42a4e|mp:91af814f-09d3-4fca-b9be-46c11475f862": {
   "date": "2026-11-19",
   "description": "The Ozona (TX) varsity football team has a neutral playoff game vs. Olton (TX) , but the date has not been set.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -443,7 +499,7 @@
   "description": "The Bangs (TX) varsity football team lost Thursday's away playoff game against Axtell (TX) by a score of 48-8.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -452,7 +508,7 @@
   "description": "The Taft (TX) varsity football team lost Thursday's away playoff game against Ganado (TX) by a score of 63-7.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -461,7 +517,7 @@
   "description": "The New Home (TX) varsity football team lost Friday's away playoff game against Ballinger (TX) by a score of 30-20.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -470,7 +526,7 @@
   "description": "The Sanford-Fritch (Fritch, TX) varsity football team is at their away playoff game @ Tulia (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "their away playoff game @ Tulia (TX)",
   "time": ""
  },
@@ -479,7 +535,7 @@
   "description": "The Corrigan-Camden (Corrigan, TX) varsity football team lost Thursday's away playoff game against Rosebud-Lott (Rosebud, TX) by a score of 49-7.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details A&M Consolidated HS",
   "time": ""
  },
@@ -488,7 +544,7 @@
   "description": "The Anson (TX) varsity football team is at their away playoff game @ Tioga (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "their away playoff game @ Tioga (TX)",
   "time": ""
  },
@@ -497,14 +553,14 @@
   "description": "The Union Grove (Gladewater, TX) varsity football team lost Thursday's away playoff game against San Augustine (TX) by a score of 33-7.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Henderson High School",
   "time": ""
  },
  "2A D1|mp:7bb85f5a-ef65-43b6-a16b-5239543c5434|mp:c5798446-e980-4c8f-976d-c00bb5e609d3": {
   "date": "2026-11-19",
   "description": "The Tom Bean (TX) varsity football team has a neutral playoff game vs. San Augustine (TX) , but the date has not been set.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -513,7 +569,7 @@
   "description": "The Mason (TX) varsity football team won Thursday's neutral playoff game against Itasca (TX) by a score of 62-7.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Joseph L. Sears III Stadium in Killeen, TX",
   "time": ""
  },
@@ -522,7 +578,7 @@
   "description": "The Highland Park (Amarillo, TX) varsity football team lost Thursday's away playoff game against Olton (TX) by a score of 28-20.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Herford High School",
   "time": ""
  },
@@ -531,7 +587,7 @@
   "description": "The Joaquin (TX) varsity football team is at their away playoff game @ Pewitt (Omaha, TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "their away playoff game @ Pewitt (Omaha, TX)",
   "time": ""
  },
@@ -540,7 +596,7 @@
   "description": "The Farwell (TX) varsity football team lost Friday's away playoff game against Spearman (TX) by a score of 64-33.",
   "filled_date": "2026-11-13",
   "filled_time": "4:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Happy State Bank Stadium, Canyon",
   "time": ""
  },
@@ -549,7 +605,7 @@
   "description": "The Flatonia (TX) varsity football team is at their neutral playoff game vs. Dilley (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details SAISD Sports Complex",
   "time": ""
  },
@@ -558,7 +614,7 @@
   "description": "The Waskom (TX) varsity football team is at their neutral playoff game vs. Shelbyville (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Shelbyville is Home Team",
   "time": ""
  },
@@ -567,7 +623,7 @@
   "description": "The Hawkins (TX) varsity football team lost Thursday's away playoff game against Tom Bean (TX) by a score of 38-21.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -576,7 +632,7 @@
   "description": "The Ozona (TX) varsity football team won Thursday's away playoff game against Post (TX) by a score of 32-21.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -585,7 +641,7 @@
   "description": "The Abernathy (TX) varsity football team lost Friday's away playoff game against Forsan (TX) by a score of 35-28.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Seminole HS",
   "time": ""
  },
@@ -594,14 +650,14 @@
   "description": "The Garrison (TX) varsity football team lost Friday's away playoff game against Beckville (TX) by a score of 32-7.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "2A D1|mp:e179cae5-3eeb-4632-815f-52ffc5fd698d|mp:0e55ebfd-a813-40c2-a762-91d3ef72bcef": {
   "date": "2026-11-19",
   "description": "The Lovelady (TX) varsity football team has a neutral playoff game vs. Shiner (TX) , but the date has not been set.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -610,7 +666,7 @@
   "description": "The Freer (TX) varsity football team lost Thursday's away playoff game against Shiner (TX) by a score of 70-7.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -619,7 +675,7 @@
   "description": "The Sonora (TX) varsity football team lost Friday's away playoff game against New Deal (TX) by a score of 38-6.",
   "filled_date": "2026-11-13",
   "filled_time": "6:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Colorado City High School",
   "time": ""
  },
@@ -628,14 +684,14 @@
   "description": "The Nocona (TX) varsity football team lost Thursday's away playoff game against Cisco (TX) by a score of 76-6.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Graham High School",
   "time": ""
  },
  "2A D1|mp:f58cd087-e7e7-43b6-82e0-8adf151d9988|mp:d67b0711-6650-44c9-bb1c-067b1a9104fe": {
   "date": "2026-11-19",
   "description": "The Johnson City (TX) varsity football team has a neutral playoff game vs. Cisco (TX) , but the date has not been set.",
-  "read": "2026-11-14T03:40:17+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -644,14 +700,14 @@
   "description": "The Floydada (TX) varsity football team lost Thursday's away playoff game against Panhandle (TX) by a score of 62-0.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details River Road",
   "time": ""
  },
  "2A D1|mp:fb17b652-4ab2-4774-bbab-ae8ce3e65572|mp:d8716d93-dadd-4f6a-b531-970a4fab0dff": {
   "date": "2026-11-19",
   "description": "The Forsan (TX) varsity football team has a neutral playoff game vs. Panhandle (TX) , but the date has not been set.",
-  "read": "2026-11-14T03:40:17+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -660,8 +716,15 @@
   "description": "The Hubbard (TX) varsity football team lost Thursday's away playoff game against Goldthwaite (TX) by a score of 56-0.",
   "filled_date": "2026-11-12",
   "filled_time": "7:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Mary Hardin Baylor Crusader Stadium",
+  "time": ""
+ },
+ "2A D2|mp:08ffebb8-8c49-4368-b4c8-a0590b41de1b|mp:87fe7765-3123-4730-81d7-1d0100fec008": {
+  "date": "2026-11-19",
+  "description": "The Haskell (TX) varsity football team has a neutral playoff game vs. Goldthwaite (TX) , but the date has not been set.",
+  "read": "2026-11-14T04:00:44+00:00",
+  "site": "",
   "time": ""
  },
  "2A D2|mp:1cc8bdfd-6a38-4dca-81a2-890436512c16|mp:43b9ecdd-af58-4e75-856e-59685de389eb": {
@@ -669,14 +732,14 @@
   "description": "The Stamford (TX) varsity football team won Thursday's away playoff game against Mart (TX) by a score of 54-13.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "2A D2|mp:296537bb-ce9c-490b-9aa8-4c5bd3fd3e68|mp:c708e4cf-807f-41f1-b9c9-376e61de13a1": {
   "date": "2026-11-13",
   "description": "The West Sabine (Pineland, TX) varsity football team is at their away playoff game @ Tenaha (TX).",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "their away playoff game @ Tenaha (TX)",
   "time": ""
  },
@@ -685,14 +748,14 @@
   "description": "The Ralls (TX) varsity football team lost Thursday's neutral playoff game against Wink (TX) by a score of 76-14.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details @ Lamesa High School",
   "time": ""
  },
  "2A D2|mp:40ca89fe-b9af-466b-92d1-310546e68d94|mp:90d1ed2a-d830-406c-b31d-5fc1b2d5db6d": {
   "date": "2026-11-19",
   "description": "The Stratford (TX) varsity football team has a neutral playoff game vs. Wink (TX) , but the date has not been set.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -701,7 +764,7 @@
   "description": "The Bowie (Simms, TX) varsity football team lost Thursday's away playoff game against Lindsay (TX) by a score of 42-8.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -710,7 +773,7 @@
   "description": "The Santa Maria (TX) varsity football team lost Friday's away playoff game against Yorktown (TX) by a score of 35-0.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -719,8 +782,15 @@
   "description": "The Eldorado (TX) varsity football team lost Friday's away playoff game against Roscoe (TX) by a score of 52-14.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details San Angelo",
+  "time": ""
+ },
+ "2A D2|mp:50339793-54c9-477d-b7eb-f1d1dadae20f|mp:5428ff75-1d75-4678-b5a8-cfde26475088": {
+  "date": "2026-11-19",
+  "description": "The Sudan (TX) varsity football team has a neutral playoff game vs. West Texas (Stinnett, TX) , but the date has not been set.",
+  "read": "2026-11-14T04:00:44+00:00",
+  "site": "",
   "time": ""
  },
  "2A D2|mp:50694b54-bdf3-4acb-92df-ffbaa90069fd|mp:7964636a-3fcc-46d1-b06e-3b4ec16b3e2a": {
@@ -728,7 +798,7 @@
   "description": "The Ropes (Ropesville, TX) varsity football team won Thursday's away playoff game against Vega (TX) by a score of 64-14.",
   "filled_date": "2026-11-12",
   "filled_time": "6:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Dimmitt High School",
   "time": ""
  },
@@ -737,7 +807,7 @@
   "description": "The West Texas (Stinnett, TX) varsity football team lost Thursday's away playoff game against Sudan (TX) by a score of 27-26.",
   "filled_date": "2026-11-12",
   "filled_time": "7:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -746,7 +816,7 @@
   "description": "The Tahoka (TX) varsity football team lost Friday's away playoff game against McCamey (TX) by a score of 35-14.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Big Spring High School",
   "time": ""
  },
@@ -755,7 +825,7 @@
   "description": "The Seymour (TX) varsity football team lost Thursday's away playoff game against Wheeler (TX) by a score of 48-14.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -764,14 +834,14 @@
   "description": "The Detroit (TX) varsity football team lost Thursday's away playoff game against Era (TX) by a score of 57-6.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "2A D2|mp:7ae4cfc2-ddad-4ded-bb01-a2b7ed5b7014|mp:f2220563-b6b1-4295-8b71-64699938d9b9": {
   "date": "",
   "description": "The West Hardin (Saratoga, TX) varsity football team lost Thursday's away playoff game against Grapeland (TX) by a score of 42-20.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -780,7 +850,7 @@
   "description": "The Bartlett (TX) varsity football team is at their away playoff game @ Junction (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "their away playoff game @ Junction (TX)",
   "time": ""
  },
@@ -789,7 +859,7 @@
   "description": "The Crawford (TX) varsity football team won Thursday's away playoff game against Albany (TX) by a score of 27-21.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -798,14 +868,21 @@
   "description": "The Boles (Quinlan, TX) varsity football team lost Friday's away playoff game against Clarksville (TX) by a score of 24-14.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Winnsboro High School",
+  "time": ""
+ },
+ "2A D2|mp:8348d3ea-1ffd-41c9-8176-1d336566b981|mp:7ae4cfc2-ddad-4ded-bb01-a2b7ed5b7014": {
+  "date": "2026-11-19",
+  "description": "The Clarksville (TX) varsity football team has a neutral playoff game vs. Grapeland (TX) , but the date has not been set.",
+  "read": "2026-11-14T04:00:44+00:00",
+  "site": "",
   "time": ""
  },
  "2A D2|mp:84a25c1f-7832-47e0-99dd-6de6302ba5b0|mp:1cc8bdfd-6a38-4dca-81a2-890436512c16": {
   "date": "2026-11-19",
   "description": "The Windthorst (TX) varsity football team has a neutral playoff game vs. Stamford (TX) , but the date has not been set.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -814,7 +891,7 @@
   "description": "The Quanah (TX) varsity football team lost Thursday's away playoff game against Windthorst (TX) by a score of 61-20.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -823,7 +900,7 @@
   "description": "The Clarendon (TX) varsity football team lost Friday's away playoff game against Haskell (TX) by a score of 62-12.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Childress High School",
   "time": ""
  },
@@ -832,7 +909,7 @@
   "description": "The Iraan (TX) varsity football team is at their away playoff game @ Lockney (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Neutral site at Andrews High School",
   "time": ""
  },
@@ -841,7 +918,7 @@
   "description": "The Pettus (TX) varsity football team is at their away playoff game @ La Villa (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "their away playoff game @ La Villa (TX)",
   "time": ""
  },
@@ -850,7 +927,7 @@
   "description": "The Seagraves (TX) varsity football team lost Friday's neutral playoff game against Stratford (TX) by a score of 37-0.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Whiteface Stadium, Hereford Texas Stratford Home",
   "time": ""
  },
@@ -859,14 +936,14 @@
   "description": "The Brackett (Brackettville, TX) varsity football team has an away playoff game @ Chilton (TX) on Saturday, November 14 @ 5p.",
   "filled_date": "2026-11-14",
   "filled_time": "5:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": "5:00 PM"
  },
  "2A D2|mp:afd064a9-6d08-4a22-95e4-0fea461300f6|mp:73cb276b-ab00-488e-9ccd-e4d61f8c0cca": {
   "date": "2026-11-19",
   "description": "The Wheeler (TX) varsity football team has a neutral playoff game vs. Santo (TX) , but the date has not been set.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -875,7 +952,7 @@
   "description": "The Miles (TX) varsity football team lost Thursday's away playoff game against Santo (TX) by a score of 21-9.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -884,14 +961,14 @@
   "description": "The D'Hanis (TX) varsity football team lost Thursday's neutral playoff game against Bremond (TX) by a score of 61-14.",
   "filled_date": "2026-11-12",
   "filled_time": "7:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "2A D2|mp:b27ae76c-b80c-4edd-9dcd-92ac0568e8fa|mp:f0d9668a-6278-495a-9d05-2bd5a35836a1": {
   "date": "2026-11-19",
   "description": "The Harper (TX) varsity football team has a neutral playoff game vs. Falls City (TX) , but the date has not been set.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -900,7 +977,7 @@
   "description": "The Agua Dulce (TX) varsity football team lost Thursday's away playoff game against Falls City (TX) by a score of 55-8.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -909,21 +986,21 @@
   "description": "The Maud (TX) varsity football team lost Thursday's away playoff game against Collinsville (TX) by a score of 49-6.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "2A D2|mp:cc04b6ea-71ab-4ea7-ad9e-4baa0e214412|mp:f1d55a57-b50b-4c0e-95ef-cab1a1a57a48": {
   "date": "2026-11-19",
   "description": "The Colmesneil (TX) varsity football team has a neutral playoff game vs. Collinsville (TX) , but the date has not been set.",
-  "read": "2026-11-14T03:40:17+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "2A D2|mp:cdc456d9-5120-49e0-8329-a646119ad722|mp:80e96d57-e240-4cab-80c2-016e8dfd109a": {
   "date": "2026-11-19",
   "description": "The Wellington (TX) varsity football team has a neutral playoff game vs. Crawford (TX) , but the date has not been set.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -932,7 +1009,7 @@
   "description": "The Wellington (TX) varsity football team won Thursday's away playoff game against Munday (TX) by a score of 47-20.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Childress High School",
   "time": ""
  },
@@ -941,7 +1018,7 @@
   "description": "The Burton (TX) varsity football team lost Thursday's away playoff game against Harper (TX) by a score of 27-7.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -950,8 +1027,15 @@
   "description": "The Colmesneil (TX) varsity football team won Friday's neutral playoff game against Cushing (TX) by a score of 30-26.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Center High School",
+  "time": ""
+ },
+ "2A D2|mp:f4408aa0-0eb1-41f4-82a8-548a513b73f2|mp:65589a3d-a74f-47b2-9435-ac36dabed426": {
+  "date": "2026-11-19",
+  "description": "The McCamey (TX) varsity football team has a neutral playoff game vs. Gruver (TX) , but the date has not been set.",
+  "read": "2026-11-14T04:00:44+00:00",
+  "site": "",
   "time": ""
  },
  "2A D2|mp:f4408aa0-0eb1-41f4-82a8-548a513b73f2|mp:6e4cd0e9-f4e3-4959-b0fe-f67539e4ce48": {
@@ -959,7 +1043,7 @@
   "description": "The Plains (TX) varsity football team lost Thursday's neutral playoff game against Gruver (TX) by a score of 69-14.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details At Bovina",
   "time": ""
  },
@@ -968,14 +1052,14 @@
   "description": "The Evadale (TX) varsity football team lost Thursday's neutral playoff game against Overton (TX) by a score of 75-14.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Diboll High School",
   "time": ""
  },
  "2A D2|mp:f74ad552-9cb5-47ca-a03f-126f70e30347|mp:69247331-d650-423e-9cdc-25396771c7c5": {
   "date": "2026-11-19",
   "description": "The Era (TX) varsity football team has a neutral playoff game vs. Overton (TX) , but the date has not been set.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -984,7 +1068,7 @@
   "description": "The Three Rivers (TX) varsity football team is at their away playoff game @ Ben Bolt (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "their away playoff game @ Ben Bolt (TX)",
   "time": ""
  },
@@ -993,7 +1077,7 @@
   "description": "The Dalhart (TX) varsity football team lost Thursday's away playoff game against Sweetwater (TX) by a score of 22-16.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Frenship High School",
   "time": ""
  },
@@ -1002,14 +1086,14 @@
   "description": "The Buna (TX) varsity football team lost Friday's away playoff game against Diboll (TX) by a score of 42-7.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "3A D1|mp:1b88ec6d-4a2c-48ae-8b4e-e8d3293f8a7a|mp:b7fc40a8-590a-459e-b684-708119d30111": {
   "date": "2026-11-19",
   "description": "The Diboll (TX) varsity football team has a neutral playoff game vs. Lorena (TX) , but the date has not been set.",
-  "read": "2026-11-14T03:40:17+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -1018,14 +1102,14 @@
   "description": "The Hallettsville (TX) varsity football team won Friday's neutral playoff game against Jourdanton (TX) by a score of 35-26.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details at New Braunfels Dragon Stadium",
   "time": ""
  },
  "3A D1|mp:25f464bb-5a88-43c2-bfa9-faf8b0f5cde8|mp:d311ad59-324e-4586-ae34-4eb50e0f520a": {
   "date": "2026-11-19",
   "description": "The Atlanta (TX) varsity football team has a neutral playoff game vs. Whitesboro (TX) , but the date has not been set.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -1034,7 +1118,7 @@
   "description": "The Mount Vernon (TX) varsity football team lost Thursday's away playoff game against Atlanta (TX) by a score of 35-6.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Pittsburg High School",
   "time": ""
  },
@@ -1043,14 +1127,14 @@
   "description": "The Tatum (TX) varsity football team won Thursday's away playoff game against Winnsboro (TX) by a score of 41-39.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "3A D1|mp:39bf1b9a-d274-4645-9d0c-f0d9bb8237af|mp:381e0e37-2a2f-492b-ab9d-764d6fd7fe52": {
   "date": "2026-11-19",
   "description": "The Yoakum (TX) varsity football team has a neutral playoff game vs. Goliad (TX) , but the date has not been set.",
-  "read": "2026-11-14T03:40:17+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -1059,14 +1143,14 @@
   "description": "The Carrizo Springs (TX) varsity football team lost Friday's neutral playoff game against Yoakum (TX) by a score of 62-14.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details at San Antonio's Gustafson Stadi",
   "time": ""
  },
  "3A D1|mp:3a0687f6-4b5f-40f7-8996-ebf5588fcfb3|mp:381e0e37-2a2f-492b-ab9d-764d6fd7fe52": {
   "date": "",
   "description": "The Goliad (TX) varsity football team won Thursday's neutral playoff game against Rio Hondo (TX) by a score of 42-28.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Corpus Christi's Warrior Stadium",
   "time": ""
  },
@@ -1075,14 +1159,14 @@
   "description": "The Liberty-Eylau (Texarkana, TX) varsity football team won Thursday's neutral playoff game against Commerce (TX) by a score of 35-28.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Sam Parker Stadium - Mount Pleasant",
   "time": ""
  },
  "3A D1|mp:4b379f1c-76ea-4c28-960b-69246e5ec357|mp:4927e3a1-21af-445f-9a5e-ce6e70407bdd": {
   "date": "2026-11-19",
   "description": "The Gunter (TX) varsity football team has a neutral playoff game vs. Liberty-Eylau (Texarkana, TX) , but the date has not been set.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -1091,7 +1175,7 @@
   "description": "The Gunter (TX) varsity football team won Thursday's away playoff game against Groesbeck (TX) by a score of 64-13.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Mesquite: Memorial Stadium",
   "time": ""
  },
@@ -1100,7 +1184,7 @@
   "description": "The Mathis (TX) varsity football team is at their neutral playoff game vs. San Diego (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details at Odem's Owl Stadium",
   "time": ""
  },
@@ -1109,7 +1193,7 @@
   "description": "The Mexia (TX) varsity football team lost Thursday's neutral playoff game against Pilot Point (TX) by a score of 43-25.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Midlothian ISD Multi-Purpose",
   "time": ""
  },
@@ -1118,21 +1202,28 @@
   "description": "The Clyde (TX) varsity football team won Thursday's away playoff game against Denver City (TX) by a score of 56-23.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Big Spring High School",
+  "time": ""
+ },
+ "3A D1|mp:5a8481e8-aa0d-4cc9-9d67-df07a4923187|mp:a1fbfa28-bcd5-47d9-9a98-252ff6723d5b": {
+  "date": "2026-11-19",
+  "description": "The Vernon (TX) varsity football team has a neutral playoff game vs. Clyde (TX) , but the date has not been set.",
+  "read": "2026-11-14T04:00:44+00:00",
+  "site": "",
   "time": ""
  },
  "3A D1|mp:670c480b-0c98-44a8-a888-90e7149e9ae9|mp:d815ea88-ef5c-43d4-9010-6525739aa235": {
   "date": "",
   "description": "The Life Oak Cliff (Dallas, TX) varsity football team lost Thursday's neutral playoff game against Whitney (TX) by a score of 70-27.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details at Godley's Wildcat Stadium",
   "time": ""
  },
  "3A D1|mp:670c480b-0c98-44a8-a888-90e7149e9ae9|mp:d935e76f-b0e8-4f81-a13e-00d7284720d2": {
   "date": "2026-11-19",
   "description": "The Whitney (TX) varsity football team has a neutral playoff game vs. Tatum (TX) , but the date has not been set.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -1141,14 +1232,14 @@
   "description": "The Hondo (TX) varsity football team lost Friday's neutral playoff game against Marion (TX) by a score of 30-8.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details at Marion's Veterans Stadium",
   "time": ""
  },
  "3A D1|mp:688f290c-b0c1-4754-a410-8896d48a4f46|mp:e89ae7df-941f-42f7-a712-b588e025c67f": {
   "date": "2026-11-13",
   "description": "The Trinity (TX) varsity football team is at their neutral playoff game vs. Orangefield (TX).",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Game played at Crosby High School",
   "time": ""
  },
@@ -1158,8 +1249,15 @@
   "filled_date": "2026-11-13",
   "filled_site": "@ Devine's Warhorse Stadium",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details @ Devine's Warhorse Stadium",
+  "time": ""
+ },
+ "3A D1|mp:7d929116-735b-4334-9697-74990f8c2b02|mp:1a9fd993-b1e9-4deb-a304-5dd375d7a6c3": {
+  "date": "2026-11-19",
+  "description": "The Wall (TX) varsity football team has a neutral playoff game vs. Sweetwater (TX) , but the date has not been set.",
+  "read": "2026-11-14T04:00:44+00:00",
+  "site": "",
   "time": ""
  },
  "3A D1|mp:7d929116-735b-4334-9697-74990f8c2b02|mp:d0d412a5-e427-47fc-a075-28363b8aa94a": {
@@ -1167,14 +1265,14 @@
   "description": "The Bowie (TX) varsity football team lost Friday's away playoff game against Wall (TX) by a score of 24-7.",
   "filled_date": "2026-11-13",
   "filled_time": "6:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Cisco High School",
   "time": ""
  },
  "3A D1|mp:85e9f244-0f3e-4d68-b5b3-f4bc9e251a3e|mp:6e486efd-ae50-4d7b-8dfb-c6d73168780c": {
   "date": "",
   "description": "The Hempstead (TX) varsity football team lost Thursday's away playoff game against Franklin (TX) by a score of 73-0.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details at Rockdale's Tiger Stadium",
   "time": ""
  },
@@ -1184,7 +1282,7 @@
   "filled_date": "2026-11-19",
   "filled_site": "Merrill Green Stadium (Bryan, TX)",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Merrill Green Stadium (Bryan, TX)",
   "time": "7:00 PM"
  },
@@ -1193,14 +1291,14 @@
   "description": "The Columbus (TX) varsity football team won Thursday's away playoff game against Little River Academy (TX) by a score of 69-17.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Caldwell HS",
   "time": ""
  },
  "3A D1|mp:8d22d4e0-4bfd-4a88-99e8-d4e73dfefd6e|mp:d1dbaa6b-da93-4b88-996e-6caa6f8c31b0": {
   "date": "2026-11-13",
   "description": "The Fairfield (TX) varsity football team is at their neutral playoff game vs. East Chambers (Winnie, TX).",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Willis",
   "time": ""
  },
@@ -1209,7 +1307,7 @@
   "description": "The Jim Ned (Tuscola, TX) varsity football team lost Friday's away playoff game against Bushland (TX) by a score of 50-35.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details at Lubbock's Lowrey Field",
   "time": ""
  },
@@ -1218,8 +1316,15 @@
   "description": "The Llano (TX) varsity football team lost Friday's neutral playoff game against Paradise (TX) by a score of 52-15.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details at Dublin's Cervetto Stadium",
+  "time": ""
+ },
+ "3A D1|mp:a0bcecca-94ee-4148-9155-4c66d3367a0d|mp:90352165-2f3c-4b41-8e78-becc0927a0b9": {
+  "date": "2026-11-19",
+  "description": "The Paradise (TX) varsity football team has a neutral playoff game vs. Bushland (TX) , but the date has not been set.",
+  "read": "2026-11-14T04:00:44+00:00",
+  "site": "",
   "time": ""
  },
  "3A D1|mp:a1f3294a-ee1b-472a-8b85-2fd39f09f144|mp:c90b9ec1-e416-4942-8744-3a8096672fc3": {
@@ -1227,7 +1332,7 @@
   "description": "The Compass Academy (Odessa, TX) varsity football team lost Thursday's neutral playoff game against Shallowater (TX) by a score of 51-7.",
   "filled_date": "2026-11-12",
   "filled_time": "6:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details at Snyder's Teaff Tiger Stadium",
   "time": ""
  },
@@ -1236,7 +1341,7 @@
   "description": "The Raymondville (TX) varsity football team is at their neutral playoff game vs. Orange Grove (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -1245,7 +1350,7 @@
   "description": "The Ingram Moore (Ingram, TX) varsity football team lost Friday's away playoff game against Vernon (TX) by a score of 37-16.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -1254,8 +1359,15 @@
   "description": "The Lyford (TX) varsity football team lost Thursday's neutral playoff game against Sinton (TX) by a score of 28-7.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details at Sinton's Pirate Stadium",
+  "time": ""
+ },
+ "3A D1|mp:b5e8b58b-3569-453b-aa2a-93cb1e6b8949|mp:328556e0-9387-4043-ad12-efa2742bb7e4": {
+  "date": "2026-11-19",
+  "description": "The Hallettsville (TX) varsity football team has a neutral playoff game vs. Sinton (TX) , but the date has not been set.",
+  "read": "2026-11-14T04:00:44+00:00",
+  "site": "",
   "time": ""
  },
  "3A D1|mp:b7fc40a8-590a-459e-b684-708119d30111|mp:e66503ab-49a3-4192-b32c-03db4a0bfbc6": {
@@ -1263,14 +1375,14 @@
   "description": "The Sweeny (TX) varsity football team lost Friday's neutral playoff game against Lorena (TX) by a score of 35-3.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "3A D1|mp:d311ad59-324e-4586-ae34-4eb50e0f520a|mp:9e5b42bb-3ad2-4cac-b380-8103841bbeea": {
   "date": "",
   "description": "The Whitesboro (TX) varsity football team won Thursday's away playoff game against Grandview (TX) by a score of 44-27.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Grand Prairie's Gopher-Warrior B",
   "time": ""
  },
@@ -1279,7 +1391,7 @@
   "description": "The C.H. Yoe (Cameron, TX) varsity football team won Friday's neutral playoff game against Edna (TX) by a score of 14-7.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details at Luling's Eagle Field",
   "time": ""
  },
@@ -1288,7 +1400,7 @@
   "description": "The Early (TX) varsity football team is at their neutral playoff game vs. Peaster (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Stephenville's Art Briles Stadium",
   "time": ""
  },
@@ -1298,7 +1410,7 @@
   "filled_date": "2026-11-19",
   "filled_site": "Mesquite Hanby Stadium",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Mesquite Hanby Stadium",
   "time": "7:00 PM"
  },
@@ -1307,14 +1419,14 @@
   "description": "The Gladewater (TX) varsity football team lost Thursday's away playoff game against Malakoff (TX) by a score of 55-14.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "3A D1|mp:f58d45d7-aff6-4887-afd1-f3b0a5817c33|mp:2f161f84-a53e-4b54-bd5d-e7f6b8c6569a": {
   "date": "",
   "description": "The Westwood (Palestine, TX) varsity football team won Thursday's neutral playoff game against Anahuac (TX) by a score of 41-27.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details at Madisonville's Mustang Stadiu",
   "time": ""
  },
@@ -1323,7 +1435,7 @@
   "description": "The Merkel (TX) varsity football team won Thursday's away playoff game against Crane (TX) by a score of 60-28.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details at San Angelo's San Angelo Stadi",
   "time": ""
  },
@@ -1332,14 +1444,21 @@
   "description": "The Stockdale (TX) varsity football team won Friday's neutral playoff game against Cotulla (TX) by a score of 42-18.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Bandera HS",
+  "time": ""
+ },
+ "3A D2|mp:15b99622-dd2d-49ca-b7b3-d6c7d781f052|mp:0d10bc31-eccd-4458-ba7b-8f4fc84b5b33": {
+  "date": "2026-11-19",
+  "description": "The Troup (TX) varsity football team has a neutral playoff game vs. Newton (TX) , but the date has not been set.",
+  "read": "2026-11-14T04:00:44+00:00",
+  "site": "",
   "time": ""
  },
  "3A D2|mp:15b99622-dd2d-49ca-b7b3-d6c7d781f052|mp:1b2384a5-1f7f-4417-aeab-40b901dd6d59": {
   "date": "",
   "description": "The Elkhart (TX) varsity football team lost Thursday's away playoff game against Newton (TX) by a score of 70-0.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details at Timpson's Eakin Stadium",
   "time": ""
  },
@@ -1348,7 +1467,7 @@
   "description": "The Boling (TX) varsity football team won Thursday's neutral playoff game against Lexington (TX) by a score of 61-33.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details La Grange",
   "time": ""
  },
@@ -1357,7 +1476,7 @@
   "description": "The Scurry-Rosser (Scurry, TX) varsity football team lost Friday's neutral playoff game against Tolar (TX) by a score of 40-7.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details at Burleson's Burleson Stadium",
   "time": ""
  },
@@ -1366,21 +1485,21 @@
   "description": "The Hebbronville (TX) varsity football team lost Friday's neutral playoff game against Blanco (TX) by a score of 37-6.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details at Natalia",
   "time": ""
  },
  "3A D2|mp:3107a77e-a214-4eb7-88e3-eaa5be4487ea|mp:0d10bc31-eccd-4458-ba7b-8f4fc84b5b33": {
   "date": "",
   "description": "The De Kalb (TX) varsity football team lost Friday's away playoff game against Troup (TX) by a score of 58-34.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details at Mineola's Meredith Memorial S",
   "time": ""
  },
  "3A D2|mp:3ad71b3a-de47-4a4e-9069-366f1132ef67|mp:603b7bcc-5cf0-47a7-81fd-4ad37844f9bc": {
   "date": "2026-11-19",
   "description": "The Poth (TX) varsity football team has a neutral playoff game vs. Rice Consolidated (Altair, TX) , but the date has not been set.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -1389,14 +1508,14 @@
   "description": "The Santa Rosa (TX) varsity football team lost Thursday's neutral playoff game against Poth (TX) by a score of 62-7.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Alice's Memorial Stadium",
   "time": ""
  },
  "3A D2|mp:3c787125-bbf8-4cc7-9172-8aecd0973e84|mp:112bce90-1965-4a6b-a0d6-428c6c311cb9": {
   "date": "2026-11-19",
   "description": "The Merkel (TX) varsity football team has a neutral playoff game vs. Canadian (TX) , but the date has not been set.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -1405,7 +1524,7 @@
   "description": "The Muleshoe (TX) varsity football team lost Thursday's away playoff game against Canadian (TX) by a score of 63-7.",
   "filled_date": "2026-11-12",
   "filled_time": "4:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details at Canyon's Happy State Bank Sta",
   "time": ""
  },
@@ -1414,7 +1533,7 @@
   "description": "The Nixon-Smiley (Nixon, TX) varsity football team is at their neutral playoff game vs. George West (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details at George Wests Longhorn Stadium",
   "time": ""
  },
@@ -1423,14 +1542,14 @@
   "description": "The Leonard (TX) varsity football team lost Friday's neutral playoff game against Grand Saline (TX) by a score of 49-0.",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Greenville HS",
   "time": ""
  },
  "3A D2|mp:465d5384-d5b2-4844-90cc-fe321a914908|mp:09816b0e-c758-4061-946c-56d954b488b0": {
   "date": "2026-11-13",
   "description": "The Clifton (TX) varsity football team is at their neutral playoff game vs. Maypearl (TX).",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details at Godley's Wildcat Stadium",
   "time": ""
  },
@@ -1439,7 +1558,7 @@
   "description": "The New Waverly (TX) varsity football team is at their away playoff game @ Buffalo (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Centerville High School",
   "time": ""
  },
@@ -1448,7 +1567,7 @@
   "description": "The Rogers (TX) varsity football team lost Thursday's neutral playoff game against Rice Consolidated (Altair, TX) by a score of 33-17.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -1457,7 +1576,7 @@
   "description": "The Stanton (TX) varsity football team lost Friday's away playoff game against Henrietta (TX) by a score of 51-7.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Snyder High School",
   "time": ""
  },
@@ -1466,7 +1585,7 @@
   "description": "The Bells (TX) varsity football team is at their away playoff game @ Lone Oak (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "their away playoff game @ Lone Oak (TX)",
   "time": ""
  },
@@ -1475,7 +1594,7 @@
   "description": "The Childress (TX) varsity football team won Friday's away playoff game against Littlefield (TX) by a score of 28-0.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Floydada HS",
   "time": ""
  },
@@ -1484,15 +1603,22 @@
   "description": "The Anderson-Shiro (Anderson, TX) varsity football team lost Friday's neutral playoff game against East Bernard (TX) by a score of 54-15.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details at Hempstead's Bobcat Stadium",
   "time": ""
  },
  "3A D2|mp:93ba4964-8629-436a-baed-66f0508129b8|mp:9f3a5219-4b07-4a04-8c74-1d1e643eddec": {
   "date": "2026-11-13",
   "description": "The Redwater (TX) varsity football team is at their away playoff game @ Jefferson (TX).",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details at Atlanta's Rabbitt Stadium",
+  "time": ""
+ },
+ "3A D2|mp:9c7e823e-83c7-4fa5-9896-64e6f4947301|mp:a2302efc-a455-4329-a1b2-2408d7d4cb79": {
+  "date": "2026-11-19",
+  "description": "The Henrietta (TX) varsity football team has a neutral playoff game vs. Slaton (TX) , but the date has not been set.",
+  "read": "2026-11-14T04:00:44+00:00",
+  "site": "",
   "time": ""
  },
  "3A D2|mp:9c86a720-035f-4977-9535-c317ae4c3891|mp:8a35dd4f-77d8-49bb-a843-4b10c33b2e39": {
@@ -1500,7 +1626,7 @@
   "description": "The Coahoma (TX) varsity football team lost Friday's away playoff game against Holliday (TX) by a score of 55-36.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Don Lucy Stadium Holliday TX",
   "time": ""
  },
@@ -1509,14 +1635,14 @@
   "description": "The Hardin (TX) varsity football team won Friday's away playoff game against Teague (TX) by a score of 49-22.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Nacogdoches High School",
   "time": ""
  },
  "3A D2|mp:9efb114d-6107-4358-bd9c-347093fef37e|mp:929d283d-e91e-483e-90be-98d247ff7f72": {
   "date": "2026-11-13",
   "description": "The Hooks (TX) varsity football team is at their away playoff game @ Arp (TX).",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Hallsville's Bobcat Stadium",
   "time": ""
  },
@@ -1525,14 +1651,14 @@
   "description": "The Slaton (TX) varsity football team won Friday's away playoff game against Friona (TX) by a score of 49-41.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Greg Sherwood Memorial Bulldog Stadium",
   "time": ""
  },
  "3A D2|mp:b5368a33-8186-49c1-b50c-ddf7f6235b50|mp:df290f56-6e77-43e8-b939-90c6d660c792": {
   "date": "2026-11-19",
   "description": "The Edgewood (TX) varsity football team has a neutral playoff game vs. Millsap (TX) , but the date has not been set.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -1541,8 +1667,15 @@
   "description": "The Trinity Leadership (Cedar Hill, TX) varsity football team lost Thursday's neutral playoff game against Millsap (TX) by a score of 76-12.",
   "filled_date": "2026-11-12",
   "filled_time": "7:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Eagle Mountain HS",
+  "time": ""
+ },
+ "3A D2|mp:b8f03fd1-2c79-44ee-9cbc-6b7c62a3b473|mp:38302490-5f25-4028-99cf-0d0bcad7a84e": {
+  "date": "2026-11-19",
+  "description": "The Blanco (TX) varsity football team has a neutral playoff game vs. Thrall (TX) , but the date has not been set.",
+  "read": "2026-11-14T04:00:44+00:00",
+  "site": "",
   "time": ""
  },
  "3A D2|mp:b8f03fd1-2c79-44ee-9cbc-6b7c62a3b473|mp:a1f60043-96ac-4c64-8174-18fa4ad469d0": {
@@ -1550,7 +1683,7 @@
   "description": "The Brazos (Wallis, TX) varsity football team lost Thursday's neutral playoff game against Thrall (TX) by a score of 28-25.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details at Smithville's Tiger Stadium",
   "time": ""
  },
@@ -1559,7 +1692,7 @@
   "description": "The Howe (TX) varsity football team is at their away playoff game @ Quitman (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Honey Grove High School",
   "time": ""
  },
@@ -1568,7 +1701,21 @@
   "description": "The Mildred (Corsicana, TX) varsity football team won Friday's neutral playoff game against Woodville (TX) by a score of 21-18.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
+  "site": "",
+  "time": ""
+ },
+ "3A D2|mp:c961bf15-bb80-411d-a010-4543aa7c0746|mp:dd190b7b-ac75-46a8-b655-36251a8ab9a5": {
+  "date": "2026-11-19",
+  "description": "The Mildred (Corsicana, TX) varsity football team has a neutral playoff game vs. West Rusk (New London, TX) , but the date has not been set.",
+  "read": "2026-11-14T04:00:44+00:00",
+  "site": "",
+  "time": ""
+ },
+ "3A D2|mp:cb1602f1-07e1-4207-9778-d3aca7d6d61c|mp:8a35dd4f-77d8-49bb-a843-4b10c33b2e39": {
+  "date": "2026-11-19",
+  "description": "The Holliday (TX) varsity football team has a neutral playoff game vs. Idalou (TX) , but the date has not been set.",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -1577,7 +1724,7 @@
   "description": "The Dimmitt (TX) varsity football team lost Friday's away playoff game against Idalou (TX) by a score of 60-6.",
   "filled_date": "2026-11-13",
   "filled_time": "6:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Levelland High School",
   "time": ""
  },
@@ -1586,14 +1733,14 @@
   "description": "The Hamilton (TX) varsity football team is at their neutral playoff game vs. Madison (Dallas, TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "3A D2|mp:dd190b7b-ac75-46a8-b655-36251a8ab9a5|mp:112e8e93-a42c-4a23-9132-49c723edf3f5": {
   "date": "",
   "description": "The New Boston (TX) varsity football team lost Friday's away playoff game against West Rusk (New London, TX) by a score of 50-7.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details at Gladewater's Murphy Stadium",
   "time": ""
  },
@@ -1602,7 +1749,7 @@
   "description": "The Edgewood (TX) varsity football team won Friday's away playoff game against Valley View (TX) by a score of 31-0.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details at Garland's Homer B. Johnson St",
   "time": ""
  },
@@ -1611,8 +1758,15 @@
   "description": "The Grape Creek (San Angelo, TX) varsity football team lost Thursday's away playoff game against Jacksboro (TX) by a score of 55-13.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Brownwood High School",
+  "time": ""
+ },
+ "3A D2|mp:e67a87db-a6f2-40af-9466-caed7b7371b7|mp:8563cd02-9b43-468b-9e11-b4011070ac54": {
+  "date": "2026-11-19",
+  "description": "The Childress (TX) varsity football team has a neutral playoff game vs. Jacksboro (TX) , but the date has not been set.",
+  "read": "2026-11-14T04:00:44+00:00",
+  "site": "",
   "time": ""
  },
  "4A D1|mp:016461cc-94cd-44c1-932e-405660975465|mp:5bc33aef-453d-4fa9-9f98-ddf0ba27add0": {
@@ -1620,7 +1774,7 @@
   "description": "The Henderson (TX) varsity football team won Friday's away playoff game against Sulphur Springs (TX) by a score of 34-31.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -1629,7 +1783,14 @@
   "description": "The Calhoun (Port Lavaca, TX) varsity football team won Friday's neutral playoff game against Edcouch-Elsa (Edcouch, TX) by a score of 17-3.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
+  "site": "",
+  "time": ""
+ },
+ "4A D1|mp:094645c9-bb01-4db5-af56-f8581dedb69b|mp:e9327a8f-13a0-4d15-b0ca-2a3414096992": {
+  "date": "2026-11-19",
+  "description": "The Kennedale (TX) varsity football team has a neutral playoff game vs. Pine Tree (Longview, TX) , but the date has not been set.",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -1638,7 +1799,7 @@
   "description": "The Carter (Dallas, TX) varsity football team lost Friday's away playoff game against Kennedale (TX) in overtime by a score of 34-28.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -1647,14 +1808,14 @@
   "description": "The Navasota (TX) varsity football team lost Friday's away playoff game against Stephenville (TX) by a score of 51-14.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "4A D1|mp:1e60baaa-b411-4c25-8fb3-a62d23fd6549|mp:6128279b-d163-4257-928b-faf750bb954c": {
   "date": "2026-11-19",
   "description": "The Vidor (TX) varsity football team has a neutral playoff game vs. Stephenville (TX) , but the date has not been set.",
-  "read": "2026-11-14T03:40:17+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -1663,7 +1824,7 @@
   "description": "The Tuloso-Midway (Corpus Christi, TX) varsity football team is at their away playoff game @ Alice (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "their away playoff game @ Alice (TX)",
   "time": ""
  },
@@ -1672,7 +1833,7 @@
   "description": "The La Vernia (TX) varsity football team is at their neutral playoff game vs. Tivy (Kerrville, TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Bi-District Championship",
   "time": ""
  },
@@ -1681,7 +1842,7 @@
   "description": "The El Campo (TX) varsity football team won Friday's away playoff game against Jarrell (TX) by a score of 31-13.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -1690,7 +1851,14 @@
   "description": "The Pleasanton (TX) varsity football team lost Friday's neutral playoff game against Canyon Lake (Fischer, TX) by a score of 49-28.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
+  "site": "",
+  "time": ""
+ },
+ "4A D1|mp:2ac01e9f-e8f3-451b-8a5f-beae39fcb54d|mp:c33f108a-cb12-4f24-b8b8-6b4af5f15976": {
+  "date": "2026-11-19",
+  "description": "The Calhoun (Port Lavaca, TX) varsity football team has a neutral playoff game vs. Canyon Lake (Fischer, TX) , but the date has not been set.",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -1699,7 +1867,14 @@
   "description": "The Hidalgo Early College (Hidalgo, TX) varsity football team lost Friday's away playoff game against Calallen (Corpus Christi, TX) by a score of 64-0.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
+  "site": "",
+  "time": ""
+ },
+ "4A D1|mp:33698666-bc11-4091-8af6-4cd3c6c944cf|mp:9366f169-fe02-4c0d-b877-e7e3dc92f6ed": {
+  "date": "2026-11-19",
+  "description": "The Floresville (TX) varsity football team has a neutral playoff game vs. Calallen (Corpus Christi, TX) , but the date has not been set.",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -1708,7 +1883,7 @@
   "description": "The Riverside (El Paso, TX) varsity football team lost Thursday's away playoff game against Canyon (TX) by a score of 47-14.",
   "filled_date": "2026-11-12",
   "filled_time": "6:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Andrews HS",
   "time": ""
  },
@@ -1717,7 +1892,7 @@
   "description": "The Plainview (TX) varsity football team lost Friday's away playoff game against Lake Dallas (Corinth, TX) by a score of 28-0.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Clyde High School",
   "time": ""
  },
@@ -1726,7 +1901,7 @@
   "description": "No result has been reported for the Austin (El Paso, TX) varsity football away playoff game @ Randall (Amarillo, TX).",
   "filled_date": "2026-11-13",
   "filled_time": "6:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Kermit HS",
   "time": ""
  },
@@ -1735,7 +1910,7 @@
   "description": "The Kilgore (TX) varsity football team is at their away playoff game @ Paris (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "their away playoff game @ Paris (TX)",
   "time": ""
  },
@@ -1744,7 +1919,7 @@
   "description": "The Kaufman (TX) varsity football team lost Friday's away playoff game against Lindale (TX) by a score of 52-22.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -1753,7 +1928,7 @@
   "description": "The Lampasas (TX) varsity football team lost Friday's neutral playoff game against Bay City (TX) by a score of 47-28.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Tiger Stad., 285 St. Hwy 95, Smithville, TX 78957",
   "time": ""
  },
@@ -1762,7 +1937,7 @@
   "description": "The Zapata (TX) varsity football team lost Friday's away playoff game against Miller (Corpus Christi, TX) by a score of 52-0.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -1771,14 +1946,14 @@
   "description": "The Sterling (Houston, TX) varsity football team lost Friday's away playoff game against Vidor (TX) by a score of 35-0.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "4A D1|mp:6162d4cc-be55-48db-9561-26ba8414be6a|mp:49ea89c0-5105-4ebd-9c40-a744720daf29": {
   "date": "2026-11-13",
   "description": "The Hargrave (Huffman, TX) varsity football team is at their away playoff game @ Fort Bend Willowridge (Houston, TX).",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "their away playoff game @ Fort Bend Willowridge (Houston, TX)",
   "time": ""
  },
@@ -1787,14 +1962,14 @@
   "description": "The Dumas (TX) varsity football team lost Friday's away playoff game against Andress (El Paso, TX) by a score of 34-10.",
   "filled_date": "2026-11-13",
   "filled_time": "6:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Denver City High School",
   "time": ""
  },
  "4A D1|mp:7b42da43-52e8-4e48-b4c7-337ffd3dfe84|mp:80384819-4dd1-433f-b905-70a4f4e03187": {
   "date": "2026-11-19",
   "description": "The Decatur (TX) varsity football team has a neutral playoff game vs. Andress (El Paso, TX) , but the date has not been set.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -1803,7 +1978,7 @@
   "description": "The Decatur (TX) varsity football team won Friday's away playoff game against Lake View (San Angelo, TX) by a score of 48-7.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Mineral Wells High School",
   "time": ""
  },
@@ -1812,7 +1987,7 @@
   "description": "The Fredericksburg (TX) varsity football team lost Friday's away playoff game against Floresville (TX) by a score of 32-28.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -1821,7 +1996,7 @@
   "description": "The Springtown (TX) varsity football team won Friday's away playoff game against Greenwood (Midland, TX) by a score of 48-17.",
   "filled_date": "2026-11-13",
   "filled_time": "6:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Buckaroo Stadium; Breckenridge, TX",
   "time": ""
  },
@@ -1830,14 +2005,14 @@
   "description": "The Andrews (TX) varsity football team lost Thursday's away playoff game against Aubrey (TX) by a score of 63-24.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "4A D1|mp:a4007d35-8ff9-4e24-bff1-afb9768d5018|mp:f245a6bc-5e59-40c0-ad00-e2a3ea9225bc": {
   "date": "2026-11-19",
   "description": "The Aubrey (TX) varsity football team has a neutral playoff game vs. Canyon (TX) , but the date has not been set.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -1846,7 +2021,7 @@
   "description": "The Davenport (San Antonio, TX) varsity football team won Friday's neutral playoff game against Somerset (TX) by a score of 35-32.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -1855,14 +2030,14 @@
   "description": "The China Spring (TX) varsity football team won Friday's away playoff game against Sealy (TX) by a score of 21-7.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "4A D1|mp:bc9dedb6-e657-4c2d-8be3-4d6494382856|mp:480a3ca5-78ac-408c-94dd-a1f69c30b37f": {
   "date": "2026-11-13",
   "description": "The Wilmer-Hutchins (Dallas, TX) varsity football team is at their away playoff game @ Eastern Hills (Fort Worth, TX).",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "their away playoff game @ Eastern Hills (Fort Worth, TX)",
   "time": ""
  },
@@ -1871,7 +2046,7 @@
   "description": "The Bridge City (TX) varsity football team is at their away playoff game @ Stafford (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "their away playoff game @ Stafford (TX)",
   "time": ""
  },
@@ -1880,21 +2055,28 @@
   "description": "The Southwest (Fort Worth, TX) varsity football team lost Thursday's away playoff game against Lincoln (Dallas, TX) by a score of 45-0.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "4A D1|mp:e3eeb2ac-5a9e-43c6-9422-d0249d7c994f|mp:fa11b3de-db78-4ee5-9ba7-7c0d8b73db30": {
   "date": "2026-11-19",
   "description": "The Springtown (TX) varsity football team has a neutral playoff game vs. West Plains (Amarillo, TX) , but the date has not been set.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "4A D1|mp:e6cb1374-d5c9-42fa-a7bd-9dd0d5c89c32|mp:3adca98f-05e2-4017-ae90-aa229cfce4f6": {
   "date": "",
   "description": "The Austin (Houston, TX) varsity football team lost Friday's neutral playoff game against Little Cypress-Mauriceville (Orange, TX) by a score of 69-0.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
+  "site": "",
+  "time": ""
+ },
+ "4A D1|mp:e6cb1374-d5c9-42fa-a7bd-9dd0d5c89c32|mp:67c4d01d-9bd1-4875-9464-99ea5615a32d": {
+  "date": "2026-11-19",
+  "description": "The El Campo (TX) varsity football team has a neutral playoff game vs. Little Cypress-Mauriceville (Orange, TX) , but the date has not been set.",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -1903,7 +2085,7 @@
   "description": "The Caddo Mills (TX) varsity football team lost Friday's away playoff game against Pine Tree (Longview, TX) by a score of 42-29.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -1912,7 +2094,7 @@
   "description": "The Ysleta (El Paso, TX) varsity football team lost Thursday's away playoff game against West Plains (Amarillo, TX) by a score of 86-0.",
   "filled_date": "2026-11-12",
   "filled_time": "6:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -1921,14 +2103,21 @@
   "description": "The Benbrook (TX) varsity football team is at their away playoff game @ Kimball (Dallas, TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "their away playoff game @ Kimball (Dallas, TX)",
+  "time": ""
+ },
+ "4A D2|mp:0c39e7b7-a5cd-4243-bd60-6c0c68ce960e|mp:24c5d4d2-d6d8-4391-8e32-0b1b85af15b0": {
+  "date": "2026-11-19",
+  "description": "The Gilmer (TX) varsity football team has a neutral playoff game vs. Sanger (TX) , but the date has not been set.",
+  "read": "2026-11-14T04:00:44+00:00",
+  "site": "",
   "time": ""
  },
  "4A D2|mp:0c39e7b7-a5cd-4243-bd60-6c0c68ce960e|mp:71370ca8-cf9e-434d-9f52-cf8eddb9669f": {
   "date": "",
   "description": "The North Lamar (Paris, TX) varsity football team lost Friday's away playoff game against Gilmer (TX) by a score of 76-6.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -1937,7 +2126,7 @@
   "description": "The Brock (TX) varsity football team won Thursday's away playoff game against Perryton (TX) by a score of 77-7.",
   "filled_date": "2026-11-12",
   "filled_time": "5:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Lowrey Field",
   "time": ""
  },
@@ -1946,14 +2135,14 @@
   "description": "The Pleasant Grove (Texarkana, TX) varsity football team won Thursday's away playoff game against Farmersville (TX) by a score of 31-13.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "4A D2|mp:2025e9f9-cedd-4912-b298-536a7cb61591|mp:0266834d-a4cf-4cf5-8803-0adcdfb34257": {
   "date": "",
   "description": "The Wheatley (Houston, TX) varsity football team lost Thursday's away playoff game against Hitchcock (TX) by a score of 42-6.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -1962,14 +2151,14 @@
   "description": "The La Grange (TX) varsity football team lost Friday's away playoff game against Yates (Houston, TX) by a score of 45-21.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "4A D2|mp:288d4cda-dcc1-4284-844f-58683384fcd0|mp:65b2b405-e451-4909-aa48-fd6233bc64b2": {
   "date": "2026-11-13",
   "description": "The Gonzales (TX) varsity football team is at their away playoff game @ Rockport-Fulton (Rockport, TX).",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "their away playoff game @ Rockport-Fulton (Rockport, TX)",
   "time": ""
  },
@@ -1978,14 +2167,14 @@
   "description": "The Burkburnett (TX) varsity football team lost Friday's neutral playoff game against Liberty (Lubbock, TX) by a score of 42-7.",
   "filled_date": "2026-11-13",
   "filled_time": "6:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Abilene Christian University",
   "time": ""
  },
  "4A D2|mp:332f99b6-5fdc-4ee8-8b72-56ef3f9c95f7|mp:7995b72f-5789-4a4f-aea1-2817ae873f5f": {
   "date": "2026-11-19",
   "description": "The Liberty (Lubbock, TX) varsity football team has a neutral playoff game vs. Monahans (TX) , but the date has not been set.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -1994,7 +2183,7 @@
   "description": "No result has been reported for the Big Spring (TX) varsity football away playoff game @ Mountain View (El Paso, TX).",
   "filled_date": "2026-11-13",
   "filled_time": "6:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Mountain View HS",
   "time": ""
  },
@@ -2003,14 +2192,14 @@
   "description": "The Navarro (Geronimo, TX) varsity football team is at their away playoff game @ London (Corpus Christi, TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "their away playoff game @ London (Corpus Christi, TX)",
   "time": ""
  },
  "4A D2|mp:4a2ccf17-2c75-4adb-86b6-de11c9a479f3|mp:4b9fcf10-5b7b-4eab-9ac8-13da21f15c89": {
   "date": "",
   "description": "The Ingleside (TX) varsity football team lost Thursday's away playoff game against Cuero (TX) by a score of 42-14.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2020,14 +2209,14 @@
   "filled_date": "2026-11-19",
   "filled_site": "Eagle Stadium, Pleasanton",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Eagle Stadium, Pleasanton",
   "time": "7:00 PM"
  },
  "4A D2|mp:4ccbc2a2-3669-4d67-b443-6c78dc0df118|mp:bd4dd10c-f515-42ed-899f-5ee707f00037": {
   "date": "",
   "description": "The Salado (TX) varsity football team lost Thursday's away playoff game against Wimberley (TX) by a score of 70-14.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2036,7 +2225,7 @@
   "description": "The Shepherd (TX) varsity football team is at their away playoff game @ Canton (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Madisonville High School",
   "time": ""
  },
@@ -2045,7 +2234,7 @@
   "description": "The Bowie (El Paso, TX) varsity football team lost Thursday's away playoff game against Seminole (TX) by a score of 69-0.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Seminole HS",
   "time": ""
  },
@@ -2054,14 +2243,14 @@
   "description": "The Clint (TX) varsity football team lost Thursday's away playoff game against Monahans (TX) by a score of 45-0.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Monahans High School",
   "time": ""
  },
  "4A D2|mp:7aef9350-e70e-4f92-87dc-dfbc3729b9e1|mp:a25356b9-3545-4ece-8ff2-2d460ef5d78a": {
   "date": "2026-11-13",
   "description": "The Madisonville (TX) varsity football team is at their away playoff game @ Silsbee (TX).",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Abe Martin Stadium - Lufkin, TX. Silsbee is home.",
   "time": ""
  },
@@ -2070,28 +2259,28 @@
   "description": "The Krum (TX) varsity football team won Friday's away playoff game against Kemp (TX) by a score of 72-14.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "4A D2|mp:7deffa9d-584c-4aaa-8cc1-90ae6760efe5|mp:0e7f914c-ebc9-4884-8452-32d291ea71e7": {
   "date": "2026-11-13",
   "description": "The Pittsburg (TX) varsity football team is at their away playoff game @ Sunnyvale (TX).",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "their away playoff game @ Sunnyvale (TX)",
   "time": ""
  },
  "4A D2|mp:80980c3e-d023-4fac-86ea-97e17c46b2fe|mp:991e7a51-4e62-4f55-aa2b-b166831a0345": {
   "date": "2026-11-13",
   "description": "The Van (TX) varsity football team is at their away playoff game @ West Orange-Stark (Orange, TX).",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "their away playoff game @ West Orange-Stark (Orange, TX)",
   "time": ""
  },
  "4A D2|mp:92377b02-534d-4cb9-9a3f-6563e09b78fc|mp:15a3300a-e76c-4db1-8e77-79b1fc070602": {
   "date": "2026-11-19",
   "description": "The Pleasant Grove (Texarkana, TX) varsity football team has a neutral playoff game vs. Van Alstyne (TX) , but the date has not been set.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2100,7 +2289,7 @@
   "description": "The Van Alstyne (TX) varsity football team won Thursday's neutral playoff game against Venus (TX) by a score of 71-0.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2109,7 +2298,7 @@
   "description": "The Manor New Tech (Manor, TX) varsity football team lost Thursday's neutral playoff game against La Vega (Waco, TX) by a score of 65-7.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Leo Buckley Stadium - Killeen",
   "time": ""
  },
@@ -2118,7 +2307,7 @@
   "description": "The Pecos (TX) varsity football team won Friday's away playoff game against Irvin (El Paso, TX) by a score of 52-7.",
   "filled_date": "2026-11-13",
   "filled_time": "6:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Irvin HS",
   "time": ""
  },
@@ -2127,14 +2316,14 @@
   "description": "The Giddings (TX) varsity football team lost Friday's away playoff game against Robinson (TX) by a score of 42-8.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "4A D2|mp:b8d7c027-518f-471d-b46b-97af89b291fd|mp:8a4b5d8d-e68f-4444-9350-f15d77a9b3ae": {
   "date": "2026-11-13",
   "description": "The Brownwood (TX) varsity football team is at their neutral playoff game vs. Lago Vista (TX).",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2143,14 +2332,14 @@
   "description": "The Mineral Wells (TX) varsity football team is at their neutral playoff game vs. Levelland (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details P.E. Shotwell Stadium, Abilene, Texas",
   "time": ""
  },
  "4A D2|mp:c13df5f7-d1d2-4018-803e-7ecc518b2576|mp:0fe067e2-23dd-4430-99d1-f869353eae29": {
   "date": "",
   "description": "The King (Kingsville, TX) varsity football team won Thursday's away playoff game against Bandera (TX) by a score of 36-35.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2159,14 +2348,14 @@
   "description": "The Ponder (TX) varsity football team lost Thursday's away playoff game against Glen Rose (TX) by a score of 21-14.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "4A D2|mp:ccc79ced-6601-4842-978b-8999ca23dc31|mp:e59c57a1-2080-4f3d-b660-5532bf34a950": {
   "date": "2026-11-19",
   "description": "The Carthage (TX) varsity football team has a neutral playoff game vs. Glen Rose (TX) , but the date has not been set.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2175,7 +2364,7 @@
   "description": "The Sanger (TX) varsity football team won Thursday's away playoff game against Hillsboro (TX) by a score of 71-25.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2184,35 +2373,35 @@
   "description": "The Estacado (Lubbock, TX) varsity football team is at their away playoff game @ Graham (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Sweetwater HS",
   "time": ""
  },
  "4A D2|mp:e59c57a1-2080-4f3d-b660-5532bf34a950|mp:85895d85-ae24-412b-a210-24e26ee1a367": {
   "date": "",
   "description": "The Ford (Quinlan, TX) varsity football team lost Thursday's away playoff game against Carthage (TX) by a score of 56-15.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Lindale High School",
   "time": ""
  },
  "4A D2|mp:f88147c7-49f9-44e0-a6d6-1d324e77bd18|mp:e117ce43-8323-4c6d-8716-d26c42e507a3": {
   "date": "2026-11-13",
   "description": "The North Forest (Houston, TX) varsity football team is at their neutral playoff game vs. La Marque (TX).",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Pasadena Veterans Memorial Stadium",
   "time": ""
  },
  "4A D2|mp:fb1011a8-3323-4010-847d-9308367c695b|mp:2bcf80ae-f56c-45ec-a341-6a5d8147fed0": {
   "date": "",
   "description": "The Worthing (Houston, TX) varsity football team lost Thursday's neutral playoff game against Bellville (TX) by a score of 61-6.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Pridgeon Stadium @ Cypress-Fairbanks Independent S",
   "time": ""
  },
  "4A D2|mp:ffe8f067-c164-4c5b-a98f-3e86501961de|mp:afe91e8d-f63c-4d28-9ea1-349f8ef6daf7": {
   "date": "2026-11-13",
   "description": "The Hamshire-Fannett (Hamshire, TX) varsity football team is at their away playoff game @ Athens (TX).",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "their away playoff game @ Athens (TX)",
   "time": ""
  },
@@ -2221,7 +2410,7 @@
   "description": "The El Dorado (El Paso, TX) varsity football team lost Friday's neutral playoff game against Frenship (Wolfforth, TX) by a score of 44-39.",
   "filled_date": "2026-11-13",
   "filled_time": "6:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Peoples Bank Stadium",
   "time": ""
  },
@@ -2230,7 +2419,7 @@
   "description": "The Weslaco East (Weslaco, TX) varsity football team is at their neutral playoff game vs. McAllen (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2239,7 +2428,7 @@
   "description": "The Lancaster (TX) varsity football team won Thursday's neutral playoff game against Crandall (TX) by a score of 35-14.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Tiger Stadium",
   "time": ""
  },
@@ -2248,7 +2437,7 @@
   "description": "The Anderson (Austin, TX) varsity football team is at their neutral playoff game vs. Southside (San Antonio, TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2257,7 +2446,7 @@
   "description": "The Naaman Forest (Garland, TX) varsity football team lost Friday's away playoff game against Melissa (TX) by a score of 24-14.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2266,7 +2455,7 @@
   "description": "The Iowa Colony (TX) varsity football team lost Friday's away playoff game against Weiss (Pflugerville, TX) by a score of 56-7.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2275,7 +2464,7 @@
   "description": "The Manor (TX) varsity football team is at their away playoff game @ Medina Valley (Castroville, TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "their away playoff game @ Medina Valley (Castroville, TX)",
   "time": ""
  },
@@ -2284,14 +2473,14 @@
   "description": "The Wyatt (Fort Worth, TX) varsity football team is at their away playoff game @ Denton (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Denton ISD - Bill Carrico Athletic Complex",
   "time": ""
  },
  "5A D1|mp:51e1d104-fe2b-4ae7-912b-a6f1cb26420a|mp:1a6caeca-efbf-491d-8f50-b5f7bdc30870": {
   "date": "2026-11-19",
   "description": "The Lancaster (TX) varsity football team has a neutral playoff game vs. Lone Star (Frisco, TX) , but the date has not been set.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2300,21 +2489,28 @@
   "description": "The Birdville (North Richland Hills, TX) varsity football team lost Thursday's neutral playoff game against Lone Star (Frisco, TX) by a score of 66-21.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Frisco Ford Center",
   "time": ""
  },
  "5A D1|mp:523ae181-652f-452d-8c58-2c4f94e33280|mp:abf217f7-9d7c-4fe3-989d-2ad16dfd3e23": {
   "date": "",
   "description": "The Northbrook (Houston, TX) varsity football team lost Thursday's away playoff game against La Porte (TX) by a score of 70-0.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
+  "site": "",
+  "time": ""
+ },
+ "5A D1|mp:523ae181-652f-452d-8c58-2c4f94e33280|mp:b4221f3b-9f59-4217-af34-7d1db33461e0": {
+  "date": "2026-11-19",
+  "description": "The College Station (TX) varsity football team has a neutral playoff game vs. La Porte (TX) , but the date has not been set.",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "5A D1|mp:60438c1b-ca51-4e25-9a38-4536c8f82e69|mp:3a38912a-ce12-4864-a3f8-d42c102936d7": {
   "date": "",
   "description": "The Abilene (TX) varsity football team lost Thursday's away playoff game against Hanks (El Paso, TX) by a score of 56-21.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2323,14 +2519,14 @@
   "description": "The Mansfield Summit (Arlington, TX) varsity football team is at their neutral playoff game vs. West Mesquite (Mesquite, TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Mesquite Memorial Stadium",
   "time": ""
  },
  "5A D1|mp:82c030b7-3b6b-4b7a-9074-686af2d2e7b2|mp:a1dd48c4-91fe-4f47-adcd-38c35bf797e4": {
   "date": "",
   "description": "The Goose Creek Memorial (Baytown, TX) varsity football team won Thursday's neutral playoff game against Milby (Houston, TX) by a score of 82-34.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2339,7 +2535,7 @@
   "description": "The Bel Air (El Paso, TX) varsity football team lost Friday's away playoff game against Amarillo (TX) by a score of 63-13.",
   "filled_date": "2026-11-13",
   "filled_time": "6:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Dick Bivins (Amarillo)",
   "time": ""
  },
@@ -2348,21 +2544,21 @@
   "description": "The A&M Consolidated (College Station, TX) varsity football team is at their neutral playoff game vs. Randle (Richmond, TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "5A D1|mp:8f96a6c0-af02-45a5-83fe-cc2714808f48|mp:64b145cb-b2bf-4cc2-b2a8-30e7152e6c09": {
   "date": "",
   "description": "The Georgetown (TX) varsity football team lost Friday's neutral playoff game against Angleton (TX) by a score of 17-10.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "5A D1|mp:96083d72-055b-45fe-99ae-cee075ace731|mp:a221d051-60d0-44f1-9efb-9bc1a73b9c5b": {
   "date": "",
   "description": "The Waltrip (Houston, TX) varsity football team lost Friday's neutral playoff game against Port Arthur Memorial (Port Arthur, TX) by a score of 58-0.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2371,7 +2567,14 @@
   "description": "The Flour Bluff (Corpus Christi, TX) varsity football team lost Thursday's neutral playoff game against Rowe (McAllen, TX) by a score of 44-28.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
+  "site": "",
+  "time": ""
+ },
+ "5A D1|mp:9a075e03-96fb-4f90-9768-1541d5385443|mp:20c6c691-2b21-4923-a230-637330a70a07": {
+  "date": "2026-11-19",
+  "description": "The Melissa (TX) varsity football team has a neutral playoff game vs. DeSoto (TX) , but the date has not been set.",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2380,7 +2583,7 @@
   "description": "The North Mesquite (Mesquite, TX) varsity football team lost Thursday's away playoff game against DeSoto (TX) by a score of 72-6.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2389,14 +2592,14 @@
   "description": "The Nixon (Laredo, TX) varsity football team lost Thursday's away playoff game against Smithson Valley (Spring Branch, TX) by a score of 77-15.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Smithson Valley Ranger Stadium",
   "time": ""
  },
  "5A D1|mp:9c4be553-e2ef-49a5-a55f-483d725bc1f1|mp:9684836a-0fc7-4685-99e4-1acf0f46468c": {
   "date": "2026-11-19",
   "description": "The Rowe (McAllen, TX) varsity football team has a neutral playoff game vs. Smithson Valley (Spring Branch, TX) , but the date has not been set.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2405,7 +2608,7 @@
   "description": "The Midlothian (TX) varsity football team won Friday's away playoff game against Tyler (TX) by a score of 42-35.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2414,7 +2617,7 @@
   "description": "The Reedy (Frisco, TX) varsity football team lost Friday's neutral playoff game against Richland (North Richland Hills, TX) by a score of 39-37.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Birdville  Complex",
   "time": ""
  },
@@ -2423,7 +2626,7 @@
   "description": "The Friendswood (TX) varsity football team lost Friday's away playoff game against College Station (TX) by a score of 24-21.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details College Station HS",
   "time": ""
  },
@@ -2432,21 +2635,21 @@
   "description": "The McKinney North (McKinney, TX) varsity football team lost Friday's away playoff game against Highland Park (Dallas, TX) by a score of 42-17.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Highlander Stadium",
   "time": ""
  },
  "5A D1|mp:d3f38edd-f3b3-4768-b4d7-5776cef0cf91|mp:61345212-d868-4a9e-bb71-38fb2788bca9": {
   "date": "2026-11-13",
   "description": "The Palmview (La Joya, TX) varsity football team is at their neutral playoff game vs. Carroll (Corpus Christi, TX).",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "5A D1|mp:d4bb483e-90e0-4015-98b9-91367c34e4a2|mp:acf88208-de98-4bdb-a8ac-58c1a7f9a338": {
   "date": "2026-11-19",
   "description": "The Tascosa (Amarillo, TX) varsity football team has a neutral playoff game vs. Brewer (Fort Worth, TX) , but the date has not been set.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2455,7 +2658,7 @@
   "description": "The Azle (TX) varsity football team lost Thursday's away playoff game against Brewer (Fort Worth, TX) by a score of 31-7.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2464,14 +2667,14 @@
   "description": "The Chisholm Trail (Fort Worth, TX) varsity football team lost Friday's neutral playoff game against Arlington Heights (Fort Worth, TX) by a score of 24-22.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details FWISD Farrington",
   "time": ""
  },
  "5A D1|mp:dbd78f6f-ec2e-4f4c-a33b-43c1ab8b78e3|mp:f57549e0-2b53-4dc5-a946-6ebf0b5b8ec4": {
   "date": "",
   "description": "The Beaumont United (Beaumont, TX) varsity football team won Friday's neutral playoff game against Madison (Houston, TX) by a score of 47-6.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2480,7 +2683,14 @@
   "description": "The Winn (Eagle Pass, TX) varsity football team lost Friday's neutral playoff game against Boerne-Champion (Boerne, TX) by a score of 72-0.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
+  "site": "",
+  "time": ""
+ },
+ "5A D1|mp:e90c17da-fde2-4b4d-a8fb-f78a18f734f8|mp:021ae453-329a-4cc1-9ac8-69ae2b6227bb": {
+  "date": "2026-11-19",
+  "description": "The Frenship (Wolfforth, TX) varsity football team has a neutral playoff game vs. Ryan (Denton, TX) , but the date has not been set.",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2489,15 +2699,22 @@
   "description": "The Ryan (Denton, TX) varsity football team won Thursday's neutral playoff game against Paschal (Fort Worth, TX) by a score of 48-9.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details CH Collins",
   "time": ""
  },
  "5A D1|mp:f0fde8bd-2027-4ceb-85ea-6cbaed35c079|mp:f69339b5-22d2-4afd-8809-c1c22373f8df": {
   "date": "",
   "description": "The McAllen Memorial (McAllen, TX) varsity football team lost Friday's away playoff game against Corpus Christi Veterans Memorial (Corpus Christi, TX) by a score of 59-23.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Buccaneer Stadium",
+  "time": ""
+ },
+ "5A D1|mp:f57549e0-2b53-4dc5-a946-6ebf0b5b8ec4|mp:8f96a6c0-af02-45a5-83fe-cc2714808f48": {
+  "date": "2026-11-19",
+  "description": "The Beaumont United (Beaumont, TX) varsity football team has a neutral playoff game vs. Angleton (TX) , but the date has not been set.",
+  "read": "2026-11-14T04:00:44+00:00",
+  "site": "",
   "time": ""
  },
  "5A D1|mp:fb103f2b-921c-4049-88bd-753a94b48650|mp:acf88208-de98-4bdb-a8ac-58c1a7f9a338": {
@@ -2505,7 +2722,7 @@
   "description": "The Tascosa (Amarillo, TX) varsity football team won Thursday's away playoff game against Americas (El Paso, TX) by a score of 41-38.",
   "filled_date": "2026-11-12",
   "filled_time": "6:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Socorro ISD Student Activity Cen",
   "time": ""
  },
@@ -2514,7 +2731,7 @@
   "description": "The Ennis (TX) varsity football team lost Friday's neutral playoff game against Belton (TX) by a score of 35-33.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2523,7 +2740,7 @@
   "description": "The Pioneer (Mission, TX) varsity football team lost Friday's away playoff game against Gregory-Portland (Portland, TX) by a score of 68-16.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Ray Akins Wildcat Stadium",
   "time": ""
  },
@@ -2532,7 +2749,7 @@
   "description": "The Brackenridge (San Antonio, TX) varsity football team lost Thursday's neutral playoff game against Boerne (TX) by a score of 56-14.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2541,7 +2758,7 @@
   "description": "The Liberty Hill (TX) varsity football team is at their neutral playoff game vs. Harlandale (San Antonio, TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2550,14 +2767,14 @@
   "description": "The Midlothian Heritage (Midlothian, TX) varsity football team won Friday's neutral playoff game against Ellison (Killeen, TX) by a score of 31-21.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "5A D2|mp:3de0639a-f7a5-4e1a-8c89-e0d0d0b58258|mp:f169e2e1-d884-4111-8b91-e7bda852426d": {
   "date": "",
   "description": "The Legacy Ranch (Liberty Hill, TX) varsity football team won Friday's neutral playoff game against Sam Houston (San Antonio, TX) by a score of 49-19.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2566,7 +2783,7 @@
   "description": "The Tomas (Richmond, TX) varsity football team has a neutral playoff game vs. Pflugerville (TX) on Saturday, November 14 @ 2p.",
   "filled_date": "2026-11-14",
   "filled_time": "2:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": "2:00 PM"
  },
@@ -2575,7 +2792,7 @@
   "description": "The Seguin (Arlington, TX) varsity football team is at their away playoff game @ Brenham (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Brenham Cub Stadium",
   "time": ""
  },
@@ -2584,7 +2801,7 @@
   "description": "The Celina (TX) varsity football team is at their away playoff game @ Lovejoy (Lucas, TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details @ Lovejoy 11/13 @7:30pm",
   "time": ""
  },
@@ -2593,7 +2810,7 @@
   "description": "The Burges (El Paso, TX) varsity football team lost Thursday's away playoff game against Palo Duro (Amarillo, TX) by a score of 64-7.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Dick Bivins Stadium",
   "time": ""
  },
@@ -2602,14 +2819,14 @@
   "description": "The Whitehouse (TX) varsity football team lost Thursday's away playoff game against South Oak Cliff (Dallas, TX) by a score of 46-7.",
   "filled_date": "2026-11-12",
   "filled_time": "7:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details At Kincaide  Stadium",
   "time": ""
  },
  "5A D2|mp:850020a1-7635-40fc-bfc8-f7c77d95c019|mp:49cc3751-aa79-424a-8036-42593c70617b": {
   "date": "",
   "description": "The Lake Creek (Montgomery, TX) varsity football team lost Friday's neutral playoff game against Texas City (TX) by a score of 14-9.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2618,7 +2835,7 @@
   "description": "The Wilson (Dallas, TX) varsity football team is at their neutral playoff game vs. Texas (Texarkana, TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2627,7 +2844,7 @@
   "description": "The Colleyville Heritage (Colleyville, TX) varsity football team lost Friday's away playoff game against Frisco (TX) by a score of 37-27.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2636,7 +2853,7 @@
   "description": "The Victoria West (Victoria, TX) varsity football team is at their away playoff game @ Bastrop (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "their away playoff game @ Bastrop (TX)",
   "time": ""
  },
@@ -2645,7 +2862,7 @@
   "description": "The Hallsville (TX) varsity football team is at their neutral playoff game vs. Hillcrest (Dallas, TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2654,21 +2871,28 @@
   "description": "The Sharyland (Mission, TX) varsity football team won Thursday's neutral playoff game against Pace (Brownsville, TX) by a score of 31-21.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "5A D2|mp:aab923b5-b024-432d-a17e-c5e8fbddfd9d|mp:e41933ef-bffb-4574-be33-23ff30f74c6b": {
   "date": "2026-11-19",
   "description": "The Sharyland (Mission, TX) varsity football team has a neutral playoff game vs. Alamo Heights (San Antonio, TX) , but the date has not been set.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
+  "site": "",
+  "time": ""
+ },
+ "5A D2|mp:afa276f8-84eb-4fcd-b785-18420afd50f4|mp:850020a1-7635-40fc-bfc8-f7c77d95c019": {
+  "date": "2026-11-19",
+  "description": "The Texas City (TX) varsity football team has a neutral playoff game vs. Almeta Crawford (Rosharon, TX) , but the date has not been set.",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "5A D2|mp:afa276f8-84eb-4fcd-b785-18420afd50f4|mp:86d83ae5-2f4e-40ff-a034-cb2112387588": {
   "date": "",
   "description": "The Elgin (TX) varsity football team lost Thursday's neutral playoff game against Almeta Crawford (Rosharon, TX) by a score of 56-7.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Location:  Kenneth Hall Stadium",
   "time": ""
  },
@@ -2677,7 +2901,7 @@
   "description": "The Samuell (Dallas, TX) varsity football team lost Thursday's neutral playoff game against Terrell (TX) by a score of 63-6.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2686,7 +2910,7 @@
   "description": "The Cooper (Abilene, TX) varsity football team is at their away playoff game @ Canutillo (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "6:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Canutillo HS",
   "time": ""
  },
@@ -2695,7 +2919,7 @@
   "description": "The Legacy (Wichita Falls, TX) varsity football team is at their away playoff game @ Chapin (El Paso, TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details McKee Stadium",
   "time": ""
  },
@@ -2704,7 +2928,7 @@
   "description": "The Panther Creek (Frisco, TX) varsity football team is at their away playoff game @ Argyle (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Argyle ISD Stadium - Round 1 - UIL State Playoffs",
   "time": ""
  },
@@ -2713,14 +2937,14 @@
   "description": "The Mercedes (TX) varsity football team is at their neutral playoff game vs. Mission Veterans Memorial (Mission, TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "5A D2|mp:d45fe67b-132a-4902-bb2e-9a113e25b37a|mp:53835be8-1d03-4059-9a09-49e88f682a96": {
   "date": "",
   "description": "The West Fork (Kingwood, TX) varsity football team lost Friday's neutral playoff game against Port Neches-Groves (Port Neches, TX) by a score of 52-21.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2729,14 +2953,14 @@
   "description": "The Fort Bend Marshall (Missouri City, TX) varsity football team won Friday's neutral playoff game against Crockett (Austin, TX) by a score of 49-20.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details 1st Round Bi-District Playoffs",
   "time": ""
  },
  "5A D2|mp:d60711a7-4a6a-4134-9834-2dc509231682|mp:c4980880-125a-4471-9a81-f5e14acf31c2": {
   "date": "2026-11-13",
   "description": "The Dayton (TX) varsity football team is at their neutral playoff game vs. Montgomery (TX).",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2745,7 +2969,7 @@
   "description": "The Nederland (TX) varsity football team is at their away playoff game @ Huntsville (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "their away playoff game @ Huntsville (TX)",
   "time": ""
  },
@@ -2754,7 +2978,7 @@
   "description": "The McCollum (San Antonio, TX) varsity football team lost Thursday's away playoff game against Alamo Heights (San Antonio, TX) by a score of 66-0.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2763,7 +2987,7 @@
   "description": "The Del Valle (El Paso, TX) varsity football team lost Friday's away playoff game against Wylie (Abilene, TX) by a score of 41-17.",
   "filled_date": "2026-11-13",
   "filled_time": "6:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Wylie High School",
   "time": ""
  },
@@ -2772,7 +2996,7 @@
   "description": "The Cigarroa (Laredo, TX) varsity football team lost Thursday's neutral playoff game against Ray (Corpus Christi, TX) by a score of 42-14.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2781,7 +3005,7 @@
   "description": "The Waco (TX) varsity football team lost Friday's away playoff game against Mansfield Timberview (Arlington, TX) by a score of 77-6.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Newsom Stadium",
   "time": ""
  },
@@ -2790,7 +3014,14 @@
   "description": "The Anna (TX) varsity football team is at their neutral playoff game vs. The Colony (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
+  "site": "",
+  "time": ""
+ },
+ "5A D2|mp:f169e2e1-d884-4111-8b91-e7bda852426d|mp:e74bd9fa-ed90-439d-9341-a60fb50fa7d3": {
+  "date": "2026-11-19",
+  "description": "The Legacy Ranch (Liberty Hill, TX) varsity football team has a neutral playoff game vs. Ray (Corpus Christi, TX) , but the date has not been set.",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2799,14 +3030,14 @@
   "description": "The Hebron (Carrollton, TX) varsity football team lost Thursday's away playoff game against Allen (TX) by a score of 73-0.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "6A D1|mp:0bcb98b4-30ea-4f0c-aaf5-c35f45870f53|mp:768197dc-fd50-4df1-9c27-a2c0ffffd755": {
   "date": "",
   "description": "The Deer Park (TX) varsity football team lost Thursday's away playoff game against North Shore (Houston, TX) by a score of 62-14.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2815,14 +3046,14 @@
   "description": "The Wylie (TX) varsity football team lost Friday's away playoff game against Rockwall (TX) by a score of 66-48.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "6A D1|mp:3f5f5faf-05ba-458b-ba9e-a0dc59c20fb9|mp:440703e6-1d2a-4009-bf2d-2cd5fcf2fa51": {
   "date": "",
   "description": "The Klein Collins (Spring, TX) varsity football team lost Thursday's away playoff game against Cypress Lakes (Katy, TX) by a score of 40-38.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Berry Center, 8877 Barker Cypress Rd, Cypress, TX",
   "time": ""
  },
@@ -2831,7 +3062,7 @@
   "description": "The Midland Lee (Midland, TX) varsity football team lost Thursday's away playoff game against Pebble Hills (El Paso, TX) by a score of 39-27.",
   "filled_date": "2026-11-12",
   "filled_time": "8:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details El Paso's SAC 2 Stadium",
   "time": ""
  },
@@ -2840,7 +3071,7 @@
   "description": "The Harlan (San Antonio, TX) varsity football team is at their away playoff game @ United (Laredo, TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Laredo Student Activity Center",
   "time": ""
  },
@@ -2849,7 +3080,7 @@
   "description": "The South Grand Prairie (Grand Prairie, TX) varsity football team is at their away playoff game @ Coppell (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Mustang Panther Stadium",
   "time": ""
  },
@@ -2858,7 +3089,7 @@
   "description": "The Laredo LBJ (Laredo, TX) varsity football team lost Thursday's away playoff game against Brennan (San Antonio, TX) by a score of 66-14.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Farris Stadium",
   "time": ""
  },
@@ -2868,14 +3099,14 @@
   "filled_date": "2026-11-19",
   "filled_site": "Farris Stadium",
   "filled_time": "6:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Farris Stadium",
   "time": "6:00 PM"
  },
  "6A D1|mp:554db2c5-52a3-43ec-b13c-50fc13ddc017|mp:32870375-fea3-4f6a-9842-99d52452cff6": {
   "date": "",
   "description": "The Alief Taylor (Houston, TX) varsity football team lost Friday's away playoff game against Pearland (TX) by a score of 58-14.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2884,7 +3115,7 @@
   "description": "The Bowie (Austin, TX) varsity football team is at their away playoff game @ Round Rock (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "their away playoff game @ Round Rock (TX)",
   "time": ""
  },
@@ -2893,14 +3124,14 @@
   "description": "The Arlington (TX) varsity football team is at their away playoff game @ Keller (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details BI-DISTRICT ROUND 1",
   "time": ""
  },
  "6A D1|mp:674e9e61-ea81-42ab-85f8-4aef074ee714|mp:b5edbd10-c596-45eb-8bfd-10552d863578": {
   "date": "2026-11-13",
   "description": "The Grand Oaks (Spring, TX) varsity football team is at their away playoff game @ Benjamin Davis (Houston, TX).",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Thorne Stadium",
   "time": ""
  },
@@ -2909,7 +3140,7 @@
   "description": "The Duncanville (TX) varsity football team is at their neutral playoff game vs. Midway (Waco, TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details McLane Stadium (Baylor University)",
   "time": ""
  },
@@ -2918,7 +3149,7 @@
   "description": "The Plano East (Plano, TX) varsity football team is at their away playoff game @ Trinity (Euless, TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Bedford's Pennington Field",
   "time": ""
  },
@@ -2927,21 +3158,21 @@
   "description": "The Cypress Ranch (Houston, TX) varsity football team is at their away playoff game @ Hutto (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Tigerland Stadium",
   "time": ""
  },
  "6A D1|mp:83473951-816b-4241-ab16-44ace452e14f|mp:1fb7ad95-4030-4b33-b9be-ec792f074241": {
   "date": "2026-11-13",
   "description": "The Jordan (Fulshear, TX) varsity football team is at their away playoff game @ Strake Jesuit (Houston, TX).",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Crusader Stadium",
   "time": ""
  },
  "6A D1|mp:84c0a8bb-f03b-40c7-b5c8-954a81e45bcc|mp:775f0480-6997-4f5c-9ce6-13984d2f5fa9": {
   "date": "",
   "description": "The Cypress Woods (Cypress, TX) varsity football team lost Friday's away playoff game against Klein (TX) by a score of 28-14.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -2950,14 +3181,14 @@
   "description": "The Prosper (TX) varsity football team is at their away playoff game @ Lewisville (TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "their away playoff game @ Lewisville (TX)",
   "time": ""
  },
  "6A D1|mp:a9887370-b467-4733-af86-20a4a0b4d3aa|mp:be2176cc-b1da-46e6-9bf9-fc64b33acb03": {
   "date": "",
   "description": "The Nimitz (Houston, TX) varsity football team lost Friday's away playoff game against The Woodlands (TX) by a score of 55-14.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Woodforest Bank Stadium",
   "time": ""
  },
@@ -2966,14 +3197,14 @@
   "description": "The Rockwall-Heath (Rockwall, TX) varsity football team won Friday's away playoff game against Sachse (TX) by a score of 37-33.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "6A D1|mp:b510c55b-5ef3-456f-b452-b7c2491eebdd|mp:2eca2ffb-0fb5-4902-8287-534005427352": {
   "date": "2026-11-13",
   "description": "The Summer Creek (Houston, TX) varsity football team is at their away playoff game @ Dickinson (TX).",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details BI-DISTRICT PLAYOFF",
   "time": ""
  },
@@ -2982,7 +3213,7 @@
   "description": "The Vandegrift (Austin, TX) varsity football team is at their away playoff game @ Bridgeland (Cypress, TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "their away playoff game @ Bridgeland (Cypress, TX)",
   "time": ""
  },
@@ -2991,7 +3222,7 @@
   "description": "The East Central (San Antonio, TX) varsity football team is at their neutral playoff game vs. Johnson (San Antonio, TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Comalander Stadium",
   "time": ""
  },
@@ -3000,7 +3231,7 @@
   "description": "The Weslaco (TX) varsity football team won Friday's away playoff game against Los Fresnos (TX) by a score of 43-3.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -3009,7 +3240,7 @@
   "description": "The Reagan (San Antonio, TX) varsity football team lost Thursday's away playoff game against Steele (Cibolo, TX) by a score of 44-24.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Lehnhoff Stadium",
   "time": ""
  },
@@ -3018,14 +3249,14 @@
   "description": "The Johnson (Buda, TX) varsity football team lost Friday's away playoff game against Lake Travis (Austin, TX) by a score of 45-14.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "6A D1|mp:e095cff2-1a68-48bf-a8cb-7c85ea824e67|mp:dd7f6cd3-513d-4052-afd4-928ea646ddd0": {
   "date": "2026-11-19",
   "description": "The Lake Travis (Austin, TX) varsity football team has a neutral playoff game vs. Steele (Cibolo, TX) , but the date has not been set.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -3034,7 +3265,7 @@
   "description": "The Byron Nelson (Trophy Club, TX) varsity football team is at their away playoff game @ Martin (Arlington, TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "their away playoff game @ Martin (Arlington, TX)",
   "time": ""
  },
@@ -3043,7 +3274,7 @@
   "description": "The La Joya (TX) varsity football team lost Friday's away playoff game against Harlingen (TX) by a score of 51-50.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -3052,35 +3283,35 @@
   "description": "The Eastlake (El Paso, TX) varsity football team lost Friday's away playoff game against Permian (Odessa, TX) by a score of 58-22.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Ratliff Stadium Odessa Texas 6pm CST",
   "time": ""
  },
  "6A D1|mp:eb9891a7-b1a1-4a32-b361-5e2912e8696d|mp:bf77e3be-17df-4ecb-a620-507cade6b4f4": {
   "date": "",
   "description": "The Fort Bend Travis (Richmond, TX) varsity football team lost Friday's away playoff game against Katy (TX) by a score of 59-6.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Legacy Stadium",
   "time": ""
  },
  "6A D1|mp:ee4981b9-3b4c-462c-9ac7-cbb22ec1a98e|mp:caaa42e0-2446-4f0f-a329-ad77256d673f": {
   "date": "",
   "description": "The Copperas Cove (TX) varsity football team lost Friday's away playoff game against Waxahachie (TX) by a score of 42-10.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "6A D1|mp:faa7802b-b5bb-44ad-a560-000e9a89e6df|mp:34cc3bac-1239-4793-94d1-e4b260837617": {
   "date": "2026-11-13",
   "description": "The Dawson (Pearland, TX) varsity football team is at their away playoff game @ Lamar (Houston, TX).",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "their away playoff game @ Lamar (Houston, TX)",
   "time": ""
  },
  "6A D2|mp:001aabf6-309f-4083-9e31-074b68b97a81|mp:25344d3c-9f6f-4ee5-9c86-22be0c4b4ad7": {
   "date": "2026-11-19",
   "description": "The Pieper (San Antonio, TX) varsity football team has a neutral playoff game vs. Westlake (Austin, TX) , but the date has not been set.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -3089,14 +3320,14 @@
   "description": "The Hays (Buda, TX) varsity football team lost Thursday's away playoff game against Westlake (Austin, TX) by a score of 45-0.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "6A D2|mp:06029cb1-3078-461f-bf7e-0a43acf40a7f|mp:315394e9-798b-41ad-af8d-5ea4ea66d784": {
   "date": "",
   "description": "The Dekaney (Houston, TX) varsity football team lost Thursday's neutral playoff game against College Park (The Woodlands, TX) by a score of 52-31.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -3105,14 +3336,14 @@
   "description": "The Judson (Converse, TX) varsity football team is at their away playoff game @ Brandeis (San Antonio, TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Farris Stadium",
   "time": ""
  },
  "6A D2|mp:0c82b6cb-fbfe-4204-bc05-717e542d4419|mp:27499ee4-4dfa-4420-9541-1df0cc752365": {
   "date": "2026-11-14",
   "description": "The Warren (San Antonio, TX) varsity football team has an away playoff game @ Alexander (Laredo, TX) on Saturday, November 14 @ 2p.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": "2:00 PM"
  },
@@ -3121,7 +3352,7 @@
   "description": "The Braswell (Little Elm, TX) varsity football team lost Friday's away playoff game against Walnut Grove (Prosper, TX) by a score of 31-27.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Bi District - at Children's Health Stadium",
   "time": ""
  },
@@ -3130,21 +3361,21 @@
   "description": "The Churchill (San Antonio, TX) varsity football team lost Thursday's neutral playoff game against Pieper (San Antonio, TX) by a score of 21-9.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "6A D2|mp:2660bce4-d12b-4e3c-8a9e-2036a7caf5f3|mp:be659aa5-a00a-4d04-95a9-6f53755eadc9": {
   "date": "2026-11-13",
   "description": "The Willis (TX) varsity football team is at their neutral playoff game vs. Westfield (Houston, TX).",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "6A D2|mp:2c86ab29-2f04-4812-ac27-53de267a76af|mp:ce271035-67da-4c71-b085-b0a727d8e722": {
   "date": "",
   "description": "The Rowlett (TX) varsity football team lost Friday's neutral playoff game against Longview (TX) by a score of 42-20.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -3153,7 +3384,7 @@
   "description": "The East View (Georgetown, TX) varsity football team lost Thursday's away playoff game against Fulshear (TX) by a score of 45-13.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -3162,7 +3393,7 @@
   "description": "The North Forney (Forney, TX) varsity football team is at their away playoff game @ Wylie East (Wylie, TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Wylie ISD Stadium",
   "time": ""
  },
@@ -3171,21 +3402,21 @@
   "description": "The Edinburg (TX) varsity football team lost Thursday's away playoff game against Pharr-San Juan-Alamo North (Pharr, TX) by a score of 64-10.",
   "filled_date": "2026-11-12",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "6A D2|mp:4a5796c8-ffc7-4f10-bf6b-ee983f1b5922|mp:6d023138-4e48-4cc0-b8de-0111563c40eb": {
   "date": "",
   "description": "The Heights (Houston, TX) varsity football team lost Thursday's away playoff game against Shadow Creek (Pearland, TX) by a score of 48-10.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Game will be played at Alvin ISD Freedom Field",
   "time": ""
  },
  "6A D2|mp:4b731f39-bb94-4a4f-9a29-360908c3f94b|mp:ffa488aa-4762-42e9-acab-efa2967397db": {
   "date": "",
   "description": "The Haltom (Haltom City, TX) varsity football team lost Friday's away playoff game against Lake Highlands (Dallas, TX) by a score of 35-13.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Wildcat-Ram Stadium",
   "time": ""
  },
@@ -3194,21 +3425,21 @@
   "description": "The Franklin (El Paso, TX) varsity football team lost Friday's away playoff game against Midland (TX) by a score of 35-24.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "6A D2|mp:6c52102d-93b7-4b91-a3b1-809756bf5223|mp:31c3502e-be12-4d96-bce4-7c0b2227254e": {
   "date": "2026-11-19",
   "description": "The Ridge Point (Missouri City, TX) varsity football team has a neutral playoff game vs. Fulshear (TX) , but the date has not been set.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "6A D2|mp:6c52102d-93b7-4b91-a3b1-809756bf5223|mp:5bd84368-72de-455b-99bd-cfe1ab8cdb8d": {
   "date": "",
   "description": "The Katy Taylor (Katy, TX) varsity football team lost Friday's away playoff game against Ridge Point (Missouri City, TX) by a score of 42-0.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Hall Stadium",
   "time": ""
  },
@@ -3217,7 +3448,7 @@
   "description": "The Bell (Hurst, TX) varsity football team is at their neutral playoff game vs. Berkner (Richardson, TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Coppell's Echols Field",
   "time": ""
  },
@@ -3226,7 +3457,7 @@
   "description": "The Waller (TX) varsity football team won Friday's away playoff game against Cedar Park (TX) in overtime by a score of 44-41.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -3235,14 +3466,14 @@
   "description": "No result has been reported for the San Angelo Central (San Angelo, TX) varsity football away playoff game @ Eastwood (El Paso, TX).",
   "filled_date": "2026-11-13",
   "filled_time": "6:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Trooper Stadium",
   "time": ""
  },
  "6A D2|mp:9426bc41-6bf4-40b3-adca-9e0e43693e64|mp:1d8ce25d-8f41-4235-846f-eba8c7051484": {
   "date": "",
   "description": "The Magnolia (TX) varsity football team lost Friday's neutral playoff game against Cypress Falls (Houston, TX) by a score of 35-26.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -3251,7 +3482,7 @@
   "description": "The Veterans Memorial (Brownsville, TX) varsity football team is at their away playoff game @ Vela (Edinburg, TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:30 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Richard Flores Stadium Edinburg, Texas",
   "time": ""
  },
@@ -3260,7 +3491,7 @@
   "description": "The Rock Hill (Frisco, TX) varsity football team lost Friday's away playoff game against Guyer (Denton, TX) by a score of 45-13.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Denton's Collins Stadium",
   "time": ""
  },
@@ -3269,14 +3500,14 @@
   "description": "The Cedar Ridge (Round Rock, TX) varsity football team lost Friday's neutral playoff game against Dripping Springs (TX) by a score of 42-35.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "6A D2|mp:b4965d0e-831a-43a8-a37d-3943386aca73|mp:435246ce-9c84-4187-b1cd-7b7e403aa4a7": {
   "date": "",
   "description": "The Fort Bend Hightower (Missouri City, TX) varsity football team lost Thursday's away playoff game against Tompkins (Katy, TX) by a score of 36-22.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Legacy Stadium, 1830 Katyland Dr, Katy, TX 77493",
   "time": ""
  },
@@ -3285,28 +3516,28 @@
   "description": "The Red Oak (TX) varsity football team won Friday's neutral playoff game against Harker Heights (TX) by a score of 31-27.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "6A D2|mp:d874e33f-7e4b-4222-9538-bef0f64f1e47|mp:2556953b-acd8-4a89-9763-d0fab04e1aac": {
   "date": "2026-11-13",
   "description": "The Atascocita (Humble, TX) varsity football team is at their neutral playoff game vs. Barbers Hill (Mt. Belvieu, TX).",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details 6A-D2 Bi-District Playoff",
   "time": ""
  },
  "6A D2|mp:dbe44b91-13a1-4d0d-8f57-09791381aaca|mp:d8af3744-b589-4a12-b5bf-ca8053a8143c": {
   "date": "",
   "description": "The Langham Creek (Houston, TX) varsity football team won Friday's neutral playoff game against Tomball (TX) by a score of 45-28.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
  "6A D2|mp:e78f7230-8c7b-4582-aa8c-aa1fa20c34fb|mp:f499e413-1526-400f-bf96-901429c6c741": {
   "date": "",
   "description": "The Manvel (TX) varsity football team lost Friday's away playoff game against Memorial (Houston, TX) by a score of 34-28.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -3315,7 +3546,7 @@
   "description": "The Lake Belton (Temple, TX) varsity football team lost Friday's away playoff game against North Crowley (Fort Worth, TX) by a score of 55-0.",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Crowley ISD Multi-Purpose Stadium - Fort Worth",
   "time": ""
  },
@@ -3324,21 +3555,28 @@
   "description": "The Aledo (TX) varsity football team is at their away playoff game @ Keller Central (Keller, TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Fort Worth's Kight Stadium",
+  "time": ""
+ },
+ "6A D2|mp:f574c035-ca19-4267-ba0f-e046392a7ba8|mp:4a5796c8-ffc7-4f10-bf6b-ee983f1b5922": {
+  "date": "2026-11-19",
+  "description": "The King (Houston, TX) varsity football team has a neutral playoff game vs. Shadow Creek (Pearland, TX) , but the date has not been set.",
+  "read": "2026-11-14T04:00:44+00:00",
+  "site": "",
   "time": ""
  },
  "6A D2|mp:f574c035-ca19-4267-ba0f-e046392a7ba8|mp:93e448a3-d7b9-4b28-b263-d40d9c53d415": {
   "date": "",
   "description": "The Clear Springs (League City, TX) varsity football team lost Friday's neutral playoff game against King (Houston, TX) by a score of 77-14.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Bi-District",
   "time": ""
  },
  "6A D2|mp:f5a92668-e5bc-497c-b87a-cd0c4736ed9a|mp:52047b67-3a05-463f-9548-27ecbefb36d1": {
   "date": "",
   "description": "The Eagle Pass (TX) varsity football team lost Thursday's neutral playoff game against Sotomayor (San Antonio, TX) by a score of 25-0.",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "",
   "time": ""
  },
@@ -3347,7 +3585,7 @@
   "description": "The Weatherford (TX) varsity football team is at their away playoff game @ Southlake Carroll (Southlake, TX).",
   "filled_date": "2026-11-13",
   "filled_time": "7:00 PM",
-  "read": "2026-11-14T03:45:24+00:00",
+  "read": "2026-11-14T04:00:44+00:00",
   "site": "Game Details Bi-District Playoff Game",
   "time": ""
  }
