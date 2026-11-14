@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-14T07:27+00:00",
+    "updated": "2026-11-14T07:57+00:00",
     "games": 520,
     "played": 344,
     "assigned": 356,
@@ -7306,7 +7306,7 @@
       "round": "Bi-District",
       "chapter": "HOU",
       "team1": "Houston Memorial",
-      "score1": 34,
+      "score1": 35,
       "team2": "Manvel",
       "score2": 28,
       "winner": "Houston Memorial",

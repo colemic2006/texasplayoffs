@@ -130,5 +130,16 @@
   "new": "El Paso Irvin 14, Pecos 52",
   "at": "2026-11-14T05:30+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "Houston Memorial",
+  "team2": "Manvel",
+  "field": "score",
+  "old": "Houston Memorial 34, Manvel 28",
+  "new": "Houston Memorial 35, Manvel 28",
+  "at": "2026-11-14T07:57+00:00",
+  "status": "changed"
  }
 ]
