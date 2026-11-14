@@ -460,6 +460,17 @@ def prefill(year):
             key = g[f'key{i}']
             sources[key] = dict(source_name=g[f'team{i}'], classification=g['cls'], opponent=g[f'team{o}'])
             resolved[key] = resolver.resolve(key, g[f'team{i}'], g['cls'])
+    # a school already on the workbook under a settled name (a rename or merge done by hand) keeps
+    # that name in its new games, instead of coming back as the source spelling with a "(?)"
+    on_file = {}
+    for r in rows:
+        for s in (1, 2):
+            k, n = r[f'key{s}'], r[f'team{s}']
+            if k and n and k in sources and n != sources[k]['source_name']:
+                on_file.setdefault(k, set()).add(n)
+    for k, names in on_file.items():
+        if resolved.get(k, (None,))[0] is None and len(names) == 1:
+            resolved[k] = (next(iter(names)), 'workbook', [])
     taken = {}
     for key, (name, how, _) in resolved.items():
         if name:
