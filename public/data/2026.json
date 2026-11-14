@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-14T05:11+00:00",
-    "games": 507,
-    "played": 334,
+    "updated": "2026-11-14T05:30+00:00",
+    "games": 513,
+    "played": 338,
     "assigned": 352,
     "weeks": {
       "1": {
@@ -12,7 +12,7 @@
         "assigned": 352
       },
       "2": {
-        "games": 155,
+        "games": 161,
         "assigned": 0
       },
       "3": {
@@ -1186,10 +1186,10 @@
       "round": "Bi-District",
       "chapter": "AMA",
       "team1": "Tulia",
-      "score1": null,
+      "score1": 58,
       "team2": "Sanford-Fritch",
-      "score2": null,
-      "winner": null,
+      "score2": 36,
+      "winner": "Tulia",
       "site": "Happy State Bank Stadium, Canyon",
       "lat": 35.01197,
       "lng": -101.91654,
@@ -4356,10 +4356,10 @@
       "round": "Bi-District",
       "chapter": "HOU",
       "team1": "West Orange-Stark",
-      "score1": null,
+      "score1": 40,
       "team2": "Van",
-      "score2": null,
-      "winner": null,
+      "score2": 36,
+      "winner": "West Orange-Stark",
       "site": "New Caney ISD Randall Reed Stadium",
       "lat": 30.13568,
       "lng": -95.23305,
@@ -4735,7 +4735,7 @@
       "round": "Bi-District",
       "chapter": "FTW",
       "team1": "El Paso Irvin",
-      "score1": 7,
+      "score1": 14,
       "team2": "Pecos",
       "score2": 52,
       "winner": "Pecos",
@@ -4746,7 +4746,16 @@
       "map_link": "https://goo.gl/maps/2yHJacDAySN1G75e7",
       "city": "El Paso",
       "date": "2026-11-13",
-      "time": "6:30 PM"
+      "time": "6:30 PM",
+      "changes": [
+        {
+          "field": "score",
+          "old": "El Paso Irvin 7, Pecos 52",
+          "new": "El Paso Irvin 14, Pecos 52",
+          "at": "2026-11-14T05:30+00:00",
+          "status": "changed"
+        }
+      ]
     },
     {
       "year": 2026,
@@ -6382,10 +6391,10 @@
       "round": "Bi-District",
       "chapter": "DAL",
       "team1": "Lewisville",
-      "score1": null,
+      "score1": 34,
       "team2": "Prosper",
-      "score2": null,
-      "winner": null,
+      "score2": 24,
+      "winner": "Lewisville",
       "site": "Goldsmith Stadium, Lewisville",
       "lat": 33.04112,
       "lng": -97.0183,
@@ -6697,10 +6706,10 @@
       "round": "Bi-District",
       "chapter": "HOU",
       "team1": "Houston Benjamin Davis",
-      "score1": null,
+      "score1": 35,
       "team2": "Grand Oaks",
-      "score2": null,
-      "winner": null,
+      "score2": 28,
+      "winner": "Houston Benjamin Davis",
       "site": "Aldine ISD Thorne Stadium",
       "lat": 29.93033,
       "lng": -95.3205,
@@ -7786,6 +7795,18 @@
     },
     {
       "year": 2026,
+      "classification": "2A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Tulia",
+      "score1": null,
+      "team2": "Ballinger",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
       "classification": "2A D2",
       "week": 2,
       "round": "Area",
@@ -8338,6 +8359,18 @@
     },
     {
       "year": 2026,
+      "classification": "3A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Jefferson",
+      "score1": null,
+      "team2": "Hardin",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
       "classification": "4A D1",
       "week": 2,
       "round": "Area",
@@ -8672,6 +8705,18 @@
     },
     {
       "year": 2026,
+      "classification": "4A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "West Orange-Stark",
+      "score1": null,
+      "team2": "Hitchcock",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
       "classification": "5A D1",
       "week": 2,
       "round": "Area",
@@ -8985,6 +9030,18 @@
     },
     {
       "year": 2026,
+      "classification": "5A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Bastrop",
+      "score1": null,
+      "team2": "Huntsville",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
       "classification": "6A D1",
       "week": 2,
       "round": "Area",
@@ -9156,6 +9213,30 @@
       "team1": "Humble Summer Creek",
       "score1": null,
       "team2": "Houston Lamar",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "6A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Lewisville",
+      "score1": null,
+      "team2": "Coppell",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "6A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Houston Benjamin Davis",
+      "score1": null,
+      "team2": "Katy Cypress Lakes",
       "score2": null,
       "winner": null
     },
