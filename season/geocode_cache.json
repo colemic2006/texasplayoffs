@@ -2541,6 +2541,19 @@
   "stadium": null,
   "stadium_id": null
  },
+ "House Park, Austin, TX || Thrall v Blanco": {
+  "address": "1301 Shoal Creek Blvd, Austin, Texas 78701",
+  "city": "Austin",
+  "how": "stadium (map link)",
+  "lat": 30.27869,
+  "link_tried": true,
+  "lng": -97.74934,
+  "map_link": "https://goo.gl/maps/7dmXX6Uuka3tSLcF6",
+  "rules": 10,
+  "site": "House Park, Austin, TX",
+  "stadium": "House Park Stadium",
+  "stadium_id": 8
+ },
  "Houston ISD Barnett Stadium || Houston Milby v Baytown Goose Creek Memorial": {
   "address": "6800 Fairway, Houston, Texas 77087",
   "city": "Houston",

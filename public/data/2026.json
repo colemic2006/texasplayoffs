@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-14T15:28+00:00",
+    "updated": "2026-11-14T15:40+00:00",
     "games": 521,
     "played": 345,
     "assigned": 356,
@@ -8334,7 +8334,15 @@
       "score1": null,
       "team2": "Blanco",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "House Park, Austin, TX",
+      "lat": 30.27869,
+      "lng": -97.74934,
+      "stadium": "House Park Stadium",
+      "map_link": "https://goo.gl/maps/7dmXX6Uuka3tSLcF6",
+      "city": "Austin",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
