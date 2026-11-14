@@ -74,6 +74,19 @@
   "stadium": "Abe Martin Stadium",
   "stadium_id": 417
  },
+ "Abernathy High School || Gruver v McCamey": {
+  "address": "901 Avenue H, Abernathy, Texas 79311",
+  "city": "Abernathy",
+  "how": "school (map link)",
+  "lat": 33.83023,
+  "link_tried": true,
+  "lng": -101.84873,
+  "map_link": "https://goo.gl/maps/tPyaEW5NrQgX1iCx5",
+  "rules": 10,
+  "site": "Abernathy High School",
+  "stadium": "Antelope Stadium",
+  "stadium_id": 719
+ },
  "Abilene Christian University || Lubbock Liberty v Burkburnett": {
   "address": "2225 Oliver Jackson Boulevard, Abilene, Texas 79602",
   "city": "Abilene",
@@ -1688,6 +1701,19 @@
   "site": "El Paso's SAC 2 Stadium",
   "stadium": null,
   "stadium_id": null
+ },
+ "Ellis Stadium - Irving, Tx || North Forney v North Crowley": {
+  "address": "600 E. 6th Street, Irving, Texas 75060",
+  "city": "Irving",
+  "how": "stadium (map link)",
+  "lat": 32.80768,
+  "link_tried": true,
+  "lng": -96.93759,
+  "map_link": "https://goo.gl/maps/QLFBhBUBoXdQ5CT36",
+  "rules": 10,
+  "site": "Ellis Stadium - Irving, Tx",
+  "stadium": "Joy & Ralph Ellis Stadium",
+  "stadium_id": 263
  },
  "Ellis Stadium, Irving || Fort Worth Eastern Hills v Dallas Wilmer-Hutchins": {
   "address": "600 E. 6th Street, Irving, Texas 75060",

@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-14T05:30+00:00",
+    "updated": "2026-11-14T05:43+00:00",
     "games": 513,
     "played": 338,
     "assigned": 352,
@@ -7899,7 +7899,15 @@
       "score1": null,
       "team2": "McCamey",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Abernathy High School",
+      "lat": 33.83023,
+      "lng": -101.84873,
+      "stadium": "Antelope Stadium",
+      "map_link": "https://goo.gl/maps/tPyaEW5NrQgX1iCx5",
+      "city": "Abernathy",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9397,7 +9405,15 @@
       "score1": null,
       "team2": "North Crowley",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Ellis Stadium - Irving, Tx",
+      "lat": 32.80768,
+      "lng": -96.93759,
+      "stadium": "Joy & Ralph Ellis Stadium",
+      "map_link": "https://goo.gl/maps/QLFBhBUBoXdQ5CT36",
+      "city": "Irving",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
