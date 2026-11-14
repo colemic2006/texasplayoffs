@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-14T02:28+00:00",
-    "games": 382,
-    "played": 131,
+    "updated": "2026-11-14T02:59+00:00",
+    "games": 383,
+    "played": 133,
     "assigned": 352,
     "weeks": {
       "1": {
@@ -12,7 +12,7 @@
         "assigned": 352
       },
       "2": {
-        "games": 30,
+        "games": 31,
         "assigned": 0
       },
       "3": {
@@ -3696,10 +3696,10 @@
       "round": "Bi-District",
       "chapter": "SPC",
       "team1": "El Paso Andress",
-      "score1": null,
+      "score1": 34,
       "team2": "Dumas",
-      "score2": null,
-      "winner": null,
+      "score2": 10,
+      "winner": "El Paso Andress",
       "site": "Denver City High School, Football Field",
       "lat": 32.97337,
       "lng": -102.83726,
@@ -5175,10 +5175,10 @@
       "round": "Bi-District",
       "chapter": "PBC",
       "team1": "Amarillo High",
-      "score1": null,
+      "score1": 63,
       "team2": "El Paso Bel Air",
-      "score2": null,
-      "winner": null,
+      "score2": 13,
+      "winner": "Amarillo High",
       "site": "Dick Bivins (Amarillo)",
       "lat": 35.20023,
       "lng": -101.81035,
@@ -7755,6 +7755,18 @@
       "city": "Pleasanton",
       "date": "2026-11-19",
       "time": "7:00 PM"
+    },
+    {
+      "year": 2026,
+      "classification": "4A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Lubbock Liberty",
+      "score1": null,
+      "team2": "Monahans",
+      "score2": null,
+      "winner": null
     },
     {
       "year": 2026,
