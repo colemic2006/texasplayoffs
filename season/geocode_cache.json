@@ -917,6 +917,19 @@
   "stadium": "Chaparral Stadium",
   "stadium_id": 3
  },
+ "Children's Health Stadium - Prosper ISD || Prosper Walnut Grove v Hurst Bell": {
+  "address": "2000 Stadium Drive, Prosper, Texas 75078",
+  "city": "Prosper",
+  "how": "stadium (map link)",
+  "lat": 33.26068,
+  "link_tried": true,
+  "lng": -96.8042,
+  "map_link": "https://goo.gl/maps/D7qScRX8Tt9kchyAA",
+  "rules": 10,
+  "site": "Children's Health Stadium - Prosper ISD",
+  "stadium": "Children's Health Stadium",
+  "stadium_id": 2439
+ },
  "Children's Health Stadium || Prosper Walnut Grove v Braswell": {
   "address": "2000 Stadium Drive, Prosper, Texas 75078",
   "city": "Prosper",

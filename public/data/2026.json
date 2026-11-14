@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-14T14:56+00:00",
+    "updated": "2026-11-14T15:10+00:00",
     "games": 521,
     "played": 345,
     "assigned": 356,
@@ -9088,7 +9088,9 @@
       "score1": null,
       "team2": "Celina",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "date": "2026-11-20",
+      "time": "6:30 PM"
     },
     {
       "year": 2026,
@@ -9462,7 +9464,15 @@
       "score1": null,
       "team2": "Hurst Bell",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Children's Health Stadium - Prosper ISD",
+      "lat": 33.26068,
+      "lng": -96.8042,
+      "stadium": "Children's Health Stadium",
+      "map_link": "https://goo.gl/maps/D7qScRX8Tt9kchyAA",
+      "city": "Prosper",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
