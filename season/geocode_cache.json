@@ -4740,6 +4740,19 @@
   "stadium": "Art Briles Stadium",
   "stadium_id": 5788
  },
+ "Sterling City High School || Borden County v Water Valley": {
+  "address": "700 7th St, Sterling City, Texas 76951",
+  "city": "Sterling City",
+  "how": "school (map link)",
+  "lat": 31.84039,
+  "link_tried": true,
+  "lng": -100.98973,
+  "map_link": "https://goo.gl/maps/UkbX6mwgTKGdcLHg7",
+  "rules": 10,
+  "site": "Sterling City High School",
+  "stadium": "Eagle Stadium",
+  "stadium_id": 493
+ },
  "Sterling City High School || Robert Lee v Water Valley": {
   "address": "700 7th St, Sterling City, Texas 76951",
   "city": "Sterling City",
