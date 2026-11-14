@@ -1836,6 +1836,20 @@
   "stadium": "Dub Farris Athletic Complex",
   "stadium_id": 844
  },
+ "Farris Stadium || San Antonio Brennan v Weslaco": {
+  "address": "Loop 1604 at Hausman Rd., San Antonio, Texas 78249",
+  "city": "San Antonio",
+  "confirmed_as": "Farris Stadium, San Antonio",
+  "how": "stadium (map link)",
+  "lat": 29.56343,
+  "link_tried": true,
+  "lng": -98.65351,
+  "map_link": "https://goo.gl/maps/UK67RFFcHwJrxTyy9",
+  "rules": 10,
+  "site": "Farris Stadium",
+  "stadium": "Dub Farris Athletic Complex",
+  "stadium_id": 844
+ },
  "Flores Stadium, Edinburg || Edinburg Vela v Brownsville Veterans Memorial": {
   "address": "1800 S Stadium Dr, Edinburg, Texas 78539",
   "city": "Edinburg",
