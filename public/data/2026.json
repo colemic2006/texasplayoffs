@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-14T13:10+00:00",
+    "updated": "2026-11-14T14:09+00:00",
     "games": 521,
     "played": 345,
     "assigned": 356,
@@ -9016,7 +9016,9 @@
       "score1": null,
       "team2": "Corpus Christi Ray",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
