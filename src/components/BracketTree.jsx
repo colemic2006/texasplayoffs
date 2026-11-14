@@ -1,4 +1,5 @@
-import React, { useMemo, useState } from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
+import { createPortal } from 'react-dom'
 import { placeName, gameWhen } from '../placeName'
 import { chapterColor, UNASSIGNED } from '../chapterColors'
 import { hasChanges, changeText, ALERT } from '../changes'
@@ -91,6 +92,7 @@ export default function BracketTree({ data, year }) {
   const [from, setFrom] = useState(0)
   const [follow, setFollow] = useState(null)
   const [onlyCh, setOnlyCh] = useState(null)
+  const [printing, setPrinting] = useState(null)   // divisions being printed, or null
 
   const bracket = useMemo(() => current ? buildBracket(games.filter(g => g.classification === current)) : null, [games, current])
   if (!bracket) return null
@@ -113,8 +115,12 @@ export default function BracketTree({ data, year }) {
     background: on ? 'var(--burnt)' : 'transparent', color: on ? '#fff' : 'var(--mid)',
   })
 
+  const pdfBtn = { fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.08em', padding:'5px 10px', borderRadius:4, cursor:'pointer',
+                  border:'1px solid var(--burnt)', background:'transparent', color:'var(--burnt)', fontWeight:600 }
+
   return (
     <div>
+      {printing && <PrintBrackets games={games} classes={printing} year={year} inProgress={inProgress} onDone={() => setPrinting(null)} />}
       <div style={{ display:'flex', gap:4, flexWrap:'wrap', marginBottom:10 }}>
         {classes.map(c => <button key={c} onClick={() => { setCls(c); setFollow(null); setOnlyCh(null) }} style={chip(c === current)}>{c}</button>)}
       </div>
@@ -151,47 +157,109 @@ export default function BracketTree({ data, year }) {
       <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, padding:'16px 16px 20px' }}>
         <div style={{ display:'flex', justifyContent:'space-between', alignItems:'baseline', flexWrap:'wrap', gap:8, marginBottom:4 }}>
           <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:26, color:'var(--ink)', lineHeight:1 }}>{year} {current}</div>
+          <div style={{ display:'flex', gap:6 }}>
+            <button onClick={() => setPrinting([current])} style={pdfBtn} title="Opens your browser's print window: choose Save as PDF">⤓ PDF: {current}</button>
+            <button onClick={() => setPrinting(classes)} style={pdfBtn} title="Every division, one per page">⤓ PDF: all divisions</button>
+          </div>
           <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)' }}>
             {champ ? <>State champion: <strong style={{ color:'var(--burnt)' }}>{champ}</strong></> : 'Click a team to follow its path · chapter codes on each game'}
           </div>
         </div>
         <div style={{ overflowX:'auto', paddingBottom:6 }}>
-          <div style={{ display:'flex', gap:GAP, width, margin:'10px 0 6px' }}>
-            {cols.map((_, i) => (
-              <div key={i} style={{ width:BOX_W, flexShrink:0, fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--mid)' }}>
-                {names[start + i]}
-              </div>
-            ))}
-          </div>
-          <div style={{ position:'relative', width, height }}>
-            <svg width={width} height={height} style={{ position:'absolute', inset:0 }} aria-hidden="true">
-              {cols.slice(1).map((col, i) => col.map((g, k) => {
-                const r = i + 1
-                const xa = x(i) + BOX_W, xb = x(r), xm = xa + GAP / 2
-                const yb = y(r, k) + BOX_H / 2
-                const ya1 = y(i, 2 * k) + BOX_H / 2, ya2 = y(i, 2 * k + 1) + BOX_H / 2
-                const on = follow && (has(g, follow) || has(cols[i][2 * k], follow) || has(cols[i][2 * k + 1], follow))
-                const lit = t => follow && has(cols[i][t], follow) && has(g, follow)
-                return (
-                  <g key={`${r}-${k}`} fill="none" strokeWidth={1}>
-                    <path d={`M${xa},${ya1} H${xm} V${yb}`} stroke={lit(2 * k) ? 'var(--burnt)' : 'var(--border)'} strokeWidth={lit(2 * k) ? 2 : 1} />
-                    <path d={`M${xa},${ya2} H${xm} V${yb}`} stroke={lit(2 * k + 1) ? 'var(--burnt)' : 'var(--border)'} strokeWidth={lit(2 * k + 1) ? 2 : 1} />
-                    <path d={`M${xm},${yb} H${xb}`} stroke={on && has(g, follow) ? 'var(--burnt)' : 'var(--border)'} strokeWidth={on && has(g, follow) ? 2 : 1} />
-                  </g>
-                )
-              }))}
-            </svg>
-            {cols.map((col, i) => col.map((g, k) => (
-              <Box key={`${i}-${k}`} g={g} left={x(i)} top={y(i, k)} follow={follow} setFollow={setFollow}
-                   inProgress={inProgress} final={start + i === R - 1} onlyCh={onlyCh} />
-            )))}
-          </div>
+          <TreeView slots={slots} names={names} R={R} start={start} follow={follow} setFollow={setFollow}
+                    inProgress={inProgress} onlyCh={onlyCh} />
         </div>
       </div>
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6 }}>
         Brackets are drawn from the UIL and MaxPreps brackets and fill in as results come in. Hover a game for its site and date.
       </div>
     </div>
+  )
+}
+
+// the drawn bracket (column titles, connector lines, game boxes) from column `start` on
+function TreeView({ slots, names, R, start, follow = null, setFollow = () => {}, inProgress, onlyCh = null }) {
+  const cols = slots.slice(start)
+  const height = cols[0].length * ROW
+  const width = cols.length * (BOX_W + GAP) - GAP
+  const y = (r, k) => (k * 2 ** r + (2 ** r - 1) / 2) * ROW + (ROW - BOX_H) / 2
+  const x = r => r * (BOX_W + GAP)
+  return (
+    <div style={{ width }}>
+      <div style={{ display:'flex', gap:GAP, width, margin:'10px 0 6px' }}>
+        {cols.map((_, i) => (
+          <div key={i} style={{ width:BOX_W, flexShrink:0, fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--mid)' }}>
+            {names[start + i]}
+          </div>
+        ))}
+      </div>
+      <div style={{ position:'relative', width, height }}>
+        <svg width={width} height={height} style={{ position:'absolute', inset:0 }} aria-hidden="true">
+          {cols.slice(1).map((col, i) => col.map((g, k) => {
+            const r = i + 1
+            const xa = x(i) + BOX_W, xb = x(r), xm = xa + GAP / 2
+            const yb = y(r, k) + BOX_H / 2
+            const ya1 = y(i, 2 * k) + BOX_H / 2, ya2 = y(i, 2 * k + 1) + BOX_H / 2
+            const on = follow && (has(g, follow) || has(cols[i][2 * k], follow) || has(cols[i][2 * k + 1], follow))
+            const lit = t => follow && has(cols[i][t], follow) && has(g, follow)
+            return (
+              <g key={`${r}-${k}`} fill="none" strokeWidth={1}>
+                <path d={`M${xa},${ya1} H${xm} V${yb}`} stroke={lit(2 * k) ? 'var(--burnt)' : '#c9c2b8'} strokeWidth={lit(2 * k) ? 2 : 1} />
+                <path d={`M${xa},${ya2} H${xm} V${yb}`} stroke={lit(2 * k + 1) ? 'var(--burnt)' : '#c9c2b8'} strokeWidth={lit(2 * k + 1) ? 2 : 1} />
+                <path d={`M${xm},${yb} H${xb}`} stroke={on && has(g, follow) ? 'var(--burnt)' : '#c9c2b8'} strokeWidth={on && has(g, follow) ? 2 : 1} />
+              </g>
+            )
+          }))}
+        </svg>
+        {cols.map((col, i) => col.map((g, k) => (
+          <Box key={`${i}-${k}`} g={g} left={x(i)} top={y(i, k)} follow={follow} setFollow={setFollow}
+               inProgress={inProgress} final={start + i === R - 1} onlyCh={onlyCh} />
+        )))}
+      </div>
+    </div>
+  )
+}
+
+// Print-only copy of one or more divisions, one per page, each scaled to fit a letter page.
+// Rendered into <body> so print CSS can hide the rest of the site (see .print-root in index.css).
+const PAGE_W = 740, PAGE_H = 900   // CSS pixels of a letter page inside 0.35in margins, less the title
+function PrintBrackets({ games, classes, year, inProgress, onDone }) {
+  useEffect(() => {
+    document.body.classList.add('printing')
+    const done = () => { document.body.classList.remove('printing'); onDone() }
+    window.addEventListener('afterprint', done, { once: true })
+    const t = setTimeout(() => window.print(), 300)
+    return () => { clearTimeout(t); window.removeEventListener('afterprint', done); document.body.classList.remove('printing') }
+  }, [])
+  const printed = new Date().toLocaleString('en-US', { month:'short', day:'numeric', year:'numeric', hour:'numeric', minute:'2-digit', timeZone:'America/Chicago' })
+  return createPortal(
+    <div className="print-root">
+      {classes.map(c => {
+        const b = buildBracket(games.filter(g => g.classification === c))
+        const width = b.slots.length * (BOX_W + GAP) - GAP, height = b.slots[0].length * ROW + 30
+        const scale = Math.min(1, PAGE_W / width, PAGE_H / height)
+        const champ = winnerOf(b.slots[b.R - 1][0])
+        return (
+          <div key={c} className="print-page">
+            <div style={{ display:'flex', justifyContent:'space-between', alignItems:'baseline', borderBottom:'2px solid #461D7C', paddingBottom:4, marginBottom:6 }}>
+              <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:26, color:'#0F0D0B' }}>{year} UIL Football Playoffs · {c}</div>
+              <div style={{ fontFamily:'var(--mono)', fontSize:9, color:'#6B6058', textAlign:'right' }}>
+                {champ ? `State champion: ${champ} · ` : ''}texasplayoffs.com · printed {printed} CT
+              </div>
+            </div>
+            <div style={{ width: width * scale, height: height * scale, overflow:'hidden' }}>
+              <div style={{ transform:`scale(${scale})`, transformOrigin:'top left' }}>
+                <TreeView slots={b.slots} names={b.names} R={b.R} start={0} inProgress={inProgress} />
+              </div>
+            </div>
+            <div style={{ fontFamily:'var(--mono)', fontSize:8, color:'#6B6058', marginTop:6 }}>
+              Colored tab = officiating chapter (? = not assigned yet). Brackets from the UIL and MaxPreps brackets; check texasplayoffs.com for the latest.
+            </div>
+          </div>
+        )
+      })}
+    </div>,
+    document.body
   )
 }
 
