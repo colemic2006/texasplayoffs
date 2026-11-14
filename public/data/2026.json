@@ -2,8 +2,8 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-14T09:28+00:00",
-    "games": 520,
+    "updated": "2026-11-14T12:26+00:00",
+    "games": 521,
     "played": 345,
     "assigned": 356,
     "weeks": {
@@ -12,7 +12,7 @@
         "assigned": 352
       },
       "2": {
-        "games": 168,
+        "games": 169,
         "assigned": 4
       },
       "3": {
@@ -7990,6 +7990,18 @@
       "team1": "Ropes",
       "score1": null,
       "team2": "Iraan",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "2A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "West Sabine",
+      "score1": null,
+      "team2": "Lindsay",
       "score2": null,
       "winner": null
     },
