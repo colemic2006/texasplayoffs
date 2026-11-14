@@ -2,8 +2,8 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-14T03:28+00:00",
-    "games": 386,
+    "updated": "2026-11-14T03:40+00:00",
+    "games": 394,
     "played": 152,
     "assigned": 352,
     "weeks": {
@@ -12,7 +12,7 @@
         "assigned": 352
       },
       "2": {
-        "games": 34,
+        "games": 42,
         "assigned": 0
       },
       "3": {
@@ -7475,6 +7475,30 @@
     },
     {
       "year": 2026,
+      "classification": "1A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Rocksprings",
+      "score1": null,
+      "team2": "Blackwell",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "1A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Runge",
+      "score1": null,
+      "team2": "Mount Calm",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
       "classification": "2A D1",
       "week": 2,
       "round": "Area",
@@ -7518,6 +7542,30 @@
       "team1": "San Augustine",
       "score1": null,
       "team2": "Tom Bean",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "2A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Panhandle",
+      "score1": null,
+      "team2": "Forsan",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "2A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Cisco",
+      "score1": null,
+      "team2": "Johnson City",
       "score2": null,
       "winner": null
     },
@@ -7595,6 +7643,18 @@
     },
     {
       "year": 2026,
+      "classification": "2A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Collinsville",
+      "score1": null,
+      "team2": "Colmesneil",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
       "classification": "3A D1",
       "week": 2,
       "round": "Area",
@@ -7661,6 +7721,30 @@
       "team1": "Atlanta",
       "score1": null,
       "team2": "Whitesboro",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "3A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Diboll",
+      "score1": null,
+      "team2": "Lorena",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "3A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Yoakum",
+      "score1": null,
+      "team2": "Goliad",
       "score2": null,
       "winner": null
     },
@@ -7733,6 +7817,18 @@
       "team1": "El Paso Andress",
       "score1": null,
       "team2": "Decatur",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "4A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Stephenville",
+      "score1": null,
+      "team2": "Vidor",
       "score2": null,
       "winner": null
     },
