@@ -2296,6 +2296,19 @@
   "stadium": "John Gupton Stadium",
   "stadium_id": 1340
  },
+ "Gustafson Stadium || Rockport-Fulton v Robinson": {
+  "address": "7001 Culebra, San Antonio, Texas 78238",
+  "city": "San Antonio",
+  "how": "stadium (map link)",
+  "lat": 29.45314,
+  "link_tried": true,
+  "lng": -98.6251,
+  "map_link": "https://goo.gl/maps/JZrEVmzY6YKz9yoE8",
+  "rules": 10,
+  "site": "Gustafson Stadium",
+  "stadium": "Gustafson Stadium",
+  "stadium_id": 846
+ },
  "Gustafson-Northside ISD Stadium (San Antonio) || San Antonio Sotomayor v Eagle Pass": {
   "address": "7001 Culebra, San Antonio, Texas 78238",
   "city": "San Antonio",
@@ -5259,6 +5272,19 @@
   "site": "United ISD Student Activity Center Field (Laredo)",
   "stadium": "Bill Johnson Student Activity Center",
   "stadium_id": 955
+ },
+ "Vernon High School || Shallowater v Peaster": {
+  "address": "Paradise St & Stadium St, Vernon, Texas 76384",
+  "city": "Vernon",
+  "how": "school (map link)",
+  "lat": 34.14706,
+  "link_tried": true,
+  "lng": -99.31608,
+  "map_link": "https://goo.gl/maps/qH9J1GHS28QjuZne7",
+  "rules": 10,
+  "site": "Vernon High School",
+  "stadium": "Lion Stadium",
+  "stadium_id": 680
  },
  "Warrior Coliseum, San Antonio || San Antonio Pieper v San Antonio Churchill": {
   "address": "1400 Kinder Parkway, San Antonio, Texas 78260",

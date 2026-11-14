@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-14T06:32+00:00",
-    "games": 517,
-    "played": 342,
+    "updated": "2026-11-14T07:27+00:00",
+    "games": 520,
+    "played": 344,
     "assigned": 356,
     "weeks": {
       "1": {
@@ -12,7 +12,7 @@
         "assigned": 352
       },
       "2": {
-        "games": 165,
+        "games": 168,
         "assigned": 4
       },
       "3": {
@@ -5758,10 +5758,10 @@
       "round": "Bi-District",
       "chapter": "PBC",
       "team1": "El Paso Canutillo",
-      "score1": null,
+      "score1": 21,
       "team2": "Abilene Cooper",
-      "score2": null,
-      "winner": null,
+      "score2": 41,
+      "winner": "Abilene Cooper",
       "site": "Canutillo HS",
       "lat": 31.8969,
       "lng": -106.58673,
@@ -7006,10 +7006,10 @@
       "round": "Bi-District",
       "chapter": "AUS",
       "team1": "El Paso Eastwood",
-      "score1": null,
+      "score1": 35,
       "team2": "San Angelo Central",
-      "score2": null,
-      "winner": null,
+      "score2": 33,
+      "winner": "El Paso Eastwood",
       "site": "Trooper Stadium",
       "lat": 31.77141,
       "lng": -106.35378,
@@ -7526,6 +7526,18 @@
       "team1": "Nazareth",
       "score1": null,
       "team2": "Hermleigh",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "1A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Bluff Dale",
+      "score1": null,
+      "team2": "Gordon",
       "score2": null,
       "winner": null
     },
@@ -8134,7 +8146,15 @@
       "score1": null,
       "team2": "Peaster",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Vernon High School",
+      "lat": 34.14706,
+      "lng": -99.31608,
+      "stadium": "Lion Stadium",
+      "map_link": "https://goo.gl/maps/qH9J1GHS28QjuZne7",
+      "city": "Vernon",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8182,7 +8202,9 @@
       "score1": null,
       "team2": "Orange Grove",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "date": "2026-11-20",
+      "time": "7:30 PM"
     },
     {
       "year": 2026,
@@ -8685,7 +8707,13 @@
       "score1": null,
       "team2": "Robinson",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Gustafson Stadium",
+      "lat": 29.45314,
+      "lng": -98.6251,
+      "stadium": "Gustafson Stadium",
+      "map_link": "https://goo.gl/maps/JZrEVmzY6YKz9yoE8",
+      "city": "San Antonio"
     },
     {
       "year": 2026,
@@ -9098,6 +9126,18 @@
     },
     {
       "year": 2026,
+      "classification": "5A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Anna",
+      "score1": null,
+      "team2": "Abilene Cooper",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
       "classification": "6A D1",
       "week": 2,
       "round": "Area",
@@ -9472,6 +9512,18 @@
       "team1": "San Antonio Sotomayor",
       "score1": null,
       "team2": "Edinburg Vela",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "6A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "El Paso Eastwood",
+      "score1": null,
+      "team2": "Aledo",
       "score2": null,
       "winner": null
     }
