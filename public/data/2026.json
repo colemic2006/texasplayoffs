@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-14T12:39+00:00",
+    "updated": "2026-11-14T13:10+00:00",
     "games": 521,
     "played": 345,
     "assigned": 356,
@@ -9001,7 +9001,10 @@
       "score1": null,
       "team2": "Texas City",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Site: Pearland HS - The Rig",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,

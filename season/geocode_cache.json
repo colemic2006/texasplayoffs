@@ -4598,6 +4598,16 @@
   "stadium": "Pirate Stadium",
   "stadium_id": 210
  },
+ "Site: Pearland HS - The Rig || Almeta Crawford v Texas City": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-14",
+  "rules": 10,
+  "site": "Site: Pearland HS - The Rig",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Smithson Valley Ranger Stadium || Comal Smithson Valley v Laredo Nixon": {
   "address": "14001 State Highway 46 W, Spring Branch, Texas 78070",
   "city": "Spring Branch",
