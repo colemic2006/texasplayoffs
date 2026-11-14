@@ -2,8 +2,8 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-14T19:02+00:00",
-    "games": 522,
+    "updated": "2026-11-14T19:15+00:00",
+    "games": 524,
     "played": 348,
     "assigned": 356,
     "weeks": {
@@ -12,7 +12,7 @@
         "assigned": 352
       },
       "2": {
-        "games": 170,
+        "games": 172,
         "assigned": 4
       },
       "3": {
@@ -7697,7 +7697,9 @@
       "score1": null,
       "team2": "Johnson City",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8886,6 +8888,18 @@
     },
     {
       "year": 2026,
+      "classification": "4A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "La Vega",
+      "score1": null,
+      "team2": "Geronimo Navarro",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
       "classification": "5A D1",
       "week": 2,
       "round": "Area",
@@ -9274,6 +9288,18 @@
       "team1": "Anna",
       "score1": null,
       "team2": "Abilene Cooper",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "5A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Wichita Falls Legacy",
+      "score1": null,
+      "team2": "Frisco",
       "score2": null,
       "winner": null
     },
