@@ -3088,6 +3088,16 @@
   "stadium": "John Gupton Stadium",
   "stadium_id": 1340
  },
+ "Legacy Stadium || Fulshear Jordan v Cypress Bridgeland": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-14",
+  "rules": 10,
+  "site": "Legacy Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Legacy Stadium || Katy High v Fort Bend Travis": {
   "address": "5175 Franz Rd, Katy, Texas 77493",
   "city": "Katy",
