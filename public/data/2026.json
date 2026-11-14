@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-14T16:29+00:00",
+    "updated": "2026-11-14T16:42+00:00",
     "games": 521,
     "played": 345,
     "assigned": 356,
@@ -8906,7 +8906,15 @@
       "score1": null,
       "team2": "Angleton",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Deer Park ISD Abshier Stadium",
+      "lat": 29.68544,
+      "lng": -95.12904,
+      "stadium": "Clyde Abshier Stadium",
+      "map_link": "https://goo.gl/maps/Zo29mgekZZ3hSgww7",
+      "city": "Deer Park",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9130,7 +9138,14 @@
       "team2": "Abilene Wylie",
       "score2": null,
       "winner": null,
-      "date": "2026-11-20"
+      "site": "Stephenville ISD Art Briles Stadium",
+      "lat": 32.20913,
+      "lng": -98.24058,
+      "stadium": "Art Briles Stadium",
+      "map_link": "https://maps.app.goo.gl/eJk5HsVqy4EL1ym9A",
+      "city": "Stephenville",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,

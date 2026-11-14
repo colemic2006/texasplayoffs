@@ -1453,6 +1453,19 @@
   "stadium": "Phil Danaher Stadium",
   "stadium_id": 212
  },
+ "Deer Park ISD Abshier Stadium || Beaumont United v Angleton": {
+  "address": "710 W. San Augustine, Deer Park, Texas 77536",
+  "city": "Deer Park",
+  "how": "stadium (map link)",
+  "lat": 29.68544,
+  "link_tried": true,
+  "lng": -95.12904,
+  "map_link": "https://goo.gl/maps/Zo29mgekZZ3hSgww7",
+  "rules": 10,
+  "site": "Deer Park ISD Abshier Stadium",
+  "stadium": "Clyde Abshier Stadium",
+  "stadium_id": 614
+ },
  "Delmar Stadium, Houston || Houston Lamar v Pearland Dawson": {
   "address": "2020 Mangum Rd, Houston, Texas 77455",
   "city": "Houston",
@@ -4884,6 +4897,19 @@
   "site": "Springlake-Earth HS, Football Field",
   "stadium": "Wolverine Stadium",
   "stadium_id": 834
+ },
+ "Stephenville ISD Art Briles Stadium || Argyle v Abilene Wylie": {
+  "address": "N Wolfe Nursery Rd, Stephenville, Texas 76401",
+  "city": "Stephenville",
+  "how": "stadium",
+  "lat": 32.20913,
+  "link_tried": true,
+  "lng": -98.24058,
+  "map_link": "https://maps.app.goo.gl/eJk5HsVqy4EL1ym9A",
+  "rules": 10,
+  "site": "Stephenville ISD Art Briles Stadium",
+  "stadium": "Art Briles Stadium",
+  "stadium_id": 5788
  },
  "Stephenville's Art Briles Stadium || Peaster v Early": {
   "address": "N Wolfe Nursery Rd, Stephenville, Texas 76401",
