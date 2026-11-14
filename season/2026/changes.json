@@ -152,5 +152,16 @@
   "new": "Joy & Ralph Ellis Stadium - Irving",
   "at": "2026-11-14T12:39+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "3A D1",
+  "week": 1,
+  "team1": "Lorena",
+  "team2": "Sweeny",
+  "field": "score",
+  "old": "Lorena 35, Sweeny 3",
+  "new": "Lorena 52, Sweeny 10",
+  "at": "2026-11-14T14:56+00:00",
+  "status": "changed"
  }
 ]
