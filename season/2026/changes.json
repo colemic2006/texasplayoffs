@@ -229,5 +229,16 @@
   "new": "Argyle 65, Frisco Panther Creek 17",
   "at": "2026-11-14T19:32+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "6A D2",
+  "week": 2,
+  "team1": "San Antonio Sotomayor",
+  "team2": "Edinburg Vela",
+  "field": "date",
+  "old": "2026-11-14",
+  "new": "2026-11-21",
+  "at": "2026-11-14T20:16+00:00",
+  "status": "changed"
  }
 ]

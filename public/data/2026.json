@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-14T20:04+00:00",
+    "updated": "2026-11-14T20:16+00:00",
     "games": 524,
     "played": 348,
     "assigned": 356,
@@ -9727,8 +9727,17 @@
       "stadium": "Richard R. Flores Stadium",
       "map_link": "https://goo.gl/maps/PurYScT9spqv4hrq5",
       "city": "Edinburg",
-      "date": "2026-11-14",
-      "time": "3:00 PM"
+      "date": "2026-11-21",
+      "time": "3:00 PM",
+      "changes": [
+        {
+          "field": "date",
+          "old": "2026-11-14",
+          "new": "2026-11-21",
+          "at": "2026-11-14T20:16+00:00",
+          "status": "changed"
+        }
+      ]
     },
     {
       "year": 2026,
