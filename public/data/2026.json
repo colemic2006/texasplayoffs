@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-14T00:58+00:00",
-    "games": 381,
-    "played": 128,
+    "updated": "2026-11-14T02:28+00:00",
+    "games": 382,
+    "played": 131,
     "assigned": 352,
     "weeks": {
       "1": {
@@ -12,7 +12,7 @@
         "assigned": 352
       },
       "2": {
-        "games": 29,
+        "games": 30,
         "assigned": 0
       },
       "3": {
@@ -2582,10 +2582,10 @@
       "round": "Bi-District",
       "chapter": "SAT",
       "team1": "Lorena",
-      "score1": null,
+      "score1": 35,
       "team2": "Sweeny",
-      "score2": null,
-      "winner": null,
+      "score2": 3,
+      "winner": "Lorena",
       "site": "Mustang Stadium, Magnolia",
       "lat": 30.21412,
       "lng": -95.76121,
@@ -3776,10 +3776,10 @@
       "round": "Bi-District",
       "chapter": "TYL",
       "team1": "Midland Greenwood",
-      "score1": null,
+      "score1": 17,
       "team2": "Springtown",
-      "score2": null,
-      "winner": null,
+      "score2": 48,
+      "winner": "Springtown",
       "site": "Buckaroo Stadium; Breckenridge, TX",
       "lat": 32.76,
       "lng": -98.90864,
@@ -4815,10 +4815,10 @@
       "round": "Bi-District",
       "chapter": "ABI",
       "team1": "Lubbock Liberty",
-      "score1": null,
+      "score1": 42,
       "team2": "Burkburnett",
-      "score2": null,
-      "winner": null,
+      "score2": 7,
+      "winner": "Lubbock Liberty",
       "site": "Abilene Christian University",
       "lat": 32.47352,
       "lng": -99.70896,
@@ -7697,6 +7697,18 @@
       "team1": "Aubrey",
       "score1": null,
       "team2": "Canyon High",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "4A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Springtown",
+      "score1": null,
+      "team2": "Canyon West Plains",
       "score2": null,
       "winner": null
     },
