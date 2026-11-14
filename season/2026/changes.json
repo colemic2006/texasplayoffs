@@ -218,5 +218,16 @@
   "new": "Argyle 63, Frisco Panther Creek 17",
   "at": "2026-11-14T18:31+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "5A D2",
+  "week": 1,
+  "team1": "Argyle",
+  "team2": "Frisco Panther Creek",
+  "field": "score",
+  "old": "Argyle 63, Frisco Panther Creek 17",
+  "new": "Argyle 65, Frisco Panther Creek 17",
+  "at": "2026-11-14T19:32+00:00",
+  "status": "changed"
  }
 ]

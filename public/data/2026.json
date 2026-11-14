@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-14T19:15+00:00",
+    "updated": "2026-11-14T19:32+00:00",
     "games": 524,
     "played": 348,
     "assigned": 356,
@@ -5582,7 +5582,7 @@
       "round": "Bi-District",
       "chapter": "TYL",
       "team1": "Argyle",
-      "score1": 63,
+      "score1": 65,
       "team2": "Frisco Panther Creek",
       "score2": 17,
       "winner": "Argyle",
@@ -8404,7 +8404,15 @@
       "score1": null,
       "team2": "Tolar",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Midlothian ISD",
+      "lat": 32.46584,
+      "lng": -96.98502,
+      "stadium": "MISD Multi-Purpose Stadium",
+      "map_link": "https://goo.gl/maps/32KqqTJ9nxj6qnBM9",
+      "city": "Midlothian",
+      "date": "2026-11-20",
+      "time": "7:30 PM"
     },
     {
       "year": 2026,
@@ -9497,7 +9505,10 @@
       "score1": null,
       "team2": "Coppell",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Eagle Stadium",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,

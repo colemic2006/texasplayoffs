@@ -1692,6 +1692,16 @@
   "stadium": null,
   "stadium_id": null
  },
+ "Eagle Stadium || Lewisville v Coppell": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-14",
+  "rules": 10,
+  "site": "Eagle Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Eagle Stadium, Allen || Allen v Lewisville Hebron": {
   "address": "155 Rivercrest Blvd, Allen, Texas 75002",
   "city": "Allen",
@@ -3691,6 +3701,19 @@
   "map_link": "https://goo.gl/maps/32KqqTJ9nxj6qnBM9",
   "rules": 10,
   "site": "Midlothian ISD Stadium, Midlothian",
+  "stadium": "MISD Multi-Purpose Stadium",
+  "stadium_id": 1044
+ },
+ "Midlothian ISD || Grand Saline v Tolar": {
+  "address": "1800 S 14th, Midlothian, Texas 76065",
+  "city": "Midlothian",
+  "how": "school (map link)",
+  "lat": 32.46584,
+  "link_tried": true,
+  "lng": -96.98502,
+  "map_link": "https://goo.gl/maps/32KqqTJ9nxj6qnBM9",
+  "rules": 10,
+  "site": "Midlothian ISD",
   "stadium": "MISD Multi-Purpose Stadium",
   "stadium_id": 1044
  },
