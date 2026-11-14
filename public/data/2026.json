@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-14T17:00+00:00",
+    "updated": "2026-11-14T17:29+00:00",
     "games": 521,
-    "played": 345,
+    "played": 346,
     "assigned": 356,
     "weeks": {
       "1": {
@@ -3745,10 +3745,10 @@
       "round": "Bi-District",
       "chapter": "PBC",
       "team1": "Canyon Randall",
-      "score1": null,
+      "score1": 35,
       "team2": "El Paso Austin",
-      "score2": null,
-      "winner": null,
+      "score2": 7,
+      "winner": "Canyon Randall",
       "site": "Kermit HS",
       "lat": 31.85106,
       "lng": -103.09002,
@@ -8199,7 +8199,13 @@
       "score1": null,
       "team2": "East Chambers",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Magnolia West",
+      "lat": 30.21862,
+      "lng": -95.76553,
+      "stadium": "Mustang Stadium",
+      "map_link": "https://goo.gl/maps/ZicTQiTy3iD56Ri5A",
+      "city": "Magnolia"
     },
     {
       "year": 2026,
@@ -8211,7 +8217,9 @@
       "score1": null,
       "team2": "Marion",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8273,7 +8281,9 @@
       "score1": null,
       "team2": "Rice Consolidated",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8833,7 +8843,15 @@
       "score1": null,
       "team2": "La Marque",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Willis ISD Berton A Yates Stadium",
+      "lat": 30.43195,
+      "lng": -95.48743,
+      "stadium": "Berton A. Yates Stadium",
+      "map_link": "https://goo.gl/maps/KJhdp6tmumPyTyDo8",
+      "city": "Willis",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9086,7 +9104,15 @@
       "score1": null,
       "team2": "Belton",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Waco ISD Stadium",
+      "lat": 31.50814,
+      "lng": -97.15987,
+      "stadium": "Waco ISD Stadium",
+      "map_link": "https://goo.gl/maps/4f5PQphsG288xBLC7",
+      "city": "Waco",
+      "date": "2026-11-19",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,

@@ -3366,6 +3366,19 @@
   "stadium": "Mustang Stadium",
   "stadium_id": 132
  },
+ "Magnolia West || Franklin v East Chambers": {
+  "address": "44204 FM 1774, Magnolia, Texas 77353",
+  "city": "Magnolia",
+  "how": "school (map link)",
+  "lat": 30.21862,
+  "link_tried": true,
+  "lng": -95.76553,
+  "map_link": "https://goo.gl/maps/ZicTQiTy3iD56Ri5A",
+  "rules": 10,
+  "site": "Magnolia West",
+  "stadium": "Mustang Stadium",
+  "stadium_id": 1131
+ },
  "Marion's Veterans Stadium || Marion v Hondo": {
   "address": "520 Bulldog Drive, Marion, Texas 78124",
   "city": "Marion",
@@ -5443,6 +5456,19 @@
   "stadium": "Lion Stadium",
   "stadium_id": 680
  },
+ "Waco ISD Stadium || South Oak Cliff v Belton": {
+  "address": "1401 S. New Rd, Waco, Texas 76711",
+  "city": "Waco",
+  "how": "stadium (map link)",
+  "lat": 31.50814,
+  "link_tried": true,
+  "lng": -97.15987,
+  "map_link": "https://goo.gl/maps/4f5PQphsG288xBLC7",
+  "rules": 10,
+  "site": "Waco ISD Stadium",
+  "stadium": "Waco ISD Stadium",
+  "stadium_id": 183
+ },
  "Warrior Coliseum, San Antonio || San Antonio Pieper v San Antonio Churchill": {
   "address": "1400 Kinder Parkway, San Antonio, Texas 78260",
   "city": "San Antonio",
@@ -5575,6 +5601,19 @@
   "site": "Wilkerson-Sanders Stadium, Rockwall",
   "stadium": "Wilkerson-Sanders Memorial Stadium",
   "stadium_id": 319
+ },
+ "Willis ISD Berton A Yates Stadium || Canton v La Marque": {
+  "address": "Longstreet Rd at Bybee, Willis, Texas 77378",
+  "city": "Willis",
+  "how": "stadium (map link)",
+  "lat": 30.43195,
+  "link_tried": true,
+  "lng": -95.48743,
+  "map_link": "https://goo.gl/maps/KJhdp6tmumPyTyDo8",
+  "rules": 10,
+  "site": "Willis ISD Berton A Yates Stadium",
+  "stadium": "Berton A. Yates Stadium",
+  "stadium_id": 483
  },
  "Willis ISD Willis HS || Grapeland v West Hardin": {
   "address": "Longstreet Rd at Bybee, Willis, Texas 77378",
