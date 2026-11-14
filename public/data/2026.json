@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-14T14:09+00:00",
+    "updated": "2026-11-14T14:40+00:00",
     "games": 521,
     "played": 345,
     "assigned": 356,
@@ -8086,7 +8086,9 @@
       "score1": null,
       "team2": "Lorena",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "date": "2026-11-20",
+      "time": "7:30 PM"
     },
     {
       "year": 2026,
@@ -8264,7 +8266,15 @@
       "score1": null,
       "team2": "Holliday",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Shotwell Stadium Abilene TX",
+      "lat": 32.43375,
+      "lng": -99.69821,
+      "stadium": "P.E. Shotwell Stadium",
+      "map_link": "https://goo.gl/maps/CejNppU8gPYVjYwX6",
+      "city": "Abilene",
+      "date": "2026-11-19",
+      "time": "6:00 PM"
     },
     {
       "year": 2026,

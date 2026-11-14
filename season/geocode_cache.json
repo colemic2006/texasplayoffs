@@ -4574,6 +4574,19 @@
   "stadium": "Bob Shelton Stadium",
   "stadium_id": 25
  },
+ "Shotwell Stadium Abilene TX || Idalou v Holliday": {
+  "address": "1525 E. S. 11th St, Abilene, Texas 79602",
+  "city": "Abilene",
+  "how": "stadium (map link)",
+  "lat": 32.43375,
+  "link_tried": true,
+  "lng": -99.69821,
+  "map_link": "https://goo.gl/maps/CejNppU8gPYVjYwX6",
+  "rules": 10,
+  "site": "Shotwell Stadium Abilene TX",
+  "stadium": "P.E. Shotwell Stadium",
+  "stadium_id": 997
+ },
  "Silverton High School, Football Field || Motley County v Lefors": {
   "address": "700 Loretta St, Silverton, Texas 79257",
   "city": "Silverton",
