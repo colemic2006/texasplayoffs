@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-14T17:41+00:00",
+    "updated": "2026-11-14T18:13+00:00",
     "games": 522,
     "played": 346,
     "assigned": 356,
@@ -8338,7 +8338,15 @@
       "score1": null,
       "team2": "Childress",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Iowa Park High School",
+      "lat": 33.96285,
+      "lng": -98.69147,
+      "stadium": "Hawk Stadium",
+      "map_link": "https://goo.gl/maps/WZAHSsNQwfW3dmpJ6",
+      "city": "Iowa Park",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
