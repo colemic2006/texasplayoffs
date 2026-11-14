@@ -513,6 +513,16 @@
   "stadium": "Benny Douglas Stadium",
   "stadium_id": 796
  },
+ "Berry Complex CyFair FCU Stadium || Bay City v Huffman-Hargrave": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-14",
+  "rules": 10,
+  "site": "Berry Complex CyFair FCU Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Big Spring High School || Clyde v Denver City": {
   "address": "2195 Kentucky Way, Big Spring, Texas 79720",
   "city": "Big Spring",
@@ -4457,6 +4467,19 @@
   "site": "Sam Parker Stadium - Mount Pleasant",
   "stadium": "Sam Parker Field",
   "stadium_id": 556
+ },
+ "San Angelo Stadium || Seminole v Mineral Wells": {
+  "address": "1919 Knickerbocker Rd, San Angelo, Texas 76904",
+  "city": "San Angelo",
+  "how": "stadium (map link)",
+  "lat": 31.43042,
+  "link_tried": true,
+  "lng": -100.45998,
+  "map_link": "https://goo.gl/maps/zSVX5h2VG152aGnt9",
+  "rules": 10,
+  "site": "San Angelo Stadium",
+  "stadium": "San Angelo Stadium",
+  "stadium_id": 1004
  },
  "San Angelo || Roscoe v Eldorado": {
   "address": "",

@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-14T16:42+00:00",
+    "updated": "2026-11-14T17:00+00:00",
     "games": 521,
     "played": 345,
     "assigned": 356,
@@ -8604,7 +8604,10 @@
       "score1": null,
       "team2": "Huffman-Hargrave",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Berry Complex CyFair FCU Stadium",
+      "date": "2026-11-21",
+      "time": "2:00 PM"
     },
     {
       "year": 2026,
@@ -8774,7 +8777,15 @@
       "score1": null,
       "team2": "Mineral Wells",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "San Angelo Stadium",
+      "lat": 31.43042,
+      "lng": -100.45998,
+      "stadium": "San Angelo Stadium",
+      "map_link": "https://goo.gl/maps/zSVX5h2VG152aGnt9",
+      "city": "San Angelo",
+      "date": "2026-11-19",
+      "time": "6:00 PM"
     },
     {
       "year": 2026,
