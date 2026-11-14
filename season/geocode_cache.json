@@ -220,6 +220,19 @@
   "stadium": "Mustang Bowl",
   "stadium_id": 992
  },
+ "Andrews High School || Ropes v Iraan": {
+  "address": "918 NW Mustang Dr, Andrews, Texas 79714",
+  "city": "Andrews",
+  "how": "school (map link)",
+  "lat": 32.32283,
+  "link_tried": true,
+  "lng": -102.56823,
+  "map_link": "https://maps.app.goo.gl/DZWYSntZDeRASZYz9",
+  "rules": 10,
+  "site": "Andrews High School",
+  "stadium": "Mustang Bowl",
+  "stadium_id": 992
+ },
  "Angleton ISD Wildcat Stadium || Angleton v Georgetown": {
   "address": "1 Stadium Dr., Angleton, Texas 77515",
   "city": "Angleton",
@@ -486,6 +499,19 @@
   "site": "Belton Mary Hardin Baylor Crusader Stadium",
   "stadium": "Crusader Stadium",
   "stadium_id": 1656
+ },
+ "Benny Douglas Stadium, Muleshoe Texas || Wink v Stratford": {
+  "address": "500 W Ave G, Muleshoe, Texas 79347",
+  "city": "Muleshoe",
+  "how": "stadium (map link)",
+  "lat": 34.22302,
+  "link_tried": true,
+  "lng": -102.73346,
+  "map_link": "https://goo.gl/maps/3jELPU8QnptiQawA7",
+  "rules": 10,
+  "site": "Benny Douglas Stadium, Muleshoe Texas",
+  "stadium": "Benny Douglas Stadium",
+  "stadium_id": 796
  },
  "Big Spring High School || Clyde v Denver City": {
   "address": "2195 Kentucky Way, Big Spring, Texas 79720",
@@ -4079,6 +4105,16 @@
   "site": "Petersburg High School, Football Field",
   "stadium": "Buffalo Stadium",
   "stadium_id": 730
+ },
+ "Pine Tree Pirate Stadium || Price Carlisle v Beckville": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-14",
+  "rules": 10,
+  "site": "Pine Tree Pirate Stadium",
+  "stadium": null,
+  "stadium_id": null
  },
  "Pirate Stadium, Longview || Longview Pine Tree v Caddo Mills": {
   "address": "3737 W Loop 281, Longview, Texas 75604",

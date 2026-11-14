@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-14T15:40+00:00",
+    "updated": "2026-11-14T15:58+00:00",
     "games": 521,
     "played": 345,
     "assigned": 356,
@@ -7731,7 +7731,10 @@
       "score1": null,
       "team2": "Beckville",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Pine Tree Pirate Stadium",
+      "date": "2026-11-19",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -7887,7 +7890,15 @@
       "score1": null,
       "team2": "Stratford",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Benny Douglas Stadium, Muleshoe Texas",
+      "lat": 34.22302,
+      "lng": -102.73346,
+      "stadium": "Benny Douglas Stadium",
+      "map_link": "https://goo.gl/maps/3jELPU8QnptiQawA7",
+      "city": "Muleshoe",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -7991,7 +8002,15 @@
       "score1": null,
       "team2": "Iraan",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Andrews High School",
+      "lat": 32.32283,
+      "lng": -102.56823,
+      "stadium": "Mustang Bowl",
+      "map_link": "https://maps.app.goo.gl/DZWYSntZDeRASZYz9",
+      "city": "Andrews",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
