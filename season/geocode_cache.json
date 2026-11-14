@@ -3108,6 +3108,19 @@
   "stadium": "John Gupton Stadium",
   "stadium_id": 1340
  },
+ "Legacy Stadium in Katy, TX || Fort Bend Ridge Point v Lamar Fulshear": {
+  "address": "5175 Franz Rd, Katy, Texas 77493",
+  "city": "Katy",
+  "how": "stadium (map link)",
+  "lat": 29.80001,
+  "link_tried": true,
+  "lng": -95.80539,
+  "map_link": "https://goo.gl/maps/km2SPmR8CsAASd3H6",
+  "rules": 10,
+  "site": "Legacy Stadium in Katy, TX",
+  "stadium": "Mike Johnston Field at Legacy Stadium",
+  "stadium_id": 1699
+ },
  "Legacy Stadium || Fulshear Jordan v Cypress Bridgeland": {
   "address": "",
   "how": "no stadium, school or town matched",
