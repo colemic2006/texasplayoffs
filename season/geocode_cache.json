@@ -3926,6 +3926,16 @@
   "stadium": "Homer Norville Field",
   "stadium_id": 677
  },
+ "Oakwood Panther Stadium || Union Hill v Oglesby": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-14",
+  "rules": 10,
+  "site": "Oakwood Panther Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Odem's Owl Stadium || San Diego v Mathis": {
   "address": "1000 Cook Ave, Odem, Texas 78370",
   "city": "Odem",

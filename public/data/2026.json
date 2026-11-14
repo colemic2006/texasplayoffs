@@ -2,8 +2,8 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-14T17:29+00:00",
-    "games": 521,
+    "updated": "2026-11-14T17:41+00:00",
+    "games": 522,
     "played": 346,
     "assigned": 356,
     "weeks": {
@@ -12,7 +12,7 @@
         "assigned": 352
       },
       "2": {
-        "games": 169,
+        "games": 170,
         "assigned": 4
       },
       "3": {
@@ -7491,7 +7491,9 @@
       "score1": null,
       "team2": "Oglesby",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Oakwood Panther Stadium",
+      "date": "2026-11-20"
     },
     {
       "year": 2026,
@@ -8107,7 +8109,16 @@
       "score2": null,
       "winner": null,
       "date": "2026-11-20",
-      "time": "7:30 PM"
+      "time": "7:00 PM",
+      "changes": [
+        {
+          "field": "time",
+          "old": "7:30 PM",
+          "new": "7:00 PM",
+          "at": "2026-11-14T17:41+00:00",
+          "status": "changed"
+        }
+      ]
     },
     {
       "year": 2026,
@@ -8640,6 +8651,18 @@
       "team1": "CC Tuloso-Midway",
       "score1": null,
       "team2": "La Vernia",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "4A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Canyon Randall",
+      "score1": null,
+      "team2": "Lake Dallas",
       "score2": null,
       "winner": null
     },
