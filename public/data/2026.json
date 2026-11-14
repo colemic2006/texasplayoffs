@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-14T23:04+00:00",
-    "games": 525,
-    "played": 349,
+    "updated": "2026-11-14T23:34+00:00",
+    "games": 526,
+    "played": 350,
     "assigned": 356,
     "weeks": {
       "1": {
@@ -12,7 +12,7 @@
         "assigned": 352
       },
       "2": {
-        "games": 173,
+        "games": 174,
         "assigned": 4
       },
       "3": {
@@ -857,10 +857,10 @@
       "round": "Bi-District",
       "chapter": "SAT",
       "team1": "Apple Springs",
-      "score1": null,
+      "score1": 54,
       "team2": "Benavides",
-      "score2": null,
-      "winner": null,
+      "score2": 24,
+      "winner": "Apple Springs",
       "site": "San Marcos Academy",
       "lat": 29.89168,
       "lng": -97.95722,
@@ -7624,6 +7624,18 @@
       "team1": "Richland Springs",
       "score1": null,
       "team2": "Grandfalls-Royalty",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "1A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Fannindel",
+      "score1": null,
+      "team2": "Apple Springs",
       "score2": null,
       "winner": null
     },
