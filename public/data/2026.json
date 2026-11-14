@@ -2,10 +2,10 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-14T06:16+00:00",
+    "updated": "2026-11-14T06:32+00:00",
     "games": 517,
     "played": 342,
-    "assigned": 352,
+    "assigned": 356,
     "weeks": {
       "1": {
         "games": 352,
@@ -13,7 +13,7 @@
       },
       "2": {
         "games": 165,
-        "assigned": 0
+        "assigned": 4
       },
       "3": {
         "games": 0,
@@ -191,7 +191,7 @@
     {
       "code": "ABI",
       "name": "Abilene",
-      "total": 17,
+      "total": 21,
       "weeks": {
         "1": {
           "total": 17,
@@ -203,6 +203,15 @@
             "3A D2": 2,
             "4A D1": 2,
             "4A D2": 1
+          }
+        },
+        "2": {
+          "total": 4,
+          "classifications": {
+            "1A D1": 1,
+            "2A D1": 1,
+            "2A D2": 1,
+            "3A D1": 1
           }
         }
       }
@@ -7433,7 +7442,7 @@
       "classification": "1A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "ABI",
       "team1": "Menard",
       "score1": null,
       "team2": "Rankin",
@@ -7633,7 +7642,7 @@
       "classification": "2A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "ABI",
       "team1": "Ozona",
       "score1": null,
       "team2": "Olton",
@@ -7965,7 +7974,7 @@
       "classification": "2A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "ABI",
       "team1": "Ropes",
       "score1": null,
       "team2": "Iraan",
@@ -8036,7 +8045,7 @@
       "classification": "3A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "ABI",
       "team1": "Atlanta",
       "score1": null,
       "team2": "Whitesboro",
