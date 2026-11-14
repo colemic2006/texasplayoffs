@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-14T22:46+00:00",
-    "games": 524,
-    "played": 348,
+    "updated": "2026-11-14T23:04+00:00",
+    "games": 525,
+    "played": 349,
     "assigned": 356,
     "weeks": {
       "1": {
@@ -12,7 +12,7 @@
         "assigned": 352
       },
       "2": {
-        "games": 172,
+        "games": 173,
         "assigned": 4
       },
       "3": {
@@ -5938,10 +5938,10 @@
       "round": "Bi-District",
       "chapter": "SAT",
       "team1": "Pflugerville",
-      "score1": null,
+      "score1": 35,
       "team2": "Tomas",
-      "score2": null,
-      "winner": null,
+      "score2": 14,
+      "winner": "Pflugerville",
       "site": "The Pfield, Pflugerville",
       "lat": 30.44575,
       "lng": -97.63307,
@@ -9315,6 +9315,18 @@
       "team1": "Wichita Falls Legacy",
       "score1": null,
       "team2": "Frisco",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "5A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Montgomery",
+      "score1": null,
+      "team2": "Pflugerville",
       "score2": null,
       "winner": null
     },
