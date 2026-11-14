@@ -2,8 +2,8 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-14T04:27+00:00",
-    "games": 456,
+    "updated": "2026-11-14T04:39+00:00",
+    "games": 481,
     "played": 312,
     "assigned": 352,
     "weeks": {
@@ -12,7 +12,7 @@
         "assigned": 352
       },
       "2": {
-        "games": 104,
+        "games": 129,
         "assigned": 0
       },
       "3": {
@@ -7510,6 +7510,18 @@
     },
     {
       "year": 2026,
+      "classification": "1A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Nazareth",
+      "score1": null,
+      "team2": "Hermleigh",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
       "classification": "1A D2",
       "week": 2,
       "round": "Area",
@@ -7726,6 +7738,30 @@
     },
     {
       "year": 2026,
+      "classification": "2A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Mason",
+      "score1": null,
+      "team2": "Tioga",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "2A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Flatonia",
+      "score1": null,
+      "team2": "Rosebud-Lott",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
       "classification": "2A D2",
       "week": 2,
       "round": "Area",
@@ -7853,6 +7889,30 @@
       "team1": "Clarksville",
       "score1": null,
       "team2": "Grapeland",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "2A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Bremond",
+      "score1": null,
+      "team2": "Three Rivers",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "2A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Junction",
+      "score1": null,
+      "team2": "Yorktown",
       "score2": null,
       "winner": null
     },
@@ -8025,6 +8085,18 @@
     },
     {
       "year": 2026,
+      "classification": "3A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "San Diego",
+      "score1": null,
+      "team2": "Marion",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
       "classification": "3A D2",
       "week": 2,
       "round": "Area",
@@ -8152,6 +8224,30 @@
       "team1": "East Bernard",
       "score1": null,
       "team2": "Stockdale",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "3A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Bells",
+      "score1": null,
+      "team2": "Dallas Madison",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "3A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Arp",
+      "score1": null,
+      "team2": "Buffalo",
       "score2": null,
       "winner": null
     },
@@ -8345,6 +8441,66 @@
     },
     {
       "year": 2026,
+      "classification": "4A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Pecos",
+      "score1": null,
+      "team2": "Graham",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "4A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Sunnyvale",
+      "score1": null,
+      "team2": "Krum",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "4A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Bellville",
+      "score1": null,
+      "team2": "Hamshire-Fannett",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "4A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Cuero",
+      "score1": null,
+      "team2": "Brownwood",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "4A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Rockport-Fulton",
+      "score1": null,
+      "team2": "Robinson",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
       "classification": "5A D1",
       "week": 2,
       "round": "Area",
@@ -8465,6 +8621,30 @@
     },
     {
       "year": 2026,
+      "classification": "5A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Mansfield Summit",
+      "score1": null,
+      "team2": "Richland (?)",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "5A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "A&M Consolidated",
+      "score1": null,
+      "team2": "Baytown Goose Creek Memorial",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
       "classification": "5A D2",
       "week": 2,
       "round": "Area",
@@ -8544,6 +8724,43 @@
       "team1": "Port Neches-Groves",
       "score1": null,
       "team2": "Fort Bend Marshall",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "5A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Amarillo Palo Duro",
+      "score1": null,
+      "team2": "Celina",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "5A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Argyle",
+      "score1": null,
+      "team2": "Abilene Wylie",
+      "score2": null,
+      "winner": null,
+      "date": "2026-11-20"
+    },
+    {
+      "year": 2026,
+      "classification": "5A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Boerne",
+      "score1": null,
+      "team2": "Mercedes",
       "score2": null,
       "winner": null
     },
@@ -8629,6 +8846,54 @@
     },
     {
       "year": 2026,
+      "classification": "6A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Allen",
+      "score1": null,
+      "team2": "Euless Trinity",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "6A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Fulshear Jordan",
+      "score1": null,
+      "team2": "Cypress Bridgeland",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "6A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Katy (?)",
+      "score1": null,
+      "team2": "Hutto",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "6A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "San Antonio Harlan",
+      "score1": null,
+      "team2": "Harlingen",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
       "classification": "6A D2",
       "week": 2,
       "round": "Area",
@@ -8708,6 +8973,42 @@
       "team1": "Katy Tompkins",
       "score1": null,
       "team2": "Waller",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "6A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Prosper Walnut Grove",
+      "score1": null,
+      "team2": "Hurst Bell",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "6A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Spring Westfield",
+      "score1": null,
+      "team2": "Cypress Falls",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "6A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Humble Atascocita",
+      "score1": null,
+      "team2": "Houston Memorial",
       "score2": null,
       "winner": null
     }
