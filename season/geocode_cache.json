@@ -1945,6 +1945,16 @@
   "stadium": "Franklin Stadium",
   "stadium_id": 245
  },
+ "Freedom Field Alvin ISD || Houston King v Alvin Shadow Creek": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-14",
+  "rules": 10,
+  "site": "Freedom Field Alvin ISD",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Freedom Field, Iowa Colony || Alvin Shadow Creek v Houston Heights": {
   "address": "10855 County Road 65, Iowa Colony, Texas 77583",
   "city": "Iowa Colony",

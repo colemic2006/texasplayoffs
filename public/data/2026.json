@@ -2,8 +2,8 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-14T04:59+00:00",
-    "games": 494,
+    "updated": "2026-11-14T05:11+00:00",
+    "games": 507,
     "played": 334,
     "assigned": 352,
     "weeks": {
@@ -12,7 +12,7 @@
         "assigned": 352
       },
       "2": {
-        "games": 142,
+        "games": 155,
         "assigned": 0
       },
       "3": {
@@ -7594,6 +7594,18 @@
     },
     {
       "year": 2026,
+      "classification": "1A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Richland Springs",
+      "score1": null,
+      "team2": "Grandfalls-Royalty",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
       "classification": "2A D1",
       "week": 2,
       "round": "Area",
@@ -7757,6 +7769,18 @@
       "team1": "Flatonia",
       "score1": null,
       "team2": "Rosebud-Lott",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "2A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Cooper",
+      "score1": null,
+      "team2": "Shelbyville",
       "score2": null,
       "winner": null
     },
@@ -8109,6 +8133,30 @@
     },
     {
       "year": 2026,
+      "classification": "3A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Orangefield",
+      "score1": null,
+      "team2": "C.H. Yoe (?)",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "3A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Devine",
+      "score1": null,
+      "team2": "Orange Grove",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
       "classification": "3A D2",
       "week": 2,
       "round": "Area",
@@ -8382,7 +8430,9 @@
       "score1": null,
       "team2": "Floresville",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8441,6 +8491,30 @@
       "team1": "Bay City",
       "score1": null,
       "team2": "Huffman-Hargrave",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "4A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Lindale",
+      "score1": null,
+      "team2": "Dallas Wilmer-Hutchins",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "4A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "CC Tuloso-Midway",
+      "score1": null,
+      "team2": "La Vernia",
       "score2": null,
       "winner": null
     },
@@ -8766,6 +8840,18 @@
     },
     {
       "year": 2026,
+      "classification": "5A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "McAllen",
+      "score1": null,
+      "team2": "Boerne Champion",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
       "classification": "5A D2",
       "week": 2,
       "round": "Area",
@@ -9039,6 +9125,42 @@
     },
     {
       "year": 2026,
+      "classification": "6A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "El Paso Pebble Hills",
+      "score1": null,
+      "team2": "Arlington Martin",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "6A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Rockwall (?)",
+      "score1": null,
+      "team2": "Duncanville",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "6A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Humble Summer Creek",
+      "score1": null,
+      "team2": "Houston Lamar",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
       "classification": "6A D2",
       "week": 2,
       "round": "Area",
@@ -9071,7 +9193,10 @@
       "score1": null,
       "team2": "Alvin Shadow Creek",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Freedom Field Alvin ISD",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9166,6 +9291,42 @@
       "team1": "Dripping Springs",
       "score1": null,
       "team2": "Converse Judson",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "6A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Midland (?)",
+      "score1": null,
+      "team2": "Southlake Carroll",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "6A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "North Forney",
+      "score1": null,
+      "team2": "North Crowley",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "6A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "San Antonio Sotomayor",
+      "score1": null,
+      "team2": "Edinburg Vela",
       "score2": null,
       "winner": null
     }
