@@ -73,6 +73,16 @@
   "stadium": null,
   "stadium_id": null
  },
+ "AREA PLAYOFF - Challenger Stadium (Clear Lake) || Humble Summer Creek v Houston Lamar": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-15",
+  "rules": 10,
+  "site": "AREA PLAYOFF - Challenger Stadium (Clear Lake)",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Abe Martin Stadium - Lufkin, TX || Silsbee v Madisonville": {
   "address": "309 South Medford Dr., Lufkin, Texas 75902",
   "city": "Lufkin",
@@ -3582,6 +3592,16 @@
   "site": "McLane Stadium (Baylor University)",
   "stadium": "McLane Stadium",
   "stadium_id": 1679
+ },
+ "McMurry || Brock v Big Spring": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-15",
+  "rules": 10,
+  "site": "McMurry",
+  "stadium": null,
+  "stadium_id": null
  },
  "Memorial Stadium, Alice || Alice v CC Tuloso-Midway": {
   "address": "718 W 2nd St, Alice, Texas 78332",

@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-15T18:23+00:00",
+    "updated": "2026-11-15T18:53+00:00",
     "games": 528,
     "played": 352,
     "assigned": 424,
@@ -8985,7 +8985,10 @@
       "score1": null,
       "team2": "Big Spring",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "McMurry",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9641,7 +9644,10 @@
       "score1": null,
       "team2": "Houston Lamar",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "AREA PLAYOFF - Challenger Stadium (Clear Lake)",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
