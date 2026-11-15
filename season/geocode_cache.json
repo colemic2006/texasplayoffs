@@ -26,6 +26,19 @@
   "stadium": "Warhorse Stadium",
   "stadium_id": 184
  },
+ "@ Karnes City || Devine v Orange Grove": {
+  "address": "400 North Highway 123, Karnes City, Texas 78118",
+  "city": "Karnes City",
+  "how": "school (map link)",
+  "lat": 28.8867,
+  "link_tried": true,
+  "lng": -97.88999,
+  "map_link": "https://goo.gl/maps/Zds1rXChHE7S4x139",
+  "rules": 10,
+  "site": "@ Karnes City",
+  "stadium": "Poss Johnson Field",
+  "stadium_id": 892
+ },
  "@ Lamesa High School || Wink v Ralls": {
   "address": "600 N 14th St, Lamesa, Texas 79331",
   "city": "Lamesa",
