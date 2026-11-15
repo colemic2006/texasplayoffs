@@ -4,7 +4,7 @@ const LINKS = [
   { id: 'chapters', label: 'Chapter Stats' },
   { id: 'regulars', label: 'Chapter Regulars' },
   { id: 'brackets', label: 'Brackets' },
-  { id: 'membership', label: 'Membership' },
+  { id: 'membership', label: 'Chapter Membership' },
   { id: 'scores', label: 'Scores' },
   { id: 'history', label: 'Multi-Year History' },
   { id: 'teams', label: 'Teams' },
