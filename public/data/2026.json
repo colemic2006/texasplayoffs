@@ -2,10 +2,10 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-15T20:27+00:00",
+    "updated": "2026-11-15T20:58+00:00",
     "games": 528,
     "played": 352,
-    "assigned": 468,
+    "assigned": 469,
     "weeks": {
       "1": {
         "games": 352,
@@ -13,7 +13,7 @@
       },
       "2": {
         "games": 176,
-        "assigned": 116
+        "assigned": 117
       },
       "3": {
         "games": 0,
@@ -234,7 +234,7 @@
     {
       "code": "ABI",
       "name": "Abilene",
-      "total": 33,
+      "total": 34,
       "weeks": {
         "1": {
           "total": 17,
@@ -249,9 +249,9 @@
           }
         },
         "2": {
-          "total": 16,
+          "total": 17,
           "classifications": {
-            "1A D1": 4,
+            "1A D1": 5,
             "1A D2": 1,
             "2A D1": 3,
             "2A D2": 2,
@@ -7621,7 +7621,7 @@
       "classification": "1A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "ABI",
       "team1": "Medina",
       "score1": null,
       "team2": "Aquilla",
