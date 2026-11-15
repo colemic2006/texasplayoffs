@@ -34,7 +34,7 @@ export default function LocalMatchups({ data }) {
       <div style={{ fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.18em', textTransform:'uppercase', color:'var(--mid)', marginBottom:6 }}>Playoff Selections</div>
       <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:30, color:'var(--ink)', marginBottom:6, paddingBottom:12, borderBottom:'1px solid var(--border)', display:'flex', alignItems:'center', gap:12 }}>
         <div style={{ width:4, height:28, borderRadius:2, background:'var(--burnt)' }} />
-        Local Matchups, Local Crew
+        Local Matchup, Local Chapter
       </div>
       <div style={{ fontSize:13, color:'var(--mid)', lineHeight:1.55, margin:'10px 0 14px', maxWidth:800 }}>
         Games where both schools are served by the same chapter during the regular season, and how often they picked that chapter to work their playoff game.
