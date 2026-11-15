@@ -8,7 +8,7 @@ const pct = (n, of) => of ? Math.round(100 * n / of) : 0
 // Per round: games between two schools from the same home chapter, and how many of those
 // were worked by that chapter
 export default function LocalMatchups({ data }) {
-  const home = useHomeChapters()
+  const home = useHomeChapters(data?.games?.[0]?.year)
   const status = useHomeChapterStatus()
   const [open, setOpen] = useState(null)
   const rounds = useMemo(() => {

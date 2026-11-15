@@ -27,6 +27,11 @@ if aliases.exists():
 (ROOT / 'public' / 'data' / 'home_chapters_status.json').write_text(json.dumps(dict(
     complete=lists.get('_complete', []), partial=lists.get('_partial', [])), indent=1) + '\n')
 (ROOT / 'public' / 'data' / 'home_chapters_confirmed.json').write_text(json.dumps(dict(sorted(out.items())), indent=1) + '\n')
+# schools whose home chapter changed: earlier chapters by season, for stats on past seasons
+hist = ROOT / 'season' / 'home_chapter_history.json'
+past = {t: sorted(v, key=lambda e: e['through']) for t, v in (json.loads(hist.read_text()) if hist.exists() else {}).items()
+        if not t.startswith('_')}
+(ROOT / 'public' / 'data' / 'home_chapters_past.json').write_text(json.dumps(past, indent=1, sort_keys=True) + '\n')
 print(f'home chapters: {len(out)} schools in {len([c for c in lists if not c.startswith("_")])} chapters')
 
 # How many schools on the site have a home chapter yet: for the coverage chart on the Teams page

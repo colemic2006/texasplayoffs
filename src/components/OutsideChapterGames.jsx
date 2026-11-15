@@ -9,7 +9,7 @@ const fmt = n => Math.round(n).toLocaleString()
 
 // Games where both schools share a home chapter but a different chapter worked the game
 export default function OutsideChapterGames({ data }) {
-  const home = useHomeChapters()
+  const home = useHomeChapters(data?.games?.[0]?.year)
   const status = useHomeChapterStatus()
   const names = { ELP: 'El Paso', BEA: 'Beaumont', COM: 'Commerce', PVC: 'Pecan Valley', STX: 'South Texas', RGV: 'Rio Grande Valley', DAL: 'Dallas', FTW: 'Fort Worth', WAC: 'Waco', CSC: 'College Station', ...Object.fromEntries((data?.chapters || []).map(c => [c.code, c.name])) }
   const name = c => names[c] || c

@@ -1,15 +1,27 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 
-// Each school's home chapter, from the owner's lists (scripts/home_chapters.py)
-let cached = null
-export function useHomeChapters() {
+// Each school's home chapter, from the owner's lists (scripts/home_chapters.py).
+// Pass a season to get the chapters as they were then: a school that moved chapters keeps its
+// earlier chapter for earlier seasons (season/home_chapter_history.json).
+let cached = null, pastCached = null
+export function useHomeChapters(year) {
   const [map, setMap] = useState(cached || {})
+  const [past, setPast] = useState(pastCached || {})
   useEffect(() => {
-    if (cached) return
-    fetch(`${import.meta.env.BASE_URL}data/home_chapters_confirmed.json?v=${__BUILD_TIME__}`)
+    if (!cached) fetch(`${import.meta.env.BASE_URL}data/home_chapters_confirmed.json?v=${__BUILD_TIME__}`)
       .then(r => r.ok ? r.json() : {}).then(d => { cached = d || {}; setMap(cached) }).catch(() => {})
+    if (!pastCached) fetch(`${import.meta.env.BASE_URL}data/home_chapters_past.json?v=${__BUILD_TIME__}`)
+      .then(r => r.ok ? r.json() : {}).then(d => { pastCached = d || {}; setPast(pastCached) }).catch(() => {})
   }, [])
-  return map
+  return useMemo(() => {
+    if (!year) return map
+    const out = { ...map }
+    for (const [team, entries] of Object.entries(past)) {
+      const then = entries.find(e => year <= e.through)
+      if (then) out[team] = then.chapter
+    }
+    return out
+  }, [map, past, year])
 }
 
 // which chapters have sent their full school list (scripts/home_chapters.py)
