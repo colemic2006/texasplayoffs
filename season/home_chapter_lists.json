@@ -220,7 +220,6 @@
   "SCUC Clemens HS": "Schertz Clemens",
   "SCUC Steele HS": "Cibolo Steele",
   "Seguin HS": "Seguin",
-  "Smithville HS": "Smithville",
   "Somerset HS": "Somerset",
   "Southside HS": "San Antonio Southside",
   "SSA South San HS": "South San Antonio",
@@ -823,7 +822,8 @@
   "Cherokee": "Cherokee",
   "Lago Vista": "Lago Vista",
   "La Grange": "La Grange",
-  "Johnson City LBJ": "Johnson City LBJ"
+  "Johnson City LBJ": "Johnson City LBJ",
+  "Smithville HS": "Smithville"
  },
  "RGV": {
   "Brownsville Hanna": "Brownsville Hanna",

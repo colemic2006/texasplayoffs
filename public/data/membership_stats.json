@@ -62,7 +62,7 @@
    "season_games": 22,
    "hist_games": 355,
    "late_games": 35,
-   "schools": 70,
+   "schools": 71,
    "counties": 16
   },
   "CTX": {
@@ -166,8 +166,8 @@
    "season_games": 46,
    "hist_games": 504,
    "late_games": 51,
-   "schools": 116,
-   "counties": 28
+   "schools": 115,
+   "counties": 27
   },
   "SPC": {
    "members": 221,
