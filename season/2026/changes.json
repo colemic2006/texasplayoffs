@@ -240,5 +240,16 @@
   "new": "2026-11-21",
   "at": "2026-11-14T20:16+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "2A D1",
+  "week": 2,
+  "team1": "New Deal",
+  "team2": "Spearman",
+  "field": "date",
+  "old": "2026-11-14",
+  "new": "2026-11-20",
+  "at": "2026-11-15T05:18+00:00",
+  "status": "changed"
  }
 ]
