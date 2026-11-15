@@ -295,7 +295,7 @@
       "round": "Area",
       "chapter": "ABI",
       "team1": "Jonesboro",
-      "score1": 52,
+      "score1": 54,
       "team2": "Robert Lee",
       "score2": 0,
       "winner": "Jonesboro"
@@ -729,7 +729,7 @@
       "team1": "Oglesby",
       "score1": 62,
       "team2": "Richland Springs",
-      "score2": 46,
+      "score2": 48,
       "winner": "Oglesby"
     },
     {
@@ -835,7 +835,7 @@
       "round": "Bi-District",
       "chapter": "SPC",
       "team1": "Panhandle",
-      "score1": 92,
+      "score1": 93,
       "team2": "Tahoka",
       "score2": 54,
       "winner": "Panhandle"
@@ -1712,7 +1712,7 @@
       "chapter": "SPC",
       "team1": "Albany",
       "score1": 60,
-      "team2": "El Paso El Dorado",
+      "team2": "Eldorado",
       "score2": 0,
       "winner": "Albany"
     },
@@ -2419,7 +2419,7 @@
       "round": "Regionals",
       "chapter": "TYL",
       "team1": "Clyde",
-      "score1": 14,
+      "score1": 21,
       "team2": "Brock",
       "score2": 75,
       "winner": "Brock"
@@ -3031,7 +3031,7 @@
       "round": "Bi-District",
       "chapter": "SPC",
       "team1": "Lubbock Roosevelt",
-      "score1": 32,
+      "score1": 36,
       "team2": "Friona",
       "score2": 14,
       "winner": "Lubbock Roosevelt"
@@ -3079,7 +3079,7 @@
       "round": "Bi-District",
       "chapter": "PBC",
       "team1": "Early",
-      "score1": 54,
+      "score1": 34,
       "team2": "Odessa Compass Academy",
       "score2": 13,
       "winner": "Early"
@@ -3295,9 +3295,9 @@
       "round": "Area",
       "chapter": "DAL",
       "team1": "Jacksboro",
-      "score1": 48,
+      "score1": 45,
       "team2": "Bells",
-      "score2": 8,
+      "score2": 6,
       "winner": "Jacksboro"
     },
     {
@@ -3585,7 +3585,7 @@
       "team1": "Tidehaven",
       "score1": 63,
       "team2": "Buffalo",
-      "score2": 7,
+      "score2": 6,
       "winner": "Tidehaven"
     },
     {
@@ -3813,7 +3813,7 @@
       "team1": "Canyon Randall",
       "score1": 48,
       "team2": "Burkburnett",
-      "score2": 21,
+      "score2": 28,
       "winner": "Canyon Randall"
     },
     {
@@ -4749,7 +4749,7 @@
       "team1": "Gilmer",
       "score1": 69,
       "team2": "Center",
-      "score2": 34,
+      "score2": 42,
       "winner": "Gilmer"
     },
     {
@@ -5901,7 +5901,7 @@
       "team1": "Brownsville Veterans Memorial",
       "score1": 55,
       "team2": "McAllenHigh",
-      "score2": 20,
+      "score2": 21,
       "winner": "Brownsville Veterans Memorial"
     },
     {
@@ -6379,7 +6379,7 @@
       "round": "Regionals",
       "chapter": "DAL",
       "team1": "Lovejoy",
-      "score1": 36,
+      "score1": 43,
       "team2": "Texarkana Texas",
       "score2": 21,
       "winner": "Lovejoy"
@@ -7135,9 +7135,9 @@
       "round": "Regionals",
       "chapter": "TYL",
       "team1": "Rockwall High",
-      "score1": 41,
+      "score1": 48,
       "team2": "Spring Westfield",
-      "score2": 78,
+      "score2": 77,
       "winner": "Spring Westfield"
     },
     {
@@ -7389,7 +7389,7 @@
       "team1": "Austin Westlake",
       "score1": 35,
       "team2": "Round Rock",
-      "score2": 3,
+      "score2": 0,
       "winner": "Austin Westlake"
     },
     {
@@ -7495,9 +7495,9 @@
       "round": "Regionals",
       "chapter": "CSC",
       "team1": "Austin Westlake",
-      "score1": 45,
+      "score1": 59,
       "team2": "Laredo United",
-      "score2": 7,
+      "score2": 14,
       "winner": "Austin Westlake"
     },
     {

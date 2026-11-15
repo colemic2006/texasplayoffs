@@ -151,9 +151,9 @@
       "round": "Area",
       "chapter": "ABI",
       "team1": "Gordon",
-      "score1": 58,
+      "score1": 56,
       "team2": "May",
-      "score2": 6,
+      "score2": 8,
       "winner": "Gordon"
     },
     {
@@ -259,9 +259,9 @@
       "round": "Regionals",
       "chapter": "FTW",
       "team1": "Aquilla",
-      "score1": 69,
+      "score1": 66,
       "team2": "Union Hill",
-      "score2": 39,
+      "score2": 42,
       "winner": "Aquilla"
     },
     {
@@ -295,7 +295,7 @@
       "round": "Quarterfinals",
       "chapter": "SPC",
       "team1": "Whiteface",
-      "score1": 76,
+      "score1": 82,
       "team2": "Borden County",
       "score2": 36,
       "winner": "Whiteface"
@@ -439,7 +439,7 @@
       "round": "Area",
       "chapter": "SPC",
       "team1": "Benjamin",
-      "score1": 92,
+      "score1": 62,
       "team2": "Aspermont",
       "score2": 6,
       "winner": "Benjamin"
@@ -1138,7 +1138,7 @@
       "team1": "Sunray",
       "score1": 49,
       "team2": "Hawley",
-      "score2": 32,
+      "score2": 40,
       "winner": "Sunray"
     },
     {
@@ -1846,7 +1846,7 @@
       "team1": "Shiner",
       "score1": 69,
       "team2": "Woodsboro",
-      "score2": 9,
+      "score2": 6,
       "winner": "Shiner"
     },
     {
@@ -2828,9 +2828,9 @@
       "round": "Area",
       "chapter": "HOU",
       "team1": "Rio Hondo",
-      "score1": 10,
+      "score1": 31,
       "team2": "Randolph",
-      "score2": 39,
+      "score2": 46,
       "winner": "Randolph"
     },
     {
@@ -3154,7 +3154,7 @@
       "team1": "Blue Ridge",
       "score1": 72,
       "team2": "Rice",
-      "score2": 21,
+      "score2": 12,
       "winner": "Blue Ridge"
     },
     {
@@ -3514,7 +3514,7 @@
       "team1": "De Kalb",
       "score1": 40,
       "team2": "Troup",
-      "score2": 32,
+      "score2": 34,
       "winner": "De Kalb"
     },
     {
@@ -4628,7 +4628,7 @@
       "round": "Bi-District",
       "chapter": "DAL",
       "team1": "Van Alstyne",
-      "score1": 56,
+      "score1": 54,
       "team2": "Ferris",
       "score2": 15,
       "winner": "Van Alstyne"
@@ -4738,7 +4738,7 @@
       "team1": "Robinson",
       "score1": 34,
       "team2": "Sealy",
-      "score2": 62,
+      "score2": 63,
       "winner": "Sealy"
     },
     {
@@ -5108,7 +5108,7 @@
       "round": "Regionals",
       "chapter": "FTW",
       "team1": "Benbrook",
-      "score1": 7,
+      "score1": 13,
       "team2": "Brock",
       "score2": 56,
       "winner": "Brock"
@@ -5338,7 +5338,7 @@
       "team1": "Aledo",
       "score1": 63,
       "team2": "FW Chisholm Trail",
-      "score2": 17,
+      "score2": 7,
       "winner": "Aledo"
     },
     {
@@ -5876,7 +5876,7 @@
       "round": "Regionals",
       "chapter": "ABI",
       "team1": "Aledo",
-      "score1": 62,
+      "score1": 52,
       "team2": "Amarillo Tascosa",
       "score2": 7,
       "winner": "Aledo"
@@ -6706,7 +6706,7 @@
       "team1": "Victoria West",
       "score1": 15,
       "team2": "Boerne",
-      "score2": 60,
+      "score2": 59,
       "winner": "Boerne"
     },
     {
@@ -6944,9 +6944,9 @@
       "round": "Bi-District",
       "chapter": "DAL",
       "team1": "North Forney",
-      "score1": 63,
+      "score1": 62,
       "team2": "Wylie",
-      "score2": 21,
+      "score2": 20,
       "winner": "North Forney"
     },
     {
@@ -7088,9 +7088,9 @@
       "round": "Bi-District",
       "chapter": "AUS",
       "team1": "Round Rock",
-      "score1": 41,
+      "score1": 14,
       "team2": "Austin Lake Travis",
-      "score2": 49,
+      "score2": 41,
       "winner": "Austin Lake Travis"
     },
     {
@@ -7100,7 +7100,7 @@
       "round": "Bi-District",
       "chapter": "SAT",
       "team1": "San Antonio Johnson",
-      "score1": 14,
+      "score1": 49,
       "team2": "San Antonio Taft",
       "score2": 7,
       "winner": "San Antonio Johnson"
@@ -7832,9 +7832,9 @@
       "round": "Bi-District",
       "chapter": "HOU",
       "team1": "Clear Springs",
-      "score1": 35,
+      "score1": 33,
       "team2": "Humble Kingwood",
-      "score2": 36,
+      "score2": 34,
       "winner": "Humble Kingwood"
     },
     {
@@ -8170,7 +8170,7 @@
       "team1": "Longview",
       "score1": 42,
       "team2": "Spring Klein Collins",
-      "score2": 28,
+      "score2": 34,
       "winner": "Longview"
     },
     {
@@ -8266,7 +8266,7 @@
       "team1": "Leander Vandegrift",
       "score1": 47,
       "team2": "San Antonio Harlan",
-      "score2": 7,
+      "score2": 14,
       "winner": "Leander Vandegrift"
     },
     {

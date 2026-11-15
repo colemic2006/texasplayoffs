@@ -8,7 +8,7 @@ back with no score)."""
 import re, difflib, pdfplumber
 
 SCORE = re.compile(r'^\*?(\d{1,3})\s*-\s*(\d{1,3})\*?(?:\s*\(?(\d?\s*OT)\)?)?$', re.I)
-LABEL = re.compile(r'^[WR]\s*\d{1,2}$')
+LABEL = re.compile(r'^[WRTF]\s*\d(\s*\d)?$')
 SKIP = re.compile(r'^(Region \d|State Champion|\d{4} Football Conference.*|[A-Z] Division ?\d?|\d|[A-Z] \d{1,2}|Forfeit)$', re.I)
 ABBR = {'sa': 'san antonio', 'fb': 'fort bend', 'cc': 'corpus christi', 'ep': 'el paso', 'ft': 'fort',
         'gp': 'galena park', 'cy': 'cypress', 'dc': 'dallas christian',
@@ -139,7 +139,7 @@ def parse(path):
     return games, issues
 
 def _resolve(e, a, b=None, rnd=0, issues=None, *extra):
-    if b is None or extra or not isinstance(rnd, int):
+    if extra or not isinstance(rnd, int):
         raise ValueError('bad feeders')
     if a is None or b is None:
         issues.append(f"round {rnd}: result {e['raw']} but a feeder game is unresolved")

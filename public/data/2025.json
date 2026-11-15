@@ -139,7 +139,7 @@
       "round": "Area",
       "chapter": "COM",
       "team1": "Union Hill",
-      "score1": 94,
+      "score1": 92,
       "team2": "Avalon",
       "score2": 60,
       "winner": "Union Hill"
@@ -259,7 +259,7 @@
       "round": "Regionals",
       "chapter": "COM",
       "team1": "Chester",
-      "score1": 36,
+      "score1": 30,
       "team2": "Union Hill",
       "score2": 76,
       "winner": "Union Hill"
@@ -345,7 +345,7 @@
       "team1": "Rankin",
       "score1": 54,
       "team2": "Water Valley",
-      "score2": 36,
+      "score2": 46,
       "winner": "Rankin"
     },
     {
@@ -357,7 +357,7 @@
       "team1": "Union Hill",
       "score1": 24,
       "team2": "Gordon",
-      "score2": 64,
+      "score2": 69,
       "winner": "Gordon"
     },
     {
@@ -451,7 +451,7 @@
       "round": "Area",
       "chapter": "SPC",
       "team1": "Jayton",
-      "score1": 56,
+      "score1": 54,
       "team2": "Guthrie",
       "score2": 6,
       "winner": "Jayton"
@@ -631,7 +631,7 @@
       "round": "Regionals",
       "chapter": "FTW",
       "team1": "Three Way",
-      "score1": 59,
+      "score1": 58,
       "team2": "Fannindel",
       "score2": 36,
       "winner": "Three Way"
@@ -679,9 +679,9 @@
       "round": "Quarterfinals",
       "chapter": "CTX",
       "team1": "Benjamin",
-      "score1": 56,
+      "score1": 62,
       "team2": "Jayton",
-      "score2": 70,
+      "score2": 76,
       "winner": "Jayton"
     },
     {
@@ -1315,7 +1315,7 @@
       "round": "Area",
       "chapter": "FTW",
       "team1": "Refugio",
-      "score1": 41,
+      "score1": 42,
       "team2": "Rosebud-Lott",
       "score2": 21,
       "winner": "Refugio"
@@ -1449,7 +1449,7 @@
       "team1": "Joaquin",
       "score1": 35,
       "team2": "San Augustine",
-      "score2": 16,
+      "score2": 24,
       "winner": "Joaquin"
     },
     {
@@ -1473,7 +1473,7 @@
       "team1": "West Texas Stinnett",
       "score1": 12,
       "team2": "Hamilton",
-      "score2": 29,
+      "score2": 28,
       "winner": "Hamilton"
     },
     {
@@ -1627,10 +1627,10 @@
       "round": "Bi-District",
       "chapter": "FTW",
       "team1": "Windthorst",
-      "score1": 55,
+      "score1": 14,
       "team2": "Clarendon",
-      "score2": 14,
-      "winner": "Windthorst"
+      "score2": 55,
+      "winner": "Clarendon"
     },
     {
       "year": 2025,
@@ -1950,7 +1950,7 @@
       "week": 2,
       "round": "Area",
       "chapter": "WAC",
-      "team1": "Windthorst",
+      "team1": "Clarendon",
       "score1": 38,
       "team2": "Lindsay",
       "score2": 48,
@@ -1975,7 +1975,7 @@
       "round": "Area",
       "chapter": "NTX",
       "team1": "Muenster",
-      "score1": 32,
+      "score1": 63,
       "team2": "Wellington",
       "score2": 21,
       "winner": "Muenster"
@@ -2013,7 +2013,7 @@
       "team1": "Mount Enterprise",
       "score1": 58,
       "team2": "Chilton",
-      "score2": 32,
+      "score2": 30,
       "winner": "Mount Enterprise"
     },
     {
@@ -2707,7 +2707,7 @@
       "round": "Area",
       "chapter": "TYL",
       "team1": "Pottsboro",
-      "score1": 67,
+      "score1": 49,
       "team2": "Malakoff",
       "score2": 21,
       "winner": "Pottsboro"
@@ -2781,7 +2781,7 @@
       "team1": "Columbus",
       "score1": 48,
       "team2": "Palestine Westwood",
-      "score2": 26,
+      "score2": 28,
       "winner": "Columbus"
     },
     {
@@ -2899,9 +2899,9 @@
       "round": "Regionals",
       "chapter": "SAT",
       "team1": "Franklin",
-      "score1": 24,
+      "score1": 21,
       "team2": "Columbus",
-      "score2": 31,
+      "score2": 34,
       "winner": "Columbus"
     },
     {
@@ -3057,7 +3057,7 @@
       "team1": "Crane",
       "score1": 15,
       "team2": "Grape Creek",
-      "score2": 60,
+      "score2": 50,
       "winner": "Grape Creek"
     },
     {
@@ -3643,7 +3643,7 @@
       "round": "Regionals",
       "chapter": "TYL",
       "team1": "Edgewood",
-      "score1": 28,
+      "score1": 20,
       "team2": "Arp",
       "score2": 49,
       "winner": "Arp"
@@ -3751,7 +3751,7 @@
       "round": "Semifinals",
       "chapter": "WAC",
       "team1": "Newton",
-      "score1": 72,
+      "score1": 74,
       "team2": "East Bernard",
       "score2": 20,
       "winner": "Newton"
@@ -3813,7 +3813,7 @@
       "team1": "San Angelo Lake View",
       "score1": 14,
       "team2": "Lampasas",
-      "score2": 52,
+      "score2": 45,
       "winner": "Lampasas"
     },
     {
@@ -4459,7 +4459,7 @@
       "round": "Quarterfinals",
       "chapter": "FTW",
       "team1": "Alvarado",
-      "score1": 21,
+      "score1": 27,
       "team2": "Celina",
       "score2": 52,
       "winner": "Celina"
@@ -4999,7 +4999,7 @@
       "round": "Area",
       "chapter": "HOU",
       "team1": "Carthage",
-      "score1": 62,
+      "score1": 63,
       "team2": "Sanger",
       "score2": 35,
       "winner": "Carthage"
@@ -5035,9 +5035,9 @@
       "round": "Area",
       "chapter": "SAT",
       "team1": "China Spring",
-      "score1": 27,
+      "score1": 21,
       "team2": "La Marque",
-      "score2": 34,
+      "score2": 27,
       "winner": "La Marque"
     },
     {
@@ -5409,7 +5409,7 @@
       "team1": "West Mesquite",
       "score1": 28,
       "team2": "Frisco",
-      "score2": 14,
+      "score2": 24,
       "winner": "West Mesquite"
     },
     {
@@ -5781,7 +5781,7 @@
       "team1": "Beaumont United",
       "score1": 7,
       "team2": "College Station",
-      "score2": 51,
+      "score2": 49,
       "winner": "College Station"
     },
     {
@@ -6475,7 +6475,7 @@
       "round": "Area",
       "chapter": "HOU",
       "team1": "South Oak Cliff",
-      "score1": 39,
+      "score1": 46,
       "team2": "Mount Pleasant",
       "score2": 7,
       "winner": "South Oak Cliff"
@@ -6513,7 +6513,7 @@
       "team1": "Port Neches-Groves",
       "score1": 63,
       "team2": "Ennis",
-      "score2": 29,
+      "score2": 21,
       "winner": "Port Neches-Groves"
     },
     {
@@ -6535,10 +6535,10 @@
       "round": "Area",
       "chapter": "TYL",
       "team1": "Waco University",
-      "score1": 42,
+      "score1": 63,
       "team2": "Bastrop",
-      "score2": 69,
-      "winner": "Bastrop"
+      "score2": 21,
+      "winner": "Waco University"
     },
     {
       "year": 2025,
@@ -6583,7 +6583,7 @@
       "round": "Area",
       "chapter": "HOU",
       "team1": "Gregory-Portland",
-      "score1": 72,
+      "score1": 73,
       "team2": "Mission Sharyland",
       "score2": 21,
       "winner": "Gregory-Portland"
@@ -6668,7 +6668,7 @@
       "chapter": "SAT",
       "team1": "Richmond Randle",
       "score1": 83,
-      "team2": "Bastrop",
+      "team2": "Waco University",
       "score2": 20,
       "winner": "Richmond Randle"
     },
@@ -6979,7 +6979,7 @@
       "round": "Bi-District",
       "chapter": "HOU",
       "team1": "Cy Ranch",
-      "score1": 42,
+      "score1": 40,
       "team2": "Klein",
       "score2": 24,
       "winner": "Cy Ranch"
@@ -7315,7 +7315,7 @@
       "round": "Area",
       "chapter": "HOU",
       "team1": "Pearland",
-      "score1": 21,
+      "score1": 7,
       "team2": "Dickinson",
       "score2": 28,
       "winner": "Dickinson"
@@ -7377,7 +7377,7 @@
       "team1": "North Crowley",
       "score1": 46,
       "team2": "Coppell",
-      "score2": 21,
+      "score2": 20,
       "winner": "North Crowley"
     },
     {
@@ -7423,7 +7423,7 @@
       "round": "Regionals",
       "chapter": "HOU",
       "team1": "Cypress Falls",
-      "score1": 27,
+      "score1": 20,
       "team2": "Galena Park North Shore",
       "score2": 54,
       "winner": "Galena Park North Shore"
@@ -7435,9 +7435,9 @@
       "round": "Regionals",
       "chapter": "HOU",
       "team1": "Houston Strake Jesuit",
-      "score1": 8,
+      "score1": 16,
       "team2": "Dickinson",
-      "score2": 52,
+      "score2": 55,
       "winner": "Dickinson"
     },
     {
@@ -7591,7 +7591,7 @@
       "round": "Bi-District",
       "chapter": "HOU",
       "team1": "Dallas Jesuit",
-      "score1": 61,
+      "score1": 65,
       "team2": "Arlington Lamar",
       "score2": 41,
       "winner": "Dallas Jesuit"
@@ -7951,7 +7951,7 @@
       "round": "Area",
       "chapter": "DAL",
       "team1": "Denton Guyer",
-      "score1": 44,
+      "score1": 34,
       "team2": "Dallas Jesuit",
       "score2": 14,
       "winner": "Denton Guyer"
@@ -8023,9 +8023,9 @@
       "round": "Area",
       "chapter": "HOU",
       "team1": "Willis",
-      "score1": 37,
+      "score1": 34,
       "team2": "Tomball High",
-      "score2": 24,
+      "score2": 27,
       "winner": "Willis"
     },
     {

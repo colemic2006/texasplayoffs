@@ -705,7 +705,7 @@
       "team1": "Galena Park North Shore",
       "score1": 44,
       "team2": "Humble Atascocita",
-      "score2": 20,
+      "score2": 21,
       "winner": "Galena Park North Shore"
     },
     {
@@ -1497,7 +1497,7 @@
       "team1": "Katy High",
       "score1": 14,
       "team2": "Austin Westlake",
-      "score2": 46,
+      "score2": 45,
       "winner": "Austin Westlake"
     },
     {
@@ -1579,7 +1579,7 @@
       "round": "Bi-District",
       "chapter": "NTX",
       "team1": "Amarillo Tascosa",
-      "score1": 43,
+      "score1": 53,
       "team2": "El Paso El Dorado",
       "score2": 7,
       "winner": "Amarillo Tascosa"
@@ -1833,7 +1833,7 @@
       "team1": "San Antonio Southwest Legacy",
       "score1": 43,
       "team2": "San Antonio Brackenridge",
-      "score2": 21,
+      "score2": 22,
       "winner": "San Antonio Southwest Legacy"
     },
     {
@@ -2781,7 +2781,7 @@
       "team1": "Barbers Hill",
       "score1": 35,
       "team2": "A&M Consolidated",
-      "score2": 39,
+      "score2": 41,
       "winner": "A&M Consolidated"
     },
     {
@@ -3259,7 +3259,7 @@
       "round": "Bi-District",
       "chapter": "HOU",
       "team1": "Houston Wheatley",
-      "score1": 47,
+      "score1": 41,
       "team2": "Brazosport",
       "score2": 70,
       "winner": "Brazosport"
@@ -3525,7 +3525,7 @@
       "team1": "Tyler Chapel Hill",
       "score1": 51,
       "team2": "Brazosport",
-      "score2": 47,
+      "score2": 27,
       "winner": "Tyler Chapel Hill"
     },
     {
@@ -3537,7 +3537,7 @@
       "team1": "West Columbia",
       "score1": 21,
       "team2": "Little Cypress-Mauriceville",
-      "score2": 48,
+      "score2": 42,
       "winner": "Little Cypress-Mauriceville"
     },
     {
@@ -3681,7 +3681,7 @@
       "team1": "Austin LBJ",
       "score1": 68,
       "team2": "Boerne",
-      "score2": 25,
+      "score2": 24,
       "winner": "Austin LBJ"
     },
     {
@@ -4041,7 +4041,7 @@
       "team1": "Jasper",
       "score1": 23,
       "team2": "Waco Connally",
-      "score2": 0,
+      "score2": 20,
       "winner": "Jasper"
     },
     {
@@ -4075,7 +4075,7 @@
       "round": "Bi-District",
       "chapter": "AUS",
       "team1": "Cuero",
-      "score1": 62,
+      "score1": 63,
       "team2": "San Antonio YMLA",
       "score2": 7,
       "winner": "Cuero"
@@ -4483,7 +4483,7 @@
       "round": "Quarterfinal",
       "chapter": "HOU",
       "team1": "China Spring",
-      "score1": 31,
+      "score1": 25,
       "team2": "West Orange-Stark",
       "score2": 14,
       "winner": "China Spring"
@@ -4795,7 +4795,7 @@
       "round": "Bi-District",
       "chapter": "HOU",
       "team1": "Woodville",
-      "score1": 41,
+      "score1": 42,
       "team2": "Crockett",
       "score2": 6,
       "winner": "Woodville"
@@ -5071,9 +5071,9 @@
       "round": "Area",
       "chapter": "HOU",
       "team1": "Llano",
-      "score1": 21,
+      "score1": 27,
       "team2": "San Diego",
-      "score2": 28,
+      "score2": 35,
       "winner": "San Diego"
     },
     {
@@ -5275,7 +5275,7 @@
       "round": "Semifinal",
       "chapter": "FTW",
       "team1": "Lorena",
-      "score1": 54,
+      "score1": 55,
       "team2": "Lago Vista",
       "score2": 17,
       "winner": "Lorena"
@@ -5541,7 +5541,7 @@
       "team1": "Waskom",
       "score1": 62,
       "team2": "Corrigan-Camden",
-      "score2": 34,
+      "score2": 7,
       "winner": "Waskom"
     },
     {
@@ -5755,7 +5755,7 @@
       "round": "Area",
       "chapter": "NTX",
       "team1": "Palmer",
-      "score1": 34,
+      "score1": 35,
       "team2": "Dublin",
       "score2": 41,
       "winner": "Dublin"
@@ -6331,7 +6331,7 @@
       "round": "Bi-District",
       "chapter": "HOU",
       "team1": "Price Carlisle",
-      "score1": 35,
+      "score1": 43,
       "team2": "Shelbyville",
       "score2": 53,
       "winner": "Shelbyville"
@@ -6499,7 +6499,7 @@
       "round": "Area",
       "chapter": "DAL",
       "team1": "Cooper",
-      "score1": 24,
+      "score1": 18,
       "team2": "Tolar",
       "score2": 35,
       "winner": "Tolar"
@@ -6583,7 +6583,7 @@
       "round": "Area",
       "chapter": "SAT",
       "team1": "Shiner",
-      "score1": 62,
+      "score1": 63,
       "team2": "Three Rivers",
       "score2": 7,
       "winner": "Shiner"
@@ -6955,7 +6955,7 @@
       "round": "Bi-District",
       "chapter": "ABI",
       "team1": "Muenster",
-      "score1": 56,
+      "score1": 55,
       "team2": "Cross Plains",
       "score2": 7,
       "winner": "Muenster"
@@ -7411,10 +7411,10 @@
       "round": "Regional",
       "chapter": "ABI",
       "team1": "Santo",
-      "score1": 7,
+      "score1": 40,
       "team2": "Windthorst",
-      "score2": 40,
-      "winner": "Windthorst"
+      "score2": 7,
+      "winner": "Santo"
     },
     {
       "year": 2021,
@@ -7494,7 +7494,7 @@
       "week": 4,
       "round": "Quarterfinal",
       "chapter": "DAL",
-      "team1": "Windthorst",
+      "team1": "Santo",
       "score1": 14,
       "team2": "Albany",
       "score2": 28,
@@ -7567,7 +7567,7 @@
       "round": "Area",
       "chapter": "AMA",
       "team1": "Turkey Valley",
-      "score1": 77,
+      "score1": 71,
       "team2": "Nazareth",
       "score2": 32,
       "winner": "Turkey Valley"
@@ -7689,7 +7689,7 @@
       "team1": "Abbott",
       "score1": 67,
       "team2": "Avalon",
-      "score2": 2,
+      "score2": 22,
       "winner": "Abbott"
     },
     {

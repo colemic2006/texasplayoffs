@@ -1,4 +1,2822 @@
 {
+ "2021": {
+  "1A D1": {
+   "Abbott": {
+    "district": 12,
+    "place": 1
+   },
+   "Avalon": {
+    "district": 11,
+    "place": 2
+   },
+   "Blum": {
+    "district": 11,
+    "place": 1
+   },
+   "Borden County": {
+    "district": 4,
+    "place": 1
+   },
+   "Coolidge": {
+    "district": 12,
+    "place": 2
+   },
+   "Fort Davis": {
+    "district": 5,
+    "place": 2
+   },
+   "Garden City": {
+    "district": 6,
+    "place": 2
+   },
+   "Gorman": {
+    "district": 13,
+    "place": 2
+   },
+   "Happy": {
+    "district": 1,
+    "place": 2
+   },
+   "Hermleigh": {
+    "district": 7,
+    "place": 1
+   },
+   "Ira": {
+    "district": 7,
+    "place": 2
+   },
+   "Irion County": {
+    "district": 14,
+    "place": 2
+   },
+   "Jonesboro": {
+    "district": 15,
+    "place": 1
+   },
+   "Knox City": {
+    "district": 3,
+    "place": 2
+   },
+   "Leakey": {
+    "district": 16,
+    "place": 2
+   },
+   "Leverett's Chapel": {
+    "district": 10,
+    "place": 2
+   },
+   "Lometa": {
+    "district": 15,
+    "place": 2
+   },
+   "May": {
+    "district": 13,
+    "place": 1
+   },
+   "Meadow": {
+    "district": 4,
+    "place": 2
+   },
+   "Medina": {
+    "district": 16,
+    "place": 1
+   },
+   "Nazareth": {
+    "district": 2,
+    "place": 2
+   },
+   "Newcastle": {
+    "district": 9,
+    "place": 2
+   },
+   "Rankin": {
+    "district": 6,
+    "place": 1
+   },
+   "Saint Jo": {
+    "district": 9,
+    "place": 1
+   },
+   "Springlake-Earth": {
+    "district": 2,
+    "place": 1
+   },
+   "Spur": {
+    "district": 3,
+    "place": 1
+   },
+   "Sterling City": {
+    "district": 8,
+    "place": 2
+   },
+   "Turkey Valley": {
+    "district": 1,
+    "place": 1
+   },
+   "Union Hill": {
+    "district": 10,
+    "place": 1
+   },
+   "Van Horn": {
+    "district": 5,
+    "place": 1
+   },
+   "Water Valley": {
+    "district": 14,
+    "place": 1
+   },
+   "Westbrook": {
+    "district": 8,
+    "place": 1
+   }
+  },
+  "1A D2": {
+   "Anton": {
+    "district": 3,
+    "place": 1
+   },
+   "Balmorhea": {
+    "district": 5,
+    "place": 1
+   },
+   "Benjamin": {
+    "district": 8,
+    "place": 1
+   },
+   "Blackwell": {
+    "district": 6,
+    "place": 2
+   },
+   "Blanket": {
+    "district": 15,
+    "place": 1
+   },
+   "Calvert": {
+    "district": 13,
+    "place": 2
+   },
+   "Cherokee": {
+    "district": 16,
+    "place": 2
+   },
+   "Cranfills Gap": {
+    "district": 12,
+    "place": 1
+   },
+   "Fannindel": {
+    "district": 10,
+    "place": 2
+   },
+   "Follett": {
+    "district": 1,
+    "place": 1
+   },
+   "Gold-Burg": {
+    "district": 10,
+    "place": 1
+   },
+   "Gordon": {
+    "district": 11,
+    "place": 2
+   },
+   "Groom": {
+    "district": 2,
+    "place": 1
+   },
+   "Jayton": {
+    "district": 7,
+    "place": 2
+   },
+   "Klondike": {
+    "district": 4,
+    "place": 1
+   },
+   "Loraine": {
+    "district": 6,
+    "place": 1
+   },
+   "Lueders-Avoca": {
+    "district": 9,
+    "place": 2
+   },
+   "Miami": {
+    "district": 1,
+    "place": 2
+   },
+   "Morgan": {
+    "district": 12,
+    "place": 2
+   },
+   "Motley County": {
+    "district": 7,
+    "place": 1
+   },
+   "Mount Calm": {
+    "district": 14,
+    "place": 2
+   },
+   "Oakwood": {
+    "district": 13,
+    "place": 1
+   },
+   "Oglesby": {
+    "district": 14,
+    "place": 1
+   },
+   "Richland Springs": {
+    "district": 16,
+    "place": 1
+   },
+   "Rule": {
+    "district": 8,
+    "place": 2
+   },
+   "Sanderson": {
+    "district": 5,
+    "place": 2
+   },
+   "Sands": {
+    "district": 4,
+    "place": 2
+   },
+   "Sidney": {
+    "district": 15,
+    "place": 2
+   },
+   "Strawn": {
+    "district": 11,
+    "place": 1
+   },
+   "Throckmorton": {
+    "district": 9,
+    "place": 1
+   },
+   "Whitharral": {
+    "district": 3,
+    "place": 2
+   },
+   "Wildorado": {
+    "district": 2,
+    "place": 2
+   }
+  },
+  "2A D1": {
+   "Alba-Golden": {
+    "district": 6,
+    "place": 4
+   },
+   "Alto": {
+    "district": 11,
+    "place": 2
+   },
+   "Alvord": {
+    "district": 5,
+    "place": 2
+   },
+   "Anson": {
+    "district": 3,
+    "place": 4
+   },
+   "Beckville": {
+    "district": 9,
+    "place": 1
+   },
+   "Ben Bolt": {
+    "district": 16,
+    "place": 3
+   },
+   "Bosqueville": {
+    "district": 7,
+    "place": 3
+   },
+   "Cayuga": {
+    "district": 8,
+    "place": 3
+   },
+   "Celeste": {
+    "district": 6,
+    "place": 2
+   },
+   "Centerville": {
+    "district": 11,
+    "place": 1
+   },
+   "Cisco": {
+    "district": 4,
+    "place": 2
+   },
+   "Coleman": {
+    "district": 4,
+    "place": 1
+   },
+   "Cooper": {
+    "district": 6,
+    "place": 1
+   },
+   "Crawford": {
+    "district": 7,
+    "place": 1
+   },
+   "Dawson": {
+    "district": 8,
+    "place": 4
+   },
+   "Farwell": {
+    "district": 1,
+    "place": 2
+   },
+   "Flatonia": {
+    "district": 13,
+    "place": 3
+   },
+   "Floydada": {
+    "district": 2,
+    "place": 4
+   },
+   "Forsan": {
+    "district": 3,
+    "place": 2
+   },
+   "Frankston": {
+    "district": 9,
+    "place": 4
+   },
+   "Freer": {
+    "district": 15,
+    "place": 4
+   },
+   "Ganado": {
+    "district": 13,
+    "place": 2
+   },
+   "Garrison": {
+    "district": 10,
+    "place": 2
+   },
+   "Goldthwaite": {
+    "district": 4,
+    "place": 3
+   },
+   "Hamilton": {
+    "district": 7,
+    "place": 4
+   },
+   "Harper": {
+    "district": 14,
+    "place": 4
+   },
+   "Haskell": {
+    "district": 3,
+    "place": 3
+   },
+   "Hawkins": {
+    "district": 9,
+    "place": 3
+   },
+   "Hawley": {
+    "district": 3,
+    "place": 1
+   },
+   "Hearne": {
+    "district": 12,
+    "place": 2
+   },
+   "Holland": {
+    "district": 12,
+    "place": 1
+   },
+   "Italy": {
+    "district": 8,
+    "place": 1
+   },
+   "Jewett Leon": {
+    "district": 11,
+    "place": 4
+   },
+   "Joaquin": {
+    "district": 10,
+    "place": 4
+   },
+   "Johnson City": {
+    "district": 14,
+    "place": 2
+   },
+   "Kenedy": {
+    "district": 15,
+    "place": 2
+   },
+   "La Villa": {
+    "district": 16,
+    "place": 1
+   },
+   "Lindsay": {
+    "district": 5,
+    "place": 1
+   },
+   "Marlin": {
+    "district": 8,
+    "place": 2
+   },
+   "Mason": {
+    "district": 14,
+    "place": 1
+   },
+   "New Deal": {
+    "district": 2,
+    "place": 1
+   },
+   "Normangee": {
+    "district": 11,
+    "place": 3
+   },
+   "Olton": {
+    "district": 1,
+    "place": 4
+   },
+   "Ozona": {
+    "district": 14,
+    "place": 3
+   },
+   "Panhandle": {
+    "district": 1,
+    "place": 1
+   },
+   "Post": {
+    "district": 2,
+    "place": 3
+   },
+   "Premont": {
+    "district": 16,
+    "place": 2
+   },
+   "Price Carlisle": {
+    "district": 9,
+    "place": 2
+   },
+   "Refugio": {
+    "district": 15,
+    "place": 1
+   },
+   "Rosebud-Lott": {
+    "district": 12,
+    "place": 4
+   },
+   "San Saba": {
+    "district": 4,
+    "place": 4
+   },
+   "Sanford-Fritch": {
+    "district": 1,
+    "place": 3
+   },
+   "Santa Maria": {
+    "district": 16,
+    "place": 4
+   },
+   "Schulenburg": {
+    "district": 13,
+    "place": 4
+   },
+   "Shelbyville": {
+    "district": 10,
+    "place": 3
+   },
+   "Shiner": {
+    "district": 13,
+    "place": 1
+   },
+   "Sundown": {
+    "district": 2,
+    "place": 2
+   },
+   "Thorndale": {
+    "district": 12,
+    "place": 3
+   },
+   "Three Rivers": {
+    "district": 15,
+    "place": 3
+   },
+   "Timpson": {
+    "district": 10,
+    "place": 1
+   },
+   "Tioga": {
+    "district": 5,
+    "place": 3
+   },
+   "Tolar": {
+    "district": 7,
+    "place": 2
+   },
+   "Trenton": {
+    "district": 5,
+    "place": 4
+   },
+   "Wolfe City": {
+    "district": 6,
+    "place": 3
+   }
+  },
+  "2A D2": {
+   "Albany": {
+    "district": 8,
+    "place": 1
+   },
+   "Archer City": {
+    "district": 6,
+    "place": 1
+   },
+   "Bovina": {
+    "district": 2,
+    "place": 2
+   },
+   "Bremond": {
+    "district": 10,
+    "place": 3
+   },
+   "Bruni": {
+    "district": 15,
+    "place": 2
+   },
+   "Burkeville": {
+    "district": 12,
+    "place": 4
+   },
+   "Burton": {
+    "district": 13,
+    "place": 4
+   },
+   "Chilton": {
+    "district": 10,
+    "place": 2
+   },
+   "Christoval": {
+    "district": 14,
+    "place": 1
+   },
+   "Clarendon": {
+    "district": 4,
+    "place": 1
+   },
+   "Clarksville": {
+    "district": 9,
+    "place": 4
+   },
+   "Crosbyton": {
+    "district": 5,
+    "place": 4
+   },
+   "Cross Plains": {
+    "district": 8,
+    "place": 4
+   },
+   "Cushing": {
+    "district": 11,
+    "place": 4
+   },
+   "D'Hanis": {
+    "district": 15,
+    "place": 1
+   },
+   "Deweyville": {
+    "district": 12,
+    "place": 2
+   },
+   "Eldorado": {
+    "district": 14,
+    "place": 2
+   },
+   "Era": {
+    "district": 7,
+    "place": 4
+   },
+   "Evadale": {
+    "district": 12,
+    "place": 1
+   },
+   "Falls City": {
+    "district": 16,
+    "place": 1
+   },
+   "Granger": {
+    "district": 13,
+    "place": 1
+   },
+   "Gruver": {
+    "district": 3,
+    "place": 2
+   },
+   "Hico": {
+    "district": 8,
+    "place": 3
+   },
+   "Hull-Daisetta": {
+    "district": 12,
+    "place": 3
+   },
+   "La Pryor": {
+    "district": 15,
+    "place": 4
+   },
+   "Lockney": {
+    "district": 5,
+    "place": 3
+   },
+   "Louise": {
+    "district": 16,
+    "place": 3
+   },
+   "Lovelady": {
+    "district": 11,
+    "place": 2
+   },
+   "Mart": {
+    "district": 10,
+    "place": 1
+   },
+   "Maud": {
+    "district": 9,
+    "place": 1
+   },
+   "McCamey": {
+    "district": 1,
+    "place": 1
+   },
+   "Miles": {
+    "district": 14,
+    "place": 4
+   },
+   "Muenster": {
+    "district": 7,
+    "place": 1
+   },
+   "New Home": {
+    "district": 2,
+    "place": 1
+   },
+   "Olney": {
+    "district": 6,
+    "place": 3
+   },
+   "Petrolia": {
+    "district": 7,
+    "place": 3
+   },
+   "Plains": {
+    "district": 1,
+    "place": 4
+   },
+   "Quanah": {
+    "district": 6,
+    "place": 4
+   },
+   "Quinlan Boles": {
+    "district": 9,
+    "place": 2
+   },
+   "Ralls": {
+    "district": 5,
+    "place": 2
+   },
+   "Rocksprings": {
+    "district": 14,
+    "place": 3
+   },
+   "Ropesville": {
+    "district": 2,
+    "place": 4
+   },
+   "Roscoe": {
+    "district": 5,
+    "place": 1
+   },
+   "Sabinal": {
+    "district": 15,
+    "place": 3
+   },
+   "Santo": {
+    "district": 8,
+    "place": 2
+   },
+   "Seagraves": {
+    "district": 1,
+    "place": 3
+   },
+   "Seymour": {
+    "district": 6,
+    "place": 2
+   },
+   "Shamrock": {
+    "district": 4,
+    "place": 3
+   },
+   "Simms Bowie": {
+    "district": 9,
+    "place": 3
+   },
+   "Snook": {
+    "district": 13,
+    "place": 2
+   },
+   "Somerville": {
+    "district": 13,
+    "place": 3
+   },
+   "Stratford": {
+    "district": 3,
+    "place": 1
+   },
+   "Sudan": {
+    "district": 2,
+    "place": 3
+   },
+   "Sunray": {
+    "district": 3,
+    "place": 4
+   },
+   "Teneha": {
+    "district": 11,
+    "place": 1
+   },
+   "Vega": {
+    "district": 3,
+    "place": 3
+   },
+   "Wellington": {
+    "district": 4,
+    "place": 2
+   },
+   "West Sabine": {
+    "district": 11,
+    "place": 3
+   },
+   "Wheeler": {
+    "district": 4,
+    "place": 4
+   },
+   "Windthorst": {
+    "district": 7,
+    "place": 2
+   },
+   "Wink": {
+    "district": 1,
+    "place": 2
+   },
+   "Woodsboro": {
+    "district": 16,
+    "place": 4
+   },
+   "Wortham": {
+    "district": 10,
+    "place": 4
+   },
+   "Yorktown": {
+    "district": 16,
+    "place": 2
+   }
+  },
+  "3A D1": {
+   "Amarillo River Road": {
+    "district": 2,
+    "place": 3
+   },
+   "Anahuac": {
+    "district": 10,
+    "place": 3
+   },
+   "Bishop": {
+    "district": 16,
+    "place": 4
+   },
+   "Blanco": {
+    "district": 13,
+    "place": 3
+   },
+   "Bonham": {
+    "district": 5,
+    "place": 4
+   },
+   "Breckenridge": {
+    "district": 3,
+    "place": 2
+   },
+   "Brock": {
+    "district": 4,
+    "place": 1
+   },
+   "Brownfield": {
+    "district": 1,
+    "place": 3
+   },
+   "Buna": {
+    "district": 10,
+    "place": 4
+   },
+   "Bushland": {
+    "district": 2,
+    "place": 1
+   },
+   "Cameron Yoe": {
+    "district": 11,
+    "place": 3
+   },
+   "Coldspring-Oakhurst": {
+    "district": 9,
+    "place": 2
+   },
+   "Columbus": {
+    "district": 12,
+    "place": 1
+   },
+   "Crockett": {
+    "district": 9,
+    "place": 3
+   },
+   "Dalhart": {
+    "district": 2,
+    "place": 4
+   },
+   "Denver City": {
+    "district": 1,
+    "place": 2
+   },
+   "Diboll": {
+    "district": 9,
+    "place": 1
+   },
+   "Early": {
+    "district": 3,
+    "place": 3
+   },
+   "East Chambers": {
+    "district": 10,
+    "place": 1
+   },
+   "Edna": {
+    "district": 15,
+    "place": 1
+   },
+   "Fairfield": {
+    "district": 8,
+    "place": 4
+   },
+   "Gladewater": {
+    "district": 6,
+    "place": 1
+   },
+   "Goliad": {
+    "district": 15,
+    "place": 4
+   },
+   "Grandview": {
+    "district": 7,
+    "place": 2
+   },
+   "Groesbeck": {
+    "district": 8,
+    "place": 2
+   },
+   "Hallettsville": {
+    "district": 12,
+    "place": 2
+   },
+   "Hitchcock": {
+    "district": 12,
+    "place": 4
+   },
+   "Huntington": {
+    "district": 9,
+    "place": 4
+   },
+   "Jefferson": {
+    "district": 6,
+    "place": 4
+   },
+   "Jim Ned": {
+    "district": 3,
+    "place": 1
+   },
+   "Jourdanton": {
+    "district": 14,
+    "place": 2
+   },
+   "Lago Vista": {
+    "district": 13,
+    "place": 2
+   },
+   "Little River Academy": {
+    "district": 11,
+    "place": 2
+   },
+   "Llano": {
+    "district": 13,
+    "place": 1
+   },
+   "London": {
+    "district": 16,
+    "place": 1
+   },
+   "Lorena": {
+    "district": 11,
+    "place": 1
+   },
+   "Luling": {
+    "district": 13,
+    "place": 4
+   },
+   "Lyford": {
+    "district": 16,
+    "place": 3
+   },
+   "Malakoff": {
+    "district": 8,
+    "place": 1
+   },
+   "Marion": {
+    "district": 14,
+    "place": 4
+   },
+   "Maypearl": {
+    "district": 7,
+    "place": 4
+   },
+   "Mineola": {
+    "district": 5,
+    "place": 3
+   },
+   "Mount Vernon": {
+    "district": 5,
+    "place": 1
+   },
+   "Muleshoe": {
+    "district": 2,
+    "place": 2
+   },
+   "Orange Grove": {
+    "district": 15,
+    "place": 3
+   },
+   "Peaster": {
+    "district": 4,
+    "place": 4
+   },
+   "Pilot Point": {
+    "district": 4,
+    "place": 2
+   },
+   "Poteet": {
+    "district": 14,
+    "place": 1
+   },
+   "Pottsboro": {
+    "district": 5,
+    "place": 2
+   },
+   "Randolph": {
+    "district": 14,
+    "place": 3
+   },
+   "Rockdale": {
+    "district": 11,
+    "place": 4
+   },
+   "Sabine": {
+    "district": 6,
+    "place": 2
+   },
+   "San Diego": {
+    "district": 16,
+    "place": 2
+   },
+   "Shallowater": {
+    "district": 1,
+    "place": 1
+   },
+   "Slaton": {
+    "district": 1,
+    "place": 4
+   },
+   "Tatum": {
+    "district": 6,
+    "place": 3
+   },
+   "Teague": {
+    "district": 8,
+    "place": 3
+   },
+   "Vanderbilt Industrial": {
+    "district": 15,
+    "place": 2
+   },
+   "Wall": {
+    "district": 3,
+    "place": 4
+   },
+   "West": {
+    "district": 7,
+    "place": 1
+   },
+   "Whitesboro": {
+    "district": 4,
+    "place": 3
+   },
+   "Whitney": {
+    "district": 7,
+    "place": 3
+   },
+   "Woodville": {
+    "district": 10,
+    "place": 2
+   },
+   "Yoakum": {
+    "district": 12,
+    "place": 3
+   }
+  },
+  "3A D2": {
+   "Abernathy": {
+    "district": 4,
+    "place": 2
+   },
+   "Alpine": {
+    "district": 1,
+    "place": 2
+   },
+   "Anthony": {
+    "district": 1,
+    "place": 3
+   },
+   "Arp": {
+    "district": 9,
+    "place": 2
+   },
+   "Ballinger": {
+    "district": 2,
+    "place": 4
+   },
+   "Banquete": {
+    "district": 16,
+    "place": 4
+   },
+   "Bells": {
+    "district": 8,
+    "place": 2
+   },
+   "Big Sandy Harmony": {
+    "district": 9,
+    "place": 4
+   },
+   "Blooming Grove": {
+    "district": 7,
+    "place": 3
+   },
+   "Brady": {
+    "district": 2,
+    "place": 2
+   },
+   "Callisburg": {
+    "district": 6,
+    "place": 2
+   },
+   "Canadian": {
+    "district": 3,
+    "place": 2
+   },
+   "Childress": {
+    "district": 3,
+    "place": 1
+   },
+   "Corrigan-Camden": {
+    "district": 12,
+    "place": 4
+   },
+   "Crane": {
+    "district": 1,
+    "place": 1
+   },
+   "Daingerfield": {
+    "district": 10,
+    "place": 1
+   },
+   "Danbury": {
+    "district": 14,
+    "place": 4
+   },
+   "De Kalb": {
+    "district": 10,
+    "place": 3
+   },
+   "Dublin": {
+    "district": 5,
+    "place": 3
+   },
+   "East Bernard": {
+    "district": 14,
+    "place": 2
+   },
+   "Eastland": {
+    "district": 5,
+    "place": 1
+   },
+   "Edgewood": {
+    "district": 7,
+    "place": 2
+   },
+   "Elysian Fields": {
+    "district": 11,
+    "place": 2
+   },
+   "Franklin": {
+    "district": 13,
+    "place": 1
+   },
+   "Friona": {
+    "district": 3,
+    "place": 3
+   },
+   "Grape Creek": {
+    "district": 2,
+    "place": 3
+   },
+   "Gunter": {
+    "district": 8,
+    "place": 1
+   },
+   "Harleton": {
+    "district": 11,
+    "place": 4
+   },
+   "Hebbronville": {
+    "district": 16,
+    "place": 2
+   },
+   "Henrietta": {
+    "district": 6,
+    "place": 3
+   },
+   "Holliday": {
+    "district": 6,
+    "place": 1
+   },
+   "Hooks": {
+    "district": 10,
+    "place": 4
+   },
+   "Hughes Springs": {
+    "district": 11,
+    "place": 3
+   },
+   "Idalou": {
+    "district": 4,
+    "place": 3
+   },
+   "Jacksboro": {
+    "district": 5,
+    "place": 4
+   },
+   "Karnes City": {
+    "district": 15,
+    "place": 4
+   },
+   "Kountze": {
+    "district": 12,
+    "place": 3
+   },
+   "Leonard": {
+    "district": 8,
+    "place": 3
+   },
+   "Lexington": {
+    "district": 13,
+    "place": 3
+   },
+   "Lubbock Roosevelt": {
+    "district": 4,
+    "place": 1
+   },
+   "Millsap": {
+    "district": 5,
+    "place": 2
+   },
+   "Natalia": {
+    "district": 15,
+    "place": 2
+   },
+   "New Waverly": {
+    "district": 12,
+    "place": 2
+   },
+   "Newton": {
+    "district": 12,
+    "place": 1
+   },
+   "Odem": {
+    "district": 16,
+    "place": 1
+   },
+   "Odessa Compass Academy": {
+    "district": 1,
+    "place": 4
+   },
+   "Omaha Paul Pewitt": {
+    "district": 10,
+    "place": 2
+   },
+   "Palmer": {
+    "district": 7,
+    "place": 1
+   },
+   "Poth": {
+    "district": 15,
+    "place": 1
+   },
+   "Riesel": {
+    "district": 13,
+    "place": 4
+   },
+   "Rogers": {
+    "district": 13,
+    "place": 2
+   },
+   "Scurry-Rosser": {
+    "district": 7,
+    "place": 4
+   },
+   "Sonora": {
+    "district": 2,
+    "place": 1
+   },
+   "Spearman": {
+    "district": 3,
+    "place": 4
+   },
+   "Stanton": {
+    "district": 4,
+    "place": 4
+   },
+   "Stockdale": {
+    "district": 15,
+    "place": 3
+   },
+   "Taft": {
+    "district": 16,
+    "place": 3
+   },
+   "Tidehaven": {
+    "district": 14,
+    "place": 3
+   },
+   "Troup": {
+    "district": 9,
+    "place": 3
+   },
+   "Van Vleck": {
+    "district": 14,
+    "place": 1
+   },
+   "Waskom": {
+    "district": 11,
+    "place": 1
+   },
+   "West Rusk": {
+    "district": 9,
+    "place": 1
+   },
+   "Whitewright": {
+    "district": 8,
+    "place": 4
+   },
+   "Wichita Falls City View": {
+    "district": 6,
+    "place": 4
+   }
+  },
+  "4A D1": {
+   "Andrews": {
+    "district": 2,
+    "place": 1
+   },
+   "Argyle": {
+    "district": 7,
+    "place": 2
+   },
+   "Austin LBJ": {
+    "district": 13,
+    "place": 1
+   },
+   "Beeville Jones": {
+    "district": 15,
+    "place": 4
+   },
+   "Benbrook": {
+    "district": 6,
+    "place": 2
+   },
+   "Big Spring": {
+    "district": 2,
+    "place": 4
+   },
+   "Boerne": {
+    "district": 14,
+    "place": 1
+   },
+   "Brazosport": {
+    "district": 12,
+    "place": 3
+   },
+   "Brownwood": {
+    "district": 5,
+    "place": 4
+   },
+   "Canyon High": {
+    "district": 3,
+    "place": 2
+   },
+   "Canyon Lake": {
+    "district": 13,
+    "place": 4
+   },
+   "Clint": {
+    "district": 1,
+    "place": 2
+   },
+   "Clint Mountain View": {
+    "district": 1,
+    "place": 3
+   },
+   "Corpus Christi Calallen": {
+    "district": 15,
+    "place": 1
+   },
+   "Corpus Christi Miller": {
+    "district": 16,
+    "place": 3
+   },
+   "Dallas Carter": {
+    "district": 8,
+    "place": 1
+   },
+   "Dallas Lincoln": {
+    "district": 8,
+    "place": 2
+   },
+   "Dallas Wilmer-Hutchins": {
+    "district": 8,
+    "place": 3
+   },
+   "Decatur": {
+    "district": 4,
+    "place": 4
+   },
+   "Dumas": {
+    "district": 3,
+    "place": 1
+   },
+   "El Campo": {
+    "district": 12,
+    "place": 1
+   },
+   "El Paso Riverside": {
+    "district": 1,
+    "place": 1
+   },
+   "Fabens": {
+    "district": 1,
+    "place": 4
+   },
+   "Fort Stockton": {
+    "district": 2,
+    "place": 2
+   },
+   "Fort Worth Dunbar": {
+    "district": 6,
+    "place": 4
+   },
+   "Fort Worth Western Hills": {
+    "district": 6,
+    "place": 3
+   },
+   "Fredericksburg": {
+    "district": 13,
+    "place": 3
+   },
+   "Hereford": {
+    "district": 3,
+    "place": 3
+   },
+   "Hidalgo": {
+    "district": 15,
+    "place": 2
+   },
+   "Houston Furr": {
+    "district": 11,
+    "place": 3
+   },
+   "Houston North Forest": {
+    "district": 11,
+    "place": 1
+   },
+   "Houston Wheatley": {
+    "district": 11,
+    "place": 2
+   },
+   "Houston Yates": {
+    "district": 11,
+    "place": 4
+   },
+   "Huffman-Hargrave": {
+    "district": 10,
+    "place": 4
+   },
+   "Kaufman": {
+    "district": 7,
+    "place": 4
+   },
+   "Kennedale": {
+    "district": 6,
+    "place": 1
+   },
+   "Kilgore": {
+    "district": 9,
+    "place": 1
+   },
+   "La Feria": {
+    "district": 16,
+    "place": 1
+   },
+   "La Vega": {
+    "district": 5,
+    "place": 2
+   },
+   "La Vernia": {
+    "district": 14,
+    "place": 4
+   },
+   "Lake Worth": {
+    "district": 4,
+    "place": 2
+   },
+   "Lampasas": {
+    "district": 13,
+    "place": 2
+   },
+   "Lindale": {
+    "district": 9,
+    "place": 2
+   },
+   "Little Cypress-Mauriceville": {
+    "district": 10,
+    "place": 2
+   },
+   "Lumberton": {
+    "district": 10,
+    "place": 3
+   },
+   "Melissa": {
+    "district": 7,
+    "place": 1
+   },
+   "Midlothian Heritage": {
+    "district": 5,
+    "place": 3
+   },
+   "North Dallas": {
+    "district": 8,
+    "place": 4
+   },
+   "Palestine": {
+    "district": 9,
+    "place": 3
+   },
+   "Pampa": {
+    "district": 3,
+    "place": 4
+   },
+   "Paris": {
+    "district": 7,
+    "place": 3
+   },
+   "Pleasanton": {
+    "district": 14,
+    "place": 3
+   },
+   "Port Lavaca Calhoun": {
+    "district": 15,
+    "place": 3
+   },
+   "Rio Grande City Grulla": {
+    "district": 16,
+    "place": 2
+   },
+   "San Angelo Lake View": {
+    "district": 2,
+    "place": 3
+   },
+   "Somerset": {
+    "district": 14,
+    "place": 2
+   },
+   "Springtown": {
+    "district": 4,
+    "place": 3
+   },
+   "Stafford": {
+    "district": 12,
+    "place": 2
+   },
+   "Stephenville": {
+    "district": 5,
+    "place": 1
+   },
+   "Tyler Chapel Hill": {
+    "district": 9,
+    "place": 4
+   },
+   "Vidor": {
+    "district": 10,
+    "place": 1
+   },
+   "West Columbia": {
+    "district": 12,
+    "place": 4
+   },
+   "Wichita Falls Hirschi": {
+    "district": 4,
+    "place": 1
+   },
+   "Zapata": {
+    "district": 16,
+    "place": 4
+   }
+  },
+  "4A D2": {
+   "Aubrey": {
+    "district": 4,
+    "place": 2
+   },
+   "Bandera": {
+    "district": 15,
+    "place": 4
+   },
+   "Bellville": {
+    "district": 12,
+    "place": 1
+   },
+   "Borger": {
+    "district": 2,
+    "place": 4
+   },
+   "Bridgeport": {
+    "district": 3,
+    "place": 3
+   },
+   "Brownsboro": {
+    "district": 7,
+    "place": 2
+   },
+   "Caddo Mills": {
+    "district": 6,
+    "place": 3
+   },
+   "Canton": {
+    "district": 7,
+    "place": 3
+   },
+   "Carrizo Springs": {
+    "district": 15,
+    "place": 1
+   },
+   "Carthage": {
+    "district": 10,
+    "place": 1
+   },
+   "Celina": {
+    "district": 4,
+    "place": 1
+   },
+   "China Spring": {
+    "district": 9,
+    "place": 1
+   },
+   "Cuero": {
+    "district": 13,
+    "place": 1
+   },
+   "Devine": {
+    "district": 15,
+    "place": 2
+   },
+   "Ferris": {
+    "district": 5,
+    "place": 3
+   },
+   "Gatesville": {
+    "district": 9,
+    "place": 4
+   },
+   "Geronimo Navarro": {
+    "district": 14,
+    "place": 2
+   },
+   "Gilmer": {
+    "district": 8,
+    "place": 1
+   },
+   "Glen Rose": {
+    "district": 5,
+    "place": 1
+   },
+   "Godley": {
+    "district": 5,
+    "place": 4
+   },
+   "Graham": {
+    "district": 3,
+    "place": 1
+   },
+   "Hamshire-Fannett": {
+    "district": 11,
+    "place": 2
+   },
+   "Hillsboro": {
+    "district": 5,
+    "place": 2
+   },
+   "Hondo": {
+    "district": 15,
+    "place": 3
+   },
+   "Ingleside": {
+    "district": 16,
+    "place": 3
+   },
+   "Iowa Park": {
+    "district": 3,
+    "place": 2
+   },
+   "Jasper": {
+    "district": 10,
+    "place": 2
+   },
+   "La Grange": {
+    "district": 13,
+    "place": 2
+   },
+   "La Marque": {
+    "district": 12,
+    "place": 4
+   },
+   "Liberty-Eylau": {
+    "district": 8,
+    "place": 4
+   },
+   "Lubbock Estacado": {
+    "district": 2,
+    "place": 1
+   },
+   "Madisonville": {
+    "district": 10,
+    "place": 4
+   },
+   "Manor New Tech": {
+    "district": 14,
+    "place": 3
+   },
+   "Mexia": {
+    "district": 7,
+    "place": 4
+   },
+   "Midland Greenwood": {
+    "district": 1,
+    "place": 2
+   },
+   "Mineral Wells": {
+    "district": 3,
+    "place": 4
+   },
+   "Monahans": {
+    "district": 1,
+    "place": 4
+   },
+   "Navasota": {
+    "district": 13,
+    "place": 4
+   },
+   "Nevada": {
+    "district": 6,
+    "place": 4
+   },
+   "Orangefield": {
+    "district": 11,
+    "place": 4
+   },
+   "Perryton": {
+    "district": 2,
+    "place": 3
+   },
+   "Pittsburg": {
+    "district": 8,
+    "place": 3
+   },
+   "Port Isabel": {
+    "district": 16,
+    "place": 4
+   },
+   "Quinlan Ford": {
+    "district": 6,
+    "place": 1
+   },
+   "Rockport-Fulton": {
+    "district": 16,
+    "place": 2
+   },
+   "Rusk": {
+    "district": 10,
+    "place": 3
+   },
+   "Salado": {
+    "district": 9,
+    "place": 2
+   },
+   "San Antonio YMLA": {
+    "district": 14,
+    "place": 4
+   },
+   "Sanger": {
+    "district": 4,
+    "place": 4
+   },
+   "Sealy": {
+    "district": 12,
+    "place": 2
+   },
+   "Seminole": {
+    "district": 2,
+    "place": 2
+   },
+   "Silsbee": {
+    "district": 11,
+    "place": 3
+   },
+   "Sinton": {
+    "district": 16,
+    "place": 1
+   },
+   "Smithville": {
+    "district": 13,
+    "place": 3
+   },
+   "Snyder": {
+    "district": 1,
+    "place": 3
+   },
+   "Sunnyvale": {
+    "district": 6,
+    "place": 2
+   },
+   "Sweeny": {
+    "district": 12,
+    "place": 3
+   },
+   "Sweetwater": {
+    "district": 1,
+    "place": 1
+   },
+   "Texarkana Pleasant Grove": {
+    "district": 8,
+    "place": 2
+   },
+   "Van": {
+    "district": 7,
+    "place": 1
+   },
+   "Van Alstyne": {
+    "district": 4,
+    "place": 3
+   },
+   "Waco Connally": {
+    "district": 9,
+    "place": 3
+   },
+   "West Orange-Stark": {
+    "district": 11,
+    "place": 1
+   },
+   "Wimberley": {
+    "district": 14,
+    "place": 1
+   }
+  },
+  "5A D1": {
+   "Abilene Cooper": {
+    "district": 3,
+    "place": 4
+   },
+   "Amarillo Caprock": {
+    "district": 2,
+    "place": 4
+   },
+   "Amarillo High": {
+    "district": 2,
+    "place": 3
+   },
+   "Amarillo Tascosa": {
+    "district": 2,
+    "place": 2
+   },
+   "Angleton": {
+    "district": 10,
+    "place": 4
+   },
+   "Azle": {
+    "district": 3,
+    "place": 3
+   },
+   "Beaumont United": {
+    "district": 9,
+    "place": 3
+   },
+   "Brownsville Veterans Memorial": {
+    "district": 16,
+    "place": 4
+   },
+   "Buda Johnson": {
+    "district": 12,
+    "place": 2
+   },
+   "Burleson Centennial": {
+    "district": 4,
+    "place": 4
+   },
+   "Cedar Park": {
+    "district": 11,
+    "place": 3
+   },
+   "College Station": {
+    "district": 8,
+    "place": 1
+   },
+   "Colleyville Heritage": {
+    "district": 4,
+    "place": 1
+   },
+   "Corpus Christi Flour Bluff": {
+    "district": 15,
+    "place": 3
+   },
+   "Corpus Christi Veterans Memorial": {
+    "district": 15,
+    "place": 1
+   },
+   "Dallas Adams": {
+    "district": 6,
+    "place": 3
+   },
+   "Dallas Highland Park": {
+    "district": 7,
+    "place": 1
+   },
+   "Dallas White": {
+    "district": 6,
+    "place": 4
+   },
+   "Dallas Wilson": {
+    "district": 6,
+    "place": 2
+   },
+   "Denton Ryan": {
+    "district": 5,
+    "place": 1
+   },
+   "Dripping Springs": {
+    "district": 12,
+    "place": 1
+   },
+   "Eagle Pass Winn": {
+    "district": 14,
+    "place": 4
+   },
+   "El Paso Bel Air": {
+    "district": 1,
+    "place": 4
+   },
+   "El Paso Chapin": {
+    "district": 1,
+    "place": 1
+   },
+   "El Paso Del Valle": {
+    "district": 1,
+    "place": 2
+   },
+   "El Paso El Dorado": {
+    "district": 1,
+    "place": 3
+   },
+   "Fort Bend Hightower": {
+    "district": 10,
+    "place": 3
+   },
+   "Fort Worth Brewer": {
+    "district": 3,
+    "place": 2
+   },
+   "Friendswood": {
+    "district": 9,
+    "place": 1
+   },
+   "Frisco Lone Star": {
+    "district": 5,
+    "place": 2
+   },
+   "Frisco Reedy": {
+    "district": 5,
+    "place": 4
+   },
+   "Frisco Wakeland": {
+    "district": 5,
+    "place": 3
+   },
+   "Galveston Ball": {
+    "district": 9,
+    "place": 4
+   },
+   "Georgetown": {
+    "district": 11,
+    "place": 4
+   },
+   "Gregory-Portland": {
+    "district": 15,
+    "place": 2
+   },
+   "Justin Northwest": {
+    "district": 3,
+    "place": 1
+   },
+   "Katy Paetow": {
+    "district": 10,
+    "place": 1
+   },
+   "Lancaster": {
+    "district": 6,
+    "place": 1
+   },
+   "Longview": {
+    "district": 7,
+    "place": 2
+   },
+   "Lubbock Coronado": {
+    "district": 2,
+    "place": 1
+   },
+   "Magnolia": {
+    "district": 8,
+    "place": 3
+   },
+   "Magnolia West": {
+    "district": 8,
+    "place": 2
+   },
+   "Manor": {
+    "district": 11,
+    "place": 2
+   },
+   "Mansfield Summit": {
+    "district": 4,
+    "place": 2
+   },
+   "Manvel": {
+    "district": 10,
+    "place": 2
+   },
+   "McAllen": {
+    "district": 16,
+    "place": 3
+   },
+   "McAllen Memorial": {
+    "district": 16,
+    "place": 1
+   },
+   "McAllen Rowe": {
+    "district": 16,
+    "place": 2
+   },
+   "McKinney North": {
+    "district": 7,
+    "place": 4
+   },
+   "Midlothian": {
+    "district": 4,
+    "place": 3
+   },
+   "New Caney": {
+    "district": 8,
+    "place": 4
+   },
+   "Pflugerville Weiss": {
+    "district": 11,
+    "place": 1
+   },
+   "Port Arthur Memorial": {
+    "district": 9,
+    "place": 2
+   },
+   "San Antonio Brackenridge": {
+    "district": 13,
+    "place": 4
+   },
+   "San Antonio Highlands": {
+    "district": 13,
+    "place": 1
+   },
+   "San Antonio Kennedy": {
+    "district": 13,
+    "place": 3
+   },
+   "San Antonio Lanier": {
+    "district": 13,
+    "place": 2
+   },
+   "San Antonio Southside": {
+    "district": 14,
+    "place": 3
+   },
+   "San Antonio Southwest": {
+    "district": 14,
+    "place": 2
+   },
+   "San Antonio Southwest Legacy": {
+    "district": 14,
+    "place": 1
+   },
+   "San Antonio Veterans Memorial": {
+    "district": 12,
+    "place": 4
+   },
+   "Seguin": {
+    "district": 12,
+    "place": 3
+   },
+   "Tyler High": {
+    "district": 7,
+    "place": 3
+   },
+   "Victoria West": {
+    "district": 15,
+    "place": 4
+   }
+  },
+  "5A D2": {
+   "A&M Consolidated": {
+    "district": 10,
+    "place": 2
+   },
+   "Aledo": {
+    "district": 5,
+    "place": 1
+   },
+   "Austin McCallum": {
+    "district": 14,
+    "place": 2
+   },
+   "Austin Travis": {
+    "district": 14,
+    "place": 4
+   },
+   "Barbers Hill": {
+    "district": 12,
+    "place": 4
+   },
+   "Bastrop": {
+    "district": 13,
+    "place": 4
+   },
+   "Boerne Champion": {
+    "district": 15,
+    "place": 2
+   },
+   "Brenham": {
+    "district": 13,
+    "place": 2
+   },
+   "Bryan Rudder": {
+    "district": 10,
+    "place": 3
+   },
+   "Burleson": {
+    "district": 5,
+    "place": 3
+   },
+   "Canyon Randall": {
+    "district": 3,
+    "place": 3
+   },
+   "Carrollton Creekview": {
+    "district": 4,
+    "place": 3
+   },
+   "Clint Horizon": {
+    "district": 1,
+    "place": 2
+   },
+   "Crandall": {
+    "district": 8,
+    "place": 4
+   },
+   "Crosby": {
+    "district": 12,
+    "place": 1
+   },
+   "Dallas Hillcrest": {
+    "district": 6,
+    "place": 4
+   },
+   "Dallas Kimball": {
+    "district": 6,
+    "place": 3
+   },
+   "Denison": {
+    "district": 7,
+    "place": 4
+   },
+   "Edcouch-Elsa": {
+    "district": 16,
+    "place": 4
+   },
+   "El Paso Andress": {
+    "district": 2,
+    "place": 1
+   },
+   "El Paso Austin": {
+    "district": 2,
+    "place": 2
+   },
+   "El Paso Burges": {
+    "district": 2,
+    "place": 3
+   },
+   "El Paso Canutillo": {
+    "district": 1,
+    "place": 1
+   },
+   "El Paso Jefferson": {
+    "district": 2,
+    "place": 4
+   },
+   "El Paso Parkland": {
+    "district": 1,
+    "place": 3
+   },
+   "El Paso Ysleta": {
+    "district": 1,
+    "place": 4
+   },
+   "Ennis": {
+    "district": 8,
+    "place": 1
+   },
+   "Everman": {
+    "district": 5,
+    "place": 4
+   },
+   "Floresville": {
+    "district": 15,
+    "place": 3
+   },
+   "Forney": {
+    "district": 8,
+    "place": 2
+   },
+   "Fort Bend Marshall": {
+    "district": 11,
+    "place": 1
+   },
+   "Fort Worth Southwest": {
+    "district": 4,
+    "place": 4
+   },
+   "Fort Worth Wyatt": {
+    "district": 4,
+    "place": 2
+   },
+   "Frisco": {
+    "district": 7,
+    "place": 2
+   },
+   "Frisco Liberty": {
+    "district": 7,
+    "place": 3
+   },
+   "Galena Park": {
+    "district": 11,
+    "place": 2
+   },
+   "Grapevine": {
+    "district": 4,
+    "place": 1
+   },
+   "Houston Madison": {
+    "district": 11,
+    "place": 4
+   },
+   "Houston Sterling": {
+    "district": 11,
+    "place": 3
+   },
+   "Lamar Fulshear": {
+    "district": 10,
+    "place": 4
+   },
+   "Leander Glenn": {
+    "district": 13,
+    "place": 3
+   },
+   "Leander Rouse": {
+    "district": 13,
+    "place": 1
+   },
+   "Liberty Hill": {
+    "district": 14,
+    "place": 1
+   },
+   "Lovejoy": {
+    "district": 7,
+    "place": 1
+   },
+   "Lubbock Cooper": {
+    "district": 3,
+    "place": 1
+   },
+   "Mansfield Timberview": {
+    "district": 5,
+    "place": 2
+   },
+   "Marble Falls": {
+    "district": 14,
+    "place": 3
+   },
+   "Marshall": {
+    "district": 9,
+    "place": 2
+   },
+   "Medina Valley": {
+    "district": 15,
+    "place": 4
+   },
+   "Mercedes": {
+    "district": 16,
+    "place": 3
+   },
+   "Mesquite Poteet": {
+    "district": 6,
+    "place": 2
+   },
+   "Mission Sharyland": {
+    "district": 16,
+    "place": 2
+   },
+   "Mission Veterans Memorial": {
+    "district": 16,
+    "place": 1
+   },
+   "Montgomery": {
+    "district": 10,
+    "place": 1
+   },
+   "Mount Pleasant": {
+    "district": 9,
+    "place": 3
+   },
+   "Nacogdoches": {
+    "district": 9,
+    "place": 4
+   },
+   "Port Neches-Groves": {
+    "district": 12,
+    "place": 3
+   },
+   "Royse City": {
+    "district": 8,
+    "place": 3
+   },
+   "San Antonio Alamo Heights": {
+    "district": 15,
+    "place": 1
+   },
+   "South Oak Cliff": {
+    "district": 6,
+    "place": 1
+   },
+   "Texarkana Texas": {
+    "district": 9,
+    "place": 1
+   },
+   "Texas City": {
+    "district": 12,
+    "place": 2
+   },
+   "Wichita Falls High": {
+    "district": 3,
+    "place": 4
+   },
+   "Wichita Falls Rider": {
+    "district": 3,
+    "place": 2
+   }
+  },
+  "6A D1": {
+   "Allen": {
+    "district": 5,
+    "place": 1
+   },
+   "Arlington Martin": {
+    "district": 8,
+    "place": 1
+   },
+   "Austin Bowie": {
+    "district": 26,
+    "place": 2
+   },
+   "Austin Lake Travis": {
+    "district": 26,
+    "place": 1
+   },
+   "Belton": {
+    "district": 12,
+    "place": 2
+   },
+   "Clear Springs": {
+    "district": 24,
+    "place": 2
+   },
+   "Comal Smithson Valley": {
+    "district": 27,
+    "place": 1
+   },
+   "Conroe": {
+    "district": 13,
+    "place": 2
+   },
+   "Cy Ranch": {
+    "district": 15,
+    "place": 2
+   },
+   "Cy-Fair": {
+    "district": 17,
+    "place": 2
+   },
+   "Cypress Woods": {
+    "district": 16,
+    "place": 2
+   },
+   "Dallas Lake Highlands": {
+    "district": 7,
+    "place": 1
+   },
+   "DeSoto": {
+    "district": 11,
+    "place": 2
+   },
+   "Deer Park": {
+    "district": 22,
+    "place": 1
+   },
+   "Dickinson": {
+    "district": 24,
+    "place": 1
+   },
+   "Duncanville": {
+    "district": 11,
+    "place": 1
+   },
+   "Edinburg": {
+    "district": 31,
+    "place": 2
+   },
+   "El Paso Franklin": {
+    "district": 1,
+    "place": 1
+   },
+   "El Paso Pebble Hills": {
+    "district": 1,
+    "place": 2
+   },
+   "Euless Trinity": {
+    "district": 3,
+    "place": 1
+   },
+   "Fort Bend Ridge Point": {
+    "district": 20,
+    "place": 1
+   },
+   "Fort Bend Travis": {
+    "district": 20,
+    "place": 2
+   },
+   "Galena Park North Shore": {
+    "district": 21,
+    "place": 1
+   },
+   "Harker Heights": {
+    "district": 12,
+    "place": 1
+   },
+   "Harlingen": {
+    "district": 32,
+    "place": 1
+   },
+   "Houston Alief Taylor": {
+    "district": 23,
+    "place": 2
+   },
+   "Houston Jersey Village": {
+    "district": 17,
+    "place": 1
+   },
+   "Houston Klein Cain": {
+    "district": 15,
+    "place": 1
+   },
+   "Houston Lamar": {
+    "district": 18,
+    "place": 1
+   },
+   "Houston Westside": {
+    "district": 18,
+    "place": 2
+   },
+   "Humble Atascocita": {
+    "district": 21,
+    "place": 2
+   },
+   "Irving Nimitz": {
+    "district": 7,
+    "place": 2
+   },
+   "Katy Seven Lakes": {
+    "district": 19,
+    "place": 2
+   },
+   "Katy Tompkins": {
+    "district": 19,
+    "place": 1
+   },
+   "Keller": {
+    "district": 4,
+    "place": 2
+   },
+   "Klein Oak": {
+    "district": 16,
+    "place": 1
+   },
+   "Laredo United": {
+    "district": 30,
+    "place": 2
+   },
+   "Laredo United South": {
+    "district": 30,
+    "place": 1
+   },
+   "Lewisville": {
+    "district": 6,
+    "place": 1
+   },
+   "Lewisville Hebron": {
+    "district": 6,
+    "place": 2
+   },
+   "Los Fresnos": {
+    "district": 32,
+    "place": 2
+   },
+   "McKinney Boyd": {
+    "district": 5,
+    "place": 2
+   },
+   "Mesquite": {
+    "district": 10,
+    "place": 2
+   },
+   "Midland Legacy": {
+    "district": 2,
+    "place": 1
+   },
+   "Mission": {
+    "district": 31,
+    "place": 1
+   },
+   "North Crowley": {
+    "district": 3,
+    "place": 2
+   },
+   "North Garland": {
+    "district": 9,
+    "place": 2
+   },
+   "Odessa Permian": {
+    "district": 2,
+    "place": 2
+   },
+   "Pasadena Dobie": {
+    "district": 22,
+    "place": 2
+   },
+   "Pearland": {
+    "district": 23,
+    "place": 1
+   },
+   "Rockwall High": {
+    "district": 10,
+    "place": 1
+   },
+   "Round Rock": {
+    "district": 25,
+    "place": 1
+   },
+   "Round Rock Cedar Ridge": {
+    "district": 25,
+    "place": 2
+   },
+   "Sachse": {
+    "district": 9,
+    "place": 1
+   },
+   "San Antonio Brennan": {
+    "district": 29,
+    "place": 1
+   },
+   "San Antonio East Central": {
+    "district": 27,
+    "place": 2
+   },
+   "San Antonio Harlan": {
+    "district": 29,
+    "place": 2
+   },
+   "San Antonio Madison": {
+    "district": 28,
+    "place": 2
+   },
+   "San Antonio Reagan": {
+    "district": 28,
+    "place": 1
+   },
+   "South Grand Prairie": {
+    "district": 8,
+    "place": 2
+   },
+   "Southlake Carroll": {
+    "district": 4,
+    "place": 1
+   },
+   "Spring": {
+    "district": 14,
+    "place": 2
+   },
+   "Spring Westfield": {
+    "district": 14,
+    "place": 1
+   },
+   "The Woodlands": {
+    "district": 13,
+    "place": 1
+   }
+  },
+  "6A D2": {
+   "Abilene High": {
+    "district": 2,
+    "place": 1
+   },
+   "Aldine Nimitz": {
+    "district": 14,
+    "place": 2
+   },
+   "Alvin Shadow Creek": {
+    "district": 18,
+    "place": 1
+   },
+   "Arlington High": {
+    "district": 8,
+    "place": 2
+   },
+   "Austin Vandegrift": {
+    "district": 25,
+    "place": 1
+   },
+   "Austin Westlake": {
+    "district": 28,
+    "place": 1
+   },
+   "Bryan": {
+    "district": 12,
+    "place": 2
+   },
+   "Cedar Hill": {
+    "district": 11,
+    "place": 1
+   },
+   "Channelview": {
+    "district": 22,
+    "place": 1
+   },
+   "Cibolo Steele": {
+    "district": 27,
+    "place": 1
+   },
+   "Clear Falls": {
+    "district": 24,
+    "place": 1
+   },
+   "Cypress Bridgeland": {
+    "district": 16,
+    "place": 2
+   },
+   "Cypress Park": {
+    "district": 16,
+    "place": 1
+   },
+   "Dallas Jesuit": {
+    "district": 7,
+    "place": 1
+   },
+   "Del Rio": {
+    "district": 28,
+    "place": 2
+   },
+   "Denton Guyer": {
+    "district": 5,
+    "place": 1
+   },
+   "Eagle Pass": {
+    "district": 30,
+    "place": 1
+   },
+   "Edinburg Vela": {
+    "district": 26,
+    "place": 1
+   },
+   "El Paso Eastlake": {
+    "district": 1,
+    "place": 1
+   },
+   "El Paso Eastwood": {
+    "district": 1,
+    "place": 2
+   },
+   "Flower Mound": {
+    "district": 6,
+    "place": 2
+   },
+   "Flower Mound Marcus": {
+    "district": 6,
+    "place": 1
+   },
+   "Fort Bend Clements": {
+    "district": 20,
+    "place": 2
+   },
+   "Garland": {
+    "district": 9,
+    "place": 1
+   },
+   "Garland Naaman Forest": {
+    "district": 9,
+    "place": 2
+   },
+   "Grand Prairie": {
+    "district": 8,
+    "place": 1
+   },
+   "Harlingen South": {
+    "district": 32,
+    "place": 1
+   },
+   "Haslet Eaton": {
+    "district": 4,
+    "place": 1
+   },
+   "Houston Heights": {
+    "district": 20,
+    "place": 1
+   },
+   "Houston Memorial": {
+    "district": 17,
+    "place": 2
+   },
+   "Houston Stratford": {
+    "district": 17,
+    "place": 1
+   },
+   "Houston Westbury": {
+    "district": 18,
+    "place": 2
+   },
+   "Humble Summer Creek": {
+    "district": 19,
+    "place": 2
+   },
+   "Hutto": {
+    "district": 25,
+    "place": 2
+   },
+   "Katy High": {
+    "district": 19,
+    "place": 1
+   },
+   "League City Clear Creek": {
+    "district": 24,
+    "place": 2
+   },
+   "Pearland Dawson": {
+    "district": 21,
+    "place": 2
+   },
+   "Pharr-San Juan-Alamo North": {
+    "district": 29,
+    "place": 2
+   },
+   "Prosper": {
+    "district": 5,
+    "place": 2
+   },
+   "Richardson Berkner": {
+    "district": 7,
+    "place": 2
+   },
+   "Rockwall-Heath": {
+    "district": 10,
+    "place": 1
+   },
+   "Saginaw Boswell": {
+    "district": 3,
+    "place": 2
+   },
+   "San Angelo Central": {
+    "district": 2,
+    "place": 2
+   },
+   "San Antonio Brandeis": {
+    "district": 26,
+    "place": 2
+   },
+   "San Antonio Marshall": {
+    "district": 27,
+    "place": 2
+   },
+   "San Antonio Taft": {
+    "district": 29,
+    "place": 1
+   },
+   "San Benito": {
+    "district": 32,
+    "place": 2
+   },
+   "San Marcos": {
+    "district": 23,
+    "place": 2
+   },
+   "Spring Dekaney": {
+    "district": 14,
+    "place": 1
+   },
+   "Spring Klein Collins": {
+    "district": 15,
+    "place": 1
+   },
+   "Temple": {
+    "district": 12,
+    "place": 1
+   },
+   "The Woodlands College Park": {
+    "district": 13,
+    "place": 1
+   },
+   "Tomball High": {
+    "district": 15,
+    "place": 2
+   },
+   "Trophy Club Nelson": {
+    "district": 4,
+    "place": 2
+   },
+   "Tyler Legacy": {
+    "district": 10,
+    "place": 2
+   },
+   "Waxahachie": {
+    "district": 11,
+    "place": 2
+   },
+   "Weatherford": {
+    "district": 3,
+    "place": 1
+   },
+   "Willis": {
+    "district": 13,
+    "place": 2
+   }
+  }
+ },
  "2022": {
   "1A D1": {
    "Abbott": {
