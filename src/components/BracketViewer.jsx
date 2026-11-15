@@ -422,7 +422,10 @@ export function GameMap({ markers }) {
       })
 
       // Fit bounds to markers
-      if (markers.length > 0) {
+      if (markers.length === 1) {
+        // a single pin has no extent to fit; center on it at a regional zoom
+        leafletMap.current.setView([markers[0].lat, markers[0].lng], 8)
+      } else if (markers.length > 1) {
         const bounds = L.latLngBounds(markers.map(m => [m.lat, m.lng]))
         leafletMap.current.fitBounds(bounds, { padding: [40, 40], maxZoom: 9 })
       }

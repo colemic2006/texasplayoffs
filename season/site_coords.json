@@ -1,9 +1,16 @@
 {
  "Bulldog Stadium, Tyler": {
+  "city": "Tyler",
   "lat": 32.31056,
   "lng": -95.1896,
-  "stadium": "Bulldog Stadium (Chapel Hill HS)",
-  "city": "Tyler",
-  "source": "TDLR project record for Chapel Hill HS Bulldog Stadium, 13172 State Hwy 64 E"
+  "source": "TDLR project record for Chapel Hill HS Bulldog Stadium, 13172 State Hwy 64 E",
+  "stadium": "Bulldog Stadium (Chapel Hill HS)"
+ },
+ "Oakwood Panther Stadium": {
+  "city": "Oakwood",
+  "lat": 31.5849,
+  "lng": -95.8494,
+  "source": "Oakwood town center (approximate); stadium is at Oakwood HS",
+  "stadium": "Panther Stadium (Oakwood HS)"
  }
 }
