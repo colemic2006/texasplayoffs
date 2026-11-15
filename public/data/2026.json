@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-15T02:56+00:00",
+    "updated": "2026-11-15T04:46+00:00",
     "games": 527,
     "played": 351,
     "assigned": 368,
@@ -9212,7 +9212,9 @@
       "score1": null,
       "team2": "Texarkana Texas",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
