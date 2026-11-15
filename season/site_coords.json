@@ -6,6 +6,27 @@
   "source": "TDLR project record for Chapel Hill HS Bulldog Stadium, 13172 State Hwy 64 E",
   "stadium": "Bulldog Stadium (Chapel Hill HS)"
  },
+ "Crusader Stadium, Belton": {
+  "city": "Belton",
+  "lat": 31.0657,
+  "lng": -97.4636,
+  "source": "University of Mary Hardin-Baylor campus, Belton (approximate)",
+  "stadium": "Crusader Stadium (UMHB)"
+ },
+ "Eagle Stadium": {
+  "city": "Allen",
+  "lat": 33.11407,
+  "lng": -96.65762,
+  "source": "Allen Eagle Stadium; MaxPreps listed Lewisville v Coppell (2026 Area) at just \"Eagle Stadium\", and DCTF confirms Allen",
+  "stadium": "Eagle Stadium"
+ },
+ "Memorial Stadium, Bastrop": {
+  "city": "Bastrop",
+  "lat": 30.1105,
+  "lng": -97.3153,
+  "source": "Bastrop town center (approximate)",
+  "stadium": "Memorial Stadium"
+ },
  "Oakwood Panther Stadium": {
   "city": "Oakwood",
   "lat": 31.5849,

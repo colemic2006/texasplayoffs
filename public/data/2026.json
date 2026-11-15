@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-15T19:50+00:00",
+    "updated": "2026-11-15T20:17+00:00",
     "games": 528,
     "played": 352,
     "assigned": 424,
@@ -3329,11 +3329,11 @@
       "score2": 18,
       "winner": "Mildred",
       "site": "Eagle Stadium, Rusk",
-      "lat": 33.11407,
-      "lng": -96.65762,
+      "lat": 31.78618,
+      "lng": -95.14805,
       "stadium": "Eagle Stadium",
-      "map_link": "https://goo.gl/maps/F6vHjvY4xeBeZCZs9",
-      "city": "Allen",
+      "map_link": "https://goo.gl/maps/rD7zuQeedRYhL3fn9",
+      "city": "Rusk",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -3407,9 +3407,10 @@
       "score2": 17,
       "winner": "Rice Consolidated",
       "site": "Memorial Stadium, Bastrop",
-      "lat": 30.08716,
-      "lng": -97.50083,
-      "city": "Cedar Creek",
+      "lat": 30.1105,
+      "lng": -97.3153,
+      "stadium": "Memorial Stadium",
+      "city": "Bastrop",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -4225,11 +4226,11 @@
       "score2": 22,
       "winner": "Lindale",
       "site": "Eagle Stadium, Lindale",
-      "lat": 33.11407,
-      "lng": -96.65762,
+      "lat": 32.51706,
+      "lng": -95.41583,
       "stadium": "Eagle Stadium",
-      "map_link": "https://goo.gl/maps/F6vHjvY4xeBeZCZs9",
-      "city": "Allen",
+      "map_link": "https://goo.gl/maps/iP7iva6ebZgPZu7a6",
+      "city": "Lindale",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -5084,11 +5085,11 @@
       "score2": 6,
       "winner": "DeSoto",
       "site": "Eagle Stadium, DeSoto",
-      "lat": 33.11407,
-      "lng": -96.65762,
+      "lat": 32.57886,
+      "lng": -96.87135,
       "stadium": "Eagle Stadium",
-      "map_link": "https://goo.gl/maps/F6vHjvY4xeBeZCZs9",
-      "city": "Allen",
+      "map_link": "https://goo.gl/maps/5QocV7MLgksqbhXx5",
+      "city": "DeSoto",
       "date": "2026-11-12",
       "time": "7:00 PM"
     },
@@ -6058,9 +6059,10 @@
       "score2": 43,
       "winner": "Bastrop",
       "site": "Memorial Stadium, Bastrop",
-      "lat": 30.08716,
-      "lng": -97.50083,
-      "city": "Cedar Creek",
+      "lat": 30.1105,
+      "lng": -97.3153,
+      "stadium": "Memorial Stadium",
+      "city": "Bastrop",
       "date": "2026-11-13",
       "time": "7:00 PM"
     },
@@ -7502,7 +7504,15 @@
       "score1": null,
       "team2": "Rankin",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Griffith Stadium, Robert Lee",
+      "lat": 31.90082,
+      "lng": -100.48786,
+      "stadium": "Griffith Stadium",
+      "map_link": "https://goo.gl/maps/rtUWeUBFBqsEXabD6",
+      "city": "Robert Lee",
+      "date": "2026-11-20",
+      "time": "6:30 PM"
     },
     {
       "year": 2026,
@@ -7534,7 +7544,15 @@
       "score1": null,
       "team2": "Whiteface",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Kangaroo Stadium, Kress",
+      "lat": 34.36407,
+      "lng": -101.74379,
+      "stadium": "Kangaroo Stadium",
+      "map_link": "https://goo.gl/maps/xfyE7jceoUDkFNeF6",
+      "city": "Kress",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -7553,7 +7571,16 @@
       "stadium": "Panther Stadium (Oakwood HS)",
       "city": "Oakwood",
       "date": "2026-11-20",
-      "time": "7:00 PM"
+      "time": "6:30 PM",
+      "changes": [
+        {
+          "field": "time",
+          "old": "7:00 PM",
+          "new": "6:30 PM",
+          "at": "2026-11-15T20:17+00:00",
+          "status": "changed"
+        }
+      ]
     },
     {
       "year": 2026,
@@ -7565,7 +7592,15 @@
       "score1": null,
       "team2": "Milford",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Bob and Norma Cervetto Stadium, Dublin",
+      "lat": 32.08613,
+      "lng": -98.34223,
+      "stadium": "Bob and Norma Cervetto Stadium",
+      "map_link": "https://goo.gl/maps/SnMek5KYTMWGGttj8",
+      "city": "Dublin",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -7577,7 +7612,15 @@
       "score1": null,
       "team2": "Aquilla",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Priddy High School, Priddy",
+      "lat": 31.67543,
+      "lng": -98.50893,
+      "stadium": "Priddy Athletic Complex",
+      "map_link": "https://goo.gl/maps/s4eo1S9XxzceZteh9",
+      "city": "Priddy",
+      "date": "2026-11-20",
+      "time": "6:30 PM"
     },
     {
       "year": 2026,
@@ -7589,7 +7632,15 @@
       "score1": null,
       "team2": "Hermleigh",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Taylor/Reddell Field, Idalou",
+      "lat": 33.66184,
+      "lng": -101.68446,
+      "stadium": "Taylor/Reddell Field",
+      "map_link": "https://goo.gl/maps/gcPCsbhrF1FjcQuK6",
+      "city": "Idalou",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -7601,7 +7652,15 @@
       "score1": null,
       "team2": "Gordon",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Eagle Stadium, Brock",
+      "lat": 32.67624,
+      "lng": -97.94087,
+      "stadium": "Eagle Stadium",
+      "map_link": "https://goo.gl/maps/xW36fTzCLb8K4ML1A",
+      "city": "Brock",
+      "date": "2026-11-19",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -7613,7 +7672,15 @@
       "score1": null,
       "team2": "Harrold",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "The Bears' Den, Baird",
+      "lat": 32.39871,
+      "lng": -99.40003,
+      "stadium": "The Bears' Den",
+      "map_link": "https://goo.gl/maps/G551wrtuVmVkLiB98",
+      "city": "Baird",
+      "date": "2026-11-20",
+      "time": "7:30 PM"
     },
     {
       "year": 2026,
@@ -7625,7 +7692,13 @@
       "score1": null,
       "team2": "Strawn",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Abilene Christian School, Abilene",
+      "lat": 32.47971,
+      "lng": -99.70933,
+      "city": "Abilene",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -7637,7 +7710,15 @@
       "score1": null,
       "team2": "Blackwell",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Red Devil Stadium, Rankin",
+      "lat": 31.22563,
+      "lng": -101.94157,
+      "stadium": "Red Devil Stadium",
+      "map_link": "https://goo.gl/maps/qvSgQToHzNnvsqnE7",
+      "city": "Rankin",
+      "date": "2026-11-21",
+      "time": "2:00 PM"
     },
     {
       "year": 2026,
@@ -7669,7 +7750,15 @@
       "score1": null,
       "team2": "Meadow",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Mitchell Zimmerman Field, Lockney",
+      "lat": 34.12401,
+      "lng": -101.43507,
+      "stadium": "Mitchell Zimmerman Field",
+      "map_link": "https://goo.gl/maps/UjZoSNtK6gVT38xs5",
+      "city": "Lockney",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -7681,7 +7770,15 @@
       "score1": null,
       "team2": "Motley County",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Lorenzo High School, Lorenzo",
+      "lat": 33.67218,
+      "lng": -101.53928,
+      "stadium": "Hornet Stadium",
+      "map_link": "https://goo.gl/maps/o3naojYEP71svtL38",
+      "city": "Lorenzo",
+      "date": "2026-11-19",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -7693,7 +7790,13 @@
       "score1": null,
       "team2": "Grandfalls-Royalty",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Irion County High School, Mertzon",
+      "lat": 31.26048,
+      "lng": -100.82071,
+      "city": "Mertzon",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8040,11 +8143,11 @@
       "score2": null,
       "winner": null,
       "site": "Eagle Stadium, Holliday",
-      "lat": 33.11407,
-      "lng": -96.65762,
+      "lat": 33.80889,
+      "lng": -98.68674,
       "stadium": "Eagle Stadium",
-      "map_link": "https://goo.gl/maps/F6vHjvY4xeBeZCZs9",
-      "city": "Allen",
+      "map_link": "https://goo.gl/maps/zdgpNKHs96QVg8ut8",
+      "city": "Holliday",
       "date": "2026-11-19",
       "time": "7:00 PM"
     },
@@ -8240,11 +8343,11 @@
       "score2": null,
       "winner": null,
       "site": "Eagle Stadium, Lindale",
-      "lat": 33.11407,
-      "lng": -96.65762,
+      "lat": 32.51706,
+      "lng": -95.41583,
       "stadium": "Eagle Stadium",
-      "map_link": "https://goo.gl/maps/F6vHjvY4xeBeZCZs9",
-      "city": "Allen",
+      "map_link": "https://goo.gl/maps/iP7iva6ebZgPZu7a6",
+      "city": "Lindale",
       "date": "2026-11-19",
       "time": "7:00 PM"
     },
@@ -9363,11 +9466,11 @@
       "score2": null,
       "winner": null,
       "site": "Eagle Stadium, Pleasanton",
-      "lat": 33.11407,
-      "lng": -96.65762,
+      "lat": 28.96623,
+      "lng": -98.49283,
       "stadium": "Eagle Stadium",
-      "map_link": "https://goo.gl/maps/F6vHjvY4xeBeZCZs9",
-      "city": "Allen",
+      "map_link": "https://maps.app.goo.gl/LCaH64sxH9hZNfaf7",
+      "city": "Pleasanton",
       "date": "2026-11-19",
       "time": "7:00 PM"
     },
@@ -9620,9 +9723,10 @@
       "score2": null,
       "winner": null,
       "site": "Crusader Stadium, Belton",
-      "lat": 29.75894,
-      "lng": -95.3677,
-      "city": "Houston",
+      "lat": 31.0657,
+      "lng": -97.4636,
+      "stadium": "Crusader Stadium (UMHB)",
+      "city": "Belton",
       "date": "2026-11-20",
       "time": "7:30 PM"
     },
@@ -10548,7 +10652,6 @@
       "lat": 33.11407,
       "lng": -96.65762,
       "stadium": "Eagle Stadium",
-      "map_link": "https://goo.gl/maps/F6vHjvY4xeBeZCZs9",
       "city": "Allen",
       "date": "2026-11-20",
       "time": "7:00 PM"
