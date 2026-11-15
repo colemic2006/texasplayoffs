@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-15T17:38+00:00",
+    "updated": "2026-11-15T18:06+00:00",
     "games": 528,
     "played": 352,
     "assigned": 411,
@@ -9359,7 +9359,15 @@
       "score1": null,
       "team2": "Mercedes",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Shirley Field",
+      "lat": 27.51924,
+      "lng": -99.50655,
+      "stadium": "Shirley Field",
+      "map_link": "https://goo.gl/maps/XqHSprZtz2J36Z9AA",
+      "city": "Laredo",
+      "date": "2026-11-19",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,

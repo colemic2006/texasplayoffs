@@ -4850,6 +4850,19 @@
   "stadium": "Bob Shelton Stadium",
   "stadium_id": 25
  },
+ "Shirley Field || Boerne v Mercedes": {
+  "address": "2002 San Bernardo Ave., Laredo, Texas 78040",
+  "city": "Laredo",
+  "how": "stadium (map link)",
+  "lat": 27.51924,
+  "link_tried": true,
+  "lng": -99.50655,
+  "map_link": "https://goo.gl/maps/XqHSprZtz2J36Z9AA",
+  "rules": 10,
+  "site": "Shirley Field",
+  "stadium": "Shirley Field",
+  "stadium_id": 954
+ },
  "Shotwell Stadium Abilene TX || Idalou v Holliday": {
   "address": "1525 E. S. 11th St, Abilene, Texas 79602",
   "city": "Abilene",
