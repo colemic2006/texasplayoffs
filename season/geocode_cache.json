@@ -2159,6 +2159,18 @@
   "stadium": "Longhorn Stadium",
   "stadium_id": 939
  },
+ "Giddings, Texas || Stafford v China Spring": {
+  "address": "",
+  "city": "Giddings",
+  "how": "stadium found by name",
+  "lat": 30.11633,
+  "lng": -96.98632,
+  "map_link": "",
+  "rules": 10,
+  "site": "Giddings, Texas",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Gladewater's Murphy Stadium || West Rusk v New Boston": {
   "address": "2201 W. Gay, Gladewater, Texas 75647",
   "city": "Gladewater",
