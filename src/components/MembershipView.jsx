@@ -117,8 +117,8 @@ function MembershipStats({ st, th, td }) {
   const T = st.totals, ch = Object.entries(st.chapters)
   const share = c => c.members / T.members
   const perSeason = c => 100 * c.season_games / c.members
-  const perHist = c => 100 * c.hist_games / c.members / 5
-  const avgSeason = 100 * T.season_games / T.members, avgHist = 100 * T.hist_games / T.members / 5
+  const perHist = c => 100 * c.hist_games / c.members / (st.history_seasons || 5)
+  const avgSeason = 100 * T.season_games / T.members, avgHist = 100 * T.hist_games / T.members / (st.history_seasons || 5)
   const complete = new Set(st.complete_lists)
   const work = [...ch].sort((a, b) => perSeason(b[1]) - perSeason(a[1]))
   const cover = [...ch].sort((a, b) => (complete.has(b[0]) - complete.has(a[0])) || (b[1].counties / b[1].members) - (a[1].counties / a[1].members))
@@ -126,13 +126,13 @@ function MembershipStats({ st, th, td }) {
   return (
     <>
       <Section label="Workload" title="Playoff Games per 100 Members"
-        intro={<>How many playoff games each chapter works for its size. Statewide: <strong>{fmt1(avgSeason)}</strong> games per 100 members this season so far, and <strong>{fmt1(avgHist)}</strong> per season in {st.history}.</>}
+        intro={<>How many playoff games each chapter works for its size. Statewide: <strong>{fmt1(avgSeason)}</strong> games per 100 members this season so far, and <strong>{fmt1(avgHist)}</strong> per season across the {st.history_seasons} seasons on file ({(st.history_years || []).join(', ')}).</>}
         note={`1.00x = the chapter's share of games matches its share of members. ${st.season} counts only rounds whose assignments are at least 90% in${st.season_weeks?.length ? ` (so far: week ${st.season_weeks.join(', ')})` : ''}, so a chapter that sends its list early isn't compared with ones that haven't yet.`}>
         <table style={{ width:'100%', borderCollapse:'collapse' }}>
           <thead><tr>
             <th style={{ ...th, textAlign:'left' }}>Chapter</th><th style={th}>Members</th>
             <th style={th}>{st.season} games{st.season_weeks?.length ? ` (wk ${st.season_weeks.join(', ')})` : ''}</th><th style={th}>Per 100 members</th><th style={th}>vs. size</th>
-            <th style={th}>{st.history} games</th><th style={th}>Per 100 / season</th><th style={th}>vs. size</th>
+            <th style={th}>All seasons on file ({st.history_seasons})</th><th style={th}>Per 100 / season</th><th style={th}>vs. size</th>
           </tr></thead>
           <tbody>{work.map(([c, x]) => (
             <tr key={c}>
@@ -169,9 +169,9 @@ function MembershipStats({ st, th, td }) {
         </table>
       </Section>
 
-      <Section label="Later Rounds" title={`Quarterfinals to State Final, ${st.history}`}
-        intro={<>Who works the biggest games. Share of the {T.late_games} Quarterfinal, Semifinal and State Final games in {st.history}, compared with each chapter's share of members.</>}
-        note="1.00x = the chapter's share of later-round games matches its share of members.">
+      <Section label="Later Rounds" title={`Quarterfinals to State Final, all seasons on file`}
+        intro={<>Who works the biggest games. Share of the {T.late_games} Quarterfinal, Semifinal and State Final games across the {st.history_seasons} seasons on file ({st.history}), compared with each chapter's share of members.</>}
+        note="1.00x = the chapter's share of later-round games matches its share of members. Seasons on file: the site has no data for 2011-12, 2014, 2016-17, 2019 or 2020. Old East Texas (ETX) games count toward Tyler.">
         <table style={{ width:'100%', borderCollapse:'collapse' }}>
           <thead><tr>
             <th style={{ ...th, textAlign:'left' }}>Chapter</th><th style={th}>Share of members</th>

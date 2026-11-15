@@ -63,7 +63,9 @@ mem_path = ROOT / 'public' / 'data' / 'membership.json'
 if mem_path.exists():
     members = json.loads(mem_path.read_text())['members']
     norm_ch = lambda c: {'WACO': 'WAC', 'ETX': 'TYL'}.get(c, c)
-    hist_years = [y for y in range(2021, 2026)]
+    # every completed season on file (not the one being played)
+    hist_years = sorted(int(Path(f).stem) for f in glob.glob(str(ROOT / 'public' / 'data' / '[0-9]*.json'))
+                        if int(Path(f).stem) != current)
     season_games, hist_games, late_games = {}, {}, {}
     hist_total = late_total = 0
     season_year = current
@@ -96,7 +98,7 @@ if mem_path.exists():
             counties.setdefault(c, set()).add(co)
     total_members = sum(members.values())
     (ROOT / 'public' / 'data' / 'membership_stats.json').write_text(json.dumps(dict(
-        season=season_year, season_weeks=sorted(season_weeks), history=f'{hist_years[0]}-{hist_years[-1]}',
+        season=season_year, season_weeks=sorted(season_weeks), history=f'{hist_years[0]}-{hist_years[-1]}', history_seasons=len(hist_years), history_years=hist_years,
         totals=dict(members=total_members, season_games=sum(season_games.values()), hist_games=hist_total, late_games=late_total),
         complete_lists=lists.get('_complete', []),
         chapters={c: dict(members=n, season_games=season_games.get(c, 0), hist_games=hist_games.get(c, 0),
