@@ -9,6 +9,7 @@ import LocalMatchups from './components/LocalMatchups'
 import OfficialsCost from './components/OfficialsCost'
 import RecentChanges from './components/RecentChanges'
 import MembershipView from './components/MembershipView'
+import ChapterCoverageMap from './components/ChapterCoverageMap'
 import ScoresView from './components/ScoresView'
 import HistoryView from './components/HistoryView'
 import TeamsView from './components/TeamsView'
@@ -91,6 +92,8 @@ export default function App() {
           <SubmitAssignmentView />
         ) : page === 'championships' ? (
           <ChampionshipsView />
+        ) : page === 'coverage' ? (
+          <ChapterCoverageMap />
         ) : page === 'membership' ? (
           <MembershipView />
         ) : page === 'scores' ? (
