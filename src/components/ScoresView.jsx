@@ -165,6 +165,32 @@ export default function ScoresView({ allData, years }) {
         </table>
       </Card>
 
+      <Card n="2b" title="Winning and Losing Scores" intro={`Average winning score – average losing score, by division and round (${scopeLabel}). The All column covers every round.`}>
+        <table style={{ width:'100%', borderCollapse:'collapse' }}>
+          <thead><tr>
+            <th style={{ ...th, textAlign:'left' }}>Division</th>
+            {weeks.map(w => <th key={w} style={th}>{ROUNDS[w]}</th>)}
+            <th style={{ ...th, color:'var(--burnt)' }}>All</th>
+          </tr></thead>
+          <tbody>{CLASSES.filter(c => all.some(g => g.classification === c)).map(c => {
+            const base = all.filter(g => g.classification === c && (scope === 'all' || g.year === current))
+            const cell = gs => gs.length ? <><strong>{f1(avg(gs.map(g => g.high)))}</strong><span style={{ color:'var(--mid)' }}> – {f1(avg(gs.map(g => g.low)))}</span></> : '—'
+            return (
+              <tr key={c}>
+                <td style={{ ...tdl, fontWeight:600 }}>{c}</td>
+                {weeks.map(w => <td key={w} style={{ ...td, background: String(w) === round ? 'rgba(70,29,124,0.06)' : 'transparent' }}>{cell(base.filter(g => g.week === w))}</td>)}
+                <td style={{ ...td, background:'rgba(253,208,35,0.12)' }}>{cell(base)}</td>
+              </tr>
+            )
+          })}
+          <tr>
+            <td style={{ ...tdl, fontWeight:700 }}>All divisions</td>
+            {weeks.map(w => { const gs = all.filter(g => g.week === w && (scope === 'all' || g.year === current)); return <td key={w} style={{ ...td, fontWeight:700 }}>{gs.length ? `${f1(avg(gs.map(g => g.high)))} – ${f1(avg(gs.map(g => g.low)))}` : '—'}</td> })}
+            {(() => { const gs = all.filter(g => scope === 'all' || g.year === current); return <td style={{ ...td, fontWeight:700, background:'rgba(253,208,35,0.12)' }}>{gs.length ? `${f1(avg(gs.map(g => g.high)))} – ${f1(avg(gs.map(g => g.low)))}` : '—'}</td> })()}
+          </tr></tbody>
+        </table>
+      </Card>
+
       <Card n="3" title="Closest Games" intro={`Smallest winning margins, ${scopeLabel}.`}>
         <GameList games={top(scoped, 'margin', 10, true)} value={g => g.margin} valueLabel="Margin" />
       </Card>
