@@ -51,7 +51,16 @@ function Upsets({ games, allGames, seeds, scopeLabel, weeks, current }) {
   }).filter(Boolean)
   const seeded = seedGames(games)
   // every seeded season, for the year-by-year comparison (ignores the "Games from" filter)
-  const byYear = Object.entries(seedGames(allGames).reduce((m, g) => {
+  const everySeeded = seedGames(allGames).filter(g => g.gap !== 0)
+  const allRounds = [1, 2, 3, 4, 5, 6].filter(w => everySeeded.some(g => g.week === w))
+  const grid = allRounds.map(w => {
+    const inW = everySeeded.filter(g => g.week === w)
+    const avgW = inW.length ? inW.filter(g => g.gap > 0).length / inW.length : 0
+    const cells = {}
+    inW.forEach(g => { const c = cells[g.year] || (cells[g.year] = { n: 0, u: 0 }); c.n++; if (g.gap > 0) c.u++ })
+    return { w, avgW, n: inW.length, u: inW.filter(g => g.gap > 0).length, cells }
+  })
+  const byYear = Object.entries(seedGames(allGames.filter(g => weeks.length !== 1 || g.week === weeks[0])).reduce((m, g) => {
     if (g.gap === 0) return m
     const y = m[g.year] || (m[g.year] = { n: 0, u: 0 }); y.n++; if (g.gap > 0) y.u++; return m
   }, {})).map(([y, v]) => ({ y: +y, ...v, rate: v.n ? v.u / v.n : 0 })).sort((a, b) => a.y - b.y)
@@ -72,6 +81,46 @@ function Upsets({ games, allGames, seeds, scopeLabel, weeks, current }) {
             <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.1em', textTransform:'uppercase', color:'var(--mid)' }}>{l}</div></div>
         ))}
       </div>
+      {byYear.length > 1 && (
+        <div style={{ marginBottom:16 }}>
+          <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--mid)', marginBottom:4 }}>Upsets by round, by year</div>
+          <table style={{ width:'100%', borderCollapse:'collapse' }}>
+            <thead><tr>
+              <th style={{ ...th, textAlign:'left' }}>Round</th>
+              {byYear.map(x => <th key={x.y} style={th}>{x.y}</th>)}
+              <th style={{ ...th, background:'rgba(253,208,35,0.12)' }}>All years</th>
+            </tr></thead>
+            <tbody>{grid.map(r => {
+              const best = byYear.reduce((a, x) => { const c = r.cells[x.y]; const v = c && c.n >= 3 ? c.u / c.n : -1; return v > a.v ? { y: x.y, v } : a }, { y: null, v: -1 })
+              return (
+                <tr key={r.w}>
+                  <td style={{ ...tdl, fontWeight:600 }}>{ROUNDS[r.w]}</td>
+                  {byYear.map(x => {
+                    const c = r.cells[x.y]
+                    if (!c) return <td key={x.y} style={{ ...td, color:'var(--mid)' }}>—</td>
+                    const rate = c.u / c.n, top = best.y === x.y && byYear.length > 1
+                    const above = rate > r.avgW + 0.005
+                    return (
+                      <td key={x.y} title={`${x.y} ${ROUNDS[r.w]}: ${c.u} upsets in ${c.n} games between different seeds`}
+                        style={{ ...td, background: top ? 'rgba(253,208,35,0.28)' : 'transparent' }}>
+                        <span style={{ fontWeight:700, color: above ? 'var(--burnt)' : 'var(--ink)' }}>{c.u}</span>
+                        <span style={{ color:'var(--mid)' }}> / {c.n} · </span>
+                        <span style={{ fontWeight: top ? 700 : 400, color: above ? 'var(--burnt)' : 'var(--mid)' }}>{pct(c.u, c.n)}</span>
+                      </td>
+                    )
+                  })}
+                  <td style={{ ...td, fontWeight:700, background:'rgba(253,208,35,0.12)' }}>{r.u} / {r.n} · {pct(r.u, r.n)}</td>
+                </tr>
+              )
+            })}</tbody>
+          </table>
+          <div style={{ fontSize:11, color:'var(--mid)', marginTop:4, lineHeight:1.5 }}>
+            Upsets / games between different seeds · upset rate. <span style={{ color:'var(--burnt)', fontWeight:700 }}>Purple</span> = above that round's average across all years;
+            highlighted = the year with the highest upset rate in that round (3+ games). All rounds shown regardless of the Round filter.
+            {!seeds?.[current] && <> {current} will appear once UIL posts its bracket PDFs with district seeds.</>}
+          </div>
+        </div>
+      )}
       {byYear.length > 1 && (
         <div style={{ marginBottom:16 }}>
           <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--mid)', marginBottom:4 }}>Upset rate by year</div>
@@ -398,7 +447,7 @@ export default function ScoresView({ allData, years }) {
           <strong>Not all-time.</strong> Upsets are counted only for seasons where chapter data is on file <em>and</em> UIL's bracket shows each team's district finish:{' '}
           <strong>{seeds ? Object.keys(seeds).sort().join(', ') || 'none yet' : '…'}</strong>. Other seasons, including those between, aren't included, so these counts and rates aren't records for all years.
         </div>
-        {seeds ? <Upsets games={scoped} allGames={all.filter(inRound)} seeds={seeds} scopeLabel={scopeLabel} weeks={round === 'all' ? weeks : [+round]} current={current} /> : <div style={{ fontSize:12, color:'var(--mid)' }}>Loading seeds…</div>}
+        {seeds ? <Upsets games={scoped} allGames={all} seeds={seeds} scopeLabel={scopeLabel} weeks={round === 'all' ? weeks : [+round]} current={current} /> : <div style={{ fontSize:12, color:'var(--mid)' }}>Loading seeds…</div>}
       </Card>
 
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)' }}>Games without a final score, forfeits and recorded ties (a data-entry error, since playoff games can't tie) aren't counted.</div>
