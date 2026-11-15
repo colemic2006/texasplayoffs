@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-15T04:46+00:00",
+    "updated": "2026-11-15T05:05+00:00",
     "games": 527,
-    "played": 351,
+    "played": 352,
     "assigned": 368,
     "weeks": {
       "1": {
@@ -2257,10 +2257,10 @@
       "round": "Bi-District",
       "chapter": "AUS",
       "team1": "Chilton",
-      "score1": null,
+      "score1": 42,
       "team2": "Brackett",
-      "score2": null,
-      "winner": null,
+      "score2": 31,
+      "winner": "Chilton",
       "site": "Eschenberg Field, Floresville",
       "lat": 29.13358,
       "lng": -98.15612,
