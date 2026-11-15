@@ -102,6 +102,11 @@ export default function ScoresView({ allData, years }) {
         Score Stats
       </div>
 
+      <div style={{ background:'rgba(253,208,35,0.16)', border:'1px solid var(--gold)', borderLeft:'4px solid var(--gold)', borderRadius:8, padding:'12px 16px', marginBottom:18, fontSize:13, lineHeight:1.55, color:'var(--ink)' }}>
+        <strong>These are not all-time records.</strong> Every stat and average on this page covers only the seasons where chapter assignments are on file:{' '}
+        <strong>{[...years].sort((a, b) => a - b).join(', ')}</strong>. Seasons in between (such as 2011–12, 2014, 2016–17, 2019 and 2020) aren't included,
+        so a bigger score or closer game may exist in a year that isn't here.
+      </div>
       <div style={{ display:'flex', gap:4, flexWrap:'wrap', marginBottom:8, alignItems:'center' }}>
         <span style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginRight:4 }}>Football:</span>
         {[['eleven', 'Eleven-man'], ['six', 'Six-man']].map(([k, l]) => (
