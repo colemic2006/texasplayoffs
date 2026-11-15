@@ -1,16 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { hasChanges, fmtValue, fmtWhen, ALERT, ALERT_BG } from '../changes'
 import { placeName, gameWhen } from '../placeName'
 
 const LABEL = { date: 'Date', time: 'Kickoff', site: 'Site', score: 'Score' }
 
 // Games whose date, kickoff or site changed recently, newest first
+const KEY = 'texasplayoffs.changesClosed'
+const readClosed = () => { try { return localStorage.getItem(KEY) || '' } catch { return '' } }
+
 export default function RecentChanges({ data }) {
+  const [closed, setClosed] = useState(readClosed)
   const games = (data?.games || []).filter(hasChanges)
   if (!games.length) return null
   const rows = games.flatMap(g => g.changes.map(c => ({ g, c }))).sort((a, b) => b.c.at.localeCompare(a.c.at))
+  // closing hides this exact set of changes; a newly detected change brings the box back
+  const sig = rows.map(({ g, c }) => `${g.team1}|${g.team2}|${c.field}|${c.at}`).join(';')
+  if (closed === sig) return null
+  const close = () => { try { localStorage.setItem(KEY, sig) } catch { /* private mode: hide for this visit only */ } setClosed(sig) }
   return (
-    <div style={{ background:ALERT_BG, border:`1px solid ${ALERT}`, borderLeft:`4px solid ${ALERT}`, borderRadius:10, padding:'14px 18px', marginBottom:28 }}>
+    <div style={{ position:'relative', background:ALERT_BG, border:`1px solid ${ALERT}`, borderLeft:`4px solid ${ALERT}`, borderRadius:10, padding:'14px 44px 14px 18px', marginBottom:28 }}>
+      <button onClick={close} aria-label="Close schedule and score changes" title="Close (it comes back if another change is detected)"
+        style={{ position:'absolute', top:8, right:8, width:28, height:28, borderRadius:14, border:`1px solid ${ALERT}`, background:'transparent', color:ALERT, fontSize:16, lineHeight:'24px', cursor:'pointer', padding:0 }}>×</button>
       <div style={{ fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.16em', textTransform:'uppercase', color:ALERT, fontWeight:700, marginBottom:8 }}>
         ⚠ Schedule & score changes · {games.length} game{games.length === 1 ? '' : 's'}
       </div>
