@@ -38,6 +38,18 @@
   "stadium": "Tornado Stadium",
   "stadium_id": 825
  },
+ "@ Long Creek High School (New Braunfels) || CC Tuloso-Midway v La Vernia": {
+  "address": "",
+  "city": "New Braunfels",
+  "how": "town (approximate)",
+  "lat": 29.70283,
+  "lng": -98.12573,
+  "map_link": "",
+  "rules": 10,
+  "site": "@ Long Creek High School (New Braunfels)",
+  "stadium": null,
+  "stadium_id": null
+ },
  "@ Lovejoy 11/13 @ || Lovejoy v Celina": {
   "address": "2350 Estates Pkwy, Lucas, Texas 75002",
   "city": "Lucas",
@@ -1660,6 +1672,19 @@
   "stadium": "Coyote Stadium",
   "stadium_id": 1657
  },
+ "Coyote Stadium, Anna, TX || Anna v Abilene Cooper": {
+  "address": "1201 N Powell Pkwy, Anna, TX, Anna, Texas 75409",
+  "city": "Anna",
+  "how": "stadium (map link)",
+  "lat": 33.3629,
+  "link_tried": true,
+  "lng": -96.55242,
+  "map_link": "https://goo.gl/maps/iDwFKCzQGAZSZMSp8",
+  "rules": 10,
+  "site": "Coyote Stadium, Anna, TX",
+  "stadium": "Coyote Stadium",
+  "stadium_id": 1657
+ },
  "Creek View Cougar Stadium, San Antonio || Canyon Lake v Pleasanton": {
   "address": "308 CR 381, Castroville, Texas 78009",
   "city": "Castroville",
@@ -1894,6 +1919,19 @@
   "site": "Daiken Stadium, Waller",
   "stadium": null,
   "stadium_id": null
+ },
+ "Daikin Stadium, 20735 Stokes Rd, Waller, TX 77484 || Katy Tompkins v Waller": {
+  "address": "20735 Stokes Rd, Waller, Texas 77484",
+  "city": "Waller",
+  "how": "stadium (map link)",
+  "lat": 30.07528,
+  "link_tried": true,
+  "lng": -95.91307,
+  "map_link": "https://goo.gl/maps/v6amowm16uydWWqQ9",
+  "rules": 10,
+  "site": "Daikin Stadium, 20735 Stokes Rd, Waller, TX 77484",
+  "stadium": "Daikin Stadium",
+  "stadium_id": 1289
  },
  "Daikin Stadium, Waller || Katy Tompkins v Waller": {
   "address": "20735 Stokes Rd, Waller, Texas 77484",
