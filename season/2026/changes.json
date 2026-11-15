@@ -273,5 +273,16 @@
   "new": "2026-11-19",
   "at": "2026-11-15T22:40+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "5A D2",
+  "week": 1,
+  "team1": "Bastrop",
+  "team2": "Victoria West",
+  "field": "score",
+  "old": "Bastrop 62, Victoria West 43",
+  "new": "Bastrop 63, Victoria West 43",
+  "at": "2026-11-15T23:56+00:00",
+  "status": "changed"
  }
 ]

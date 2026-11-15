@@ -6901,9 +6901,10 @@
  "The Pfield, Pflugerville || Pflugerville v Richmond Tomas": {
   "address": "1440 W Pecan St, Pflugerville, Texas 78660",
   "city": "Pflugerville",
-  "how": "stadium",
-  "lat": 30.44575,
-  "lng": -97.63307,
+  "how": "stadium (map link)",
+  "lat": 30.44853,
+  "link_tried": true,
+  "lng": -97.63443,
   "map_link": "https://goo.gl/maps/2Bh3mQeD8Hzt9brS7",
   "rules": 10,
   "site": "The Pfield, Pflugerville",
