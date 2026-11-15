@@ -38,10 +38,10 @@ const PLACE = ['', '1st', '2nd', '3rd', '4th']
 const seedTag = sd => sd ? `${PLACE[sd.place]} D${sd.district}` : '—'
 
 // Lower district finisher beating a higher one, from the UIL bracket seeds
-function Upsets({ games, seeds, scopeLabel, weeks, current }) {
+function Upsets({ games, allGames, seeds, scopeLabel, weeks, current }) {
   const [showAll, setShowAll] = useState(false)
   const key = g => g.classification.replace(/ \(11-man, pre-2014\)$/, '')
-  const seeded = games.map(g => {
+  const seedGames = list => list.map(g => {
     const s = seeds?.[g.year]?.[key(g)]
     const a = s?.[g.team1], b = s?.[g.team2]
     if (!a || !b) return null
@@ -49,6 +49,14 @@ function Upsets({ games, seeds, scopeLabel, weeks, current }) {
     const ws = w1 ? a : b, ls = w1 ? b : a
     return { ...g, ws, ls, winner: w1 ? g.team1 : g.team2, loser: w1 ? g.team2 : g.team1, gap: ws.place - ls.place }
   }).filter(Boolean)
+  const seeded = seedGames(games)
+  // every seeded season, for the year-by-year comparison (ignores the "Games from" filter)
+  const byYear = Object.entries(seedGames(allGames).reduce((m, g) => {
+    if (g.gap === 0) return m
+    const y = m[g.year] || (m[g.year] = { n: 0, u: 0 }); y.n++; if (g.gap > 0) y.u++; return m
+  }, {})).map(([y, v]) => ({ y: +y, ...v, rate: v.n ? v.u / v.n : 0 })).sort((a, b) => a.y - b.y)
+  const allRate = byYear.reduce((a, x) => a + x.u, 0) / (byYear.reduce((a, x) => a + x.n, 0) || 1)
+  const topYear = byYear.length > 1 ? byYear.reduce((a, b) => b.rate > a.rate ? b : a) : null
   const decided = seeded.filter(g => g.gap !== 0)
   const ups = decided.filter(g => g.gap > 0)
   const years = [...new Set(seeded.map(g => g.year))].sort()
@@ -64,6 +72,32 @@ function Upsets({ games, seeds, scopeLabel, weeks, current }) {
             <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.1em', textTransform:'uppercase', color:'var(--mid)' }}>{l}</div></div>
         ))}
       </div>
+      {byYear.length > 1 && (
+        <div style={{ marginBottom:16 }}>
+          <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--mid)', marginBottom:4 }}>Upset rate by year</div>
+          <table style={{ width:'100%', borderCollapse:'collapse' }}>
+            <thead><tr><th style={{ ...th, textAlign:'left' }}>Season</th><th style={th}>Different seeds</th><th style={th}>Upsets</th><th style={th}>Rate</th><th style={th}>vs. all years</th><th style={{ ...th, width:'34%' }}></th></tr></thead>
+            <tbody>{byYear.map(x => {
+              const diff = Math.round(100 * (x.rate - allRate))
+              const hi = topYear && x.y === topYear.y
+              return (
+                <tr key={x.y} style={{ background: hi ? 'rgba(253,208,35,0.14)' : 'transparent' }}>
+                  <td style={{ ...tdl, fontWeight:600 }}>{x.y}{hi && <span style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--burnt)', marginLeft:6 }}>MOST UPSETS</span>}</td>
+                  <td style={td}>{x.n}</td><td style={{ ...td, fontWeight:700 }}>{x.u}</td><td style={{ ...td, fontWeight:700 }}>{pct(x.u, x.n)}</td>
+                  <td style={{ ...td, color: diff > 0 ? 'var(--burnt)' : 'var(--mid)' }}>{diff > 0 ? '+' : ''}{diff} pts</td>
+                  <td style={{ ...td, paddingLeft:4 }}>
+                    <div style={{ position:'relative', height:10, borderRadius:5, background:'rgba(15,13,11,0.06)' }}>
+                      <div style={{ width:`${Math.min(100, 100 * x.rate / 0.5)}%`, height:'100%', borderRadius:5, background: hi ? 'var(--burnt)' : 'var(--gold)' }} />
+                      <div title={`All-years average ${pct(Math.round(allRate * 1000), 1000)}`} style={{ position:'absolute', top:-2, bottom:-2, left:`${100 * allRate / 0.5}%`, width:2, background:'var(--ink)' }} />
+                    </div>
+                  </td>
+                </tr>
+              )
+            })}</tbody>
+          </table>
+          <div style={{ fontSize:11, color:'var(--mid)', marginTop:4 }}>Share of games between different seeds won by the lower seed{weeks.length === 1 ? `, ${ROUNDS[weeks[0]]} only` : ''}. The black line is the average across all seeded seasons ({pct(Math.round(allRate * 1000), 1000)}). Bars run to 50%.</div>
+        </div>
+      )}
       <div style={{ display:'flex', gap:16, flexWrap:'wrap', marginBottom:14 }}>
         <table style={{ borderCollapse:'collapse', flex:'1 1 300px' }}>
           <thead><tr><th style={{ ...th, textAlign:'left' }}>Round</th><th style={th}>Different seeds</th><th style={th}>Upsets</th><th style={th}>Rate</th></tr></thead>
@@ -359,8 +393,12 @@ export default function ScoresView({ allData, years }) {
         </table>
         <div style={{ fontSize:11, color:'var(--mid)', marginTop:6 }}>{kind === 'six' ? 'Six-man games only.' : 'Eleven-man games only; switch to Six-man above for six-man.'}</div>
       </Card>
-      <Card n="11" title="Upsets" intro={`A lower seed beating a higher seed, ${scopeLabel}${round === 'all' ? '' : `, ${ROUNDS[round]}`}. Seed = where the team finished in its district. Seeds are on file for ${seeds ? Object.keys(seeds).sort().join(', ') || 'no seasons yet' : '…'}, so earlier seasons aren't counted.`}>
-        {seeds ? <Upsets games={scoped} seeds={seeds} scopeLabel={scopeLabel} weeks={round === 'all' ? weeks : [+round]} current={current} /> : <div style={{ fontSize:12, color:'var(--mid)' }}>Loading seeds…</div>}
+      <Card n="11" title="Upsets" intro={`A lower seed beating a higher seed${scope === 'season' ? `, ${current} only` : ''}${round === 'all' ? '' : `, ${ROUNDS[round]}`}. Seed = where the team finished in its district (1st = district champion).`}>
+        <div style={{ background:'rgba(253,208,35,0.16)', border:'1px solid var(--gold)', borderLeft:'4px solid var(--gold)', borderRadius:8, padding:'10px 14px', marginBottom:14, fontSize:12, lineHeight:1.55, color:'var(--ink)' }}>
+          <strong>Not all-time.</strong> Upsets are counted only for seasons where chapter data is on file <em>and</em> UIL's bracket shows each team's district finish:{' '}
+          <strong>{seeds ? Object.keys(seeds).sort().join(', ') || 'none yet' : '…'}</strong>. Other seasons, including those between, aren't included, so these counts and rates aren't records for all years.
+        </div>
+        {seeds ? <Upsets games={scoped} allGames={all.filter(inRound)} seeds={seeds} scopeLabel={scopeLabel} weeks={round === 'all' ? weeks : [+round]} current={current} /> : <div style={{ fontSize:12, color:'var(--mid)' }}>Loading seeds…</div>}
       </Card>
 
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)' }}>Games without a final score, forfeits and recorded ties (a data-entry error, since playoff games can't tie) aren't counted.</div>
