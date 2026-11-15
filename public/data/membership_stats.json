@@ -1,0 +1,208 @@
+{
+ "season": 2026,
+ "season_weeks": [
+  1
+ ],
+ "history": "2021-2025",
+ "totals": {
+  "members": 6107,
+  "season_games": 352,
+  "hist_games": 3458,
+  "late_games": 380
+ },
+ "complete_lists": [
+  "ABI",
+  "AMA",
+  "AUS",
+  "CTX",
+  "DAL",
+  "ELP",
+  "FTW",
+  "HOU",
+  "NTX",
+  "PBC",
+  "SAN",
+  "SAT",
+  "SFA",
+  "SPC",
+  "TYL"
+ ],
+ "chapters": {
+  "ABI": {
+   "members": 131,
+   "season_games": 17,
+   "hist_games": 194,
+   "late_games": 13,
+   "schools": 43,
+   "counties": 19
+  },
+  "AMA": {
+   "members": 139,
+   "season_games": 7,
+   "hist_games": 69,
+   "late_games": 7,
+   "schools": 44,
+   "counties": 23
+  },
+  "AUS": {
+   "members": 473,
+   "season_games": 22,
+   "hist_games": 194,
+   "late_games": 17,
+   "schools": 70,
+   "counties": 16
+  },
+  "CTX": {
+   "members": 136,
+   "season_games": 3,
+   "hist_games": 50,
+   "late_games": 4,
+   "schools": 34,
+   "counties": 12
+  },
+  "CSC": {
+   "members": 164,
+   "season_games": 9,
+   "hist_games": 154,
+   "late_games": 27,
+   "schools": 24,
+   "counties": 10
+  },
+  "COM": {
+   "members": 62,
+   "season_games": 5,
+   "hist_games": 14,
+   "late_games": 0,
+   "schools": 0,
+   "counties": 0
+  },
+  "DAL": {
+   "members": 712,
+   "season_games": 29,
+   "hist_games": 287,
+   "late_games": 33,
+   "schools": 135,
+   "counties": 14
+  },
+  "ELP": {
+   "members": 190,
+   "season_games": 0,
+   "hist_games": 6,
+   "late_games": 0,
+   "schools": 39,
+   "counties": 4
+  },
+  "FTW": {
+   "members": 594,
+   "season_games": 33,
+   "hist_games": 408,
+   "late_games": 58,
+   "schools": 107,
+   "counties": 15
+  },
+  "HOU": {
+   "members": 1231,
+   "season_games": 62,
+   "hist_games": 738,
+   "late_games": 94,
+   "schools": 189,
+   "counties": 21
+  },
+  "NTX": {
+   "members": 103,
+   "season_games": 6,
+   "hist_games": 69,
+   "late_games": 4,
+   "schools": 34,
+   "counties": 11
+  },
+  "PVC": {
+   "members": 43,
+   "season_games": 2,
+   "hist_games": 14,
+   "late_games": 0,
+   "schools": 0,
+   "counties": 0
+  },
+  "PBC": {
+   "members": 112,
+   "season_games": 14,
+   "hist_games": 60,
+   "late_games": 3,
+   "schools": 35,
+   "counties": 15
+  },
+  "RGV": {
+   "members": 331,
+   "season_games": 11,
+   "hist_games": 52,
+   "late_games": 0,
+   "schools": 47,
+   "counties": 6
+  },
+  "SAN": {
+   "members": 88,
+   "season_games": 8,
+   "hist_games": 83,
+   "late_games": 9,
+   "schools": 26,
+   "counties": 13
+  },
+  "SAT": {
+   "members": 510,
+   "season_games": 46,
+   "hist_games": 304,
+   "late_games": 31,
+   "schools": 117,
+   "counties": 29
+  },
+  "SPC": {
+   "members": 221,
+   "season_games": 25,
+   "hist_games": 239,
+   "late_games": 17,
+   "schools": 67,
+   "counties": 23
+  },
+  "STX": {
+   "members": 202,
+   "season_games": 7,
+   "hist_games": 45,
+   "late_games": 0,
+   "schools": 10,
+   "counties": 3
+  },
+  "BEA": {
+   "members": 91,
+   "season_games": 1,
+   "hist_games": 3,
+   "late_games": 0,
+   "schools": 0,
+   "counties": 0
+  },
+  "SFA": {
+   "members": 85,
+   "season_games": 4,
+   "hist_games": 39,
+   "late_games": 2,
+   "schools": 26,
+   "counties": 12
+  },
+  "TYL": {
+   "members": 348,
+   "season_games": 30,
+   "hist_games": 303,
+   "late_games": 51,
+   "schools": 89,
+   "counties": 22
+  },
+  "WAC": {
+   "members": 141,
+   "season_games": 11,
+   "hist_games": 133,
+   "late_games": 10,
+   "schools": 9,
+   "counties": 4
+  }
+ }
+}
