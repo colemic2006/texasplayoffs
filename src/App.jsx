@@ -8,6 +8,7 @@ import OutsideChapterGames from './components/OutsideChapterGames'
 import LocalMatchups from './components/LocalMatchups'
 import OfficialsCost from './components/OfficialsCost'
 import RecentChanges from './components/RecentChanges'
+import MembershipView from './components/MembershipView'
 import HistoryView from './components/HistoryView'
 import TeamsView from './components/TeamsView'
 import ChapterRegulars from './components/ChapterRegulars'
@@ -89,6 +90,8 @@ export default function App() {
           <SubmitAssignmentView />
         ) : page === 'championships' ? (
           <ChampionshipsView />
+        ) : page === 'membership' ? (
+          <MembershipView />
         ) : (page === 'teams' || page === 'regulars') ? (
           allYearsLoaded
             ? page === 'teams' ? <TeamsView allData={data} years={YEARS} /> : <ChapterRegulars allData={data} years={YEARS} />
