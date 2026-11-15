@@ -219,6 +219,14 @@
     "chapter": "AUS",
     "confidence": "HIGH"
   },
+  "Austin Memorial": {
+    "chapter": "SAT",
+    "confidence": "HIGH"
+  },
+  "Austin Northeast": {
+    "chapter": "FTW",
+    "confidence": "HIGH"
+  },
   "Austin Travis": {
     "chapter": "AUS",
     "confidence": "HIGH"
@@ -1101,10 +1109,6 @@
   },
   "Eastland": {
     "chapter": "ABI",
-    "confidence": "HIGH"
-  },
-  "Eastside Early College": {
-    "chapter": "SAT",
     "confidence": "HIGH"
   },
   "Edcouch-Elsa": {
@@ -2539,10 +2543,6 @@
     "chapter": "TYL",
     "confidence": "HIGH"
   },
-  "Maude": {
-    "chapter": "TYL",
-    "confidence": "HIGH"
-  },
   "May": {
     "chapter": "ABI",
     "confidence": "HIGH"
@@ -2846,14 +2846,6 @@
   "North Richland Hills Richland": {
     "chapter": "WAC",
     "confidence": "LOW"
-  },
-  "Northeast Early": {
-    "chapter": "FTW",
-    "confidence": "HIGH"
-  },
-  "Northwest Nelson": {
-    "chapter": "AUS",
-    "confidence": "MEDIUM"
   },
   "O'Donnell": {
     "chapter": "SPC",
@@ -3566,10 +3558,6 @@
   "Shelbyville": {
     "chapter": "SFA",
     "confidence": "HIGH"
-  },
-  "Sheldon King": {
-    "chapter": "HOU",
-    "confidence": "MEDIUM"
   },
   "Shepherd": {
     "chapter": "HOU",

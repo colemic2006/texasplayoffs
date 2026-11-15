@@ -2541,7 +2541,7 @@
       "chapter": "HOU",
       "team1": "Deweyville",
       "score1": 28,
-      "team2": "Teneha",
+      "team2": "Tenaha",
       "score2": 14,
       "winner": "Deweyville"
     },
@@ -6355,7 +6355,7 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "WAC",
-      "team1": "Northeast Early",
+      "team1": "Austin Northeast",
       "score1": 0,
       "team2": "Belton",
       "score2": 56,
@@ -7641,9 +7641,9 @@
       "chapter": "FTW",
       "team1": "Fort Worth Boswell",
       "score1": 14,
-      "team2": "Northwest Nelson",
+      "team2": "Byron Nelson",
       "score2": 54,
-      "winner": "Northwest Nelson"
+      "winner": "Byron Nelson"
     },
     {
       "year": 2022,
@@ -7725,9 +7725,9 @@
       "chapter": "AUS",
       "team1": "El Paso Eastwood",
       "score1": 28,
-      "team2": "Northwest Nelson",
+      "team2": "Byron Nelson",
       "score2": 35,
-      "winner": "Northwest Nelson"
+      "winner": "Byron Nelson"
     },
     {
       "year": 2022,
@@ -7771,7 +7771,7 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "DAL",
-      "team1": "Northwest Nelson",
+      "team1": "Byron Nelson",
       "score1": 41,
       "team2": "Denton Guyer",
       "score2": 59,

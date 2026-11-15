@@ -1914,11 +1914,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "TYL",
-      "team1": "Teneha",
+      "team1": "Tenaha",
       "score1": 52,
       "team2": "Hull-Daisetta",
       "score2": 12,
-      "winner": "Teneha"
+      "winner": "Tenaha"
     },
     {
       "year": 2023,
@@ -1986,11 +1986,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "TYL",
-      "team1": "Teneha",
+      "team1": "Tenaha",
       "score1": 22,
       "team2": "Dawson",
       "score2": 14,
-      "winner": "Teneha"
+      "winner": "Tenaha"
     },
     {
       "year": 2023,
@@ -2022,7 +2022,7 @@
       "week": 3,
       "round": "Regionals",
       "chapter": "TYL",
-      "team1": "Teneha",
+      "team1": "Tenaha",
       "score1": 14,
       "team2": "Lovelady",
       "score2": 50,
@@ -7988,9 +7988,9 @@
       "chapter": "HOU",
       "team1": "Channelview",
       "score1": 21,
-      "team2": "Sheldon King",
+      "team2": "Houston King",
       "score2": 70,
-      "winner": "Sheldon King"
+      "winner": "Houston King"
     },
     {
       "year": 2023,
@@ -8046,11 +8046,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "HOU",
-      "team1": "Sheldon King",
+      "team1": "Houston King",
       "score1": 37,
       "team2": "Clear Falls",
       "score2": 20,
-      "winner": "Sheldon King"
+      "winner": "Houston King"
     },
     {
       "year": 2023,
@@ -8072,7 +8072,7 @@
       "chapter": "HOU",
       "team1": "Fort Bend Hightower",
       "score1": 31,
-      "team2": "Sheldon King",
+      "team2": "Houston King",
       "score2": 28,
       "winner": "Fort Bend Hightower"
     },

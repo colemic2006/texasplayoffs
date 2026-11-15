@@ -735,7 +735,7 @@
     "district": 3,
     "place": 4
    },
-   "Teneha": {
+   "Tenaha": {
     "district": 11,
     "place": 1
    },
@@ -3561,7 +3561,7 @@
     "district": 1,
     "place": 2
    },
-   "Teneha": {
+   "Tenaha": {
     "district": 11,
     "place": 3
    },
@@ -4913,6 +4913,10 @@
     "district": 12,
     "place": 2
    },
+   "Austin Northeast": {
+    "district": 12,
+    "place": 4
+   },
    "Belton": {
     "district": 11,
     "place": 1
@@ -5076,10 +5080,6 @@
    "Montgomery Lake Creek": {
     "district": 10,
     "place": 1
-   },
-   "Northeast Early": {
-    "district": 12,
-    "place": 4
    },
    "Port Neches-Groves": {
     "district": 9,
@@ -5429,6 +5429,10 @@
     "district": 24,
     "place": 2
    },
+   "Byron Nelson": {
+    "district": 4,
+    "place": 2
+   },
    "Channelview": {
     "district": 22,
     "place": 1
@@ -5580,10 +5584,6 @@
    "New Caney": {
     "district": 13,
     "place": 1
-   },
-   "Northwest Nelson": {
-    "district": 4,
-    "place": 2
    },
    "Pearland Dawson": {
     "district": 23,
@@ -6399,7 +6399,7 @@
     "district": 1,
     "place": 2
    },
-   "Teneha": {
+   "Tenaha": {
     "district": 11,
     "place": 1
    },
@@ -8383,6 +8383,10 @@
     "district": 18,
     "place": 1
    },
+   "Houston King": {
+    "district": 21,
+    "place": 2
+   },
    "Houston Memorial": {
     "district": 17,
     "place": 2
@@ -8461,10 +8465,6 @@
    },
    "San Antonio John Jay": {
     "district": 29,
-    "place": 2
-   },
-   "Sheldon King": {
-    "district": 21,
     "place": 2
    },
    "Southlake Carroll": {
@@ -9157,7 +9157,7 @@
     "district": 10,
     "place": 1
    },
-   "Maude": {
+   "Maud": {
     "district": 9,
     "place": 1
    },
@@ -12645,6 +12645,10 @@
     "district": 13,
     "place": 1
    },
+   "Austin Memorial": {
+    "district": 13,
+    "place": 4
+   },
    "Bay City": {
     "district": 15,
     "place": 3
@@ -12716,10 +12720,6 @@
    "Dumas": {
     "district": 2,
     "place": 3
-   },
-   "Eastside Early College": {
-    "district": 13,
-    "place": 4
    },
    "El Campo": {
     "district": 15,
@@ -16433,6 +16433,10 @@
     "district": 10,
     "place": 1
    },
+   "Richmond Tomas": {
+    "district": 11,
+    "place": 3
+   },
    "San Antonio Alamo Heights": {
     "district": 13,
     "place": 2
@@ -16476,10 +16480,6 @@
    "The Colony": {
     "district": 3,
     "place": 4
-   },
-   "Tomas": {
-    "district": 11,
-    "place": 3
    },
    "Victoria West": {
     "district": 11,

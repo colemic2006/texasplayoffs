@@ -1,9 +1,9 @@
 {
- "total": 1301,
+ "total": 1294,
  "with_chapter": 1175,
  "current_year": 2026,
  "current_total": 704,
- "current_missing": 63,
+ "current_missing": 62,
  "missing": [
   {
    "name": "Agua Dulce",
@@ -28,6 +28,14 @@
    "last_playoffs": 2018,
    "town": "Aransas Pass",
    "county": "San Patricio"
+  },
+  {
+   "name": "Austin Memorial",
+   "last_playoffs": 2025
+  },
+  {
+   "name": "Austin Northeast",
+   "last_playoffs": 2022
   },
   {
    "name": "Banquete",
@@ -126,10 +134,6 @@
    "county": "Jasper"
   },
   {
-   "name": "Burlington Centennial",
-   "last_playoffs": 2015
-  },
-  {
    "name": "Campbell",
    "last_playoffs": 2026,
    "town": "Campbell",
@@ -206,10 +210,6 @@
    "last_playoffs": 2026,
    "town": "Winnie",
    "county": "Chambers"
-  },
-  {
-   "name": "Eastside Early College",
-   "last_playoffs": 2025
   },
   {
    "name": "Edcouch-Elsa",
@@ -418,10 +418,6 @@
    "county": "San Patricio"
   },
   {
-   "name": "Maude",
-   "last_playoffs": 2024
-  },
-  {
    "name": "May",
    "last_playoffs": 2026,
    "town": "May",
@@ -448,14 +444,6 @@
   {
    "name": "Nevada",
    "last_playoffs": 2021
-  },
-  {
-   "name": "Northeast Early",
-   "last_playoffs": 2022
-  },
-  {
-   "name": "Northwest Nelson",
-   "last_playoffs": 2022
   },
   {
    "name": "Novice",
@@ -580,14 +568,6 @@
    "county": "Fannin"
   },
   {
-   "name": "Sheldon King",
-   "last_playoffs": 2023
-  },
-  {
-   "name": "Shephard",
-   "last_playoffs": 2018
-  },
-  {
    "name": "Sidney",
    "last_playoffs": 2026,
    "town": "Sidney",
@@ -614,18 +594,10 @@
    "last_playoffs": 2026
   },
   {
-   "name": "Teneha",
-   "last_playoffs": 2023
-  },
-  {
    "name": "Three Rivers",
    "last_playoffs": 2026,
    "town": "Three Rivers",
    "county": "Live Oak"
-  },
-  {
-   "name": "Tomas",
-   "last_playoffs": 2026
   },
   {
    "name": "Trophy Club Nelson",

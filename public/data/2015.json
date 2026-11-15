@@ -1557,9 +1557,9 @@
       "chapter": "FTW",
       "team1": "Fort Worth Arlington Heights",
       "score1": 29,
-      "team2": "Burlington Centennial",
+      "team2": "Burleson Centennial",
       "score2": 30,
-      "winner": "Burlington Centennial"
+      "winner": "Burleson Centennial"
     },
     {
       "year": 2015,
@@ -1917,9 +1917,9 @@
       "chapter": "FTW",
       "team1": "Fort Worth Boswell",
       "score1": 10,
-      "team2": "Burlington Centennial",
+      "team2": "Burleson Centennial",
       "score2": 28,
-      "winner": "Burlington Centennial"
+      "winner": "Burleson Centennial"
     },
     {
       "year": 2015,
@@ -2097,7 +2097,7 @@
       "chapter": "AUS",
       "team1": "Canyon Randall",
       "score1": 42,
-      "team2": "Burlington Centennial",
+      "team2": "Burleson Centennial",
       "score2": 7,
       "winner": "Canyon Randall"
     },
@@ -7051,11 +7051,11 @@
       "week": 1,
       "round": "Bi-District",
       "chapter": "TYL",
-      "team1": "Teneha",
+      "team1": "Tenaha",
       "score1": 63,
       "team2": "Colmesneil",
       "score2": 14,
-      "winner": "Teneha"
+      "winner": "Tenaha"
     },
     {
       "year": 2015,
@@ -7315,11 +7315,11 @@
       "week": 2,
       "round": "Area",
       "chapter": "TYL",
-      "team1": "Teneha",
+      "team1": "Tenaha",
       "score1": 69,
       "team2": "Era",
       "score2": 0,
-      "winner": "Teneha"
+      "winner": "Tenaha"
     },
     {
       "year": 2015,
@@ -7447,11 +7447,11 @@
       "week": 3,
       "round": "Regional",
       "chapter": "TYL",
-      "team1": "Teneha",
+      "team1": "Tenaha",
       "score1": 24,
       "team2": "Normangee",
       "score2": 14,
-      "winner": "Teneha"
+      "winner": "Tenaha"
     },
     {
       "year": 2015,
@@ -7509,7 +7509,7 @@
       "chapter": "TYL",
       "team1": "Muenster",
       "score1": 33,
-      "team2": "Teneha",
+      "team2": "Tenaha",
       "score2": 16,
       "winner": "Muenster"
     },
