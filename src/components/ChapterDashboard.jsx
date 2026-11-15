@@ -65,6 +65,17 @@ function RoundCounts({ games }) {
   )
 }
 
+// Diverging heat: purple above the chapter's historical average, gold below, neutral near it.
+// Strength follows the ratio on a log scale, full at about 2x (or half) the average.
+function heat(val, avg) {
+  if (avg == null) return null
+  const t = Math.max(-1, Math.min(1, Math.log2((val + 0.5) / (avg + 0.5)) / 1.1))
+  if (Math.abs(t) < 0.09) return { bg: 'rgba(15,13,11,0.04)', strong: false, t }
+  const a = 0.12 + 0.6 * Math.abs(t)
+  return { bg: t > 0 ? `rgba(70,29,124,${a.toFixed(2)})` : `rgba(226,160,24,${a.toFixed(2)})`, strong: t > 0 && a > 0.5, t }
+}
+const pctOff = (v, a) => a > 0 ? `${v >= a ? '+' : ''}${Math.round(100 * (v - a) / a)}%` : (v > 0 ? 'new' : 'even')
+
 export default function ChapterDashboard({ data, year, allData = {}, years = [], loadAllYears }) {
   const [sortBy, setSortBy] = useState('total')
   const [selectedWeek, setSelectedWeek] = useState('all')
@@ -119,6 +130,13 @@ export default function ChapterDashboard({ data, year, allData = {}, years = [],
       weeks: Object.fromEntries(WEEKS.map(w => [w, r.weeks[w] / r.seasons])),
     }]))
   }, [allData, years, year, tableClass, playedThrough])
+
+  // heatmap: how complete each week's assignments are; a week is shaded only once nearly all games have a chapter
+  const weekCover = useMemo(() => Object.fromEntries(WEEKS.map(w => {
+    const gs = (data?.games || []).filter(g => g.week === Number(w) && (tableClass === 'all' || g.classification === tableClass))
+    return [w, { n: gs.length, in: gs.filter(g => g.chapter).length }]
+  })), [data, tableClass])
+  const shadeWeek = w => Number(w) <= playedThrough && (!inProgress || (weekCover[w].n > 0 && weekCover[w].in / weekCover[w].n >= 0.9))
 
   const sorted = useMemo(() => {
     return [...chapters].sort((a, b) => {
@@ -386,12 +404,24 @@ export default function ChapterDashboard({ data, year, allData = {}, years = [],
           ))}
         </div>
 
+        <div style={{ display:'flex', alignItems:'center', gap:10, flexWrap:'wrap', fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', margin:'0 0 8px' }}>
+          <span>Shaded against each chapter's own average in other seasons:</span>
+          <span style={{ display:'inline-flex', alignItems:'center', gap:3 }}>
+            <span>below</span>
+            {[0.72, 0.42, 0.04, 0.42, 0.72].map((a, i) => (
+              <span key={i} style={{ width:18, height:12, borderRadius:2, background: i < 2 ? `rgba(226,160,24,${a})` : i === 2 ? 'rgba(15,13,11,0.04)' : `rgba(70,29,124,${a})`, border:'1px solid var(--border)' }} />
+            ))}
+            <span>above</span>
+          </span>
+          <span>· hover a cell for the numbers{inProgress ? ' · a week is shaded once 90% of its games have a chapter' : ''}</span>
+        </div>
         <div style={{ overflow:'auto', borderRadius:10, border:'1px solid var(--border)' }}>
           <table style={{ width:'100%', borderCollapse:'collapse', fontSize:12, background:'var(--surface)', minWidth:700 }}>
             <thead>
               <tr style={{ background:'rgba(15,13,11,0.03)' }}>
                 <th style={{ ...thStyle, textAlign:'left', position:'sticky', left:0, background:'rgba(245,240,232,0.98)' }}>Chapter</th>
-                {WEEKS.map(w => <th key={w} style={thStyle}>Wk {w}</th>)}
+                {WEEKS.map(w => <th key={w} style={thStyle}>Wk {w}{inProgress && Number(w) <= playedThrough && !shadeWeek(w) && weekCover[w].n > 0 &&
+                  <div style={{ fontSize:8, letterSpacing:0, textTransform:'none', color:'var(--mid)', fontWeight:400 }}>{weekCover[w].in} of {weekCover[w].n} in</div>}</th>)}
                 <th style={{ ...thStyle, color:'var(--burnt)' }}>Total</th>
                 <th style={thStyle} title="Average games per season in the other seasons on the site, counting the seasons the chapter worked playoff games">{playedThrough < 6 ? `Hist. Avg thru Wk ${playedThrough}` : 'Hist. Avg'}</th>
                 <th style={thStyle}>% of Games</th>
@@ -431,24 +461,40 @@ export default function ChapterDashboard({ data, year, allData = {}, years = [],
                         ? (ch.weeks?.[w]?.total ?? 0)
                         : (ch.weeks?.[w]?.classifications?.[tableClass] || 0)
                       return (
-                        <td key={w} style={{ ...tdStyle, textAlign:'center', fontFamily:'var(--mono)', fontSize:11 }}>
+                        (() => {
+                        const avg = histAvg[ch.code]?.weeks[w]
+                        const h = shadeWeek(w) ? heat(val, avg) : null
+                        return (
+                        <td key={w} title={h ? `Week ${w}: ${val} games vs. ${avg.toFixed(1)} average (${pctOff(val, avg)})` : undefined}
+                            style={{ ...tdStyle, textAlign:'center', fontFamily:'var(--mono)', fontSize:11, background: h ? h.bg : undefined,
+                                     boxShadow: h ? 'inset 0 0 0 1px var(--surface)' : undefined }}>
                           <span style={{
                             display:'inline-block', minWidth:28, padding:'1px 0',
-                            fontWeight: val > 0 ? 500 : 400,
-                            color: val > 0 ? 'var(--ink)' : 'rgba(15,13,11,0.2)'
+                            fontWeight: val > 0 ? 600 : 400,
+                            color: h?.strong ? '#fff' : val > 0 ? 'var(--ink)' : 'rgba(15,13,11,0.35)'
                           }}>{val}</span>
                           {histAvg[ch.code] && (
                             <div title={`Average in week ${w}, ${histAvg[ch.code].seasons} other season${histAvg[ch.code].seasons === 1 ? '' : 's'}`}
-                                 style={{ fontSize:9, color:'var(--mid)', opacity:0.75, marginTop:1 }}>
+                                 style={{ fontSize:9, color: h?.strong ? 'rgba(255,255,255,0.85)' : 'var(--mid)', opacity:0.85, marginTop:1 }}>
                               avg {histAvg[ch.code].weeks[w].toFixed(1)}
                             </div>
                           )}
                         </td>
+                        )
+                        })()
                       )
                     })}
-                    <td style={{ ...tdStyle, textAlign:'center', fontFamily:"'Bebas Neue', sans-serif", fontSize:18, color:'var(--burnt)' }}>
-                      {rowTotal}
-                    </td>
+                    {(() => {
+                      const allIn = WEEKS.filter(w => Number(w) <= playedThrough).every(shadeWeek)
+                      const h = allIn ? heat(rowTotal, histAvg[ch.code]?.avg) : null
+                      return (
+                        <td title={h ? `${rowTotal} games vs. ${histAvg[ch.code].avg.toFixed(1)} average through week ${playedThrough} (${pctOff(rowTotal, histAvg[ch.code].avg)})` : undefined}
+                            style={{ ...tdStyle, textAlign:'center', fontFamily:"'Bebas Neue', sans-serif", fontSize:18,
+                                     color: h?.strong ? '#fff' : 'var(--burnt)', background: h ? h.bg : undefined, boxShadow: h ? 'inset 0 0 0 1px var(--surface)' : undefined }}>
+                          {rowTotal}
+                        </td>
+                      )
+                    })()}
                     <td style={{ ...tdStyle, textAlign:'center', fontFamily:"'Bebas Neue', sans-serif", fontSize:18, color:'var(--mid)' }}
                         title={histAvg[ch.code] ? `Average of ${histAvg[ch.code].seasons} season${histAvg[ch.code].seasons === 1 ? '' : 's'}` : 'No other seasons on record'}>
                       {histAvg[ch.code] ? histAvg[ch.code].avg.toFixed(1) : '—'}
