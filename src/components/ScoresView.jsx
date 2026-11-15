@@ -38,7 +38,8 @@ const PLACE = ['', '1st', '2nd', '3rd', '4th']
 const seedTag = sd => sd ? `${PLACE[sd.place]} D${sd.district}` : '—'
 
 // Lower district finisher beating a higher one, from the UIL bracket seeds
-function Upsets({ games, allGames, seeds, scopeLabel, weeks, current }) {
+function Upsets({ games, allGames, seeds, scopeLabel, weeks, current, seasonOnly }) {
+  const [showChamps, setShowChamps] = useState(null)
   const [showAll, setShowAll] = useState(false)
   const key = g => g.classification.replace(/ \(11-man, pre-2014\)$/, '')
   const seedGames = list => list.map(g => {
@@ -66,6 +67,15 @@ function Upsets({ games, allGames, seeds, scopeLabel, weeks, current }) {
   }, {})).map(([y, v]) => ({ y: +y, ...v, rate: v.n ? v.u / v.n : 0 })).sort((a, b) => a.y - b.y)
   const allRate = byYear.reduce((a, x) => a + x.u, 0) / (byYear.reduce((a, x) => a + x.n, 0) || 1)
   const topYear = byYear.length > 1 ? byYear.reduce((a, b) => b.rate > a.rate ? b : a) : null
+  // district champions (1st place) in the first round, and how many lost, by season
+  const r1 = seedGames(allGames).filter(g => g.week === 1 && (!seasonOnly || g.year === current) && (g.ws.place === 1 || g.ls.place === 1))
+  const champs = Object.values(r1.reduce((m, g) => {
+    const y = m[g.year] || (m[g.year] = { y: g.year, n: 0, out: [] })
+    y.n += (g.ws.place === 1) + (g.ls.place === 1)
+    if (g.ls.place === 1 && g.ws.place !== 1) y.out.push(g)
+    return m
+  }, {})).sort((a, b) => a.y - b.y)
+  const champN = champs.reduce((a, x) => a + x.n, 0), champOut = champs.reduce((a, x) => a + x.out.length, 0)
   const decided = seeded.filter(g => g.gap !== 0)
   const ups = decided.filter(g => g.gap > 0)
   const years = [...new Set(seeded.map(g => g.year))].sort()
@@ -76,7 +86,8 @@ function Upsets({ games, allGames, seeds, scopeLabel, weeks, current }) {
   return (
     <>
       <div style={{ display:'flex', gap:24, flexWrap:'wrap', marginBottom:12 }}>
-        {[['Upsets', ups.length], ['Games between different seeds', decided.length], ['Upset rate', pct(ups.length, decided.length)]].map(([l, v]) => (
+        {[['Upsets', ups.length], ['Games between different seeds', decided.length], ['Upset rate', pct(ups.length, decided.length)],
+          ...(champN ? [['District champs out in round 1', `${champOut} of ${champN}`]] : [])].map(([l, v]) => (
           <div key={l}><div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:30, color:'var(--burnt)', lineHeight:1 }}>{v}</div>
             <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.1em', textTransform:'uppercase', color:'var(--mid)' }}>{l}</div></div>
         ))}
@@ -119,6 +130,42 @@ function Upsets({ games, allGames, seeds, scopeLabel, weeks, current }) {
             highlighted = the year with the highest upset rate in that round (3+ games). All rounds shown regardless of the Round filter.
             {!seeds?.[current] && <> {current} will appear once UIL posts its bracket PDFs with district seeds.</>}
           </div>
+        </div>
+      )}
+      {champs.length > 0 && (
+        <div style={{ marginBottom:16 }}>
+          <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--mid)', marginBottom:4 }}>District champions knocked out in round 1</div>
+          <table style={{ width:'100%', borderCollapse:'collapse' }}>
+            <thead><tr><th style={{ ...th, textAlign:'left' }}>Season</th><th style={th}>Champions in round 1</th><th style={th}>Knocked out</th><th style={th}>Rate</th><th style={{ ...th, textAlign:'left' }}>Who</th></tr></thead>
+            <tbody>{champs.map(x => (
+              <React.Fragment key={x.y}>
+                <tr>
+                  <td style={{ ...tdl, fontWeight:600 }}>{x.y}</td>
+                  <td style={td}>{x.n}</td>
+                  <td style={{ ...td, fontWeight:700, color: x.out.length ? 'var(--burnt)' : 'var(--ink)' }}>{x.out.length}</td>
+                  <td style={td}>{pct(x.out.length, x.n)}</td>
+                  <td style={{ ...td, textAlign:'left' }}>
+                    {x.out.length > 0 && <button onClick={() => setShowChamps(showChamps === x.y ? null : x.y)} style={{ fontFamily:'var(--mono)', fontSize:10, border:'none', background:'none', color:'var(--burnt)', cursor:'pointer', padding:0 }}>{showChamps === x.y ? '▾ hide' : '▸ show'}</button>}
+                  </td>
+                </tr>
+                {showChamps === x.y && (
+                  <tr><td colSpan={5} style={{ padding:'4px 10px 10px 18px', borderBottom:'1px solid var(--border)', background:'rgba(70,29,124,0.03)' }}>
+                    {[...x.out].sort((a, b) => a.classification.localeCompare(b.classification)).map((g, i) => (
+                      <div key={i} style={{ fontSize:12, padding:'3px 0', borderBottom:'1px dashed var(--border)', display:'flex', gap:10, flexWrap:'wrap', alignItems:'baseline' }}>
+                        <span style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', width:70 }}>{g.classification}</span>
+                        <span style={{ flex:1, minWidth:200 }}><strong>{g.winner}</strong> <span style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--burnt)' }}>{seedTag(g.ws)}</span> beat {g.loser} <span style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)' }}>{seedTag(g.ls)}</span></span>
+                        <span style={{ fontFamily:'var(--mono)', fontSize:11 }}>{g.high}–{g.low}</span>
+                        <Chip c={normCh(g.chapter)} />
+                      </div>
+                    ))}
+                  </td></tr>
+                )}
+              </React.Fragment>
+            ))}
+              {champs.length > 1 && <tr><td style={{ ...tdl, fontWeight:700 }}>All years</td><td style={{ ...td, fontWeight:700 }}>{champN}</td><td style={{ ...td, fontWeight:700 }}>{champOut}</td><td style={{ ...td, fontWeight:700 }}>{pct(champOut, champN)}</td><td style={td}></td></tr>}
+            </tbody>
+          </table>
+          <div style={{ fontSize:11, color:'var(--mid)', marginTop:4 }}>District champions (1st in their district) beaten in the bi-district round{seasonOnly ? `, ${current}` : ''}. Follows the Football and Games-from filters; not the Round filter.</div>
         </div>
       )}
       {byYear.length > 1 && (
@@ -447,7 +494,7 @@ export default function ScoresView({ allData, years }) {
           <strong>Not all-time.</strong> Upsets are counted only for seasons where chapter data is on file <em>and</em> UIL's bracket shows each team's district finish:{' '}
           <strong>{seeds ? Object.keys(seeds).sort().join(', ') || 'none yet' : '…'}</strong>. Other seasons, including those between, aren't included, so these counts and rates aren't records for all years.
         </div>
-        {seeds ? <Upsets games={scoped} allGames={all} seeds={seeds} scopeLabel={scopeLabel} weeks={round === 'all' ? weeks : [+round]} current={current} /> : <div style={{ fontSize:12, color:'var(--mid)' }}>Loading seeds…</div>}
+        {seeds ? <Upsets games={scoped} allGames={all} seasonOnly={scope === 'season'} seeds={seeds} scopeLabel={scopeLabel} weeks={round === 'all' ? weeks : [+round]} current={current} /> : <div style={{ fontSize:12, color:'var(--mid)' }}>Loading seeds…</div>}
       </Card>
 
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)' }}>Games without a final score, forfeits and recorded ties (a data-entry error, since playoff games can't tie) aren't counted.</div>
