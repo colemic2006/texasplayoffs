@@ -8,6 +8,7 @@ const normCh = c => ({ WACO: 'WAC' }[c] || c || '')
 // six-man: its own brackets before the 2014 realignment, then 1A (which was eleven-man before that)
 const sixMan = g => /six/i.test(g.classification) || (g.classification.startsWith('1A') && g.year >= 2014)
 const avg = a => a.length ? a.reduce((s, x) => s + x, 0) / a.length : null
+const r0 = n => n == null ? '—' : Math.round(n)
 const f1 = n => n == null ? '—' : (Math.round(n * 10) / 10).toFixed(1)
 const pct = (n, of) => of ? `${Math.round(100 * n / of)}%` : '—'
 
@@ -181,7 +182,7 @@ export default function ScoresView({ allData, years }) {
           </tr></thead>
           <tbody>{CLASSES.filter(c => all.some(g => g.classification === c)).map(c => {
             const base = all.filter(g => g.classification === c && (scope === 'all' || g.year === current))
-            const cell = gs => gs.length ? <><strong>{f1(avg(gs.map(g => g.high)))}</strong><span style={{ color:'var(--mid)' }}> – {f1(avg(gs.map(g => g.low)))}</span></> : '—'
+            const cell = gs => gs.length ? <><strong>{r0(avg(gs.map(g => g.high)))}</strong><span style={{ color:'var(--mid)' }}> – {r0(avg(gs.map(g => g.low)))}</span></> : '—'
             return (
               <tr key={c}>
                 <td style={{ ...tdl, fontWeight:600 }}>{c}</td>
@@ -192,8 +193,8 @@ export default function ScoresView({ allData, years }) {
           })}
           <tr>
             <td style={{ ...tdl, fontWeight:700 }}>All divisions</td>
-            {weeks.map(w => { const gs = all.filter(g => g.week === w && (scope === 'all' || g.year === current)); return <td key={w} style={{ ...td, fontWeight:700 }}>{gs.length ? `${f1(avg(gs.map(g => g.high)))} – ${f1(avg(gs.map(g => g.low)))}` : '—'}</td> })}
-            {(() => { const gs = all.filter(g => scope === 'all' || g.year === current); return <td style={{ ...td, fontWeight:700, background:'rgba(253,208,35,0.12)' }}>{gs.length ? `${f1(avg(gs.map(g => g.high)))} – ${f1(avg(gs.map(g => g.low)))}` : '—'}</td> })()}
+            {weeks.map(w => { const gs = all.filter(g => g.week === w && (scope === 'all' || g.year === current)); return <td key={w} style={{ ...td, fontWeight:700 }}>{gs.length ? `${r0(avg(gs.map(g => g.high)))} – ${r0(avg(gs.map(g => g.low)))}` : '—'}</td> })}
+            {(() => { const gs = all.filter(g => scope === 'all' || g.year === current); return <td style={{ ...td, fontWeight:700, background:'rgba(253,208,35,0.12)' }}>{gs.length ? `${r0(avg(gs.map(g => g.high)))} – ${r0(avg(gs.map(g => g.low)))}` : '—'}</td> })()}
           </tr></tbody>
         </table>
       </Card>
