@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-15T20:58+00:00",
+    "updated": "2026-11-15T22:27+00:00",
     "games": 528,
     "played": 352,
     "assigned": 469,
@@ -9323,9 +9323,9 @@
       "team2": "Paris",
       "score2": null,
       "winner": null,
-      "site": "Memorial Stadium, Commerce",
-      "lat": 33.24584,
-      "lng": -95.91007,
+      "site": "East Texas A&M, Commerce, TX",
+      "lat": 33.24365,
+      "lng": -95.90269,
       "city": "Commerce",
       "date": "2026-11-20",
       "time": "7:30 PM"

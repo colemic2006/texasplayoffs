@@ -2381,6 +2381,18 @@
   "stadium": "Eagle Stadium",
   "stadium_id": 452
  },
+ "East Texas A&M, Commerce, TX || Dallas Lincoln v Paris": {
+  "address": "",
+  "city": "Commerce",
+  "how": "town (approximate)",
+  "lat": 33.24365,
+  "lng": -95.90269,
+  "map_link": "",
+  "rules": 10,
+  "site": "East Texas A&M, Commerce, TX",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Echols Field, Coppell || Rockwall-Heath v Waxahachie": {
   "address": "185 West Parkway Blvd, Coppell, Texas 75019",
   "city": "Coppell",
