@@ -584,6 +584,9 @@ def log_changes(year, games):
                                 at=stamp, status='changed'))
             print(f'  * {g["team1"]} v {g["team2"]}: score {o1}-{o2} -> {g["score1"]}-{g["score2"]}')
         for f in CHANGE_FIELDS:
+            if f == 'site' and old.get(f) and g.get(f) and None not in (old.get('lat'), g.get('lat')) and \
+                    game_sites.miles((old['lat'], old['lng']), (g['lat'], g['lng'])) < 1.0:
+                continue   # same stadium written another way (e.g. Dave Campbell's vs MaxPreps): not a move
             if old.get(f) and norm(old.get(f)) != norm(g.get(f)):
                 changes.append(dict(classification=g['classification'], week=g['week'], team1=g['team1'], team2=g['team2'],
                                     field=f, old=old.get(f), new=g.get(f) or '', at=stamp, status='changed'))
