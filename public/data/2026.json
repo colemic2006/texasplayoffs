@@ -2,10 +2,10 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-14T23:34+00:00",
+    "updated": "2026-11-15T00:12+00:00",
     "games": 526,
     "played": 350,
-    "assigned": 356,
+    "assigned": 367,
     "weeks": {
       "1": {
         "games": 352,
@@ -13,7 +13,7 @@
       },
       "2": {
         "games": 174,
-        "assigned": 4
+        "assigned": 15
       },
       "3": {
         "games": 0,
@@ -103,6 +103,38 @@
       }
     },
     {
+      "code": "ABI",
+      "name": "Abilene",
+      "total": 32,
+      "weeks": {
+        "1": {
+          "total": 17,
+          "classifications": {
+            "1A D1": 3,
+            "1A D2": 3,
+            "2A D1": 4,
+            "2A D2": 2,
+            "3A D2": 2,
+            "4A D1": 2,
+            "4A D2": 1
+          }
+        },
+        "2": {
+          "total": 15,
+          "classifications": {
+            "1A D1": 3,
+            "1A D2": 1,
+            "2A D1": 3,
+            "2A D2": 2,
+            "3A D1": 1,
+            "3A D2": 2,
+            "4A D1": 1,
+            "4A D2": 2
+          }
+        }
+      }
+    },
+    {
       "code": "TYL",
       "name": "Tyler",
       "total": 30,
@@ -184,34 +216,6 @@
             "5A D2": 1,
             "6A D1": 4,
             "6A D2": 5
-          }
-        }
-      }
-    },
-    {
-      "code": "ABI",
-      "name": "Abilene",
-      "total": 21,
-      "weeks": {
-        "1": {
-          "total": 17,
-          "classifications": {
-            "1A D1": 3,
-            "1A D2": 3,
-            "2A D1": 4,
-            "2A D2": 2,
-            "3A D2": 2,
-            "4A D1": 2,
-            "4A D2": 1
-          }
-        },
-        "2": {
-          "total": 4,
-          "classifications": {
-            "1A D1": 1,
-            "2A D1": 1,
-            "2A D2": 1,
-            "3A D1": 1
           }
         }
       }
@@ -7454,7 +7458,7 @@
       "classification": "1A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "ABI",
       "team1": "Borden County",
       "score1": null,
       "team2": "Water Valley",
@@ -7536,7 +7540,7 @@
       "classification": "1A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "ABI",
       "team1": "Bluff Dale",
       "score1": null,
       "team2": "Gordon",
@@ -7548,7 +7552,7 @@
       "classification": "1A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "ABI",
       "team1": "Zephyr",
       "score1": null,
       "team2": "Harrold",
@@ -7731,7 +7735,7 @@
       "classification": "2A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "ABI",
       "team1": "Muenster",
       "score1": null,
       "team2": "San Saba",
@@ -7832,7 +7836,7 @@
       "classification": "2A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "ABI",
       "team1": "Tulia",
       "score1": null,
       "team2": "Ballinger",
@@ -7858,7 +7862,7 @@
       "classification": "2A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "ABI",
       "team1": "Wellington",
       "score1": null,
       "team2": "Crawford",
@@ -8322,7 +8326,7 @@
       "classification": "3A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "ABI",
       "team1": "Idalou",
       "score1": null,
       "team2": "Holliday",
@@ -8342,7 +8346,7 @@
       "classification": "3A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "ABI",
       "team1": "Henrietta",
       "score1": null,
       "team2": "Slaton",
@@ -8696,7 +8700,7 @@
       "classification": "4A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "ABI",
       "team1": "Canyon Randall",
       "score1": null,
       "team2": "Lake Dallas",
@@ -8752,7 +8756,7 @@
       "classification": "4A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "ABI",
       "team1": "Lubbock Liberty",
       "score1": null,
       "team2": "Monahans",
@@ -8886,7 +8890,7 @@
       "classification": "4A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "ABI",
       "team1": "Brock",
       "score1": null,
       "team2": "Big Spring",
