@@ -1,0 +1,8020 @@
+{
+ "schools": [
+  {
+   "name": "A&M Consolidated",
+   "chapter": "CSC",
+   "lat": 30.61839,
+   "lng": -96.3456,
+   "at": "town"
+  },
+  {
+   "name": "Abernathy",
+   "chapter": "SPC",
+   "lat": 33.83023,
+   "lng": -101.84873,
+   "at": "stadium"
+  },
+  {
+   "name": "Abilene Cooper",
+   "chapter": "ABI",
+   "lat": 32.43373,
+   "lng": -99.6982,
+   "at": "stadium"
+  },
+  {
+   "name": "Abilene High",
+   "chapter": "ABI",
+   "lat": 32.43373,
+   "lng": -99.6982,
+   "at": "stadium"
+  },
+  {
+   "name": "Abilene Wylie",
+   "chapter": "ABI",
+   "lat": 32.37425,
+   "lng": -99.78154,
+   "at": "stadium"
+  },
+  {
+   "name": "Albany",
+   "chapter": "ABI",
+   "lat": 32.72807,
+   "lng": -99.2946,
+   "at": "town"
+  },
+  {
+   "name": "Aldine",
+   "chapter": "HOU",
+   "lat": 29.89988,
+   "lng": -95.33737,
+   "at": "town"
+  },
+  {
+   "name": "Aldine Eisenhower",
+   "chapter": "HOU",
+   "lat": 29.93033,
+   "lng": -95.3205,
+   "at": "stadium"
+  },
+  {
+   "name": "Aldine MacArthur",
+   "chapter": "HOU",
+   "lat": 29.75894,
+   "lng": -95.3677,
+   "at": "town"
+  },
+  {
+   "name": "Aldine Nimitz",
+   "chapter": "HOU",
+   "lat": 29.93033,
+   "lng": -95.3205,
+   "at": "stadium"
+  },
+  {
+   "name": "Aledo",
+   "chapter": "FTW",
+   "lat": 32.71113,
+   "lng": -97.61621,
+   "at": "stadium"
+  },
+  {
+   "name": "Alief Elsik",
+   "chapter": "HOU",
+   "lat": 29.75894,
+   "lng": -95.3677,
+   "at": "town"
+  },
+  {
+   "name": "Alief Hastings",
+   "chapter": "HOU",
+   "lat": 29.75894,
+   "lng": -95.3677,
+   "at": "town"
+  },
+  {
+   "name": "Allen",
+   "chapter": "DAL",
+   "lat": 33.11407,
+   "lng": -96.65762,
+   "at": "stadium"
+  },
+  {
+   "name": "Almeta Crawford",
+   "chapter": "HOU",
+   "lat": 29.53885,
+   "lng": -95.44744,
+   "at": "town"
+  },
+  {
+   "name": "Alpine",
+   "chapter": "PBC",
+   "lat": 30.36022,
+   "lng": -103.66286,
+   "at": "town"
+  },
+  {
+   "name": "Altair Rice",
+   "chapter": "HOU",
+   "lat": 29.57211,
+   "lng": -96.4596,
+   "at": "town"
+  },
+  {
+   "name": "Alto",
+   "chapter": "SFA",
+   "lat": 31.65045,
+   "lng": -95.07272,
+   "at": "town"
+  },
+  {
+   "name": "Alvarado",
+   "chapter": "FTW",
+   "lat": 32.41909,
+   "lng": -97.21129,
+   "at": "stadium"
+  },
+  {
+   "name": "Alvin",
+   "chapter": "HOU",
+   "lat": 29.42385,
+   "lng": -95.2441,
+   "at": "town"
+  },
+  {
+   "name": "Alvin Shadow Creek",
+   "chapter": "HOU",
+   "lat": 29.39719,
+   "lng": -95.41014,
+   "at": "stadium"
+  },
+  {
+   "name": "Alvord",
+   "chapter": "FTW",
+   "lat": 33.35419,
+   "lng": -97.69449,
+   "at": "town"
+  },
+  {
+   "name": "Amarillo Caprock",
+   "chapter": "AMA",
+   "lat": 35.20023,
+   "lng": -101.81035,
+   "at": "stadium"
+  },
+  {
+   "name": "Amarillo High",
+   "chapter": "AMA",
+   "lat": 35.20023,
+   "lng": -101.81035,
+   "at": "stadium"
+  },
+  {
+   "name": "Amarillo Highland Park",
+   "chapter": "AMA",
+   "lat": 35.20729,
+   "lng": -101.83712,
+   "at": "town"
+  },
+  {
+   "name": "Amarillo Palo Duro",
+   "chapter": "AMA",
+   "lat": 35.20023,
+   "lng": -101.81035,
+   "at": "stadium"
+  },
+  {
+   "name": "Amarillo River Road",
+   "chapter": "AMA",
+   "lat": 35.30711,
+   "lng": -101.83575,
+   "at": "stadium"
+  },
+  {
+   "name": "Amarillo Tascosa",
+   "chapter": "AMA",
+   "lat": 35.20023,
+   "lng": -101.81035,
+   "at": "stadium"
+  },
+  {
+   "name": "Amherst",
+   "chapter": "SPC",
+   "lat": 34.01305,
+   "lng": -102.41384,
+   "at": "town"
+  },
+  {
+   "name": "Anahuac",
+   "chapter": "HOU",
+   "lat": 29.77133,
+   "lng": -94.67851,
+   "at": "town"
+  },
+  {
+   "name": "Anderson-Shiro",
+   "chapter": "CSC",
+   "lat": 30.48715,
+   "lng": -95.9869,
+   "at": "town"
+  },
+  {
+   "name": "Andrews",
+   "chapter": "PBC",
+   "lat": 32.32274,
+   "lng": -102.57009,
+   "at": "stadium"
+  },
+  {
+   "name": "Angleton",
+   "chapter": "HOU",
+   "lat": 29.19791,
+   "lng": -95.41703,
+   "at": "stadium"
+  },
+  {
+   "name": "Anna",
+   "chapter": "DAL",
+   "lat": 33.36065,
+   "lng": -96.55068,
+   "at": "stadium"
+  },
+  {
+   "name": "Anson",
+   "chapter": "ABI",
+   "lat": 32.75648,
+   "lng": -99.89679,
+   "at": "town"
+  },
+  {
+   "name": "Anthony",
+   "chapter": "ELP",
+   "lat": 31.99565,
+   "lng": -106.59682,
+   "at": "town"
+  },
+  {
+   "name": "Anton",
+   "chapter": "SPC",
+   "lat": 33.81093,
+   "lng": -102.16328,
+   "at": "town"
+  },
+  {
+   "name": "Apple Springs",
+   "chapter": "SFA",
+   "lat": 31.22352,
+   "lng": -94.96632,
+   "at": "town"
+  },
+  {
+   "name": "Archer City",
+   "chapter": "NTX",
+   "lat": 33.59566,
+   "lng": -98.62561,
+   "at": "town"
+  },
+  {
+   "name": "Argyle",
+   "chapter": "FTW",
+   "lat": 33.02839,
+   "lng": -97.08672,
+   "at": "town"
+  },
+  {
+   "name": "Arlington Bowie",
+   "chapter": "FTW",
+   "lat": 32.73558,
+   "lng": -97.10712,
+   "at": "town"
+  },
+  {
+   "name": "Arlington High",
+   "chapter": "FTW",
+   "lat": 32.73558,
+   "lng": -97.10712,
+   "at": "town"
+  },
+  {
+   "name": "Arlington Lamar",
+   "chapter": "FTW",
+   "lat": 32.73558,
+   "lng": -97.10712,
+   "at": "town"
+  },
+  {
+   "name": "Arlington Martin",
+   "chapter": "FTW",
+   "lat": 32.73558,
+   "lng": -97.10712,
+   "at": "town"
+  },
+  {
+   "name": "Arlington Sam Houston",
+   "chapter": "FTW",
+   "lat": 32.73558,
+   "lng": -97.10712,
+   "at": "town"
+  },
+  {
+   "name": "Arlington Seguin",
+   "chapter": "FTW",
+   "lat": 32.73558,
+   "lng": -97.10712,
+   "at": "town"
+  },
+  {
+   "name": "Arp",
+   "chapter": "TYL",
+   "lat": 32.22548,
+   "lng": -95.05903,
+   "at": "town"
+  },
+  {
+   "name": "Aspermont",
+   "chapter": "ABI",
+   "lat": 33.13824,
+   "lng": -100.22871,
+   "at": "town"
+  },
+  {
+   "name": "Athens",
+   "chapter": "TYL",
+   "lat": 32.20444,
+   "lng": -95.85491,
+   "at": "town"
+  },
+  {
+   "name": "Atlanta",
+   "chapter": "TYL",
+   "lat": 33.12177,
+   "lng": -94.14647,
+   "at": "stadium"
+  },
+  {
+   "name": "Aubrey",
+   "chapter": "FTW",
+   "lat": 33.31421,
+   "lng": -96.97563,
+   "at": "town"
+  },
+  {
+   "name": "Austin Akins",
+   "chapter": "AUS",
+   "lat": 30.23046,
+   "lng": -97.80975,
+   "at": "stadium"
+  },
+  {
+   "name": "Austin Anderson",
+   "chapter": "AUS",
+   "lat": 30.23046,
+   "lng": -97.80975,
+   "at": "stadium"
+  },
+  {
+   "name": "Austin Bowie",
+   "chapter": "AUS",
+   "lat": 30.23046,
+   "lng": -97.80975,
+   "at": "stadium"
+  },
+  {
+   "name": "Austin Crockett",
+   "chapter": "AUS",
+   "lat": 30.23046,
+   "lng": -97.80975,
+   "at": "stadium"
+  },
+  {
+   "name": "Austin Del Valle",
+   "chapter": "AUS",
+   "lat": 30.26493,
+   "lng": -97.74741,
+   "at": "town"
+  },
+  {
+   "name": "Austin High",
+   "chapter": "AUS",
+   "lat": 30.26493,
+   "lng": -97.74741,
+   "at": "town"
+  },
+  {
+   "name": "Austin Johnson",
+   "chapter": "AUS",
+   "lat": 30.23046,
+   "lng": -97.80975,
+   "at": "stadium"
+  },
+  {
+   "name": "Austin LASA",
+   "chapter": "AUS",
+   "lat": 30.26493,
+   "lng": -97.74741,
+   "at": "town"
+  },
+  {
+   "name": "Austin LBJ",
+   "chapter": "AUS",
+   "lat": 30.26493,
+   "lng": -97.74741,
+   "at": "town"
+  },
+  {
+   "name": "Austin Lake Travis",
+   "chapter": "AUS",
+   "lat": 30.32485,
+   "lng": -97.96808,
+   "at": "stadium"
+  },
+  {
+   "name": "Austin McCallum",
+   "chapter": "AUS",
+   "lat": 30.27869,
+   "lng": -97.74934,
+   "at": "stadium"
+  },
+  {
+   "name": "Austin McNeil",
+   "chapter": "AUS",
+   "lat": 30.26493,
+   "lng": -97.74741,
+   "at": "town"
+  },
+  {
+   "name": "Austin Reagan",
+   "chapter": "AUS",
+   "lat": 30.26493,
+   "lng": -97.74741,
+   "at": "town"
+  },
+  {
+   "name": "Austin Travis",
+   "chapter": "AUS",
+   "lat": 30.23046,
+   "lng": -97.80975,
+   "at": "stadium"
+  },
+  {
+   "name": "Austin Vandegrift",
+   "chapter": "AUS",
+   "lat": 30.26493,
+   "lng": -97.74741,
+   "at": "town"
+  },
+  {
+   "name": "Austin Westlake",
+   "chapter": "AUS",
+   "lat": 30.27634,
+   "lng": -97.81415,
+   "at": "stadium"
+  },
+  {
+   "name": "Avalon",
+   "chapter": "DAL",
+   "lat": 32.20538,
+   "lng": -96.79079,
+   "at": "town"
+  },
+  {
+   "name": "Azle",
+   "chapter": "FTW",
+   "lat": 32.89759,
+   "lng": -97.54378,
+   "at": "town"
+  },
+  {
+   "name": "Baird",
+   "chapter": "ABI",
+   "lat": 32.39871,
+   "lng": -99.40003,
+   "at": "stadium"
+  },
+  {
+   "name": "Ballinger",
+   "chapter": "SAN",
+   "lat": 31.74586,
+   "lng": -99.96227,
+   "at": "stadium"
+  },
+  {
+   "name": "Balmorhea",
+   "chapter": "PBC",
+   "lat": 30.98407,
+   "lng": -103.74753,
+   "at": "stadium"
+  },
+  {
+   "name": "Bandera",
+   "chapter": "SAT",
+   "lat": 29.73287,
+   "lng": -99.06621,
+   "at": "stadium"
+  },
+  {
+   "name": "Bangs",
+   "chapter": "ABI",
+   "lat": 31.7171,
+   "lng": -99.13255,
+   "at": "town"
+  },
+  {
+   "name": "Barbers Hill",
+   "chapter": "HOU",
+   "lat": 29.84772,
+   "lng": -94.89076,
+   "at": "town"
+  },
+  {
+   "name": "Barksdale Nueces Canyon",
+   "chapter": "SAT",
+   "lat": 29.72563,
+   "lng": -100.03587,
+   "at": "town"
+  },
+  {
+   "name": "Bartlett",
+   "chapter": "AUS",
+   "lat": 30.79579,
+   "lng": -97.43038,
+   "at": "town"
+  },
+  {
+   "name": "Bastrop",
+   "chapter": "AUS",
+   "lat": 30.19466,
+   "lng": -96.06024,
+   "at": "town"
+  },
+  {
+   "name": "Bastrop Cedar Creek",
+   "chapter": "AUS",
+   "lat": 30.11049,
+   "lng": -97.31527,
+   "at": "town"
+  },
+  {
+   "name": "Bay City",
+   "chapter": "HOU",
+   "lat": 28.98276,
+   "lng": -95.9694,
+   "at": "town"
+  },
+  {
+   "name": "Baytown Goose Creek Memorial",
+   "chapter": "HOU",
+   "lat": 29.79264,
+   "lng": -94.93944,
+   "at": "stadium"
+  },
+  {
+   "name": "Baytown Lee",
+   "chapter": "HOU",
+   "lat": 29.7355,
+   "lng": -94.97743,
+   "at": "town"
+  },
+  {
+   "name": "Baytown Sterling",
+   "chapter": "HOU",
+   "lat": 29.7355,
+   "lng": -94.97743,
+   "at": "town"
+  },
+  {
+   "name": "Beaumont United",
+   "chapter": "HOU",
+   "lat": 30.02431,
+   "lng": -94.16539,
+   "at": "stadium"
+  },
+  {
+   "name": "Beaumont West Brook",
+   "chapter": "HOU",
+   "lat": 30.08293,
+   "lng": -94.09843,
+   "at": "town"
+  },
+  {
+   "name": "Beckville",
+   "chapter": "TYL",
+   "lat": 32.24294,
+   "lng": -94.45548,
+   "at": "town"
+  },
+  {
+   "name": "Bellville",
+   "chapter": "HOU",
+   "lat": 29.95023,
+   "lng": -96.25719,
+   "at": "town"
+  },
+  {
+   "name": "Belton",
+   "chapter": "CTX",
+   "lat": 31.08697,
+   "lng": -97.46997,
+   "at": "stadium"
+  },
+  {
+   "name": "Benbrook",
+   "chapter": "FTW",
+   "lat": 32.66755,
+   "lng": -97.28294,
+   "at": "stadium"
+  },
+  {
+   "name": "Benjamin",
+   "chapter": "NTX",
+   "lat": 33.58414,
+   "lng": -99.79144,
+   "at": "town"
+  },
+  {
+   "name": "Big Sandy",
+   "chapter": "TYL",
+   "lat": 32.58375,
+   "lng": -95.10883,
+   "at": "town"
+  },
+  {
+   "name": "Big Sandy Harmony",
+   "chapter": "TYL",
+   "lat": 32.58375,
+   "lng": -95.10883,
+   "at": "town"
+  },
+  {
+   "name": "Big Spring",
+   "chapter": "PBC",
+   "lat": 32.25501,
+   "lng": -101.4473,
+   "at": "stadium"
+  },
+  {
+   "name": "Birdville",
+   "chapter": "FTW",
+   "lat": 32.8343,
+   "lng": -97.2289,
+   "at": "town"
+  },
+  {
+   "name": "Bishop Gorman",
+   "chapter": "TYL",
+   "lat": 32.35126,
+   "lng": -95.30106,
+   "at": "town"
+  },
+  {
+   "name": "Blackwell",
+   "chapter": "SAN",
+   "lat": 32.09129,
+   "lng": -100.32405,
+   "at": "stadium"
+  },
+  {
+   "name": "Blanco",
+   "chapter": "SAT",
+   "lat": 30.1007,
+   "lng": -98.42206,
+   "at": "town"
+  },
+  {
+   "name": "Blue Ridge",
+   "chapter": "DAL",
+   "lat": 33.30605,
+   "lng": -96.40478,
+   "at": "stadium"
+  },
+  {
+   "name": "Boerne",
+   "chapter": "SAT",
+   "lat": 29.79895,
+   "lng": -98.71263,
+   "at": "stadium"
+  },
+  {
+   "name": "Boerne Champion",
+   "chapter": "SAT",
+   "lat": 29.79466,
+   "lng": -98.73197,
+   "at": "town"
+  },
+  {
+   "name": "Boling",
+   "chapter": "HOU",
+   "lat": 29.26249,
+   "lng": -95.9398,
+   "at": "town"
+  },
+  {
+   "name": "Bonham",
+   "chapter": "DAL",
+   "lat": 33.57753,
+   "lng": -96.1786,
+   "at": "town"
+  },
+  {
+   "name": "Booker",
+   "chapter": "AMA",
+   "lat": 36.45348,
+   "lng": -100.53737,
+   "at": "town"
+  },
+  {
+   "name": "Borden County",
+   "chapter": "SPC",
+   "lat": 32.77053,
+   "lng": -101.44558,
+   "at": "town"
+  },
+  {
+   "name": "Borger",
+   "chapter": "AMA",
+   "lat": 35.66898,
+   "lng": -101.39195,
+   "at": "town"
+  },
+  {
+   "name": "Bovina",
+   "chapter": "AMA",
+   "lat": 34.51329,
+   "lng": -102.88816,
+   "at": "stadium"
+  },
+  {
+   "name": "Bowie",
+   "chapter": "NTX",
+   "lat": 33.55899,
+   "lng": -97.84847,
+   "at": "town"
+  },
+  {
+   "name": "Boyd",
+   "chapter": "FTW",
+   "lat": 33.07889,
+   "lng": -97.56544,
+   "at": "town"
+  },
+  {
+   "name": "Boys Ranch",
+   "chapter": "AMA",
+   "lat": 35.53144,
+   "lng": -102.25408,
+   "at": "town"
+  },
+  {
+   "name": "Brackett",
+   "chapter": "SAT",
+   "lat": 29.31353,
+   "lng": -100.41576,
+   "at": "town"
+  },
+  {
+   "name": "Brady",
+   "chapter": "SAN",
+   "lat": 31.13169,
+   "lng": -99.33487,
+   "at": "town"
+  },
+  {
+   "name": "Brazosport",
+   "chapter": "HOU",
+   "lat": 28.94968,
+   "lng": -95.34614,
+   "at": "town"
+  },
+  {
+   "name": "Brazosport Brazoswood",
+   "chapter": "HOU",
+   "lat": 29.02469,
+   "lng": -95.39883,
+   "at": "town"
+  },
+  {
+   "name": "Breckenridge",
+   "chapter": "ABI",
+   "lat": 32.76,
+   "lng": -98.90864,
+   "at": "stadium"
+  },
+  {
+   "name": "Bremond",
+   "chapter": "CSC",
+   "lat": 31.16619,
+   "lng": -96.67601,
+   "at": "town"
+  },
+  {
+   "name": "Brenham",
+   "chapter": "CSC",
+   "lat": 30.15912,
+   "lng": -96.37902,
+   "at": "stadium"
+  },
+  {
+   "name": "Bridgeport",
+   "chapter": "FTW",
+   "lat": 33.21012,
+   "lng": -97.75476,
+   "at": "town"
+  },
+  {
+   "name": "Brock",
+   "chapter": "FTW",
+   "lat": 32.67624,
+   "lng": -97.94087,
+   "at": "town"
+  },
+  {
+   "name": "Bronte",
+   "chapter": "SAN",
+   "lat": 31.88737,
+   "lng": -100.29176,
+   "at": "town"
+  },
+  {
+   "name": "Brook Hill",
+   "chapter": "TYL",
+   "lat": 32.1403,
+   "lng": -95.32219,
+   "at": "town"
+  },
+  {
+   "name": "Brookshire Royal",
+   "chapter": "HOU",
+   "lat": 29.78606,
+   "lng": -95.95107,
+   "at": "town"
+  },
+  {
+   "name": "Brownfield",
+   "chapter": "SPC",
+   "lat": 33.18117,
+   "lng": -102.27424,
+   "at": "town"
+  },
+  {
+   "name": "Brownsboro",
+   "chapter": "TYL",
+   "lat": 32.30237,
+   "lng": -95.61357,
+   "at": "town"
+  },
+  {
+   "name": "Brownsville Hanna",
+   "chapter": "RGV",
+   "lat": 25.90243,
+   "lng": -97.49817,
+   "at": "town"
+  },
+  {
+   "name": "Brownsville Lopez",
+   "chapter": "RGV",
+   "lat": 25.90243,
+   "lng": -97.49817,
+   "at": "town"
+  },
+  {
+   "name": "Brownsville Pace",
+   "chapter": "RGV",
+   "lat": 25.90243,
+   "lng": -97.49817,
+   "at": "town"
+  },
+  {
+   "name": "Brownsville Porter",
+   "chapter": "RGV",
+   "lat": 25.90243,
+   "lng": -97.49817,
+   "at": "town"
+  },
+  {
+   "name": "Brownsville Rivera",
+   "chapter": "RGV",
+   "lat": 25.90243,
+   "lng": -97.49817,
+   "at": "town"
+  },
+  {
+   "name": "Brownsville Veterans Memorial",
+   "chapter": "RGV",
+   "lat": 25.90243,
+   "lng": -97.49817,
+   "at": "town"
+  },
+  {
+   "name": "Brownwood",
+   "chapter": "SAN",
+   "lat": 31.66554,
+   "lng": -98.97911,
+   "at": "stadium"
+  },
+  {
+   "name": "Bryan",
+   "chapter": "CSC",
+   "lat": 30.65651,
+   "lng": -96.33315,
+   "at": "stadium"
+  },
+  {
+   "name": "Bryan Rudder",
+   "chapter": "CSC",
+   "lat": 30.67436,
+   "lng": -96.36996,
+   "at": "town"
+  },
+  {
+   "name": "Bryson",
+   "chapter": "NTX",
+   "lat": 33.16201,
+   "lng": -98.38642,
+   "at": "town"
+  },
+  {
+   "name": "Buckholts",
+   "chapter": "CTX",
+   "lat": 30.87297,
+   "lng": -97.12499,
+   "at": "town"
+  },
+  {
+   "name": "Buda Hays",
+   "chapter": "AUS",
+   "lat": 30.08247,
+   "lng": -97.84171,
+   "at": "town"
+  },
+  {
+   "name": "Buena Vista",
+   "chapter": "PBC",
+   "lat": 31.27368,
+   "lng": -102.694,
+   "at": "town"
+  },
+  {
+   "name": "Bullard",
+   "chapter": "TYL",
+   "lat": 32.1403,
+   "lng": -95.32219,
+   "at": "town"
+  },
+  {
+   "name": "Burkburnett",
+   "chapter": "NTX",
+   "lat": 34.09243,
+   "lng": -98.57053,
+   "at": "town"
+  },
+  {
+   "name": "Burkeville",
+   "chapter": "SFA",
+   "lat": 30.9997,
+   "lng": -93.66801,
+   "at": "town"
+  },
+  {
+   "name": "Burleson",
+   "chapter": "FTW",
+   "lat": 32.54208,
+   "lng": -97.32085,
+   "at": "town"
+  },
+  {
+   "name": "Burleson Centennial",
+   "chapter": "FTW",
+   "lat": 32.54208,
+   "lng": -97.32085,
+   "at": "town"
+  },
+  {
+   "name": "Burnet",
+   "chapter": "AUS",
+   "lat": 30.76086,
+   "lng": -98.224,
+   "at": "town"
+  },
+  {
+   "name": "Burton",
+   "chapter": "CSC",
+   "lat": 30.18216,
+   "lng": -96.59553,
+   "at": "town"
+  },
+  {
+   "name": "Bushland",
+   "chapter": "AMA",
+   "lat": 35.1904,
+   "lng": -102.06381,
+   "at": "town"
+  },
+  {
+   "name": "Byron Nelson",
+   "chapter": "FTW",
+   "lat": 33.08484,
+   "lng": -97.29613,
+   "at": "town"
+  },
+  {
+   "name": "CC Tuloso-Midway",
+   "chapter": "STX",
+   "lat": 27.8521,
+   "lng": -97.57209,
+   "at": "stadium"
+  },
+  {
+   "name": "Caddo Mills",
+   "chapter": "DAL",
+   "lat": 33.06567,
+   "lng": -96.22782,
+   "at": "town"
+  },
+  {
+   "name": "Caldwell",
+   "chapter": "CSC",
+   "lat": 30.54922,
+   "lng": -96.67618,
+   "at": "stadium"
+  },
+  {
+   "name": "Callisburg",
+   "chapter": "DAL",
+   "lat": 33.6986,
+   "lng": -97.00972,
+   "at": "town"
+  },
+  {
+   "name": "Calvert",
+   "chapter": "CSC",
+   "lat": 30.97797,
+   "lng": -96.67386,
+   "at": "town"
+  },
+  {
+   "name": "Cameron Yoe",
+   "chapter": "CTX",
+   "lat": 30.85325,
+   "lng": -96.97693,
+   "at": "town"
+  },
+  {
+   "name": "Canadian",
+   "chapter": "AMA",
+   "lat": 35.91201,
+   "lng": -100.3839,
+   "at": "town"
+  },
+  {
+   "name": "Canton",
+   "chapter": "TYL",
+   "lat": 32.5386,
+   "lng": -95.86181,
+   "at": "town"
+  },
+  {
+   "name": "Canyon High",
+   "chapter": "AMA",
+   "lat": 34.97898,
+   "lng": -101.92819,
+   "at": "town"
+  },
+  {
+   "name": "Canyon Lake",
+   "chapter": "SAT",
+   "lat": 29.97688,
+   "lng": -98.26585,
+   "at": "town"
+  },
+  {
+   "name": "Canyon Randall",
+   "chapter": "AMA",
+   "lat": 35.01197,
+   "lng": -101.91654,
+   "at": "stadium"
+  },
+  {
+   "name": "Canyon West Plains",
+   "chapter": "AMA",
+   "lat": 34.97898,
+   "lng": -101.92819,
+   "at": "town"
+  },
+  {
+   "name": "Carrizo Springs",
+   "chapter": "SAT",
+   "lat": 28.52491,
+   "lng": -99.86165,
+   "at": "town"
+  },
+  {
+   "name": "Carrollton Creekview",
+   "chapter": "DAL",
+   "lat": 32.95155,
+   "lng": -96.90342,
+   "at": "town"
+  },
+  {
+   "name": "Carrollton Newman Smith",
+   "chapter": "DAL",
+   "lat": 32.95155,
+   "lng": -96.90342,
+   "at": "town"
+  },
+  {
+   "name": "Carrollton Ranchview",
+   "chapter": "FTW",
+   "lat": 32.95155,
+   "lng": -96.90342,
+   "at": "town"
+  },
+  {
+   "name": "Carrollton Turner",
+   "chapter": "DAL",
+   "lat": 32.95155,
+   "lng": -96.90342,
+   "at": "town"
+  },
+  {
+   "name": "Carthage",
+   "chapter": "TYL",
+   "lat": 32.16373,
+   "lng": -94.36506,
+   "at": "stadium"
+  },
+  {
+   "name": "Castroville Creek View",
+   "chapter": "SAT",
+   "lat": 29.3565,
+   "lng": -98.87888,
+   "at": "town"
+  },
+  {
+   "name": "Cayuga",
+   "chapter": "TYL",
+   "lat": 31.95711,
+   "lng": -95.97469,
+   "at": "town"
+  },
+  {
+   "name": "Cedar Hill",
+   "chapter": "DAL",
+   "lat": 32.58881,
+   "lng": -96.95537,
+   "at": "town"
+  },
+  {
+   "name": "Cedar Park",
+   "chapter": "AUS",
+   "lat": 30.51518,
+   "lng": -97.79196,
+   "at": "stadium"
+  },
+  {
+   "name": "Cedar Park Vista Ridge",
+   "chapter": "AUS",
+   "lat": 30.52171,
+   "lng": -97.82783,
+   "at": "town"
+  },
+  {
+   "name": "Celina",
+   "chapter": "FTW",
+   "lat": 33.32425,
+   "lng": -96.78424,
+   "at": "town"
+  },
+  {
+   "name": "Center",
+   "chapter": "SFA",
+   "lat": 31.80414,
+   "lng": -94.20169,
+   "at": "stadium"
+  },
+  {
+   "name": "Center Point",
+   "chapter": "SAT",
+   "lat": 29.9441,
+   "lng": -99.037,
+   "at": "town"
+  },
+  {
+   "name": "Centerville",
+   "chapter": "CSC",
+   "lat": 31.25782,
+   "lng": -95.97853,
+   "at": "town"
+  },
+  {
+   "name": "Channelview",
+   "chapter": "HOU",
+   "lat": 29.79015,
+   "lng": -95.1247,
+   "at": "stadium"
+  },
+  {
+   "name": "Charlotte",
+   "chapter": "SAT",
+   "lat": 28.8612,
+   "lng": -98.70681,
+   "at": "town"
+  },
+  {
+   "name": "Cherokee",
+   "chapter": "AUS",
+   "lat": 30.98094,
+   "lng": -98.70884,
+   "at": "town"
+  },
+  {
+   "name": "Chester",
+   "chapter": "SFA",
+   "lat": 30.9261,
+   "lng": -94.59672,
+   "at": "town"
+  },
+  {
+   "name": "Chico",
+   "chapter": "FTW",
+   "lat": 33.29595,
+   "lng": -97.79892,
+   "at": "town"
+  },
+  {
+   "name": "Childress",
+   "chapter": "AMA",
+   "lat": 34.51966,
+   "lng": -100.20677,
+   "at": "stadium"
+  },
+  {
+   "name": "Chillicothe",
+   "chapter": "NTX",
+   "lat": 34.25371,
+   "lng": -99.51114,
+   "at": "town"
+  },
+  {
+   "name": "Chilton",
+   "chapter": "CTX",
+   "lat": 31.28351,
+   "lng": -97.06118,
+   "at": "town"
+  },
+  {
+   "name": "Christoval",
+   "chapter": "SAN",
+   "lat": 31.19456,
+   "lng": -100.49538,
+   "at": "town"
+  },
+  {
+   "name": "Cibolo Steele",
+   "chapter": "SAT",
+   "lat": 29.57078,
+   "lng": -98.23309,
+   "at": "town"
+  },
+  {
+   "name": "Cisco",
+   "chapter": "ABI",
+   "lat": 32.38734,
+   "lng": -98.99193,
+   "at": "stadium"
+  },
+  {
+   "name": "Clarendon",
+   "chapter": "AMA",
+   "lat": 34.93593,
+   "lng": -100.89058,
+   "at": "town"
+  },
+  {
+   "name": "Claude",
+   "chapter": "AMA",
+   "lat": 35.10564,
+   "lng": -101.3648,
+   "at": "stadium"
+  },
+  {
+   "name": "Clear Falls",
+   "chapter": "HOU",
+   "lat": 29.51861,
+   "lng": -95.13909,
+   "at": "stadium"
+  },
+  {
+   "name": "Clear Springs",
+   "chapter": "HOU",
+   "lat": 29.51861,
+   "lng": -95.13909,
+   "at": "stadium"
+  },
+  {
+   "name": "Cleburne",
+   "chapter": "FTW",
+   "lat": 32.34745,
+   "lng": -97.38655,
+   "at": "town"
+  },
+  {
+   "name": "Cleveland",
+   "chapter": "HOU",
+   "lat": 30.34148,
+   "lng": -95.09001,
+   "at": "town"
+  },
+  {
+   "name": "Clifton",
+   "chapter": "WAC",
+   "lat": 31.78876,
+   "lng": -97.59065,
+   "at": "stadium"
+  },
+  {
+   "name": "Clint",
+   "chapter": "ELP",
+   "lat": 31.59007,
+   "lng": -106.22787,
+   "at": "town"
+  },
+  {
+   "name": "Clint Horizon",
+   "chapter": "ELP",
+   "lat": 31.59007,
+   "lng": -106.22787,
+   "at": "town"
+  },
+  {
+   "name": "Clint Mountain View",
+   "chapter": "ELP",
+   "lat": 31.59007,
+   "lng": -106.22787,
+   "at": "town"
+  },
+  {
+   "name": "Clyde",
+   "chapter": "ABI",
+   "lat": 32.41429,
+   "lng": -99.52905,
+   "at": "stadium"
+  },
+  {
+   "name": "Coahoma",
+   "chapter": "PBC",
+   "lat": 32.29618,
+   "lng": -101.30345,
+   "at": "town"
+  },
+  {
+   "name": "Coldspring-Oakhurst",
+   "chapter": "HOU",
+   "lat": 30.59242,
+   "lng": -95.12938,
+   "at": "town"
+  },
+  {
+   "name": "Coleman",
+   "chapter": "ABI",
+   "lat": 31.83102,
+   "lng": -99.42447,
+   "at": "town"
+  },
+  {
+   "name": "College Station",
+   "chapter": "CSC",
+   "lat": 30.55707,
+   "lng": -96.28654,
+   "at": "stadium"
+  },
+  {
+   "name": "Colleyville Heritage",
+   "chapter": "FTW",
+   "lat": 32.92082,
+   "lng": -97.11658,
+   "at": "stadium"
+  },
+  {
+   "name": "Collinsville",
+   "chapter": "FTW",
+   "lat": 33.5615,
+   "lng": -96.91111,
+   "at": "town"
+  },
+  {
+   "name": "Colmesneil",
+   "chapter": "SFA",
+   "lat": 30.90798,
+   "lng": -94.42214,
+   "at": "town"
+  },
+  {
+   "name": "Colorado City",
+   "chapter": "PBC",
+   "lat": 32.39303,
+   "lng": -100.86351,
+   "at": "town"
+  },
+  {
+   "name": "Columbus",
+   "chapter": "HOU",
+   "lat": 29.70662,
+   "lng": -96.5397,
+   "at": "town"
+  },
+  {
+   "name": "Comal Pieper",
+   "chapter": "SAT",
+   "lat": 29.4246,
+   "lng": -98.49514,
+   "at": "town"
+  },
+  {
+   "name": "Comal Smithson Valley",
+   "chapter": "SAT",
+   "lat": 29.80059,
+   "lng": -98.35737,
+   "at": "stadium"
+  },
+  {
+   "name": "Comanche",
+   "chapter": "ABI",
+   "lat": 31.89756,
+   "lng": -98.60401,
+   "at": "town"
+  },
+  {
+   "name": "Comfort",
+   "chapter": "SAT",
+   "lat": 29.96771,
+   "lng": -98.90503,
+   "at": "town"
+  },
+  {
+   "name": "Commerce",
+   "chapter": "DAL",
+   "lat": 33.24365,
+   "lng": -95.90269,
+   "at": "town"
+  },
+  {
+   "name": "Community",
+   "chapter": "DAL",
+   "lat": 33.04007,
+   "lng": -96.37306,
+   "at": "town"
+  },
+  {
+   "name": "Conroe",
+   "chapter": "HOU",
+   "lat": 30.31188,
+   "lng": -95.45605,
+   "at": "town"
+  },
+  {
+   "name": "Conroe Caney Creek",
+   "chapter": "HOU",
+   "lat": 30.31188,
+   "lng": -95.45605,
+   "at": "town"
+  },
+  {
+   "name": "Conroe Oak Ridge",
+   "chapter": "HOU",
+   "lat": 30.31188,
+   "lng": -95.45605,
+   "at": "town"
+  },
+  {
+   "name": "Converse Judson",
+   "chapter": "SAT",
+   "lat": 29.51801,
+   "lng": -98.31612,
+   "at": "town"
+  },
+  {
+   "name": "Coppell",
+   "chapter": "DAL",
+   "lat": 32.97558,
+   "lng": -96.99976,
+   "at": "stadium"
+  },
+  {
+   "name": "Copperas Cove",
+   "chapter": "CTX",
+   "lat": 31.12406,
+   "lng": -97.90308,
+   "at": "town"
+  },
+  {
+   "name": "Corpus Christi Calallen",
+   "chapter": "STX",
+   "lat": 27.85831,
+   "lng": -97.63666,
+   "at": "stadium"
+  },
+  {
+   "name": "Corpus Christi Carroll",
+   "chapter": "STX",
+   "lat": 27.79536,
+   "lng": -97.42433,
+   "at": "stadium"
+  },
+  {
+   "name": "Corpus Christi Flour Bluff",
+   "chapter": "STX",
+   "lat": 27.76353,
+   "lng": -97.40332,
+   "at": "town"
+  },
+  {
+   "name": "Corpus Christi King",
+   "chapter": "STX",
+   "lat": 27.79536,
+   "lng": -97.42433,
+   "at": "stadium"
+  },
+  {
+   "name": "Corpus Christi Miller",
+   "chapter": "STX",
+   "lat": 27.76353,
+   "lng": -97.40332,
+   "at": "town"
+  },
+  {
+   "name": "Corpus Christi Ray",
+   "chapter": "STX",
+   "lat": 27.86671,
+   "lng": -97.65954,
+   "at": "stadium"
+  },
+  {
+   "name": "Corpus Christi Veterans Memorial",
+   "chapter": "STX",
+   "lat": 27.79536,
+   "lng": -97.42433,
+   "at": "stadium"
+  },
+  {
+   "name": "Corrigan-Camden",
+   "chapter": "SFA",
+   "lat": 30.99686,
+   "lng": -94.82715,
+   "at": "town"
+  },
+  {
+   "name": "Corsicana",
+   "chapter": "TYL",
+   "lat": 32.09382,
+   "lng": -96.46467,
+   "at": "town"
+  },
+  {
+   "name": "Cotton Center",
+   "chapter": "SPC",
+   "lat": 33.50983,
+   "lng": -96.12192,
+   "at": "town"
+  },
+  {
+   "name": "Cotulla",
+   "chapter": "SAT",
+   "lat": 28.43587,
+   "lng": -99.23508,
+   "at": "town"
+  },
+  {
+   "name": "Crandall",
+   "chapter": "DAL",
+   "lat": 32.62791,
+   "lng": -96.45582,
+   "at": "town"
+  },
+  {
+   "name": "Crane",
+   "chapter": "PBC",
+   "lat": 31.39572,
+   "lng": -102.35212,
+   "at": "town"
+  },
+  {
+   "name": "Cranfills Gap",
+   "chapter": "CTX",
+   "lat": 31.77377,
+   "lng": -97.82586,
+   "at": "town"
+  },
+  {
+   "name": "Crockett",
+   "chapter": "SFA",
+   "lat": 31.31802,
+   "lng": -95.4573,
+   "at": "town"
+  },
+  {
+   "name": "Crosby",
+   "chapter": "HOU",
+   "lat": 29.89948,
+   "lng": -95.06911,
+   "at": "stadium"
+  },
+  {
+   "name": "Crosbyton",
+   "chapter": "SPC",
+   "lat": 33.66008,
+   "lng": -101.23793,
+   "at": "town"
+  },
+  {
+   "name": "Cross Plains",
+   "chapter": "ABI",
+   "lat": 32.12625,
+   "lng": -99.16544,
+   "at": "town"
+  },
+  {
+   "name": "Cross Roads",
+   "chapter": "TYL",
+   "lat": 33.23128,
+   "lng": -97.00911,
+   "at": "town"
+  },
+  {
+   "name": "Crowell",
+   "chapter": "NTX",
+   "lat": 33.99174,
+   "lng": -99.71985,
+   "at": "stadium"
+  },
+  {
+   "name": "Crowley",
+   "chapter": "DAL",
+   "lat": 32.61019,
+   "lng": -97.33556,
+   "at": "stadium"
+  },
+  {
+   "name": "Crystal City",
+   "chapter": "SAT",
+   "lat": 28.68341,
+   "lng": -99.82746,
+   "at": "town"
+  },
+  {
+   "name": "Cuero",
+   "chapter": "SAT",
+   "lat": 29.09004,
+   "lng": -97.28025,
+   "at": "stadium"
+  },
+  {
+   "name": "Cushing",
+   "chapter": "SFA",
+   "lat": 31.81462,
+   "lng": -94.84049,
+   "at": "town"
+  },
+  {
+   "name": "Cy Ranch",
+   "chapter": "HOU",
+   "lat": 29.99014,
+   "lng": -95.67814,
+   "at": "stadium"
+  },
+  {
+   "name": "Cy-Fair",
+   "chapter": "HOU",
+   "lat": 29.99014,
+   "lng": -95.67814,
+   "at": "stadium"
+  },
+  {
+   "name": "Cypress Bridgeland",
+   "chapter": "HOU",
+   "lat": 29.99014,
+   "lng": -95.67814,
+   "at": "stadium"
+  },
+  {
+   "name": "Cypress Creek",
+   "chapter": "HOU",
+   "lat": 29.99014,
+   "lng": -95.67814,
+   "at": "stadium"
+  },
+  {
+   "name": "Cypress Falls",
+   "chapter": "HOU",
+   "lat": 29.99014,
+   "lng": -95.67814,
+   "at": "stadium"
+  },
+  {
+   "name": "Cypress Park",
+   "chapter": "HOU",
+   "lat": 29.99014,
+   "lng": -95.67814,
+   "at": "stadium"
+  },
+  {
+   "name": "Cypress Ridge",
+   "chapter": "HOU",
+   "lat": 29.99014,
+   "lng": -95.67814,
+   "at": "stadium"
+  },
+  {
+   "name": "Cypress Springs",
+   "chapter": "HOU",
+   "lat": 29.99014,
+   "lng": -95.67814,
+   "at": "stadium"
+  },
+  {
+   "name": "Cypress Woods",
+   "chapter": "HOU",
+   "lat": 29.99014,
+   "lng": -95.67814,
+   "at": "stadium"
+  },
+  {
+   "name": "D'Hanis",
+   "chapter": "SAT",
+   "lat": 29.33051,
+   "lng": -99.27976,
+   "at": "town"
+  },
+  {
+   "name": "Daingerfield",
+   "chapter": "TYL",
+   "lat": 33.0318,
+   "lng": -94.72199,
+   "at": "town"
+  },
+  {
+   "name": "Dalhart",
+   "chapter": "AMA",
+   "lat": 36.06161,
+   "lng": -102.52222,
+   "at": "town"
+  },
+  {
+   "name": "Dallas Adams",
+   "chapter": "DAL",
+   "lat": 32.77627,
+   "lng": -96.79686,
+   "at": "town"
+  },
+  {
+   "name": "Dallas Adamson",
+   "chapter": "DAL",
+   "lat": 32.77627,
+   "lng": -96.79686,
+   "at": "town"
+  },
+  {
+   "name": "Dallas Carter",
+   "chapter": "DAL",
+   "lat": 32.77627,
+   "lng": -96.79686,
+   "at": "town"
+  },
+  {
+   "name": "Dallas Conrad",
+   "chapter": "DAL",
+   "lat": 32.8843,
+   "lng": -96.78439,
+   "at": "stadium"
+  },
+  {
+   "name": "Dallas Highland Park",
+   "chapter": "DAL",
+   "lat": 32.84913,
+   "lng": -96.80754,
+   "at": "stadium"
+  },
+  {
+   "name": "Dallas Hillcrest",
+   "chapter": "DAL",
+   "lat": 32.8843,
+   "lng": -96.78439,
+   "at": "stadium"
+  },
+  {
+   "name": "Dallas Jesuit",
+   "chapter": "DAL",
+   "lat": 32.77627,
+   "lng": -96.79686,
+   "at": "town"
+  },
+  {
+   "name": "Dallas Kimball",
+   "chapter": "DAL",
+   "lat": 32.77627,
+   "lng": -96.79686,
+   "at": "town"
+  },
+  {
+   "name": "Dallas Lake Highlands",
+   "chapter": "DAL",
+   "lat": 32.88766,
+   "lng": -96.72594,
+   "at": "stadium"
+  },
+  {
+   "name": "Dallas Lincoln",
+   "chapter": "DAL",
+   "lat": 32.77627,
+   "lng": -96.79686,
+   "at": "town"
+  },
+  {
+   "name": "Dallas Madison",
+   "chapter": "DAL",
+   "lat": 32.77627,
+   "lng": -96.79686,
+   "at": "town"
+  },
+  {
+   "name": "Dallas Molina",
+   "chapter": "DAL",
+   "lat": 32.77627,
+   "lng": -96.79686,
+   "at": "town"
+  },
+  {
+   "name": "Dallas Pinkston",
+   "chapter": "DAL",
+   "lat": 32.77627,
+   "lng": -96.79686,
+   "at": "town"
+  },
+  {
+   "name": "Dallas Roosevelt",
+   "chapter": "DAL",
+   "lat": 32.77627,
+   "lng": -96.79686,
+   "at": "town"
+  },
+  {
+   "name": "Dallas Samuell",
+   "chapter": "DAL",
+   "lat": 32.77627,
+   "lng": -96.79686,
+   "at": "town"
+  },
+  {
+   "name": "Dallas Skyline",
+   "chapter": "DAL",
+   "lat": 32.77627,
+   "lng": -96.79686,
+   "at": "town"
+  },
+  {
+   "name": "Dallas Smith",
+   "chapter": "DAL",
+   "lat": 32.77627,
+   "lng": -96.79686,
+   "at": "town"
+  },
+  {
+   "name": "Dallas Spruce",
+   "chapter": "DAL",
+   "lat": 32.77627,
+   "lng": -96.79686,
+   "at": "town"
+  },
+  {
+   "name": "Dallas Sunset",
+   "chapter": "DAL",
+   "lat": 32.77627,
+   "lng": -96.79686,
+   "at": "town"
+  },
+  {
+   "name": "Dallas Thomas Jefferson",
+   "chapter": "DAL",
+   "lat": 32.77627,
+   "lng": -96.79686,
+   "at": "town"
+  },
+  {
+   "name": "Dallas White",
+   "chapter": "DAL",
+   "lat": 32.77627,
+   "lng": -96.79686,
+   "at": "town"
+  },
+  {
+   "name": "Dallas Wilmer-Hutchins",
+   "chapter": "DAL",
+   "lat": 32.77627,
+   "lng": -96.79686,
+   "at": "town"
+  },
+  {
+   "name": "Dallas Wilson",
+   "chapter": "DAL",
+   "lat": 32.77627,
+   "lng": -96.79686,
+   "at": "town"
+  },
+  {
+   "name": "Danbury",
+   "chapter": "HOU",
+   "lat": 29.2283,
+   "lng": -95.34494,
+   "at": "town"
+  },
+  {
+   "name": "Dawson",
+   "chapter": "SPC",
+   "lat": 32.9287,
+   "lng": -102.1296,
+   "at": "town"
+  },
+  {
+   "name": "Dayton",
+   "chapter": "HOU",
+   "lat": 30.04732,
+   "lng": -94.88739,
+   "at": "town"
+  },
+  {
+   "name": "De Kalb",
+   "chapter": "TYL",
+   "lat": 33.50873,
+   "lng": -94.61632,
+   "at": "town"
+  },
+  {
+   "name": "DeSoto",
+   "chapter": "FTW",
+   "lat": 32.58978,
+   "lng": -96.85702,
+   "at": "town"
+  },
+  {
+   "name": "Decatur",
+   "chapter": "FTW",
+   "lat": 33.23428,
+   "lng": -97.58614,
+   "at": "town"
+  },
+  {
+   "name": "Deer Park",
+   "chapter": "HOU",
+   "lat": 29.69012,
+   "lng": -95.0903,
+   "at": "stadium"
+  },
+  {
+   "name": "Del Rio",
+   "chapter": "SAT",
+   "lat": 29.35751,
+   "lng": -100.89877,
+   "at": "town"
+  },
+  {
+   "name": "Dell City",
+   "chapter": "ELP",
+   "lat": 31.93895,
+   "lng": -105.20114,
+   "at": "town"
+  },
+  {
+   "name": "Denison",
+   "chapter": "DAL",
+   "lat": 33.75566,
+   "lng": -96.53666,
+   "at": "town"
+  },
+  {
+   "name": "Denton",
+   "chapter": "FTW",
+   "lat": 33.26347,
+   "lng": -97.11528,
+   "at": "stadium"
+  },
+  {
+   "name": "Denton Braswell",
+   "chapter": "FTW",
+   "lat": 33.21504,
+   "lng": -97.13304,
+   "at": "town"
+  },
+  {
+   "name": "Denton Guyer",
+   "chapter": "FTW",
+   "lat": 33.21504,
+   "lng": -97.13304,
+   "at": "town"
+  },
+  {
+   "name": "Denton Ryan",
+   "chapter": "DAL",
+   "lat": 33.26347,
+   "lng": -97.11528,
+   "at": "stadium"
+  },
+  {
+   "name": "Denver City",
+   "chapter": "SPC",
+   "lat": 32.97337,
+   "lng": -102.83726,
+   "at": "stadium"
+  },
+  {
+   "name": "Devine",
+   "chapter": "SAT",
+   "lat": 29.15198,
+   "lng": -98.91419,
+   "at": "stadium"
+  },
+  {
+   "name": "Diboll",
+   "chapter": "SFA",
+   "lat": 31.19335,
+   "lng": -94.76515,
+   "at": "stadium"
+  },
+  {
+   "name": "Dickinson",
+   "chapter": "HOU",
+   "lat": 29.47148,
+   "lng": -95.03173,
+   "at": "stadium"
+  },
+  {
+   "name": "Dilley",
+   "chapter": "SAT",
+   "lat": 28.6696,
+   "lng": -99.1672,
+   "at": "town"
+  },
+  {
+   "name": "Dime Box",
+   "chapter": "CSC",
+   "lat": 30.35671,
+   "lng": -96.82505,
+   "at": "town"
+  },
+  {
+   "name": "Dimmitt",
+   "chapter": "SPC",
+   "lat": 34.54152,
+   "lng": -102.33217,
+   "at": "stadium"
+  },
+  {
+   "name": "Dripping Springs",
+   "chapter": "AUS",
+   "lat": 30.19918,
+   "lng": -98.09988,
+   "at": "stadium"
+  },
+  {
+   "name": "Dublin",
+   "chapter": "FTW",
+   "lat": 32.0867,
+   "lng": -98.3215,
+   "at": "stadium"
+  },
+  {
+   "name": "Dumas",
+   "chapter": "AMA",
+   "lat": 35.86148,
+   "lng": -101.97137,
+   "at": "town"
+  },
+  {
+   "name": "Duncanville",
+   "chapter": "DAL",
+   "lat": 32.6518,
+   "lng": -96.90834,
+   "at": "town"
+  },
+  {
+   "name": "Eagle Pass",
+   "chapter": "SAT",
+   "lat": 28.70921,
+   "lng": -100.49929,
+   "at": "town"
+  },
+  {
+   "name": "Eagle Pass Winn",
+   "chapter": "SAT",
+   "lat": 28.70921,
+   "lng": -100.49929,
+   "at": "town"
+  },
+  {
+   "name": "Early",
+   "chapter": "ABI",
+   "lat": 31.7421,
+   "lng": -98.94561,
+   "at": "town"
+  },
+  {
+   "name": "East Bernard",
+   "chapter": "HOU",
+   "lat": 29.5273,
+   "lng": -96.06473,
+   "at": "town"
+  },
+  {
+   "name": "Eastland",
+   "chapter": "ABI",
+   "lat": 32.40063,
+   "lng": -98.81945,
+   "at": "town"
+  },
+  {
+   "name": "Eden",
+   "chapter": "SAN",
+   "lat": 31.21615,
+   "lng": -99.84548,
+   "at": "town"
+  },
+  {
+   "name": "Edgewood",
+   "chapter": "TYL",
+   "lat": 32.69818,
+   "lng": -95.88524,
+   "at": "town"
+  },
+  {
+   "name": "Edinburg",
+   "chapter": "RGV",
+   "lat": 26.28424,
+   "lng": -98.16123,
+   "at": "stadium"
+  },
+  {
+   "name": "Edinburg Economedes",
+   "chapter": "RGV",
+   "lat": 26.28424,
+   "lng": -98.16123,
+   "at": "stadium"
+  },
+  {
+   "name": "Edinburg North",
+   "chapter": "RGV",
+   "lat": 26.28424,
+   "lng": -98.16123,
+   "at": "stadium"
+  },
+  {
+   "name": "Edinburg Vela",
+   "chapter": "RGV",
+   "lat": 26.28424,
+   "lng": -98.16123,
+   "at": "stadium"
+  },
+  {
+   "name": "Edna",
+   "chapter": "HOU",
+   "lat": 28.97726,
+   "lng": -96.64625,
+   "at": "town"
+  },
+  {
+   "name": "El Campo",
+   "chapter": "HOU",
+   "lat": 29.19664,
+   "lng": -96.26969,
+   "at": "town"
+  },
+  {
+   "name": "El Paso Americas",
+   "chapter": "ELP",
+   "lat": 31.7601,
+   "lng": -106.48705,
+   "at": "town"
+  },
+  {
+   "name": "El Paso Andress",
+   "chapter": "ELP",
+   "lat": 31.7601,
+   "lng": -106.48705,
+   "at": "town"
+  },
+  {
+   "name": "El Paso Austin",
+   "chapter": "ELP",
+   "lat": 31.79846,
+   "lng": -106.45073,
+   "at": "stadium"
+  },
+  {
+   "name": "El Paso Bel Air",
+   "chapter": "ELP",
+   "lat": 31.7601,
+   "lng": -106.48705,
+   "at": "town"
+  },
+  {
+   "name": "El Paso Bowie",
+   "chapter": "ELP",
+   "lat": 31.7601,
+   "lng": -106.48705,
+   "at": "town"
+  },
+  {
+   "name": "El Paso Burges",
+   "chapter": "ELP",
+   "lat": 31.7601,
+   "lng": -106.48705,
+   "at": "town"
+  },
+  {
+   "name": "El Paso Canutillo",
+   "chapter": "ELP",
+   "lat": 31.8969,
+   "lng": -106.58673,
+   "at": "stadium"
+  },
+  {
+   "name": "El Paso Chapin",
+   "chapter": "ELP",
+   "lat": 31.7601,
+   "lng": -106.48705,
+   "at": "town"
+  },
+  {
+   "name": "El Paso Coronado",
+   "chapter": "ELP",
+   "lat": 31.7601,
+   "lng": -106.48705,
+   "at": "town"
+  },
+  {
+   "name": "El Paso Del Valle",
+   "chapter": "ELP",
+   "lat": 31.7601,
+   "lng": -106.48705,
+   "at": "town"
+  },
+  {
+   "name": "El Paso Eastlake",
+   "chapter": "ELP",
+   "lat": 31.7601,
+   "lng": -106.48705,
+   "at": "town"
+  },
+  {
+   "name": "El Paso Eastwood",
+   "chapter": "ELP",
+   "lat": 31.77141,
+   "lng": -106.35378,
+   "at": "stadium"
+  },
+  {
+   "name": "El Paso El Dorado",
+   "chapter": "ELP",
+   "lat": 31.7601,
+   "lng": -106.48705,
+   "at": "town"
+  },
+  {
+   "name": "El Paso Franklin",
+   "chapter": "ELP",
+   "lat": 31.7601,
+   "lng": -106.48705,
+   "at": "town"
+  },
+  {
+   "name": "El Paso Hanks",
+   "chapter": "ELP",
+   "lat": 31.7601,
+   "lng": -106.48705,
+   "at": "town"
+  },
+  {
+   "name": "El Paso High",
+   "chapter": "ELP",
+   "lat": 31.7601,
+   "lng": -106.48705,
+   "at": "town"
+  },
+  {
+   "name": "El Paso Irvin",
+   "chapter": "ELP",
+   "lat": 31.87947,
+   "lng": -106.41512,
+   "at": "stadium"
+  },
+  {
+   "name": "El Paso Jefferson",
+   "chapter": "ELP",
+   "lat": 31.7601,
+   "lng": -106.48705,
+   "at": "town"
+  },
+  {
+   "name": "El Paso Montwood",
+   "chapter": "ELP",
+   "lat": 31.7601,
+   "lng": -106.48705,
+   "at": "town"
+  },
+  {
+   "name": "El Paso Parkland",
+   "chapter": "ELP",
+   "lat": 31.7601,
+   "lng": -106.48705,
+   "at": "town"
+  },
+  {
+   "name": "El Paso Pebble Hills",
+   "chapter": "ELP",
+   "lat": 31.7601,
+   "lng": -106.48705,
+   "at": "town"
+  },
+  {
+   "name": "El Paso Riverside",
+   "chapter": "ELP",
+   "lat": 31.7601,
+   "lng": -106.48705,
+   "at": "town"
+  },
+  {
+   "name": "El Paso Socorro",
+   "chapter": "ELP",
+   "lat": 31.7601,
+   "lng": -106.48705,
+   "at": "town"
+  },
+  {
+   "name": "El Paso Ysleta",
+   "chapter": "ELP",
+   "lat": 31.7601,
+   "lng": -106.48705,
+   "at": "town"
+  },
+  {
+   "name": "Eldorado",
+   "chapter": "SAN",
+   "lat": 30.86011,
+   "lng": -100.59914,
+   "at": "town"
+  },
+  {
+   "name": "Electra",
+   "chapter": "NTX",
+   "lat": 34.03209,
+   "lng": -98.91637,
+   "at": "town"
+  },
+  {
+   "name": "Elgin",
+   "chapter": "AUS",
+   "lat": 30.34951,
+   "lng": -97.37112,
+   "at": "town"
+  },
+  {
+   "name": "Elkhart",
+   "chapter": "TYL",
+   "lat": 31.62517,
+   "lng": -95.5794,
+   "at": "town"
+  },
+  {
+   "name": "Elysian Fields",
+   "chapter": "TYL",
+   "lat": 32.36992,
+   "lng": -94.18325,
+   "at": "town"
+  },
+  {
+   "name": "Emory Rains",
+   "chapter": "DAL",
+   "lat": 32.87457,
+   "lng": -95.76552,
+   "at": "town"
+  },
+  {
+   "name": "Ennis",
+   "chapter": "TYL",
+   "lat": 32.32931,
+   "lng": -96.62527,
+   "at": "town"
+  },
+  {
+   "name": "Era",
+   "chapter": "FTW",
+   "lat": 33.49521,
+   "lng": -97.28805,
+   "at": "town"
+  },
+  {
+   "name": "Euless Trinity",
+   "chapter": "FTW",
+   "lat": 32.83272,
+   "lng": -97.1364,
+   "at": "stadium"
+  },
+  {
+   "name": "Eustace",
+   "chapter": "TYL",
+   "lat": 32.30085,
+   "lng": -96.00891,
+   "at": "stadium"
+  },
+  {
+   "name": "Everman",
+   "chapter": "FTW",
+   "lat": 32.63097,
+   "lng": -97.28918,
+   "at": "town"
+  },
+  {
+   "name": "FW Carter-Riverside",
+   "chapter": "FTW",
+   "lat": 32.75318,
+   "lng": -97.33275,
+   "at": "town"
+  },
+  {
+   "name": "FW Casteberry",
+   "chapter": "FTW",
+   "lat": 32.75318,
+   "lng": -97.33275,
+   "at": "town"
+  },
+  {
+   "name": "FW Chisholm Trail",
+   "chapter": "FTW",
+   "lat": 32.75318,
+   "lng": -97.33275,
+   "at": "town"
+  },
+  {
+   "name": "FW Eagle Mountain",
+   "chapter": "FTW",
+   "lat": 32.75318,
+   "lng": -97.33275,
+   "at": "town"
+  },
+  {
+   "name": "FW Paschal",
+   "chapter": "FTW",
+   "lat": 32.73004,
+   "lng": -97.36008,
+   "at": "stadium"
+  },
+  {
+   "name": "Fabens",
+   "chapter": "ELP",
+   "lat": 31.50443,
+   "lng": -106.15084,
+   "at": "town"
+  },
+  {
+   "name": "Falfurrias",
+   "chapter": "RGV",
+   "lat": 27.2218,
+   "lng": -98.15349,
+   "at": "stadium"
+  },
+  {
+   "name": "Falls City",
+   "chapter": "SAT",
+   "lat": 28.98147,
+   "lng": -98.01832,
+   "at": "town"
+  },
+  {
+   "name": "Farmersville",
+   "chapter": "DAL",
+   "lat": 33.16322,
+   "lng": -96.36035,
+   "at": "stadium"
+  },
+  {
+   "name": "Farwell",
+   "chapter": "SPC",
+   "lat": 34.38341,
+   "lng": -103.038,
+   "at": "town"
+  },
+  {
+   "name": "Ferris",
+   "chapter": "DAL",
+   "lat": 32.53403,
+   "lng": -96.66555,
+   "at": "town"
+  },
+  {
+   "name": "Flatonia",
+   "chapter": "AUS",
+   "lat": 29.6868,
+   "lng": -97.1071,
+   "at": "town"
+  },
+  {
+   "name": "Florence",
+   "chapter": "CTX",
+   "lat": 30.84127,
+   "lng": -97.79363,
+   "at": "town"
+  },
+  {
+   "name": "Floresville",
+   "chapter": "SAT",
+   "lat": 29.13358,
+   "lng": -98.15612,
+   "at": "town"
+  },
+  {
+   "name": "Flower Mound",
+   "chapter": "FTW",
+   "lat": 33.02839,
+   "lng": -97.08672,
+   "at": "town"
+  },
+  {
+   "name": "Flower Mound Marcus",
+   "chapter": "FTW",
+   "lat": 33.02839,
+   "lng": -97.08672,
+   "at": "town"
+  },
+  {
+   "name": "Floydada",
+   "chapter": "SPC",
+   "lat": 33.98785,
+   "lng": -101.34441,
+   "at": "stadium"
+  },
+  {
+   "name": "Follett",
+   "chapter": "AMA",
+   "lat": 36.43226,
+   "lng": -100.14118,
+   "at": "town"
+  },
+  {
+   "name": "Forestburg",
+   "chapter": "NTX",
+   "lat": 33.53258,
+   "lng": -97.55661,
+   "at": "town"
+  },
+  {
+   "name": "Forney",
+   "chapter": "DAL",
+   "lat": 32.74789,
+   "lng": -96.47193,
+   "at": "town"
+  },
+  {
+   "name": "Forsan",
+   "chapter": "PBC",
+   "lat": 32.10985,
+   "lng": -101.36623,
+   "at": "town"
+  },
+  {
+   "name": "Fort Bend Austin",
+   "chapter": "HOU",
+   "lat": 29.61968,
+   "lng": -95.63495,
+   "at": "town"
+  },
+  {
+   "name": "Fort Bend Bush",
+   "chapter": "HOU",
+   "lat": 29.58218,
+   "lng": -95.76078,
+   "at": "town"
+  },
+  {
+   "name": "Fort Bend Clements",
+   "chapter": "HOU",
+   "lat": 29.61968,
+   "lng": -95.63495,
+   "at": "town"
+  },
+  {
+   "name": "Fort Bend Dulles",
+   "chapter": "HOU",
+   "lat": 29.61968,
+   "lng": -95.63495,
+   "at": "town"
+  },
+  {
+   "name": "Fort Bend Elkins",
+   "chapter": "HOU",
+   "lat": 29.61857,
+   "lng": -95.53772,
+   "at": "town"
+  },
+  {
+   "name": "Fort Bend Hightower",
+   "chapter": "HOU",
+   "lat": 29.61857,
+   "lng": -95.53772,
+   "at": "town"
+  },
+  {
+   "name": "Fort Bend Kempner",
+   "chapter": "HOU",
+   "lat": 29.61968,
+   "lng": -95.63495,
+   "at": "town"
+  },
+  {
+   "name": "Fort Bend Marshall",
+   "chapter": "HOU",
+   "lat": 29.61857,
+   "lng": -95.53772,
+   "at": "town"
+  },
+  {
+   "name": "Fort Bend Ridge Point",
+   "chapter": "HOU",
+   "lat": 29.53233,
+   "lng": -95.49701,
+   "at": "stadium"
+  },
+  {
+   "name": "Fort Bend Travis",
+   "chapter": "HOU",
+   "lat": 29.58218,
+   "lng": -95.76078,
+   "at": "town"
+  },
+  {
+   "name": "Fort Bend Willowridge",
+   "chapter": "HOU",
+   "lat": 29.75894,
+   "lng": -95.3677,
+   "at": "town"
+  },
+  {
+   "name": "Fort Davis",
+   "chapter": "ELP",
+   "lat": 30.58916,
+   "lng": -103.89496,
+   "at": "town"
+  },
+  {
+   "name": "Fort Hancock",
+   "chapter": "ELP",
+   "lat": 31.29802,
+   "lng": -105.84579,
+   "at": "town"
+  },
+  {
+   "name": "Fort Stockton",
+   "chapter": "PBC",
+   "lat": 30.8919,
+   "lng": -102.88366,
+   "at": "town"
+  },
+  {
+   "name": "Fort Worth Arlington Heights",
+   "chapter": "FTW",
+   "lat": 32.73004,
+   "lng": -97.36008,
+   "at": "stadium"
+  },
+  {
+   "name": "Fort Worth Boswell",
+   "chapter": "FTW",
+   "lat": 32.86013,
+   "lng": -97.36391,
+   "at": "town"
+  },
+  {
+   "name": "Fort Worth Brewer",
+   "chapter": "FTW",
+   "lat": 32.75318,
+   "lng": -97.33275,
+   "at": "town"
+  },
+  {
+   "name": "Fort Worth Diamond Hill-Jarvis",
+   "chapter": "FTW",
+   "lat": 32.75318,
+   "lng": -97.33275,
+   "at": "town"
+  },
+  {
+   "name": "Fort Worth Dunbar",
+   "chapter": "FTW",
+   "lat": 32.66755,
+   "lng": -97.28294,
+   "at": "stadium"
+  },
+  {
+   "name": "Fort Worth Eastern Hills",
+   "chapter": "FTW",
+   "lat": 32.66755,
+   "lng": -97.28294,
+   "at": "stadium"
+  },
+  {
+   "name": "Fort Worth Northside",
+   "chapter": "FTW",
+   "lat": 32.75318,
+   "lng": -97.33275,
+   "at": "town"
+  },
+  {
+   "name": "Fort Worth Polytechnic",
+   "chapter": "FTW",
+   "lat": 32.75318,
+   "lng": -97.33275,
+   "at": "town"
+  },
+  {
+   "name": "Fort Worth South Hills",
+   "chapter": "FTW",
+   "lat": 32.73004,
+   "lng": -97.36008,
+   "at": "stadium"
+  },
+  {
+   "name": "Fort Worth Southwest",
+   "chapter": "FTW",
+   "lat": 32.73004,
+   "lng": -97.36008,
+   "at": "stadium"
+  },
+  {
+   "name": "Fort Worth Timber Creek",
+   "chapter": "FTW",
+   "lat": 32.75318,
+   "lng": -97.33275,
+   "at": "town"
+  },
+  {
+   "name": "Fort Worth Trimble Tech",
+   "chapter": "FTW",
+   "lat": 32.75318,
+   "lng": -97.33275,
+   "at": "town"
+  },
+  {
+   "name": "Fort Worth Western Hills",
+   "chapter": "FTW",
+   "lat": 32.73004,
+   "lng": -97.36008,
+   "at": "stadium"
+  },
+  {
+   "name": "Fort Worth Wyatt",
+   "chapter": "FTW",
+   "lat": 32.75318,
+   "lng": -97.33275,
+   "at": "town"
+  },
+  {
+   "name": "Franklin",
+   "chapter": "CSC",
+   "lat": 31.02602,
+   "lng": -96.48524,
+   "at": "town"
+  },
+  {
+   "name": "Frankston",
+   "chapter": "TYL",
+   "lat": 32.0543,
+   "lng": -95.50592,
+   "at": "town"
+  },
+  {
+   "name": "Fredericksburg",
+   "chapter": "SAT",
+   "lat": 30.25813,
+   "lng": -98.8814,
+   "at": "stadium"
+  },
+  {
+   "name": "Frenship",
+   "chapter": "SPC",
+   "lat": 33.51832,
+   "lng": -102.0066,
+   "at": "stadium"
+  },
+  {
+   "name": "Frenship Memorial",
+   "chapter": "SPC",
+   "lat": 33.58557,
+   "lng": -101.84702,
+   "at": "town"
+  },
+  {
+   "name": "Friendswood",
+   "chapter": "HOU",
+   "lat": 29.5294,
+   "lng": -95.20104,
+   "at": "town"
+  },
+  {
+   "name": "Friendswood Clear Brook",
+   "chapter": "HOU",
+   "lat": 29.51861,
+   "lng": -95.13909,
+   "at": "stadium"
+  },
+  {
+   "name": "Friona",
+   "chapter": "SPC",
+   "lat": 34.63963,
+   "lng": -102.72117,
+   "at": "town"
+  },
+  {
+   "name": "Frisco",
+   "chapter": "DAL",
+   "lat": 33.1506,
+   "lng": -96.82382,
+   "at": "town"
+  },
+  {
+   "name": "Frisco Centennial",
+   "chapter": "DAL",
+   "lat": 33.1506,
+   "lng": -96.82382,
+   "at": "town"
+  },
+  {
+   "name": "Frisco Emerson",
+   "chapter": "DAL",
+   "lat": 33.1506,
+   "lng": -96.82382,
+   "at": "town"
+  },
+  {
+   "name": "Frisco Heritage",
+   "chapter": "DAL",
+   "lat": 33.1506,
+   "lng": -96.82382,
+   "at": "town"
+  },
+  {
+   "name": "Frisco Independence",
+   "chapter": "DAL",
+   "lat": 33.1506,
+   "lng": -96.82382,
+   "at": "town"
+  },
+  {
+   "name": "Frisco Lebanon Trail",
+   "chapter": "DAL",
+   "lat": 33.1506,
+   "lng": -96.82382,
+   "at": "town"
+  },
+  {
+   "name": "Frisco Liberty",
+   "chapter": "DAL",
+   "lat": 33.1506,
+   "lng": -96.82382,
+   "at": "town"
+  },
+  {
+   "name": "Frisco Lone Star",
+   "chapter": "DAL",
+   "lat": 33.1506,
+   "lng": -96.82382,
+   "at": "town"
+  },
+  {
+   "name": "Frisco Memorial",
+   "chapter": "DAL",
+   "lat": 33.1506,
+   "lng": -96.82382,
+   "at": "town"
+  },
+  {
+   "name": "Frisco Panther Creek",
+   "chapter": "DAL",
+   "lat": 33.1506,
+   "lng": -96.82382,
+   "at": "town"
+  },
+  {
+   "name": "Frisco Reedy",
+   "chapter": "DAL",
+   "lat": 33.1506,
+   "lng": -96.82382,
+   "at": "town"
+  },
+  {
+   "name": "Frisco Rock Hill",
+   "chapter": "DAL",
+   "lat": 33.1506,
+   "lng": -96.82382,
+   "at": "town"
+  },
+  {
+   "name": "Frisco Wakeland",
+   "chapter": "DAL",
+   "lat": 33.1506,
+   "lng": -96.82382,
+   "at": "town"
+  },
+  {
+   "name": "Fruitvale",
+   "chapter": "TYL",
+   "lat": 32.68317,
+   "lng": -95.80314,
+   "at": "town"
+  },
+  {
+   "name": "Fulshear Jordan",
+   "chapter": "HOU",
+   "lat": 29.69256,
+   "lng": -95.90019,
+   "at": "town"
+  },
+  {
+   "name": "Gainesville",
+   "chapter": "DAL",
+   "lat": 33.62485,
+   "lng": -97.14275,
+   "at": "town"
+  },
+  {
+   "name": "Galena Park",
+   "chapter": "HOU",
+   "lat": 29.80614,
+   "lng": -95.17934,
+   "at": "stadium"
+  },
+  {
+   "name": "Galena Park North Shore",
+   "chapter": "HOU",
+   "lat": 29.73356,
+   "lng": -95.23021,
+   "at": "town"
+  },
+  {
+   "name": "Ganado",
+   "chapter": "HOU",
+   "lat": 29.03963,
+   "lng": -96.51228,
+   "at": "town"
+  },
+  {
+   "name": "Garden City",
+   "chapter": "PBC",
+   "lat": 31.86404,
+   "lng": -101.48135,
+   "at": "town"
+  },
+  {
+   "name": "Garland",
+   "chapter": "DAL",
+   "lat": 32.91262,
+   "lng": -96.63888,
+   "at": "town"
+  },
+  {
+   "name": "Garland Lakeview Centennial",
+   "chapter": "DAL",
+   "lat": 32.91262,
+   "lng": -96.63888,
+   "at": "town"
+  },
+  {
+   "name": "Garland Naaman Forest",
+   "chapter": "DAL",
+   "lat": 32.91262,
+   "lng": -96.63888,
+   "at": "town"
+  },
+  {
+   "name": "Garrison",
+   "chapter": "SFA",
+   "lat": 31.82434,
+   "lng": -94.49104,
+   "at": "town"
+  },
+  {
+   "name": "Gatesville",
+   "chapter": "CTX",
+   "lat": 31.43516,
+   "lng": -97.74391,
+   "at": "town"
+  },
+  {
+   "name": "Gateway Charter Academy",
+   "chapter": "DAL",
+   "lat": 32.77627,
+   "lng": -96.79686,
+   "at": "town"
+  },
+  {
+   "name": "George Ranch",
+   "chapter": "HOU",
+   "lat": 29.56009,
+   "lng": -95.78011,
+   "at": "stadium"
+  },
+  {
+   "name": "Georgetown",
+   "chapter": "AUS",
+   "lat": 30.63702,
+   "lng": -97.67756,
+   "at": "town"
+  },
+  {
+   "name": "Georgetown East View",
+   "chapter": "AUS",
+   "lat": 30.63702,
+   "lng": -97.67756,
+   "at": "town"
+  },
+  {
+   "name": "Geronimo Navarro",
+   "chapter": "SAT",
+   "lat": 29.663,
+   "lng": -97.96695,
+   "at": "town"
+  },
+  {
+   "name": "Giddings",
+   "chapter": "CSC",
+   "lat": 30.18305,
+   "lng": -96.93661,
+   "at": "town"
+  },
+  {
+   "name": "Gilmer",
+   "chapter": "TYL",
+   "lat": 32.7288,
+   "lng": -94.94456,
+   "at": "town"
+  },
+  {
+   "name": "Gladewater",
+   "chapter": "TYL",
+   "lat": 32.54799,
+   "lng": -94.96537,
+   "at": "stadium"
+  },
+  {
+   "name": "Glen Rose",
+   "chapter": "FTW",
+   "lat": 32.23408,
+   "lng": -97.755,
+   "at": "town"
+  },
+  {
+   "name": "Godley",
+   "chapter": "FTW",
+   "lat": 32.45865,
+   "lng": -97.54789,
+   "at": "stadium"
+  },
+  {
+   "name": "Gold-Burg",
+   "chapter": "NTX",
+   "lat": 33.67121,
+   "lng": -97.90531,
+   "at": "town"
+  },
+  {
+   "name": "Goldthwaite",
+   "chapter": "CTX",
+   "lat": 31.45081,
+   "lng": -98.57002,
+   "at": "town"
+  },
+  {
+   "name": "Goliad",
+   "chapter": "AUS",
+   "lat": 28.66891,
+   "lng": -97.39111,
+   "at": "town"
+  },
+  {
+   "name": "Gonzales",
+   "chapter": "SAT",
+   "lat": 29.50687,
+   "lng": -97.44963,
+   "at": "town"
+  },
+  {
+   "name": "Gordon",
+   "chapter": "ABI",
+   "lat": 32.54846,
+   "lng": -98.36922,
+   "at": "town"
+  },
+  {
+   "name": "Graham",
+   "chapter": "NTX",
+   "lat": 33.09504,
+   "lng": -98.58039,
+   "at": "stadium"
+  },
+  {
+   "name": "Granbury",
+   "chapter": "FTW",
+   "lat": 32.44268,
+   "lng": -97.78705,
+   "at": "town"
+  },
+  {
+   "name": "Grand Oaks",
+   "chapter": "HOU",
+   "lat": 30.07957,
+   "lng": -95.41879,
+   "at": "town"
+  },
+  {
+   "name": "Grand Prairie",
+   "chapter": "DAL",
+   "lat": 32.75607,
+   "lng": -97.00516,
+   "at": "stadium"
+  },
+  {
+   "name": "Grand Saline",
+   "chapter": "TYL",
+   "lat": 32.67679,
+   "lng": -95.71104,
+   "at": "town"
+  },
+  {
+   "name": "Grandfalls-Royalty",
+   "chapter": "PBC",
+   "lat": 31.34024,
+   "lng": -102.85265,
+   "at": "town"
+  },
+  {
+   "name": "Grandview",
+   "chapter": "FTW",
+   "lat": 32.26665,
+   "lng": -97.17854,
+   "at": "town"
+  },
+  {
+   "name": "Granger",
+   "chapter": "AUS",
+   "lat": 30.71816,
+   "lng": -97.44119,
+   "at": "town"
+  },
+  {
+   "name": "Grape Creek",
+   "chapter": "SAN",
+   "lat": 31.46497,
+   "lng": -100.44051,
+   "at": "town"
+  },
+  {
+   "name": "Grapeland",
+   "chapter": "SFA",
+   "lat": 31.49523,
+   "lng": -95.48492,
+   "at": "stadium"
+  },
+  {
+   "name": "Grapevine",
+   "chapter": "FTW",
+   "lat": 32.92082,
+   "lng": -97.11658,
+   "at": "stadium"
+  },
+  {
+   "name": "Greenville",
+   "chapter": "DAL",
+   "lat": 33.13845,
+   "lng": -96.11081,
+   "at": "town"
+  },
+  {
+   "name": "Groesbeck",
+   "chapter": "WAC",
+   "lat": 31.5243,
+   "lng": -96.5336,
+   "at": "town"
+  },
+  {
+   "name": "Groom",
+   "chapter": "AMA",
+   "lat": 35.20505,
+   "lng": -101.10964,
+   "at": "stadium"
+  },
+  {
+   "name": "Groveton",
+   "chapter": "SFA",
+   "lat": 31.05491,
+   "lng": -95.12577,
+   "at": "town"
+  },
+  {
+   "name": "Gruver",
+   "chapter": "AMA",
+   "lat": 36.26322,
+   "lng": -101.40454,
+   "at": "town"
+  },
+  {
+   "name": "Gunter",
+   "chapter": "DAL",
+   "lat": 33.4499,
+   "lng": -96.74463,
+   "at": "town"
+  },
+  {
+   "name": "Guthrie",
+   "chapter": "SPC",
+   "lat": 33.6196,
+   "lng": -100.32265,
+   "at": "town"
+  },
+  {
+   "name": "Hale Center",
+   "chapter": "SPC",
+   "lat": 34.06447,
+   "lng": -101.84437,
+   "at": "town"
+  },
+  {
+   "name": "Hallettsville",
+   "chapter": "HOU",
+   "lat": 29.44385,
+   "lng": -96.94109,
+   "at": "town"
+  },
+  {
+   "name": "Hallsville",
+   "chapter": "TYL",
+   "lat": 32.48945,
+   "lng": -94.57248,
+   "at": "stadium"
+  },
+  {
+   "name": "Haltom",
+   "chapter": "FTW",
+   "lat": 32.79957,
+   "lng": -97.26918,
+   "at": "town"
+  },
+  {
+   "name": "Hamilton",
+   "chapter": "CTX",
+   "lat": 31.70305,
+   "lng": -98.12378,
+   "at": "town"
+  },
+  {
+   "name": "Hamlin",
+   "chapter": "ABI",
+   "lat": 32.88468,
+   "lng": -100.12962,
+   "at": "town"
+  },
+  {
+   "name": "Happy",
+   "chapter": "AMA",
+   "lat": 34.7451,
+   "lng": -101.85657,
+   "at": "town"
+  },
+  {
+   "name": "Harker Heights",
+   "chapter": "AUS",
+   "lat": 31.10987,
+   "lng": -97.69441,
+   "at": "stadium"
+  },
+  {
+   "name": "Harleton",
+   "chapter": "TYL",
+   "lat": 32.67658,
+   "lng": -94.57398,
+   "at": "town"
+  },
+  {
+   "name": "Harlingen",
+   "chapter": "RGV",
+   "lat": 26.1937,
+   "lng": -97.68146,
+   "at": "stadium"
+  },
+  {
+   "name": "Harlingen South",
+   "chapter": "RGV",
+   "lat": 26.1937,
+   "lng": -97.68146,
+   "at": "stadium"
+  },
+  {
+   "name": "Harper",
+   "chapter": "SAT",
+   "lat": 30.30073,
+   "lng": -99.25084,
+   "at": "town"
+  },
+  {
+   "name": "Harrold",
+   "chapter": "NTX",
+   "lat": 34.08091,
+   "lng": -99.03162,
+   "at": "town"
+  },
+  {
+   "name": "Hart",
+   "chapter": "AMA",
+   "lat": 34.38507,
+   "lng": -102.11574,
+   "at": "town"
+  },
+  {
+   "name": "Haskell",
+   "chapter": "ABI",
+   "lat": 33.16058,
+   "lng": -99.73452,
+   "at": "town"
+  },
+  {
+   "name": "Haslet Eaton",
+   "chapter": "FTW",
+   "lat": 32.97445,
+   "lng": -97.34826,
+   "at": "town"
+  },
+  {
+   "name": "Hawkins",
+   "chapter": "TYL",
+   "lat": 32.58847,
+   "lng": -95.20411,
+   "at": "town"
+  },
+  {
+   "name": "Hawley",
+   "chapter": "ABI",
+   "lat": 32.61337,
+   "lng": -99.81304,
+   "at": "town"
+  },
+  {
+   "name": "Hearne",
+   "chapter": "CSC",
+   "lat": 30.87888,
+   "lng": -96.59624,
+   "at": "town"
+  },
+  {
+   "name": "Hemphill",
+   "chapter": "SFA",
+   "lat": 31.3429,
+   "lng": -93.84844,
+   "at": "town"
+  },
+  {
+   "name": "Hempstead",
+   "chapter": "HOU",
+   "lat": 30.08259,
+   "lng": -96.0732,
+   "at": "stadium"
+  },
+  {
+   "name": "Henderson",
+   "chapter": "TYL",
+   "lat": 32.14163,
+   "lng": -94.80468,
+   "at": "stadium"
+  },
+  {
+   "name": "Henrietta",
+   "chapter": "NTX",
+   "lat": 33.81663,
+   "lng": -98.19468,
+   "at": "town"
+  },
+  {
+   "name": "Hereford",
+   "chapter": "AMA",
+   "lat": 34.83147,
+   "lng": -102.41338,
+   "at": "stadium"
+  },
+  {
+   "name": "Hermleigh",
+   "chapter": "ABI",
+   "lat": 32.63546,
+   "lng": -100.75913,
+   "at": "town"
+  },
+  {
+   "name": "Hico",
+   "chapter": "CTX",
+   "lat": 31.98145,
+   "lng": -98.03085,
+   "at": "town"
+  },
+  {
+   "name": "Highland",
+   "chapter": "ABI",
+   "lat": 32.44161,
+   "lng": -100.5393,
+   "at": "town"
+  },
+  {
+   "name": "Hitchcock",
+   "chapter": "HOU",
+   "lat": 29.34829,
+   "lng": -95.01604,
+   "at": "town"
+  },
+  {
+   "name": "Holland",
+   "chapter": "CTX",
+   "lat": 30.87928,
+   "lng": -97.40489,
+   "at": "town"
+  },
+  {
+   "name": "Holliday",
+   "chapter": "NTX",
+   "lat": 33.8147,
+   "lng": -98.69419,
+   "at": "town"
+  },
+  {
+   "name": "Hondo",
+   "chapter": "SAT",
+   "lat": 29.34741,
+   "lng": -99.1412,
+   "at": "town"
+  },
+  {
+   "name": "Hooks",
+   "chapter": "TYL",
+   "lat": 33.46965,
+   "lng": -94.28597,
+   "at": "town"
+  },
+  {
+   "name": "Houston Alief Taylor",
+   "chapter": "HOU",
+   "lat": 29.75894,
+   "lng": -95.3677,
+   "at": "town"
+  },
+  {
+   "name": "Houston Austin",
+   "chapter": "HOU",
+   "lat": 29.69362,
+   "lng": -95.30498,
+   "at": "stadium"
+  },
+  {
+   "name": "Houston Bellaire",
+   "chapter": "HOU",
+   "lat": 29.64881,
+   "lng": -95.45454,
+   "at": "stadium"
+  },
+  {
+   "name": "Houston Benjamin Davis",
+   "chapter": "HOU",
+   "lat": 29.75894,
+   "lng": -95.3677,
+   "at": "town"
+  },
+  {
+   "name": "Houston Chavez",
+   "chapter": "HOU",
+   "lat": 29.69362,
+   "lng": -95.30498,
+   "at": "stadium"
+  },
+  {
+   "name": "Houston Clear Lake",
+   "chapter": "HOU",
+   "lat": 29.51861,
+   "lng": -95.13909,
+   "at": "stadium"
+  },
+  {
+   "name": "Houston Furr",
+   "chapter": "HOU",
+   "lat": 29.75894,
+   "lng": -95.3677,
+   "at": "town"
+  },
+  {
+   "name": "Houston Heights",
+   "chapter": "HOU",
+   "lat": 29.75894,
+   "lng": -95.3677,
+   "at": "town"
+  },
+  {
+   "name": "Houston Jersey Village",
+   "chapter": "HOU",
+   "lat": 29.99014,
+   "lng": -95.67814,
+   "at": "stadium"
+  },
+  {
+   "name": "Houston Kashmere",
+   "chapter": "HOU",
+   "lat": 29.80366,
+   "lng": -95.45623,
+   "at": "stadium"
+  },
+  {
+   "name": "Houston King",
+   "chapter": "HOU",
+   "lat": 29.75894,
+   "lng": -95.3677,
+   "at": "town"
+  },
+  {
+   "name": "Houston Klein Cain",
+   "chapter": "HOU",
+   "lat": 30.04076,
+   "lng": -95.53754,
+   "at": "stadium"
+  },
+  {
+   "name": "Houston Lamar",
+   "chapter": "HOU",
+   "lat": 29.80366,
+   "lng": -95.45623,
+   "at": "stadium"
+  },
+  {
+   "name": "Houston Madison",
+   "chapter": "HOU",
+   "lat": 29.64881,
+   "lng": -95.45454,
+   "at": "stadium"
+  },
+  {
+   "name": "Houston Memorial",
+   "chapter": "HOU",
+   "lat": 29.77868,
+   "lng": -95.6063,
+   "at": "stadium"
+  },
+  {
+   "name": "Houston Milby",
+   "chapter": "HOU",
+   "lat": 29.69362,
+   "lng": -95.30498,
+   "at": "stadium"
+  },
+  {
+   "name": "Houston North Forest",
+   "chapter": "HOU",
+   "lat": 29.75894,
+   "lng": -95.3677,
+   "at": "town"
+  },
+  {
+   "name": "Houston Northside",
+   "chapter": "HOU",
+   "lat": 29.75894,
+   "lng": -95.3677,
+   "at": "town"
+  },
+  {
+   "name": "Houston Sam Houston",
+   "chapter": "HOU",
+   "lat": 29.75894,
+   "lng": -95.3677,
+   "at": "town"
+  },
+  {
+   "name": "Houston Scarborough",
+   "chapter": "HOU",
+   "lat": 29.75894,
+   "lng": -95.3677,
+   "at": "town"
+  },
+  {
+   "name": "Houston Sharpstown",
+   "chapter": "HOU",
+   "lat": 29.64881,
+   "lng": -95.45454,
+   "at": "stadium"
+  },
+  {
+   "name": "Houston Spring Woods",
+   "chapter": "HOU",
+   "lat": 29.75894,
+   "lng": -95.3677,
+   "at": "town"
+  },
+  {
+   "name": "Houston Sterling",
+   "chapter": "HOU",
+   "lat": 29.69362,
+   "lng": -95.30498,
+   "at": "stadium"
+  },
+  {
+   "name": "Houston Strake Jesuit",
+   "chapter": "HOU",
+   "lat": 29.75894,
+   "lng": -95.3677,
+   "at": "town"
+  },
+  {
+   "name": "Houston Stratford",
+   "chapter": "HOU",
+   "lat": 29.77868,
+   "lng": -95.6063,
+   "at": "stadium"
+  },
+  {
+   "name": "Houston Waltrip",
+   "chapter": "HOU",
+   "lat": 29.80366,
+   "lng": -95.45623,
+   "at": "stadium"
+  },
+  {
+   "name": "Houston Washington",
+   "chapter": "HOU",
+   "lat": 29.75894,
+   "lng": -95.3677,
+   "at": "town"
+  },
+  {
+   "name": "Houston Westbury",
+   "chapter": "HOU",
+   "lat": 29.64881,
+   "lng": -95.45454,
+   "at": "stadium"
+  },
+  {
+   "name": "Houston Westside",
+   "chapter": "HOU",
+   "lat": 29.80366,
+   "lng": -95.45623,
+   "at": "stadium"
+  },
+  {
+   "name": "Houston Wheatley",
+   "chapter": "HOU",
+   "lat": 29.75894,
+   "lng": -95.3677,
+   "at": "town"
+  },
+  {
+   "name": "Houston Wisdom",
+   "chapter": "HOU",
+   "lat": 29.64881,
+   "lng": -95.45454,
+   "at": "stadium"
+  },
+  {
+   "name": "Houston Worthing",
+   "chapter": "HOU",
+   "lat": 29.64881,
+   "lng": -95.45454,
+   "at": "stadium"
+  },
+  {
+   "name": "Houston Yates",
+   "chapter": "HOU",
+   "lat": 29.69362,
+   "lng": -95.30498,
+   "at": "stadium"
+  },
+  {
+   "name": "Howe",
+   "chapter": "DAL",
+   "lat": 33.50733,
+   "lng": -96.61266,
+   "at": "town"
+  },
+  {
+   "name": "Huffman-Hargrave",
+   "chapter": "HOU",
+   "lat": 30.02716,
+   "lng": -95.08576,
+   "at": "town"
+  },
+  {
+   "name": "Hughes Springs",
+   "chapter": "TYL",
+   "lat": 32.9982,
+   "lng": -94.6308,
+   "at": "town"
+  },
+  {
+   "name": "Humble",
+   "chapter": "HOU",
+   "lat": 29.99883,
+   "lng": -95.26216,
+   "at": "town"
+  },
+  {
+   "name": "Humble Atascocita",
+   "chapter": "HOU",
+   "lat": 29.99883,
+   "lng": -95.26216,
+   "at": "town"
+  },
+  {
+   "name": "Humble Kingwood",
+   "chapter": "HOU",
+   "lat": 29.99883,
+   "lng": -95.26216,
+   "at": "town"
+  },
+  {
+   "name": "Humble Kingwood Park",
+   "chapter": "HOU",
+   "lat": 29.99883,
+   "lng": -95.26216,
+   "at": "town"
+  },
+  {
+   "name": "Humble Summer Creek",
+   "chapter": "HOU",
+   "lat": 29.99883,
+   "lng": -95.26216,
+   "at": "town"
+  },
+  {
+   "name": "Huntington",
+   "chapter": "SFA",
+   "lat": 31.27769,
+   "lng": -94.57659,
+   "at": "town"
+  },
+  {
+   "name": "Huntsville",
+   "chapter": "CSC",
+   "lat": 30.72353,
+   "lng": -95.55078,
+   "at": "town"
+  },
+  {
+   "name": "Hurst Bell",
+   "chapter": "FTW",
+   "lat": 32.83272,
+   "lng": -97.1364,
+   "at": "stadium"
+  },
+  {
+   "name": "Hutto",
+   "chapter": "AUS",
+   "lat": 30.53201,
+   "lng": -97.56421,
+   "at": "stadium"
+  },
+  {
+   "name": "Idalou",
+   "chapter": "SPC",
+   "lat": 33.66227,
+   "lng": -101.68411,
+   "at": "town"
+  },
+  {
+   "name": "Immanuel Christian",
+   "chapter": "ELP",
+   "lat": 31.7601,
+   "lng": -106.48705,
+   "at": "town"
+  },
+  {
+   "name": "Ingram Moore",
+   "chapter": "SAT",
+   "lat": 30.07389,
+   "lng": -99.23656,
+   "at": "town"
+  },
+  {
+   "name": "Iola",
+   "chapter": "CSC",
+   "lat": 30.77122,
+   "lng": -96.07565,
+   "at": "town"
+  },
+  {
+   "name": "Iowa Colony",
+   "chapter": "HOU",
+   "lat": 29.39719,
+   "lng": -95.41014,
+   "at": "stadium"
+  },
+  {
+   "name": "Iowa Park",
+   "chapter": "NTX",
+   "lat": 33.96215,
+   "lng": -98.69214,
+   "at": "stadium"
+  },
+  {
+   "name": "Ira",
+   "chapter": "ABI",
+   "lat": 32.58206,
+   "lng": -101.00206,
+   "at": "town"
+  },
+  {
+   "name": "Iraan",
+   "chapter": "PBC",
+   "lat": 30.9139,
+   "lng": -101.89787,
+   "at": "town"
+  },
+  {
+   "name": "Irion County",
+   "chapter": "SAN",
+   "lat": 31.26048,
+   "lng": -100.82071,
+   "at": "town"
+  },
+  {
+   "name": "Irving",
+   "chapter": "DAL",
+   "lat": 32.80768,
+   "lng": -96.93759,
+   "at": "stadium"
+  },
+  {
+   "name": "Irving MacArthur",
+   "chapter": "DAL",
+   "lat": 32.80768,
+   "lng": -96.93759,
+   "at": "stadium"
+  },
+  {
+   "name": "Irving Nimitz",
+   "chapter": "DAL",
+   "lat": 32.80768,
+   "lng": -96.93759,
+   "at": "stadium"
+  },
+  {
+   "name": "Italy",
+   "chapter": "DAL",
+   "lat": 32.18404,
+   "lng": -96.88472,
+   "at": "town"
+  },
+  {
+   "name": "Itasca",
+   "chapter": "FTW",
+   "lat": 32.15959,
+   "lng": -97.15001,
+   "at": "town"
+  },
+  {
+   "name": "Jacksboro",
+   "chapter": "NTX",
+   "lat": 33.23054,
+   "lng": -98.17031,
+   "at": "stadium"
+  },
+  {
+   "name": "Jacksonville",
+   "chapter": "TYL",
+   "lat": 31.96378,
+   "lng": -95.2705,
+   "at": "town"
+  },
+  {
+   "name": "Jarrell",
+   "chapter": "CTX",
+   "lat": 30.82491,
+   "lng": -97.60445,
+   "at": "town"
+  },
+  {
+   "name": "Jayton",
+   "chapter": "SPC",
+   "lat": 33.24807,
+   "lng": -100.57386,
+   "at": "town"
+  },
+  {
+   "name": "Jefferson",
+   "chapter": "TYL",
+   "lat": 32.75736,
+   "lng": -94.34519,
+   "at": "town"
+  },
+  {
+   "name": "Jesus Chapel",
+   "chapter": "ELP",
+   "lat": 31.7601,
+   "lng": -106.48705,
+   "at": "town"
+  },
+  {
+   "name": "Jewett Leon",
+   "chapter": "CSC",
+   "lat": 31.36157,
+   "lng": -96.14413,
+   "at": "town"
+  },
+  {
+   "name": "Jim Ned",
+   "chapter": "ABI",
+   "lat": 32.20799,
+   "lng": -99.79613,
+   "at": "town"
+  },
+  {
+   "name": "Joaquin",
+   "chapter": "TYL",
+   "lat": 31.96572,
+   "lng": -94.0538,
+   "at": "town"
+  },
+  {
+   "name": "Johnson City",
+   "chapter": "SAT",
+   "lat": 30.27738,
+   "lng": -98.40902,
+   "at": "town"
+  },
+  {
+   "name": "Johnson City LBJ",
+   "chapter": "AUS",
+   "lat": 30.27738,
+   "lng": -98.40902,
+   "at": "town"
+  },
+  {
+   "name": "Jonesboro",
+   "chapter": "CTX",
+   "lat": 31.61604,
+   "lng": -97.877,
+   "at": "town"
+  },
+  {
+   "name": "Joshua",
+   "chapter": "FTW",
+   "lat": 32.46124,
+   "lng": -97.38826,
+   "at": "town"
+  },
+  {
+   "name": "Jourdanton",
+   "chapter": "SAT",
+   "lat": 28.91803,
+   "lng": -98.54641,
+   "at": "town"
+  },
+  {
+   "name": "Judson Veterans Memorial",
+   "chapter": "SAT",
+   "lat": 29.51801,
+   "lng": -98.31612,
+   "at": "town"
+  },
+  {
+   "name": "Junction",
+   "chapter": "SAN",
+   "lat": 30.48936,
+   "lng": -99.77201,
+   "at": "town"
+  },
+  {
+   "name": "Justin Northwest",
+   "chapter": "FTW",
+   "lat": 33.08484,
+   "lng": -97.29613,
+   "at": "town"
+  },
+  {
+   "name": "Karnes City",
+   "chapter": "SAT",
+   "lat": 28.8867,
+   "lng": -97.88999,
+   "at": "stadium"
+  },
+  {
+   "name": "Katy Cinco Ranch",
+   "chapter": "HOU",
+   "lat": 29.80121,
+   "lng": -95.80476,
+   "at": "stadium"
+  },
+  {
+   "name": "Katy Cypress Lakes",
+   "chapter": "HOU",
+   "lat": 29.78579,
+   "lng": -95.8244,
+   "at": "town"
+  },
+  {
+   "name": "Katy Freeman",
+   "chapter": "HOU",
+   "lat": 29.78579,
+   "lng": -95.8244,
+   "at": "town"
+  },
+  {
+   "name": "Katy High",
+   "chapter": "HOU",
+   "lat": 29.80121,
+   "lng": -95.80476,
+   "at": "stadium"
+  },
+  {
+   "name": "Katy Mayde Creek",
+   "chapter": "HOU",
+   "lat": 29.78579,
+   "lng": -95.8244,
+   "at": "town"
+  },
+  {
+   "name": "Katy Morton Ranch",
+   "chapter": "HOU",
+   "lat": 29.80121,
+   "lng": -95.80476,
+   "at": "stadium"
+  },
+  {
+   "name": "Katy Paetow",
+   "chapter": "HOU",
+   "lat": 29.80121,
+   "lng": -95.80476,
+   "at": "stadium"
+  },
+  {
+   "name": "Katy Seven Lakes",
+   "chapter": "HOU",
+   "lat": 29.80121,
+   "lng": -95.80476,
+   "at": "stadium"
+  },
+  {
+   "name": "Katy Taylor",
+   "chapter": "HOU",
+   "lat": 29.80121,
+   "lng": -95.80476,
+   "at": "stadium"
+  },
+  {
+   "name": "Katy Tompkins",
+   "chapter": "HOU",
+   "lat": 29.78579,
+   "lng": -95.8244,
+   "at": "town"
+  },
+  {
+   "name": "Kaufman",
+   "chapter": "TYL",
+   "lat": 32.56556,
+   "lng": -96.31258,
+   "at": "stadium"
+  },
+  {
+   "name": "Keller",
+   "chapter": "FTW",
+   "lat": 32.92997,
+   "lng": -97.22712,
+   "at": "town"
+  },
+  {
+   "name": "Keller Central",
+   "chapter": "FTW",
+   "lat": 32.92997,
+   "lng": -97.22712,
+   "at": "town"
+  },
+  {
+   "name": "Keller Fossil Ridge",
+   "chapter": "FTW",
+   "lat": 32.92997,
+   "lng": -97.22712,
+   "at": "town"
+  },
+  {
+   "name": "Keller Timber Creek",
+   "chapter": "FTW",
+   "lat": 32.92997,
+   "lng": -97.22712,
+   "at": "town"
+  },
+  {
+   "name": "Kemp",
+   "chapter": "TYL",
+   "lat": 32.44264,
+   "lng": -96.22998,
+   "at": "town"
+  },
+  {
+   "name": "Kenedy",
+   "chapter": "SAT",
+   "lat": 28.8162,
+   "lng": -97.84876,
+   "at": "town"
+  },
+  {
+   "name": "Kennedale",
+   "chapter": "FTW",
+   "lat": 32.6468,
+   "lng": -97.22585,
+   "at": "town"
+  },
+  {
+   "name": "Kerens",
+   "chapter": "TYL",
+   "lat": 32.13091,
+   "lng": -96.2285,
+   "at": "town"
+  },
+  {
+   "name": "Kermit",
+   "chapter": "PBC",
+   "lat": 31.85106,
+   "lng": -103.09002,
+   "at": "stadium"
+  },
+  {
+   "name": "Kerrville Tivy",
+   "chapter": "SAT",
+   "lat": 30.04847,
+   "lng": -99.13995,
+   "at": "town"
+  },
+  {
+   "name": "Kilgore",
+   "chapter": "TYL",
+   "lat": 32.38668,
+   "lng": -94.87546,
+   "at": "town"
+  },
+  {
+   "name": "Killeen",
+   "chapter": "CTX",
+   "lat": 31.10987,
+   "lng": -97.69441,
+   "at": "stadium"
+  },
+  {
+   "name": "Killeen Chaparral",
+   "chapter": "AUS",
+   "lat": 31.11714,
+   "lng": -97.7278,
+   "at": "town"
+  },
+  {
+   "name": "Killeen Ellison",
+   "chapter": "AUS",
+   "lat": 31.10987,
+   "lng": -97.69441,
+   "at": "stadium"
+  },
+  {
+   "name": "Killeen Shoemaker",
+   "chapter": "AUS",
+   "lat": 31.10987,
+   "lng": -97.69441,
+   "at": "stadium"
+  },
+  {
+   "name": "Klein",
+   "chapter": "HOU",
+   "lat": 30.04076,
+   "lng": -95.53754,
+   "at": "stadium"
+  },
+  {
+   "name": "Klein Forest",
+   "chapter": "HOU",
+   "lat": 30.04772,
+   "lng": -95.53244,
+   "at": "town"
+  },
+  {
+   "name": "Klein Oak",
+   "chapter": "HOU",
+   "lat": 30.04076,
+   "lng": -95.53754,
+   "at": "stadium"
+  },
+  {
+   "name": "Klondike",
+   "chapter": "PBC",
+   "lat": 32.7376,
+   "lng": -101.951,
+   "at": "town"
+  },
+  {
+   "name": "Knippa",
+   "chapter": "SAT",
+   "lat": 29.29643,
+   "lng": -99.63913,
+   "at": "town"
+  },
+  {
+   "name": "Knox City",
+   "chapter": "ABI",
+   "lat": 33.41815,
+   "lng": -99.81898,
+   "at": "town"
+  },
+  {
+   "name": "Kress",
+   "chapter": "SPC",
+   "lat": 34.36637,
+   "lng": -101.74858,
+   "at": "town"
+  },
+  {
+   "name": "Krum",
+   "chapter": "DAL",
+   "lat": 33.26184,
+   "lng": -97.23747,
+   "at": "town"
+  },
+  {
+   "name": "Kyle Lehman",
+   "chapter": "AUS",
+   "lat": 29.98928,
+   "lng": -97.87717,
+   "at": "town"
+  },
+  {
+   "name": "La Feria",
+   "chapter": "RGV",
+   "lat": 26.15886,
+   "lng": -97.82384,
+   "at": "town"
+  },
+  {
+   "name": "La Grange",
+   "chapter": "AUS",
+   "lat": 29.90345,
+   "lng": -96.86569,
+   "at": "stadium"
+  },
+  {
+   "name": "La Joya",
+   "chapter": "RGV",
+   "lat": 26.24702,
+   "lng": -98.48141,
+   "at": "town"
+  },
+  {
+   "name": "La Joya Juarez-Lincoln",
+   "chapter": "RGV",
+   "lat": 26.24702,
+   "lng": -98.48141,
+   "at": "town"
+  },
+  {
+   "name": "La Joya Palmview",
+   "chapter": "RGV",
+   "lat": 26.24702,
+   "lng": -98.48141,
+   "at": "town"
+  },
+  {
+   "name": "La Marque",
+   "chapter": "HOU",
+   "lat": 29.39325,
+   "lng": -94.92863,
+   "at": "stadium"
+  },
+  {
+   "name": "La Porte",
+   "chapter": "HOU",
+   "lat": 29.65258,
+   "lng": -95.01704,
+   "at": "stadium"
+  },
+  {
+   "name": "La Pryor",
+   "chapter": "SAT",
+   "lat": 28.94358,
+   "lng": -99.84357,
+   "at": "town"
+  },
+  {
+   "name": "La Vega",
+   "chapter": "RGV",
+   "lat": 31.55451,
+   "lng": -97.13256,
+   "at": "town"
+  },
+  {
+   "name": "La Vernia",
+   "chapter": "SAT",
+   "lat": 29.3554,
+   "lng": -98.12135,
+   "at": "stadium"
+  },
+  {
+   "name": "La Villa",
+   "chapter": "RGV",
+   "lat": 26.29868,
+   "lng": -97.92861,
+   "at": "town"
+  },
+  {
+   "name": "Lago Vista",
+   "chapter": "AUS",
+   "lat": 30.4602,
+   "lng": -97.98835,
+   "at": "town"
+  },
+  {
+   "name": "Lake Belton",
+   "chapter": "CTX",
+   "lat": 31.09837,
+   "lng": -97.34296,
+   "at": "town"
+  },
+  {
+   "name": "Lake Dallas",
+   "chapter": "DAL",
+   "lat": 33.15401,
+   "lng": -97.06473,
+   "at": "town"
+  },
+  {
+   "name": "Lake Worth",
+   "chapter": "FTW",
+   "lat": 32.80485,
+   "lng": -97.44502,
+   "at": "town"
+  },
+  {
+   "name": "Lamar Fulshear",
+   "chapter": "HOU",
+   "lat": 29.56009,
+   "lng": -95.78011,
+   "at": "stadium"
+  },
+  {
+   "name": "Lamesa",
+   "chapter": "SPC",
+   "lat": 32.7464,
+   "lng": -101.95946,
+   "at": "stadium"
+  },
+  {
+   "name": "Lampasas",
+   "chapter": "AUS",
+   "lat": 31.0644,
+   "lng": -98.18368,
+   "at": "town"
+  },
+  {
+   "name": "Lancaster",
+   "chapter": "DAL",
+   "lat": 32.61865,
+   "lng": -96.7644,
+   "at": "stadium"
+  },
+  {
+   "name": "Langham Creek",
+   "chapter": "HOU",
+   "lat": 29.99014,
+   "lng": -95.67814,
+   "at": "stadium"
+  },
+  {
+   "name": "Laredo Alexander",
+   "chapter": "RGV",
+   "lat": 27.50792,
+   "lng": -99.50698,
+   "at": "town"
+  },
+  {
+   "name": "Laredo LBJ",
+   "chapter": "RGV",
+   "lat": 27.50792,
+   "lng": -99.50698,
+   "at": "town"
+  },
+  {
+   "name": "Laredo Martin",
+   "chapter": "RGV",
+   "lat": 27.51924,
+   "lng": -99.50655,
+   "at": "stadium"
+  },
+  {
+   "name": "Laredo Nixon",
+   "chapter": "RGV",
+   "lat": 27.51924,
+   "lng": -99.50655,
+   "at": "stadium"
+  },
+  {
+   "name": "Laredo United",
+   "chapter": "RGV",
+   "lat": 27.49874,
+   "lng": -99.43674,
+   "at": "stadium"
+  },
+  {
+   "name": "Laredo United South",
+   "chapter": "RGV",
+   "lat": 27.49874,
+   "lng": -99.43674,
+   "at": "stadium"
+  },
+  {
+   "name": "Lazbuddie",
+   "chapter": "SPC",
+   "lat": 34.39313,
+   "lng": -102.61132,
+   "at": "town"
+  },
+  {
+   "name": "League City Clear Creek",
+   "chapter": "HOU",
+   "lat": 29.51861,
+   "lng": -95.13909,
+   "at": "stadium"
+  },
+  {
+   "name": "Leakey",
+   "chapter": "SAT",
+   "lat": 29.72652,
+   "lng": -99.76245,
+   "at": "town"
+  },
+  {
+   "name": "Leander",
+   "chapter": "AUS",
+   "lat": 29.63988,
+   "lng": -98.11618,
+   "at": "stadium"
+  },
+  {
+   "name": "Leander Glenn",
+   "chapter": "AUS",
+   "lat": 29.63988,
+   "lng": -98.11618,
+   "at": "stadium"
+  },
+  {
+   "name": "Leander Rouse",
+   "chapter": "AUS",
+   "lat": 29.63988,
+   "lng": -98.11618,
+   "at": "stadium"
+  },
+  {
+   "name": "Leander Vandegrift",
+   "chapter": "AUS",
+   "lat": 30.57361,
+   "lng": -97.85673,
+   "at": "town"
+  },
+  {
+   "name": "Lefors",
+   "chapter": "AMA",
+   "lat": 35.43855,
+   "lng": -100.80395,
+   "at": "town"
+  },
+  {
+   "name": "Legacy Ranch",
+   "chapter": "AUS",
+   "lat": 30.66491,
+   "lng": -97.92252,
+   "at": "town"
+  },
+  {
+   "name": "Lenorah Grady",
+   "chapter": "PBC",
+   "lat": 32.3082,
+   "lng": -101.92834,
+   "at": "stadium"
+  },
+  {
+   "name": "Leonard",
+   "chapter": "DAL",
+   "lat": 33.38355,
+   "lng": -96.2445,
+   "at": "town"
+  },
+  {
+   "name": "Levelland",
+   "chapter": "SPC",
+   "lat": 33.60072,
+   "lng": -102.34339,
+   "at": "stadium"
+  },
+  {
+   "name": "Leverett's Chapel",
+   "chapter": "TYL",
+   "lat": 32.31238,
+   "lng": -94.92272,
+   "at": "town"
+  },
+  {
+   "name": "Lewisville",
+   "chapter": "FTW",
+   "lat": 33.04112,
+   "lng": -97.0183,
+   "at": "stadium"
+  },
+  {
+   "name": "Lewisville Hebron",
+   "chapter": "FTW",
+   "lat": 33.04623,
+   "lng": -96.99417,
+   "at": "town"
+  },
+  {
+   "name": "Lexington",
+   "chapter": "AUS",
+   "lat": 30.41522,
+   "lng": -97.00979,
+   "at": "town"
+  },
+  {
+   "name": "Liberty",
+   "chapter": "HOU",
+   "lat": 30.06091,
+   "lng": -94.79718,
+   "at": "town"
+  },
+  {
+   "name": "Liberty Hill",
+   "chapter": "AUS",
+   "lat": 30.66491,
+   "lng": -97.92252,
+   "at": "town"
+  },
+  {
+   "name": "Liberty-Eylau",
+   "chapter": "TYL",
+   "lat": 33.44667,
+   "lng": -94.07658,
+   "at": "town"
+  },
+  {
+   "name": "Life Oak Cliff",
+   "chapter": "DAL",
+   "lat": 32.77627,
+   "lng": -96.79686,
+   "at": "town"
+  },
+  {
+   "name": "Life Waxahachie",
+   "chapter": "DAL",
+   "lat": 32.39449,
+   "lng": -96.84394,
+   "at": "town"
+  },
+  {
+   "name": "Lindale",
+   "chapter": "TYL",
+   "lat": 32.51706,
+   "lng": -95.41583,
+   "at": "stadium"
+  },
+  {
+   "name": "Linden-Kildare",
+   "chapter": "TYL",
+   "lat": 33.01235,
+   "lng": -94.36547,
+   "at": "town"
+  },
+  {
+   "name": "Lindsay",
+   "chapter": "FTW",
+   "lat": 33.63601,
+   "lng": -97.222,
+   "at": "town"
+  },
+  {
+   "name": "Lingleville",
+   "chapter": "CTX",
+   "lat": 32.24458,
+   "lng": -98.37755,
+   "at": "town"
+  },
+  {
+   "name": "Little Elm",
+   "chapter": "DAL",
+   "lat": 33.16262,
+   "lng": -96.93751,
+   "at": "town"
+  },
+  {
+   "name": "Little River Academy",
+   "chapter": "CTX",
+   "lat": 30.98102,
+   "lng": -97.34167,
+   "at": "town"
+  },
+  {
+   "name": "Littlefield",
+   "chapter": "SPC",
+   "lat": 33.91892,
+   "lng": -102.33284,
+   "at": "town"
+  },
+  {
+   "name": "Livingston",
+   "chapter": "HOU",
+   "lat": 30.71103,
+   "lng": -94.93299,
+   "at": "town"
+  },
+  {
+   "name": "Llano",
+   "chapter": "SAT",
+   "lat": 30.75292,
+   "lng": -98.6755,
+   "at": "town"
+  },
+  {
+   "name": "Lockhart",
+   "chapter": "AUS",
+   "lat": 29.88321,
+   "lng": -97.67363,
+   "at": "town"
+  },
+  {
+   "name": "Lockney",
+   "chapter": "SPC",
+   "lat": 34.12452,
+   "lng": -101.44155,
+   "at": "town"
+  },
+  {
+   "name": "Lone Oak",
+   "chapter": "DAL",
+   "lat": 32.99517,
+   "lng": -95.94194,
+   "at": "town"
+  },
+  {
+   "name": "Longview",
+   "chapter": "TYL",
+   "lat": 32.54586,
+   "lng": -94.7421,
+   "at": "stadium"
+  },
+  {
+   "name": "Longview Pine Tree",
+   "chapter": "TYL",
+   "lat": 32.49351,
+   "lng": -94.78819,
+   "at": "stadium"
+  },
+  {
+   "name": "Loop",
+   "chapter": "SPC",
+   "lat": 32.91537,
+   "lng": -102.41602,
+   "at": "town"
+  },
+  {
+   "name": "Loraine",
+   "chapter": "PBC",
+   "lat": 32.40771,
+   "lng": -100.7135,
+   "at": "town"
+  },
+  {
+   "name": "Lorena",
+   "chapter": "CTX",
+   "lat": 31.38656,
+   "lng": -97.21556,
+   "at": "town"
+  },
+  {
+   "name": "Lorenzo",
+   "chapter": "SPC",
+   "lat": 33.67064,
+   "lng": -101.53516,
+   "at": "town"
+  },
+  {
+   "name": "Louise",
+   "chapter": "HOU",
+   "lat": 29.10909,
+   "lng": -96.40836,
+   "at": "town"
+  },
+  {
+   "name": "Lovejoy",
+   "chapter": "DAL",
+   "lat": 33.10021,
+   "lng": -96.61224,
+   "at": "stadium"
+  },
+  {
+   "name": "Lovelady",
+   "chapter": "SFA",
+   "lat": 31.12685,
+   "lng": -95.4455,
+   "at": "town"
+  },
+  {
+   "name": "Lubbock Cooper",
+   "chapter": "SPC",
+   "lat": 33.58557,
+   "lng": -101.84702,
+   "at": "town"
+  },
+  {
+   "name": "Lubbock Coronado",
+   "chapter": "SPC",
+   "lat": 33.53277,
+   "lng": -101.85134,
+   "at": "stadium"
+  },
+  {
+   "name": "Lubbock Estacado",
+   "chapter": "SPC",
+   "lat": 33.53277,
+   "lng": -101.85134,
+   "at": "stadium"
+  },
+  {
+   "name": "Lubbock High",
+   "chapter": "SPC",
+   "lat": 33.58557,
+   "lng": -101.84702,
+   "at": "town"
+  },
+  {
+   "name": "Lubbock Liberty",
+   "chapter": "SPC",
+   "lat": 33.58557,
+   "lng": -101.84702,
+   "at": "town"
+  },
+  {
+   "name": "Lubbock Monterey",
+   "chapter": "SPC",
+   "lat": 33.53277,
+   "lng": -101.85134,
+   "at": "stadium"
+  },
+  {
+   "name": "Lubbock Roosevelt",
+   "chapter": "SPC",
+   "lat": 33.58557,
+   "lng": -101.84702,
+   "at": "town"
+  },
+  {
+   "name": "Lueders-Avoca",
+   "chapter": "ABI",
+   "lat": 32.79992,
+   "lng": -99.62187,
+   "at": "town"
+  },
+  {
+   "name": "Lufkin",
+   "chapter": "SFA",
+   "lat": 31.33598,
+   "lng": -94.68785,
+   "at": "stadium"
+  },
+  {
+   "name": "Luling",
+   "chapter": "SAT",
+   "lat": 29.67797,
+   "lng": -97.65208,
+   "at": "stadium"
+  },
+  {
+   "name": "Lumberton",
+   "chapter": "HOU",
+   "lat": 30.26553,
+   "lng": -94.19914,
+   "at": "town"
+  },
+  {
+   "name": "Lytle",
+   "chapter": "SAT",
+   "lat": 29.23302,
+   "lng": -98.79787,
+   "at": "town"
+  },
+  {
+   "name": "Mabank",
+   "chapter": "TYL",
+   "lat": 32.36653,
+   "lng": -96.10081,
+   "at": "town"
+  },
+  {
+   "name": "Madisonville",
+   "chapter": "CSC",
+   "lat": 30.94501,
+   "lng": -95.90846,
+   "at": "stadium"
+  },
+  {
+   "name": "Magnolia",
+   "chapter": "HOU",
+   "lat": 30.20956,
+   "lng": -95.75079,
+   "at": "town"
+  },
+  {
+   "name": "Magnolia West",
+   "chapter": "HOU",
+   "lat": 30.21862,
+   "lng": -95.76553,
+   "at": "stadium"
+  },
+  {
+   "name": "Malakoff",
+   "chapter": "TYL",
+   "lat": 32.1696,
+   "lng": -96.01247,
+   "at": "town"
+  },
+  {
+   "name": "Manor",
+   "chapter": "AUS",
+   "lat": 30.34209,
+   "lng": -97.5559,
+   "at": "town"
+  },
+  {
+   "name": "Manor New Tech",
+   "chapter": "AUS",
+   "lat": 30.34209,
+   "lng": -97.5559,
+   "at": "town"
+  },
+  {
+   "name": "Mansfield",
+   "chapter": "FTW",
+   "lat": 32.57639,
+   "lng": -97.07697,
+   "at": "stadium"
+  },
+  {
+   "name": "Mansfield Lake Ridge",
+   "chapter": "FTW",
+   "lat": 32.57639,
+   "lng": -97.07697,
+   "at": "stadium"
+  },
+  {
+   "name": "Mansfield Legacy",
+   "chapter": "FTW",
+   "lat": 32.56349,
+   "lng": -97.14203,
+   "at": "town"
+  },
+  {
+   "name": "Mansfield Summit",
+   "chapter": "FTW",
+   "lat": 32.56349,
+   "lng": -97.14203,
+   "at": "town"
+  },
+  {
+   "name": "Mansfield Timberview",
+   "chapter": "FTW",
+   "lat": 32.57639,
+   "lng": -97.07697,
+   "at": "stadium"
+  },
+  {
+   "name": "Manvel",
+   "chapter": "HOU",
+   "lat": 29.39719,
+   "lng": -95.41014,
+   "at": "stadium"
+  },
+  {
+   "name": "Marble Falls",
+   "chapter": "AUS",
+   "lat": 30.57775,
+   "lng": -98.27565,
+   "at": "town"
+  },
+  {
+   "name": "Marfa",
+   "chapter": "ELP",
+   "lat": 30.31176,
+   "lng": -104.02315,
+   "at": "town"
+  },
+  {
+   "name": "Marion",
+   "chapter": "SAT",
+   "lat": 29.56773,
+   "lng": -98.14076,
+   "at": "stadium"
+  },
+  {
+   "name": "Marlin",
+   "chapter": "CTX",
+   "lat": 31.30801,
+   "lng": -96.89089,
+   "at": "town"
+  },
+  {
+   "name": "Marshall",
+   "chapter": "TYL",
+   "lat": 32.54478,
+   "lng": -94.3661,
+   "at": "town"
+  },
+  {
+   "name": "Mart",
+   "chapter": "CTX",
+   "lat": 31.54239,
+   "lng": -96.8336,
+   "at": "town"
+  },
+  {
+   "name": "Mason",
+   "chapter": "AUS",
+   "lat": 30.73564,
+   "lng": -99.20773,
+   "at": "stadium"
+  },
+  {
+   "name": "Maud",
+   "chapter": "TYL",
+   "lat": 33.3329,
+   "lng": -94.3427,
+   "at": "town"
+  },
+  {
+   "name": "Maypearl",
+   "chapter": "FTW",
+   "lat": 32.31148,
+   "lng": -97.01421,
+   "at": "town"
+  },
+  {
+   "name": "McAllen",
+   "chapter": "RGV",
+   "lat": 26.22384,
+   "lng": -98.23643,
+   "at": "stadium"
+  },
+  {
+   "name": "McAllen Memorial",
+   "chapter": "RGV",
+   "lat": 26.22384,
+   "lng": -98.23643,
+   "at": "stadium"
+  },
+  {
+   "name": "McAllen Rowe",
+   "chapter": "RGV",
+   "lat": 26.22384,
+   "lng": -98.23643,
+   "at": "stadium"
+  },
+  {
+   "name": "McAllenHigh",
+   "chapter": "RGV",
+   "lat": 26.20411,
+   "lng": -98.23006,
+   "at": "town"
+  },
+  {
+   "name": "McCamey",
+   "chapter": "PBC",
+   "lat": 31.13154,
+   "lng": -102.22233,
+   "at": "town"
+  },
+  {
+   "name": "McDade",
+   "chapter": "AUS",
+   "lat": 30.2865,
+   "lng": -97.24005,
+   "at": "town"
+  },
+  {
+   "name": "McKinney Boyd",
+   "chapter": "DAL",
+   "lat": 33.19765,
+   "lng": -96.61545,
+   "at": "town"
+  },
+  {
+   "name": "McKinney High",
+   "chapter": "DAL",
+   "lat": 33.19765,
+   "lng": -96.61545,
+   "at": "town"
+  },
+  {
+   "name": "McKinney North",
+   "chapter": "DAL",
+   "lat": 33.19765,
+   "lng": -96.61545,
+   "at": "town"
+  },
+  {
+   "name": "Meadow",
+   "chapter": "SPC",
+   "lat": 33.33842,
+   "lng": -102.20766,
+   "at": "town"
+  },
+  {
+   "name": "Medina Valley",
+   "chapter": "SAT",
+   "lat": 29.34336,
+   "lng": -98.83753,
+   "at": "stadium"
+  },
+  {
+   "name": "Melissa",
+   "chapter": "DAL",
+   "lat": 33.28625,
+   "lng": -96.57224,
+   "at": "town"
+  },
+  {
+   "name": "Memphis",
+   "chapter": "AMA",
+   "lat": 34.73449,
+   "lng": -100.55084,
+   "at": "stadium"
+  },
+  {
+   "name": "Menard",
+   "chapter": "SAN",
+   "lat": 30.91179,
+   "lng": -99.78152,
+   "at": "stadium"
+  },
+  {
+   "name": "Meridian",
+   "chapter": "CTX",
+   "lat": 31.92473,
+   "lng": -97.65611,
+   "at": "town"
+  },
+  {
+   "name": "Merkel",
+   "chapter": "ABI",
+   "lat": 32.46859,
+   "lng": -100.01435,
+   "at": "town"
+  },
+  {
+   "name": "Mesquite",
+   "chapter": "DAL",
+   "lat": 32.76441,
+   "lng": -96.59282,
+   "at": "stadium"
+  },
+  {
+   "name": "Mesquite Horn",
+   "chapter": "DAL",
+   "lat": 32.76441,
+   "lng": -96.59282,
+   "at": "stadium"
+  },
+  {
+   "name": "Mesquite Poteet",
+   "chapter": "DAL",
+   "lat": 32.76383,
+   "lng": -96.63472,
+   "at": "stadium"
+  },
+  {
+   "name": "Mexia",
+   "chapter": "WAC",
+   "lat": 31.68162,
+   "lng": -96.47837,
+   "at": "town"
+  },
+  {
+   "name": "Miami",
+   "chapter": "AMA",
+   "lat": 35.69146,
+   "lng": -100.63842,
+   "at": "town"
+  },
+  {
+   "name": "Midland Greenwood",
+   "chapter": "PBC",
+   "lat": 31.99737,
+   "lng": -102.07795,
+   "at": "town"
+  },
+  {
+   "name": "Midland High",
+   "chapter": "PBC",
+   "lat": 31.96078,
+   "lng": -102.14848,
+   "at": "stadium"
+  },
+  {
+   "name": "Midland Lee",
+   "chapter": "PBC",
+   "lat": 31.99737,
+   "lng": -102.07795,
+   "at": "town"
+  },
+  {
+   "name": "Midland Legacy",
+   "chapter": "PBC",
+   "lat": 31.96078,
+   "lng": -102.14848,
+   "at": "stadium"
+  },
+  {
+   "name": "Midlothian",
+   "chapter": "FTW",
+   "lat": 32.46577,
+   "lng": -96.98505,
+   "at": "stadium"
+  },
+  {
+   "name": "Midlothian Heritage",
+   "chapter": "FTW",
+   "lat": 32.46577,
+   "lng": -96.98505,
+   "at": "stadium"
+  },
+  {
+   "name": "Milano",
+   "chapter": "CSC",
+   "lat": 30.71064,
+   "lng": -96.86474,
+   "at": "town"
+  },
+  {
+   "name": "Mildred",
+   "chapter": "DAL",
+   "lat": 32.03516,
+   "lng": -96.37692,
+   "at": "town"
+  },
+  {
+   "name": "Miles",
+   "chapter": "SAN",
+   "lat": 31.59738,
+   "lng": -100.18231,
+   "at": "town"
+  },
+  {
+   "name": "Milford",
+   "chapter": "CTX",
+   "lat": 32.1246,
+   "lng": -96.94528,
+   "at": "town"
+  },
+  {
+   "name": "Millsap",
+   "chapter": "FTW",
+   "lat": 32.74819,
+   "lng": -98.00921,
+   "at": "town"
+  },
+  {
+   "name": "Mineola",
+   "chapter": "TYL",
+   "lat": 32.66835,
+   "lng": -95.50263,
+   "at": "stadium"
+  },
+  {
+   "name": "Mineral Wells",
+   "chapter": "FTW",
+   "lat": 32.81599,
+   "lng": -98.07786,
+   "at": "stadium"
+  },
+  {
+   "name": "Mission",
+   "chapter": "RGV",
+   "lat": 26.22209,
+   "lng": -98.33041,
+   "at": "stadium"
+  },
+  {
+   "name": "Mission Pioneer",
+   "chapter": "RGV",
+   "lat": 26.21591,
+   "lng": -98.32529,
+   "at": "town"
+  },
+  {
+   "name": "Mission Sharyland",
+   "chapter": "RGV",
+   "lat": 26.2126,
+   "lng": -98.28545,
+   "at": "stadium"
+  },
+  {
+   "name": "Mission Sharyland Pioneer",
+   "chapter": "RGV",
+   "lat": 26.2126,
+   "lng": -98.28545,
+   "at": "stadium"
+  },
+  {
+   "name": "Mission Veterans",
+   "chapter": "RGV",
+   "lat": 26.21591,
+   "lng": -98.32529,
+   "at": "town"
+  },
+  {
+   "name": "Mission Veterans Memorial",
+   "chapter": "RGV",
+   "lat": 26.22209,
+   "lng": -98.33041,
+   "at": "stadium"
+  },
+  {
+   "name": "Monahans",
+   "chapter": "PBC",
+   "lat": 31.58382,
+   "lng": -102.89709,
+   "at": "stadium"
+  },
+  {
+   "name": "Montgomery",
+   "chapter": "HOU",
+   "lat": 30.38826,
+   "lng": -95.69634,
+   "at": "town"
+  },
+  {
+   "name": "Montgomery Lake Creek",
+   "chapter": "HOU",
+   "lat": 30.38826,
+   "lng": -95.69634,
+   "at": "town"
+  },
+  {
+   "name": "Moody",
+   "chapter": "CTX",
+   "lat": 31.30823,
+   "lng": -97.3614,
+   "at": "town"
+  },
+  {
+   "name": "Moran",
+   "chapter": "ABI",
+   "lat": 32.54566,
+   "lng": -99.16653,
+   "at": "town"
+  },
+  {
+   "name": "Morton",
+   "chapter": "SPC",
+   "lat": 33.72515,
+   "lng": -102.75939,
+   "at": "town"
+  },
+  {
+   "name": "Motley County",
+   "chapter": "SPC",
+   "lat": 34.01202,
+   "lng": -100.82208,
+   "at": "town"
+  },
+  {
+   "name": "Mount Enterprise",
+   "chapter": "SFA",
+   "lat": 31.91795,
+   "lng": -94.68104,
+   "at": "town"
+  },
+  {
+   "name": "Mount Pleasant",
+   "chapter": "TYL",
+   "lat": 33.15706,
+   "lng": -94.9694,
+   "at": "town"
+  },
+  {
+   "name": "Mount Vernon",
+   "chapter": "TYL",
+   "lat": 33.18908,
+   "lng": -95.22146,
+   "at": "town"
+  },
+  {
+   "name": "Muenster",
+   "chapter": "FTW",
+   "lat": 33.65153,
+   "lng": -97.37628,
+   "at": "town"
+  },
+  {
+   "name": "Muleshoe",
+   "chapter": "SPC",
+   "lat": 34.22302,
+   "lng": -102.73346,
+   "at": "stadium"
+  },
+  {
+   "name": "Munday",
+   "chapter": "NTX",
+   "lat": 33.44926,
+   "lng": -99.62286,
+   "at": "town"
+  },
+  {
+   "name": "Nacogdoches",
+   "chapter": "SFA",
+   "lat": 31.62446,
+   "lng": -94.63261,
+   "at": "stadium"
+  },
+  {
+   "name": "Natalia",
+   "chapter": "SAT",
+   "lat": 29.18691,
+   "lng": -98.85245,
+   "at": "stadium"
+  },
+  {
+   "name": "Navasota",
+   "chapter": "CSC",
+   "lat": 30.3885,
+   "lng": -96.088,
+   "at": "town"
+  },
+  {
+   "name": "Nazareth",
+   "chapter": "SPC",
+   "lat": 34.54423,
+   "lng": -102.10269,
+   "at": "town"
+  },
+  {
+   "name": "Nederland",
+   "chapter": "HOU",
+   "lat": 29.97438,
+   "lng": -93.9924,
+   "at": "town"
+  },
+  {
+   "name": "Needville",
+   "chapter": "HOU",
+   "lat": 29.39743,
+   "lng": -95.8381,
+   "at": "town"
+  },
+  {
+   "name": "New Boston",
+   "chapter": "TYL",
+   "lat": 33.45984,
+   "lng": -94.41548,
+   "at": "town"
+  },
+  {
+   "name": "New Braunfels",
+   "chapter": "SAT",
+   "lat": 29.70283,
+   "lng": -98.12573,
+   "at": "town"
+  },
+  {
+   "name": "New Braunfels Canyon",
+   "chapter": "SAT",
+   "lat": 29.70283,
+   "lng": -98.12573,
+   "at": "town"
+  },
+  {
+   "name": "New Braunfels Long Creek",
+   "chapter": "SAT",
+   "lat": 29.70283,
+   "lng": -98.12573,
+   "at": "town"
+  },
+  {
+   "name": "New Caney",
+   "chapter": "HOU",
+   "lat": 30.10244,
+   "lng": -95.22966,
+   "at": "town"
+  },
+  {
+   "name": "New Caney Porter",
+   "chapter": "HOU",
+   "lat": 30.15522,
+   "lng": -95.21132,
+   "at": "town"
+  },
+  {
+   "name": "New Deal",
+   "chapter": "SPC",
+   "lat": 33.73731,
+   "lng": -101.83656,
+   "at": "town"
+  },
+  {
+   "name": "New Diana",
+   "chapter": "TYL",
+   "lat": 32.71,
+   "lng": -94.75203,
+   "at": "town"
+  },
+  {
+   "name": "New Home",
+   "chapter": "SPC",
+   "lat": 33.32891,
+   "lng": -101.91041,
+   "at": "town"
+  },
+  {
+   "name": "New Waverly",
+   "chapter": "HOU",
+   "lat": 30.5377,
+   "lng": -95.48328,
+   "at": "town"
+  },
+  {
+   "name": "Newcastle",
+   "chapter": "NTX",
+   "lat": 33.18762,
+   "lng": -98.73674,
+   "at": "stadium"
+  },
+  {
+   "name": "Newton",
+   "chapter": "SFA",
+   "lat": 30.84911,
+   "lng": -93.75741,
+   "at": "town"
+  },
+  {
+   "name": "Nixon-Smiley",
+   "chapter": "SAT",
+   "lat": 29.26966,
+   "lng": -97.76251,
+   "at": "town"
+  },
+  {
+   "name": "Nocona",
+   "chapter": "NTX",
+   "lat": 33.78885,
+   "lng": -97.72674,
+   "at": "town"
+  },
+  {
+   "name": "Normangee",
+   "chapter": "CSC",
+   "lat": 31.02971,
+   "lng": -96.117,
+   "at": "town"
+  },
+  {
+   "name": "North Crowley",
+   "chapter": "FTW",
+   "lat": 32.61019,
+   "lng": -97.33556,
+   "at": "stadium"
+  },
+  {
+   "name": "North Dallas",
+   "chapter": "DAL",
+   "lat": 32.8843,
+   "lng": -96.78439,
+   "at": "stadium"
+  },
+  {
+   "name": "North Forney",
+   "chapter": "DAL",
+   "lat": 32.74789,
+   "lng": -96.47193,
+   "at": "town"
+  },
+  {
+   "name": "North Garland",
+   "chapter": "DAL",
+   "lat": 32.91262,
+   "lng": -96.63888,
+   "at": "town"
+  },
+  {
+   "name": "North Mesquite",
+   "chapter": "DAL",
+   "lat": 32.76383,
+   "lng": -96.63472,
+   "at": "stadium"
+  },
+  {
+   "name": "North Richland Hills Richland",
+   "chapter": "FTW",
+   "lat": 32.8343,
+   "lng": -97.2289,
+   "at": "town"
+  },
+  {
+   "name": "Northbrook",
+   "chapter": "HOU",
+   "lat": 29.75894,
+   "lng": -95.3677,
+   "at": "town"
+  },
+  {
+   "name": "O'Donnell",
+   "chapter": "SPC",
+   "lat": 32.9637,
+   "lng": -101.8318,
+   "at": "town"
+  },
+  {
+   "name": "Oakwood",
+   "chapter": "TYL",
+   "lat": 31.58509,
+   "lng": -95.84976,
+   "at": "town"
+  },
+  {
+   "name": "Odessa",
+   "chapter": "PBC",
+   "lat": 31.9127,
+   "lng": -102.3592,
+   "at": "stadium"
+  },
+  {
+   "name": "Odessa Compass Academy",
+   "chapter": "PBC",
+   "lat": 31.84571,
+   "lng": -102.36769,
+   "at": "town"
+  },
+  {
+   "name": "Odessa Pathway",
+   "chapter": "PBC",
+   "lat": 31.84571,
+   "lng": -102.36769,
+   "at": "town"
+  },
+  {
+   "name": "Odessa Permian",
+   "chapter": "PBC",
+   "lat": 31.9127,
+   "lng": -102.3592,
+   "at": "stadium"
+  },
+  {
+   "name": "Oglesby",
+   "chapter": "CTX",
+   "lat": 31.41892,
+   "lng": -97.51134,
+   "at": "stadium"
+  },
+  {
+   "name": "Olfen",
+   "chapter": "SAN",
+   "lat": 31.6096,
+   "lng": -99.96064,
+   "at": "town"
+  },
+  {
+   "name": "Olney",
+   "chapter": "NTX",
+   "lat": 33.37112,
+   "lng": -98.75669,
+   "at": "town"
+  },
+  {
+   "name": "Olton",
+   "chapter": "SPC",
+   "lat": 34.18341,
+   "lng": -102.13462,
+   "at": "town"
+  },
+  {
+   "name": "Omaha Paul Pewitt",
+   "chapter": "TYL",
+   "lat": 33.18068,
+   "lng": -94.7441,
+   "at": "town"
+  },
+  {
+   "name": "Ore City",
+   "chapter": "TYL",
+   "lat": 32.80033,
+   "lng": -94.72124,
+   "at": "town"
+  },
+  {
+   "name": "Overton",
+   "chapter": "TYL",
+   "lat": 32.2746,
+   "lng": -94.97856,
+   "at": "town"
+  },
+  {
+   "name": "Ozona",
+   "chapter": "SAN",
+   "lat": 30.71031,
+   "lng": -101.2033,
+   "at": "town"
+  },
+  {
+   "name": "PSJA High",
+   "chapter": "RGV",
+   "lat": 26.18998,
+   "lng": -98.17563,
+   "at": "stadium"
+  },
+  {
+   "name": "PSJA Memorial",
+   "chapter": "RGV",
+   "lat": 26.18998,
+   "lng": -98.17563,
+   "at": "stadium"
+  },
+  {
+   "name": "Paducah",
+   "chapter": "SPC",
+   "lat": 34.01336,
+   "lng": -100.30329,
+   "at": "town"
+  },
+  {
+   "name": "Paint Creek",
+   "chapter": "ABI",
+   "lat": 33.06288,
+   "lng": -99.67287,
+   "at": "town"
+  },
+  {
+   "name": "Paint Rock",
+   "chapter": "SAN",
+   "lat": 31.50768,
+   "lng": -99.92216,
+   "at": "town"
+  },
+  {
+   "name": "Palacios",
+   "chapter": "HOU",
+   "lat": 28.70746,
+   "lng": -96.21756,
+   "at": "town"
+  },
+  {
+   "name": "Palestine",
+   "chapter": "TYL",
+   "lat": 31.76212,
+   "lng": -95.63079,
+   "at": "town"
+  },
+  {
+   "name": "Palestine Westwood",
+   "chapter": "TYL",
+   "lat": 31.76212,
+   "lng": -95.63079,
+   "at": "town"
+  },
+  {
+   "name": "Palmer",
+   "chapter": "DAL",
+   "lat": 32.43125,
+   "lng": -96.66777,
+   "at": "town"
+  },
+  {
+   "name": "Pampa",
+   "chapter": "AMA",
+   "lat": 35.5363,
+   "lng": -100.96016,
+   "at": "town"
+  },
+  {
+   "name": "Panhandle",
+   "chapter": "AMA",
+   "lat": 35.34546,
+   "lng": -101.38066,
+   "at": "town"
+  },
+  {
+   "name": "Paradise",
+   "chapter": "FTW",
+   "lat": 33.15012,
+   "lng": -97.68725,
+   "at": "town"
+  },
+  {
+   "name": "Pasadena",
+   "chapter": "HOU",
+   "lat": 29.69108,
+   "lng": -95.20921,
+   "at": "town"
+  },
+  {
+   "name": "Pasadena Dobie",
+   "chapter": "HOU",
+   "lat": 29.66765,
+   "lng": -95.18413,
+   "at": "stadium"
+  },
+  {
+   "name": "Pasadena Memorial",
+   "chapter": "HOU",
+   "lat": 29.66765,
+   "lng": -95.18413,
+   "at": "stadium"
+  },
+  {
+   "name": "Pasadena Sam Rayburn",
+   "chapter": "HOU",
+   "lat": 29.69108,
+   "lng": -95.20921,
+   "at": "town"
+  },
+  {
+   "name": "Pearland",
+   "chapter": "HOU",
+   "lat": 29.56398,
+   "lng": -95.28643,
+   "at": "town"
+  },
+  {
+   "name": "Pearland Dawson",
+   "chapter": "HOU",
+   "lat": 29.56398,
+   "lng": -95.28643,
+   "at": "town"
+  },
+  {
+   "name": "Pearsall",
+   "chapter": "SAT",
+   "lat": 28.89219,
+   "lng": -99.09503,
+   "at": "town"
+  },
+  {
+   "name": "Peaster",
+   "chapter": "FTW",
+   "lat": 32.87207,
+   "lng": -97.8667,
+   "at": "town"
+  },
+  {
+   "name": "Pecos",
+   "chapter": "PBC",
+   "lat": 31.42541,
+   "lng": -103.49529,
+   "at": "town"
+  },
+  {
+   "name": "Perryton",
+   "chapter": "AMA",
+   "lat": 36.39102,
+   "lng": -100.8059,
+   "at": "town"
+  },
+  {
+   "name": "Petersburg",
+   "chapter": "SPC",
+   "lat": 33.87087,
+   "lng": -101.60416,
+   "at": "stadium"
+  },
+  {
+   "name": "Petrolia",
+   "chapter": "NTX",
+   "lat": 34.01296,
+   "lng": -98.23244,
+   "at": "town"
+  },
+  {
+   "name": "Pflugerville",
+   "chapter": "AUS",
+   "lat": 30.44575,
+   "lng": -97.63307,
+   "at": "stadium"
+  },
+  {
+   "name": "Pflugerville Connally",
+   "chapter": "AUS",
+   "lat": 30.43937,
+   "lng": -97.62,
+   "at": "town"
+  },
+  {
+   "name": "Pflugerville Hendrickson",
+   "chapter": "AUS",
+   "lat": 30.44575,
+   "lng": -97.63307,
+   "at": "stadium"
+  },
+  {
+   "name": "Pflugerville Weiss",
+   "chapter": "AUS",
+   "lat": 30.44575,
+   "lng": -97.63307,
+   "at": "stadium"
+  },
+  {
+   "name": "Pharr Valley View",
+   "chapter": "RGV",
+   "lat": 26.10199,
+   "lng": -98.25776,
+   "at": "town"
+  },
+  {
+   "name": "Pharr-San Juan-Alamo",
+   "chapter": "RGV",
+   "lat": 26.1948,
+   "lng": -98.18362,
+   "at": "town"
+  },
+  {
+   "name": "Pharr-San Juan-Alamo North",
+   "chapter": "RGV",
+   "lat": 26.18998,
+   "lng": -98.17563,
+   "at": "stadium"
+  },
+  {
+   "name": "Pilot Point",
+   "chapter": "FTW",
+   "lat": 33.39594,
+   "lng": -96.95911,
+   "at": "town"
+  },
+  {
+   "name": "Pittsburg",
+   "chapter": "TYL",
+   "lat": 33.00257,
+   "lng": -94.97131,
+   "at": "stadium"
+  },
+  {
+   "name": "Plains",
+   "chapter": "SPC",
+   "lat": 33.18924,
+   "lng": -102.82727,
+   "at": "town"
+  },
+  {
+   "name": "Plainview",
+   "chapter": "SPC",
+   "lat": 34.20356,
+   "lng": -101.7329,
+   "at": "stadium"
+  },
+  {
+   "name": "Plano",
+   "chapter": "DAL",
+   "lat": 33.01368,
+   "lng": -96.69251,
+   "at": "town"
+  },
+  {
+   "name": "Plano East",
+   "chapter": "DAL",
+   "lat": 33.01368,
+   "lng": -96.69251,
+   "at": "town"
+  },
+  {
+   "name": "Plano West",
+   "chapter": "DAL",
+   "lat": 33.01368,
+   "lng": -96.69251,
+   "at": "town"
+  },
+  {
+   "name": "Pleasanton",
+   "chapter": "SAT",
+   "lat": 28.96606,
+   "lng": -98.49335,
+   "at": "stadium"
+  },
+  {
+   "name": "Ponder",
+   "chapter": "FTW",
+   "lat": 33.1829,
+   "lng": -97.28724,
+   "at": "town"
+  },
+  {
+   "name": "Port Arthur Memorial",
+   "chapter": "HOU",
+   "lat": 29.92162,
+   "lng": -93.91352,
+   "at": "stadium"
+  },
+  {
+   "name": "Port Isabel",
+   "chapter": "RGV",
+   "lat": 26.07341,
+   "lng": -97.20858,
+   "at": "town"
+  },
+  {
+   "name": "Port Lavaca Calhoun",
+   "chapter": "STX",
+   "lat": 28.615,
+   "lng": -96.62609,
+   "at": "town"
+  },
+  {
+   "name": "Port Neches-Groves",
+   "chapter": "HOU",
+   "lat": 29.98769,
+   "lng": -93.95423,
+   "at": "stadium"
+  },
+  {
+   "name": "Post",
+   "chapter": "SPC",
+   "lat": 33.19092,
+   "lng": -101.38066,
+   "at": "town"
+  },
+  {
+   "name": "Poteet",
+   "chapter": "SAT",
+   "lat": 29.03912,
+   "lng": -98.57484,
+   "at": "town"
+  },
+  {
+   "name": "Poth",
+   "chapter": "SAT",
+   "lat": 29.07305,
+   "lng": -98.08131,
+   "at": "town"
+  },
+  {
+   "name": "Pottsboro",
+   "chapter": "DAL",
+   "lat": 33.76087,
+   "lng": -96.66685,
+   "at": "town"
+  },
+  {
+   "name": "Prairie Lea",
+   "chapter": "AUS",
+   "lat": 29.73084,
+   "lng": -97.75404,
+   "at": "town"
+  },
+  {
+   "name": "Price Carlisle",
+   "chapter": "TYL",
+   "lat": 33.39705,
+   "lng": -95.72996,
+   "at": "town"
+  },
+  {
+   "name": "Princeton",
+   "chapter": "DAL",
+   "lat": 33.18012,
+   "lng": -96.49804,
+   "at": "town"
+  },
+  {
+   "name": "Progreso",
+   "chapter": "RGV",
+   "lat": 26.0923,
+   "lng": -97.95722,
+   "at": "town"
+  },
+  {
+   "name": "Prosper",
+   "chapter": "DAL",
+   "lat": 33.26068,
+   "lng": -96.8042,
+   "at": "stadium"
+  },
+  {
+   "name": "Prosper Richland",
+   "chapter": "DAL",
+   "lat": 33.23716,
+   "lng": -96.7977,
+   "at": "town"
+  },
+  {
+   "name": "Prosper Walnut Grove",
+   "chapter": "DAL",
+   "lat": 33.23716,
+   "lng": -96.7977,
+   "at": "town"
+  },
+  {
+   "name": "Quanah",
+   "chapter": "NTX",
+   "lat": 34.29372,
+   "lng": -99.74237,
+   "at": "town"
+  },
+  {
+   "name": "Queen City",
+   "chapter": "TYL",
+   "lat": 33.14874,
+   "lng": -94.15019,
+   "at": "town"
+  },
+  {
+   "name": "Quinlan Boles",
+   "chapter": "DAL",
+   "lat": 32.91045,
+   "lng": -96.13349,
+   "at": "town"
+  },
+  {
+   "name": "Quinlan Ford",
+   "chapter": "TYL",
+   "lat": 32.91045,
+   "lng": -96.13349,
+   "at": "town"
+  },
+  {
+   "name": "Ralls",
+   "chapter": "SPC",
+   "lat": 33.67934,
+   "lng": -101.3836,
+   "at": "town"
+  },
+  {
+   "name": "Randolph",
+   "chapter": "SAT",
+   "lat": 29.4246,
+   "lng": -98.49514,
+   "at": "town"
+  },
+  {
+   "name": "Ranger",
+   "chapter": "FTW",
+   "lat": 32.47057,
+   "lng": -98.68082,
+   "at": "town"
+  },
+  {
+   "name": "Rankin",
+   "chapter": "PBC",
+   "lat": 31.2248,
+   "lng": -101.94147,
+   "at": "town"
+  },
+  {
+   "name": "Raymondville",
+   "chapter": "ABI",
+   "lat": 26.48146,
+   "lng": -97.78305,
+   "at": "town"
+  },
+  {
+   "name": "Reagan County",
+   "chapter": "PBC",
+   "lat": 31.19547,
+   "lng": -101.45927,
+   "at": "town"
+  },
+  {
+   "name": "Red Oak",
+   "chapter": "DAL",
+   "lat": 32.51439,
+   "lng": -96.80666,
+   "at": "town"
+  },
+  {
+   "name": "Redwater",
+   "chapter": "TYL",
+   "lat": 33.35818,
+   "lng": -94.25436,
+   "at": "town"
+  },
+  {
+   "name": "Rice",
+   "chapter": "DAL",
+   "lat": 32.24376,
+   "lng": -96.4986,
+   "at": "town"
+  },
+  {
+   "name": "Richardson",
+   "chapter": "DAL",
+   "lat": 32.94818,
+   "lng": -96.72972,
+   "at": "town"
+  },
+  {
+   "name": "Richardson Berkner",
+   "chapter": "DAL",
+   "lat": 32.88766,
+   "lng": -96.72594,
+   "at": "stadium"
+  },
+  {
+   "name": "Richardson Pearce",
+   "chapter": "DAL",
+   "lat": 32.94818,
+   "lng": -96.72972,
+   "at": "town"
+  },
+  {
+   "name": "Richland Springs",
+   "chapter": "CTX",
+   "lat": 31.26961,
+   "lng": -98.94505,
+   "at": "town"
+  },
+  {
+   "name": "Richmond Foster",
+   "chapter": "HOU",
+   "lat": 29.56009,
+   "lng": -95.78011,
+   "at": "stadium"
+  },
+  {
+   "name": "Richmond Randle",
+   "chapter": "HOU",
+   "lat": 29.58218,
+   "lng": -95.76078,
+   "at": "town"
+  },
+  {
+   "name": "Richmond Tomas",
+   "chapter": "HOU",
+   "lat": 29.58218,
+   "lng": -95.76078,
+   "at": "town"
+  },
+  {
+   "name": "Riesel",
+   "chapter": "CTX",
+   "lat": 31.47488,
+   "lng": -96.92433,
+   "at": "town"
+  },
+  {
+   "name": "Rio Grande City",
+   "chapter": "RGV",
+   "lat": 26.38278,
+   "lng": -98.82053,
+   "at": "town"
+  },
+  {
+   "name": "Rio Grande City Grulla",
+   "chapter": "RGV",
+   "lat": 26.38278,
+   "lng": -98.82053,
+   "at": "town"
+  },
+  {
+   "name": "Rio Hondo",
+   "chapter": "RGV",
+   "lat": 26.23535,
+   "lng": -97.58193,
+   "at": "town"
+  },
+  {
+   "name": "Rio Vista",
+   "chapter": "FTW",
+   "lat": 32.23348,
+   "lng": -97.37446,
+   "at": "town"
+  },
+  {
+   "name": "River Oaks Castleberry",
+   "chapter": "FTW",
+   "lat": 32.77707,
+   "lng": -97.39446,
+   "at": "town"
+  },
+  {
+   "name": "Robert Lee",
+   "chapter": "SAN",
+   "lat": 31.89529,
+   "lng": -100.48313,
+   "at": "town"
+  },
+  {
+   "name": "Robinson",
+   "chapter": "WAC",
+   "lat": 31.46377,
+   "lng": -97.12415,
+   "at": "stadium"
+  },
+  {
+   "name": "Roby",
+   "chapter": "ABI",
+   "lat": 32.74538,
+   "lng": -100.38035,
+   "at": "town"
+  },
+  {
+   "name": "Rochelle",
+   "chapter": "SAN",
+   "lat": 31.22415,
+   "lng": -99.20994,
+   "at": "town"
+  },
+  {
+   "name": "Rockdale",
+   "chapter": "CTX",
+   "lat": 30.654,
+   "lng": -97.01322,
+   "at": "stadium"
+  },
+  {
+   "name": "Rockport-Fulton",
+   "chapter": "STX",
+   "lat": 28.02057,
+   "lng": -97.05443,
+   "at": "town"
+  },
+  {
+   "name": "Rocksprings",
+   "chapter": "SAT",
+   "lat": 30.01669,
+   "lng": -100.20856,
+   "at": "town"
+  },
+  {
+   "name": "Rockwall High",
+   "chapter": "DAL",
+   "lat": 32.91749,
+   "lng": -96.45063,
+   "at": "stadium"
+  },
+  {
+   "name": "Rockwall-Heath",
+   "chapter": "DAL",
+   "lat": 32.93123,
+   "lng": -96.45971,
+   "at": "town"
+  },
+  {
+   "name": "Rogers",
+   "chapter": "CTX",
+   "lat": 30.93158,
+   "lng": -97.22672,
+   "at": "town"
+  },
+  {
+   "name": "Ropes",
+   "chapter": "SPC",
+   "lat": 33.41342,
+   "lng": -102.15434,
+   "at": "town"
+  },
+  {
+   "name": "Ropesville",
+   "chapter": "ABI",
+   "lat": 33.41342,
+   "lng": -102.15434,
+   "at": "town"
+  },
+  {
+   "name": "Roscoe",
+   "chapter": "ABI",
+   "lat": 32.44161,
+   "lng": -100.5393,
+   "at": "town"
+  },
+  {
+   "name": "Rosebud-Lott",
+   "chapter": "CTX",
+   "lat": 31.20611,
+   "lng": -97.03267,
+   "at": "town"
+  },
+  {
+   "name": "Rosenburg Lamar",
+   "chapter": "HOU",
+   "lat": 29.55802,
+   "lng": -95.80683,
+   "at": "town"
+  },
+  {
+   "name": "Rosenburg Terry",
+   "chapter": "HOU",
+   "lat": 29.55802,
+   "lng": -95.80683,
+   "at": "town"
+  },
+  {
+   "name": "Rotan",
+   "chapter": "ABI",
+   "lat": 32.85205,
+   "lng": -100.46566,
+   "at": "town"
+  },
+  {
+   "name": "Round Rock",
+   "chapter": "AUS",
+   "lat": 30.50859,
+   "lng": -97.67881,
+   "at": "town"
+  },
+  {
+   "name": "Round Rock Cedar Ridge",
+   "chapter": "AUS",
+   "lat": 30.50859,
+   "lng": -97.67881,
+   "at": "town"
+  },
+  {
+   "name": "Round Rock McNeil",
+   "chapter": "AUS",
+   "lat": 30.50859,
+   "lng": -97.67881,
+   "at": "town"
+  },
+  {
+   "name": "Round Rock Stony Point",
+   "chapter": "AUS",
+   "lat": 30.50859,
+   "lng": -97.67881,
+   "at": "town"
+  },
+  {
+   "name": "Round Rock Westwood",
+   "chapter": "AUS",
+   "lat": 30.50859,
+   "lng": -97.67881,
+   "at": "town"
+  },
+  {
+   "name": "Rowlett",
+   "chapter": "DAL",
+   "lat": 32.91262,
+   "lng": -96.63888,
+   "at": "town"
+  },
+  {
+   "name": "Royse City",
+   "chapter": "DAL",
+   "lat": 32.97677,
+   "lng": -96.28986,
+   "at": "stadium"
+  },
+  {
+   "name": "Rule",
+   "chapter": "ABI",
+   "lat": 33.18454,
+   "lng": -99.89371,
+   "at": "town"
+  },
+  {
+   "name": "Runge",
+   "chapter": "SAT",
+   "lat": 28.88331,
+   "lng": -97.71305,
+   "at": "town"
+  },
+  {
+   "name": "Rusk",
+   "chapter": "TYL",
+   "lat": 31.79601,
+   "lng": -95.15022,
+   "at": "town"
+  },
+  {
+   "name": "S&S Consolidated",
+   "chapter": "DAL",
+   "lat": 33.68261,
+   "lng": -96.84833,
+   "at": "town"
+  },
+  {
+   "name": "Sabinal",
+   "chapter": "SAT",
+   "lat": 29.32142,
+   "lng": -99.46838,
+   "at": "town"
+  },
+  {
+   "name": "Sabine",
+   "chapter": "TYL",
+   "lat": 32.4482,
+   "lng": -94.9449,
+   "at": "town"
+  },
+  {
+   "name": "Sachse",
+   "chapter": "DAL",
+   "lat": 32.91262,
+   "lng": -96.63888,
+   "at": "town"
+  },
+  {
+   "name": "Saginaw",
+   "chapter": "FTW",
+   "lat": 32.86013,
+   "lng": -97.36391,
+   "at": "town"
+  },
+  {
+   "name": "Saginaw Boswell",
+   "chapter": "FTW",
+   "lat": 32.86013,
+   "lng": -97.36391,
+   "at": "town"
+  },
+  {
+   "name": "Saint Jo",
+   "chapter": "NTX",
+   "lat": 33.69483,
+   "lng": -97.52252,
+   "at": "town"
+  },
+  {
+   "name": "Salado",
+   "chapter": "CTX",
+   "lat": 30.94688,
+   "lng": -97.53716,
+   "at": "town"
+  },
+  {
+   "name": "San Angelo Central",
+   "chapter": "SAN",
+   "lat": 31.43042,
+   "lng": -100.45998,
+   "at": "stadium"
+  },
+  {
+   "name": "San Angelo Lake View",
+   "chapter": "SAN",
+   "lat": 31.43042,
+   "lng": -100.45998,
+   "at": "stadium"
+  },
+  {
+   "name": "San Angelo TLCA",
+   "chapter": "SAN",
+   "lat": 31.46497,
+   "lng": -100.44051,
+   "at": "town"
+  },
+  {
+   "name": "San Antonio Alamo Heights",
+   "chapter": "SAT",
+   "lat": 29.49145,
+   "lng": -98.46351,
+   "at": "stadium"
+  },
+  {
+   "name": "San Antonio Brackenridge",
+   "chapter": "SAT",
+   "lat": 29.39116,
+   "lng": -98.50789,
+   "at": "stadium"
+  },
+  {
+   "name": "San Antonio Brandeis",
+   "chapter": "SAT",
+   "lat": 29.56489,
+   "lng": -98.65321,
+   "at": "stadium"
+  },
+  {
+   "name": "San Antonio Brennan",
+   "chapter": "SAT",
+   "lat": 29.4246,
+   "lng": -98.49514,
+   "at": "town"
+  },
+  {
+   "name": "San Antonio Burbank",
+   "chapter": "SAT",
+   "lat": 29.39116,
+   "lng": -98.50789,
+   "at": "stadium"
+  },
+  {
+   "name": "San Antonio Churchill",
+   "chapter": "SAT",
+   "lat": 29.54911,
+   "lng": -98.46586,
+   "at": "stadium"
+  },
+  {
+   "name": "San Antonio Clark",
+   "chapter": "SAT",
+   "lat": 29.45314,
+   "lng": -98.6251,
+   "at": "stadium"
+  },
+  {
+   "name": "San Antonio Cole",
+   "chapter": "SAT",
+   "lat": 29.4246,
+   "lng": -98.49514,
+   "at": "town"
+  },
+  {
+   "name": "San Antonio Davenport",
+   "chapter": "SAT",
+   "lat": 29.4246,
+   "lng": -98.49514,
+   "at": "town"
+  },
+  {
+   "name": "San Antonio East Central",
+   "chapter": "SAT",
+   "lat": 29.4246,
+   "lng": -98.49514,
+   "at": "town"
+  },
+  {
+   "name": "San Antonio Edison",
+   "chapter": "SAT",
+   "lat": 29.39116,
+   "lng": -98.50789,
+   "at": "stadium"
+  },
+  {
+   "name": "San Antonio Harlan",
+   "chapter": "SAT",
+   "lat": 29.4246,
+   "lng": -98.49514,
+   "at": "town"
+  },
+  {
+   "name": "San Antonio Harlandale",
+   "chapter": "SAT",
+   "lat": 29.37907,
+   "lng": -98.48233,
+   "at": "stadium"
+  },
+  {
+   "name": "San Antonio Highlands",
+   "chapter": "SAT",
+   "lat": 29.39116,
+   "lng": -98.50789,
+   "at": "stadium"
+  },
+  {
+   "name": "San Antonio Holmes",
+   "chapter": "SAT",
+   "lat": 29.4246,
+   "lng": -98.49514,
+   "at": "town"
+  },
+  {
+   "name": "San Antonio Houston",
+   "chapter": "SAT",
+   "lat": 29.39116,
+   "lng": -98.50789,
+   "at": "stadium"
+  },
+  {
+   "name": "San Antonio Jay",
+   "chapter": "SAT",
+   "lat": 29.45314,
+   "lng": -98.6251,
+   "at": "stadium"
+  },
+  {
+   "name": "San Antonio Jefferson",
+   "chapter": "SAT",
+   "lat": 29.39116,
+   "lng": -98.50789,
+   "at": "stadium"
+  },
+  {
+   "name": "San Antonio John Jay",
+   "chapter": "SAT",
+   "lat": 29.4246,
+   "lng": -98.49514,
+   "at": "town"
+  },
+  {
+   "name": "San Antonio Johnson",
+   "chapter": "SAT",
+   "lat": 29.54911,
+   "lng": -98.46586,
+   "at": "stadium"
+  },
+  {
+   "name": "San Antonio Kennedy",
+   "chapter": "SAT",
+   "lat": 29.4246,
+   "lng": -98.49514,
+   "at": "town"
+  },
+  {
+   "name": "San Antonio Lanier",
+   "chapter": "SAT",
+   "lat": 29.39116,
+   "lng": -98.50789,
+   "at": "stadium"
+  },
+  {
+   "name": "San Antonio Lee",
+   "chapter": "SAT",
+   "lat": 29.4246,
+   "lng": -98.49514,
+   "at": "town"
+  },
+  {
+   "name": "San Antonio MacArthur",
+   "chapter": "SAT",
+   "lat": 29.54911,
+   "lng": -98.46586,
+   "at": "stadium"
+  },
+  {
+   "name": "San Antonio Madison",
+   "chapter": "SAT",
+   "lat": 29.54911,
+   "lng": -98.46586,
+   "at": "stadium"
+  },
+  {
+   "name": "San Antonio Marshall",
+   "chapter": "SAT",
+   "lat": 29.45314,
+   "lng": -98.6251,
+   "at": "stadium"
+  },
+  {
+   "name": "San Antonio McCollum",
+   "chapter": "SAT",
+   "lat": 29.37907,
+   "lng": -98.48233,
+   "at": "stadium"
+  },
+  {
+   "name": "San Antonio Memorial",
+   "chapter": "SAT",
+   "lat": 29.4246,
+   "lng": -98.49514,
+   "at": "town"
+  },
+  {
+   "name": "San Antonio O'Connor",
+   "chapter": "SAT",
+   "lat": 29.4246,
+   "lng": -98.49514,
+   "at": "town"
+  },
+  {
+   "name": "San Antonio Pieper",
+   "chapter": "SAT",
+   "lat": 29.4246,
+   "lng": -98.49514,
+   "at": "town"
+  },
+  {
+   "name": "San Antonio Reagan",
+   "chapter": "SAT",
+   "lat": 29.54911,
+   "lng": -98.46586,
+   "at": "stadium"
+  },
+  {
+   "name": "San Antonio Roosevelt",
+   "chapter": "SAT",
+   "lat": 29.54911,
+   "lng": -98.46586,
+   "at": "stadium"
+  },
+  {
+   "name": "San Antonio Sam Houston",
+   "chapter": "SAT",
+   "lat": 29.4246,
+   "lng": -98.49514,
+   "at": "town"
+  },
+  {
+   "name": "San Antonio Sotomayor",
+   "chapter": "SAT",
+   "lat": 29.4246,
+   "lng": -98.49514,
+   "at": "town"
+  },
+  {
+   "name": "San Antonio Southside",
+   "chapter": "SAT",
+   "lat": 29.25611,
+   "lng": -98.48585,
+   "at": "stadium"
+  },
+  {
+   "name": "San Antonio Southwest",
+   "chapter": "SAT",
+   "lat": 29.4246,
+   "lng": -98.49514,
+   "at": "town"
+  },
+  {
+   "name": "San Antonio Southwest Legacy",
+   "chapter": "SAT",
+   "lat": 29.4246,
+   "lng": -98.49514,
+   "at": "town"
+  },
+  {
+   "name": "San Antonio Stevens",
+   "chapter": "SAT",
+   "lat": 29.45314,
+   "lng": -98.6251,
+   "at": "stadium"
+  },
+  {
+   "name": "San Antonio Taft",
+   "chapter": "SAT",
+   "lat": 29.45314,
+   "lng": -98.6251,
+   "at": "stadium"
+  },
+  {
+   "name": "San Antonio Veterans Memorial",
+   "chapter": "SAT",
+   "lat": 29.4246,
+   "lng": -98.49514,
+   "at": "town"
+  },
+  {
+   "name": "San Antonio Wagner",
+   "chapter": "SAT",
+   "lat": 29.4246,
+   "lng": -98.49514,
+   "at": "town"
+  },
+  {
+   "name": "San Antonio Warren",
+   "chapter": "SAT",
+   "lat": 29.45314,
+   "lng": -98.6251,
+   "at": "stadium"
+  },
+  {
+   "name": "San Antonio YMLA",
+   "chapter": "SAT",
+   "lat": 29.4246,
+   "lng": -98.49514,
+   "at": "town"
+  },
+  {
+   "name": "San Augustine",
+   "chapter": "SFA",
+   "lat": 31.53505,
+   "lng": -94.10114,
+   "at": "stadium"
+  },
+  {
+   "name": "San Benito",
+   "chapter": "SAT",
+   "lat": 26.13262,
+   "lng": -97.63079,
+   "at": "town"
+  },
+  {
+   "name": "San Diego",
+   "chapter": "ABI",
+   "lat": 27.76391,
+   "lng": -98.2389,
+   "at": "town"
+  },
+  {
+   "name": "San Elizario",
+   "chapter": "ELP",
+   "lat": 31.58698,
+   "lng": -106.26601,
+   "at": "town"
+  },
+  {
+   "name": "San Marcos",
+   "chapter": "SAT",
+   "lat": 29.82228,
+   "lng": -97.94768,
+   "at": "stadium"
+  },
+  {
+   "name": "San Saba",
+   "chapter": "AUS",
+   "lat": 31.19538,
+   "lng": -98.72283,
+   "at": "town"
+  },
+  {
+   "name": "Sanderson",
+   "chapter": "PBC",
+   "lat": 30.14241,
+   "lng": -102.39402,
+   "at": "town"
+  },
+  {
+   "name": "Sands",
+   "chapter": "PBC",
+   "lat": 32.52639,
+   "lng": -101.71581,
+   "at": "town"
+  },
+  {
+   "name": "Sanford-Fritch",
+   "chapter": "AMA",
+   "lat": 35.63977,
+   "lng": -101.60323,
+   "at": "town"
+  },
+  {
+   "name": "Sanger",
+   "chapter": "DAL",
+   "lat": 33.36317,
+   "lng": -97.1739,
+   "at": "town"
+  },
+  {
+   "name": "Santa Fe",
+   "chapter": "HOU",
+   "lat": 29.37801,
+   "lng": -95.10576,
+   "at": "town"
+  },
+  {
+   "name": "Santo",
+   "chapter": "FTW",
+   "lat": 32.60373,
+   "lng": -98.21411,
+   "at": "town"
+  },
+  {
+   "name": "Schertz Clemens",
+   "chapter": "SAT",
+   "lat": 29.56416,
+   "lng": -98.26957,
+   "at": "town"
+  },
+  {
+   "name": "Schulenburg",
+   "chapter": "AUS",
+   "lat": 29.68012,
+   "lng": -96.9046,
+   "at": "town"
+  },
+  {
+   "name": "Scurry-Rosser",
+   "chapter": "DAL",
+   "lat": 32.51875,
+   "lng": -96.38082,
+   "at": "town"
+  },
+  {
+   "name": "Seagoville",
+   "chapter": "DAL",
+   "lat": 32.64479,
+   "lng": -96.54186,
+   "at": "town"
+  },
+  {
+   "name": "Seagraves",
+   "chapter": "SPC",
+   "lat": 32.94379,
+   "lng": -102.56598,
+   "at": "town"
+  },
+  {
+   "name": "Sealy",
+   "chapter": "HOU",
+   "lat": 29.77899,
+   "lng": -96.15684,
+   "at": "town"
+  },
+  {
+   "name": "Seguin",
+   "chapter": "SAT",
+   "lat": 29.5688,
+   "lng": -97.9647,
+   "at": "town"
+  },
+  {
+   "name": "Seminole",
+   "chapter": "SPC",
+   "lat": 32.71674,
+   "lng": -102.6491,
+   "at": "stadium"
+  },
+  {
+   "name": "Seymour",
+   "chapter": "NTX",
+   "lat": 33.59424,
+   "lng": -99.26031,
+   "at": "town"
+  },
+  {
+   "name": "Shallowater",
+   "chapter": "SPC",
+   "lat": 33.69117,
+   "lng": -101.99272,
+   "at": "town"
+  },
+  {
+   "name": "Shamrock",
+   "chapter": "AMA",
+   "lat": 35.21422,
+   "lng": -100.24901,
+   "at": "town"
+  },
+  {
+   "name": "Shelbyville",
+   "chapter": "SFA",
+   "lat": 31.76073,
+   "lng": -94.07819,
+   "at": "town"
+  },
+  {
+   "name": "Shepherd",
+   "chapter": "HOU",
+   "lat": 30.49798,
+   "lng": -94.9966,
+   "at": "town"
+  },
+  {
+   "name": "Sherman",
+   "chapter": "DAL",
+   "lat": 33.63986,
+   "lng": -96.60891,
+   "at": "town"
+  },
+  {
+   "name": "Shiner",
+   "chapter": "AUS",
+   "lat": 29.42998,
+   "lng": -97.1718,
+   "at": "town"
+  },
+  {
+   "name": "Sierra Blanca",
+   "chapter": "ELP",
+   "lat": 31.17783,
+   "lng": -105.35763,
+   "at": "town"
+  },
+  {
+   "name": "Silsbee",
+   "chapter": "HOU",
+   "lat": 30.3491,
+   "lng": -94.17796,
+   "at": "town"
+  },
+  {
+   "name": "Silverton",
+   "chapter": "SPC",
+   "lat": 34.47077,
+   "lng": -101.30942,
+   "at": "stadium"
+  },
+  {
+   "name": "Slaton",
+   "chapter": "SPC",
+   "lat": 33.43437,
+   "lng": -101.64352,
+   "at": "town"
+  },
+  {
+   "name": "Smithville",
+   "chapter": "SAT",
+   "lat": 30.05438,
+   "lng": -97.21717,
+   "at": "stadium"
+  },
+  {
+   "name": "Smyer",
+   "chapter": "SPC",
+   "lat": 33.58426,
+   "lng": -102.16323,
+   "at": "town"
+  },
+  {
+   "name": "Snook",
+   "chapter": "CSC",
+   "lat": 30.48921,
+   "lng": -96.46543,
+   "at": "town"
+  },
+  {
+   "name": "Snyder",
+   "chapter": "ABI",
+   "lat": 32.69666,
+   "lng": -100.93113,
+   "at": "stadium"
+  },
+  {
+   "name": "Somerset",
+   "chapter": "SAT",
+   "lat": 29.22635,
+   "lng": -98.6578,
+   "at": "town"
+  },
+  {
+   "name": "Somerville",
+   "chapter": "CSC",
+   "lat": 30.34419,
+   "lng": -96.52913,
+   "at": "town"
+  },
+  {
+   "name": "Sonora",
+   "chapter": "SAN",
+   "lat": 30.56673,
+   "lng": -100.64286,
+   "at": "town"
+  },
+  {
+   "name": "South Garland",
+   "chapter": "DAL",
+   "lat": 32.88484,
+   "lng": -96.61429,
+   "at": "stadium"
+  },
+  {
+   "name": "South Grand Prairie",
+   "chapter": "FTW",
+   "lat": 32.74596,
+   "lng": -96.99778,
+   "at": "town"
+  },
+  {
+   "name": "South Houston",
+   "chapter": "HOU",
+   "lat": 29.66765,
+   "lng": -95.18413,
+   "at": "stadium"
+  },
+  {
+   "name": "South Oak Cliff",
+   "chapter": "DAL",
+   "lat": 32.77627,
+   "lng": -96.79686,
+   "at": "town"
+  },
+  {
+   "name": "South San Antonio",
+   "chapter": "SAT",
+   "lat": 29.4246,
+   "lng": -98.49514,
+   "at": "town"
+  },
+  {
+   "name": "Southlake Carroll",
+   "chapter": "FTW",
+   "lat": 32.94124,
+   "lng": -97.13418,
+   "at": "town"
+  },
+  {
+   "name": "Southland",
+   "chapter": "SPC",
+   "lat": 33.36204,
+   "lng": -101.55015,
+   "at": "town"
+  },
+  {
+   "name": "Spearman",
+   "chapter": "AMA",
+   "lat": 36.19389,
+   "lng": -101.19218,
+   "at": "town"
+  },
+  {
+   "name": "Splendora",
+   "chapter": "HOU",
+   "lat": 30.23299,
+   "lng": -95.16104,
+   "at": "town"
+  },
+  {
+   "name": "Spring",
+   "chapter": "HOU",
+   "lat": 30.07957,
+   "lng": -95.41879,
+   "at": "town"
+  },
+  {
+   "name": "Spring Dekaney",
+   "chapter": "HOU",
+   "lat": 30.07957,
+   "lng": -95.41879,
+   "at": "town"
+  },
+  {
+   "name": "Spring Hill",
+   "chapter": "TYL",
+   "lat": 32.56299,
+   "lng": -94.79641,
+   "at": "stadium"
+  },
+  {
+   "name": "Spring Klein Collins",
+   "chapter": "HOU",
+   "lat": 30.04076,
+   "lng": -95.53754,
+   "at": "stadium"
+  },
+  {
+   "name": "Spring Westfield",
+   "chapter": "HOU",
+   "lat": 30.07957,
+   "lng": -95.41879,
+   "at": "town"
+  },
+  {
+   "name": "Springlake-Earth",
+   "chapter": "SPC",
+   "lat": 34.23314,
+   "lng": -102.41075,
+   "at": "stadium"
+  },
+  {
+   "name": "Springtown",
+   "chapter": "FTW",
+   "lat": 32.97673,
+   "lng": -97.6936,
+   "at": "stadium"
+  },
+  {
+   "name": "Spur",
+   "chapter": "SPC",
+   "lat": 33.47648,
+   "lng": -100.85568,
+   "at": "town"
+  },
+  {
+   "name": "Stafford",
+   "chapter": "HOU",
+   "lat": 29.61607,
+   "lng": -95.55772,
+   "at": "town"
+  },
+  {
+   "name": "Stamford",
+   "chapter": "ABI",
+   "lat": 32.94488,
+   "lng": -99.80245,
+   "at": "town"
+  },
+  {
+   "name": "Stanton",
+   "chapter": "PBC",
+   "lat": 32.12929,
+   "lng": -101.78846,
+   "at": "town"
+  },
+  {
+   "name": "Stephenville",
+   "chapter": "FTW",
+   "lat": 32.22014,
+   "lng": -98.20454,
+   "at": "town"
+  },
+  {
+   "name": "Sterling City",
+   "chapter": "SAN",
+   "lat": 31.84039,
+   "lng": -100.98973,
+   "at": "stadium"
+  },
+  {
+   "name": "Stockdale",
+   "chapter": "SAT",
+   "lat": 29.23395,
+   "lng": -97.96077,
+   "at": "town"
+  },
+  {
+   "name": "Stratford",
+   "chapter": "AMA",
+   "lat": 36.33614,
+   "lng": -102.07212,
+   "at": "town"
+  },
+  {
+   "name": "Strawn",
+   "chapter": "FTW",
+   "lat": 32.55207,
+   "lng": -98.49811,
+   "at": "town"
+  },
+  {
+   "name": "Sudan",
+   "chapter": "SPC",
+   "lat": 34.06376,
+   "lng": -102.52969,
+   "at": "stadium"
+  },
+  {
+   "name": "Sulphur Springs",
+   "chapter": "TYL",
+   "lat": 33.14157,
+   "lng": -95.60695,
+   "at": "stadium"
+  },
+  {
+   "name": "Sundown",
+   "chapter": "SPC",
+   "lat": 33.45621,
+   "lng": -102.48936,
+   "at": "town"
+  },
+  {
+   "name": "Sunnyvale",
+   "chapter": "DAL",
+   "lat": 32.79652,
+   "lng": -96.56082,
+   "at": "town"
+  },
+  {
+   "name": "Sunray",
+   "chapter": "AMA",
+   "lat": 36.02073,
+   "lng": -101.82435,
+   "at": "town"
+  },
+  {
+   "name": "Sweeny",
+   "chapter": "HOU",
+   "lat": 29.04286,
+   "lng": -95.69773,
+   "at": "town"
+  },
+  {
+   "name": "Sweetwater",
+   "chapter": "ABI",
+   "lat": 32.48264,
+   "lng": -100.40611,
+   "at": "stadium"
+  },
+  {
+   "name": "Tahoka",
+   "chapter": "SPC",
+   "lat": 33.16476,
+   "lng": -101.79711,
+   "at": "town"
+  },
+  {
+   "name": "Tarkington",
+   "chapter": "HOU",
+   "lat": 30.34148,
+   "lng": -95.09001,
+   "at": "town"
+  },
+  {
+   "name": "Tatum",
+   "chapter": "TYL",
+   "lat": 32.31505,
+   "lng": -94.51637,
+   "at": "town"
+  },
+  {
+   "name": "Taylor",
+   "chapter": "AUS",
+   "lat": 30.57289,
+   "lng": -97.41411,
+   "at": "town"
+  },
+  {
+   "name": "Temple",
+   "chapter": "CTX",
+   "lat": 31.10685,
+   "lng": -97.35334,
+   "at": "stadium"
+  },
+  {
+   "name": "Tenaha",
+   "chapter": "TYL",
+   "lat": 31.94378,
+   "lng": -94.24409,
+   "at": "town"
+  },
+  {
+   "name": "Terrell",
+   "chapter": "DAL",
+   "lat": 32.73744,
+   "lng": -96.3144,
+   "at": "stadium"
+  },
+  {
+   "name": "Texarkana Pleasant Grove",
+   "chapter": "TYL",
+   "lat": 33.44667,
+   "lng": -94.07658,
+   "at": "town"
+  },
+  {
+   "name": "Texarkana Texas",
+   "chapter": "TYL",
+   "lat": 33.42794,
+   "lng": -94.06217,
+   "at": "stadium"
+  },
+  {
+   "name": "Texas City",
+   "chapter": "HOU",
+   "lat": 29.39325,
+   "lng": -94.92863,
+   "at": "stadium"
+  },
+  {
+   "name": "The Colony",
+   "chapter": "DAL",
+   "lat": 33.08901,
+   "lng": -96.88639,
+   "at": "town"
+  },
+  {
+   "name": "The Woodlands",
+   "chapter": "HOU",
+   "lat": 30.18487,
+   "lng": -95.44899,
+   "at": "stadium"
+  },
+  {
+   "name": "The Woodlands College Park",
+   "chapter": "HOU",
+   "lat": 30.18487,
+   "lng": -95.44899,
+   "at": "stadium"
+  },
+  {
+   "name": "Thorndale",
+   "chapter": "CTX",
+   "lat": 30.61392,
+   "lng": -97.20609,
+   "at": "town"
+  },
+  {
+   "name": "Thrall",
+   "chapter": "AUS",
+   "lat": 30.58784,
+   "lng": -97.29853,
+   "at": "town"
+  },
+  {
+   "name": "Throckmorton",
+   "chapter": "ABI",
+   "lat": 33.18327,
+   "lng": -99.18096,
+   "at": "stadium"
+  },
+  {
+   "name": "Tidehaven",
+   "chapter": "HOU",
+   "lat": 28.9372,
+   "lng": -96.0047,
+   "at": "town"
+  },
+  {
+   "name": "Timpson",
+   "chapter": "SFA",
+   "lat": 31.90378,
+   "lng": -94.3952,
+   "at": "town"
+  },
+  {
+   "name": "Tioga",
+   "chapter": "DAL",
+   "lat": 33.46784,
+   "lng": -96.91517,
+   "at": "town"
+  },
+  {
+   "name": "Tolar",
+   "chapter": "FTW",
+   "lat": 32.38936,
+   "lng": -97.91949,
+   "at": "town"
+  },
+  {
+   "name": "Tom Bean",
+   "chapter": "DAL",
+   "lat": 33.52011,
+   "lng": -96.48387,
+   "at": "town"
+  },
+  {
+   "name": "Tomball High",
+   "chapter": "HOU",
+   "lat": 30.11165,
+   "lng": -95.6257,
+   "at": "stadium"
+  },
+  {
+   "name": "Tomball Memorial",
+   "chapter": "HOU",
+   "lat": 30.11165,
+   "lng": -95.6257,
+   "at": "stadium"
+  },
+  {
+   "name": "Tornillo",
+   "chapter": "ELP",
+   "lat": 31.4454,
+   "lng": -106.0841,
+   "at": "town"
+  },
+  {
+   "name": "Trent",
+   "chapter": "ABI",
+   "lat": 32.48831,
+   "lng": -100.12341,
+   "at": "town"
+  },
+  {
+   "name": "Trenton",
+   "chapter": "DAL",
+   "lat": 33.43067,
+   "lng": -96.33859,
+   "at": "town"
+  },
+  {
+   "name": "Trinidad",
+   "chapter": "TYL",
+   "lat": 32.14404,
+   "lng": -96.09108,
+   "at": "town"
+  },
+  {
+   "name": "Trinity",
+   "chapter": "SFA",
+   "lat": 30.94519,
+   "lng": -95.3755,
+   "at": "town"
+  },
+  {
+   "name": "Trinity Leadership",
+   "chapter": "DAL",
+   "lat": 30.94519,
+   "lng": -95.3755,
+   "at": "town"
+  },
+  {
+   "name": "Troup",
+   "chapter": "TYL",
+   "lat": 32.14498,
+   "lng": -95.1215,
+   "at": "town"
+  },
+  {
+   "name": "Troy",
+   "chapter": "CTX",
+   "lat": 31.20465,
+   "lng": -97.30032,
+   "at": "town"
+  },
+  {
+   "name": "Tulia",
+   "chapter": "SPC",
+   "lat": 34.53906,
+   "lng": -101.76778,
+   "at": "town"
+  },
+  {
+   "name": "Turkey Valley",
+   "chapter": "AMA",
+   "lat": 34.39392,
+   "lng": -100.89408,
+   "at": "town"
+  },
+  {
+   "name": "Tyler Chapel Hill",
+   "chapter": "TYL",
+   "lat": 32.35126,
+   "lng": -95.30106,
+   "at": "town"
+  },
+  {
+   "name": "Tyler High",
+   "chapter": "TYL",
+   "lat": 32.34228,
+   "lng": -95.32406,
+   "at": "stadium"
+  },
+  {
+   "name": "Tyler Legacy",
+   "chapter": "TYL",
+   "lat": 32.34228,
+   "lng": -95.32406,
+   "at": "stadium"
+  },
+  {
+   "name": "Union Grove",
+   "chapter": "TYL",
+   "lat": 32.57976,
+   "lng": -94.91573,
+   "at": "town"
+  },
+  {
+   "name": "Union Hill",
+   "chapter": "TYL",
+   "lat": 32.7288,
+   "lng": -94.94456,
+   "at": "town"
+  },
+  {
+   "name": "Uvalde",
+   "chapter": "SAT",
+   "lat": 29.2098,
+   "lng": -99.78599,
+   "at": "town"
+  },
+  {
+   "name": "Valley Mills",
+   "chapter": "WAC",
+   "lat": 31.65842,
+   "lng": -97.47172,
+   "at": "town"
+  },
+  {
+   "name": "Valley View",
+   "chapter": "FTW",
+   "lat": 33.48817,
+   "lng": -97.16501,
+   "at": "town"
+  },
+  {
+   "name": "Van",
+   "chapter": "TYL",
+   "lat": 32.52491,
+   "lng": -95.63773,
+   "at": "town"
+  },
+  {
+   "name": "Van Alstyne",
+   "chapter": "DAL",
+   "lat": 33.42203,
+   "lng": -96.57648,
+   "at": "town"
+  },
+  {
+   "name": "Van Horn",
+   "chapter": "ELP",
+   "lat": 31.04297,
+   "lng": -104.83163,
+   "at": "town"
+  },
+  {
+   "name": "Van Vleck",
+   "chapter": "HOU",
+   "lat": 29.01796,
+   "lng": -95.89004,
+   "at": "town"
+  },
+  {
+   "name": "Vanderbilt Industrial",
+   "chapter": "HOU",
+   "lat": 28.82222,
+   "lng": -96.61602,
+   "at": "town"
+  },
+  {
+   "name": "Vega",
+   "chapter": "AMA",
+   "lat": 35.24603,
+   "lng": -102.42527,
+   "at": "town"
+  },
+  {
+   "name": "Venus",
+   "chapter": "DAL",
+   "lat": 32.43347,
+   "lng": -97.10251,
+   "at": "town"
+  },
+  {
+   "name": "Veribest",
+   "chapter": "SAN",
+   "lat": 31.47655,
+   "lng": -100.25953,
+   "at": "town"
+  },
+  {
+   "name": "Vernon",
+   "chapter": "NTX",
+   "lat": 34.14703,
+   "lng": -99.31611,
+   "at": "stadium"
+  },
+  {
+   "name": "Vernon Northside",
+   "chapter": "NTX",
+   "lat": 34.15131,
+   "lng": -99.28609,
+   "at": "town"
+  },
+  {
+   "name": "Victoria East",
+   "chapter": "HOU",
+   "lat": 28.79975,
+   "lng": -97.00642,
+   "at": "town"
+  },
+  {
+   "name": "Victoria West",
+   "chapter": "HOU",
+   "lat": 28.79975,
+   "lng": -97.00642,
+   "at": "town"
+  },
+  {
+   "name": "Vidor",
+   "chapter": "HOU",
+   "lat": 30.13133,
+   "lng": -94.0148,
+   "at": "town"
+  },
+  {
+   "name": "Waco",
+   "chapter": "WAC",
+   "lat": 31.50814,
+   "lng": -97.15987,
+   "at": "stadium"
+  },
+  {
+   "name": "Waco Connally",
+   "chapter": "WAC",
+   "lat": 31.63028,
+   "lng": -97.09893,
+   "at": "town"
+  },
+  {
+   "name": "Waco Midway",
+   "chapter": "WAC",
+   "lat": 31.55451,
+   "lng": -97.13256,
+   "at": "town"
+  },
+  {
+   "name": "Wall",
+   "chapter": "SAN",
+   "lat": 31.37435,
+   "lng": -100.30366,
+   "at": "town"
+  },
+  {
+   "name": "Waller",
+   "chapter": "HOU",
+   "lat": 30.05845,
+   "lng": -95.92673,
+   "at": "town"
+  },
+  {
+   "name": "Wallis Brazos",
+   "chapter": "HOU",
+   "lat": 29.63135,
+   "lng": -96.06524,
+   "at": "town"
+  },
+  {
+   "name": "Waskom",
+   "chapter": "TYL",
+   "lat": 32.47876,
+   "lng": -94.05963,
+   "at": "town"
+  },
+  {
+   "name": "Water Valley",
+   "chapter": "SAN",
+   "lat": 31.6585,
+   "lng": -100.7148,
+   "at": "town"
+  },
+  {
+   "name": "Weatherford",
+   "chapter": "FTW",
+   "lat": 32.748,
+   "lng": -97.79743,
+   "at": "stadium"
+  },
+  {
+   "name": "Weimar",
+   "chapter": "AUS",
+   "lat": 29.703,
+   "lng": -96.7803,
+   "at": "town"
+  },
+  {
+   "name": "Wellington",
+   "chapter": "AMA",
+   "lat": 34.85599,
+   "lng": -100.21359,
+   "at": "town"
+  },
+  {
+   "name": "Wellman-Union",
+   "chapter": "SPC",
+   "lat": 33.04645,
+   "lng": -102.42758,
+   "at": "town"
+  },
+  {
+   "name": "Weslaco",
+   "chapter": "RGV",
+   "lat": 26.16823,
+   "lng": -98.00656,
+   "at": "stadium"
+  },
+  {
+   "name": "Weslaco East",
+   "chapter": "RGV",
+   "lat": 26.16823,
+   "lng": -98.00656,
+   "at": "stadium"
+  },
+  {
+   "name": "West Columbia",
+   "chapter": "HOU",
+   "lat": 29.14386,
+   "lng": -95.64522,
+   "at": "town"
+  },
+  {
+   "name": "West Fork",
+   "chapter": "HOU",
+   "lat": 31.80348,
+   "lng": -97.09335,
+   "at": "town"
+  },
+  {
+   "name": "West Mesquite",
+   "chapter": "DAL",
+   "lat": 32.76383,
+   "lng": -96.63472,
+   "at": "stadium"
+  },
+  {
+   "name": "West Rusk",
+   "chapter": "TYL",
+   "lat": 32.23775,
+   "lng": -94.94092,
+   "at": "town"
+  },
+  {
+   "name": "West Sabine",
+   "chapter": "SFA",
+   "lat": 31.24797,
+   "lng": -93.97436,
+   "at": "town"
+  },
+  {
+   "name": "West Texas Stinnett",
+   "chapter": "AMA",
+   "lat": 35.8273,
+   "lng": -101.4427,
+   "at": "town"
+  },
+  {
+   "name": "Westbrook",
+   "chapter": "PBC",
+   "lat": 32.36069,
+   "lng": -101.01379,
+   "at": "stadium"
+  },
+  {
+   "name": "Wharton",
+   "chapter": "HOU",
+   "lat": 29.31248,
+   "lng": -96.09824,
+   "at": "town"
+  },
+  {
+   "name": "Wheeler",
+   "chapter": "AMA",
+   "lat": 35.44259,
+   "lng": -100.27285,
+   "at": "town"
+  },
+  {
+   "name": "White Deer",
+   "chapter": "AMA",
+   "lat": 35.43092,
+   "lng": -101.17476,
+   "at": "town"
+  },
+  {
+   "name": "White Oak",
+   "chapter": "TYL",
+   "lat": 32.52716,
+   "lng": -94.86097,
+   "at": "town"
+  },
+  {
+   "name": "Whiteface",
+   "chapter": "SPC",
+   "lat": 33.6001,
+   "lng": -102.61381,
+   "at": "town"
+  },
+  {
+   "name": "Whitehouse",
+   "chapter": "TYL",
+   "lat": 32.22687,
+   "lng": -95.22593,
+   "at": "town"
+  },
+  {
+   "name": "Whitesboro",
+   "chapter": "DAL",
+   "lat": 33.6558,
+   "lng": -96.90686,
+   "at": "town"
+  },
+  {
+   "name": "Whitewright",
+   "chapter": "DAL",
+   "lat": 33.51226,
+   "lng": -96.39468,
+   "at": "town"
+  },
+  {
+   "name": "Whitharral",
+   "chapter": "SPC",
+   "lat": 33.73759,
+   "lng": -102.32712,
+   "at": "town"
+  },
+  {
+   "name": "Whitney",
+   "chapter": "WAC",
+   "lat": 31.95182,
+   "lng": -97.3214,
+   "at": "town"
+  },
+  {
+   "name": "Wichita Christian",
+   "chapter": "NTX",
+   "lat": 33.90046,
+   "lng": -98.50208,
+   "at": "town"
+  },
+  {
+   "name": "Wichita Falls City View",
+   "chapter": "NTX",
+   "lat": 33.90046,
+   "lng": -98.50208,
+   "at": "town"
+  },
+  {
+   "name": "Wichita Falls High",
+   "chapter": "NTX",
+   "lat": 33.90046,
+   "lng": -98.50208,
+   "at": "town"
+  },
+  {
+   "name": "Wichita Falls Hirschi",
+   "chapter": "NTX",
+   "lat": 33.90046,
+   "lng": -98.50208,
+   "at": "town"
+  },
+  {
+   "name": "Wichita Falls Legacy",
+   "chapter": "NTX",
+   "lat": 33.90046,
+   "lng": -98.50208,
+   "at": "town"
+  },
+  {
+   "name": "Wichita Falls Memorial",
+   "chapter": "NTX",
+   "lat": 33.90046,
+   "lng": -98.50208,
+   "at": "town"
+  },
+  {
+   "name": "Wichita Falls Rider",
+   "chapter": "NTX",
+   "lat": 33.90046,
+   "lng": -98.50208,
+   "at": "town"
+  },
+  {
+   "name": "Wildorado",
+   "chapter": "AMA",
+   "lat": 35.20974,
+   "lng": -102.20169,
+   "at": "town"
+  },
+  {
+   "name": "Willis",
+   "chapter": "HOU",
+   "lat": 30.43195,
+   "lng": -95.48743,
+   "at": "stadium"
+  },
+  {
+   "name": "Wills Point",
+   "chapter": "TYL",
+   "lat": 32.7093,
+   "lng": -96.0083,
+   "at": "town"
+  },
+  {
+   "name": "Wilson",
+   "chapter": "SPC",
+   "lat": 33.32065,
+   "lng": -101.7252,
+   "at": "town"
+  },
+  {
+   "name": "Wimberley",
+   "chapter": "SAT",
+   "lat": 29.99768,
+   "lng": -98.09879,
+   "at": "town"
+  },
+  {
+   "name": "Windthorst",
+   "chapter": "NTX",
+   "lat": 33.57623,
+   "lng": -98.43692,
+   "at": "town"
+  },
+  {
+   "name": "Wink",
+   "chapter": "PBC",
+   "lat": 31.7534,
+   "lng": -103.15583,
+   "at": "town"
+  },
+  {
+   "name": "Winnsboro",
+   "chapter": "TYL",
+   "lat": 32.95345,
+   "lng": -95.30047,
+   "at": "stadium"
+  },
+  {
+   "name": "Winona",
+   "chapter": "TYL",
+   "lat": 32.49059,
+   "lng": -95.16689,
+   "at": "town"
+  },
+  {
+   "name": "Winters",
+   "chapter": "ABI",
+   "lat": 31.95769,
+   "lng": -99.96283,
+   "at": "town"
+  },
+  {
+   "name": "Wolfe City",
+   "chapter": "DAL",
+   "lat": 33.36867,
+   "lng": -96.0713,
+   "at": "town"
+  },
+  {
+   "name": "Woodson",
+   "chapter": "ABI",
+   "lat": 33.01483,
+   "lng": -99.05424,
+   "at": "town"
+  },
+  {
+   "name": "Woodville",
+   "chapter": "SFA",
+   "lat": 30.77709,
+   "lng": -94.41851,
+   "at": "town"
+  },
+  {
+   "name": "Wylie",
+   "chapter": "DAL",
+   "lat": 33.01516,
+   "lng": -96.5388,
+   "at": "town"
+  },
+  {
+   "name": "Wylie East",
+   "chapter": "DAL",
+   "lat": 33.00601,
+   "lng": -96.57207,
+   "at": "stadium"
+  },
+  {
+   "name": "Yoakum",
+   "chapter": "SAT",
+   "lat": 29.28936,
+   "lng": -97.16382,
+   "at": "stadium"
+  },
+  {
+   "name": "Yorktown",
+   "chapter": "SAT",
+   "lat": 28.98231,
+   "lng": -97.50247,
+   "at": "town"
+  },
+  {
+   "name": "Young Mens Leadership Academy",
+   "chapter": "SAT",
+   "lat": 29.4246,
+   "lng": -98.49514,
+   "at": "town"
+  }
+ ],
+ "unplaced": []
+}

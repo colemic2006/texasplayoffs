@@ -29,10 +29,31 @@ for v in cache.values():
         spot.setdefault(v['stadium_id'], (v['lat'], v['lng']))
 cities = {(s.get('city') or '').lower() for s in stadiums}
 
+# schools named for their district or campus rather than their town
+TOWN = {
+    'A&M Consolidated': 'College Station', 'Aldine MacArthur': 'Houston', 'Alief Elsik': 'Houston', 'Alief Hastings': 'Houston',
+    'Almeta Crawford': 'Fresno', 'Barbers Hill': 'Mont Belvieu', 'Barksdale Nueces Canyon': 'Barksdale', 'Bastrop Cedar Creek': 'Bastrop',
+    'Big Sandy Harmony': 'Big Sandy', 'Birdville': 'North Richland Hills', 'Brackett': 'Brackettville', 'Brazosport Brazoswood': 'Clute',
+    'Brook Hill': 'Bullard', 'Comal Pieper': 'San Antonio', 'Community': 'Nevada', 'Fort Bend Austin': 'Sugar Land',
+    'Fort Bend Bush': 'Richmond', 'Fort Bend Clements': 'Sugar Land', 'Fort Bend Dulles': 'Sugar Land', 'Fort Bend Elkins': 'Missouri City',
+    'Fort Bend Hightower': 'Missouri City', 'Fort Bend Kempner': 'Sugar Land', 'Fort Bend Marshall': 'Missouri City',
+    'Fort Bend Travis': 'Richmond', 'Fort Bend Willowridge': 'Houston', 'Frenship Memorial': 'Lubbock', 'Fulshear Jordan': 'Fulshear',
+    'Grand Oaks': 'Spring', 'Haltom': 'Haltom City', 'Immanuel Christian': 'El Paso', 'Irion County': 'Mertzon', 'Jesus Chapel': 'El Paso',
+    'Kyle Lehman': 'Kyle', 'Lake Belton': 'Temple', 'Legacy Ranch': 'Liberty Hill', 'Life Oak Cliff': 'Dallas', 'Life Waxahachie': 'Waxahachie',
+    'McAllenHigh': 'McAllen', 'New Diana': 'Diana', 'Northbrook': 'Houston', "O'Donnell": 'ODonnell', 'Pharr-San Juan-Alamo': 'Pharr',
+    'Richmond Randle': 'Richmond', 'Richmond Tomas': 'Richmond', 'Rockwall-Heath': 'Rockwall', 'Ropes': 'Ropesville',
+    'Rosenburg Lamar': 'Rosenberg', 'Rosenburg Terry': 'Rosenberg', 'S&S Consolidated': 'Sadler', 'Sands': 'Ackerly',
+    'South Grand Prairie': 'Grand Prairie', 'Tarkington': 'Cleveland', 'Tidehaven': 'El Maton', 'Wichita Christian': 'Wichita Falls',
+    'Young Mens Leadership Academy': 'San Antonio', 'Highland': 'Roscoe', 'West Texas Stinnett': 'Stinnett',
+    'Klondike': 'Lamesa', 'Cotton Center': 'Cotton Center', 'Dawson': 'Welch', 'Center Point': 'Center Point',
+    'Sabine': 'Liberty City', 'Groesbeck': 'Groesbeck', 'Tornillo': 'Tornillo', 'Water Valley': 'Water Valley', 'Weimar': 'Weimar', 'Bishop Gorman': 'Tyler', 'Seguin': 'Seguin', 'San Antonio Sam Houston': 'San Antonio',
+}
 PREFIX = {'fw': 'Fort Worth', 'sa': 'San Antonio', 'cc': 'Corpus Christi', 'ep': 'El Paso', 'disd': 'Dallas'}
 
 
 def town_of(team):
+    if team in TOWN:
+        return TOWN[team]
     h = teams.get(team)
     if h and h.get('city'):
         return h['city']
@@ -47,7 +68,7 @@ def town_of(team):
 
 def town_spot(town):
     k = town.lower()
-    if k not in towns:
+    if towns.get(k) is None:   # not looked up yet, or missed last time
         try:
             import game_sites
             ll = game_sites.nominatim(dict(city=town, state='Texas'), town)
@@ -63,7 +84,7 @@ out, unplaced = [], []
 for name, ch in sorted(home.items()):
     h = teams.get(name) or {}
     sid = h.get('stadium_id')
-    if sid in spot:
+    if sid in spot and name not in TOWN:
         lat, lng = spot[sid]; at = 'stadium'
     else:
         ll = town_spot(town_of(name))

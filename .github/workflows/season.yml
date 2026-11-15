@@ -48,6 +48,10 @@ jobs:
         continue-on-error: true
         run: python3 scripts/home_chapters.py
 
+      - name: Chapter coverage map (school locations)
+        continue-on-error: true
+        run: python3 scripts/chapter_map.py
+
       - name: District seeds from UIL brackets
         run: python3 scripts/uil_seeds.py $(date +%Y)
         continue-on-error: true
