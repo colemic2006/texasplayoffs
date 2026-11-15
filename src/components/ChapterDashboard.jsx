@@ -70,10 +70,12 @@ function RoundCounts({ games }) {
 function heat(val, avg) {
   if (avg == null) return null
   const t = Math.max(-1, Math.min(1, Math.log2((val + 0.5) / (avg + 0.5)) / 1.1))
-  if (Math.abs(t) < 0.09) return { bg: 'rgba(15,13,11,0.04)', strong: false, t }
+  if (Math.abs(t) < 0.09) return { bg: 'rgba(15,13,11,0.04)', strong: false, t, neutral: true }
   const a = 0.12 + 0.6 * Math.abs(t)
   return { bg: t > 0 ? `rgba(34,139,76,${a.toFixed(2)})` : `rgba(206,46,46,${a.toFixed(2)})`, strong: a > 0.5, t }
 }
+// a small arrow so above/below doesn't rest on red vs. green alone
+const arrow = h => h && !h.neutral ? <span aria-hidden="true" style={{ fontSize:'0.7em', marginLeft:2, verticalAlign:'0.1em' }}>{h.t > 0 ? '▲' : '▼'}</span> : null
 const pctOff = (v, a) => a > 0 ? `${v >= a ? '+' : ''}${Math.round(100 * (v - a) / a)}%` : (v > 0 ? 'new' : 'even')
 
 export default function ChapterDashboard({ data, year, allData = {}, years = [], loadAllYears }) {
@@ -407,11 +409,11 @@ export default function ChapterDashboard({ data, year, allData = {}, years = [],
         <div style={{ display:'flex', alignItems:'center', gap:10, flexWrap:'wrap', fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', margin:'0 0 8px' }}>
           <span>Shaded against each chapter's own average in other seasons:</span>
           <span style={{ display:'inline-flex', alignItems:'center', gap:3 }}>
-            <span>below</span>
+            <span>▼ below</span>
             {[0.72, 0.42, 0.04, 0.42, 0.72].map((a, i) => (
               <span key={i} style={{ width:18, height:12, borderRadius:2, background: i < 2 ? `rgba(206,46,46,${a})` : i === 2 ? 'rgba(15,13,11,0.04)' : `rgba(34,139,76,${a})`, border:'1px solid var(--border)' }} />
             ))}
-            <span>above</span>
+            <span>above ▲</span>
           </span>
           <span>· hover a cell for the numbers{inProgress ? ' · a week is shaded once 90% of its games have a chapter' : ''}</span>
         </div>
@@ -472,7 +474,7 @@ export default function ChapterDashboard({ data, year, allData = {}, years = [],
                             display:'inline-block', minWidth:28, padding:'1px 0',
                             fontWeight: val > 0 ? 600 : 400,
                             color: h?.strong ? '#fff' : val > 0 ? 'var(--ink)' : 'rgba(15,13,11,0.35)'
-                          }}>{val}</span>
+                          }}>{val}{arrow(h)}</span>
                           {histAvg[ch.code] && (
                             <div title={`Average in week ${w}, ${histAvg[ch.code].seasons} other season${histAvg[ch.code].seasons === 1 ? '' : 's'}`}
                                  style={{ fontSize:9, color: h?.strong ? 'rgba(255,255,255,0.85)' : 'var(--mid)', opacity:0.85, marginTop:1 }}>
@@ -491,7 +493,7 @@ export default function ChapterDashboard({ data, year, allData = {}, years = [],
                         <td title={h ? `${rowTotal} games vs. ${histAvg[ch.code].avg.toFixed(1)} average through week ${playedThrough} (${pctOff(rowTotal, histAvg[ch.code].avg)})` : undefined}
                             style={{ ...tdStyle, textAlign:'center', fontFamily:"'Bebas Neue', sans-serif", fontSize:18,
                                      color: h?.strong ? '#fff' : 'var(--burnt)', background: h ? h.bg : undefined, boxShadow: h ? 'inset 0 0 0 1px var(--surface)' : undefined }}>
-                          {rowTotal}
+                          {rowTotal}{arrow(h)}
                         </td>
                       )
                     })()}
