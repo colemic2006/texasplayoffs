@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-15T22:27+00:00",
+    "updated": "2026-11-15T22:40+00:00",
     "games": 528,
     "played": 352,
     "assigned": 469,
@@ -7959,7 +7959,7 @@
       "stadium": "Happy State Bank Stadium",
       "map_link": "https://goo.gl/maps/uL2MSfaBvwkSJvek7",
       "city": "Canyon",
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "time": "4:00 PM",
       "changes": [
         {
@@ -7967,6 +7967,13 @@
           "old": "2026-11-14",
           "new": "2026-11-20",
           "at": "2026-11-15T05:18+00:00",
+          "status": "changed"
+        },
+        {
+          "field": "date",
+          "old": "2026-11-20",
+          "new": "2026-11-19",
+          "at": "2026-11-15T22:40+00:00",
           "status": "changed"
         }
       ]
