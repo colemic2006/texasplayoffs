@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-15T00:33+00:00",
+    "updated": "2026-11-15T01:30+00:00",
     "games": 526,
-    "played": 350,
+    "played": 351,
     "assigned": 367,
     "weeks": {
       "1": {
@@ -7270,10 +7270,10 @@
       "round": "Bi-District",
       "chapter": "HOU",
       "team1": "Laredo Alexander",
-      "score1": null,
+      "score1": 18,
       "team2": "San Antonio Warren",
-      "score2": null,
-      "winner": null,
+      "score2": 43,
+      "winner": "San Antonio Warren",
       "site": "United ISD Student Activity Center Field (Laredo)",
       "lat": 27.49874,
       "lng": -99.43674,
