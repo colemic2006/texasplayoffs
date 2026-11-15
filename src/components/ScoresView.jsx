@@ -3,7 +3,7 @@ import { chapterColor } from '../chapterColors'
 
 // Score stats across every season on file, by round, with the chapter that worked each game
 const ROUNDS = { 1: 'Bi-District', 2: 'Area', 3: 'Regionals', 4: 'Quarterfinals', 5: 'Semifinals', 6: 'State Final' }
-const CLASSES = ['6A D1','6A D2','5A D1','5A D2','4A D1','4A D2','3A D1','3A D2','2A D1','2A D2','1A D1','1A D2','Six Man D1','Six Man D2']
+const CLASSES = ['6A D1','6A D2','5A D1','5A D2','4A D1','4A D2','3A D1','3A D2','2A D1','2A D2','1A D1','1A D2','1A D1 (11-man, pre-2014)','1A D2 (11-man, pre-2014)','Six Man D1','Six Man D2']
 const normCh = c => ({ WACO: 'WAC' }[c] || c || '')
 // six-man: its own brackets before the 2014 realignment, then 1A (which was eleven-man before that)
 const sixMan = g => /six/i.test(g.classification) || (g.classification.startsWith('1A') && g.year >= 2014)
@@ -70,6 +70,8 @@ export default function ScoresView({ allData, years }) {
 
   const raw = useMemo(() => years.flatMap(y => (allData[y]?.games || [])
     .filter(g => Number.isFinite(g.score1) && Number.isFinite(g.score2) && !g.forfeit && (g.score1 + g.score2) > 0 && g.score1 !== g.score2)
+    // 1A was eleven-man until the 2014 realignment; label those games so they aren't read as today's six-man 1A
+    .map(g => (g.classification.startsWith('1A') && y < 2014) ? { ...g, classification: `${g.classification} (11-man, pre-2014)` } : g)
     .map(g => ({ ...g, year: y, total: g.score1 + g.score2, margin: Math.abs(g.score1 - g.score2), high: Math.max(g.score1, g.score2), low: Math.min(g.score1, g.score2) }))), [allData, years])
   // six-man has its own rules, shorter quarters and a 45-point mercy rule, so it's never mixed in
   const all = raw.filter(g => kind === 'six' ? sixMan(g) : !sixMan(g))
