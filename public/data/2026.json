@@ -2,10 +2,10 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-15T05:18+00:00",
+    "updated": "2026-11-15T05:43+00:00",
     "games": 528,
     "played": 352,
-    "assigned": 368,
+    "assigned": 384,
     "weeks": {
       "1": {
         "games": 352,
@@ -13,7 +13,7 @@
       },
       "2": {
         "games": 176,
-        "assigned": 16
+        "assigned": 32
       },
       "3": {
         "games": 0,
@@ -75,6 +75,42 @@
             "5A D2": 4,
             "6A D1": 6,
             "6A D2": 4
+          }
+        }
+      }
+    },
+    {
+      "code": "DAL",
+      "name": "Dallas",
+      "total": 45,
+      "weeks": {
+        "1": {
+          "total": 29,
+          "classifications": {
+            "1A D1": 1,
+            "1A D2": 1,
+            "2A D1": 1,
+            "2A D2": 2,
+            "3A D2": 4,
+            "4A D2": 2,
+            "5A D1": 6,
+            "5A D2": 4,
+            "6A D1": 6,
+            "6A D2": 2
+          }
+        },
+        "2": {
+          "total": 16,
+          "classifications": {
+            "2A D1": 1,
+            "2A D2": 1,
+            "3A D1": 2,
+            "3A D2": 4,
+            "4A D2": 2,
+            "5A D1": 2,
+            "5A D2": 1,
+            "6A D1": 2,
+            "6A D2": 1
           }
         }
       }
@@ -152,28 +188,6 @@
             "5A D1": 1,
             "5A D2": 4,
             "6A D2": 1
-          }
-        }
-      }
-    },
-    {
-      "code": "DAL",
-      "name": "Dallas",
-      "total": 29,
-      "weeks": {
-        "1": {
-          "total": 29,
-          "classifications": {
-            "1A D1": 1,
-            "1A D2": 1,
-            "2A D1": 1,
-            "2A D2": 2,
-            "3A D2": 4,
-            "4A D2": 2,
-            "5A D1": 6,
-            "5A D2": 4,
-            "6A D1": 6,
-            "6A D2": 2
           }
         }
       }
@@ -7784,7 +7798,7 @@
       "classification": "2A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "DAL",
       "team1": "Axtell",
       "score1": null,
       "team2": "De Leon",
@@ -7896,7 +7910,7 @@
       "classification": "2A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "DAL",
       "team1": "Overton",
       "score1": null,
       "team2": "Era",
@@ -8076,7 +8090,7 @@
       "classification": "3A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "DAL",
       "team1": "Gunter",
       "score1": null,
       "team2": "Liberty-Eylau",
@@ -8120,7 +8134,7 @@
       "classification": "3A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "DAL",
       "team1": "Malakoff",
       "score1": null,
       "team2": "Pilot Point",
@@ -8400,7 +8414,7 @@
       "classification": "3A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "DAL",
       "team1": "Mildred",
       "score1": null,
       "team2": "West Rusk",
@@ -8444,7 +8458,7 @@
       "classification": "3A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "DAL",
       "team1": "Grand Saline",
       "score1": null,
       "team2": "Tolar",
@@ -8476,7 +8490,7 @@
       "classification": "3A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "DAL",
       "team1": "Bells",
       "score1": null,
       "team2": "Dallas Madison",
@@ -8525,7 +8539,7 @@
       "classification": "3A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "DAL",
       "team1": "Jefferson",
       "score1": null,
       "team2": "Hardin",
@@ -8790,7 +8804,7 @@
       "classification": "4A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "DAL",
       "team1": "Gilmer",
       "score1": null,
       "team2": "Sanger",
@@ -8888,7 +8902,7 @@
       "classification": "4A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "DAL",
       "team1": "Houston Yates",
       "score1": null,
       "team2": "Madisonville",
@@ -8980,7 +8994,7 @@
       "classification": "5A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "DAL",
       "team1": "Frisco Lone Star",
       "score1": null,
       "team2": "Lancaster",
@@ -9060,7 +9074,7 @@
       "classification": "5A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "DAL",
       "team1": "Dallas Highland Park",
       "score1": null,
       "team2": "Midlothian",
@@ -9271,7 +9285,7 @@
       "classification": "5A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "DAL",
       "team1": "Argyle",
       "score1": null,
       "team2": "Abilene Wylie",
@@ -9424,7 +9438,7 @@
       "classification": "6A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "DAL",
       "team1": "Rockwall-Heath",
       "score1": null,
       "team2": "Waxahachie",
@@ -9540,7 +9554,7 @@
       "classification": "6A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "DAL",
       "team1": "Rockwall High",
       "score1": null,
       "team2": "Duncanville",
@@ -9754,7 +9768,7 @@
       "classification": "6A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "DAL",
       "team1": "North Forney",
       "score1": null,
       "team2": "North Crowley",
