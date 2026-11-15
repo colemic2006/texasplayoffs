@@ -2,10 +2,10 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-15T22:40+00:00",
+    "updated": "2026-11-15T22:43+00:00",
     "games": 528,
     "played": 352,
-    "assigned": 469,
+    "assigned": 482,
     "weeks": {
       "1": {
         "games": 352,
@@ -13,7 +13,7 @@
       },
       "2": {
         "games": 176,
-        "assigned": 117
+        "assigned": 130
       },
       "3": {
         "games": 0,
@@ -71,6 +71,41 @@
       }
     },
     {
+      "code": "SAT",
+      "name": "San Antonio",
+      "total": 59,
+      "weeks": {
+        "1": {
+          "total": 46,
+          "classifications": {
+            "1A D2": 1,
+            "2A D1": 5,
+            "2A D2": 3,
+            "3A D1": 5,
+            "3A D2": 1,
+            "4A D1": 10,
+            "4A D2": 2,
+            "5A D1": 5,
+            "5A D2": 4,
+            "6A D1": 6,
+            "6A D2": 4
+          }
+        },
+        "2": {
+          "total": 13,
+          "classifications": {
+            "2A D2": 3,
+            "3A D1": 2,
+            "3A D2": 1,
+            "4A D1": 1,
+            "4A D2": 1,
+            "5A D1": 2,
+            "5A D2": 3
+          }
+        }
+      }
+    },
+    {
       "code": "FTW",
       "name": "Fort Worth",
       "total": 46,
@@ -101,29 +136,6 @@
             "5A D2": 3,
             "6A D1": 1,
             "6A D2": 3
-          }
-        }
-      }
-    },
-    {
-      "code": "SAT",
-      "name": "San Antonio",
-      "total": 46,
-      "weeks": {
-        "1": {
-          "total": 46,
-          "classifications": {
-            "1A D2": 1,
-            "2A D1": 5,
-            "2A D2": 3,
-            "3A D1": 5,
-            "3A D2": 1,
-            "4A D1": 10,
-            "4A D2": 2,
-            "5A D1": 5,
-            "5A D2": 4,
-            "6A D1": 6,
-            "6A D2": 4
           }
         }
       }
@@ -8237,7 +8249,7 @@
       "classification": "2A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "SAT",
       "team1": "Falls City",
       "score1": null,
       "team2": "Harper",
@@ -8377,7 +8389,7 @@
       "classification": "2A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "SAT",
       "team1": "Bremond",
       "score1": null,
       "team2": "Three Rivers",
@@ -8397,7 +8409,7 @@
       "classification": "2A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "SAT",
       "team1": "Junction",
       "score1": null,
       "team2": "Yorktown",
@@ -8706,7 +8718,7 @@
       "classification": "3A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "SAT",
       "team1": "Shallowater",
       "score1": null,
       "team2": "Peaster",
@@ -8746,7 +8758,7 @@
       "classification": "3A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "SAT",
       "team1": "San Diego",
       "score1": null,
       "team2": "Marion",
@@ -8966,7 +8978,7 @@
       "classification": "3A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "SAT",
       "team1": "Thrall",
       "score1": null,
       "team2": "Blanco",
@@ -9400,7 +9412,7 @@
       "classification": "4A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "SAT",
       "team1": "CC Tuloso-Midway",
       "score1": null,
       "team2": "La Vernia",
@@ -9617,7 +9629,7 @@
       "classification": "4A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "SAT",
       "team1": "Rockport-Fulton",
       "score1": null,
       "team2": "Robinson",
@@ -9856,7 +9868,7 @@
       "classification": "5A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "SAT",
       "team1": "La Porte",
       "score1": null,
       "team2": "College Station",
@@ -9976,7 +9988,7 @@
       "classification": "5A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "SAT",
       "team1": "A&M Consolidated",
       "score1": null,
       "team2": "Baytown Goose Creek Memorial",
@@ -10114,7 +10126,7 @@
       "classification": "5A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "SAT",
       "team1": "Legacy Ranch",
       "score1": null,
       "team2": "Corpus Christi Ray",
@@ -10273,7 +10285,7 @@
       "classification": "5A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "SAT",
       "team1": "Gregory-Portland",
       "score1": null,
       "team2": "Liberty Hill",
@@ -10371,7 +10383,7 @@
       "classification": "5A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "SAT",
       "team1": "Montgomery",
       "score1": null,
       "team2": "Pflugerville",
