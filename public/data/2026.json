@@ -2,8 +2,8 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-15T01:30+00:00",
-    "games": 526,
+    "updated": "2026-11-15T01:43+00:00",
+    "games": 527,
     "played": 351,
     "assigned": 367,
     "weeks": {
@@ -12,7 +12,7 @@
         "assigned": 352
       },
       "2": {
-        "games": 174,
+        "games": 175,
         "assigned": 15
       },
       "3": {
@@ -9792,6 +9792,18 @@
       "team1": "El Paso Eastwood",
       "score1": null,
       "team2": "Aledo",
+      "score2": null,
+      "winner": null
+    },
+    {
+      "year": 2026,
+      "classification": "6A D2",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "San Antonio Warren",
+      "score1": null,
+      "team2": "Pharr-San Juan-Alamo North",
       "score2": null,
       "winner": null
     }
