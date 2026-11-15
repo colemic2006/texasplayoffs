@@ -2,10 +2,10 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-15T22:43+00:00",
+    "updated": "2026-11-15T22:54+00:00",
     "games": 528,
     "played": 352,
-    "assigned": 482,
+    "assigned": 483,
     "weeks": {
       "1": {
         "games": 352,
@@ -13,7 +13,7 @@
       },
       "2": {
         "games": 176,
-        "assigned": 130
+        "assigned": 131
       },
       "3": {
         "games": 0,
@@ -108,7 +108,7 @@
     {
       "code": "FTW",
       "name": "Fort Worth",
-      "total": 46,
+      "total": 47,
       "weeks": {
         "1": {
           "total": 33,
@@ -127,12 +127,13 @@
           }
         },
         "2": {
-          "total": 13,
+          "total": 14,
           "classifications": {
             "1A D1": 1,
             "3A D2": 1,
             "4A D1": 1,
             "4A D2": 3,
+            "5A D1": 1,
             "5A D2": 3,
             "6A D1": 1,
             "6A D2": 3
@@ -9968,7 +9969,7 @@
       "classification": "5A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "FTW",
       "team1": "Mansfield Summit",
       "score1": null,
       "team2": "North Richland Hills Richland",
