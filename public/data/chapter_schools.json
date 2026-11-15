@@ -4300,7 +4300,7 @@
   },
   {
    "name": "La Vega",
-   "chapter": "RGV",
+   "chapter": "WAC",
    "lat": 31.55451,
    "lng": -97.13256,
    "at": "town"
@@ -6064,7 +6064,7 @@
   },
   {
    "name": "Raymondville",
-   "chapter": "ABI",
+   "chapter": "RGV",
    "lat": 26.48146,
    "lng": -97.78305,
    "at": "town"
@@ -6267,7 +6267,7 @@
   },
   {
    "name": "Ropesville",
-   "chapter": "ABI",
+   "chapter": "SPC",
    "lat": 33.41342,
    "lng": -102.15434,
    "at": "town"
@@ -6764,14 +6764,14 @@
   },
   {
    "name": "San Benito",
-   "chapter": "SAT",
+   "chapter": "RGV",
    "lat": 26.13262,
    "lng": -97.63079,
    "at": "town"
   },
   {
    "name": "San Diego",
-   "chapter": "ABI",
+   "chapter": "STX",
    "lat": 27.76391,
    "lng": -98.2389,
    "at": "town"

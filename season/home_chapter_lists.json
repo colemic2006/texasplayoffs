@@ -76,10 +76,7 @@
   "Throckmorton High School": "Throckmorton",
   "Trent High School": "Trent",
   "Winters High School": "Winters",
-  "Woodson High School": "Woodson",
-  "Raymondville": "Raymondville",
-  "Ropesville": "Ropesville",
-  "San Diego": "San Diego"
+  "Woodson High School": "Woodson"
  },
  "ELP": {
   "Anthony High School": "Anthony",
@@ -236,8 +233,7 @@
   "Yorktown HS": "Yorktown",
   "San Antonio Houston": "San Antonio Houston",
   "San Antonio John Jay": "San Antonio John Jay",
-  "San Antonio YMLA": "San Antonio YMLA",
-  "San Benito": "San Benito"
+  "San Antonio YMLA": "San Antonio YMLA"
  },
  "CTX": {
   "Academy Bumblebees": "Little River Academy",
@@ -461,7 +457,8 @@
   "Wellman-Union": "Wellman-Union",
   "Whiteface": "Whiteface",
   "Whitharral": "Whitharral",
-  "Wilson": "Wilson"
+  "Wilson": "Wilson",
+  "Ropesville": "Ropesville"
  },
  "AMA": {
   "Booker": "Booker",
@@ -846,7 +843,6 @@
   "La Joya": "La Joya",
   "La Joya Juarez-Lincoln": "La Joya Juarez-Lincoln",
   "La Joya Palmview": "La Joya Palmview",
-  "La Vega": "La Vega",
   "La Villa": "La Villa",
   "Laredo Alexander": "Laredo Alexander",
   "Laredo LBJ": "Laredo LBJ",
@@ -875,7 +871,9 @@
   "Rio Grande City Grulla": "Rio Grande City Grulla",
   "Rio Hondo": "Rio Hondo",
   "Weslaco": "Weslaco",
-  "Weslaco East": "Weslaco East"
+  "Weslaco East": "Weslaco East",
+  "Raymondville": "Raymondville",
+  "San Benito": "San Benito"
  },
  "STX": {
   "CC Tuloso-Midway": "CC Tuloso-Midway",
@@ -887,7 +885,8 @@
   "Corpus Christi Ray": "Corpus Christi Ray",
   "Corpus Christi Veterans Memorial": "Corpus Christi Veterans Memorial",
   "Port Lavaca Calhoun": "Port Lavaca Calhoun",
-  "Rockport-Fulton": "Rockport-Fulton"
+  "Rockport-Fulton": "Rockport-Fulton",
+  "San Diego": "San Diego"
  },
  "WAC": {
   "Clifton": "Clifton",
@@ -898,7 +897,8 @@
   "Waco": "Waco",
   "Waco Connally": "Waco Connally",
   "Waco Midway": "Waco Midway",
-  "Whitney": "Whitney"
+  "Whitney": "Whitney",
+  "La Vega": "La Vega"
  },
  "PBC": {
   "Coahoma": "Coahoma",

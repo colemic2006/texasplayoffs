@@ -45,8 +45,8 @@
    "season_games": 17,
    "hist_games": 338,
    "late_games": 30,
-   "schools": 43,
-   "counties": 19
+   "schools": 40,
+   "counties": 17
   },
   "AMA": {
    "members": 139,
@@ -149,7 +149,7 @@
    "season_games": 11,
    "hist_games": 101,
    "late_games": 0,
-   "schools": 47,
+   "schools": 48,
    "counties": 6
   },
   "SAN": {
@@ -165,15 +165,15 @@
    "season_games": 46,
    "hist_games": 504,
    "late_games": 51,
-   "schools": 117,
-   "counties": 29
+   "schools": 116,
+   "counties": 28
   },
   "SPC": {
    "members": 221,
    "season_games": 25,
    "hist_games": 420,
    "late_games": 33,
-   "schools": 67,
+   "schools": 68,
    "counties": 23
   },
   "STX": {
@@ -181,8 +181,8 @@
    "season_games": 7,
    "hist_games": 74,
    "late_games": 1,
-   "schools": 10,
-   "counties": 3
+   "schools": 11,
+   "counties": 4
   },
   "BEA": {
    "members": 91,
@@ -213,7 +213,7 @@
    "season_games": 11,
    "hist_games": 248,
    "late_games": 23,
-   "schools": 9,
+   "schools": 10,
    "counties": 4
   }
  }
