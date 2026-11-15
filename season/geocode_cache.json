@@ -388,6 +388,19 @@
   "stadium": "Eagle Stadium",
   "stadium_id": 872
  },
+ "Bartlett ISD || Runge v Mount Calm": {
+  "address": "404 N Robinson, Barlett, Texas 76511",
+  "city": "Barlett",
+  "how": "town (map link)",
+  "lat": 30.79669,
+  "link_tried": true,
+  "lng": -97.42229,
+  "map_link": "https://goo.gl/maps/7dtuJKm8TCUgGCug7",
+  "rules": 10,
+  "site": "Bartlett ISD",
+  "stadium": "Bulldog Stadium",
+  "stadium_id": 38
+ },
  "Battlin Billie Stadium, Fredericksburg || Floresville v Fredericksburg": {
   "address": "1107 S Hwy 16, Fredericksburg, Texas 78624",
   "city": "Fredericksburg",
@@ -3319,6 +3332,19 @@
   "site": "Loos Stadium, Dallas",
   "stadium": "Alfred J. Loos Stadium",
   "stadium_id": 215
+ },
+ "Lowery Field, Lubbock, Texas || El Paso Eastwood v Aledo": {
+  "address": "Avenue P at 66th St, Lubbock, Texas 79412",
+  "city": "Lubbock",
+  "how": "stadium (map link)",
+  "lat": 33.53277,
+  "link_tried": true,
+  "lng": -101.85134,
+  "map_link": "https://goo.gl/maps/8DGWRhdF8PcJ6Znn7",
+  "rules": 10,
+  "site": "Lowery Field, Lubbock, Texas",
+  "stadium": "Lowery Field at Plains Capital Park",
+  "stadium_id": 791
  },
  "Lowrey Field || Brock v Perryton": {
   "address": "",

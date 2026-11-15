@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-15T14:26+00:00",
+    "updated": "2026-11-15T15:10+00:00",
     "games": 528,
     "played": 352,
     "assigned": 397,
@@ -7620,7 +7620,15 @@
       "score1": null,
       "team2": "Mount Calm",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Bartlett ISD",
+      "lat": 30.79669,
+      "lng": -97.42229,
+      "stadium": "Bulldog Stadium",
+      "map_link": "https://goo.gl/maps/7dtuJKm8TCUgGCug7",
+      "city": "Barlett",
+      "date": "2026-11-20",
+      "time": "7:30 PM"
     },
     {
       "year": 2026,
@@ -9853,7 +9861,14 @@
       "team2": "Aledo",
       "score2": null,
       "winner": null,
-      "date": "2026-11-20"
+      "site": "Lowery Field, Lubbock, Texas",
+      "lat": 33.53277,
+      "lng": -101.85134,
+      "stadium": "Lowery Field at Plains Capital Park",
+      "map_link": "https://goo.gl/maps/8DGWRhdF8PcJ6Znn7",
+      "city": "Lubbock",
+      "date": "2026-11-20",
+      "time": "6:00 PM"
     },
     {
       "year": 2026,
