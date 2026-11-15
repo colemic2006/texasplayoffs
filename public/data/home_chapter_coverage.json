@@ -1,6 +1,6 @@
 {
  "total": 1294,
- "with_chapter": 1175,
+ "with_chapter": 1177,
  "current_year": 2026,
  "current_total": 704,
  "current_missing": 62,
@@ -28,14 +28,6 @@
    "last_playoffs": 2018,
    "town": "Aransas Pass",
    "county": "San Patricio"
-  },
-  {
-   "name": "Austin Memorial",
-   "last_playoffs": 2025
-  },
-  {
-   "name": "Austin Northeast",
-   "last_playoffs": 2022
   },
   {
    "name": "Banquete",

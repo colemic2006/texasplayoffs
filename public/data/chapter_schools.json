@@ -456,6 +456,20 @@
    "at": "town"
   },
   {
+   "name": "Austin Memorial",
+   "chapter": "AUS",
+   "lat": 30.26493,
+   "lng": -97.74741,
+   "at": "town"
+  },
+  {
+   "name": "Austin Northeast",
+   "chapter": "AUS",
+   "lat": 30.26493,
+   "lng": -97.74741,
+   "at": "town"
+  },
+  {
    "name": "Austin Reagan",
    "chapter": "AUS",
    "lat": 30.26493,
