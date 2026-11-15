@@ -158,6 +158,18 @@
   "stadium": "Memorial Stadium",
   "stadium_id": 889
  },
+ "Alice, TX || San Antonio Warren v Pharr-San Juan-Alamo North": {
+  "address": "",
+  "city": "Alice",
+  "how": "stadium found by name",
+  "lat": 27.74917,
+  "lng": -98.10069,
+  "map_link": "",
+  "rules": 10,
+  "site": "Alice, TX",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Alvin ISD Freedom Field || Alvin Shadow Creek v Houston Heights": {
   "address": "10855 County Road 65, Iowa Colony, Texas 77583",
   "city": "Iowa Colony",
