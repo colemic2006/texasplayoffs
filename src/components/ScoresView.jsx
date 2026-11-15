@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
 import { chapterColor } from '../chapterColors'
 
 // Score stats across every season on file, by round, with the chapter that worked each game
@@ -34,6 +34,82 @@ const th = { fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.1em', textTr
 const td = { padding:'6px 8px', borderBottom:'1px solid rgba(15,13,11,0.06)', fontSize:12, textAlign:'right', fontFamily:'var(--mono)', whiteSpace:'nowrap' }
 const tdl = { ...td, textAlign:'left', fontFamily:'DM Sans', whiteSpace:'normal' }
 
+const PLACE = ['', '1st', '2nd', '3rd', '4th']
+const seedTag = sd => sd ? `${PLACE[sd.place]} D${sd.district}` : '—'
+
+// Lower district finisher beating a higher one, from the UIL bracket seeds
+function Upsets({ games, seeds, scopeLabel, weeks, current }) {
+  const [showAll, setShowAll] = useState(false)
+  const key = g => g.classification.replace(/ \(11-man, pre-2014\)$/, '')
+  const seeded = games.map(g => {
+    const s = seeds?.[g.year]?.[key(g)]
+    const a = s?.[g.team1], b = s?.[g.team2]
+    if (!a || !b) return null
+    const w1 = g.score1 > g.score2
+    const ws = w1 ? a : b, ls = w1 ? b : a
+    return { ...g, ws, ls, winner: w1 ? g.team1 : g.team2, loser: w1 ? g.team2 : g.team1, gap: ws.place - ls.place }
+  }).filter(Boolean)
+  const decided = seeded.filter(g => g.gap !== 0)
+  const ups = decided.filter(g => g.gap > 0)
+  const years = [...new Set(seeded.map(g => g.year))].sort()
+  if (!seeded.length) return <div style={{ fontSize:12, color:'var(--mid)' }}>No seeds on file for these games yet. Seeds come from UIL's bracket PDFs{current ? ` and will show for ${current} once UIL posts them` : ''}.</div>
+  const list = [...ups].sort((a, b) => b.year - a.year || b.week - a.week || b.gap - a.gap)
+  const shown = showAll ? list : list.slice(0, 15)
+  const matchups = [[1, 2], [1, 3], [1, 4], [2, 3], [2, 4], [3, 4]]
+  return (
+    <>
+      <div style={{ display:'flex', gap:24, flexWrap:'wrap', marginBottom:12 }}>
+        {[['Upsets', ups.length], ['Games between different seeds', decided.length], ['Upset rate', pct(ups.length, decided.length)]].map(([l, v]) => (
+          <div key={l}><div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:30, color:'var(--burnt)', lineHeight:1 }}>{v}</div>
+            <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.1em', textTransform:'uppercase', color:'var(--mid)' }}>{l}</div></div>
+        ))}
+      </div>
+      <div style={{ display:'flex', gap:16, flexWrap:'wrap', marginBottom:14 }}>
+        <table style={{ borderCollapse:'collapse', flex:'1 1 300px' }}>
+          <thead><tr><th style={{ ...th, textAlign:'left' }}>Round</th><th style={th}>Different seeds</th><th style={th}>Upsets</th><th style={th}>Rate</th></tr></thead>
+          <tbody>{weeks.map(w => {
+            const d = decided.filter(g => g.week === w), u = d.filter(g => g.gap > 0)
+            return <tr key={w}><td style={{ ...tdl, fontWeight:600 }}>{ROUNDS[w]}</td><td style={td}>{d.length}</td><td style={{ ...td, fontWeight:700 }}>{u.length}</td><td style={td}>{pct(u.length, d.length)}</td></tr>
+          })}</tbody>
+        </table>
+        <table style={{ borderCollapse:'collapse', flex:'1 1 300px' }}>
+          <thead><tr><th style={{ ...th, textAlign:'left' }}>Matchup</th><th style={th}>Games</th><th style={th}>Higher seed won</th><th style={th}>Upsets</th></tr></thead>
+          <tbody>{matchups.map(([hi, lo]) => {
+            const m = decided.filter(g => Math.min(g.ws.place, g.ls.place) === hi && Math.max(g.ws.place, g.ls.place) === lo)
+            if (!m.length) return null
+            const u = m.filter(g => g.gap > 0).length
+            return <tr key={hi + '-' + lo}><td style={{ ...tdl, fontWeight:600 }}>{PLACE[hi]} v {PLACE[lo]}</td><td style={td}>{m.length}</td><td style={td}>{m.length - u} <span style={{ color:'var(--mid)' }}>({pct(m.length - u, m.length)})</span></td><td style={{ ...td, fontWeight:700 }}>{u}</td></tr>
+          })}</tbody>
+        </table>
+      </div>
+      {list.length > 0 && (
+        <table style={{ width:'100%', borderCollapse:'collapse' }}>
+          <thead><tr>
+            <th style={{ ...th, textAlign:'left' }}>Year</th><th style={{ ...th, textAlign:'left' }}>Round</th><th style={{ ...th, textAlign:'left' }}>Class</th>
+            <th style={{ ...th, textAlign:'left' }}>Winner</th><th style={{ ...th, textAlign:'left' }}>Beat</th><th style={th}>Score</th><th style={th}>Chapter</th>
+          </tr></thead>
+          <tbody>{shown.map((g, i) => (
+            <tr key={i}>
+              <td style={{ ...td, textAlign:'left' }}>{g.year}</td>
+              <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans' }}>{ROUNDS[g.week]}</td>
+              <td style={{ ...td, textAlign:'left' }}>{g.classification}</td>
+              <td style={tdl}><strong>{g.winner}</strong> <span style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--burnt)' }}>{seedTag(g.ws)}</span></td>
+              <td style={tdl}>{g.loser} <span style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)' }}>{seedTag(g.ls)}</span></td>
+              <td style={td}>{g.high}–{g.low}</td>
+              <td style={td}><Chip c={normCh(g.chapter)} /></td>
+            </tr>
+          ))}</tbody>
+        </table>
+      )}
+      {list.length > 15 && <button onClick={() => setShowAll(!showAll)} style={{ marginTop:8, fontFamily:'var(--mono)', fontSize:10, padding:'5px 11px', borderRadius:3, border:'1px solid var(--border)', background:'transparent', color:'var(--burnt)', cursor:'pointer' }}>{showAll ? 'Show fewer' : `Show all ${list.length} upsets`}</button>}
+      <div style={{ fontSize:11, color:'var(--mid)', marginTop:8, lineHeight:1.5 }}>
+        Seeds are each team's district finish as printed on UIL's bracket (1st = district champion). Games between two teams with the same finish,
+        common in later rounds, aren't counted either way. Seeded seasons in this view: {years.join(', ')}.
+      </div>
+    </>
+  )
+}
+
 function GameList({ games, value, valueLabel }) {
   if (!games.length) return <div style={{ fontSize:12, color:'var(--mid)' }}>No games with scores yet.</div>
   return (
@@ -68,6 +144,10 @@ export default function ScoresView({ allData, years }) {
   const [round, setRound] = useState('all')
   const [scope, setScope] = useState('all')   // 'season' | 'all'
   const [kind, setKind] = useState('eleven')  // 'eleven' (2A-6A) | 'six' (1A six-man)
+  const [seeds, setSeeds] = useState(null)
+  useEffect(() => {
+    fetch(`${import.meta.env.BASE_URL}data/seeds.json?v=${__BUILD_TIME__}`).then(r => r.ok ? r.json() : {}).then(setSeeds).catch(() => setSeeds({}))
+  }, [])
 
   const raw = useMemo(() => years.flatMap(y => (allData[y]?.games || [])
     .filter(g => Number.isFinite(g.score1) && Number.isFinite(g.score2) && !g.forfeit && (g.score1 + g.score2) > 0 && g.score1 !== g.score2)
@@ -279,6 +359,10 @@ export default function ScoresView({ allData, years }) {
         </table>
         <div style={{ fontSize:11, color:'var(--mid)', marginTop:6 }}>{kind === 'six' ? 'Six-man games only.' : 'Eleven-man games only; switch to Six-man above for six-man.'}</div>
       </Card>
+      <Card n="11" title="Upsets" intro={`A lower seed beating a higher seed, ${scopeLabel}${round === 'all' ? '' : `, ${ROUNDS[round]}`}. Seed = where the team finished in its district. Seeds are on file for ${seeds ? Object.keys(seeds).sort().join(', ') || 'no seasons yet' : '…'}, so earlier seasons aren't counted.`}>
+        {seeds ? <Upsets games={scoped} seeds={seeds} scopeLabel={scopeLabel} weeks={round === 'all' ? weeks : [+round]} current={current} /> : <div style={{ fontSize:12, color:'var(--mid)' }}>Loading seeds…</div>}
+      </Card>
+
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)' }}>Games without a final score, forfeits and recorded ties (a data-entry error, since playoff games can't tie) aren't counted.</div>
     </div>
   )

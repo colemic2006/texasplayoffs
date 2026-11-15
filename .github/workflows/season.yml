@@ -48,6 +48,10 @@ jobs:
         continue-on-error: true
         run: python3 scripts/home_chapters.py
 
+      - name: District seeds from UIL brackets
+        run: python3 scripts/uil_seeds.py $(date +%Y)
+        continue-on-error: true
+
       - name: Link teams to their Dave Campbell's pages
         continue-on-error: true
         run: python3 scripts/dctf_teams.py
