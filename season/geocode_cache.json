@@ -110,6 +110,19 @@
   "stadium": "Anthony Field at Wildcat Stadium",
   "stadium_id": 1062
  },
+ "Abilene Wylie\u2019s Hugh Sandifer Stadium || Amarillo High v Denton": {
+  "address": "4334 Antilley Rd, Abilene, Texas 79606",
+  "city": "Abilene",
+  "how": "stadium (map link)",
+  "lat": 32.37425,
+  "link_tried": true,
+  "lng": -99.78154,
+  "map_link": "https://goo.gl/maps/NdS8WdJ5FqeWxro5A",
+  "rules": 10,
+  "site": "Abilene Wylie\u2019s Hugh Sandifer Stadium",
+  "stadium": "Hugh Sandifer Stadium",
+  "stadium_id": 986
+ },
  "Abshier Stadium, Deer Park || Houston Stafford v Bridge City": {
   "address": "710 W. San Augustine, Deer Park, Texas 77536",
   "city": "Deer Park",
