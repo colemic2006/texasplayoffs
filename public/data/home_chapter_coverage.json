@@ -1,16 +1,10 @@
 {
- "total": 1300,
- "with_chapter": 1145,
+ "total": 1301,
+ "with_chapter": 1175,
  "current_year": 2026,
  "current_total": 704,
- "current_missing": 77,
+ "current_missing": 63,
  "missing": [
-  {
-   "name": "Abbott",
-   "last_playoffs": 2026,
-   "town": "Abbott",
-   "county": "Hill"
-  },
   {
    "name": "Agua Dulce",
    "last_playoffs": 2026,
@@ -30,22 +24,10 @@
    "county": "Jim Wells"
   },
   {
-   "name": "Aquilla",
-   "last_playoffs": 2026,
-   "town": "Aquilla",
-   "county": "Hill"
-  },
-  {
    "name": "Aransas Pass",
    "last_playoffs": 2018,
    "town": "Aransas Pass",
    "county": "San Patricio"
-  },
-  {
-   "name": "Axtell",
-   "last_playoffs": 2026,
-   "town": "Axtell",
-   "county": "McLennan"
   },
   {
    "name": "Banquete",
@@ -88,32 +70,16 @@
    "county": "Brown"
   },
   {
-   "name": "Blooming Grove",
-   "last_playoffs": 2025,
-   "town": "Blooming Grove",
-   "county": "Navarro"
-  },
-  {
    "name": "Bluff Dale",
    "last_playoffs": 2026,
    "town": "Bluff Dale",
    "county": "Erath"
   },
   {
-   "name": "Blum",
-   "last_playoffs": 2022,
-   "town": "Blum",
-   "county": "Hill"
-  },
-  {
    "name": "Bogata Rivercrest",
    "last_playoffs": 2024,
    "town": "Bogata",
    "county": "Red River"
-  },
-  {
-   "name": "Bosqueville",
-   "last_playoffs": 2026
   },
   {
    "name": "Brackettville",
@@ -134,12 +100,6 @@
    "last_playoffs": 2018,
    "town": "Brookesmith",
    "county": "Brown"
-  },
-  {
-   "name": "Bruceville-Eddy",
-   "last_playoffs": 2026,
-   "town": "Eddy",
-   "county": "McLennan"
   },
   {
    "name": "Bruni",
@@ -170,12 +130,6 @@
    "last_playoffs": 2015
   },
   {
-   "name": "Bynum",
-   "last_playoffs": 2024,
-   "town": "Bynum",
-   "county": "Hill"
-  },
-  {
    "name": "Campbell",
    "last_playoffs": 2026,
    "town": "Campbell",
@@ -192,12 +146,6 @@
    "last_playoffs": 2023,
    "town": "Celeste",
    "county": "Hunt"
-  },
-  {
-   "name": "China Spring",
-   "last_playoffs": 2026,
-   "town": "China Spring",
-   "county": "McLennan"
   },
   {
    "name": "Cigarroa",
@@ -220,17 +168,7 @@
    "county": "Hopkins"
   },
   {
-   "name": "Coolidge",
-   "last_playoffs": 2025,
-   "town": "Coolidge",
-   "county": "Limestone"
-  },
-  {
    "name": "Cooper",
-   "last_playoffs": 2026
-  },
-  {
-   "name": "Crawford",
    "last_playoffs": 2026
   },
   {
@@ -292,12 +230,6 @@
    "county": "Coryell"
   },
   {
-   "name": "Fairfield",
-   "last_playoffs": 2026,
-   "town": "Fairfield",
-   "county": "Freestone"
-  },
-  {
    "name": "Fannindel",
    "last_playoffs": 2026
   },
@@ -306,12 +238,6 @@
    "last_playoffs": 2026,
    "town": "Freer",
    "county": "Duval"
-  },
-  {
-   "name": "Frost",
-   "last_playoffs": 2018,
-   "town": "Frost",
-   "county": "Navarro"
   },
   {
    "name": "Galveston Ball",
@@ -324,10 +250,6 @@
    "last_playoffs": 2026,
    "town": "George West",
    "county": "Live Oak"
-  },
-  {
-   "name": "Gholson",
-   "last_playoffs": 2015
   },
   {
    "name": "Gorman",
@@ -410,22 +332,10 @@
    "county": "Galveston"
   },
   {
-   "name": "Hillsboro",
-   "last_playoffs": 2026,
-   "town": "Hillsboro",
-   "county": "Hill"
-  },
-  {
    "name": "Honey Grove",
    "last_playoffs": 2026,
    "town": "Honey Grove",
    "county": "Fannin"
-  },
-  {
-   "name": "Hubbard",
-   "last_playoffs": 2026,
-   "town": "Hubbard",
-   "county": "Hill"
   },
   {
    "name": "Hull-Daisetta",
@@ -438,12 +348,6 @@
    "last_playoffs": 2026,
    "town": "Ingleside",
    "county": "San Patricio"
-  },
-  {
-   "name": "Iredell",
-   "last_playoffs": 2026,
-   "town": "Iredell",
-   "county": "Bosque"
   },
   {
    "name": "Irving Universal Academy",
@@ -472,12 +376,6 @@
    "last_playoffs": 2023,
    "town": "Kirbyville",
    "county": "Jasper"
-  },
-  {
-   "name": "Kopperl",
-   "last_playoffs": 2023,
-   "town": "Kopperl",
-   "county": "Bosque"
   },
   {
    "name": "Kountze",
@@ -530,12 +428,6 @@
    "county": "Brown"
   },
   {
-   "name": "McGregor",
-   "last_playoffs": 2025,
-   "town": "McGregor",
-   "county": "McLennan"
-  },
-  {
    "name": "McLean",
    "last_playoffs": 2026,
    "town": "McLean",
@@ -552,18 +444,6 @@
    "last_playoffs": 2026,
    "town": "Mercedes",
    "county": "Hidalgo"
-  },
-  {
-   "name": "Morgan",
-   "last_playoffs": 2022,
-   "town": "Morgan",
-   "county": "Bosque"
-  },
-  {
-   "name": "Mount Calm",
-   "last_playoffs": 2026,
-   "town": "Mount Calm",
-   "county": "Hill"
   },
   {
    "name": "Nevada",
@@ -616,12 +496,6 @@
    "last_playoffs": 2026,
    "town": "Paris",
    "county": "Lamar"
-  },
-  {
-   "name": "Penelope",
-   "last_playoffs": 2023,
-   "town": "Penelope",
-   "county": "Hill"
   },
   {
    "name": "Pettus",
@@ -740,12 +614,6 @@
    "last_playoffs": 2026
   },
   {
-   "name": "Teague",
-   "last_playoffs": 2026,
-   "town": "Teague",
-   "county": "Freestone"
-  },
-  {
    "name": "Teneha",
    "last_playoffs": 2023
   },
@@ -754,12 +622,6 @@
    "last_playoffs": 2026,
    "town": "Three Rivers",
    "county": "Live Oak"
-  },
-  {
-   "name": "Three Way",
-   "last_playoffs": 2026,
-   "town": "Stephenville",
-   "county": "Erath"
   },
   {
    "name": "Tomas",
@@ -780,18 +642,6 @@
    "last_playoffs": 2024
   },
   {
-   "name": "Waco University",
-   "last_playoffs": 2025,
-   "town": "Waco",
-   "county": "McLennan"
-  },
-  {
-   "name": "Walnut Springs",
-   "last_playoffs": 2023,
-   "town": "Walnut Springs",
-   "county": "Bosque"
-  },
-  {
    "name": "Waxahachie",
    "last_playoffs": 2026,
    "town": "Waxahachie",
@@ -800,16 +650,6 @@
   {
    "name": "Waxahachie Life",
    "last_playoffs": 2018
-  },
-  {
-   "name": "Welch Dawson",
-   "last_playoffs": 2013,
-   "town": "Welch",
-   "county": "Dawson"
-  },
-  {
-   "name": "West",
-   "last_playoffs": 2025
   },
   {
    "name": "West Hardin",
@@ -838,12 +678,6 @@
    "last_playoffs": 2025,
    "town": "Woodsboro",
    "county": "Refugio"
-  },
-  {
-   "name": "Wortham",
-   "last_playoffs": 2024,
-   "town": "Wortham",
-   "county": "Freestone"
   },
   {
    "name": "Zapata",

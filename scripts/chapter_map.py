@@ -45,7 +45,7 @@ TOWN = {
     'Rosenburg Lamar': 'Rosenberg', 'Rosenburg Terry': 'Rosenberg', 'S&S Consolidated': 'Sadler', 'Sands': 'Ackerly',
     'South Grand Prairie': 'Grand Prairie', 'Tarkington': 'Cleveland', 'Tidehaven': 'El Maton', 'Wichita Christian': 'Wichita Falls',
     'Young Mens Leadership Academy': 'San Antonio', 'Highland': 'Roscoe', 'West Texas Stinnett': 'Stinnett',
-    'Klondike': 'Lamesa', 'Cotton Center': 'Cotton Center', 'Dawson': 'Welch', 'Center Point': 'Center Point',
+    'Klondike': 'Lamesa', 'Cotton Center': 'Cotton Center', 'Welch Dawson': 'Welch', 'Dawson': 'Dawson', 'Bruceville-Eddy': 'Eddy', 'West': 'West', 'Center Point': 'Center Point',
     'Sabine': 'Liberty City', 'Groesbeck': 'Groesbeck', 'Tornillo': 'Tornillo', 'Water Valley': 'Water Valley', 'Weimar': 'Weimar', 'Bishop Gorman': 'Tyler', 'Seguin': 'Seguin', 'San Antonio Sam Houston': 'San Antonio',
 }
 PREFIX = {'fw': 'Fort Worth', 'sa': 'San Antonio', 'cc': 'Corpus Christi', 'ep': 'El Paso', 'disd': 'Dallas'}

@@ -37,7 +37,8 @@
   "SAT",
   "SFA",
   "SPC",
-  "TYL"
+  "TYL",
+  "WAC"
  ],
  "chapters": {
   "ABI": {
@@ -213,8 +214,8 @@
    "season_games": 11,
    "hist_games": 248,
    "late_games": 23,
-   "schools": 10,
-   "counties": 4
+   "schools": 40,
+   "counties": 7
   }
  }
 }
