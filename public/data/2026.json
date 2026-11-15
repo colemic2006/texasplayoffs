@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-15T01:43+00:00",
+    "updated": "2026-11-15T02:46+00:00",
     "games": 527,
     "played": 351,
     "assigned": 367,
@@ -9793,7 +9793,8 @@
       "score1": null,
       "team2": "Aledo",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "date": "2026-11-20"
     },
     {
       "year": 2026,
