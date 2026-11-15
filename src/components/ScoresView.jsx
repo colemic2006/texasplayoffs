@@ -5,7 +5,8 @@ import { chapterColor } from '../chapterColors'
 const ROUNDS = { 1: 'Bi-District', 2: 'Area', 3: 'Regionals', 4: 'Quarterfinals', 5: 'Semifinals', 6: 'State Final' }
 const CLASSES = ['6A D1','6A D2','5A D1','5A D2','4A D1','4A D2','3A D1','3A D2','2A D1','2A D2','1A D1','1A D2','Six Man D1','Six Man D2']
 const normCh = c => ({ WACO: 'WAC' }[c] || c || '')
-const sixMan = g => g.classification.startsWith('1A') || /six/i.test(g.classification)
+// six-man: its own brackets before the 2014 realignment, then 1A (which was eleven-man before that)
+const sixMan = g => /six/i.test(g.classification) || (g.classification.startsWith('1A') && g.year >= 2014)
 const avg = a => a.length ? a.reduce((s, x) => s + x, 0) / a.length : null
 const f1 = n => n == null ? '—' : (Math.round(n * 10) / 10).toFixed(1)
 const pct = (n, of) => of ? `${Math.round(100 * n / of)}%` : '—'
@@ -65,10 +66,14 @@ export default function ScoresView({ allData, years }) {
   const current = Math.max(...years)
   const [round, setRound] = useState('all')
   const [scope, setScope] = useState('all')   // 'season' | 'all'
+  const [kind, setKind] = useState('eleven')  // 'eleven' (2A-6A) | 'six' (1A six-man)
 
-  const all = useMemo(() => years.flatMap(y => (allData[y]?.games || [])
+  const raw = useMemo(() => years.flatMap(y => (allData[y]?.games || [])
     .filter(g => Number.isFinite(g.score1) && Number.isFinite(g.score2) && !g.forfeit && (g.score1 + g.score2) > 0 && g.score1 !== g.score2)
     .map(g => ({ ...g, year: y, total: g.score1 + g.score2, margin: Math.abs(g.score1 - g.score2), high: Math.max(g.score1, g.score2), low: Math.min(g.score1, g.score2) }))), [allData, years])
+  // six-man has its own rules, shorter quarters and a 45-point mercy rule, so it's never mixed in
+  const all = raw.filter(g => kind === 'six' ? sixMan(g) : !sixMan(g))
+  const BLOW = kind === 'six' ? 45 : 35
   const inRound = g => round === 'all' || g.week === +round
   const scoped = all.filter(g => inRound(g) && (scope === 'all' || g.year === current))
   const season = all.filter(g => g.year === current)
@@ -81,9 +86,9 @@ export default function ScoresView({ allData, years }) {
     const by = {}
     scoped.forEach(g => { const c = normCh(g.chapter); if (!c) return; (by[c] = by[c] || []).push(g) })
     return Object.entries(by).map(([c, gs]) => ({ c, n: gs.length, total: avg(gs.map(g => g.total)), margin: avg(gs.map(g => g.margin)),
-      close: gs.filter(g => g.margin <= 8).length, blow: gs.filter(g => g.margin >= 35).length, shut: gs.filter(g => g.low === 0).length }))
+      close: gs.filter(g => g.margin <= 8).length, blow: gs.filter(g => g.margin >= BLOW).length, shut: gs.filter(g => g.low === 0).length }))
       .filter(x => x.n >= 5).sort((a, b) => b.total - a.total)
-  }, [scoped])
+  }, [scoped, BLOW])
 
   const chip = on => ({ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.08em', padding:'5px 11px', borderRadius:3, border:'1px solid var(--border)', cursor:'pointer',
     background: on ? 'var(--burnt)' : 'transparent', color: on ? '#fff' : 'var(--mid)' })
@@ -97,6 +102,13 @@ export default function ScoresView({ allData, years }) {
         Score Stats
       </div>
 
+      <div style={{ display:'flex', gap:4, flexWrap:'wrap', marginBottom:8, alignItems:'center' }}>
+        <span style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginRight:4 }}>Football:</span>
+        {[['eleven', 'Eleven-man'], ['six', 'Six-man']].map(([k, l]) => (
+          <button key={k} onClick={() => { setKind(k); setRound('all') }} style={{ ...chip(kind === k), background: kind === k ? 'var(--gold)' : 'transparent', color: kind === k ? 'var(--ink)' : 'var(--mid)', fontWeight: kind === k ? 700 : 400 }}>{l}</button>
+        ))}
+        <span style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginLeft:8 }}>{kind === 'six' ? 'Six-man: 1A since 2014 (its own brackets before), 10-minute quarters, 45-point mercy rule at halftime or later' : 'Eleven-man: 2A–6A, plus 1A before the 2014 realignment'}</span>
+      </div>
       <div style={{ display:'flex', gap:4, flexWrap:'wrap', marginBottom:8, alignItems:'center' }}>
         <span style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginRight:4 }}>Round:</span>
         <button onClick={() => setRound('all')} style={chip(round === 'all')}>All rounds</button>
@@ -157,7 +169,7 @@ export default function ScoresView({ allData, years }) {
         <GameList games={top(scoped, 'margin', 10, true)} value={g => g.margin} valueLabel="Margin" />
       </Card>
 
-      <Card n="4" title="Biggest Blowouts" intro={`Largest winning margins, ${scopeLabel}.`}>
+      <Card n="4" title="Biggest Blowouts" intro={`Largest winning margins, ${scopeLabel}.${kind === 'six' ? ' Six-man games end once a team leads by 45 at halftime or later, so final margins rarely go far past 45 unless the lead came late.' : ''}`}>
         <GameList games={top(scoped, 'margin')} value={g => g.margin} valueLabel="Margin" />
       </Card>
 
@@ -185,11 +197,11 @@ export default function ScoresView({ allData, years }) {
         <GameList games={[...scoped.filter(g => g.low === 0)].sort((a, b) => b.year - a.year || b.week - a.week || b.margin - a.margin).slice(0, 10)} value={g => g.margin} valueLabel="Margin" />
       </Card>
 
-      <Card n="9" title="Six-Man vs. Eleven-Man" intro="1A six-man football scores very differently from 2A–6A. Average combined points and margin by round, all seasons on file.">
+      <Card n="9" title="Six-Man vs. Eleven-Man" intro="Six-man football scores very differently from eleven-man. Average combined points and margin by round, all seasons on file.">
         <table style={{ width:'100%', borderCollapse:'collapse' }}>
           <thead><tr><th style={{ ...th, textAlign:'left' }}>Round</th><th style={th}>Six-man avg total</th><th style={th}>Six-man avg margin</th><th style={th}>Eleven-man avg total</th><th style={th}>Eleven-man avg margin</th><th style={th}>Six-man 45+ margins</th></tr></thead>
           <tbody>{weeks.map(w => {
-            const six = all.filter(g => g.week === w && sixMan(g)), ele = all.filter(g => g.week === w && !sixMan(g))
+            const six = raw.filter(g => g.week === w && sixMan(g)), ele = raw.filter(g => g.week === w && !sixMan(g))
             return <tr key={w}><td style={{ ...tdl, fontWeight:600 }}>{ROUNDS[w]}</td>
               <td style={{ ...td, fontWeight:700 }}>{f1(avg(six.map(g => g.total)))}</td><td style={td}>{f1(avg(six.map(g => g.margin)))}</td>
               <td style={{ ...td, fontWeight:700 }}>{f1(avg(ele.map(g => g.total)))}</td><td style={td}>{f1(avg(ele.map(g => g.margin)))}</td>
@@ -199,9 +211,28 @@ export default function ScoresView({ allData, years }) {
         <div style={{ fontSize:11, color:'var(--mid)', marginTop:6 }}>Six-man games end when one team leads by 45 or more after halftime, so its margins cluster at 45+.</div>
       </Card>
 
-      <Card n="10" title="Chapter Scoring Profiles" intro={`For the games each chapter worked (${scopeLabel}${round === 'all' ? '' : `, ${ROUNDS[round]}`}): average points, average margin, close games (8 or fewer), blowouts (35+) and shutouts. Chapters with at least 5 scored games.`}>
+      {kind === 'six' && (
+        <Card n="9b" title="Mercy-Rule Games" intro={`Six-man games decided by 45 or more, by round (${current} vs. history) and by chapter (${scopeLabel}).`}>
+          <table style={{ width:'100%', borderCollapse:'collapse', marginBottom:12 }}>
+            <thead><tr><th style={{ ...th, textAlign:'left' }}>Round</th><th style={th}>{current} mercy-rule games</th><th style={th}>{current} rate</th><th style={th}>Historical</th><th style={th}>Historical rate</th></tr></thead>
+            <tbody>{weeks.map(w => {
+              const s6 = season.filter(g => g.week === w), h6 = hist.filter(g => g.week === w)
+              const a = s6.filter(g => g.margin >= 45).length, b = h6.filter(g => g.margin >= 45).length
+              return <tr key={w}><td style={{ ...tdl, fontWeight:600 }}>{ROUNDS[w]}</td><td style={{ ...td, fontWeight:700 }}>{a}</td><td style={td}>{pct(a, s6.length)}</td><td style={td}>{b}</td><td style={td}>{pct(b, h6.length)}</td></tr>
+            })}</tbody>
+          </table>
+          <table style={{ width:'100%', borderCollapse:'collapse' }}>
+            <thead><tr><th style={{ ...th, textAlign:'left' }}>Chapter</th><th style={th}>Six-man games</th><th style={th}>Mercy-rule games</th><th style={th}>Rate</th></tr></thead>
+            <tbody>{chapters.slice().sort((a, b) => b.blow / b.n - a.blow / a.n).map(x => (
+              <tr key={x.c}><td style={{ ...td, textAlign:'left' }}><Chip c={x.c} /></td><td style={td}>{x.n}</td><td style={{ ...td, fontWeight:700 }}>{x.blow}</td><td style={td}>{pct(x.blow, x.n)}</td></tr>
+            ))}</tbody>
+          </table>
+        </Card>
+      )}
+
+      <Card n="10" title="Chapter Scoring Profiles" intro={`For the games each chapter worked (${scopeLabel}${round === 'all' ? '' : `, ${ROUNDS[round]}`}): average points, average margin, close games (8 or fewer), ${kind === 'six' ? 'mercy-rule games (45+)' : 'blowouts (35+)'} and shutouts. Chapters with at least 5 scored games.`}>
         <table style={{ width:'100%', borderCollapse:'collapse' }}>
-          <thead><tr><th style={{ ...th, textAlign:'left' }}>Chapter</th><th style={th}>Games</th><th style={th}>Avg total</th><th style={th}>Avg margin</th><th style={th}>Close</th><th style={th}>Blowouts</th><th style={th}>Shutouts</th></tr></thead>
+          <thead><tr><th style={{ ...th, textAlign:'left' }}>Chapter</th><th style={th}>Games</th><th style={th}>Avg total</th><th style={th}>Avg margin</th><th style={th}>Close</th><th style={th}>{kind === 'six' ? 'Mercy-rule' : 'Blowouts'}</th><th style={th}>Shutouts</th></tr></thead>
           <tbody>{chapters.map(x => (
             <tr key={x.c}>
               <td style={{ ...td, textAlign:'left' }}><Chip c={x.c} /></td>
@@ -212,7 +243,7 @@ export default function ScoresView({ allData, years }) {
             </tr>
           ))}</tbody>
         </table>
-        <div style={{ fontSize:11, color:'var(--mid)', marginTop:6 }}>Chapters that work more six-man games will show higher totals and margins.</div>
+        <div style={{ fontSize:11, color:'var(--mid)', marginTop:6 }}>{kind === 'six' ? 'Six-man games only.' : 'Eleven-man games only; switch to Six-man above for six-man.'}</div>
       </Card>
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)' }}>Games without a final score, forfeits and recorded ties (a data-entry error, since playoff games can't tie) aren't counted.</div>
     </div>
