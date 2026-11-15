@@ -9,6 +9,7 @@ import LocalMatchups from './components/LocalMatchups'
 import OfficialsCost from './components/OfficialsCost'
 import RecentChanges from './components/RecentChanges'
 import MembershipView from './components/MembershipView'
+import ScoresView from './components/ScoresView'
 import HistoryView from './components/HistoryView'
 import TeamsView from './components/TeamsView'
 import ChapterRegulars from './components/ChapterRegulars'
@@ -57,7 +58,7 @@ export default function App() {
 
   // Preload all years when Teams or Chapter Regulars tab is active
   useEffect(() => {
-    if (page !== 'teams' && page !== 'regulars') return
+    if (page !== 'teams' && page !== 'regulars' && page !== 'scores') return
     YEARS.forEach(y => {
       if (data[y]) return
       fetch(`${import.meta.env.BASE_URL}data/${y}.json?v=${__BUILD_TIME__}`)
@@ -68,7 +69,7 @@ export default function App() {
   }, [page])
 
   const yearData = data[year] || null
-  const allYearsLoaded = (page === 'teams' || page === 'regulars') ? YEARS.every(y => data[y]) : true
+  const allYearsLoaded = (page === 'teams' || page === 'regulars' || page === 'scores') ? YEARS.every(y => data[y]) : true
   // a season that hasn't started yet would show as a dip to zero in the trend lines
   const HISTORY_YEARS = YEARS.filter(y => !(data[y] && (data[y].games || []).length === 0))
 
@@ -92,6 +93,8 @@ export default function App() {
           <ChampionshipsView />
         ) : page === 'membership' ? (
           <MembershipView />
+        ) : page === 'scores' ? (
+          allYearsLoaded ? <ScoresView allData={data} years={YEARS} /> : <LoadingState />
         ) : (page === 'teams' || page === 'regulars') ? (
           allYearsLoaded
             ? page === 'teams' ? <TeamsView allData={data} years={YEARS} /> : <ChapterRegulars allData={data} years={YEARS} />
