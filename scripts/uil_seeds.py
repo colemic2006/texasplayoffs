@@ -7,6 +7,8 @@ season and class, so the front end can tell when a lower seed beat a higher one.
 
   python3 scripts/uil_seeds.py 2022 2023 2024 2025      # fetch the PDFs from UIL
   python3 scripts/uil_seeds.py 2025 --dir some/folder    # use PDFs already on disk
+In season, before UIL posts the PDFs, the seeds come from the MaxPreps bracket UIL embeds on
+its playoff pages (the same "W1", "F2" labels; MaxPreps only answers from GitHub Actions).
 Classes already in seeds.json are skipped, so the season workflow can run this every time.
 """
 import json, re, sys, tempfile, pathlib, urllib.request
@@ -71,27 +73,80 @@ def fetch_pdf(year, cls):
     return None
 
 
+SEED_TXT = re.compile(r'^([WRTF])\s*(\d{1,2})$')
+
+
+def maxpreps_pairs(year, cls):
+    """First-round pairings with seeds from the MaxPreps bracket on UIL's playoff page."""
+    from bs4 import BeautifulSoup
+    from season import fetch, UIL
+    page = fetch(f'{UIL}/football/playoff-brackets/{cls.replace(" ", "")}')
+    m = re.search(r'https://www\.maxpreps\.com/tournament/view\.aspx[^"]+', page)
+    if not m:
+        return []
+    soup = BeautifulSoup(fetch(m.group(0).replace('&amp;', '&')), 'html.parser')
+    if str(year) not in (soup.title.get_text() if soup.title else ''):
+        return []
+    # each round can be split into several blocks (one per half of the bracket); take every block
+    # that starts on the first playoff date
+    dated = [(r.select_one('abbr.start-date[title]'), r) for r in soup.select('div.round')]
+    dated = [(d['title'][:10], r) for d, r in dated if d]
+    if not dated:
+        return []
+    first = min(d for d, _ in dated)
+    rounds = [r for d, r in dated if d == first]
+    pairs = []
+    for mu in [m for r in rounds for m in r.select('li.matchup-container')]:
+        teams = mu.select('li.team')
+        if len(teams) != 2:
+            continue
+        side = []
+        for t in teams:
+            name = t.select_one('.name').get_text(strip=True) if t.select_one('.name') else ''
+            # the seed label sits in its own element ("W1", "F2"); find it without relying on a class name
+            lab = next((SEED_TXT.match(x) for x in t.stripped_strings if SEED_TXT.match(x)), None)
+            if not name or not lab:
+                break
+            side.append((name, PLACE[lab.group(1)], int(lab.group(2)), True, 0))
+        if len(side) == 2:
+            pairs.append(tuple(side))
+    if not pairs and rounds[0].select('li.team'):
+        t = rounds[0].select('li.team')[0]
+        print(f'  ? {cls}: no seed labels found on MaxPreps; first team reads {list(t.stripped_strings)[:8]}')
+    return pairs
+
+
 def season_seeds(year, src_dir=None, have=()):
     games = json.load(open(ROOT / f'public/data/{year}.json'))['games']
     out, problems = {}, []
     for cls in CLASSES:
         teams = sorted({t for g in games if g['classification'] == cls for t in (g['team1'], g['team2']) if t})
-        if not teams or cls in have:      # seeds don't change once a bracket is out
+        wk1 = {t for g in games if g['classification'] == cls and g['week'] == 1 for t in (g['team1'], g['team2']) if t}
+        if not teams or (cls in have and len(have[cls]) >= len(wk1)):   # seeds don't change once a bracket is out
             continue
         if src_dir:
             p = pathlib.Path(src_dir) / f'{year}_{cls.replace(" ", "-")}.pdf'
             data = p.read_bytes() if p.exists() else None
         else:
             data = fetch_pdf(year, cls)
-        if not data:
+        if data:
+            with tempfile.NamedTemporaryFile(suffix='.pdf') as f:
+                f.write(data); f.flush()
+                pairs = first_round_pairs(seeds_from_pdf(f.name))
+        elif not src_dir:
+            try:
+                pairs = maxpreps_pairs(year, cls)
+            except Exception as e:
+                pairs = []
+                problems.append(f'{cls}: MaxPreps: {e}')
+            if not pairs:
+                problems.append(f'{cls}: no PDF or MaxPreps seeds yet'); continue
+            print(f'  {cls}: seeds from MaxPreps ({len(pairs)} first-round games)')
+        else:
             problems.append(f'{cls}: no PDF'); continue
-        with tempfile.NamedTemporaryFile(suffix='.pdf') as f:
-            f.write(data); f.flush()
-            found = seeds_from_pdf(f.name)
         # match each bracket first-round pairing to a site week-1 game, best overall fit first
         site = [(g['team1'], g['team2']) for g in games if g['classification'] == cls and g['week'] == 1]
         first = sorted({t for g in site for t in g})
-        pairs = first_round_pairs(found)
         cand = []
         for pa in pairs:
             if 'BYE' in (pa[0][0].upper(), pa[1][0].upper()):
