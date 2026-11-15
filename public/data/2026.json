@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-15T19:05+00:00",
+    "updated": "2026-11-15T19:50+00:00",
     "games": 528,
     "played": 352,
     "assigned": 424,
@@ -7717,7 +7717,15 @@
       "score1": null,
       "team2": "Ganado",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Tomball ISD Stadium, Tomball",
+      "lat": 30.11165,
+      "lng": -95.6257,
+      "stadium": "Tomball ISD Stadium",
+      "map_link": "https://goo.gl/maps/Z6Jh79x8crv1Gjhu6",
+      "city": "Tomball",
+      "date": "2026-11-19",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -7729,7 +7737,13 @@
       "score1": null,
       "team2": "Lovelady",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Daiken Stadium, Waller",
+      "lat": 30.05845,
+      "lng": -95.92673,
+      "city": "Waller",
+      "date": "2026-11-19",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -7741,7 +7755,15 @@
       "score1": null,
       "team2": "Olton",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Grant Teaff Tiger Stadium, Snyder",
+      "lat": 32.7025,
+      "lng": -100.9318,
+      "stadium": "Grant Teaff Tiger Stadium",
+      "map_link": "https://maps.app.goo.gl/isXFJpXnaUGkXRir6",
+      "city": "Snyder",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -7753,7 +7775,15 @@
       "score1": null,
       "team2": "Tom Bean",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Bruce Field, Athens",
+      "lat": 32.20167,
+      "lng": -95.84913,
+      "stadium": "Bruce Field",
+      "map_link": "https://goo.gl/maps/rSjzhaWHLSnC9oBk6",
+      "city": "Athens",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -7765,7 +7795,15 @@
       "score1": null,
       "team2": "Forsan",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Peoples Bank Stadium, Wolfforth",
+      "lat": 33.51832,
+      "lng": -102.0066,
+      "stadium": "Peoples Bank Stadium",
+      "map_link": "https://goo.gl/maps/yTzp5e5h4y9HwbGZ9",
+      "city": "Wolfforth",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -7778,6 +7816,12 @@
       "team2": "Johnson City",
       "score2": null,
       "winner": null,
+      "site": "Bulldog Stadium, McGregor",
+      "lat": 31.42849,
+      "lng": -97.40388,
+      "stadium": "Bulldog Stadium",
+      "map_link": "https://goo.gl/maps/faTDFYgNFRRSHBsJ7",
+      "city": "McGregor",
       "date": "2026-11-20",
       "time": "7:00 PM"
     },
@@ -7792,6 +7836,12 @@
       "team2": "Spearman",
       "score2": null,
       "winner": null,
+      "site": "Happy State Bank Stadium, Canyon",
+      "lat": 35.01197,
+      "lng": -101.91654,
+      "stadium": "Happy State Bank Stadium",
+      "map_link": "https://goo.gl/maps/uL2MSfaBvwkSJvek7",
+      "city": "Canyon",
       "date": "2026-11-20",
       "time": "4:00 PM",
       "changes": [
@@ -7814,7 +7864,15 @@
       "score1": null,
       "team2": "San Saba",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Pirate Stadium, Granbury",
+      "lat": 32.44214,
+      "lng": -97.8104,
+      "stadium": "Pirate Stadium",
+      "map_link": "https://goo.gl/maps/XrgGgN19nmnJRTEm6",
+      "city": "Granbury",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -7846,7 +7904,15 @@
       "score1": null,
       "team2": "Weimar",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Matador Stadium, Seguin",
+      "lat": 29.57658,
+      "lng": -97.94563,
+      "stadium": "Matador Stadium",
+      "map_link": "https://goo.gl/maps/fSivQY3srfusAWv58",
+      "city": "Seguin",
+      "date": "2026-11-19",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -7859,6 +7925,12 @@
       "team2": "De Leon",
       "score2": null,
       "winner": null,
+      "site": "Cervetto Stadium, Dublin",
+      "lat": 32.08613,
+      "lng": -98.34223,
+      "stadium": "Bob and Norma Cervetto Stadium",
+      "map_link": "https://goo.gl/maps/SnMek5KYTMWGGttj8",
+      "city": "Dublin",
       "date": "2026-11-20",
       "time": "7:00 PM"
     },
@@ -7872,7 +7944,15 @@
       "score1": null,
       "team2": "Frankston",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Lion Stadium, Henderson",
+      "lat": 32.14163,
+      "lng": -94.80468,
+      "stadium": "Lion Stadium",
+      "map_link": "https://goo.gl/maps/bbpqzihHmpdMipCy5",
+      "city": "Henderson",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -7884,7 +7964,15 @@
       "score1": null,
       "team2": "Tioga",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Ram Stadium, Mineral Wells",
+      "lat": 32.81599,
+      "lng": -98.07786,
+      "stadium": "Ram Stadium",
+      "map_link": "https://goo.gl/maps/tLrsxB1wW7KTD4cG9",
+      "city": "Mineral Wells",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -7896,7 +7984,15 @@
       "score1": null,
       "team2": "Rosebud-Lott",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Manor ISD Athletic Complex, Manor",
+      "lat": 30.34209,
+      "lng": -97.5559,
+      "stadium": "Manor Athletic Complex",
+      "map_link": "https://goo.gl/maps/JGtRYHos88k",
+      "city": "Manor",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -7908,7 +8004,15 @@
       "score1": null,
       "team2": "Shelbyville",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "TMF Rose Stadium, Tyler",
+      "lat": 32.34228,
+      "lng": -95.32406,
+      "stadium": "Christus Trinity Mother Frances Rose Stadium",
+      "map_link": "https://goo.gl/maps/ZwesgiaqJ8b5bMgQ7",
+      "city": "Tyler",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -7934,7 +8038,15 @@
       "score1": null,
       "team2": "Wheeler",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Eagle Stadium, Holliday",
+      "lat": 33.11407,
+      "lng": -96.65762,
+      "stadium": "Eagle Stadium",
+      "map_link": "https://goo.gl/maps/F6vHjvY4xeBeZCZs9",
+      "city": "Allen",
+      "date": "2026-11-19",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -7946,7 +8058,15 @@
       "score1": null,
       "team2": "Crawford",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Newton Field, Graham",
+      "lat": 33.09504,
+      "lng": -98.58039,
+      "stadium": "Newton Field",
+      "map_link": "https://goo.gl/maps/5cwr5aXZ47YTGrxb7",
+      "city": "Graham",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -7958,7 +8078,15 @@
       "score1": null,
       "team2": "Stamford",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Buckaroo Stadium, Breckenridge",
+      "lat": 32.76,
+      "lng": -98.90864,
+      "stadium": "Buckaroo Stadium",
+      "map_link": "https://goo.gl/maps/yW45uKrvr5CS97Yy6",
+      "city": "Breckenridge",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -7970,7 +8098,15 @@
       "score1": null,
       "team2": "Era",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Tiger Stadium, Commerce",
+      "lat": 33.24134,
+      "lng": -95.92605,
+      "stadium": "Commerce Tiger Stadium",
+      "map_link": "https://maps.app.goo.gl/6sj11ucikUe62AMa7",
+      "city": "Commerce",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -7982,7 +8118,15 @@
       "score1": null,
       "team2": "Harper",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Creek View Cougar Stadium, San Antonio",
+      "lat": 29.3565,
+      "lng": -98.87888,
+      "stadium": "Creek View High School Stadium",
+      "map_link": "https://maps.app.goo.gl/wybVbq5TDhGhwcmb9",
+      "city": "Castroville",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8014,7 +8158,15 @@
       "score1": null,
       "team2": "Colmesneil",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Blackcat Field, Mexia",
+      "lat": 31.68162,
+      "lng": -96.47837,
+      "stadium": "Blackcat Field",
+      "map_link": "https://goo.gl/maps/EkD2KuxKZWcYqZw69",
+      "city": "Mexia",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8046,7 +8198,15 @@
       "score1": null,
       "team2": "Sudan",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Tornado Stadium, Lamesa",
+      "lat": 32.7464,
+      "lng": -101.95946,
+      "stadium": "Tornado Stadium",
+      "map_link": "https://goo.gl/maps/261Vkrrxchq1RnQS6",
+      "city": "Lamesa",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8058,7 +8218,15 @@
       "score1": null,
       "team2": "Haskell",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "San Angelo Stadium, San Angelo",
+      "lat": 31.43046,
+      "lng": -100.46004,
+      "stadium": "San Angelo Stadium",
+      "map_link": "https://goo.gl/maps/zSVX5h2VG152aGnt9",
+      "city": "San Angelo",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8070,7 +8238,15 @@
       "score1": null,
       "team2": "Grapeland",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Eagle Stadium, Lindale",
+      "lat": 33.11407,
+      "lng": -96.65762,
+      "stadium": "Eagle Stadium",
+      "map_link": "https://goo.gl/maps/F6vHjvY4xeBeZCZs9",
+      "city": "Allen",
+      "date": "2026-11-19",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8082,7 +8258,15 @@
       "score1": null,
       "team2": "Three Rivers",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Tiger Stadium, Smithville",
+      "lat": 30.05413,
+      "lng": -97.21724,
+      "stadium": "Tiger Stadium",
+      "map_link": "https://goo.gl/maps/ukjjT2CSA7CyKbbJ6",
+      "city": "Smithville",
+      "date": "2026-11-19",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8094,7 +8278,15 @@
       "score1": null,
       "team2": "Yorktown",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Barry Field, Hondo",
+      "lat": 29.34235,
+      "lng": -99.13594,
+      "stadium": "Barry Field",
+      "map_link": "https://goo.gl/maps/dVpx3eyZKdkt8oT78",
+      "city": "Hondo",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8126,7 +8318,15 @@
       "score1": null,
       "team2": "Lindsay",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Red Raider Stadium, Winnsboro",
+      "lat": 32.95345,
+      "lng": -95.30047,
+      "stadium": "Red Raider Stadium",
+      "map_link": "https://goo.gl/maps/Tar7XUR4Q2yc8LMa8",
+      "city": "Winnsboro",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8138,7 +8338,15 @@
       "score1": null,
       "team2": "Chilton",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Bulldog Stadium, Somerset",
+      "lat": 29.22635,
+      "lng": -98.6578,
+      "stadium": "Bulldog Stadium",
+      "map_link": "https://goo.gl/maps/RYU3fJ24RWj451ZM8",
+      "city": "Somerset",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8150,7 +8358,15 @@
       "score1": null,
       "team2": "Liberty-Eylau",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Prim Stadium, Sulphur Springs",
+      "lat": 33.14157,
+      "lng": -95.60695,
+      "stadium": "Gerald Prim Stadium",
+      "map_link": "https://goo.gl/maps/8AAbSUGezis",
+      "city": "Sulphur Springs",
+      "date": "2026-11-19",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8162,7 +8378,15 @@
       "score1": null,
       "team2": "Tatum",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Better Life Stadium, Forney",
+      "lat": 32.7687,
+      "lng": -96.40571,
+      "stadium": "Better Life Stadium",
+      "map_link": "https://maps.app.goo.gl/e8HZFKTQKFuq7X1p8",
+      "city": "Forney",
+      "date": "2026-11-19",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8214,7 +8438,15 @@
       "score1": null,
       "team2": "Whitesboro",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Prim Stadium, Sulphur Springs",
+      "lat": 33.14157,
+      "lng": -95.60695,
+      "stadium": "Gerald Prim Stadium",
+      "map_link": "https://goo.gl/maps/8AAbSUGezis",
+      "city": "Sulphur Springs",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8227,6 +8459,12 @@
       "team2": "Lorena",
       "score2": null,
       "winner": null,
+      "site": "Mustang Stadium, Madisonville",
+      "lat": 30.94517,
+      "lng": -95.90525,
+      "stadium": "Mustang Stadium",
+      "map_link": "https://goo.gl/maps/uCkXHGAGQdu9zi1W6",
+      "city": "Madisonville",
       "date": "2026-11-20",
       "time": "7:00 PM",
       "changes": [
@@ -8249,7 +8487,15 @@
       "score1": null,
       "team2": "Goliad",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Memorial Stadium, Victoria",
+      "lat": 28.82518,
+      "lng": -96.97605,
+      "stadium": "Memorial Stadium",
+      "map_link": "https://goo.gl/maps/8hmhUAiFwEUuHg4W9",
+      "city": "Victoria",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8261,7 +8507,15 @@
       "score1": null,
       "team2": "Vernon",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Porcupine Stadium, Springtown",
+      "lat": 32.97673,
+      "lng": -97.6936,
+      "stadium": "Porcupine Stadium",
+      "map_link": "https://goo.gl/maps/47JnPKukb5mzd3YG9",
+      "city": "Springtown",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8273,7 +8527,15 @@
       "score1": null,
       "team2": "Sweetwater",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Wolf Stadium, Colorado City",
+      "lat": 32.39832,
+      "lng": -100.86988,
+      "stadium": "Wolf Stadium",
+      "map_link": "https://goo.gl/maps/SojpNeMA7D2Lysrd6",
+      "city": "Colorado City",
+      "date": "2026-11-19",
+      "time": "6:00 PM"
     },
     {
       "year": 2026,
@@ -8285,7 +8547,15 @@
       "score1": null,
       "team2": "Bushland",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Fair Park Stadium, Childress",
+      "lat": 34.51966,
+      "lng": -100.20677,
+      "stadium": "Fair Park Stadium",
+      "map_link": "https://goo.gl/maps/T5USJpM1hofREJkc6",
+      "city": "Childress",
+      "date": "2026-11-19",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8297,7 +8567,15 @@
       "score1": null,
       "team2": "Hallettsville",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Sandcrab Stadium, Port Lavaca",
+      "lat": 28.61921,
+      "lng": -96.63706,
+      "stadium": "Sandcrab Stadium",
+      "map_link": "https://goo.gl/maps/uMrkiyrXbLM9ZujUA",
+      "city": "Port Lavaca",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8350,6 +8628,12 @@
       "team2": "Marion",
       "score2": null,
       "winner": null,
+      "site": "Indian Stadium, Jourdanton",
+      "lat": 28.91059,
+      "lng": -98.54076,
+      "stadium": "Indian Stadium",
+      "map_link": "https://goo.gl/maps/kN15KdxpF6CLvxc58",
+      "city": "Jourdanton",
       "date": "2026-11-20",
       "time": "7:00 PM"
     },
@@ -8363,7 +8647,15 @@
       "score1": null,
       "team2": "Cameron Yoe",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Delmar Stadium, Houston",
+      "lat": 29.80366,
+      "lng": -95.45623,
+      "stadium": "Delmar Stadium",
+      "map_link": "https://goo.gl/maps/ZeFpyvP6AT2FBnRG8",
+      "city": "Houston",
+      "date": "2026-11-20",
+      "time": "7:30 PM"
     },
     {
       "year": 2026,
@@ -8376,6 +8668,12 @@
       "team2": "Orange Grove",
       "score2": null,
       "winner": null,
+      "site": "Johnson Field, Karnes City",
+      "lat": 28.88498,
+      "lng": -97.90084,
+      "stadium": "Poss Johnson Field",
+      "map_link": "https://goo.gl/maps/Zds1rXChHE7S4x139",
+      "city": "Karnes City",
       "date": "2026-11-20",
       "time": "7:30 PM"
     },
@@ -8389,7 +8687,15 @@
       "score1": null,
       "team2": "Merkel",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Lion Stadium, Vernon",
+      "lat": 34.14703,
+      "lng": -99.31611,
+      "stadium": "Lion Stadium",
+      "map_link": "https://goo.gl/maps/qH9J1GHS28QjuZne7",
+      "city": "Vernon",
+      "date": "2026-11-19",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8401,7 +8707,15 @@
       "score1": null,
       "team2": "Edgewood",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Ron Poe Stadium, McKinney",
+      "lat": 33.20719,
+      "lng": -96.6336,
+      "stadium": "Ron Poe Stadium",
+      "map_link": "https://goo.gl/maps/5X1kgBYCnNTMTAGk9",
+      "city": "McKinney",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8414,6 +8728,12 @@
       "team2": "Rice Consolidated",
       "score2": null,
       "winner": null,
+      "site": "The Pfield, Pflugerville",
+      "lat": 30.44575,
+      "lng": -97.63307,
+      "stadium": "The Pfield",
+      "map_link": "https://goo.gl/maps/2Bh3mQeD8Hzt9brS7",
+      "city": "Pflugerville",
       "date": "2026-11-20",
       "time": "7:00 PM"
     },
@@ -8447,7 +8767,15 @@
       "score1": null,
       "team2": "Slaton",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Fair Park Stadium, Childress",
+      "lat": 34.51966,
+      "lng": -100.20677,
+      "stadium": "Fair Park Stadium",
+      "map_link": "https://goo.gl/maps/T5USJpM1hofREJkc6",
+      "city": "Childress",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8479,7 +8807,15 @@
       "score1": null,
       "team2": "West Rusk",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Wildcat Stadium, Palestine",
+      "lat": 31.73851,
+      "lng": -95.63875,
+      "stadium": "Wildcat Stadium",
+      "map_link": "https://goo.gl/maps/R9ow3qGKin9WsV8b8",
+      "city": "Palestine",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8491,7 +8827,15 @@
       "score1": null,
       "team2": "Troup",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Roughrider Stadium, Center",
+      "lat": 31.79528,
+      "lng": -94.18036,
+      "stadium": "Roughrider Stadium",
+      "map_link": "https://goo.gl/maps/ggPxaHCoJ7cTkcoaA",
+      "city": "Center",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8543,7 +8887,15 @@
       "score1": null,
       "team2": "Stockdale",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Tiger Stadium, Smithville",
+      "lat": 30.05413,
+      "lng": -97.21724,
+      "stadium": "Tiger Stadium",
+      "map_link": "https://goo.gl/maps/ukjjT2CSA7CyKbbJ6",
+      "city": "Smithville",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8555,7 +8907,15 @@
       "score1": null,
       "team2": "Dallas Madison",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Farmer Stadium, Farmersville",
+      "lat": 33.16322,
+      "lng": -96.36035,
+      "stadium": "Farmer Stadium",
+      "map_link": "https://goo.gl/maps/3Rqt1DNFnaghnLXe9",
+      "city": "Farmersville",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8567,7 +8927,15 @@
       "score1": null,
       "team2": "Buffalo",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Driskell Stadium, Crockett",
+      "lat": 31.31802,
+      "lng": -95.4573,
+      "stadium": "Monte Jack Driskell Stadium",
+      "map_link": "https://goo.gl/maps/CmrdQaQbug1XakEC8",
+      "city": "Crockett",
+      "date": "2026-11-20",
+      "time": "7:30 PM"
     },
     {
       "year": 2026,
@@ -8579,7 +8947,15 @@
       "score1": null,
       "team2": "Howe",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Lion Memorial Stadium, Ennis",
+      "lat": 32.30383,
+      "lng": -96.63297,
+      "stadium": "Lion Memorial Stadium",
+      "map_link": "https://goo.gl/maps/vQFh5Fh25UfYP54w9",
+      "city": "Ennis",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8592,7 +8968,14 @@
       "team2": "Boling",
       "score2": null,
       "winner": null,
-      "date": "2026-11-19"
+      "site": "Memorial Stadium, Victoria",
+      "lat": 28.82518,
+      "lng": -96.97605,
+      "stadium": "Memorial Stadium",
+      "map_link": "https://goo.gl/maps/8hmhUAiFwEUuHg4W9",
+      "city": "Victoria",
+      "date": "2026-11-19",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8604,7 +8987,15 @@
       "score1": null,
       "team2": "Hardin",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Wildcat Stadium, Palestine",
+      "lat": 31.73851,
+      "lng": -95.63875,
+      "stadium": "Wildcat Stadium",
+      "map_link": "https://goo.gl/maps/R9ow3qGKin9WsV8b8",
+      "city": "Palestine",
+      "date": "2026-11-19",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8616,7 +9007,15 @@
       "score1": null,
       "team2": "Canyon High",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Bulldog Stadium, Burkburnett",
+      "lat": 34.08003,
+      "lng": -98.58304,
+      "stadium": "Bulldog Stadium",
+      "map_link": "https://goo.gl/maps/wjU4N53J7f4SKW7A6",
+      "city": "Burkburnett",
+      "date": "2026-11-19",
+      "time": "6:00 PM"
     },
     {
       "year": 2026,
@@ -8628,7 +9027,15 @@
       "score1": null,
       "team2": "Canyon West Plains",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Mustang Bowl, Sweetwater",
+      "lat": 32.48264,
+      "lng": -100.40611,
+      "stadium": "Mustang Bowl",
+      "map_link": "https://goo.gl/maps/ZoK3S1snEe41y7LW8",
+      "city": "Sweetwater",
+      "date": "2026-11-19",
+      "time": "6:00 PM"
     },
     {
       "year": 2026,
@@ -8640,7 +9047,15 @@
       "score1": null,
       "team2": "Decatur",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Astound Broadband Stadium, Midland",
+      "lat": 31.96078,
+      "lng": -102.14848,
+      "stadium": "Astound Broadband Stadium",
+      "map_link": "https://goo.gl/maps/2xizkpWLXy9xkYWw9",
+      "city": "Midland",
+      "date": "2026-11-21",
+      "time": "3:00 PM"
     },
     {
       "year": 2026,
@@ -8652,7 +9067,15 @@
       "score1": null,
       "team2": "Vidor",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Green Stadium, Bryan",
+      "lat": 30.65651,
+      "lng": -96.33315,
+      "stadium": "Merrill Green Stadium",
+      "map_link": "https://goo.gl/maps/jbwDcfrRANqXJiX78",
+      "city": "Bryan",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8664,7 +9087,13 @@
       "score1": null,
       "team2": "Longview Pine Tree",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Tiger Stadium, Corsicana",
+      "lat": 32.08273,
+      "lng": -96.5207,
+      "city": "Corsicana",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8676,7 +9105,15 @@
       "score1": null,
       "team2": "El Campo",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Randall Reed Stadium, New Caney",
+      "lat": 30.13568,
+      "lng": -95.23305,
+      "stadium": "Randall Reed Stadium",
+      "map_link": "https://goo.gl/maps/TVJ1cEsvBjaJfuUJ7",
+      "city": "New Caney",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8688,7 +9125,15 @@
       "score1": null,
       "team2": "Port Lavaca Calhoun",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Leopard Stadium, La Grange",
+      "lat": 29.90345,
+      "lng": -96.86569,
+      "stadium": "Leopard Stadium",
+      "map_link": "https://goo.gl/maps/6tQRy1aGx1HnL3qx9",
+      "city": "La Grange",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8701,6 +9146,12 @@
       "team2": "Floresville",
       "score2": null,
       "winner": null,
+      "site": "Danaher Stadium, Corpus Christi",
+      "lat": 27.85831,
+      "lng": -97.63666,
+      "stadium": "Phil Danaher Stadium",
+      "map_link": "https://goo.gl/maps/244We57Gr8Nq7eQ3A",
+      "city": "Corpus Christi",
       "date": "2026-11-20",
       "time": "7:00 PM"
     },
@@ -8714,7 +9165,15 @@
       "score1": null,
       "team2": "Dallas Kimball",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Norville Field, Kaufman",
+      "lat": 32.56556,
+      "lng": -96.31258,
+      "stadium": "Homer Norville Field",
+      "map_link": "https://goo.gl/maps/YbyGG1MnzX7iFpMZ6",
+      "city": "Kaufman",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8726,7 +9185,15 @@
       "score1": null,
       "team2": "Corpus Christi Miller",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Alamo Stadium, San Antonio",
+      "lat": 29.46372,
+      "lng": -98.48035,
+      "stadium": "Alamo Stadium",
+      "map_link": "https://goo.gl/maps/9ZHVH4NooUHkfakd8",
+      "city": "San Antonio",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8738,7 +9205,13 @@
       "score1": null,
       "team2": "Paris",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Memorial Stadium, Commerce",
+      "lat": 33.24584,
+      "lng": -95.91007,
+      "city": "Commerce",
+      "date": "2026-11-20",
+      "time": "7:30 PM"
     },
     {
       "year": 2026,
@@ -8788,7 +9261,15 @@
       "score1": null,
       "team2": "Dallas Wilmer-Hutchins",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "City Bank Stadium, Forney",
+      "lat": 32.73659,
+      "lng": -96.46865,
+      "stadium": "Forney City Bank Stadium",
+      "map_link": "https://goo.gl/maps/F7gGtPMCR2jCZJpy8",
+      "city": "Forney",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8800,7 +9281,15 @@
       "score1": null,
       "team2": "La Vernia",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Dragon Stadium, New Braunfels",
+      "lat": 29.63988,
+      "lng": -98.11618,
+      "stadium": "Dragon Stadium",
+      "map_link": "https://maps.app.goo.gl/PRLbVAvrzHVniBa87",
+      "city": "New Braunfels",
+      "date": "2026-11-20",
+      "time": "7:30 PM"
     },
     {
       "year": 2026,
@@ -8812,7 +9301,15 @@
       "score1": null,
       "team2": "Lake Dallas",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Grant Teaff Tiger Stadium, Snyder",
+      "lat": 32.7025,
+      "lng": -100.9318,
+      "stadium": "Grant Teaff Tiger Stadium",
+      "map_link": "https://maps.app.goo.gl/isXFJpXnaUGkXRir6",
+      "city": "Snyder",
+      "date": "2026-11-19",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8824,7 +9321,15 @@
       "score1": null,
       "team2": "Texarkana Pleasant Grove",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Sam Parker Field, Mount Pleasant",
+      "lat": 33.18179,
+      "lng": -94.99226,
+      "stadium": "Sam Parker Field",
+      "map_link": "https://goo.gl/maps/tKLshiRNxj7fQ3457",
+      "city": "Mount Pleasant",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8836,7 +9341,15 @@
       "score1": null,
       "team2": "Carthage",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "City Bank Stadium, Forney",
+      "lat": 32.73659,
+      "lng": -96.46865,
+      "stadium": "Forney City Bank Stadium",
+      "map_link": "https://goo.gl/maps/F7gGtPMCR2jCZJpy8",
+      "city": "Forney",
+      "date": "2026-11-19",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8868,7 +9381,15 @@
       "score1": null,
       "team2": "Monahans",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Astound Broadband Stadium, Midland",
+      "lat": 31.96078,
+      "lng": -102.14848,
+      "stadium": "Astound Broadband Stadium",
+      "map_link": "https://goo.gl/maps/2xizkpWLXy9xkYWw9",
+      "city": "Midland",
+      "date": "2026-11-19",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8880,7 +9401,15 @@
       "score1": null,
       "team2": "Sanger",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Royse City ISD Stadium, Royse City",
+      "lat": 32.9761,
+      "lng": -96.33133,
+      "stadium": "Royse City ISD Stadium",
+      "map_link": "https://goo.gl/maps/L1AteM9Tjj2PhiMCA",
+      "city": "Royse City",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8892,7 +9421,15 @@
       "score1": null,
       "team2": "Graham",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Lowrey Field, Lubbock",
+      "lat": 33.58557,
+      "lng": -101.84702,
+      "stadium": "Lowery Field at Plains Capital Park",
+      "map_link": "https://goo.gl/maps/8DGWRhdF8PcJ6Znn7",
+      "city": "Lubbock",
+      "date": "2026-11-19",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8904,7 +9441,15 @@
       "score1": null,
       "team2": "Krum",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Pennington Field, Bedford",
+      "lat": 32.83272,
+      "lng": -97.1364,
+      "stadium": "Pennington Field",
+      "map_link": "https://g.page/PenningtonField-HEBISD?share",
+      "city": "Bedford",
+      "date": "2026-11-20",
+      "time": "7:30 PM"
     },
     {
       "year": 2026,
@@ -8916,7 +9461,15 @@
       "score1": null,
       "team2": "Hamshire-Fannett",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Pridgeon Stadium, Cypress",
+      "lat": 29.93565,
+      "lng": -95.56999,
+      "stadium": "Pridgeon Stadium",
+      "map_link": "https://goo.gl/maps/WGtow4sC3X82",
+      "city": "Houston",
+      "date": "2026-11-20",
+      "time": "7:30 PM"
     },
     {
       "year": 2026,
@@ -8928,7 +9481,12 @@
       "score1": null,
       "team2": "Brownwood",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Georgetown ISD Stadium, Georgetown",
+      "lat": 30.66912,
+      "lng": -97.65861,
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8946,7 +9504,9 @@
       "lng": -98.6251,
       "stadium": "Gustafson Stadium",
       "map_link": "https://goo.gl/maps/JZrEVmzY6YKz9yoE8",
-      "city": "San Antonio"
+      "city": "San Antonio",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8978,7 +9538,15 @@
       "score1": null,
       "team2": "Madisonville",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Klein Memorial Stadium, Klein",
+      "lat": 30.04076,
+      "lng": -95.53754,
+      "stadium": "Klein Memorial Stadium",
+      "map_link": "https://goo.gl/maps/zoC4eqjDQE1myASb6",
+      "city": "Klein",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8991,6 +9559,12 @@
       "team2": "Hitchcock",
       "score2": null,
       "winner": null,
+      "site": "Doggett Family Stadium, Beaumont",
+      "lat": 30.08293,
+      "lng": -94.09843,
+      "stadium": "Doggett Family Stadium",
+      "map_link": "https://goo.gl/maps/3M75akREmEgxQM3aA",
+      "city": "Beaumont",
       "date": "2026-11-20",
       "time": "7:00 PM"
     },
@@ -9044,7 +9618,13 @@
       "score1": null,
       "team2": "Geronimo Navarro",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Crusader Stadium, Belton",
+      "lat": 29.75894,
+      "lng": -95.3677,
+      "city": "Houston",
+      "date": "2026-11-20",
+      "time": "7:30 PM"
     },
     {
       "year": 2026,
@@ -9056,7 +9636,15 @@
       "score1": null,
       "team2": "McAllen Rowe",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Cabaniss Stadium, Corpus Christi",
+      "lat": 27.86671,
+      "lng": -97.65954,
+      "stadium": "Cabaniss Athletic Complex",
+      "map_link": "https://goo.gl/maps/Wqr4iEotLZPUBWiq6",
+      "city": "Corpus Christi",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9068,7 +9656,15 @@
       "score1": null,
       "team2": "Amarillo Tascosa",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Memorial Stadium, Wichita Falls",
+      "lat": 33.85787,
+      "lng": -98.57787,
+      "stadium": "Memorial Stadium",
+      "map_link": "https://goo.gl/maps/iAQNicf1EvGtWVBr9",
+      "city": "Wichita Falls",
+      "date": "2026-11-20",
+      "time": "6:00 PM"
     },
     {
       "year": 2026,
@@ -9080,7 +9676,15 @@
       "score1": null,
       "team2": "Lancaster",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Standridge Stadium, Carrollton",
+      "lat": 32.94045,
+      "lng": -96.91416,
+      "stadium": "Standridge Stadium",
+      "map_link": "https://goo.gl/maps/oMfMrwKihSSP1CBg8",
+      "city": "Carrollton",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9092,7 +9696,15 @@
       "score1": null,
       "team2": "Frenship",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Shotwell Stadium, Abilene",
+      "lat": 32.43373,
+      "lng": -99.6982,
+      "stadium": "P.E. Shotwell Stadium",
+      "map_link": "https://goo.gl/maps/CejNppU8gPYVjYwX6",
+      "city": "Abilene",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9104,7 +9716,15 @@
       "score1": null,
       "team2": "Melissa",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Memorial Stadium, Mesquite",
+      "lat": 32.76383,
+      "lng": -96.63472,
+      "stadium": "Mesquite Memorial Stadium",
+      "map_link": "https://goo.gl/maps/ok5pezoVBGQYri9G6",
+      "city": "Mesquite",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9116,7 +9736,15 @@
       "score1": null,
       "team2": "College Station",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Tomball ISD Stadium, Tomball",
+      "lat": 30.11165,
+      "lng": -95.6257,
+      "stadium": "Tomball ISD Stadium",
+      "map_link": "https://goo.gl/maps/Z6Jh79x8crv1Gjhu6",
+      "city": "Tomball",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9148,7 +9776,15 @@
       "score1": null,
       "team2": "Fort Worth Arlington Heights",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Pirate Stadium, Lubbock",
+      "lat": 33.44854,
+      "lng": -101.84958,
+      "stadium": "Pirate Stadium at First United Park",
+      "map_link": "https://goo.gl/maps/FQKvLTo5uvkdytX68",
+      "city": "Lubbock",
+      "date": "2026-11-20",
+      "time": "6:30 PM"
     },
     {
       "year": 2026,
@@ -9160,7 +9796,15 @@
       "score1": null,
       "team2": "Midlothian",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Gopher Stadium, Grand Prairie",
+      "lat": 32.75607,
+      "lng": -97.00516,
+      "stadium": "Gopher Warrior Bowl",
+      "map_link": "https://goo.gl/maps/QFKT9z4qiVFXn1PC9",
+      "city": "Grand Prairie",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9172,7 +9816,15 @@
       "score1": null,
       "team2": "Port Arthur Memorial",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Planet Ford Stadium, Spring",
+      "lat": 30.06522,
+      "lng": -95.41072,
+      "stadium": "Planet Ford Stadium",
+      "map_link": "https://goo.gl/maps/VDQ4QMgjahxzdW6J7",
+      "city": "Spring",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9184,7 +9836,15 @@
       "score1": null,
       "team2": "North Richland Hills Richland",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Choctaw Stadium, Arlington",
+      "lat": 32.7513,
+      "lng": -97.08256,
+      "stadium": "Choctaw Stadium",
+      "map_link": "https://goo.gl/maps/nbzwbc7VP5ZugVnQ7",
+      "city": "Arlington",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9196,7 +9856,15 @@
       "score1": null,
       "team2": "Baytown Goose Creek Memorial",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Stallworth Stadium, Baytown",
+      "lat": 29.7355,
+      "lng": -94.97743,
+      "stadium": "Stallworth Stadium",
+      "map_link": "https://goo.gl/maps/HZWfvTF1BZ9Z2Szt7",
+      "city": "Baytown",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9228,7 +9896,15 @@
       "score1": null,
       "team2": "Austin Anderson",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Farris Stadium, San Antonio",
+      "lat": 29.56489,
+      "lng": -98.65321,
+      "stadium": "Dub Farris Athletic Complex",
+      "map_link": "https://goo.gl/maps/UK67RFFcHwJrxTyy9",
+      "city": "San Antonio",
+      "date": "2026-11-20",
+      "time": "7:30 PM"
     },
     {
       "year": 2026,
@@ -9240,7 +9916,15 @@
       "score1": null,
       "team2": "Boerne Champion",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "United ISD Student Activity\u00a0 Center, Laredo",
+      "lat": 27.49874,
+      "lng": -99.43674,
+      "stadium": "Bill Johnson Student Activity Center",
+      "map_link": "https://goo.gl/maps/9EZxX2FDWUAoxfz2A",
+      "city": "Laredo",
+      "date": "2026-11-19",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9252,7 +9936,15 @@
       "score1": null,
       "team2": "Corpus Christi Carroll",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Cabaniss Stadium, Corpus Christi",
+      "lat": 27.86671,
+      "lng": -97.65954,
+      "stadium": "Cabaniss Athletic Complex",
+      "map_link": "https://goo.gl/maps/Wqr4iEotLZPUBWiq6",
+      "city": "Corpus Christi",
+      "date": "2026-11-19",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9264,7 +9956,15 @@
       "score1": null,
       "team2": "San Antonio Alamo Heights",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Warrior Stadium, Corpus Christi",
+      "lat": 27.8521,
+      "lng": -97.57209,
+      "stadium": "Warrior Stadium",
+      "map_link": "https://goo.gl/maps/vP8dH4Z53hXBLkjP7",
+      "city": "Corpus Christi",
+      "date": "2026-11-19",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9295,6 +9995,12 @@
       "team2": "Corpus Christi Ray",
       "score2": null,
       "winner": null,
+      "site": "Heroes Stadium, San Antonio",
+      "lat": 29.5369,
+      "lng": -98.39781,
+      "stadium": "Heroes Stadium",
+      "map_link": "https://goo.gl/maps/FxXig925WVVYT43Q9",
+      "city": "San Antonio",
       "date": "2026-11-20",
       "time": "7:00 PM"
     },
@@ -9328,7 +10034,15 @@
       "score1": null,
       "team2": "Midlothian Heritage",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Newsom Stadium, Mansfield",
+      "lat": 32.57639,
+      "lng": -97.07697,
+      "stadium": "Vernon Newsom Stadium",
+      "map_link": "https://goo.gl/maps/ZckcYBnHj39KXzJV7",
+      "city": "Mansfield",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9341,6 +10055,11 @@
       "team2": "Texarkana Texas",
       "score2": null,
       "winner": null,
+      "site": "Bulldog Stadium, Tyler",
+      "lat": 32.31056,
+      "lng": -95.1896,
+      "stadium": "Bulldog Stadium (Chapel Hill HS)",
+      "city": "Tyler",
       "date": "2026-11-20",
       "time": "7:00 PM"
     },
@@ -9355,6 +10074,12 @@
       "team2": "Fort Bend Marshall",
       "score2": null,
       "winner": null,
+      "site": "Maddry Memorial Stadium, Channelview",
+      "lat": 29.78892,
+      "lng": -95.12454,
+      "stadium": "Ray Maddry Memorial Stadium",
+      "map_link": "https://goo.gl/maps/y1WnDaSAJAQtReKx9",
+      "city": "Channelview",
       "date": "2026-11-20",
       "time": "7:00 PM"
     },
@@ -9369,6 +10094,12 @@
       "team2": "Celina",
       "score2": null,
       "winner": null,
+      "site": "Mustang Bowl, Sweetwater",
+      "lat": 32.48264,
+      "lng": -100.40611,
+      "stadium": "Mustang Bowl",
+      "map_link": "https://goo.gl/maps/ZoK3S1snEe41y7LW8",
+      "city": "Sweetwater",
       "date": "2026-11-20",
       "time": "6:30 PM"
     },
@@ -9422,7 +10153,15 @@
       "score1": null,
       "team2": "Liberty Hill",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Gobbler Stadium, Cuero",
+      "lat": 29.09033,
+      "lng": -97.28054,
+      "stadium": "Gobbler Stadium",
+      "map_link": "https://goo.gl/maps/xGqc5ewEXkE7jKc79",
+      "city": "Cuero",
+      "date": "2026-11-19",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9434,7 +10173,15 @@
       "score1": null,
       "team2": "Huntsville",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Rhodes Stadium, Katy",
+      "lat": 29.79137,
+      "lng": -95.81101,
+      "stadium": "Jack Rhodes Memorial Stadium",
+      "map_link": "https://goo.gl/maps/LBEVuH95hAhjacdp8",
+      "city": "Katy",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9446,7 +10193,13 @@
       "score1": null,
       "team2": "Hallsville",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Tiger Stadium, Corsicana",
+      "lat": 32.08273,
+      "lng": -96.5207,
+      "city": "Corsicana",
+      "date": "2026-11-19",
+      "time": "7:30 PM"
     },
     {
       "year": 2026,
@@ -9458,7 +10211,15 @@
       "score1": null,
       "team2": "Abilene Cooper",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Coyote Stadium, Anna",
+      "lat": 33.36065,
+      "lng": -96.55068,
+      "stadium": "Coyote Stadium",
+      "map_link": "https://goo.gl/maps/iDwFKCzQGAZSZMSp8",
+      "city": "Anna",
+      "date": "2026-11-20",
+      "time": "7:30 PM"
     },
     {
       "year": 2026,
@@ -9470,7 +10231,15 @@
       "score1": null,
       "team2": "Frisco",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Ford Center, Frisco",
+      "lat": 33.11066,
+      "lng": -96.8281,
+      "stadium": "Ford Center at the Star",
+      "map_link": "https://goo.gl/maps/8cXQLxrWVg24fCSZA",
+      "city": "Frisco",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9483,6 +10252,12 @@
       "team2": "Pflugerville",
       "score2": null,
       "winner": null,
+      "site": "Montgomery ISD Stadium, Montgomery",
+      "lat": 30.3926,
+      "lng": -95.71946,
+      "stadium": "Montgomery ISD Stadium",
+      "map_link": "https://goo.gl/maps/hExVAYoSKMbLT6FD7",
+      "city": "Montgomery",
       "date": "2026-11-20",
       "time": "7:00 PM"
     },
@@ -9536,7 +10311,15 @@
       "score1": null,
       "team2": "Keller",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Ratliff Stadium, Odessa",
+      "lat": 31.9127,
+      "lng": -102.3592,
+      "stadium": "Ratliff Stadium",
+      "map_link": "https://goo.gl/maps/dLugWPkwfSzT5Hvd9",
+      "city": "Odessa",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9548,7 +10331,15 @@
       "score1": null,
       "team2": "Waxahachie",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Echols Field, Coppell",
+      "lat": 32.97558,
+      "lng": -96.99976,
+      "stadium": "Buddy Echols Field",
+      "map_link": "https://goo.gl/maps/TgPn6JYwxTxgUx9y5",
+      "city": "Coppell",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9560,7 +10351,15 @@
       "score1": null,
       "team2": "Klein",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Thorne Stadium, Houston",
+      "lat": 29.93033,
+      "lng": -95.3205,
+      "stadium": "W. W. Thorne Stadium",
+      "map_link": "https://goo.gl/maps/7sh3THKVEVzwZ1fk8",
+      "city": "Houston",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9572,7 +10371,15 @@
       "score1": null,
       "team2": "Pearland",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Bulldog Stadium, La Porte",
+      "lat": 29.65258,
+      "lng": -95.01704,
+      "stadium": "Bulldog Stadium",
+      "map_link": "https://goo.gl/maps/YuhAMeUQsk3juEEP6",
+      "city": "La Porte",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9584,7 +10391,15 @@
       "score1": null,
       "team2": "Euless Trinity",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "DATCU Stadium, Denton",
+      "lat": 33.20095,
+      "lng": -97.16158,
+      "stadium": "DATCU Stadium",
+      "map_link": "https://goo.gl/maps/mLoHc4A1xdEm1iKt8",
+      "city": "Denton",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9617,6 +10432,12 @@
       "team2": "Hutto",
       "score2": null,
       "winner": null,
+      "site": "Memorial Stadium, Hutto",
+      "lat": 30.53093,
+      "lng": -97.56442,
+      "stadium": "Hutto Memorial Stadium",
+      "map_link": "https://goo.gl/maps/z6e7Bj6zqEASWTvY6",
+      "city": "Hutto",
       "date": "2026-11-20",
       "time": "7:00 PM"
     },
@@ -9650,7 +10471,15 @@
       "score1": null,
       "team2": "San Antonio Johnson",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Cougar Stadium, New Braunfels",
+      "lat": 29.70283,
+      "lng": -98.12573,
+      "stadium": "Cougar Stadium",
+      "map_link": "https://goo.gl/maps/g3hNAyAqt83r81Jd6",
+      "city": "New Braunfels",
+      "date": "2026-11-20",
+      "time": "7:30 PM"
     },
     {
       "year": 2026,
@@ -9662,7 +10491,15 @@
       "score1": null,
       "team2": "Arlington Martin",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Patriot Stadium, Lubbock",
+      "lat": 33.50068,
+      "lng": -101.88411,
+      "stadium": "Patriot Field",
+      "map_link": "https://g.page/all-saints-lubbock?share",
+      "city": "Lubbock",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9726,7 +10563,15 @@
       "score1": null,
       "team2": "Katy Cypress Lakes",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Cy-Fair FCU Stadium, Cypress",
+      "lat": 29.99014,
+      "lng": -95.67814,
+      "stadium": "Cy Fair FCU Stadium",
+      "map_link": "https://goo.gl/maps/wcVPi2Ck2BR2",
+      "city": "Cypress",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9738,7 +10583,15 @@
       "score1": null,
       "team2": "San Antonio Pieper",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Toyota Rattler Stadium, San Marcos",
+      "lat": 29.82228,
+      "lng": -97.94768,
+      "stadium": "Toyota Rattler Stadium",
+      "map_link": "https://goo.gl/maps/sT16ANFK7Z8BGfiX8",
+      "city": "San Marcos",
+      "date": "2026-11-19",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9790,7 +10643,15 @@
       "score1": null,
       "team2": "Dallas Lake Highlands",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "McKinney ISD Stadium, McKinney",
+      "lat": 33.16984,
+      "lng": -96.66491,
+      "stadium": "McKinney ISD Stadium",
+      "map_link": "https://goo.gl/maps/46cUGoZ2vBwbN8Yj8",
+      "city": "McKinney",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9802,7 +10663,15 @@
       "score1": null,
       "team2": "Langham Creek",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Woodforest Bank Stadium, Shenandoah",
+      "lat": 30.18487,
+      "lng": -95.44899,
+      "stadium": "Woodforest Bank Stadium",
+      "map_link": "https://goo.gl/maps/upEFqtHzV76XXwvP8",
+      "city": "Shenandoah",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9814,7 +10683,15 @@
       "score1": null,
       "team2": "Red Oak",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Kincaide Stadium, Dallas",
+      "lat": 32.63734,
+      "lng": -96.84225,
+      "stadium": "John Kincaide Stadium",
+      "map_link": "https://goo.gl/maps/PcQDDtxSmQseS2d17",
+      "city": "Dallas",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9826,7 +10703,15 @@
       "score1": null,
       "team2": "Waller",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Daikin Stadium, Waller",
+      "lat": 30.06213,
+      "lng": -95.91031,
+      "stadium": "Daikin Stadium",
+      "map_link": "https://goo.gl/maps/v6amowm16uydWWqQ9",
+      "city": "Waller",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9858,7 +10743,15 @@
       "score1": null,
       "team2": "Cypress Falls",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Tomball ISD Stadium, Tomball",
+      "lat": 30.11165,
+      "lng": -95.6257,
+      "stadium": "Tomball ISD Stadium",
+      "map_link": "https://goo.gl/maps/Z6Jh79x8crv1Gjhu6",
+      "city": "Tomball",
+      "date": "2026-11-21",
+      "time": "2:00 PM"
     },
     {
       "year": 2026,
@@ -9870,7 +10763,15 @@
       "score1": null,
       "team2": "Houston Memorial",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Sheldon ISD Panther Stadium, Houston",
+      "lat": 29.75894,
+      "lng": -95.3677,
+      "stadium": "Sheldon ISD Panther Stadium",
+      "map_link": "https://goo.gl/maps/QmGujjAKuiCSnGxo7",
+      "city": "Houston",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9882,7 +10783,15 @@
       "score1": null,
       "team2": "Converse Judson",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Warrior Coliseum, San Antonio",
+      "lat": 29.72123,
+      "lng": -98.47019,
+      "stadium": "Warrior Coliseum",
+      "map_link": "https://maps.app.goo.gl/ujgW8dE8QLLpPt8L8",
+      "city": "San Antonio",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9894,7 +10803,15 @@
       "score1": null,
       "team2": "Southlake Carroll",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Astound Broadband Stadium, Midland",
+      "lat": 31.96078,
+      "lng": -102.14848,
+      "stadium": "Astound Broadband Stadium",
+      "map_link": "https://goo.gl/maps/2xizkpWLXy9xkYWw9",
+      "city": "Midland",
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
