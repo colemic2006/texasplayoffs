@@ -8831,6 +8831,10 @@
     "district": 9,
     "place": 4
    },
+   "Cooper": {
+    "district": 9,
+    "place": 3
+   },
    "Corrigan-Camden": {
     "district": 12,
     "place": 3
@@ -8918,10 +8922,6 @@
    "Mildred": {
     "district": 8,
     "place": 2
-   },
-   "Mineola": {
-    "district": 9,
-    "place": 3
    },
    "Moody": {
     "district": 13,
@@ -9557,6 +9557,10 @@
     "district": 3,
     "place": 3
    },
+   "Anderson-Shiro": {
+    "district": 12,
+    "place": 4
+   },
    "Anthony": {
     "district": 3,
     "place": 4
@@ -9771,10 +9775,6 @@
    },
    "Tolar": {
     "district": 5,
-    "place": 4
-   },
-   "Trinity": {
-    "district": 12,
     "place": 4
    },
    "Trinity Leadership": {

@@ -11,6 +11,8 @@ deployed to GitHub Pages on every push to `main`. Season data lives in `public/d
   `season/team_names.json`; `scripts/team_names.py` applies them and holds back anything uncertain.
 - Chapter assignments and scores come from the owner's records. Don't fill gaps by guessing;
   ask, and leave a game blank if the owner says their records are blank.
+- UIL's bracket PDFs are authoritative for who played whom (and for district seeds). If the site's
+  opponent differs from the UIL bracket, use UIL's.
 - 1A plays weeks 1-4, has an open week 5, and plays its state final in week 6 with everyone else.
 
 ## In-season pipeline
