@@ -65,14 +65,14 @@ function RoundCounts({ games }) {
   )
 }
 
-// Diverging heat: purple above the chapter's historical average, gold below, neutral near it.
+// Diverging heat: green above the chapter's historical average, red below, neutral near it.
 // Strength follows the ratio on a log scale, full at about 2x (or half) the average.
 function heat(val, avg) {
   if (avg == null) return null
   const t = Math.max(-1, Math.min(1, Math.log2((val + 0.5) / (avg + 0.5)) / 1.1))
   if (Math.abs(t) < 0.09) return { bg: 'rgba(15,13,11,0.04)', strong: false, t }
   const a = 0.12 + 0.6 * Math.abs(t)
-  return { bg: t > 0 ? `rgba(70,29,124,${a.toFixed(2)})` : `rgba(226,160,24,${a.toFixed(2)})`, strong: t > 0 && a > 0.5, t }
+  return { bg: t > 0 ? `rgba(34,139,76,${a.toFixed(2)})` : `rgba(206,46,46,${a.toFixed(2)})`, strong: a > 0.5, t }
 }
 const pctOff = (v, a) => a > 0 ? `${v >= a ? '+' : ''}${Math.round(100 * (v - a) / a)}%` : (v > 0 ? 'new' : 'even')
 
@@ -409,7 +409,7 @@ export default function ChapterDashboard({ data, year, allData = {}, years = [],
           <span style={{ display:'inline-flex', alignItems:'center', gap:3 }}>
             <span>below</span>
             {[0.72, 0.42, 0.04, 0.42, 0.72].map((a, i) => (
-              <span key={i} style={{ width:18, height:12, borderRadius:2, background: i < 2 ? `rgba(226,160,24,${a})` : i === 2 ? 'rgba(15,13,11,0.04)' : `rgba(70,29,124,${a})`, border:'1px solid var(--border)' }} />
+              <span key={i} style={{ width:18, height:12, borderRadius:2, background: i < 2 ? `rgba(206,46,46,${a})` : i === 2 ? 'rgba(15,13,11,0.04)' : `rgba(34,139,76,${a})`, border:'1px solid var(--border)' }} />
             ))}
             <span>above</span>
           </span>
