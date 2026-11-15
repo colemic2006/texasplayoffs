@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-15T06:03+00:00",
+    "updated": "2026-11-15T09:28+00:00",
     "games": 528,
     "played": 352,
     "assigned": 384,
@@ -8920,7 +8920,9 @@
       "score1": null,
       "team2": "Hitchcock",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "date": "2026-11-20",
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
