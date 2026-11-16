@@ -295,11 +295,11 @@ function Box({ g, left, top, follow, setFollow, inProgress, final, onlyCh }) {
   }
   const w = winnerOf(g)
   const lit = follow && has(g, follow)
-  const tip = [hasChanges(g) && `⚠ CHANGED: ${changeText(g)}`, g.chapter && `Chapter: ${g.chapter}${g.uil_pick ? ' (UIL pick)' : ''}`, g.site && placeName(g), g.date && gameWhen(g)].filter(Boolean).join(' · ')
+  const tip = [hasChanges(g) && `⚠ CHANGED: ${changeText(g)}`, g.chapter && `Chapter: ${g.chapter}${g.uil_pick ? ' (UIL pick)' : ''}`, g.site && placeName(g), g.date && gameWhen(g), g.mp_url && 'Click for the MaxPreps game page'].filter(Boolean).join(' · ')
   const row = (t, s) => {
     const win = w && t === w, lose = w && t !== w
     return (
-      <div onClick={() => t && setFollow(follow === t ? null : t)}
+      <div onClick={() => g.mp_url ? window.open(g.mp_url, '_blank', 'noopener,noreferrer') : (t && setFollow(follow === t ? null : t))}
            style={{ display:'flex', alignItems:'center', gap:4, height:(BOX_H - 2) / 2, padding:'0 6px', cursor:'pointer',
                     background: follow && t === follow ? 'rgba(70,29,124,0.10)' : 'transparent' }}>
         <span style={{ flex:1, minWidth:0, overflow:'hidden', textOverflow:'ellipsis', whiteSpace:'nowrap', fontSize:11,

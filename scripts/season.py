@@ -144,9 +144,14 @@ def games_from_maxpreps(cls, year):
             ids = [t.get('data-school-id') for t in teams]
             keys = [f'mp:{i}' if i and i != NO_ID else f'mp-name:{cls}:{n}' for i, n in zip(ids, names)]
             card = mu.select_one('[data-hover-card]')
+            # the game's own MaxPreps page ("/tx/football/game/allen-vs-hebron-carrollton/11-12-2026/?c=...")
+            link = next((a['href'] for a in mu.select('a[href]') if '/football/game/' in a['href']), None)
+            if link and link.startswith('/'):
+                link = 'https://www.maxpreps.com' + link
             out.append(dict(week=week, cls=cls, team1=names[0], team2=names[1], score1=scores[0], score2=scores[1],
                             key1=keys[0], key2=keys[1],
-                            card=('https://www.maxpreps.com' + card['data-hover-card'].replace('&amp;', '&')) if card else None))
+                            card=('https://www.maxpreps.com' + card['data-hover-card'].replace('&amp;', '&')) if card else None,
+                            url=link.split('#')[0] if link else None))
     return out
 
 
@@ -316,9 +321,11 @@ def fill_sites(year, ws, placed):
             # raw card text from before sites were cleaned up
             ws[f'{COL["site"]}{r["row"]}'] = r['site'] = game_sites.clean_site(r['site']) or None
             filled += 1
+        key = f"{g['cls']}|{g['key1']}|{g['key2']}"
+        if g.get('url'):
+            cards.setdefault(key, {})['game_url'] = g['url']   # the game's MaxPreps page, for the site's links
         if not g.get('card'):
             continue
-        key = f"{g['cls']}|{g['key1']}|{g['key2']}"
         seen = cards.get(key, {})
         recent = seen.get('read') and (now - datetime.datetime.fromisoformat(seen['read'])).total_seconds() < 12 * 60   # the job runs every 15 minutes
         played = r.get('score1') is not None and r.get('score2') is not None
@@ -338,7 +345,7 @@ def fill_sites(year, ws, placed):
                 print(f'  ! card for {g["team1"]} v {g["team2"]}: {e}')
                 continue
             info['read'] = now.isoformat(timespec='seconds')
-            info.update({k: v for k, v in seen.items() if k.startswith('filled_')})   # keep what the job wrote
+            info.update({k: v for k, v in seen.items() if k.startswith(('filled_', 'dctf_', 'game_url'))})   # keep what the job wrote
             cards[key] = info
             time.sleep(1.0)   # be gentle with MaxPreps
         # final score from the card ("... won Thursday's home playoff game against X by a score of 35-14"),
@@ -676,6 +683,7 @@ def build(year, force=False):
         if review_path(year).exists() else {}
     flag = lambda name, key: f'{name} (?)' if key in unsure and name == unsure[key] else name
     geo = json.loads(game_sites.CACHE.read_text()) if game_sites.CACHE.exists() else {}
+    mp_cards = json.loads(cards_path(year).read_text()) if cards_path(year).exists() else {}
     games = []
     for r in read_rows(ws):
         if not (r['week'] and r['cls'] and r['team1'] and r['team2']):
@@ -696,6 +704,9 @@ def build(year, force=False):
             g['date'] = str(r['date'])[:10]
         if r['time']:
             g['time'] = str(r['time'])
+        url = (mp_cards.get(f"{r['cls']}|{r['key1']}|{r['key2']}") or mp_cards.get(f"{r['cls']}|{r['key2']}|{r['key1']}") or {}).get('game_url')
+        if url:
+            g['mp_url'] = url      # the game's page on MaxPreps
         if (r['uil'] or '').upper() in ('Y', 'YES', 'X', 'UIL'):
             g['uil_pick'] = True   # UIL assigned the officials, not the coaches
         games.append(g)
