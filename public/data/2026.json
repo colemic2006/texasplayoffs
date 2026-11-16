@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-16T17:17+00:00",
+    "updated": "2026-11-16T17:26+00:00",
     "games": 528,
     "played": 352,
     "assigned": 520,
@@ -7671,16 +7671,7 @@
       "stadium": "Panther Stadium (Oakwood HS)",
       "city": "Oakwood",
       "date": "2026-11-20",
-      "time": "6:30 PM",
-      "changes": [
-        {
-          "field": "time",
-          "old": "7:00 PM",
-          "new": "6:30 PM",
-          "at": "2026-11-15T20:17+00:00",
-          "status": "changed"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9840,16 +9831,7 @@
       "map_link": "https://goo.gl/maps/zSVX5h2VG152aGnt9",
       "city": "San Angelo",
       "date": "2026-11-19",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "time",
-          "old": "6:00 PM",
-          "new": "7:00 PM",
-          "at": "2026-11-16T00:09+00:00",
-          "status": "changed"
-        }
-      ]
+      "time": "6:00 PM"
     },
     {
       "year": 2026,
