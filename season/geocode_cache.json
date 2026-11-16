@@ -361,6 +361,19 @@
   "stadium": "Argyle ISD Stadium",
   "stadium_id": 5843
  },
+ "Astound Broadband Stadium || Lubbock Liberty v Monahans": {
+  "address": "Tradewinds Blvd, Midland, Texas 79706",
+  "city": "Midland",
+  "how": "stadium (map link)",
+  "lat": 31.98925,
+  "link_tried": true,
+  "lng": -102.15394,
+  "map_link": "https://goo.gl/maps/2xizkpWLXy9xkYWw9",
+  "rules": 10,
+  "site": "Astound Broadband Stadium",
+  "stadium": "Astound Broadband Stadium",
+  "stadium_id": 521
+ },
  "Astound Broadband Stadium, Midland || Canyon West Plains v El Paso Ysleta": {
   "address": "Tradewinds Blvd, Midland, Texas 79706",
   "city": "Midland",
