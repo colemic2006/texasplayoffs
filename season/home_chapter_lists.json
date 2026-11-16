@@ -458,7 +458,9 @@
   "Whiteface": "Whiteface",
   "Whitharral": "Whitharral",
   "Wilson": "Wilson",
-  "Ropesville": "Ropesville"
+  "Ropesville": "Ropesville",
+  "Valley": "Turkey Valley",
+  "Turkey": "Turkey Valley"
  },
  "AMA": {
   "Booker": "Booker",
@@ -505,8 +507,6 @@
   "Amarillo Tascosa": "Amarillo Tascosa",
   "Amarillo Palo Duro": "Amarillo Palo Duro",
   "Hart": "Hart",
-  "Valley": "Turkey Valley",
-  "Turkey": "Turkey Valley",
   "Briscoe Fort Elliott": "Briscoe Fort Elliott",
   "Hedley": "Hedley",
   "McLean": "McLean"
@@ -727,7 +727,6 @@
   "Sealy": "Sealy",
   "Waller": "Waller",
   "Victoria East": "Victoria East",
-  "Victoria West": "Victoria West",
   "Galveston Ball": "Galveston Ball"
  },
  "SAN": {
@@ -923,7 +922,8 @@
   "Beeville Jones": "Beeville Jones",
   "George West": "George West",
   "Pettus": "Pettus",
-  "Three Rivers": "Three Rivers"
+  "Three Rivers": "Three Rivers",
+  "Victoria West": "Victoria West"
  },
  "WAC": {
   "Abbott": "Abbott",

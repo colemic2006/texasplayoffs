@@ -54,8 +54,8 @@
    "season_games": 7,
    "hist_games": 136,
    "late_games": 14,
-   "schools": 47,
-   "counties": 23
+   "schools": 46,
+   "counties": 22
   },
   "AUS": {
    "members": 473,
@@ -118,7 +118,7 @@
    "season_games": 62,
    "hist_games": 1293,
    "late_games": 167,
-   "schools": 190,
+   "schools": 189,
    "counties": 21
   },
   "NTX": {
@@ -174,7 +174,7 @@
    "season_games": 25,
    "hist_games": 420,
    "late_games": 33,
-   "schools": 68,
+   "schools": 69,
    "counties": 23
   },
   "STX": {
@@ -182,8 +182,8 @@
    "season_games": 7,
    "hist_games": 74,
    "late_games": 1,
-   "schools": 34,
-   "counties": 10
+   "schools": 35,
+   "counties": 11
   },
   "BEA": {
    "members": 91,

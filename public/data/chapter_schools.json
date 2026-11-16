@@ -8276,7 +8276,7 @@
   },
   {
    "name": "Turkey Valley",
-   "chapter": "AMA",
+   "chapter": "SPC",
    "lat": 34.39392,
    "lng": -100.89408,
    "at": "town"
@@ -8423,7 +8423,7 @@
   },
   {
    "name": "Victoria West",
-   "chapter": "HOU",
+   "chapter": "STX",
    "lat": 28.82518,
    "lng": -96.97605,
    "at": "stadium"
