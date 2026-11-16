@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-16T07:58+00:00",
+    "updated": "2026-11-16T12:41+00:00",
     "games": 528,
     "played": 352,
     "assigned": 508,
@@ -9676,11 +9676,18 @@
       "team2": "Brownwood",
       "score2": null,
       "winner": null,
-      "site": "Georgetown ISD Stadium, Georgetown",
-      "lat": 30.66912,
-      "lng": -97.65861,
+      "site": "Birkelbach Field",
       "date": "2026-11-20",
-      "time": "7:00 PM"
+      "time": "7:00 PM",
+      "changes": [
+        {
+          "field": "site",
+          "old": "Georgetown ISD Stadium, Georgetown",
+          "new": "Birkelbach Field",
+          "at": "2026-11-16T12:41+00:00",
+          "status": "changed"
+        }
+      ]
     },
     {
       "year": 2026,
@@ -10902,14 +10909,18 @@
       "team2": "Red Oak",
       "score2": null,
       "winner": null,
-      "site": "Kincaide Stadium, Dallas",
-      "lat": 32.63734,
-      "lng": -96.84225,
-      "stadium": "John Kincaide Stadium",
-      "map_link": "https://goo.gl/maps/PcQDDtxSmQseS2d17",
-      "city": "Dallas",
+      "site": "Dallas Kincaide Stadium",
       "date": "2026-11-20",
-      "time": "7:00 PM"
+      "time": "7:00 PM",
+      "changes": [
+        {
+          "field": "site",
+          "old": "Kincaide Stadium, Dallas",
+          "new": "Dallas Kincaide Stadium",
+          "at": "2026-11-16T12:41+00:00",
+          "status": "changed"
+        }
+      ]
     },
     {
       "year": 2026,

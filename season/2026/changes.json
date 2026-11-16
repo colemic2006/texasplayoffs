@@ -306,5 +306,27 @@
   "new": "6:00 PM",
   "at": "2026-11-16T03:04+00:00",
   "status": "conflict"
+ },
+ {
+  "classification": "4A D2",
+  "week": 2,
+  "team1": "Cuero",
+  "team2": "Brownwood",
+  "field": "site",
+  "old": "Georgetown ISD Stadium, Georgetown",
+  "new": "Birkelbach Field",
+  "at": "2026-11-16T12:41+00:00",
+  "status": "changed"
+ },
+ {
+  "classification": "6A D2",
+  "week": 2,
+  "team1": "Longview",
+  "team2": "Red Oak",
+  "field": "site",
+  "old": "Kincaide Stadium, Dallas",
+  "new": "Dallas Kincaide Stadium",
+  "at": "2026-11-16T12:41+00:00",
+  "status": "changed"
  }
 ]

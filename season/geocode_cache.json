@@ -771,6 +771,16 @@
   "stadium": "Birdville Fine Arts and Athletics Complex",
   "stadium_id": 220
  },
+ "Birkelbach Field || Cuero v Brownwood": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-16",
+  "rules": 10,
+  "site": "Birkelbach Field",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Blackcat Field, Mexia || Collinsville v Colmesneil": {
   "address": "1000 N Bailey St (Blackcat Dr.), Mexia, Texas 76667",
   "city": "Mexia",
@@ -1984,6 +1994,16 @@
   "site": "Daikin Stadium, Waller",
   "stadium": "Daikin Stadium",
   "stadium_id": 1289
+ },
+ "Dallas Kincaide Stadium || Longview v Red Oak": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-16",
+  "rules": 10,
+  "site": "Dallas Kincaide Stadium",
+  "stadium": null,
+  "stadium_id": null
  },
  "Danaher Stadium, Corpus Christi || Corpus Christi Calallen v Floresville": {
   "address": "4001 Wildcat Drive, Corpus Christi, Texas 78410",
