@@ -2,10 +2,10 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-16T20:29+00:00",
+    "updated": "2026-11-16T20:35+00:00",
     "games": 529,
     "played": 352,
-    "assigned": 525,
+    "assigned": 526,
     "weeks": {
       "1": {
         "games": 352,
@@ -13,7 +13,7 @@
       },
       "2": {
         "games": 177,
-        "assigned": 173
+        "assigned": 174
       },
       "3": {
         "games": 0,
@@ -343,7 +343,7 @@
     {
       "code": "WAC",
       "name": "Waco",
-      "total": 17,
+      "total": 18,
       "weeks": {
         "1": {
           "total": 11,
@@ -357,12 +357,12 @@
           }
         },
         "2": {
-          "total": 6,
+          "total": 7,
           "classifications": {
             "2A D1": 1,
             "2A D2": 2,
             "3A D1": 2,
-            "3A D2": 1
+            "3A D2": 2
           }
         }
       }
@@ -8910,7 +8910,7 @@
       "classification": "3A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "WAC",
       "team1": "Millsap",
       "score1": null,
       "team2": "Edgewood",
