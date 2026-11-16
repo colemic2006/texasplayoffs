@@ -39,6 +39,12 @@ export default function Nav({ page, setPage, year, setYear, years }) {
             }}
           >{label}</button>
         ))}
+        {/* placeholder: does nothing yet */}
+        <button type="button" title="Coming soon" style={{
+          fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.14em', textTransform: 'uppercase',
+          color: 'rgba(245,240,232,0.45)', padding: '14px 14px', background: 'none', border: 'none',
+          borderBottom: '2px solid transparent', cursor: 'default', whiteSpace: 'nowrap', flexShrink: 0,
+        }}>Links</button>
       </div>
 
       {/* Year selector row */}
