@@ -2,10 +2,10 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-16T15:28+00:00",
+    "updated": "2026-11-16T15:30+00:00",
     "games": 528,
     "played": 352,
-    "assigned": 516,
+    "assigned": 517,
     "weeks": {
       "1": {
         "games": 352,
@@ -13,7 +13,7 @@
       },
       "2": {
         "games": 176,
-        "assigned": 164
+        "assigned": 165
       },
       "3": {
         "games": 0,
@@ -73,7 +73,7 @@
     {
       "code": "SAT",
       "name": "San Antonio",
-      "total": 59,
+      "total": 60,
       "weeks": {
         "1": {
           "total": 46,
@@ -92,9 +92,9 @@
           }
         },
         "2": {
-          "total": 13,
+          "total": 14,
           "classifications": {
-            "2A D2": 3,
+            "2A D2": 4,
             "3A D1": 2,
             "3A D2": 1,
             "4A D1": 1,
@@ -8548,7 +8548,7 @@
       "classification": "2A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "SAT",
       "team1": "La Villa",
       "score1": null,
       "team2": "Chilton",
