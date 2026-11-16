@@ -405,5 +405,27 @@
   "new": "2026-11-20",
   "at": "2026-11-16T20:55+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "5A D1",
+  "week": 2,
+  "team1": "Corpus Christi Veterans Memorial",
+  "team2": "Austin Anderson",
+  "field": "time",
+  "old": "7:00 PM",
+  "new": "7:30 PM",
+  "at": "2026-11-16T21:17+00:00",
+  "status": "changed"
+ },
+ {
+  "classification": "5A D1",
+  "week": 2,
+  "team1": "Corpus Christi Veterans Memorial",
+  "team2": "Austin Anderson",
+  "field": "site",
+  "old": "Farris Stadium, San Antonio",
+  "new": "Dub Ferris Athletic Complex, Northeast ISD San Ant",
+  "at": "2026-11-16T21:17+00:00",
+  "status": "changed"
  }
 ]

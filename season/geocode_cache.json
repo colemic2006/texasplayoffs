@@ -2406,6 +2406,16 @@
   "stadium": "Monte Jack Driskell Stadium",
   "stadium_id": 435
  },
+ "Dub Ferris Athletic Complex, Northeast ISD San Ant || Corpus Christi Veterans Memorial v Austin Anderson": {
+  "address": "",
+  "how": "district:San Ant, Dub Ferris Athletic Complex, Northeast",
+  "map_link": "",
+  "missed": "2026-11-16",
+  "rules": 10,
+  "site": "Dub Ferris Athletic Complex, Northeast ISD San Ant",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Dublin's Cervetto Stadium || Paradise v Llano": {
   "address": "2233 Hwy 6, Dublin, Texas 76446",
   "city": "Dublin",
