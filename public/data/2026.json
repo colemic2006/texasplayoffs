@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-16T22:03+00:00",
+    "updated": "2026-11-16T22:33+00:00",
     "games": 528,
     "played": 352,
     "assigned": 526,
@@ -1847,7 +1847,8 @@
       "city": "Kaufman",
       "date": "2026-11-12",
       "time": "7:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/hawkins-vs-tom-bean/11-12-2026/?c=4d469b95-72e3-43d5-b9c2-d2f255f6c880"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/hawkins-vs-tom-bean/11-12-2026/?c=4d469b95-72e3-43d5-b9c2-d2f255f6c880",
+      "uil_pick": true
     },
     {
       "year": 2026,
@@ -3516,7 +3517,8 @@
       "city": "Burleson",
       "date": "2026-11-13",
       "time": "7:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/scurry-rosser-vs-tolar/11-13-2026/?c=c73be4ee-aedc-49db-99ca-2f395eb5fc3b"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/scurry-rosser-vs-tolar/11-13-2026/?c=c73be4ee-aedc-49db-99ca-2f395eb5fc3b",
+      "uil_pick": true
     },
     {
       "year": 2026,
