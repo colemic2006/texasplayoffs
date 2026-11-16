@@ -1,0 +1,42 @@
+# Weekly backup of the whole repository (every file plus full history) to Dropbox.
+# Needs three repository secrets: DROPBOX_APP_KEY, DROPBOX_APP_SECRET, DROPBOX_REFRESH_TOKEN.
+# Until they are set, the job skips with a note.
+name: Backup to Dropbox
+
+on:
+  schedule:
+    - cron: '17 9 * * 1'   # Mondays, early morning Central
+  workflow_dispatch:
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Upload to Dropbox
+        env:
+          KEY: ${{ secrets.DROPBOX_APP_KEY }}
+          SECRET: ${{ secrets.DROPBOX_APP_SECRET }}
+          REFRESH: ${{ secrets.DROPBOX_REFRESH_TOKEN }}
+        run: |
+          if [ -z "$KEY" ] || [ -z "$SECRET" ] || [ -z "$REFRESH" ]; then
+            echo "::notice::Dropbox secrets not set yet; skipping the backup."; exit 0
+          fi
+          day=$(date -u +%Y-%m-%d)
+          mkdir -p out
+          # the files as they are now, plus a bundle that restores the full history with: git clone <file>.bundle
+          git archive --format=zip -o "out/texasplayoffs-files.zip" HEAD
+          git bundle create "out/texasplayoffs-history.bundle" --all
+          (cd out && zip -q "../texasplayoffs-$day.zip" texasplayoffs-files.zip texasplayoffs-history.bundle)
+          ls -lh "texasplayoffs-$day.zip"
+          token=$(curl -sS https://api.dropboxapi.com/oauth2/token \
+            -d grant_type=refresh_token -d refresh_token="$REFRESH" -u "$KEY:$SECRET" | jq -r .access_token)
+          [ -n "$token" ] && [ "$token" != null ] || { echo "::error::Dropbox sign-in failed; check the secrets."; exit 1; }
+          curl -sS --fail-with-body https://content.dropboxapi.com/2/files/upload \
+            -H "Authorization: Bearer $token" \
+            -H "Content-Type: application/octet-stream" \
+            -H "Dropbox-API-Arg: {\"path\": \"/texasplayoffs-$day.zip\", \"mode\": \"overwrite\"}" \
+            --data-binary @"texasplayoffs-$day.zip" | jq '{name, size}'
