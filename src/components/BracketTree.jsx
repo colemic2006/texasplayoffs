@@ -17,7 +17,26 @@ const winnerOf = g => g && (g.winner || (g.score1 != null && g.score2 != null &&
   ? (g.score1 > g.score2 ? g.team1 : g.team2) : null))
 const has = (g, t) => g && t && (g.team1 === t || g.team2 === t)
 
-export function buildBracket(games) {
+// UIL's bracket line for each first-round game, from this season's seeds and UIL's fixed bracket
+// order (public/data/bracket_template.json): lets an in-progress bracket be laid out in UIL's order
+let orderCache = null
+function useBracketOrder(year) {
+  const [d, setD] = useState(orderCache)
+  useEffect(() => {
+    if (orderCache) return
+    Promise.all(['seeds', 'bracket_template'].map(f => fetch(`${import.meta.env.BASE_URL}data/${f}.json?v=${__BUILD_TIME__}`).then(r => r.ok ? r.json() : null).catch(() => null)))
+      .then(([seeds, tpl]) => { orderCache = { seeds: seeds || {}, tpl: tpl?.classes || {} }; setD(orderCache) })
+  }, [])
+  return useMemo(() => cls => {
+    const s = d?.seeds?.[year]?.[cls], t = d?.tpl?.[cls]
+    if (!s || !t) return null
+    const idx = Object.fromEntries(t.map((l, i) => [l, i]))
+    const line = team => { const x = s[team]; return x ? idx[`${'WRTF'[x.place - 1]}${x.district}`] : undefined }
+    return g => { const a = line(g.team1), b = line(g.team2); return a == null || b == null ? null : Math.min(a, b) }
+  }, [d, year])
+}
+
+export function buildBracket(games, posOf) {
   const counts = {}
   games.forEach(g => { counts[g.week] = (counts[g.week] || 0) + 1 })
   // first-round size: the largest the data implies (a later round of n games means 2^i n first-round games)
@@ -50,8 +69,11 @@ export function buildBracket(games) {
   } else {
     // in progress: the source's first-round order isn't always bracket order, so arrange it from the
     // later-round games already set: the two first-round blocks that feed a known game become siblings
-    const first = byRound[0].slice()
-    for (let r = 1; r < R; r++) {
+    let first = byRound[0].slice()
+    const pos = posOf ? first.map(posOf) : []
+    const byUIL = first.length > 0 && pos.length === first.length && pos.every(p => p != null)
+    if (byUIL) first = first.map((g, i) => [pos[i], g]).sort((a, b) => a[0] - b[0]).map(x => x[1])   // UIL's own bracket order
+    for (let r = 1; r < R && !byUIL; r++) {
       const size = 2 ** (r - 1)   // first-round games per feeder block at this round
       for (const g of byRound[r]) {
         const blockOf = t => { const i = first.findIndex(x => has(x, t)); return i < 0 ? -1 : Math.floor(i / size) }
@@ -94,7 +116,8 @@ export default function BracketTree({ data, year }) {
   const [onlyCh, setOnlyCh] = useState(null)
   const [printing, setPrinting] = useState(null)   // divisions being printed, or null
 
-  const bracket = useMemo(() => current ? buildBracket(games.filter(g => g.classification === current)) : null, [games, current])
+  const orderFor = useBracketOrder(year)
+  const bracket = useMemo(() => current ? buildBracket(games.filter(g => g.classification === current), orderFor(current)) : null, [games, current, orderFor])
   if (!bracket) return null
   const { R, slots, names } = bracket
   const start = Math.min(from, R - 1)
@@ -224,6 +247,7 @@ function TreeView({ slots, names, R, start, follow = null, setFollow = () => {},
 // Rendered into <body> so print CSS can hide the rest of the site (see .print-root in index.css).
 const PAGE_W = 740, PAGE_H = 900   // CSS pixels of a letter page inside 0.35in margins, less the title
 function PrintBrackets({ games, classes, year, inProgress, onDone }) {
+  const orderFor = useBracketOrder(year)
   useEffect(() => {
     document.body.classList.add('printing')
     const done = () => { document.body.classList.remove('printing'); onDone() }
@@ -235,7 +259,7 @@ function PrintBrackets({ games, classes, year, inProgress, onDone }) {
   return createPortal(
     <div className="print-root">
       {classes.map(c => {
-        const b = buildBracket(games.filter(g => g.classification === c))
+        const b = buildBracket(games.filter(g => g.classification === c), orderFor(c))
         const width = b.slots.length * (BOX_W + GAP) - GAP, height = b.slots[0].length * ROW + 30
         const scale = Math.min(1, PAGE_W / width, PAGE_H / height)
         const champ = winnerOf(b.slots[b.R - 1][0])
