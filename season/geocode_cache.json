@@ -5748,6 +5748,19 @@
   "stadium": "Priddy Athletic Complex",
   "stadium_id": 5406
  },
+ "Pridgeon Stadium @ Cypress-Fairbanks Independent S || Bellville v Hamshire-Fannett": {
+  "address": "11355 Bobcat Rd., Houston, Texas 77064",
+  "city": "Houston",
+  "how": "stadium (map link)",
+  "lat": 29.93564,
+  "link_tried": true,
+  "lng": -95.57,
+  "map_link": "https://goo.gl/maps/WGtow4sC3X82",
+  "rules": 10,
+  "site": "Pridgeon Stadium @ Cypress-Fairbanks Independent S",
+  "stadium": "Pridgeon Stadium",
+  "stadium_id": 634
+ },
  "Pridgeon Stadium, Cypress || Bellville v Hamshire-Fannett": {
   "address": "11355 Bobcat Rd., Houston, Texas 77064",
   "city": "Houston",
