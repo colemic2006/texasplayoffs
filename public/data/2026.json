@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-16T21:58+00:00",
+    "updated": "2026-11-16T22:03+00:00",
     "games": 528,
     "played": 352,
     "assigned": 526,
@@ -5184,7 +5184,7 @@
       "round": "Bi-District",
       "chapter": "SAT",
       "team1": "Levelland",
-      "score1": 52,
+      "score1": 49,
       "team2": "Mineral Wells",
       "score2": 71,
       "winner": "Mineral Wells",
@@ -9262,9 +9262,9 @@
       "stadium": "Delmar Stadium",
       "map_link": "https://goo.gl/maps/ZeFpyvP6AT2FBnRG8",
       "city": "Houston",
-      "date": "2026-11-19",
-      "time": "7:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/ch-yoe-cameron-vs-orangefield/11-19-2026/?c=3e37bdb7-8b62-4a41-a3e2-a499e79f0ec0",
+      "date": "2026-11-20",
+      "time": "7:30 PM",
+      "mp_url": "https://www.maxpreps.com/tx/football/game/ch-yoe-cameron-vs-orangefield/11-20-2026/?c=3e37bdb7-8b62-4a41-a3e2-a499e79f0ec0",
       "changes": [
         {
           "field": "date",
@@ -9278,6 +9278,20 @@
           "old": "7:30 PM",
           "new": "7:00 PM",
           "at": "2026-11-16T16:18+00:00",
+          "status": "changed"
+        },
+        {
+          "field": "date",
+          "old": "2026-11-19",
+          "new": "2026-11-20",
+          "at": "2026-11-16T22:03+00:00",
+          "status": "changed"
+        },
+        {
+          "field": "time",
+          "old": "7:00 PM",
+          "new": "7:30 PM",
+          "at": "2026-11-16T22:03+00:00",
           "status": "changed"
         }
       ]

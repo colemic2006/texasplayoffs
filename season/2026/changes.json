@@ -427,5 +427,38 @@
   "new": "Dub Ferris Athletic Complex, Northeast ISD San Ant",
   "at": "2026-11-16T21:17+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "4A D2",
+  "week": 1,
+  "team1": "Levelland",
+  "team2": "Mineral Wells",
+  "field": "score",
+  "old": "Levelland 52, Mineral Wells 71",
+  "new": "Levelland 49, Mineral Wells 71",
+  "at": "2026-11-16T22:03+00:00",
+  "status": "changed"
+ },
+ {
+  "classification": "3A D1",
+  "week": 2,
+  "team1": "Orangefield",
+  "team2": "Cameron Yoe",
+  "field": "date",
+  "old": "2026-11-19",
+  "new": "2026-11-20",
+  "at": "2026-11-16T22:03+00:00",
+  "status": "changed"
+ },
+ {
+  "classification": "3A D1",
+  "week": 2,
+  "team1": "Orangefield",
+  "team2": "Cameron Yoe",
+  "field": "time",
+  "old": "7:00 PM",
+  "new": "7:30 PM",
+  "at": "2026-11-16T22:03+00:00",
+  "status": "changed"
  }
 ]
