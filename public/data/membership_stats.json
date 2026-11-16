@@ -19,7 +19,7 @@
  ],
  "totals": {
   "members": 6107,
-  "season_games": 520,
+  "season_games": 524,
   "hist_games": 6076,
   "late_games": 678
  },
@@ -68,7 +68,7 @@
   },
   "CTX": {
    "members": 136,
-   "season_games": 3,
+   "season_games": 4,
    "hist_games": 99,
    "late_games": 10,
    "schools": 34,
@@ -116,7 +116,7 @@
   },
   "HOU": {
    "members": 1231,
-   "season_games": 105,
+   "season_games": 106,
    "hist_games": 1293,
    "late_games": 167,
    "schools": 188,
@@ -164,7 +164,7 @@
   },
   "SAT": {
    "members": 510,
-   "season_games": 60,
+   "season_games": 61,
    "hist_games": 504,
    "late_games": 51,
    "schools": 117,
@@ -212,7 +212,7 @@
   },
   "WAC": {
    "members": 141,
-   "season_games": 16,
+   "season_games": 17,
    "hist_games": 248,
    "late_games": 23,
    "schools": 40,
