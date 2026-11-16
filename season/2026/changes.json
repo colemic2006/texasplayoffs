@@ -328,5 +328,71 @@
   "new": "Dallas Kincaide Stadium",
   "at": "2026-11-16T12:41+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "3A D1",
+  "week": 2,
+  "team1": "Orangefield",
+  "team2": "Cameron Yoe",
+  "field": "date",
+  "old": "2026-11-20",
+  "new": "2026-11-19",
+  "at": "2026-11-16T16:18+00:00",
+  "status": "changed"
+ },
+ {
+  "classification": "3A D1",
+  "week": 2,
+  "team1": "Orangefield",
+  "team2": "Cameron Yoe",
+  "field": "time",
+  "old": "7:30 PM",
+  "new": "7:00 PM",
+  "at": "2026-11-16T16:18+00:00",
+  "status": "changed"
+ },
+ {
+  "classification": "3A D2",
+  "week": 2,
+  "team1": "Henrietta",
+  "team2": "Slaton",
+  "field": "date",
+  "old": "2026-11-20",
+  "new": "2026-11-19",
+  "at": "2026-11-16T16:18+00:00",
+  "status": "changed"
+ },
+ {
+  "classification": "3A D2",
+  "week": 2,
+  "team1": "George West",
+  "team2": "Boling",
+  "field": "date",
+  "old": "2026-11-19",
+  "new": "2026-11-21",
+  "at": "2026-11-16T16:18+00:00",
+  "status": "changed"
+ },
+ {
+  "classification": "4A D2",
+  "week": 2,
+  "team1": "Glen Rose",
+  "team2": "Carthage",
+  "field": "site",
+  "old": "City Bank Stadium, Forney",
+  "new": "Forney High School",
+  "at": "2026-11-16T16:18+00:00",
+  "status": "changed"
+ },
+ {
+  "classification": "5A D1",
+  "week": 2,
+  "team1": "Corpus Christi Veterans Memorial",
+  "team2": "Austin Anderson",
+  "field": "time",
+  "old": "7:30 PM",
+  "new": "7:00 PM",
+  "at": "2026-11-16T16:18+00:00",
+  "status": "changed"
  }
 ]
