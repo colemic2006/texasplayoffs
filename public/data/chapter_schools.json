@@ -164,8 +164,8 @@
   {
    "name": "Alvin Shadow Creek",
    "chapter": "HOU",
-   "lat": 29.39719,
-   "lng": -95.41014,
+   "lat": 29.42756,
+   "lng": -95.41053,
    "at": "stadium"
   },
   {
@@ -1200,8 +1200,8 @@
   {
    "name": "CC Tuloso-Midway",
    "chapter": "STX",
-   "lat": 27.8521,
-   "lng": -97.57209,
+   "lat": 27.82919,
+   "lng": -97.57924,
    "at": "stadium"
   },
   {
@@ -4280,8 +4280,8 @@
   {
    "name": "Iowa Colony",
    "chapter": "HOU",
-   "lat": 29.39719,
-   "lng": -95.41014,
+   "lat": 29.42756,
+   "lng": -95.41053,
    "at": "stadium"
   },
   {
@@ -5435,8 +5435,8 @@
   {
    "name": "Manvel",
    "chapter": "HOU",
-   "lat": 29.39719,
-   "lng": -95.41014,
+   "lat": 29.42756,
+   "lng": -95.41053,
    "at": "stadium"
   },
   {
@@ -8158,9 +8158,9 @@
   {
    "name": "Timpson",
    "chapter": "SFA",
-   "lat": 31.90378,
-   "lng": -94.3952,
-   "at": "town"
+   "lat": 31.90637,
+   "lng": -94.38696,
+   "at": "stadium"
   },
   {
    "name": "Tioga",
