@@ -259,19 +259,8 @@ def set_score(year, ws, r, s1, s2, source_label):
     return False
 
 
-def confirmed(year, game, field):
-    """True when the site owner confirmed this value (season/<year>/confirmed.json): a source that disagrees isn't flagged."""
-    p = ROOT / 'season' / str(year) / 'confirmed.json'
-    if not p.exists():
-        return False
-    return any(c['field'] == field and c['classification'] == game['classification'] and
-               {c['team1'], c['team2']} == {game['team1'], game['team2']} for c in json.loads(p.read_text()))
-
-
 def note_conflict(year, game, field, shown, source, src='MaxPreps'):
     """The source (MaxPreps / UIL) now lists a different value than one the owner set by hand."""
-    if confirmed(year, game, field):
-        return   # the owner confirmed what the site shows
     changes = load_changes(year)
     for c in changes:
         if c.get('status') == 'conflict' and c['field'] == field and c['new'] == source and \
@@ -300,6 +289,18 @@ def card_score(desc, g):
     if sim(opponent, t2 if s1 > s2 else t1) < 0.8:
         return None
     return (mine, theirs) if s1 > s2 else (theirs, mine)
+
+
+def same_site(shown, source):
+    """True when the source's site text names the same place as the one shown: the same stadium
+    ('Mustang Bowl, Sweetwater' / 'Mustang Bowl, Sweetwater Texas'), or only the town of it
+    ('@ Karnes City' / 'Johnson Field, Karnes City'). Then the shown (often fuller) text is kept."""
+    if not shown or not source:
+        return False
+    drop = {'tx', 'texas', 'at', 'the', 'high', 'school', 'hs', 'isd'}
+    words = lambda t: {w for w in re.findall(r'[a-z]+', t.lower()) if w not in drop}
+    first = lambda t: ' '.join(sorted(words(t.split(',')[0].replace('@', ''))))
+    return first(shown) == first(source) or (words(source) and words(source) <= words(shown))
 
 
 def fill_sites(year, ws, placed):
@@ -353,32 +354,25 @@ def fill_sites(year, ws, placed):
             ws[f'{COL["site"]}{r["row"]}'] = r['site'] = site
             cards.setdefault(key, info)['filled_site'] = site
             filled += 1
-        elif site and site != r['site']:
-            # the source moved the game: follow it when the site shown is the source's old one
-            # (or one the job filled in); a site typed in by hand is kept and flagged instead
-            if r['site'] in (prev_site, seen.get('filled_site')):
-                ws[f'{COL["site"]}{r["row"]}'] = r['site'] = site
-                cards.setdefault(key, info)['filled_site'] = site
-                filled += 1
-            elif site != prev_site:
-                note_conflict(year, game, 'site', r['site'], site)
-        # dates and kickoffs: the job only ever changes values it filled in itself
-        # (remembered per game as filled_date / filled_time); the owner's are never touched
+        elif site and site != r['site'] and not same_site(r['site'], site):
+            # UIL / MaxPreps are authoritative: the source's site replaces whatever is shown,
+            # including one typed in by hand (the same stadium written differently isn't logged as a move)
+            ws[f'{COL["site"]}{r["row"]}'] = r['site'] = site
+            cards.setdefault(key, info)['filled_site'] = site
+            filled += 1
+        # dates and kickoffs: UIL / MaxPreps are authoritative, so the source's value replaces a
+        # different one shown, even one set by hand; a real change shows as a 'changed' alert
         for k, val in (('date', info['date'] if date_set(info) else ''),
                        ('time', info.get('time', '') if date_set(info) else '')):
             if k == 'time' and 'time' not in info:
                 continue   # card saved before kickoffs were read: says nothing about the time
             old = str(r[k] or '')[:10] if k == 'date' else str(r[k] or '')
-            if not val and old:
+            if not val:
                 continue   # MaxPreps drops the kickoff once a game is under way: never erase a known value
-            mine = not old or old == cards.get(key, {}).get(f'filled_{k}')
-            if mine and old != val:
-                ws[f'{COL[k]}{r["row"]}'] = r[k] = val or None
+            if old != val:
+                ws[f'{COL[k]}{r["row"]}'] = r[k] = val
                 cards.setdefault(key, info)[f'filled_{k}'] = val
                 filled += 1
-            elif not mine and val and old != val and val != (seen.get(k) if date_set(seen) else ''):
-                # the source changed a value the owner set by hand: keep the owner's, flag it
-                note_conflict(year, game, k, old, val)
     cards_path(year).write_text(json.dumps(cards, indent=1, sort_keys=True) + '\n')
     with_site = sum(1 for c in cards.values() if game_sites.clean_site(c.get('site')))
     print(f'  cards: {len(cards)} read, {with_site} with a site')

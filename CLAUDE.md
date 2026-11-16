@@ -22,5 +22,6 @@ deployed to GitHub Pages on every push to `main`. Season data lives in `public/d
 `scripts/season.py prefill` pulls brackets (UIL PDFs, else MaxPreps) into
 `season/<year>/<year>_season.xlsx`; `build` turns that into `public/data/<year>.json`.
 `.github/workflows/season.yml` runs both daily in Nov-Dec, on workbook upload, and on demand.
-When the owner confirms a date, kickoff or site (e.g. from Arbiter), add it to
-`season/<year>/confirmed.json`: the site keeps it and a source that disagrees is no longer flagged.
+UIL brackets and MaxPreps are authoritative for game dates, kickoffs and sites: when they differ
+from a value entered by hand (or from Dave Campbell's), the job switches to theirs and shows the
+normal change alert. A source naming the same stadium in other words doesn't replace the text.
