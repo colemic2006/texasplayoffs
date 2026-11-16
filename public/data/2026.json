@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-16T22:33+00:00",
+    "updated": "2026-11-16T22:37+00:00",
     "games": 528,
     "played": 352,
     "assigned": 526,
@@ -4168,7 +4168,8 @@
       "city": "Sweetwater",
       "date": "2026-11-12",
       "time": "7:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/andrews-vs-aubrey/11-12-2026/?c=a7578d96-9584-47f2-8339-9f78bbb5668a"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/andrews-vs-aubrey/11-12-2026/?c=a7578d96-9584-47f2-8339-9f78bbb5668a",
+      "uil_pick": true
     },
     {
       "year": 2026,
@@ -5847,7 +5848,8 @@
       "city": "Castroville",
       "date": "2026-11-13",
       "time": "7:30 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/manor-vs-medina-valley-castroville/11-13-2026/?c=10ff5968-b942-4f21-8e89-3f0e79cc8de2"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/manor-vs-medina-valley-castroville/11-13-2026/?c=10ff5968-b942-4f21-8e89-3f0e79cc8de2",
+      "uil_pick": true
     },
     {
       "year": 2026,
@@ -9098,7 +9100,8 @@
       "city": "Victoria",
       "date": "2026-11-20",
       "time": "7:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/goliad-vs-yoakum/11-20-2026/?c=70a1bbfb-3639-4307-9fca-dea13dd57556"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/goliad-vs-yoakum/11-20-2026/?c=70a1bbfb-3639-4307-9fca-dea13dd57556",
+      "uil_pick": true
     },
     {
       "year": 2026,
