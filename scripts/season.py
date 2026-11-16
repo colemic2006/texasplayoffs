@@ -355,7 +355,7 @@ def fill_sites(year, ws, placed):
             ws[f'{COL["site"]}{r["row"]}'] = r['site'] = site
             cards.setdefault(key, info)['filled_site'] = site
             filled += 1
-        elif site and site != r['site'] and not same_site(r['site'], site):
+        elif site and site != r['site'] and not (same_site(r['site'], site) or minor_change('site', r['site'], site, None, None)):
             # UIL / MaxPreps are authoritative: the source's site replaces whatever is shown,
             # including one typed in by hand (the same stadium written differently isn't logged as a move)
             ws[f'{COL["site"]}{r["row"]}'] = r['site'] = site
@@ -571,6 +571,40 @@ def game_key(g):
     return (g['classification'], int(g['week']), frozenset((g['team1'], g['team2'])))
 
 
+GENERIC = {'tx', 'texas', 'isd', 'high', 'school', 'hs', 'the', 'at', 'of', 'and', 'in', 'site', 'playoff', 'area', 'game'}
+
+
+def site_words(t):
+    """A site's distinctive words: lower case, possessives and plurals folded ('Smithville's',
+    'Midlands' -> 'smithville', 'midland'), street numbers and generic words dropped."""
+    t = re.sub(r"[’']s\b", '', (t or '').lower())
+    out = set()
+    for w in re.findall(r'[a-z]+', t):
+        if w in GENERIC:
+            continue
+        out.add(w[:-1] if len(w) > 4 and w.endswith('s') and not w.endswith('ss') else w)
+    return out
+
+
+def minor_change(field, old, new, g_old, g_new, week_start=None):
+    """True when a 'change' isn't one an official needs to know about: the same stadium written
+    another way, or MaxPreps' placeholder date (the previous round's day) being replaced."""
+    if field == 'site':
+        known = json.loads(game_sites.CONFIRMED.read_text()) if game_sites.CONFIRMED.exists() else {}
+        # as written, and through the confirmed names ('@UNT' -> 'DATCU Stadium, Denton')
+        for x, y in ((old, new), (known.get(old, old), known.get(new, new)), (old, known.get(new, new)), (known.get(old, old), new)):
+            a, b = site_words(x), site_words(y)
+            if a and b and (a <= b or b <= a):
+                return True   # 'Grant Teaff Tiger Stadium, Snyder' / 'Grant Teaff Tiger Stadium'
+        la = (g_old or {}).get('lat'), (g_old or {}).get('lng')
+        lb = (g_new or {}).get('lat'), (g_new or {}).get('lng')
+        if None not in la + lb and game_sites.miles(la, lb) < 1.5:
+            return True       # different names, same spot on the map
+    if field == 'date' and week_start and old and str(old)[:10] < week_start:
+        return True           # placeholder from before this round's week
+    return False
+
+
 def log_changes(year, games):
     """Compare each game's date, kickoff and site with the published file; log what changed
     (whoever changed it: the source, the owner's workbook or a fix) and attach recent changes."""
@@ -578,6 +612,12 @@ def log_changes(year, games):
     before = {game_key(g): g for g in json.loads(dest.read_text()).get('games', [])} if dest.exists() else {}
     changes = load_changes(year)
     norm = lambda v: re.sub(r'[^a-z0-9:/]', '', str(v or '').lower())
+    w1 = sorted(str(g['date'])[:10] for g in games if g['week'] == 1 and g.get('date'))
+    def week_start(w):
+        if not w1:
+            return None
+        d0 = datetime.date.fromisoformat(w1[0])
+        return (d0 - datetime.timedelta(days=d0.weekday()) + datetime.timedelta(days=7 * (w - 1))).isoformat()
     stamp = now_iso()
     for g in games:
         old = before.get(game_key(g))
@@ -592,13 +632,15 @@ def log_changes(year, games):
                                 at=stamp, status='changed'))
             print(f'  * {g["team1"]} v {g["team2"]}: score {o1}-{o2} -> {g["score1"]}-{g["score2"]}')
         for f in CHANGE_FIELDS:
-            if f == 'site' and old.get(f) and g.get(f) and None not in (old.get('lat'), g.get('lat')) and \
-                    game_sites.miles((old['lat'], old['lng']), (g['lat'], g['lng'])) < 1.0:
-                continue   # same stadium written another way (e.g. Dave Campbell's vs MaxPreps): not a move
+            if old.get(f) and minor_change(f, old.get(f), g.get(f), old, g, week_start(g['week'])):
+                continue   # same place written another way, or a placeholder date: not a change
             if old.get(f) and norm(old.get(f)) != norm(g.get(f)):
                 changes.append(dict(classification=g['classification'], week=g['week'], team1=g['team1'], team2=g['team2'],
                                     field=f, old=old.get(f), new=g.get(f) or '', at=stamp, status='changed'))
                 print(f'  * {g["team1"]} v {g["team2"]}: {f} {old.get(f)!r} -> {g.get(f)!r}')
+    # entries logged before these rules that were only a renamed site or a placeholder date
+    changes = [c for c in changes if not (c.get('status') == 'changed' and
+               minor_change(c['field'], c.get('old'), c.get('new'), None, None, week_start(c.get('week', 1))))]
     # a hand-set value that now matches the source is no longer a conflict
     shown = lambda g, f: f"{g['team1']} {g['score1']}, {g['team2']} {g['score2']}" if f == 'score' else g.get(f)
     changes = [c for c in changes if not (c.get('status') == 'conflict' and any(

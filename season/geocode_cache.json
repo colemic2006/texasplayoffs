@@ -90,14 +90,18 @@
   "stadium_id": 338
  },
  "@UNT || Allen v Euless Trinity": {
-  "address": "",
-  "how": "no stadium, school or town matched",
-  "map_link": "",
-  "missed": "2026-11-16",
+  "address": "1551 S Bonnie Brae Street, Denton, Texas 76201",
+  "city": "Denton",
+  "confirmed_as": "DATCU Stadium, Denton",
+  "how": "stadium",
+  "lat": 33.20095,
+  "link_tried": true,
+  "lng": -97.16158,
+  "map_link": "https://goo.gl/maps/mLoHc4A1xdEm1iKt8",
   "rules": 10,
   "site": "@UNT",
-  "stadium": null,
-  "stadium_id": null
+  "stadium": "DATCU Stadium",
+  "stadium_id": 311
  },
  "A&M Consolidated HS || Rosebud-Lott v Corrigan-Camden": {
   "address": "",
@@ -809,9 +813,12 @@
  },
  "Birkelbach Field || Cuero v Brownwood": {
   "address": "",
-  "how": "no stadium, school or town matched",
+  "city": "Georgetown",
+  "confirmed_as": "Birkelbach Field at Georgetown ISD Stadium, Georgetown",
+  "how": "town (approximate)",
+  "lat": 30.63702,
+  "lng": -97.67756,
   "map_link": "",
-  "missed": "2026-11-16",
   "rules": 10,
   "site": "Birkelbach Field",
   "stadium": null,

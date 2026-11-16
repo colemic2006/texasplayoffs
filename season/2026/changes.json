@@ -143,17 +143,6 @@
   "status": "changed"
  },
  {
-  "classification": "6A D2",
-  "week": 2,
-  "team1": "North Forney",
-  "team2": "North Crowley",
-  "field": "site",
-  "old": "Ellis Stadium - Irving, Tx",
-  "new": "Joy & Ralph Ellis Stadium - Irving",
-  "at": "2026-11-14T12:39+00:00",
-  "status": "changed"
- },
- {
   "classification": "3A D1",
   "week": 1,
   "team1": "Lorena",
@@ -231,28 +220,6 @@
   "status": "changed"
  },
  {
-  "classification": "6A D2",
-  "week": 2,
-  "team1": "San Antonio Sotomayor",
-  "team2": "Edinburg Vela",
-  "field": "date",
-  "old": "2026-11-14",
-  "new": "2026-11-21",
-  "at": "2026-11-14T20:16+00:00",
-  "status": "changed"
- },
- {
-  "classification": "2A D1",
-  "week": 2,
-  "team1": "New Deal",
-  "team2": "Spearman",
-  "field": "date",
-  "old": "2026-11-14",
-  "new": "2026-11-20",
-  "at": "2026-11-15T05:18+00:00",
-  "status": "changed"
- },
- {
   "classification": "2A D1",
   "week": 2,
   "team1": "New Deal",
@@ -272,28 +239,6 @@
   "old": "Bastrop 62, Victoria West 43",
   "new": "Bastrop 63, Victoria West 43",
   "at": "2026-11-15T23:56+00:00",
-  "status": "changed"
- },
- {
-  "classification": "4A D2",
-  "week": 2,
-  "team1": "Cuero",
-  "team2": "Brownwood",
-  "field": "site",
-  "old": "Georgetown ISD Stadium, Georgetown",
-  "new": "Birkelbach Field",
-  "at": "2026-11-16T12:41+00:00",
-  "status": "changed"
- },
- {
-  "classification": "6A D2",
-  "week": 2,
-  "team1": "Longview",
-  "team2": "Red Oak",
-  "field": "site",
-  "old": "Kincaide Stadium, Dallas",
-  "new": "Dallas Kincaide Stadium",
-  "at": "2026-11-16T12:41+00:00",
   "status": "changed"
  },
  {
@@ -341,17 +286,6 @@
   "status": "changed"
  },
  {
-  "classification": "4A D2",
-  "week": 2,
-  "team1": "Glen Rose",
-  "team2": "Carthage",
-  "field": "site",
-  "old": "City Bank Stadium, Forney",
-  "new": "Forney High School",
-  "at": "2026-11-16T16:18+00:00",
-  "status": "changed"
- },
- {
   "classification": "5A D1",
   "week": 2,
   "team1": "Corpus Christi Veterans Memorial",
@@ -360,72 +294,6 @@
   "old": "7:30 PM",
   "new": "7:00 PM",
   "at": "2026-11-16T16:18+00:00",
-  "status": "changed"
- },
- {
-  "classification": "2A D1",
-  "week": 2,
-  "team1": "Jewett Leon",
-  "team2": "Ganado",
-  "field": "site",
-  "old": "Tomball ISD Stadium, Tomball",
-  "new": "Tomball's Tomball ISD Stadium",
-  "at": "2026-11-16T16:30+00:00",
-  "status": "changed"
- },
- {
-  "classification": "2A D1",
-  "week": 2,
-  "team1": "Ozona",
-  "team2": "Olton",
-  "field": "site",
-  "old": "Grant Teaff Tiger Stadium, Snyder",
-  "new": "Grant Teaff Tiger Stadium",
-  "at": "2026-11-16T16:30+00:00",
-  "status": "changed"
- },
- {
-  "classification": "2A D1",
-  "week": 2,
-  "team1": "Flatonia",
-  "team2": "Rosebud-Lott",
-  "field": "site",
-  "old": "Manor ISD Athletic Complex, Manor",
-  "new": "Manor's Manor Athletic Complex",
-  "at": "2026-11-16T16:30+00:00",
-  "status": "changed"
- },
- {
-  "classification": "2A D1",
-  "week": 2,
-  "team1": "Tulia",
-  "team2": "Ballinger",
-  "field": "site",
-  "old": "King Memorial Stadium, Midland",
-  "new": "Midlands King Memorial Stadium",
-  "at": "2026-11-16T16:30+00:00",
-  "status": "changed"
- },
- {
-  "classification": "2A D2",
-  "week": 2,
-  "team1": "Falls City",
-  "team2": "Harper",
-  "field": "site",
-  "old": "Creek View Cougar Stadium, San Antonio",
-  "new": "Creek View Cougar Stadium",
-  "at": "2026-11-16T16:30+00:00",
-  "status": "changed"
- },
- {
-  "classification": "2A D2",
-  "week": 2,
-  "team1": "Bremond",
-  "team2": "Three Rivers",
-  "field": "site",
-  "old": "Tiger Stadium, Smithville",
-  "new": "Smithville's Tiger Stadium",
-  "at": "2026-11-16T16:30+00:00",
   "status": "changed"
  },
  {
@@ -462,17 +330,6 @@
   "status": "changed"
  },
  {
-  "classification": "5A D1",
-  "week": 1,
-  "team1": "El Paso Americas",
-  "team2": "Amarillo Tascosa",
-  "field": "site",
-  "old": "Socorro ISD Student Activity Center, El Paso",
-  "new": "Socorro ISD Student Activity Cen",
-  "at": "2026-11-16T17:32+00:00",
-  "status": "changed"
- },
- {
   "classification": "5A D2",
   "week": 1,
   "team1": "Almeta Crawford",
@@ -480,17 +337,6 @@
   "field": "site",
   "old": "Fort Bend ISD Hall Stadium",
   "new": "Location: Kenneth Hall Stadium",
-  "at": "2026-11-16T17:32+00:00",
-  "status": "changed"
- },
- {
-  "classification": "6A D1",
-  "week": 1,
-  "team1": "El Paso Pebble Hills",
-  "team2": "Midland Lee",
-  "field": "site",
-  "old": "SAC 2 Stadium, El Paso",
-  "new": "El Paso's SAC 2 Stadium",
   "at": "2026-11-16T17:32+00:00",
   "status": "changed"
  },
@@ -547,17 +393,6 @@
   "old": "2026-11-20",
   "new": "2026-11-19",
   "at": "2026-11-16T17:32+00:00",
-  "status": "changed"
- },
- {
-  "classification": "6A D1",
-  "week": 2,
-  "team1": "Allen",
-  "team2": "Euless Trinity",
-  "field": "site",
-  "old": "DATCU Stadium, Denton",
-  "new": "@UNT",
-  "at": "2026-11-16T18:50+00:00",
   "status": "changed"
  }
 ]

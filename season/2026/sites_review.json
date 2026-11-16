@@ -1,25 +1,5 @@
 [
  {
-  "site": "@UNT",
-  "game": "Allen v Euless Trinity",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Birkelbach Field",
-  "game": "Cuero v Brownwood",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Creek View Cougar Stadium",
-  "game": "Falls City v Harper",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Dallas Kincaide Stadium",
-  "game": "Longview v Red Oak",
-  "why": "no stadium, school or town matched"
- },
- {
   "site": "Eagle Mountain HS",
   "game": "Millsap v Trinity Leadership",
   "why": "no stadium, school or town matched"
@@ -30,18 +10,8 @@
   "why": "named:Kight Stadium, Fort Worth"
  },
  {
-  "site": "Grant Teaff Tiger Stadium",
-  "game": "Ozona v Olton",
-  "why": "no stadium, school or town matched"
- },
- {
   "site": "Location: Kenneth Hall Stadium",
   "game": "Almeta Crawford v Elgin",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Midlands King Memorial Stadium",
-  "game": "Tulia v Ballinger",
   "why": "no stadium, school or town matched"
  }
 ]

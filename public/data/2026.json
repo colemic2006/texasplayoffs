@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-16T19:25+00:00",
+    "updated": "2026-11-16T19:29+00:00",
     "games": 529,
     "played": 352,
     "assigned": 524,
@@ -7903,23 +7903,14 @@
       "team2": "Ganado",
       "score2": null,
       "winner": null,
-      "site": "Tomball's Tomball ISD Stadium",
-      "lat": 30.05549,
-      "lng": -95.70104,
+      "site": "Tomball ISD Stadium, Tomball",
+      "lat": 30.11165,
+      "lng": -95.6257,
       "stadium": "Tomball ISD Stadium",
       "map_link": "https://goo.gl/maps/Z6Jh79x8crv1Gjhu6",
       "city": "Tomball",
       "date": "2026-11-19",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Tomball ISD Stadium, Tomball",
-          "new": "Tomball's Tomball ISD Stadium",
-          "at": "2026-11-16T16:30+00:00",
-          "status": "changed"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -7950,18 +7941,14 @@
       "team2": "Olton",
       "score2": null,
       "winner": null,
-      "site": "Grant Teaff Tiger Stadium",
+      "site": "Grant Teaff Tiger Stadium, Snyder",
+      "lat": 32.7025,
+      "lng": -100.9318,
+      "stadium": "Grant Teaff Tiger Stadium",
+      "map_link": "https://maps.app.goo.gl/isXFJpXnaUGkXRir6",
+      "city": "Snyder",
       "date": "2026-11-20",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Grant Teaff Tiger Stadium, Snyder",
-          "new": "Grant Teaff Tiger Stadium",
-          "at": "2026-11-16T16:30+00:00",
-          "status": "changed"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8043,13 +8030,6 @@
       "date": "2026-11-19",
       "time": "4:00 PM",
       "changes": [
-        {
-          "field": "date",
-          "old": "2026-11-14",
-          "new": "2026-11-20",
-          "at": "2026-11-15T05:18+00:00",
-          "status": "changed"
-        },
         {
           "field": "date",
           "old": "2026-11-20",
@@ -8190,23 +8170,14 @@
       "team2": "Rosebud-Lott",
       "score2": null,
       "winner": null,
-      "site": "Manor's Manor Athletic Complex",
-      "lat": 30.38084,
-      "lng": -97.52811,
+      "site": "Manor ISD Athletic Complex, Manor",
+      "lat": 30.34209,
+      "lng": -97.5559,
       "stadium": "Manor Athletic Complex",
       "map_link": "https://goo.gl/maps/JGtRYHos88k",
       "city": "Manor",
       "date": "2026-11-20",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Manor ISD Athletic Complex, Manor",
-          "new": "Manor's Manor Athletic Complex",
-          "at": "2026-11-16T16:30+00:00",
-          "status": "changed"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8239,18 +8210,14 @@
       "team2": "Ballinger",
       "score2": null,
       "winner": null,
-      "site": "Midlands King Memorial Stadium",
+      "site": "King Memorial Stadium, Midland",
+      "lat": 32.02553,
+      "lng": -101.89657,
+      "stadium": "J. M. King Memorial Stadium",
+      "map_link": "https://goo.gl/maps/kesfjLMPqf7DpKUU6",
+      "city": "Midland",
       "date": "2026-11-20",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "King Memorial Stadium, Midland",
-          "new": "Midlands King Memorial Stadium",
-          "at": "2026-11-16T16:30+00:00",
-          "status": "changed"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8343,18 +8310,14 @@
       "team2": "Harper",
       "score2": null,
       "winner": null,
-      "site": "Creek View Cougar Stadium",
+      "site": "Creek View Cougar Stadium, San Antonio",
+      "lat": 29.3565,
+      "lng": -98.87888,
+      "stadium": "Creek View High School Stadium",
+      "map_link": "https://maps.app.goo.gl/wybVbq5TDhGhwcmb9",
+      "city": "Castroville",
       "date": "2026-11-20",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Creek View Cougar Stadium, San Antonio",
-          "new": "Creek View Cougar Stadium",
-          "at": "2026-11-16T16:30+00:00",
-          "status": "changed"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -8487,23 +8450,14 @@
       "team2": "Three Rivers",
       "score2": null,
       "winner": null,
-      "site": "Smithville's Tiger Stadium",
-      "lat": 29.99529,
-      "lng": -97.16423,
+      "site": "Tiger Stadium, Smithville",
+      "lat": 30.05413,
+      "lng": -97.21724,
       "stadium": "Tiger Stadium",
       "map_link": "https://goo.gl/maps/ukjjT2CSA7CyKbbJ6",
       "city": "Smithville",
       "date": "2026-11-19",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Tiger Stadium, Smithville",
-          "new": "Smithville's Tiger Stadium",
-          "at": "2026-11-16T16:30+00:00",
-          "status": "changed"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9622,23 +9576,14 @@
       "team2": "Carthage",
       "score2": null,
       "winner": null,
-      "site": "Forney High School",
-      "lat": 32.72391,
-      "lng": -96.45884,
+      "site": "City Bank Stadium, Forney",
+      "lat": 32.73659,
+      "lng": -96.46865,
       "stadium": "Forney City Bank Stadium",
       "map_link": "https://goo.gl/maps/F7gGtPMCR2jCZJpy8",
       "city": "Forney",
       "date": "2026-11-19",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "City Bank Stadium, Forney",
-          "new": "Forney High School",
-          "at": "2026-11-16T16:18+00:00",
-          "status": "changed"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -9780,18 +9725,11 @@
       "team2": "Brownwood",
       "score2": null,
       "winner": null,
-      "site": "Birkelbach Field",
+      "site": "Georgetown ISD Stadium, Georgetown",
+      "lat": 30.66912,
+      "lng": -97.65861,
       "date": "2026-11-20",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Georgetown ISD Stadium, Georgetown",
-          "new": "Birkelbach Field",
-          "at": "2026-11-16T12:41+00:00",
-          "status": "changed"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -10730,18 +10668,14 @@
       "team2": "Euless Trinity",
       "score2": null,
       "winner": null,
-      "site": "@UNT",
+      "site": "DATCU Stadium, Denton",
+      "lat": 33.20095,
+      "lng": -97.16158,
+      "stadium": "DATCU Stadium",
+      "map_link": "https://goo.gl/maps/mLoHc4A1xdEm1iKt8",
+      "city": "Denton",
       "date": "2026-11-20",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "DATCU Stadium, Denton",
-          "new": "@UNT",
-          "at": "2026-11-16T18:50+00:00",
-          "status": "changed"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -11033,18 +10967,14 @@
       "team2": "Red Oak",
       "score2": null,
       "winner": null,
-      "site": "Dallas Kincaide Stadium",
+      "site": "Kincaide Stadium, Dallas",
+      "lat": 32.63734,
+      "lng": -96.84225,
+      "stadium": "John Kincaide Stadium",
+      "map_link": "https://goo.gl/maps/PcQDDtxSmQseS2d17",
+      "city": "Dallas",
       "date": "2026-11-20",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Kincaide Stadium, Dallas",
-          "new": "Dallas Kincaide Stadium",
-          "at": "2026-11-16T12:41+00:00",
-          "status": "changed"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -11184,16 +11114,7 @@
       "map_link": "https://goo.gl/maps/QLFBhBUBoXdQ5CT36",
       "city": "Irving",
       "date": "2026-11-20",
-      "time": "7:00 PM",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Ellis Stadium - Irving, Tx",
-          "new": "Joy & Ralph Ellis Stadium - Irving",
-          "at": "2026-11-14T12:39+00:00",
-          "status": "changed"
-        }
-      ]
+      "time": "7:00 PM"
     },
     {
       "year": 2026,
@@ -11213,16 +11134,7 @@
       "map_link": "https://goo.gl/maps/PurYScT9spqv4hrq5",
       "city": "Edinburg",
       "date": "2026-11-21",
-      "time": "3:00 PM",
-      "changes": [
-        {
-          "field": "date",
-          "old": "2026-11-14",
-          "new": "2026-11-21",
-          "at": "2026-11-14T20:16+00:00",
-          "status": "changed"
-        }
-      ]
+      "time": "3:00 PM"
     },
     {
       "year": 2026,
