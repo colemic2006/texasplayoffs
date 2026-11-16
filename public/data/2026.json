@@ -2,10 +2,10 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-16T06:19+00:00",
+    "updated": "2026-11-16T07:58+00:00",
     "games": 528,
     "played": 352,
-    "assigned": 502,
+    "assigned": 508,
     "weeks": {
       "1": {
         "games": 352,
@@ -13,7 +13,7 @@
       },
       "2": {
         "games": 176,
-        "assigned": 150
+        "assigned": 156
       },
       "3": {
         "games": 0,
@@ -280,7 +280,7 @@
     {
       "code": "AUS",
       "name": "Austin",
-      "total": 22,
+      "total": 28,
       "weeks": {
         "1": {
           "total": 22,
@@ -295,6 +295,16 @@
             "5A D2": 1,
             "6A D1": 4,
             "6A D2": 5
+          }
+        },
+        "2": {
+          "total": 6,
+          "classifications": {
+            "3A D2": 1,
+            "5A D1": 1,
+            "5A D2": 1,
+            "6A D1": 2,
+            "6A D2": 1
           }
         }
       }
@@ -9066,7 +9076,7 @@
       "classification": "3A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "AUS",
       "team1": "East Bernard",
       "score1": null,
       "team2": "Stockdale",
@@ -9892,7 +9902,7 @@
       "classification": "5A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "AUS",
       "team1": "Denton Ryan",
       "score1": null,
       "team2": "Frenship",
@@ -10329,7 +10339,7 @@
       "classification": "5A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "AUS",
       "team1": "Boerne",
       "score1": null,
       "team2": "Mercedes",
@@ -10507,7 +10517,7 @@
       "classification": "6A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "AUS",
       "team1": "Odessa Permian",
       "score1": null,
       "team2": "Keller",
@@ -10587,7 +10597,7 @@
       "classification": "6A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "AUS",
       "team1": "Allen",
       "score1": null,
       "team2": "Euless Trinity",
@@ -11006,7 +11016,7 @@
       "classification": "6A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "AUS",
       "team1": "Midland High",
       "score1": null,
       "team2": "Southlake Carroll",
