@@ -726,7 +726,6 @@
   "Brookshire Royal": "Brookshire Royal",
   "Sealy": "Sealy",
   "Waller": "Waller",
-  "Victoria East": "Victoria East",
   "Galveston Ball": "Galveston Ball"
  },
  "SAN": {
@@ -923,7 +922,8 @@
   "George West": "George West",
   "Pettus": "Pettus",
   "Three Rivers": "Three Rivers",
-  "Victoria West": "Victoria West"
+  "Victoria West": "Victoria West",
+  "Victoria East": "Victoria East"
  },
  "WAC": {
   "Abbott": "Abbott",
