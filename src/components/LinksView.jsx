@@ -47,6 +47,7 @@ export default function LinksView() {
           </p>
           <p style={{ fontSize:14, lineHeight:1.6, color:'var(--mid)', margin:'0 0 14px', fontStyle:'italic' }}>
             I use mine for youth and sub-varsity games. At those coin tosses, it isn't heads or tails: it's faces or butts.
+            {' '}I'm not affiliated with Art of Officiating and get nothing if you buy one. I just think it's a fun coin.
           </p>
           <a href={COIN_URL} target="_blank" rel="noopener noreferrer"
              style={{ display:'inline-block', fontFamily:'var(--mono)', fontSize:11, letterSpacing:'0.08em', textTransform:'uppercase',
