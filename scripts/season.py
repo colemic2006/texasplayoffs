@@ -309,6 +309,22 @@ def same_site(shown, source):
     return first(shown) == first(source) or (words(source) and words(source) <= words(shown))
 
 
+def stale_matchup(rows, cls, g):
+    """A new game from the source that can't be right: one of its teams lost in the round before,
+    or already has a game this round (MaxPreps briefly lists the wrong team in a bracket slot)."""
+    keys = {g['key1'], g['key2']}
+    for r in rows:
+        if r['cls'] != cls or not r['week'] or not (r['key1'] or r['key2']):
+            continue
+        if r['week'] == g['week'] and keys & {r['key1'], r['key2']}:
+            return True
+        if r['week'] == g['week'] - 1 and r['score1'] is not None and r['score2'] is not None and r['score1'] != r['score2']:
+            loser = r['key2'] if r['score1'] > r['score2'] else r['key1']
+            if loser in keys:
+                return True
+    return False
+
+
 def fill_sites(year, ws, placed):
     """Fill Site/Date cells from MaxPreps details cards. A card is read again on each run (at
     most every 10 minutes) until the game has a site, a set date and a kickoff time. A site typed in by hand is kept; the
@@ -527,6 +543,9 @@ def prefill(year):
                     if max(straight, crossed) >= 0.85:
                         match = (r, straight >= crossed)
                         break
+            if match is None and stale_matchup(rows, cls, g):
+                print(f"  ! {cls} wk{g['week']}: skipped {t1} v {t2}: a team already lost or already has a game this round")
+                continue
             if match is None:
                 r = next((r for r in rows if not r['week'] and not r['team1'] and not r['team2'] and not r['cls']), None)
                 if r is None:
