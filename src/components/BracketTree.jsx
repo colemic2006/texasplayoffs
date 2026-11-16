@@ -146,16 +146,13 @@ export default function BracketTree({ data, year }) {
     <div>
       {printing && <PrintBrackets games={games} classes={printing} year={year} inProgress={inProgress} onDone={() => setPrinting(null)} />}
       <div style={{ display:'flex', gap:4, flexWrap:'wrap', marginBottom:10 }}>
-        {classes.map(c => <button key={c} onClick={() => { setCls(c); setFollow(null); setOnlyCh(null) }} style={chip(c === current)}>{c}</button>)}
+        {classes.map(c => <button key={c} onClick={() => { setCls(c); setOnlyCh(null) }} style={chip(c === current)}>{c}</button>)}
       </div>
       <div style={{ display:'flex', alignItems:'center', gap:4, flexWrap:'wrap', marginBottom:14 }}>
         <span style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginRight:4 }}>Start at:</span>
         {names.slice(0, R - 1).map((n, r) => (
           <button key={r} onClick={() => setFrom(r)} style={{ ...chip(r === start), background: r === start ? 'var(--ink)' : 'transparent' }}>{n}</button>
         ))}
-        {follow && (
-          <button onClick={() => setFollow(null)} style={{ ...chip(true), marginLeft:'auto' }}>Following {follow} ✕</button>
-        )}
       </div>
 
       {legend.length > 0 && (
@@ -186,7 +183,7 @@ export default function BracketTree({ data, year }) {
             <button onClick={() => setPrinting(classes)} style={pdfBtn} title="Every division, one per page">⤓ PDF: all divisions</button>
           </div>
           <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)' }}>
-            {champ ? <>State champion: <strong style={{ color:'var(--burnt)' }}>{champ}</strong></> : 'Click a team to follow its path · chapter codes on each game'}
+            {champ ? <>State champion: <strong style={{ color:'var(--burnt)' }}>{champ}</strong></> : 'Click a game for its MaxPreps page · chapter codes on each game'}
           </div>
         </div>
         <div style={{ overflowX:'auto', paddingBottom:6 }}>
@@ -299,9 +296,7 @@ function Box({ g, left, top, follow, setFollow, inProgress, final, onlyCh }) {
   const row = (t, s) => {
     const win = w && t === w, lose = w && t !== w
     return (
-      <div onClick={() => g.mp_url ? window.open(g.mp_url, '_blank', 'noopener,noreferrer') : (t && setFollow(follow === t ? null : t))}
-           style={{ display:'flex', alignItems:'center', gap:4, height:(BOX_H - 2) / 2, padding:'0 6px', cursor:'pointer',
-                    background: follow && t === follow ? 'rgba(70,29,124,0.10)' : 'transparent' }}>
+      <div style={{ display:'flex', alignItems:'center', gap:4, height:(BOX_H - 2) / 2, padding:'0 6px' }}>
         <span style={{ flex:1, minWidth:0, overflow:'hidden', textOverflow:'ellipsis', whiteSpace:'nowrap', fontSize:11,
                        fontWeight: win ? 700 : 400, color: lose ? 'var(--mid)' : 'var(--ink)' }}>{t || '—'}</span>
         {s != null && <span style={{ fontFamily:'var(--mono)', fontSize:10, fontWeight: win ? 700 : 400, color: win ? 'var(--burnt)' : 'var(--mid)' }}>{s}</span>}
@@ -310,7 +305,8 @@ function Box({ g, left, top, follow, setFollow, inProgress, final, onlyCh }) {
   }
   return (
     <div title={tip || (inProgress ? 'Site and date to be announced' : '')}
-         style={{ ...base, background:'var(--surface)', overflow:'hidden', display:'flex',
+         onClick={g.mp_url ? () => window.open(g.mp_url, '_blank', 'noopener,noreferrer') : undefined}
+         style={{ ...base, background:'var(--surface)', overflow:'hidden', display:'flex', cursor: g.mp_url ? 'pointer' : 'default',
                   opacity: onlyCh && (g.chapter || 'none') !== onlyCh ? 0.25 : 1, transition:'opacity 0.15s',
                   border: `${hasChanges(g) ? 2 : 1}px solid ${hasChanges(g) ? ALERT : lit ? 'var(--burnt)' : final ? 'var(--gold)' : 'var(--border)'}`,
                   boxShadow: lit ? '0 0 0 1px var(--burnt)' : 'none' }}>
