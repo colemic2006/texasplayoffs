@@ -1788,6 +1788,19 @@
   "stadium": "Crowley ISD Multi-Purpose Stadium",
   "stadium_id": 164
  },
+ "Crowley ISD Stadium, Fort Worth || Rockwall High v Duncanville": {
+  "address": "9901 Hemphill Street, Fort Worth, Texas 76134",
+  "city": "Fort Worth",
+  "how": "stadium (map link)",
+  "lat": 32.60854,
+  "link_tried": true,
+  "lng": -97.33905,
+  "map_link": "https://goo.gl/maps/vD6WyxBQ71jJaVZ89",
+  "rules": 10,
+  "site": "Crowley ISD Stadium, Fort Worth",
+  "stadium": "Crowley ISD Multi-Purpose Stadium",
+  "stadium_id": 164
+ },
  "Crusader Stadium || Houston Strake Jesuit v Fulshear Jordan": {
   "address": "",
   "city": "Houston",
@@ -3915,6 +3928,19 @@
   "site": "Kincaide Stadium, Dallas",
   "stadium": "John Kincaide Stadium",
   "stadium_id": 309
+ },
+ "King Memorial Stadium, Midland || Tulia v Ballinger": {
+  "address": "2700 FM 1379, Midland, Texas 79706",
+  "city": "Midland",
+  "how": "stadium (map link)",
+  "lat": 32.02553,
+  "link_tried": true,
+  "lng": -101.89657,
+  "map_link": "https://goo.gl/maps/kesfjLMPqf7DpKUU6",
+  "rules": 10,
+  "site": "King Memorial Stadium, Midland",
+  "stadium": "J. M. King Memorial Stadium",
+  "stadium_id": 529
  },
  "Klein ISD Memorial Stadium || Klein v Cypress Woods": {
   "address": "16607 Stuebner Airline Rd,, Klein, Texas 77379",
