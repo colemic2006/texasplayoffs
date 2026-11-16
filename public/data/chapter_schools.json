@@ -4440,13 +4440,6 @@
   },
   {
    "name": "Johnson City",
-   "chapter": "SAT",
-   "lat": 30.27738,
-   "lng": -98.40902,
-   "at": "town"
-  },
-  {
-   "name": "Johnson City LBJ",
    "chapter": "AUS",
    "lat": 30.27738,
    "lng": -98.40902,

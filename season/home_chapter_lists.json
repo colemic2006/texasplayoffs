@@ -159,7 +159,6 @@
   "JISD Judson HS": "Converse Judson",
   "JISD Veterans Memorial HS": "San Antonio Veterans Memorial",
   "JISD Wagner HS": "San Antonio Wagner",
-  "Johnson City HS": "Johnson City",
   "Jourdanton HS": "Jourdanton",
   "Karnes City HS": "Karnes City",
   "Kenedy HS": "Kenedy",
@@ -826,11 +825,11 @@
   "Cherokee": "Cherokee",
   "Lago Vista": "Lago Vista",
   "La Grange": "La Grange",
-  "Johnson City LBJ": "Johnson City LBJ",
   "Smithville HS": "Smithville",
   "Austin Memorial": "Austin Memorial",
   "Austin Northeast": "Austin Northeast",
-  "Buda Johnson": "Buda Johnson"
+  "Buda Johnson": "Buda Johnson",
+  "Johnson City LBJ": "Johnson City"
  },
  "RGV": {
   "Brownsville Hanna": "Brownsville Hanna",
