@@ -6074,6 +6074,19 @@
   "stadium": "Tiger Stadium",
   "stadium_id": 174
  },
+ "Ron Poe Stadium @McKinney || Millsap v Edgewood": {
+  "address": "2000 Doe Rollins St, McKinney, Texas 75069",
+  "city": "McKinney",
+  "how": "stadium (map link)",
+  "lat": 33.20719,
+  "link_tried": true,
+  "lng": -96.63364,
+  "map_link": "https://goo.gl/maps/5X1kgBYCnNTMTAGk9",
+  "rules": 10,
+  "site": "Ron Poe Stadium @McKinney",
+  "stadium": "Ron Poe Stadium",
+  "stadium_id": 276
+ },
  "Ron Poe Stadium, McKinney || Millsap v Edgewood": {
   "address": "2000 Doe Rollins St, McKinney, Texas 75069",
   "city": "McKinney",
