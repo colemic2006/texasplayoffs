@@ -19,7 +19,7 @@
  ],
  "totals": {
   "members": 6107,
-  "season_games": 524,
+  "season_games": 526,
   "hist_games": 6076,
   "late_games": 678
  },
@@ -60,7 +60,7 @@
   },
   "AUS": {
    "members": 473,
-   "season_games": 29,
+   "season_games": 30,
    "hist_games": 355,
    "late_games": 35,
    "schools": 74,
@@ -212,7 +212,7 @@
   },
   "WAC": {
    "members": 141,
-   "season_games": 17,
+   "season_games": 18,
    "hist_games": 248,
    "late_games": 23,
    "schools": 40,
