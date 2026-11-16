@@ -33,7 +33,7 @@ export default function RecentChanges({ data }) {
           <span style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)' }}>{g.classification}{g.chapter ? ` · ${g.chapter}` : ''}</span>
           <span style={{ color:ALERT, fontWeight:600 }}>
             {LABEL[c.field]}{c.status === 'conflict'
-              ? <>: source now lists {fmtValue(c.field, c.new)} (site shows {fmtValue(c.field, c.old)}, set by hand — being checked)</>
+              ? <>: {c.src || 'MaxPreps'} lists {fmtValue(c.field, c.new)}; this page shows {fmtValue(c.field, c.old)} (being checked)</>
               : <>: <s style={{ fontWeight:400, opacity:0.7 }}>{fmtValue(c.field, c.old)}</s> → {fmtValue(c.field, c.new)}</>}
           </span>
           <span style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)' }}>now: {[g.site && placeName(g), gameWhen(g)].filter(Boolean).join(' · ')} · detected {fmtWhen(c.at)}</span>

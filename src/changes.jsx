@@ -17,7 +17,7 @@ export const changed = (g, field) => hasChanges(g) && g.changes.some(c => c.fiel
 // one line per change: "Date: 11/13 → 11/12"
 export function changeText(g) {
   return (g.changes || []).map(c => c.status === 'conflict'
-    ? `${LABEL[c.field]}: source now lists ${fmtValue(c.field, c.new)} (site shows ${fmtValue(c.field, c.old)})`
+    ? `${LABEL[c.field]}: ${c.src || 'MaxPreps'} lists ${fmtValue(c.field, c.new)}; this page shows ${fmtValue(c.field, c.old)} (being checked)`
     : `${LABEL[c.field]}: ${fmtValue(c.field, c.old)} → ${fmtValue(c.field, c.new)}`).join(' · ')
 }
 
@@ -41,7 +41,7 @@ export function ChangeDetail({ game }) {
     <div style={{ fontSize:11, color:ALERT, fontWeight:600, marginTop:3, lineHeight:1.45 }}>
       {game.changes.map((c, i) => (
         <div key={i}>
-          ⚠ {LABEL[c.field]} {c.status === 'conflict' ? <>— source now lists <strong>{fmtValue(c.field, c.new)}</strong> (shown: {fmtValue(c.field, c.old)})</>
+          ⚠ {LABEL[c.field]} {c.status === 'conflict' ? <>: {c.src || 'MaxPreps'} lists <strong>{fmtValue(c.field, c.new)}</strong>; this page shows {fmtValue(c.field, c.old)} (being checked)</>
             : <>changed: <s style={{ opacity:0.7, fontWeight:400 }}>{fmtValue(c.field, c.old)}</s> → <strong>{fmtValue(c.field, c.new)}</strong></>}
           <span style={{ fontWeight:400, opacity:0.8 }}> · {fmtWhen(c.at)}</span>
         </div>

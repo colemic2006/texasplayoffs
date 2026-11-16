@@ -255,20 +255,31 @@ def set_score(year, ws, r, s1, s2, source_label):
         print(f'  {"score from" if cur == (None, None) else "score corrected by"} {source_label}: {score_text(r, s1, s2)}')
         return True
     game = dict(classification=r['cls'], week=r['week'], team1=r['team1'], team2=r['team2'])
-    note_conflict(year, game, 'score', score_text(r, *cur), score_text(r, s1, s2))
+    note_conflict(year, game, 'score', score_text(r, *cur), score_text(r, s1, s2), src=source_label.split()[0] if source_label else 'MaxPreps')
     return False
 
 
-def note_conflict(year, game, field, shown, source):
+def confirmed(year, game, field):
+    """True when the site owner confirmed this value (season/<year>/confirmed.json): a source that disagrees isn't flagged."""
+    p = ROOT / 'season' / str(year) / 'confirmed.json'
+    if not p.exists():
+        return False
+    return any(c['field'] == field and c['classification'] == game['classification'] and
+               {c['team1'], c['team2']} == {game['team1'], game['team2']} for c in json.loads(p.read_text()))
+
+
+def note_conflict(year, game, field, shown, source, src='MaxPreps'):
     """The source (MaxPreps / UIL) now lists a different value than one the owner set by hand."""
+    if confirmed(year, game, field):
+        return   # the owner confirmed what the site shows
     changes = load_changes(year)
     for c in changes:
         if c.get('status') == 'conflict' and c['field'] == field and c['new'] == source and \
                 {c['team1'], c['team2']} == {game['team1'], game['team2']} and c['classification'] == game['classification']:
             return   # already flagged
-    changes.append(dict(game, field=field, old=shown, new=source, at=now_iso(), status='conflict'))
+    changes.append(dict(game, field=field, old=shown, new=source, src=src, at=now_iso(), status='conflict'))
     save_changes(year, changes)
-    print(f'  ! {game["team1"]} v {game["team2"]}: source now lists {field} {source!r}; the site keeps {shown!r} (set by hand)')
+    print(f'  ! {game["team1"]} v {game["team2"]}: {src} now lists {field} {source!r}; the site keeps {shown!r} (set by hand)')
 
 
 def card_score(desc, g):
@@ -600,7 +611,7 @@ def log_changes(year, games):
     by_game = {}
     for c in changes:
         if datetime.datetime.fromisoformat(c['at']) >= cutoff:
-            by_game.setdefault(game_key(c), []).append({k: c[k] for k in ('field', 'old', 'new', 'at', 'status')})
+            by_game.setdefault(game_key(c), []).append({k: c[k] for k in ('field', 'old', 'new', 'at', 'status', 'src') if k in c})
     # a change matters through the game's day (Central time); after that it's dropped
     today = (datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(hours=6)).date().isoformat()
     for g in games:
