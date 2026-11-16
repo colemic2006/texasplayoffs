@@ -96,11 +96,9 @@
   "EP Irvin High School": "El Paso Irvin",
   "EP Jefferson High School": "El Paso Jefferson",
   "Fabens High School": "Fabens",
-  "Fort Davis High School": "Fort Davis",
   "Fort Hancock High School": "Fort Hancock",
   "Immanuel Christian School": "Immanuel Christian",
   "Jesus Chapel High School": "Jesus Chapel",
-  "Marfa High School": "Marfa",
   "San Elizario High School": "San Elizario",
   "Sierra Blanca High School": "Sierra Blanca",
   "Socorro Americas HS": "El Paso Americas",
@@ -1004,7 +1002,9 @@
   "Buena Vista": "Buena Vista",
   "Ganden City": "Garden City",
   "Grady": "Lenorah Grady",
-  "Sands": "Sands"
+  "Sands": "Sands",
+  "Fort Davis High School": "Fort Davis",
+  "Marfa High School": "Marfa"
  },
  "DAL": {
   "Dallas Adams": "Dallas Adams",

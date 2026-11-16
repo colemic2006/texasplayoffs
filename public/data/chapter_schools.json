@@ -2977,7 +2977,7 @@
   },
   {
    "name": "Fort Davis",
-   "chapter": "ELP",
+   "chapter": "PBC",
    "lat": 30.58916,
    "lng": -103.89496,
    "at": "town"
@@ -5455,7 +5455,7 @@
   },
   {
    "name": "Marfa",
-   "chapter": "ELP",
+   "chapter": "PBC",
    "lat": 30.31176,
    "lng": -104.02315,
    "at": "town"
