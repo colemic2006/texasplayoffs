@@ -13,6 +13,8 @@ deployed to GitHub Pages on every push to `main`. Season data lives in `public/d
   ask, and leave a game blank if the owner says their records are blank.
 - UIL's bracket PDFs are authoritative for who played whom (and for district seeds). If the site's
   opponent differs from the UIL bracket, use UIL's.
+- A chapter's assignment list may include "aux only" games: that chapter is only providing the chain
+  crew, not the officials. Don't record those as the chapter's games; leave the chapter blank.
 - 1A plays weeks 1-4, has an open week 5, and plays its state final in week 6 with everyone else.
 
 ## In-season pipeline
