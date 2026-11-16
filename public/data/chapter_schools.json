@@ -946,6 +946,13 @@
    "at": "town"
   },
   {
+   "name": "Briscoe Fort Elliott",
+   "chapter": "AMA",
+   "lat": 35.5806,
+   "lng": -100.2846,
+   "at": "town"
+  },
+  {
    "name": "Brock",
    "chapter": "FTW",
    "lat": 32.67624,
@@ -1475,6 +1482,13 @@
    "chapter": "SAT",
    "lat": 29.57078,
    "lng": -98.23309,
+   "at": "town"
+  },
+  {
+   "name": "Cigarroa",
+   "chapter": "RGV",
+   "lat": 27.50792,
+   "lng": -99.50698,
    "at": "town"
   },
   {
@@ -2787,6 +2801,13 @@
    "at": "town"
   },
   {
+   "name": "Fannindel",
+   "chapter": "COM",
+   "lat": 33.42541,
+   "lng": -95.94705,
+   "at": "town"
+  },
+  {
    "name": "Farmersville",
    "chapter": "DAL",
    "lat": 33.16322,
@@ -3807,6 +3828,13 @@
    "lat": 34.83147,
    "lng": -102.41338,
    "at": "stadium"
+  },
+  {
+   "name": "Heritage",
+   "chapter": "DAL",
+   "lat": 33.1506,
+   "lng": -96.82382,
+   "at": "town"
   },
   {
    "name": "Hermleigh",
@@ -5101,6 +5129,13 @@
    "chapter": "CTX",
    "lat": 32.24458,
    "lng": -98.37755,
+   "at": "town"
+  },
+  {
+   "name": "Little Cypress-Mauriceville",
+   "chapter": "BEA",
+   "lat": 30.09299,
+   "lng": -93.73655,
    "at": "town"
   },
   {
@@ -6592,6 +6627,13 @@
    "chapter": "AUS",
    "lat": 29.73084,
    "lng": -97.75404,
+   "at": "town"
+  },
+  {
+   "name": "Prairiland",
+   "chapter": "COM",
+   "lat": 33.57927,
+   "lng": -95.39217,
    "at": "town"
   },
   {
@@ -8891,30 +8933,5 @@
    "at": "town"
   }
  ],
- "unplaced": [
-  {
-   "name": "Briscoe Fort Elliott",
-   "chapter": "AMA"
-  },
-  {
-   "name": "Cigarroa",
-   "chapter": "RGV"
-  },
-  {
-   "name": "Fannindel",
-   "chapter": "COM"
-  },
-  {
-   "name": "Heritage",
-   "chapter": "DAL"
-  },
-  {
-   "name": "Little Cypress-Mauriceville",
-   "chapter": "BEA"
-  },
-  {
-   "name": "Prairiland",
-   "chapter": "COM"
-  }
- ]
+ "unplaced": []
 }

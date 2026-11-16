@@ -44,7 +44,8 @@ TOWN = {
     'Richmond Randle': 'Richmond', 'Richmond Tomas': 'Richmond', 'Rockwall-Heath': 'Rockwall', 'Ropes': 'Ropesville',
     'Rosenburg Lamar': 'Rosenberg', 'Rosenburg Terry': 'Rosenberg', 'S&S Consolidated': 'Sadler', 'Sands': 'Ackerly',
     'South Grand Prairie': 'Grand Prairie', 'Tarkington': 'Cleveland', 'Tidehaven': 'El Maton', 'Wichita Christian': 'Wichita Falls',
-    'Young Mens Leadership Academy': 'San Antonio', 'Highland': 'Roscoe', 'West Texas Stinnett': 'Stinnett',
+    'Young Mens Leadership Academy': 'San Antonio', 'Briscoe Fort Elliott': 'Briscoe', 'Cigarroa': 'Laredo', 'Fannindel': 'Ladonia',
+    'Heritage': 'Frisco', 'Little Cypress-Mauriceville': 'Orange', 'Prairiland': 'Pattonville', 'Highland': 'Roscoe', 'West Texas Stinnett': 'Stinnett',
     'Klondike': 'Lamesa', 'Cotton Center': 'Cotton Center', 'Welch Dawson': 'Welch', 'Dawson': 'Dawson', 'Bruceville-Eddy': 'Eddy', 'West': 'West', 'Center Point': 'Center Point',
     'Sabine': 'Liberty City', 'Groesbeck': 'Groesbeck', 'Tornillo': 'Tornillo', 'Water Valley': 'Water Valley', 'Weimar': 'Weimar', 'Bishop Gorman': 'Tyler', 'Seguin': 'Seguin', 'San Antonio Sam Houston': 'San Antonio',
 }
