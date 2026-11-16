@@ -322,7 +322,6 @@
   "Cayuga": "Cayuga",
   "Chapel Hill": "Tyler Chapel Hill",
   "Corsicana": "Corsicana",
-  "Cross Roads": "Cross Roads",
   "Daingerfield": "Daingerfield",
   "DeKalb": "De Kalb",
   "Edgewood": "Edgewood",
@@ -1150,7 +1149,8 @@
   "Rice Consolidated": "Rice Consolidated",
   "Waxahachie": "Waxahachie",
   "Waxahachie Life": "Waxahachie Life",
-  "Heritage": "Heritage"
+  "Heritage": "Heritage",
+  "Cross Roads": "Cross Roads"
  },
  "FTW": {
   "FW Carter-Riverside": "FW Carter-Riverside",
