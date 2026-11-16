@@ -45,7 +45,7 @@ export default function ChapterCoverageMap() {
     return Object.entries(by).map(([c, ss]) => {
       const mid = [median(ss.map(s => s.lat)), median(ss.map(s => s.lng))]
       const d = ss.map(s => miles(mid, [s.lat, s.lng]))
-      const cut = Math.max(60, 3 * median(d))
+      const cut = Math.max(180, 4 * median(d))   // only a true outlier (a likely list slip) is left out of the outline
       const core = ss.filter((s, i) => d[i] <= cut), far = ss.filter((s, i) => d[i] > cut)
       return { c, schools: ss, core, far, mid, ring: hull(core.map(s => [s.lat, s.lng])) }
     }).sort((a, b) => (NAMES[a.c] || a.c).localeCompare(NAMES[b.c] || b.c))
