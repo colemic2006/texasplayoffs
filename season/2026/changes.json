@@ -438,5 +438,115 @@
   "new": "7:00 PM",
   "at": "2026-11-16T17:05+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "3A D1",
+  "week": 1,
+  "team1": "Rio Hondo",
+  "team2": "Goliad",
+  "field": "site",
+  "old": "Tuloso Midway ISD Tuloso Midway HS",
+  "new": "Corpus Christi's Warrior Stadium",
+  "at": "2026-11-16T17:32+00:00",
+  "status": "changed"
+ },
+ {
+  "classification": "3A D2",
+  "week": 1,
+  "team1": "Millsap",
+  "team2": "Trinity Leadership",
+  "field": "site",
+  "old": "Knight Stadium, Fort Worth",
+  "new": "Eagle Mountain HS",
+  "at": "2026-11-16T17:32+00:00",
+  "status": "changed"
+ },
+ {
+  "classification": "5A D1",
+  "week": 1,
+  "team1": "El Paso Americas",
+  "team2": "Amarillo Tascosa",
+  "field": "site",
+  "old": "Socorro ISD Student Activity Center, El Paso",
+  "new": "Socorro ISD Student Activity Cen",
+  "at": "2026-11-16T17:32+00:00",
+  "status": "changed"
+ },
+ {
+  "classification": "5A D2",
+  "week": 1,
+  "team1": "Almeta Crawford",
+  "team2": "Elgin",
+  "field": "site",
+  "old": "Fort Bend ISD Hall Stadium",
+  "new": "Location: Kenneth Hall Stadium",
+  "at": "2026-11-16T17:32+00:00",
+  "status": "changed"
+ },
+ {
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "El Paso Pebble Hills",
+  "team2": "Midland Lee",
+  "field": "site",
+  "old": "SAC 2 Stadium, El Paso",
+  "new": "El Paso's SAC 2 Stadium",
+  "at": "2026-11-16T17:32+00:00",
+  "status": "changed"
+ },
+ {
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "Katy Cypress Lakes",
+  "team2": "Spring Klein Collins",
+  "field": "site",
+  "old": "Cypress-Fairbanks ISD Cy Fair FCU Stadium",
+  "new": "Berry Center, 8877 Barker Cypress Rd, Cypress, TX",
+  "at": "2026-11-16T17:32+00:00",
+  "status": "changed"
+ },
+ {
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "Aledo",
+  "team2": "Keller Central",
+  "field": "site",
+  "old": "Knight Stadium, Fort Worth",
+  "new": "Fort Worth's Kight Stadium",
+  "at": "2026-11-16T17:32+00:00",
+  "status": "changed"
+ },
+ {
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "Alvin Shadow Creek",
+  "team2": "Houston Heights",
+  "field": "site",
+  "old": "Freedom Field, Iowa Colony",
+  "new": "Alvin ISD Freedom Field",
+  "at": "2026-11-16T17:32+00:00",
+  "status": "changed"
+ },
+ {
+  "classification": "4A D1",
+  "week": 2,
+  "team1": "CC Tuloso-Midway",
+  "team2": "La Vernia",
+  "field": "site",
+  "old": "Dragon Stadium, New Braunfels",
+  "new": "@ Long Creek High School (New Braunfels)",
+  "at": "2026-11-16T17:32+00:00",
+  "status": "changed"
+ },
+ {
+  "classification": "6A D1",
+  "week": 2,
+  "team1": "Galena Park North Shore",
+  "team2": "Pearland",
+  "field": "date",
+  "old": "2026-11-20",
+  "new": "2026-11-19",
+  "at": "2026-11-16T17:32+00:00",
+  "status": "changed"
  }
 ]

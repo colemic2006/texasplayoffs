@@ -254,11 +254,12 @@
  "Alvin ISD Freedom Field || Alvin Shadow Creek v Houston Heights": {
   "address": "10855 County Road 65, Iowa Colony, Texas 77583",
   "city": "Iowa Colony",
-  "how": "stadium",
-  "lat": 29.39719,
-  "lng": -95.41014,
+  "how": "stadium (map link)",
+  "lat": 29.42756,
+  "link_tried": true,
+  "lng": -95.41053,
   "map_link": "https://goo.gl/maps/acSazZbAU2ovYKdUA",
-  "rules": 8,
+  "rules": 10,
   "site": "Alvin ISD Freedom Field",
   "stadium": "Alvin ISD Freedom Field",
   "stadium_id": 1758
@@ -706,6 +707,18 @@
   "site": "Benny Douglas Stadium, Muleshoe Texas",
   "stadium": "Benny Douglas Stadium",
   "stadium_id": 796
+ },
+ "Berry Center, 8877 Barker Cypress Rd, Cypress, TX || Katy Cypress Lakes v Spring Klein Collins": {
+  "address": "",
+  "city": "Cypress",
+  "how": "town (approximate)",
+  "lat": 29.96911,
+  "lng": -95.69717,
+  "map_link": "",
+  "rules": 10,
+  "site": "Berry Center, 8877 Barker Cypress Rd, Cypress, TX",
+  "stadium": null,
+  "stadium_id": null
  },
  "Berry Complex CyFair FCU Stadium || Bay City v Huffman-Hargrave": {
   "address": "8877 Barker-Cypress Rd., Cypress, Texas 77433",
@@ -1698,6 +1711,19 @@
   "stadium": "Cabaniss Athletic Complex",
   "stadium_id": 204
  },
+ "Corpus Christi's Warrior Stadium || Rio Hondo v Goliad": {
+  "address": "9760 McKinzie, Corpus Christi, Texas 78410",
+  "city": "Corpus Christi",
+  "how": "stadium (map link)",
+  "lat": 27.82919,
+  "link_tried": true,
+  "lng": -97.57924,
+  "map_link": "https://goo.gl/maps/vP8dH4Z53hXBLkjP7",
+  "rules": 10,
+  "site": "Corpus Christi's Warrior Stadium",
+  "stadium": "Warrior Stadium",
+  "stadium_id": 211
+ },
  "Cotton Picker Stadium, Robstown || Edcouch-Elsa v Port Lavaca Calhoun": {
   "address": "W. Ave H at N. 1st, Robstown, Texas 78380",
   "city": "Robstown",
@@ -2380,8 +2406,8 @@
   "address": "",
   "how": "no stadium, school or town matched",
   "map_link": "",
-  "missed": "2026-11-09",
-  "rules": 8,
+  "missed": "2026-11-16",
+  "rules": 10,
   "site": "Eagle Mountain HS",
   "stadium": null,
   "stadium_id": null
@@ -2530,10 +2556,12 @@
  "El Paso's SAC 2 Stadium || El Paso Pebble Hills v Midland Lee": {
   "address": "",
   "city": "El Paso",
-  "how": "named:SAC 2 Stadium, El Paso",
+  "confirmed_as": "1300 Joe Battle Blvd, El Paso, TX 79936",
+  "how": "town (approximate)",
+  "lat": 31.7601,
+  "lng": -106.48705,
   "map_link": "",
-  "missed": "2026-11-09",
-  "rules": 8,
+  "rules": 10,
   "site": "El Paso's SAC 2 Stadium",
   "stadium": null,
   "stadium_id": null
@@ -2868,8 +2896,8 @@
   "city": "Fort Worth",
   "how": "named:Kight Stadium, Fort Worth",
   "map_link": "",
-  "missed": "2026-11-09",
-  "rules": 8,
+  "missed": "2026-11-16",
+  "rules": 10,
   "site": "Fort Worth's Kight Stadium",
   "stadium": null,
   "stadium_id": null
@@ -3921,15 +3949,17 @@
   "stadium_id": 892
  },
  "Joseph L. Sears III Stadium in Killeen, TX || Mason v Itasca": {
-  "address": "",
+  "address": "4400 Chaparral Rd, Killeen, Texas 76542",
   "city": "Killeen",
-  "how": "named:Joseph L. Sears III Stadium, Killeen",
-  "map_link": "",
-  "missed": "2026-11-09",
-  "rules": 8,
+  "how": "stadium (map link)",
+  "lat": 31.03506,
+  "link_tried": true,
+  "lng": -97.71086,
+  "map_link": "https://maps.app.goo.gl/tqhbEpeC1Znv5U7X6",
+  "rules": 10,
   "site": "Joseph L. Sears III Stadium in Killeen, TX",
-  "stadium": null,
-  "stadium_id": null
+  "stadium": "Joseph L. Searles III Stadium",
+  "stadium_id": 4492
  },
  "Joy & Ralph Ellis Stadium - Irving || North Forney v North Crowley": {
   "address": "600 E. 6th Street, Irving, Texas 75060",
@@ -4302,10 +4332,13 @@
  "Legacy Stadium, 1830 Katyland Dr, Katy, TX 77493 || Katy Tompkins v Fort Bend Hightower": {
   "address": "5175 Franz Rd, Katy, Texas 77493",
   "city": "Katy",
-  "how": "stadium",
-  "lat": 29.80121,
-  "lng": -95.80476,
+  "confirmed_as": "Legacy Stadium, Katy",
+  "how": "stadium (map link)",
+  "lat": 29.80001,
+  "link_tried": true,
+  "lng": -95.80539,
   "map_link": "https://goo.gl/maps/km2SPmR8CsAASd3H6",
+  "rules": 10,
   "site": "Legacy Stadium, 1830 Katyland Dr, Katy, TX 77493",
   "stadium": "Mike Johnston Field at Legacy Stadium",
   "stadium_id": 1699
@@ -4482,6 +4515,16 @@
   "stadium": "Lion Stadium",
   "stadium_id": 680
  },
+ "Location: Kenneth Hall Stadium || Almeta Crawford v Elgin": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-16",
+  "rules": 10,
+  "site": "Location: Kenneth Hall Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Longview ISD Lobo Stadium || Longview v Rowlett": {
   "address": "Airline Rd at Hawkins Pkwy, Longview, Texas 75605",
   "city": "Longview",
@@ -4587,6 +4630,18 @@
   "stadium": "Lowery Field at Plains Capital Park",
   "stadium_id": 791
  },
+ "Lubbock's Lowrey Field || Bushland v Jim Ned": {
+  "address": "",
+  "city": "Lubbock",
+  "how": "stadium found by name",
+  "lat": 33.53279,
+  "lng": -101.85141,
+  "map_link": "",
+  "rules": 10,
+  "site": "Lubbock's Lowrey Field",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Lufkin ISD Abe Martin Stadium || Silsbee v Madisonville": {
   "address": "309 South Medford Dr., Lufkin, Texas 75902",
   "city": "Lufkin",
@@ -4683,6 +4738,19 @@
   "map_link": "https://goo.gl/maps/uCkXHGAGQdu9zi1W6",
   "rules": 10,
   "site": "Madisonville High School",
+  "stadium": "Mustang Stadium",
+  "stadium_id": 132
+ },
+ "Madisonville's Mustang Stadiu || Anahuac v Palestine Westwood": {
+  "address": "811 S May St,, Madisonville, Texas 77864",
+  "city": "Madisonville",
+  "how": "stadium (map link)",
+  "lat": 30.94603,
+  "link_tried": true,
+  "lng": -95.90261,
+  "map_link": "https://goo.gl/maps/uCkXHGAGQdu9zi1W6",
+  "rules": 10,
+  "site": "Madisonville's Mustang Stadiu",
   "stadium": "Mustang Stadium",
   "stadium_id": 132
  },
@@ -6012,6 +6080,19 @@
   "stadium": "Pridgeon Stadium",
   "stadium_id": 634
  },
+ "Pridgeon Stadium @ Cypress-Fairbanks Independent S || Bellville v Houston Worthing": {
+  "address": "11355 Bobcat Rd., Houston, Texas 77064",
+  "city": "Houston",
+  "how": "stadium (map link)",
+  "lat": 29.93564,
+  "link_tried": true,
+  "lng": -95.57,
+  "map_link": "https://goo.gl/maps/WGtow4sC3X82",
+  "rules": 10,
+  "site": "Pridgeon Stadium @ Cypress-Fairbanks Independent S",
+  "stadium": "Pridgeon Stadium",
+  "stadium_id": 634
+ },
  "Pridgeon Stadium, Cypress || Bellville v Hamshire-Fannett": {
   "address": "11355 Bobcat Rd., Houston, Texas 77064",
   "city": "Houston",
@@ -6229,11 +6310,12 @@
  "Richard Flores Stadium Edinburg, Texas || Edinburg Vela v Brownsville Veterans Memorial": {
   "address": "1800 S Stadium Dr, Edinburg, Texas 78539",
   "city": "Edinburg",
-  "how": "town",
-  "lat": 26.28424,
-  "lng": -98.16123,
+  "how": "stadium (map link)",
+  "lat": 26.28298,
+  "link_tried": true,
+  "lng": -98.1624,
   "map_link": "https://goo.gl/maps/PurYScT9spqv4hrq5",
-  "rules": 8,
+  "rules": 10,
   "site": "Richard Flores Stadium Edinburg, Texas",
   "stadium": "Richard R. Flores Stadium",
   "stadium_id": 911
@@ -6872,10 +6954,13 @@
  },
  "Socorro ISD Student Activity Cen || El Paso Americas v Amarillo Tascosa": {
   "address": "",
-  "how": "district:Student Activity Cen, Socorro",
+  "city": "El Paso",
+  "confirmed_as": "1300 Joe Battle Blvd, El Paso, TX 79936",
+  "how": "town (approximate)",
+  "lat": 31.7601,
+  "lng": -106.48705,
   "map_link": "",
-  "missed": "2026-11-09",
-  "rules": 8,
+  "rules": 10,
   "site": "Socorro ISD Student Activity Cen",
   "stadium": null,
   "stadium_id": null
@@ -7519,6 +7604,19 @@
   "site": "Timpson ISD Bear Stadium",
   "stadium": null,
   "stadium_id": null
+ },
+ "Timpson's Eakin Stadium || Newton v Elkhart": {
+  "address": "836 Bear Dr, Timpson, Texas 75975",
+  "city": "Timpson",
+  "how": "stadium (map link)",
+  "lat": 31.90637,
+  "link_tried": true,
+  "lng": -94.38696,
+  "map_link": "https://goo.gl/maps/jNbU7wwTYrgeFdqv8",
+  "rules": 10,
+  "site": "Timpson's Eakin Stadium",
+  "stadium": "John Herbert Eakin Stadium",
+  "stadium_id": 423
  },
  "Tom Landry Stadium, Mission || Mission Veterans Memorial v Mercedes": {
   "address": "W 15th St, Mission, Texas 78572",
