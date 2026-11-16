@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-16T21:44+00:00",
+    "updated": "2026-11-16T21:58+00:00",
     "games": 528,
     "played": 352,
     "assigned": 526,
@@ -4208,7 +4208,8 @@
       "city": "Dallas",
       "date": "2026-11-13",
       "time": "7:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/carter-dallas-vs-kennedale/11-13-2026/?c=b1dffee2-f0b2-4bf8-a422-8c320c75c50c"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/carter-dallas-vs-kennedale/11-13-2026/?c=b1dffee2-f0b2-4bf8-a422-8c320c75c50c",
+      "uil_pick": true
     },
     {
       "year": 2026,
