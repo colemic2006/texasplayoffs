@@ -2,10 +2,10 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-16T19:29+00:00",
+    "updated": "2026-11-16T20:29+00:00",
     "games": 529,
     "played": 352,
-    "assigned": 524,
+    "assigned": 525,
     "weeks": {
       "1": {
         "games": 352,
@@ -13,7 +13,7 @@
       },
       "2": {
         "games": 177,
-        "assigned": 172
+        "assigned": 173
       },
       "3": {
         "games": 0,
@@ -281,7 +281,7 @@
     {
       "code": "AUS",
       "name": "Austin",
-      "total": 29,
+      "total": 30,
       "weeks": {
         "1": {
           "total": 22,
@@ -299,8 +299,9 @@
           }
         },
         "2": {
-          "total": 7,
+          "total": 8,
           "classifications": {
+            "1A D2": 1,
             "3A D2": 1,
             "5A D1": 2,
             "5A D2": 1,
@@ -7807,7 +7808,7 @@
       "classification": "1A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "AUS",
       "team1": "Runge",
       "score1": null,
       "team2": "Mount Calm",
