@@ -2,10 +2,10 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-16T00:09+00:00",
+    "updated": "2026-11-16T01:51+00:00",
     "games": 528,
     "played": 352,
-    "assigned": 491,
+    "assigned": 492,
     "weeks": {
       "1": {
         "games": 352,
@@ -13,7 +13,7 @@
       },
       "2": {
         "games": 176,
-        "assigned": 139
+        "assigned": 140
       },
       "3": {
         "games": 0,
@@ -349,7 +349,7 @@
     {
       "code": "WAC",
       "name": "Waco",
-      "total": 11,
+      "total": 12,
       "weeks": {
         "1": {
           "total": 11,
@@ -360,6 +360,12 @@
             "3A D1": 4,
             "4A D1": 2,
             "5A D2": 1
+          }
+        },
+        "2": {
+          "total": 1,
+          "classifications": {
+            "3A D1": 1
           }
         }
       }
@@ -8696,7 +8702,7 @@
       "classification": "3A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "WAC",
       "team1": "Paradise",
       "score1": null,
       "team2": "Bushland",
