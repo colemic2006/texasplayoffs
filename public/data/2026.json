@@ -2,10 +2,10 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-16T15:23+00:00",
+    "updated": "2026-11-16T15:28+00:00",
     "games": 528,
     "played": 352,
-    "assigned": 512,
+    "assigned": 516,
     "weeks": {
       "1": {
         "games": 352,
@@ -13,7 +13,7 @@
       },
       "2": {
         "games": 176,
-        "assigned": 160
+        "assigned": 164
       },
       "3": {
         "games": 0,
@@ -339,6 +339,32 @@
       }
     },
     {
+      "code": "WAC",
+      "name": "Waco",
+      "total": 16,
+      "weeks": {
+        "1": {
+          "total": 11,
+          "classifications": {
+            "1A D2": 1,
+            "2A D1": 2,
+            "2A D2": 1,
+            "3A D1": 4,
+            "4A D1": 2,
+            "5A D2": 1
+          }
+        },
+        "2": {
+          "total": 5,
+          "classifications": {
+            "2A D1": 1,
+            "2A D2": 2,
+            "3A D1": 2
+          }
+        }
+      }
+    },
+    {
       "code": "CSC",
       "name": "College Station",
       "total": 15,
@@ -389,30 +415,6 @@
             "4A D1": 2,
             "4A D2": 1,
             "5A D1": 1
-          }
-        }
-      }
-    },
-    {
-      "code": "WAC",
-      "name": "Waco",
-      "total": 12,
-      "weeks": {
-        "1": {
-          "total": 11,
-          "classifications": {
-            "1A D2": 1,
-            "2A D1": 2,
-            "2A D2": 1,
-            "3A D1": 4,
-            "4A D1": 2,
-            "5A D2": 1
-          }
-        },
-        "2": {
-          "total": 1,
-          "classifications": {
-            "3A D1": 1
           }
         }
       }
@@ -8106,7 +8108,7 @@
       "classification": "2A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "WAC",
       "team1": "Thorndale",
       "score1": null,
       "team2": "Weimar",
@@ -8286,7 +8288,7 @@
       "classification": "2A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "WAC",
       "team1": "Windthorst",
       "score1": null,
       "team2": "Stamford",
@@ -8366,7 +8368,7 @@
       "classification": "2A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "WAC",
       "team1": "Collinsville",
       "score1": null,
       "team2": "Colmesneil",
@@ -8715,7 +8717,7 @@
       "classification": "3A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "WAC",
       "team1": "Clyde",
       "score1": null,
       "team2": "Vernon",
