@@ -295,5 +295,16 @@
   "new": "7:00 PM",
   "at": "2026-11-16T00:09+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "4A D2",
+  "week": 2,
+  "team1": "Seminole",
+  "team2": "Mineral Wells",
+  "field": "time",
+  "old": "7:00 PM",
+  "new": "6:00 PM",
+  "at": "2026-11-16T03:04+00:00",
+  "status": "conflict"
  }
 ]

@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-16T02:34+00:00",
+    "updated": "2026-11-16T03:09+00:00",
     "games": 528,
     "played": 352,
     "assigned": 492,
@@ -9694,6 +9694,13 @@
           "new": "7:00 PM",
           "at": "2026-11-16T00:09+00:00",
           "status": "changed"
+        },
+        {
+          "field": "time",
+          "old": "7:00 PM",
+          "new": "6:00 PM",
+          "at": "2026-11-16T03:04+00:00",
+          "status": "conflict"
         }
       ]
     },
