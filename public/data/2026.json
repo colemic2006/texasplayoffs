@@ -2,10 +2,10 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-16T14:52+00:00",
+    "updated": "2026-11-16T15:11+00:00",
     "games": 528,
     "played": 352,
-    "assigned": 510,
+    "assigned": 511,
     "weeks": {
       "1": {
         "games": 352,
@@ -13,7 +13,7 @@
       },
       "2": {
         "games": 176,
-        "assigned": 158
+        "assigned": 159
       },
       "3": {
         "games": 0,
@@ -341,7 +341,7 @@
     {
       "code": "CSC",
       "name": "College Station",
-      "total": 14,
+      "total": 15,
       "weeks": {
         "1": {
           "total": 9,
@@ -355,12 +355,13 @@
           }
         },
         "2": {
-          "total": 5,
+          "total": 6,
           "classifications": {
             "2A D1": 1,
             "3A D2": 1,
             "4A D2": 2,
-            "5A D2": 1
+            "5A D2": 1,
+            "6A D2": 1
           }
         }
       }
@@ -10815,7 +10816,7 @@
       "classification": "6A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "CSC",
       "team1": "Austin Westlake",
       "score1": null,
       "team2": "San Antonio Pieper",
