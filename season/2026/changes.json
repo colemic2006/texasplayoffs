@@ -394,5 +394,16 @@
   "new": "2026-11-19",
   "at": "2026-11-16T17:32+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "3A D2",
+  "week": 2,
+  "team1": "Henrietta",
+  "team2": "Slaton",
+  "field": "date",
+  "old": "2026-11-19",
+  "new": "2026-11-20",
+  "at": "2026-11-16T20:55+00:00",
+  "status": "changed"
  }
 ]
