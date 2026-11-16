@@ -129,7 +129,8 @@ export default function WeekMap({ data }) {
                 <span>{dot(UNASSIGNED)}Not assigned yet</span>
               </>}
           {markers.length < weekGames.length && (
-            <span>{weekGames.length - markers.length} games don't have a site announced yet; pins are added daily as they are.
+            <span>{(n => n === 1 ? "1 game isn't on the map yet because its site hasn't been announced."
+                : `${n} games aren't on the map yet because their sites haven't been announced.`)(weekGames.length - markers.length)} The map checks for new sites every day.
               {day === 'tbd' && ' Schools usually announce the site and kickoff together, so most Date TBD games get their pin when they move to a game day.'}</span>
           )}
         </div>
