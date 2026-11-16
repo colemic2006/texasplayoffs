@@ -54,7 +54,7 @@
    "season_games": 7,
    "hist_games": 136,
    "late_games": 14,
-   "schools": 44,
+   "schools": 47,
    "counties": 23
   },
   "AUS": {
@@ -62,7 +62,7 @@
    "season_games": 22,
    "hist_games": 355,
    "late_games": 35,
-   "schools": 73,
+   "schools": 74,
    "counties": 16
   },
   "CTX": {
@@ -78,7 +78,7 @@
    "season_games": 9,
    "hist_games": 266,
    "late_games": 31,
-   "schools": 24,
+   "schools": 25,
    "counties": 10
   },
   "COM": {
@@ -86,15 +86,15 @@
    "season_games": 5,
    "hist_games": 35,
    "late_games": 0,
-   "schools": 0,
-   "counties": 0
+   "schools": 18,
+   "counties": 7
   },
   "DAL": {
    "members": 712,
    "season_games": 29,
    "hist_games": 496,
    "late_games": 60,
-   "schools": 135,
+   "schools": 143,
    "counties": 14
   },
   "ELP": {
@@ -110,7 +110,7 @@
    "season_games": 33,
    "hist_games": 672,
    "late_games": 101,
-   "schools": 107,
+   "schools": 110,
    "counties": 15
   },
   "HOU": {
@@ -118,7 +118,7 @@
    "season_games": 62,
    "hist_games": 1293,
    "late_games": 167,
-   "schools": 189,
+   "schools": 190,
    "counties": 21
   },
   "NTX": {
@@ -134,8 +134,8 @@
    "season_games": 2,
    "hist_games": 51,
    "late_games": 3,
-   "schools": 0,
-   "counties": 0
+   "schools": 13,
+   "counties": 6
   },
   "PBC": {
    "members": 112,
@@ -150,8 +150,8 @@
    "season_games": 11,
    "hist_games": 101,
    "late_games": 0,
-   "schools": 48,
-   "counties": 6
+   "schools": 53,
+   "counties": 9
   },
   "SAN": {
    "members": 88,
@@ -166,7 +166,7 @@
    "season_games": 46,
    "hist_games": 504,
    "late_games": 51,
-   "schools": 115,
+   "schools": 118,
    "counties": 27
   },
   "SPC": {
@@ -182,16 +182,16 @@
    "season_games": 7,
    "hist_games": 74,
    "late_games": 1,
-   "schools": 11,
-   "counties": 4
+   "schools": 34,
+   "counties": 10
   },
   "BEA": {
    "members": 91,
    "season_games": 1,
    "hist_games": 10,
    "late_games": 1,
-   "schools": 0,
-   "counties": 0
+   "schools": 19,
+   "counties": 8
   },
   "SFA": {
    "members": 85,
@@ -206,7 +206,7 @@
    "season_games": 30,
    "hist_games": 543,
    "late_games": 88,
-   "schools": 89,
+   "schools": 90,
    "counties": 22
   },
   "WAC": {

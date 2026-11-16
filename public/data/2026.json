@@ -2,10 +2,10 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-15T23:56+00:00",
+    "updated": "2026-11-16T00:09+00:00",
     "games": 528,
     "played": 352,
-    "assigned": 485,
+    "assigned": 486,
     "weeks": {
       "1": {
         "games": 352,
@@ -13,7 +13,7 @@
       },
       "2": {
         "games": 176,
-        "assigned": 133
+        "assigned": 134
       },
       "3": {
         "games": 0,
@@ -108,7 +108,7 @@
     {
       "code": "FTW",
       "name": "Fort Worth",
-      "total": 47,
+      "total": 48,
       "weeks": {
         "1": {
           "total": 33,
@@ -127,9 +127,10 @@
           }
         },
         "2": {
-          "total": 14,
+          "total": 15,
           "classifications": {
             "1A D1": 1,
+            "2A D1": 1,
             "3A D2": 1,
             "4A D1": 1,
             "4A D2": 3,
@@ -8103,7 +8104,7 @@
       "classification": "2A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "FTW",
       "team1": "Mason",
       "score1": null,
       "team2": "Tioga",
