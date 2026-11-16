@@ -1,3 +1,4 @@
+import { UilTag, UIL_TIP } from '../uilPick'
 import HomeChapterCoverage from './HomeChapterCoverage'
 import React, { useMemo, useState, useEffect } from 'react'
 import { useFinals } from '../finals'
@@ -363,7 +364,7 @@ export default function TeamsView({ allData, years }) {
                               : placeName(g)
                             : 'Site TBD'}
                           {' · '}{g.date ? gameWhen(g) : 'Date TBD'}
-                          {' '}<ChangeBadge game={g} />
+                          {' '}<ChangeBadge game={g} />{' '}<UilTag game={g} />
                         </div>
                         <ChangeDetail game={g} />
                       </div>

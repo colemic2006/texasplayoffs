@@ -1,3 +1,4 @@
+import { UilTag, UIL_TIP } from '../uilPick'
 import React, { useState, useMemo, useEffect, useRef } from 'react'
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell
@@ -675,7 +676,7 @@ function ChapterGames({ games, week, setWeek, cls, setCls, inProgress }) {
                       : placeName(g)
                     : (inProgress ? 'TBD' : '—')}
                   {(g.date || inProgress) && <span style={{ fontFamily:'var(--mono)', fontSize:10, marginLeft:6 }}>{g.date ? gameWhen(g) : 'Date TBD'}</span>}
-                  {' '}<ChangeBadge game={g} />
+                  {' '}<ChangeBadge game={g} />{' '}<UilTag game={g} />
                   <ChangeDetail game={g} />
                 </td>
                 <td style={tdStyle}><DctfLinks game={g} teams={dctf} /></td>

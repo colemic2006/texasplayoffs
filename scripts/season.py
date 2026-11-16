@@ -40,7 +40,8 @@ FIRST_ROW, LAST_ROW = 2, 801          # Games tab rows the template formats
 COL = dict(week='A', cls='C', chapter='D', team1='E', score1='F', team2='G', score2='H', forfeit='I', notes='K',
            key1='M', key2='N',     # M/N: which source team each name came from (MaxPreps school id)
            site='O', date='P',     # game site ("Stadium, City") and date, from MaxPreps or typed in
-           time='Q')               # kickoff ("7:00 PM")
+           time='Q',               # kickoff ("7:00 PM")
+           uil='R')                # "Y" when UIL picked the officials (rare: normally the coaches pick)
 NO_ID = '00000000-0000-0000-0000-000000000000'
 
 
@@ -168,7 +169,7 @@ def read_rows(ws):
     for r in range(FIRST_ROW, LAST_ROW + 1):
         v = {k: ws[f'{c}{r}'].value for k, c in COL.items()}
         v['row'] = r
-        for k in ('chapter', 'team1', 'team2', 'cls', 'forfeit', 'notes', 'key1', 'key2', 'site', 'date', 'time'):
+        for k in ('chapter', 'team1', 'team2', 'cls', 'forfeit', 'notes', 'key1', 'key2', 'site', 'date', 'time', 'uil'):
             v[k] = str(v[k]).strip() if v[k] not in (None, '') else None
         rows.append(v)
     return rows
@@ -434,6 +435,8 @@ def prefill(year):
         ws.column_dimensions['O'].width, ws.column_dimensions['P'].width = 34, 12
     if not ws['Q1'].value:
         ws['Q1'] = 'Time'; ws.column_dimensions['Q'].width = 10
+    if not ws['R1'].value:
+        ws['R1'] = 'UIL pick'; ws.column_dimensions['R'].width = 9
     resolver = Resolver(ROOT, year)
     FILLED_SCORES.clear()
     if scores_path(year).exists():
@@ -651,6 +654,8 @@ def build(year, force=False):
             g['date'] = str(r['date'])[:10]
         if r['time']:
             g['time'] = str(r['time'])
+        if (r['uil'] or '').upper() in ('Y', 'YES', 'X', 'UIL'):
+            g['uil_pick'] = True   # UIL assigned the officials, not the coaches
         games.append(g)
     games.sort(key=lambda g: (g['week'], CLASSES.index(g['classification']) if g['classification'] in CLASSES else 99))
     log_changes(year, games)

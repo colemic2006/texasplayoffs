@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-16T18:50+00:00",
+    "updated": "2026-11-16T18:54+00:00",
     "games": 529,
     "played": 352,
     "assigned": 523,
@@ -4468,7 +4468,8 @@
       "map_link": "https://goo.gl/maps/L1AteM9Tjj2PhiMCA",
       "city": "Royse City",
       "date": "2026-11-13",
-      "time": "7:00 PM"
+      "time": "7:00 PM",
+      "uil_pick": true
     },
     {
       "year": 2026,
@@ -9231,6 +9232,7 @@
       "city": "Victoria",
       "date": "2026-11-21",
       "time": "7:00 PM",
+      "uil_pick": true,
       "changes": [
         {
           "field": "date",
@@ -9493,7 +9495,8 @@
       "lng": -96.98632,
       "city": "Giddings",
       "date": "2026-11-20",
-      "time": "7:00 PM"
+      "time": "7:00 PM",
+      "uil_pick": true
     },
     {
       "year": 2026,

@@ -1,3 +1,4 @@
+import { UilTag, UIL_TIP } from '../uilPick'
 import React, { useState, useMemo, useEffect, useRef } from 'react'
 import { placeName, gameWhen } from '../placeName'
 import { UNASSIGNED, colorFor } from '../chapterColors'
@@ -332,6 +333,7 @@ function GameCard({ game, inProgress }) {
               +{Math.abs((game.score1||0)-(game.score2||0))}
             </span>
           )}
+          <UilTag game={game} />
           {game.chapter && (
             <span style={{
               fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.1em',
@@ -411,7 +413,7 @@ export function GameMap({ markers }) {
             ${placeName(game, stadium) ? `<div style="margin-top:6px;font-size:11px;color:#666">${placeName(game, stadium)}</div>` : ''}
             ${game.date ? `<div style="font-size:11px;color:#666">${gameWhen(game)}</div>` : ''}
             ${hasChanges(game) ? `<div style="margin-top:4px;font-size:11px;font-weight:700;color:${ALERT}">⚠ Changed: ${changeText(game)}</div>` : ''}
-            ${game.chapter ? `<div style="margin-top:4px;font-size:11px">Chapter: <strong>${game.chapter}</strong></div>` : ''}
+            ${game.chapter ? `<div style="margin-top:4px;font-size:11px">Chapter: <strong>${game.chapter}</strong>${game.uil_pick ? ' <span style="background:#FDD023;border:1px solid #111;border-radius:3px;padding:0 4px;font-size:9px;font-weight:700">UIL PICK</span>' : ''}</div>` : ''}
             ${others.length ? `<div style="margin-top:6px;padding-top:5px;border-top:1px dashed #ccc;font-size:11px;color:#461D7C"><strong>Also at this stadium:</strong>${others.map(o => `<div>${o.team1} v ${o.team2}${o.date ? ` · ${gameWhen(o)}` : ''}</div>`).join('')}</div>` : ''}
             ${winner ? `<div style="margin-top:4px;color:#461D7C;font-size:11px">▲ ${winner}</div>` : ''}
             <div style="margin-top:8px"><a href="${mapsUrl}" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:#1a73e8;text-decoration:none">📍 Open in Google Maps</a></div>

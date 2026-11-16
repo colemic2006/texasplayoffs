@@ -1,3 +1,4 @@
+import { UilTag, UIL_TIP } from '../uilPick'
 import React, { useEffect, useMemo, useState } from 'react'
 import { createPortal } from 'react-dom'
 import { placeName, gameWhen } from '../placeName'
@@ -294,7 +295,7 @@ function Box({ g, left, top, follow, setFollow, inProgress, final, onlyCh }) {
   }
   const w = winnerOf(g)
   const lit = follow && has(g, follow)
-  const tip = [hasChanges(g) && `⚠ CHANGED: ${changeText(g)}`, g.chapter && `Chapter: ${g.chapter}`, g.site && placeName(g), g.date && gameWhen(g)].filter(Boolean).join(' · ')
+  const tip = [hasChanges(g) && `⚠ CHANGED: ${changeText(g)}`, g.chapter && `Chapter: ${g.chapter}${g.uil_pick ? ' (UIL pick)' : ''}`, g.site && placeName(g), g.date && gameWhen(g)].filter(Boolean).join(' · ')
   const row = (t, s) => {
     const win = w && t === w, lose = w && t !== w
     return (
@@ -313,10 +314,11 @@ function Box({ g, left, top, follow, setFollow, inProgress, final, onlyCh }) {
                   opacity: onlyCh && (g.chapter || 'none') !== onlyCh ? 0.25 : 1, transition:'opacity 0.15s',
                   border: `${hasChanges(g) ? 2 : 1}px solid ${hasChanges(g) ? ALERT : lit ? 'var(--burnt)' : final ? 'var(--gold)' : 'var(--border)'}`,
                   boxShadow: lit ? '0 0 0 1px var(--burnt)' : 'none' }}>
-      <div style={{ width:28, flexShrink:0, display:'flex', alignItems:'center', justifyContent:'center',
+      <div style={{ width:28, flexShrink:0, display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center',
                     fontFamily:'var(--mono)', fontSize:8, letterSpacing:'0.04em',
                     background: g.chapter ? chapterColor(g.chapter) : UNASSIGNED, color: g.chapter ? '#fff' : 'var(--ink)' }}>
         {g.chapter || '?'}
+        {g.uil_pick && <span title={UIL_TIP} style={{ fontSize:6, fontWeight:700, marginTop:1, padding:'0 2px', borderRadius:2, background:'var(--gold)', color:'var(--ink)' }}>UIL</span>}
       </div>
       <div style={{ flex:1, minWidth:0 }}>
         {row(g.team1, g.score1)}
