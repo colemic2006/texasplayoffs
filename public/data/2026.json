@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-16T05:43+00:00",
+    "updated": "2026-11-16T06:19+00:00",
     "games": 528,
     "played": 352,
     "assigned": 502,
@@ -8203,6 +8203,12 @@
       "team2": "Ballinger",
       "score2": null,
       "winner": null,
+      "site": "King Memorial Stadium, Midland",
+      "lat": 32.02553,
+      "lng": -101.89657,
+      "stadium": "J. M. King Memorial Stadium",
+      "map_link": "https://goo.gl/maps/kesfjLMPqf7DpKUU6",
+      "city": "Midland",
       "date": "2026-11-20",
       "time": "7:00 PM"
     },
@@ -10706,7 +10712,15 @@
       "score1": null,
       "team2": "Duncanville",
       "score2": null,
-      "winner": null
+      "winner": null,
+      "site": "Crowley ISD Stadium, Fort Worth",
+      "lat": 32.60854,
+      "lng": -97.33905,
+      "stadium": "Crowley ISD Multi-Purpose Stadium",
+      "map_link": "https://goo.gl/maps/vD6WyxBQ71jJaVZ89",
+      "city": "Fort Worth",
+      "date": "2026-11-20",
+      "time": "7:30 PM"
     },
     {
       "year": 2026,
