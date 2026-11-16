@@ -394,5 +394,71 @@
   "new": "7:00 PM",
   "at": "2026-11-16T16:18+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "2A D1",
+  "week": 2,
+  "team1": "Jewett Leon",
+  "team2": "Ganado",
+  "field": "site",
+  "old": "Tomball ISD Stadium, Tomball",
+  "new": "Tomball's Tomball ISD Stadium",
+  "at": "2026-11-16T16:30+00:00",
+  "status": "changed"
+ },
+ {
+  "classification": "2A D1",
+  "week": 2,
+  "team1": "Ozona",
+  "team2": "Olton",
+  "field": "site",
+  "old": "Grant Teaff Tiger Stadium, Snyder",
+  "new": "Grant Teaff Tiger Stadium",
+  "at": "2026-11-16T16:30+00:00",
+  "status": "changed"
+ },
+ {
+  "classification": "2A D1",
+  "week": 2,
+  "team1": "Flatonia",
+  "team2": "Rosebud-Lott",
+  "field": "site",
+  "old": "Manor ISD Athletic Complex, Manor",
+  "new": "Manor's Manor Athletic Complex",
+  "at": "2026-11-16T16:30+00:00",
+  "status": "changed"
+ },
+ {
+  "classification": "2A D1",
+  "week": 2,
+  "team1": "Tulia",
+  "team2": "Ballinger",
+  "field": "site",
+  "old": "King Memorial Stadium, Midland",
+  "new": "Midlands King Memorial Stadium",
+  "at": "2026-11-16T16:30+00:00",
+  "status": "changed"
+ },
+ {
+  "classification": "2A D2",
+  "week": 2,
+  "team1": "Falls City",
+  "team2": "Harper",
+  "field": "site",
+  "old": "Creek View Cougar Stadium, San Antonio",
+  "new": "Creek View Cougar Stadium",
+  "at": "2026-11-16T16:30+00:00",
+  "status": "changed"
+ },
+ {
+  "classification": "2A D2",
+  "week": 2,
+  "team1": "Bremond",
+  "team2": "Three Rivers",
+  "field": "site",
+  "old": "Tiger Stadium, Smithville",
+  "new": "Smithville's Tiger Stadium",
+  "at": "2026-11-16T16:30+00:00",
+  "status": "changed"
  }
 ]

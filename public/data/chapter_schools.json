@@ -374,8 +374,8 @@
   {
    "name": "Athens",
    "chapter": "TYL",
-   "lat": 32.20167,
-   "lng": -95.84913,
+   "lat": 32.20163,
+   "lng": -95.84887,
    "at": "stadium"
   },
   {
@@ -913,8 +913,8 @@
   {
    "name": "Breckenridge",
    "chapter": "ABI",
-   "lat": 32.76,
-   "lng": -98.90864,
+   "lat": 32.76034,
+   "lng": -98.90862,
    "at": "stadium"
   },
   {
@@ -3482,8 +3482,8 @@
   {
    "name": "Granbury",
    "chapter": "FTW",
-   "lat": 32.44214,
-   "lng": -97.8104,
+   "lat": 32.44103,
+   "lng": -97.81049,
    "at": "stadium"
   },
   {
@@ -7738,8 +7738,8 @@
   {
    "name": "Smithville",
    "chapter": "AUS",
-   "lat": 30.05438,
-   "lng": -97.21717,
+   "lat": 29.99529,
+   "lng": -97.16423,
    "at": "stadium"
   },
   {
