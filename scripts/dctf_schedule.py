@@ -100,8 +100,9 @@ def main(year, url=None):
                 ws[f'{season.COL[k]}{r["row"]}'] = r[k] = v
                 card[f'dctf_{k}'] = card[f'filled_{k}'] = v
                 filled += 1
-    wb.save(path)
-    season.cards_path(year).write_text(json.dumps(cards, indent=1, sort_keys=True) + '\n')
+    if filled:   # don't rewrite the workbook when nothing changed
+        wb.save(path)
+        season.cards_path(year).write_text(json.dumps(cards, indent=1, sort_keys=True) + '\n')
     print(f'dctf: {filled} cells filled; {len(unmatched)} matchups not matched to a game')
     for u in unmatched:
         print('  ?', u)
