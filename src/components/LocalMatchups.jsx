@@ -11,6 +11,8 @@ export default function LocalMatchups({ data }) {
   const home = useHomeChapters(data?.games?.[0]?.year)
   const status = useHomeChapterStatus()
   const [open, setOpen] = useState(null)
+  const [show, setShow] = useState('all')   // all | kept | away
+  const [ch, setCh] = useState('')          // a chapter, as home chapter or the one that worked it
   const rounds = useMemo(() => {
     const byWeek = {}
     for (const g of data?.games || []) {
@@ -71,14 +73,35 @@ export default function LocalMatchups({ data }) {
                   </tr>
                   {open === r.week && (
                     <tr><td colSpan={5} style={{ padding:'4px 10px 12px 18px', borderBottom:'1px solid var(--border)', background:'rgba(70,29,124,0.03)' }}>
-                      {r.local.map((g, i) => (
+                      {(() => {
+                        const chs = [...new Set(r.local.flatMap(g => [g.home, g.chapter]))].sort()
+                        const list = r.local.filter(g => (show === 'all' || (show === 'kept') === (g.chapter === g.home))
+                          && (!ch || g.home === ch || g.chapter === ch))
+                        const chip = on => ({ fontFamily:'var(--mono)', fontSize:10, padding:'3px 8px', borderRadius:3, cursor:'pointer',
+                          border:`1px solid ${on ? 'var(--burnt)' : 'var(--border)'}`, background: on ? 'var(--burnt)' : 'transparent', color: on ? '#fff' : 'var(--mid)' })
+                        const n = k => r.local.filter(g => (!ch || g.home === ch || g.chapter === ch) && (k === 'all' || (k === 'kept') === (g.chapter === g.home))).length
+                        return <>
+                          <div style={{ display:'flex', gap:6, alignItems:'center', flexWrap:'wrap', padding:'8px 0' }}>
+                            {[['all', 'All'], ['kept', '✓ Home chapter worked it'], ['away', '✕ Went elsewhere']].map(([k, l]) => (
+                              <button key={k} onClick={() => setShow(k)} style={chip(show === k)}>{l} ({n(k)})</button>
+                            ))}
+                            <select value={chs.includes(ch) ? ch : ''} onChange={e => setCh(e.target.value)}
+                              style={{ fontFamily:'var(--mono)', fontSize:10, padding:'3px 6px', borderRadius:3, border:'1px solid var(--border)', background:'var(--surface)', color:'var(--ink)', marginLeft:4 }}>
+                              <option value="">All chapters</option>
+                              {chs.map(c => <option key={c} value={c}>{c}</option>)}
+                            </select>
+                          </div>
+                          {list.length === 0 && <div style={{ fontSize:12, color:'var(--mid)', padding:'4px 0' }}>No games match.</div>}
+                          {list.map((g, i) => (
                         <div key={i} style={{ display:'flex', gap:10, alignItems:'center', fontSize:12, padding:'4px 0', borderBottom:'1px dashed var(--border)' }}>
                           <span style={{ flex:1, minWidth:0 }}>{g.team1} v {g.team2} <span style={{ color:'var(--mid)' }}>· {g.classification}</span></span>
                           <span style={{ fontFamily:'var(--mono)', fontSize:10, padding:'2px 6px', borderRadius:3, background:chapterColor(g.home), color:'#fff' }}>home: {g.home}</span>
                           <span style={{ fontFamily:'var(--mono)', fontSize:10, padding:'2px 6px', borderRadius:3, background:chapterColor(g.chapter), color:'#fff' }}>worked by: {g.chapter}</span>
                           <span style={{ fontFamily:'var(--mono)', fontSize:10, width:16, textAlign:'center', color: g.chapter === g.home ? 'var(--sage)' : 'var(--burnt)', fontWeight:700 }}>{g.chapter === g.home ? '✓' : '✕'}</span>
                         </div>
-                      ))}
+                          ))}
+                        </>
+                      })()}
                     </td></tr>
                   )}
                 </React.Fragment>
