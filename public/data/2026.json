@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-16T16:30+00:00",
+    "updated": "2026-11-16T17:05+00:00",
     "games": 528,
     "played": 352,
     "assigned": 519,
@@ -9746,7 +9746,16 @@
       "map_link": "https://g.page/PenningtonField-HEBISD?share",
       "city": "Bedford",
       "date": "2026-11-20",
-      "time": "7:30 PM"
+      "time": "7:00 PM",
+      "changes": [
+        {
+          "field": "time",
+          "old": "7:30 PM",
+          "new": "7:00 PM",
+          "at": "2026-11-16T17:05+00:00",
+          "status": "changed"
+        }
+      ]
     },
     {
       "year": 2026,
