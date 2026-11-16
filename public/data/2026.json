@@ -3,7 +3,7 @@
   "season": {
     "status": "in_progress",
     "updated": "2026-11-16T20:55+00:00",
-    "games": 529,
+    "games": 528,
     "played": 352,
     "assigned": 526,
     "weeks": {
@@ -12,7 +12,7 @@
         "assigned": 352
       },
       "2": {
-        "games": 177,
+        "games": 176,
         "assigned": 174
       },
       "3": {
@@ -10686,20 +10686,6 @@
       "date": "2026-11-19",
       "time": "7:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/carroll-corpus-christi-vs-medina-valley-castroville/11-19-2026/?c=d16dcb9b-36b4-43ab-a474-94c969ae1ffe"
-    },
-    {
-      "year": 2026,
-      "classification": "5A D1",
-      "week": 2,
-      "round": "Area",
-      "chapter": null,
-      "team1": "Weslaco East",
-      "score1": null,
-      "team2": "Boerne Champion",
-      "score2": null,
-      "winner": null,
-      "date": "2026-11-19",
-      "time": "7:00 PM"
     },
     {
       "year": 2026,
