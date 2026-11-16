@@ -2,10 +2,10 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-16T15:11+00:00",
+    "updated": "2026-11-16T15:23+00:00",
     "games": 528,
     "played": 352,
-    "assigned": 511,
+    "assigned": 512,
     "weeks": {
       "1": {
         "games": 352,
@@ -13,7 +13,7 @@
       },
       "2": {
         "games": 176,
-        "assigned": 159
+        "assigned": 160
       },
       "3": {
         "games": 0,
@@ -442,6 +442,28 @@
       }
     },
     {
+      "code": "AMA",
+      "name": "Amarillo",
+      "total": 8,
+      "weeks": {
+        "1": {
+          "total": 7,
+          "classifications": {
+            "1A D1": 1,
+            "1A D2": 1,
+            "2A D1": 3,
+            "3A D2": 2
+          }
+        },
+        "2": {
+          "total": 1,
+          "classifications": {
+            "6A D1": 1
+          }
+        }
+      }
+    },
+    {
       "code": "NTX",
       "name": "North Texas",
       "total": 8,
@@ -483,22 +505,6 @@
           "total": 1,
           "classifications": {
             "6A D2": 1
-          }
-        }
-      }
-    },
-    {
-      "code": "AMA",
-      "name": "Amarillo",
-      "total": 7,
-      "weeks": {
-        "1": {
-          "total": 7,
-          "classifications": {
-            "1A D1": 1,
-            "1A D2": 1,
-            "2A D1": 3,
-            "3A D2": 2
           }
         }
       }
@@ -10717,7 +10723,7 @@
       "classification": "6A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "AMA",
       "team1": "El Paso Pebble Hills",
       "score1": null,
       "team2": "Arlington Martin",
