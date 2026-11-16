@@ -2,10 +2,10 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-16T15:30+00:00",
+    "updated": "2026-11-16T15:33+00:00",
     "games": 528,
     "played": 352,
-    "assigned": 517,
+    "assigned": 518,
     "weeks": {
       "1": {
         "games": 352,
@@ -13,7 +13,7 @@
       },
       "2": {
         "games": 176,
-        "assigned": 165
+        "assigned": 166
       },
       "3": {
         "games": 0,
@@ -280,7 +280,7 @@
     {
       "code": "AUS",
       "name": "Austin",
-      "total": 28,
+      "total": 29,
       "weeks": {
         "1": {
           "total": 22,
@@ -298,10 +298,10 @@
           }
         },
         "2": {
-          "total": 6,
+          "total": 7,
           "classifications": {
             "3A D2": 1,
-            "5A D1": 1,
+            "5A D1": 2,
             "5A D2": 1,
             "6A D1": 2,
             "6A D2": 1
@@ -10150,7 +10150,7 @@
       "classification": "5A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "AUS",
       "team1": "McAllen",
       "score1": null,
       "team2": "Boerne Champion",
