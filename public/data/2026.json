@@ -2,10 +2,10 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-16T18:54+00:00",
+    "updated": "2026-11-16T19:25+00:00",
     "games": 529,
     "played": 352,
-    "assigned": 523,
+    "assigned": 524,
     "weeks": {
       "1": {
         "games": 352,
@@ -13,7 +13,7 @@
       },
       "2": {
         "games": 177,
-        "assigned": 171
+        "assigned": 172
       },
       "3": {
         "games": 0,
@@ -546,7 +546,7 @@
     {
       "code": "CTX",
       "name": "Central Texas",
-      "total": 3,
+      "total": 4,
       "weeks": {
         "1": {
           "total": 3,
@@ -554,6 +554,12 @@
             "2A D2": 1,
             "4A D1": 1,
             "4A D2": 1
+          }
+        },
+        "2": {
+          "total": 1,
+          "classifications": {
+            "3A D1": 1
           }
         }
       }
@@ -8713,7 +8719,7 @@
       "classification": "3A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "CTX",
       "team1": "Yoakum",
       "score1": null,
       "team2": "Goliad",
