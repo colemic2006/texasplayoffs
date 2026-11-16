@@ -396,7 +396,11 @@ export function GameMap({ markers }) {
       markersRef.current = []
 
       // Add new markers
+      // games sharing a stadium: each popup names the others, so a pin tucked beside another isn't missed
+      const atSpot = {}
+      markers.forEach(m => { const k = `${m.lat.toFixed(4)},${m.lng.toFixed(4)}`; (atSpot[k] = atSpot[k] || []).push(m.game) })
       markers.forEach(({ lat, lng, game, stadium, color }) => {
+        const others = (atSpot[`${lat.toFixed(4)},${lng.toFixed(4)}`] || []).filter(g => g !== game)
         const winner = game.score1 > game.score2 ? game.team1 : game.score2 > game.score1 ? game.team2 : null
         const mapsUrl = stadium?.map_link || `https://www.google.com/maps?q=${lat},${lng}`
         const popup = `
@@ -408,6 +412,7 @@ export function GameMap({ markers }) {
             ${game.date ? `<div style="font-size:11px;color:#666">${gameWhen(game)}</div>` : ''}
             ${hasChanges(game) ? `<div style="margin-top:4px;font-size:11px;font-weight:700;color:${ALERT}">⚠ Changed: ${changeText(game)}</div>` : ''}
             ${game.chapter ? `<div style="margin-top:4px;font-size:11px">Chapter: <strong>${game.chapter}</strong></div>` : ''}
+            ${others.length ? `<div style="margin-top:6px;padding-top:5px;border-top:1px dashed #ccc;font-size:11px;color:#461D7C"><strong>Also at this stadium:</strong>${others.map(o => `<div>${o.team1} v ${o.team2}${o.date ? ` · ${gameWhen(o)}` : ''}</div>`).join('')}</div>` : ''}
             ${winner ? `<div style="margin-top:4px;color:#461D7C;font-size:11px">▲ ${winner}</div>` : ''}
             <div style="margin-top:8px"><a href="${mapsUrl}" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:#1a73e8;text-decoration:none">📍 Open in Google Maps</a></div>
           </div>
@@ -447,7 +452,8 @@ export function GameMap({ markers }) {
           group.forEach(k => seen.add(k))
           if (group.length === 1) { m.setLatLng(m._home); return }
           const cx = pts[i].x, cy = pts[i].y
-          const r = Math.min(5 + 1.5 * group.length, 12)
+          // far enough apart that every pin shows in full (pins are 14px across)
+          const r = group.length === 2 ? 9 : Math.min(8 + 2 * group.length, 18)
           group.forEach((k, n) => {
             const a = (2 * Math.PI * n) / group.length - Math.PI / 2
             ms[k].setLatLng(map.containerPointToLatLng(L.point(cx + r * Math.cos(a), cy + r * Math.sin(a))))
