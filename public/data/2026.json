@@ -2,10 +2,10 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-16T03:38+00:00",
+    "updated": "2026-11-16T04:05+00:00",
     "games": 528,
     "played": 352,
-    "assigned": 491,
+    "assigned": 497,
     "weeks": {
       "1": {
         "games": 352,
@@ -13,7 +13,7 @@
       },
       "2": {
         "games": 176,
-        "assigned": 139
+        "assigned": 145
       },
       "3": {
         "games": 0,
@@ -302,7 +302,7 @@
     {
       "code": "PBC",
       "name": "Permian Basin",
-      "total": 14,
+      "total": 20,
       "weeks": {
         "1": {
           "total": 14,
@@ -315,6 +315,15 @@
             "4A D2": 1,
             "5A D1": 1,
             "5A D2": 4
+          }
+        },
+        "2": {
+          "total": 6,
+          "classifications": {
+            "1A D2": 3,
+            "2A D2": 1,
+            "4A D1": 1,
+            "5A D2": 1
           }
         }
       }
@@ -7737,7 +7746,7 @@
       "classification": "1A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "PBC",
       "team1": "Knox City",
       "score1": null,
       "team2": "Strawn",
@@ -7755,7 +7764,7 @@
       "classification": "1A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "PBC",
       "team1": "Rocksprings",
       "score1": null,
       "team2": "Blackwell",
@@ -7835,7 +7844,7 @@
       "classification": "1A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "PBC",
       "team1": "Richland Springs",
       "score1": null,
       "team2": "Grandfalls-Royalty",
@@ -8353,7 +8362,7 @@
       "classification": "2A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "PBC",
       "team1": "Roscoe",
       "score1": null,
       "team2": "Sudan",
@@ -9202,7 +9211,7 @@
       "classification": "4A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "PBC",
       "team1": "El Paso Andress",
       "score1": null,
       "team2": "Decatur",
@@ -10265,7 +10274,7 @@
       "classification": "5A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "PBC",
       "team1": "Amarillo Palo Duro",
       "score1": null,
       "team2": "Celina",
