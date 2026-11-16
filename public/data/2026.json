@@ -5,7 +5,7 @@
     "updated": "2026-11-16T00:09+00:00",
     "games": 528,
     "played": 352,
-    "assigned": 486,
+    "assigned": 491,
     "weeks": {
       "1": {
         "games": 352,
@@ -13,7 +13,7 @@
       },
       "2": {
         "games": 176,
-        "assigned": 134
+        "assigned": 139
       },
       "3": {
         "games": 0,
@@ -320,6 +320,33 @@
       }
     },
     {
+      "code": "SAN",
+      "name": "San Angelo",
+      "total": 13,
+      "weeks": {
+        "1": {
+          "total": 8,
+          "classifications": {
+            "1A D1": 2,
+            "2A D1": 1,
+            "2A D2": 2,
+            "3A D2": 1,
+            "4A D1": 1,
+            "5A D1": 1
+          }
+        },
+        "2": {
+          "total": 5,
+          "classifications": {
+            "2A D2": 1,
+            "4A D1": 2,
+            "4A D2": 1,
+            "5A D1": 1
+          }
+        }
+      }
+    },
+    {
       "code": "WAC",
       "name": "Waco",
       "total": 11,
@@ -369,24 +396,6 @@
             "4A D2": 1,
             "5A D1": 1,
             "5A D2": 1
-          }
-        }
-      }
-    },
-    {
-      "code": "SAN",
-      "name": "San Angelo",
-      "total": 8,
-      "weeks": {
-        "1": {
-          "total": 8,
-          "classifications": {
-            "1A D1": 2,
-            "2A D1": 1,
-            "2A D2": 2,
-            "3A D2": 1,
-            "4A D1": 1,
-            "5A D1": 1
           }
         }
       }
@@ -8358,7 +8367,7 @@
       "classification": "2A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "SAN",
       "team1": "Goldthwaite",
       "score1": null,
       "team2": "Haskell",
@@ -9147,7 +9156,7 @@
       "classification": "4A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "SAN",
       "team1": "Aubrey",
       "score1": null,
       "team2": "Canyon High",
@@ -9167,7 +9176,7 @@
       "classification": "4A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "SAN",
       "team1": "Springtown",
       "score1": null,
       "team2": "Canyon West Plains",
@@ -9658,7 +9667,7 @@
       "classification": "4A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "SAN",
       "team1": "Seminole",
       "score1": null,
       "team2": "Mineral Wells",
@@ -9671,7 +9680,16 @@
       "map_link": "https://goo.gl/maps/zSVX5h2VG152aGnt9",
       "city": "San Angelo",
       "date": "2026-11-19",
-      "time": "6:00 PM"
+      "time": "7:00 PM",
+      "changes": [
+        {
+          "field": "time",
+          "old": "6:00 PM",
+          "new": "7:00 PM",
+          "at": "2026-11-16T00:09+00:00",
+          "status": "changed"
+        }
+      ]
     },
     {
       "year": 2026,
@@ -10017,7 +10035,7 @@
       "classification": "5A D1",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "SAN",
       "team1": "Amarillo High",
       "score1": null,
       "team2": "Denton",
