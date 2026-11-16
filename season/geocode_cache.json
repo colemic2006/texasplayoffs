@@ -89,6 +89,16 @@
   "stadium": "Leopard Stadium",
   "stadium_id": 338
  },
+ "@UNT || Allen v Euless Trinity": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-16",
+  "rules": 10,
+  "site": "@UNT",
+  "stadium": null,
+  "stadium_id": null
+ },
  "A&M Consolidated HS || Rosebud-Lott v Corrigan-Camden": {
   "address": "",
   "city": "College Station",

@@ -2,8 +2,8 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-16T18:47+00:00",
-    "games": 528,
+    "updated": "2026-11-16T18:50+00:00",
+    "games": 529,
     "played": 352,
     "assigned": 523,
     "weeks": {
@@ -12,7 +12,7 @@
         "assigned": 352
       },
       "2": {
-        "games": 176,
+        "games": 177,
         "assigned": 171
       },
       "3": {
@@ -10254,6 +10254,20 @@
     },
     {
       "year": 2026,
+      "classification": "5A D1",
+      "week": 2,
+      "round": "Area",
+      "chapter": null,
+      "team1": "Weslaco East",
+      "score1": null,
+      "team2": "Boerne Champion",
+      "score2": null,
+      "winner": null,
+      "date": "2026-11-19",
+      "time": "7:00 PM"
+    },
+    {
+      "year": 2026,
       "classification": "5A D2",
       "week": 2,
       "round": "Area",
@@ -10707,14 +10721,18 @@
       "team2": "Euless Trinity",
       "score2": null,
       "winner": null,
-      "site": "DATCU Stadium, Denton",
-      "lat": 33.20095,
-      "lng": -97.16158,
-      "stadium": "DATCU Stadium",
-      "map_link": "https://goo.gl/maps/mLoHc4A1xdEm1iKt8",
-      "city": "Denton",
+      "site": "@UNT",
       "date": "2026-11-20",
-      "time": "7:00 PM"
+      "time": "7:00 PM",
+      "changes": [
+        {
+          "field": "site",
+          "old": "DATCU Stadium, Denton",
+          "new": "@UNT",
+          "at": "2026-11-16T18:50+00:00",
+          "status": "changed"
+        }
+      ]
     },
     {
       "year": 2026,

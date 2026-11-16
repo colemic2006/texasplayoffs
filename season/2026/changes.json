@@ -548,5 +548,16 @@
   "new": "2026-11-19",
   "at": "2026-11-16T17:32+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "6A D1",
+  "week": 2,
+  "team1": "Allen",
+  "team2": "Euless Trinity",
+  "field": "site",
+  "old": "DATCU Stadium, Denton",
+  "new": "@UNT",
+  "at": "2026-11-16T18:50+00:00",
+  "status": "changed"
  }
 ]
