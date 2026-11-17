@@ -1,8 +1,8 @@
 name: Past seasons' game sites
 
 # Places the 2022-2025 game sites from season/history_sites.json on the map and writes them into
-# public/data/<year>.json. Runs on demand, and whenever that file changes. Shares the season job's
-# lock so the two never write the map lookups at the same time.
+# public/data/<year>.json. Runs on demand, and whenever that file changes. It has its own lock: in the
+# season job's, a waiting run is dropped whenever the next 15-minute season check queues.
 on:
   workflow_dispatch:
   push:
@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 120
     concurrency:
-      group: season-data
+      group: history-sites
       cancel-in-progress: false
     steps:
       - uses: actions/checkout@v4
