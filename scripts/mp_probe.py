@@ -1,45 +1,40 @@
-"""One-off probe (run from GitHub Actions): how MaxPreps links to past seasons' playoff brackets."""
-import re, sys
+"""One-off probe (run from GitHub Actions): find past seasons' MaxPreps bracket links in Internet
+Archive snapshots of UIL's playoff-bracket pages, and check those brackets still carry game sites."""
+import json, re, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 from bs4 import BeautifulSoup
-from season import fetch, UIL, read_card
+from season import fetch, read_card
 
-page = fetch(f'{UIL}/football/playoff-brackets/6AD1')
-m = re.search(r'https://www\.maxpreps\.com/tournament/view\.aspx[^"]+', page)
-url = m.group(0).replace('&amp;', '&')
-print('BRACKET', url)
-html = fetch(url)
-soup = BeautifulSoup(html, 'html.parser')
-print('TITLE', soup.title.get_text(strip=True) if soup.title else '')
-for a in soup.select('a[href]'):
-    h = a['href']
-    if re.search(r'tournament|bracket|ssid|season|20\d\d', h, re.I):
-        print('LINK', a.get_text(' ', strip=True)[:60], '|', h[:200])
-for o in soup.select('option'):
-    print('OPTION', o.get('value', '')[:200], '|', o.get_text(strip=True)[:60])
-for s in set(re.findall(r'[\w-]*(?:ssid|tournamentid|seasonid|sportseasonid)[\w-]*=?["\':]*\s*["\']?[\w-]{6,40}', html, re.I)):
-    print('ID', s[:120])
-# one game: the bracket link and the hover card
-mu = soup.select_one('li.matchup-container')
-card = mu.select_one('[data-hover-card]') if mu else None
-link = next((a['href'] for a in mu.select('a[href]') if '/football/game/' in a['href']), None) if mu else None
-print('GAME LINK', link)
-if card:
-    print('CARD', read_card('https://www.maxpreps.com' + card['data-hover-card'].replace('&amp;', '&')))
-if link:
-    g = fetch(('https://www.maxpreps.com' + link) if link.startswith('/') else link)
-    i = g.lower().find('location')
-    print('GAME PAGE location context:', re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', ' ', g[max(0, i - 300):i + 600]))[:700])
-    for k in ('venue', 'stadium', '"location"'):
-        j = g.find(k)
-        if j >= 0:
-            print('KEY', k, g[j - 100:j + 300].replace('\n', ' '))
-# try the same bracket URL for a past season by guessing common query keys
-for y in (2025, 2022):
-    for q in (f'&year={y}', f'&season={y}-{y + 1 - 2000:02d}' if False else f'&season={y}'):
+for year in (2025, 2024, 2023, 2022, 2021):
+    for cls in ('6AD1', '2AD2'):
+        page = f'uiltexas.org/football/playoff-brackets/{cls}'
         try:
-            t = BeautifulSoup(fetch(url + q), 'html.parser').title
-            print('TRY', q, '->', t.get_text(strip=True)[:80] if t else '')
+            rows = json.loads(fetch(f'https://web.archive.org/cdx/search/cdx?url={page}&from={year}11&to={year + 1}01'
+                                    f'&output=json&fl=timestamp&filter=statuscode:200&collapse=digest'))
         except Exception as e:
-            print('TRY', q, 'failed', e)
+            print(year, cls, 'CDX failed', e); continue
+        stamps = [r[0] for r in rows[1:]]
+        print(year, cls, 'snapshots:', len(stamps), stamps[:3])
+        found = None
+        for ts in stamps[::-1][:4]:
+            try:
+                html = fetch(f'https://web.archive.org/web/{ts}id_/https://www.{page}')
+            except Exception as e:
+                print('  snapshot failed', ts, e); continue
+            m = re.search(r'https?://www\.maxpreps\.com/tournament/view\.aspx[^"\'<\s]+', html)
+            if m:
+                found = m.group(0).replace('&amp;', '&'); print('  ', ts, found); break
+        if not found:
+            continue
+        try:
+            soup = BeautifulSoup(fetch(found), 'html.parser')
+            print('   title:', soup.title.get_text(strip=True)[:90] if soup.title else '')
+            mus = soup.select('li.matchup-container')
+            print('   matchups:', len(mus))
+            cards = [mu.select_one('[data-hover-card]') for mu in mus]
+            cards = [c for c in cards if c][:3]
+            for c in cards:
+                print('   card:', read_card('https://www.maxpreps.com' + c['data-hover-card'].replace('&amp;', '&')))
+        except Exception as e:
+            print('   bracket fetch failed', e)
