@@ -206,8 +206,8 @@
   {
    "name": "Amarillo River Road",
    "chapter": "AMA",
-   "lat": 35.30711,
-   "lng": -101.83575,
+   "lat": 35.30745,
+   "lng": -101.83668,
    "at": "stadium"
   },
   {
@@ -241,8 +241,8 @@
   {
    "name": "Andrews",
    "chapter": "PBC",
-   "lat": 32.32274,
-   "lng": -102.57009,
+   "lat": 32.32283,
+   "lng": -102.56823,
    "at": "stadium"
   },
   {
@@ -311,9 +311,9 @@
   {
    "name": "Argyle",
    "chapter": "FTW",
-   "lat": 33.02839,
-   "lng": -97.08672,
-   "at": "town"
+   "lat": 33.10656,
+   "lng": -97.18807,
+   "at": "stadium"
   },
   {
    "name": "Arlington Bowie",
@@ -710,9 +710,9 @@
   {
    "name": "Big Sandy",
    "chapter": "TYL",
-   "lat": 32.58375,
-   "lng": -95.10883,
-   "at": "town"
+   "lat": 32.5875,
+   "lng": -95.11222,
+   "at": "stadium"
   },
   {
    "name": "Big Sandy Harmony",
@@ -934,9 +934,9 @@
   {
    "name": "Bridge City",
    "chapter": "BEA",
-   "lat": 30.02944,
-   "lng": -93.83991,
-   "at": "town"
+   "lat": 30.03791,
+   "lng": -93.8233,
+   "at": "stadium"
   },
   {
    "name": "Bridgeport",
@@ -955,8 +955,8 @@
   {
    "name": "Brock",
    "chapter": "FTW",
-   "lat": 32.67624,
-   "lng": -97.94087,
+   "lat": 32.67467,
+   "lng": -97.94611,
    "at": "stadium"
   },
   {
@@ -1270,9 +1270,9 @@
   {
    "name": "Canyon Lake",
    "chapter": "SAT",
-   "lat": 29.97688,
-   "lng": -98.26585,
-   "at": "town"
+   "lat": 29.94039,
+   "lng": -98.21579,
+   "at": "stadium"
   },
   {
    "name": "Canyon Randall",
@@ -1445,8 +1445,8 @@
   {
    "name": "Childress",
    "chapter": "AMA",
-   "lat": 34.51966,
-   "lng": -100.20677,
+   "lat": 34.43004,
+   "lng": -100.20491,
    "at": "stadium"
   },
   {
@@ -1746,16 +1746,16 @@
   {
    "name": "Copperas Cove",
    "chapter": "CTX",
-   "lat": 31.12406,
-   "lng": -97.90308,
-   "at": "town"
+   "lat": 31.11623,
+   "lng": -97.88202,
+   "at": "stadium"
   },
   {
    "name": "Corpus Christi Calallen",
    "chapter": "STX",
-   "lat": 27.76353,
-   "lng": -97.40332,
-   "at": "town"
+   "lat": 27.85771,
+   "lng": -97.63826,
+   "at": "stadium"
   },
   {
    "name": "Corpus Christi Carroll",
@@ -2327,8 +2327,8 @@
   {
    "name": "Dickinson",
    "chapter": "HOU",
-   "lat": 29.47148,
-   "lng": -95.03173,
+   "lat": 29.46776,
+   "lng": -95.03158,
    "at": "stadium"
   },
   {
@@ -2376,9 +2376,9 @@
   {
    "name": "Duncanville",
    "chapter": "DAL",
-   "lat": 32.6518,
-   "lng": -96.90834,
-   "at": "town"
+   "lat": 32.6594,
+   "lng": -96.9284,
+   "at": "stadium"
   },
   {
    "name": "Eagle Pass",
@@ -2558,8 +2558,8 @@
   {
    "name": "El Paso Eastwood",
    "chapter": "ELP",
-   "lat": 31.77141,
-   "lng": -106.35378,
+   "lat": 31.77197,
+   "lng": -106.35391,
    "at": "stadium"
   },
   {
@@ -2572,9 +2572,9 @@
   {
    "name": "El Paso Franklin",
    "chapter": "ELP",
-   "lat": 31.7601,
-   "lng": -106.48705,
-   "at": "town"
+   "lat": 31.86193,
+   "lng": -106.55385,
+   "at": "stadium"
   },
   {
    "name": "El Paso Hanks",
@@ -2754,9 +2754,9 @@
   {
    "name": "FW Chisholm Trail",
    "chapter": "FTW",
-   "lat": 32.75318,
-   "lng": -97.33275,
-   "at": "town"
+   "lat": 32.83734,
+   "lng": -97.38877,
+   "at": "stadium"
   },
   {
    "name": "FW Eagle Mountain",
@@ -2768,8 +2768,8 @@
   {
    "name": "FW Paschal",
    "chapter": "FTW",
-   "lat": 32.73004,
-   "lng": -97.36008,
+   "lat": 32.74583,
+   "lng": -97.36028,
    "at": "stadium"
   },
   {
@@ -2789,8 +2789,8 @@
   {
    "name": "Falfurrias",
    "chapter": "RGV",
-   "lat": 27.2218,
-   "lng": -98.15349,
+   "lat": 27.22148,
+   "lng": -98.15311,
    "at": "stadium"
   },
   {
@@ -2999,16 +2999,16 @@
   {
    "name": "Fort Worth Arlington Heights",
    "chapter": "FTW",
-   "lat": 32.73004,
-   "lng": -97.36008,
+   "lat": 32.74583,
+   "lng": -97.36028,
    "at": "stadium"
   },
   {
    "name": "Fort Worth Boswell",
    "chapter": "FTW",
-   "lat": 32.86013,
-   "lng": -97.36391,
-   "at": "town"
+   "lat": 32.87786,
+   "lng": -97.41291,
+   "at": "stadium"
   },
   {
    "name": "Fort Worth Brewer",
@@ -3055,15 +3055,15 @@
   {
    "name": "Fort Worth South Hills",
    "chapter": "FTW",
-   "lat": 32.73004,
-   "lng": -97.36008,
+   "lat": 32.74583,
+   "lng": -97.36028,
    "at": "stadium"
   },
   {
    "name": "Fort Worth Southwest",
    "chapter": "FTW",
-   "lat": 32.73004,
-   "lng": -97.36008,
+   "lat": 32.74583,
+   "lng": -97.36028,
    "at": "stadium"
   },
   {
@@ -3083,8 +3083,8 @@
   {
    "name": "Fort Worth Western Hills",
    "chapter": "FTW",
-   "lat": 32.73004,
-   "lng": -97.36008,
+   "lat": 32.74583,
+   "lng": -97.36028,
    "at": "stadium"
   },
   {
@@ -3118,15 +3118,15 @@
   {
    "name": "Freer",
    "chapter": "RGV",
-   "lat": 27.87813,
-   "lng": -98.61421,
-   "at": "town"
+   "lat": 27.8751,
+   "lng": -98.61912,
+   "at": "stadium"
   },
   {
    "name": "Frenship",
    "chapter": "SPC",
-   "lat": 33.51832,
-   "lng": -102.0066,
+   "lat": 33.51804,
+   "lng": -102.00669,
    "at": "stadium"
   },
   {
@@ -3160,16 +3160,16 @@
   {
    "name": "Frisco",
    "chapter": "DAL",
-   "lat": 33.1506,
-   "lng": -96.82382,
-   "at": "town"
+   "lat": 33.15846,
+   "lng": -96.82372,
+   "at": "stadium"
   },
   {
    "name": "Frisco Centennial",
    "chapter": "DAL",
-   "lat": 33.1506,
-   "lng": -96.82382,
-   "at": "town"
+   "lat": 33.15846,
+   "lng": -96.82372,
+   "at": "stadium"
   },
   {
    "name": "Frisco Emerson",
@@ -3188,9 +3188,9 @@
   {
    "name": "Frisco Independence",
    "chapter": "DAL",
-   "lat": 33.1506,
-   "lng": -96.82382,
-   "at": "town"
+   "lat": 33.15846,
+   "lng": -96.82372,
+   "at": "stadium"
   },
   {
    "name": "Frisco Lebanon Trail",
@@ -3202,16 +3202,16 @@
   {
    "name": "Frisco Liberty",
    "chapter": "DAL",
-   "lat": 33.1506,
-   "lng": -96.82382,
-   "at": "town"
+   "lat": 33.15846,
+   "lng": -96.82372,
+   "at": "stadium"
   },
   {
    "name": "Frisco Lone Star",
    "chapter": "DAL",
-   "lat": 33.1506,
-   "lng": -96.82382,
-   "at": "town"
+   "lat": 33.15846,
+   "lng": -96.82372,
+   "at": "stadium"
   },
   {
    "name": "Frisco Memorial",
@@ -3230,9 +3230,9 @@
   {
    "name": "Frisco Reedy",
    "chapter": "DAL",
-   "lat": 33.1506,
-   "lng": -96.82382,
-   "at": "town"
+   "lat": 33.15846,
+   "lng": -96.82372,
+   "at": "stadium"
   },
   {
    "name": "Frisco Rock Hill",
@@ -3244,9 +3244,9 @@
   {
    "name": "Frisco Wakeland",
    "chapter": "DAL",
-   "lat": 33.1506,
-   "lng": -96.82382,
-   "at": "town"
+   "lat": 33.15846,
+   "lng": -96.82372,
+   "at": "stadium"
   },
   {
    "name": "Frost",
@@ -3293,9 +3293,9 @@
   {
    "name": "Galveston Ball",
    "chapter": "HOU",
-   "lat": 29.3013,
-   "lng": -94.7977,
-   "at": "town"
+   "lat": 29.2951,
+   "lng": -94.7961,
+   "at": "stadium"
   },
   {
    "name": "Ganado",
@@ -3314,9 +3314,9 @@
   {
    "name": "Garland",
    "chapter": "DAL",
-   "lat": 32.91262,
-   "lng": -96.63888,
-   "at": "town"
+   "lat": 32.92561,
+   "lng": -96.63637,
+   "at": "stadium"
   },
   {
    "name": "Garland Lakeview Centennial",
@@ -3328,9 +3328,9 @@
   {
    "name": "Garland Naaman Forest",
    "chapter": "DAL",
-   "lat": 32.91262,
-   "lng": -96.63888,
-   "at": "town"
+   "lat": 32.92561,
+   "lng": -96.63637,
+   "at": "stadium"
   },
   {
    "name": "Garrison",
@@ -3811,8 +3811,8 @@
   {
    "name": "Henderson",
    "chapter": "TYL",
-   "lat": 32.14163,
-   "lng": -94.80468,
+   "lat": 32.14497,
+   "lng": -94.80589,
    "at": "stadium"
   },
   {
@@ -3930,8 +3930,8 @@
   {
    "name": "Houston Bellaire",
    "chapter": "HOU",
-   "lat": 29.64881,
-   "lng": -95.45454,
+   "lat": 29.63608,
+   "lng": -95.48836,
    "at": "stadium"
   },
   {
@@ -3979,8 +3979,8 @@
   {
    "name": "Houston Kashmere",
    "chapter": "HOU",
-   "lat": 29.80366,
-   "lng": -95.45623,
+   "lat": 29.80361,
+   "lng": -95.45626,
    "at": "stadium"
   },
   {
@@ -4000,22 +4000,22 @@
   {
    "name": "Houston Lamar",
    "chapter": "HOU",
-   "lat": 29.80366,
-   "lng": -95.45623,
+   "lat": 29.80361,
+   "lng": -95.45626,
    "at": "stadium"
   },
   {
    "name": "Houston Madison",
    "chapter": "HOU",
-   "lat": 29.64881,
-   "lng": -95.45454,
+   "lat": 29.63608,
+   "lng": -95.48836,
    "at": "stadium"
   },
   {
    "name": "Houston Memorial",
    "chapter": "HOU",
-   "lat": 29.77868,
-   "lng": -95.6063,
+   "lat": 29.77827,
+   "lng": -95.60436,
    "at": "stadium"
   },
   {
@@ -4056,8 +4056,8 @@
   {
    "name": "Houston Sharpstown",
    "chapter": "HOU",
-   "lat": 29.64881,
-   "lng": -95.45454,
+   "lat": 29.63608,
+   "lng": -95.48836,
    "at": "stadium"
   },
   {
@@ -4084,15 +4084,15 @@
   {
    "name": "Houston Stratford",
    "chapter": "HOU",
-   "lat": 29.77868,
-   "lng": -95.6063,
+   "lat": 29.77827,
+   "lng": -95.60436,
    "at": "stadium"
   },
   {
    "name": "Houston Waltrip",
    "chapter": "HOU",
-   "lat": 29.80366,
-   "lng": -95.45623,
+   "lat": 29.80361,
+   "lng": -95.45626,
    "at": "stadium"
   },
   {
@@ -4105,15 +4105,15 @@
   {
    "name": "Houston Westbury",
    "chapter": "HOU",
-   "lat": 29.64881,
-   "lng": -95.45454,
+   "lat": 29.63608,
+   "lng": -95.48836,
    "at": "stadium"
   },
   {
    "name": "Houston Westside",
    "chapter": "HOU",
-   "lat": 29.80366,
-   "lng": -95.45623,
+   "lat": 29.80361,
+   "lng": -95.45626,
    "at": "stadium"
   },
   {
@@ -4126,15 +4126,15 @@
   {
    "name": "Houston Wisdom",
    "chapter": "HOU",
-   "lat": 29.64881,
-   "lng": -95.45454,
+   "lat": 29.63608,
+   "lng": -95.48836,
    "at": "stadium"
   },
   {
    "name": "Houston Worthing",
    "chapter": "HOU",
-   "lat": 29.64881,
-   "lng": -95.45454,
+   "lat": 29.63608,
+   "lng": -95.48836,
    "at": "stadium"
   },
   {
@@ -4364,16 +4364,16 @@
   {
    "name": "Jacksboro",
    "chapter": "NTX",
-   "lat": 33.23054,
-   "lng": -98.17031,
+   "lat": 33.22945,
+   "lng": -98.1705,
    "at": "stadium"
   },
   {
    "name": "Jacksonville",
    "chapter": "TYL",
-   "lat": 31.96378,
-   "lng": -95.2705,
-   "at": "town"
+   "lat": 31.96561,
+   "lng": -95.26699,
+   "at": "stadium"
   },
   {
    "name": "James Madison",
@@ -4385,9 +4385,9 @@
   {
    "name": "Jarrell",
    "chapter": "CTX",
-   "lat": 30.82491,
-   "lng": -97.60445,
-   "at": "town"
+   "lat": 30.82004,
+   "lng": -97.62704,
+   "at": "stadium"
   },
   {
    "name": "Jasper",
@@ -4434,9 +4434,9 @@
   {
    "name": "Joaquin",
    "chapter": "TYL",
-   "lat": 31.96572,
-   "lng": -94.0538,
-   "at": "town"
+   "lat": 31.96497,
+   "lng": -94.0476,
+   "at": "stadium"
   },
   {
    "name": "Johnson City",
@@ -4616,9 +4616,9 @@
   {
    "name": "Kennedale",
    "chapter": "FTW",
-   "lat": 32.6468,
-   "lng": -97.22585,
-   "at": "town"
+   "lat": 32.65093,
+   "lng": -97.20077,
+   "at": "stadium"
   },
   {
    "name": "Kerens",
@@ -4805,15 +4805,15 @@
   {
    "name": "La Marque",
    "chapter": "HOU",
-   "lat": 29.39325,
-   "lng": -94.92863,
+   "lat": 29.39206,
+   "lng": -94.9182,
    "at": "stadium"
   },
   {
    "name": "La Porte",
    "chapter": "HOU",
-   "lat": 29.65258,
-   "lng": -95.01704,
+   "lat": 29.65488,
+   "lng": -95.01724,
    "at": "stadium"
   },
   {
@@ -5029,8 +5029,8 @@
   {
    "name": "Levelland",
    "chapter": "SPC",
-   "lat": 33.60072,
-   "lng": -102.34339,
+   "lat": 33.5994,
+   "lng": -102.34256,
    "at": "stadium"
   },
   {
@@ -5323,15 +5323,15 @@
   {
    "name": "Lufkin",
    "chapter": "SFA",
-   "lat": 31.33598,
-   "lng": -94.68785,
+   "lat": 31.33544,
+   "lng": -94.68505,
    "at": "stadium"
   },
   {
    "name": "Luling",
    "chapter": "SAT",
-   "lat": 29.67797,
-   "lng": -97.65208,
+   "lat": 29.67789,
+   "lng": -97.65651,
    "at": "stadium"
   },
   {
@@ -5379,9 +5379,9 @@
   {
    "name": "Malakoff",
    "chapter": "TYL",
-   "lat": 32.1696,
-   "lng": -96.01247,
-   "at": "town"
+   "lat": 32.1752,
+   "lng": -96.03362,
+   "at": "stadium"
   },
   {
    "name": "Manor",
@@ -5414,9 +5414,9 @@
   {
    "name": "Mansfield Legacy",
    "chapter": "FTW",
-   "lat": 32.56349,
-   "lng": -97.14203,
-   "at": "town"
+   "lat": 32.56659,
+   "lng": -97.13139,
+   "at": "stadium"
   },
   {
    "name": "Mansfield Summit",
@@ -5442,9 +5442,9 @@
   {
    "name": "Marble Falls",
    "chapter": "AUS",
-   "lat": 30.57775,
-   "lng": -98.27565,
-   "at": "town"
+   "lat": 30.5858,
+   "lng": -98.25186,
+   "at": "stadium"
   },
   {
    "name": "Marfa",
@@ -5610,8 +5610,8 @@
   {
    "name": "Medina Valley",
    "chapter": "SAT",
-   "lat": 29.34336,
-   "lng": -98.83753,
+   "lat": 29.34318,
+   "lng": -98.83688,
    "at": "stadium"
   },
   {
@@ -5666,8 +5666,8 @@
   {
    "name": "Mesquite Poteet",
    "chapter": "DAL",
-   "lat": 32.76383,
-   "lng": -96.63472,
+   "lat": 32.76396,
+   "lng": -96.63454,
    "at": "stadium"
   },
   {
@@ -5792,15 +5792,15 @@
   {
    "name": "Mission Sharyland",
    "chapter": "RGV",
-   "lat": 26.2126,
-   "lng": -98.28545,
+   "lat": 26.21376,
+   "lng": -98.28382,
    "at": "stadium"
   },
   {
    "name": "Mission Sharyland Pioneer",
    "chapter": "RGV",
-   "lat": 26.2126,
-   "lng": -98.28545,
+   "lat": 26.21376,
+   "lng": -98.28382,
    "at": "stadium"
   },
   {
@@ -5925,8 +5925,8 @@
   {
    "name": "Nacogdoches",
    "chapter": "SFA",
-   "lat": 31.62446,
-   "lng": -94.63261,
+   "lat": 31.64451,
+   "lng": -94.62562,
    "at": "stadium"
   },
   {
@@ -6100,15 +6100,15 @@
   {
    "name": "North Garland",
    "chapter": "DAL",
-   "lat": 32.91262,
-   "lng": -96.63888,
-   "at": "town"
+   "lat": 32.92561,
+   "lng": -96.63637,
+   "at": "stadium"
   },
   {
    "name": "North Mesquite",
    "chapter": "DAL",
-   "lat": 32.76383,
-   "lng": -96.63472,
+   "lat": 32.76396,
+   "lng": -96.63454,
    "at": "stadium"
   },
   {
@@ -6142,8 +6142,8 @@
   {
    "name": "Odem",
    "chapter": "STX",
-   "lat": 27.94811,
-   "lng": -97.58858,
+   "lat": 27.94816,
+   "lng": -97.58844,
    "at": "stadium"
   },
   {
@@ -6506,8 +6506,8 @@
   {
    "name": "Pittsburg",
    "chapter": "TYL",
-   "lat": 33.00257,
-   "lng": -94.97131,
+   "lat": 33.0038,
+   "lng": -94.97435,
    "at": "stadium"
   },
   {
@@ -6604,9 +6604,9 @@
   {
    "name": "Poth",
    "chapter": "SAT",
-   "lat": 29.07305,
-   "lng": -98.08131,
-   "at": "town"
+   "lat": 29.07756,
+   "lng": -98.07359,
+   "at": "stadium"
   },
   {
    "name": "Pottsboro",
@@ -6646,9 +6646,9 @@
   {
    "name": "Princeton",
    "chapter": "DAL",
-   "lat": 33.18012,
-   "lng": -96.49804,
-   "at": "town"
+   "lat": 33.17737,
+   "lng": -96.49298,
+   "at": "stadium"
   },
   {
    "name": "Progreso",
@@ -7059,15 +7059,15 @@
   {
    "name": "Rowlett",
    "chapter": "DAL",
-   "lat": 32.91262,
-   "lng": -96.63888,
-   "at": "town"
+   "lat": 32.92561,
+   "lng": -96.63637,
+   "at": "stadium"
   },
   {
    "name": "Royse City",
    "chapter": "DAL",
-   "lat": 32.9761,
-   "lng": -96.33133,
+   "lat": 32.97677,
+   "lng": -96.28986,
    "at": "stadium"
   },
   {
@@ -7115,16 +7115,16 @@
   {
    "name": "Sachse",
    "chapter": "DAL",
-   "lat": 32.91262,
-   "lng": -96.63888,
-   "at": "town"
+   "lat": 32.92561,
+   "lng": -96.63637,
+   "at": "stadium"
   },
   {
    "name": "Saginaw",
    "chapter": "FTW",
-   "lat": 32.86013,
-   "lng": -97.36391,
-   "at": "town"
+   "lat": 32.86879,
+   "lng": -97.34781,
+   "at": "stadium"
   },
   {
    "name": "Saginaw Boswell",
@@ -7416,9 +7416,9 @@
   {
    "name": "San Antonio Southwest",
    "chapter": "SAT",
-   "lat": 29.4246,
-   "lng": -98.49514,
-   "at": "town"
+   "lat": 29.31282,
+   "lng": -98.66975,
+   "at": "stadium"
   },
   {
    "name": "San Antonio Southwest Legacy",
@@ -7500,8 +7500,8 @@
   {
    "name": "San Marcos",
    "chapter": "SAT",
-   "lat": 29.82228,
-   "lng": -97.94768,
+   "lat": 29.82126,
+   "lng": -97.94502,
    "at": "stadium"
   },
   {
@@ -7626,8 +7626,8 @@
   {
    "name": "Seminole",
    "chapter": "SPC",
-   "lat": 32.71674,
-   "lng": -102.6491,
+   "lat": 32.72463,
+   "lng": -102.65136,
    "at": "stadium"
   },
   {
@@ -7656,7 +7656,7 @@
    "chapter": "SFA",
    "lat": 31.76073,
    "lng": -94.07819,
-   "at": "town"
+   "at": "stadium"
   },
   {
    "name": "Shepherd",
@@ -7717,8 +7717,8 @@
   {
    "name": "Sinton",
    "chapter": "STX",
-   "lat": 28.03951,
-   "lng": -97.4977,
+   "lat": 28.03833,
+   "lng": -97.49613,
    "at": "stadium"
   },
   {
@@ -7843,9 +7843,9 @@
   {
    "name": "Splendora",
    "chapter": "HOU",
-   "lat": 30.23299,
-   "lng": -95.16104,
-   "at": "town"
+   "lat": 30.25341,
+   "lng": -95.20041,
+   "at": "stadium"
   },
   {
    "name": "Spring",
@@ -8088,8 +8088,8 @@
   {
    "name": "Texas City",
    "chapter": "HOU",
-   "lat": 29.39325,
-   "lng": -94.92863,
+   "lat": 29.39206,
+   "lng": -94.9182,
    "at": "stadium"
   },
   {
@@ -8102,15 +8102,15 @@
   {
    "name": "The Woodlands",
    "chapter": "HOU",
-   "lat": 30.18487,
-   "lng": -95.44899,
+   "lat": 30.18591,
+   "lng": -95.44679,
    "at": "stadium"
   },
   {
    "name": "The Woodlands College Park",
    "chapter": "HOU",
-   "lat": 30.18487,
-   "lng": -95.44899,
+   "lat": 30.18591,
+   "lng": -95.44679,
    "at": "stadium"
   },
   {
@@ -8186,15 +8186,15 @@
   {
    "name": "Tomball High",
    "chapter": "HOU",
-   "lat": 30.11165,
-   "lng": -95.6257,
+   "lat": 30.05549,
+   "lng": -95.70104,
    "at": "stadium"
   },
   {
    "name": "Tomball Memorial",
    "chapter": "HOU",
-   "lat": 30.11165,
-   "lng": -95.6257,
+   "lat": 30.05549,
+   "lng": -95.70104,
    "at": "stadium"
   },
   {
@@ -8466,9 +8466,9 @@
   {
    "name": "Wall",
    "chapter": "SAN",
-   "lat": 31.37435,
-   "lng": -100.30366,
-   "at": "town"
+   "lat": 31.37208,
+   "lng": -100.30725,
+   "at": "stadium"
   },
   {
    "name": "Waller",
@@ -8599,8 +8599,8 @@
   {
    "name": "West Mesquite",
    "chapter": "DAL",
-   "lat": 32.76383,
-   "lng": -96.63472,
+   "lat": 32.76396,
+   "lng": -96.63454,
    "at": "stadium"
   },
   {
@@ -8802,9 +8802,9 @@
   {
    "name": "Wimberley",
    "chapter": "SAT",
-   "lat": 29.99768,
-   "lng": -98.09879,
-   "at": "town"
+   "lat": 30.00287,
+   "lng": -98.1121,
+   "at": "stadium"
   },
   {
    "name": "Windthorst",
@@ -8816,9 +8816,9 @@
   {
    "name": "Wink",
    "chapter": "PBC",
-   "lat": 31.7534,
-   "lng": -103.15583,
-   "at": "town"
+   "lat": 31.75515,
+   "lng": -103.15082,
+   "at": "stadium"
   },
   {
    "name": "Winnsboro",
