@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-17T15:07+00:00",
+    "updated": "2026-11-17T15:45+00:00",
     "games": 528,
     "played": 352,
     "assigned": 527,
@@ -8270,7 +8270,9 @@
       "team2": "Apple Springs",
       "score2": null,
       "winner": null,
-      "mp_url": "https://www.maxpreps.com/tx/football/game/apple-springs-vs-fannindel-ladonia/11-19-2026/?c=d3962a2b-57f7-418e-8206-658f8a50e1c5"
+      "date": "2026-11-20",
+      "time": "7:00 PM",
+      "mp_url": "https://www.maxpreps.com/tx/football/game/apple-springs-vs-fannindel-ladonia/11-20-2026/?c=d3962a2b-57f7-418e-8206-658f8a50e1c5"
     },
     {
       "year": 2026,
@@ -8949,7 +8951,7 @@
       "city": "Somerset",
       "date": "2026-11-20",
       "time": "7:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/chilton-vs-la-villa/11-19-2026/?c=7d1cf01a-39c7-4d51-8e21-d1bd1a3485e8",
+      "mp_url": "https://www.maxpreps.com/tx/football/game/chilton-vs-la-villa/11-20-2026/?c=7d1cf01a-39c7-4d51-8e21-d1bd1a3485e8",
       "uil_pick": true
     },
     {
