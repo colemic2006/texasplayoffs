@@ -131,7 +131,7 @@
   "week": 6,
   "team1": "Westbrook",
   "team2": "Gordon",
-  "site": "AT&T Stadium Arlington",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "AT&T Stadium     Arlington, TX\nWed, Dec 13, 2023        2:00 pm"
  },
  {
@@ -266,7 +266,7 @@
   "week": 6,
   "team1": "Benjamin",
   "team2": "Oglesby",
-  "site": "AT&T Stadium Arlington",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "AT&T Stadium    Arlington, TX\nWed, Dec 13, 2023      11:00 am"
  },
  {
@@ -275,7 +275,7 @@
   "week": 2,
   "team1": "Stratford",
   "team2": "Stamford",
-  "site": "Lubbock Pirate Stadium",
+  "site": "Pirate Stadium, Lubbock",
   "source_text": "Fri 11/17, 7pm @Lubbock Pirate Stadium"
  },
  {
@@ -302,7 +302,7 @@
   "week": 2,
   "team1": "Hawley",
   "team2": "Panhandle",
-  "site": "Lubbock Lowery Field",
+  "site": "Lowrey Field, Lubbock",
   "source_text": "Fri 11/17, 8pm @Lubbock Lowery Field"
  },
  {
@@ -392,7 +392,7 @@
   "week": 2,
   "team1": "Mason",
   "team2": "Ganado",
-  "site": "San Rattler Stadium",
+  "site": "Toyota Rattler Stadium, San Marcos",
   "source_text": "Thur 11/16, 7pm @San Marcos Rattler Stadium"
  },
  {
@@ -455,7 +455,7 @@
   "week": 3,
   "team1": "Cooper",
   "team2": "Garrison",
-  "site": "Tyler Rose Stadium",
+  "site": "Rose Stadium, Tyler",
   "source_text": "Fri 1:30pm, @Tyler Rose Stadium"
  },
  {
@@ -482,7 +482,7 @@
   "week": 4,
   "team1": "Stratford",
   "team2": "Hawley",
-  "site": "Lubbock Lowery Field",
+  "site": "Lowrey Field, Lubbock",
   "source_text": "Fri 12/1, 6pm @Lubbock Lowery Field"
  },
  {
@@ -536,7 +536,7 @@
   "week": 6,
   "team1": "Tolar",
   "team2": "Timpson",
-  "site": "AT&T Stadium Arlington",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "AT&T Stadium\n Arlington, TX\nWed, Dec 13, 2023   \n   7:00 pm"
  },
  {
@@ -545,7 +545,7 @@
   "week": 2,
   "team1": "Gruver",
   "team2": "Ralls",
-  "site": "Canyon HSB Stadium",
+  "site": "Happy State Bank Stadium, Canyon",
   "source_text": "Thur 11/16, 7:30pm @Canyon HSB Stadium"
  },
  {
@@ -563,7 +563,7 @@
   "week": 2,
   "team1": "Morton",
   "team2": "Wellington",
-  "site": "Canyon HSB Stadium",
+  "site": "Happy State Bank Stadium, Canyon",
   "source_text": "Thur 11/16, 4pm @Canyon HSB Stadium"
  },
  {
@@ -572,7 +572,7 @@
   "week": 2,
   "team1": "New Home",
   "team2": "Sunray",
-  "site": "Canyon HSB Stadium",
+  "site": "Happy State Bank Stadium, Canyon",
   "source_text": "Fri 11/17, 7pm @Canyon HSB Stadium"
  },
  {
@@ -599,7 +599,7 @@
   "week": 2,
   "team1": "Windthorst",
   "team2": "Roscoe",
-  "site": "McMurry (Abilene",
+  "site": "Wilford Moore Stadium (McMurry), Abilene",
   "source_text": "Thur 11/16, 7pm @McMurry (Abilene)"
  },
  {
@@ -617,7 +617,7 @@
   "week": 2,
   "team1": "Simms Bowie",
   "team2": "Deweyville",
-  "site": "San",
+  "site": "San Augustine",
   "source_text": "Fri 11/17, 7pm @San Augustine"
  },
  {
@@ -644,7 +644,7 @@
   "week": 2,
   "team1": "Lovelady",
   "team2": "Hico",
-  "site": "UMHB (Belton",
+  "site": "Crusader Stadium, Belton",
   "source_text": "Fri 11/17, 7pm @UMHB (Belton)"
  },
  {
@@ -671,7 +671,7 @@
   "week": 2,
   "team1": "Brackettville",
   "team2": "Granger",
-  "site": "Von Ormy Southwest Legacy",
+  "site": "Southwest Legacy Stadium, Von Ormy",
   "source_text": "Thur 11/16, 7pm @Von Ormy Southwest Legacy"
  },
  {
@@ -698,7 +698,7 @@
   "week": 3,
   "team1": "Wellington",
   "team2": "Sunray",
-  "site": "Canyon HSB Stadium",
+  "site": "Happy State Bank Stadium, Canyon",
   "source_text": "Fri 11/24, 6pm @Canyon HSB Stadium"
  },
  {
@@ -761,7 +761,7 @@
   "week": 4,
   "team1": "Clarendon",
   "team2": "Sunray",
-  "site": "Canyon HSB Stadium",
+  "site": "Happy State Bank Stadium, Canyon",
   "source_text": "Fri 12/1, 7pm @Canyon HSB Stadium"
  },
  {
@@ -797,7 +797,7 @@
   "week": 5,
   "team1": "Sunray",
   "team2": "Albany",
-  "site": "Lubbock Lowery Field",
+  "site": "Lowrey Field, Lubbock",
   "source_text": "Thur Dec 7, 6pm @Lubbock Lowery Field"
  },
  {
@@ -806,7 +806,7 @@
   "week": 5,
   "team1": "Mart",
   "team2": "Chilton",
-  "site": "UMHB",
+  "site": "Crusader Stadium, Belton",
   "source_text": "Fri Dec 8, 7pm @UMHB"
  },
  {
@@ -815,7 +815,7 @@
   "week": 6,
   "team1": "Albany",
   "team2": "Mart",
-  "site": "AT&T Stadium Arlington",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "AT&T Stadium\n Arlington, TX\nThursday, Dec 14, 2023   \n   11:00 am"
  },
  {
@@ -842,7 +842,7 @@
   "week": 2,
   "team1": "Clyde",
   "team2": "Shallowater",
-  "site": "Abilene Shotwell",
+  "site": "Shotwell Stadium, Abilene",
   "source_text": "Sat 11/18, 4pm @Abilene Shotwell"
  },
  {
@@ -869,7 +869,7 @@
   "week": 2,
   "team1": "Tatum",
   "team2": "Whitney",
-  "site": "Dallas Kincaide",
+  "site": "Kincaide Stadium, Dallas",
   "source_text": "Fri 11/17, 7pm @Dallas Kincaide"
  },
  {
@@ -878,7 +878,7 @@
   "week": 2,
   "team1": "Grandview",
   "team2": "Pottsboro",
-  "site": "Mequite Memorial",
+  "site": "Mesquite Memorial Stadium, Mesquite",
   "source_text": "Thur 11/16, 7pm @Mequite Memorial"
  },
  {
@@ -887,7 +887,7 @@
   "week": 2,
   "team1": "Malakoff",
   "team2": "Mount Vernon",
-  "site": "Tyler Rose Stadium",
+  "site": "Rose Stadium, Tyler",
   "source_text": "Fri 11/17, 7:30pm @Tyler Rose Stadium"
  },
  {
@@ -941,8 +941,17 @@
   "week": 2,
   "team1": "Jourdanton",
   "team2": "Edna",
-  "site": "Victoria Memorial",
+  "site": "Memorial Stadium, Victoria",
   "source_text": "Thur 11/16, 7pm @Victoria Memorial"
+ },
+ {
+  "year": 2023,
+  "classification": "3A D1",
+  "week": 2,
+  "team1": "Goliad",
+  "team2": "Hondo",
+  "site": "Marion",
+  "source_text": "Fri 11/17, 7:30pm @Marion"
  },
  {
   "year": 2023,
@@ -1022,7 +1031,7 @@
   "week": 3,
   "team1": "Goliad",
   "team2": "Blanco",
-  "site": "Seguin",
+  "site": "Matador Stadium, Seguin",
   "source_text": "Fri 11/24, 1pm @Seguin"
  },
  {
@@ -1067,7 +1076,7 @@
   "week": 5,
   "team1": "Brock",
   "team2": "Malakoff",
-  "site": "Frisco Ford Center",
+  "site": "Ford Center at the Star, Frisco",
   "source_text": "Thur Dec 7, 7pm @ Frisco Ford Center"
  },
  {
@@ -1085,7 +1094,7 @@
   "week": 6,
   "team1": "Malakoff",
   "team2": "Franklin",
-  "site": "AT&T Stadium Arlington",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "AT&T Stadium\n Arlington, TX\nThursday, Dec 14, 2023   \n   3:00 pm"
  },
  {
@@ -1130,7 +1139,7 @@
   "week": 2,
   "team1": "Jacksboro",
   "team2": "Bells",
-  "site": "Denton Collins Stadium",
+  "site": "C. H. Collins Complex, Denton",
   "source_text": "Fri 11/17, 7pm @Denton Collins Stadium"
  },
  {
@@ -1157,7 +1166,7 @@
   "week": 2,
   "team1": "Gunter",
   "team2": "Wichita Falls City View",
-  "site": "Denton Collins Stadium",
+  "site": "C. H. Collins Complex, Denton",
   "source_text": "Thur 11/16, 7pm @Denton Collins Stadium"
  },
  {
@@ -1310,7 +1319,7 @@
   "week": 4,
   "team1": "Wall",
   "team2": "Canadian",
-  "site": "Lubbock Lowery Field",
+  "site": "Lowrey Field, Lubbock",
   "source_text": "Fri 12/1, 6pm @Lubbock Lowery Field"
  },
  {
@@ -1319,7 +1328,7 @@
   "week": 4,
   "team1": "Jacksboro",
   "team2": "Gunter",
-  "site": "Denton Collins Stadium",
+  "site": "C. H. Collins Complex, Denton",
   "source_text": "Fri 12/1, 7pm @Denton Collins Stadium"
  },
  {
@@ -1346,7 +1355,7 @@
   "week": 5,
   "team1": "Canadian",
   "team2": "Gunter",
-  "site": "ACU",
+  "site": "Wildcat Stadium (ACU), Abilene",
   "source_text": "Fri 12/8, 6pm @ACU"
  },
  {
@@ -1364,7 +1373,7 @@
   "week": 6,
   "team1": "Gunter",
   "team2": "Tidehaven",
-  "site": "AT&T Stadium Arlington",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "AT&T Stadium\n Arlington, TX\nThursday, Dec 14, 2023   \n   7:00 pm"
  },
  {
@@ -1400,7 +1409,7 @@
   "week": 2,
   "team1": "Decatur",
   "team2": "Andrews",
-  "site": "Abilene Shotwell",
+  "site": "Shotwell Stadium, Abilene",
   "source_text": "Thur 11/16, 6pm @Abilene Shotwell"
  },
  {
@@ -1427,7 +1436,7 @@
   "week": 2,
   "team1": "Frisco Panther Creek",
   "team2": "La Vega",
-  "site": "Frisco Ford Center",
+  "site": "Ford Center at the Star, Frisco",
   "source_text": "Fri 11/17, 7:30pm @Frisco Ford Center"
  },
  {
@@ -1445,7 +1454,7 @@
   "week": 2,
   "team1": "Kilgore",
   "team2": "Bay City",
-  "site": "Houston Sheldon",
+  "site": "Sheldon ISD Panther Stadium, Houston",
   "source_text": "Fri 11/17, 7pm @Houston Sheldon"
  },
  {
@@ -1454,7 +1463,7 @@
   "week": 2,
   "team1": "Lumberton",
   "team2": "Needville",
-  "site": "Katy Legacy",
+  "site": "Legacy Stadium, Katy",
   "source_text": "Thur 11/16, 7pm @Katy Legacy"
  },
  {
@@ -1472,7 +1481,7 @@
   "week": 2,
   "team1": "Iowa Colony",
   "team2": "Lindale",
-  "site": "Bryan Green Stadium",
+  "site": "Merrill Green Stadium, Bryan",
   "source_text": "Fri 11/17, 7pm @Bryan Green Stadium"
  },
  {
@@ -1490,7 +1499,7 @@
   "week": 2,
   "team1": "Boerne",
   "team2": "La Vernia",
-  "site": "San Antonio Comalander Stadium",
+  "site": "Comalander Stadium, San Antonio",
   "source_text": "Fri 11/17, 7pm @San Antonio Comalander Stadium"
  },
  {
@@ -1526,7 +1535,7 @@
   "week": 3,
   "team1": "Lubbock Estacado",
   "team2": "Decatur",
-  "site": "Abilene Shotwell",
+  "site": "Shotwell Stadium, Abilene",
   "source_text": "Fri 11/24, 1:00pm @Abilene Shotwell"
  },
  {
@@ -1544,7 +1553,7 @@
   "week": 3,
   "team1": "Frisco Panther Creek",
   "team2": "Anna",
-  "site": "Frisco Ford Center",
+  "site": "Ford Center at the Star, Frisco",
   "source_text": "Fri 11/24, 7:30pm @Frisco Ford Center"
  },
  {
@@ -1580,7 +1589,7 @@
   "week": 3,
   "team1": "Port Lavaca Calhoun",
   "team2": "Alice",
-  "site": "Seguin",
+  "site": "Matador Stadium, Seguin",
   "source_text": "Fri 11/24, 7pm @Seguin"
  },
  {
@@ -1643,7 +1652,7 @@
   "week": 6,
   "team1": "Anna",
   "team2": "Tyler Chapel Hill",
-  "site": "AT&T Stadium Arlington",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "AT&T Stadium\n Arlington, TX\nFriday, Dec 15, 2023   \n  11:00 am"
  },
  {
@@ -1697,7 +1706,7 @@
   "week": 2,
   "team1": "Sunnyvale",
   "team2": "Gilmer",
-  "site": "Tyler Rose Stadium",
+  "site": "Rose Stadium, Tyler",
   "source_text": "Thur 11/16, 7pm @Tyler Rose Stadium"
  },
  {
@@ -1751,7 +1760,7 @@
   "week": 2,
   "team1": "Cuero",
   "team2": "Hamshire-Fannett",
-  "site": "Katy Rhodes Stadium",
+  "site": "Rhodes Stadium, Katy",
   "source_text": "Fri 11/17, 7:30pm @Katy Rhodes Stadium"
  },
  {
@@ -1796,7 +1805,7 @@
   "week": 3,
   "team1": "Monahans",
   "team2": "Canyon West Plains",
-  "site": "Lubbock Pirate Stadium",
+  "site": "Pirate Stadium, Lubbock",
   "source_text": "Fri 11/24, 7pm @Lubbock Pirate Stadium"
  },
  {
@@ -1805,7 +1814,7 @@
   "week": 3,
   "team1": "Seminole",
   "team2": "Glen Rose",
-  "site": "ACU",
+  "site": "Wildcat Stadium (ACU), Abilene",
   "source_text": "Fri 11/24, 2:30pm @ACU"
  },
  {
@@ -1877,7 +1886,7 @@
   "week": 4,
   "team1": "Gilmer",
   "team2": "Carthage",
-  "site": "Tyler Rose Stadium",
+  "site": "Rose Stadium, Tyler",
   "source_text": "Fri 12/1, 7pm @Tyler Rose Stadium"
  },
  {
@@ -1913,7 +1922,7 @@
   "week": 5,
   "team1": "Bellville",
   "team2": "Wimberley",
-  "site": "Plugerville Pfield",
+  "site": "The Pfield, Pflugerville",
   "source_text": "Fri Dec 8, 7:30pm @Plugerville Pfield"
  },
  {
@@ -1922,7 +1931,7 @@
   "week": 6,
   "team1": "Gilmer",
   "team2": "Bellville",
-  "site": "AT&T Stadium Arlington",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "AT&T Stadium\n Arlington, TX\nFriday, Dec 15, 2023   \n   3:00 pm"
  },
  {
@@ -1931,7 +1940,7 @@
   "week": 2,
   "team1": "Amarillo Tascosa",
   "team2": "Justin Northwest",
-  "site": "ACU (Abilene",
+  "site": "Wildcat Stadium (ACU), Abilene",
   "source_text": "Fri 11/17, 7pm @ACU (Abilene)"
  },
  {
@@ -1985,7 +1994,7 @@
   "week": 2,
   "team1": "Longview",
   "team2": "Frisco Reedy",
-  "site": "Mequite Memorial",
+  "site": "Mesquite Memorial Stadium, Mesquite",
   "source_text": "Fri 11/17, 7pm @Mequite Memorial"
  },
  {
@@ -2039,7 +2048,7 @@
   "week": 2,
   "team1": "Victoria West",
   "team2": "Harlingen South",
-  "site": "Corpus Christi Cabaniss Stadium",
+  "site": "Cabaniss Athletic Complex, Corpus Christi",
   "source_text": "Sat 11/18, 2pm @Corpus Christi Cabaniss Stadium"
  },
  {
@@ -2057,7 +2066,7 @@
   "week": 2,
   "team1": "Pharr-San Juan-Alamo North",
   "team2": "Victoria East",
-  "site": "Corpus Christi Danaher Stadium",
+  "site": "Danaher Stadium, Corpus Christi",
   "source_text": "Fri 11/17, 7pm @Corpus Christi Danaher Stadium"
  },
  {
@@ -2084,7 +2093,7 @@
   "week": 3,
   "team1": "Aledo",
   "team2": "Red Oak",
-  "site": "Arlington Choctaw",
+  "site": "Choctaw Stadium, Arlington",
   "source_text": "Fri 11/24, 7:30pm @Arlington Choctaw"
  },
  {
@@ -2201,7 +2210,7 @@
   "week": 6,
   "team1": "Aledo",
   "team2": "Comal Smithson Valley",
-  "site": "AT&T Stadium Arlington",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "AT&T Stadium\n Arlington, TX\nFriday, Dec 15, 2023   \n   7:00 pm"
  },
  {
@@ -2210,7 +2219,7 @@
   "week": 2,
   "team1": "El Paso Canutillo",
   "team2": "Frisco Emerson",
-  "site": "Lubbock Lowery Field",
+  "site": "Lowrey Field, Lubbock",
   "source_text": "Fri 11/17, 4pm @Lubbock Lowery Field"
  },
  {
@@ -2255,7 +2264,7 @@
   "week": 2,
   "team1": "South Oak Cliff",
   "team2": "Melissa",
-  "site": "Frisco Ford Center",
+  "site": "Ford Center at the Star, Frisco",
   "source_text": "Sat 11/18, 7pm @Frisco Ford Center"
  },
  {
@@ -2273,7 +2282,7 @@
   "week": 2,
   "team1": "Texarkana Texas",
   "team2": "Mansfield Summit",
-  "site": "Sulpher Springs",
+  "site": "Gerald Prim Stadium, Sulphur Springs",
   "source_text": "Fri 11/17, 7:30pm @Sulpher Springs"
  },
  {
@@ -2282,7 +2291,7 @@
   "week": 2,
   "team1": "Port Neches-Groves",
   "team2": "Leander Rouse",
-  "site": "Katy Legacy Stadium",
+  "site": "Legacy Stadium, Katy",
   "source_text": "Fri 11/17, 7pm @Katy Legacy Stadium"
  },
  {
@@ -2336,7 +2345,7 @@
   "week": 2,
   "team1": "Corpus Christi Flour Bluff",
   "team2": "Judson Veterans Memorial",
-  "site": "Converse Rutledge Stadium",
+  "site": "Rutledge Stadium, Converse",
   "source_text": "Fri 11/17, 7pm @Converse Rutledge Stadium"
  },
  {
@@ -2345,7 +2354,7 @@
   "week": 2,
   "team1": "Mission Sharyland Pioneer",
   "team2": "Liberty Hill",
-  "site": "San Antonio Farris Stadium",
+  "site": "Farris Stadium, San Antonio",
   "source_text": "Fri 11/17, 7pm@ San Antonio Farris Stadium"
  },
  {
@@ -2390,7 +2399,7 @@
   "week": 3,
   "team1": "Port Neches-Groves",
   "team2": "Montgomery Lake Creek",
-  "site": "Houston Sheldon",
+  "site": "Sheldon ISD Panther Stadium, Houston",
   "source_text": "Fri 11/24, 4pm @Houston Sheldon"
  },
  {
@@ -2426,7 +2435,7 @@
   "week": 4,
   "team1": "Frisco Emerson",
   "team2": "Colleyville Heritage",
-  "site": "Frisco Ford Center",
+  "site": "Ford Center at the Star, Frisco",
   "source_text": "Fri 12/1, 7pm @Frisco Ford Center"
  },
  {
@@ -2435,7 +2444,7 @@
   "week": 4,
   "team1": "South Oak Cliff",
   "team2": "Lovejoy",
-  "site": "Arlington Choctaw",
+  "site": "Choctaw Stadium, Arlington",
   "source_text": "Sat Dec 2, 3:30pm @Arlington Choctaw"
  },
  {
@@ -2444,7 +2453,7 @@
   "week": 4,
   "team1": "Port Neches-Groves",
   "team2": "Huntsville",
-  "site": "Houston NRG Stadium",
+  "site": "NRG Stadium, Houston",
   "source_text": "Fri 12/1 7pm @Houston NRG Stadium"
  },
  {
@@ -2453,7 +2462,7 @@
   "week": 4,
   "team1": "Comal Pieper",
   "team2": "Liberty Hill",
-  "site": "San Bobcat Stadium",
+  "site": "Bobcat Stadium (Texas State), San Marcos",
   "source_text": "Fri 12/1, 7pm @San Marcos Bobcat Stadium"
  },
  {
@@ -2462,7 +2471,7 @@
   "week": 5,
   "team1": "Frisco Emerson",
   "team2": "South Oak Cliff",
-  "site": "Frisco Ford Center",
+  "site": "Ford Center at the Star, Frisco",
   "source_text": "Friday, Dec 8, 7pm@ Frisco Ford Center"
  },
  {
@@ -2480,7 +2489,7 @@
   "week": 6,
   "team1": "South Oak Cliff",
   "team2": "Port Neches-Groves",
-  "site": "AT&T Stadium Arlington",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "AT&T Stadium\n Arlington, TX\nSaturday, Dec 16, 2023   \n11:00 am"
  },
  {
@@ -2489,7 +2498,7 @@
   "week": 2,
   "team1": "Odessa Permian",
   "team2": "North Crowley",
-  "site": "Abilene Shotwell",
+  "site": "Shotwell Stadium, Abilene",
   "source_text": "Fri 11/17, 7pm @Abilene Shotwell"
  },
  {
@@ -2597,7 +2606,7 @@
   "week": 2,
   "team1": "Austin Lake Travis",
   "team2": "San Antonio Johnson",
-  "site": "San Bobcat Stadium",
+  "site": "Bobcat Stadium (Texas State), San Marcos",
   "source_text": "Fri 11/17, 7pm @San Marcos Bobcat Stadium"
  },
  {
@@ -2615,7 +2624,7 @@
   "week": 2,
   "team1": "Austin Westlake",
   "team2": "San Antonio Reagan",
-  "site": "Seguin",
+  "site": "Matador Stadium, Seguin",
   "source_text": "Fri 11/17, 7:30pm @Seguin"
  },
  {
@@ -2633,7 +2642,7 @@
   "week": 3,
   "team1": "North Crowley",
   "team2": "Prosper",
-  "site": "Frisco Ford Center",
+  "site": "Ford Center at the Star, Frisco",
   "source_text": "Sat 11/25, 2pm @Frisco Ford Center"
  },
  {
@@ -2642,7 +2651,7 @@
   "week": 3,
   "team1": "Midland Legacy",
   "team2": "Allen",
-  "site": "Abilene Shotwell",
+  "site": "Shotwell Stadium, Abilene",
   "source_text": "Sat 11/25, 4pm @Abilene Shotwell"
  },
  {
@@ -2660,7 +2669,7 @@
   "week": 3,
   "team1": "Rockwall High",
   "team2": "Spring Westfield",
-  "site": "Plugerville Pfield",
+  "site": "The Pfield, Pflugerville",
   "source_text": "Sat 11/24, 3pm @Plugerville Pfield"
  },
  {
@@ -2669,7 +2678,7 @@
   "week": 3,
   "team1": "Cy-Fair",
   "team2": "Galena Park North Shore",
-  "site": "NRG Stadium",
+  "site": "NRG Stadium, Houston",
   "source_text": "Fri 11/24, 2pm @NRG Stadium"
  },
  {
@@ -2678,7 +2687,7 @@
   "week": 3,
   "team1": "Houston Lamar",
   "team2": "Humble Atascocita",
-  "site": "NRG Stadium",
+  "site": "NRG Stadium, Houston",
   "source_text": "Fri 11/24, 6pm @NRG Stadium"
  },
  {
@@ -2732,7 +2741,7 @@
   "week": 4,
   "team1": "Austin Lake Travis",
   "team2": "Austin Westlake",
-  "site": "Pflugerville Pfield",
+  "site": "The Pfield, Pflugerville",
   "source_text": "Sat 12/2, 7pm @Pflugerville Pfield"
  },
  {
@@ -2741,7 +2750,7 @@
   "week": 5,
   "team1": "North Crowley",
   "team2": "Duncanville",
-  "site": "Mesquite Memorial",
+  "site": "Mesquite Memorial Stadium, Mesquite",
   "source_text": "Sat Dec 9, 3pm @Mesquite Memorial"
  },
  {
@@ -2750,7 +2759,7 @@
   "week": 5,
   "team1": "Galena Park North Shore",
   "team2": "Austin Westlake",
-  "site": "Plugerville Pfield",
+  "site": "The Pfield, Pflugerville",
   "source_text": "Sat Dec 9, 3pm @Plugerville Pfield"
  },
  {
@@ -2759,7 +2768,7 @@
   "week": 6,
   "team1": "Duncanville",
   "team2": "Galena Park North Shore",
-  "site": "AT&T Stadium Arlington",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "AT&T Stadium\n Arlington, TX\nSaturday, Dec 16, 2023   \n3:00 pm"
  },
  {
@@ -2768,7 +2777,7 @@
   "week": 2,
   "team1": "Frenship",
   "team2": "Southlake Carroll",
-  "site": "ACU (Abilene",
+  "site": "Wildcat Stadium (ACU), Abilene",
   "source_text": "Thur 11/16, 6:30pm @ACU (Abilene)"
  },
  {
@@ -2777,7 +2786,7 @@
   "week": 2,
   "team1": "McKinney High",
   "team2": "Dallas Highland Park",
-  "site": "Dallas Ford Stadium",
+  "site": "Gerald J. Ford Stadium (SMU), Dallas",
   "source_text": "Fri 11/17, 7pm @Dallas Ford Stadium"
  },
  {
@@ -2795,7 +2804,7 @@
   "week": 2,
   "team1": "Coppell",
   "team2": "Dallas Jesuit",
-  "site": "Frisco Ford Center",
+  "site": "Ford Center at the Star, Frisco",
   "source_text": "Thur 11/16, 7pm @Frisco Ford Center"
  },
  {
@@ -2840,7 +2849,7 @@
   "week": 2,
   "team1": "Houston Stratford",
   "team2": "George Ranch",
-  "site": "Houston Tully Stadium",
+  "site": "Tully Stadium, Houston",
   "source_text": "Fri 11/17, 7pm @Houston Tully Stadium"
  },
  {
@@ -2876,7 +2885,7 @@
   "week": 2,
   "team1": "Round Rock McNeil",
   "team2": "Cibolo Steele",
-  "site": "San Rattler Stadium",
+  "site": "Toyota Rattler Stadium, San Marcos",
   "source_text": "Fri 11/17, 7pm @San Marcos Rattler Stadium"
  },
  {
@@ -2885,7 +2894,7 @@
   "week": 2,
   "team1": "San Antonio Harlan",
   "team2": "Harlingen",
-  "site": "Corpus Christi Cabaniss Stadium",
+  "site": "Cabaniss Athletic Complex, Corpus Christi",
   "source_text": "Fri 11/17, 7pm @Corpus Christi Cabaniss Stadium"
  },
  {
@@ -2894,7 +2903,7 @@
   "week": 2,
   "team1": "Dripping Springs",
   "team2": "Converse Judson",
-  "site": "Converse Rutledge Stadium",
+  "site": "Rutledge Stadium, Converse",
   "source_text": "Sat 11/18, 2pm @Converse Rutledge Stadium"
  },
  {
@@ -2912,7 +2921,7 @@
   "week": 3,
   "team1": "Southlake Carroll",
   "team2": "Dallas Highland Park",
-  "site": "Arlington Choctaw",
+  "site": "Choctaw Stadium, Arlington",
   "source_text": "Fri 11/24, 2:30pm @Arlington Choctaw"
  },
  {
@@ -2921,7 +2930,7 @@
   "week": 3,
   "team1": "Byron Nelson",
   "team2": "Coppell",
-  "site": "Arlington Choctaw",
+  "site": "Choctaw Stadium, Arlington",
   "source_text": "Sat 11/25, 3:30pm @Arlington Choctaw"
  },
  {
@@ -2957,7 +2966,7 @@
   "week": 3,
   "team1": "Fort Bend Hightower",
   "team2": "Houston King",
-  "site": "NRG Stadium",
+  "site": "NRG Stadium, Houston",
   "source_text": "Fri 11/24, 10am @NRG Stadium"
  },
  {
@@ -2984,7 +2993,7 @@
   "week": 4,
   "team1": "Southlake Carroll",
   "team2": "Byron Nelson",
-  "site": "Arlington Choctaw",
+  "site": "Choctaw Stadium, Arlington",
   "source_text": "Sat Dec 2, 7:30pm @Arlington Choctaw"
  },
  {
@@ -2993,7 +3002,7 @@
   "week": 4,
   "team1": "DeSoto",
   "team2": "Cedar Hill",
-  "site": "Dallas Kincaide",
+  "site": "Kincaide Stadium, Dallas",
   "source_text": "Fri 12/1, 7pm @Dallas Kincaide"
  },
  {
@@ -3038,7 +3047,7 @@
   "week": 6,
   "team1": "DeSoto",
   "team2": "Humble Summer Creek",
-  "site": "AT&T Stadium Arlington",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "AT&T Stadium\n Arlington, TX\nSaturday, Dec 16, 2023   \n7:00 pm"
  },
  {
@@ -3173,7 +3182,7 @@
   "week": 6,
   "team1": "Whiteface",
   "team2": "Gordon",
-  "site": "AT&T Stadium Arlington",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "AT&T Stadium\nArlington, TX\nWed, Dec 18, 2024\n2:00 pm"
  },
  {
@@ -3263,7 +3272,7 @@
   "week": 3,
   "team1": "Benjamin",
   "team2": "Jayton",
-  "site": "McMurry University",
+  "site": "Wilford Moore Stadium (McMurry), Abilene",
   "source_text": "Fri 11/19, 6:30pm@McMurry University"
  },
  {
@@ -3308,7 +3317,7 @@
   "week": 6,
   "team1": "Jayton",
   "team2": "Oakwood",
-  "site": "AT&T Stadium Arlington",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "AT&T Stadium\nArlington, TX\nWed, Dec 18, 2024\n11:00 am"
  },
  {
@@ -3317,7 +3326,7 @@
   "week": 2,
   "team1": "Sunray",
   "team2": "Hawley",
-  "site": "Lubbock Patriot Stadium",
+  "site": "Patriot Field, Lubbock",
   "source_text": "Fri 11/22, 8pm @Lubbock Patriot Stadium"
  },
  {
@@ -3344,7 +3353,7 @@
   "week": 2,
   "team1": "Stamford",
   "team2": "Panhandle",
-  "site": "Lubbock Patriot Stadium",
+  "site": "Patriot Field, Lubbock",
   "source_text": "Thur 11/21, 7pm @Lubbock Patriot Stadium"
  },
  {
@@ -3389,7 +3398,7 @@
   "week": 2,
   "team1": "Honey Grove",
   "team2": "Hearne",
-  "site": "Tyler Rose Stadium",
+  "site": "Rose Stadium, Tyler",
   "source_text": "Fri 11/22, 7pm @Tyler Rose Stadium"
  },
  {
@@ -3461,7 +3470,7 @@
   "week": 3,
   "team1": "Sunray",
   "team2": "Post",
-  "site": "Lubbock Patriot Stadium",
+  "site": "Patriot Field, Lubbock",
   "source_text": "Fri 11/29, 7pm @Lubbock Patriot Stadium"
  },
  {
@@ -3470,7 +3479,7 @@
   "week": 3,
   "team1": "Cisco",
   "team2": "Stamford",
-  "site": "Abilene Shotwell Stadium",
+  "site": "Shotwell Stadium, Abilene",
   "source_text": "Fri 11/29, 2pm @Abilene Shotwell Stadium"
  },
  {
@@ -3551,7 +3560,7 @@
   "week": 4,
   "team1": "Honey Grove",
   "team2": "Joaquin",
-  "site": "Frisco Ford Center",
+  "site": "Ford Center at the Star, Frisco",
   "source_text": "Thur 12/65, 7:30pm @Frisco Ford Center"
  },
  {
@@ -3560,7 +3569,7 @@
   "week": 4,
   "team1": "Marlin",
   "team2": "Ganado",
-  "site": "San Rattler Stadium",
+  "site": "Toyota Rattler Stadium, San Marcos",
   "source_text": "Thur 12/5, 7pm @San Marcos Rattler Stadium"
  },
  {
@@ -3587,7 +3596,7 @@
   "week": 6,
   "team1": "Stamford",
   "team2": "Ganado",
-  "site": "AT&T Stadium Arlington",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "AT&T Stadium\nArlington, TX\nThur, Dec 19, 2024\n11:00 am"
  },
  {
@@ -3605,7 +3614,7 @@
   "week": 2,
   "team1": "Hale Center",
   "team2": "Tahoka",
-  "site": "Lubbock Patriot Stadium",
+  "site": "Patriot Field, Lubbock",
   "source_text": "Fri 11/22, 4pm @Lubbock Patriot Stadium"
  },
  {
@@ -3623,7 +3632,7 @@
   "week": 2,
   "team1": "Wink",
   "team2": "Stratford",
-  "site": "lubbock Lowery Field",
+  "site": "Lowrey Field, Lubbock",
   "source_text": "Fri 11/22, 7pm @lubbock Lowery Field"
  },
  {
@@ -3866,7 +3875,7 @@
   "week": 6,
   "team1": "Muenster",
   "team2": "Shiner",
-  "site": "AT&T Stadium Arlington",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "AT&T Stadium\nArlington, TX\nWed, Dec 18, 2024\n7:00 pm"
  },
  {
@@ -3884,7 +3893,7 @@
   "week": 2,
   "team1": "Amarillo River Road",
   "team2": "Vernon",
-  "site": "Lubbock Lowrey Field",
+  "site": "Lowrey Field, Lubbock",
   "source_text": "Thur 11/21, 7pm @Lubbock Lowrey Field"
  },
  {
@@ -3893,7 +3902,7 @@
   "week": 2,
   "team1": "Jim Ned",
   "team2": "Dalhart",
-  "site": "Lubbock Pirate Stadium",
+  "site": "Pirate Stadium, Lubbock",
   "source_text": "Fri 11/22, 7pm @ Lubbock Pirate Stadium"
  },
  {
@@ -3911,7 +3920,7 @@
   "week": 2,
   "team1": "Pilot Point",
   "team2": "Liberty-Eylau",
-  "site": "Tyler Rose Stadium",
+  "site": "Rose Stadium, Tyler",
   "source_text": "Thur 11/21, 7pm @Tyler Rose Stadium"
  },
  {
@@ -3992,7 +4001,7 @@
   "week": 2,
   "team1": "Marion",
   "team2": "Goliad",
-  "site": "Seguin",
+  "site": "Matador Stadium, Seguin",
   "source_text": "Fri 11/22, 7pm @Seguin"
  },
  {
@@ -4001,7 +4010,7 @@
   "week": 2,
   "team1": "Edna",
   "team2": "San Antonio Cole",
-  "site": "San Rattler Stadium",
+  "site": "Toyota Rattler Stadium, San Marcos",
   "source_text": "Thur 11/21, 7pm @San Marcos Rattler Stadium"
  },
  {
@@ -4046,7 +4055,7 @@
   "week": 3,
   "team1": "Malakoff",
   "team2": "Jefferson",
-  "site": "Tyler Rose Stadium",
+  "site": "Rose Stadium, Tyler",
   "source_text": "Fri 11/29, 2pm @Tyler Rose Stadium"
  },
  {
@@ -4055,7 +4064,7 @@
   "week": 3,
   "team1": "Columbus",
   "team2": "Yoakum",
-  "site": "Katy Legacy Stadium",
+  "site": "Legacy Stadium, Katy",
   "source_text": "Fri 11/29, 7pm @Katy Legacy Stadium"
  },
  {
@@ -4073,7 +4082,7 @@
   "week": 3,
   "team1": "Llano",
   "team2": "Goliad",
-  "site": "San Antonio Farris Stadium",
+  "site": "Farris Stadium, San Antonio",
   "source_text": "fri 11/29, 6pm @San Antonio Farris Stadium"
  },
  {
@@ -4082,7 +4091,7 @@
   "week": 3,
   "team1": "Edna",
   "team2": "Randolph",
-  "site": "San Antonio Comalander Stadium",
+  "site": "Comalander Stadium, San Antonio",
   "source_text": "Fri 11/29, 7pm @San Antonio Comalander Stadium"
  },
  {
@@ -4091,7 +4100,7 @@
   "week": 4,
   "team1": "Shallowater",
   "team2": "Paradise",
-  "site": "Abilene Shotwell",
+  "site": "Shotwell Stadium, Abilene",
   "source_text": "Fri 12/6, 7pm @Abilene Shotwell"
  },
  {
@@ -4100,7 +4109,7 @@
   "week": 4,
   "team1": "Liberty-Eylau",
   "team2": "Malakoff",
-  "site": "Tyler Rose Stadium",
+  "site": "Rose Stadium, Tyler",
   "source_text": "Fri 12/6, 7pm @Tyler Rose Stadium"
  },
  {
@@ -4145,7 +4154,7 @@
   "week": 6,
   "team1": "Malakoff",
   "team2": "Columbus",
-  "site": "AT&T Stadium Arlington",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "AT&T Stadium\nArlington, TX\nThur, Dec 19, 2024\n7:00 pm"
  },
  {
@@ -4406,7 +4415,7 @@
   "week": 5,
   "team1": "Wall",
   "team2": "Gunter",
-  "site": "ACU",
+  "site": "Wildcat Stadium (ACU), Abilene",
   "source_text": "Fri 12/13, 4pm @ACU"
  },
  {
@@ -4424,7 +4433,7 @@
   "week": 6,
   "team1": "Gunter",
   "team2": "Woodville",
-  "site": "AT&T Stadium Arlington",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "AT&T Stadium\nArlington, TX\nThur, Dec 19, 2024\n3:00 pm"
  },
  {
@@ -4460,7 +4469,7 @@
   "week": 2,
   "team1": "Stephenville",
   "team2": "Hereford",
-  "site": "Abilene Shotwell Stadium",
+  "site": "Shotwell Stadium, Abilene",
   "source_text": "Thur 11/21, 6pm @Abilene Shotwell Stadium"
  },
  {
@@ -4478,7 +4487,7 @@
   "week": 2,
   "team1": "Alvarado",
   "team2": "Frisco Panther Creek",
-  "site": "Frisco Ford Center",
+  "site": "Ford Center at the Star, Frisco",
   "source_text": "Fri 11/21, 7pom @Frisco Ford Center"
  },
  {
@@ -4496,7 +4505,7 @@
   "week": 2,
   "team1": "Aubrey",
   "team2": "Decatur",
-  "site": "Denton Collins Stadium",
+  "site": "C. H. Collins Complex, Denton",
   "source_text": "Fri 11/22, 7pm @Denton Collins Stadium"
  },
  {
@@ -4541,7 +4550,7 @@
   "week": 2,
   "team1": "Austin LBJ",
   "team2": "La Vernia",
-  "site": "Seguin",
+  "site": "Matador Stadium, Seguin",
   "source_text": "Thur 11/21, 7:30pm @Seguin"
  },
  {
@@ -4631,7 +4640,7 @@
   "week": 3,
   "team1": "La Vernia",
   "team2": "Port Lavaca Calhoun",
-  "site": "Katy Legacy",
+  "site": "Legacy Stadium, Katy",
   "source_text": "Fri 11/29, 2pm @Katy Legacy"
  },
  {
@@ -4685,7 +4694,7 @@
   "week": 5,
   "team1": "Canyon West Plains",
   "team2": "Celina",
-  "site": "Abilene Shotwell",
+  "site": "Shotwell Stadium, Abilene",
   "source_text": "Fri 12/13, 7pm @Abilene Shotwell"
  },
  {
@@ -4703,7 +4712,7 @@
   "week": 6,
   "team1": "Celina",
   "team2": "Kilgore",
-  "site": "AT&T Stadium Arlington",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "AT&T Stadium\nArlington, TX\nFri, Dec 20, 2024\n3:00 pm"
  },
  {
@@ -4757,7 +4766,7 @@
   "week": 2,
   "team1": "Sunnyvale",
   "team2": "Gilmer",
-  "site": "Sulpher Springs",
+  "site": "Gerald Prim Stadium, Sulphur Springs",
   "source_text": "Thur 11/21, 7pm @Sulpher Springs"
  },
  {
@@ -4838,7 +4847,7 @@
   "week": 2,
   "team1": "Sinton",
   "team2": "Salado",
-  "site": "San Antonio Colamander Stadium",
+  "site": "Comalander Stadium, San Antonio",
   "source_text": "Sat 11/23, 2pm @San Antonio Colamander Stadium"
  },
  {
@@ -4874,7 +4883,7 @@
   "week": 3,
   "team1": "Van",
   "team2": "Sunnyvale",
-  "site": "Mesquite Memorial",
+  "site": "Mesquite Memorial Stadium, Mesquite",
   "source_text": "Fri 11/29, 2pm @Mesquite Memorial"
  },
  {
@@ -4892,7 +4901,7 @@
   "week": 3,
   "team1": "Sealy",
   "team2": "Gatesville",
-  "site": "Bryan Green Stadium",
+  "site": "Merrill Green Stadium, Bryan",
   "source_text": "Fri 11/29, 7pm @Bryan Green Stadium"
  },
  {
@@ -4946,7 +4955,7 @@
   "week": 4,
   "team1": "Sealy",
   "team2": "La Vega",
-  "site": "Pflugerville Pfield",
+  "site": "The Pfield, Pflugerville",
   "source_text": "Fri 12/6, 7pm @Pflugerville Pfield"
  },
  {
@@ -4982,7 +4991,7 @@
   "week": 6,
   "team1": "Carthage",
   "team2": "La Vega",
-  "site": "AT&T Stadium Arlington",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "AT&T Stadium\nArlington, TX\nFri, Dec 20, 2024\n11:00 am"
  },
  {
@@ -5036,7 +5045,7 @@
   "week": 2,
   "team1": "Frisco Lone Star",
   "team2": "Red Oak",
-  "site": "Frisco Ford Center",
+  "site": "Ford Center at the Star, Frisco",
   "source_text": "Fri 11/22, 7pm @Frisco Ford Center"
  },
  {
@@ -5099,7 +5108,7 @@
   "week": 2,
   "team1": "A&M Consolidated",
   "team2": "Galveston Ball",
-  "site": "Katy Legacy Stadium",
+  "site": "Legacy Stadium, Katy",
   "source_text": "Thur 11/21, 6:30pm @ Katy Legacy Stadium"
  },
  {
@@ -5117,7 +5126,7 @@
   "week": 2,
   "team1": "San Antonio Southwest",
   "team2": "Corpus Christi Veterans Memorial",
-  "site": "Corpus Christi Cabaniss Stadium",
+  "site": "Cabaniss Athletic Complex, Corpus Christi",
   "source_text": "Fri 11/22, 7pm @ Corpus Christi Cabaniss Stadium"
  },
  {
@@ -5126,7 +5135,7 @@
   "week": 2,
   "team1": "Pharr-San Juan-Alamo",
   "team2": "New Braunfels",
-  "site": "Corpus Christi Danaher Stadium",
+  "site": "Danaher Stadium, Corpus Christi",
   "source_text": "Fri 11/22, 7pm @Corpus Christi Danaher Stadium"
  },
  {
@@ -5144,7 +5153,7 @@
   "week": 3,
   "team1": "North Richland Hills Richland",
   "team2": "Denton Ryan",
-  "site": "Frisco Ford Center",
+  "site": "Ford Center at the Star, Frisco",
   "source_text": "Sat 11/30, 2pm @Frisco Ford Center"
  },
  {
@@ -5171,7 +5180,7 @@
   "week": 3,
   "team1": "Dallas Highland Park",
   "team2": "Frisco Reedy",
-  "site": "Frisco Ford Center",
+  "site": "Ford Center at the Star, Frisco",
   "source_text": "Fri 11/29, 7pm @Frisco Ford Center"
  },
  {
@@ -5225,7 +5234,7 @@
   "week": 4,
   "team1": "Frisco Lone Star",
   "team2": "Dallas Highland Park",
-  "site": "Frisco Ford Center",
+  "site": "Ford Center at the Star, Frisco",
   "source_text": "Fri 12/6, 7pm @Frisco Ford Center"
  },
  {
@@ -5234,7 +5243,7 @@
   "week": 4,
   "team1": "Angleton",
   "team2": "La Porte",
-  "site": "Houston NRG Stadium",
+  "site": "NRG Stadium, Houston",
   "source_text": "Sat 12/7, 2pm @Houston NRG Stadium"
  },
  {
@@ -5252,7 +5261,7 @@
   "week": 5,
   "team1": "Denton Ryan",
   "team2": "Dallas Highland Park",
-  "site": "Frisco Ford Center",
+  "site": "Ford Center at the Star, Frisco",
   "source_text": "Fri 12/13, 7pm @Frisco Ford Center"
  },
  {
@@ -5270,7 +5279,7 @@
   "week": 6,
   "team1": "Dallas Highland Park",
   "team2": "Comal Smithson Valley",
-  "site": "AT&T Stadium Arlington",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "AT&T Stadium\nArlington, TX\nSat, Dec 21, 2024\n11:00 am"
  },
  {
@@ -5306,7 +5315,7 @@
   "week": 2,
   "team1": "Prosper Walnut Grove",
   "team2": "Lubbock Cooper",
-  "site": "Abilene Shotwell Stadium",
+  "site": "Shotwell Stadium, Abilene",
   "source_text": "Fri 11/22, 7pm @Abilene Shotwell Stadium"
  },
  {
@@ -5360,7 +5369,7 @@
   "week": 2,
   "team1": "Brenham",
   "team2": "Liberty Hill",
-  "site": "Plugerville Pfield",
+  "site": "The Pfield, Pflugerville",
   "source_text": "Fri 11/22, 7pm @Plugerville Pfield"
  },
  {
@@ -5441,7 +5450,7 @@
   "week": 3,
   "team1": "South Oak Cliff",
   "team2": "Marshall",
-  "site": "Tyler Rose Stadium",
+  "site": "Rose Stadium, Tyler",
   "source_text": "Fri 11/29, 7pm @Tyler Rose Stadium"
  },
  {
@@ -5468,7 +5477,7 @@
   "week": 3,
   "team1": "Fort Bend Marshall",
   "team2": "Iowa Colony",
-  "site": "Houston NRG Stadium",
+  "site": "NRG Stadium, Houston",
   "source_text": "Fri 11/29, 10am @Houston NRG Stadium"
  },
  {
@@ -5486,7 +5495,7 @@
   "week": 3,
   "team1": "Victoria West",
   "team2": "Boerne",
-  "site": "Seguin",
+  "site": "Matador Stadium, Seguin",
   "source_text": "Fri 11/29, 6pm @Seguin"
  },
  {
@@ -5513,7 +5522,7 @@
   "week": 4,
   "team1": "Richmond Randle",
   "team2": "Iowa Colony",
-  "site": "Houston NRG Stadium",
+  "site": "NRG Stadium, Houston",
   "source_text": "Sat 12/7, 6pm @Houston NRG Stadium"
  },
  {
@@ -5531,7 +5540,7 @@
   "week": 5,
   "team1": "Argyle",
   "team2": "South Oak Cliff",
-  "site": "Dallas Ford Stadium",
+  "site": "Gerald J. Ford Stadium (SMU), Dallas",
   "source_text": "Fri 12/13, 7pm @Dallas Ford Stadium"
  },
  {
@@ -5549,7 +5558,7 @@
   "week": 6,
   "team1": "South Oak Cliff",
   "team2": "Richmond Randle",
-  "site": "AT&T Stadium Arlington",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "AT&T Stadium\nArlington, TX\nFri, Dec 20, 2024\n7:00 pm"
  },
  {
@@ -5630,7 +5639,7 @@
   "week": 2,
   "team1": "Cypress Falls",
   "team2": "Katy High",
-  "site": "Houston Tully Stadium",
+  "site": "Tully Stadium, Houston",
   "source_text": "Fri 11/22, 7pm @Houston Tully Stadium"
  },
  {
@@ -5648,7 +5657,7 @@
   "week": 2,
   "team1": "Houston Lamar",
   "team2": "Lamar Fulshear",
-  "site": "Katy Rhodes Stadium",
+  "site": "Rhodes Stadium, Katy",
   "source_text": "Fri 11/22, 7pm @Katy Rhodes Stadium"
  },
  {
@@ -5666,7 +5675,7 @@
   "week": 2,
   "team1": "Austin Lake Travis",
   "team2": "San Antonio Johnson",
-  "site": "San Rattler Stadium",
+  "site": "Toyota Rattler Stadium, San Marcos",
   "source_text": "Fri 11/22, 7:30pm @San Marcos Rattler Stadium"
  },
  {
@@ -5738,7 +5747,7 @@
   "week": 3,
   "team1": "Katy High",
   "team2": "Galena Park North Shore",
-  "site": "Houston NRG Stadium",
+  "site": "NRG Stadium, Houston",
   "source_text": "Fri 11/29, 2pm @Houston NRG Stadium"
  },
  {
@@ -5747,7 +5756,7 @@
   "week": 3,
   "team1": "Lamar Fulshear",
   "team2": "Humble Atascocita",
-  "site": "Houston Thorne Stadium",
+  "site": "Thorne Stadium, Houston",
   "source_text": "Fri 11/29, 2pm @Houston Thorne Stadium"
  },
  {
@@ -5756,7 +5765,7 @@
   "week": 3,
   "team1": "Austin Lake Travis",
   "team2": "San Antonio East Central",
-  "site": "Seguin",
+  "site": "Matador Stadium, Seguin",
   "source_text": "Fri 11/29, 1pm @Seguin"
  },
  {
@@ -5792,7 +5801,7 @@
   "week": 4,
   "team1": "Galena Park North Shore",
   "team2": "Humble Atascocita",
-  "site": "Houston Thorne Stadium",
+  "site": "Thorne Stadium, Houston",
   "source_text": "Sat 12/7, 2pm @Houston Thorne Stadium"
  },
  {
@@ -5819,7 +5828,7 @@
   "week": 5,
   "team1": "Galena Park North Shore",
   "team2": "Austin Westlake",
-  "site": "Katy Legacy",
+  "site": "Legacy Stadium, Katy",
   "source_text": "Sat 12/14, 2pm @Katy Legacy"
  },
  {
@@ -5828,7 +5837,7 @@
   "week": 6,
   "team1": "North Crowley",
   "team2": "Austin Westlake",
-  "site": "AT&T Stadium Arlington",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "AT&T Stadium\nArlington, TX\nSat, Dec 21, 2024\n7:00 pm"
  },
  {
@@ -5837,7 +5846,7 @@
   "week": 2,
   "team1": "Midland High",
   "team2": "Crowley",
-  "site": "Abilene Shotwell Stadium",
+  "site": "Shotwell Stadium, Abilene",
   "source_text": "Sat 11/23, 6pm @ Abilene Shotwell Stadium"
  },
  {
@@ -5900,7 +5909,7 @@
   "week": 2,
   "team1": "The Woodlands College Park",
   "team2": "Spring Klein Collins",
-  "site": "Houston Thorne Stadium",
+  "site": "Thorne Stadium, Houston",
   "source_text": "Fri 11/22, 7pm @Houston Thorne Stadium"
  },
  {
@@ -5909,7 +5918,7 @@
   "week": 2,
   "team1": "Houston Stratford",
   "team2": "Fulshear Jordan",
-  "site": "Katy Legacy Stadium",
+  "site": "Legacy Stadium, Katy",
   "source_text": "Fri 11/22, 6:30pm, Katy Legacy Stadium"
  },
  {
@@ -5990,7 +5999,7 @@
   "week": 3,
   "team1": "Southlake Carroll",
   "team2": "Lewisville Hebron",
-  "site": "Irving Ellis Stadium",
+  "site": "Ellis Stadium, Irving",
   "source_text": "Fri 11/29, 2:30pm @Irving Ellis Stadium"
  },
  {
@@ -6017,7 +6026,7 @@
   "week": 3,
   "team1": "Fulshear Jordan",
   "team2": "Humble Summer Creek",
-  "site": "Houston NRG Stadium",
+  "site": "NRG Stadium, Houston",
   "source_text": "Fri 11/29, 6pm @Houston NRG Stadium"
  },
  {
@@ -6044,7 +6053,7 @@
   "week": 3,
   "team1": "San Antonio Harlan",
   "team2": "New Braunfels Canyon",
-  "site": "San Bobcat Stadium",
+  "site": "San Marco Bobcat Stadium",
   "source_text": "Fri 11/29, 1:30pm @San Marco Bobcat Stadium"
  },
  {
@@ -6080,7 +6089,7 @@
   "week": 4,
   "team1": "Leander Vandegrift",
   "team2": "San Antonio Harlan",
-  "site": "San Bobcat Stadium",
+  "site": "Bobcat Stadium (Texas State), San Marcos",
   "source_text": "Fri 12/6, 7:30pm @San Marcos Bobcat Stadium"
  },
  {
@@ -6089,7 +6098,7 @@
   "week": 5,
   "team1": "Southlake Carroll",
   "team2": "Longview",
-  "site": "Dallas Ford Stadium",
+  "site": "Gerald J. Ford Stadium (SMU), Dallas",
   "source_text": "Sat 12/14, 2pm @Dallas Ford Stadium"
  },
  {
@@ -6107,7 +6116,7 @@
   "week": 6,
   "team1": "Southlake Carroll",
   "team2": "Leander Vandegrift",
-  "site": "AT&T Stadium Arlington",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "AT&T Stadium\nArlington, TX\nSat, Dec 21, 2024\n3:00 pm"
  },
  {
@@ -6233,7 +6242,7 @@
   "week": 6,
   "team1": "Benjamin",
   "team2": "Loraine",
-  "site": "AT&T Stadium",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "(AT&T Stadium, Wednesday Dec 14 11am)"
  },
  {
@@ -6368,7 +6377,7 @@
   "week": 6,
   "team1": "Abbott",
   "team2": "Westbrook",
-  "site": "AT&T Stadium",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "(AT&T Stadium, Wednesday Dec 14 2pm)"
  },
  {
@@ -6386,7 +6395,7 @@
   "week": 2,
   "team1": "Wellington",
   "team2": "Sudan",
-  "site": "Amarillo Dick Bivins",
+  "site": "Dick Bivins Stadium, Amarillo",
   "source_text": "(@Amarillo Dick Bivins, Friday 7pm)"
  },
  {
@@ -6521,7 +6530,7 @@
   "week": 3,
   "team1": "Vega",
   "team2": "Wellington",
-  "site": "Canyon HSB Stadium",
+  "site": "Happy State Bank Stadium, Canyon",
   "source_text": "(@Canyon HSB Stadium, Friday 3pm)"
  },
  {
@@ -6575,7 +6584,7 @@
   "week": 3,
   "team1": "Burton",
   "team2": "Chilton",
-  "site": "Bryan Green Stadium",
+  "site": "Merrill Green Stadium, Bryan",
   "source_text": "(Bryan Green Stadium, Friday 7pm)"
  },
  {
@@ -6584,7 +6593,7 @@
   "week": 3,
   "team1": "Falls City",
   "team2": "Granger",
-  "site": "Seguin",
+  "site": "Matador Stadium, Seguin",
   "source_text": "(@Seguin, Friday 7pm)"
  },
  {
@@ -6593,7 +6602,7 @@
   "week": 4,
   "team1": "Wellington",
   "team2": "New Home",
-  "site": "Canyon HSB Stadium",
+  "site": "Happy State Bank Stadium, Canyon",
   "source_text": "(@Canyon HSB Stadium, Friday 7pm)"
  },
  {
@@ -6611,7 +6620,7 @@
   "week": 4,
   "team1": "Lovelady",
   "team2": "Mart",
-  "site": "College Station Tiger Stadium",
+  "site": "Tigerland Stadium, College Station",
   "source_text": "(@College Station Tiger Stadium, Friday 7pm)"
  },
  {
@@ -6647,7 +6656,7 @@
   "week": 6,
   "team1": "Mart",
   "team2": "Albany",
-  "site": "AT&T Stadium",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "(@AT&T Stadium, Wednesday Dec 14 7pm)"
  },
  {
@@ -6683,7 +6692,7 @@
   "week": 2,
   "team1": "Hawley",
   "team2": "Panhandle",
-  "site": "Lubbock Lowery Field",
+  "site": "Lowrey Field, Lubbock",
   "source_text": "(@Lubbock Lowery Field, Friday 3pm)"
  },
  {
@@ -6692,7 +6701,7 @@
   "week": 2,
   "team1": "Tolar",
   "team2": "Marlin",
-  "site": "FW Crowley",
+  "site": "Crowley ISD Multi-Purpose Stadium, Fort Worth",
   "source_text": "(@FW Crowley, Thursday 7pm)"
  },
  {
@@ -6762,6 +6771,15 @@
   "year": 2022,
   "classification": "2A D1",
   "week": 2,
+  "team1": "Flatonia",
+  "team2": "Three Rivers",
+  "site": "Marion",
+  "source_text": "(@Marion, Thursday 7pm)"
+ },
+ {
+  "year": 2022,
+  "classification": "2A D1",
+  "week": 2,
   "team1": "Mason",
   "team2": "Shiner",
   "site": "Hutto",
@@ -6773,7 +6791,7 @@
   "week": 2,
   "team1": "Refugio",
   "team2": "Holland",
-  "site": "San Antonio Heroes",
+  "site": "Heroes Stadium, San Antonio",
   "source_text": "(San Antonio Heroes, Thursday 7pm)"
  },
  {
@@ -6827,7 +6845,7 @@
   "week": 3,
   "team1": "Cooper",
   "team2": "Joaquin",
-  "site": "Tyler Rose Stadium",
+  "site": "Rose Stadium, Tyler",
   "source_text": "(@Tyler Rose Stadium, Friday 7pm)"
  },
  {
@@ -6890,7 +6908,7 @@
   "week": 4,
   "team1": "Shiner",
   "team2": "Refugio",
-  "site": "San Rattler Stadium",
+  "site": "Toyota Rattler Stadium, San Marcos",
   "source_text": "(@San Marcos Rattler Stadium, Friday 7pm)"
  },
  {
@@ -6917,7 +6935,7 @@
   "week": 6,
   "team1": "Hawley",
   "team2": "Refugio",
-  "site": "ATT&T Stadium",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "(@ATT&T Stadium, Thursday Dec 15, 11am)"
  },
  {
@@ -7034,7 +7052,7 @@
   "week": 2,
   "team1": "De Kalb",
   "team2": "Daingerfield",
-  "site": "Sulpher Springs",
+  "site": "Gerald Prim Stadium, Sulphur Springs",
   "source_text": "(@Sulpher Springs, Friday 7pm)"
  },
  {
@@ -7169,7 +7187,7 @@
   "week": 4,
   "team1": "Holliday",
   "team2": "Gunter",
-  "site": "Frisco Ford Center",
+  "site": "Ford Center at the Star, Frisco",
   "source_text": "(@Frisco Ford Center, Friday 7pm)"
  },
  {
@@ -7187,7 +7205,7 @@
   "week": 4,
   "team1": "Tidehaven",
   "team2": "Poth",
-  "site": "San Bobcat Stadium",
+  "site": "Bobcat Stadium (Texas State), San Marcos",
   "source_text": "(@San Marcos Bobcat Stadium, Friday 7pm)"
  },
  {
@@ -7196,7 +7214,7 @@
   "week": 5,
   "team1": "Canadian",
   "team2": "Gunter",
-  "site": "ACU",
+  "site": "Wildcat Stadium (ACU), Abilene",
   "source_text": "(@ACU, Friday 6pm)"
  },
  {
@@ -7214,7 +7232,7 @@
   "week": 6,
   "team1": "Poth",
   "team2": "Gunter",
-  "site": "ATT&T Stadium",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "(@ATT&T Stadium, Thursday Dec 15, 3pm)"
  },
  {
@@ -7241,7 +7259,7 @@
   "week": 2,
   "team1": "Jim Ned",
   "team2": "Bushland",
-  "site": "Lubbock Lowery Field",
+  "site": "Lowrey Field, Lubbock",
   "source_text": "(@Lubbock Lowery Field, Friday 7pm)"
  },
  {
@@ -7286,7 +7304,7 @@
   "week": 2,
   "team1": "Winnsboro",
   "team2": "Malakoff",
-  "site": "Tyler Rose",
+  "site": "Rose Stadium, Tyler",
   "source_text": "(@Tyler Rose, Friday 7:30pm)"
  },
  {
@@ -7358,7 +7376,7 @@
   "week": 2,
   "team1": "London",
   "team2": "Blanco",
-  "site": "San Antonio Colamander Stadium",
+  "site": "Comalander Stadium, San Antonio",
   "source_text": "(@San Antonio Colamander Stadium, Friday 7pm)"
  },
  {
@@ -7385,7 +7403,7 @@
   "week": 3,
   "team1": "Pottsboro",
   "team2": "Grandview",
-  "site": "Mesquite Memorial",
+  "site": "Mesquite Memorial Stadium, Mesquite",
   "source_text": "(@Mesquite Memorial, Friday 1pm)"
  },
  {
@@ -7421,7 +7439,7 @@
   "week": 3,
   "team1": "Vanderbilt Industrial",
   "team2": "Llano",
-  "site": "San Antonio Heroes",
+  "site": "Heroes Stadium, San Antonio",
   "source_text": "(@San Antonio Heroes, Friday 1pm)"
  },
  {
@@ -7430,7 +7448,7 @@
   "week": 3,
   "team1": "Blanco",
   "team2": "Edna",
-  "site": "San Antonio Farris Stadium",
+  "site": "Farris Stadium, San Antonio",
   "source_text": "(@San Antonio Farris Stadium, Friday 6pm)"
  },
  {
@@ -7439,7 +7457,7 @@
   "week": 4,
   "team1": "Whitesboro",
   "team2": "Brock",
-  "site": "Denton Collins Stadium",
+  "site": "C. H. Collins Complex, Denton",
   "source_text": "(@Denton Collins Stadium, Thursday 7pm)"
  },
  {
@@ -7466,7 +7484,7 @@
   "week": 4,
   "team1": "Llano",
   "team2": "Edna",
-  "site": "San Rattler Stadium",
+  "site": "Toyota Rattler Stadium, San Marcos",
   "source_text": "(@San Marcos Rattler Stadium, Thursday 7pm)"
  },
  {
@@ -7475,7 +7493,7 @@
   "week": 5,
   "team1": "Malakoff",
   "team2": "Brock",
-  "site": "Frisco Ford Center",
+  "site": "Ford Center at the Star, Frisco",
   "source_text": "(@Frisco Ford Center, Thursday 7pm)"
  },
  {
@@ -7484,7 +7502,7 @@
   "week": 5,
   "team1": "Edna",
   "team2": "Franklin",
-  "site": "Katy Legacy",
+  "site": "Legacy Stadium, Katy",
   "source_text": "(@Katy Legacy, Thursday 7pm)"
  },
  {
@@ -7493,7 +7511,7 @@
   "week": 6,
   "team1": "Brock",
   "team2": "Franklin",
-  "site": "ATT&T Stadium",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "(@ATT&T Stadium, Thursday Dec 15, 7pm)"
  },
  {
@@ -7511,7 +7529,7 @@
   "week": 2,
   "team1": "Seminole",
   "team2": "Godley",
-  "site": "McMurry University",
+  "site": "Wilford Moore Stadium (McMurry), Abilene",
   "source_text": "(@McMurry University, Thursday 7pm)"
  },
  {
@@ -7538,7 +7556,7 @@
   "week": 2,
   "team1": "Center",
   "team2": "Aubrey",
-  "site": "Tyler Rose Stadium",
+  "site": "Rose Stadium, Tyler",
   "source_text": "(@Tyler Rose Stadium, Saturday 6pm)"
  },
  {
@@ -7547,7 +7565,7 @@
   "week": 2,
   "team1": "Caddo Mills",
   "team2": "Texarkana Pleasant Grove",
-  "site": "Frisco Ford Center",
+  "site": "Ford Center at the Star, Frisco",
   "source_text": "(@Frisco Ford Center, Saturday 7pm)"
  },
  {
@@ -7556,7 +7574,7 @@
   "week": 2,
   "team1": "Gainesville",
   "team2": "Gilmer",
-  "site": "Mesquite Memorial",
+  "site": "Mesquite Memorial Stadium, Mesquite",
   "source_text": "(@Mesquite Memorial, Friday 7pm)"
  },
  {
@@ -7691,7 +7709,7 @@
   "week": 3,
   "team1": "Hamshire-Fannett",
   "team2": "Cuero",
-  "site": "Katy Legacy",
+  "site": "Legacy Stadium, Katy",
   "source_text": "(@Katy Legacy, Friday 6pm)"
  },
  {
@@ -7700,7 +7718,7 @@
   "week": 3,
   "team1": "Jarrell",
   "team2": "Wimberley",
-  "site": "Cedar Park Gupton Stadium",
+  "site": "Gupton Stadium, Cedar Park",
   "source_text": "(@Cedar Park Gupton Stadium, Friday 6pm)"
  },
  {
@@ -7727,7 +7745,7 @@
   "week": 4,
   "team1": "Texarkana Pleasant Grove",
   "team2": "Carthage",
-  "site": "Maverick Stadium",
+  "site": "Marshall Maverick Stadium",
   "source_text": "(@Marshall Maverick Stadium, Friday 7pm)"
  },
  {
@@ -7736,7 +7754,7 @@
   "week": 4,
   "team1": "Silsbee",
   "team2": "Cuero",
-  "site": "Houston NRG Stadium",
+  "site": "NRG Stadium, Houston",
   "source_text": "(@Houston NRG Stadium, Friday 1:30pm)"
  },
  {
@@ -7754,7 +7772,7 @@
   "week": 5,
   "team1": "Glen Rose",
   "team2": "Carthage",
-  "site": "Frisco Ford Center",
+  "site": "Ford Center at the Star, Frisco",
   "source_text": "(@Frisco Ford Center, Friday 7pm)"
  },
  {
@@ -7772,7 +7790,7 @@
   "week": 6,
   "team1": "Wimberley",
   "team2": "Carthage",
-  "site": "ATT&T Stadium",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "(@ATT&T Stadium, Friday Dec 16, 11am)"
  },
  {
@@ -7907,7 +7925,7 @@
   "week": 2,
   "team1": "La Vernia",
   "team2": "Somerset",
-  "site": "San Antonio Heroes",
+  "site": "Heroes Stadium, San Antonio",
   "source_text": "(@San Antonio Heroes, Friday 7pm)"
  },
  {
@@ -7925,7 +7943,7 @@
   "week": 3,
   "team1": "Brownwood",
   "team2": "Wichita Falls High",
-  "site": "ACU",
+  "site": "Wildcat Stadium (ACU), Abilene",
   "source_text": "(@ACU, Friday 7pm)"
  },
  {
@@ -7934,7 +7952,7 @@
   "week": 3,
   "team1": "Canyon Randall",
   "team2": "Decatur",
-  "site": "ACU",
+  "site": "Wildcat Stadium (ACU), Abilene",
   "source_text": "(@ACU, Friday 1pm)"
  },
  {
@@ -7970,7 +7988,7 @@
   "week": 3,
   "team1": "Lindale",
   "team2": "Kilgore",
-  "site": "Tyler Rose Stadium",
+  "site": "Rose Stadium, Tyler",
   "source_text": "(@Tyler Rose Stadium, Friday 1pm)"
  },
  {
@@ -7997,7 +8015,7 @@
   "week": 4,
   "team1": "Wichita Falls High",
   "team2": "Decatur",
-  "site": "Denton Collins Stadium",
+  "site": "C. H. Collins Complex, Denton",
   "source_text": "(@Denton Collins Stadium, Friday 7pm)"
  },
  {
@@ -8006,7 +8024,7 @@
   "week": 4,
   "team1": "Anna",
   "team2": "China Spring",
-  "site": "FW Crowley",
+  "site": "Crowley ISD Multi-Purpose Stadium, Fort Worth",
   "source_text": "(@FW Crowley, Friday 7:30pm)"
  },
  {
@@ -8015,7 +8033,7 @@
   "week": 4,
   "team1": "Kilgore",
   "team2": "Tyler Chapel Hill",
-  "site": "Tyler Rose",
+  "site": "Rose Stadium, Tyler",
   "source_text": "(@Tyler Rose, Friday 7pm)"
  },
  {
@@ -8051,7 +8069,7 @@
   "week": 6,
   "team1": "Boerne",
   "team2": "China Spring",
-  "site": "ATT&T Stadium",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "(@ATT&T Stadium, Friday Dec 16, 3pm)"
  },
  {
@@ -8087,7 +8105,7 @@
   "week": 2,
   "team1": "Abilene Cooper",
   "team2": "Grapevine",
-  "site": "FW Crowley",
+  "site": "Crowley ISD Multi-Purpose Stadium, Fort Worth",
   "source_text": "(@FW Crowley, Friday 7pm)"
  },
  {
@@ -8150,7 +8168,7 @@
   "week": 2,
   "team1": "Belton",
   "team2": "Brenham",
-  "site": "Bryan Green Stadium",
+  "site": "Merrill Green Stadium, Bryan",
   "source_text": "(@Bryan Green Stadium, Friday 7:30pm)"
  },
  {
@@ -8159,7 +8177,7 @@
   "week": 2,
   "team1": "Austin LBJ",
   "team2": "Port Neches-Groves",
-  "site": "Katy Rhodes Stadium",
+  "site": "Rhodes Stadium, Katy",
   "source_text": "(@Katy Rhodes Stadium, Friday 7:30pm)"
  },
  {
@@ -8231,7 +8249,7 @@
   "week": 3,
   "team1": "Terrell",
   "team2": "Melissa",
-  "site": "Frisco Ford Center",
+  "site": "Ford Center at the Star, Frisco",
   "source_text": "(@Frisco Ford Center, Friday 7pm)"
  },
  {
@@ -8249,7 +8267,7 @@
   "week": 3,
   "team1": "Brenham",
   "team2": "Port Neches-Groves",
-  "site": "Houston NRG Stadium",
+  "site": "NRG Stadium, Houston",
   "source_text": "(@Houston NRG Stadium, Friday 6pm)"
  },
  {
@@ -8303,7 +8321,7 @@
   "week": 4,
   "team1": "Corpus Christi Flour Bluff",
   "team2": "Liberty Hill",
-  "site": "San Antonio Farris Stadium",
+  "site": "Farris Stadium, San Antonio",
   "source_text": "(@San Antonio Farris Stadium, Friday 7pm)"
  },
  {
@@ -8321,7 +8339,7 @@
   "week": 5,
   "team1": "Liberty Hill",
   "team2": "Port Neches-Groves",
-  "site": "Katy Legacy",
+  "site": "Legacy Stadium, Katy",
   "source_text": "(@Katy Legacy, Friday 7pm)"
  },
  {
@@ -8330,7 +8348,7 @@
   "week": 6,
   "team1": "Port Neches-Groves",
   "team2": "South Oak Cliff",
-  "site": "ATT&T Stadium",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "(@ATT&T Stadium, Friday Dec 16, 7pm)"
  },
  {
@@ -8393,7 +8411,7 @@
   "week": 2,
   "team1": "Longview",
   "team2": "Frisco Lone Star",
-  "site": "Dallas Kincaide",
+  "site": "Kincaide Stadium, Dallas",
   "source_text": "(@Dallas Kincaide, Friday 7pm)"
  },
  {
@@ -8429,7 +8447,7 @@
   "week": 2,
   "team1": "Lamar Fulshear",
   "team2": "A&M Consolidated",
-  "site": "College Station Tiger Stadium",
+  "site": "Tigerland Stadium, College Station",
   "source_text": "(@College Station Tiger Stadium, Friday 7pm)"
  },
  {
@@ -8447,7 +8465,7 @@
   "week": 2,
   "team1": "San Antonio Southside",
   "team2": "McAllen",
-  "site": "Corpus Christi Danaher Stadium",
+  "site": "Danaher Stadium, Corpus Christi",
   "source_text": "(@Corpus Christi Danaher Stadium, Friday 7:30pm)"
  },
  {
@@ -8465,7 +8483,7 @@
   "week": 2,
   "team1": "Pharr-San Juan-Alamo North",
   "team2": "Corpus Christi Miller",
-  "site": "Corpus Christi Cabaniss Stadium",
+  "site": "Cabaniss Athletic Complex, Corpus Christi",
   "source_text": "(@Corpus Christi Cabaniss Stadium, Thursday 7pm)"
  },
  {
@@ -8474,7 +8492,7 @@
   "week": 2,
   "team1": "Brownsville Veterans Memorial",
   "team2": "Victoria West",
-  "site": "Corpus Christi Cabaniss Stadium",
+  "site": "Cabaniss Athletic Complex, Corpus Christi",
   "source_text": "(Corpus Christi Cabaniss Stadium, Thursday 7pm)"
  },
  {
@@ -8483,7 +8501,7 @@
   "week": 3,
   "team1": "Abilene High",
   "team2": "Burleson Centennial",
-  "site": "Arlington Choctaw",
+  "site": "Choctaw Stadium, Arlington",
   "source_text": "(@Arlington Choctaw, Friday 7:30pm)"
  },
  {
@@ -8528,7 +8546,7 @@
   "week": 3,
   "team1": "Lamar Fulshear",
   "team2": "Comal Smithson Valley",
-  "site": "Seguin",
+  "site": "Matador Stadium, Seguin",
   "source_text": "(@Seguin, Friday 1pm)"
  },
  {
@@ -8555,7 +8573,7 @@
   "week": 4,
   "team1": "Burleson Centennial",
   "team2": "Aledo",
-  "site": "Frisco Ford Center",
+  "site": "Ford Center at the Star, Frisco",
   "source_text": "(@Frisco Ford Center,  Saturday 2pm)"
  },
  {
@@ -8564,7 +8582,7 @@
   "week": 4,
   "team1": "Mansfield Timberview",
   "team2": "Longview",
-  "site": "Mesquite memorial",
+  "site": "Mesquite Memorial Stadium, Mesquite",
   "source_text": "(@Mesquite memorial, Friday 7pm)"
  },
  {
@@ -8573,7 +8591,7 @@
   "week": 4,
   "team1": "College Station",
   "team2": "Comal Smithson Valley",
-  "site": "Plugerville Pfield",
+  "site": "The Pfield, Pflugerville",
   "source_text": "(@Plugerville Pfield, Saturday 2pm)"
  },
  {
@@ -8609,7 +8627,7 @@
   "week": 6,
   "team1": "Aledo",
   "team2": "College Station",
-  "site": "ATT&T Stadium",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "(@ATT&T Stadium, Saturday Dec 17, 11am)"
  },
  {
@@ -8627,7 +8645,7 @@
   "week": 2,
   "team1": "Denton Guyer",
   "team2": "Dallas Highland Park",
-  "site": "Frisco Ford Center",
+  "site": "Ford Center at the Star, Frisco",
   "source_text": "(@Frisco Ford Center, Friday 7pm)"
  },
  {
@@ -8654,7 +8672,7 @@
   "week": 2,
   "team1": "DeSoto",
   "team2": "Rockwall-Heath",
-  "site": "Frisco Ford Center",
+  "site": "Ford Center at the Star, Frisco",
   "source_text": "(@Frisco Ford Center, Thursday 7pm)"
  },
  {
@@ -8690,7 +8708,7 @@
   "week": 2,
   "team1": "Katy High",
   "team2": "Houston Memorial",
-  "site": "Houston Tully Stadium",
+  "site": "Tully Stadium, Houston",
   "source_text": "(@Houston Tully Stadium, Friday 7pm)"
  },
  {
@@ -8753,7 +8771,7 @@
   "week": 2,
   "team1": "Harlingen",
   "team2": "San Antonio Warren",
-  "site": "San Antonio Farris Stadium",
+  "site": "Farris Stadium, San Antonio",
   "source_text": "(@San Antonio Farris Stadium, Friday 7pm)"
  },
  {
@@ -8762,7 +8780,7 @@
   "week": 3,
   "team1": "Byron Nelson",
   "team2": "Denton Guyer",
-  "site": "Frisco Ford Field",
+  "site": "Ford Center at the Star, Frisco",
   "source_text": "(@Frisco Ford Field, Saturday 2pm)"
  },
  {
@@ -8780,7 +8798,7 @@
   "week": 3,
   "team1": "DeSoto",
   "team2": "Tomball High",
-  "site": "Plugerville Pfield",
+  "site": "The Pfield, Pflugerville",
   "source_text": "(@Plugerville Pfield, Friday 4pm)"
  },
  {
@@ -8852,7 +8870,7 @@
   "week": 4,
   "team1": "Katy High",
   "team2": "Houston King",
-  "site": "Houston NRG Stadium",
+  "site": "NRG Stadium, Houston",
   "source_text": "(@Houston NRG Stadium, Friday 7pm)"
  },
  {
@@ -8870,7 +8888,7 @@
   "week": 5,
   "team1": "Denton Guyer",
   "team2": "DeSoto",
-  "site": "Frisco Ford Field",
+  "site": "Ford Center at the Star, Frisco",
   "source_text": "(@Frisco Ford Field, Saturday 2pm)"
  },
  {
@@ -8888,7 +8906,7 @@
   "week": 6,
   "team1": "DeSoto",
   "team2": "Austin Vandegrift",
-  "site": "ATT&T Stadium",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "(@ATT&T Stadium, Saturday Dec 17, 3pm)"
  },
  {
@@ -8924,7 +8942,7 @@
   "week": 2,
   "team1": "Lewisville",
   "team2": "Arlington Martin",
-  "site": "Dallas Ford Stadium",
+  "site": "Gerald J. Ford Stadium (SMU), Dallas",
   "source_text": "(@Dallas Ford Stadium, Friday 7pm)"
  },
  {
@@ -8987,7 +9005,7 @@
   "week": 2,
   "team1": "Houston Lamar",
   "team2": "Fort Bend Ridge Point",
-  "site": "Katy Legacy Stadium",
+  "site": "Legacy Stadium, Katy",
   "source_text": "(@Katy Legacy Stadium, Friday 7pm)"
  },
  {
@@ -9005,7 +9023,7 @@
   "week": 2,
   "team1": "Austin Lake Travis",
   "team2": "Cibolo Steele",
-  "site": "Pflugerville Pfield",
+  "site": "The Pfield, Pflugerville",
   "source_text": "(@Pflugerville Pfield, Friday 7pm)"
  },
  {
@@ -9023,7 +9041,7 @@
   "week": 2,
   "team1": "Austin Westlake",
   "team2": "New Braunfels",
-  "site": "San Rattler Stadium",
+  "site": "Toyota Rattler Stadium, San Marcos",
   "source_text": "(@San Marcos Rattler Stadium, Friday 7:30pm)"
  },
  {
@@ -9059,7 +9077,7 @@
   "week": 3,
   "team1": "Duncanville",
   "team2": "The Woodlands",
-  "site": "Plugerville Pfield",
+  "site": "The Pfield, Pflugerville",
   "source_text": "(@Plugerville Pfield, Saturday 3pm)"
  },
  {
@@ -9149,7 +9167,7 @@
   "week": 5,
   "team1": "Prosper",
   "team2": "Duncanville",
-  "site": "Dallas Ford Stadium",
+  "site": "Gerald J. Ford Stadium (SMU), Dallas",
   "source_text": "(@Dallas Ford Stadium, Saturday 4pm)"
  },
  {
@@ -9167,7 +9185,7 @@
   "week": 6,
   "team1": "Duncanville",
   "team2": "Galena Park North Shore",
-  "site": "ATT&T Stadium",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "(@ATT&T Stadium, Saturday Dec 17, 7pm)"
  },
  {
@@ -9356,7 +9374,7 @@
   "week": 2,
   "team1": "Medina",
   "team2": "May",
-  "site": "Falls Faith",
+  "site": "Marble Falls Faith",
   "source_text": "Fri 11/21 @Marble Falls Faith, 7pm"
  },
  {
@@ -9410,7 +9428,7 @@
   "week": 6,
   "team1": "Rankin",
   "team2": "Gordon",
-  "site": "AT&T Stadium Arlington",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "AT&T Stadium\nArlington, TX\nWed, Dec 17, 2025\n11:00 am"
  },
  {
@@ -9419,7 +9437,7 @@
   "week": 2,
   "team1": "West Texas Stinnett",
   "team2": "Hawley",
-  "site": "Lubbock Lowery Field",
+  "site": "Lowrey Field, Lubbock",
   "source_text": "Thur 11/20 @Lubbock Lowery Field, 6pm"
  },
  {
@@ -9518,7 +9536,7 @@
   "week": 2,
   "team1": "Jewett Leon",
   "team2": "Beckville",
-  "site": "Tyler Rose Stadium",
+  "site": "Rose Stadium, Tyler",
   "source_text": "Fri 11/21 @Tyler Rose Stadium, 7pm"
  },
  {
@@ -9536,7 +9554,7 @@
   "week": 2,
   "team1": "Mason",
   "team2": "Schulenburg",
-  "site": "Cedar Park Gupton Stadium",
+  "site": "Gupton Stadium, Cedar Park",
   "source_text": "Fri 11/21 @Cedar Park Gupton Stadium"
  },
  {
@@ -9572,7 +9590,7 @@
   "week": 3,
   "team1": "Spearman",
   "team2": "Cisco",
-  "site": "Lubbock Pirate Stadium",
+  "site": "Pirate Stadium, Lubbock",
   "source_text": "Fri 11/28 @Lubbock Pirate Stadium, 2pm"
  },
  {
@@ -9608,7 +9626,7 @@
   "week": 3,
   "team1": "San Augustine",
   "team2": "Beckville",
-  "site": "Tyler Rose Stadium",
+  "site": "Rose Stadium, Tyler",
   "source_text": "Fri 11/28 @Tyler Rose Stadium, 5pm"
  },
  {
@@ -9635,7 +9653,7 @@
   "week": 4,
   "team1": "West Texas Stinnett",
   "team2": "Cisco",
-  "site": "Lubbock Pirate Stadium",
+  "site": "Pirate Stadium, Lubbock",
   "source_text": "Fri 12/5 @Lubbock Pirate Stadium, 6pm"
  },
  {
@@ -9689,7 +9707,7 @@
   "week": 6,
   "team1": "Hamilton",
   "team2": "Joaquin",
-  "site": "AT&T Stadium Arlington",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "AT&T Stadium\nArlington, TX\nWed, Dec 17, 2025\n7:00 pm"
  },
  {
@@ -9941,7 +9959,7 @@
   "week": 6,
   "team1": "Muenster",
   "team2": "Shiner",
-  "site": "AT&T Stadium Arlington",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "AT&T Stadium\nArlington, TX\nThur, Dec 18, 2025\n11:00 am"
  },
  {
@@ -10058,7 +10076,7 @@
   "week": 2,
   "team1": "Llano",
   "team2": "London",
-  "site": "Converse Rutledge Stadium",
+  "site": "Rutledge Stadium, Converse",
   "source_text": "Fri 11/21 @Converse Rutledge Stadium, 7pm"
  },
  {
@@ -10220,7 +10238,7 @@
   "week": 6,
   "team1": "Grandview",
   "team2": "Yoakum",
-  "site": "AT&T Stadium Arlington",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "AT&T Stadium\nArlington, TX\nThur, Dec 18, 2025\n3:00 pm"
  },
  {
@@ -10265,7 +10283,7 @@
   "week": 2,
   "team1": "Holliday",
   "team2": "Leonard",
-  "site": "Denton Collins Stadium",
+  "site": "C. H. Collins Complex, Denton",
   "source_text": "Thur 11/20 @Denton Collins Stadium, 7pm"
  },
  {
@@ -10274,7 +10292,7 @@
   "week": 2,
   "team1": "Jacksboro",
   "team2": "Blue Ridge",
-  "site": "Denton Collins Stadium",
+  "site": "C. H. Collins Complex, Denton",
   "source_text": "Fri 11/21 @Denton Collins Stadium, 7pm"
  },
  {
@@ -10303,6 +10321,15 @@
   "team2": "Woodville",
   "site": "Rusj",
   "source_text": "Fri 11/21 @Rusj, 7pm"
+ },
+ {
+  "year": 2025,
+  "classification": "3A D2",
+  "week": 2,
+  "team1": "Daingerfield",
+  "team2": "Arp",
+  "site": "Marshall",
+  "source_text": "Fri 11/21 @Marshall, 7:30pm"
  },
  {
   "year": 2025,
@@ -10364,7 +10391,7 @@
   "week": 3,
   "team1": "Canadian",
   "team2": "Idalou",
-  "site": "Amarillo Dick Bivins",
+  "site": "Dick Bivins Stadium, Amarillo",
   "source_text": "Fri 11/28 @Amarillo Dick Bivins, 2pm"
  },
  {
@@ -10391,7 +10418,7 @@
   "week": 3,
   "team1": "Gunter",
   "team2": "Henrietta",
-  "site": "Denton Collins Stadium",
+  "site": "C. H. Collins Complex, Denton",
   "source_text": "Frin 11/28@Denton Collins Stadium, 2pm"
  },
  {
@@ -10418,7 +10445,7 @@
   "week": 3,
   "team1": "Blanco",
   "team2": "Tidehaven",
-  "site": "Seguin",
+  "site": "Matador Stadium, Seguin",
   "source_text": "Fri 11/28 @Seguin, 1pm"
  },
  {
@@ -10490,7 +10517,7 @@
   "week": 6,
   "team1": "Wall",
   "team2": "Newton",
-  "site": "AT&T Stadium Arlington",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "AT&T Stadium\nArlington, TX\nThur, Dec 18, 2025\n7:00 pm"
  },
  {
@@ -10706,7 +10733,7 @@
   "week": 3,
   "team1": "La Vernia",
   "team2": "Corpus Christi Calallen",
-  "site": "San Antonio Farris Stadium",
+  "site": "Farris Stadium, San Antonio",
   "source_text": "Fri 11/28 @San Antonio Farris Stadium, 7pm"
  },
  {
@@ -10715,7 +10742,7 @@
   "week": 4,
   "team1": "Canyon West Plains",
   "team2": "Stephenville",
-  "site": "Lubbock Lowery Field",
+  "site": "Lowrey Field, Lubbock",
   "source_text": "Fri 12/5 @Lubbock Lowery Field, 7pm"
  },
  {
@@ -10742,7 +10769,7 @@
   "week": 4,
   "team1": "San Antonio Davenport",
   "team2": "La Vernia",
-  "site": "San Antonio Comalander Stadium",
+  "site": "Comalander Stadium, San Antonio",
   "source_text": "Fri 12/5 @San Antonio Comalander Stadium"
  },
  {
@@ -10769,7 +10796,7 @@
   "week": 6,
   "team1": "Stephenville",
   "team2": "Kilgore",
-  "site": "AT&T Stadium Arlington",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "AT&T Stadium\nArlington, TX\nFri, Dec 19, 2025\n11:00 am"
  },
  {
@@ -10787,7 +10814,7 @@
   "week": 2,
   "team1": "Lubbock Liberty",
   "team2": "Graham",
-  "site": "Abilene Shotwell",
+  "site": "Shotwell Stadium, Abilene",
   "source_text": "Fri 11/21 @Abilene Shotwell, 6pm"
  },
  {
@@ -10823,7 +10850,7 @@
   "week": 2,
   "team1": "Sunnyvale",
   "team2": "Van",
-  "site": "Sulpher Springs",
+  "site": "Gerald Prim Stadium, Sulphur Springs",
   "source_text": "Fri 11/21 @Sulpher Springs, 7pm"
  },
  {
@@ -10904,7 +10931,7 @@
   "week": 2,
   "team1": "Sinton",
   "team2": "Jarrell",
-  "site": "San Antonio Comalander Stadium",
+  "site": "Comalander Stadium, San Antonio",
   "source_text": "Fri 11/21 @San Antonio Comalander Stadium, 7pm"
  },
  {
@@ -10985,7 +11012,7 @@
   "week": 3,
   "team1": "Sinton",
   "team2": "Wimberley",
-  "site": "San Antonio Comalander Stadium",
+  "site": "Comalander Stadium, San Antonio",
   "source_text": "Fri 11/28 @San Antonio Comalander Stadium, 7pm"
  },
  {
@@ -10994,7 +11021,7 @@
   "week": 4,
   "team1": "Midland Greenwood",
   "team2": "Brock",
-  "site": "ACU",
+  "site": "Wildcat Stadium (ACU), Abilene",
   "source_text": "Fri 12/5 @ACU, 7pm"
  },
  {
@@ -11003,7 +11030,7 @@
   "week": 4,
   "team1": "Athens",
   "team2": "Carthage",
-  "site": "Tyler Rose Stadium",
+  "site": "Rose Stadium, Tyler",
   "source_text": "Fri 12/5 @Tyler Rose Stadium, 7pm"
  },
  {
@@ -11030,7 +11057,7 @@
   "week": 5,
   "team1": "Brock",
   "team2": "Carthage",
-  "site": "Mesquite Memorial",
+  "site": "Mesquite Memorial Stadium, Mesquite",
   "source_text": "Fri 12/12 @Mesquite Memorial, 7pm"
  },
  {
@@ -11039,7 +11066,7 @@
   "week": 5,
   "team1": "West Orange-Stark",
   "team2": "Sinton",
-  "site": "Katy Rhodes Stadium",
+  "site": "Rhodes Stadium, Katy",
   "source_text": "Fri 12/12 @Katy Rhodes Stadium, 7pm"
  },
  {
@@ -11048,7 +11075,7 @@
   "week": 6,
   "team1": "Carthage",
   "team2": "West Orange-Stark",
-  "site": "AT&T Stadium Arlington",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "AT&T Stadium\nArlington, TX\nFri, Dec 19, 2025\n3:00 pm"
  },
  {
@@ -11084,7 +11111,7 @@
   "week": 2,
   "team1": "Fort Worth Arlington Heights",
   "team2": "Lubbock Monterey",
-  "site": "Abilene Shotwell",
+  "site": "Shotwell Stadium, Abilene",
   "source_text": "Thur 11/20 @Abilene Shotwell, 7pm"
  },
  {
@@ -11102,7 +11129,7 @@
   "week": 2,
   "team1": "West Mesquite",
   "team2": "Midlothian",
-  "site": "Mesquite Memorial",
+  "site": "Mesquite Memorial Stadium, Mesquite",
   "source_text": "Fri 11/21 @Mesquite Memorial, 7pm"
  },
  {
@@ -11111,7 +11138,7 @@
   "week": 2,
   "team1": "Dallas Highland Park",
   "team2": "Frisco Reedy",
-  "site": "Frisco Ford Center",
+  "site": "Ford Center at the Star, Frisco",
   "source_text": "Thur 11/20 @Frisco Ford Center, 7pm"
  },
  {
@@ -11219,7 +11246,7 @@
   "week": 3,
   "team1": "Frisco Lone Star",
   "team2": "West Mesquite",
-  "site": "Frisco Ford Center",
+  "site": "Ford Center at the Star, Frisco",
   "source_text": "Sat 11/29 @Frisco Ford Center, 2pm"
  },
  {
@@ -11228,7 +11255,7 @@
   "week": 3,
   "team1": "Dallas Highland Park",
   "team2": "Frisco Wakeland",
-  "site": "Frisco Ford Center",
+  "site": "Ford Center at the Star, Frisco",
   "source_text": "Fri 11/28 @Frisco Ford Center, 7pm"
  },
  {
@@ -11282,7 +11309,7 @@
   "week": 4,
   "team1": "Frisco Lone Star",
   "team2": "Dallas Highland Park",
-  "site": "Frisco Ford Center",
+  "site": "Ford Center at the Star, Frisco",
   "source_text": "Fri 12/5 @Frisco Ford Center, 7pm"
  },
  {
@@ -11318,7 +11345,7 @@
   "week": 5,
   "team1": "Port Arthur Memorial",
   "team2": "Comal Smithson Valley",
-  "site": "Katy Legacy Stadium",
+  "site": "Legacy Stadium, Katy",
   "source_text": "Fri 12/12 @Katy Legacy Stadium, 7pm"
  },
  {
@@ -11327,7 +11354,7 @@
   "week": 6,
   "team1": "Frisco Lone Star",
   "team2": "Comal Smithson Valley",
-  "site": "AT&T Stadium Arlington",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "AT&T Stadium\nArlington, TX\nFri, Dec 19, 2025\n7:00 pm"
  },
  {
@@ -11363,7 +11390,7 @@
   "week": 2,
   "team1": "Prosper Walnut Grove",
   "team2": "Lubbock Cooper",
-  "site": "ACU",
+  "site": "Wildcat Stadium (ACU), Abilene",
   "source_text": "Fri 11/21 @ACU, 3pm"
  },
  {
@@ -11417,7 +11444,7 @@
   "week": 2,
   "team1": "Waco University",
   "team2": "Bastrop",
-  "site": "UMHB",
+  "site": "Crusader Stadium, Belton",
   "source_text": "Sat 11/22 @UMHB, 2pm"
  },
  {
@@ -11516,7 +11543,7 @@
   "week": 3,
   "team1": "Brenham",
   "team2": "Iowa Colony",
-  "site": "Katy Legacy Stadium",
+  "site": "Legacy Stadium, Katy",
   "source_text": "Frin 11/28 @Katy Legacy Stadium, 7:30pm"
  },
  {
@@ -11525,7 +11552,7 @@
   "week": 3,
   "team1": "Boerne",
   "team2": "Gregory-Portland",
-  "site": "San Antonio Comalander Stadium",
+  "site": "Comalander Stadium, San Antonio",
   "source_text": "Fri 11/28 @San Antonio Comalander Stadium, 1pm"
  },
  {
@@ -11597,7 +11624,7 @@
   "week": 6,
   "team1": "South Oak Cliff",
   "team2": "Richmond Randle",
-  "site": "AT&T Stadium Arlington",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "AT&T Stadium\nArlington, TX\nSat, Dec 20, 2025\n11:00 am"
  },
  {
@@ -11606,7 +11633,7 @@
   "week": 2,
   "team1": "Midland Legacy",
   "team2": "North Crowley",
-  "site": "Abilene Shotwell",
+  "site": "Shotwell Stadium, Abilene",
   "source_text": "Sat 11/22 @Abilene Shotwell, 2pm"
  },
  {
@@ -11624,7 +11651,7 @@
   "week": 2,
   "team1": "Odessa Permian",
   "team2": "Mansfield Lake Ridge",
-  "site": "ACU",
+  "site": "Wildcat Stadium (ACU), Abilene",
   "source_text": "Fri 11/21 @ACU, 7pm"
  },
  {
@@ -11651,7 +11678,7 @@
   "week": 2,
   "team1": "The Woodlands",
   "team2": "Spring Klein Collins",
-  "site": "Houston Thorne Stadium",
+  "site": "Thorne Stadium, Houston",
   "source_text": "Sat 11/23 @Houston Thorne Stadium, TBD"
  },
  {
@@ -11678,7 +11705,7 @@
   "week": 2,
   "team1": "Cypress Falls",
   "team2": "Katy Cinco Ranch",
-  "site": "Katy Legacy Stadium",
+  "site": "Legacy Stadium, Katy",
   "source_text": "Fri 11/22 @Katy Legacy Stadium, 7pm"
  },
  {
@@ -11687,7 +11714,7 @@
   "week": 2,
   "team1": "Fort Bend Ridge Point",
   "team2": "Galena Park North Shore",
-  "site": "Houston Thorne Stadium",
+  "site": "Thorne Stadium, Houston",
   "source_text": "Fri 11/21 @Houston Thorne Stadium, 7pm"
  },
  {
@@ -11732,7 +11759,7 @@
   "week": 2,
   "team1": "Austin Lake Travis",
   "team2": "San Antonio Brennan",
-  "site": "Seguin",
+  "site": "Matador Stadium, Seguin",
   "source_text": "Fri 11/21 @Seguin, 7pm"
  },
  {
@@ -11759,7 +11786,7 @@
   "week": 3,
   "team1": "Odessa Permian",
   "team2": "Allen",
-  "site": "Abilene Shotwell",
+  "site": "Shotwell Stadium, Abilene",
   "source_text": "Fri 11/28 @Abilene Shotwell, 6pm"
  },
  {
@@ -11849,7 +11876,7 @@
   "week": 4,
   "team1": "San Antonio Johnson",
   "team2": "Austin Lake Travis",
-  "site": "San Bobcat Stadium",
+  "site": "Bobcat Stadium (Texas State), San Marcos",
   "source_text": "Fri 12/5 @San Marcos Bobcat Stadium, 7pm"
  },
  {
@@ -11858,7 +11885,7 @@
   "week": 5,
   "team1": "Allen",
   "team2": "Duncanville",
-  "site": "Mesquite Memorial",
+  "site": "Mesquite Memorial Stadium, Mesquite",
   "source_text": "Sat 12/13 @Mesquite Memorial, 3pm"
  },
  {
@@ -11867,7 +11894,7 @@
   "week": 5,
   "team1": "Galena Park North Shore",
   "team2": "Austin Lake Travis",
-  "site": "Houston Thorne Stadium",
+  "site": "Thorne Stadium, Houston",
   "source_text": "Sat 12/13 @Houston Thorne Stadium, 3pm"
  },
  {
@@ -11876,7 +11903,7 @@
   "week": 6,
   "team1": "Duncanville",
   "team2": "Galena Park North Shore",
-  "site": "AT&T Stadium Arlington",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "AT&T Stadium\nArlington, TX\nSat, Dec 20, 2025\n3:00 pm"
  },
  {
@@ -11894,7 +11921,7 @@
   "week": 2,
   "team1": "Denton Guyer",
   "team2": "Dallas Jesuit",
-  "site": "Irving Ellis Stadium",
+  "site": "Ellis Stadium, Irving",
   "source_text": "Fri 11/21 @Irving Ellis Stadium, 7pm"
  },
  {
@@ -11957,7 +11984,7 @@
   "week": 2,
   "team1": "Houston Memorial",
   "team2": "Katy High",
-  "site": "Houston Tully Stadium",
+  "site": "Tully Stadium, Houston",
   "source_text": "Fri 11/21 @Houston Tully Stadium, 7pm"
  },
  {
@@ -11975,7 +12002,7 @@
   "week": 2,
   "team1": "Houston Stratford",
   "team2": "Fulshear Jordan",
-  "site": "Houston Tully Stadium",
+  "site": "Tully Stadium, Houston",
   "source_text": "Sat 11/22 @Houston Tully Stadium, 1pm"
  },
  {
@@ -11993,7 +12020,7 @@
   "week": 2,
   "team1": "Austin Vandegrift",
   "team2": "San Antonio Brandeis",
-  "site": "San Rattler Stadium",
+  "site": "Toyota Rattler Stadium, San Marcos",
   "source_text": "Thur 11/20 @San Marcos Rattler Stadium, 7pm"
  },
  {
@@ -12020,7 +12047,7 @@
   "week": 2,
   "team1": "Medina Valley",
   "team2": "Harlingen",
-  "site": "Corpus Christi Cabaniss Stadium",
+  "site": "Cabaniss Athletic Complex, Corpus Christi",
   "source_text": "Fri 11/21 @Corpus Christi Cabaniss Stadium, 7pm"
  },
  {
@@ -12056,7 +12083,7 @@
   "week": 3,
   "team1": "Forney",
   "team2": "Willis",
-  "site": "Frisco Ford Center",
+  "site": "Ford Center at the Star, Frisco",
   "source_text": "Sat 11/29 @Frisco Ford Center, 7pm"
  },
  {
@@ -12065,7 +12092,7 @@
   "week": 3,
   "team1": "Katy High",
   "team2": "Humble Summer Creek",
-  "site": "Katy Legacy Stadium",
+  "site": "Legacy Stadium, Katy",
   "source_text": "Fri 11/28 @Katy Legacy Stadium, 2pm"
  },
  {
@@ -12074,7 +12101,7 @@
   "week": 3,
   "team1": "Fulshear Jordan",
   "team2": "Houston King",
-  "site": "Katy Rhodes Stadium",
+  "site": "Rhodes Stadium, Katy",
   "source_text": "Fri 11/28 @Katy Rhodes Stadium, 2pm"
  },
  {
@@ -12092,7 +12119,7 @@
   "week": 3,
   "team1": "Dripping Springs",
   "team2": "Medina Valley",
-  "site": "San Antonio Farris Stadium",
+  "site": "Farris Stadium, San Antonio",
   "source_text": "Fri 11/28 @San Antonio Farris Stadium, 2pm"
  },
  {
@@ -12119,7 +12146,7 @@
   "week": 4,
   "team1": "Humble Summer Creek",
   "team2": "Houston King",
-  "site": "Houston Thorne Stadium",
+  "site": "Thorne Stadium, Houston",
   "source_text": "Fri 12/5 @Houston Thorne Stadium, 7pm"
  },
  {
@@ -12146,7 +12173,7 @@
   "week": 6,
   "team1": "DeSoto",
   "team2": "Houston King",
-  "site": "AT&T Stadium Arlington",
+  "site": "AT&T Stadium, Arlington",
   "source_text": "AT&T Stadium\nArlington, TX\nSat, Dec 20, 2025\n7:00 pm"
  },
  {
