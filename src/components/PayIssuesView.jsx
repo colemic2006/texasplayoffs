@@ -48,7 +48,7 @@ export default function PayIssuesView() {
         <div style={{ fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.16em', textTransform:'uppercase', color:'var(--burnt)', marginBottom:8, fontWeight:700 }}>The most common issue</div>
         <div style={{ fontSize:14, color:'var(--ink)', lineHeight:1.65 }}>
           <p style={{ margin:'0 0 10px' }}>
-            Playoff officials are paid on a scale tied to the game's gate receipts: the bigger the gate, the higher the pay band.
+            Each official's varsity game fee is set by the game's <strong>gross gate receipts</strong>: the bigger the gate, the higher the pay band (see the scale below).
             The most common problem is a game played in front of <strong>packed stands</strong> that still pays the crew at the <strong>lowest band</strong>.
           </p>
           <p style={{ margin:0 }}>
@@ -56,6 +56,21 @@ export default function PayIssuesView() {
             <strong> season tickets and online sales</strong> as part of the gate receipts, even though <strong>UIL and the official pay sheet require them to be included</strong>.
             Leaving them out can drop a large crowd into the lowest pay band.
           </p>
+        </div>
+        <div style={{ marginTop:16 }}>
+          <div style={{ fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginBottom:6 }}>Varsity game fee, by gross gate receipts (from the pay sheet)</div>
+          <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(190px, 1fr))', gap:'4px 18px', fontSize:13, fontFamily:'var(--mono)', maxWidth:820 }}>
+            {[['$150 – $4,000', '$100'], ['$4,001 – $5,000', '$105'], ['$5,001 – $7,500', '$110'], ['$7,501 – $10,000', '$115'], ['$10,001 – $12,500', '$120'],
+              ['$12,501 – $15,000', '$125'], ['$15,001 – $17,500', '$140'], ['$17,501 – $20,500', '$150'], ['Each add\u2019l $5,000', '+ $45']].map(([g, f]) => (
+              <div key={g} style={{ display:'flex', justifyContent:'space-between', borderBottom:'1px dashed var(--border)', padding:'3px 0' }}>
+                <span style={{ color:'var(--mid)' }}>{g}</span><strong style={{ color:'var(--ink)', whiteSpace:'nowrap', marginLeft:8 }}>{f}</strong>
+              </div>
+            ))}
+          </div>
+          <div style={{ fontSize:12, color:'var(--ink)', background:'rgba(70,29,124,0.05)', borderRadius:6, padding:'10px 12px', marginTop:12, lineHeight:1.6 }}>
+            <strong>How UIL defines gross gate receipts:</strong> <em>“all ticket sales which would include walk-up ticket sales at the game site, ticket sales at the home school,
+            season ticket sales (pro-rated), tickets sales at visiting school and ticket sales at a third-party site, before any expenses are deducted.”</em>
+          </div>
         </div>
       </div>
 
