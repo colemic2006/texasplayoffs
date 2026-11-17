@@ -10,9 +10,9 @@
   {
    "name": "Abbott",
    "chapter": "WAC",
-   "lat": 31.88993,
-   "lng": -97.08708,
-   "at": "town"
+   "lat": 31.88264,
+   "lng": -97.07804,
+   "at": "stadium"
   },
   {
    "name": "Abernathy",
@@ -94,8 +94,8 @@
   {
    "name": "Aledo",
    "chapter": "FTW",
-   "lat": 32.71113,
-   "lng": -97.61621,
+   "lat": 32.71446,
+   "lng": -97.61642,
    "at": "stadium"
   },
   {
@@ -115,8 +115,8 @@
   {
    "name": "Allen",
    "chapter": "DAL",
-   "lat": 33.11407,
-   "lng": -96.65762,
+   "lat": 33.1141,
+   "lng": -96.65699,
    "at": "stadium"
   },
   {
@@ -136,9 +136,9 @@
   {
    "name": "Altair Rice",
    "chapter": "HOU",
-   "lat": 29.57211,
-   "lng": -96.4596,
-   "at": "town"
+   "lat": 29.55908,
+   "lng": -96.5074,
+   "at": "stadium"
   },
   {
    "name": "Alto",
@@ -178,15 +178,15 @@
   {
    "name": "Amarillo Caprock",
    "chapter": "AMA",
-   "lat": 35.20023,
-   "lng": -101.81035,
+   "lat": 35.20302,
+   "lng": -101.80093,
    "at": "stadium"
   },
   {
    "name": "Amarillo High",
    "chapter": "AMA",
-   "lat": 35.20023,
-   "lng": -101.81035,
+   "lat": 35.20302,
+   "lng": -101.80093,
    "at": "stadium"
   },
   {
@@ -199,8 +199,8 @@
   {
    "name": "Amarillo Palo Duro",
    "chapter": "AMA",
-   "lat": 35.20023,
-   "lng": -101.81035,
+   "lat": 35.20302,
+   "lng": -101.80093,
    "at": "stadium"
   },
   {
@@ -213,8 +213,8 @@
   {
    "name": "Amarillo Tascosa",
    "chapter": "AMA",
-   "lat": 35.20023,
-   "lng": -101.81035,
+   "lat": 35.20302,
+   "lng": -101.80093,
    "at": "stadium"
   },
   {
@@ -227,9 +227,9 @@
   {
    "name": "Anahuac",
    "chapter": "HOU",
-   "lat": 29.77133,
-   "lng": -94.67851,
-   "at": "town"
+   "lat": 29.77093,
+   "lng": -94.6781,
+   "at": "stadium"
   },
   {
    "name": "Anderson-Shiro",
@@ -360,9 +360,9 @@
   {
    "name": "Arp",
    "chapter": "TYL",
-   "lat": 32.22548,
-   "lng": -95.05903,
-   "at": "town"
+   "lat": 32.23087,
+   "lng": -95.05606,
+   "at": "stadium"
   },
   {
    "name": "Aspermont",
@@ -395,29 +395,29 @@
   {
    "name": "Austin Akins",
    "chapter": "AUS",
-   "lat": 30.23046,
-   "lng": -97.80975,
+   "lat": 30.23064,
+   "lng": -97.80864,
    "at": "stadium"
   },
   {
    "name": "Austin Anderson",
    "chapter": "AUS",
-   "lat": 30.23046,
-   "lng": -97.80975,
+   "lat": 30.23064,
+   "lng": -97.80864,
    "at": "stadium"
   },
   {
    "name": "Austin Bowie",
    "chapter": "AUS",
-   "lat": 30.23046,
-   "lng": -97.80975,
+   "lat": 30.23064,
+   "lng": -97.80864,
    "at": "stadium"
   },
   {
    "name": "Austin Crockett",
    "chapter": "AUS",
-   "lat": 30.23046,
-   "lng": -97.80975,
+   "lat": 30.23064,
+   "lng": -97.80864,
    "at": "stadium"
   },
   {
@@ -437,8 +437,8 @@
   {
    "name": "Austin Johnson",
    "chapter": "AUS",
-   "lat": 30.23046,
-   "lng": -97.80975,
+   "lat": 30.23064,
+   "lng": -97.80864,
    "at": "stadium"
   },
   {
@@ -500,8 +500,8 @@
   {
    "name": "Austin Travis",
    "chapter": "AUS",
-   "lat": 30.23046,
-   "lng": -97.80975,
+   "lat": 30.23064,
+   "lng": -97.80864,
    "at": "stadium"
   },
   {
@@ -598,9 +598,9 @@
   {
    "name": "Bastrop",
    "chapter": "AUS",
-   "lat": 30.19466,
-   "lng": -96.06024,
-   "at": "town"
+   "lat": 30.08716,
+   "lng": -97.50083,
+   "at": "stadium"
   },
   {
    "name": "Bastrop Cedar Creek",
@@ -612,9 +612,9 @@
   {
    "name": "Bay City",
    "chapter": "HOU",
-   "lat": 28.98276,
-   "lng": -95.9694,
-   "at": "town"
+   "lat": 28.97831,
+   "lng": -95.98609,
+   "at": "stadium"
   },
   {
    "name": "Baytown Goose Creek Memorial",
@@ -647,8 +647,8 @@
   {
    "name": "Beaumont United",
    "chapter": "HOU",
-   "lat": 30.02431,
-   "lng": -94.16539,
+   "lat": 30.08293,
+   "lng": -94.09843,
    "at": "stadium"
   },
   {
@@ -689,8 +689,8 @@
   {
    "name": "Belton",
    "chapter": "CTX",
-   "lat": 31.08697,
-   "lng": -97.46997,
+   "lat": 31.08767,
+   "lng": -97.47393,
    "at": "stadium"
   },
   {
@@ -703,9 +703,9 @@
   {
    "name": "Benjamin",
    "chapter": "NTX",
-   "lat": 33.58414,
-   "lng": -99.79144,
-   "at": "town"
+   "lat": 33.58239,
+   "lng": -99.78933,
+   "at": "stadium"
   },
   {
    "name": "Big Sandy",
@@ -836,16 +836,16 @@
   {
    "name": "Borden County",
    "chapter": "SPC",
-   "lat": 32.77053,
-   "lng": -101.44558,
-   "at": "town"
+   "lat": 32.77586,
+   "lng": -101.45098,
+   "at": "stadium"
   },
   {
    "name": "Borger",
    "chapter": "AMA",
-   "lat": 35.66898,
-   "lng": -101.39195,
-   "at": "town"
+   "lat": 35.6636,
+   "lng": -101.40538,
+   "at": "stadium"
   },
   {
    "name": "Bosqueville",
@@ -1004,44 +1004,44 @@
   {
    "name": "Brownsville Hanna",
    "chapter": "RGV",
-   "lat": 25.90243,
-   "lng": -97.49817,
-   "at": "town"
+   "lat": 25.91198,
+   "lng": -97.50727,
+   "at": "stadium"
   },
   {
    "name": "Brownsville Lopez",
    "chapter": "RGV",
-   "lat": 25.90243,
-   "lng": -97.49817,
-   "at": "town"
+   "lat": 25.91198,
+   "lng": -97.50727,
+   "at": "stadium"
   },
   {
    "name": "Brownsville Pace",
    "chapter": "RGV",
-   "lat": 25.90243,
-   "lng": -97.49817,
-   "at": "town"
+   "lat": 25.91198,
+   "lng": -97.50727,
+   "at": "stadium"
   },
   {
    "name": "Brownsville Porter",
    "chapter": "RGV",
-   "lat": 25.90243,
-   "lng": -97.49817,
-   "at": "town"
+   "lat": 25.91198,
+   "lng": -97.50727,
+   "at": "stadium"
   },
   {
    "name": "Brownsville Rivera",
    "chapter": "RGV",
-   "lat": 25.90243,
-   "lng": -97.49817,
-   "at": "town"
+   "lat": 25.91198,
+   "lng": -97.50727,
+   "at": "stadium"
   },
   {
    "name": "Brownsville Veterans Memorial",
    "chapter": "RGV",
-   "lat": 25.90243,
-   "lng": -97.49817,
-   "at": "town"
+   "lat": 25.91198,
+   "lng": -97.50727,
+   "at": "stadium"
   },
   {
    "name": "Brownwood",
@@ -1102,8 +1102,8 @@
   {
    "name": "Buda Johnson",
    "chapter": "AUS",
-   "lat": 30.06294,
-   "lng": -97.85685,
+   "lat": 30.03343,
+   "lng": -97.88928,
    "at": "stadium"
   },
   {
@@ -1123,9 +1123,9 @@
   {
    "name": "Bullard",
    "chapter": "TYL",
-   "lat": 32.1403,
-   "lng": -95.32219,
-   "at": "town"
+   "lat": 32.13129,
+   "lng": -95.31425,
+   "at": "stadium"
   },
   {
    "name": "Buna",
@@ -1151,16 +1151,16 @@
   {
    "name": "Burleson",
    "chapter": "FTW",
-   "lat": 32.54208,
-   "lng": -97.32085,
-   "at": "town"
+   "lat": 32.52869,
+   "lng": -97.34374,
+   "at": "stadium"
   },
   {
    "name": "Burleson Centennial",
    "chapter": "FTW",
-   "lat": 32.54208,
-   "lng": -97.32085,
-   "at": "town"
+   "lat": 32.52869,
+   "lng": -97.34374,
+   "at": "stadium"
   },
   {
    "name": "Burnet",
@@ -1277,8 +1277,8 @@
   {
    "name": "Canyon Randall",
    "chapter": "AMA",
-   "lat": 35.01197,
-   "lng": -101.91654,
+   "lat": 35.01237,
+   "lng": -101.91663,
    "at": "stadium"
   },
   {
@@ -1298,8 +1298,8 @@
   {
    "name": "Carrollton Creekview",
    "chapter": "DAL",
-   "lat": 32.94045,
-   "lng": -96.91416,
+   "lat": 32.94046,
+   "lng": -96.91459,
    "at": "stadium"
   },
   {
@@ -1319,8 +1319,8 @@
   {
    "name": "Carrollton Smith",
    "chapter": "DAL",
-   "lat": 32.94045,
-   "lng": -96.91416,
+   "lat": 32.94046,
+   "lng": -96.91459,
    "at": "stadium"
   },
   {
@@ -1361,8 +1361,8 @@
   {
    "name": "Cedar Park",
    "chapter": "AUS",
-   "lat": 30.51518,
-   "lng": -97.79196,
+   "lat": 30.51517,
+   "lng": -97.79197,
    "at": "stadium"
   },
   {
@@ -1606,15 +1606,15 @@
   {
    "name": "College Station",
    "chapter": "CSC",
-   "lat": 30.55707,
-   "lng": -96.28654,
+   "lat": 30.55584,
+   "lng": -96.28607,
    "at": "stadium"
   },
   {
    "name": "Colleyville Heritage",
    "chapter": "FTW",
-   "lat": 32.92082,
-   "lng": -97.11658,
+   "lat": 32.92058,
+   "lng": -97.11303,
    "at": "stadium"
   },
   {
@@ -1662,9 +1662,9 @@
   {
    "name": "Comanche",
    "chapter": "ABI",
-   "lat": 31.89756,
-   "lng": -98.60401,
-   "at": "town"
+   "lat": 31.91172,
+   "lng": -98.59236,
+   "at": "stadium"
   },
   {
    "name": "Comfort",
@@ -1676,9 +1676,9 @@
   {
    "name": "Commerce",
    "chapter": "DAL",
-   "lat": 33.24365,
-   "lng": -95.90269,
-   "at": "town"
+   "lat": 33.24382,
+   "lng": -95.91012,
+   "at": "stadium"
   },
   {
    "name": "Community",
@@ -1718,9 +1718,9 @@
   {
    "name": "Converse Judson",
    "chapter": "SAT",
-   "lat": 29.51801,
-   "lng": -98.31612,
-   "at": "town"
+   "lat": 29.50783,
+   "lng": -98.3054,
+   "at": "stadium"
   },
   {
    "name": "Coolidge",
@@ -1739,8 +1739,8 @@
   {
    "name": "Coppell",
    "chapter": "DAL",
-   "lat": 32.97558,
-   "lng": -96.99976,
+   "lat": 32.97576,
+   "lng": -97.00061,
    "at": "stadium"
   },
   {
@@ -1753,9 +1753,9 @@
   {
    "name": "Corpus Christi Calallen",
    "chapter": "STX",
-   "lat": 27.85831,
-   "lng": -97.63666,
-   "at": "stadium"
+   "lat": 27.76353,
+   "lng": -97.40332,
+   "at": "town"
   },
   {
    "name": "Corpus Christi Carroll",
@@ -1767,9 +1767,9 @@
   {
    "name": "Corpus Christi Flour Bluff",
    "chapter": "STX",
-   "lat": 27.76353,
-   "lng": -97.40332,
-   "at": "town"
+   "lat": 27.64831,
+   "lng": -97.29805,
+   "at": "stadium"
   },
   {
    "name": "Corpus Christi King",
@@ -1809,9 +1809,9 @@
   {
    "name": "Corsicana",
    "chapter": "TYL",
-   "lat": 32.09382,
-   "lng": -96.46467,
-   "at": "town"
+   "lat": 32.08265,
+   "lng": -96.52064,
+   "at": "stadium"
   },
   {
    "name": "Cotton Center",
@@ -2082,8 +2082,8 @@
   {
    "name": "Dallas Lake Highlands",
    "chapter": "DAL",
-   "lat": 32.88766,
-   "lng": -96.72594,
+   "lat": 32.88699,
+   "lng": -96.72915,
    "at": "stadium"
   },
   {
@@ -2257,9 +2257,9 @@
   {
    "name": "Denison",
    "chapter": "DAL",
-   "lat": 33.75566,
-   "lng": -96.53666,
-   "at": "town"
+   "lat": 33.75232,
+   "lng": -96.53924,
+   "at": "stadium"
   },
   {
    "name": "Denton",
@@ -2397,9 +2397,9 @@
   {
    "name": "Early",
    "chapter": "ABI",
-   "lat": 31.7421,
-   "lng": -98.94561,
-   "at": "town"
+   "lat": 31.74394,
+   "lng": -98.93369,
+   "at": "stadium"
   },
   {
    "name": "East Bernard",
@@ -2474,9 +2474,9 @@
   {
    "name": "El Campo",
    "chapter": "HOU",
-   "lat": 29.19664,
-   "lng": -96.26969,
-   "at": "town"
+   "lat": 29.20353,
+   "lng": -96.28374,
+   "at": "stadium"
   },
   {
    "name": "El Paso Americas",
@@ -2684,15 +2684,15 @@
   {
    "name": "Emory Rains",
    "chapter": "DAL",
-   "lat": 32.87457,
-   "lng": -95.76552,
-   "at": "town"
+   "lat": 32.88933,
+   "lng": -95.79148,
+   "at": "stadium"
   },
   {
    "name": "Ennis",
    "chapter": "TYL",
-   "lat": 32.30383,
-   "lng": -96.63297,
+   "lat": 32.30097,
+   "lng": -96.63282,
    "at": "stadium"
   },
   {
@@ -2824,9 +2824,9 @@
   {
    "name": "Ferris",
    "chapter": "DAL",
-   "lat": 32.53403,
-   "lng": -96.66555,
-   "at": "town"
+   "lat": 32.52933,
+   "lng": -96.64852,
+   "at": "stadium"
   },
   {
    "name": "Flatonia",
@@ -2845,9 +2845,9 @@
   {
    "name": "Floresville",
    "chapter": "SAT",
-   "lat": 29.13358,
-   "lng": -98.15612,
-   "at": "town"
+   "lat": 29.1451,
+   "lng": -98.15158,
+   "at": "stadium"
   },
   {
    "name": "Flower Mound",
@@ -2992,9 +2992,9 @@
   {
    "name": "Fort Stockton",
    "chapter": "PBC",
-   "lat": 30.8919,
-   "lng": -102.88366,
-   "at": "town"
+   "lat": 30.90406,
+   "lng": -102.89196,
+   "at": "stadium"
   },
   {
    "name": "Fort Worth Arlington Heights",
@@ -3279,8 +3279,8 @@
   {
    "name": "Galena Park",
    "chapter": "HOU",
-   "lat": 29.80614,
-   "lng": -95.17934,
+   "lat": 29.80828,
+   "lng": -95.17649,
    "at": "stadium"
   },
   {
@@ -3342,9 +3342,9 @@
   {
    "name": "Gatesville",
    "chapter": "CTX",
-   "lat": 31.43516,
-   "lng": -97.74391,
-   "at": "town"
+   "lat": 31.43283,
+   "lng": -97.72318,
+   "at": "stadium"
   },
   {
    "name": "Gateway Charter Academy",
@@ -3356,8 +3356,8 @@
   {
    "name": "George Ranch",
    "chapter": "HOU",
-   "lat": 29.56009,
-   "lng": -95.78011,
+   "lat": 29.55878,
+   "lng": -95.77925,
    "at": "stadium"
   },
   {
@@ -3370,16 +3370,16 @@
   {
    "name": "Georgetown",
    "chapter": "AUS",
-   "lat": 30.63702,
-   "lng": -97.67756,
-   "at": "town"
+   "lat": 30.66315,
+   "lng": -97.66241,
+   "at": "stadium"
   },
   {
    "name": "Georgetown East View",
    "chapter": "AUS",
-   "lat": 30.63702,
-   "lng": -97.67756,
-   "at": "town"
+   "lat": 30.66315,
+   "lng": -97.66241,
+   "at": "stadium"
   },
   {
    "name": "Geronimo Navarro",
@@ -3398,9 +3398,9 @@
   {
    "name": "Giddings",
    "chapter": "CSC",
-   "lat": 30.18305,
-   "lng": -96.93661,
-   "at": "town"
+   "lat": 30.1987,
+   "lng": -96.93241,
+   "at": "stadium"
   },
   {
    "name": "Gilmer",
@@ -3412,8 +3412,8 @@
   {
    "name": "Gladewater",
    "chapter": "TYL",
-   "lat": 32.54799,
-   "lng": -94.96537,
+   "lat": 32.54907,
+   "lng": -94.96618,
    "at": "stadium"
   },
   {
@@ -3545,8 +3545,8 @@
   {
    "name": "Grapevine",
    "chapter": "FTW",
-   "lat": 32.92082,
-   "lng": -97.11658,
+   "lat": 32.92058,
+   "lng": -97.11303,
    "at": "stadium"
   },
   {
@@ -3559,8 +3559,8 @@
   {
    "name": "Gregory-Portland",
    "chapter": "STX",
-   "lat": 27.89911,
-   "lng": -97.32469,
+   "lat": 27.90057,
+   "lng": -97.32297,
    "at": "stadium"
   },
   {
@@ -3622,15 +3622,15 @@
   {
    "name": "Hallettsville",
    "chapter": "HOU",
-   "lat": 29.44385,
-   "lng": -96.94109,
-   "at": "town"
+   "lat": 29.44719,
+   "lng": -96.9299,
+   "at": "stadium"
   },
   {
    "name": "Hallsville",
    "chapter": "TYL",
-   "lat": 32.48945,
-   "lng": -94.57248,
+   "lat": 32.48986,
+   "lng": -94.57205,
    "at": "stadium"
   },
   {
@@ -3657,9 +3657,9 @@
   {
    "name": "Hamlin",
    "chapter": "ABI",
-   "lat": 32.88468,
-   "lng": -100.12962,
-   "at": "town"
+   "lat": 32.87726,
+   "lng": -100.1323,
+   "at": "stadium"
   },
   {
    "name": "Hamshire-Fannett",
@@ -3671,9 +3671,9 @@
   {
    "name": "Happy",
    "chapter": "AMA",
-   "lat": 34.7451,
-   "lng": -101.85657,
-   "at": "town"
+   "lat": 34.74817,
+   "lng": -101.86174,
+   "at": "stadium"
   },
   {
    "name": "Hardin",
@@ -3825,8 +3825,8 @@
   {
    "name": "Hereford",
    "chapter": "AMA",
-   "lat": 34.83147,
-   "lng": -102.41338,
+   "lat": 34.83171,
+   "lng": -102.41263,
    "at": "stadium"
   },
   {
@@ -3839,16 +3839,16 @@
   {
    "name": "Hermleigh",
    "chapter": "ABI",
-   "lat": 32.63546,
-   "lng": -100.75913,
-   "at": "town"
+   "lat": 32.62637,
+   "lng": -100.75158,
+   "at": "stadium"
   },
   {
    "name": "Hico",
    "chapter": "CTX",
-   "lat": 31.98145,
-   "lng": -98.03085,
-   "at": "town"
+   "lat": 31.98804,
+   "lng": -98.03499,
+   "at": "stadium"
   },
   {
    "name": "High Island",
@@ -4161,9 +4161,9 @@
   {
    "name": "Huffman-Hargrave",
    "chapter": "HOU",
-   "lat": 30.02716,
-   "lng": -95.08576,
-   "at": "town"
+   "lat": 30.04636,
+   "lng": -95.06091,
+   "at": "stadium"
   },
   {
    "name": "Hughes Springs",
@@ -4182,23 +4182,23 @@
   {
    "name": "Humble",
    "chapter": "HOU",
-   "lat": 29.99883,
-   "lng": -95.26216,
-   "at": "town"
+   "lat": 29.98298,
+   "lng": -95.24569,
+   "at": "stadium"
   },
   {
    "name": "Humble Atascocita",
    "chapter": "HOU",
-   "lat": 29.99883,
-   "lng": -95.26216,
-   "at": "town"
+   "lat": 29.98298,
+   "lng": -95.24569,
+   "at": "stadium"
   },
   {
    "name": "Humble Kingwood",
    "chapter": "HOU",
-   "lat": 29.99883,
-   "lng": -95.26216,
-   "at": "town"
+   "lat": 29.98298,
+   "lng": -95.24569,
+   "at": "stadium"
   },
   {
    "name": "Humble Kingwood Park",
@@ -4210,9 +4210,9 @@
   {
    "name": "Humble Summer Creek",
    "chapter": "HOU",
-   "lat": 29.99883,
-   "lng": -95.26216,
-   "at": "town"
+   "lat": 29.98298,
+   "lng": -95.24569,
+   "at": "stadium"
   },
   {
    "name": "Huntington",
@@ -4224,9 +4224,9 @@
   {
    "name": "Huntsville",
    "chapter": "CSC",
-   "lat": 30.72353,
-   "lng": -95.55078,
-   "at": "town"
+   "lat": 30.74126,
+   "lng": -95.53675,
+   "at": "stadium"
   },
   {
    "name": "Hurst Bell",
@@ -4238,8 +4238,8 @@
   {
    "name": "Hutto",
    "chapter": "AUS",
-   "lat": 30.53093,
-   "lng": -97.56442,
+   "lat": 30.53822,
+   "lng": -97.55915,
    "at": "stadium"
   },
   {
@@ -4294,9 +4294,9 @@
   {
    "name": "Ira",
    "chapter": "ABI",
-   "lat": 32.58206,
-   "lng": -101.00206,
-   "at": "town"
+   "lat": 32.5805,
+   "lng": -101.00547,
+   "at": "stadium"
   },
   {
    "name": "Iraan",
@@ -4350,9 +4350,9 @@
   {
    "name": "Italy",
    "chapter": "DAL",
-   "lat": 32.18404,
-   "lng": -96.88472,
-   "at": "town"
+   "lat": 32.17954,
+   "lng": -96.87529,
+   "at": "stadium"
   },
   {
    "name": "Itasca",
@@ -4427,9 +4427,9 @@
   {
    "name": "Jim Ned",
    "chapter": "ABI",
-   "lat": 32.20799,
-   "lng": -99.79613,
-   "at": "town"
+   "lat": 32.21823,
+   "lng": -99.80112,
+   "at": "stadium"
   },
   {
    "name": "Joaquin",
@@ -4469,9 +4469,9 @@
   {
    "name": "Judson Veterans Memorial",
    "chapter": "SAT",
-   "lat": 29.51801,
-   "lng": -98.31612,
-   "at": "town"
+   "lat": 29.50783,
+   "lng": -98.3054,
+   "at": "stadium"
   },
   {
    "name": "Junction",
@@ -4567,8 +4567,8 @@
   {
    "name": "Kaufman",
    "chapter": "TYL",
-   "lat": 32.56556,
-   "lng": -96.31258,
+   "lat": 32.56554,
+   "lng": -96.31546,
    "at": "stadium"
   },
   {
@@ -4602,16 +4602,16 @@
   {
    "name": "Kemp",
    "chapter": "TYL",
-   "lat": 32.44264,
-   "lng": -96.22998,
-   "at": "town"
+   "lat": 32.4277,
+   "lng": -96.22732,
+   "at": "stadium"
   },
   {
    "name": "Kenedy",
    "chapter": "SAT",
-   "lat": 28.8162,
-   "lng": -97.84876,
-   "at": "town"
+   "lat": 28.828,
+   "lng": -97.85405,
+   "at": "stadium"
   },
   {
    "name": "Kennedale",
@@ -4875,8 +4875,8 @@
   {
    "name": "Lamar Fulshear",
    "chapter": "HOU",
-   "lat": 29.56009,
-   "lng": -95.78011,
+   "lat": 29.55878,
+   "lng": -95.77925,
    "at": "stadium"
   },
   {
@@ -5148,9 +5148,9 @@
   {
    "name": "Littlefield",
    "chapter": "SPC",
-   "lat": 33.91892,
-   "lng": -102.33284,
-   "at": "town"
+   "lat": 33.91465,
+   "lng": -102.31729,
+   "at": "stadium"
   },
   {
    "name": "Livingston",
@@ -5169,15 +5169,15 @@
   {
    "name": "Lockhart",
    "chapter": "AUS",
-   "lat": 29.88321,
-   "lng": -97.67363,
-   "at": "town"
+   "lat": 29.87084,
+   "lng": -97.67565,
+   "at": "stadium"
   },
   {
    "name": "Lockney",
    "chapter": "SPC",
-   "lat": 34.12401,
-   "lng": -101.43507,
+   "lat": 34.1235,
+   "lng": -101.43571,
    "at": "stadium"
   },
   {
@@ -5267,8 +5267,8 @@
   {
    "name": "Lubbock Cooper",
    "chapter": "SPC",
-   "lat": 33.44854,
-   "lng": -101.84958,
+   "lat": 33.449,
+   "lng": -101.84952,
    "at": "stadium"
   },
   {
@@ -5365,9 +5365,9 @@
   {
    "name": "Magnolia",
    "chapter": "HOU",
-   "lat": 30.20956,
-   "lng": -95.75079,
-   "at": "town"
+   "lat": 30.22816,
+   "lng": -95.68738,
+   "at": "stadium"
   },
   {
    "name": "Magnolia West",
@@ -5400,15 +5400,15 @@
   {
    "name": "Mansfield",
    "chapter": "FTW",
-   "lat": 32.57639,
-   "lng": -97.07697,
+   "lat": 32.57654,
+   "lng": -97.07702,
    "at": "stadium"
   },
   {
    "name": "Mansfield Lake Ridge",
    "chapter": "FTW",
-   "lat": 32.57639,
-   "lng": -97.07697,
+   "lat": 32.57654,
+   "lng": -97.07702,
    "at": "stadium"
   },
   {
@@ -5428,8 +5428,8 @@
   {
    "name": "Mansfield Timberview",
    "chapter": "FTW",
-   "lat": 32.57639,
-   "lng": -97.07697,
+   "lat": 32.57654,
+   "lng": -97.07702,
    "at": "stadium"
   },
   {
@@ -5491,9 +5491,9 @@
   {
    "name": "Mathis",
    "chapter": "STX",
-   "lat": 28.09429,
-   "lng": -97.82741,
-   "at": "town"
+   "lat": 28.08533,
+   "lng": -97.81448,
+   "at": "stadium"
   },
   {
    "name": "Maud",
@@ -5519,22 +5519,22 @@
   {
    "name": "McAllen",
    "chapter": "RGV",
-   "lat": 26.22384,
-   "lng": -98.23643,
+   "lat": 26.22388,
+   "lng": -98.2373,
    "at": "stadium"
   },
   {
    "name": "McAllen Memorial",
    "chapter": "RGV",
-   "lat": 26.22384,
-   "lng": -98.23643,
+   "lat": 26.22388,
+   "lng": -98.2373,
    "at": "stadium"
   },
   {
    "name": "McAllen Rowe",
    "chapter": "RGV",
-   "lat": 26.22384,
-   "lng": -98.23643,
+   "lat": 26.22388,
+   "lng": -98.2373,
    "at": "stadium"
   },
   {
@@ -5568,22 +5568,22 @@
   {
    "name": "McKinney Boyd",
    "chapter": "DAL",
-   "lat": 33.16984,
-   "lng": -96.66491,
+   "lat": 33.15742,
+   "lng": -96.66153,
    "at": "stadium"
   },
   {
    "name": "McKinney High",
    "chapter": "DAL",
-   "lat": 33.16984,
-   "lng": -96.66491,
+   "lat": 33.15742,
+   "lng": -96.66153,
    "at": "stadium"
   },
   {
    "name": "McKinney North",
    "chapter": "DAL",
-   "lat": 33.16984,
-   "lng": -96.66491,
+   "lat": 33.15742,
+   "lng": -96.66153,
    "at": "stadium"
   },
   {
@@ -5638,9 +5638,9 @@
   {
    "name": "Meridian",
    "chapter": "CTX",
-   "lat": 31.92473,
-   "lng": -97.65611,
-   "at": "town"
+   "lat": 31.92974,
+   "lng": -97.65537,
+   "at": "stadium"
   },
   {
    "name": "Merkel",
@@ -5743,9 +5743,9 @@
   {
    "name": "Miles",
    "chapter": "SAN",
-   "lat": 31.59738,
-   "lng": -100.18231,
-   "at": "town"
+   "lat": 31.60507,
+   "lng": -100.18859,
+   "at": "stadium"
   },
   {
    "name": "Milford",
@@ -5869,9 +5869,9 @@
   {
    "name": "Motley County",
    "chapter": "SPC",
-   "lat": 34.01202,
-   "lng": -100.82208,
-   "at": "town"
+   "lat": 34.00864,
+   "lng": -100.82605,
+   "at": "stadium"
   },
   {
    "name": "Mount Calm",
@@ -5939,9 +5939,9 @@
   {
    "name": "Navasota",
    "chapter": "CSC",
-   "lat": 30.3885,
-   "lng": -96.088,
-   "at": "town"
+   "lat": 30.39939,
+   "lng": -96.06777,
+   "at": "stadium"
   },
   {
    "name": "Nazareth",
@@ -5981,9 +5981,9 @@
   {
    "name": "New Braunfels",
    "chapter": "SAT",
-   "lat": 29.70283,
-   "lng": -98.12573,
-   "at": "town"
+   "lat": 29.71767,
+   "lng": -98.15189,
+   "at": "stadium"
   },
   {
    "name": "New Braunfels Canyon",
@@ -6002,9 +6002,9 @@
   {
    "name": "New Caney",
    "chapter": "HOU",
-   "lat": 30.10244,
-   "lng": -95.22966,
-   "at": "town"
+   "lat": 30.13614,
+   "lng": -95.23233,
+   "at": "stadium"
   },
   {
    "name": "New Caney Porter",
@@ -6135,9 +6135,9 @@
   {
    "name": "Oakwood",
    "chapter": "TYL",
-   "lat": 31.58509,
-   "lng": -95.84976,
-   "at": "town"
+   "lat": 31.58145,
+   "lng": -95.85097,
+   "at": "stadium"
   },
   {
    "name": "Odem",
@@ -6149,8 +6149,8 @@
   {
    "name": "Odessa",
    "chapter": "PBC",
-   "lat": 31.9127,
-   "lng": -102.3592,
+   "lat": 31.92073,
+   "lng": -102.3645,
    "at": "stadium"
   },
   {
@@ -6170,8 +6170,8 @@
   {
    "name": "Odessa Permian",
    "chapter": "PBC",
-   "lat": 31.9127,
-   "lng": -102.3592,
+   "lat": 31.92073,
+   "lng": -102.3645,
    "at": "stadium"
   },
   {
@@ -6226,9 +6226,9 @@
   {
    "name": "Ore City",
    "chapter": "TYL",
-   "lat": 32.80033,
-   "lng": -94.72124,
-   "at": "town"
+   "lat": 32.80784,
+   "lng": -94.72064,
+   "at": "stadium"
   },
   {
    "name": "Overton",
@@ -6282,15 +6282,15 @@
   {
    "name": "Palacios",
    "chapter": "HOU",
-   "lat": 28.70746,
-   "lng": -96.21756,
-   "at": "town"
+   "lat": 28.71235,
+   "lng": -96.23868,
+   "at": "stadium"
   },
   {
    "name": "Palestine",
    "chapter": "TYL",
-   "lat": 31.73851,
-   "lng": -95.63875,
+   "lat": 31.73979,
+   "lng": -95.60414,
    "at": "stadium"
   },
   {
@@ -6317,9 +6317,9 @@
   {
    "name": "Panhandle",
    "chapter": "AMA",
-   "lat": 35.34546,
-   "lng": -101.38066,
-   "at": "town"
+   "lat": 35.35267,
+   "lng": -101.38473,
+   "at": "stadium"
   },
   {
    "name": "Paradise",
@@ -6331,8 +6331,8 @@
   {
    "name": "Paris",
    "chapter": "COM",
-   "lat": 33.63356,
-   "lng": -95.52233,
+   "lat": 33.63295,
+   "lng": -95.51954,
    "at": "stadium"
   },
   {
@@ -6380,16 +6380,16 @@
   {
    "name": "Pearland",
    "chapter": "HOU",
-   "lat": 29.56398,
-   "lng": -95.28643,
-   "at": "town"
+   "lat": 29.5387,
+   "lng": -95.2672,
+   "at": "stadium"
   },
   {
    "name": "Pearland Dawson",
    "chapter": "HOU",
-   "lat": 29.56398,
-   "lng": -95.28643,
-   "at": "town"
+   "lat": 29.5387,
+   "lng": -95.2672,
+   "at": "stadium"
   },
   {
    "name": "Pearsall",
@@ -6450,8 +6450,8 @@
   {
    "name": "Pflugerville",
    "chapter": "AUS",
-   "lat": 30.44575,
-   "lng": -97.63307,
+   "lat": 30.44853,
+   "lng": -97.63443,
    "at": "stadium"
   },
   {
@@ -6464,15 +6464,15 @@
   {
    "name": "Pflugerville Hendrickson",
    "chapter": "AUS",
-   "lat": 30.44575,
-   "lng": -97.63307,
+   "lat": 30.44853,
+   "lng": -97.63443,
    "at": "stadium"
   },
   {
    "name": "Pflugerville Weiss",
    "chapter": "AUS",
-   "lat": 30.44575,
-   "lng": -97.63307,
+   "lat": 30.44853,
+   "lng": -97.63443,
    "at": "stadium"
   },
   {
@@ -6576,8 +6576,8 @@
   {
    "name": "Port Lavaca Calhoun",
    "chapter": "STX",
-   "lat": 28.61921,
-   "lng": -96.63706,
+   "lat": 28.62013,
+   "lng": -96.63753,
    "at": "stadium"
   },
   {
@@ -6590,9 +6590,9 @@
   {
    "name": "Post",
    "chapter": "SPC",
-   "lat": 33.19092,
-   "lng": -101.38066,
-   "at": "town"
+   "lat": 33.18768,
+   "lng": -101.38277,
+   "at": "stadium"
   },
   {
    "name": "Poteet",
@@ -6737,8 +6737,8 @@
   {
    "name": "Rankin",
    "chapter": "PBC",
-   "lat": 31.22563,
-   "lng": -101.94157,
+   "lat": 31.23117,
+   "lng": -101.94172,
    "at": "stadium"
   },
   {
@@ -6800,8 +6800,8 @@
   {
    "name": "Richardson Berkner",
    "chapter": "DAL",
-   "lat": 32.88766,
-   "lng": -96.72594,
+   "lat": 32.88699,
+   "lng": -96.72915,
    "at": "stadium"
   },
   {
@@ -6821,8 +6821,8 @@
   {
    "name": "Richmond Foster",
    "chapter": "HOU",
-   "lat": 29.56009,
-   "lng": -95.78011,
+   "lat": 29.55878,
+   "lng": -95.77925,
    "at": "stadium"
   },
   {
@@ -6954,8 +6954,8 @@
   {
    "name": "Rockwall High",
    "chapter": "DAL",
-   "lat": 32.91749,
-   "lng": -96.45063,
+   "lat": 32.91663,
+   "lng": -96.44667,
    "at": "stadium"
   },
   {
@@ -6989,9 +6989,9 @@
   {
    "name": "Roscoe",
    "chapter": "ABI",
-   "lat": 32.44161,
-   "lng": -100.5393,
-   "at": "town"
+   "lat": 32.43729,
+   "lng": -100.54252,
+   "at": "stadium"
   },
   {
    "name": "Rosebud-Lott",
@@ -7024,16 +7024,16 @@
   {
    "name": "Round Rock",
    "chapter": "AUS",
-   "lat": 30.50859,
-   "lng": -97.67881,
-   "at": "town"
+   "lat": 30.50715,
+   "lng": -97.69613,
+   "at": "stadium"
   },
   {
    "name": "Round Rock Cedar Ridge",
    "chapter": "AUS",
-   "lat": 30.50859,
-   "lng": -97.67881,
-   "at": "town"
+   "lat": 30.50715,
+   "lng": -97.69613,
+   "at": "stadium"
   },
   {
    "name": "Round Rock McNeil",
@@ -7045,9 +7045,9 @@
   {
    "name": "Round Rock Stony Point",
    "chapter": "AUS",
-   "lat": 30.50859,
-   "lng": -97.67881,
-   "at": "town"
+   "lat": 30.50715,
+   "lng": -97.69613,
+   "at": "stadium"
   },
   {
    "name": "Round Rock Westwood",
@@ -7486,9 +7486,9 @@
   {
    "name": "San Diego",
    "chapter": "STX",
-   "lat": 27.76391,
-   "lng": -98.2389,
-   "at": "town"
+   "lat": 27.74251,
+   "lng": -98.24838,
+   "at": "stadium"
   },
   {
    "name": "San Elizario",
@@ -7507,9 +7507,9 @@
   {
    "name": "San Saba",
    "chapter": "AUS",
-   "lat": 31.19538,
-   "lng": -98.72283,
-   "at": "town"
+   "lat": 31.19669,
+   "lng": -98.72287,
+   "at": "stadium"
   },
   {
    "name": "Sanderson",
@@ -7535,9 +7535,9 @@
   {
    "name": "Sanger",
    "chapter": "DAL",
-   "lat": 33.36317,
-   "lng": -97.1739,
-   "at": "town"
+   "lat": 33.36827,
+   "lng": -97.15823,
+   "at": "stadium"
   },
   {
    "name": "Santa Anna",
@@ -7731,15 +7731,15 @@
   {
    "name": "Slaton",
    "chapter": "SPC",
-   "lat": 33.43437,
-   "lng": -101.64352,
-   "at": "town"
+   "lat": 33.44043,
+   "lng": -101.65311,
+   "at": "stadium"
   },
   {
    "name": "Smithville",
    "chapter": "AUS",
-   "lat": 29.99529,
-   "lng": -97.16423,
+   "lat": 30.05413,
+   "lng": -97.21724,
    "at": "stadium"
   },
   {
@@ -7780,9 +7780,9 @@
   {
    "name": "Sonora",
    "chapter": "SAN",
-   "lat": 30.56673,
-   "lng": -100.64286,
-   "at": "town"
+   "lat": 30.5577,
+   "lng": -100.64097,
+   "at": "stadium"
   },
   {
    "name": "South Garland",
@@ -7850,9 +7850,9 @@
   {
    "name": "Spring",
    "chapter": "HOU",
-   "lat": 30.07957,
-   "lng": -95.41879,
-   "at": "town"
+   "lat": 30.05383,
+   "lng": -95.42881,
+   "at": "stadium"
   },
   {
    "name": "Spring Dekaney",
@@ -7878,9 +7878,9 @@
   {
    "name": "Spring Westfield",
    "chapter": "HOU",
-   "lat": 30.07957,
-   "lng": -95.41879,
-   "at": "town"
+   "lat": 30.05383,
+   "lng": -95.42881,
+   "at": "stadium"
   },
   {
    "name": "Springlake-Earth",
@@ -7927,9 +7927,9 @@
   {
    "name": "Stephenville",
    "chapter": "FTW",
-   "lat": 32.22014,
-   "lng": -98.20454,
-   "at": "town"
+   "lat": 32.21503,
+   "lng": -98.22355,
+   "at": "stadium"
   },
   {
    "name": "Sterling City",
@@ -7955,9 +7955,9 @@
   {
    "name": "Strawn",
    "chapter": "FTW",
-   "lat": 32.55207,
-   "lng": -98.49811,
-   "at": "town"
+   "lat": 32.55036,
+   "lng": -98.50581,
+   "at": "stadium"
   },
   {
    "name": "Sudan",
@@ -7976,9 +7976,9 @@
   {
    "name": "Sundown",
    "chapter": "SPC",
-   "lat": 33.45621,
-   "lng": -102.48936,
-   "at": "town"
+   "lat": 33.46002,
+   "lng": -102.48571,
+   "at": "stadium"
   },
   {
    "name": "Sunnyvale",
@@ -8032,9 +8032,9 @@
   {
    "name": "Tatum",
    "chapter": "TYL",
-   "lat": 32.31505,
-   "lng": -94.51637,
-   "at": "town"
+   "lat": 32.32196,
+   "lng": -94.51507,
+   "at": "stadium"
   },
   {
    "name": "Taylor",
@@ -8053,8 +8053,8 @@
   {
    "name": "Temple",
    "chapter": "CTX",
-   "lat": 31.10685,
-   "lng": -97.35334,
+   "lat": 31.10469,
+   "lng": -97.35498,
    "at": "stadium"
   },
   {
@@ -8074,9 +8074,9 @@
   {
    "name": "Texarkana Pleasant Grove",
    "chapter": "TYL",
-   "lat": 33.44667,
-   "lng": -94.07658,
-   "at": "town"
+   "lat": 33.4678,
+   "lng": -94.11158,
+   "at": "stadium"
   },
   {
    "name": "Texarkana Texas",
@@ -8263,9 +8263,9 @@
   {
    "name": "Tulia",
    "chapter": "SPC",
-   "lat": 34.53906,
-   "lng": -101.76778,
-   "at": "town"
+   "lat": 34.54004,
+   "lng": -101.75666,
+   "at": "stadium"
   },
   {
    "name": "Turkey Valley",
@@ -8340,9 +8340,9 @@
   {
    "name": "Van",
    "chapter": "TYL",
-   "lat": 32.52491,
-   "lng": -95.63773,
-   "at": "town"
+   "lat": 32.54254,
+   "lng": -95.63912,
+   "at": "stadium"
   },
   {
    "name": "Van Alstyne",
@@ -8410,15 +8410,15 @@
   {
    "name": "Victoria East",
    "chapter": "STX",
-   "lat": 28.82518,
-   "lng": -96.97605,
+   "lat": 28.82609,
+   "lng": -96.97138,
    "at": "stadium"
   },
   {
    "name": "Victoria West",
    "chapter": "STX",
-   "lat": 28.82518,
-   "lng": -96.97605,
+   "lat": 28.82609,
+   "lng": -96.97138,
    "at": "stadium"
   },
   {
@@ -8718,9 +8718,9 @@
   {
    "name": "Whitney",
    "chapter": "WAC",
-   "lat": 31.95182,
-   "lng": -97.3214,
-   "at": "town"
+   "lat": 31.96937,
+   "lng": -97.32452,
+   "at": "stadium"
   },
   {
    "name": "Wichita Christian",
@@ -8739,15 +8739,15 @@
   {
    "name": "Wichita Falls High",
    "chapter": "NTX",
-   "lat": 33.85787,
-   "lng": -98.57787,
+   "lat": 33.85419,
+   "lng": -98.58251,
    "at": "stadium"
   },
   {
    "name": "Wichita Falls Hirschi",
    "chapter": "NTX",
-   "lat": 33.85787,
-   "lng": -98.57787,
+   "lat": 33.85419,
+   "lng": -98.58251,
    "at": "stadium"
   },
   {
@@ -8760,8 +8760,8 @@
   {
    "name": "Wichita Falls Memorial",
    "chapter": "NTX",
-   "lat": 33.85787,
-   "lng": -98.57787,
+   "lat": 33.85419,
+   "lng": -98.58251,
    "at": "stadium"
   },
   {
@@ -8837,9 +8837,9 @@
   {
    "name": "Winters",
    "chapter": "ABI",
-   "lat": 31.95769,
-   "lng": -99.96283,
-   "at": "town"
+   "lat": 31.96718,
+   "lng": -99.96013,
+   "at": "stadium"
   },
   {
    "name": "Wolfe City",
