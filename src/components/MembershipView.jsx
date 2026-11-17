@@ -85,12 +85,79 @@ export default function MembershipView() {
         </table>
       </div>
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8 }}>{d.source}.</div>
+      {d.history && <MembershipHistory d={d} th={th} td={td} />}
       {st && <MembershipStats st={st} th={th} td={td} />}
     </div>
   )
 }
 
 const name = c => NAMES[c] || c
+
+// membership in earlier seasons beside this one. East Texas (ETX) later folded into Tyler, so
+// Tyler's change is measured against both chapters' earlier counts.
+const MERGED = { ETX: 'TYL' }
+function MembershipHistory({ d, th, td }) {
+  const years = Object.keys(d.history).sort()
+  const first = years[0]
+  const past = (y, c) => {
+    const h = d.history[y] || {}
+    if (h[c] == null && !Object.values(MERGED).includes(c)) return null
+    return (h[c] || 0) + Object.entries(MERGED).filter(([, to]) => to === c).reduce((t, [from]) => t + (h[from] || 0), 0)
+  }
+  const rows = Object.entries(d.members).sort((a, b) => b[1] - a[1])
+  const total = y => Object.values(d.history[y]).reduce((t, n) => t + n, 0)
+  const now = rows.reduce((t, [, n]) => t + n, 0)
+  const change = (a, b) => {
+    if (a == null) return <><td style={td}>—</td><td style={td}>—</td></>
+    const diff = b - a, pc = 100 * diff / a
+    const col = diff > 0 ? 'var(--sage)' : diff < 0 ? 'var(--burnt)' : 'var(--mid)'
+    return <><td style={{ ...td, color:col, fontWeight:600 }}>{diff > 0 ? '+' : ''}{diff}</td>
+      <td style={{ ...td, color:col }}>{diff > 0 ? '+' : ''}{pc.toFixed(1)}%</td></>
+  }
+  const merged = Object.keys(MERGED).filter(c => years.some(y => d.history[y][c] != null))
+  return (
+    <Section label="Over time" title={`Membership, ${years.join(', ')} vs ${d.season}`}
+      intro={`How each chapter's football membership has changed since ${first}. Green is growth, red is a decline.`}
+      note={d.history_note}>
+      <table style={{ width:'100%', borderCollapse:'collapse' }}>
+        <thead><tr>
+          <th style={{ ...th, textAlign:'left' }}>Chapter</th>
+          {years.map(y => <th key={y} style={th}>{y}</th>)}
+          <th style={th}>{d.season}</th><th style={th}>Change</th><th style={th}>% change</th>
+        </tr></thead>
+        <tbody>
+          {rows.map(([c, n]) => (
+            <tr key={c}>
+              <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans' }}><Dot c={c} />{name(c)}
+                <span style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginLeft:4 }}>{c}</span></td>
+              {years.map(y => {
+                const v = past(y, c), parts = Object.entries(MERGED).filter(([f, to]) => to === c && d.history[y][f] != null)
+                return <td key={y} style={td} title={parts.length ? `${d.history[y][c] || 0} ${c} + ${parts.map(([f]) => `${d.history[y][f]} ${f}`).join(' + ')}` : undefined}>
+                  {v == null ? '—' : v.toLocaleString()}{parts.length > 0 && <span style={{ color:'var(--mid)', fontSize:10 }}> *</span>}</td>
+              })}
+              <td style={{ ...td, fontWeight:600 }}>{n.toLocaleString()}</td>
+              {change(past(first, c), n)}
+            </tr>
+          ))}
+          {merged.map(c => (
+            <tr key={c}>
+              <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans', color:'var(--mid)' }}>East Texas
+                <span style={{ fontFamily:'var(--mono)', fontSize:10, marginLeft:4 }}>{c}</span></td>
+              {years.map(y => <td key={y} style={{ ...td, color:'var(--mid)' }}>{d.history[y][c] ?? '—'}</td>)}
+              <td colSpan={3} style={{ ...td, color:'var(--mid)', fontSize:11 }}>folded into {name(MERGED[c])}</td>
+            </tr>
+          ))}
+          <tr>
+            <td style={{ ...td, textAlign:'left', fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.1em', textTransform:'uppercase', color:'var(--mid)' }}>Total</td>
+            {years.map(y => <td key={y} style={{ ...td, fontWeight:700 }}>{total(y).toLocaleString()}</td>)}
+            <td style={{ ...td, fontWeight:700 }}>{now.toLocaleString()}</td>
+            {change(total(first), now)}
+          </tr>
+        </tbody>
+      </table>
+    </Section>
+  )
+}
 const Dot = ({ c }) => <span style={{ display:'inline-block', width:9, height:9, borderRadius:2, background:chapterColor(c), marginRight:8 }} />
 const fmt1 = n => (Math.round(n * 10) / 10).toFixed(1)
 

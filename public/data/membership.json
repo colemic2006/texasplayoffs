@@ -24,5 +24,33 @@
   "SFA": 85,
   "TYL": 348,
   "WAC": 141
- }
+ },
+ "history": {
+  "2022": {
+   "ABI": 112,
+   "AMA": 124,
+   "AUS": 445,
+   "BEA": 91,
+   "COM": 78,
+   "STX": 196,
+   "CSC": 127,
+   "CTX": 111,
+   "DAL": 700,
+   "ELP": 203,
+   "ETX": 153,
+   "FTW": 542,
+   "HOU": 1147,
+   "NTX": 113,
+   "PBC": 119,
+   "PVC": 49,
+   "RGV": 332,
+   "SAT": 474,
+   "SFA": 83,
+   "SAN": 69,
+   "SPC": 204,
+   "TYL": 197,
+   "WAC": 137
+  }
+ },
+ "history_note": "2022: East Texas (ETX) was its own chapter; it has since been folded into Tyler, so the 2022 Tyler comparison counts both."
 }
