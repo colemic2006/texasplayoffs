@@ -53,52 +53,42 @@ def cls_of(title):
 
 
 def find_brackets(year):
-    """{class: bracket URL} for the season, from archived UIL pages and links between brackets."""
+    """{class: bracket URL} for the season, from archived copies of UIL's bracket pages."""
     found = state.setdefault('brackets', {}).setdefault(str(year), {})
-    seeds = []
+    if len(found) == len(CLASSES):
+        return found
+    # one search for every archived UIL bracket page that season (the archive refuses rapid requests)
+    try:
+        rows = json.loads(get(f'https://web.archive.org/cdx/search/cdx?url=uiltexas.org/football/playoff-brackets/'
+                              f'&matchType=prefix&from={year}11&to={year + 1}01&output=json&fl=timestamp,original'
+                              f'&filter=statuscode:200&collapse=digest', tries=6, wait=30))[1:]
+    except Exception as e:
+        print(f'{year}: archive search failed ({e})'); return found
+    by_cls = {}
+    for ts, orig in rows:
+        m = re.search(r'playoff-brackets/(\d)a-?d(\d)', orig, re.I)
+        if m:
+            by_cls.setdefault(f'{m.group(1)}A D{m.group(2)}', []).append((ts, orig))
     for cls in CLASSES:
-        if len(found) == len(CLASSES):
-            break
-        page = f'uiltexas.org/football/playoff-brackets/{cls.replace(" ", "")}'
-        try:
-            rows = json.loads(get(f'https://web.archive.org/cdx/search/cdx?url={page}&from={year}11&to={year + 1}01'
-                                  f'&output=json&fl=timestamp&filter=statuscode:200&collapse=digest'))[1:]
-        except Exception as e:
-            print(f'  {year} {cls}: archive search failed ({e})'); continue
-        for (ts,) in reversed(rows[-4:]):
+        if cls in found:
+            continue
+        for ts, orig in sorted(by_cls.get(cls, []), reverse=True)[:5]:
             try:
-                html = get(f'https://web.archive.org/web/{ts}id_/https://www.{page}', tries=2)
+                html = get(f'https://web.archive.org/web/{ts}id_/{orig}', tries=4, wait=20)
             except Exception:
                 continue
+            finally:
+                time.sleep(6)
             m = re.search(r'https?://www\.maxpreps\.com/tournament/view\.aspx\?[^"\'<\s]+', html)
-            if m:
-                seeds.append(m.group(0).replace('&amp;', '&')); break
-        # one bracket page lists the others: stop once every class is known
-        for url in seeds:
-            if url in state.setdefault('read_pages', []):
+            if not m:
                 continue
-            state['read_pages'].append(url)
+            url = m.group(0).replace('&amp;', '&')
             try:
-                html = get(url)
-            except Exception as e:
-                print(f'  bracket page failed: {e}'); continue
-            t = title_of(html)
-            if str(year) in t and cls_of(t):
-                found.setdefault(cls_of(t), url)
-            tid = re.search(r'tournamentid=([0-9a-f-]{36})', url, re.I)
-            ssid = re.search(r'ssid=([0-9a-f-]{36})', url, re.I)
-            for b in set(re.findall(r'bracketid=([0-9a-f-]{36})', html, re.I)):
-                if tid and ssid and not any(b in u for u in found.values()):
-                    u = f'{MP}?tournamentid={tid.group(1)}&ssid={ssid.group(1)}&bracketid={b}'
-                    try:
-                        t2 = title_of(get(u))
-                    except Exception:
-                        continue
-                    if str(year) in t2 and cls_of(t2):
-                        found.setdefault(cls_of(t2), u)
-                    time.sleep(1)
-            save()
-        time.sleep(2)
+                t = title_of(get(url))
+            except Exception:
+                continue
+            if str(year) in t and cls_of(t) == cls:
+                found[cls] = url; save(); break
     print(f'{year}: brackets for {len(found)} of {len(CLASSES)} classes: {sorted(found)}')
     return found
 
