@@ -113,10 +113,10 @@ export default function App() {
             {error && <ErrorState message={error} />}
             {!loading && !error && yearData && (
               <>
+                {page === 'chapters' && <MissingGames data={yearData} onSubmit={() => setPage('submit')} />}
                 {(page === 'chapters' || page === 'brackets') && <SeasonBanner data={yearData} year={year} />}
                 {(page === 'chapters' || page === 'brackets') && <RecentChanges data={yearData} />}
                 {page === 'chapters' && <TeamSearch data={yearData} year={year} allData={data} years={YEARS} loadAllYears={loadAllYears} />}
-                {page === 'chapters' && <MissingGames data={yearData} onSubmit={() => setPage('submit')} />}
                 {page === 'chapters' && yearData.season && <WeekMap data={yearData} />}
                 {page === 'chapters' && <ChapterDashboard data={yearData} year={year} allData={data} years={YEARS} loadAllYears={loadAllYears} />}
                 {page === 'chapters' && <ChapterTravel data={yearData} />}
