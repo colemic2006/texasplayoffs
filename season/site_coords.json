@@ -22,12 +22,26 @@
   "source": "Beaumont ISD Doggett Family Stadium, 5250 Bayou Willow Way (its Google map link, as read on an earlier lookup)",
   "stadium": "Doggett Family Stadium"
  },
+ "Birdville Fine Arts and Athletics Complex, North Richland Hills": {
+  "city": "North Richland Hills",
+  "lat": 32.86199,
+  "lng": -97.18685,
+  "source": "same spot as Birdville Fine Arts and Athletics Complex, North Richland Hills on other mapped games",
+  "stadium": "Birdville Fine Arts and Athletics Complex"
+ },
  "Bobcat Stadium (Texas State), San Marcos": {
   "city": "San Marcos",
   "lat": 29.8907,
   "lng": -97.9257,
   "source": "Texas State University stadium, San Marcos",
   "stadium": "Bobcat Stadium (Texas State)"
+ },
+ "Buccaneer Stadium, Corpus Christi": {
+  "city": "Corpus Christi",
+  "lat": 27.79536,
+  "lng": -97.42433,
+  "source": "same spot as Buccaneer Stadium, Corpus Christi on other mapped games",
+  "stadium": "Buccaneer Stadium"
  },
  "Bulldog Stadium, Tyler": {
   "city": "Tyler",
@@ -115,6 +129,13 @@
   "source": "Same spot as Dub Farris Athletic Complex (Farris Stadium), already mapped for other San Antonio games; MaxPreps misspells it",
   "stadium": "Dub Farris Athletic Complex"
  },
+ "E. H. Hanby Stadium, Mesquite": {
+  "city": "Mesquite",
+  "lat": 32.76441,
+  "lng": -96.59282,
+  "source": "same spot as E. H. Hanby Stadium, Mesquite on other mapped games",
+  "stadium": "E. H. Hanby Stadium"
+ },
  "Eagle Stadium": {
   "city": "Allen",
   "lat": 33.11407,
@@ -128,6 +149,13 @@
   "lng": -96.93759,
   "source": "same spot as Joy & Ralph Ellis Stadium, Irving on other mapped games",
   "stadium": "Ellis Stadium"
+ },
+ "Fair Park Stadium, Childress": {
+  "city": "Childress",
+  "lat": 34.51966,
+  "lng": -100.20677,
+  "source": "same spot as Fair Park Stadium, Childress on other mapped games",
+  "stadium": "Fair Park Stadium"
  },
  "Farris Stadium, San Antonio": {
   "city": "San Antonio",
@@ -178,6 +206,13 @@
   "source": "same spot as Heroes Stadium, San Antonio on other mapped games",
   "stadium": "Heroes Stadium"
  },
+ "J. M. King Memorial Stadium, Midland": {
+  "city": "Midland",
+  "lat": 32.02553,
+  "lng": -101.89657,
+  "source": "same spot as J. M. King Memorial Stadium, Midland on other mapped games",
+  "stadium": "J. M. King Memorial Stadium"
+ },
  "Kincaide Stadium, Dallas": {
   "city": "Dallas",
   "lat": 32.63734,
@@ -206,6 +241,13 @@
   "source": "same spot as Matador Stadium, Seguin on other mapped games",
   "stadium": "Matador Stadium"
  },
+ "McLane Stadium, Waco": {
+  "city": "Waco",
+  "lat": 31.5582,
+  "lng": -97.11567,
+  "source": "same spot as McLane Stadium, Waco on other mapped games",
+  "stadium": "McLane Stadium"
+ },
  "Memorial Stadium, Bastrop": {
   "city": "Bastrop",
   "lat": 30.1105,
@@ -218,6 +260,13 @@
   "lat": 28.82518,
   "lng": -96.97605,
   "source": "same spot as Memorial Stadium, Victoria on other mapped games",
+  "stadium": "Memorial Stadium"
+ },
+ "Memorial Stadium, Wichita Falls": {
+  "city": "Wichita Falls",
+  "lat": 33.85787,
+  "lng": -98.57787,
+  "source": "same spot as Memorial Stadium, Wichita Falls on other mapped games",
   "stadium": "Memorial Stadium"
  },
  "Merrill Green Stadium, Bryan": {
@@ -262,12 +311,40 @@
   "source": "same spot as Pirate Stadium at First United Park, Lubbock on other mapped games",
   "stadium": "Pirate Stadium"
  },
+ "Randall Reed Stadium, New Caney": {
+  "city": "New Caney",
+  "lat": 30.13568,
+  "lng": -95.23305,
+  "source": "same spot as Randall Reed Stadium, New Caney on other mapped games",
+  "stadium": "Randall Reed Stadium"
+ },
+ "Ratliff Stadium, Odessa": {
+  "city": "Odessa",
+  "lat": 31.92073,
+  "lng": -102.3645,
+  "source": "same spot as Ratliff Stadium, Odessa on other mapped games",
+  "stadium": "Ratliff Stadium"
+ },
  "Rhodes Stadium, Katy": {
   "city": "Katy",
   "lat": 29.79137,
   "lng": -95.81101,
   "source": "same spot as Jack Rhodes Memorial Stadium, Katy on other mapped games",
   "stadium": "Rhodes Stadium"
+ },
+ "Richard R. Flores Stadium, Edinburg": {
+  "city": "Edinburg",
+  "lat": 26.28424,
+  "lng": -98.16123,
+  "source": "same spot as Richard R. Flores Stadium, Edinburg on other mapped games",
+  "stadium": "Richard R. Flores Stadium"
+ },
+ "Ron Poe Stadium, McKinney": {
+  "city": "McKinney",
+  "lat": 33.20719,
+  "lng": -96.63364,
+  "source": "same spot as Ron Poe Stadium, McKinney on other mapped games",
+  "stadium": "Ron Poe Stadium"
  },
  "Rose Stadium, Tyler": {
   "city": "Tyler",
@@ -304,6 +381,13 @@
   "source": "same spot as Southwest Legacy Stadium, Von Ormy on other mapped games",
   "stadium": "Southwest Legacy Stadium"
  },
+ "Tarleton Memorial Stadium, Stephenville": {
+  "city": "Stephenville",
+  "lat": 32.21503,
+  "lng": -98.22355,
+  "source": "same spot as Tarleton State University Memorial Stadium, Stephenville on other mapped games",
+  "stadium": "Tarleton State University Memorial Stadium"
+ },
  "The Pfield, Pflugerville": {
   "city": "Pflugerville",
   "lat": 30.44853,
@@ -318,12 +402,26 @@
   "source": "same spot as W. W. Thorne Stadium, Houston on other mapped games",
   "stadium": "Thorne Stadium"
  },
+ "Tiger Stadium at Grim Park, Texarkana": {
+  "city": "Texarkana",
+  "lat": 33.42794,
+  "lng": -94.06217,
+  "source": "same spot as Tiger Stadium at Grim Park, Texarkana on other mapped games",
+  "stadium": "Tiger Stadium at Grim Park"
+ },
  "Tigerland Stadium, College Station": {
   "city": "College Station",
   "lat": 30.59059,
   "lng": -96.31987,
   "source": "same spot as Tigerland Stadium, College Station on other mapped games",
   "stadium": "Tigerland Stadium"
+ },
+ "Tom Kimbrough Stadium, Murphy": {
+  "city": "Murphy",
+  "lat": 33.02786,
+  "lng": -96.6122,
+  "source": "same spot as Tom Kimbrough Stadium, Murphy on other mapped games",
+  "stadium": "Tom Kimbrough Stadium"
  },
  "Toyota Rattler Stadium, San Marcos": {
   "city": "San Marcos",
@@ -352,5 +450,12 @@
   "lng": -99.75192,
   "source": "same spot as Wilford Moore Stadium, Abilene on other mapped games",
   "stadium": "Wilford Moore Stadium (McMurry)"
+ },
+ "Woodforest Bank Stadium, Shenandoah": {
+  "city": "Shenandoah",
+  "lat": 30.18487,
+  "lng": -95.44899,
+  "source": "same spot as Woodforest Bank Stadium, Shenandoah on other mapped games",
+  "stadium": "Woodforest Bank Stadium"
  }
 }

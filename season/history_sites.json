@@ -1868,7 +1868,7 @@
   "week": 3,
   "team1": "Sinton",
   "team2": "Geronimo Navarro",
-  "site": "Jourdantown",
+  "site": "Jourdanton",
   "source_text": "Fri 11/24, 7:30pm @Jourdantown"
  },
  {
@@ -2030,7 +2030,7 @@
   "week": 2,
   "team1": "College Station",
   "team2": "Magnolia",
-  "site": "College Statiion",
+  "site": "College Station",
   "source_text": "Fri 11/17, 7pm, @College Statiion"
  },
  {
@@ -2057,7 +2057,7 @@
   "week": 2,
   "team1": "Corpus Christi Miller",
   "team2": "Edinburg Vela",
-  "site": "Edinburg Flores Stadium",
+  "site": "Richard R. Flores Stadium, Edinburg",
   "source_text": "Fri 11/17, 7pm @Edinburg Flores Stadium"
  },
  {
@@ -2840,7 +2840,7 @@
   "week": 2,
   "team1": "Conroe Oak Ridge",
   "team2": "Tomball High",
-  "site": "Porter Randalla Reed Stadium",
+  "site": "Randall Reed Stadium, New Caney",
   "source_text": "Sat 11/18, 4pm @Porter Randalla Reed Stadium"
  },
  {
@@ -3911,7 +3911,7 @@
   "week": 2,
   "team1": "Paradise",
   "team2": "Bushland",
-  "site": "Childress Fair Park",
+  "site": "Fair Park Stadium, Childress",
   "source_text": "Fri 11/22, 7pm @Childress Fair Park"
  },
  {
@@ -4136,7 +4136,7 @@
   "week": 5,
   "team1": "Paradise",
   "team2": "Malakoff",
-  "site": "Frisco Ford",
+  "site": "Ford Center at the Star, Frisco",
   "source_text": "Thur 12/12, 7pm @ Frisco Ford"
  },
  {
@@ -4379,7 +4379,7 @@
   "week": 4,
   "team1": "Canadian",
   "team2": "Wall",
-  "site": "Lubbock Patriots Stadium",
+  "site": "Patriot Field, Lubbock",
   "source_text": "Fri 12/6, 6pm @Lubbock Patriots Stadium"
  },
  {
@@ -4514,7 +4514,7 @@
   "week": 2,
   "team1": "Kilgore",
   "team2": "Needville",
-  "site": "Sheldon ISD Panther Stadium",
+  "site": "Sheldon ISD Panther Stadium, Houston",
   "source_text": "Fri 11/22, 7pm @Sheldon ISD Panther Stadium"
  },
  {
@@ -4937,7 +4937,7 @@
   "week": 4,
   "team1": "Brock",
   "team2": "Graham",
-  "site": "Tarleton",
+  "site": "Tarleton Memorial Stadium, Stephenville",
   "source_text": "Fri 12/6, 7pm @Tarleton"
  },
  {
@@ -5000,7 +5000,7 @@
   "week": 2,
   "team1": "San Antonio Southwest",
   "team2": "Corpus Christi Veterans Memorial",
-  "site": "Seguin (Matadors",
+  "site": "Matador Stadium, Seguin",
   "source_text": "Seguin (Matadors)"
  },
  {
@@ -5009,7 +5009,7 @@
   "week": 2,
   "team1": "Amarillo High",
   "team2": "North Richland Hills Richland",
-  "site": "Wichita Fallas Memorial Stadium",
+  "site": "Memorial Stadium, Wichita Falls",
   "source_text": "Sat 11/23, 6pm @Wichita Fallas Memorial Stadium"
  },
  {
@@ -5063,7 +5063,7 @@
   "week": 2,
   "team1": "Dallas Highland Park",
   "team2": "Frisco Wakeland",
-  "site": "Murphy Kimbrough Stadium",
+  "site": "Tom Kimbrough Stadium, Murphy",
   "source_text": "Fri 11/22, 7pm @Murphy Kimbrough Stadium"
  },
  {
@@ -5144,7 +5144,7 @@
   "week": 2,
   "team1": "Edinburg Vela",
   "team2": "Comal Smithson Valley",
-  "site": "Edinbug Flores Stadium",
+  "site": "Richard R. Flores Stadium, Edinburg",
   "source_text": "Fri 11/22, 7pm @Edinbug Flores Stadium"
  },
  {
@@ -5405,7 +5405,7 @@
   "week": 2,
   "team1": "Corpus Christi Miller",
   "team2": "Mission Pioneer",
-  "site": "Corpus Christ Bucaneer Stadium",
+  "site": "Buccaneer Stadium, Corpus Christi",
   "source_text": "Fri 11/22, 7pm @Corpus Christ Bucaneer Stadium"
  },
  {
@@ -5864,7 +5864,7 @@
   "week": 2,
   "team1": "Frenship",
   "team2": "Southlake Carroll",
-  "site": "ACU Wildcat Stadium",
+  "site": "Wildcat Stadium (ACU), Abilene",
   "source_text": "Fri 11/22, 6pm @ACU Wildcat Stadium"
  },
  {
@@ -5900,7 +5900,7 @@
   "week": 2,
   "team1": "Longview",
   "team2": "Lancaster",
-  "site": "Dallas Kincaid Stadium",
+  "site": "Kincaide Stadium, Dallas",
   "source_text": "Fri 11/22, 7pm @Dallas Kincaid Stadium"
  },
  {
@@ -6008,7 +6008,7 @@
   "week": 3,
   "team1": "DeSoto",
   "team2": "Willis",
-  "site": "Frisco Star",
+  "site": "Ford Center at the Star, Frisco",
   "source_text": "Sat 11/30, 7pm @Frisco Star"
  },
  {
@@ -6053,7 +6053,7 @@
   "week": 3,
   "team1": "San Antonio Harlan",
   "team2": "New Braunfels Canyon",
-  "site": "San Marco Bobcat Stadium",
+  "site": "Bobcat Stadium (Texas State), San Marcos",
   "source_text": "Fri 11/29, 1:30pm @San Marco Bobcat Stadium"
  },
  {
@@ -6863,7 +6863,7 @@
   "week": 3,
   "team1": "Flatonia",
   "team2": "Shiner",
-  "site": "Halletsville",
+  "site": "Hallettsville",
   "source_text": "(@Halletsville, Friday 7pm)"
  },
  {
@@ -6881,7 +6881,7 @@
   "week": 4,
   "team1": "Cisco",
   "team2": "Hawley",
-  "site": "Abilene ACU",
+  "site": "Wildcat Stadium (ACU), Abilene",
   "source_text": "(@Abilene ACU, Friday 7pm)"
  },
  {
@@ -6937,24 +6937,6 @@
   "team2": "Refugio",
   "site": "AT&T Stadium, Arlington",
   "source_text": "(@ATT&T Stadium, Thursday Dec 15, 11am)"
- },
- {
-  "year": 2022,
-  "classification": "3A D2",
-  "week": 2,
-  "team1": "Childress",
-  "team2": "Wall",
-  "site": "Bye (Tornillo forefeit",
-  "source_text": "Bye (Tornillo forefeit)"
- },
- {
-  "year": 2022,
-  "classification": "3A D2",
-  "week": 2,
-  "team1": "Jacksboro",
-  "team2": "Gunter",
-  "site": "Bye (Cedar Hill Trinity Leadership forefit",
-  "source_text": "Bye (Cedar Hill Trinity Leadership forefit)"
  },
  {
   "year": 2022,
@@ -7016,7 +6998,7 @@
   "week": 2,
   "team1": "Callisburg",
   "team2": "Palmer",
-  "site": "NRH Birdville",
+  "site": "Birdville Fine Arts and Athletics Complex, North Richland Hills",
   "source_text": "(@NRH Birdville, Thursday 7pm)"
  },
  {
@@ -7286,7 +7268,7 @@
   "week": 2,
   "team1": "Mineola",
   "team2": "Grandview",
-  "site": "Mesquite Hanby",
+  "site": "E. H. Hanby Stadium, Mesquite",
   "source_text": "(@Mesquite Hanby, Friday 7pm)"
  },
  {
@@ -7583,7 +7565,7 @@
   "week": 2,
   "team1": "Van Alstyne",
   "team2": "Carthage",
-  "site": "Texarkana Tiger Stadium",
+  "site": "Tiger Stadium at Grim Park, Texarkana",
   "source_text": "(@Texarkana Tiger Stadium, Friday 7pm)"
  },
  {
@@ -7646,7 +7628,7 @@
   "week": 2,
   "team1": "Sinton",
   "team2": "Lago Vista",
-  "site": "Sequin",
+  "site": "Matador Stadium, Seguin",
   "source_text": "(@Sequin, Friday 7pm)"
  },
  {
@@ -7961,7 +7943,7 @@
   "week": 3,
   "team1": "Lake Worth",
   "team2": "China Spring",
-  "site": "Waxahatchie",
+  "site": "Waxahachie",
   "source_text": "(@Waxahatchie, Friday 5pm)"
  },
  {
@@ -8078,7 +8060,7 @@
   "week": 2,
   "team1": "Fort Worth Arlington Heights",
   "team2": "El Paso Canutillo",
-  "site": "Odessa Ratliff",
+  "site": "Ratliff Stadium, Odessa",
   "source_text": "(@Odessa Ratliff, Friday 4pm)"
  },
  {
@@ -8402,7 +8384,7 @@
   "week": 2,
   "team1": "Frisco Reedy",
   "team2": "Lancaster",
-  "site": "Irving Ellis",
+  "site": "Ellis Stadium, Irving",
   "source_text": "(@Irving Ellis, 7:30pm Friday)"
  },
  {
@@ -8609,7 +8591,7 @@
   "week": 5,
   "team1": "Aledo",
   "team2": "Longview",
-  "site": "Dallas Kincaide Stadium",
+  "site": "Kincaide Stadium, Dallas",
   "source_text": "(@Dallas Kincaide Stadium, Saturday 2pm)"
  },
  {
@@ -8636,7 +8618,7 @@
   "week": 2,
   "team1": "El Paso Eastwood",
   "team2": "Byron Nelson",
-  "site": "Midland King Memorial",
+  "site": "J. M. King Memorial Stadium, Midland",
   "source_text": "(@Midland King Memorial, Friday 7pm)"
  },
  {
@@ -8735,7 +8717,7 @@
   "week": 2,
   "team1": "Houston King",
   "team2": "Clear Falls",
-  "site": "Houston Sheldon ISD Stadium",
+  "site": "Sheldon ISD Panther Stadium, Houston",
   "source_text": "(@Houston Sheldon ISD Stadium, Friday 7pm)"
  },
  {
@@ -8807,7 +8789,7 @@
   "week": 3,
   "team1": "Harker Heights",
   "team2": "Spring Dekaney",
-  "site": "BaylorMcLane Stadium",
+  "site": "McLane Stadium, Waco",
   "source_text": "(@BaylorMcLane Stadium, Friday 6pm)"
  },
  {
@@ -8960,7 +8942,7 @@
   "week": 2,
   "team1": "The Woodlands",
   "team2": "Houston Klein Cain",
-  "site": "Shenendoah Woodorest Bank Stadium",
+  "site": "Woodforest Bank Stadium, Shenandoah",
   "source_text": "(@Shenendoah Woodorest Bank Stadium, Friday 7pm)"
  },
  {
@@ -9095,7 +9077,7 @@
   "week": 3,
   "team1": "Katy Cinco Ranch",
   "team2": "Galena Park North Shore",
-  "site": "Katy Rhodes",
+  "site": "Rhodes Stadium, Katy",
   "source_text": "(@Katy Rhodes, Friday 2pm)"
  },
  {
@@ -9986,7 +9968,7 @@
   "week": 2,
   "team1": "Jim Ned",
   "team2": "Bushland",
-  "site": "Lubbock Lowery",
+  "site": "Lowrey Field, Lubbock",
   "source_text": "Fri 11/21 @Lubbock Lowery, 7pm"
  },
  {
@@ -10022,7 +10004,7 @@
   "week": 2,
   "team1": "Commerce",
   "team2": "Pilot Point",
-  "site": "McKinney Poe Stadium",
+  "site": "Ron Poe Stadium, McKinney",
   "source_text": "Fri 11/21 @McKinney Poe Stadium, 7pm"
  },
  {

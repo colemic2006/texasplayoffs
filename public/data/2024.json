@@ -445,7 +445,7 @@
       "team2": "Gordon",
       "score2": 70,
       "winner": "Gordon",
-      "site": "AT&T Stadium Arlington",
+      "site": "AT&T Stadium, Arlington",
       "lat": 32.74728,
       "lng": -97.09449,
       "stadium": "AT&T Stadium",
@@ -818,7 +818,11 @@
       "team2": "Jayton",
       "score2": 100,
       "winner": "Jayton",
-      "site": "McMurry University"
+      "site": "Wilford Moore Stadium (McMurry), Abilene",
+      "lat": 32.42955,
+      "lng": -99.75192,
+      "stadium": "Wilford Moore Stadium (McMurry)",
+      "city": "Abilene"
     },
     {
       "year": 2024,
@@ -903,7 +907,7 @@
       "team2": "Oakwood",
       "score2": 8,
       "winner": "Jayton",
-      "site": "AT&T Stadium Arlington",
+      "site": "AT&T Stadium, Arlington",
       "lat": 32.74728,
       "lng": -97.09449,
       "stadium": "AT&T Stadium",
@@ -1305,7 +1309,11 @@
       "team2": "Hawley",
       "score2": 40,
       "winner": "Sunray",
-      "site": "Lubbock Patriot Stadium"
+      "site": "Patriot Field, Lubbock",
+      "lat": 33.50068,
+      "lng": -101.88411,
+      "stadium": "Patriot Field",
+      "city": "Lubbock"
     },
     {
       "year": 2024,
@@ -1354,7 +1362,11 @@
       "team2": "Panhandle",
       "score2": 13,
       "winner": "Stamford",
-      "site": "Lubbock Patriot Stadium"
+      "site": "Patriot Field, Lubbock",
+      "lat": 33.50068,
+      "lng": -101.88411,
+      "stadium": "Patriot Field",
+      "city": "Lubbock"
     },
     {
       "year": 2024,
@@ -1439,7 +1451,11 @@
       "team2": "Hearne",
       "score2": 7,
       "winner": "Honey Grove",
-      "site": "Tyler Rose Stadium"
+      "site": "Rose Stadium, Tyler",
+      "lat": 32.34228,
+      "lng": -95.32406,
+      "stadium": "Rose Stadium",
+      "city": "Tyler"
     },
     {
       "year": 2024,
@@ -1578,7 +1594,11 @@
       "team2": "Post",
       "score2": 34,
       "winner": "Post",
-      "site": "Lubbock Patriot Stadium"
+      "site": "Patriot Field, Lubbock",
+      "lat": 33.50068,
+      "lng": -101.88411,
+      "stadium": "Patriot Field",
+      "city": "Lubbock"
     },
     {
       "year": 2024,
@@ -1591,7 +1611,11 @@
       "team2": "Stamford",
       "score2": 55,
       "winner": "Stamford",
-      "site": "Abilene Shotwell Stadium"
+      "site": "Shotwell Stadium, Abilene",
+      "lat": 32.43373,
+      "lng": -99.6982,
+      "stadium": "Shotwell Stadium",
+      "city": "Abilene"
     },
     {
       "year": 2024,
@@ -1748,9 +1772,9 @@
       "team2": "Joaquin",
       "score2": 46,
       "winner": "Joaquin",
-      "site": "Frisco Ford Center",
-      "lat": 33.11059,
-      "lng": -96.82835,
+      "site": "Ford Center at the Star, Frisco",
+      "lat": 33.11066,
+      "lng": -96.8281,
       "stadium": "Ford Center at the Star",
       "map_link": "https://goo.gl/maps/8cXQLxrWVg24fCSZA",
       "city": "Frisco"
@@ -1766,7 +1790,11 @@
       "team2": "Ganado",
       "score2": 41,
       "winner": "Ganado",
-      "site": "San Rattler Stadium"
+      "site": "Toyota Rattler Stadium, San Marcos",
+      "lat": 29.82228,
+      "lng": -97.94768,
+      "stadium": "Toyota Rattler Stadium",
+      "city": "San Marcos"
     },
     {
       "year": 2024,
@@ -1815,7 +1843,7 @@
       "team2": "Ganado",
       "score2": 30,
       "winner": "Ganado",
-      "site": "AT&T Stadium Arlington",
+      "site": "AT&T Stadium, Arlington",
       "lat": 32.74728,
       "lng": -97.09449,
       "stadium": "AT&T Stadium",
@@ -2235,7 +2263,11 @@
       "team2": "Tahoka",
       "score2": 42,
       "winner": "Tahoka",
-      "site": "Lubbock Patriot Stadium"
+      "site": "Patriot Field, Lubbock",
+      "lat": 33.50068,
+      "lng": -101.88411,
+      "stadium": "Patriot Field",
+      "city": "Lubbock"
     },
     {
       "year": 2024,
@@ -2266,7 +2298,11 @@
       "team2": "Stratford",
       "score2": 20,
       "winner": "Wink",
-      "site": "lubbock Lowery Field"
+      "site": "Lowrey Field, Lubbock",
+      "lat": 33.53277,
+      "lng": -101.85134,
+      "stadium": "Lowrey Field",
+      "city": "Lubbock"
     },
     {
       "year": 2024,
@@ -2737,7 +2773,7 @@
       "team2": "Shiner",
       "score2": 29,
       "winner": "Muenster",
-      "site": "AT&T Stadium Arlington",
+      "site": "AT&T Stadium, Arlington",
       "lat": 32.74728,
       "lng": -97.09449,
       "stadium": "AT&T Stadium",
@@ -3157,7 +3193,11 @@
       "team2": "Vernon",
       "score2": 28,
       "winner": "Vernon",
-      "site": "Lubbock Lowrey Field"
+      "site": "Lowrey Field, Lubbock",
+      "lat": 33.53277,
+      "lng": -101.85134,
+      "stadium": "Lowrey Field",
+      "city": "Lubbock"
     },
     {
       "year": 2024,
@@ -3170,7 +3210,11 @@
       "team2": "Dalhart",
       "score2": 7,
       "winner": "Jim Ned",
-      "site": "Lubbock Pirate Stadium"
+      "site": "Pirate Stadium, Lubbock",
+      "lat": 33.449,
+      "lng": -101.84952,
+      "stadium": "Pirate Stadium",
+      "city": "Lubbock"
     },
     {
       "year": 2024,
@@ -3183,7 +3227,11 @@
       "team2": "Bushland",
       "score2": 17,
       "winner": "Paradise",
-      "site": "Childress Fair Park"
+      "site": "Fair Park Stadium, Childress",
+      "lat": 34.51966,
+      "lng": -100.20677,
+      "stadium": "Fair Park Stadium",
+      "city": "Childress"
     },
     {
       "year": 2024,
@@ -3196,7 +3244,11 @@
       "team2": "Liberty-Eylau",
       "score2": 57,
       "winner": "Liberty-Eylau",
-      "site": "Tyler Rose Stadium"
+      "site": "Rose Stadium, Tyler",
+      "lat": 32.34228,
+      "lng": -95.32406,
+      "stadium": "Rose Stadium",
+      "city": "Tyler"
     },
     {
       "year": 2024,
@@ -3353,7 +3405,11 @@
       "team2": "Goliad",
       "score2": 56,
       "winner": "Goliad",
-      "site": "Seguin"
+      "site": "Matador Stadium, Seguin",
+      "lat": 29.57658,
+      "lng": -97.94563,
+      "stadium": "Matador Stadium",
+      "city": "Seguin"
     },
     {
       "year": 2024,
@@ -3366,7 +3422,11 @@
       "team2": "San Antonio Cole",
       "score2": 0,
       "winner": "Edna",
-      "site": "San Rattler Stadium"
+      "site": "Toyota Rattler Stadium, San Marcos",
+      "lat": 29.82228,
+      "lng": -97.94768,
+      "stadium": "Toyota Rattler Stadium",
+      "city": "San Marcos"
     },
     {
       "year": 2024,
@@ -3451,7 +3511,11 @@
       "team2": "Jefferson",
       "score2": 21,
       "winner": "Malakoff",
-      "site": "Tyler Rose Stadium"
+      "site": "Rose Stadium, Tyler",
+      "lat": 32.34228,
+      "lng": -95.32406,
+      "stadium": "Rose Stadium",
+      "city": "Tyler"
     },
     {
       "year": 2024,
@@ -3464,7 +3528,11 @@
       "team2": "Yoakum",
       "score2": 42,
       "winner": "Columbus",
-      "site": "Katy Legacy Stadium"
+      "site": "Legacy Stadium, Katy",
+      "lat": 29.80121,
+      "lng": -95.80476,
+      "stadium": "Legacy Stadium",
+      "city": "Katy"
     },
     {
       "year": 2024,
@@ -3495,7 +3563,11 @@
       "team2": "Goliad",
       "score2": 29,
       "winner": "Llano",
-      "site": "San Antonio Farris Stadium"
+      "site": "Farris Stadium, San Antonio",
+      "lat": 29.56489,
+      "lng": -98.65321,
+      "stadium": "Farris Stadium",
+      "city": "San Antonio"
     },
     {
       "year": 2024,
@@ -3508,9 +3580,9 @@
       "team2": "Randolph",
       "score2": 28,
       "winner": "Edna",
-      "site": "San Antonio Comalander Stadium",
-      "lat": 29.54899,
-      "lng": -98.46769,
+      "site": "Comalander Stadium, San Antonio",
+      "lat": 29.54911,
+      "lng": -98.46586,
       "stadium": "Comalander Stadium",
       "map_link": "https://goo.gl/maps/BdcVt5WfnTKrQfdA8",
       "city": "San Antonio"
@@ -3526,7 +3598,11 @@
       "team2": "Paradise",
       "score2": 32,
       "winner": "Paradise",
-      "site": "Abilene Shotwell"
+      "site": "Shotwell Stadium, Abilene",
+      "lat": 32.43373,
+      "lng": -99.6982,
+      "stadium": "Shotwell Stadium",
+      "city": "Abilene"
     },
     {
       "year": 2024,
@@ -3539,7 +3615,11 @@
       "team2": "Malakoff",
       "score2": 35,
       "winner": "Malakoff",
-      "site": "Tyler Rose Stadium"
+      "site": "Rose Stadium, Tyler",
+      "lat": 32.34228,
+      "lng": -95.32406,
+      "stadium": "Rose Stadium",
+      "city": "Tyler"
     },
     {
       "year": 2024,
@@ -3588,7 +3668,11 @@
       "team2": "Malakoff",
       "score2": 27,
       "winner": "Malakoff",
-      "site": "Frisco Ford"
+      "site": "Ford Center at the Star, Frisco",
+      "lat": 33.11066,
+      "lng": -96.8281,
+      "stadium": "Ford Center at the Star",
+      "city": "Frisco"
     },
     {
       "year": 2024,
@@ -3619,7 +3703,7 @@
       "team2": "Columbus",
       "score2": 48,
       "winner": "Columbus",
-      "site": "AT&T Stadium Arlington",
+      "site": "AT&T Stadium, Arlington",
       "lat": 32.74728,
       "lng": -97.09449,
       "stadium": "AT&T Stadium",
@@ -4443,7 +4527,11 @@
       "team2": "Wall",
       "score2": 49,
       "winner": "Wall",
-      "site": "Lubbock Patriots Stadium"
+      "site": "Patriot Field, Lubbock",
+      "lat": 33.50068,
+      "lng": -101.88411,
+      "stadium": "Patriot Field",
+      "city": "Lubbock"
     },
     {
       "year": 2024,
@@ -4508,7 +4596,11 @@
       "team2": "Gunter",
       "score2": 42,
       "winner": "Gunter",
-      "site": "ACU"
+      "site": "Wildcat Stadium (ACU), Abilene",
+      "lat": 32.4733,
+      "lng": -99.70905,
+      "stadium": "Wildcat Stadium (ACU)",
+      "city": "Abilene"
     },
     {
       "year": 2024,
@@ -4539,7 +4631,7 @@
       "team2": "Woodville",
       "score2": 0,
       "winner": "Gunter",
-      "site": "AT&T Stadium Arlington",
+      "site": "AT&T Stadium, Arlington",
       "lat": 32.74728,
       "lng": -97.09449,
       "stadium": "AT&T Stadium",
@@ -4995,7 +5087,11 @@
       "team2": "Hereford",
       "score2": 7,
       "winner": "Stephenville",
-      "site": "Abilene Shotwell Stadium"
+      "site": "Shotwell Stadium, Abilene",
+      "lat": 32.43373,
+      "lng": -99.6982,
+      "stadium": "Shotwell Stadium",
+      "city": "Abilene"
     },
     {
       "year": 2024,
@@ -5026,9 +5122,9 @@
       "team2": "Frisco Panther Creek",
       "score2": 41,
       "winner": "Alvarado",
-      "site": "Frisco Ford Center",
-      "lat": 33.11059,
-      "lng": -96.82835,
+      "site": "Ford Center at the Star, Frisco",
+      "lat": 33.11066,
+      "lng": -96.8281,
       "stadium": "Ford Center at the Star",
       "map_link": "https://goo.gl/maps/8cXQLxrWVg24fCSZA",
       "city": "Frisco"
@@ -5062,7 +5158,11 @@
       "team2": "Decatur",
       "score2": 38,
       "winner": "Aubrey",
-      "site": "Denton Collins Stadium"
+      "site": "C. H. Collins Complex, Denton",
+      "lat": 33.26347,
+      "lng": -97.11528,
+      "stadium": "C. H. Collins Complex",
+      "city": "Denton"
     },
     {
       "year": 2024,
@@ -5075,7 +5175,11 @@
       "team2": "Needville",
       "score2": 14,
       "winner": "Kilgore",
-      "site": "Sheldon ISD Panther Stadium"
+      "site": "Sheldon ISD Panther Stadium, Houston",
+      "lat": 29.87661,
+      "lng": -95.19594,
+      "stadium": "Sheldon ISD Panther Stadium",
+      "city": "Houston"
     },
     {
       "year": 2024,
@@ -5137,7 +5241,11 @@
       "team2": "La Vernia",
       "score2": 13,
       "winner": "La Vernia",
-      "site": "Seguin"
+      "site": "Matador Stadium, Seguin",
+      "lat": 29.57658,
+      "lng": -97.94563,
+      "stadium": "Matador Stadium",
+      "city": "Seguin"
     },
     {
       "year": 2024,
@@ -5307,7 +5415,11 @@
       "team2": "Port Lavaca Calhoun",
       "score2": 21,
       "winner": "La Vernia",
-      "site": "Katy Legacy"
+      "site": "Legacy Stadium, Katy",
+      "lat": 29.80121,
+      "lng": -95.80476,
+      "stadium": "Legacy Stadium",
+      "city": "Katy"
     },
     {
       "year": 2024,
@@ -5410,7 +5522,11 @@
       "team2": "Celina",
       "score2": 43,
       "winner": "Celina",
-      "site": "Abilene Shotwell"
+      "site": "Shotwell Stadium, Abilene",
+      "lat": 32.43373,
+      "lng": -99.6982,
+      "stadium": "Shotwell Stadium",
+      "city": "Abilene"
     },
     {
       "year": 2024,
@@ -5441,7 +5557,7 @@
       "team2": "Kilgore",
       "score2": 21,
       "winner": "Celina",
-      "site": "AT&T Stadium Arlington",
+      "site": "AT&T Stadium, Arlington",
       "lat": 32.74728,
       "lng": -97.09449,
       "stadium": "AT&T Stadium",
@@ -5933,7 +6049,11 @@
       "team2": "Gilmer",
       "score2": 17,
       "winner": "Sunnyvale",
-      "site": "Sulpher Springs"
+      "site": "Gerald Prim Stadium, Sulphur Springs",
+      "lat": 33.14157,
+      "lng": -95.60695,
+      "stadium": "Gerald Prim Stadium",
+      "city": "Sulphur Springs"
     },
     {
       "year": 2024,
@@ -6088,7 +6208,11 @@
       "team2": "Salado",
       "score2": 21,
       "winner": "Sinton",
-      "site": "San Antonio Colamander Stadium"
+      "site": "Comalander Stadium, San Antonio",
+      "lat": 29.54911,
+      "lng": -98.46586,
+      "stadium": "Comalander Stadium",
+      "city": "San Antonio"
     },
     {
       "year": 2024,
@@ -6155,9 +6279,9 @@
       "team2": "Sunnyvale",
       "score2": 38,
       "winner": "Van",
-      "site": "Mesquite Memorial",
-      "lat": 32.76396,
-      "lng": -96.63454,
+      "site": "Mesquite Memorial Stadium, Mesquite",
+      "lat": 32.76383,
+      "lng": -96.63472,
       "stadium": "Mesquite Memorial Stadium",
       "map_link": "https://goo.gl/maps/ok5pezoVBGQYri9G6",
       "city": "Mesquite"
@@ -6191,7 +6315,11 @@
       "team2": "Gatesville",
       "score2": 21,
       "winner": "Sealy",
-      "site": "Bryan Green Stadium"
+      "site": "Merrill Green Stadium, Bryan",
+      "lat": 30.65651,
+      "lng": -96.33315,
+      "stadium": "Merrill Green Stadium",
+      "city": "Bryan"
     },
     {
       "year": 2024,
@@ -6241,7 +6369,7 @@
       "score2": 0,
       "winner": "Sinton",
       "site": "Heroes Stadium, San Antonio",
-      "lat": 29.53689,
+      "lat": 29.5369,
       "lng": -98.39781,
       "stadium": "Heroes Stadium",
       "map_link": "https://goo.gl/maps/FxXig925WVVYT43Q9",
@@ -6258,7 +6386,11 @@
       "team2": "Graham",
       "score2": 10,
       "winner": "Brock",
-      "site": "Tarleton"
+      "site": "Tarleton Memorial Stadium, Stephenville",
+      "lat": 32.21503,
+      "lng": -98.22355,
+      "stadium": "Tarleton State University Memorial Stadium",
+      "city": "Stephenville"
     },
     {
       "year": 2024,
@@ -6289,7 +6421,11 @@
       "team2": "La Vega",
       "score2": 48,
       "winner": "La Vega",
-      "site": "Pflugerville Pfield"
+      "site": "The Pfield, Pflugerville",
+      "lat": 30.44853,
+      "lng": -97.63443,
+      "stadium": "The Pfield",
+      "city": "Pflugerville"
     },
     {
       "year": 2024,
@@ -6356,7 +6492,7 @@
       "team2": "La Vega",
       "score2": 14,
       "winner": "Carthage",
-      "site": "AT&T Stadium Arlington",
+      "site": "AT&T Stadium, Arlington",
       "lat": 32.74728,
       "lng": -97.09449,
       "stadium": "AT&T Stadium",
@@ -6758,7 +6894,11 @@
       "team2": "North Richland Hills Richland",
       "score2": 55,
       "winner": "North Richland Hills Richland",
-      "site": "Wichita Fallas Memorial Stadium"
+      "site": "Memorial Stadium, Wichita Falls",
+      "lat": 33.85787,
+      "lng": -98.57787,
+      "stadium": "Memorial Stadium",
+      "city": "Wichita Falls"
     },
     {
       "year": 2024,
@@ -6825,9 +6965,9 @@
       "team2": "Red Oak",
       "score2": 28,
       "winner": "Frisco Lone Star",
-      "site": "Frisco Ford Center",
-      "lat": 33.11059,
-      "lng": -96.82835,
+      "site": "Ford Center at the Star, Frisco",
+      "lat": 33.11066,
+      "lng": -96.8281,
       "stadium": "Ford Center at the Star",
       "map_link": "https://goo.gl/maps/8cXQLxrWVg24fCSZA",
       "city": "Frisco"
@@ -6861,7 +7001,11 @@
       "team2": "Frisco Wakeland",
       "score2": 10,
       "winner": "Dallas Highland Park",
-      "site": "Murphy Kimbrough Stadium"
+      "site": "Tom Kimbrough Stadium, Murphy",
+      "lat": 33.02786,
+      "lng": -96.6122,
+      "stadium": "Tom Kimbrough Stadium",
+      "city": "Murphy"
     },
     {
       "year": 2024,
@@ -6946,7 +7090,11 @@
       "team2": "Galveston Ball",
       "score2": 3,
       "winner": "A&M Consolidated",
-      "site": "Katy Legacy Stadium"
+      "site": "Legacy Stadium, Katy",
+      "lat": 29.80121,
+      "lng": -95.80476,
+      "stadium": "Legacy Stadium",
+      "city": "Katy"
     },
     {
       "year": 2024,
@@ -6977,7 +7125,11 @@
       "team2": "Corpus Christi Veterans Memorial",
       "score2": 20,
       "winner": "San Antonio Southwest",
-      "site": "Corpus Christi Cabaniss Stadium"
+      "site": "Cabaniss Athletic Complex, Corpus Christi",
+      "lat": 27.86671,
+      "lng": -97.65954,
+      "stadium": "Cabaniss Athletic Complex",
+      "city": "Corpus Christi"
     },
     {
       "year": 2024,
@@ -6990,7 +7142,11 @@
       "team2": "New Braunfels",
       "score2": 35,
       "winner": "New Braunfels",
-      "site": "Corpus Christi Danaher Stadium"
+      "site": "Danaher Stadium, Corpus Christi",
+      "lat": 27.85831,
+      "lng": -97.63666,
+      "stadium": "Danaher Stadium",
+      "city": "Corpus Christi"
     },
     {
       "year": 2024,
@@ -7003,7 +7159,11 @@
       "team2": "Comal Smithson Valley",
       "score2": 55,
       "winner": "Comal Smithson Valley",
-      "site": "Edinbug Flores Stadium"
+      "site": "Richard R. Flores Stadium, Edinburg",
+      "lat": 26.28424,
+      "lng": -98.16123,
+      "stadium": "Richard R. Flores Stadium",
+      "city": "Edinburg"
     },
     {
       "year": 2024,
@@ -7016,9 +7176,9 @@
       "team2": "Denton Ryan",
       "score2": 48,
       "winner": "Denton Ryan",
-      "site": "Frisco Ford Center",
-      "lat": 33.11059,
-      "lng": -96.82835,
+      "site": "Ford Center at the Star, Frisco",
+      "lat": 33.11066,
+      "lng": -96.8281,
       "stadium": "Ford Center at the Star",
       "map_link": "https://goo.gl/maps/8cXQLxrWVg24fCSZA",
       "city": "Frisco"
@@ -7070,9 +7230,9 @@
       "team2": "Frisco Reedy",
       "score2": 12,
       "winner": "Dallas Highland Park",
-      "site": "Frisco Ford Center",
-      "lat": 33.11059,
-      "lng": -96.82835,
+      "site": "Ford Center at the Star, Frisco",
+      "lat": 33.11066,
+      "lng": -96.8281,
       "stadium": "Ford Center at the Star",
       "map_link": "https://goo.gl/maps/8cXQLxrWVg24fCSZA",
       "city": "Frisco"
@@ -7178,9 +7338,9 @@
       "team2": "Dallas Highland Park",
       "score2": 41,
       "winner": "Dallas Highland Park",
-      "site": "Frisco Ford Center",
-      "lat": 33.11059,
-      "lng": -96.82835,
+      "site": "Ford Center at the Star, Frisco",
+      "lat": 33.11066,
+      "lng": -96.8281,
       "stadium": "Ford Center at the Star",
       "map_link": "https://goo.gl/maps/8cXQLxrWVg24fCSZA",
       "city": "Frisco"
@@ -7196,7 +7356,11 @@
       "team2": "La Porte",
       "score2": 21,
       "winner": "Angleton",
-      "site": "Houston NRG Stadium"
+      "site": "NRG Stadium, Houston",
+      "lat": 29.6847,
+      "lng": -95.4107,
+      "stadium": "NRG Stadium",
+      "city": "Houston"
     },
     {
       "year": 2024,
@@ -7227,9 +7391,9 @@
       "team2": "Dallas Highland Park",
       "score2": 24,
       "winner": "Dallas Highland Park",
-      "site": "Frisco Ford Center",
-      "lat": 33.11059,
-      "lng": -96.82835,
+      "site": "Ford Center at the Star, Frisco",
+      "lat": 33.11066,
+      "lng": -96.8281,
       "stadium": "Ford Center at the Star",
       "map_link": "https://goo.gl/maps/8cXQLxrWVg24fCSZA",
       "city": "Frisco"
@@ -7263,7 +7427,7 @@
       "team2": "Comal Smithson Valley",
       "score2": 32,
       "winner": "Comal Smithson Valley",
-      "site": "AT&T Stadium Arlington",
+      "site": "AT&T Stadium, Arlington",
       "lat": 32.74728,
       "lng": -97.09449,
       "stadium": "AT&T Stadium",
@@ -7719,7 +7883,11 @@
       "team2": "Lubbock Cooper",
       "score2": 28,
       "winner": "Prosper Walnut Grove",
-      "site": "Abilene Shotwell Stadium"
+      "site": "Shotwell Stadium, Abilene",
+      "lat": 32.43373,
+      "lng": -99.6982,
+      "stadium": "Shotwell Stadium",
+      "city": "Abilene"
     },
     {
       "year": 2024,
@@ -7817,7 +7985,11 @@
       "team2": "Liberty Hill",
       "score2": 27,
       "winner": "Brenham",
-      "site": "Plugerville Pfield"
+      "site": "The Pfield, Pflugerville",
+      "lat": 30.44853,
+      "lng": -97.63443,
+      "stadium": "The Pfield",
+      "city": "Pflugerville"
     },
     {
       "year": 2024,
@@ -7884,7 +8056,11 @@
       "team2": "Mission Pioneer",
       "score2": 6,
       "winner": "Corpus Christi Miller",
-      "site": "Corpus Christ Bucaneer Stadium"
+      "site": "Buccaneer Stadium, Corpus Christi",
+      "lat": 27.79536,
+      "lng": -97.42433,
+      "stadium": "Buccaneer Stadium",
+      "city": "Corpus Christi"
     },
     {
       "year": 2024,
@@ -7967,7 +8143,11 @@
       "team2": "Marshall",
       "score2": 7,
       "winner": "South Oak Cliff",
-      "site": "Tyler Rose Stadium"
+      "site": "Rose Stadium, Tyler",
+      "lat": 32.34228,
+      "lng": -95.32406,
+      "stadium": "Rose Stadium",
+      "city": "Tyler"
     },
     {
       "year": 2024,
@@ -8011,7 +8191,11 @@
       "team2": "Iowa Colony",
       "score2": 31,
       "winner": "Iowa Colony",
-      "site": "Houston NRG Stadium"
+      "site": "NRG Stadium, Houston",
+      "lat": 29.6847,
+      "lng": -95.4107,
+      "stadium": "NRG Stadium",
+      "city": "Houston"
     },
     {
       "year": 2024,
@@ -8042,7 +8226,11 @@
       "team2": "Boerne",
       "score2": 59,
       "winner": "Boerne",
-      "site": "Seguin"
+      "site": "Matador Stadium, Seguin",
+      "lat": 29.57658,
+      "lng": -97.94563,
+      "stadium": "Matador Stadium",
+      "city": "Seguin"
     },
     {
       "year": 2024,
@@ -8091,7 +8279,11 @@
       "team2": "Iowa Colony",
       "score2": 14,
       "winner": "Richmond Randle",
-      "site": "Houston NRG Stadium"
+      "site": "NRG Stadium, Houston",
+      "lat": 29.6847,
+      "lng": -95.4107,
+      "stadium": "NRG Stadium",
+      "city": "Houston"
     },
     {
       "year": 2024,
@@ -8122,7 +8314,11 @@
       "team2": "South Oak Cliff",
       "score2": 37,
       "winner": "South Oak Cliff",
-      "site": "Dallas Ford Stadium"
+      "site": "Gerald J. Ford Stadium (SMU), Dallas",
+      "lat": 32.8377,
+      "lng": -96.7845,
+      "stadium": "Gerald J. Ford Stadium (SMU)",
+      "city": "Dallas"
     },
     {
       "year": 2024,
@@ -8153,7 +8349,7 @@
       "team2": "Richmond Randle",
       "score2": 38,
       "winner": "Richmond Randle",
-      "site": "AT&T Stadium Arlington",
+      "site": "AT&T Stadium, Arlington",
       "lat": 32.74728,
       "lng": -97.09449,
       "stadium": "AT&T Stadium",
@@ -8694,7 +8890,11 @@
       "team2": "Katy High",
       "score2": 49,
       "winner": "Katy High",
-      "site": "Houston Tully Stadium"
+      "site": "Tully Stadium, Houston",
+      "lat": 29.77868,
+      "lng": -95.6063,
+      "stadium": "Tully Stadium",
+      "city": "Houston"
     },
     {
       "year": 2024,
@@ -8723,7 +8923,11 @@
       "team2": "Lamar Fulshear",
       "score2": 54,
       "winner": "Lamar Fulshear",
-      "site": "Katy Rhodes Stadium"
+      "site": "Rhodes Stadium, Katy",
+      "lat": 29.79137,
+      "lng": -95.81101,
+      "stadium": "Rhodes Stadium",
+      "city": "Katy"
     },
     {
       "year": 2024,
@@ -8754,7 +8958,11 @@
       "team2": "San Antonio Johnson",
       "score2": 27,
       "winner": "Austin Lake Travis",
-      "site": "San Rattler Stadium"
+      "site": "Toyota Rattler Stadium, San Marcos",
+      "lat": 29.82228,
+      "lng": -97.94768,
+      "stadium": "Toyota Rattler Stadium",
+      "city": "San Marcos"
     },
     {
       "year": 2024,
@@ -8893,7 +9101,11 @@
       "team2": "Galena Park North Shore",
       "score2": 42,
       "winner": "Galena Park North Shore",
-      "site": "Houston NRG Stadium"
+      "site": "NRG Stadium, Houston",
+      "lat": 29.6847,
+      "lng": -95.4107,
+      "stadium": "NRG Stadium",
+      "city": "Houston"
     },
     {
       "year": 2024,
@@ -8906,7 +9118,11 @@
       "team2": "Humble Atascocita",
       "score2": 47,
       "winner": "Humble Atascocita",
-      "site": "Houston Thorne Stadium"
+      "site": "Thorne Stadium, Houston",
+      "lat": 29.93033,
+      "lng": -95.3205,
+      "stadium": "Thorne Stadium",
+      "city": "Houston"
     },
     {
       "year": 2024,
@@ -8919,7 +9135,11 @@
       "team2": "San Antonio East Central",
       "score2": 7,
       "winner": "Austin Lake Travis",
-      "site": "Seguin"
+      "site": "Matador Stadium, Seguin",
+      "lat": 29.57658,
+      "lng": -97.94563,
+      "stadium": "Matador Stadium",
+      "city": "Seguin"
     },
     {
       "year": 2024,
@@ -8986,7 +9206,11 @@
       "team2": "Humble Atascocita",
       "score2": 21,
       "winner": "Galena Park North Shore",
-      "site": "Houston Thorne Stadium"
+      "site": "Thorne Stadium, Houston",
+      "lat": 29.93033,
+      "lng": -95.3205,
+      "stadium": "Thorne Stadium",
+      "city": "Houston"
     },
     {
       "year": 2024,
@@ -9035,7 +9259,11 @@
       "team2": "Austin Westlake",
       "score2": 35,
       "winner": "Austin Westlake",
-      "site": "Katy Legacy"
+      "site": "Legacy Stadium, Katy",
+      "lat": 29.80121,
+      "lng": -95.80476,
+      "stadium": "Legacy Stadium",
+      "city": "Katy"
     },
     {
       "year": 2024,
@@ -9048,7 +9276,7 @@
       "team2": "Austin Westlake",
       "score2": 21,
       "winner": "North Crowley",
-      "site": "AT&T Stadium Arlington",
+      "site": "AT&T Stadium, Arlington",
       "lat": 32.74728,
       "lng": -97.09449,
       "stadium": "AT&T Stadium",
@@ -9450,7 +9678,11 @@
       "team2": "Crowley",
       "score2": 26,
       "winner": "Crowley",
-      "site": "Abilene Shotwell Stadium"
+      "site": "Shotwell Stadium, Abilene",
+      "lat": 32.43373,
+      "lng": -99.6982,
+      "stadium": "Shotwell Stadium",
+      "city": "Abilene"
     },
     {
       "year": 2024,
@@ -9481,7 +9713,11 @@
       "team2": "Southlake Carroll",
       "score2": 49,
       "winner": "Southlake Carroll",
-      "site": "ACU Wildcat Stadium"
+      "site": "Wildcat Stadium (ACU), Abilene",
+      "lat": 32.4733,
+      "lng": -99.70905,
+      "stadium": "Wildcat Stadium (ACU)",
+      "city": "Abilene"
     },
     {
       "year": 2024,
@@ -9548,7 +9784,11 @@
       "team2": "Lancaster",
       "score2": 28,
       "winner": "Longview",
-      "site": "Dallas Kincaid Stadium"
+      "site": "Kincaide Stadium, Dallas",
+      "lat": 32.63734,
+      "lng": -96.84225,
+      "stadium": "Kincaide Stadium",
+      "city": "Dallas"
     },
     {
       "year": 2024,
@@ -9561,7 +9801,11 @@
       "team2": "Spring Klein Collins",
       "score2": 70,
       "winner": "Spring Klein Collins",
-      "site": "Houston Thorne Stadium"
+      "site": "Thorne Stadium, Houston",
+      "lat": 29.93033,
+      "lng": -95.3205,
+      "stadium": "Thorne Stadium",
+      "city": "Houston"
     },
     {
       "year": 2024,
@@ -9574,7 +9818,11 @@
       "team2": "Fulshear Jordan",
       "score2": 31,
       "winner": "Fulshear Jordan",
-      "site": "Katy Legacy Stadium"
+      "site": "Legacy Stadium, Katy",
+      "lat": 29.80121,
+      "lng": -95.80476,
+      "stadium": "Legacy Stadium",
+      "city": "Katy"
     },
     {
       "year": 2024,
@@ -9731,7 +9979,11 @@
       "team2": "Lewisville Hebron",
       "score2": 37,
       "winner": "Southlake Carroll",
-      "site": "Irving Ellis Stadium"
+      "site": "Ellis Stadium, Irving",
+      "lat": 32.80768,
+      "lng": -96.93759,
+      "stadium": "Ellis Stadium",
+      "city": "Irving"
     },
     {
       "year": 2024,
@@ -9744,7 +9996,11 @@
       "team2": "Willis",
       "score2": 35,
       "winner": "DeSoto",
-      "site": "Frisco Star"
+      "site": "Ford Center at the Star, Frisco",
+      "lat": 33.11066,
+      "lng": -96.8281,
+      "stadium": "Ford Center at the Star",
+      "city": "Frisco"
     },
     {
       "year": 2024,
@@ -9775,7 +10031,11 @@
       "team2": "Humble Summer Creek",
       "score2": 54,
       "winner": "Humble Summer Creek",
-      "site": "Houston NRG Stadium"
+      "site": "NRG Stadium, Houston",
+      "lat": 29.6847,
+      "lng": -95.4107,
+      "stadium": "NRG Stadium",
+      "city": "Houston"
     },
     {
       "year": 2024,
@@ -9824,7 +10084,11 @@
       "team2": "New Braunfels Canyon",
       "score2": 36,
       "winner": "San Antonio Harlan",
-      "site": "San Bobcat Stadium"
+      "site": "Bobcat Stadium (Texas State), San Marcos",
+      "lat": 29.8907,
+      "lng": -97.9257,
+      "stadium": "Bobcat Stadium (Texas State)",
+      "city": "San Marcos"
     },
     {
       "year": 2024,
@@ -9891,7 +10155,11 @@
       "team2": "San Antonio Harlan",
       "score2": 14,
       "winner": "Leander Vandegrift",
-      "site": "San Bobcat Stadium"
+      "site": "Bobcat Stadium (Texas State), San Marcos",
+      "lat": 29.8907,
+      "lng": -97.9257,
+      "stadium": "Bobcat Stadium (Texas State)",
+      "city": "San Marcos"
     },
     {
       "year": 2024,
@@ -9904,7 +10172,11 @@
       "team2": "Longview",
       "score2": 17,
       "winner": "Southlake Carroll",
-      "site": "Dallas Ford Stadium"
+      "site": "Gerald J. Ford Stadium (SMU), Dallas",
+      "lat": 32.8377,
+      "lng": -96.7845,
+      "stadium": "Gerald J. Ford Stadium (SMU)",
+      "city": "Dallas"
     },
     {
       "year": 2024,
@@ -9935,7 +10207,7 @@
       "team2": "Leander Vandegrift",
       "score2": 24,
       "winner": "Leander Vandegrift",
-      "site": "AT&T Stadium Arlington",
+      "site": "AT&T Stadium, Arlington",
       "lat": 32.74728,
       "lng": -97.09449,
       "stadium": "AT&T Stadium",

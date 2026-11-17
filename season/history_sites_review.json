@@ -1,232 +1,7 @@
 [
  {
-  "site": "ACU",
-  "game": "Brownwood v Wichita Falls High",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "ACU",
-  "game": "Canadian v Gunter",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "ACU",
-  "game": "Canyon Randall v Decatur",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "ACU",
-  "game": "Midland Greenwood v Brock",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "ACU",
-  "game": "Odessa Permian v Mansfield Lake Ridge",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "ACU",
-  "game": "Prosper Walnut Grove v Lubbock Cooper",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "ACU",
-  "game": "Seminole v Glen Rose",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "ACU",
-  "game": "Wall v Gunter",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "ACU (Abilene",
-  "game": "Amarillo Tascosa v Justin Northwest",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "ACU (Abilene",
-  "game": "Frenship v Southlake Carroll",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "ACU Wildcat Stadium",
-  "game": "Frenship v Southlake Carroll",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "ATT&T Stadium",
-  "game": "Aledo v College Station",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "ATT&T Stadium",
-  "game": "Boerne v China Spring",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "ATT&T Stadium",
-  "game": "Brock v Franklin",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "ATT&T Stadium",
-  "game": "DeSoto v Austin Vandegrift",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "ATT&T Stadium",
-  "game": "Duncanville v Galena Park North Shore",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "ATT&T Stadium",
-  "game": "Hawley v Refugio",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "ATT&T Stadium",
-  "game": "Port Neches-Groves v South Oak Cliff",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "ATT&T Stadium",
-  "game": "Poth v Gunter",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "ATT&T Stadium",
-  "game": "Wimberley v Carthage",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Abilene ACU",
-  "game": "Cisco v Hawley",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Abilene Shotwell",
-  "game": "Canyon West Plains v Celina",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Abilene Shotwell",
-  "game": "Clyde v Shallowater",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Abilene Shotwell",
-  "game": "Decatur v Andrews",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Abilene Shotwell",
-  "game": "Fort Worth Arlington Heights v Lubbock Monterey",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Abilene Shotwell",
-  "game": "Lubbock Estacado v Decatur",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Abilene Shotwell",
-  "game": "Lubbock Liberty v Graham",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Abilene Shotwell",
-  "game": "Midland Legacy v Allen",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Abilene Shotwell",
-  "game": "Midland Legacy v North Crowley",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Abilene Shotwell",
-  "game": "Odessa Permian v Allen",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Abilene Shotwell",
-  "game": "Odessa Permian v North Crowley",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Abilene Shotwell",
-  "game": "Shallowater v Paradise",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Abilene Shotwell Stadium",
-  "game": "Cisco v Stamford",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Abilene Shotwell Stadium",
-  "game": "Midland High v Crowley",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Abilene Shotwell Stadium",
-  "game": "Prosper Walnut Grove v Lubbock Cooper",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Abilene Shotwell Stadium",
-  "game": "Stephenville v Hereford",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Amarillo Dick Bivins",
-  "game": "Canadian v Idalou",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Amarillo Dick Bivins",
-  "game": "Wellington v Sudan",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Arlington Choctaw",
-  "game": "Abilene High v Burleson Centennial",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Arlington Choctaw",
-  "game": "Aledo v Red Oak",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Arlington Choctaw",
-  "game": "Byron Nelson v Coppell",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Arlington Choctaw",
-  "game": "South Oak Cliff v Lovejoy",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Arlington Choctaw",
-  "game": "Southlake Carroll v Byron Nelson",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Arlington Choctaw",
-  "game": "Southlake Carroll v Dallas Highland Park",
-  "why": "no stadium, school or town matched"
- },
- {
   "site": "Austin Veterans Stadium",
   "game": "Bay City v Canyon Lake",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "BaylorMcLane Stadium",
-  "game": "Harker Heights v Spring Dekaney",
   "why": "no stadium, school or town matched"
  },
  {
@@ -265,169 +40,9 @@
   "why": "several schools with this name"
  },
  {
-  "site": "Bryan Green Stadium",
-  "game": "Belton v Brenham",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Bryan Green Stadium",
-  "game": "Burton v Chilton",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Bryan Green Stadium",
-  "game": "Iowa Colony v Lindale",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Bryan Green Stadium",
-  "game": "Sealy v Gatesville",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Bye (Cedar Hill Trinity Leadership forefit",
-  "game": "Jacksboro v Gunter",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Bye (Tornillo forefeit",
-  "game": "Childress v Wall",
-  "why": "no stadium, school or town matched"
- },
- {
   "site": "Canyon",
   "game": "Denver City v Vernon",
   "why": "several schools with this name"
- },
- {
-  "site": "Canyon HSB Stadium",
-  "game": "Clarendon v Sunray",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Canyon HSB Stadium",
-  "game": "Gruver v Ralls",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Canyon HSB Stadium",
-  "game": "Morton v Wellington",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Canyon HSB Stadium",
-  "game": "New Home v Sunray",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Canyon HSB Stadium",
-  "game": "Vega v Wellington",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Canyon HSB Stadium",
-  "game": "Wellington v New Home",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Canyon HSB Stadium",
-  "game": "Wellington v Sunray",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Cedar Park Gupton Stadium",
-  "game": "Jarrell v Wimberley",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Cedar Park Gupton Stadium",
-  "game": "Mason v Schulenburg",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Childress Fair Park",
-  "game": "Paradise v Bushland",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "College Statiion",
-  "game": "College Station v Magnolia",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "College Station Tiger Stadium",
-  "game": "Lamar Fulshear v A&M Consolidated",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "College Station Tiger Stadium",
-  "game": "Lovelady v Mart",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Converse Rutledge Stadium",
-  "game": "Corpus Christi Flour Bluff v Judson Veterans Memorial",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Converse Rutledge Stadium",
-  "game": "Dripping Springs v Converse Judson",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Converse Rutledge Stadium",
-  "game": "Llano v London",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Corpus Christ Bucaneer Stadium",
-  "game": "Corpus Christi Miller v Mission Pioneer",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Corpus Christi Cabaniss Stadium",
-  "game": "Brownsville Veterans Memorial v Victoria West",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Corpus Christi Cabaniss Stadium",
-  "game": "Medina Valley v Harlingen",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Corpus Christi Cabaniss Stadium",
-  "game": "Pharr-San Juan-Alamo North v Corpus Christi Miller",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Corpus Christi Cabaniss Stadium",
-  "game": "San Antonio Harlan v Harlingen",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Corpus Christi Cabaniss Stadium",
-  "game": "San Antonio Southwest v Corpus Christi Veterans Memorial",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Corpus Christi Cabaniss Stadium",
-  "game": "Victoria West v Harlingen South",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Corpus Christi Danaher Stadium",
-  "game": "Pharr-San Juan-Alamo v New Braunfels",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Corpus Christi Danaher Stadium",
-  "game": "Pharr-San Juan-Alamo North v Victoria East",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Corpus Christi Danaher Stadium",
-  "game": "San Antonio Southside v McAllen",
-  "why": "no stadium, school or town matched"
  },
  {
   "site": "Crockett",
@@ -460,128 +75,8 @@
   "why": "no stadium, school or town matched"
  },
  {
-  "site": "Dallas Ford Stadium",
-  "game": "Argyle v South Oak Cliff",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Dallas Ford Stadium",
-  "game": "Lewisville v Arlington Martin",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Dallas Ford Stadium",
-  "game": "McKinney High v Dallas Highland Park",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Dallas Ford Stadium",
-  "game": "Prosper v Duncanville",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Dallas Ford Stadium",
-  "game": "Southlake Carroll v Longview",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Dallas Kincaid Stadium",
-  "game": "Longview v Lancaster",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Dallas Kincaide",
-  "game": "DeSoto v Cedar Hill",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Dallas Kincaide",
-  "game": "Longview v Frisco Lone Star",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Dallas Kincaide",
-  "game": "Tatum v Whitney",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Dallas Kincaide Stadium",
-  "game": "Aledo v Longview",
-  "why": "no stadium, school or town matched"
- },
- {
   "site": "Dallas Life Oak Cliff",
   "game": "Saint Jo v Abbott",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Denton Collins Stadium",
-  "game": "Aubrey v Decatur",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Denton Collins Stadium",
-  "game": "Gunter v Henrietta",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Denton Collins Stadium",
-  "game": "Gunter v Wichita Falls City View",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Denton Collins Stadium",
-  "game": "Holliday v Leonard",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Denton Collins Stadium",
-  "game": "Jacksboro v Bells",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Denton Collins Stadium",
-  "game": "Jacksboro v Blue Ridge",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Denton Collins Stadium",
-  "game": "Jacksboro v Gunter",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Denton Collins Stadium",
-  "game": "Whitesboro v Brock",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Denton Collins Stadium",
-  "game": "Wichita Falls High v Decatur",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Edinbug Flores Stadium",
-  "game": "Edinburg Vela v Comal Smithson Valley",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Edinburg Flores Stadium",
-  "game": "Corpus Christi Miller v Edinburg Vela",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "FW Crowley",
-  "game": "Abilene Cooper v Grapevine",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "FW Crowley",
-  "game": "Anna v China Spring",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "FW Crowley",
-  "game": "Tolar v Marlin",
   "why": "no stadium, school or town matched"
  },
  {
@@ -590,158 +85,8 @@
   "why": "no stadium, school or town matched"
  },
  {
-  "site": "Falls Faith",
-  "game": "Medina v May",
-  "why": "no stadium, school or town matched"
- },
- {
   "site": "Fort Worth Ranger Stadium",
   "game": "Alvarado v Celina",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Frisco Ford",
-  "game": "Paradise v Malakoff",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Frisco Ford Field",
-  "game": "Byron Nelson v Denton Guyer",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Frisco Ford Field",
-  "game": "Denton Guyer v DeSoto",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Frisco Star",
-  "game": "DeSoto v Willis",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Halletsville",
-  "game": "Flatonia v Shiner",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Houston NRG Stadium",
-  "game": "Angleton v La Porte",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Houston NRG Stadium",
-  "game": "Brenham v Port Neches-Groves",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Houston NRG Stadium",
-  "game": "Fort Bend Marshall v Iowa Colony",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Houston NRG Stadium",
-  "game": "Fulshear Jordan v Humble Summer Creek",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Houston NRG Stadium",
-  "game": "Katy High v Galena Park North Shore",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Houston NRG Stadium",
-  "game": "Katy High v Houston King",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Houston NRG Stadium",
-  "game": "Port Neches-Groves v Huntsville",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Houston NRG Stadium",
-  "game": "Richmond Randle v Iowa Colony",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Houston NRG Stadium",
-  "game": "Silsbee v Cuero",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Houston Sheldon",
-  "game": "Kilgore v Bay City",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Houston Sheldon",
-  "game": "Port Neches-Groves v Montgomery Lake Creek",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Houston Sheldon ISD Stadium",
-  "game": "Houston King v Clear Falls",
-  "why": "district:Stadium, Houston Sheldon"
- },
- {
-  "site": "Houston Thorne Stadium",
-  "game": "Fort Bend Ridge Point v Galena Park North Shore",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Houston Thorne Stadium",
-  "game": "Galena Park North Shore v Austin Lake Travis",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Houston Thorne Stadium",
-  "game": "Galena Park North Shore v Humble Atascocita",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Houston Thorne Stadium",
-  "game": "Humble Summer Creek v Houston King",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Houston Thorne Stadium",
-  "game": "Lamar Fulshear v Humble Atascocita",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Houston Thorne Stadium",
-  "game": "The Woodlands v Spring Klein Collins",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Houston Thorne Stadium",
-  "game": "The Woodlands College Park v Spring Klein Collins",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Houston Tully Stadium",
-  "game": "Cypress Falls v Katy High",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Houston Tully Stadium",
-  "game": "Houston Memorial v Katy High",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Houston Tully Stadium",
-  "game": "Houston Stratford v Fulshear Jordan",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Houston Tully Stadium",
-  "game": "Houston Stratford v George Ranch",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Houston Tully Stadium",
-  "game": "Katy High v Houston Memorial",
   "why": "no stadium, school or town matched"
  },
  {
@@ -752,21 +97,6 @@
  {
   "site": "Irion County",
   "game": "Richland Springs v Loraine",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Irving Ellis",
-  "game": "Frisco Reedy v Lancaster",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Irving Ellis Stadium",
-  "game": "Denton Guyer v Dallas Jesuit",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Irving Ellis Stadium",
-  "game": "Southlake Carroll v Lewisville Hebron",
   "why": "no stadium, school or town matched"
  },
  {
@@ -785,11 +115,6 @@
   "why": "no stadium, school or town matched"
  },
  {
-  "site": "Jourdantown",
-  "game": "Sinton v Geronimo Navarro",
-  "why": "no stadium, school or town matched"
- },
- {
   "site": "Justin",
   "game": "Byron Nelson v Denton Guyer",
   "why": "no stadium, school or town matched"
@@ -802,111 +127,6 @@
  {
   "site": "Justin",
   "game": "Denton Ryan v Aledo",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Katy Legacy",
-  "game": "Edna v Franklin",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Katy Legacy",
-  "game": "Galena Park North Shore v Austin Westlake",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Katy Legacy",
-  "game": "Hamshire-Fannett v Cuero",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Katy Legacy",
-  "game": "La Vernia v Port Lavaca Calhoun",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Katy Legacy",
-  "game": "Liberty Hill v Port Neches-Groves",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Katy Legacy",
-  "game": "Lumberton v Needville",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Katy Legacy Stadium",
-  "game": "A&M Consolidated v Galveston Ball",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Katy Legacy Stadium",
-  "game": "Brenham v Iowa Colony",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Katy Legacy Stadium",
-  "game": "Columbus v Yoakum",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Katy Legacy Stadium",
-  "game": "Cypress Falls v Katy Cinco Ranch",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Katy Legacy Stadium",
-  "game": "Houston Lamar v Fort Bend Ridge Point",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Katy Legacy Stadium",
-  "game": "Houston Stratford v Fulshear Jordan",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Katy Legacy Stadium",
-  "game": "Katy High v Humble Summer Creek",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Katy Legacy Stadium",
-  "game": "Port Arthur Memorial v Comal Smithson Valley",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Katy Legacy Stadium",
-  "game": "Port Neches-Groves v Leander Rouse",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Katy Rhodes",
-  "game": "Katy Cinco Ranch v Galena Park North Shore",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Katy Rhodes Stadium",
-  "game": "Austin LBJ v Port Neches-Groves",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Katy Rhodes Stadium",
-  "game": "Cuero v Hamshire-Fannett",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Katy Rhodes Stadium",
-  "game": "Fulshear Jordan v Houston King",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Katy Rhodes Stadium",
-  "game": "Houston Lamar v Lamar Fulshear",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Katy Rhodes Stadium",
-  "game": "West Orange-Stark v Sinton",
   "why": "no stadium, school or town matched"
  },
  {
@@ -925,148 +145,23 @@
   "why": "no stadium, school or town matched"
  },
  {
-  "site": "Lubbock Lowery",
-  "game": "Jim Ned v Bushland",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Lubbock Lowery Field",
-  "game": "Canyon West Plains v Stephenville",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Lubbock Lowery Field",
-  "game": "El Paso Canutillo v Frisco Emerson",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Lubbock Lowery Field",
-  "game": "Hawley v Panhandle",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Lubbock Lowery Field",
-  "game": "Jim Ned v Bushland",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Lubbock Lowery Field",
-  "game": "Stratford v Hawley",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Lubbock Lowery Field",
-  "game": "Sunray v Albany",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Lubbock Lowery Field",
-  "game": "Wall v Canadian",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Lubbock Lowery Field",
-  "game": "West Texas Stinnett v Hawley",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Lubbock Lowrey Field",
-  "game": "Amarillo River Road v Vernon",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Lubbock Patriot Stadium",
-  "game": "Hale Center v Tahoka",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Lubbock Patriot Stadium",
-  "game": "Stamford v Panhandle",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Lubbock Patriot Stadium",
-  "game": "Sunray v Hawley",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Lubbock Patriot Stadium",
-  "game": "Sunray v Post",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Lubbock Patriots Stadium",
-  "game": "Canadian v Wall",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Lubbock Pirate Stadium",
-  "game": "Jim Ned v Dalhart",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Lubbock Pirate Stadium",
-  "game": "Monahans v Canyon West Plains",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Lubbock Pirate Stadium",
-  "game": "Spearman v Cisco",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Lubbock Pirate Stadium",
-  "game": "Stratford v Stamford",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Lubbock Pirate Stadium",
-  "game": "West Texas Stinnett v Cisco",
-  "why": "no stadium, school or town matched"
- },
- {
   "site": "Lubbock Trinity",
   "game": "Klondike v Whitharral",
   "why": "no stadium, school or town matched"
  },
  {
-  "site": "Maverick Stadium",
-  "game": "Texarkana Pleasant Grove v Carthage",
+  "site": "Marble Falls Faith",
+  "game": "Medina v May",
   "why": "no stadium, school or town matched"
  },
  {
-  "site": "McKinney Poe Stadium",
-  "game": "Commerce v Pilot Point",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "McMurry (Abilene",
-  "game": "Windthorst v Roscoe",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "McMurry University",
-  "game": "Benjamin v Jayton",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "McMurry University",
-  "game": "Seminole v Godley",
-  "why": "no stadium, school or town matched"
+  "site": "Marshall",
+  "game": "Daingerfield v Arp",
+  "why": "several schools with this name"
  },
  {
   "site": "Melisssa",
   "game": "Whitney v Pottsboro",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Mequite Memorial",
-  "game": "Grandview v Pottsboro",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Mequite Memorial",
-  "game": "Longview v Frisco Reedy",
   "why": "no stadium, school or town matched"
  },
  {
@@ -1075,43 +170,8 @@
   "why": "no stadium, school or town matched"
  },
  {
-  "site": "Mesquite Hanby",
-  "game": "Mineola v Grandview",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Midland King Memorial",
-  "game": "El Paso Eastwood v Byron Nelson",
-  "why": "no stadium, school or town matched"
- },
- {
   "site": "Midland Ranger Standium",
   "game": "Brownwood v Canyon Randall",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Murphy Kimbrough Stadium",
-  "game": "Dallas Highland Park v Frisco Wakeland",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "NRG Stadium",
-  "game": "Cy-Fair v Galena Park North Shore",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "NRG Stadium",
-  "game": "Fort Bend Hightower v Houston King",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "NRG Stadium",
-  "game": "Houston Lamar v Humble Atascocita",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "NRH Birdville",
-  "game": "Callisburg v Palmer",
   "why": "no stadium, school or town matched"
  },
  {
@@ -1130,61 +190,6 @@
   "why": "no stadium, school or town matched"
  },
  {
-  "site": "Odessa Ratliff",
-  "game": "Fort Worth Arlington Heights v El Paso Canutillo",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Pflugerville Pfield",
-  "game": "Austin Lake Travis v Austin Westlake",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Pflugerville Pfield",
-  "game": "Austin Lake Travis v Cibolo Steele",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Pflugerville Pfield",
-  "game": "Sealy v La Vega",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Plugerville Pfield",
-  "game": "Bellville v Wimberley",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Plugerville Pfield",
-  "game": "Brenham v Liberty Hill",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Plugerville Pfield",
-  "game": "College Station v Comal Smithson Valley",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Plugerville Pfield",
-  "game": "DeSoto v Tomball High",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Plugerville Pfield",
-  "game": "Duncanville v The Woodlands",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Plugerville Pfield",
-  "game": "Galena Park North Shore v Austin Westlake",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Plugerville Pfield",
-  "game": "Rockwall High v Spring Westfield",
-  "why": "no stadium, school or town matched"
- },
- {
   "site": "Porter",
   "game": "El Campo v Kilgore",
   "why": "several schools with this name"
@@ -1200,11 +205,6 @@
   "why": "no stadium, school or town matched"
  },
  {
-  "site": "Porter Randalla Reed Stadium",
-  "game": "Conroe Oak Ridge v Tomball High",
-  "why": "no stadium, school or town matched"
- },
- {
   "site": "Prairie View A&M",
   "game": "Richmond Randle v Iowa Colony",
   "why": "no stadium, school or town matched"
@@ -1212,11 +212,6 @@
  {
   "site": "Rusj",
   "game": "Edgewood v Woodville",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "San",
-  "game": "Simms Bowie v Deweyville",
   "why": "no stadium, school or town matched"
  },
  {
@@ -1230,53 +225,8 @@
   "why": "no stadium, school or town matched"
  },
  {
-  "site": "San Antonio Colamander Stadium",
-  "game": "London v Blanco",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "San Antonio Colamander Stadium",
-  "game": "Sinton v Salado",
-  "why": "no stadium, school or town matched"
- },
- {
   "site": "San Antonio Edgewood",
   "game": "Blanco v Cotulla",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "San Antonio Farris Stadium",
-  "game": "Blanco v Edna",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "San Antonio Farris Stadium",
-  "game": "Corpus Christi Flour Bluff v Liberty Hill",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "San Antonio Farris Stadium",
-  "game": "Dripping Springs v Medina Valley",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "San Antonio Farris Stadium",
-  "game": "Harlingen v San Antonio Warren",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "San Antonio Farris Stadium",
-  "game": "La Vernia v Corpus Christi Calallen",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "San Antonio Farris Stadium",
-  "game": "Llano v Goliad",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "San Antonio Farris Stadium",
-  "game": "Mission Sharyland Pioneer v Liberty Hill",
   "why": "no stadium, school or town matched"
  },
  {
@@ -1290,163 +240,8 @@
   "why": "no stadium, school or town matched"
  },
  {
-  "site": "San Antonio Heroes",
-  "game": "La Vernia v Somerset",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "San Antonio Heroes",
-  "game": "Refugio v Holland",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "San Antonio Heroes",
-  "game": "Vanderbilt Industrial v Llano",
-  "why": "no stadium, school or town matched"
- },
- {
   "site": "San Antonio Warrior",
   "game": "Goliad v Llano",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "San Bobcat Stadium",
-  "game": "Austin Lake Travis v San Antonio Johnson",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "San Bobcat Stadium",
-  "game": "Comal Pieper v Liberty Hill",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "San Bobcat Stadium",
-  "game": "Leander Vandegrift v San Antonio Harlan",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "San Bobcat Stadium",
-  "game": "San Antonio Harlan v New Braunfels Canyon",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "San Bobcat Stadium",
-  "game": "San Antonio Johnson v Austin Lake Travis",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "San Bobcat Stadium",
-  "game": "Tidehaven v Poth",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "San Rattler Stadium",
-  "game": "Austin Lake Travis v San Antonio Johnson",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "San Rattler Stadium",
-  "game": "Austin Vandegrift v San Antonio Brandeis",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "San Rattler Stadium",
-  "game": "Austin Westlake v New Braunfels",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "San Rattler Stadium",
-  "game": "Edna v San Antonio Cole",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "San Rattler Stadium",
-  "game": "Llano v Edna",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "San Rattler Stadium",
-  "game": "Marlin v Ganado",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "San Rattler Stadium",
-  "game": "Mason v Ganado",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "San Rattler Stadium",
-  "game": "Round Rock McNeil v Cibolo Steele",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "San Rattler Stadium",
-  "game": "Shiner v Refugio",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Seguin",
-  "game": "Austin LBJ v La Vernia",
-  "why": "several schools with this name"
- },
- {
-  "site": "Seguin",
-  "game": "Austin Lake Travis v San Antonio Brennan",
-  "why": "several schools with this name"
- },
- {
-  "site": "Seguin",
-  "game": "Austin Lake Travis v San Antonio East Central",
-  "why": "several schools with this name"
- },
- {
-  "site": "Seguin",
-  "game": "Austin Westlake v San Antonio Reagan",
-  "why": "several schools with this name"
- },
- {
-  "site": "Seguin",
-  "game": "Blanco v Tidehaven",
-  "why": "several schools with this name"
- },
- {
-  "site": "Seguin",
-  "game": "Falls City v Granger",
-  "why": "several schools with this name"
- },
- {
-  "site": "Seguin",
-  "game": "Goliad v Blanco",
-  "why": "several schools with this name"
- },
- {
-  "site": "Seguin",
-  "game": "Lamar Fulshear v Comal Smithson Valley",
-  "why": "several schools with this name"
- },
- {
-  "site": "Seguin",
-  "game": "Marion v Goliad",
-  "why": "several schools with this name"
- },
- {
-  "site": "Seguin",
-  "game": "Port Lavaca Calhoun v Alice",
-  "why": "several schools with this name"
- },
- {
-  "site": "Seguin",
-  "game": "Victoria West v Boerne",
-  "why": "several schools with this name"
- },
- {
-  "site": "Seguin (Matadors",
-  "game": "San Antonio Southwest v Corpus Christi Veterans Memorial",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Sequin",
-  "game": "Sinton v Lago Vista",
   "why": "no stadium, school or town matched"
  },
  {
@@ -1455,164 +250,14 @@
   "why": "no stadium, school or town matched"
  },
  {
-  "site": "Sheldon ISD Panther Stadium",
-  "game": "Kilgore v Needville",
-  "why": "district:Panther Stadium, Sheldon"
- },
- {
-  "site": "Shenendoah Woodorest Bank Stadium",
-  "game": "The Woodlands v Houston Klein Cain",
-  "why": "no stadium, school or town matched"
- },
- {
   "site": "Sugarland Hall Stadium",
   "game": "Houston Heights v Fort Bend Hightower",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Sulpher Springs",
-  "game": "De Kalb v Daingerfield",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Sulpher Springs",
-  "game": "Sunnyvale v Gilmer",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Sulpher Springs",
-  "game": "Sunnyvale v Van",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Sulpher Springs",
-  "game": "Texarkana Texas v Mansfield Summit",
   "why": "no stadium, school or town matched"
  },
  {
   "site": "Taft",
   "game": "Tidehaven v Stockdale",
   "why": "several schools with this name"
- },
- {
-  "site": "Tarleton",
-  "game": "Brock v Graham",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Texarkana Tiger Stadium",
-  "game": "Van Alstyne v Carthage",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Tyler Rose",
-  "game": "Kilgore v Tyler Chapel Hill",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Tyler Rose",
-  "game": "Winnsboro v Malakoff",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Tyler Rose Stadium",
-  "game": "Athens v Carthage",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Tyler Rose Stadium",
-  "game": "Center v Aubrey",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Tyler Rose Stadium",
-  "game": "Cooper v Garrison",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Tyler Rose Stadium",
-  "game": "Cooper v Joaquin",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Tyler Rose Stadium",
-  "game": "Gilmer v Carthage",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Tyler Rose Stadium",
-  "game": "Honey Grove v Hearne",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Tyler Rose Stadium",
-  "game": "Jewett Leon v Beckville",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Tyler Rose Stadium",
-  "game": "Liberty-Eylau v Malakoff",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Tyler Rose Stadium",
-  "game": "Lindale v Kilgore",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Tyler Rose Stadium",
-  "game": "Malakoff v Jefferson",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Tyler Rose Stadium",
-  "game": "Malakoff v Mount Vernon",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Tyler Rose Stadium",
-  "game": "Pilot Point v Liberty-Eylau",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Tyler Rose Stadium",
-  "game": "San Augustine v Beckville",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Tyler Rose Stadium",
-  "game": "South Oak Cliff v Marshall",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Tyler Rose Stadium",
-  "game": "Sunnyvale v Gilmer",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "UMHB",
-  "game": "Mart v Chilton",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "UMHB",
-  "game": "Waco University v Bastrop",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "UMHB (Belton",
-  "game": "Lovelady v Hico",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Victoria Memorial",
-  "game": "Jourdanton v Edna",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Von Ormy Southwest Legacy",
-  "game": "Brackettville v Granger",
-  "why": "no stadium, school or town matched"
  },
  {
   "site": "Waco Panther Stadium",
@@ -1622,11 +267,6 @@
  {
   "site": "Waco Stadium",
   "game": "Harker Heights v Royse City",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Waxahatchie",
-  "game": "Lake Worth v China Spring",
   "why": "no stadium, school or town matched"
  },
  {
@@ -1640,18 +280,8 @@
   "why": "no stadium, school or town matched"
  },
  {
-  "site": "Wichita Fallas Memorial Stadium",
-  "game": "Amarillo High v North Richland Hills Richland",
-  "why": "no stadium, school or town matched"
- },
- {
   "site": "Woodrow",
   "game": "Stratford v Cisco",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "lubbock Lowery Field",
-  "game": "Wink v Stratford",
   "why": "no stadium, school or town matched"
  }
 ]
