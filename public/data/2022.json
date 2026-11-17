@@ -1079,7 +1079,13 @@
       "score1": 28,
       "team2": "Nazareth",
       "score2": 62,
-      "winner": "Nazareth"
+      "winner": "Nazareth",
+      "site": "Petersburg",
+      "lat": 33.87157,
+      "lng": -101.60304,
+      "stadium": "Buffalo Stadium",
+      "map_link": "https://goo.gl/maps/wLaVtEYg4Nvitjr89",
+      "city": "Petersburg"
     },
     {
       "year": 2022,
@@ -1091,7 +1097,13 @@
       "score1": 0,
       "team2": "Happy",
       "score2": 50,
-      "winner": "Happy"
+      "winner": "Happy",
+      "site": "Motley County",
+      "lat": 34.00864,
+      "lng": -100.82605,
+      "stadium": "Titus Stadium",
+      "map_link": "https://goo.gl/maps/oL776jmqNQQ9hDsv6",
+      "city": "Matador"
     },
     {
       "year": 2022,
@@ -1103,7 +1115,13 @@
       "score1": 24,
       "team2": "Rankin",
       "score2": 70,
-      "winner": "Rankin"
+      "winner": "Rankin",
+      "site": "Borden County",
+      "lat": 32.77586,
+      "lng": -101.45098,
+      "stadium": "Coyote Stadium",
+      "map_link": "https://goo.gl/maps/9gcdVjhXxMAPZwdB9",
+      "city": "Gail "
     },
     {
       "year": 2022,
@@ -1115,7 +1133,13 @@
       "score1": 0,
       "team2": "Westbrook",
       "score2": 48,
-      "winner": "Westbrook"
+      "winner": "Westbrook",
+      "site": "Garden City",
+      "lat": 31.86682,
+      "lng": -101.4853,
+      "stadium": "Bearkat Stadium",
+      "map_link": "https://goo.gl/maps/Tqn9oqm3UQDh4ycH7",
+      "city": "Garden City"
     },
     {
       "year": 2022,
@@ -1127,7 +1151,13 @@
       "score1": 48,
       "team2": "Gordon",
       "score2": 52,
-      "winner": "Gordon"
+      "winner": "Gordon",
+      "site": "Hico",
+      "lat": 31.98804,
+      "lng": -98.03499,
+      "stadium": "Tiger Stadium",
+      "map_link": "https://goo.gl/maps/orSKgcfuWkd5C4NE6",
+      "city": "Hico"
     },
     {
       "year": 2022,
@@ -1139,7 +1169,13 @@
       "score1": 10,
       "team2": "Abbott",
       "score2": 58,
-      "winner": "Abbott"
+      "winner": "Abbott",
+      "site": "Mabank",
+      "lat": 32.37323,
+      "lng": -96.11506,
+      "stadium": "Panther Stadium",
+      "map_link": "https://goo.gl/maps/Tx5S5PxkaiZXQLpG8",
+      "city": "Mabank"
     },
     {
       "year": 2022,
@@ -1151,7 +1187,13 @@
       "score1": 0,
       "team2": "Irion County",
       "score2": 52,
-      "winner": "Irion County"
+      "winner": "Irion County",
+      "site": "Sonora",
+      "lat": 30.5577,
+      "lng": -100.64097,
+      "stadium": "Bronco Stadium",
+      "map_link": "https://goo.gl/maps/aP9iCKvj8JsVqmZGA",
+      "city": "Sonora"
     },
     {
       "year": 2022,
@@ -1163,7 +1205,13 @@
       "score1": 56,
       "team2": "Jonesboro",
       "score2": 62,
-      "winner": "Jonesboro"
+      "winner": "Jonesboro",
+      "site": "San Saba",
+      "lat": 31.19669,
+      "lng": -98.72287,
+      "stadium": "Rogan Field",
+      "map_link": "https://goo.gl/maps/v41d2Rn2B2EoWEn58",
+      "city": "San Saba"
     },
     {
       "year": 2022,
@@ -1175,7 +1223,13 @@
       "score1": 16,
       "team2": "Happy",
       "score2": 56,
-      "winner": "Happy"
+      "winner": "Happy",
+      "site": "Tulia",
+      "lat": 34.54004,
+      "lng": -101.75666,
+      "stadium": "Younger Field",
+      "map_link": "https://goo.gl/maps/NnSnqZU4gUMWJTXz7",
+      "city": "Tulia"
     },
     {
       "year": 2022,
@@ -1187,7 +1241,13 @@
       "score1": 16,
       "team2": "Westbrook",
       "score2": 62,
-      "winner": "Westbrook"
+      "winner": "Westbrook",
+      "site": "Robert Lee",
+      "lat": 31.90081,
+      "lng": -100.48903,
+      "stadium": "Griffith Stadium",
+      "map_link": "https://goo.gl/maps/rtUWeUBFBqsEXabD6",
+      "city": "Robert Lee"
     },
     {
       "year": 2022,
@@ -1199,7 +1259,13 @@
       "score1": 24,
       "team2": "Abbott",
       "score2": 32,
-      "winner": "Abbott"
+      "winner": "Abbott",
+      "site": "Hico",
+      "lat": 31.98804,
+      "lng": -98.03499,
+      "stadium": "Tiger Stadium",
+      "map_link": "https://goo.gl/maps/orSKgcfuWkd5C4NE6",
+      "city": "Hico"
     },
     {
       "year": 2022,
@@ -1211,7 +1277,13 @@
       "score1": 43,
       "team2": "Irion County",
       "score2": 44,
-      "winner": "Irion County"
+      "winner": "Irion County",
+      "site": "Early",
+      "lat": 31.74394,
+      "lng": -98.93369,
+      "stadium": "Longhorn Stadium",
+      "map_link": "https://goo.gl/maps/vDiNsiGUv7RL17hw8",
+      "city": "Early"
     },
     {
       "year": 2022,
@@ -1223,7 +1295,13 @@
       "score1": 30,
       "team2": "Westbrook",
       "score2": 40,
-      "winner": "Westbrook"
+      "winner": "Westbrook",
+      "site": "Slaton",
+      "lat": 33.44043,
+      "lng": -101.65311,
+      "stadium": "Blake J Boyd Memorial Stadium",
+      "map_link": "https://goo.gl/maps/v8wxccePDXoFuiug9",
+      "city": "Slaton"
     },
     {
       "year": 2022,
@@ -1235,7 +1313,13 @@
       "score1": 60,
       "team2": "Abbott",
       "score2": 88,
-      "winner": "Abbott"
+      "winner": "Abbott",
+      "site": "Early",
+      "lat": 31.74394,
+      "lng": -98.93369,
+      "stadium": "Longhorn Stadium",
+      "map_link": "https://goo.gl/maps/vDiNsiGUv7RL17hw8",
+      "city": "Early"
     },
     {
       "year": 2022,
@@ -1247,7 +1331,13 @@
       "score1": 24,
       "team2": "Westbrook",
       "score2": 69,
-      "winner": "Westbrook"
+      "winner": "Westbrook",
+      "site": "AT&T Stadium",
+      "lat": 32.74728,
+      "lng": -97.09449,
+      "stadium": "AT&T Stadium",
+      "map_link": "https://goo.gl/maps/SgVppKAjjEAL9xaL9",
+      "city": "Arlington"
     },
     {
       "year": 2022,
@@ -1451,7 +1541,13 @@
       "score1": 14,
       "team2": "Balmorhea",
       "score2": 60,
-      "winner": "Balmorhea"
+      "winner": "Balmorhea",
+      "site": "Hermleigh",
+      "lat": 32.62637,
+      "lng": -100.75158,
+      "stadium": "Cardinal Stadium",
+      "map_link": "https://goo.gl/maps/5E1ZZEhmmbxsjQw26",
+      "city": "Hermleigh"
     },
     {
       "year": 2022,
@@ -1463,7 +1559,8 @@
       "score1": 20,
       "team2": "Whitharral",
       "score2": 64,
-      "winner": "Whitharral"
+      "winner": "Whitharral",
+      "site": "Lubbock Trinity"
     },
     {
       "year": 2022,
@@ -1475,7 +1572,13 @@
       "score1": 24,
       "team2": "Throckmorton",
       "score2": 30,
-      "winner": "Throckmorton"
+      "winner": "Throckmorton",
+      "site": "Hamlin",
+      "lat": 32.87726,
+      "lng": -100.1323,
+      "stadium": "Piper Stadium",
+      "map_link": "https://goo.gl/maps/4VqnJwKubWmvuKC18",
+      "city": "Hamlin"
     },
     {
       "year": 2022,
@@ -1499,7 +1602,13 @@
       "score1": 44,
       "team2": "Oakwood",
       "score2": 71,
-      "winner": "Oakwood"
+      "winner": "Oakwood",
+      "site": "Mexia",
+      "lat": 31.69445,
+      "lng": -96.47086,
+      "stadium": "Blackcat Field",
+      "map_link": "https://goo.gl/maps/EkD2KuxKZWcYqZw69",
+      "city": "Mexia"
     },
     {
       "year": 2022,
@@ -1511,7 +1620,13 @@
       "score1": 35,
       "team2": "Bluff Dale",
       "score2": 81,
-      "winner": "Bluff Dale"
+      "winner": "Bluff Dale",
+      "site": "Dublin",
+      "lat": 32.0867,
+      "lng": -98.3215,
+      "stadium": "Bob and Norma Cervetto Stadium",
+      "map_link": "https://goo.gl/maps/SnMek5KYTMWGGttj8",
+      "city": "Dublin"
     },
     {
       "year": 2022,
@@ -1523,7 +1638,8 @@
       "score1": 0,
       "team2": "Loraine",
       "score2": 52,
-      "winner": "Loraine"
+      "winner": "Loraine",
+      "site": "Irion County"
     },
     {
       "year": 2022,
@@ -1535,7 +1651,13 @@
       "score1": 30,
       "team2": "Cherokee",
       "score2": 36,
-      "winner": "Cherokee"
+      "winner": "Cherokee",
+      "site": "Strawn",
+      "lat": 32.55036,
+      "lng": -98.50581,
+      "stadium": "Greyhound Stadium",
+      "map_link": "https://goo.gl/maps/wYU8cDxZbz8TCeiy6",
+      "city": "Strawn"
     },
     {
       "year": 2022,
@@ -1547,7 +1669,13 @@
       "score1": 20,
       "team2": "Whitharral",
       "score2": 34,
-      "winner": "Whitharral"
+      "winner": "Whitharral",
+      "site": "Hermleigh",
+      "lat": 32.62637,
+      "lng": -100.75158,
+      "stadium": "Cardinal Stadium",
+      "map_link": "https://goo.gl/maps/5E1ZZEhmmbxsjQw26",
+      "city": "Hermleigh"
     },
     {
       "year": 2022,
@@ -1559,7 +1687,13 @@
       "score1": 0,
       "team2": "Benjamin",
       "score2": 48,
-      "winner": "Benjamin"
+      "winner": "Benjamin",
+      "site": "Springtown",
+      "lat": 32.97675,
+      "lng": -97.69348,
+      "stadium": "Porcupine Stadium",
+      "map_link": "https://goo.gl/maps/47JnPKukb5mzd3YG9",
+      "city": "Springtown"
     },
     {
       "year": 2022,
@@ -1571,7 +1705,13 @@
       "score1": 51,
       "team2": "Oakwood",
       "score2": 64,
-      "winner": "Oakwood"
+      "winner": "Oakwood",
+      "site": "Ferris",
+      "lat": 32.52933,
+      "lng": -96.64852,
+      "stadium": "Yellow Jacket Stadium",
+      "map_link": "https://goo.gl/maps/UtW2N1p2sTBvPqYZ7",
+      "city": "Ferris"
     },
     {
       "year": 2022,
@@ -1583,7 +1723,13 @@
       "score1": 6,
       "team2": "Loraine",
       "score2": 24,
-      "winner": "Loraine"
+      "winner": "Loraine",
+      "site": "Miles",
+      "lat": 31.60507,
+      "lng": -100.18859,
+      "stadium": "Gary Krejci Memorial Stadium",
+      "map_link": "https://goo.gl/maps/dBzusgfj6YkcNrpL8",
+      "city": "Miles"
     },
     {
       "year": 2022,
@@ -1595,7 +1741,13 @@
       "score1": 26,
       "team2": "Benjamin",
       "score2": 71,
-      "winner": "Benjamin"
+      "winner": "Benjamin",
+      "site": "Hermleigh",
+      "lat": 32.62637,
+      "lng": -100.75158,
+      "stadium": "Cardinal Stadium",
+      "map_link": "https://goo.gl/maps/5E1ZZEhmmbxsjQw26",
+      "city": "Hermleigh"
     },
     {
       "year": 2022,
@@ -1607,7 +1759,13 @@
       "score1": 38,
       "team2": "Loraine",
       "score2": 86,
-      "winner": "Loraine"
+      "winner": "Loraine",
+      "site": "Dublin",
+      "lat": 32.0867,
+      "lng": -98.3215,
+      "stadium": "Bob and Norma Cervetto Stadium",
+      "map_link": "https://goo.gl/maps/SnMek5KYTMWGGttj8",
+      "city": "Dublin"
     },
     {
       "year": 2022,
@@ -1619,7 +1777,13 @@
       "score1": 68,
       "team2": "Loraine",
       "score2": 20,
-      "winner": "Benjamin"
+      "winner": "Benjamin",
+      "site": "AT&T Stadium",
+      "lat": 32.74728,
+      "lng": -97.09449,
+      "stadium": "AT&T Stadium",
+      "map_link": "https://goo.gl/maps/SgVppKAjjEAL9xaL9",
+      "city": "Arlington"
     },
     {
       "year": 2022,
@@ -1967,7 +2131,8 @@
       "score1": 8,
       "team2": "Cisco",
       "score2": 14,
-      "winner": "Cisco"
+      "winner": "Cisco",
+      "site": "Woodrow"
     },
     {
       "year": 2022,
@@ -1979,7 +2144,13 @@
       "score1": 35,
       "team2": "Forsan",
       "score2": 11,
-      "winner": "New Deal"
+      "winner": "New Deal",
+      "site": "Denver City",
+      "lat": 32.97342,
+      "lng": -102.83723,
+      "stadium": "Mustang Stadium",
+      "map_link": "https://goo.gl/maps/kxG68a59E33aYR1v6",
+      "city": "Denver City"
     },
     {
       "year": 2022,
@@ -1991,7 +2162,13 @@
       "score1": 18,
       "team2": "Farwell",
       "score2": 7,
-      "winner": "Sonora"
+      "winner": "Sonora",
+      "site": "Big Spring",
+      "lat": 32.25362,
+      "lng": -101.44749,
+      "stadium": "Memorial Stadium",
+      "map_link": "https://goo.gl/maps/qbXyUQgjauvj513z8",
+      "city": "Big Spring"
     },
     {
       "year": 2022,
@@ -2003,7 +2180,8 @@
       "score1": 72,
       "team2": "Panhandle",
       "score2": 28,
-      "winner": "Hawley"
+      "winner": "Hawley",
+      "site": "Lubbock Lowery Field"
     },
     {
       "year": 2022,
@@ -2015,7 +2193,8 @@
       "score1": 71,
       "team2": "Marlin",
       "score2": 18,
-      "winner": "Tolar"
+      "winner": "Tolar",
+      "site": "FW Crowley"
     },
     {
       "year": 2022,
@@ -2027,7 +2206,13 @@
       "score1": 35,
       "team2": "Axtell",
       "score2": 21,
-      "winner": "Hamilton"
+      "winner": "Hamilton",
+      "site": "Hewitt",
+      "lat": 31.48031,
+      "lng": -97.20235,
+      "stadium": "Panther Stadium",
+      "map_link": "https://goo.gl/maps/DmN9m5KEoKSveec6A",
+      "city": "Hewitt"
     },
     {
       "year": 2022,
@@ -2039,7 +2224,13 @@
       "score1": 38,
       "team2": "Bangs",
       "score2": 14,
-      "winner": "Riesel"
+      "winner": "Riesel",
+      "site": "Burleson",
+      "lat": 32.52869,
+      "lng": -97.34374,
+      "stadium": "Burleson ISD Stadium",
+      "map_link": "https://goo.gl/maps/h6xQcmaqVvVP7chz8",
+      "city": "Burleson"
     },
     {
       "year": 2022,
@@ -2051,7 +2242,13 @@
       "score1": 34,
       "team2": "Coleman",
       "score2": 13,
-      "winner": "Crawford"
+      "winner": "Crawford",
+      "site": "Weatherford",
+      "lat": 32.74842,
+      "lng": -97.79495,
+      "stadium": "Kangaroo Stadium",
+      "map_link": "https://goo.gl/maps/hPtAqGbeGsbXFgSd8",
+      "city": "Weatherford"
     },
     {
       "year": 2022,
@@ -2063,7 +2260,13 @@
       "score1": 40,
       "team2": "Corrigan-Camden",
       "score2": 14,
-      "winner": "Cooper"
+      "winner": "Cooper",
+      "site": "Athens",
+      "lat": 32.20163,
+      "lng": -95.84887,
+      "stadium": "Bruce Field",
+      "map_link": "https://goo.gl/maps/rSjzhaWHLSnC9oBk6",
+      "city": "Athens"
     },
     {
       "year": 2022,
@@ -2075,7 +2278,13 @@
       "score1": 14,
       "team2": "Joaquin",
       "score2": 35,
-      "winner": "Joaquin"
+      "winner": "Joaquin",
+      "site": "Nacogdoches",
+      "lat": 31.64451,
+      "lng": -94.62562,
+      "stadium": "Dragon Stadium",
+      "map_link": "https://goo.gl/maps/D7N5k9oDxAnGca4C6",
+      "city": "Nacogdoches"
     },
     {
       "year": 2022,
@@ -2087,7 +2296,13 @@
       "score1": 49,
       "team2": "Frankston",
       "score2": 7,
-      "winner": "Timpson"
+      "winner": "Timpson",
+      "site": "Rusk",
+      "lat": 31.78043,
+      "lng": -95.14136,
+      "stadium": "Eagle Stadium",
+      "map_link": "https://goo.gl/maps/rD7zuQeedRYhL3fn9",
+      "city": "Rusk"
     },
     {
       "year": 2022,
@@ -2099,7 +2314,13 @@
       "score1": 54,
       "team2": "Honey Grove",
       "score2": 13,
-      "winner": "Centerville"
+      "winner": "Centerville",
+      "site": "Van",
+      "lat": 32.54254,
+      "lng": -95.63912,
+      "stadium": "Van Memorial Stadium",
+      "map_link": "https://goo.gl/maps/1fXuTChwpM4Cfjgc7",
+      "city": "Van"
     },
     {
       "year": 2022,
@@ -2123,7 +2344,13 @@
       "score1": 21,
       "team2": "Shiner",
       "score2": 47,
-      "winner": "Shiner"
+      "winner": "Shiner",
+      "site": "Hutto",
+      "lat": 30.53822,
+      "lng": -97.55915,
+      "stadium": "Hutto Memorial Stadium",
+      "map_link": "https://goo.gl/maps/z6e7Bj6zqEASWTvY6",
+      "city": "Hutto"
     },
     {
       "year": 2022,
@@ -2135,7 +2362,8 @@
       "score1": 56,
       "team2": "Holland",
       "score2": 9,
-      "winner": "Refugio"
+      "winner": "Refugio",
+      "site": "San Antonio Heroes"
     },
     {
       "year": 2022,
@@ -2147,7 +2375,13 @@
       "score1": 66,
       "team2": "Thorndale",
       "score2": 12,
-      "winner": "Ganado"
+      "winner": "Ganado",
+      "site": "Bastrop",
+      "lat": 30.08716,
+      "lng": -97.50083,
+      "stadium": "Bastrop Memorial Stadium",
+      "map_link": "https://goo.gl/maps/GP86cLkEt76yzhdv9",
+      "city": "Cedar Creek"
     },
     {
       "year": 2022,
@@ -2159,7 +2393,13 @@
       "score1": 33,
       "team2": "New Deal",
       "score2": 14,
-      "winner": "Cisco"
+      "winner": "Cisco",
+      "site": "Colorado City",
+      "lat": 32.39831,
+      "lng": -100.86989,
+      "stadium": "Wolf Stadium",
+      "map_link": "https://goo.gl/maps/SojpNeMA7D2Lysrd6",
+      "city": "Colorado City"
     },
     {
       "year": 2022,
@@ -2171,7 +2411,13 @@
       "score1": 26,
       "team2": "Hawley",
       "score2": 57,
-      "winner": "Hawley"
+      "winner": "Hawley",
+      "site": "Big Spring",
+      "lat": 32.25362,
+      "lng": -101.44749,
+      "stadium": "Memorial Stadium",
+      "map_link": "https://goo.gl/maps/qbXyUQgjauvj513z8",
+      "city": "Big Spring"
     },
     {
       "year": 2022,
@@ -2183,7 +2429,13 @@
       "score1": 63,
       "team2": "Hamilton",
       "score2": 7,
-      "winner": "Tolar"
+      "winner": "Tolar",
+      "site": "Crowley",
+      "lat": 32.60854,
+      "lng": -97.33905,
+      "stadium": "Crowley ISD Multi-Purpose Stadium",
+      "map_link": "https://goo.gl/maps/vD6WyxBQ71jJaVZ89",
+      "city": "Fort Worth"
     },
     {
       "year": 2022,
@@ -2195,7 +2447,13 @@
       "score1": 3,
       "team2": "Crawford",
       "score2": 41,
-      "winner": "Crawford"
+      "winner": "Crawford",
+      "site": "Hewitt",
+      "lat": 31.48031,
+      "lng": -97.20235,
+      "stadium": "Panther Stadium",
+      "map_link": "https://goo.gl/maps/DmN9m5KEoKSveec6A",
+      "city": "Hewitt"
     },
     {
       "year": 2022,
@@ -2207,7 +2465,8 @@
       "score1": 33,
       "team2": "Joaquin",
       "score2": 11,
-      "winner": "Cooper"
+      "winner": "Cooper",
+      "site": "Tyler Rose Stadium"
     },
     {
       "year": 2022,
@@ -2219,7 +2478,11 @@
       "score1": 41,
       "team2": "Centerville",
       "score2": 14,
-      "winner": "Timpson"
+      "winner": "Timpson",
+      "site": "Jacksonville, Firiday",
+      "lat": 31.96378,
+      "lng": -95.2705,
+      "city": "Jacksonville"
     },
     {
       "year": 2022,
@@ -2231,7 +2494,8 @@
       "score1": 7,
       "team2": "Shiner",
       "score2": 45,
-      "winner": "Shiner"
+      "winner": "Shiner",
+      "site": "Halletsville"
     },
     {
       "year": 2022,
@@ -2243,7 +2507,13 @@
       "score1": 53,
       "team2": "Ganado",
       "score2": 7,
-      "winner": "Refugio"
+      "winner": "Refugio",
+      "site": "San Antonio Heroes Stadium, Firday",
+      "lat": 29.53689,
+      "lng": -98.39781,
+      "stadium": "Heroes Stadium",
+      "map_link": "https://goo.gl/maps/FxXig925WVVYT43Q9",
+      "city": "San Antonio"
     },
     {
       "year": 2022,
@@ -2255,7 +2525,8 @@
       "score1": 7,
       "team2": "Hawley",
       "score2": 40,
-      "winner": "Hawley"
+      "winner": "Hawley",
+      "site": "Abilene ACU"
     },
     {
       "year": 2022,
@@ -2267,7 +2538,13 @@
       "score1": 7,
       "team2": "Crawford",
       "score2": 14,
-      "winner": "Crawford"
+      "winner": "Crawford",
+      "site": "Burleson",
+      "lat": 32.52869,
+      "lng": -97.34374,
+      "stadium": "Burleson ISD Stadium",
+      "map_link": "https://goo.gl/maps/h6xQcmaqVvVP7chz8",
+      "city": "Burleson"
     },
     {
       "year": 2022,
@@ -2279,7 +2556,13 @@
       "score1": 13,
       "team2": "Timpson",
       "score2": 34,
-      "winner": "Timpson"
+      "winner": "Timpson",
+      "site": "Lindale",
+      "lat": 32.51731,
+      "lng": -95.41577,
+      "stadium": "Eagle Stadium",
+      "map_link": "https://goo.gl/maps/iP7iva6ebZgPZu7a6",
+      "city": "Lindale"
     },
     {
       "year": 2022,
@@ -2291,7 +2574,8 @@
       "score1": 21,
       "team2": "Refugio",
       "score2": 27,
-      "winner": "Refugio"
+      "winner": "Refugio",
+      "site": "San Rattler Stadium"
     },
     {
       "year": 2022,
@@ -2303,7 +2587,13 @@
       "score1": 34,
       "team2": "Crawford",
       "score2": 20,
-      "winner": "Hawley"
+      "winner": "Hawley",
+      "site": "Mineral Wells",
+      "lat": 32.81535,
+      "lng": -98.07946,
+      "stadium": "Ram Stadium",
+      "map_link": "https://goo.gl/maps/tLrsxB1wW7KTD4cG9",
+      "city": "Mineral Wells"
     },
     {
       "year": 2022,
@@ -2315,7 +2605,13 @@
       "score1": 21,
       "team2": "Refugio",
       "score2": 24,
-      "winner": "Refugio"
+      "winner": "Refugio",
+      "site": "Cy-Fair",
+      "lat": 29.90587,
+      "lng": -95.68868,
+      "stadium": "Cy Fair FCU Stadium",
+      "map_link": "https://goo.gl/maps/wcVPi2Ck2BR2",
+      "city": "Cypress"
     },
     {
       "year": 2022,
@@ -2327,7 +2623,8 @@
       "score1": 54,
       "team2": "Refugio",
       "score2": 28,
-      "winner": "Hawley"
+      "winner": "Hawley",
+      "site": "ATT&T Stadium"
     },
     {
       "year": 2022,
@@ -2723,7 +3020,13 @@
       "score1": 48,
       "team2": "Seagraves",
       "score2": 7,
-      "winner": "Vega"
+      "winner": "Vega",
+      "site": "Plainview",
+      "lat": 34.20356,
+      "lng": -101.7329,
+      "stadium": "Greg Sherwood Memorial Stadium",
+      "map_link": "https://goo.gl/maps/ic96ws2fQmQuXh4m8",
+      "city": "Plainview"
     },
     {
       "year": 2022,
@@ -2735,7 +3038,8 @@
       "score1": 48,
       "team2": "Sudan",
       "score2": 0,
-      "winner": "Wellington"
+      "winner": "Wellington",
+      "site": "Amarillo Dick Bivins"
     },
     {
       "year": 2022,
@@ -2747,7 +3051,13 @@
       "score1": 14,
       "team2": "Clarendon",
       "score2": 48,
-      "winner": "Clarendon"
+      "winner": "Clarendon",
+      "site": "Tulia",
+      "lat": 34.54004,
+      "lng": -101.75666,
+      "stadium": "Younger Field",
+      "map_link": "https://goo.gl/maps/NnSnqZU4gUMWJTXz7",
+      "city": "Tulia"
     },
     {
       "year": 2022,
@@ -2759,7 +3069,13 @@
       "score1": 22,
       "team2": "Sunray",
       "score2": 21,
-      "winner": "New Home"
+      "winner": "New Home",
+      "site": "Hereford",
+      "lat": 34.83171,
+      "lng": -102.41263,
+      "stadium": "Whiteface Stadium",
+      "map_link": "https://goo.gl/maps/1giBBj6DXv3Qb9sh8",
+      "city": "Hereford"
     },
     {
       "year": 2022,
@@ -2771,7 +3087,13 @@
       "score1": 35,
       "team2": "Santo",
       "score2": 19,
-      "winner": "Wink"
+      "winner": "Wink",
+      "site": "Colorado City",
+      "lat": 32.39831,
+      "lng": -100.86989,
+      "stadium": "Wolf Stadium",
+      "map_link": "https://goo.gl/maps/SojpNeMA7D2Lysrd6",
+      "city": "Colorado City"
     },
     {
       "year": 2022,
@@ -2783,7 +3105,13 @@
       "score1": 56,
       "team2": "Muenster",
       "score2": 10,
-      "winner": "Albany"
+      "winner": "Albany",
+      "site": "Graham",
+      "lat": 33.09607,
+      "lng": -98.57934,
+      "stadium": "Newton Field",
+      "map_link": "https://goo.gl/maps/5cwr5aXZ47YTGrxb7",
+      "city": "Graham"
     },
     {
       "year": 2022,
@@ -2795,7 +3123,13 @@
       "score1": 43,
       "team2": "Sterling City",
       "score2": 29,
-      "winner": "Windthorst"
+      "winner": "Windthorst",
+      "site": "Clyde",
+      "lat": 32.41405,
+      "lng": -99.53067,
+      "stadium": "Clyde Bulldog Stadium",
+      "map_link": "https://goo.gl/maps/L4WY19wkxC676aSv7",
+      "city": "Clyde"
     },
     {
       "year": 2022,
@@ -2807,7 +3141,13 @@
       "score1": 51,
       "team2": "McCamey",
       "score2": 14,
-      "winner": "Collinsville"
+      "winner": "Collinsville",
+      "site": "Brownwood",
+      "lat": 31.66748,
+      "lng": -98.97884,
+      "stadium": "Gordon Wood Stadium",
+      "map_link": "https://goo.gl/maps/RJK8G9xu2CNQVoaFA",
+      "city": "Brownwood"
     },
     {
       "year": 2022,
@@ -2819,7 +3159,13 @@
       "score1": 30,
       "team2": "Deweyville",
       "score2": 16,
-      "winner": "Bowie"
+      "winner": "Bowie",
+      "site": "Center",
+      "lat": 31.80414,
+      "lng": -94.20169,
+      "stadium": "Roughrider Stadium",
+      "map_link": "https://goo.gl/maps/ggPxaHCoJ7cTkcoaA",
+      "city": "Center"
     },
     {
       "year": 2022,
@@ -2831,7 +3177,13 @@
       "score1": 77,
       "team2": "Cushing",
       "score2": 7,
-      "winner": "Mart"
+      "winner": "Mart",
+      "site": "Madisonville",
+      "lat": 30.94603,
+      "lng": -95.90261,
+      "stadium": "Mustang Stadium",
+      "map_link": "https://goo.gl/maps/uCkXHGAGQdu9zi1W6",
+      "city": "Madisonville"
     },
     {
       "year": 2022,
@@ -2843,7 +3195,13 @@
       "score1": 40,
       "team2": "Wortham",
       "score2": 36,
-      "winner": "Price Carlisle"
+      "winner": "Price Carlisle",
+      "site": "Palestine",
+      "lat": 31.73979,
+      "lng": -95.60414,
+      "stadium": "Wildcat Stadium",
+      "map_link": "https://goo.gl/maps/R9ow3qGKin9WsV8b8",
+      "city": "Palestine"
     },
     {
       "year": 2022,
@@ -2855,7 +3213,13 @@
       "score1": 56,
       "team2": "Maud",
       "score2": 0,
-      "winner": "Lovelady"
+      "winner": "Lovelady",
+      "site": "Arp",
+      "lat": 32.23087,
+      "lng": -95.05606,
+      "stadium": "Bill Herrington Tiger Stadium",
+      "map_link": "https://maps.app.goo.gl/wP1xo61oAa8sHGDc8",
+      "city": "Arp"
     },
     {
       "year": 2022,
@@ -2867,7 +3231,13 @@
       "score1": 48,
       "team2": "Brackettville",
       "score2": 7,
-      "winner": "Chilton"
+      "winner": "Chilton",
+      "site": "Fredericksburg",
+      "lat": 30.25813,
+      "lng": -98.8814,
+      "stadium": "Battlin' Billie Stadium",
+      "map_link": "https://goo.gl/maps/nXrmvUnANqVmzvFx6",
+      "city": "Fredericksburg"
     },
     {
       "year": 2022,
@@ -2879,7 +3249,13 @@
       "score1": 55,
       "team2": "Rocksprings",
       "score2": 0,
-      "winner": "Burton"
+      "winner": "Burton",
+      "site": "Johnson City",
+      "lat": 30.28222,
+      "lng": -98.41629,
+      "stadium": "Eagle Field",
+      "map_link": "https://goo.gl/maps/cfTeKHG7gXUc3HjU6",
+      "city": "Johnson City"
     },
     {
       "year": 2022,
@@ -2891,7 +3267,13 @@
       "score1": 20,
       "team2": "Falls City",
       "score2": 29,
-      "winner": "Falls City"
+      "winner": "Falls City",
+      "site": "Jourdanton",
+      "lat": 28.90916,
+      "lng": -98.54295,
+      "stadium": "Indian Stadium",
+      "map_link": "https://goo.gl/maps/kN15KdxpF6CLvxc58",
+      "city": "Jourdanton"
     },
     {
       "year": 2022,
@@ -2903,7 +3285,13 @@
       "score1": 6,
       "team2": "Granger",
       "score2": 41,
-      "winner": "Granger"
+      "winner": "Granger",
+      "site": "Floresville",
+      "lat": 29.1451,
+      "lng": -98.15158,
+      "stadium": "Eschenburg Field",
+      "map_link": "https://goo.gl/maps/vNZLhRKta1aMvVSi9",
+      "city": "Floresville"
     },
     {
       "year": 2022,
@@ -2915,7 +3303,8 @@
       "score1": 7,
       "team2": "Wellington",
       "score2": 26,
-      "winner": "Wellington"
+      "winner": "Wellington",
+      "site": "Canyon HSB Stadium"
     },
     {
       "year": 2022,
@@ -2927,7 +3316,13 @@
       "score1": 8,
       "team2": "New Home",
       "score2": 14,
-      "winner": "New Home"
+      "winner": "New Home",
+      "site": "Floydada",
+      "lat": 33.98768,
+      "lng": -101.34554,
+      "stadium": "Charles Tyer Stadium",
+      "map_link": "https://goo.gl/maps/j3dQ5NFbpdq16vYc8",
+      "city": "Floydada"
     },
     {
       "year": 2022,
@@ -2939,7 +3334,8 @@
       "score1": 25,
       "team2": "Albany",
       "score2": 35,
-      "winner": "Albany"
+      "winner": "Albany",
+      "site": "San Angelo ASU"
     },
     {
       "year": 2022,
@@ -2951,7 +3347,13 @@
       "score1": 28,
       "team2": "Collinsville",
       "score2": 32,
-      "winner": "Collinsville"
+      "winner": "Collinsville",
+      "site": "Springtown",
+      "lat": 32.97675,
+      "lng": -97.69348,
+      "stadium": "Porcupine Stadium",
+      "map_link": "https://goo.gl/maps/47JnPKukb5mzd3YG9",
+      "city": "Springtown"
     },
     {
       "year": 2022,
@@ -2963,7 +3365,13 @@
       "score1": 0,
       "team2": "Mart",
       "score2": 58,
-      "winner": "Mart"
+      "winner": "Mart",
+      "site": "Van",
+      "lat": 32.54254,
+      "lng": -95.63912,
+      "stadium": "Van Memorial Stadium",
+      "map_link": "https://goo.gl/maps/1fXuTChwpM4Cfjgc7",
+      "city": "Van"
     },
     {
       "year": 2022,
@@ -2975,7 +3383,13 @@
       "score1": 14,
       "team2": "Lovelady",
       "score2": 21,
-      "winner": "Lovelady"
+      "winner": "Lovelady",
+      "site": "Palestine",
+      "lat": 31.73979,
+      "lng": -95.60414,
+      "stadium": "Wildcat Stadium",
+      "map_link": "https://goo.gl/maps/R9ow3qGKin9WsV8b8",
+      "city": "Palestine"
     },
     {
       "year": 2022,
@@ -2987,7 +3401,8 @@
       "score1": 55,
       "team2": "Chilton",
       "score2": 0,
-      "winner": "Burton"
+      "winner": "Burton",
+      "site": "Bryan Green Stadium"
     },
     {
       "year": 2022,
@@ -2999,7 +3414,8 @@
       "score1": 13,
       "team2": "Granger",
       "score2": 60,
-      "winner": "Granger"
+      "winner": "Granger",
+      "site": "Seguin"
     },
     {
       "year": 2022,
@@ -3011,7 +3427,8 @@
       "score1": 20,
       "team2": "New Home",
       "score2": 35,
-      "winner": "New Home"
+      "winner": "New Home",
+      "site": "Canyon HSB Stadium"
     },
     {
       "year": 2022,
@@ -3023,7 +3440,13 @@
       "score1": 66,
       "team2": "Collinsville",
       "score2": 34,
-      "winner": "Albany"
+      "winner": "Albany",
+      "site": "Mineral Wells",
+      "lat": 32.81535,
+      "lng": -98.07946,
+      "stadium": "Ram Stadium",
+      "map_link": "https://goo.gl/maps/tLrsxB1wW7KTD4cG9",
+      "city": "Mineral Wells"
     },
     {
       "year": 2022,
@@ -3035,7 +3458,8 @@
       "score1": 6,
       "team2": "Mart",
       "score2": 56,
-      "winner": "Mart"
+      "winner": "Mart",
+      "site": "College Station Tiger Stadium"
     },
     {
       "year": 2022,
@@ -3047,7 +3471,13 @@
       "score1": 27,
       "team2": "Granger",
       "score2": 7,
-      "winner": "Burton"
+      "winner": "Burton",
+      "site": "Bastrop",
+      "lat": 30.08716,
+      "lng": -97.50083,
+      "stadium": "Bastrop Memorial Stadium",
+      "map_link": "https://goo.gl/maps/GP86cLkEt76yzhdv9",
+      "city": "Cedar Creek"
     },
     {
       "year": 2022,
@@ -3059,7 +3489,13 @@
       "score1": 25,
       "team2": "Albany",
       "score2": 53,
-      "winner": "Albany"
+      "winner": "Albany",
+      "site": "Sweetwater",
+      "lat": 32.48228,
+      "lng": -100.40572,
+      "stadium": "Mustang Bowl",
+      "map_link": "https://goo.gl/maps/ZoK3S1snEe41y7LW8",
+      "city": "Sweetwater"
     },
     {
       "year": 2022,
@@ -3071,7 +3507,13 @@
       "score1": 14,
       "team2": "Mart",
       "score2": 41,
-      "winner": "Mart"
+      "winner": "Mart",
+      "site": "Round Rock",
+      "lat": 30.50715,
+      "lng": -97.69613,
+      "stadium": "Dragon Stadium",
+      "map_link": "https://goo.gl/maps/ngRZxx8Wp8sFWhLr9",
+      "city": "Round Rock"
     },
     {
       "year": 2022,
@@ -3083,7 +3525,13 @@
       "score1": 21,
       "team2": "Albany",
       "score2": 41,
-      "winner": "Albany"
+      "winner": "Albany",
+      "site": "AT&T Stadium",
+      "lat": 32.74728,
+      "lng": -97.09449,
+      "stadium": "AT&T Stadium",
+      "map_link": "https://goo.gl/maps/SgVppKAjjEAL9xaL9",
+      "city": "Arlington"
     },
     {
       "year": 2022,
@@ -3479,7 +3927,13 @@
       "score1": 15,
       "team2": "Whitesboro",
       "score2": 65,
-      "winner": "Whitesboro"
+      "winner": "Whitesboro",
+      "site": "Childress",
+      "lat": 34.43004,
+      "lng": -100.20491,
+      "stadium": "Fair Park Stadium",
+      "map_link": "https://goo.gl/maps/T5USJpM1hofREJkc6",
+      "city": "Childress"
     },
     {
       "year": 2022,
@@ -3491,7 +3945,13 @@
       "score1": 14,
       "team2": "Paradise",
       "score2": 17,
-      "winner": "Paradise"
+      "winner": "Paradise",
+      "site": "Colorado City",
+      "lat": 32.39831,
+      "lng": -100.86989,
+      "stadium": "Wolf Stadium",
+      "map_link": "https://goo.gl/maps/SojpNeMA7D2Lysrd6",
+      "city": "Colorado City"
     },
     {
       "year": 2022,
@@ -3503,7 +3963,8 @@
       "score1": 10,
       "team2": "Bushland",
       "score2": 28,
-      "winner": "Bushland"
+      "winner": "Bushland",
+      "site": "Lubbock Lowery Field"
     },
     {
       "year": 2022,
@@ -3515,7 +3976,13 @@
       "score1": 20,
       "team2": "Brock",
       "score2": 57,
-      "winner": "Brock"
+      "winner": "Brock",
+      "site": "Sweetwater",
+      "lat": 32.48228,
+      "lng": -100.40572,
+      "stadium": "Mustang Bowl",
+      "map_link": "https://goo.gl/maps/ZoK3S1snEe41y7LW8",
+      "city": "Sweetwater"
     },
     {
       "year": 2022,
@@ -3527,7 +3994,13 @@
       "score1": 49,
       "team2": "Pottsboro",
       "score2": 62,
-      "winner": "Pottsboro"
+      "winner": "Pottsboro",
+      "site": "Mesquite Memorial, Tursday",
+      "lat": 32.76396,
+      "lng": -96.63454,
+      "stadium": "Mesquite Memorial Stadium",
+      "map_link": "https://goo.gl/maps/ok5pezoVBGQYri9G6",
+      "city": "Mesquite"
     },
     {
       "year": 2022,
@@ -3539,7 +4012,8 @@
       "score1": 14,
       "team2": "Grandview",
       "score2": 48,
-      "winner": "Grandview"
+      "winner": "Grandview",
+      "site": "Mesquite Hanby"
     },
     {
       "year": 2022,
@@ -3551,7 +4025,13 @@
       "score1": 14,
       "team2": "West",
       "score2": 27,
-      "winner": "West"
+      "winner": "West",
+      "site": "Forney",
+      "lat": 32.72391,
+      "lng": -96.45884,
+      "stadium": "Forney City Bank Stadium",
+      "map_link": "https://goo.gl/maps/F7gGtPMCR2jCZJpy8",
+      "city": "Forney"
     },
     {
       "year": 2022,
@@ -3563,7 +4043,8 @@
       "score1": 10,
       "team2": "Malakoff",
       "score2": 55,
-      "winner": "Malakoff"
+      "winner": "Malakoff",
+      "site": "Tyler Rose"
     },
     {
       "year": 2022,
@@ -3575,7 +4056,13 @@
       "score1": 14,
       "team2": "Columbus",
       "score2": 35,
-      "winner": "Columbus"
+      "winner": "Columbus",
+      "site": "Huffman",
+      "lat": 30.04636,
+      "lng": -95.06091,
+      "stadium": "Falcon Stadium",
+      "map_link": "https://goo.gl/maps/NiEDrCeJKft",
+      "city": "Huffman"
     },
     {
       "year": 2022,
@@ -3587,7 +4074,13 @@
       "score1": 19,
       "team2": "Cameron Yoe",
       "score2": 42,
-      "winner": "Cameron Yoe"
+      "winner": "Cameron Yoe",
+      "site": "Iowa Colony",
+      "lat": 29.42756,
+      "lng": -95.41053,
+      "stadium": "Alvin ISD Freedom Field",
+      "map_link": "https://goo.gl/maps/acSazZbAU2ovYKdUA",
+      "city": "Iowa Colony"
     },
     {
       "year": 2022,
@@ -3599,7 +4092,13 @@
       "score1": 7,
       "team2": "Franklin",
       "score2": 32,
-      "winner": "Franklin"
+      "winner": "Franklin",
+      "site": "Waller",
+      "lat": 30.07528,
+      "lng": -95.91307,
+      "stadium": "Daikin Stadium",
+      "map_link": "https://goo.gl/maps/v6amowm16uydWWqQ9",
+      "city": "Waller"
     },
     {
       "year": 2022,
@@ -3611,7 +4110,13 @@
       "score1": 31,
       "team2": "Hitchcock",
       "score2": 36,
-      "winner": "Hitchcock"
+      "winner": "Hitchcock",
+      "site": "Anahuac",
+      "lat": 29.77093,
+      "lng": -94.6781,
+      "stadium": "Kyle White Stadium",
+      "map_link": "https://goo.gl/maps/mVbb5J6nJGH2",
+      "city": "Anahuac"
     },
     {
       "year": 2022,
@@ -3623,7 +4128,8 @@
       "score1": 0,
       "team2": "Llano",
       "score2": 21,
-      "winner": "Llano"
+      "winner": "Llano",
+      "site": "San Antonio Warrior"
     },
     {
       "year": 2022,
@@ -3635,7 +4141,13 @@
       "score1": 8,
       "team2": "Vanderbilt Industrial",
       "score2": 13,
-      "winner": "Vanderbilt Industrial"
+      "winner": "Vanderbilt Industrial",
+      "site": "Corpus Christi Hornet Stadium",
+      "lat": 27.64831,
+      "lng": -97.29805,
+      "stadium": "Hornet Stadium",
+      "map_link": "https://goo.gl/maps/igf83hDgKsQtwMwQ7",
+      "city": "Corpus Christi"
     },
     {
       "year": 2022,
@@ -3647,7 +4159,13 @@
       "score1": 7,
       "team2": "Edna",
       "score2": 16,
-      "winner": "Edna"
+      "winner": "Edna",
+      "site": "Smithville",
+      "lat": 29.99529,
+      "lng": -97.16423,
+      "stadium": "Tiger Stadium",
+      "map_link": "https://goo.gl/maps/ukjjT2CSA7CyKbbJ6",
+      "city": "Smithville"
     },
     {
       "year": 2022,
@@ -3659,7 +4177,8 @@
       "score1": 13,
       "team2": "Blanco",
       "score2": 40,
-      "winner": "Blanco"
+      "winner": "Blanco",
+      "site": "San Antonio Colamander Stadium"
     },
     {
       "year": 2022,
@@ -3671,7 +4190,13 @@
       "score1": 14,
       "team2": "Whitesboro",
       "score2": 42,
-      "winner": "Whitesboro"
+      "winner": "Whitesboro",
+      "site": "River Oaks",
+      "lat": 32.76386,
+      "lng": -97.39347,
+      "stadium": "W. O. Barnes Memorial Stadium",
+      "map_link": "https://goo.gl/maps/zySJuh3en9WN83fQ9",
+      "city": "River Oaks"
     },
     {
       "year": 2022,
@@ -3683,7 +4208,13 @@
       "score1": 27,
       "team2": "Brock",
       "score2": 51,
-      "winner": "Brock"
+      "winner": "Brock",
+      "site": "Vernon",
+      "lat": 34.14706,
+      "lng": -99.31608,
+      "stadium": "Lion Stadium",
+      "map_link": "https://goo.gl/maps/qH9J1GHS28QjuZne7",
+      "city": "Vernon"
     },
     {
       "year": 2022,
@@ -3695,7 +4226,13 @@
       "score1": 7,
       "team2": "Grandview",
       "score2": 29,
-      "winner": "Grandview"
+      "winner": "Grandview",
+      "site": "Mesquite Memorial",
+      "lat": 32.76396,
+      "lng": -96.63454,
+      "stadium": "Mesquite Memorial Stadium",
+      "map_link": "https://goo.gl/maps/ok5pezoVBGQYri9G6",
+      "city": "Mesquite"
     },
     {
       "year": 2022,
@@ -3707,7 +4244,13 @@
       "score1": 14,
       "team2": "Malakoff",
       "score2": 35,
-      "winner": "Malakoff"
+      "winner": "Malakoff",
+      "site": "Corsicana",
+      "lat": 32.08265,
+      "lng": -96.52064,
+      "stadium": "Community National Bank & Trust Stadium",
+      "map_link": "https://goo.gl/maps/UNFvYpe6RXT6Kvwe9",
+      "city": "Corsicana"
     },
     {
       "year": 2022,
@@ -3719,7 +4262,13 @@
       "score1": 14,
       "team2": "Columbus",
       "score2": 48,
-      "winner": "Columbus"
+      "winner": "Columbus",
+      "site": "Bastrop",
+      "lat": 30.08716,
+      "lng": -97.50083,
+      "stadium": "Bastrop Memorial Stadium",
+      "map_link": "https://goo.gl/maps/GP86cLkEt76yzhdv9",
+      "city": "Cedar Creek"
     },
     {
       "year": 2022,
@@ -3731,7 +4280,13 @@
       "score1": 18,
       "team2": "Franklin",
       "score2": 53,
-      "winner": "Franklin"
+      "winner": "Franklin",
+      "site": "Shenendoah Woodforest Bank Stadium",
+      "lat": 30.18591,
+      "lng": -95.44679,
+      "stadium": "Woodforest Bank Stadium",
+      "map_link": "https://goo.gl/maps/upEFqtHzV76XXwvP8",
+      "city": "Shenandoah"
     },
     {
       "year": 2022,
@@ -3743,7 +4298,8 @@
       "score1": 17,
       "team2": "Llano",
       "score2": 42,
-      "winner": "Llano"
+      "winner": "Llano",
+      "site": "San Antonio Heroes"
     },
     {
       "year": 2022,
@@ -3755,7 +4311,8 @@
       "score1": 22,
       "team2": "Edna",
       "score2": 36,
-      "winner": "Edna"
+      "winner": "Edna",
+      "site": "San Antonio Farris Stadium"
     },
     {
       "year": 2022,
@@ -3767,7 +4324,8 @@
       "score1": 19,
       "team2": "Brock",
       "score2": 30,
-      "winner": "Brock"
+      "winner": "Brock",
+      "site": "Denton Collins Stadium"
     },
     {
       "year": 2022,
@@ -3779,7 +4337,13 @@
       "score1": 17,
       "team2": "Malakoff",
       "score2": 29,
-      "winner": "Malakoff"
+      "winner": "Malakoff",
+      "site": "Waxahachie",
+      "lat": 32.41387,
+      "lng": -96.83464,
+      "stadium": "Lumpkins Stadium",
+      "map_link": "https://goo.gl/maps/UN3VTUYs5qTKMNLK6",
+      "city": "Waxahachie"
     },
     {
       "year": 2022,
@@ -3791,7 +4355,13 @@
       "score1": 21,
       "team2": "Franklin",
       "score2": 24,
-      "winner": "Franklin"
+      "winner": "Franklin",
+      "site": "Tomball",
+      "lat": 30.05549,
+      "lng": -95.70104,
+      "stadium": "Tomball ISD Stadium",
+      "map_link": "https://goo.gl/maps/Z6Jh79x8crv1Gjhu6",
+      "city": "Tomball"
     },
     {
       "year": 2022,
@@ -3803,7 +4373,8 @@
       "score1": 21,
       "team2": "Edna",
       "score2": 40,
-      "winner": "Edna"
+      "winner": "Edna",
+      "site": "San Rattler Stadium"
     },
     {
       "year": 2022,
@@ -3815,7 +4386,13 @@
       "score1": 10,
       "team2": "Brock",
       "score2": 21,
-      "winner": "Brock"
+      "winner": "Brock",
+      "site": "Frisco Ford Center",
+      "lat": 33.11059,
+      "lng": -96.82835,
+      "stadium": "Ford Center at the Star",
+      "map_link": "https://goo.gl/maps/8cXQLxrWVg24fCSZA",
+      "city": "Frisco"
     },
     {
       "year": 2022,
@@ -3827,7 +4404,8 @@
       "score1": 13,
       "team2": "Franklin",
       "score2": 41,
-      "winner": "Franklin"
+      "winner": "Franklin",
+      "site": "Katy Legacy"
     },
     {
       "year": 2022,
@@ -3839,7 +4417,8 @@
       "score1": 14,
       "team2": "Franklin",
       "score2": 17,
-      "winner": "Franklin"
+      "winner": "Franklin",
+      "site": "ATT&T Stadium"
     },
     {
       "year": 2022,
@@ -4235,7 +4814,13 @@
       "score1": 0,
       "team2": "Idalou",
       "score2": 28,
-      "winner": "Idalou"
+      "winner": "Idalou",
+      "site": "Denver City",
+      "lat": 32.97342,
+      "lng": -102.83723,
+      "stadium": "Mustang Stadium",
+      "map_link": "https://goo.gl/maps/kxG68a59E33aYR1v6",
+      "city": "Denver City"
     },
     {
       "year": 2022,
@@ -4247,7 +4832,13 @@
       "score1": 10,
       "team2": "Wall",
       "score2": 44,
-      "winner": "Wall"
+      "winner": "Wall",
+      "site": "Breckenridge",
+      "lat": 32.76034,
+      "lng": -98.90862,
+      "stadium": "Buckaroo Stadium",
+      "map_link": "https://goo.gl/maps/yW45uKrvr5CS97Yy6",
+      "city": "Breckenridge"
     },
     {
       "year": 2022,
@@ -4259,7 +4850,13 @@
       "score1": 14,
       "team2": "Canadian",
       "score2": 42,
-      "winner": "Canadian"
+      "winner": "Canadian",
+      "site": "Vernon",
+      "lat": 34.14706,
+      "lng": -99.31608,
+      "stadium": "Lion Stadium",
+      "map_link": "https://goo.gl/maps/qH9J1GHS28QjuZne7",
+      "city": "Vernon"
     },
     {
       "year": 2022,
@@ -4271,7 +4868,13 @@
       "score1": 0,
       "team2": "Spearman",
       "score2": 49,
-      "winner": "Spearman"
+      "winner": "Spearman",
+      "site": "Post",
+      "lat": 33.18768,
+      "lng": -101.38277,
+      "stadium": "Jimmie Redman Memorial Stadium",
+      "map_link": "https://goo.gl/maps/sTaCNxFJUyXigwe6A",
+      "city": "Post"
     },
     {
       "year": 2022,
@@ -4283,7 +4886,13 @@
       "score1": 25,
       "team2": "Bells",
       "score2": 50,
-      "winner": "Bells"
+      "winner": "Bells",
+      "site": "Springtown",
+      "lat": 32.97675,
+      "lng": -97.69348,
+      "stadium": "Porcupine Stadium",
+      "map_link": "https://goo.gl/maps/47JnPKukb5mzd3YG9",
+      "city": "Springtown"
     },
     {
       "year": 2022,
@@ -4295,7 +4904,13 @@
       "score1": 10,
       "team2": "Holliday",
       "score2": 31,
-      "winner": "Holliday"
+      "winner": "Holliday",
+      "site": "Weatherford",
+      "lat": 32.74842,
+      "lng": -97.79495,
+      "stadium": "Kangaroo Stadium",
+      "map_link": "https://goo.gl/maps/hPtAqGbeGsbXFgSd8",
+      "city": "Weatherford"
     },
     {
       "year": 2022,
@@ -4307,7 +4922,8 @@
       "score1": 13,
       "team2": "Palmer",
       "score2": 49,
-      "winner": "Palmer"
+      "winner": "Palmer",
+      "site": "NRH Birdville"
     },
     {
       "year": 2022,
@@ -4319,7 +4935,13 @@
       "score1": 7,
       "team2": "Gunter",
       "score2": 48,
-      "winner": "Gunter"
+      "winner": "Gunter",
+      "site": "Grapevine Mustang-Panther Stadium",
+      "lat": 32.92058,
+      "lng": -97.11303,
+      "stadium": "Mustang-Panther Stadium",
+      "map_link": "https://goo.gl/maps/TbwVMmDFvdmX979QA",
+      "city": "Grapevine"
     },
     {
       "year": 2022,
@@ -4331,7 +4953,13 @@
       "score1": 37,
       "team2": "West Rusk",
       "score2": 41,
-      "winner": "West Rusk"
+      "winner": "West Rusk",
+      "site": "Tatum",
+      "lat": 32.32196,
+      "lng": -94.51507,
+      "stadium": "Eagle Stadium",
+      "map_link": "https://goo.gl/maps/k44xjMou3wyxeSwh7",
+      "city": "Tatum"
     },
     {
       "year": 2022,
@@ -4343,7 +4971,13 @@
       "score1": 23,
       "team2": "Big Sandy Harmony",
       "score2": 37,
-      "winner": "Big Sandy Harmony"
+      "winner": "Big Sandy Harmony",
+      "site": "Mount Pleasant",
+      "lat": 33.17972,
+      "lng": -94.99127,
+      "stadium": "Sam Parker Field",
+      "map_link": "https://goo.gl/maps/tKLshiRNxj7fQ3457",
+      "city": "Mount Pleasant"
     },
     {
       "year": 2022,
@@ -4355,7 +4989,8 @@
       "score1": 22,
       "team2": "Daingerfield",
       "score2": 29,
-      "winner": "Daingerfield"
+      "winner": "Daingerfield",
+      "site": "Sulpher Springs"
     },
     {
       "year": 2022,
@@ -4367,7 +5002,13 @@
       "score1": 8,
       "team2": "Newton",
       "score2": 65,
-      "winner": "Newton"
+      "winner": "Newton",
+      "site": "Henderson",
+      "lat": 32.14497,
+      "lng": -94.80589,
+      "stadium": "Lion Stadium",
+      "map_link": "https://goo.gl/maps/bbpqzihHmpdMipCy5",
+      "city": "Henderson"
     },
     {
       "year": 2022,
@@ -4379,7 +5020,13 @@
       "score1": 15,
       "team2": "Wallis Brazos",
       "score2": 42,
-      "winner": "Wallis Brazos"
+      "winner": "Wallis Brazos",
+      "site": "Portland",
+      "lat": 27.90057,
+      "lng": -97.32297,
+      "stadium": "Ray Akins Wildcat Stadium",
+      "map_link": "https://goo.gl/maps/A3ozsu4yNXFPwqRZ7",
+      "city": "Portland"
     },
     {
       "year": 2022,
@@ -4391,7 +5038,13 @@
       "score1": 8,
       "team2": "Tidehaven",
       "score2": 56,
-      "winner": "Tidehaven"
+      "winner": "Tidehaven",
+      "site": "Altair",
+      "lat": 29.55908,
+      "lng": -96.5074,
+      "stadium": "Rice Veterans' Memorial Stadium",
+      "map_link": "https://goo.gl/maps/N4E4qqJRfEExE4xi6",
+      "city": "Altair"
     },
     {
       "year": 2022,
@@ -4403,7 +5056,13 @@
       "score1": 34,
       "team2": "Poth",
       "score2": 42,
-      "winner": "Poth"
+      "winner": "Poth",
+      "site": "Yoakum",
+      "lat": 29.28936,
+      "lng": -97.16382,
+      "stadium": "Bulldog Stadium",
+      "map_link": "https://goo.gl/maps/uEWraJEkgzvjeUUZ9",
+      "city": "Yoakum"
     },
     {
       "year": 2022,
@@ -4415,7 +5074,13 @@
       "score1": 21,
       "team2": "Taft",
       "score2": 31,
-      "winner": "Taft"
+      "winner": "Taft",
+      "site": "Schertz",
+      "lat": 29.56388,
+      "lng": -98.26224,
+      "stadium": "Robert and Glenda Lehnhoff Stadium",
+      "map_link": "https://goo.gl/maps/yTzp5e5h4y9HwbGZ9",
+      "city": "Schertz"
     },
     {
       "year": 2022,
@@ -4427,7 +5092,13 @@
       "score1": 0,
       "team2": "Wall",
       "score2": 30,
-      "winner": "Wall"
+      "winner": "Wall",
+      "site": "Sweetwater",
+      "lat": 32.48228,
+      "lng": -100.40572,
+      "stadium": "Mustang Bowl",
+      "map_link": "https://goo.gl/maps/ZoK3S1snEe41y7LW8",
+      "city": "Sweetwater"
     },
     {
       "year": 2022,
@@ -4439,7 +5110,13 @@
       "score1": 14,
       "team2": "Canadian",
       "score2": 63,
-      "winner": "Canadian"
+      "winner": "Canadian",
+      "site": "Borger",
+      "lat": 35.6636,
+      "lng": -101.40538,
+      "stadium": "Bulldog Stadium",
+      "map_link": "https://goo.gl/maps/BfaHpReZSLoQzqRA9",
+      "city": "Borger"
     },
     {
       "year": 2022,
@@ -4451,7 +5128,13 @@
       "score1": 14,
       "team2": "Holliday",
       "score2": 31,
-      "winner": "Holliday"
+      "winner": "Holliday",
+      "site": "Denton",
+      "lat": 33.26175,
+      "lng": -97.113,
+      "stadium": "C. H. Collins Complex",
+      "map_link": "https://goo.gl/maps/WUW7Uu1ZcrtshqHDA",
+      "city": "Denton"
     },
     {
       "year": 2022,
@@ -4463,7 +5146,13 @@
       "score1": 6,
       "team2": "Gunter",
       "score2": 40,
-      "winner": "Gunter"
+      "winner": "Gunter",
+      "site": "Royse City",
+      "lat": 32.97677,
+      "lng": -96.28986,
+      "stadium": "Royse City ISD Stadium",
+      "map_link": "https://goo.gl/maps/L1AteM9Tjj2PhiMCA",
+      "city": "Royse City"
     },
     {
       "year": 2022,
@@ -4475,7 +5164,13 @@
       "score1": 35,
       "team2": "Big Sandy Harmony",
       "score2": 38,
-      "winner": "Big Sandy Harmony"
+      "winner": "Big Sandy Harmony",
+      "site": "Longview",
+      "lat": 32.54586,
+      "lng": -94.7421,
+      "stadium": "Lobo Stadium",
+      "map_link": "https://goo.gl/maps/3ExdCqHgrrWuPew5A",
+      "city": "Longview"
     },
     {
       "year": 2022,
@@ -4487,7 +5182,11 @@
       "score1": 12,
       "team2": "Newton",
       "score2": 16,
-      "winner": "Newton"
+      "winner": "Newton",
+      "site": "Nacogdoches, Friday6pm",
+      "lat": 31.60373,
+      "lng": -94.65597,
+      "city": "Nacogdoches"
     },
     {
       "year": 2022,
@@ -4499,7 +5198,13 @@
       "score1": 0,
       "team2": "Tidehaven",
       "score2": 47,
-      "winner": "Tidehaven"
+      "winner": "Tidehaven",
+      "site": "Iowa Colony",
+      "lat": 29.42756,
+      "lng": -95.41053,
+      "stadium": "Alvin ISD Freedom Field",
+      "map_link": "https://goo.gl/maps/acSazZbAU2ovYKdUA",
+      "city": "Iowa Colony"
     },
     {
       "year": 2022,
@@ -4511,7 +5216,13 @@
       "score1": 13,
       "team2": "Poth",
       "score2": 55,
-      "winner": "Poth"
+      "winner": "Poth",
+      "site": "Victoria Memorial Stadium",
+      "lat": 28.82609,
+      "lng": -96.97138,
+      "stadium": "Memorial Stadium",
+      "map_link": "https://goo.gl/maps/8hmhUAiFwEUuHg4W9",
+      "city": "Victoria"
     },
     {
       "year": 2022,
@@ -4523,7 +5234,13 @@
       "score1": 10,
       "team2": "Canadian",
       "score2": 45,
-      "winner": "Canadian"
+      "winner": "Canadian",
+      "site": "Lubbock Cooper",
+      "lat": 33.449,
+      "lng": -101.84952,
+      "stadium": "Pirate Stadium at First United Park",
+      "map_link": "https://goo.gl/maps/FQKvLTo5uvkdytX68",
+      "city": "Lubbock"
     },
     {
       "year": 2022,
@@ -4535,7 +5252,13 @@
       "score1": 7,
       "team2": "Gunter",
       "score2": 31,
-      "winner": "Gunter"
+      "winner": "Gunter",
+      "site": "Frisco Ford Center",
+      "lat": 33.11059,
+      "lng": -96.82835,
+      "stadium": "Ford Center at the Star",
+      "map_link": "https://goo.gl/maps/8cXQLxrWVg24fCSZA",
+      "city": "Frisco"
     },
     {
       "year": 2022,
@@ -4547,7 +5270,8 @@
       "score1": 21,
       "team2": "Big Sandy Harmony",
       "score2": 36,
-      "winner": "Big Sandy Harmony"
+      "winner": "Big Sandy Harmony",
+      "site": "Nacogdoches Bryce Stadium"
     },
     {
       "year": 2022,
@@ -4559,7 +5283,8 @@
       "score1": 6,
       "team2": "Poth",
       "score2": 12,
-      "winner": "Poth"
+      "winner": "Poth",
+      "site": "San Bobcat Stadium"
     },
     {
       "year": 2022,
@@ -4571,7 +5296,8 @@
       "score1": 20,
       "team2": "Gunter",
       "score2": 21,
-      "winner": "Gunter"
+      "winner": "Gunter",
+      "site": "ACU"
     },
     {
       "year": 2022,
@@ -4583,7 +5309,13 @@
       "score1": 28,
       "team2": "Poth",
       "score2": 51,
-      "winner": "Poth"
+      "winner": "Poth",
+      "site": "Cy-Fair",
+      "lat": 29.90587,
+      "lng": -95.68868,
+      "stadium": "Cy Fair FCU Stadium",
+      "map_link": "https://goo.gl/maps/wcVPi2Ck2BR2",
+      "city": "Cypress"
     },
     {
       "year": 2022,
@@ -4595,7 +5327,8 @@
       "score1": 7,
       "team2": "Gunter",
       "score2": 42,
-      "winner": "Gunter"
+      "winner": "Gunter",
+      "site": "ATT&T Stadium"
     },
     {
       "year": 2022,
@@ -4991,7 +5724,13 @@
       "score1": 21,
       "team2": "Monahans",
       "score2": 31,
-      "winner": "Monahans"
+      "winner": "Monahans",
+      "site": "Roscoe",
+      "lat": 32.43729,
+      "lng": -100.54252,
+      "stadium": "Plowboy Field",
+      "map_link": "https://goo.gl/maps/xUzfmwsVvgnp5CWT9",
+      "city": "Roscoe"
     },
     {
       "year": 2022,
@@ -5003,7 +5742,8 @@
       "score1": 40,
       "team2": "Godley",
       "score2": 41,
-      "winner": "Godley"
+      "winner": "Godley",
+      "site": "McMurry University"
     },
     {
       "year": 2022,
@@ -5015,7 +5755,13 @@
       "score1": 17,
       "team2": "Wichita Falls Hirschi",
       "score2": 42,
-      "winner": "Wichita Falls Hirschi"
+      "winner": "Wichita Falls Hirschi",
+      "site": "Childress",
+      "lat": 34.43004,
+      "lng": -100.20491,
+      "stadium": "Fair Park Stadium",
+      "map_link": "https://goo.gl/maps/T5USJpM1hofREJkc6",
+      "city": "Childress"
     },
     {
       "year": 2022,
@@ -5027,7 +5773,13 @@
       "score1": 12,
       "team2": "Glen Rose",
       "score2": 63,
-      "winner": "Glen Rose"
+      "winner": "Glen Rose",
+      "site": "San Angelo Stadium",
+      "lat": 31.43042,
+      "lng": -100.45998,
+      "stadium": "San Angelo Stadium",
+      "map_link": "https://goo.gl/maps/zSVX5h2VG152aGnt9",
+      "city": "San Angelo"
     },
     {
       "year": 2022,
@@ -5039,7 +5791,8 @@
       "score1": 41,
       "team2": "Aubrey",
       "score2": 43,
-      "winner": "Aubrey"
+      "winner": "Aubrey",
+      "site": "Tyler Rose Stadium"
     },
     {
       "year": 2022,
@@ -5051,7 +5804,13 @@
       "score1": 21,
       "team2": "Texarkana Pleasant Grove",
       "score2": 55,
-      "winner": "Texarkana Pleasant Grove"
+      "winner": "Texarkana Pleasant Grove",
+      "site": "Frisco Ford Center",
+      "lat": 33.11059,
+      "lng": -96.82835,
+      "stadium": "Ford Center at the Star",
+      "map_link": "https://goo.gl/maps/8cXQLxrWVg24fCSZA",
+      "city": "Frisco"
     },
     {
       "year": 2022,
@@ -5063,7 +5822,13 @@
       "score1": 20,
       "team2": "Gilmer",
       "score2": 60,
-      "winner": "Gilmer"
+      "winner": "Gilmer",
+      "site": "Mesquite Memorial",
+      "lat": 32.76396,
+      "lng": -96.63454,
+      "stadium": "Mesquite Memorial Stadium",
+      "map_link": "https://goo.gl/maps/ok5pezoVBGQYri9G6",
+      "city": "Mesquite"
     },
     {
       "year": 2022,
@@ -5075,7 +5840,8 @@
       "score1": 30,
       "team2": "Carthage",
       "score2": 61,
-      "winner": "Carthage"
+      "winner": "Carthage",
+      "site": "Texarkana Tiger Stadium"
     },
     {
       "year": 2022,
@@ -5087,7 +5853,13 @@
       "score1": 0,
       "team2": "Silsbee",
       "score2": 34,
-      "winner": "Silsbee"
+      "winner": "Silsbee",
+      "site": "Waller",
+      "lat": 30.07528,
+      "lng": -95.91307,
+      "stadium": "Daikin Stadium",
+      "map_link": "https://goo.gl/maps/v6amowm16uydWWqQ9",
+      "city": "Waller"
     },
     {
       "year": 2022,
@@ -5099,7 +5871,13 @@
       "score1": 3,
       "team2": "Madisonville",
       "score2": 9,
-      "winner": "Madisonville"
+      "winner": "Madisonville",
+      "site": "Navasota",
+      "lat": 30.39939,
+      "lng": -96.06777,
+      "stadium": "Navasota Rattler Stadium",
+      "map_link": "https://goo.gl/maps/QtYYGBxaMv1AQPwU8",
+      "city": "Navasota"
     },
     {
       "year": 2022,
@@ -5111,7 +5889,13 @@
       "score1": 30,
       "team2": "Hamshire-Fannett",
       "score2": 33,
-      "winner": "Hamshire-Fannett"
+      "winner": "Hamshire-Fannett",
+      "site": "Willis",
+      "lat": 30.43195,
+      "lng": -95.48743,
+      "stadium": "Berton A. Yates Stadium",
+      "map_link": "https://goo.gl/maps/KJhdp6tmumPyTyDo8",
+      "city": "Willis"
     },
     {
       "year": 2022,
@@ -5123,7 +5907,13 @@
       "score1": 18,
       "team2": "Cuero",
       "score2": 41,
-      "winner": "Cuero"
+      "winner": "Cuero",
+      "site": "Cuero",
+      "lat": 29.08986,
+      "lng": -97.27964,
+      "stadium": "Gobbler Stadium",
+      "map_link": "https://goo.gl/maps/xGqc5ewEXkE7jKc79",
+      "city": "Cuero"
     },
     {
       "year": 2022,
@@ -5135,7 +5925,13 @@
       "score1": 0,
       "team2": "Wimberley",
       "score2": 48,
-      "winner": "Wimberley"
+      "winner": "Wimberley",
+      "site": "Von Ormy",
+      "lat": 29.29619,
+      "lng": -98.58606,
+      "stadium": "Southwest Legacy Stadium",
+      "map_link": "https://goo.gl/maps/8g6BhihksFDUXwYk8",
+      "city": "Von Ormy"
     },
     {
       "year": 2022,
@@ -5147,7 +5943,13 @@
       "score1": 21,
       "team2": "Jarrell",
       "score2": 35,
-      "winner": "Jarrell"
+      "winner": "Jarrell",
+      "site": "Odem",
+      "lat": 27.94811,
+      "lng": -97.58858,
+      "stadium": "Owl Stadium",
+      "map_link": "https://goo.gl/maps/PsXzb2Z5Vq6Fd7VK8",
+      "city": "Odem"
     },
     {
       "year": 2022,
@@ -5159,7 +5961,8 @@
       "score1": 7,
       "team2": "Lago Vista",
       "score2": 42,
-      "winner": "Lago Vista"
+      "winner": "Lago Vista",
+      "site": "Sequin"
     },
     {
       "year": 2022,
@@ -5171,7 +5974,13 @@
       "score1": 14,
       "team2": "Geronimo Navarro",
       "score2": 28,
-      "winner": "Geronimo Navarro"
+      "winner": "Geronimo Navarro",
+      "site": "Jourdanton",
+      "lat": 28.90916,
+      "lng": -98.54295,
+      "stadium": "Indian Stadium",
+      "map_link": "https://goo.gl/maps/kN15KdxpF6CLvxc58",
+      "city": "Jourdanton"
     },
     {
       "year": 2022,
@@ -5183,7 +5992,13 @@
       "score1": 55,
       "team2": "Monahans",
       "score2": 62,
-      "winner": "Monahans"
+      "winner": "Monahans",
+      "site": "Sweetwater",
+      "lat": 32.48228,
+      "lng": -100.40572,
+      "stadium": "Mustang Bowl",
+      "map_link": "https://goo.gl/maps/ZoK3S1snEe41y7LW8",
+      "city": "Sweetwater"
     },
     {
       "year": 2022,
@@ -5195,7 +6010,13 @@
       "score1": 20,
       "team2": "Glen Rose",
       "score2": 45,
-      "winner": "Glen Rose"
+      "winner": "Glen Rose",
+      "site": "Mineral Wells",
+      "lat": 32.81535,
+      "lng": -98.07946,
+      "stadium": "Ram Stadium",
+      "map_link": "https://goo.gl/maps/tLrsxB1wW7KTD4cG9",
+      "city": "Mineral Wells"
     },
     {
       "year": 2022,
@@ -5207,7 +6028,13 @@
       "score1": 14,
       "team2": "Texarkana Pleasant Grove",
       "score2": 37,
-      "winner": "Texarkana Pleasant Grove"
+      "winner": "Texarkana Pleasant Grove",
+      "site": "Paris",
+      "lat": 33.63295,
+      "lng": -95.51954,
+      "stadium": "Wildcat Stadium",
+      "map_link": "https://goo.gl/maps/eqXmQDFkDoD28iJNA",
+      "city": "Paris"
     },
     {
       "year": 2022,
@@ -5219,7 +6046,13 @@
       "score1": 7,
       "team2": "Carthage",
       "score2": 28,
-      "winner": "Carthage"
+      "winner": "Carthage",
+      "site": "Longview",
+      "lat": 32.54586,
+      "lng": -94.7421,
+      "stadium": "Lobo Stadium",
+      "map_link": "https://goo.gl/maps/3ExdCqHgrrWuPew5A",
+      "city": "Longview"
     },
     {
       "year": 2022,
@@ -5231,7 +6064,13 @@
       "score1": 21,
       "team2": "Silsbee",
       "score2": 60,
-      "winner": "Silsbee"
+      "winner": "Silsbee",
+      "site": "Spring Planet Ford Stadium",
+      "lat": 30.05856,
+      "lng": -95.35258,
+      "stadium": "Planet Ford Stadium",
+      "map_link": "https://goo.gl/maps/VDQ4QMgjahxzdW6J7",
+      "city": "Spring"
     },
     {
       "year": 2022,
@@ -5243,7 +6082,8 @@
       "score1": 14,
       "team2": "Cuero",
       "score2": 39,
-      "winner": "Cuero"
+      "winner": "Cuero",
+      "site": "Katy Legacy"
     },
     {
       "year": 2022,
@@ -5255,7 +6095,8 @@
       "score1": 6,
       "team2": "Wimberley",
       "score2": 64,
-      "winner": "Wimberley"
+      "winner": "Wimberley",
+      "site": "Cedar Park Gupton Stadium"
     },
     {
       "year": 2022,
@@ -5267,7 +6108,13 @@
       "score1": 7,
       "team2": "Lago Vista",
       "score2": 27,
-      "winner": "Lago Vista"
+      "winner": "Lago Vista",
+      "site": "Hutto",
+      "lat": 30.53822,
+      "lng": -97.55915,
+      "stadium": "Hutto Memorial Stadium",
+      "map_link": "https://goo.gl/maps/z6e7Bj6zqEASWTvY6",
+      "city": "Hutto"
     },
     {
       "year": 2022,
@@ -5279,7 +6126,13 @@
       "score1": 14,
       "team2": "Glen Rose",
       "score2": 62,
-      "winner": "Glen Rose"
+      "winner": "Glen Rose",
+      "site": "Sweetwater",
+      "lat": 32.48228,
+      "lng": -100.40572,
+      "stadium": "Mustang Bowl",
+      "map_link": "https://goo.gl/maps/ZoK3S1snEe41y7LW8",
+      "city": "Sweetwater"
     },
     {
       "year": 2022,
@@ -5291,7 +6144,8 @@
       "score1": 14,
       "team2": "Carthage",
       "score2": 45,
-      "winner": "Carthage"
+      "winner": "Carthage",
+      "site": "Maverick Stadium"
     },
     {
       "year": 2022,
@@ -5303,7 +6157,8 @@
       "score1": 56,
       "team2": "Cuero",
       "score2": 58,
-      "winner": "Cuero"
+      "winner": "Cuero",
+      "site": "Houston NRG Stadium"
     },
     {
       "year": 2022,
@@ -5315,7 +6170,13 @@
       "score1": 30,
       "team2": "Wimberley",
       "score2": 49,
-      "winner": "Wimberley"
+      "winner": "Wimberley",
+      "site": "Hutto",
+      "lat": 30.53822,
+      "lng": -97.55915,
+      "stadium": "Hutto Memorial Stadium",
+      "map_link": "https://goo.gl/maps/z6e7Bj6zqEASWTvY6",
+      "city": "Hutto"
     },
     {
       "year": 2022,
@@ -5327,7 +6188,13 @@
       "score1": 35,
       "team2": "Carthage",
       "score2": 42,
-      "winner": "Carthage"
+      "winner": "Carthage",
+      "site": "Frisco Ford Center",
+      "lat": 33.11059,
+      "lng": -96.82835,
+      "stadium": "Ford Center at the Star",
+      "map_link": "https://goo.gl/maps/8cXQLxrWVg24fCSZA",
+      "city": "Frisco"
     },
     {
       "year": 2022,
@@ -5339,7 +6206,13 @@
       "score1": 36,
       "team2": "Wimberley",
       "score2": 42,
-      "winner": "Wimberley"
+      "winner": "Wimberley",
+      "site": "Alamodome",
+      "lat": 29.41695,
+      "lng": -98.47993,
+      "stadium": "Alamodome",
+      "map_link": "https://goo.gl/maps/5wbgxX367Seg1e5x5",
+      "city": "San Antonio"
     },
     {
       "year": 2022,
@@ -5351,7 +6224,8 @@
       "score1": 0,
       "team2": "Carthage",
       "score2": 42,
-      "winner": "Carthage"
+      "winner": "Carthage",
+      "site": "ATT&T Stadium"
     },
     {
       "year": 2022,
@@ -5747,7 +6621,13 @@
       "score1": 7,
       "team2": "Wichita Falls High",
       "score2": 31,
-      "winner": "Wichita Falls High"
+      "winner": "Wichita Falls High",
+      "site": "Clyde",
+      "lat": 32.41405,
+      "lng": -99.53067,
+      "stadium": "Clyde Bulldog Stadium",
+      "map_link": "https://goo.gl/maps/L4WY19wkxC676aSv7",
+      "city": "Clyde"
     },
     {
       "year": 2022,
@@ -5759,7 +6639,13 @@
       "score1": 10,
       "team2": "Brownwood",
       "score2": 31,
-      "winner": "Brownwood"
+      "winner": "Brownwood",
+      "site": "Midland Astound Broadband Stadium",
+      "lat": 31.98925,
+      "lng": -102.15394,
+      "stadium": "Astound Broadband Stadium",
+      "map_link": "https://goo.gl/maps/2xizkpWLXy9xkYWw9",
+      "city": "Midland"
     },
     {
       "year": 2022,
@@ -5771,7 +6657,13 @@
       "score1": 14,
       "team2": "Canyon Randall",
       "score2": 27,
-      "winner": "Canyon Randall"
+      "winner": "Canyon Randall",
+      "site": "Canyon Happy State Bank Stadium",
+      "lat": 35.01237,
+      "lng": -101.91663,
+      "stadium": "Happy State Bank Stadium",
+      "map_link": "https://goo.gl/maps/uL2MSfaBvwkSJvek7",
+      "city": "Canyon"
     },
     {
       "year": 2022,
@@ -5783,7 +6675,13 @@
       "score1": 15,
       "team2": "Decatur",
       "score2": 42,
-      "winner": "Decatur"
+      "winner": "Decatur",
+      "site": "Clyde",
+      "lat": 32.41405,
+      "lng": -99.53067,
+      "stadium": "Clyde Bulldog Stadium",
+      "map_link": "https://goo.gl/maps/L4WY19wkxC676aSv7",
+      "city": "Clyde"
     },
     {
       "year": 2022,
@@ -5795,7 +6693,13 @@
       "score1": 7,
       "team2": "China Spring",
       "score2": 41,
-      "winner": "China Spring"
+      "winner": "China Spring",
+      "site": "Corsicana",
+      "lat": 32.08265,
+      "lng": -96.52064,
+      "stadium": "Community National Bank & Trust Stadium",
+      "map_link": "https://goo.gl/maps/UNFvYpe6RXT6Kvwe9",
+      "city": "Corsicana"
     },
     {
       "year": 2022,
@@ -5807,7 +6711,13 @@
       "score1": 2,
       "team2": "Lake Worth",
       "score2": 7,
-      "winner": "Lake Worth"
+      "winner": "Lake Worth",
+      "site": "Denton",
+      "lat": 33.26175,
+      "lng": -97.113,
+      "stadium": "C. H. Collins Complex",
+      "map_link": "https://goo.gl/maps/WUW7Uu1ZcrtshqHDA",
+      "city": "Denton"
     },
     {
       "year": 2022,
@@ -5819,7 +6729,8 @@
       "score1": 28,
       "team2": "Celina",
       "score2": 34,
-      "winner": "Celina"
+      "winner": "Celina",
+      "site": "Bedford"
     },
     {
       "year": 2022,
@@ -5831,7 +6742,13 @@
       "score1": 32,
       "team2": "Anna",
       "score2": 33,
-      "winner": "Anna"
+      "winner": "Anna",
+      "site": "Midlothian",
+      "lat": 32.46584,
+      "lng": -96.98502,
+      "stadium": "MISD Multi-Purpose Stadium",
+      "map_link": "https://goo.gl/maps/32KqqTJ9nxj6qnBM9",
+      "city": "Midlothian"
     },
     {
       "year": 2022,
@@ -5843,7 +6760,13 @@
       "score1": 24,
       "team2": "Tyler Chapel Hill",
       "score2": 38,
-      "winner": "Tyler Chapel Hill"
+      "winner": "Tyler Chapel Hill",
+      "site": "Humble",
+      "lat": 29.98298,
+      "lng": -95.24569,
+      "stadium": "Turner Stadium",
+      "map_link": "https://goo.gl/maps/G8wYEzoiyuLYwYDM8",
+      "city": "Humble"
     },
     {
       "year": 2022,
@@ -5855,7 +6778,8 @@
       "score1": 8,
       "team2": "Lumberton",
       "score2": 23,
-      "winner": "Lumberton"
+      "winner": "Lumberton",
+      "site": "Beaumont Memorial"
     },
     {
       "year": 2022,
@@ -5867,7 +6791,13 @@
       "score1": 28,
       "team2": "Lindale",
       "score2": 42,
-      "winner": "Lindale"
+      "winner": "Lindale",
+      "site": "Georgetown",
+      "lat": 30.66315,
+      "lng": -97.66241,
+      "stadium": "Georgetown ISD Athletic Complex",
+      "map_link": "https://goo.gl/maps/e5Q8hhcQTnH9yG3h7",
+      "city": "Georgetown"
     },
     {
       "year": 2022,
@@ -5879,7 +6809,8 @@
       "score1": 20,
       "team2": "Kilgore",
       "score2": 34,
-      "winner": "Kilgore"
+      "winner": "Kilgore",
+      "site": "Porter"
     },
     {
       "year": 2022,
@@ -5891,7 +6822,13 @@
       "score1": 13,
       "team2": "Port Lavaca Calhoun",
       "score2": 28,
-      "winner": "Port Lavaca Calhoun"
+      "winner": "Port Lavaca Calhoun",
+      "site": "Floresville",
+      "lat": 29.1451,
+      "lng": -98.15158,
+      "stadium": "Eschenburg Field",
+      "map_link": "https://goo.gl/maps/vNZLhRKta1aMvVSi9",
+      "city": "Floresville"
     },
     {
       "year": 2022,
@@ -5903,7 +6840,13 @@
       "score1": 21,
       "team2": "Boerne",
       "score2": 50,
-      "winner": "Boerne"
+      "winner": "Boerne",
+      "site": "Alamo Heights",
+      "lat": 29.49145,
+      "lng": -98.46351,
+      "stadium": "Harry B. Orem Stadium",
+      "map_link": "https://goo.gl/maps/1GJHhtGG6iFqs6nK8",
+      "city": "San Antonio"
     },
     {
       "year": 2022,
@@ -5915,7 +6858,8 @@
       "score1": 13,
       "team2": "Somerset",
       "score2": 23,
-      "winner": "Somerset"
+      "winner": "Somerset",
+      "site": "San Antonio Heroes"
     },
     {
       "year": 2022,
@@ -5927,7 +6871,13 @@
       "score1": 14,
       "team2": "Corpus Christi Calallen",
       "score2": 22,
-      "winner": "Corpus Christi Calallen"
+      "winner": "Corpus Christi Calallen",
+      "site": "Victoria Memorial Stadium",
+      "lat": 28.82609,
+      "lng": -96.97138,
+      "stadium": "Memorial Stadium",
+      "map_link": "https://goo.gl/maps/8hmhUAiFwEUuHg4W9",
+      "city": "Victoria"
     },
     {
       "year": 2022,
@@ -5939,7 +6889,8 @@
       "score1": 19,
       "team2": "Wichita Falls High",
       "score2": 41,
-      "winner": "Wichita Falls High"
+      "winner": "Wichita Falls High",
+      "site": "ACU"
     },
     {
       "year": 2022,
@@ -5951,7 +6902,8 @@
       "score1": 0,
       "team2": "Decatur",
       "score2": 41,
-      "winner": "Decatur"
+      "winner": "Decatur",
+      "site": "ACU"
     },
     {
       "year": 2022,
@@ -5963,7 +6915,8 @@
       "score1": 7,
       "team2": "China Spring",
       "score2": 41,
-      "winner": "China Spring"
+      "winner": "China Spring",
+      "site": "Waxahatchie"
     },
     {
       "year": 2022,
@@ -5975,7 +6928,13 @@
       "score1": 24,
       "team2": "Anna",
       "score2": 27,
-      "winner": "Anna"
+      "winner": "Anna",
+      "site": "Allen",
+      "lat": 33.1141,
+      "lng": -96.65699,
+      "stadium": "Eagle Stadium",
+      "map_link": "https://goo.gl/maps/F6vHjvY4xeBeZCZs9",
+      "city": "Allen"
     },
     {
       "year": 2022,
@@ -5987,7 +6946,13 @@
       "score1": 23,
       "team2": "Tyler Chapel Hill",
       "score2": 35,
-      "winner": "Tyler Chapel Hill"
+      "winner": "Tyler Chapel Hill",
+      "site": "New Caney",
+      "lat": 30.13614,
+      "lng": -95.23233,
+      "stadium": "Randall Reed Stadium",
+      "map_link": "https://goo.gl/maps/sbHEPYfr4v6bxYYDA",
+      "city": "Porter"
     },
     {
       "year": 2022,
@@ -5999,7 +6964,8 @@
       "score1": 37,
       "team2": "Kilgore",
       "score2": 63,
-      "winner": "Kilgore"
+      "winner": "Kilgore",
+      "site": "Tyler Rose Stadium"
     },
     {
       "year": 2022,
@@ -6011,7 +6977,13 @@
       "score1": 0,
       "team2": "Boerne",
       "score2": 51,
-      "winner": "Boerne"
+      "winner": "Boerne",
+      "site": "Jourdanton",
+      "lat": 28.90916,
+      "lng": -98.54295,
+      "stadium": "Indian Stadium",
+      "map_link": "https://goo.gl/maps/kN15KdxpF6CLvxc58",
+      "city": "Jourdanton"
     },
     {
       "year": 2022,
@@ -6023,7 +6995,13 @@
       "score1": 17,
       "team2": "Corpus Christi Calallen",
       "score2": 31,
-      "winner": "Corpus Christi Calallen"
+      "winner": "Corpus Christi Calallen",
+      "site": "Beeville",
+      "lat": 28.42123,
+      "lng": -97.74973,
+      "stadium": "Veterans Memorial Stadium",
+      "map_link": "https://goo.gl/maps/RHqLmQvdY72SEboc9",
+      "city": "Beeville"
     },
     {
       "year": 2022,
@@ -6035,7 +7013,8 @@
       "score1": 21,
       "team2": "Decatur",
       "score2": 35,
-      "winner": "Decatur"
+      "winner": "Decatur",
+      "site": "Denton Collins Stadium"
     },
     {
       "year": 2022,
@@ -6047,7 +7026,8 @@
       "score1": 14,
       "team2": "China Spring",
       "score2": 31,
-      "winner": "China Spring"
+      "winner": "China Spring",
+      "site": "FW Crowley"
     },
     {
       "year": 2022,
@@ -6059,7 +7039,8 @@
       "score1": 21,
       "team2": "Tyler Chapel Hill",
       "score2": 24,
-      "winner": "Tyler Chapel Hill"
+      "winner": "Tyler Chapel Hill",
+      "site": "Tyler Rose"
     },
     {
       "year": 2022,
@@ -6071,7 +7052,13 @@
       "score1": 19,
       "team2": "Boerne",
       "score2": 49,
-      "winner": "Boerne"
+      "winner": "Boerne",
+      "site": "San Antonio Alamo Stadium",
+      "lat": 29.4628,
+      "lng": -98.47904,
+      "stadium": "Alamo Stadium",
+      "map_link": "https://goo.gl/maps/9ZHVH4NooUHkfakd8",
+      "city": "San Antonio"
     },
     {
       "year": 2022,
@@ -6083,7 +7070,13 @@
       "score1": 27,
       "team2": "China Spring",
       "score2": 33,
-      "winner": "China Spring"
+      "winner": "China Spring",
+      "site": "Mansfield",
+      "lat": 32.57654,
+      "lng": -97.07702,
+      "stadium": "Vernon Newsom Stadium",
+      "map_link": "https://goo.gl/maps/ZckcYBnHj39KXzJV7",
+      "city": "Mansfield"
     },
     {
       "year": 2022,
@@ -6095,7 +7088,13 @@
       "score1": 0,
       "team2": "Boerne",
       "score2": 35,
-      "winner": "Boerne"
+      "winner": "Boerne",
+      "site": "Alamodome",
+      "lat": 29.41695,
+      "lng": -98.47993,
+      "stadium": "Alamodome",
+      "map_link": "https://goo.gl/maps/5wbgxX367Seg1e5x5",
+      "city": "San Antonio"
     },
     {
       "year": 2022,
@@ -6107,7 +7106,8 @@
       "score1": 21,
       "team2": "China Spring",
       "score2": 24,
-      "winner": "China Spring"
+      "winner": "China Spring",
+      "site": "ATT&T Stadium"
     },
     {
       "year": 2022,
@@ -6503,7 +7503,8 @@
       "score1": 14,
       "team2": "El Paso Canutillo",
       "score2": 21,
-      "winner": "El Paso Canutillo"
+      "winner": "El Paso Canutillo",
+      "site": "Odessa Ratliff"
     },
     {
       "year": 2022,
@@ -6515,7 +7516,13 @@
       "score1": 40,
       "team2": "Abilene Wylie",
       "score2": 42,
-      "winner": "Abilene Wylie"
+      "winner": "Abilene Wylie",
+      "site": "Grapevine Mustang-Panther Stadium",
+      "lat": 32.92058,
+      "lng": -97.11303,
+      "stadium": "Mustang-Panther Stadium",
+      "map_link": "https://goo.gl/maps/TbwVMmDFvdmX979QA",
+      "city": "Grapevine"
     },
     {
       "year": 2022,
@@ -6527,7 +7534,13 @@
       "score1": 0,
       "team2": "Argyle",
       "score2": 7,
-      "winner": "Argyle"
+      "winner": "Argyle",
+      "site": "Mineral Wells",
+      "lat": 32.81535,
+      "lng": -98.07946,
+      "stadium": "Ram Stadium",
+      "map_link": "https://goo.gl/maps/tLrsxB1wW7KTD4cG9",
+      "city": "Mineral Wells"
     },
     {
       "year": 2022,
@@ -6539,7 +7552,8 @@
       "score1": 21,
       "team2": "Grapevine",
       "score2": 38,
-      "winner": "Grapevine"
+      "winner": "Grapevine",
+      "site": "FW Crowley"
     },
     {
       "year": 2022,
@@ -6551,7 +7565,13 @@
       "score1": 37,
       "team2": "Midlothian Heritage",
       "score2": 45,
-      "winner": "Midlothian Heritage"
+      "winner": "Midlothian Heritage",
+      "site": "Grand Prairie Gopher-Warrior Bowl",
+      "lat": 32.75525,
+      "lng": -97.00223,
+      "stadium": "Gopher Warrior Bowl",
+      "map_link": "https://goo.gl/maps/QFKT9z4qiVFXn1PC9",
+      "city": "Grand Prairie"
     },
     {
       "year": 2022,
@@ -6563,7 +7583,13 @@
       "score1": 37,
       "team2": "South Oak Cliff",
       "score2": 42,
-      "winner": "South Oak Cliff"
+      "winner": "South Oak Cliff",
+      "site": "Arlington Globe Life Field",
+      "lat": 32.74863,
+      "lng": -97.07998,
+      "stadium": "Globe Life Field",
+      "map_link": "https://goo.gl/maps/Gc1WmbPfbCkk3nka7",
+      "city": "Arlington"
     },
     {
       "year": 2022,
@@ -6575,7 +7601,13 @@
       "score1": 38,
       "team2": "Melissa",
       "score2": 42,
-      "winner": "Melissa"
+      "winner": "Melissa",
+      "site": "Dallas Wildcat-Ram Stadium",
+      "lat": 32.88699,
+      "lng": -96.72915,
+      "stadium": "Wildcat-Ram Stadium",
+      "map_link": "https://goo.gl/maps/bZXXdrGMxMJ3Xosq8",
+      "city": "Dallas"
     },
     {
       "year": 2022,
@@ -6587,7 +7619,11 @@
       "score1": 16,
       "team2": "Terrell",
       "score2": 49,
-      "winner": "Terrell"
+      "winner": "Terrell",
+      "site": "Carrollton",
+      "lat": 32.95155,
+      "lng": -96.90342,
+      "city": "Carrollton"
     },
     {
       "year": 2022,
@@ -6599,7 +7635,13 @@
       "score1": 7,
       "team2": "Fort Bend Marshall",
       "score2": 49,
-      "winner": "Fort Bend Marshall"
+      "winner": "Fort Bend Marshall",
+      "site": "Giddings",
+      "lat": 30.1987,
+      "lng": -96.93241,
+      "stadium": "Buffalo Stadium",
+      "map_link": "https://goo.gl/maps/u3vpHsJDdRrf9ANu9",
+      "city": "Giddings"
     },
     {
       "year": 2022,
@@ -6611,7 +7653,13 @@
       "score1": 19,
       "team2": "Montgomery Lake Creek",
       "score2": 78,
-      "winner": "Montgomery Lake Creek"
+      "winner": "Montgomery Lake Creek",
+      "site": "College Station Cougar Field",
+      "lat": 30.55584,
+      "lng": -96.28607,
+      "stadium": "Cougar Field",
+      "map_link": "https://goo.gl/maps/BmdUrUAuB5BM1rgs7",
+      "city": "College Station"
     },
     {
       "year": 2022,
@@ -6623,7 +7671,8 @@
       "score1": 10,
       "team2": "Brenham",
       "score2": 31,
-      "winner": "Brenham"
+      "winner": "Brenham",
+      "site": "Bryan Green Stadium"
     },
     {
       "year": 2022,
@@ -6635,7 +7684,8 @@
       "score1": 19,
       "team2": "Port Neches-Groves",
       "score2": 24,
-      "winner": "Port Neches-Groves"
+      "winner": "Port Neches-Groves",
+      "site": "Katy Rhodes Stadium"
     },
     {
       "year": 2022,
@@ -6647,7 +7697,13 @@
       "score1": 14,
       "team2": "Liberty Hill",
       "score2": 63,
-      "winner": "Liberty Hill"
+      "winner": "Liberty Hill",
+      "site": "San Antonio Gustafson Stadium",
+      "lat": 29.45314,
+      "lng": -98.6251,
+      "stadium": "Gustafson Stadium",
+      "map_link": "https://goo.gl/maps/JZrEVmzY6YKz9yoE8",
+      "city": "San Antonio"
     },
     {
       "year": 2022,
@@ -6659,7 +7715,13 @@
       "score1": 8,
       "team2": "San Antonio Alamo Heights",
       "score2": 31,
-      "winner": "San Antonio Alamo Heights"
+      "winner": "San Antonio Alamo Heights",
+      "site": "Cuero",
+      "lat": 29.08986,
+      "lng": -97.27964,
+      "stadium": "Gobbler Stadium",
+      "map_link": "https://goo.gl/maps/xGqc5ewEXkE7jKc79",
+      "city": "Cuero"
     },
     {
       "year": 2022,
@@ -6671,7 +7733,13 @@
       "score1": 42,
       "team2": "Corpus Christi Flour Bluff",
       "score2": 49,
-      "winner": "Corpus Christi Flour Bluff"
+      "winner": "Corpus Christi Flour Bluff",
+      "site": "San Antonio Alamo Stadium",
+      "lat": 29.4628,
+      "lng": -98.47904,
+      "stadium": "Alamo Stadium",
+      "map_link": "https://goo.gl/maps/9ZHVH4NooUHkfakd8",
+      "city": "San Antonio"
     },
     {
       "year": 2022,
@@ -6683,7 +7751,11 @@
       "score1": 23,
       "team2": "San Antonio Veterans Memorial",
       "score2": 35,
-      "winner": "San Antonio Veterans Memorial"
+      "winner": "San Antonio Veterans Memorial",
+      "site": "Laredo",
+      "lat": 27.50792,
+      "lng": -99.50698,
+      "city": "Laredo"
     },
     {
       "year": 2022,
@@ -6695,7 +7767,13 @@
       "score1": 18,
       "team2": "Abilene Wylie",
       "score2": 22,
-      "winner": "Abilene Wylie"
+      "winner": "Abilene Wylie",
+      "site": "Fort Stockton",
+      "lat": 30.90406,
+      "lng": -102.89196,
+      "stadium": "Panther Stadium",
+      "map_link": "https://goo.gl/maps/FVZEmMQUqCvRuhKAA",
+      "city": "Fort Stockton"
     },
     {
       "year": 2022,
@@ -6707,7 +7785,13 @@
       "score1": 27,
       "team2": "Argyle",
       "score2": 44,
-      "winner": "Argyle"
+      "winner": "Argyle",
+      "site": "Southlake",
+      "lat": 32.92946,
+      "lng": -97.1119,
+      "stadium": "Dragon Stadium",
+      "map_link": "https://goo.gl/maps/1tWzQrMKAb1JR8rW8",
+      "city": "Southlake"
     },
     {
       "year": 2022,
@@ -6719,7 +7803,13 @@
       "score1": 27,
       "team2": "South Oak Cliff",
       "score2": 33,
-      "winner": "South Oak Cliff"
+      "winner": "South Oak Cliff",
+      "site": "Mansfield",
+      "lat": 32.57654,
+      "lng": -97.07702,
+      "stadium": "Vernon Newsom Stadium",
+      "map_link": "https://goo.gl/maps/ZckcYBnHj39KXzJV7",
+      "city": "Mansfield"
     },
     {
       "year": 2022,
@@ -6731,7 +7821,13 @@
       "score1": 21,
       "team2": "Melissa",
       "score2": 42,
-      "winner": "Melissa"
+      "winner": "Melissa",
+      "site": "Frisco Ford Center",
+      "lat": 33.11059,
+      "lng": -96.82835,
+      "stadium": "Ford Center at the Star",
+      "map_link": "https://goo.gl/maps/8cXQLxrWVg24fCSZA",
+      "city": "Frisco"
     },
     {
       "year": 2022,
@@ -6743,7 +7839,13 @@
       "score1": 18,
       "team2": "Fort Bend Marshall",
       "score2": 55,
-      "winner": "Fort Bend Marshall"
+      "winner": "Fort Bend Marshall",
+      "site": "Houston Delmar Stadium",
+      "lat": 29.80361,
+      "lng": -95.45626,
+      "stadium": "Delmar Stadium",
+      "map_link": "https://goo.gl/maps/ZeFpyvP6AT2FBnRG8",
+      "city": "Houston"
     },
     {
       "year": 2022,
@@ -6755,7 +7857,8 @@
       "score1": 28,
       "team2": "Port Neches-Groves",
       "score2": 38,
-      "winner": "Port Neches-Groves"
+      "winner": "Port Neches-Groves",
+      "site": "Houston NRG Stadium"
     },
     {
       "year": 2022,
@@ -6767,7 +7870,13 @@
       "score1": 32,
       "team2": "Liberty Hill",
       "score2": 37,
-      "winner": "Liberty Hill"
+      "winner": "Liberty Hill",
+      "site": "Bastrop",
+      "lat": 30.08716,
+      "lng": -97.50083,
+      "stadium": "Bastrop Memorial Stadium",
+      "map_link": "https://goo.gl/maps/GP86cLkEt76yzhdv9",
+      "city": "Cedar Creek"
     },
     {
       "year": 2022,
@@ -6779,7 +7888,13 @@
       "score1": 42,
       "team2": "Corpus Christi Flour Bluff",
       "score2": 66,
-      "winner": "Corpus Christi Flour Bluff"
+      "winner": "Corpus Christi Flour Bluff",
+      "site": "Corpus Christi Hornet Stadium",
+      "lat": 27.64831,
+      "lng": -97.29805,
+      "stadium": "Hornet Stadium",
+      "map_link": "https://goo.gl/maps/igf83hDgKsQtwMwQ7",
+      "city": "Corpus Christi"
     },
     {
       "year": 2022,
@@ -6791,7 +7906,13 @@
       "score1": 28,
       "team2": "Argyle",
       "score2": 35,
-      "winner": "Argyle"
+      "winner": "Argyle",
+      "site": "Stephenville",
+      "lat": 32.21503,
+      "lng": -98.22355,
+      "stadium": "Tarleton State University Memorial Stadium",
+      "map_link": "https://goo.gl/maps/V7RDNQrx7Nt",
+      "city": "Stephenville"
     },
     {
       "year": 2022,
@@ -6803,7 +7924,13 @@
       "score1": 16,
       "team2": "South Oak Cliff",
       "score2": 30,
-      "winner": "South Oak Cliff"
+      "winner": "South Oak Cliff",
+      "site": "Arlington Choctaw Stadium",
+      "lat": 32.75101,
+      "lng": -97.08299,
+      "stadium": "Choctaw Stadium",
+      "map_link": "https://goo.gl/maps/nbzwbc7VP5ZugVnQ7",
+      "city": "Arlington"
     },
     {
       "year": 2022,
@@ -6815,7 +7942,13 @@
       "score1": 21,
       "team2": "Port Neches-Groves",
       "score2": 29,
-      "winner": "Port Neches-Groves"
+      "winner": "Port Neches-Groves",
+      "site": "Galena Park",
+      "lat": 29.80828,
+      "lng": -95.17649,
+      "stadium": "Galena Park ISD Stadium",
+      "map_link": "https://goo.gl/maps/ZT8RxzH2DPJiptsd9",
+      "city": "Houston"
     },
     {
       "year": 2022,
@@ -6827,7 +7960,8 @@
       "score1": 43,
       "team2": "Liberty Hill",
       "score2": 63,
-      "winner": "Liberty Hill"
+      "winner": "Liberty Hill",
+      "site": "San Antonio Farris Stadium"
     },
     {
       "year": 2022,
@@ -6839,7 +7973,13 @@
       "score1": 6,
       "team2": "South Oak Cliff",
       "score2": 14,
-      "winner": "South Oak Cliff"
+      "winner": "South Oak Cliff",
+      "site": "Crowley",
+      "lat": 32.60854,
+      "lng": -97.33905,
+      "stadium": "Crowley ISD Multi-Purpose Stadium",
+      "map_link": "https://goo.gl/maps/vD6WyxBQ71jJaVZ89",
+      "city": "Fort Worth"
     },
     {
       "year": 2022,
@@ -6851,7 +7991,8 @@
       "score1": 14,
       "team2": "Port Neches-Groves",
       "score2": 42,
-      "winner": "Port Neches-Groves"
+      "winner": "Port Neches-Groves",
+      "site": "Katy Legacy"
     },
     {
       "year": 2022,
@@ -6863,7 +8004,8 @@
       "score1": 24,
       "team2": "South Oak Cliff",
       "score2": 34,
-      "winner": "South Oak Cliff"
+      "winner": "South Oak Cliff",
+      "site": "ATT&T Stadium"
     },
     {
       "year": 2022,
@@ -6971,7 +8113,13 @@
       "score1": 35,
       "team2": "Red Oak",
       "score2": 0,
-      "winner": "Abilene High"
+      "winner": "Abilene High",
+      "site": "Mansfield",
+      "lat": 32.57654,
+      "lng": -97.07702,
+      "stadium": "Vernon Newsom Stadium",
+      "map_link": "https://goo.gl/maps/ZckcYBnHj39KXzJV7",
+      "city": "Mansfield"
     },
     {
       "year": 2022,
@@ -6983,7 +8131,13 @@
       "score1": 7,
       "team2": "Burleson Centennial",
       "score2": 31,
-      "winner": "Burleson Centennial"
+      "winner": "Burleson Centennial",
+      "site": "Wichita Falls Memorial",
+      "lat": 33.85419,
+      "lng": -98.58251,
+      "stadium": "Memorial Stadium",
+      "map_link": "https://goo.gl/maps/iAQNicf1EvGtWVBr9",
+      "city": "Wichita Falls"
     },
     {
       "year": 2022,
@@ -6995,7 +8149,13 @@
       "score1": 45,
       "team2": "Lubbock Cooper",
       "score2": 21,
-      "winner": "Aledo"
+      "winner": "Aledo",
+      "site": "Sweetwater",
+      "lat": 32.48264,
+      "lng": -100.40611,
+      "stadium": "Mustang Bowl",
+      "map_link": "https://goo.gl/maps/ZoK3S1snEe41y7LW8",
+      "city": "Sweetwater"
     },
     {
       "year": 2022,
@@ -7007,7 +8167,13 @@
       "score1": 56,
       "team2": "Amarillo High",
       "score2": 28,
-      "winner": "Midlothian"
+      "winner": "Midlothian",
+      "site": "Wichita Falls Memorial",
+      "lat": 33.85419,
+      "lng": -98.58251,
+      "stadium": "Memorial Stadium",
+      "map_link": "https://goo.gl/maps/iAQNicf1EvGtWVBr9",
+      "city": "Wichita Falls"
     },
     {
       "year": 2022,
@@ -7019,7 +8185,8 @@
       "score1": 14,
       "team2": "Burleson Centennial",
       "score2": 24,
-      "winner": "Burleson Centennial"
+      "winner": "Burleson Centennial",
+      "site": "Arlington Choctaw"
     },
     {
       "year": 2022,
@@ -7031,7 +8198,13 @@
       "score1": 27,
       "team2": "Midlothian",
       "score2": 21,
-      "winner": "Aledo"
+      "winner": "Aledo",
+      "site": "Midlothian",
+      "lat": 32.46584,
+      "lng": -96.98502,
+      "stadium": "MISD Multi-Purpose Stadium",
+      "map_link": "https://goo.gl/maps/32KqqTJ9nxj6qnBM9",
+      "city": "Midlothian"
     },
     {
       "year": 2022,
@@ -7043,7 +8216,13 @@
       "score1": 21,
       "team2": "Aledo",
       "score2": 42,
-      "winner": "Aledo"
+      "winner": "Aledo",
+      "site": "Frisco Ford Center",
+      "lat": 33.11059,
+      "lng": -96.82835,
+      "stadium": "Ford Center at the Star",
+      "map_link": "https://goo.gl/maps/8cXQLxrWVg24fCSZA",
+      "city": "Frisco"
     },
     {
       "year": 2022,
@@ -7151,7 +8330,13 @@
       "score1": 35,
       "team2": "Barbers Hill",
       "score2": 17,
-      "winner": "Mansfield Timberview"
+      "winner": "Mansfield Timberview",
+      "site": "Cedar Park",
+      "lat": 30.51517,
+      "lng": -97.79197,
+      "stadium": "John Gupton Stadium",
+      "map_link": "https://goo.gl/maps/dJoKL6tqpt1DgXV18",
+      "city": "Cedar Park"
     },
     {
       "year": 2022,
@@ -7163,7 +8348,8 @@
       "score1": 30,
       "team2": "Lancaster",
       "score2": 27,
-      "winner": "Frisco Reedy"
+      "winner": "Frisco Reedy",
+      "site": "Irving Ellis"
     },
     {
       "year": 2022,
@@ -7175,7 +8361,8 @@
       "score1": 38,
       "team2": "Frisco Lone Star",
       "score2": 17,
-      "winner": "Longview"
+      "winner": "Longview",
+      "site": "Dallas Kincaide"
     },
     {
       "year": 2022,
@@ -7187,7 +8374,13 @@
       "score1": 52,
       "team2": "Frisco Wakeland",
       "score2": 50,
-      "winner": "Port Arthur Memorial"
+      "winner": "Port Arthur Memorial",
+      "site": "Lufkin",
+      "lat": 31.33544,
+      "lng": -94.68505,
+      "stadium": "Abe Martin Stadium",
+      "map_link": "https://goo.gl/maps/RpMBJXihnh5SiQVF9",
+      "city": "Lufkin"
     },
     {
       "year": 2022,
@@ -7199,7 +8392,8 @@
       "score1": 28,
       "team2": "Frisco Reedy",
       "score2": 26,
-      "winner": "Mansfield Timberview"
+      "winner": "Mansfield Timberview",
+      "site": "Bedford"
     },
     {
       "year": 2022,
@@ -7211,7 +8405,13 @@
       "score1": 51,
       "team2": "Port Arthur Memorial",
       "score2": 7,
-      "winner": "Longview"
+      "winner": "Longview",
+      "site": "Lufkin",
+      "lat": 31.33544,
+      "lng": -94.68505,
+      "stadium": "Abe Martin Stadium",
+      "map_link": "https://goo.gl/maps/RpMBJXihnh5SiQVF9",
+      "city": "Lufkin"
     },
     {
       "year": 2022,
@@ -7223,7 +8423,13 @@
       "score1": 21,
       "team2": "Longview",
       "score2": 37,
-      "winner": "Longview"
+      "winner": "Longview",
+      "site": "Mesquite memorial",
+      "lat": 32.76396,
+      "lng": -96.63454,
+      "stadium": "Mesquite Memorial Stadium",
+      "map_link": "https://goo.gl/maps/ok5pezoVBGQYri9G6",
+      "city": "Mesquite"
     },
     {
       "year": 2022,
@@ -7331,7 +8537,13 @@
       "score1": 55,
       "team2": "Magnolia West",
       "score2": 22,
-      "winner": "Georgetown"
+      "winner": "Georgetown",
+      "site": "Magnolia Mustang Stadium",
+      "lat": 30.21862,
+      "lng": -95.76553,
+      "stadium": "Mustang Stadium",
+      "map_link": "https://goo.gl/maps/ZicTQiTy3iD56Ri5A",
+      "city": "Magnolia"
     },
     {
       "year": 2022,
@@ -7343,7 +8555,13 @@
       "score1": 20,
       "team2": "College Station",
       "score2": 27,
-      "winner": "College Station"
+      "winner": "College Station",
+      "site": "Cy-Fair",
+      "lat": 29.90587,
+      "lng": -95.68868,
+      "stadium": "Cy Fair FCU Stadium",
+      "map_link": "https://goo.gl/maps/wcVPi2Ck2BR2",
+      "city": "Cypress"
     },
     {
       "year": 2022,
@@ -7355,7 +8573,8 @@
       "score1": 50,
       "team2": "A&M Consolidated",
       "score2": 38,
-      "winner": "Lamar Fulshear"
+      "winner": "Lamar Fulshear",
+      "site": "College Station Tiger Stadium"
     },
     {
       "year": 2022,
@@ -7367,7 +8586,13 @@
       "score1": 38,
       "team2": "Manvel",
       "score2": 28,
-      "winner": "Comal Smithson Valley"
+      "winner": "Comal Smithson Valley",
+      "site": "Bastrop",
+      "lat": 30.08716,
+      "lng": -97.50083,
+      "stadium": "Bastrop Memorial Stadium",
+      "map_link": "https://goo.gl/maps/GP86cLkEt76yzhdv9",
+      "city": "Cedar Creek"
     },
     {
       "year": 2022,
@@ -7379,7 +8604,13 @@
       "score1": 28,
       "team2": "College Station",
       "score2": 52,
-      "winner": "College Station"
+      "winner": "College Station",
+      "site": "Waco ISD Stadium",
+      "lat": 31.50814,
+      "lng": -97.15987,
+      "stadium": "Waco ISD Stadium",
+      "map_link": "https://goo.gl/maps/4f5PQphsG288xBLC7",
+      "city": "Waco"
     },
     {
       "year": 2022,
@@ -7391,7 +8622,8 @@
       "score1": 13,
       "team2": "Comal Smithson Valley",
       "score2": 31,
-      "winner": "Comal Smithson Valley"
+      "winner": "Comal Smithson Valley",
+      "site": "Seguin"
     },
     {
       "year": 2022,
@@ -7403,7 +8635,8 @@
       "score1": 26,
       "team2": "Comal Smithson Valley",
       "score2": 21,
-      "winner": "College Station"
+      "winner": "College Station",
+      "site": "Plugerville Pfield"
     },
     {
       "year": 2022,
@@ -7511,7 +8744,8 @@
       "score1": 0,
       "team2": "McAllen",
       "score2": 21,
-      "winner": "McAllen"
+      "winner": "McAllen",
+      "site": "Corpus Christi Danaher Stadium"
     },
     {
       "year": 2022,
@@ -7523,7 +8757,13 @@
       "score1": 14,
       "team2": "Edinburg Vela",
       "score2": 7,
-      "winner": "Corpus Christi Veterans Memorial"
+      "winner": "Corpus Christi Veterans Memorial",
+      "site": "Corpus Christi Buccaneer Stadium",
+      "lat": 27.79494,
+      "lng": -97.42371,
+      "stadium": "Buccaneer Stadium",
+      "map_link": "https://goo.gl/maps/ReLaXTsDbA8z2EWQ9",
+      "city": "Corpus Christi"
     },
     {
       "year": 2022,
@@ -7535,7 +8775,8 @@
       "score1": 35,
       "team2": "Corpus Christi Miller",
       "score2": 14,
-      "winner": "Pharr-San Juan-Alamo North"
+      "winner": "Pharr-San Juan-Alamo North",
+      "site": "Corpus Christi Cabaniss Stadium"
     },
     {
       "year": 2022,
@@ -7547,7 +8788,8 @@
       "score1": 74,
       "team2": "Victoria West",
       "score2": 59,
-      "winner": "Brownsville Veterans Memorial"
+      "winner": "Brownsville Veterans Memorial",
+      "site": "Corpus Christi Cabaniss Stadium"
     },
     {
       "year": 2022,
@@ -7559,7 +8801,13 @@
       "score1": 14,
       "team2": "Corpus Christi Veterans Memorial",
       "score2": 49,
-      "winner": "Corpus Christi Veterans Memorial"
+      "winner": "Corpus Christi Veterans Memorial",
+      "site": "McAllen",
+      "lat": 26.22388,
+      "lng": -98.2373,
+      "stadium": "McAllen Memorial Stadium",
+      "map_link": "https://goo.gl/maps/oh6oCgZPThijshDW7",
+      "city": "McAllen"
     },
     {
       "year": 2022,
@@ -7571,7 +8819,13 @@
       "score1": 35,
       "team2": "Brownsville Veterans Memorial",
       "score2": 15,
-      "winner": "Pharr-San Juan-Alamo North"
+      "winner": "Pharr-San Juan-Alamo North",
+      "site": "Brownsville Veterans Memorial",
+      "lat": 25.91198,
+      "lng": -97.50727,
+      "stadium": "Sams Memorial Stadium",
+      "map_link": "https://maps.app.goo.gl/SCQ3UfhiBjAmiEJo7",
+      "city": "Brownsville"
     },
     {
       "year": 2022,
@@ -7583,7 +8837,13 @@
       "score1": 20,
       "team2": "Pharr-San Juan-Alamo North",
       "score2": 14,
-      "winner": "Corpus Christi Veterans Memorial"
+      "winner": "Corpus Christi Veterans Memorial",
+      "site": "Corpus Christi Buccaneer Stadium",
+      "lat": 27.79494,
+      "lng": -97.42371,
+      "stadium": "Buccaneer Stadium",
+      "map_link": "https://goo.gl/maps/ReLaXTsDbA8z2EWQ9",
+      "city": "Corpus Christi"
     },
     {
       "year": 2022,
@@ -7595,7 +8855,8 @@
       "score1": 17,
       "team2": "Longview",
       "score2": 14,
-      "winner": "Aledo"
+      "winner": "Aledo",
+      "site": "Dallas Kincaide Stadium"
     },
     {
       "year": 2022,
@@ -7607,7 +8868,13 @@
       "score1": 33,
       "team2": "Corpus Christi Veterans Memorial",
       "score2": 7,
-      "winner": "College Station"
+      "winner": "College Station",
+      "site": "San Antonio Alamodome",
+      "lat": 29.41695,
+      "lng": -98.47993,
+      "stadium": "Alamodome",
+      "map_link": "https://goo.gl/maps/5wbgxX367Seg1e5x5",
+      "city": "San Antonio"
     },
     {
       "year": 2022,
@@ -7619,7 +8886,8 @@
       "score1": 52,
       "team2": "College Station",
       "score2": 14,
-      "winner": "Aledo"
+      "winner": "Aledo",
+      "site": "ATT&T Stadium"
     },
     {
       "year": 2022,
@@ -7727,7 +8995,8 @@
       "score1": 28,
       "team2": "Byron Nelson",
       "score2": 35,
-      "winner": "Byron Nelson"
+      "winner": "Byron Nelson",
+      "site": "Midland King Memorial"
     },
     {
       "year": 2022,
@@ -7739,7 +9008,13 @@
       "score1": 63,
       "team2": "Dallas Highland Park",
       "score2": 42,
-      "winner": "Denton Guyer"
+      "winner": "Denton Guyer",
+      "site": "Frisco Ford Center",
+      "lat": 33.11059,
+      "lng": -96.82835,
+      "stadium": "Ford Center at the Star",
+      "map_link": "https://goo.gl/maps/8cXQLxrWVg24fCSZA",
+      "city": "Frisco"
     },
     {
       "year": 2022,
@@ -7751,7 +9026,13 @@
       "score1": 14,
       "team2": "Southlake Carroll",
       "score2": 69,
-      "winner": "Southlake Carroll"
+      "winner": "Southlake Carroll",
+      "site": "San Angelo Stadium",
+      "lat": 31.43042,
+      "lng": -100.45998,
+      "stadium": "San Angelo Stadium",
+      "map_link": "https://goo.gl/maps/zSVX5h2VG152aGnt9",
+      "city": "San Angelo"
     },
     {
       "year": 2022,
@@ -7763,7 +9044,13 @@
       "score1": 42,
       "team2": "Dallas Jesuit",
       "score2": 7,
-      "winner": "McKinney High"
+      "winner": "McKinney High",
+      "site": "Prosper Children's Health Stadium",
+      "lat": 33.26068,
+      "lng": -96.8042,
+      "stadium": "Children's Health Stadium",
+      "map_link": "https://goo.gl/maps/D7qScRX8Tt9kchyAA",
+      "city": "Prosper"
     },
     {
       "year": 2022,
@@ -7775,7 +9062,8 @@
       "score1": 41,
       "team2": "Denton Guyer",
       "score2": 59,
-      "winner": "Denton Guyer"
+      "winner": "Denton Guyer",
+      "site": "Frisco Ford Field"
     },
     {
       "year": 2022,
@@ -7787,7 +9075,13 @@
       "score1": 42,
       "team2": "McKinney High",
       "score2": 35,
-      "winner": "Southlake Carroll"
+      "winner": "Southlake Carroll",
+      "site": "Arlington Choctaw Stadium",
+      "lat": 32.75101,
+      "lng": -97.08299,
+      "stadium": "Choctaw Stadium",
+      "map_link": "https://goo.gl/maps/nbzwbc7VP5ZugVnQ7",
+      "city": "Arlington"
     },
     {
       "year": 2022,
@@ -7799,7 +9093,8 @@
       "score1": 45,
       "team2": "Southlake Carroll",
       "score2": 21,
-      "winner": "Denton Guyer"
+      "winner": "Denton Guyer",
+      "site": "Justin"
     },
     {
       "year": 2022,
@@ -7907,7 +9202,13 @@
       "score1": 52,
       "team2": "Rockwall-Heath",
       "score2": 7,
-      "winner": "DeSoto"
+      "winner": "DeSoto",
+      "site": "Frisco Ford Center",
+      "lat": 33.11059,
+      "lng": -96.82835,
+      "stadium": "Ford Center at the Star",
+      "map_link": "https://goo.gl/maps/8cXQLxrWVg24fCSZA",
+      "city": "Frisco"
     },
     {
       "year": 2022,
@@ -7919,7 +9220,13 @@
       "score1": 16,
       "team2": "New Caney",
       "score2": 15,
-      "winner": "Tomball High"
+      "winner": "Tomball High",
+      "site": "Spring Planet Ford Stadium",
+      "lat": 30.05856,
+      "lng": -95.35258,
+      "stadium": "Planet Ford Stadium",
+      "map_link": "https://goo.gl/maps/VDQ4QMgjahxzdW6J7",
+      "city": "Spring"
     },
     {
       "year": 2022,
@@ -7931,7 +9238,8 @@
       "score1": 38,
       "team2": "Royse City",
       "score2": 17,
-      "winner": "Harker Heights"
+      "winner": "Harker Heights",
+      "site": "Waco Stadium"
     },
     {
       "year": 2022,
@@ -7943,7 +9251,8 @@
       "score1": 32,
       "team2": "Cypress Falls",
       "score2": 17,
-      "winner": "Spring Dekaney"
+      "winner": "Spring Dekaney",
+      "site": "Porter Randall Field"
     },
     {
       "year": 2022,
@@ -7955,7 +9264,8 @@
       "score1": 38,
       "team2": "Tomball High",
       "score2": 14,
-      "winner": "DeSoto"
+      "winner": "DeSoto",
+      "site": "Plugerville Pfield"
     },
     {
       "year": 2022,
@@ -7967,7 +9277,8 @@
       "score1": 63,
       "team2": "Spring Dekaney",
       "score2": 35,
-      "winner": "Harker Heights"
+      "winner": "Harker Heights",
+      "site": "BaylorMcLane Stadium"
     },
     {
       "year": 2022,
@@ -7979,7 +9290,13 @@
       "score1": 60,
       "team2": "Harker Heights",
       "score2": 24,
-      "winner": "DeSoto"
+      "winner": "DeSoto",
+      "site": "Baylor McLane Stadium",
+      "lat": 31.5582,
+      "lng": -97.11567,
+      "stadium": "McLane Stadium",
+      "map_link": "https://goo.gl/maps/ziuYq5T6imVAsQJR9",
+      "city": "Waco"
     },
     {
       "year": 2022,
@@ -8087,7 +9404,8 @@
       "score1": 62,
       "team2": "Houston Memorial",
       "score2": 21,
-      "winner": "Katy High"
+      "winner": "Katy High",
+      "site": "Houston Tully Stadium"
     },
     {
       "year": 2022,
@@ -8099,7 +9417,13 @@
       "score1": 36,
       "team2": "Alvin Shadow Creek",
       "score2": 20,
-      "winner": "Humble Summer Creek"
+      "winner": "Humble Summer Creek",
+      "site": "Houston TDECU Stadium",
+      "lat": 29.72199,
+      "lng": -95.34916,
+      "stadium": "TDECU Stadium",
+      "map_link": "https://goo.gl/maps/PwaozZo2AitBnZLt5",
+      "city": "Houston"
     },
     {
       "year": 2022,
@@ -8111,7 +9435,13 @@
       "score1": 42,
       "team2": "Houston Heights",
       "score2": 27,
-      "winner": "Fort Bend Hightower"
+      "winner": "Fort Bend Hightower",
+      "site": "Houston Delmar Stadium",
+      "lat": 29.80361,
+      "lng": -95.45626,
+      "stadium": "Delmar Stadium",
+      "map_link": "https://goo.gl/maps/ZeFpyvP6AT2FBnRG8",
+      "city": "Houston"
     },
     {
       "year": 2022,
@@ -8123,7 +9453,8 @@
       "score1": 30,
       "team2": "Clear Falls",
       "score2": 7,
-      "winner": "Houston King"
+      "winner": "Houston King",
+      "site": "Houston Sheldon ISD Stadium"
     },
     {
       "year": 2022,
@@ -8135,7 +9466,13 @@
       "score1": 35,
       "team2": "Humble Summer Creek",
       "score2": 7,
-      "winner": "Katy High"
+      "winner": "Katy High",
+      "site": "Humble Turner Stadium",
+      "lat": 29.98298,
+      "lng": -95.24569,
+      "stadium": "Turner Stadium",
+      "map_link": "https://goo.gl/maps/G8wYEzoiyuLYwYDM8",
+      "city": "Humble"
     },
     {
       "year": 2022,
@@ -8147,7 +9484,13 @@
       "score1": 38,
       "team2": "Fort Bend Hightower",
       "score2": 21,
-      "winner": "Houston King"
+      "winner": "Houston King",
+      "site": "Cypress Pridgeon Stadium",
+      "lat": 29.93564,
+      "lng": -95.57,
+      "stadium": "Pridgeon Stadium",
+      "map_link": "https://goo.gl/maps/WGtow4sC3X82",
+      "city": "Houston"
     },
     {
       "year": 2022,
@@ -8159,7 +9502,8 @@
       "score1": 56,
       "team2": "Houston King",
       "score2": 34,
-      "winner": "Katy High"
+      "winner": "Katy High",
+      "site": "Houston NRG Stadium"
     },
     {
       "year": 2022,
@@ -8267,7 +9611,13 @@
       "score1": 37,
       "team2": "Converse Judson",
       "score2": 7,
-      "winner": "Austin Vandegrift"
+      "winner": "Austin Vandegrift",
+      "site": "Round Rock",
+      "lat": 30.50715,
+      "lng": -97.69613,
+      "stadium": "Dragon Stadium",
+      "map_link": "https://goo.gl/maps/ngRZxx8Wp8sFWhLr9",
+      "city": "Round Rock"
     },
     {
       "year": 2022,
@@ -8279,7 +9629,13 @@
       "score1": 49,
       "team2": "Weslaco",
       "score2": 3,
-      "winner": "San Antonio Harlan"
+      "winner": "San Antonio Harlan",
+      "site": "Corpus Christi Buccaneer Stadium",
+      "lat": 27.79494,
+      "lng": -97.42371,
+      "stadium": "Buccaneer Stadium",
+      "map_link": "https://goo.gl/maps/ReLaXTsDbA8z2EWQ9",
+      "city": "Corpus Christi"
     },
     {
       "year": 2022,
@@ -8291,7 +9647,13 @@
       "score1": 56,
       "team2": "San Antonio Brandeis",
       "score2": 28,
-      "winner": "Dripping Springs"
+      "winner": "Dripping Springs",
+      "site": "San Antonio Heroes Stadium",
+      "lat": 29.53689,
+      "lng": -98.39781,
+      "stadium": "Heroes Stadium",
+      "map_link": "https://goo.gl/maps/FxXig925WVVYT43Q9",
+      "city": "San Antonio"
     },
     {
       "year": 2022,
@@ -8303,7 +9665,8 @@
       "score1": 39,
       "team2": "San Antonio Warren",
       "score2": 21,
-      "winner": "Harlingen"
+      "winner": "Harlingen",
+      "site": "San Antonio Farris Stadium"
     },
     {
       "year": 2022,
@@ -8315,7 +9678,13 @@
       "score1": 49,
       "team2": "San Antonio Harlan",
       "score2": 21,
-      "winner": "Austin Vandegrift"
+      "winner": "Austin Vandegrift",
+      "site": "San Antonio Alamodome",
+      "lat": 29.41695,
+      "lng": -98.47993,
+      "stadium": "Alamodome",
+      "map_link": "https://goo.gl/maps/5wbgxX367Seg1e5x5",
+      "city": "San Antonio"
     },
     {
       "year": 2022,
@@ -8327,7 +9696,13 @@
       "score1": 45,
       "team2": "Harlingen",
       "score2": 0,
-      "winner": "Dripping Springs"
+      "winner": "Dripping Springs",
+      "site": "San Antonio Alamodome",
+      "lat": 29.41695,
+      "lng": -98.47993,
+      "stadium": "Alamodome",
+      "map_link": "https://goo.gl/maps/5wbgxX367Seg1e5x5",
+      "city": "San Antonio"
     },
     {
       "year": 2022,
@@ -8339,7 +9714,13 @@
       "score1": 27,
       "team2": "Dripping Springs",
       "score2": 24,
-      "winner": "Austin Vandegrift"
+      "winner": "Austin Vandegrift",
+      "site": "Cedar Park",
+      "lat": 30.51517,
+      "lng": -97.79197,
+      "stadium": "John Gupton Stadium",
+      "map_link": "https://goo.gl/maps/dJoKL6tqpt1DgXV18",
+      "city": "Cedar Park"
     },
     {
       "year": 2022,
@@ -8351,7 +9732,8 @@
       "score1": 28,
       "team2": "DeSoto",
       "score2": 47,
-      "winner": "DeSoto"
+      "winner": "DeSoto",
+      "site": "Frisco Ford Field"
     },
     {
       "year": 2022,
@@ -8363,7 +9745,13 @@
       "score1": 35,
       "team2": "Austin Vandegrift",
       "score2": 38,
-      "winner": "Austin Vandegrift"
+      "winner": "Austin Vandegrift",
+      "site": "Alamodome",
+      "lat": 29.41695,
+      "lng": -98.47993,
+      "stadium": "Alamodome",
+      "map_link": "https://goo.gl/maps/5wbgxX367Seg1e5x5",
+      "city": "San Antonio"
     },
     {
       "year": 2022,
@@ -8375,7 +9763,8 @@
       "score1": 42,
       "team2": "Austin Vandegrift",
       "score2": 17,
-      "winner": "DeSoto"
+      "winner": "DeSoto",
+      "site": "ATT&T Stadium"
     },
     {
       "year": 2022,
@@ -8483,7 +9872,13 @@
       "score1": 42,
       "team2": "North Crowley",
       "score2": 49,
-      "winner": "North Crowley"
+      "winner": "North Crowley",
+      "site": "Andrews",
+      "lat": 32.32283,
+      "lng": -102.56823,
+      "stadium": "Mustang Bowl",
+      "map_link": "https://maps.app.goo.gl/DZWYSntZDeRASZYz9",
+      "city": "Andrews"
     },
     {
       "year": 2022,
@@ -8495,7 +9890,13 @@
       "score1": 38,
       "team2": "South Grand Prairie",
       "score2": 26,
-      "winner": "Prosper"
+      "winner": "Prosper",
+      "site": "Arlington Choctaw Stadium",
+      "lat": 32.75101,
+      "lng": -97.08299,
+      "stadium": "Choctaw Stadium",
+      "map_link": "https://goo.gl/maps/nbzwbc7VP5ZugVnQ7",
+      "city": "Arlington"
     },
     {
       "year": 2022,
@@ -8507,7 +9908,13 @@
       "score1": 21,
       "team2": "Keller",
       "score2": 23,
-      "winner": "Keller"
+      "winner": "Keller",
+      "site": "Midland Astound Broadband Stadium",
+      "lat": 31.98925,
+      "lng": -102.15394,
+      "stadium": "Astound Broadband Stadium",
+      "map_link": "https://goo.gl/maps/2xizkpWLXy9xkYWw9",
+      "city": "Midland"
     },
     {
       "year": 2022,
@@ -8519,7 +9926,8 @@
       "score1": 10,
       "team2": "Arlington Martin",
       "score2": 0,
-      "winner": "Lewisville"
+      "winner": "Lewisville",
+      "site": "Dallas Ford Stadium"
     },
     {
       "year": 2022,
@@ -8531,7 +9939,13 @@
       "score1": 21,
       "team2": "Prosper",
       "score2": 35,
-      "winner": "Prosper"
+      "winner": "Prosper",
+      "site": "Arlington Choctaw Stadium",
+      "lat": 32.75101,
+      "lng": -97.08299,
+      "stadium": "Choctaw Stadium",
+      "map_link": "https://goo.gl/maps/nbzwbc7VP5ZugVnQ7",
+      "city": "Arlington"
     },
     {
       "year": 2022,
@@ -8543,7 +9957,13 @@
       "score1": 3,
       "team2": "Lewisville",
       "score2": 43,
-      "winner": "Lewisville"
+      "winner": "Lewisville",
+      "site": "Arlington Choctaw Stadium",
+      "lat": 32.75101,
+      "lng": -97.08299,
+      "stadium": "Choctaw Stadium",
+      "map_link": "https://goo.gl/maps/nbzwbc7VP5ZugVnQ7",
+      "city": "Arlington"
     },
     {
       "year": 2022,
@@ -8555,7 +9975,13 @@
       "score1": 24,
       "team2": "Lewisville",
       "score2": 13,
-      "winner": "Prosper"
+      "winner": "Prosper",
+      "site": "McKinney",
+      "lat": 33.15742,
+      "lng": -96.66153,
+      "stadium": "McKinney ISD Stadium",
+      "map_link": "https://goo.gl/maps/46cUGoZ2vBwbN8Yj8",
+      "city": "McKinney"
     },
     {
       "year": 2022,
@@ -8663,7 +10089,13 @@
       "score1": 0,
       "team2": "Duncanville",
       "score2": 41,
-      "winner": "Duncanville"
+      "winner": "Duncanville",
+      "site": "McKinney",
+      "lat": 33.15742,
+      "lng": -96.66153,
+      "stadium": "McKinney ISD Stadium",
+      "map_link": "https://goo.gl/maps/46cUGoZ2vBwbN8Yj8",
+      "city": "McKinney"
     },
     {
       "year": 2022,
@@ -8675,7 +10107,8 @@
       "score1": 62,
       "team2": "Houston Klein Cain",
       "score2": 21,
-      "winner": "The Woodlands"
+      "winner": "The Woodlands",
+      "site": "Shenendoah Woodorest Bank Stadium"
     },
     {
       "year": 2022,
@@ -8687,7 +10120,13 @@
       "score1": 25,
       "team2": "Waxahachie",
       "score2": 31,
-      "winner": "Waxahachie"
+      "winner": "Waxahachie",
+      "site": "Arlington Globe Life Field",
+      "lat": 32.74863,
+      "lng": -97.07998,
+      "stadium": "Globe Life Field",
+      "map_link": "https://goo.gl/maps/Gc1WmbPfbCkk3nka7",
+      "city": "Arlington"
     },
     {
       "year": 2022,
@@ -8699,7 +10138,13 @@
       "score1": 41,
       "team2": "Spring Klein Collins",
       "score2": 38,
-      "winner": "Spring Westfield"
+      "winner": "Spring Westfield",
+      "site": "Tomball",
+      "lat": 30.05549,
+      "lng": -95.70104,
+      "stadium": "Tomball ISD Stadium",
+      "map_link": "https://goo.gl/maps/Z6Jh79x8crv1Gjhu6",
+      "city": "Tomball"
     },
     {
       "year": 2022,
@@ -8711,7 +10156,8 @@
       "score1": 35,
       "team2": "The Woodlands",
       "score2": 3,
-      "winner": "Duncanville"
+      "winner": "Duncanville",
+      "site": "Plugerville Pfield"
     },
     {
       "year": 2022,
@@ -8723,7 +10169,13 @@
       "score1": 7,
       "team2": "Spring Westfield",
       "score2": 10,
-      "winner": "Spring Westfield"
+      "winner": "Spring Westfield",
+      "site": "Hutto",
+      "lat": 30.53822,
+      "lng": -97.55915,
+      "stadium": "Hutto Memorial Stadium",
+      "map_link": "https://goo.gl/maps/z6e7Bj6zqEASWTvY6",
+      "city": "Hutto"
     },
     {
       "year": 2022,
@@ -8735,7 +10187,13 @@
       "score1": 28,
       "team2": "Spring Westfield",
       "score2": 21,
-      "winner": "Duncanville"
+      "winner": "Duncanville",
+      "site": "Georgetown",
+      "lat": 30.66315,
+      "lng": -97.66241,
+      "stadium": "Georgetown ISD Athletic Complex",
+      "map_link": "https://goo.gl/maps/e5Q8hhcQTnH9yG3h7",
+      "city": "Georgetown"
     },
     {
       "year": 2022,
@@ -8843,7 +10301,13 @@
       "score1": 13,
       "team2": "Cy-Fair",
       "score2": 10,
-      "winner": "Katy Cinco Ranch"
+      "winner": "Katy Cinco Ranch",
+      "site": "Cypress Pridgeon Stadium",
+      "lat": 29.93564,
+      "lng": -95.57,
+      "stadium": "Pridgeon Stadium",
+      "map_link": "https://goo.gl/maps/WGtow4sC3X82",
+      "city": "Houston"
     },
     {
       "year": 2022,
@@ -8855,7 +10319,13 @@
       "score1": 43,
       "team2": "Dickinson",
       "score2": 34,
-      "winner": "Galena Park North Shore"
+      "winner": "Galena Park North Shore",
+      "site": "Galena Park",
+      "lat": 29.80828,
+      "lng": -95.17649,
+      "stadium": "Galena Park ISD Stadium",
+      "map_link": "https://goo.gl/maps/ZT8RxzH2DPJiptsd9",
+      "city": "Houston"
     },
     {
       "year": 2022,
@@ -8867,7 +10337,8 @@
       "score1": 10,
       "team2": "Fort Bend Ridge Point",
       "score2": 14,
-      "winner": "Fort Bend Ridge Point"
+      "winner": "Fort Bend Ridge Point",
+      "site": "Katy Legacy Stadium"
     },
     {
       "year": 2022,
@@ -8879,7 +10350,13 @@
       "score1": 35,
       "team2": "Clear Springs",
       "score2": 7,
-      "winner": "Humble Atascocita"
+      "winner": "Humble Atascocita",
+      "site": "League City Challenger-Columbia Stadium",
+      "lat": 29.51822,
+      "lng": -95.13533,
+      "stadium": "Challenger Columbia Stadium",
+      "map_link": "https://goo.gl/maps/JUwjMAsAHo5wpKjU7",
+      "city": "League City"
     },
     {
       "year": 2022,
@@ -8891,7 +10368,8 @@
       "score1": 21,
       "team2": "Galena Park North Shore",
       "score2": 49,
-      "winner": "Galena Park North Shore"
+      "winner": "Galena Park North Shore",
+      "site": "Katy Rhodes"
     },
     {
       "year": 2022,
@@ -8903,7 +10381,13 @@
       "score1": 24,
       "team2": "Humble Atascocita",
       "score2": 47,
-      "winner": "Humble Atascocita"
+      "winner": "Humble Atascocita",
+      "site": "Cy-Fair FCU Stadium",
+      "lat": 29.90587,
+      "lng": -95.68868,
+      "stadium": "Cy Fair FCU Stadium",
+      "map_link": "https://goo.gl/maps/wcVPi2Ck2BR2",
+      "city": "Cypress"
     },
     {
       "year": 2022,
@@ -8915,7 +10399,13 @@
       "score1": 38,
       "team2": "Humble Atascocita",
       "score2": 7,
-      "winner": "Galena Park North Shore"
+      "winner": "Galena Park North Shore",
+      "site": "New Caney",
+      "lat": 30.13614,
+      "lng": -95.23233,
+      "stadium": "Randall Reed Stadium",
+      "map_link": "https://goo.gl/maps/sbHEPYfr4v6bxYYDA",
+      "city": "Porter"
     },
     {
       "year": 2022,
@@ -9023,7 +10513,8 @@
       "score1": 24,
       "team2": "Cibolo Steele",
       "score2": 21,
-      "winner": "Austin Lake Travis"
+      "winner": "Austin Lake Travis",
+      "site": "Pflugerville Pfield"
     },
     {
       "year": 2022,
@@ -9035,7 +10526,8 @@
       "score1": 42,
       "team2": "Los Fresnos",
       "score2": 7,
-      "winner": "San Antonio Brennan"
+      "winner": "San Antonio Brennan",
+      "site": "Los Fresnos Aguilar Stadium, Thhursday"
     },
     {
       "year": 2022,
@@ -9047,7 +10539,8 @@
       "score1": 45,
       "team2": "New Braunfels",
       "score2": 14,
-      "winner": "Austin Westlake"
+      "winner": "Austin Westlake",
+      "site": "San Rattler Stadium"
     },
     {
       "year": 2022,
@@ -9059,7 +10552,13 @@
       "score1": 19,
       "team2": "San Benito",
       "score2": 38,
-      "winner": "San Benito"
+      "winner": "San Benito",
+      "site": "Corpus Christi Buccaneer Stadium",
+      "lat": 27.79494,
+      "lng": -97.42371,
+      "stadium": "Buccaneer Stadium",
+      "map_link": "https://goo.gl/maps/ReLaXTsDbA8z2EWQ9",
+      "city": "Corpus Christi"
     },
     {
       "year": 2022,
@@ -9071,7 +10570,13 @@
       "score1": 34,
       "team2": "Austin Lake Travis",
       "score2": 17,
-      "winner": "San Antonio Brennan"
+      "winner": "San Antonio Brennan",
+      "site": "New Braunfels",
+      "lat": 29.71767,
+      "lng": -98.15189,
+      "stadium": "Unicorn Stadium",
+      "map_link": "https://goo.gl/maps/1csPuznk8nYV8Xpo7",
+      "city": "New Braunfels"
     },
     {
       "year": 2022,
@@ -9083,7 +10588,13 @@
       "score1": 44,
       "team2": "San Benito",
       "score2": 7,
-      "winner": "Austin Westlake"
+      "winner": "Austin Westlake",
+      "site": "San Antonio Alamo Stadium",
+      "lat": 29.4628,
+      "lng": -98.47904,
+      "stadium": "Alamo Stadium",
+      "map_link": "https://goo.gl/maps/9ZHVH4NooUHkfakd8",
+      "city": "San Antonio"
     },
     {
       "year": 2022,
@@ -9095,7 +10606,13 @@
       "score1": 47,
       "team2": "San Antonio Brennan",
       "score2": 7,
-      "winner": "Austin Westlake"
+      "winner": "Austin Westlake",
+      "site": "San Antonio Alamodome",
+      "lat": 29.41695,
+      "lng": -98.47993,
+      "stadium": "Alamodome",
+      "map_link": "https://goo.gl/maps/5wbgxX367Seg1e5x5",
+      "city": "San Antonio"
     },
     {
       "year": 2022,
@@ -9107,7 +10624,8 @@
       "score1": 0,
       "team2": "Duncanville",
       "score2": 41,
-      "winner": "Duncanville"
+      "winner": "Duncanville",
+      "site": "Dallas Ford Stadium"
     },
     {
       "year": 2022,
@@ -9119,7 +10637,13 @@
       "score1": 49,
       "team2": "Austin Westlake",
       "score2": 34,
-      "winner": "Galena Park North Shore"
+      "winner": "Galena Park North Shore",
+      "site": "Houston Rice Stadium",
+      "lat": 29.71628,
+      "lng": -95.40932,
+      "stadium": "Rice Stadium",
+      "map_link": "https://goo.gl/maps/ptob2Px4PMngr2Sy5",
+      "city": "Houston"
     },
     {
       "year": 2022,
@@ -9131,7 +10655,8 @@
       "score1": 28,
       "team2": "Galena Park North Shore",
       "score2": 21,
-      "winner": "Duncanville"
+      "winner": "Duncanville",
+      "site": "ATT&T Stadium"
     },
     {
       "year": 2022,
