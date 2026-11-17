@@ -901,7 +901,13 @@
       "score1": 43,
       "team2": "Abernathy",
       "score2": 14,
-      "winner": "West Texas Stinnett"
+      "winner": "West Texas Stinnett",
+      "site": "@ Hereford",
+      "lat": 34.83171,
+      "lng": -102.41263,
+      "stadium": "Whiteface Stadium",
+      "map_link": "https://goo.gl/maps/1giBBj6DXv3Qb9sh8",
+      "city": "Hereford"
     },
     {
       "year": 2025,
@@ -925,7 +931,8 @@
       "score1": 57,
       "team2": "Amarillo Highland Park",
       "score2": 18,
-      "winner": "New Home"
+      "winner": "New Home",
+      "site": "At Floydada"
     },
     {
       "year": 2025,
@@ -937,7 +944,13 @@
       "score1": 2,
       "team2": "Stamford",
       "score2": 31,
-      "winner": "Stamford"
+      "winner": "Stamford",
+      "site": "Big Spring High School",
+      "lat": 32.25362,
+      "lng": -101.44749,
+      "stadium": "Memorial Stadium",
+      "map_link": "https://goo.gl/maps/qbXyUQgjauvj513z8",
+      "city": "Big Spring"
     },
     {
       "year": 2025,
@@ -949,7 +962,13 @@
       "score1": 14,
       "team2": "Anson",
       "score2": 35,
-      "winner": "Anson"
+      "winner": "Anson",
+      "site": "Big Spring High School",
+      "lat": 32.25362,
+      "lng": -101.44749,
+      "stadium": "Memorial Stadium",
+      "map_link": "https://goo.gl/maps/qbXyUQgjauvj513z8",
+      "city": "Big Spring"
     },
     {
       "year": 2025,
@@ -961,7 +980,12 @@
       "score1": 21,
       "team2": "Spearman",
       "score2": 42,
-      "winner": "Spearman"
+      "winner": "Spearman",
+      "site": "Happy State Bank Stadium, Canyon",
+      "lat": 35.01237,
+      "lng": -101.91663,
+      "stadium": "Happy State Bank Stadium",
+      "city": "Canyon"
     },
     {
       "year": 2025,
@@ -973,7 +997,13 @@
       "score1": 62,
       "team2": "Christoval",
       "score2": 0,
-      "winner": "Cisco"
+      "winner": "Cisco",
+      "site": "Jim Ned High School",
+      "lat": 32.21823,
+      "lng": -99.80112,
+      "stadium": "Indian Stadium",
+      "map_link": "https://goo.gl/maps/AWxEPuwNKRSFbdR28",
+      "city": "Tuscola"
     },
     {
       "year": 2025,
@@ -985,7 +1015,13 @@
       "score1": 28,
       "team2": "Post",
       "score2": 12,
-      "winner": "Panhandle"
+      "winner": "Panhandle",
+      "site": "Tulia HS",
+      "lat": 34.54004,
+      "lng": -101.75666,
+      "stadium": "Younger Field",
+      "map_link": "https://goo.gl/maps/NnSnqZU4gUMWJTXz7",
+      "city": "Tulia"
     },
     {
       "year": 2025,
@@ -1021,7 +1057,13 @@
       "score1": 51,
       "team2": "Hico",
       "score2": 14,
-      "winner": "Alvord"
+      "winner": "Alvord",
+      "site": "Brock High School - Eagle Stadium",
+      "lat": 32.67467,
+      "lng": -97.94611,
+      "stadium": "Eagle Stadium",
+      "map_link": "https://goo.gl/maps/xW36fTzCLb8K4ML1A",
+      "city": "Brock"
     },
     {
       "year": 2025,
@@ -1033,7 +1075,13 @@
       "score1": 8,
       "team2": "Price Carlisle",
       "score2": 24,
-      "winner": "Price Carlisle"
+      "winner": "Price Carlisle",
+      "site": "Kaufman High School",
+      "lat": 32.56554,
+      "lng": -96.31546,
+      "stadium": "Homer Norville Field",
+      "map_link": "https://goo.gl/maps/YbyGG1MnzX7iFpMZ6",
+      "city": "Kaufman"
     },
     {
       "year": 2025,
@@ -1045,7 +1093,13 @@
       "score1": 31,
       "team2": "Cayuga",
       "score2": 13,
-      "winner": "Axtell"
+      "winner": "Axtell",
+      "site": "Groesbeck High School",
+      "lat": 31.53898,
+      "lng": -96.52458,
+      "stadium": "Groesbeck Stadium",
+      "map_link": "https://goo.gl/maps/z8x9zxmqxWJLdZ9o9",
+      "city": "Grosbeck"
     },
     {
       "year": 2025,
@@ -1069,7 +1123,13 @@
       "score1": 69,
       "team2": "Bosqueville",
       "score2": 29,
-      "winner": "Frankston"
+      "winner": "Frankston",
+      "site": "Ennis HS",
+      "lat": 32.30097,
+      "lng": -96.63282,
+      "stadium": "Lion Memorial Stadium",
+      "map_link": "https://goo.gl/maps/vQFh5Fh25UfYP54w9",
+      "city": "Ennis"
     },
     {
       "year": 2025,
@@ -1093,7 +1153,13 @@
       "score1": 41,
       "team2": "Union Grove",
       "score2": 10,
-      "winner": "Honey Grove"
+      "winner": "Honey Grove",
+      "site": "Rains High School",
+      "lat": 32.88933,
+      "lng": -95.79148,
+      "stadium": "Wildcat Stadium",
+      "map_link": "https://goo.gl/maps/Rsyo9LgTFj4qAC3R9",
+      "city": "Emory"
     },
     {
       "year": 2025,
@@ -1105,7 +1171,13 @@
       "score1": 21,
       "team2": "Joaquin",
       "score2": 42,
-      "winner": "Joaquin"
+      "winner": "Joaquin",
+      "site": "Bullard High School",
+      "lat": 32.13129,
+      "lng": -95.31425,
+      "stadium": "Panther Stadium",
+      "map_link": "https://goo.gl/maps/HGh8Jjzd9jSPw5jY7",
+      "city": "Bullard"
     },
     {
       "year": 2025,
@@ -1129,7 +1201,13 @@
       "score1": 59,
       "team2": "Corrigan-Camden",
       "score2": 21,
-      "winner": "Garrison"
+      "winner": "Garrison",
+      "site": "Tomato Bowl in Jacksonville Tx",
+      "lat": 31.96561,
+      "lng": -95.26699,
+      "stadium": "The Tomato Bowl",
+      "map_link": "https://goo.gl/maps/TnGxxBwkA1Q1N3fD8",
+      "city": "Jacksonville"
     },
     {
       "year": 2025,
@@ -1141,7 +1219,13 @@
       "score1": 62,
       "team2": "Groveton",
       "score2": 35,
-      "winner": "San Augustine"
+      "winner": "San Augustine",
+      "site": "Nacogdoches High School",
+      "lat": 31.64451,
+      "lng": -94.62562,
+      "stadium": "Dragon Stadium",
+      "map_link": "https://goo.gl/maps/D7N5k9oDxAnGca4C6",
+      "city": "Nacogdoches"
     },
     {
       "year": 2025,
@@ -1153,7 +1237,13 @@
       "score1": 41,
       "team2": "Cooper",
       "score2": 14,
-      "winner": "Waskom"
+      "winner": "Waskom",
+      "site": "Mineola High School",
+      "lat": 32.67382,
+      "lng": -95.50112,
+      "stadium": "Meredith Memorial Stadium",
+      "map_link": "https://goo.gl/maps/V5L21N25RUoxTeSX8",
+      "city": "Mineola"
     },
     {
       "year": 2025,
@@ -1177,7 +1267,11 @@
       "score1": 14,
       "team2": "Beckville",
       "score2": 21,
-      "winner": "Beckville"
+      "winner": "Beckville",
+      "site": "Marshall, TX HS",
+      "lat": 32.53442,
+      "lng": -94.35022,
+      "city": "Marshall"
     },
     {
       "year": 2025,
@@ -1189,7 +1283,13 @@
       "score1": 29,
       "team2": "Johnson City",
       "score2": 7,
-      "winner": "Crawford"
+      "winner": "Crawford",
+      "site": "Bartlett High School",
+      "lat": 30.79669,
+      "lng": -97.42229,
+      "stadium": "Bulldog Stadium",
+      "map_link": "https://goo.gl/maps/7dtuJKm8TCUgGCug7",
+      "city": "Barlett"
     },
     {
       "year": 2025,
@@ -1201,7 +1301,13 @@
       "score1": 6,
       "team2": "Kenedy",
       "score2": 34,
-      "winner": "Kenedy"
+      "winner": "Kenedy",
+      "site": "West Oso HS",
+      "lat": 27.76712,
+      "lng": -97.45926,
+      "stadium": "Bear Stadium",
+      "map_link": "https://goo.gl/maps/nj6jntAqffd7VzZ39",
+      "city": "Corpus Christi"
     },
     {
       "year": 2025,
@@ -1225,7 +1331,13 @@
       "score1": 56,
       "team2": "Freer",
       "score2": 35,
-      "winner": "Schulenburg"
+      "winner": "Schulenburg",
+      "site": "Poth Jack Lane Stadium",
+      "lat": 29.07756,
+      "lng": -98.07359,
+      "stadium": "Jack Lane Stadium",
+      "map_link": "https://goo.gl/maps/P1oebe5s29y3p8dH9",
+      "city": "Poth"
     },
     {
       "year": 2025,
@@ -4599,7 +4711,13 @@
       "score1": 13,
       "team2": "Canyon High",
       "score2": 66,
-      "winner": "Canyon High"
+      "winner": "Canyon High",
+      "site": "Denver City High School",
+      "lat": 32.97342,
+      "lng": -102.83723,
+      "stadium": "Mustang Stadium",
+      "map_link": "https://goo.gl/maps/kxG68a59E33aYR1v6",
+      "city": "Denver City"
     },
     {
       "year": 2025,
@@ -4611,7 +4729,8 @@
       "score1": 37,
       "team2": "Big Spring",
       "score2": 7,
-      "winner": "Brownwood"
+      "winner": "Brownwood",
+      "site": "ACU, Wildcat Stadium"
     },
     {
       "year": 2025,
@@ -4623,7 +4742,13 @@
       "score1": 85,
       "team2": "El Paso Irvin",
       "score2": 0,
-      "winner": "Canyon West Plains"
+      "winner": "Canyon West Plains",
+      "site": "@ Seminole, TX",
+      "lat": 32.72463,
+      "lng": -102.65136,
+      "stadium": "Wigwam Stadium",
+      "map_link": "https://goo.gl/maps/Ldj6eueXwab4Znh6A",
+      "city": "Seminole"
     },
     {
       "year": 2025,
@@ -4647,7 +4772,13 @@
       "score1": 7,
       "team2": "Burnet",
       "score2": 21,
-      "winner": "Burnet"
+      "winner": "Burnet",
+      "site": "San Angelo Stadium",
+      "lat": 31.43042,
+      "lng": -100.45998,
+      "stadium": "San Angelo Stadium",
+      "map_link": "https://goo.gl/maps/zSVX5h2VG152aGnt9",
+      "city": "San Angelo"
     },
     {
       "year": 2025,
@@ -4659,7 +4790,13 @@
       "score1": 49,
       "team2": "El Paso Austin",
       "score2": 0,
-      "winner": "Canyon Randall"
+      "winner": "Canyon Randall",
+      "site": "Wink HS",
+      "lat": 31.75515,
+      "lng": -103.15082,
+      "stadium": "Wildcat Field",
+      "map_link": "https://goo.gl/maps/CeA5xcLMY27AKi5H7",
+      "city": "Wink"
     },
     {
       "year": 2025,
@@ -4743,7 +4880,8 @@
       "score1": 77,
       "team2": "Dallas Pinkston",
       "score2": 0,
-      "winner": "Celina"
+      "winner": "Celina",
+      "site": "Loos Athletic Complex"
     },
     {
       "year": 2025,
@@ -4767,7 +4905,13 @@
       "score1": 15,
       "team2": "Paris",
       "score2": 41,
-      "winner": "Paris"
+      "winner": "Paris",
+      "site": "Jackie Hendricks Stadium, Princeton, TX 75407",
+      "lat": 33.17737,
+      "lng": -96.49298,
+      "stadium": "Jackie Hendrix Stadium",
+      "map_link": "https://goo.gl/maps/NkkrFTDL9QqzGhJS8",
+      "city": "Princeton"
     },
     {
       "year": 2025,
@@ -4815,7 +4959,13 @@
       "score1": 24,
       "team2": "Tyler Chapel Hill",
       "score2": 21,
-      "winner": "Bridge City"
+      "winner": "Bridge City",
+      "site": "Bridge City High School",
+      "lat": 30.03791,
+      "lng": -93.8233,
+      "stadium": "Larry Ward Stadium",
+      "map_link": "https://goo.gl/maps/xiX9MzV74VH9px7w9",
+      "city": "Bridge City"
     },
     {
       "year": 2025,
@@ -4827,7 +4977,13 @@
       "score1": 12,
       "team2": "Navasota",
       "score2": 56,
-      "winner": "Navasota"
+      "winner": "Navasota",
+      "site": "Thorne Stadium - Aldine ISD",
+      "lat": 29.93361,
+      "lng": -95.36,
+      "stadium": "W. W. Thorne Stadium",
+      "map_link": "https://goo.gl/maps/7sh3THKVEVzwZ1fk8",
+      "city": "Houston"
     },
     {
       "year": 2025,
@@ -4851,7 +5007,8 @@
       "score1": 0,
       "team2": "Longview Pine Tree",
       "score2": 35,
-      "winner": "Longview Pine Tree"
+      "winner": "Longview Pine Tree",
+      "site": "Round 1 Bi District - 10 4A / 9 4A"
     },
     {
       "year": 2025,
@@ -4863,7 +5020,8 @@
       "score1": 50,
       "team2": "Houston Worthing",
       "score2": 7,
-      "winner": "Almeta Crawford"
+      "winner": "Almeta Crawford",
+      "site": "The game site is FBISD Hall Stadium."
     },
     {
       "year": 2025,
@@ -4875,7 +5033,13 @@
       "score1": 49,
       "team2": "Huffman-Hargrave",
       "score2": 42,
-      "winner": "Lindale"
+      "winner": "Lindale",
+      "site": "Lindale High School",
+      "lat": 32.51731,
+      "lng": -95.41577,
+      "stadium": "Eagle Stadium",
+      "map_link": "https://goo.gl/maps/iP7iva6ebZgPZu7a6",
+      "city": "Lindale"
     },
     {
       "year": 2025,
@@ -4899,7 +5063,13 @@
       "score1": 24,
       "team2": "Bay City",
       "score2": 44,
-      "winner": "Bay City"
+      "winner": "Bay City",
+      "site": "Victoria Memorial Stadium",
+      "lat": 28.82609,
+      "lng": -96.97138,
+      "stadium": "Memorial Stadium",
+      "map_link": "https://goo.gl/maps/8hmhUAiFwEUuHg4W9",
+      "city": "Victoria"
     },
     {
       "year": 2025,
@@ -4959,7 +5129,13 @@
       "score1": 27,
       "team2": "El Campo",
       "score2": 14,
-      "winner": "Corpus Christi Calallen"
+      "winner": "Corpus Christi Calallen",
+      "site": "@ Wildcat Field at Phil Danaher Stadium",
+      "lat": 27.85771,
+      "lng": -97.63826,
+      "stadium": "Phil Danaher Stadium",
+      "map_link": "https://goo.gl/maps/244We57Gr8Nq7eQ3A",
+      "city": "Corpus Christi"
     },
     {
       "year": 2025,
@@ -4971,7 +5147,13 @@
       "score1": 19,
       "team2": "Canyon Lake",
       "score2": 63,
-      "winner": "Canyon Lake"
+      "winner": "Canyon Lake",
+      "site": "Lockhart HS",
+      "lat": 29.87084,
+      "lng": -97.67565,
+      "stadium": "Lions Stadium",
+      "map_link": "https://goo.gl/maps/F6wCRHEa5EcVFwCLA",
+      "city": "Lockhart"
     },
     {
       "year": 2025,
@@ -5517,7 +5699,13 @@
       "score1": 59,
       "team2": "Perryton",
       "score2": 20,
-      "winner": "Midland Greenwood"
+      "winner": "Midland Greenwood",
+      "site": "Greg Sherwood Memorial Stadium; Plainview, TX",
+      "lat": 34.20356,
+      "lng": -101.7329,
+      "stadium": "Greg Sherwood Memorial Stadium",
+      "map_link": "https://goo.gl/maps/ic96ws2fQmQuXh4m8",
+      "city": "Plainview"
     },
     {
       "year": 2025,
@@ -5553,7 +5741,8 @@
       "score1": 32,
       "team2": "Godley",
       "score2": 0,
-      "winner": "Graham"
+      "winner": "Graham",
+      "site": "Aledo Bearcat Stadium"
     },
     {
       "year": 2025,
@@ -5577,7 +5766,13 @@
       "score1": 31,
       "team2": "Fort Stockton",
       "score2": 17,
-      "winner": "Lubbock Estacado"
+      "winner": "Lubbock Estacado",
+      "site": "@ Andrews HS",
+      "lat": 32.32283,
+      "lng": -102.56823,
+      "stadium": "Mustang Bowl",
+      "map_link": "https://maps.app.goo.gl/DZWYSntZDeRASZYz9",
+      "city": "Andrews"
     },
     {
       "year": 2025,
@@ -5601,7 +5796,13 @@
       "score1": 77,
       "team2": "Levelland",
       "score2": 38,
-      "winner": "Seminole"
+      "winner": "Seminole",
+      "site": "Peoples Bank Stadium - Wolfforth, TX",
+      "lat": 33.51804,
+      "lng": -102.00669,
+      "stadium": "Peoples Bank Stadium",
+      "map_link": "https://goo.gl/maps/yTzp5e5h4y9HwbGZ9",
+      "city": "Wolfforth"
     },
     {
       "year": 2025,
@@ -5625,7 +5826,13 @@
       "score1": 57,
       "team2": "Gilmer",
       "score2": 49,
-      "winner": "Athens"
+      "winner": "Athens",
+      "site": "Henderson High School",
+      "lat": 32.14497,
+      "lng": -94.80589,
+      "stadium": "Lion Stadium",
+      "map_link": "https://goo.gl/maps/bbpqzihHmpdMipCy5",
+      "city": "Henderson"
     },
     {
       "year": 2025,
@@ -5649,7 +5856,8 @@
       "score1": 50,
       "team2": "Center",
       "score2": 48,
-      "winner": "Van"
+      "winner": "Van",
+      "site": "Jacksonville Tomato Bowl"
     },
     {
       "year": 2025,
@@ -5661,7 +5869,13 @@
       "score1": 56,
       "team2": "Brownsboro",
       "score2": 13,
-      "winner": "Texarkana Pleasant Grove"
+      "winner": "Texarkana Pleasant Grove",
+      "site": "Pleasant Grove High School",
+      "lat": 33.4678,
+      "lng": -94.11158,
+      "stadium": "Hawk Stadium",
+      "map_link": "https://goo.gl/maps/yWQ8QAhZAqQ4nuzj7",
+      "city": "Texarkana"
     },
     {
       "year": 2025,
@@ -5673,7 +5887,13 @@
       "score1": 63,
       "team2": "Caddo Mills",
       "score2": 34,
-      "winner": "Canton"
+      "winner": "Canton",
+      "site": "Royse City High School",
+      "lat": 32.97677,
+      "lng": -96.28986,
+      "stadium": "Royse City ISD Stadium",
+      "map_link": "https://goo.gl/maps/L1AteM9Tjj2PhiMCA",
+      "city": "Royse City"
     },
     {
       "year": 2025,
@@ -5685,7 +5905,13 @@
       "score1": 63,
       "team2": "Pittsburg",
       "score2": 34,
-      "winner": "Carthage"
+      "winner": "Carthage",
+      "site": "Lindale High School",
+      "lat": 32.51731,
+      "lng": -95.41577,
+      "stadium": "Eagle Stadium",
+      "map_link": "https://goo.gl/maps/iP7iva6ebZgPZu7a6",
+      "city": "Lindale"
     },
     {
       "year": 2025,
@@ -5709,7 +5935,12 @@
       "score1": 51,
       "team2": "Wharton",
       "score2": 21,
-      "winner": "West Orange-Stark"
+      "winner": "West Orange-Stark",
+      "site": "Randall Reed Stadium, New Caney",
+      "lat": 30.13568,
+      "lng": -95.23305,
+      "stadium": "Randall Reed Stadium",
+      "city": "New Caney"
     },
     {
       "year": 2025,
@@ -5733,7 +5964,13 @@
       "score1": 35,
       "team2": "Shepherd",
       "score2": 24,
-      "winner": "West Columbia"
+      "winner": "West Columbia",
+      "site": "Ray Maddry Stadium, Channelview ISD",
+      "lat": 29.79223,
+      "lng": -95.1205,
+      "stadium": "Ray Maddry Memorial Stadium",
+      "map_link": "https://goo.gl/maps/y1WnDaSAJAQtReKx9",
+      "city": "Channelview"
     },
     {
       "year": 2025,
@@ -5769,7 +6006,10 @@
       "score1": 35,
       "team2": "Hamshire-Fannett",
       "score2": 32,
-      "winner": "La Marque"
+      "winner": "La Marque",
+      "site": "Pasadena ISD - Memorial High School",
+      "lat": 29.63763,
+      "lng": -95.17484
     },
     {
       "year": 2025,
@@ -5781,7 +6021,8 @@
       "score1": 42,
       "team2": "La Grange",
       "score2": 0,
-      "winner": "La Vega"
+      "winner": "La Vega",
+      "site": "UMHB Crusader Stadium"
     },
     {
       "year": 2025,
@@ -5793,7 +6034,13 @@
       "score1": 48,
       "team2": "Sweeny",
       "score2": 27,
-      "winner": "Silsbee"
+      "winner": "Silsbee",
+      "site": "@ La Porte HS",
+      "lat": 29.65488,
+      "lng": -95.01724,
+      "stadium": "Bulldog Stadium",
+      "map_link": "https://goo.gl/maps/YuhAMeUQsk3juEEP6",
+      "city": "La Porte"
     },
     {
       "year": 2025,
@@ -5805,7 +6052,13 @@
       "score1": 49,
       "team2": "Pearsall",
       "score2": 6,
-      "winner": "Salado"
+      "winner": "Salado",
+      "site": "D.W. Rutledge Stadium",
+      "lat": 29.50783,
+      "lng": -98.3054,
+      "stadium": "D.W. Rutledge Stadium",
+      "map_link": "https://maps.app.goo.gl/Rb8VWoBJdmT1WZwA9",
+      "city": "Converse"
     },
     {
       "year": 2025,
@@ -5829,7 +6082,8 @@
       "score1": 14,
       "team2": "Gonzales",
       "score2": 24,
-      "winner": "Gonzales"
+      "winner": "Gonzales",
+      "site": "HARLANDALE ISD MEMORIAL STADIUM"
     },
     {
       "year": 2025,
@@ -5865,7 +6119,13 @@
       "score1": 28,
       "team2": "Jarrell",
       "score2": 66,
-      "winner": "Jarrell"
+      "winner": "Jarrell",
+      "site": "Shelton Stadium - Hays CISD",
+      "lat": 32.47816,
+      "lng": -99.73647,
+      "stadium": "Shelton Stadium",
+      "map_link": "https://goo.gl/maps/cPqiSJLD9Ge1GBAZ6",
+      "city": "Abilene"
     },
     {
       "year": 2025,
@@ -7384,7 +7644,13 @@
       "score1": 41,
       "team2": "Colleyville Heritage",
       "score2": 10,
-      "winner": "Melissa"
+      "winner": "Melissa",
+      "site": "Coach Kenny Deel Stadium",
+      "lat": 33.28894,
+      "lng": -96.54462,
+      "stadium": "Coach Kenny Deel Stadium",
+      "map_link": "https://goo.gl/maps/Fqi461LWZBfeoQqY9?coh=178571&entry=tt",
+      "city": "Melissa"
     },
     {
       "year": 2025,
@@ -7396,7 +7662,13 @@
       "score1": 56,
       "team2": "El Paso Hanks",
       "score2": 7,
-      "winner": "Amarillo Palo Duro"
+      "winner": "Amarillo Palo Duro",
+      "site": "Dick Bivins Stadium (Amarillo)",
+      "lat": 35.20302,
+      "lng": -101.80093,
+      "stadium": "Dick Bivins Stadium",
+      "map_link": "https://goo.gl/maps/F9wZMeXxkqjjEzha6",
+      "city": "Amarillo"
     },
     {
       "year": 2025,
@@ -7408,7 +7680,13 @@
       "score1": 25,
       "team2": "Anna",
       "score2": 35,
-      "winner": "Anna"
+      "winner": "Anna",
+      "site": "R.L. Anderson Stadium (Mansfield, TX)",
+      "lat": 32.56659,
+      "lng": -97.13139,
+      "stadium": "R. L. Anderson Stadium",
+      "map_link": "https://goo.gl/maps/Nxuk84wNUfRPWzQ69",
+      "city": "Mansfield"
     },
     {
       "year": 2025,
@@ -7420,7 +7698,13 @@
       "score1": 56,
       "team2": "Lovejoy",
       "score2": 0,
-      "winner": "Argyle"
+      "winner": "Argyle",
+      "site": "Argyle HS",
+      "lat": 33.10656,
+      "lng": -97.18807,
+      "stadium": "Eagle Stadium",
+      "map_link": "https://goo.gl/maps/ZiNDZ6vZx5CuxndG8",
+      "city": "Flower Mound"
     },
     {
       "year": 2025,
@@ -7468,7 +7752,13 @@
       "score1": 49,
       "team2": "Crandall",
       "score2": 18,
-      "winner": "South Oak Cliff"
+      "winner": "South Oak Cliff",
+      "site": "Kincaide Stadium",
+      "lat": 32.63858,
+      "lng": -96.84268,
+      "stadium": "John Kincaide Stadium",
+      "map_link": "https://goo.gl/maps/PcQDDtxSmQseS2d17",
+      "city": "Dallas"
     },
     {
       "year": 2025,
@@ -7492,7 +7782,13 @@
       "score1": 72,
       "team2": "Seagoville",
       "score2": 14,
-      "winner": "Terrell"
+      "winner": "Terrell",
+      "site": "Terrell Memorial Stadium",
+      "lat": 32.7398,
+      "lng": -96.29503,
+      "stadium": "Terrell Memorial Stadium",
+      "map_link": "https://goo.gl/maps/EHtK3CUcoTLJVZCq5",
+      "city": "Terrell"
     },
     {
       "year": 2025,
@@ -7588,7 +7884,13 @@
       "score1": 35,
       "team2": "Fort Bend Marshall",
       "score2": 27,
-      "winner": "Waco University"
+      "winner": "Waco University",
+      "site": "Waco ISD Stadium",
+      "lat": 31.50814,
+      "lng": -97.15987,
+      "stadium": "Waco ISD Stadium",
+      "map_link": "https://goo.gl/maps/4f5PQphsG288xBLC7",
+      "city": "Waco"
     },
     {
       "year": 2025,
@@ -7648,7 +7950,13 @@
       "score1": 54,
       "team2": "Belton",
       "score2": 14,
-      "winner": "Iowa Colony"
+      "winner": "Iowa Colony",
+      "site": "Alvin Memorial Stadium",
+      "lat": 29.41666,
+      "lng": -95.25544,
+      "stadium": "Memorial Stadium",
+      "map_link": "https://goo.gl/maps/YeY5HW3icmLRYDkr7",
+      "city": "Alvin"
     },
     {
       "year": 2025,
@@ -7696,7 +8004,13 @@
       "score1": 56,
       "team2": "Brownsville Porter",
       "score2": 7,
-      "winner": "Mission Sharyland"
+      "winner": "Mission Sharyland",
+      "site": "Sharyland High School",
+      "lat": 26.21376,
+      "lng": -98.28382,
+      "stadium": "Richard Thompson Stadium",
+      "map_link": "https://goo.gl/maps/MxJA8Mua8V3ga9a86",
+      "city": "Mission"
     },
     {
       "year": 2025,
@@ -7720,7 +8034,13 @@
       "score1": 23,
       "team2": "Victoria West",
       "score2": 61,
-      "winner": "Victoria West"
+      "winner": "Victoria West",
+      "site": "Buccaneer Stadium Corpus Christi",
+      "lat": 27.79494,
+      "lng": -97.42371,
+      "stadium": "Buccaneer Stadium",
+      "map_link": "https://goo.gl/maps/ReLaXTsDbA8z2EWQ9",
+      "city": "Corpus Christi"
     },
     {
       "year": 2025,
@@ -7732,7 +8052,13 @@
       "score1": 65,
       "team2": "Roma",
       "score2": 29,
-      "winner": "Mercedes"
+      "winner": "Mercedes",
+      "site": "Mercedes High School",
+      "lat": 26.14045,
+      "lng": -97.90405,
+      "stadium": "Tiger Stadium",
+      "map_link": "https://goo.gl/maps/1GuMmgqhmkz1erdW9",
+      "city": "Mercedes"
     },
     {
       "year": 2025,
@@ -9224,7 +9550,13 @@
       "score1": 45,
       "team2": "Frenship",
       "score2": 30,
-      "winner": "El Paso Eastwood"
+      "winner": "El Paso Eastwood",
+      "site": "Eastwood HS",
+      "lat": 31.77197,
+      "lng": -106.35391,
+      "stadium": "Trooper Stadium",
+      "map_link": "https://goo.gl/maps/pJc1iNm1y24WxdKF7",
+      "city": "El Paso"
     },
     {
       "year": 2025,
@@ -9236,7 +9568,8 @@
       "score1": 14,
       "team2": "Byron Nelson",
       "score2": 42,
-      "winner": "Byron Nelson"
+      "winner": "Byron Nelson",
+      "site": "Justin's Northwest ISD"
     },
     {
       "year": 2025,
@@ -9320,7 +9653,13 @@
       "score1": 7,
       "team2": "Longview",
       "score2": 63,
-      "winner": "Longview"
+      "winner": "Longview",
+      "site": "Homer Johnson Stadium - Garland, Texas",
+      "lat": 32.88567,
+      "lng": -96.61658,
+      "stadium": "Homer B. Johnson Stadium",
+      "map_link": "https://goo.gl/maps/opAtW29LYcet3aEW6",
+      "city": "Garland"
     },
     {
       "year": 2025,
@@ -9392,7 +9731,13 @@
       "score1": 20,
       "team2": "Willis",
       "score2": 23,
-      "winner": "Willis"
+      "winner": "Willis",
+      "site": "Planet Ford Stadium",
+      "lat": 30.05856,
+      "lng": -95.35258,
+      "stadium": "Planet Ford Stadium",
+      "map_link": "https://goo.gl/maps/VDQ4QMgjahxzdW6J7",
+      "city": "Spring"
     },
     {
       "year": 2025,
@@ -9416,7 +9761,13 @@
       "score1": 50,
       "team2": "Houston Wisdom",
       "score2": 6,
-      "winner": "Houston Memorial"
+      "winner": "Houston Memorial",
+      "site": "Darrell Tully Stadium",
+      "lat": 29.77827,
+      "lng": -95.60436,
+      "stadium": "Darrell Tully Stadium",
+      "map_link": "https://goo.gl/maps/dt5v3mkS1Y6E9dzx5",
+      "city": "Houston"
     },
     {
       "year": 2025,
@@ -9464,7 +9815,13 @@
       "score1": 35,
       "team2": "Houston Stratford",
       "score2": 55,
-      "winner": "Houston Stratford"
+      "winner": "Houston Stratford",
+      "site": "Delmar Stadium",
+      "lat": 29.80361,
+      "lng": -95.45626,
+      "stadium": "Delmar Stadium",
+      "map_link": "https://goo.gl/maps/ZeFpyvP6AT2FBnRG8",
+      "city": "Houston"
     },
     {
       "year": 2025,
@@ -9476,7 +9833,8 @@
       "score1": 13,
       "team2": "Fulshear Jordan",
       "score2": 45,
-      "winner": "Fulshear Jordan"
+      "winner": "Fulshear Jordan",
+      "site": "Traylor Stadium"
     },
     {
       "year": 2025,
@@ -9488,7 +9846,13 @@
       "score1": 57,
       "team2": "Fort Bend Bush",
       "score2": 13,
-      "winner": "Alvin Shadow Creek"
+      "winner": "Alvin Shadow Creek",
+      "site": "Freedom Field",
+      "lat": 29.42756,
+      "lng": -95.41053,
+      "stadium": "Alvin ISD Freedom Field",
+      "map_link": "https://goo.gl/maps/acSazZbAU2ovYKdUA",
+      "city": "Iowa Colony"
     },
     {
       "year": 2025,
@@ -9500,7 +9864,8 @@
       "score1": 0,
       "team2": "Houston King",
       "score2": 56,
-      "winner": "Houston King"
+      "winner": "Houston King",
+      "site": "Bi-District Championship @ Challenger Stadium"
     },
     {
       "year": 2025,
@@ -9584,7 +9949,13 @@
       "score1": 56,
       "team2": "New Braunfels Canyon",
       "score2": 0,
-      "winner": "Medina Valley"
+      "winner": "Medina Valley",
+      "site": "Castroville Panther Stadium",
+      "lat": 29.34318,
+      "lng": -98.83688,
+      "stadium": "Panther Stadium",
+      "map_link": "https://maps.app.goo.gl/UiEANJUS83KWdCH78",
+      "city": "Castroville"
     },
     {
       "year": 2025,
@@ -9596,7 +9967,13 @@
       "score1": 58,
       "team2": "La Joya",
       "score2": 20,
-      "winner": "Harlingen"
+      "winner": "Harlingen",
+      "site": "Harlingen High School",
+      "lat": 26.19363,
+      "lng": -97.68148,
+      "stadium": "J. Lewis Boggus Stadium",
+      "map_link": "https://goo.gl/maps/tGpwNPNjJ7YtpRvX7",
+      "city": "Harlingen"
     },
     {
       "year": 2025,

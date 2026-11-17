@@ -1,5 +1,20 @@
 [
  {
+  "site": "ACU, Wildcat Stadium",
+  "game": "Brownwood v Big Spring",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Aledo Bearcat Stadium",
+  "game": "Graham v Godley",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "At Floydada",
+  "game": "New Home v Amarillo Highland Park",
+  "why": "no stadium, school or town matched"
+ },
+ {
   "site": "Austin Veterans Stadium",
   "game": "Bay City v Canyon Lake",
   "why": "no stadium, school or town matched"
@@ -27,6 +42,11 @@
  {
   "site": "Bedford",
   "game": "Mansfield Timberview v Frisco Reedy",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Bi-District Championship @ Challenger Stadium",
+  "game": "Clear Falls v Houston King",
   "why": "no stadium, school or town matched"
  },
  {
@@ -90,6 +110,11 @@
   "why": "no stadium, school or town matched"
  },
  {
+  "site": "HARLANDALE ISD MEMORIAL STADIUM",
+  "game": "Bandera v Gonzales",
+  "why": "district:MEMORIAL STADIUM, HARLANDALE"
+ },
+ {
   "site": "Irion County",
   "game": "Richland Springs v Bronte",
   "why": "no stadium, school or town matched"
@@ -115,6 +140,11 @@
   "why": "no stadium, school or town matched"
  },
  {
+  "site": "Jacksonville Tomato Bowl",
+  "game": "Van v Center",
+  "why": "no stadium, school or town matched"
+ },
+ {
   "site": "Justin",
   "game": "Byron Nelson v Denton Guyer",
   "why": "no stadium, school or town matched"
@@ -130,6 +160,11 @@
   "why": "no stadium, school or town matched"
  },
  {
+  "site": "Justin's Northwest ISD",
+  "game": "Mansfield v Byron Nelson",
+  "why": "no stadium, school or town matched"
+ },
+ {
   "site": "Laredo Johnson United",
   "game": "Boerne v Mission Sharyland Pioneer",
   "why": "no stadium, school or town matched"
@@ -137,6 +172,11 @@
  {
   "site": "Laredo Johnson United",
   "game": "Pharr-San Juan-Alamo North v Boerne Champion",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Loos Athletic Complex",
+  "game": "Celina v Dallas Pinkston",
   "why": "no stadium, school or town matched"
  },
  {
@@ -210,6 +250,11 @@
   "why": "no stadium, school or town matched"
  },
  {
+  "site": "Round 1 Bi District - 10 4A / 9 4A",
+  "game": "Lumberton v Longview Pine Tree",
+  "why": "no stadium, school or town matched"
+ },
+ {
   "site": "Rusj",
   "game": "Edgewood v Woodville",
   "why": "no stadium, school or town matched"
@@ -258,6 +303,21 @@
   "site": "Taft",
   "game": "Tidehaven v Stockdale",
   "why": "several schools with this name"
+ },
+ {
+  "site": "The game site is FBISD Hall Stadium.",
+  "game": "Almeta Crawford v Houston Worthing",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Traylor Stadium",
+  "game": "Richmond Foster v Fulshear Jordan",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "UMHB Crusader Stadium",
+  "game": "La Vega v La Grange",
+  "why": "no stadium, school or town matched"
  },
  {
   "site": "Waco Panther Stadium",
