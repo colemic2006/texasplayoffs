@@ -6,6 +6,7 @@ import BracketViewer from './components/BracketViewer'
 import ChapterTravel from './components/ChapterTravel'
 import OutsideChapterGames from './components/OutsideChapterGames'
 import LocalMatchups from './components/LocalMatchups'
+import UilPicks from './components/UilPicks'
 import OfficialsCost from './components/OfficialsCost'
 import RecentChanges from './components/RecentChanges'
 import MembershipView from './components/MembershipView'
@@ -119,6 +120,7 @@ export default function App() {
                 {page === 'chapters' && <ChapterDashboard data={yearData} year={year} allData={data} years={YEARS} loadAllYears={loadAllYears} />}
                 {page === 'chapters' && <ChapterTravel data={yearData} />}
                 {page === 'chapters' && <LocalMatchups data={yearData} />}
+                {page === 'chapters' && <UilPicks data={yearData} />}
                 {page === 'chapters' && <OutsideChapterGames data={yearData} />}
                 {page === 'chapters' && <OfficialsCost data={yearData} />}
                 {page === 'brackets' && <BracketViewer data={yearData} year={year} />}
