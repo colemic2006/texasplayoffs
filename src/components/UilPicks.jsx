@@ -2,6 +2,7 @@ import React, { useMemo } from 'react'
 import { chapterColor } from '../chapterColors'
 import { useHomeChapters } from '../homeChapters'
 import { UilTag } from '../uilPick'
+import { CHAPTER_CENTERS, roundTripMiles } from '../chapterCenters'
 
 const ROUNDS = { 1: 'Bi-District', 2: 'Area', 3: 'Regionals', 4: 'Quarterfinals', 5: 'Semifinals', 6: 'State Final' }
 
@@ -46,6 +47,9 @@ export default function UilPicks({ data }) {
                   </span>
                   {hs.length > 0 && <span style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)' }} title="The schools' home chapters">home: {hs.join(' / ')}</span>}
                   {g.chapter && <span style={chip(g.chapter)}>worked by: {g.chapter}</span>}
+                  {(m => <span style={{ fontFamily:'var(--mono)', fontSize:11, color:'var(--ink)', minWidth:112, textAlign:'right' }}
+                    title={m == null ? 'Game site not mapped yet' : `About ${Math.round(m / 2)} miles each way from ${CHAPTER_CENTERS[g.chapter]?.[0] || g.chapter} to ${g.site || 'the game site'}`}>
+                    {m == null ? '—' : `~${Math.round(m).toLocaleString()} mi round trip`}</span>)(roundTripMiles(g))}
                   <UilTag game={g} />
                 </div>
               )
@@ -55,6 +59,7 @@ export default function UilPicks({ data }) {
       </div>
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6 }}>
         Only games known to be UIL assignments are listed; others may not have been reported yet.
+        Miles are estimated driving miles, round trip, from the chapter's main city to the game site (straight-line distance × 1.2).
       </div>
     </div>
   )
