@@ -20,6 +20,7 @@ export default function WeekMap({ data }) {
   const [week, setWeek] = useState(null)
   const [picked, setPicked] = useState([])   // chapter codes and/or 'none' (unassigned); empty = all
   const [day, setDay] = useState('all')       // 'all', a 'YYYY-MM-DD' game date, or 'tbd'
+  const [uilOnly, setUilOnly] = useState(false)   // only games where UIL assigned the officials
 
   // open on the latest week that has games
   useEffect(() => { setWeek(weeks.length ? weeks[weeks.length - 1] : null) }, [weeks])
@@ -28,16 +29,18 @@ export default function WeekMap({ data }) {
   // game days this week (Thu/Fri/Sat usually), in date order, with TBD last
   const days = useMemo(() => {
     const n = {}
-    roundGames.forEach(g => { const k = dayKey(g); n[k] = (n[k] || 0) + 1 })
+    roundGames.filter(g => !uilOnly || g.uil_pick).forEach(g => { const k = dayKey(g); n[k] = (n[k] || 0) + 1 })
     return Object.entries(n).sort((a, b) => a[0] === 'tbd' ? 1 : b[0] === 'tbd' ? -1 : a[0].localeCompare(b[0]))
-  }, [week, games])
+  }, [week, games, uilOnly])
   useEffect(() => { if (day !== 'all' && !days.some(([k]) => k === day)) setDay('all') }, [days])
-  const allWeekGames = day === 'all' ? roundGames : roundGames.filter(g => dayKey(g) === day)
+  const uilInRound = roundGames.filter(g => g.uil_pick).length
+  useEffect(() => { if (!uilInRound) setUilOnly(false) }, [uilInRound])
+  const allWeekGames = (day === 'all' ? roundGames : roundGames.filter(g => dayKey(g) === day)).filter(g => !uilOnly || g.uil_pick)
   const chapters = useMemo(() => {
     const n = {}
     allWeekGames.forEach(g => { if (g.chapter) n[g.chapter] = (n[g.chapter] || 0) + 1 })
     return Object.entries(n).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
-  }, [week, games, day])
+  }, [week, games, day, uilOnly])
   const unassigned = allWeekGames.filter(g => !g.chapter).length
 
   // keep picks that still exist when changing weeks
@@ -57,7 +60,7 @@ export default function WeekMap({ data }) {
     .map(g => ({ lat: g.lat, lng: g.lng, game: g,
                  color: colorOf(g.chapter || 'none'),
                  stadium: { name: g.stadium || g.site, city: g.city || '', map_link: g.map_link } })),
-    [week, games, picked, day])
+    [week, games, picked, day, uilOnly])
 
   const chip = (active, color) => ({
     fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.08em', padding:'4px 10px', borderRadius:3,
@@ -78,7 +81,7 @@ export default function WeekMap({ data }) {
             This Week's Game Sites
           </div>
           <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:26, color:'var(--ink)' }}>
-            {ROUND_NAMES[week]} · Week {week}{day !== 'all' ? ` · ${dayLabel(day)}` : ''}{picked.length ? ` · ${picked.map(label).join(' + ')}` : ''} · {markers.length} of {weekGames.length} sites on the map
+            {ROUND_NAMES[week]} · Week {week}{day !== 'all' ? ` · ${dayLabel(day)}` : ''}{uilOnly ? ' · UIL picks' : ''}{picked.length ? ` · ${picked.map(label).join(' + ')}` : ''} · {markers.length} of {weekGames.length} sites on the map
           </div>
         </div>
         <div style={{ display:'flex', gap:4 }}>
@@ -101,10 +104,18 @@ export default function WeekMap({ data }) {
           </button>
         ))}
       </div>
+      {uilInRound > 0 && (
+        <div style={{ display:'flex', alignItems:'center', gap:4, flexWrap:'wrap', marginBottom:10 }}>
+          <span style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginRight:4 }}>Games:</span>
+          <button onClick={() => setUilOnly(false)} style={chip(!uilOnly, 'var(--burnt)')}>All</button>
+          <button onClick={() => setUilOnly(true)} title="Games where UIL assigned the officials instead of the schools picking the chapter"
+            style={chip(uilOnly, 'var(--ink)')}>UIL-assigned only ({uilInRound})</button>
+        </div>
+      )}
       {days.length > 1 && (
         <div style={{ display:'flex', alignItems:'center', gap:4, flexWrap:'wrap', marginBottom:10 }}>
           <span style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginRight:4 }}>Game day:</span>
-          <button onClick={() => setDay('all')} style={chip(day === 'all', 'var(--burnt)')}>All days ({roundGames.length})</button>
+          <button onClick={() => setDay('all')} style={chip(day === 'all', 'var(--burnt)')}>All days ({days.reduce((t, [, n]) => t + n, 0)})</button>
           {days.map(([k, n]) => (
             <button key={k} onClick={() => setDay(k)} style={chip(day === k, 'var(--ink)')}>{dayLabel(k)} ({n})</button>
           ))}
