@@ -1092,7 +1092,7 @@
       "team2": "Ballinger",
       "score2": 7,
       "winner": "Tioga",
-      "site": "Game at Boyd High School"
+      "site": "Boyd High School"
     },
     {
       "year": 2024,
@@ -1327,7 +1327,12 @@
       "team2": "Schulenburg",
       "score2": 42,
       "winner": "Schulenburg",
-      "site": "NB Canyon Cougar Std"
+      "site": "NB Canyon Cougar Stadium",
+      "lat": 29.70658,
+      "lng": -98.08646,
+      "stadium": "Cougar Stadium",
+      "map_link": "https://goo.gl/maps/g3hNAyAqt83r81Jd6",
+      "city": "New Braunfels"
     },
     {
       "year": 2024,
@@ -1340,7 +1345,7 @@
       "team2": "Rosebud-Lott",
       "score2": 14,
       "winner": "Mason",
-      "site": "@ Copperas Cove",
+      "site": "Copperas Cove",
       "lat": 31.11623,
       "lng": -97.88202,
       "stadium": "Bulldawg Stadium",
@@ -1358,7 +1363,12 @@
       "team2": "Santa Maria",
       "score2": 13,
       "winner": "Weimar",
-      "site": "Odem HS Owl Std"
+      "site": "Odem HS Owl Stadium",
+      "lat": 27.94816,
+      "lng": -97.58844,
+      "stadium": "Owl Stadium",
+      "map_link": "https://goo.gl/maps/PsXzb2Z5Vq6Fd7VK8",
+      "city": "Odem"
     },
     {
       "year": 2024,
@@ -1371,7 +1381,11 @@
       "team2": "Skidmore-Tynan",
       "score2": 15,
       "winner": "Ganado",
-      "site": "Victoria Memorial Std"
+      "site": "Memorial Stadium, Victoria",
+      "lat": 28.82518,
+      "lng": -96.97605,
+      "stadium": "Memorial Stadium",
+      "city": "Victoria"
     },
     {
       "year": 2024,
@@ -1396,7 +1410,7 @@
       "team2": "Kenedy",
       "score2": 6,
       "winner": "Refugio",
-      "site": "Vets Mem Std - Beeville ISD"
+      "site": "Vets Mem Stadium - Beeville ISD"
     },
     {
       "year": 2024,
@@ -2329,7 +2343,12 @@
       "team2": "Mount Enterprise",
       "score2": 40,
       "winner": "Mount Enterprise",
-      "site": "Game site is Shelbyville"
+      "site": "Shelbyville",
+      "lat": 31.76073,
+      "lng": -94.07819,
+      "stadium": "Dragon Stadium",
+      "map_link": "https://goo.gl/maps/wuCNKGw36JDZ7G118",
+      "city": "Shelbyville"
     },
     {
       "year": 2024,
@@ -2438,7 +2457,12 @@
       "team2": "Louise",
       "score2": 20,
       "winner": "La Villa",
-      "site": "Freer Buckaroo Std"
+      "site": "Freer Buckaroo Stadium",
+      "lat": 27.8751,
+      "lng": -98.61912,
+      "stadium": "Buckaroo Stadium",
+      "map_link": "https://goo.gl/maps/FrdnDSieMoYBpxD6A",
+      "city": "Freer"
     },
     {
       "year": 2024,
@@ -3117,7 +3141,7 @@
       "team2": "Clyde",
       "score2": 0,
       "winner": "Paradise",
-      "site": "@ Granbury",
+      "site": "Granbury",
       "lat": 32.44103,
       "lng": -97.81049,
       "stadium": "Pirate Stadium",
@@ -3220,7 +3244,11 @@
       "team2": "Tatum",
       "score2": 13,
       "winner": "Malakoff",
-      "site": "Tyler-Rose Stadium"
+      "site": "Rose Stadium, Tyler",
+      "lat": 32.34228,
+      "lng": -95.32406,
+      "stadium": "Rose Stadium",
+      "city": "Tyler"
     },
     {
       "year": 2024,
@@ -3299,7 +3327,12 @@
       "team2": "Cameron Yoe",
       "score2": 14,
       "winner": "Columbus",
-      "site": "Tiger Std - Smithville ISD"
+      "site": "Tiger Stadium - Smithville ISD",
+      "lat": 29.99529,
+      "lng": -97.16423,
+      "stadium": "Tiger Stadium",
+      "map_link": "https://goo.gl/maps/ukjjT2CSA7CyKbbJ6",
+      "city": "Smithville"
     },
     {
       "year": 2024,
@@ -3348,7 +3381,7 @@
       "team2": "Hallettsville",
       "score2": 6,
       "winner": "Franklin",
-      "site": "Waller ISD Daikin Std",
+      "site": "Waller ISD Daikin Stadium",
       "lat": 30.07528,
       "lng": -95.91307,
       "stadium": "Daikin Stadium",
@@ -3417,7 +3450,11 @@
       "team2": "Crystal City",
       "score2": 14,
       "winner": "Llano",
-      "site": "Comalander Std"
+      "site": "Comalander Stadium, San Antonio",
+      "lat": 29.54911,
+      "lng": -98.46586,
+      "stadium": "Comalander Stadium",
+      "city": "San Antonio"
     },
     {
       "year": 2024,
@@ -3430,7 +3467,7 @@
       "team2": "Orange Grove",
       "score2": 26,
       "winner": "Orange Grove",
-      "site": "@ Sinton HS",
+      "site": "Sinton HS",
       "lat": 28.03833,
       "lng": -97.49613,
       "stadium": "Pirate Stadium",
@@ -3516,7 +3553,11 @@
       "team2": "Hondo",
       "score2": 39,
       "winner": "Randolph",
-      "site": "Heroes Std"
+      "site": "Heroes Stadium, San Antonio",
+      "lat": 29.5369,
+      "lng": -98.39781,
+      "stadium": "Heroes Stadium",
+      "city": "San Antonio"
     },
     {
       "year": 2024,
@@ -5039,7 +5080,7 @@
       "team2": "Clint",
       "score2": 8,
       "winner": "Canyon West Plains",
-      "site": "@ Artesia, NM (Bulldog Bowl) - 6:00 PM MST"
+      "site": "Artesia, NM (Bulldog Bowl)"
     },
     {
       "year": 2024,
@@ -5101,7 +5142,11 @@
       "team2": "San Angelo Lake View",
       "score2": 0,
       "winner": "Stephenville",
-      "site": "Abilene Shotwell Stadium"
+      "site": "Shotwell Stadium, Abilene",
+      "lat": 32.43373,
+      "lng": -99.6982,
+      "stadium": "Shotwell Stadium",
+      "city": "Abilene"
     },
     {
       "year": 2024,
@@ -5150,7 +5195,10 @@
       "team2": "Sulphur Springs",
       "score2": 55,
       "winner": "Sulphur Springs",
-      "site": "Location Greenville, Tx"
+      "site": "Greenville, Tx",
+      "lat": 33.13469,
+      "lng": -96.11942,
+      "city": "Greenville"
     },
     {
       "year": 2024,
@@ -5316,7 +5364,12 @@
       "team2": "Almeta Crawford",
       "score2": 28,
       "winner": "Houston Worthing",
-      "site": "At Hall Stadium"
+      "site": "Hall Stadium",
+      "lat": 29.53233,
+      "lng": -95.49701,
+      "stadium": "Ken Hall Stadium",
+      "map_link": "https://goo.gl/maps/F4gUBwst8H7sUr7v6",
+      "city": "Missouri City"
     },
     {
       "year": 2024,
@@ -5413,7 +5466,7 @@
       "team2": "Port Lavaca Calhoun",
       "score2": 56,
       "winner": "Port Lavaca Calhoun",
-      "site": "Calallen HS Wildcat Std"
+      "site": "Calallen HS Wildcat Stadium"
     },
     {
       "year": 2024,
@@ -5462,7 +5515,7 @@
       "team2": "El Campo",
       "score2": 14,
       "winner": "Corpus Christi Calallen",
-      "site": "@ Port Lavaca Calhoun",
+      "site": "Port Lavaca Calhoun",
       "lat": 28.62013,
       "lng": -96.63753,
       "stadium": "Sandcrab Stadium",
@@ -6180,7 +6233,11 @@
       "team2": "Van",
       "score2": 38,
       "winner": "Van",
-      "site": "Tyler-Rose Stadium"
+      "site": "Rose Stadium, Tyler",
+      "lat": 32.34228,
+      "lng": -95.32406,
+      "stadium": "Rose Stadium",
+      "city": "Tyler"
     },
     {
       "year": 2024,
@@ -6337,7 +6394,7 @@
       "team2": "Gatesville",
       "score2": 45,
       "winner": "Gatesville",
-      "site": "@ Rockdale HS",
+      "site": "Rockdale HS",
       "lat": 30.654,
       "lng": -97.01322,
       "stadium": "Tiger Stadium",
@@ -6484,7 +6541,7 @@
       "team2": "Salado",
       "score2": 46,
       "winner": "Salado",
-      "site": "@ Wimberley",
+      "site": "Wimberley",
       "lat": 30.00287,
       "lng": -98.1121,
       "stadium": "Texan Stadium",
@@ -7257,8 +7314,7 @@
       "score1": 35,
       "team2": "Lake Belton",
       "score2": 30,
-      "winner": "Midlothian",
-      "site": "Bi-District Championship"
+      "winner": "Midlothian"
     },
     {
       "year": 2024,
@@ -7446,7 +7502,7 @@
       "team2": "Corpus Christi Flour Bluff",
       "score2": 35,
       "winner": "Corpus Christi Flour Bluff",
-      "site": "Vets Mem. Std - McAllen",
+      "site": "Vets Mem. Stadium - McAllen",
       "lat": 26.22388,
       "lng": -98.2373,
       "stadium": "McAllen Memorial Stadium",
@@ -9371,7 +9427,7 @@
       "team2": "Laredo United South",
       "score2": 28,
       "winner": "San Antonio East Central",
-      "site": "East Central HS - Hornet Std"
+      "site": "East Central HS - Hornet Stadium"
     },
     {
       "year": 2024,
@@ -10313,7 +10369,7 @@
       "team2": "Katy Tompkins",
       "score2": 36,
       "winner": "Houston Strake Jesuit",
-      "site": "@ Strake Jesuit HS Stadium"
+      "site": "Strake Jesuit HS Stadium"
     },
     {
       "year": 2024,
@@ -10380,7 +10436,12 @@
       "team2": "Laredo Alexander",
       "score2": 14,
       "winner": "Cibolo Steele",
-      "site": "Lehnhoff Std"
+      "site": "Lehnhoff Stadium",
+      "lat": 29.5629,
+      "lng": -98.26399,
+      "stadium": "Robert and Glenda Lehnhoff Stadium",
+      "map_link": "https://goo.gl/maps/yTzp5e5h4y9HwbGZ9",
+      "city": "Schertz"
     },
     {
       "year": 2024,
@@ -10442,7 +10503,12 @@
       "team2": "Medina Valley",
       "score2": 14,
       "winner": "New Braunfels Canyon",
-      "site": "NB Canyon Cougar Std"
+      "site": "NB Canyon Cougar Stadium",
+      "lat": 29.70658,
+      "lng": -98.08646,
+      "stadium": "Cougar Stadium",
+      "map_link": "https://goo.gl/maps/g3hNAyAqt83r81Jd6",
+      "city": "New Braunfels"
     },
     {
       "year": 2024,

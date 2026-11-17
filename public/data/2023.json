@@ -1445,7 +1445,11 @@
       "team2": "Alba-Golden",
       "score2": 0,
       "winner": "Beckville",
-      "site": "Tyler-Rose Stadium"
+      "site": "Rose Stadium, Tyler",
+      "lat": 32.34228,
+      "lng": -95.32406,
+      "stadium": "Rose Stadium",
+      "city": "Tyler"
     },
     {
       "year": 2023,
@@ -1705,7 +1709,12 @@
       "team2": "Santa Maria",
       "score2": 6,
       "winner": "Ganado",
-      "site": "Greyhound Std-Taft Tx"
+      "site": "Greyhound Stadium-Taft Tx",
+      "lat": 27.98674,
+      "lng": -97.39144,
+      "stadium": "Greyhound Stadium",
+      "map_link": "https://goo.gl/maps/PHFJxqJDJssbH5vGA",
+      "city": "Taft"
     },
     {
       "year": 2023,
@@ -1743,7 +1752,7 @@
       "team2": "Three Rivers",
       "score2": 24,
       "winner": "La Villa",
-      "site": "Premont Cowboy Std"
+      "site": "Premont Cowboy Stadium"
     },
     {
       "year": 2023,
@@ -8512,7 +8521,12 @@
       "team2": "El Paso Montwood",
       "score2": 19,
       "winner": "Midland Legacy",
-      "site": "Astound Broadband Std"
+      "site": "Astound Broadband Stadium",
+      "lat": 31.98925,
+      "lng": -102.15394,
+      "stadium": "Astound Broadband Stadium",
+      "map_link": "https://goo.gl/maps/2xizkpWLXy9xkYWw9",
+      "city": "Midland"
     },
     {
       "year": 2023,
@@ -9173,8 +9187,8 @@
       "team2": "San Antonio Johnson",
       "score2": 36,
       "winner": "San Antonio Johnson",
-      "site": "Heroes Stadium",
-      "lat": 29.53689,
+      "site": "Heroes Stadium, San Antonio",
+      "lat": 29.5369,
       "lng": -98.39781,
       "stadium": "Heroes Stadium",
       "map_link": "https://goo.gl/maps/FxXig925WVVYT43Q9",
@@ -9239,7 +9253,11 @@
       "team2": "San Antonio East Central",
       "score2": 21,
       "winner": "San Antonio Reagan",
-      "site": "Comalander Std"
+      "site": "Comalander Stadium, San Antonio",
+      "lat": 29.54911,
+      "lng": -98.46586,
+      "stadium": "Comalander Stadium",
+      "city": "San Antonio"
     },
     {
       "year": 2023,

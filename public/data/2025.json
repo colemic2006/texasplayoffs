@@ -902,7 +902,7 @@
       "team2": "Abernathy",
       "score2": 14,
       "winner": "West Texas Stinnett",
-      "site": "@ Hereford",
+      "site": "Hereford",
       "lat": 34.83171,
       "lng": -102.41263,
       "stadium": "Whiteface Stadium",
@@ -932,7 +932,12 @@
       "team2": "Amarillo Highland Park",
       "score2": 18,
       "winner": "New Home",
-      "site": "At Floydada"
+      "site": "Floydada",
+      "lat": 33.98768,
+      "lng": -101.34554,
+      "stadium": "Charles Tyer Stadium",
+      "map_link": "https://goo.gl/maps/j3dQ5NFbpdq16vYc8",
+      "city": "Floydada"
     },
     {
       "year": 2025,
@@ -2076,7 +2081,7 @@
       "team2": "Electra",
       "score2": 8,
       "winner": "Wheeler",
-      "site": "@ Childress",
+      "site": "Childress",
       "lat": 34.43004,
       "lng": -100.20491,
       "stadium": "Fair Park Stadium",
@@ -2093,8 +2098,7 @@
       "score1": 51,
       "team2": "Roscoe",
       "score2": 21,
-      "winner": "Collinsville",
-      "site": "TBA"
+      "winner": "Collinsville"
     },
     {
       "year": 2025,
@@ -2233,7 +2237,7 @@
       "team2": "West Hardin",
       "score2": 14,
       "winner": "Mount Enterprise",
-      "site": "Abe Martin Std - Lufkin",
+      "site": "Abe Martin Stadium - Lufkin",
       "lat": 31.33544,
       "lng": -94.68505,
       "stadium": "Abe Martin Stadium",
@@ -2366,7 +2370,12 @@
       "team2": "Louise",
       "score2": 8,
       "winner": "La Villa",
-      "site": "At Premont"
+      "site": "Premont",
+      "lat": 27.35449,
+      "lng": -98.13385,
+      "stadium": "Cowboy Field",
+      "map_link": "https://goo.gl/maps/7Gxk6fQpgexE4ckw9",
+      "city": "Premont"
     },
     {
       "year": 2025,
@@ -4792,7 +4801,11 @@
       "team2": "Big Spring",
       "score2": 7,
       "winner": "Brownwood",
-      "site": "ACU, Wildcat Stadium"
+      "site": "Wildcat Stadium (ACU), Abilene",
+      "lat": 32.4733,
+      "lng": -99.70905,
+      "stadium": "Wildcat Stadium (ACU)",
+      "city": "Abilene"
     },
     {
       "year": 2025,
@@ -4805,9 +4818,9 @@
       "team2": "El Paso Irvin",
       "score2": 0,
       "winner": "Canyon West Plains",
-      "site": "@ Seminole, TX",
-      "lat": 32.72463,
-      "lng": -102.65136,
+      "site": "Seminole, TX",
+      "lat": 32.71761,
+      "lng": -102.64334,
       "stadium": "Wigwam Stadium",
       "map_link": "https://goo.gl/maps/Ldj6eueXwab4Znh6A",
       "city": "Seminole"
@@ -5069,8 +5082,7 @@
       "score1": 0,
       "team2": "Longview Pine Tree",
       "score2": 35,
-      "winner": "Longview Pine Tree",
-      "site": "Round 1 Bi District - 10 4A / 9 4A"
+      "winner": "Longview Pine Tree"
     },
     {
       "year": 2025,
@@ -5083,7 +5095,7 @@
       "team2": "Houston Worthing",
       "score2": 7,
       "winner": "Almeta Crawford",
-      "site": "The game site is FBISD Hall Stadium."
+      "site": "FBISD Hall Stadium"
     },
     {
       "year": 2025,
@@ -5126,9 +5138,9 @@
       "team2": "Bay City",
       "score2": 44,
       "winner": "Bay City",
-      "site": "Victoria Memorial Stadium",
-      "lat": 28.82609,
-      "lng": -96.97138,
+      "site": "Memorial Stadium, Victoria",
+      "lat": 28.82518,
+      "lng": -96.97605,
       "stadium": "Memorial Stadium",
       "map_link": "https://goo.gl/maps/8hmhUAiFwEUuHg4W9",
       "city": "Victoria"
@@ -5192,7 +5204,7 @@
       "team2": "El Campo",
       "score2": 14,
       "winner": "Corpus Christi Calallen",
-      "site": "@ Wildcat Field at Phil Danaher Stadium",
+      "site": "Wildcat Field at Phil Danaher Stadium",
       "lat": 27.85771,
       "lng": -97.63826,
       "stadium": "Phil Danaher Stadium",
@@ -5829,7 +5841,7 @@
       "team2": "Fort Stockton",
       "score2": 17,
       "winner": "Lubbock Estacado",
-      "site": "@ Andrews HS",
+      "site": "Andrews HS",
       "lat": 32.32283,
       "lng": -102.56823,
       "stadium": "Mustang Bowl",
@@ -5919,7 +5931,12 @@
       "team2": "Center",
       "score2": 48,
       "winner": "Van",
-      "site": "Jacksonville Tomato Bowl"
+      "site": "Tomato Bowl, Jacksonville",
+      "lat": 31.96561,
+      "lng": -95.26699,
+      "stadium": "The Tomato Bowl",
+      "map_link": "https://goo.gl/maps/TnGxxBwkA1Q1N3fD8",
+      "city": "Jacksonville"
     },
     {
       "year": 2025,
@@ -6084,7 +6101,11 @@
       "team2": "La Grange",
       "score2": 0,
       "winner": "La Vega",
-      "site": "UMHB Crusader Stadium"
+      "site": "Crusader Stadium, Belton",
+      "lat": 31.0657,
+      "lng": -97.4636,
+      "stadium": "Crusader Stadium (UMHB)",
+      "city": "Belton"
     },
     {
       "year": 2025,
@@ -6097,7 +6118,7 @@
       "team2": "Sweeny",
       "score2": 27,
       "winner": "Silsbee",
-      "site": "@ La Porte HS",
+      "site": "La Porte HS",
       "lat": 29.65488,
       "lng": -95.01724,
       "stadium": "Bulldog Stadium",
@@ -6765,7 +6786,7 @@
       "team2": "Amarillo High",
       "score2": 76,
       "winner": "El Paso El Dorado",
-      "site": "El Paso SAC II Stadium   1300 Joe Battle Blvd.",
+      "site": "El Paso SAC II Stadium 1300 Joe Battle Blvd",
       "lat": 31.7601,
       "lng": -106.48705,
       "stadium": "SAC II Stadium",
@@ -6795,7 +6816,11 @@
       "team2": "El Paso Bel Air",
       "score2": 25,
       "winner": "Abilene High",
-      "site": "Abilene Shotwell Stadium"
+      "site": "Shotwell Stadium, Abilene",
+      "lat": 32.43373,
+      "lng": -99.6982,
+      "stadium": "Shotwell Stadium",
+      "city": "Abilene"
     },
     {
       "year": 2025,
@@ -9971,7 +9996,7 @@
       "team2": "Houston King",
       "score2": 56,
       "winner": "Houston King",
-      "site": "Bi-District Championship @ Challenger Stadium"
+      "site": "Challenger Stadium"
     },
     {
       "year": 2025,

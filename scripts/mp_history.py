@@ -20,6 +20,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / 'scripts'))
 from season import fetch, read_card  # noqa: E402
 from uil_seeds import match  # noqa: E402
+from mp_site_text import tidy  # noqa: E402
 
 STATE = ROOT / 'season' / 'history_mp.json'
 OUT = ROOT / 'season' / 'history_sites_r1.json'
@@ -157,9 +158,9 @@ def main(years):
                     time.sleep(1)
                     if len(cards) % 25 == 0:
                         save()
-                if cards[card]:
+                if tidy(cards[card]):
                     rows.append(dict(year=year, classification=cls, week=1, team1=g['team1'], team2=g['team2'],
-                                     site=cards[card], source_text='MaxPreps game card')); got += 1
+                                     site=tidy(cards[card]), source_text=f'MaxPreps game card: {cards[card]}')); got += 1
             print(f'  {year} {cls}: {len(fr)} first-round games on MaxPreps, {got} with a site')
             save()
     old = json.loads(OUT.read_text()) if OUT.exists() else []

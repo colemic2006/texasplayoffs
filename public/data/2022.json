@@ -1940,7 +1940,7 @@
       "team2": "Alvord",
       "score2": 7,
       "winner": "Coleman",
-      "site": "At Castleberry HS in Fort Worth"
+      "site": "Castleberry HS in Fort Worth"
     },
     {
       "year": 2022,
@@ -2085,7 +2085,7 @@
       "team2": "Ben Bolt",
       "score2": 14,
       "winner": "Refugio",
-      "site": "Bi-District in Mathis - 7:00 pm"
+      "site": "Bi-District in Mathis"
     },
     {
       "year": 2022,
@@ -2714,7 +2714,12 @@
       "team2": "Ropesville",
       "score2": 12,
       "winner": "Sudan",
-      "site": "at Slaton"
+      "site": "Slaton",
+      "lat": 33.44043,
+      "lng": -101.65311,
+      "stadium": "Blake J Boyd Memorial Stadium",
+      "map_link": "https://goo.gl/maps/v8wxccePDXoFuiug9",
+      "city": "Slaton"
     },
     {
       "year": 2022,
@@ -4736,7 +4741,7 @@
       "team2": "West Rusk",
       "score2": 36,
       "winner": "West Rusk",
-      "site": "@ Pittsburg High School",
+      "site": "Pittsburg High School",
       "lat": 33.0038,
       "lng": -94.97435,
       "stadium": "Pirate Stadium",
@@ -4820,7 +4825,12 @@
       "team2": "Newton",
       "score2": 58,
       "winner": "Newton",
-      "site": "At Center"
+      "site": "Center",
+      "lat": 31.80414,
+      "lng": -94.20169,
+      "stadium": "Roughrider Stadium",
+      "map_link": "https://goo.gl/maps/ggPxaHCoJ7cTkcoaA",
+      "city": "Center"
     },
     {
       "year": 2022,
@@ -5547,7 +5557,7 @@
       "team2": "Canyon West Plains",
       "score2": 56,
       "winner": "Canyon West Plains",
-      "site": "@ Seminole's Wigwam Stadium",
+      "site": "Seminole's Wigwam Stadium",
       "lat": 32.72463,
       "lng": -102.65136,
       "stadium": "Wigwam Stadium",
@@ -5817,7 +5827,7 @@
       "team2": "Jarrell",
       "score2": 32,
       "winner": "Jarrell",
-      "site": "@ Canyon Lake High School",
+      "site": "Canyon Lake High School",
       "lat": 29.94039,
       "lng": -98.21579,
       "stadium": "Hawk Stadium",
@@ -6505,7 +6515,7 @@
       "team2": "Lubbock Estacado",
       "score2": 54,
       "winner": "Lubbock Estacado",
-      "site": "@ Astound Broadband Stadium",
+      "site": "Astound Broadband Stadium",
       "lat": 31.98925,
       "lng": -102.15394,
       "stadium": "Astound Broadband Stadium",
@@ -6571,7 +6581,7 @@
       "team2": "Lake Worth",
       "score2": 23,
       "winner": "Lake Worth",
-      "site": "At Apogee Stadium - UNT"
+      "site": "Apogee Stadium - UNT"
     },
     {
       "year": 2022,
@@ -6764,7 +6774,7 @@
       "team2": "Boerne",
       "score2": 42,
       "winner": "Boerne",
-      "site": "@ Marble Falls",
+      "site": "Marble Falls",
       "lat": 30.5858,
       "lng": -98.25186,
       "stadium": "Mustang Stadium",
@@ -9788,7 +9798,7 @@
       "team2": "Houston Stratford",
       "score2": 20,
       "winner": "Houston Heights",
-      "site": "Game at Delmar Stadium",
+      "site": "Delmar Stadium",
       "lat": 29.80361,
       "lng": -95.45626,
       "stadium": "Delmar Stadium",
@@ -9805,8 +9815,7 @@
       "score1": 29,
       "team2": "Katy Morton Ranch",
       "score2": 14,
-      "winner": "Fort Bend Hightower",
-      "site": "Round 1 of playoffs."
+      "winner": "Fort Bend Hightower"
     },
     {
       "year": 2022,
@@ -10497,7 +10506,7 @@
       "team2": "Aldine Nimitz",
       "score2": 13,
       "winner": "The Woodlands",
-      "site": "@ Woodforest Bank Stadium",
+      "site": "Woodforest Bank Stadium",
       "lat": 30.18591,
       "lng": -95.44679,
       "stadium": "Woodforest Bank Stadium",
@@ -10973,8 +10982,7 @@
       "score1": 58,
       "team2": "Laredo Alexander",
       "score2": 7,
-      "winner": "San Antonio Brennan",
-      "site": "Bi-District Championship"
+      "winner": "San Antonio Brennan"
     },
     {
       "year": 2022,
