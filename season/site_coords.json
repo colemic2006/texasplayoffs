@@ -1,4 +1,20 @@
 {
+ "Beaumon Doggett Family Stadium": {
+  "city": "Beaumont",
+  "lat": 30.02431,
+  "lng": -94.16539,
+  "map_link": "https://goo.gl/maps/3M75akREmEgxQM3aA",
+  "source": "Beaumont ISD Doggett Family Stadium, 5250 Bayou Willow Way (its Google map link, as read on an earlier lookup)",
+  "stadium": "Doggett Family Stadium"
+ },
+ "Beaumont Doggett Family Stadium": {
+  "city": "Beaumont",
+  "lat": 30.02431,
+  "lng": -94.16539,
+  "map_link": "https://goo.gl/maps/3M75akREmEgxQM3aA",
+  "source": "Beaumont ISD Doggett Family Stadium, 5250 Bayou Willow Way (its Google map link, as read on an earlier lookup)",
+  "stadium": "Doggett Family Stadium"
+ },
  "Bulldog Stadium, Tyler": {
   "city": "Tyler",
   "lat": 32.31056,
@@ -12,6 +28,22 @@
   "lng": -97.4636,
   "source": "University of Mary Hardin-Baylor campus, Belton (approximate)",
   "stadium": "Crusader Stadium (UMHB)"
+ },
+ "Doggett Family Stadium": {
+  "city": "Beaumont",
+  "lat": 30.02431,
+  "lng": -94.16539,
+  "map_link": "https://goo.gl/maps/3M75akREmEgxQM3aA",
+  "source": "Beaumont ISD Doggett Family Stadium, 5250 Bayou Willow Way (its Google map link, as read on an earlier lookup)",
+  "stadium": "Doggett Family Stadium"
+ },
+ "Doggett Family Stadium, Beaumont": {
+  "city": "Beaumont",
+  "lat": 30.02431,
+  "lng": -94.16539,
+  "map_link": "https://goo.gl/maps/3M75akREmEgxQM3aA",
+  "source": "Beaumont ISD Doggett Family Stadium, 5250 Bayou Willow Way (its Google map link, as read on an earlier lookup)",
+  "stadium": "Doggett Family Stadium"
  },
  "Dub Ferris Athletic Complex, Northeast ISD San Ant": {
   "city": "San Antonio",

@@ -409,7 +409,13 @@ def locate(games, review_path=None):
             (town_in(how[8:]) if how.startswith('address:') else '')
         coords = None
         link_tried = False
-        if st and st.get('map_link'):
+        # another game at this stadium already has its exact pin (from the stadium's map link): use it
+        exact = next((v for v in cache.values() if st and v.get('stadium_id') == st.get('id') and 'lat' in v
+                      and '(map link)' in v.get('how', '')), None)
+        if exact:
+            coords, tries = (exact['lat'], exact['lng']), []
+            how = how + ' (map link)'
+        elif st and st.get('map_link'):
             # the stadium's own Google Maps pin, when it is in the right town (within 30 miles)
             link_tried = True
             try:
@@ -421,6 +427,7 @@ def locate(games, review_path=None):
                         coords, tries = spot, []
                         how = how + ' (map link)'
             except Exception as e:
+                link_tried = False   # couldn't reach the link (network): try it again next run
                 print(f'  ! map link {st["map_link"]}: {e}')
         for q, q_how, want_town, want_zip, *more in tries:
             try:
