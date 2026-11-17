@@ -1,4 +1,70 @@
 {
+ "500 W. Lindsey St. in Breckenridge, Tx || Coleman v Alvord": {
+  "address": "",
+  "city": "Tx",
+  "how": "address:500 W. Lindsey St. in Breckenridge, Tx",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "500 W. Lindsey St. in Breckenridge, Tx",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "6A Division I || San Benito v La Joya": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "6A Division I",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "702 North Clark Street-San Augustine, Texas 75972 || Overton v Evadale": {
+  "address": "",
+  "how": "address in site text",
+  "lat": 31.53505,
+  "lng": -94.10114,
+  "map_link": "",
+  "rules": 10,
+  "site": "702 North Clark Street-San Augustine, Texas 75972",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "@ Andrews HS || Lubbock Estacado v Fort Stockton": {
+  "address": "918 NW Mustang Dr, Andrews, Texas 79714",
+  "city": "Andrews",
+  "how": "school (map link)",
+  "lat": 32.32283,
+  "lng": -102.56823,
+  "map_link": "https://maps.app.goo.gl/DZWYSntZDeRASZYz9",
+  "rules": 10,
+  "site": "@ Andrews HS",
+  "stadium": "Mustang Bowl",
+  "stadium_id": 992
+ },
+ "@ Artesia, NM (Bulldog Bowl) - 6:00 PM MST || Canyon West Plains v Clint": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "@ Artesia, NM (Bulldog Bowl) - 6:00 PM MST",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "@ Astound Broadband Stadium || El Paso Bowie v Lubbock Estacado": {
+  "address": "Tradewinds Blvd, Midland, Texas 79706",
+  "city": "Midland",
+  "how": "stadium (map link)",
+  "lat": 31.98925,
+  "lng": -102.15394,
+  "map_link": "https://goo.gl/maps/2xizkpWLXy9xkYWw9",
+  "rules": 10,
+  "site": "@ Astound Broadband Stadium",
+  "stadium": "Astound Broadband Stadium",
+  "stadium_id": 521
+ },
  "@ Buccaneer Stadium || San Antonio Harlan v Harlingen": {
   "address": "# 1 Battlin' Buc Blvd., Corpus Christi, Texas 78407",
   "city": "Corpus Christi",
@@ -13,6 +79,44 @@
   "stadium": "Buccaneer Stadium",
   "stadium_id": 203
  },
+ "@ Canyon Lake High School || Devine v Jarrell": {
+  "address": "8555 FM 32, Fischer, Texas 78623",
+  "city": "Fischer",
+  "how": "school (map link)",
+  "lat": 29.94039,
+  "link_tried": true,
+  "lng": -98.21579,
+  "map_link": "https://goo.gl/maps/mP5pLM6UqSMAhmwz7",
+  "rules": 10,
+  "site": "@ Canyon Lake High School",
+  "stadium": "Hawk Stadium",
+  "stadium_id": 1137
+ },
+ "@ Childress || Wheeler v Electra": {
+  "address": "312 Ave. I NW, Childress, Texas 79201",
+  "city": "Childress",
+  "how": "school (map link)",
+  "lat": 34.43004,
+  "lng": -100.20491,
+  "map_link": "https://goo.gl/maps/T5USJpM1hofREJkc6",
+  "rules": 10,
+  "site": "@ Childress",
+  "stadium": "Fair Park Stadium",
+  "stadium_id": 760
+ },
+ "@ Copperas Cove || Mason v Rosebud-Lott": {
+  "address": "702 Sunny Ave, Copperas Cove, Texas 76522",
+  "city": "Copperas Cove",
+  "how": "school (map link)",
+  "lat": 31.11623,
+  "link_tried": true,
+  "lng": -97.88202,
+  "map_link": "https://goo.gl/maps/ybs4vhoFFfMv7ATg8",
+  "rules": 10,
+  "site": "@ Copperas Cove",
+  "stadium": "Bulldawg Stadium",
+  "stadium_id": 42
+ },
  "@ Devine's Warhorse Stadium || Devine v Randolph": {
   "address": "Colonial Pkwy at Warhorse, Devine, Texas 78016",
   "city": "Devine",
@@ -26,6 +130,30 @@
   "stadium": "Warhorse Stadium",
   "stadium_id": 184
  },
+ "@ Granbury || Paradise v Clyde": {
+  "address": "2000 West Pearl, Granbury, Texas 76048",
+  "city": "Granbury",
+  "how": "school (map link)",
+  "lat": 32.44103,
+  "lng": -97.81049,
+  "map_link": "https://goo.gl/maps/XrgGgN19nmnJRTEm6",
+  "rules": 10,
+  "site": "@ Granbury",
+  "stadium": "Pirate Stadium",
+  "stadium_id": 148
+ },
+ "@ Hereford || West Texas Stinnett v Abernathy": {
+  "address": "300 Stadium Dr., Hereford, Texas 79045",
+  "city": "Hereford",
+  "how": "school (map link)",
+  "lat": 34.83171,
+  "lng": -102.41263,
+  "map_link": "https://goo.gl/maps/1giBBj6DXv3Qb9sh8",
+  "rules": 10,
+  "site": "@ Hereford",
+  "stadium": "Whiteface Stadium",
+  "stadium_id": 828
+ },
  "@ Karnes City || Devine v Orange Grove": {
   "address": "400 North Highway 123, Karnes City, Texas 78118",
   "city": "Karnes City",
@@ -38,6 +166,18 @@
   "site": "@ Karnes City",
   "stadium": "Poss Johnson Field",
   "stadium_id": 892
+ },
+ "@ La Porte HS || Silsbee v Sweeny": {
+  "address": "301 E Fairmont Pkwy, La Porte, Texas 77571",
+  "city": "La Porte",
+  "how": "school (map link)",
+  "lat": 29.65488,
+  "lng": -95.01724,
+  "map_link": "https://goo.gl/maps/YuhAMeUQsk3juEEP6",
+  "rules": 10,
+  "site": "@ La Porte HS",
+  "stadium": "Bulldog Stadium",
+  "stadium_id": 620
  },
  "@ Lamesa High School || Wink v Ralls": {
   "address": "600 N 14th St, Lamesa, Texas 79331",
@@ -89,6 +229,164 @@
   "stadium": "Leopard Stadium",
   "stadium_id": 338
  },
+ "@ Marble Falls || Taylor v Boerne": {
+  "address": "2101 Mustang Drive, Marble Falls, Texas 78654",
+  "city": "Marble Falls",
+  "how": "school (map link)",
+  "lat": 30.5858,
+  "link_tried": true,
+  "lng": -98.25186,
+  "map_link": "https://goo.gl/maps/DaAzxTwE5FQ6cb2K7",
+  "rules": 10,
+  "site": "@ Marble Falls",
+  "stadium": "Mustang Stadium",
+  "stadium_id": 1302
+ },
+ "@ Pittsburg High School || Omaha Paul Pewitt v West Rusk": {
+  "address": "300 N Texas St., Pittsburg, Texas 75686",
+  "city": "Pittsburg",
+  "how": "school (map link)",
+  "lat": 33.0038,
+  "lng": -94.97435,
+  "map_link": "https://goo.gl/maps/7UGmbxrhSYq7mhAVA",
+  "rules": 10,
+  "site": "@ Pittsburg High School",
+  "stadium": "Pirate Stadium",
+  "stadium_id": 542
+ },
+ "@ Port Lavaca Calhoun || Corpus Christi Calallen v El Campo": {
+  "address": "734 TX-35, Port Lavaca, Texas 77979",
+  "city": "Port Lavaca",
+  "how": "school (map link)",
+  "lat": 28.62013,
+  "lng": -96.63753,
+  "map_link": "https://goo.gl/maps/uMrkiyrXbLM9ZujUA",
+  "rules": 10,
+  "site": "@ Port Lavaca Calhoun",
+  "stadium": "Sandcrab Stadium",
+  "stadium_id": 410
+ },
+ "@ Rockdale HS || Madisonville v Gatesville": {
+  "address": "Murray Ave at Miller St, Rockdale, Texas 76567",
+  "city": "Rockdale",
+  "how": "school (map link)",
+  "lat": 30.654,
+  "lng": -97.01322,
+  "map_link": "https://goo.gl/maps/snfQphhNMo8PKVHh6",
+  "rules": 10,
+  "site": "@ Rockdale HS",
+  "stadium": "Tiger Stadium",
+  "stadium_id": 174
+ },
+ "@ Seminole's Wigwam Stadium || Pecos v Canyon West Plains": {
+  "address": "NW Ave F at NW 8th, Seminole, Texas 79360",
+  "city": "Seminole",
+  "how": "stadium (map link)",
+  "lat": 32.72463,
+  "lng": -102.65136,
+  "map_link": "https://goo.gl/maps/Ldj6eueXwab4Znh6A",
+  "rules": 10,
+  "site": "@ Seminole's Wigwam Stadium",
+  "stadium": "Wigwam Stadium",
+  "stadium_id": 829
+ },
+ "@ Seminole, TX || Canyon West Plains v El Paso Irvin": {
+  "address": "NW Ave F at NW 8th, Seminole, Texas 79360",
+  "city": "Seminole",
+  "how": "school (map link)",
+  "lat": 32.72463,
+  "lng": -102.65136,
+  "map_link": "https://goo.gl/maps/Ldj6eueXwab4Znh6A",
+  "rules": 10,
+  "site": "@ Seminole, TX",
+  "stadium": "Wigwam Stadium",
+  "stadium_id": 829
+ },
+ "@ Sinton HS || San Diego v Orange Grove": {
+  "address": "N Pirate Blvd, Sinton, Texas 78387",
+  "city": "Sinton",
+  "how": "school (map link)",
+  "lat": 28.03833,
+  "link_tried": true,
+  "lng": -97.49613,
+  "map_link": "https://goo.gl/maps/otE4jiXhFdzXqMd57",
+  "rules": 10,
+  "site": "@ Sinton HS",
+  "stadium": "Pirate Stadium",
+  "stadium_id": 210
+ },
+ "@ Strake Jesuit HS Stadium || Houston Strake Jesuit v Katy Tompkins": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "@ Strake Jesuit HS Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "@ Wildcat Field at Phil Danaher Stadium || Corpus Christi Calallen v El Campo": {
+  "address": "4001 Wildcat Drive, Corpus Christi, Texas 78410",
+  "city": "Corpus Christi",
+  "how": "stadium (map link)",
+  "lat": 27.85771,
+  "link_tried": true,
+  "lng": -97.63826,
+  "map_link": "https://goo.gl/maps/244We57Gr8Nq7eQ3A",
+  "rules": 10,
+  "site": "@ Wildcat Field at Phil Danaher Stadium",
+  "stadium": "Phil Danaher Stadium",
+  "stadium_id": 212
+ },
+ "@ Wimberley || Devine v Salado": {
+  "address": "200 Texan Boulevard, Wimberley, Texas 78676",
+  "city": "Wimberley",
+  "how": "school (map link)",
+  "lat": 30.00287,
+  "link_tried": true,
+  "lng": -98.1121,
+  "map_link": "https://goo.gl/maps/33xoB35ny8fYYhwE6",
+  "rules": 10,
+  "site": "@ Wimberley",
+  "stadium": "Texan Stadium",
+  "stadium_id": 162
+ },
+ "@ Woodforest Bank Stadium || The Woodlands v Aldine Nimitz": {
+  "address": "19115 David Memorial Dr, Shenandoah, Texas 77385",
+  "city": "Shenandoah",
+  "how": "stadium (map link)",
+  "lat": 30.18591,
+  "lng": -95.44679,
+  "map_link": "https://goo.gl/maps/upEFqtHzV76XXwvP8",
+  "rules": 10,
+  "site": "@ Woodforest Bank Stadium",
+  "stadium": "Woodforest Bank Stadium",
+  "stadium_id": 1151
+ },
+ "@Eagle Stadium in Allen || Wylie v Mesquite Horn": {
+  "address": "155 Rivercrest Blvd, Allen, Texas 75002",
+  "city": "Allen",
+  "how": "stadium (map link)",
+  "lat": 33.1141,
+  "lng": -96.65699,
+  "map_link": "https://goo.gl/maps/F6vHjvY4xeBeZCZs9",
+  "rules": 10,
+  "site": "@Eagle Stadium in Allen",
+  "stadium": "Eagle Stadium",
+  "stadium_id": 1292
+ },
+ "@Sweetwater ISD Mustang Bowl || Christoval v Anson": {
+  "address": "1205 Ragland, Sweetwater, Texas 79556",
+  "city": "Sweetwater",
+  "how": "stadium (map link)",
+  "lat": 32.48228,
+  "lng": -100.40572,
+  "map_link": "https://goo.gl/maps/ZoK3S1snEe41y7LW8",
+  "rules": 10,
+  "site": "@Sweetwater ISD Mustang Bowl",
+  "stadium": "Mustang Bowl",
+  "stadium_id": 993
+ },
  "@UNT || Allen v Euless Trinity": {
   "address": "1551 S Bonnie Brae Street, Denton, Texas 76201",
   "city": "Denton",
@@ -102,6 +400,19 @@
   "site": "@UNT",
   "stadium": "DATCU Stadium",
   "stadium_id": 311
+ },
+ "A&M Consolidated HS || A&M Consolidated v Friendswood": {
+  "address": "",
+  "city": "College Station",
+  "confirmed_as": "A&M Consolidated High School, College Station",
+  "how": "address in site text",
+  "lat": 30.592,
+  "lng": -96.31809,
+  "map_link": "",
+  "rules": 10,
+  "site": "A&M Consolidated HS",
+  "stadium": null,
+  "stadium_id": null
  },
  "A&M Consolidated HS || Rosebud-Lott v Corrigan-Camden": {
   "address": "",
@@ -236,6 +547,16 @@
   "missed": "2026-11-17",
   "rules": 10,
   "site": "ACU",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "ACU, Wildcat Stadium || Brownwood v Big Spring": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "ACU, Wildcat Stadium",
   "stadium": null,
   "stadium_id": null
  },
@@ -1364,6 +1685,18 @@
   "stadium": "Abe Martin Stadium",
   "stadium_id": 417
  },
+ "Abe Martin Std - Lufkin || Mount Enterprise v West Hardin": {
+  "address": "309 South Medford Dr., Lufkin, Texas 75902",
+  "city": "Lufkin",
+  "how": "stadium (map link)",
+  "lat": 31.33544,
+  "lng": -94.68505,
+  "map_link": "https://goo.gl/maps/RpMBJXihnh5SiQVF9",
+  "rules": 10,
+  "site": "Abe Martin Std - Lufkin",
+  "stadium": "Abe Martin Stadium",
+  "stadium_id": 417
+ },
  "Abernathy High School || Gruver v McCamey": {
   "address": "901 Avenue H, Abernathy, Texas 79311",
   "city": "Abernathy",
@@ -1425,6 +1758,16 @@
   "stadium": "Anthony Field at Wildcat Stadium",
   "stadium_id": 1062
  },
+ "Abilene Shotwell Stadium || Abilene High v El Paso Bel Air": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Abilene Shotwell Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Abilene Shotwell Stadium || Cisco v Stamford": {
   "address": "",
   "how": "no stadium, school or town matched",
@@ -1456,6 +1799,16 @@
   "stadium_id": null
  },
  "Abilene Shotwell Stadium || Stephenville v Hereford": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Abilene Shotwell Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Abilene Shotwell Stadium || Stephenville v San Angelo Lake View": {
   "address": "",
   "how": "no stadium, school or town matched",
   "map_link": "",
@@ -1664,6 +2017,18 @@
   "stadium": "Harry B. Orem Stadium",
   "stadium_id": 847
  },
+ "Alamo Stadium - San Antonio || Young Mens Leadership Academy v Wimberley": {
+  "address": "760 Stadium Dr., San Antonio, Texas 78212",
+  "city": "San Antonio",
+  "how": "stadium (map link)",
+  "lat": 29.4628,
+  "lng": -98.47904,
+  "map_link": "https://goo.gl/maps/9ZHVH4NooUHkfakd8",
+  "rules": 10,
+  "site": "Alamo Stadium - San Antonio",
+  "stadium": "Alamo Stadium",
+  "stadium_id": 836
+ },
  "Alamo Stadium, San Antonio || San Antonio Davenport v Corpus Christi Miller": {
   "address": "760 Stadium Dr., San Antonio, Texas 78212",
   "city": "San Antonio",
@@ -1671,6 +2036,18 @@
   "lat": 29.46372,
   "link_tried": true,
   "lng": -98.48035,
+  "map_link": "https://goo.gl/maps/9ZHVH4NooUHkfakd8",
+  "rules": 10,
+  "site": "Alamo Stadium, San Antonio",
+  "stadium": "Alamo Stadium",
+  "stadium_id": 836
+ },
+ "Alamo Stadium, San Antonio || Wimberley v Pearsall": {
+  "address": "760 Stadium Dr., San Antonio, Texas 78212",
+  "city": "San Antonio",
+  "how": "stadium (map link)",
+  "lat": 29.4628,
+  "lng": -98.47904,
   "map_link": "https://goo.gl/maps/9ZHVH4NooUHkfakd8",
   "rules": 10,
   "site": "Alamo Stadium, San Antonio",
@@ -1819,6 +2196,28 @@
   "stadium": "W. W. Thorne Stadium",
   "stadium_id": 366
  },
+ "Aledo Bearcat Stadium || Graham v Godley": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Aledo Bearcat Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Aledo High School || Graham v Fort Worth Dunbar": {
+  "address": "1000 Bailey Ranch Road, Aledo, Texas 76008",
+  "city": "Aledo",
+  "how": "school (map link)",
+  "lat": 32.71446,
+  "lng": -97.61642,
+  "map_link": "https://goo.gl/maps/c4kiZM1ofy1K7xnp9",
+  "rules": 10,
+  "site": "Aledo High School",
+  "stadium": "Tim Buchanan Stadium",
+  "stadium_id": 1055
+ },
  "Aledo || Abilene High v Aledo": {
   "address": "1000 Bailey Ranch Road, Aledo, Texas 76008",
   "city": "Aledo",
@@ -1831,6 +2230,16 @@
   "site": "Aledo",
   "stadium": "Tim Buchanan Stadium",
   "stadium_id": 1055
+ },
+ "Alice Memorial Stadium, Alice Tx || Refugio v Ben Bolt": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Alice Memorial Stadium, Alice Tx",
+  "stadium": null,
+  "stadium_id": null
  },
  "Alice || Alice v Victoria West": {
   "address": "718 W 2nd St, Alice, Texas 78332",
@@ -1866,6 +2275,16 @@
   "map_link": "",
   "rules": 10,
   "site": "Alice, TX",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Allen Athletic Facility || Lewisville v Allen": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Allen Athletic Facility",
   "stadium": null,
   "stadium_id": null
  },
@@ -2024,6 +2443,31 @@
   "stadium": "Alvin ISD Freedom Field",
   "stadium_id": 1758
  },
+ "Alvin Memorial Stadium || Iowa Colony v Belton": {
+  "address": "1300 W Dumble St, Alvin, Texas 77511",
+  "city": "Alvin",
+  "how": "stadium (map link)",
+  "lat": 29.41666,
+  "link_tried": true,
+  "lng": -95.25544,
+  "map_link": "https://goo.gl/maps/YeY5HW3icmLRYDkr7",
+  "rules": 10,
+  "site": "Alvin Memorial Stadium",
+  "stadium": "Memorial Stadium",
+  "stadium_id": 628
+ },
+ "Amarillo - Dick Bivins Stadium || Stratford v Crosbyton": {
+  "address": "3101 E 10th Ave, Amarillo, Texas 79106",
+  "city": "Amarillo",
+  "how": "stadium (map link)",
+  "lat": 35.20302,
+  "lng": -101.80093,
+  "map_link": "https://goo.gl/maps/F9wZMeXxkqjjEzha6",
+  "rules": 10,
+  "site": "Amarillo - Dick Bivins Stadium",
+  "stadium": "Dick Bivins Stadium",
+  "stadium_id": 722
+ },
  "Amarillo Dick Bivins Stadium || Canadian v Idalou": {
   "address": "3101 E 10th Ave, Amarillo, Texas 79106",
   "city": "Amarillo",
@@ -2083,6 +2527,19 @@
   "stadium": null,
   "stadium_id": null
  },
+ "Amarillo River Road HS || Gruver v Lockney": {
+  "address": "101 W. Mobley St, Amarillo, Texas 79108",
+  "city": "Amarillo",
+  "how": "school (map link)",
+  "lat": 35.30745,
+  "link_tried": true,
+  "lng": -101.83668,
+  "map_link": "https://goo.gl/maps/4uJX7QU9A7cwknUc7",
+  "rules": 10,
+  "site": "Amarillo River Road HS",
+  "stadium": "Wildcat Stadium",
+  "stadium_id": 830
+ },
  "Anahuac || Woodville v Hitchcock": {
   "address": "201 S Kansas, Anahuac, Texas 77514",
   "city": "Anahuac",
@@ -2132,6 +2589,18 @@
   "stadium": "Mustang Bowl",
   "stadium_id": 992
  },
+ "Andrews HS || Lubbock Estacado v Fort Stockton": {
+  "address": "918 NW Mustang Dr, Andrews, Texas 79714",
+  "city": "Andrews",
+  "how": "school (map link)",
+  "lat": 32.32283,
+  "lng": -102.56823,
+  "map_link": "https://maps.app.goo.gl/DZWYSntZDeRASZYz9",
+  "rules": 10,
+  "site": "Andrews HS",
+  "stadium": "Mustang Bowl",
+  "stadium_id": 992
+ },
  "Andrews High School || Lockney v Iraan": {
   "address": "918 NW Mustang Dr, Andrews, Texas 79714",
   "city": "Andrews",
@@ -2150,6 +2619,18 @@
   "how": "school (map link)",
   "lat": 32.32283,
   "link_tried": true,
+  "lng": -102.56823,
+  "map_link": "https://maps.app.goo.gl/DZWYSntZDeRASZYz9",
+  "rules": 10,
+  "site": "Andrews High School",
+  "stadium": "Mustang Bowl",
+  "stadium_id": 992
+ },
+ "Andrews High School || Wink v Sundown": {
+  "address": "918 NW Mustang Dr, Andrews, Texas 79714",
+  "city": "Andrews",
+  "how": "school (map link)",
+  "lat": 32.32283,
   "lng": -102.56823,
   "map_link": "https://maps.app.goo.gl/DZWYSntZDeRASZYz9",
   "rules": 10,
@@ -2207,6 +2688,19 @@
   "site": "Angleton ISD Wildcat Stadium",
   "stadium": "Wildcat Stadium",
   "stadium_id": 1280
+ },
+ "Argyle HS || Argyle v Lovejoy": {
+  "address": "6605 Canyon Falls Dr, Flower Mound, Texas 76226",
+  "city": "Flower Mound",
+  "how": "school (map link)",
+  "lat": 33.10656,
+  "link_tried": true,
+  "lng": -97.18807,
+  "map_link": "https://goo.gl/maps/ZiNDZ6vZx5CuxndG8",
+  "rules": 10,
+  "site": "Argyle HS",
+  "stadium": "Eagle Stadium",
+  "stadium_id": 661
  },
  "Argyle ISD Stadium || Argyle v Frisco Panther Creek": {
   "address": "6615 Canyon Falls Dr, Roanoke, Texas 76262",
@@ -2450,6 +2944,18 @@
   "stadium": "Globe Life Field",
   "stadium_id": 3622
  },
+ "Arp High School || Centerville v Joaquin": {
+  "address": "420 E. Front St, Arp, Texas 75750",
+  "city": "Arp",
+  "how": "school (map link)",
+  "lat": 32.23087,
+  "lng": -95.05606,
+  "map_link": "https://maps.app.goo.gl/wP1xo61oAa8sHGDc8",
+  "rules": 10,
+  "site": "Arp High School",
+  "stadium": "Bill Herrington Tiger Stadium",
+  "stadium_id": 420
+ },
  "Arp || Lovelady v Maud": {
   "address": "420 E. Front St, Arp, Texas 75750",
   "city": "Arp",
@@ -2550,6 +3056,88 @@
   "site": "Astound Broadband Stadium, Midland",
   "stadium": "Astound Broadband Stadium",
   "stadium_id": 521
+ },
+ "Astound Broadband Std || Midland Legacy v El Paso Montwood": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Astound Broadband Std",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "At Apogee Stadium - UNT || Alvarado v Lake Worth": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "At Apogee Stadium - UNT",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "At Castleberry HS in Fort Worth || Coleman v Alvord": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "At Castleberry HS in Fort Worth",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "At Center || Hughes Springs v Newton": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "At Center",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "At Floydada || New Home v Amarillo Highland Park": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "At Floydada",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "At Hall Stadium || Houston Worthing v Almeta Crawford": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "At Hall Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "At Premont || La Villa v Louise": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "At Premont",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Athens - Bruce Field || Axtell v Cayuga": {
+  "address": "480 Royal St, Athens, Texas 75751",
+  "city": "Athens",
+  "how": "stadium (map link)",
+  "lat": 32.20163,
+  "lng": -95.84887,
+  "map_link": "https://goo.gl/maps/rSjzhaWHLSnC9oBk6",
+  "rules": 10,
+  "site": "Athens - Bruce Field",
+  "stadium": "Bruce Field",
+  "stadium_id": 432
  },
  "Athens || Cooper v Corrigan-Camden": {
   "address": "480 Royal St, Athens, Texas 75751",
@@ -2802,6 +3390,16 @@
   "stadium": "Eagle Stadium",
   "stadium_id": 872
  },
+ "Barnett Stadium6800 Fairway | Houston, Texas 77087 || Houston Sterling v Barbers Hill": {
+  "address": "",
+  "how": "address:Barnett Stadium6800 Fairway | Houston, Texas 77087",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Barnett Stadium6800 Fairway | Houston, Texas 77087",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Barry Field, Hondo || Junction v Yorktown": {
   "address": "2603 Ave. H., Hondo, Texas 78861",
   "city": "Hondo",
@@ -2814,6 +3412,18 @@
   "site": "Barry Field, Hondo",
   "stadium": "Barry Field",
   "stadium_id": 893
+ },
+ "Bartlett High School || Crawford v Johnson City": {
+  "address": "404 N Robinson, Barlett, Texas 76511",
+  "city": "Barlett",
+  "how": "town (map link)",
+  "lat": 30.79669,
+  "lng": -97.42229,
+  "map_link": "https://goo.gl/maps/7dtuJKm8TCUgGCug7",
+  "rules": 10,
+  "site": "Bartlett High School",
+  "stadium": "Bulldog Stadium",
+  "stadium_id": 38
  },
  "Bartlett ISD || Runge v Mount Calm": {
   "address": "404 N Robinson, Barlett, Texas 76511",
@@ -3145,16 +3755,17 @@
   "stadium_id": null
  },
  "Beaumont Doggett Family Stadium || Little Cypress-Mauriceville v Houston Austin": {
-  "address": "",
+  "address": "5250 Bayou Willow Way, Beaumont, Texas 77707",
   "city": "Beaumont",
-  "how": "coordinates confirmed by hand",
+  "how": "stadium (map link)",
   "lat": 30.02431,
+  "link_tried": true,
   "lng": -94.16539,
   "map_link": "https://goo.gl/maps/3M75akREmEgxQM3aA",
   "rules": 10,
   "site": "Beaumont Doggett Family Stadium",
   "stadium": "Doggett Family Stadium",
-  "stadium_id": null
+  "stadium_id": 1288
  },
  "Beaumont Doggett Family Stadium || Orange Little Cypress-Mauriceville v Houston Austin": {
   "address": "5250 Bayou Willow Way, Beaumont, Texas 77707",
@@ -3268,6 +3879,18 @@
   "site": "Bedford's Pennington Field",
   "stadium": "Pennington Field",
   "stadium_id": 286
+ },
+ "Beeville A. C. Jones Veterans Memorial Stadium || Ben Bolt v Yorktown": {
+  "address": "1902 N. Adams, Beeville, Texas 78102",
+  "city": "Beeville",
+  "how": "stadium (map link)",
+  "lat": 28.42123,
+  "lng": -97.74973,
+  "map_link": "https://goo.gl/maps/RHqLmQvdY72SEboc9",
+  "rules": 10,
+  "site": "Beeville A. C. Jones Veterans Memorial Stadium",
+  "stadium": "Veterans Memorial Stadium",
+  "stadium_id": 414
  },
  "Beeville ISD Veterans Memorial Stadium || Cuero v Ingleside": {
   "address": "1902 N. Adams, Beeville, Texas 78102",
@@ -3448,6 +4071,89 @@
   "stadium": "Better Life Stadium",
   "stadium_id": 273
  },
+ "Bi District Play Off Game || Frisco Rock Hill v Lewisville Hebron": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Bi District Play Off Game",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Bi-District Championship @ Challenger Stadium || Clear Falls v Houston King": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Bi-District Championship @ Challenger Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Bi-District Championship || Midlothian v Lake Belton": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Bi-District Championship",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Bi-District Championship || San Antonio Brennan v Laredo Alexander": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Bi-District Championship",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Bi-District Playoffs @ Rhodes Stadium || Katy Cinco Ranch v George Ranch": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Bi-District Playoffs @ Rhodes Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Bi-District in Mathis - 7:00 pm || Refugio v Ben Bolt": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Bi-District in Mathis - 7:00 pm",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Big Sandy High School || Cumby v Mart": {
+  "address": "N. Wildcat Dr, Big Sandy, Texas 75755",
+  "city": "Big Sandy",
+  "how": "school (map link)",
+  "lat": 32.5875,
+  "link_tried": true,
+  "lng": -95.11222,
+  "map_link": "https://goo.gl/maps/svUNnsgsN8QLmV4t5",
+  "rules": 10,
+  "site": "Big Sandy High School",
+  "stadium": "Wildcat Stadium",
+  "stadium_id": 504
+ },
+ "Big Spring Field || Tahoka v Eldorado": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Big Spring Field",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Big Spring High School || Clyde v Denver City": {
   "address": "2195 Kentucky Way, Big Spring, Texas 79720",
   "city": "Big Spring",
@@ -3466,6 +4172,42 @@
   "how": "school",
   "lat": 32.25501,
   "lng": -101.4473,
+  "map_link": "https://goo.gl/maps/qbXyUQgjauvj513z8",
+  "rules": 10,
+  "site": "Big Spring High School",
+  "stadium": "Memorial Stadium",
+  "stadium_id": 989
+ },
+ "Big Spring High School || Ozona v Anson": {
+  "address": "2195 Kentucky Way, Big Spring, Texas 79720",
+  "city": "Big Spring",
+  "how": "school (map link)",
+  "lat": 32.25362,
+  "lng": -101.44749,
+  "map_link": "https://goo.gl/maps/qbXyUQgjauvj513z8",
+  "rules": 10,
+  "site": "Big Spring High School",
+  "stadium": "Memorial Stadium",
+  "stadium_id": 989
+ },
+ "Big Spring High School || Reagan County v Cisco": {
+  "address": "2195 Kentucky Way, Big Spring, Texas 79720",
+  "city": "Big Spring",
+  "how": "school (map link)",
+  "lat": 32.25362,
+  "lng": -101.44749,
+  "map_link": "https://goo.gl/maps/qbXyUQgjauvj513z8",
+  "rules": 10,
+  "site": "Big Spring High School",
+  "stadium": "Memorial Stadium",
+  "stadium_id": 989
+ },
+ "Big Spring High School || Sonora v Stamford": {
+  "address": "2195 Kentucky Way, Big Spring, Texas 79720",
+  "city": "Big Spring",
+  "how": "school (map link)",
+  "lat": 32.25362,
+  "lng": -101.44749,
   "map_link": "https://goo.gl/maps/qbXyUQgjauvj513z8",
   "rules": 10,
   "site": "Big Spring High School",
@@ -3574,6 +4316,19 @@
   "site": "Birdville Fine Arts and Athletics Complex, North Richland Hills",
   "stadium": "Birdville Fine Arts and Athletics Complex",
   "stadium_id": null
+ },
+ "Birdville stadium || Millsap v Callisburg": {
+  "address": "6108 Broadway Ave, Fort Worth, Texas 76117",
+  "city": "Fort Worth",
+  "how": "stadium (map link)",
+  "lat": 32.80794,
+  "link_tried": true,
+  "lng": -97.25152,
+  "map_link": "https://goo.gl/maps/nXnwNdf9vmPm93pS9",
+  "rules": 10,
+  "site": "Birdville stadium",
+  "stadium": "Birdville Stadium",
+  "stadium_id": 221
  },
  "Birdville || Frisco Lone Star v Midlothian": {
   "address": "9200 Mid-Cities Blvd, North Richland Hills, Texas 76054",
@@ -3800,6 +4555,16 @@
   "stadium": "Boerne ISD Stadium",
   "stadium_id": 85
  },
+ "Boggus Stadium Harlingen || Rio Hondo v London": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Boggus Stadium Harlingen",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Boggus Stadium, Harlingen || Harlingen v La Joya": {
   "address": "S. 13th at Jackson, Harlingen, Texas 78550",
   "city": "Harlingen",
@@ -3877,6 +4642,19 @@
   "stadium": "Bulldog Stadium",
   "stadium_id": 734
  },
+ "Boswell HS || Springtown v River Oaks Castleberry": {
+  "address": "5805 Bailey-Boswell Rd, Saginaw, Texas 76179",
+  "city": "Saginaw",
+  "how": "school (map link)",
+  "lat": 32.87786,
+  "link_tried": true,
+  "lng": -97.41291,
+  "map_link": "https://goo.gl/maps/9sXY85W7cUb5k1Gi8",
+  "rules": 10,
+  "site": "Boswell HS",
+  "stadium": "Pioneer Stadium",
+  "stadium_id": 287
+ },
  "Bovina High School, Football Field || Gruver v Plains": {
   "address": "606 Halsell St, Bovina, Texas 79009",
   "city": "Bovina",
@@ -3919,6 +4697,18 @@
   "site": "Boyd",
   "stadium": null,
   "stadium_id": null
+ },
+ "Breckenridge High School || Jim Ned v Iowa Park": {
+  "address": "500 W. Lindsey St, Breckenridge, Texas 76424",
+  "city": "Breckenridge",
+  "how": "school (map link)",
+  "lat": 32.76034,
+  "lng": -98.90862,
+  "map_link": "https://goo.gl/maps/yW45uKrvr5CS97Yy6",
+  "rules": 10,
+  "site": "Breckenridge High School",
+  "stadium": "Buckaroo Stadium",
+  "stadium_id": 639
  },
  "Breckenridge || Childress v Wall": {
   "address": "500 W. Lindsey St, Breckenridge, Texas 76424",
@@ -4010,6 +4800,44 @@
   "stadium": "Cub Stadium",
   "stadium_id": 59
  },
+ "Bridge City High School || Bridge City v Tyler Chapel Hill": {
+  "address": "300 Osborne Rd, Bridge City, Texas 77611",
+  "city": "Bridge City",
+  "how": "school (map link)",
+  "lat": 30.03791,
+  "link_tried": true,
+  "lng": -93.8233,
+  "map_link": "https://goo.gl/maps/xiX9MzV74VH9px7w9",
+  "rules": 10,
+  "site": "Bridge City High School",
+  "stadium": "Larry Ward Stadium",
+  "stadium_id": 885
+ },
+ "Brock HS || Miles v Lindsay": {
+  "address": "410 Eagle Spirit, Brock, Texas 76087",
+  "city": "Brock",
+  "how": "school (map link)",
+  "lat": 32.67467,
+  "lng": -97.94611,
+  "map_link": "https://goo.gl/maps/xW36fTzCLb8K4ML1A",
+  "rules": 10,
+  "site": "Brock HS",
+  "stadium": "Eagle Stadium",
+  "stadium_id": 1726
+ },
+ "Brock High School - Eagle Stadium || Alvord v Hico": {
+  "address": "410 Eagle Spirit, Brock, Texas 76087",
+  "city": "Brock",
+  "how": "stadium (map link)",
+  "lat": 32.67467,
+  "link_tried": true,
+  "lng": -97.94611,
+  "map_link": "https://goo.gl/maps/xW36fTzCLb8K4ML1A",
+  "rules": 10,
+  "site": "Brock High School - Eagle Stadium",
+  "stadium": "Eagle Stadium",
+  "stadium_id": 1726
+ },
  "Brownsville Veterans Memorial || Pharr-San Juan-Alamo North v Brownsville Veterans Memorial": {
   "address": "W. Jefferson at 1st St., Brownsville, Texas 78520",
   "city": "Brownsville",
@@ -4059,6 +4887,18 @@
   "site": "Brownwood",
   "stadium": "Gordon Wood Stadium",
   "stadium_id": 84
+ },
+ "Bruce Field, Athens || New Waverly v Big Sandy Harmony": {
+  "address": "480 Royal St, Athens, Texas 75751",
+  "city": "Athens",
+  "how": "stadium (map link)",
+  "lat": 32.20163,
+  "lng": -95.84887,
+  "map_link": "https://goo.gl/maps/rSjzhaWHLSnC9oBk6",
+  "rules": 10,
+  "site": "Bruce Field, Athens",
+  "stadium": "Bruce Field",
+  "stadium_id": 432
  },
  "Bruce Field, Athens || San Augustine v Tom Bean": {
   "address": "480 Royal St, Athens, Texas 75751",
@@ -4177,6 +5017,18 @@
   "stadium": "Merrill Green Stadium",
   "stadium_id": 181
  },
+ "Buccaneer Stadium Corpus Christi || Corpus Christi Miller v Victoria West": {
+  "address": "# 1 Battlin' Buc Blvd., Corpus Christi, Texas 78407",
+  "city": "Corpus Christi",
+  "how": "stadium (map link)",
+  "lat": 27.79494,
+  "lng": -97.42371,
+  "map_link": "https://goo.gl/maps/ReLaXTsDbA8z2EWQ9",
+  "rules": 10,
+  "site": "Buccaneer Stadium Corpus Christi",
+  "stadium": "Buccaneer Stadium",
+  "stadium_id": 203
+ },
  "Buccaneer Stadium, Corpus Christi || Corpus Christi Miller v Mission Pioneer": {
   "address": "",
   "city": "Corpus Christi",
@@ -4190,16 +5042,16 @@
   "stadium_id": null
  },
  "Buccaneer Stadium, Corpus Christi || Corpus Christi Ray v Cigarroa": {
-  "address": "",
+  "address": "# 1 Battlin' Buc Blvd., Corpus Christi, Texas 78407",
   "city": "Corpus Christi",
-  "how": "coordinates confirmed by hand",
+  "how": "stadium",
   "lat": 27.79536,
   "lng": -97.42433,
-  "map_link": "",
+  "map_link": "https://goo.gl/maps/ReLaXTsDbA8z2EWQ9",
   "rules": 10,
   "site": "Buccaneer Stadium, Corpus Christi",
   "stadium": "Buccaneer Stadium",
-  "stadium_id": null
+  "stadium_id": 203
  },
  "Buchanan Stadium, Aledo || Hillsboro v Sanger": {
   "address": "1000 Bailey Ranch Road, Aledo, Texas 76008",
@@ -4288,6 +5140,18 @@
   "site": "Buda",
   "stadium": "Bob Shelton Stadium",
   "stadium_id": 25
+ },
+ "Bullard High School || Centerville v Joaquin": {
+  "address": "1000 S Houston, Bullard, Texas 75757",
+  "city": "Bullard",
+  "how": "school (map link)",
+  "lat": 32.13129,
+  "lng": -95.31425,
+  "map_link": "https://goo.gl/maps/HGh8Jjzd9jSPw5jY7",
+  "rules": 10,
+  "site": "Bullard High School",
+  "stadium": "Panther Stadium",
+  "stadium_id": 1148
  },
  "Bullard || Cooper v Shelbyville": {
   "address": "1000 S Houston, Bullard, Texas 75757",
@@ -4479,6 +5343,18 @@
   "stadium": "Bulldog Stadium",
   "stadium_id": 644
  },
+ "Burleson High School || Brock v Godley": {
+  "address": "100 Elk Drive, Burleson, Texas 76028",
+  "city": "Burleson",
+  "how": "school (map link)",
+  "lat": 32.52869,
+  "lng": -97.34374,
+  "map_link": "https://goo.gl/maps/h6xQcmaqVvVP7chz8",
+  "rules": 10,
+  "site": "Burleson High School",
+  "stadium": "Burleson ISD Stadium",
+  "stadium_id": 238
+ },
  "Burleson || Gordon v Abbott": {
   "address": "100 Elk Drive, Burleson, Texas 76028",
   "city": "Burleson",
@@ -4555,6 +5431,19 @@
   "site": "Burleson's Burleson Stadium",
   "stadium": "Burleson Stadium",
   "stadium_id": null
+ },
+ "Butler Stadium || Cy-Fair v Houston Lamar": {
+  "address": "13755 South Main, Houston, Texas 77035",
+  "city": "Houston",
+  "how": "stadium (map link)",
+  "lat": 29.63608,
+  "link_tried": true,
+  "lng": -95.48836,
+  "map_link": "https://goo.gl/maps/JMeoss3AJbuAd4RY8",
+  "rules": 10,
+  "site": "Butler Stadium",
+  "stadium": "Joe K. Butler Stadium",
+  "stadium_id": 610
  },
  "Bye (Cedar Hill Trinity Leadership forefit || Jacksboro v Gunter": {
   "address": "",
@@ -4697,6 +5586,26 @@
   "stadium": "Buccaneer Stadium",
   "stadium_id": 203
  },
+ "CF-FCU Stadium || Klein Oak v Cypress Bridgeland": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "CF-FCU Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "CF-FCU Stadium || Spring Klein Collins v Cypress Woods": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "CF-FCU Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
  "CH Collins || Denton Ryan v FW Paschal": {
   "address": "1500 Long Road, Denton, Texas 76207",
   "city": "Denton",
@@ -4795,6 +5704,16 @@
   "stadium": "Cabaniss Athletic Complex",
   "stadium_id": null
  },
+ "Cabaniss Field || Corpus Christi Veterans Memorial v Mission": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Cabaniss Field",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Cabaniss Stadium, Corpus Christi || Comal Smithson Valley v McAllen Rowe": {
   "address": "3062 Pecos Dr, Corpus Christi, Texas 78415",
   "city": "Corpus Christi",
@@ -4821,6 +5740,16 @@
   "stadium": "Cabaniss Athletic Complex",
   "stadium_id": 204
  },
+ "Calallen HS Wildcat Std || Zapata v Port Lavaca Calhoun": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Calallen HS Wildcat Std",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Caldwell HS || Columbus v Little River Academy": {
   "address": "550 Co Rd 307, Caldwell, Texas 77836",
   "city": "Caldwell",
@@ -4846,6 +5775,16 @@
   "site": "Caldwell",
   "stadium": "Hornet Field",
   "stadium_id": 91
+ },
+ "Cameron Stadium || Wellington v Petrolia": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Cameron Stadium",
+  "stadium": null,
+  "stadium_id": null
  },
  "Canutillo HS || El Paso Canutillo v Abilene Cooper": {
   "address": "6675 S Desert Blvd,, Canutillo, Texas 79932",
@@ -4995,6 +5934,18 @@
   "stadium": "Happy State Bank Stadium",
   "stadium_id": 781
  },
+ "Canyon Lake HS || Canyon Lake v Austin Travis": {
+  "address": "8555 FM 32, Fischer, Texas 78623",
+  "city": "Fischer",
+  "how": "school (map link)",
+  "lat": 29.94039,
+  "lng": -98.21579,
+  "map_link": "https://goo.gl/maps/mP5pLM6UqSMAhmwz7",
+  "rules": 10,
+  "site": "Canyon Lake HS",
+  "stadium": "Hawk Stadium",
+  "stadium_id": 1137
+ },
  "Canyon || Denver City v Vernon": {
   "address": "",
   "how": "several schools with this name",
@@ -5081,6 +6032,19 @@
   "stadium": "Bulldog Stadium",
   "stadium_id": 1247
  },
+ "Castroville Panther Stadium || Medina Valley v New Braunfels Canyon": {
+  "address": "8449 FM 471 S, Castroville, Texas 78002",
+  "city": "Castroville",
+  "how": "stadium (map link)",
+  "lat": 29.34318,
+  "link_tried": true,
+  "lng": -98.83688,
+  "map_link": "https://maps.app.goo.gl/UiEANJUS83KWdCH78",
+  "rules": 10,
+  "site": "Castroville Panther Stadium",
+  "stadium": "Panther Stadium",
+  "stadium_id": 946
+ },
  "Cavalier Stadium, Austin || Austin Lake Travis v Buda Johnson": {
   "address": "3322 Ranch Road 620 South, Austin, Texas 78738",
   "city": "Austin",
@@ -5113,6 +6077,18 @@
   "site": "Cedar Park Gupton Stadium",
   "stadium": null,
   "stadium_id": null
+ },
+ "Cedar Park HS || Cedar Park v Red Oak": {
+  "address": "S. Vista Ridge Blvd at E. Park St, Cedar Park, Texas 78613",
+  "city": "Cedar Park",
+  "how": "school (map link)",
+  "lat": 30.51517,
+  "lng": -97.79197,
+  "map_link": "https://goo.gl/maps/dJoKL6tqpt1DgXV18",
+  "rules": 10,
+  "site": "Cedar Park HS",
+  "stadium": "John Gupton Stadium",
+  "stadium_id": 1340
  },
  "Cedar Park || A&M Consolidated v Comal Smithson Valley": {
   "address": "S. Vista Ridge Blvd at E. Park St, Cedar Park, Texas 78613",
@@ -5340,6 +6316,18 @@
   "stadium": null,
   "stadium_id": null
  },
+ "Childress High School || Archer City v Shamrock": {
+  "address": "312 Ave. I NW, Childress, Texas 79201",
+  "city": "Childress",
+  "how": "school (map link)",
+  "lat": 34.43004,
+  "lng": -100.20491,
+  "map_link": "https://goo.gl/maps/T5USJpM1hofREJkc6",
+  "rules": 10,
+  "site": "Childress High School",
+  "stadium": "Fair Park Stadium",
+  "stadium_id": 760
+ },
  "Childress High School || Haskell v Clarendon": {
   "address": "312 Ave. I NW, Childress, Texas 79201",
   "city": "Childress",
@@ -5464,6 +6452,19 @@
   "stadium": "Fair Park Stadium",
   "stadium_id": 760
  },
+ "Chisholm Trail High School || Tolar v Trenton": {
+  "address": "3100 NW College Dr, Fort Worth, Texas 76179",
+  "city": "Fort Worth",
+  "how": "school (map link)",
+  "lat": 32.83734,
+  "link_tried": true,
+  "lng": -97.38877,
+  "map_link": "https://goo.gl/maps/xkreWcdtQJ3pQLCq9",
+  "rules": 10,
+  "site": "Chisholm Trail High School",
+  "stadium": "Rangers Stadium",
+  "stadium_id": 1611
+ },
  "Choctaw Stadium, Arlington || Abilene High v Burleson Centennial": {
   "address": "",
   "city": "Arlington",
@@ -5501,16 +6502,17 @@
   "stadium_id": null
  },
  "Choctaw Stadium, Arlington || Mansfield Summit v North Richland Hills Richland": {
-  "address": "",
+  "address": "1000 Ballpark Way, Arlington, Texas 76011",
   "city": "Arlington",
-  "how": "coordinates confirmed by hand",
-  "lat": 32.75101,
-  "lng": -97.08299,
-  "map_link": "",
+  "how": "stadium",
+  "lat": 32.7513,
+  "link_tried": true,
+  "lng": -97.08256,
+  "map_link": "https://goo.gl/maps/nbzwbc7VP5ZugVnQ7",
   "rules": 10,
   "site": "Choctaw Stadium, Arlington",
   "stadium": "Choctaw Stadium",
-  "stadium_id": null
+  "stadium_id": 3469
  },
  "Choctaw Stadium, Arlington || South Oak Cliff v Lovejoy": {
   "address": "",
@@ -5622,6 +6624,18 @@
   "stadium": "Herman Clark Stadium",
   "stadium_id": 255
  },
+ "Clear Springs High School || Clear Springs v Humble Kingwood": {
+  "address": "2145 W. NASA Blvd, League City, Texas 77598",
+  "city": "League City",
+  "how": "school (map link)",
+  "lat": 29.51822,
+  "lng": -95.13533,
+  "map_link": "https://goo.gl/maps/JUwjMAsAHo5wpKjU7",
+  "rules": 10,
+  "site": "Clear Springs High School",
+  "stadium": "Challenger Columbia Stadium",
+  "stadium_id": 1701
+ },
  "Clyde High School || Plainview v Lake Dallas": {
   "address": "500 Hays Road, Clyde, Texas 79510",
   "city": "Clyde",
@@ -5699,6 +6713,19 @@
   "stadium": "Clyde Bulldog Stadium",
   "stadium_id": 1298
  },
+ "Coach Kenny Deel Stadium || Melissa v Colleyville Heritage": {
+  "address": "3030 Milrany Ln, Melissa, Texas 75454",
+  "city": "Melissa",
+  "how": "stadium (map link)",
+  "lat": 33.28894,
+  "link_tried": true,
+  "lng": -96.54462,
+  "map_link": "https://goo.gl/maps/Fqi461LWZBfeoQqY9?coh=178571&entry=tt",
+  "rules": 10,
+  "site": "Coach Kenny Deel Stadium",
+  "stadium": "Coach Kenny Deel Stadium",
+  "stadium_id": 4493
+ },
  "College Statiion || College Station v Magnolia": {
   "address": "",
   "how": "no stadium, school or town matched",
@@ -5719,6 +6746,18 @@
   "map_link": "https://goo.gl/maps/BmdUrUAuB5BM1rgs7",
   "rules": 10,
   "site": "College Station Cougar Field",
+  "stadium": "Cougar Field",
+  "stadium_id": 1646
+ },
+ "College Station HS || College Station v Crosby": {
+  "address": "4002 Victoria Avenue, College Station, Texas 77845",
+  "city": "College Station",
+  "how": "school (map link)",
+  "lat": 30.55584,
+  "lng": -96.28607,
+  "map_link": "https://goo.gl/maps/BmdUrUAuB5BM1rgs7",
+  "rules": 10,
+  "site": "College Station HS",
   "stadium": "Cougar Field",
   "stadium_id": 1646
  },
@@ -5828,6 +6867,40 @@
   "site": "College Station",
   "stadium": "Cougar Field",
   "stadium_id": 1646
+ },
+ "Collins Stadium || Denton Guyer v Flower Mound Marcus": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Collins Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Colorado City High School || Hawley v Ozona": {
+  "address": "Cherry St. & W. 10th, Colorado City, Texas 79512",
+  "city": "Colorado City",
+  "how": "town (map link)",
+  "lat": 32.39831,
+  "lng": -100.86989,
+  "map_link": "https://goo.gl/maps/SojpNeMA7D2Lysrd6",
+  "rules": 10,
+  "site": "Colorado City High School",
+  "stadium": "Wolf Stadium",
+  "stadium_id": 1015
+ },
+ "Colorado City High School || Ozona v Cisco": {
+  "address": "Cherry St. & W. 10th, Colorado City, Texas 79512",
+  "city": "Colorado City",
+  "how": "town (map link)",
+  "lat": 32.39831,
+  "lng": -100.86989,
+  "map_link": "https://goo.gl/maps/SojpNeMA7D2Lysrd6",
+  "rules": 10,
+  "site": "Colorado City High School",
+  "stadium": "Wolf Stadium",
+  "stadium_id": 1015
  },
  "Colorado City High School || Sonora v New Deal": {
   "address": "Cherry St. & W. 10th, Colorado City, Texas 79512",
@@ -6041,6 +7114,26 @@
   "stadium": "Comalander Stadium",
   "stadium_id": null
  },
+ "Comalander Std || Llano v Crystal City": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Comalander Std",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Comalander Std || San Antonio Reagan v San Antonio East Central": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Comalander Std",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Comanche || Zephyr v Richland Springs": {
   "address": "N. Highway 16, Comanche, Texas 76442",
   "city": "Comanche",
@@ -6186,6 +7279,16 @@
   "site": "Coolidge",
   "stadium": "Coolidge Yellow Jacket Athletic Complex",
   "stadium_id": 197
+ },
+ "Coppell High School 9th Grade Center || Coppell v Prosper": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Coppell High School 9th Grade Center",
+  "stadium": null,
+  "stadium_id": null
  },
  "Coppell || Callisburg v Henrietta": {
   "address": "185 West Parkway Blvd, Coppell, Texas 75019",
@@ -6609,6 +7712,18 @@
   "stadium": "Warrior Stadium",
   "stadium_id": 211
  },
+ "Corsicana || Dawson v Kerens": {
+  "address": "3701 W. Highway 22, Corsicana, Texas 75110",
+  "city": "Corsicana",
+  "how": "school (map link)",
+  "lat": 32.08265,
+  "lng": -96.52064,
+  "map_link": "https://goo.gl/maps/UNFvYpe6RXT6Kvwe9",
+  "rules": 10,
+  "site": "Corsicana",
+  "stadium": "Community National Bank & Trust Stadium",
+  "stadium_id": 1042
+ },
  "Corsicana || Georgetown v Frisco Reedy": {
   "address": "3701 W. Highway 22, Corsicana, Texas 75110",
   "city": "Corsicana",
@@ -6890,6 +8005,30 @@
   "stadium": "Crowley ISD Multi-Purpose Stadium",
   "stadium_id": 164
  },
+ "Crowley ISD Multi-Purpose Stadium || North Crowley v Byron Nelson": {
+  "address": "9901 Hemphill Street, Fort Worth, Texas 76134",
+  "city": "Fort Worth",
+  "how": "stadium (map link)",
+  "lat": 32.60854,
+  "lng": -97.33905,
+  "map_link": "https://goo.gl/maps/vD6WyxBQ71jJaVZ89",
+  "rules": 10,
+  "site": "Crowley ISD Multi-Purpose Stadium",
+  "stadium": "Crowley ISD Multi-Purpose Stadium",
+  "stadium_id": 164
+ },
+ "Crowley ISD Multi-Purpose Stadium || North Crowley v Keller Timber Creek": {
+  "address": "9901 Hemphill Street, Fort Worth, Texas 76134",
+  "city": "Fort Worth",
+  "how": "stadium (map link)",
+  "lat": 32.60854,
+  "lng": -97.33905,
+  "map_link": "https://goo.gl/maps/vD6WyxBQ71jJaVZ89",
+  "rules": 10,
+  "site": "Crowley ISD Multi-Purpose Stadium",
+  "stadium": "Crowley ISD Multi-Purpose Stadium",
+  "stadium_id": 164
+ },
  "Crowley ISD Multi-Purpose Stadium, Fort Worth || Abilene Cooper v Grapevine": {
   "address": "",
   "city": "Fort Worth",
@@ -6925,6 +8064,30 @@
   "site": "Crowley ISD Multi-Purpose Stadium, Fort Worth",
   "stadium": "Crowley ISD Multi-Purpose Stadium",
   "stadium_id": null
+ },
+ "Crowley ISD Multi-Purpose || Alvarado v Fort Worth Eastern Hills": {
+  "address": "9901 Hemphill Street, Fort Worth, Texas 76134",
+  "city": "Fort Worth",
+  "how": "stadium (map link)",
+  "lat": 32.60854,
+  "lng": -97.33905,
+  "map_link": "https://goo.gl/maps/vD6WyxBQ71jJaVZ89",
+  "rules": 10,
+  "site": "Crowley ISD Multi-Purpose",
+  "stadium": "Crowley ISD Multi-Purpose Stadium",
+  "stadium_id": 164
+ },
+ "Crowley ISD Multi-Purpose || Crowley v Justin Northwest": {
+  "address": "9901 Hemphill Street, Fort Worth, Texas 76134",
+  "city": "Fort Worth",
+  "how": "stadium (map link)",
+  "lat": 32.60854,
+  "lng": -97.33905,
+  "map_link": "https://goo.gl/maps/vD6WyxBQ71jJaVZ89",
+  "rules": 10,
+  "site": "Crowley ISD Multi-Purpose",
+  "stadium": "Crowley ISD Multi-Purpose Stadium",
+  "stadium_id": 164
  },
  "Crowley ISD Multi-Purpose || Rockwall High v Duncanville": {
   "address": "9901 Hemphill Street, Fort Worth, Texas 76134",
@@ -7232,6 +8395,42 @@
   "how": "stadium (map link)",
   "lat": 29.90587,
   "link_tried": true,
+  "lng": -95.68868,
+  "map_link": "https://goo.gl/maps/wcVPi2Ck2BR2",
+  "rules": 10,
+  "site": "Cy-Fair FCU Stadium",
+  "stadium": "Cy Fair FCU Stadium",
+  "stadium_id": 1050
+ },
+ "Cy-Fair FCU Stadium || Cy-Fair v Houston Bellaire": {
+  "address": "8877 Barker-Cypress Rd., Cypress, Texas 77433",
+  "city": "Cypress",
+  "how": "stadium (map link)",
+  "lat": 29.90587,
+  "lng": -95.68868,
+  "map_link": "https://goo.gl/maps/wcVPi2Ck2BR2",
+  "rules": 10,
+  "site": "Cy-Fair FCU Stadium",
+  "stadium": "Cy Fair FCU Stadium",
+  "stadium_id": 1050
+ },
+ "Cy-Fair FCU Stadium || Cypress Bridgeland v Houston Klein Cain": {
+  "address": "8877 Barker-Cypress Rd., Cypress, Texas 77433",
+  "city": "Cypress",
+  "how": "stadium (map link)",
+  "lat": 29.90587,
+  "lng": -95.68868,
+  "map_link": "https://goo.gl/maps/wcVPi2Ck2BR2",
+  "rules": 10,
+  "site": "Cy-Fair FCU Stadium",
+  "stadium": "Cy Fair FCU Stadium",
+  "stadium_id": 1050
+ },
+ "Cy-Fair FCU Stadium || Cypress Bridgeland v Spring Klein Collins": {
+  "address": "8877 Barker-Cypress Rd., Cypress, Texas 77433",
+  "city": "Cypress",
+  "how": "stadium (map link)",
+  "lat": 29.90587,
   "lng": -95.68868,
   "map_link": "https://goo.gl/maps/wcVPi2Ck2BR2",
   "rules": 10,
@@ -7556,6 +8755,18 @@
   "stadium": "Pridgeon Stadium",
   "stadium_id": 634
  },
+ "D.W. Rutledge Stadium || Salado v Pearsall": {
+  "address": "9150 FM 1516 N, Converse, Texas 78109",
+  "city": "Converse",
+  "how": "stadium (map link)",
+  "lat": 29.50783,
+  "lng": -98.3054,
+  "map_link": "https://maps.app.goo.gl/Rb8VWoBJdmT1WZwA9",
+  "rules": 10,
+  "site": "D.W. Rutledge Stadium",
+  "stadium": "D.W. Rutledge Stadium",
+  "stadium_id": 1149
+ },
  "DATCU Stadium, Denton || Allen v Euless Trinity": {
   "address": "1551 S Bonnie Brae Street, Denton, Texas 76201",
   "city": "Denton",
@@ -7568,6 +8779,18 @@
   "site": "DATCU Stadium, Denton",
   "stadium": "DATCU Stadium",
   "stadium_id": 311
+ },
+ "DENTON HS || Denton Ryan v FW Paschal": {
+  "address": "1500 Long Road, Denton, Texas 76207",
+  "city": "Denton",
+  "how": "school (map link)",
+  "lat": 33.26175,
+  "lng": -97.113,
+  "map_link": "https://goo.gl/maps/WUW7Uu1ZcrtshqHDA",
+  "rules": 10,
+  "site": "DENTON HS",
+  "stadium": "C. H. Collins Complex",
+  "stadium_id": 647
  },
  "DW Rutledge Stadium, Converse || Bay City v Corpus Christi Calallen": {
   "address": "9150 FM 1516 N, Converse, Texas 78109",
@@ -7780,28 +9003,29 @@
   "stadium_id": 317
  },
  "Danaher Stadium, Corpus Christi || Corpus Christi Calallen v Floresville": {
-  "address": "",
+  "address": "4001 Wildcat Drive, Corpus Christi, Texas 78410",
   "city": "Corpus Christi",
-  "how": "coordinates confirmed by hand",
+  "how": "stadium",
   "lat": 27.85831,
+  "link_tried": true,
   "lng": -97.63666,
-  "map_link": "",
+  "map_link": "https://goo.gl/maps/244We57Gr8Nq7eQ3A",
   "rules": 10,
   "site": "Danaher Stadium, Corpus Christi",
-  "stadium": "Danaher Stadium",
-  "stadium_id": null
+  "stadium": "Phil Danaher Stadium",
+  "stadium_id": 212
  },
  "Danaher Stadium, Corpus Christi || Corpus Christi Calallen v Hidalgo Early College": {
-  "address": "",
+  "address": "4001 Wildcat Drive, Corpus Christi, Texas 78410",
   "city": "Corpus Christi",
-  "how": "coordinates confirmed by hand",
+  "how": "stadium",
   "lat": 27.85831,
   "lng": -97.63666,
-  "map_link": "",
+  "map_link": "https://goo.gl/maps/244We57Gr8Nq7eQ3A",
   "rules": 10,
   "site": "Danaher Stadium, Corpus Christi",
-  "stadium": "Danaher Stadium",
-  "stadium_id": null
+  "stadium": "Phil Danaher Stadium",
+  "stadium_id": 212
  },
  "Danaher Stadium, Corpus Christi || Pharr-San Juan-Alamo North v Victoria East": {
   "address": "",
@@ -7839,6 +9063,19 @@
   "stadium": "Danaher Stadium",
   "stadium_id": null
  },
+ "Darrell Tully Stadium || Houston Memorial v Houston Wisdom": {
+  "address": "1050 Dairy Ashford, Houston, Texas 77079",
+  "city": "Houston",
+  "how": "stadium (map link)",
+  "lat": 29.77827,
+  "link_tried": true,
+  "lng": -95.60436,
+  "map_link": "https://goo.gl/maps/dt5v3mkS1Y6E9dzx5",
+  "rules": 10,
+  "site": "Darrell Tully Stadium",
+  "stadium": "Darrell Tully Stadium",
+  "stadium_id": 364
+ },
  "Deer Park ISD Abshier Stadium || Beaumont United v Angleton": {
   "address": "710 W. San Augustine, Deer Park, Texas 77536",
   "city": "Deer Park",
@@ -7864,6 +9101,42 @@
   "site": "Deer Park",
   "stadium": "Clyde Abshier Stadium",
   "stadium_id": 614
+ },
+ "Delmar Stadium || Houston Heights v Houston Stratford": {
+  "address": "2020 Mangum Rd, Houston, Texas 77455",
+  "city": "Houston",
+  "how": "stadium (map link)",
+  "lat": 29.80361,
+  "lng": -95.45626,
+  "map_link": "https://goo.gl/maps/ZeFpyvP6AT2FBnRG8",
+  "rules": 10,
+  "site": "Delmar Stadium",
+  "stadium": "Delmar Stadium",
+  "stadium_id": 621
+ },
+ "Delmar Stadium || Houston Lamar v Houston Jersey Village": {
+  "address": "2020 Mangum Rd, Houston, Texas 77455",
+  "city": "Houston",
+  "how": "stadium (map link)",
+  "lat": 29.80361,
+  "lng": -95.45626,
+  "map_link": "https://goo.gl/maps/ZeFpyvP6AT2FBnRG8",
+  "rules": 10,
+  "site": "Delmar Stadium",
+  "stadium": "Delmar Stadium",
+  "stadium_id": 621
+ },
+ "Delmar Stadium || Houston Waltrip v Manvel": {
+  "address": "2020 Mangum Rd, Houston, Texas 77455",
+  "city": "Houston",
+  "how": "stadium (map link)",
+  "lat": 29.80361,
+  "lng": -95.45626,
+  "map_link": "https://goo.gl/maps/ZeFpyvP6AT2FBnRG8",
+  "rules": 10,
+  "site": "Delmar Stadium",
+  "stadium": "Delmar Stadium",
+  "stadium_id": 621
  },
  "Delmar Stadium, Houston || Houston Lamar v Pearland Dawson": {
   "address": "2020 Mangum Rd, Houston, Texas 77455",
@@ -8146,6 +9419,42 @@
   "stadium": "Mustang Stadium",
   "stadium_id": 995
  },
+ "Denver City High School || El Paso Austin v Dumas": {
+  "address": "601 Mustang Ave, Denver City, Texas 79323",
+  "city": "Denver City",
+  "how": "school (map link)",
+  "lat": 32.97342,
+  "lng": -102.83723,
+  "map_link": "https://goo.gl/maps/kxG68a59E33aYR1v6",
+  "rules": 10,
+  "site": "Denver City High School",
+  "stadium": "Mustang Stadium",
+  "stadium_id": 995
+ },
+ "Denver City High School || El Paso Ysleta v Canyon High": {
+  "address": "601 Mustang Ave, Denver City, Texas 79323",
+  "city": "Denver City",
+  "how": "school (map link)",
+  "lat": 32.97342,
+  "lng": -102.83723,
+  "map_link": "https://goo.gl/maps/kxG68a59E33aYR1v6",
+  "rules": 10,
+  "site": "Denver City High School",
+  "stadium": "Mustang Stadium",
+  "stadium_id": 995
+ },
+ "Denver City High School || Seminole v Levelland": {
+  "address": "601 Mustang Ave, Denver City, Texas 79323",
+  "city": "Denver City",
+  "how": "school (map link)",
+  "lat": 32.97342,
+  "lng": -102.83723,
+  "map_link": "https://goo.gl/maps/kxG68a59E33aYR1v6",
+  "rules": 10,
+  "site": "Denver City High School",
+  "stadium": "Mustang Stadium",
+  "stadium_id": 995
+ },
  "Denver City High School, Football Field || El Paso Andress v Dumas": {
   "address": "601 Mustang Ave, Denver City, Texas 79323",
   "city": "Denver City",
@@ -8221,6 +9530,18 @@
   "stadium": "Warhorse Stadium",
   "stadium_id": 184
  },
+ "Diboll High School || Centerville v West Sabine": {
+  "address": "Lumberjack Dr & Arrington Rd, Diboll, Texas 75941",
+  "city": "Diboll",
+  "how": "school (map link)",
+  "lat": 31.19335,
+  "lng": -94.76515,
+  "map_link": "https://goo.gl/maps/rVUJzipR2b7YcQed6",
+  "rules": 10,
+  "site": "Diboll High School",
+  "stadium": "Lumberjack Stadium",
+  "stadium_id": 352
+ },
  "Diboll High School || Overton v Evadale": {
   "address": "Lumberjack Dr & Arrington Rd, Diboll, Texas 75941",
   "city": "Diboll",
@@ -8258,12 +9579,36 @@
   "stadium": "Dick Bivins Stadium",
   "stadium_id": 722
  },
+ "Dick Bivins (Amarillo) || Gruver v Morton": {
+  "address": "3101 E 10th Ave, Amarillo, Texas 79106",
+  "city": "Amarillo",
+  "how": "stadium (map link)",
+  "lat": 35.20302,
+  "lng": -101.80093,
+  "map_link": "https://goo.gl/maps/F9wZMeXxkqjjEzha6",
+  "rules": 10,
+  "site": "Dick Bivins (Amarillo)",
+  "stadium": "Dick Bivins Stadium",
+  "stadium_id": 722
+ },
  "Dick Bivins Stadium (Amarillo) || Amarillo Palo Duro v El Paso Burges": {
   "address": "3101 E 10th Ave, Amarillo, Texas 79106",
   "city": "Amarillo",
   "how": "stadium",
   "lat": 35.20023,
   "lng": -101.81035,
+  "map_link": "https://goo.gl/maps/F9wZMeXxkqjjEzha6",
+  "rules": 10,
+  "site": "Dick Bivins Stadium (Amarillo)",
+  "stadium": "Dick Bivins Stadium",
+  "stadium_id": 722
+ },
+ "Dick Bivins Stadium (Amarillo) || Amarillo Palo Duro v El Paso Hanks": {
+  "address": "3101 E 10th Ave, Amarillo, Texas 79106",
+  "city": "Amarillo",
+  "how": "stadium (map link)",
+  "lat": 35.20302,
+  "lng": -101.80093,
   "map_link": "https://goo.gl/maps/F9wZMeXxkqjjEzha6",
   "rules": 10,
   "site": "Dick Bivins Stadium (Amarillo)",
@@ -8293,6 +9638,19 @@
   "site": "Dick Bivins Stadium, Amarillo",
   "stadium": "Dick Bivins Stadium",
   "stadium_id": null
+ },
+ "Dickinson High School || Dickinson v Pearland": {
+  "address": "3800 Baker Avenue, Dickinson, Texas 77539",
+  "city": "Dickinson",
+  "how": "school (map link)",
+  "lat": 29.46776,
+  "link_tried": true,
+  "lng": -95.03158,
+  "map_link": "https://goo.gl/maps/e6sWW2n5DGJfEqpu5",
+  "rules": 10,
+  "site": "Dickinson High School",
+  "stadium": "Sam Vitanza Stadium",
+  "stadium_id": 1136
  },
  "Dickinson ISD Vitanza Stadium || Dickinson v Houston Summer Creek": {
   "address": "3800 Baker Avenue, Dickinson, Texas 77539",
@@ -8330,17 +9688,31 @@
   "stadium": "Bobcat Stadium",
   "stadium_id": 723
  },
+ "Dimmitt High School || Sudan v Farwell": {
+  "address": "1572 FM 3215, Dimmitt, Texas 79027",
+  "city": "Dimmitt",
+  "how": "school (map link)",
+  "lat": 34.54239,
+  "link_tried": true,
+  "lng": -102.33218,
+  "map_link": "https://goo.gl/maps/cjwMpaYB832gVpXg9",
+  "rules": 10,
+  "site": "Dimmitt High School",
+  "stadium": "Bobcat Stadium",
+  "stadium_id": 723
+ },
  "Doggett Family Stadium, Beaumont || West Orange-Stark v Hitchcock": {
-  "address": "",
+  "address": "5250 Bayou Willow Way, Beaumont, Texas 77707",
   "city": "Beaumont",
-  "how": "coordinates confirmed by hand",
-  "lat": 30.02431,
-  "lng": -94.16539,
+  "how": "stadium (town only)",
+  "lat": 30.08293,
+  "link_tried": true,
+  "lng": -94.09843,
   "map_link": "https://goo.gl/maps/3M75akREmEgxQM3aA",
   "rules": 10,
   "site": "Doggett Family Stadium, Beaumont",
   "stadium": "Doggett Family Stadium",
-  "stadium_id": null
+  "stadium_id": 1288
  },
  "Don Lucy Stadium Holliday TX || Coahoma v Holliday": {
   "address": "",
@@ -8353,6 +9725,18 @@
   "site": "Don Lucy Stadium Holliday TX",
   "stadium": null,
   "stadium_id": null
+ },
+ "Dragon Stadium || Southlake Carroll v Crowley": {
+  "address": "1085 S. Kimball Ave, Southlake, Texas 76092",
+  "city": "Southlake",
+  "how": "stadium (map link)",
+  "lat": 32.92946,
+  "lng": -97.1119,
+  "map_link": "https://goo.gl/maps/1tWzQrMKAb1JR8rW8",
+  "rules": 10,
+  "site": "Dragon Stadium",
+  "stadium": "Dragon Stadium",
+  "stadium_id": 229
  },
  "Dragon Stadium, New Braunfels || CC Tuloso-Midway v La Vernia": {
   "address": "4150 Klein Meadows, New Braunfels, Texas 78130",
@@ -8378,6 +9762,16 @@
   "site": "Dragon Stadium, Southlake",
   "stadium": "Dragon Stadium",
   "stadium_id": 229
+ },
+ "Dripping Springs Middle School || Dripping Springs v Austin McNeil": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Dripping Springs Middle School",
+  "stadium": null,
+  "stadium_id": null
  },
  "Driskell Stadium, Crockett || Arp v Buffalo": {
   "address": "1600 SW Loop 304, Crockett, Texas 75835",
@@ -8508,6 +9902,19 @@
   "stadium": "Bob and Norma Cervetto Stadium",
   "stadium_id": 3542
  },
+ "Duncanville High School || Duncanville v Hutto": {
+  "address": "900 W. Camp Wisdom Rd, Duncanville, Texas 75116",
+  "city": "Duncanville",
+  "how": "school (map link)",
+  "lat": 32.6594,
+  "link_tried": true,
+  "lng": -96.9284,
+  "map_link": "https://goo.gl/maps/RXfA8xBtin1XhM1W7",
+  "rules": 10,
+  "site": "Duncanville High School",
+  "stadium": "Panther Stadium",
+  "stadium_id": 285
+ },
  "E. H. Hanby Stadium, Mesquite || Mineola v Grandview": {
   "address": "",
   "city": "Mesquite",
@@ -8520,6 +9927,29 @@
   "stadium": "E. H. Hanby Stadium",
   "stadium_id": null
  },
+ "EP Franklin HS || El Paso Franklin v Midland Legacy": {
+  "address": "900 N Resler, El Paso, Texas 79912",
+  "city": "El Paso",
+  "how": "school (map link)",
+  "lat": 31.86193,
+  "link_tried": true,
+  "lng": -106.55385,
+  "map_link": "https://goo.gl/maps/gDN9zcGVTaCnavef7",
+  "rules": 10,
+  "site": "EP Franklin HS",
+  "stadium": "Franklin Stadium",
+  "stadium_id": 1727
+ },
+ "Eagle Mountain HS || Decatur v Carrollton Ranchview": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Eagle Mountain HS",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Eagle Mountain HS || Millsap v Trinity Leadership": {
   "address": "",
   "how": "no stadium, school or town matched",
@@ -8529,6 +9959,19 @@
   "site": "Eagle Mountain HS",
   "stadium": null,
   "stadium_id": null
+ },
+ "Eagle Stadium DeSoto, Tx || DeSoto v Killeen Shoemaker": {
+  "address": "600 Eagle Dr, DeSoto, Texas 75115",
+  "city": "DeSoto",
+  "how": "stadium (map link)",
+  "lat": 32.58139,
+  "link_tried": true,
+  "lng": -96.87285,
+  "map_link": "https://goo.gl/maps/5QocV7MLgksqbhXx5",
+  "rules": 10,
+  "site": "Eagle Stadium DeSoto, Tx",
+  "stadium": "Eagle Stadium",
+  "stadium_id": 232
  },
  "Eagle Stadium || Lewisville v Coppell": {
   "address": "",
@@ -8672,6 +10115,16 @@
   "stadium": "Longhorn Stadium",
   "stadium_id": 126
  },
+ "East Central HS - Hornet Std || San Antonio East Central v Laredo United South": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "East Central HS - Hornet Std",
+  "stadium": null,
+  "stadium_id": null
+ },
  "East Texas A&M, Commerce, TX || Dallas Lincoln v Paris": {
   "address": "",
   "city": "Commerce",
@@ -8683,6 +10136,31 @@
   "site": "East Texas A&M, Commerce, TX",
   "stadium": null,
   "stadium_id": null
+ },
+ "Eastwood HS || El Paso Eastwood v Frenship": {
+  "address": "2430 McRae Blvd, El Paso, Texas 79925",
+  "city": "El Paso",
+  "how": "school (map link)",
+  "lat": 31.77197,
+  "link_tried": true,
+  "lng": -106.35391,
+  "map_link": "https://goo.gl/maps/pJc1iNm1y24WxdKF7",
+  "rules": 10,
+  "site": "Eastwood HS",
+  "stadium": "Trooper Stadium",
+  "stadium_id": 601
+ },
+ "Echols Field || Coppell v McKinney High": {
+  "address": "185 West Parkway Blvd, Coppell, Texas 75019",
+  "city": "Coppell",
+  "how": "stadium (map link)",
+  "lat": 32.97576,
+  "lng": -97.00061,
+  "map_link": "https://goo.gl/maps/TgPn6JYwxTxgUx9y5",
+  "rules": 10,
+  "site": "Echols Field",
+  "stadium": "Buddy Echols Field",
+  "stadium_id": 227
  },
  "Echols Field, Coppell || Rockwall-Heath v Waxahachie": {
   "address": "185 West Parkway Blvd, Coppell, Texas 75019",
@@ -8730,6 +10208,31 @@
   "stadium": "Ricebird Stadium",
   "stadium_id": 409
  },
+ "El Paso SAC II Stadium   1300 Joe Battle Blvd. || El Paso El Dorado v Amarillo High": {
+  "address": "1300 Joe Battle Road, El Paso, Texas 79936",
+  "city": "El Paso",
+  "how": "stadium (town only)",
+  "lat": 31.7601,
+  "link_tried": true,
+  "lng": -106.48705,
+  "map_link": "https://g.page/sisd-student-activities-complex?share",
+  "rules": 10,
+  "site": "El Paso SAC II Stadium   1300 Joe Battle Blvd.",
+  "stadium": "SAC II Stadium",
+  "stadium_id": 5800
+ },
+ "El Paso Trooper Stadium || El Paso Eastwood v San Angelo Central": {
+  "address": "2430 McRae Blvd, El Paso, Texas 79925",
+  "city": "El Paso",
+  "how": "stadium (map link)",
+  "lat": 31.77197,
+  "lng": -106.35391,
+  "map_link": "https://goo.gl/maps/pJc1iNm1y24WxdKF7",
+  "rules": 10,
+  "site": "El Paso Trooper Stadium",
+  "stadium": "Trooper Stadium",
+  "stadium_id": 601
+ },
  "El Paso's SAC 2 Stadium || El Paso Pebble Hills v Midland Lee": {
   "address": "",
   "city": "El Paso",
@@ -8769,16 +10272,16 @@
   "stadium_id": null
  },
  "Ellis Stadium, Irving || Fort Worth Eastern Hills v Dallas Wilmer-Hutchins": {
-  "address": "",
+  "address": "600 E. 6th Street, Irving, Texas 75060",
   "city": "Irving",
-  "how": "coordinates confirmed by hand",
-  "lat": 32.80768,
-  "lng": -96.93759,
-  "map_link": "",
+  "how": "stadium",
+  "lat": 32.80728,
+  "lng": -96.93747,
+  "map_link": "https://goo.gl/maps/QLFBhBUBoXdQ5CT36",
   "rules": 10,
   "site": "Ellis Stadium, Irving",
-  "stadium": "Ellis Stadium",
-  "stadium_id": null
+  "stadium": "Joy & Ralph Ellis Stadium",
+  "stadium_id": 263
  },
  "Ellis Stadium, Irving || Fort Worth Eastern Hills v Wilmer-Hutchins": {
   "address": "600 E. 6th Street, Irving, Texas 75060",
@@ -8828,6 +10331,18 @@
   "site": "Emory",
   "stadium": "Wildcat Stadium",
   "stadium_id": 1678
+ },
+ "Ennis HS || Frankston v Bosqueville": {
+  "address": "1405 W Lake Bardwell Dr, Ennis, Texas 75119",
+  "city": "Ennis",
+  "how": "school (map link)",
+  "lat": 32.30097,
+  "lng": -96.63282,
+  "map_link": "https://goo.gl/maps/vQFh5Fh25UfYP54w9",
+  "rules": 10,
+  "site": "Ennis HS",
+  "stadium": "Lion Memorial Stadium",
+  "stadium_id": 115
  },
  "Ennis || Alvord v Price Carlisle": {
   "address": "1405 W Lake Bardwell Dr, Ennis, Texas 75119",
@@ -8982,6 +10497,19 @@
   "stadium": null,
   "stadium_id": null
  },
+ "FWISD Farrington Field || Fort Worth Arlington Heights v North Richland Hills Richland": {
+  "address": "1501 University, Fort Worth, Texas 76107",
+  "city": "Fort Worth",
+  "how": "stadium (map link)",
+  "lat": 32.74583,
+  "link_tried": true,
+  "lng": -97.36028,
+  "map_link": "https://goo.gl/maps/5hpRUksSEBEZD7EK7",
+  "rules": 10,
+  "site": "FWISD Farrington Field",
+  "stadium": "Farrington Field",
+  "stadium_id": 242
+ },
  "FWISD Farrington || Fort Worth Arlington Heights v FW Chisholm Trail": {
   "address": "1501 University, Fort Worth, Texas 76107",
   "city": "Fort Worth",
@@ -8996,16 +10524,17 @@
   "stadium_id": 242
  },
  "Fair Park Stadium, Childress || Henrietta v Slaton": {
-  "address": "",
+  "address": "312 Ave. I NW, Childress, Texas 79201",
   "city": "Childress",
-  "how": "coordinates confirmed by hand",
+  "how": "stadium",
   "lat": 34.51966,
+  "link_tried": true,
   "lng": -100.20677,
-  "map_link": "",
+  "map_link": "https://goo.gl/maps/T5USJpM1hofREJkc6",
   "rules": 10,
   "site": "Fair Park Stadium, Childress",
   "stadium": "Fair Park Stadium",
-  "stadium_id": null
+  "stadium_id": 760
  },
  "Fair Park Stadium, Childress || Paradise v Bushland": {
   "address": "",
@@ -9030,6 +10559,19 @@
   "site": "Faith Academy Marble Falls",
   "stadium": "Faith Academy",
   "stadium_id": null
+ },
+ "Falfurrias, Texas - Jersey Bull Stadium || Port Isabel v Ingleside": {
+  "address": "W Adams at Center St, Falfurrias, Texas 78355",
+  "city": "Falfurrias",
+  "how": "stadium (map link)",
+  "lat": 27.22148,
+  "link_tried": true,
+  "lng": -98.15311,
+  "map_link": "https://goo.gl/maps/hvVCBQ8KoBxVSzE18",
+  "rules": 10,
+  "site": "Falfurrias, Texas - Jersey Bull Stadium",
+  "stadium": "Jersey Bull Stadium",
+  "stadium_id": 932
  },
  "Falls Faith || Medina v May": {
   "address": "",
@@ -9111,6 +10653,19 @@
   "how": "stadium (map link)",
   "lat": 29.56343,
   "link_tried": true,
+  "lng": -98.65351,
+  "map_link": "https://goo.gl/maps/UK67RFFcHwJrxTyy9",
+  "rules": 10,
+  "site": "Farris Stadium",
+  "stadium": "Dub Farris Athletic Complex",
+  "stadium_id": 844
+ },
+ "Farris Stadium || San Antonio Clark v San Antonio Harlan": {
+  "address": "Loop 1604 at Hausman Rd., San Antonio, Texas 78249",
+  "city": "San Antonio",
+  "confirmed_as": "Farris Stadium, San Antonio",
+  "how": "stadium (map link)",
+  "lat": 29.56343,
   "lng": -98.65351,
   "map_link": "https://goo.gl/maps/UK67RFFcHwJrxTyy9",
   "rules": 10,
@@ -9266,6 +10821,18 @@
   "site": "Flores Stadium, Edinburg",
   "stadium": "Richard R. Flores Stadium",
   "stadium_id": 911
+ },
+ "Floresville HS || Jourdanton v Marion": {
+  "address": "1000 10th Street, Floresville, Texas 78114",
+  "city": "Floresville",
+  "how": "school (map link)",
+  "lat": 29.1451,
+  "lng": -98.15158,
+  "map_link": "https://goo.gl/maps/vNZLhRKta1aMvVSi9",
+  "rules": 10,
+  "site": "Floresville HS",
+  "stadium": "Eschenburg Field",
+  "stadium_id": 919
  },
  "Floresville || Canyon Lake v Port Lavaca Calhoun": {
   "address": "1000 10th Street, Floresville, Texas 78114",
@@ -9994,6 +11561,18 @@
   "stadium": "Alvin ISD Freedom Field",
   "stadium_id": 1758
  },
+ "Freedom Field || Alvin Shadow Creek v Fort Bend Bush": {
+  "address": "10855 County Road 65, Iowa Colony, Texas 77583",
+  "city": "Iowa Colony",
+  "how": "stadium (map link)",
+  "lat": 29.42756,
+  "lng": -95.41053,
+  "map_link": "https://goo.gl/maps/acSazZbAU2ovYKdUA",
+  "rules": 10,
+  "site": "Freedom Field",
+  "stadium": "Alvin ISD Freedom Field",
+  "stadium_id": 1758
+ },
  "Freedom Field, Iowa Colony || Alvin Shadow Creek v Houston Heights": {
   "address": "10855 County Road 65, Iowa Colony, Texas 77583",
   "city": "Iowa Colony",
@@ -10005,6 +11584,40 @@
   "site": "Freedom Field, Iowa Colony",
   "stadium": "Alvin ISD Freedom Field",
   "stadium_id": 1758
+ },
+ "Freer Buckaroo Std || La Villa v Louise": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Freer Buckaroo Std",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Frenship High School || Frenship v El Paso Montwood": {
+  "address": "Tiger St. & FM 179, Wolfforth, Texas 79382",
+  "city": "Wolfforth",
+  "how": "school (map link)",
+  "lat": 33.51804,
+  "lng": -102.00669,
+  "map_link": "https://goo.gl/maps/yTzp5e5h4y9HwbGZ9",
+  "rules": 10,
+  "site": "Frenship High School",
+  "stadium": "Peoples Bank Stadium",
+  "stadium_id": 823
+ },
+ "Frenship High School || Lamesa v Amarillo River Road": {
+  "address": "Tiger St. & FM 179, Wolfforth, Texas 79382",
+  "city": "Wolfforth",
+  "how": "school (map link)",
+  "lat": 33.51804,
+  "lng": -102.00669,
+  "map_link": "https://goo.gl/maps/yTzp5e5h4y9HwbGZ9",
+  "rules": 10,
+  "site": "Frenship High School",
+  "stadium": "Peoples Bank Stadium",
+  "stadium_id": 823
  },
  "Frenship High School || Sweetwater v Dalhart": {
   "address": "Tiger St. & FM 179, Wolfforth, Texas 79382",
@@ -10562,6 +12175,110 @@
   "stadium": "Galena Park ISD Stadium",
   "stadium_id": 512
  },
+ "Galveston Ball High School || Galveston Ball v Houston Waltrip": {
+  "address": "1429 27th Street, Galveston, Texas 77550",
+  "city": "Galveston",
+  "how": "school (map link)",
+  "lat": 29.2951,
+  "link_tried": true,
+  "lng": -94.7961,
+  "map_link": "https://goo.gl/maps/KwuT6mqbzMPVnbin7",
+  "rules": 10,
+  "site": "Galveston Ball High School",
+  "stadium": "Kermit Courville Stadium",
+  "stadium_id": 617
+ },
+ "Game Location is Freedom Field, Iowa Colony, TX || Alvin Shadow Creek v Brazosport Brazoswood": {
+  "address": "10855 County Road 65, Iowa Colony, Texas 77583",
+  "city": "Iowa Colony",
+  "how": "stadium (map link)",
+  "lat": 29.42756,
+  "lng": -95.41053,
+  "map_link": "https://goo.gl/maps/acSazZbAU2ovYKdUA",
+  "rules": 10,
+  "site": "Game Location is Freedom Field, Iowa Colony, TX",
+  "stadium": "Alvin ISD Freedom Field",
+  "stadium_id": 1758
+ },
+ "Game at Boyd High School || Tioga v Ballinger": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Game at Boyd High School",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Game at Delmar Stadium || Houston Heights v Houston Stratford": {
+  "address": "2020 Mangum Rd, Houston, Texas 77455",
+  "city": "Houston",
+  "how": "stadium (map link)",
+  "lat": 29.80361,
+  "lng": -95.45626,
+  "map_link": "https://goo.gl/maps/ZeFpyvP6AT2FBnRG8",
+  "rules": 10,
+  "site": "Game at Delmar Stadium",
+  "stadium": "Delmar Stadium",
+  "stadium_id": 621
+ },
+ "Game is at Farrington Field in Ft. Worth, Tx || Fort Worth Arlington Heights v Fort Worth Brewer": {
+  "address": "1501 University, Fort Worth, Texas 76107",
+  "city": "Fort Worth",
+  "how": "stadium (map link)",
+  "lat": 32.74583,
+  "lng": -97.36028,
+  "map_link": "https://goo.gl/maps/5hpRUksSEBEZD7EK7",
+  "rules": 10,
+  "site": "Game is at Farrington Field in Ft. Worth, Tx",
+  "stadium": "Farrington Field",
+  "stadium_id": 242
+ },
+ "Game played at Splendora Wildcat Stadium || Orangefield v Fairfield": {
+  "address": "23411 FM 2090, Splendora, Texas 77372",
+  "city": "Splendora",
+  "how": "stadium (map link)",
+  "lat": 30.25341,
+  "link_tried": true,
+  "lng": -95.20041,
+  "map_link": "https://goo.gl/maps/tFqMR4ri9dVgP5oV9",
+  "rules": 10,
+  "site": "Game played at Splendora Wildcat Stadium",
+  "stadium": "Wildcat Stadium",
+  "stadium_id": 482
+ },
+ "Game site is Shelbyville || Deweyville v Mount Enterprise": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Game site is Shelbyville",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Game will be played at Bryan ISD Stadium || Bellville v Waco Connally": {
+  "address": "",
+  "how": "district:Stadium, Game will be played at Bryan",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Game will be played at Bryan ISD Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Game will be played at Delmar Stadium || Houston Heights v Houston Memorial": {
+  "address": "2020 Mangum Rd, Houston, Texas 77455",
+  "city": "Houston",
+  "how": "stadium (map link)",
+  "lat": 29.80361,
+  "lng": -95.45626,
+  "map_link": "https://goo.gl/maps/ZeFpyvP6AT2FBnRG8",
+  "rules": 10,
+  "site": "Game will be played at Delmar Stadium",
+  "stadium": "Delmar Stadium",
+  "stadium_id": 621
+ },
  "Garden City || Balmorhea v Benjamin": {
   "address": "240 Bearkat Ave, Garden City, Texas 79739",
   "city": "Garden City",
@@ -10625,6 +12342,19 @@
   "site": "Garland's Homer B. Johnson St",
   "stadium": "Homer B. Johnson Stadium",
   "stadium_id": 258
+ },
+ "Garland: Williams Stadium || Canton v Farmersville": {
+  "address": "720 Stadium Dr., Garland, Texas 75040",
+  "city": "Garland",
+  "how": "stadium (map link)",
+  "lat": 32.92561,
+  "link_tried": true,
+  "lng": -96.63637,
+  "map_link": "https://goo.gl/maps/LLqjMCyrfi87eZCF8",
+  "rules": 10,
+  "site": "Garland: Williams Stadium",
+  "stadium": "Williams Stadium",
+  "stadium_id": 320
  },
  "Gatesville || Oglesby v Iredell": {
   "address": "205 S. Lovers Lane, Gatesville, Texas 76528",
@@ -10937,6 +12667,18 @@
   "stadium": "Jack V. Murphy Stadium",
   "stadium_id": 469
  },
+ "Gladewater- Jack V. Murphy Stadium || Beckville v Bogata Rivercrest": {
+  "address": "2201 W. Gay, Gladewater, Texas 75647",
+  "city": "Gladewater",
+  "how": "stadium (map link)",
+  "lat": 32.54907,
+  "lng": -94.96618,
+  "map_link": "https://goo.gl/maps/qkGmwVRmNDBqjnRB9",
+  "rules": 10,
+  "site": "Gladewater- Jack V. Murphy Stadium",
+  "stadium": "Jack V. Murphy Stadium",
+  "stadium_id": 469
+ },
  "Glaspie Field, Arlington || Arlington Martin v Byron Nelson": {
   "address": "4501 W. Pleasant Ridge Rd, Arlington, Texas 76016",
   "city": "Arlington",
@@ -10961,6 +12703,18 @@
   "site": "Gobbler Stadium, Cuero",
   "stadium": "Gobbler Stadium",
   "stadium_id": 399
+ },
+ "Godley HS || Wolfe City v Coleman": {
+  "address": "9501 N Hwy 171, Godley, Texas 76044",
+  "city": "Godley",
+  "how": "school (map link)",
+  "lat": 32.45865,
+  "lng": -97.54789,
+  "map_link": "https://goo.gl/maps/jWCZM2rYxFT12qi56",
+  "rules": 10,
+  "site": "Godley HS",
+  "stadium": "The Wild",
+  "stadium_id": 188
  },
  "Godley || Abbott v Gordon": {
   "address": "9501 N Hwy 171, Godley, Texas 76044",
@@ -11078,6 +12832,16 @@
   "stadium": "Stallworth Stadium",
   "stadium_id": 637
  },
+ "Gopher Bowl || Mexia v Pilot Point": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Gopher Bowl",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Gopher Stadium, Grand Prairie || Dallas Highland Park v Midlothian": {
   "address": "250 E Tarrant Rd, Grand Prairie, Texas 75050",
   "city": "Grand Prairie",
@@ -11122,6 +12886,30 @@
   "lat": 33.09504,
   "lng": -98.58039,
   "map_link": "https://goo.gl/maps/5cwr5aXZ47YTGrxb7",
+  "site": "Graham High School",
+  "stadium": "Newton Field",
+  "stadium_id": 688
+ },
+ "Graham High School || Peaster v Comanche": {
+  "address": "1100 Calaveras St, Graham, Texas 76450",
+  "city": "Graham",
+  "how": "school (map link)",
+  "lat": 33.09607,
+  "lng": -98.57934,
+  "map_link": "https://goo.gl/maps/5cwr5aXZ47YTGrxb7",
+  "rules": 10,
+  "site": "Graham High School",
+  "stadium": "Newton Field",
+  "stadium_id": 688
+ },
+ "Graham High School || Sweetwater v Vernon": {
+  "address": "1100 Calaveras St, Graham, Texas 76450",
+  "city": "Graham",
+  "how": "school (map link)",
+  "lat": 33.09607,
+  "lng": -98.57934,
+  "map_link": "https://goo.gl/maps/5cwr5aXZ47YTGrxb7",
+  "rules": 10,
   "site": "Graham High School",
   "stadium": "Newton Field",
   "stadium_id": 688
@@ -11328,6 +13116,18 @@
   "stadium": "Grapeland Sandies Stadium",
   "stadium_id": 459
  },
+ "Grapevine HS || Grandview v Whitesboro": {
+  "address": "3000 Ira E. Woods, Grapevine, Texas 76051",
+  "city": "Grapevine",
+  "how": "school (map link)",
+  "lat": 32.92058,
+  "lng": -97.11303,
+  "map_link": "https://goo.gl/maps/TbwVMmDFvdmX979QA",
+  "rules": 10,
+  "site": "Grapevine HS",
+  "stadium": "Mustang-Panther Stadium",
+  "stadium_id": 280
+ },
  "Grapevine Mustang-Panther Stadium || Alvarado v Celina": {
   "address": "3000 Ira E. Woods, Grapevine, Texas 76051",
   "city": "Grapevine",
@@ -11496,6 +13296,18 @@
   "stadium": "Greg Sherwood Memorial Stadium",
   "stadium_id": 735
  },
+ "Greg Sherwood Memorial Stadium; Plainview, TX || Midland Greenwood v Perryton": {
+  "address": "W 24th St at Yonkers St, Plainview, Texas 79072",
+  "city": "Plainview",
+  "how": "stadium (map link)",
+  "lat": 34.20356,
+  "lng": -101.7329,
+  "map_link": "https://goo.gl/maps/ic96ws2fQmQuXh4m8",
+  "rules": 10,
+  "site": "Greg Sherwood Memorial Stadium; Plainview, TX",
+  "stadium": "Greg Sherwood Memorial Stadium",
+  "stadium_id": 735
+ },
  "Greyhound Stadium, Taft || Ganado v Taft": {
   "address": "815 Victoria Ave, Taft, Texas 78390",
   "city": "Taft",
@@ -11507,6 +13319,16 @@
   "site": "Greyhound Stadium, Taft",
   "stadium": "Greyhound Stadium",
   "stadium_id": 923
+ },
+ "Greyhound Std-Taft Tx || Ganado v Santa Maria": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Greyhound Std-Taft Tx",
+  "stadium": null,
+  "stadium_id": null
  },
  "Griffith Stadium, Robert Lee || Menard v Rankin": {
   "address": "1323 W. Hamilton St, Robert Lee, Texas 76945",
@@ -11520,6 +13342,18 @@
   "site": "Griffith Stadium, Robert Lee",
   "stadium": "Griffith Stadium",
   "stadium_id": 1006
+ },
+ "Groesbeck High School || Axtell v Cayuga": {
+  "address": "1202 N Ellis St, Grosbeck, Texas 76642",
+  "city": "Grosbeck",
+  "how": "school (map link)",
+  "lat": 31.53898,
+  "lng": -96.52458,
+  "map_link": "https://goo.gl/maps/z8x9zxmqxWJLdZ9o9",
+  "rules": 10,
+  "site": "Groesbeck High School",
+  "stadium": "Groesbeck Stadium",
+  "stadium_id": 87
  },
  "Groesbeck || Longview Pine Tree v Almeta Crawford": {
   "address": "1202 N Ellis St, Grosbeck, Texas 76642",
@@ -11571,16 +13405,16 @@
   "stadium_id": 820
  },
  "Gupton Stadium, Cedar Park || Cedar Park v Waller": {
-  "address": "",
+  "address": "S. Vista Ridge Blvd at E. Park St, Cedar Park, Texas 78613",
   "city": "Cedar Park",
-  "how": "coordinates confirmed by hand",
-  "lat": 30.51517,
-  "lng": -97.79197,
-  "map_link": "",
+  "how": "stadium",
+  "lat": 30.51518,
+  "lng": -97.79196,
+  "map_link": "https://goo.gl/maps/dJoKL6tqpt1DgXV18",
   "rules": 10,
   "site": "Gupton Stadium, Cedar Park",
-  "stadium": "Gupton Stadium",
-  "stadium_id": null
+  "stadium": "John Gupton Stadium",
+  "stadium_id": 1340
  },
  "Gupton Stadium, Cedar Park || Jarrell v Wimberley": {
   "address": "",
@@ -11619,6 +13453,18 @@
   "stadium": "Gustafson Stadium",
   "stadium_id": 846
  },
+ "Gustafson Stadium || San Antonio Jay v New Braunfels": {
+  "address": "7001 Culebra, San Antonio, Texas 78238",
+  "city": "San Antonio",
+  "how": "stadium (map link)",
+  "lat": 29.45314,
+  "lng": -98.6251,
+  "map_link": "https://goo.gl/maps/JZrEVmzY6YKz9yoE8",
+  "rules": 10,
+  "site": "Gustafson Stadium",
+  "stadium": "Gustafson Stadium",
+  "stadium_id": 846
+ },
  "Gustafson-Northside ISD Stadium (San Antonio) || San Antonio Sotomayor v Eagle Pass": {
   "address": "7001 Culebra, San Antonio, Texas 78238",
   "city": "San Antonio",
@@ -11631,6 +13477,29 @@
   "site": "Gustafson-Northside ISD Stadium (San Antonio)",
   "stadium": "Gustafson Stadium",
   "stadium_id": 846
+ },
+ "HARLANDALE ISD MEMORIAL STADIUM || Bandera v Gonzales": {
+  "address": "",
+  "how": "district:MEMORIAL STADIUM, HARLANDALE",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "HARLANDALE ISD MEMORIAL STADIUM",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "HEBISD Pennington Field || Euless Trinity v Mansfield": {
+  "address": "1501 Central Dr., Bedford, Texas 76022",
+  "city": "Bedford",
+  "how": "stadium",
+  "lat": 32.83272,
+  "link_tried": true,
+  "lng": -97.1364,
+  "map_link": "https://g.page/PenningtonField-HEBISD?share",
+  "rules": 10,
+  "site": "HEBISD Pennington Field",
+  "stadium": "Pennington Field",
+  "stadium_id": 286
  },
  "Halletsville || Flatonia v Shiner": {
   "address": "",
@@ -11804,6 +13673,18 @@
   "stadium": "Happy State Bank Stadium",
   "stadium_id": null
  },
+ "Happy State Bank Stadium, Canyon || Hale Center v Bovina": {
+  "address": "",
+  "city": "Canyon",
+  "how": "coordinates confirmed by hand",
+  "lat": 35.01237,
+  "lng": -101.91663,
+  "map_link": "",
+  "rules": 10,
+  "site": "Happy State Bank Stadium, Canyon",
+  "stadium": "Happy State Bank Stadium",
+  "stadium_id": null
+ },
  "Happy State Bank Stadium, Canyon || Morton v Wellington": {
   "address": "",
   "city": "Canyon",
@@ -11817,17 +13698,16 @@
   "stadium_id": null
  },
  "Happy State Bank Stadium, Canyon || New Deal v Spearman": {
-  "address": "2800 N 23rd St, Canyon, Texas 79015",
+  "address": "",
   "city": "Canyon",
-  "how": "stadium",
-  "lat": 35.01197,
-  "link_tried": true,
-  "lng": -101.91654,
-  "map_link": "https://goo.gl/maps/uL2MSfaBvwkSJvek7",
+  "how": "coordinates confirmed by hand",
+  "lat": 35.01237,
+  "lng": -101.91663,
+  "map_link": "",
   "rules": 10,
   "site": "Happy State Bank Stadium, Canyon",
   "stadium": "Happy State Bank Stadium",
-  "stadium_id": 781
+  "stadium_id": null
  },
  "Happy State Bank Stadium, Canyon || New Home v Sunray": {
   "address": "",
@@ -11841,7 +13721,7 @@
   "stadium": "Happy State Bank Stadium",
   "stadium_id": null
  },
- "Happy State Bank Stadium, Canyon || Spearman v Farwell": {
+ "Happy State Bank Stadium, Canyon || Panhandle v New Home": {
   "address": "",
   "city": "Canyon",
   "how": "coordinates confirmed by hand",
@@ -11853,7 +13733,43 @@
   "stadium": "Happy State Bank Stadium",
   "stadium_id": null
  },
+ "Happy State Bank Stadium, Canyon || Panhandle v Tahoka": {
+  "address": "",
+  "city": "Canyon",
+  "how": "coordinates confirmed by hand",
+  "lat": 35.01237,
+  "lng": -101.91663,
+  "map_link": "",
+  "rules": 10,
+  "site": "Happy State Bank Stadium, Canyon",
+  "stadium": "Happy State Bank Stadium",
+  "stadium_id": null
+ },
+ "Happy State Bank Stadium, Canyon || Spearman v Farwell": {
+  "address": "2800 N 23rd St, Canyon, Texas 79015",
+  "city": "Canyon",
+  "how": "stadium",
+  "lat": 35.01197,
+  "lng": -101.91654,
+  "map_link": "https://goo.gl/maps/uL2MSfaBvwkSJvek7",
+  "rules": 10,
+  "site": "Happy State Bank Stadium, Canyon",
+  "stadium": "Happy State Bank Stadium",
+  "stadium_id": 781
+ },
  "Happy State Bank Stadium, Canyon || Sudan v West Texas Stinnett": {
+  "address": "2800 N 23rd St, Canyon, Texas 79015",
+  "city": "Canyon",
+  "how": "stadium",
+  "lat": 35.01197,
+  "lng": -101.91654,
+  "map_link": "https://goo.gl/maps/uL2MSfaBvwkSJvek7",
+  "rules": 10,
+  "site": "Happy State Bank Stadium, Canyon",
+  "stadium": "Happy State Bank Stadium",
+  "stadium_id": 781
+ },
+ "Happy State Bank Stadium, Canyon || Sunray v Olton": {
   "address": "",
   "city": "Canyon",
   "how": "coordinates confirmed by hand",
@@ -11866,16 +13782,16 @@
   "stadium_id": null
  },
  "Happy State Bank Stadium, Canyon || Tulia v Sanford-Fritch": {
-  "address": "",
+  "address": "2800 N 23rd St, Canyon, Texas 79015",
   "city": "Canyon",
-  "how": "coordinates confirmed by hand",
-  "lat": 35.01237,
-  "lng": -101.91663,
-  "map_link": "",
+  "how": "stadium",
+  "lat": 35.01197,
+  "lng": -101.91654,
+  "map_link": "https://goo.gl/maps/uL2MSfaBvwkSJvek7",
   "rules": 10,
   "site": "Happy State Bank Stadium, Canyon",
   "stadium": "Happy State Bank Stadium",
-  "stadium_id": null
+  "stadium_id": 781
  },
  "Happy State Bank Stadium, Canyon || Vega v Wellington": {
   "address": "",
@@ -11938,6 +13854,19 @@
   "stadium": "Harlandale Memorial Stadium",
   "stadium_id": 851
  },
+ "Harlingen High School || Harlingen v La Joya": {
+  "address": "S. 13th at Jackson, Harlingen, Texas 78550",
+  "city": "Harlingen",
+  "how": "school (map link)",
+  "lat": 26.19363,
+  "link_tried": true,
+  "lng": -97.68148,
+  "map_link": "https://goo.gl/maps/tGpwNPNjJ7YtpRvX7",
+  "rules": 10,
+  "site": "Harlingen High School",
+  "stadium": "J. Lewis Boggus Stadium",
+  "stadium_id": 928
+ },
  "Hawk Stadium, Iowa Park || Windthorst v Quanah": {
   "address": "1000-1298 Johnson Rd, Iowa Park, Texas 76367",
   "city": "Iowa Park",
@@ -11949,6 +13878,16 @@
   "site": "Hawk Stadium, Iowa Park",
   "stadium": "Hawk Stadium",
   "stadium_id": 668
+ },
+ "Hays HS || Holland v Harper": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Hays HS",
+  "stadium": null,
+  "stadium_id": null
  },
  "Head Stadium, Alvarado || Dallas Madison v Hamilton": {
   "address": "1300 N. Cummings Rd, Alvarado, Texas 76009",
@@ -11973,6 +13912,18 @@
   "site": "Hempstead's Bobcat Stadium",
   "stadium": "Bobcat Stadium",
   "stadium_id": 607
+ },
+ "Henderson High School || Athens v Gilmer": {
+  "address": "700 Lion Street, Henderson, Texas 75654",
+  "city": "Henderson",
+  "how": "school (map link)",
+  "lat": 32.14497,
+  "lng": -94.80589,
+  "map_link": "https://goo.gl/maps/bbpqzihHmpdMipCy5",
+  "rules": 10,
+  "site": "Henderson High School",
+  "stadium": "Lion Stadium",
+  "stadium_id": 533
  },
  "Henderson High School || San Augustine v Union Grove": {
   "address": "700 Lion Street, Henderson, Texas 75654",
@@ -12155,6 +14106,16 @@
   "stadium": "Whiteface Stadium",
   "stadium_id": 828
  },
+ "Herman Clark Field Fort Worth || Hamilton v Whitewright": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Herman Clark Field Fort Worth",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Hermleigh || Balmorhea v Whitharral": {
   "address": "8010 US-84 Business, Hermleigh, Texas 79526",
   "city": "Hermleigh",
@@ -12272,6 +14233,18 @@
   "stadium": "Cardinal Stadium",
   "stadium_id": 648
  },
+ "Heroes Stadium || New Braunfels v San Antonio Johnson": {
+  "address": "4799 Thousand Oaks Dr, San Antonio, Texas 78233",
+  "city": "San Antonio",
+  "how": "stadium (map link)",
+  "lat": 29.53689,
+  "lng": -98.39781,
+  "map_link": "https://goo.gl/maps/FxXig925WVVYT43Q9",
+  "rules": 10,
+  "site": "Heroes Stadium",
+  "stadium": "Heroes Stadium",
+  "stadium_id": 1276
+ },
  "Heroes Stadium, San Antonio || La Vernia v Somerset": {
   "address": "",
   "city": "San Antonio",
@@ -12285,16 +14258,17 @@
   "stadium_id": null
  },
  "Heroes Stadium, San Antonio || Legacy Ranch v Corpus Christi Ray": {
-  "address": "",
+  "address": "4799 Thousand Oaks Dr, San Antonio, Texas 78233",
   "city": "San Antonio",
-  "how": "coordinates confirmed by hand",
+  "how": "stadium",
   "lat": 29.5369,
+  "link_tried": true,
   "lng": -98.39781,
-  "map_link": "",
+  "map_link": "https://goo.gl/maps/FxXig925WVVYT43Q9",
   "rules": 10,
   "site": "Heroes Stadium, San Antonio",
   "stadium": "Heroes Stadium",
-  "stadium_id": null
+  "stadium_id": 1276
  },
  "Heroes Stadium, San Antonio || Refugio v Holland": {
   "address": "",
@@ -12321,16 +14295,16 @@
   "stadium_id": null
  },
  "Heroes Stadium, San Antonio || Somerset v San Antonio Davenport": {
-  "address": "",
+  "address": "4799 Thousand Oaks Dr, San Antonio, Texas 78233",
   "city": "San Antonio",
-  "how": "coordinates confirmed by hand",
+  "how": "stadium",
   "lat": 29.5369,
   "lng": -98.39781,
-  "map_link": "",
+  "map_link": "https://goo.gl/maps/FxXig925WVVYT43Q9",
   "rules": 10,
   "site": "Heroes Stadium, San Antonio",
   "stadium": "Heroes Stadium",
-  "stadium_id": null
+  "stadium_id": 1276
  },
  "Heroes Stadium, San Antonio || Vanderbilt Industrial v Llano": {
   "address": "",
@@ -12342,6 +14316,16 @@
   "rules": 10,
   "site": "Heroes Stadium, San Antonio",
   "stadium": "Heroes Stadium",
+  "stadium_id": null
+ },
+ "Heroes Std || Randolph v Hondo": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Heroes Std",
+  "stadium": null,
   "stadium_id": null
  },
  "Hewitt || Cedar Park v Frisco Wakeland": {
@@ -12448,6 +14432,26 @@
   "stadium": "Tiger Stadium",
   "stadium_id": 173
  },
+ "Highlander Stadium || Dallas Highland Park v Arlington Bowie": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Highlander Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Highlander Stadium || Dallas Highland Park v Leander Rouse": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Highlander Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Highlander Stadium || Dallas Highland Park v McKinney North": {
   "address": "",
   "how": "no stadium, school or town matched",
@@ -12471,6 +14475,16 @@
   "site": "Highlander Stadium, University Park",
   "stadium": "Highlander Stadium",
   "stadium_id": 256
+ },
+ "Hobbs High School || Canyon Randall v El Paso Ysleta": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Hobbs High School",
+  "stadium": null,
+  "stadium_id": null
  },
  "Holliday || Albany v Quanah": {
   "address": "751 S College Ave, Holliday, Texas 76366",
@@ -12507,6 +14521,19 @@
   "map_link": "https://goo.gl/maps/opAtW29LYcet3aEW6",
   "rules": 10,
   "site": "Homer B. Johnson Stadium, Garland",
+  "stadium": "Homer B. Johnson Stadium",
+  "stadium_id": 258
+ },
+ "Homer Johnson Stadium - Garland, Texas || Rowlett v Longview": {
+  "address": "1209 E. Centerville Road, Garland, Texas 75041",
+  "city": "Garland",
+  "how": "stadium (map link)",
+  "lat": 32.88567,
+  "link_tried": true,
+  "lng": -96.61658,
+  "map_link": "https://goo.gl/maps/opAtW29LYcet3aEW6",
+  "rules": 10,
+  "site": "Homer Johnson Stadium - Garland, Texas",
   "stadium": "Homer B. Johnson Stadium",
   "stadium_id": 258
  },
@@ -12560,6 +14587,18 @@
   "site": "Hornet Field, Huntsville",
   "stadium": null,
   "stadium_id": null
+ },
+ "House Park || Taylor v Somerset": {
+  "address": "1301 Shoal Creek Blvd, Austin, Texas 78701",
+  "city": "Austin",
+  "how": "stadium (map link)",
+  "lat": 30.27869,
+  "lng": -97.74934,
+  "map_link": "https://goo.gl/maps/7dmXX6Uuka3tSLcF6",
+  "rules": 10,
+  "site": "House Park",
+  "stadium": "House Park Stadium",
+  "stadium_id": 8
  },
  "House Park, Austin, TX || Thrall v Blanco": {
   "address": "1301 Shoal Creek Blvd, Austin, Texas 78701",
@@ -13107,6 +15146,18 @@
   "stadium": "Huntsville ISD Stadium",
   "stadium_id": 4412
  },
+ "Hutto High School || Troy v Yoakum": {
+  "address": "573 Chris Kelley Blvd, Hutto, Texas 78634",
+  "city": "Hutto",
+  "how": "school (map link)",
+  "lat": 30.53822,
+  "lng": -97.55915,
+  "map_link": "https://goo.gl/maps/z6e7Bj6zqEASWTvY6",
+  "rules": 10,
+  "site": "Hutto High School",
+  "stadium": "Hutto Memorial Stadium",
+  "stadium_id": 90
+ },
  "Hutto || College Station v Comal Smithson Valley": {
   "address": "573 Chris Kelley Blvd, Hutto, Texas 78634",
   "city": "Hutto",
@@ -13469,6 +15520,18 @@
   "stadium": "Hawk Stadium",
   "stadium_id": 668
  },
+ "Iowa Park, TX || Windthorst v Quanah": {
+  "address": "",
+  "city": "Iowa Park",
+  "how": "stadium found by name",
+  "lat": 33.95861,
+  "lng": -98.66,
+  "map_link": "",
+  "rules": 10,
+  "site": "Iowa Park, TX",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Ira || Klondike v Motley County": {
   "address": "6190 West FM 1606, Ira, Texas 79527",
   "city": "Ira",
@@ -13568,6 +15631,18 @@
   "stadium": null,
   "stadium_id": null
  },
+ "Irving ISD Ellis Stadium || Richardson Pearce v Arlington High": {
+  "address": "600 E. 6th Street, Irving, Texas 75060",
+  "city": "Irving",
+  "how": "stadium (map link)",
+  "lat": 32.80768,
+  "lng": -96.93759,
+  "map_link": "https://goo.gl/maps/QLFBhBUBoXdQ5CT36",
+  "rules": 10,
+  "site": "Irving ISD Ellis Stadium",
+  "stadium": "Joy & Ralph Ellis Stadium",
+  "stadium_id": 263
+ },
  "Italy || Abbott v Aquilla": {
   "address": "300 S. College St., Italy, Texas 76651",
   "city": "Italy",
@@ -13592,6 +15667,32 @@
   "site": "J. M. King Memorial Stadium, Midland",
   "stadium": "J. M. King Memorial Stadium",
   "stadium_id": null
+ },
+ "Jackie Hendricks Stadium, Princeton, TX 75407 || Dallas Lincoln v Paris": {
+  "address": "600 Mable Ave, Princeton, Texas 75407",
+  "city": "Princeton",
+  "how": "stadium (map link)",
+  "lat": 33.17737,
+  "link_tried": true,
+  "lng": -96.49298,
+  "map_link": "https://goo.gl/maps/NkkrFTDL9QqzGhJS8",
+  "rules": 10,
+  "site": "Jackie Hendricks Stadium, Princeton, TX 75407",
+  "stadium": "Jackie Hendrix Stadium",
+  "stadium_id": 284
+ },
+ "Jacksboro ISD Tiger Stadium || Muenster v Hamlin": {
+  "address": "1400 N. Main, Jacksboro, Texas 76458",
+  "city": "Jacksboro",
+  "how": "stadium (map link)",
+  "lat": 33.22945,
+  "link_tried": true,
+  "lng": -98.1705,
+  "map_link": "https://goo.gl/maps/tQwLVAtL2gGMPE2x5",
+  "rules": 10,
+  "site": "Jacksboro ISD Tiger Stadium",
+  "stadium": "Tiger Stadium",
+  "stadium_id": 706
  },
  "Jacksonville Tomato Bowl || Daingerfield v Newton": {
   "address": "",
@@ -13623,6 +15724,16 @@
   "stadium": null,
   "stadium_id": null
  },
+ "Jacksonville Tomato Bowl || Van v Center": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Jacksonville Tomato Bowl",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Jacksonville, Firiday || Timpson v Centerville": {
   "address": "",
   "city": "Jacksonville",
@@ -13634,6 +15745,19 @@
   "site": "Jacksonville, Firiday",
   "stadium": null,
   "stadium_id": null
+ },
+ "Jarrell High School || Riesel v Thorndale": {
+  "address": "1100 FM 487, Jarrell, Texas 76537",
+  "city": "Jarrell",
+  "how": "school (map link)",
+  "lat": 30.82004,
+  "link_tried": true,
+  "lng": -97.62704,
+  "map_link": "https://goo.gl/maps/DTgQF45xRvntXrA5A",
+  "rules": 10,
+  "site": "Jarrell High School",
+  "stadium": "Cougar Field",
+  "stadium_id": 104
  },
  "Javelina Stadium, Kingsville || Zapata v Corpus Christi Miller": {
   "address": "1200 N. Armstrong Ave, Kingsville, Texas 78363",
@@ -13697,6 +15821,18 @@
   "stadium": "Jersey Bull Stadium",
   "stadium_id": 932
  },
+ "Jim Ned High School || Cisco v Christoval": {
+  "address": "Alamo Dr. at Turner, Tuscola, Texas 79562",
+  "city": "Tuscola",
+  "how": "school (map link)",
+  "lat": 32.21823,
+  "lng": -99.80112,
+  "map_link": "https://goo.gl/maps/AWxEPuwNKRSFbdR28",
+  "rules": 10,
+  "site": "Jim Ned High School",
+  "stadium": "Indian Stadium",
+  "stadium_id": 528
+ },
  "Jim Ned || Wink v Muenster": {
   "address": "Alamo Dr. at Turner, Tuscola, Texas 79562",
   "city": "Tuscola",
@@ -13709,6 +15845,31 @@
   "site": "Jim Ned",
   "stadium": "Indian Stadium",
   "stadium_id": 528
+ },
+ "Joaquin High School || West Sabine v Overton": {
+  "address": "Skinner St. at US 84, Joaquin, Texas 75954",
+  "city": "Joaquin",
+  "how": "school (map link)",
+  "lat": 31.96497,
+  "link_tried": true,
+  "lng": -94.0476,
+  "map_link": "https://goo.gl/maps/RnKiyuDTQq7YU7hL8",
+  "rules": 10,
+  "site": "Joaquin High School",
+  "stadium": "Ram Stadium",
+  "stadium_id": 548
+ },
+ "John Clark Stadium || Dallas Kimball v Aubrey": {
+  "address": "429 Spring Creek Pkwy, Plano, Texas 75023",
+  "city": "Plano",
+  "how": "stadium (map link)",
+  "lat": 33.06338,
+  "lng": -96.70214,
+  "map_link": "https://goo.gl/maps/pU9X6D5ouNTVE2pB7",
+  "rules": 10,
+  "site": "John Clark Stadium",
+  "stadium": "John Clark Stadium",
+  "stadium_id": 267
  },
  "John Gupton Stadium, Cedar Park || Columbus v Franklin": {
   "address": "S. Vista Ridge Blvd at E. Park St, Cedar Park, Texas 78613",
@@ -13852,6 +16013,18 @@
   "stadium": "Owl Stadium",
   "stadium_id": 135
  },
+ "Jourdanton HS || Carrizo Springs v Geronimo Navarro": {
+  "address": "200 Zanderson Ave., Jourdanton, Texas 78026",
+  "city": "Jourdanton",
+  "how": "school (map link)",
+  "lat": 28.90916,
+  "lng": -98.54295,
+  "map_link": "https://goo.gl/maps/kN15KdxpF6CLvxc58",
+  "rules": 10,
+  "site": "Jourdanton HS",
+  "stadium": "Indian Stadium",
+  "stadium_id": 881
+ },
  "Jourdanton || Bishop v Geronimo Navarro": {
   "address": "200 Zanderson Ave., Jourdanton, Texas 78026",
   "city": "Jourdanton",
@@ -13982,6 +16155,16 @@
   "stadium": null,
   "stadium_id": null
  },
+ "Justin's Northwest ISD || Mansfield v Byron Nelson": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Justin's Northwest ISD",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Kangaroo Stadium, Kress || Jayton v Whiteface": {
   "address": "200 E 5th St, Kress, Texas 79052",
   "city": "Kress",
@@ -14006,6 +16189,19 @@
   "site": "Kangaroo Stadium, Weatherford",
   "stadium": "Kangaroo Stadium",
   "stadium_id": 676
+ },
+ "Katy ISD - Rhodes Stadium || Houston Yates v Navasota": {
+  "address": "1640 Katyland Dr, Katy, Texas 77493",
+  "city": "Katy",
+  "how": "stadium (map link)",
+  "lat": 29.79631,
+  "link_tried": true,
+  "lng": -95.80543,
+  "map_link": "https://goo.gl/maps/LBEVuH95hAhjacdp8",
+  "rules": 10,
+  "site": "Katy ISD - Rhodes Stadium",
+  "stadium": "Jack Rhodes Memorial Stadium",
+  "stadium_id": 518
  },
  "Katy ISD Legacy Stadium || Katy High v Fort Bend Travis": {
   "address": "5175 Franz Rd, Katy, Texas 77493",
@@ -14253,6 +16449,18 @@
   "stadium": null,
   "stadium_id": null
  },
+ "Kaufman High School || Valley Mills v Price Carlisle": {
+  "address": "3205 S Houston, Kaufman, Texas 75142",
+  "city": "Kaufman",
+  "how": "school (map link)",
+  "lat": 32.56554,
+  "lng": -96.31546,
+  "map_link": "https://goo.gl/maps/YbyGG1MnzX7iFpMZ6",
+  "rules": 10,
+  "site": "Kaufman High School",
+  "stadium": "Homer Norville Field",
+  "stadium_id": 677
+ },
  "Kaufman || Axtell v Tom Bean": {
   "address": "3205 S Houston, Kaufman, Texas 75142",
   "city": "Kaufman",
@@ -14314,6 +16522,18 @@
   "stadium": null,
   "stadium_id": null
  },
+ "Kemp High School || Frankston v Italy": {
+  "address": "Turner Line, Kemp, Texas 75143",
+  "city": "Kemp",
+  "how": "school (map link)",
+  "lat": 32.4277,
+  "lng": -96.22732,
+  "map_link": "https://goo.gl/maps/xKYiZWA6mrr3cT229",
+  "rules": 10,
+  "site": "Kemp High School",
+  "stadium": "Yellow Jacket Stadium",
+  "stadium_id": 718
+ },
  "Kemp || Mart v Overton": {
   "address": "Turner Line, Kemp, Texas 75143",
   "city": "Kemp",
@@ -14339,6 +16559,30 @@
   "site": "Kemp",
   "stadium": "Yellow Jacket Stadium",
   "stadium_id": 718
+ },
+ "Ken Pridgeon Stadium || Cy-Fair v Houston Westside": {
+  "address": "11355 Bobcat Rd., Houston, Texas 77064",
+  "city": "Houston",
+  "how": "stadium (map link)",
+  "lat": 29.93564,
+  "lng": -95.57,
+  "map_link": "https://goo.gl/maps/WGtow4sC3X82",
+  "rules": 10,
+  "site": "Ken Pridgeon Stadium",
+  "stadium": "Pridgeon Stadium",
+  "stadium_id": 634
+ },
+ "Ken Pridgeon Stadium || Cypress Falls v Tomball Memorial": {
+  "address": "11355 Bobcat Rd., Houston, Texas 77064",
+  "city": "Houston",
+  "how": "stadium (map link)",
+  "lat": 29.93564,
+  "lng": -95.57,
+  "map_link": "https://goo.gl/maps/WGtow4sC3X82",
+  "rules": 10,
+  "site": "Ken Pridgeon Stadium",
+  "stadium": "Pridgeon Stadium",
+  "stadium_id": 634
  },
  "Kenedy || La Villa v Granger": {
   "address": "300 FM 719, Kenedy, Texas 78119",
@@ -14389,6 +16633,29 @@
   "stadium": null,
   "stadium_id": null
  },
+ "Kilgore College || Kilgore v Vidor": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Kilgore College",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Kimbrough Stadium || Quinlan Ford v Van Alstyne": {
+  "address": "700 N. Murphy Rd, Murphy, Texas 75094",
+  "city": "Murphy",
+  "how": "stadium (map link)",
+  "lat": 33.0255,
+  "link_tried": true,
+  "lng": -96.60882,
+  "map_link": "https://goo.gl/maps/UezPvE2RNU1rFcZn7",
+  "rules": 10,
+  "site": "Kimbrough Stadium",
+  "stadium": "Tom Kimbrough Stadium",
+  "stadium_id": 303
+ },
  "Kimbrough Stadium, Murphy || Bells v Lone Oak": {
   "address": "700 N. Murphy Rd, Murphy, Texas 75094",
   "city": "Murphy",
@@ -14412,6 +16679,19 @@
   "site": "Kimbrough Stadium, Murphy",
   "stadium": "Tom Kimbrough Stadium",
   "stadium_id": 303
+ },
+ "Kincaide Stadium || South Oak Cliff v Crandall": {
+  "address": "9191 South Polk, Dallas, Texas 75232",
+  "city": "Dallas",
+  "how": "stadium (map link)",
+  "lat": 32.63858,
+  "link_tried": true,
+  "lng": -96.84268,
+  "map_link": "https://goo.gl/maps/PcQDDtxSmQseS2d17",
+  "rules": 10,
+  "site": "Kincaide Stadium",
+  "stadium": "John Kincaide Stadium",
+  "stadium_id": 309
  },
  "Kincaide Stadium || South Oak Cliff v Whitehouse": {
   "address": "9191 South Polk, Dallas, Texas 75232",
@@ -14450,16 +16730,16 @@
   "stadium_id": null
  },
  "Kincaide Stadium, Dallas || Kennedale v Dallas Carter": {
-  "address": "",
+  "address": "9191 South Polk, Dallas, Texas 75232",
   "city": "Dallas",
-  "how": "coordinates confirmed by hand",
+  "how": "stadium",
   "lat": 32.63734,
   "lng": -96.84225,
-  "map_link": "",
+  "map_link": "https://goo.gl/maps/PcQDDtxSmQseS2d17",
   "rules": 10,
   "site": "Kincaide Stadium, Dallas",
-  "stadium": "Kincaide Stadium",
-  "stadium_id": null
+  "stadium": "John Kincaide Stadium",
+  "stadium_id": 309
  },
  "Kincaide Stadium, Dallas || Longview v Frisco Lone Star": {
   "address": "",
@@ -14486,16 +16766,17 @@
   "stadium_id": null
  },
  "Kincaide Stadium, Dallas || Longview v Red Oak": {
-  "address": "",
+  "address": "9191 South Polk, Dallas, Texas 75232",
   "city": "Dallas",
-  "how": "coordinates confirmed by hand",
+  "how": "stadium",
   "lat": 32.63734,
+  "link_tried": true,
   "lng": -96.84225,
-  "map_link": "",
+  "map_link": "https://goo.gl/maps/PcQDDtxSmQseS2d17",
   "rules": 10,
   "site": "Kincaide Stadium, Dallas",
-  "stadium": "Kincaide Stadium",
-  "stadium_id": null
+  "stadium": "John Kincaide Stadium",
+  "stadium_id": 309
  },
  "Kincaide Stadium, Dallas || Tatum v Whitney": {
   "address": "",
@@ -14545,6 +16826,30 @@
   "map_link": "https://goo.gl/maps/zoC4eqjDQE1myASb6",
   "rules": 10,
   "site": "Klein ISD Memorial Stadium",
+  "stadium": "Klein Memorial Stadium",
+  "stadium_id": 626
+ },
+ "Klein Memorial Stadium || Houston Klein Cain v Cy Ranch": {
+  "address": "16607 Stuebner Airline Rd,, Klein, Texas 77379",
+  "city": "Klein",
+  "how": "stadium (map link)",
+  "lat": 30.01671,
+  "lng": -95.52372,
+  "map_link": "https://goo.gl/maps/zoC4eqjDQE1myASb6",
+  "rules": 10,
+  "site": "Klein Memorial Stadium",
+  "stadium": "Klein Memorial Stadium",
+  "stadium_id": 626
+ },
+ "Klein Memorial Stadium || Spring Klein Collins v Cy Ranch": {
+  "address": "16607 Stuebner Airline Rd,, Klein, Texas 77379",
+  "city": "Klein",
+  "how": "stadium (map link)",
+  "lat": 30.01671,
+  "lng": -95.52372,
+  "map_link": "https://goo.gl/maps/zoC4eqjDQE1myASb6",
+  "rules": 10,
+  "site": "Klein Memorial Stadium",
   "stadium": "Klein Memorial Stadium",
   "stadium_id": 626
  },
@@ -14611,6 +16916,19 @@
   "stadium": "Knight Stadium",
   "stadium_id": 5792
  },
+ "Kuykendall Stadium || Frisco Panther Creek v Dallas Pinkston": {
+  "address": "6927 Stadium Ln, Frisco, Texas 75034",
+  "city": "Frisco",
+  "how": "stadium (map link)",
+  "lat": 33.15846,
+  "link_tried": true,
+  "lng": -96.82372,
+  "map_link": "https://goo.gl/maps/jrkxfRPNk44bFpiH7",
+  "rules": 10,
+  "site": "Kuykendall Stadium",
+  "stadium": "David Kuykendall Stadium",
+  "stadium_id": 278
+ },
  "La Grange || Lexington v Boling": {
   "address": "820 S. Vail St., La Grange, Texas 78945",
   "city": "La Grange",
@@ -14648,6 +16966,19 @@
   "site": "La Grange",
   "stadium": "Leopard Stadium",
   "stadium_id": 111
+ },
+ "La Marque High School || Hamshire-Fannett v La Marque": {
+  "address": "1501 9Th Ave N, Texas City, Texas 77590",
+  "city": "Texas City",
+  "how": "school (map link)",
+  "lat": 29.39206,
+  "link_tried": true,
+  "lng": -94.9182,
+  "map_link": "https://goo.gl/maps/Ba4TN5d6UYXznHdVA",
+  "rules": 10,
+  "site": "La Marque High School",
+  "stadium": "Stingaree Stadium",
+  "stadium_id": 362
  },
  "La Porte ISD Bulldog Stadium || La Porte v Northbrook": {
   "address": "301 E Fairmont Pkwy, La Porte, Texas 77571",
@@ -14901,6 +17232,32 @@
   "stadium": "Mike Johnston Field at Legacy Stadium",
   "stadium_id": 1699
  },
+ "Legacy Stadium || Fulshear Jordan v Richmond Foster": {
+  "address": "5175 Franz Rd, Katy, Texas 77493",
+  "city": "Katy",
+  "confirmed_as": "Legacy Stadium, Katy",
+  "how": "stadium (map link)",
+  "lat": 29.80001,
+  "lng": -95.80539,
+  "map_link": "https://goo.gl/maps/km2SPmR8CsAASd3H6",
+  "rules": 10,
+  "site": "Legacy Stadium",
+  "stadium": "Mike Johnston Field at Legacy Stadium",
+  "stadium_id": 1699
+ },
+ "Legacy Stadium || Katy High v Fort Bend Clements": {
+  "address": "5175 Franz Rd, Katy, Texas 77493",
+  "city": "Katy",
+  "confirmed_as": "Legacy Stadium, Katy",
+  "how": "stadium (map link)",
+  "lat": 29.80001,
+  "lng": -95.80539,
+  "map_link": "https://goo.gl/maps/km2SPmR8CsAASd3H6",
+  "rules": 10,
+  "site": "Legacy Stadium",
+  "stadium": "Mike Johnston Field at Legacy Stadium",
+  "stadium_id": 1699
+ },
  "Legacy Stadium || Katy High v Fort Bend Travis": {
   "address": "5175 Franz Rd, Katy, Texas 77493",
   "city": "Katy",
@@ -15129,6 +17486,16 @@
   "stadium": "Robert and Glenda Lehnhoff Stadium",
   "stadium_id": 840
  },
+ "Lehnhoff Std || Cibolo Steele v Laredo Alexander": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Lehnhoff Std",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Leo Buckley Stadium - Killeen || La Vega v Manor New Tech": {
   "address": "3498 Atkinson Ave, Killeen, Texas 76543",
   "city": "Killeen",
@@ -15166,6 +17533,18 @@
   "stadium": "Leopard Stadium",
   "stadium_id": 111
  },
+ "Levelland High School || Bushland v Kermit": {
+  "address": "1406 Ellis, Levelland, Texas 79336",
+  "city": "Levelland",
+  "how": "school (map link)",
+  "lat": 33.5994,
+  "lng": -102.34256,
+  "map_link": "https://goo.gl/maps/ZM9mBCF3zC377H856",
+  "rules": 10,
+  "site": "Levelland High School",
+  "stadium": "Lobo Stadium",
+  "stadium_id": 786
+ },
  "Levelland High School || Idalou v Dimmitt": {
   "address": "1406 Ellis, Levelland, Texas 79336",
   "city": "Levelland",
@@ -15202,12 +17581,48 @@
   "stadium": "Lobo Stadium",
   "stadium_id": 786
  },
+ "Lindale High School || Carthage v Pittsburg": {
+  "address": "200 Stadium Dr., Lindale, Texas 75771",
+  "city": "Lindale",
+  "how": "school (map link)",
+  "lat": 32.51731,
+  "lng": -95.41577,
+  "map_link": "https://goo.gl/maps/iP7iva6ebZgPZu7a6",
+  "rules": 10,
+  "site": "Lindale High School",
+  "stadium": "Eagle Stadium",
+  "stadium_id": 450
+ },
  "Lindale High School || Carthage v Quinlan Ford": {
   "address": "200 Stadium Dr., Lindale, Texas 75771",
   "city": "Lindale",
   "how": "school",
   "lat": 32.51706,
   "lng": -95.41583,
+  "map_link": "https://goo.gl/maps/iP7iva6ebZgPZu7a6",
+  "rules": 10,
+  "site": "Lindale High School",
+  "stadium": "Eagle Stadium",
+  "stadium_id": 450
+ },
+ "Lindale High School || Jefferson v Mineola": {
+  "address": "200 Stadium Dr., Lindale, Texas 75771",
+  "city": "Lindale",
+  "how": "school (map link)",
+  "lat": 32.51731,
+  "lng": -95.41577,
+  "map_link": "https://goo.gl/maps/iP7iva6ebZgPZu7a6",
+  "rules": 10,
+  "site": "Lindale High School",
+  "stadium": "Eagle Stadium",
+  "stadium_id": 450
+ },
+ "Lindale High School || Lindale v Huffman-Hargrave": {
+  "address": "200 Stadium Dr., Lindale, Texas 75771",
+  "city": "Lindale",
+  "how": "school (map link)",
+  "lat": 32.51731,
+  "lng": -95.41577,
   "map_link": "https://goo.gl/maps/iP7iva6ebZgPZu7a6",
   "rules": 10,
   "site": "Lindale High School",
@@ -15315,6 +17730,28 @@
   "stadium": "Lion Stadium",
   "stadium_id": 680
  },
+ "Little Cypress Mauriceville Junior High || Little Cypress-Mauriceville v Lindale": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Little Cypress Mauriceville Junior High",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Littlefield High School || Olton v Farwell": {
+  "address": "Stadium Ave at E. 14th, Littlefield, Texas 79339",
+  "city": "Littlefield",
+  "how": "school (map link)",
+  "lat": 33.91465,
+  "lng": -102.31729,
+  "map_link": "https://goo.gl/maps/rsqd9WtBVGYoeK1c6",
+  "rules": 10,
+  "site": "Littlefield High School",
+  "stadium": "Wildcat Stadium",
+  "stadium_id": 832
+ },
  "Littlefield || Bovina v Seagraves": {
   "address": "Stadium Ave at E. 14th, Littlefield, Texas 79339",
   "city": "Littlefield",
@@ -15341,6 +17778,29 @@
   "stadium": "Wildcat Stadium",
   "stadium_id": 832
  },
+ "Location Greenville, Tx || Dallas Carter v Sulphur Springs": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Location Greenville, Tx",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Location-Kennedale HS, Wildcat Stadium || Kennedale v Fort Worth Southwest": {
+  "address": "901 Wildcat Way, Kennedale, Texas 76060",
+  "city": "Kennedale",
+  "how": "stadium (map link)",
+  "lat": 32.65093,
+  "link_tried": true,
+  "lng": -97.20077,
+  "map_link": "https://goo.gl/maps/jao4wTmzLc3R69KS6",
+  "rules": 10,
+  "site": "Location-Kennedale HS, Wildcat Stadium",
+  "stadium": "Wildcat Stadium",
+  "stadium_id": 316
+ },
  "Location: Kenneth Hall Stadium || Almeta Crawford v Elgin": {
   "address": "",
   "how": "no stadium, school or town matched",
@@ -15350,6 +17810,18 @@
   "site": "Location: Kenneth Hall Stadium",
   "stadium": null,
   "stadium_id": null
+ },
+ "Lockhart HS || Taylor v Canyon Lake": {
+  "address": "Lion Country Dr., Lockhart, Texas 78644",
+  "city": "Lockhart",
+  "how": "school (map link)",
+  "lat": 29.87084,
+  "lng": -97.67565,
+  "map_link": "https://goo.gl/maps/F6wCRHEa5EcVFwCLA",
+  "rules": 10,
+  "site": "Lockhart HS",
+  "stadium": "Lions Stadium",
+  "stadium_id": 117
  },
  "Lockhart || Bremond v Sabinal": {
   "address": "Lion Country Dr., Lockhart, Texas 78644",
@@ -15415,6 +17887,28 @@
   "site": "Lockney",
   "stadium": "Mitchell Zimmerman Field",
   "stadium_id": 795
+ },
+ "Lone Oak ISD Stadium || Howe v Palmer": {
+  "address": "",
+  "how": "district:Stadium, Lone Oak",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Lone Oak ISD Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Longview High School || Longview v Garland Naaman Forest": {
+  "address": "Airline Rd at Hawkins Pkwy, Longview, Texas 75605",
+  "city": "Longview",
+  "how": "school (map link)",
+  "lat": 32.54586,
+  "lng": -94.7421,
+  "map_link": "https://goo.gl/maps/3ExdCqHgrrWuPew5A",
+  "rules": 10,
+  "site": "Longview High School",
+  "stadium": "Lobo Stadium",
+  "stadium_id": 537
  },
  "Longview ISD Lobo Stadium || Longview v Rowlett": {
   "address": "Airline Rd at Hawkins Pkwy, Longview, Texas 75605",
@@ -15559,6 +18053,16 @@
   "stadium": "Lobo Stadium",
   "stadium_id": 537
  },
+ "Loos Athletic Complex || Celina v Dallas Pinkston": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Loos Athletic Complex",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Loos Stadium, Dallas || Dallas Kimball v Benbrook": {
   "address": "3815 Spring Valley Rd, Addison, Texas 75001",
   "city": "Addison",
@@ -15594,6 +18098,19 @@
   "stadium": null,
   "stadium_id": null
  },
+ "Los Fresnos Leo Aguilar Memorial Stadium || Los Fresnos v Edinburg Economedes": {
+  "address": "Stadium Drive, Los Fresnos, Texas 78566",
+  "city": "Los Fresnos",
+  "how": "stadium (town only)",
+  "lat": 26.07145,
+  "link_tried": true,
+  "lng": -97.47708,
+  "map_link": "https://g.page/losfresnosstadium?share",
+  "rules": 10,
+  "site": "Los Fresnos Leo Aguilar Memorial Stadium",
+  "stadium": "Leo Aguilar Memorial Stadium",
+  "stadium_id": 940
+ },
  "Lowery Field, Lubbock, Texas || El Paso Eastwood v Aledo": {
   "address": "Avenue P at 66th St, Lubbock, Texas 79412",
   "city": "Lubbock",
@@ -15618,6 +18135,32 @@
   "site": "Lowrey Field",
   "stadium": null,
   "stadium_id": null
+ },
+ "Lowrey Field || Denver City v Dalhart": {
+  "address": "Avenue P at 66th St, Lubbock, Texas 79412",
+  "city": "Lubbock",
+  "confirmed_as": "Lowrey Field at PlainsCapital Park, Lubbock",
+  "how": "stadium (map link)",
+  "lat": 33.53277,
+  "lng": -101.85134,
+  "map_link": "https://goo.gl/maps/8DGWRhdF8PcJ6Znn7",
+  "rules": 10,
+  "site": "Lowrey Field",
+  "stadium": "Lowery Field at Plains Capital Park",
+  "stadium_id": 791
+ },
+ "Lowrey Field || Lubbock Monterey v El Paso Bel Air": {
+  "address": "Avenue P at 66th St, Lubbock, Texas 79412",
+  "city": "Lubbock",
+  "confirmed_as": "Lowrey Field at PlainsCapital Park, Lubbock",
+  "how": "stadium (map link)",
+  "lat": 33.53277,
+  "lng": -101.85134,
+  "map_link": "https://goo.gl/maps/8DGWRhdF8PcJ6Znn7",
+  "rules": 10,
+  "site": "Lowrey Field",
+  "stadium": "Lowery Field at Plains Capital Park",
+  "stadium_id": 791
  },
  "Lowrey Field, Lubbock || Amarillo River Road v Vernon": {
   "address": "",
@@ -15680,16 +18223,18 @@
   "stadium_id": null
  },
  "Lowrey Field, Lubbock || Pecos v Graham": {
-  "address": "",
+  "address": "Avenue P at 66th St, Lubbock, Texas 79412",
   "city": "Lubbock",
-  "how": "coordinates confirmed by hand",
-  "lat": 33.53277,
-  "lng": -101.85134,
-  "map_link": "",
+  "confirmed_as": "Lowrey Field at PlainsCapital Park, Lubbock",
+  "how": "stadium (town only)",
+  "lat": 33.58557,
+  "link_tried": true,
+  "lng": -101.84702,
+  "map_link": "https://goo.gl/maps/8DGWRhdF8PcJ6Znn7",
   "rules": 10,
   "site": "Lowrey Field, Lubbock",
-  "stadium": "Lowrey Field",
-  "stadium_id": null
+  "stadium": "Lowery Field at Plains Capital Park",
+  "stadium_id": 791
  },
  "Lowrey Field, Lubbock || Stratford v Hawley": {
   "address": "",
@@ -15791,6 +18336,30 @@
   "site": "Lubbock Christian School",
   "stadium": "Masked Rider Capital Field",
   "stadium_id": 376
+ },
+ "Lubbock Cooper High School || Perryton v Monahans": {
+  "address": "16302 TX-493 Loop, Lubbock, Texas 79423",
+  "city": "Lubbock",
+  "how": "school (map link)",
+  "lat": 33.449,
+  "lng": -101.84952,
+  "map_link": "https://goo.gl/maps/FQKvLTo5uvkdytX68",
+  "rules": 10,
+  "site": "Lubbock Cooper High School",
+  "stadium": "Pirate Stadium at First United Park",
+  "stadium_id": 1313
+ },
+ "Lubbock Cooper High School || Shallowater v Brownfield": {
+  "address": "16302 TX-493 Loop, Lubbock, Texas 79423",
+  "city": "Lubbock",
+  "how": "school (map link)",
+  "lat": 33.449,
+  "lng": -101.84952,
+  "map_link": "https://goo.gl/maps/FQKvLTo5uvkdytX68",
+  "rules": 10,
+  "site": "Lubbock Cooper High School",
+  "stadium": "Pirate Stadium at First United Park",
+  "stadium_id": 1313
  },
  "Lubbock Cooper || El Paso Eastwood v Byron Nelson": {
   "address": "16302 TX-493 Loop, Lubbock, Texas 79423",
@@ -16053,6 +18622,38 @@
   "stadium": null,
   "stadium_id": null
  },
+ "Lubbock-Cooper Liberty High School || Midland Greenwood v Borger": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Lubbock-Cooper Liberty High School",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Lufkin High School Arena || Lufkin v Houston Milby": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Lufkin High School Arena",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Lufkin High School || Timpson v Corrigan-Camden": {
+  "address": "309 South Medford Dr., Lufkin, Texas 75902",
+  "city": "Lufkin",
+  "how": "school (map link)",
+  "lat": 31.33544,
+  "lng": -94.68505,
+  "map_link": "https://goo.gl/maps/RpMBJXihnh5SiQVF9",
+  "rules": 10,
+  "site": "Lufkin High School",
+  "stadium": "Abe Martin Stadium",
+  "stadium_id": 417
+ },
  "Lufkin ISD Abe Martin Stadium || Silsbee v Madisonville": {
   "address": "309 South Medford Dr., Lufkin, Texas 75902",
   "city": "Lufkin",
@@ -16130,6 +18731,19 @@
   "stadium": "Abe Martin Stadium",
   "stadium_id": 417
  },
+ "Luling High School || Somerville v D'Hanis": {
+  "address": "112 E. Travis, Luling, Texas 78648",
+  "city": "Luling",
+  "how": "school (map link)",
+  "lat": 29.67789,
+  "link_tried": true,
+  "lng": -97.65651,
+  "map_link": "https://goo.gl/maps/xumeeUwXq7LXDSJN7",
+  "rules": 10,
+  "site": "Luling High School",
+  "stadium": "Eagle Field",
+  "stadium_id": 68
+ },
  "Luling ISD || Runge v Calvert": {
   "address": "112 E. Travis, Luling, Texas 78648",
   "city": "Luling",
@@ -16165,6 +18779,18 @@
   "site": "Luling's Eagle Field",
   "stadium": "Eagle Field",
   "stadium_id": 68
+ },
+ "Mabank High School || Honey Grove v Elysian Fields": {
+  "address": "822 W Mason St, Mabank, Texas 75147",
+  "city": "Mabank",
+  "how": "school (map link)",
+  "lat": 32.37323,
+  "lng": -96.11506,
+  "map_link": "https://goo.gl/maps/Tx5S5PxkaiZXQLpG8",
+  "rules": 10,
+  "site": "Mabank High School",
+  "stadium": "Panther Stadium",
+  "stadium_id": 691
  },
  "Mabank || Aquilla v Union Hill": {
   "address": "822 W Mason St, Mabank, Texas 75147",
@@ -16237,6 +18863,30 @@
   "how": "school",
   "lat": 30.94501,
   "lng": -95.90846,
+  "map_link": "https://goo.gl/maps/uCkXHGAGQdu9zi1W6",
+  "rules": 10,
+  "site": "Madisonville High School",
+  "stadium": "Mustang Stadium",
+  "stadium_id": 132
+ },
+ "Madisonville High School || Riesel v Cayuga": {
+  "address": "811 S May St,, Madisonville, Texas 77864",
+  "city": "Madisonville",
+  "how": "school (map link)",
+  "lat": 30.94603,
+  "lng": -95.90261,
+  "map_link": "https://goo.gl/maps/uCkXHGAGQdu9zi1W6",
+  "rules": 10,
+  "site": "Madisonville High School",
+  "stadium": "Mustang Stadium",
+  "stadium_id": 132
+ },
+ "Madisonville High School || Teague v Coldspring": {
+  "address": "811 S May St,, Madisonville, Texas 77864",
+  "city": "Madisonville",
+  "how": "school (map link)",
+  "lat": 30.94603,
+  "lng": -95.90261,
   "map_link": "https://goo.gl/maps/uCkXHGAGQdu9zi1W6",
   "rules": 10,
   "site": "Madisonville High School",
@@ -16372,6 +19022,19 @@
   "site": "Magnolia",
   "stadium": "Bulldog Stadium",
   "stadium_id": 476
+ },
+ "Malakoff High School || Mart v Cumby": {
+  "address": "15201 FM 3062, Malakoff, Texas 75148",
+  "city": "Malakoff",
+  "how": "school (map link)",
+  "lat": 32.1752,
+  "link_tried": true,
+  "lng": -96.03362,
+  "map_link": "https://goo.gl/maps/GhFucTu7myL5ByhFA",
+  "rules": 10,
+  "site": "Malakoff High School",
+  "stadium": "Tiger Stadium",
+  "stadium_id": 561
  },
  "Manor ISD Athletic Complex, Manor || Flatonia v Rosebud-Lott": {
   "address": "14832 FM973, Manor, Texas 78653",
@@ -16552,6 +19215,30 @@
   "stadium": null,
   "stadium_id": null
  },
+ "Marble Falls HS || Mason v Thrall": {
+  "address": "2101 Mustang Drive, Marble Falls, Texas 78654",
+  "city": "Marble Falls",
+  "how": "school (map link)",
+  "lat": 30.5858,
+  "lng": -98.25186,
+  "map_link": "https://goo.gl/maps/DaAzxTwE5FQ6cb2K7",
+  "rules": 10,
+  "site": "Marble Falls HS",
+  "stadium": "Mustang Stadium",
+  "stadium_id": 1302
+ },
+ "Marble Falls Mustang Stadium || Austin LBJ v Fredericksburg": {
+  "address": "2101 Mustang Drive, Marble Falls, Texas 78654",
+  "city": "Marble Falls",
+  "how": "stadium (map link)",
+  "lat": 30.5858,
+  "lng": -98.25186,
+  "map_link": "https://goo.gl/maps/DaAzxTwE5FQ6cb2K7",
+  "rules": 10,
+  "site": "Marble Falls Mustang Stadium",
+  "stadium": "Mustang Stadium",
+  "stadium_id": 1302
+ },
  "Marion || Flatonia v Three Rivers": {
   "address": "520 Bulldog Drive, Marion, Texas 78124",
   "city": "Marion",
@@ -16607,6 +19294,30 @@
   "missed": "2026-11-17",
   "rules": 10,
   "site": "Marshall",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Marshall, TX HS || Omaha Paul Pewitt v Beckville": {
+  "address": "",
+  "city": "Marshall",
+  "how": "stadium found by name",
+  "lat": 32.53442,
+  "lng": -94.35022,
+  "map_link": "",
+  "rules": 10,
+  "site": "Marshall, TX HS",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Marshall, TX HS || Waskom v Omaha Paul Pewitt": {
+  "address": "",
+  "city": "Marshall",
+  "how": "stadium found by name",
+  "lat": 32.52393,
+  "lng": -94.39139,
+  "map_link": "",
+  "rules": 10,
+  "site": "Marshall, TX HS",
   "stadium": null,
   "stadium_id": null
  },
@@ -16708,16 +19419,16 @@
   "stadium_id": null
  },
  "Matador Stadium, Seguin || Harper v Burton": {
-  "address": "",
+  "address": "1315 E Cedar St, Seguin, Texas 78155",
   "city": "Seguin",
-  "how": "coordinates confirmed by hand",
+  "how": "stadium",
   "lat": 29.57658,
   "lng": -97.94563,
-  "map_link": "",
+  "map_link": "https://goo.gl/maps/fSivQY3srfusAWv58",
   "rules": 10,
   "site": "Matador Stadium, Seguin",
   "stadium": "Matador Stadium",
-  "stadium_id": null
+  "stadium_id": 124
  },
  "Matador Stadium, Seguin || Lamar Fulshear v Comal Smithson Valley": {
   "address": "",
@@ -16768,16 +19479,16 @@
   "stadium_id": null
  },
  "Matador Stadium, Seguin || Sealy v China Spring": {
-  "address": "",
+  "address": "1315 E Cedar St, Seguin, Texas 78155",
   "city": "Seguin",
-  "how": "coordinates confirmed by hand",
+  "how": "stadium",
   "lat": 29.57658,
   "lng": -97.94563,
-  "map_link": "",
+  "map_link": "https://goo.gl/maps/fSivQY3srfusAWv58",
   "rules": 10,
   "site": "Matador Stadium, Seguin",
   "stadium": "Matador Stadium",
-  "stadium_id": null
+  "stadium_id": 124
  },
  "Matador Stadium, Seguin || Sinton v Lago Vista": {
   "address": "",
@@ -16792,16 +19503,17 @@
   "stadium_id": null
  },
  "Matador Stadium, Seguin || Thorndale v Weimar": {
-  "address": "",
+  "address": "1315 E Cedar St, Seguin, Texas 78155",
   "city": "Seguin",
-  "how": "coordinates confirmed by hand",
+  "how": "stadium",
   "lat": 29.57658,
+  "link_tried": true,
   "lng": -97.94563,
-  "map_link": "",
+  "map_link": "https://goo.gl/maps/fSivQY3srfusAWv58",
   "rules": 10,
   "site": "Matador Stadium, Seguin",
   "stadium": "Matador Stadium",
-  "stadium_id": null
+  "stadium_id": 124
  },
  "Matador Stadium, Seguin || Victoria West v Boerne": {
   "address": "",
@@ -16814,6 +19526,18 @@
   "site": "Matador Stadium, Seguin",
   "stadium": "Matador Stadium",
   "stadium_id": null
+ },
+ "Mathis High School || Bay City v Hidalgo": {
+  "address": "E. San Patricio at Lamar St, Mathis, Texas 78368",
+  "city": "Mathis",
+  "how": "school (map link)",
+  "lat": 28.08533,
+  "lng": -97.81448,
+  "map_link": "https://goo.gl/maps/uatJu1uADNfuArhv8",
+  "rules": 10,
+  "site": "Mathis High School",
+  "stadium": "Pirate Stadium",
+  "stadium_id": 209
  },
  "Mathis || La Villa v Weimar": {
   "address": "E. San Patricio at Lamar St, Mathis, Texas 78368",
@@ -16850,6 +19574,30 @@
   "site": "Maverick Stadium",
   "stadium": null,
   "stadium_id": null
+ },
+ "McAllen High School || McAllen Memorial v Harlingen South": {
+  "address": "2155 North Bicentennial Boulevard, McAllen, Texas 78501",
+  "city": "McAllen",
+  "how": "school (map link)",
+  "lat": 26.22388,
+  "lng": -98.2373,
+  "map_link": "https://goo.gl/maps/oh6oCgZPThijshDW7",
+  "rules": 10,
+  "site": "McAllen High School",
+  "stadium": "McAllen Memorial Stadium",
+  "stadium_id": 942
+ },
+ "McAllen Memorial Stadium || Edinburg Vela v Weslaco East": {
+  "address": "2155 North Bicentennial Boulevard, McAllen, Texas 78501",
+  "city": "McAllen",
+  "how": "stadium (map link)",
+  "lat": 26.22388,
+  "lng": -98.2373,
+  "map_link": "https://goo.gl/maps/oh6oCgZPThijshDW7",
+  "rules": 10,
+  "site": "McAllen Memorial Stadium",
+  "stadium": "McAllen Memorial Stadium",
+  "stadium_id": 942
  },
  "McAllen || McAllen v Corpus Christi Veterans Memorial": {
   "address": "2155 North Bicentennial Boulevard, McAllen, Texas 78501",
@@ -17252,6 +20000,18 @@
   "stadium": null,
   "stadium_id": null
  },
+ "Memorial Stadium - Mesquite, Texas || West Mesquite v McKinney North": {
+  "address": "2411 W. Scyene Rd., Mesquite, Texas 75149",
+  "city": "Mesquite",
+  "how": "stadium (map link)",
+  "lat": 32.76396,
+  "lng": -96.63454,
+  "map_link": "https://goo.gl/maps/ok5pezoVBGQYri9G6",
+  "rules": 10,
+  "site": "Memorial Stadium - Mesquite, Texas",
+  "stadium": "Mesquite Memorial Stadium",
+  "stadium_id": 279
+ },
  "Memorial Stadium, Alice || Alice v CC Tuloso-Midway": {
   "address": "718 W 2nd St, Alice, Texas 78332",
   "city": "Alice",
@@ -17375,16 +20135,17 @@
   "stadium_id": 298
  },
  "Memorial Stadium, Victoria || George West v Boling": {
-  "address": "",
+  "address": "1110 Sam Houston Dr, Victoria, Texas 77901",
   "city": "Victoria",
-  "how": "coordinates confirmed by hand",
+  "how": "stadium",
   "lat": 28.82518,
+  "link_tried": true,
   "lng": -96.97605,
-  "map_link": "",
+  "map_link": "https://goo.gl/maps/8hmhUAiFwEUuHg4W9",
   "rules": 10,
   "site": "Memorial Stadium, Victoria",
   "stadium": "Memorial Stadium",
-  "stadium_id": null
+  "stadium_id": 405
  },
  "Memorial Stadium, Victoria || Jourdanton v Edna": {
   "address": "",
@@ -17399,16 +20160,17 @@
   "stadium_id": null
  },
  "Memorial Stadium, Victoria || Yoakum v Goliad": {
-  "address": "",
+  "address": "1110 Sam Houston Dr, Victoria, Texas 77901",
   "city": "Victoria",
-  "how": "coordinates confirmed by hand",
+  "how": "stadium",
   "lat": 28.82518,
+  "link_tried": true,
   "lng": -96.97605,
-  "map_link": "",
+  "map_link": "https://goo.gl/maps/8hmhUAiFwEUuHg4W9",
   "rules": 10,
   "site": "Memorial Stadium, Victoria",
   "stadium": "Memorial Stadium",
-  "stadium_id": null
+  "stadium_id": 405
  },
  "Memorial Stadium, Wichita Falls || Amarillo High v North Richland Hills Richland": {
   "address": "",
@@ -17423,16 +20185,17 @@
   "stadium_id": null
  },
  "Memorial Stadium, Wichita Falls || Fort Worth Brewer v Amarillo Tascosa": {
-  "address": "",
+  "address": "4709 Barnett Rd, Wichita Falls, Texas 76310",
   "city": "Wichita Falls",
-  "how": "coordinates confirmed by hand",
+  "how": "stadium",
   "lat": 33.85787,
+  "link_tried": true,
   "lng": -98.57787,
-  "map_link": "",
+  "map_link": "https://goo.gl/maps/iAQNicf1EvGtWVBr9",
   "rules": 10,
   "site": "Memorial Stadium, Wichita Falls",
   "stadium": "Memorial Stadium",
-  "stadium_id": null
+  "stadium_id": 683
  },
  "Memphis High School || McLean v Turkey Valley": {
   "address": "1501 High St, Memphis, Texas 79245",
@@ -17478,6 +20241,32 @@
   "stadium": null,
   "stadium_id": null
  },
+ "Mercedes High School || Mercedes v Roma": {
+  "address": "Tiger Lane, Mercedes, Texas 78570",
+  "city": "Mercedes",
+  "how": "school (map link)",
+  "lat": 26.14045,
+  "link_tried": true,
+  "lng": -97.90405,
+  "map_link": "https://goo.gl/maps/1GuMmgqhmkz1erdW9",
+  "rules": 10,
+  "site": "Mercedes High School",
+  "stadium": "Tiger Stadium",
+  "stadium_id": 1709
+ },
+ "Mercer Stadium || Fort Bend Ridge Point v Katy Tompkins": {
+  "address": "16403 Lexington Blvd, Sugar Land, Texas 77479",
+  "city": "Sugar Land",
+  "how": "stadium (map link)",
+  "lat": 29.58941,
+  "link_tried": true,
+  "lng": -95.61969,
+  "map_link": "https://goo.gl/maps/mAXidEFJfCEJSLGr7",
+  "rules": 10,
+  "site": "Mercer Stadium",
+  "stadium": "Mercer Stadium",
+  "stadium_id": 629
+ },
  "Meredith Memorial Stadium, Mineola || Winnsboro v Tatum": {
   "address": "1044 W Loop 564, Mineola, Texas 75773",
   "city": "Mineola",
@@ -17513,6 +20302,30 @@
   "map_link": "https://goo.gl/maps/jbwDcfrRANqXJiX78",
   "rules": 10,
   "site": "Merrill Green Stadium (Bryan, TX)",
+  "stadium": "Merrill Green Stadium",
+  "stadium_id": 181
+ },
+ "Merrill Green Stadium || A&M Consolidated v Crosby": {
+  "address": "3450 Campus Drive, Bryan, Texas 77802",
+  "city": "Bryan",
+  "how": "stadium (map link)",
+  "lat": 30.65649,
+  "lng": -96.33336,
+  "map_link": "https://goo.gl/maps/jbwDcfrRANqXJiX78",
+  "rules": 10,
+  "site": "Merrill Green Stadium",
+  "stadium": "Merrill Green Stadium",
+  "stadium_id": 181
+ },
+ "Merrill Green Stadium || Robinson v Sealy": {
+  "address": "3450 Campus Drive, Bryan, Texas 77802",
+  "city": "Bryan",
+  "how": "stadium (map link)",
+  "lat": 30.65649,
+  "lng": -96.33336,
+  "map_link": "https://goo.gl/maps/jbwDcfrRANqXJiX78",
+  "rules": 10,
+  "site": "Merrill Green Stadium",
   "stadium": "Merrill Green Stadium",
   "stadium_id": 181
  },
@@ -17657,6 +20470,18 @@
   "how": "stadium (map link)",
   "lat": 32.76396,
   "link_tried": true,
+  "lng": -96.63454,
+  "map_link": "https://goo.gl/maps/ok5pezoVBGQYri9G6",
+  "rules": 10,
+  "site": "Mesquite Memorial Stadium",
+  "stadium": "Mesquite Memorial Stadium",
+  "stadium_id": 279
+ },
+ "Mesquite Memorial Stadium || Pottsboro v Maypearl": {
+  "address": "2411 W. Scyene Rd., Mesquite, Texas 75149",
+  "city": "Mesquite",
+  "how": "stadium (map link)",
+  "lat": 32.76396,
   "lng": -96.63454,
   "map_link": "https://goo.gl/maps/ok5pezoVBGQYri9G6",
   "rules": 10,
@@ -18081,6 +20906,19 @@
   "stadium": "Astound Broadband Stadium",
   "stadium_id": 521
  },
+ "Midland Christian School || Iraan v Seagraves": {
+  "address": "2001 Culver, Midland, Texas 79705",
+  "city": "Midland",
+  "how": "school (map link)",
+  "lat": 32.01153,
+  "link_tried": true,
+  "lng": -102.11613,
+  "map_link": "https://goo.gl/maps/xNCu9bLDBFE6WCEq9",
+  "rules": 10,
+  "site": "Midland Christian School",
+  "stadium": "Gordon Awtry Field",
+  "stadium_id": 1049
+ },
  "Midland King Memorial || El Paso Eastwood v Byron Nelson": {
   "address": "",
   "how": "no stadium, school or town matched",
@@ -18228,6 +21066,26 @@
   "stadium": "MISD Multi-Purpose Stadium",
   "stadium_id": 1044
  },
+ "Midway Panther Stadium || Marlin v Kerens": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Midway Panther Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Midway Panther Stadium || Waco Midway v Waxahachie": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Midway Panther Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Miles || Cherokee v Loraine": {
   "address": "1001 Robinson, Miles, Texas 76861",
   "city": "Miles",
@@ -18240,6 +21098,18 @@
   "site": "Miles",
   "stadium": "Gary Krejci Memorial Stadium",
   "stadium_id": 984
+ },
+ "Mineola High School || Waskom v Cooper": {
+  "address": "1044 W Loop 564, Mineola, Texas 75773",
+  "city": "Mineola",
+  "how": "school (map link)",
+  "lat": 32.67382,
+  "lng": -95.50112,
+  "map_link": "https://goo.gl/maps/V5L21N25RUoxTeSX8",
+  "rules": 10,
+  "site": "Mineola High School",
+  "stadium": "Meredith Memorial Stadium",
+  "stadium_id": 357
  },
  "Mineola || Centerville v Honey Grove": {
   "address": "1044 W Loop 564, Mineola, Texas 75773",
@@ -18275,6 +21145,18 @@
   "map_link": "https://goo.gl/maps/tLrsxB1wW7KTD4cG9",
   "rules": 10,
   "site": "Mineral Wells High School",
+  "stadium": "Ram Stadium",
+  "stadium_id": 684
+ },
+ "Mineral Wells ISD || Albany v Era": {
+  "address": "3801 Ram Blvd, Mineral Wells, Texas 76067",
+  "city": "Mineral Wells",
+  "how": "school (map link)",
+  "lat": 32.81535,
+  "lng": -98.07946,
+  "map_link": "https://goo.gl/maps/tLrsxB1wW7KTD4cG9",
+  "rules": 10,
+  "site": "Mineral Wells ISD",
   "stadium": "Ram Stadium",
   "stadium_id": 684
  },
@@ -18457,6 +21339,16 @@
   "stadium": "Estes Memorial Stadium",
   "stadium_id": 495
  },
+ "Monroe Stadium || Austin Vandegrift v Austin Lake Travis": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Monroe Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Montgomery ISD Athletic Complex || Montgomery v Dayton": {
   "address": "",
   "city": "Montgomery",
@@ -18574,6 +21466,19 @@
   "stadium": "Sam Parker Field",
   "stadium_id": 556
  },
+ "Mount Vernon High School || Liberty-Eylau v Commerce": {
+  "address": "1 Tiger Drive, Mount Vernon, Texas 75457",
+  "city": "Mount Vernon",
+  "how": "town (map link)",
+  "lat": 33.1748,
+  "link_tried": true,
+  "lng": -95.23029,
+  "map_link": "https://goo.gl/maps/SNfDuWmhNVumWi6w5",
+  "rules": 10,
+  "site": "Mount Vernon High School",
+  "stadium": "Don Meredith Stadium",
+  "stadium_id": 560
+ },
  "Mountain View HS || Clint Mountain View v Big Spring": {
   "address": "14964 Greg Dr, El Paso, Texas 79938",
   "city": "El Paso",
@@ -18598,6 +21503,30 @@
   "site": "Mountain View HS, Football Field",
   "stadium": "Lobo Stadium",
   "stadium_id": 313
+ },
+ "Mt Vernon, Don Meredith Football Stadium || Cooper v Big Sandy": {
+  "address": "1 Tiger Drive, Mount Vernon, Texas 75457",
+  "city": "Mount Vernon",
+  "how": "school (map link)",
+  "lat": 33.1748,
+  "lng": -95.23029,
+  "map_link": "https://goo.gl/maps/SNfDuWmhNVumWi6w5",
+  "rules": 10,
+  "site": "Mt Vernon, Don Meredith Football Stadium",
+  "stadium": "Don Meredith Stadium",
+  "stadium_id": 560
+ },
+ "Muleshoe High School || Sudan v Farwell": {
+  "address": "500 W Ave G, Muleshoe, Texas 79347",
+  "city": "Muleshoe",
+  "how": "school (map link)",
+  "lat": 34.22302,
+  "lng": -102.73346,
+  "map_link": "https://goo.gl/maps/3jELPU8QnptiQawA7",
+  "rules": 10,
+  "site": "Muleshoe High School",
+  "stadium": "Benny Douglas Stadium",
+  "stadium_id": 796
  },
  "Muleshoe || Klondike v Motley County": {
   "address": "500 W Ave G, Muleshoe, Texas 79347",
@@ -18746,6 +21675,26 @@
   "site": "Mustang-Panther Stadium, Grapevine",
   "stadium": "Mustang-Panther Stadium",
   "stadium_id": 280
+ },
+ "NB Canyon Cougar Std || New Braunfels Canyon v Medina Valley": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "NB Canyon Cougar Std",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "NB Canyon Cougar Std || Three Rivers v Schulenburg": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "NB Canyon Cougar Std",
+  "stadium": null,
+  "stadium_id": null
  },
  "NRG Stadium || Cy-Fair v Galena Park North Shore": {
   "address": "",
@@ -18941,6 +21890,42 @@
   "stadium": null,
   "stadium_id": null
  },
+ "Nacogdoches High School || Groveton v Shelbyville": {
+  "address": "4310 Appleby Sand Road, Nacogdoches, Texas 75961",
+  "city": "Nacogdoches",
+  "how": "school (map link)",
+  "lat": 31.64451,
+  "lng": -94.62562,
+  "map_link": "https://goo.gl/maps/D7N5k9oDxAnGca4C6",
+  "rules": 10,
+  "site": "Nacogdoches High School",
+  "stadium": "Dragon Stadium",
+  "stadium_id": 446
+ },
+ "Nacogdoches High School || San Augustine v Groveton": {
+  "address": "4310 Appleby Sand Road, Nacogdoches, Texas 75961",
+  "city": "Nacogdoches",
+  "how": "school (map link)",
+  "lat": 31.64451,
+  "lng": -94.62562,
+  "map_link": "https://goo.gl/maps/D7N5k9oDxAnGca4C6",
+  "rules": 10,
+  "site": "Nacogdoches High School",
+  "stadium": "Dragon Stadium",
+  "stadium_id": 446
+ },
+ "Nacogdoches High School || Shelbyville v Jewett Leon": {
+  "address": "4310 Appleby Sand Road, Nacogdoches, Texas 75961",
+  "city": "Nacogdoches",
+  "how": "school (map link)",
+  "lat": 31.64451,
+  "lng": -94.62562,
+  "map_link": "https://goo.gl/maps/D7N5k9oDxAnGca4C6",
+  "rules": 10,
+  "site": "Nacogdoches High School",
+  "stadium": "Dragon Stadium",
+  "stadium_id": 446
+ },
  "Nacogdoches High School || Teague v Hardin": {
   "address": "4310 Appleby Sand Road, Nacogdoches, Texas 75961",
   "city": "Nacogdoches",
@@ -19126,6 +22111,18 @@
   "site": "New Braunfels Dragon Stadium",
   "stadium": "Dragon Stadium",
   "stadium_id": 1
+ },
+ "New Braunfels Unicorn Stadium || New Braunfels v Laredo Nixon": {
+  "address": "2551 TX-337 Loop, New Braunfels, Texas 78130",
+  "city": "New Braunfels",
+  "how": "stadium (map link)",
+  "lat": 29.71767,
+  "lng": -98.15189,
+  "map_link": "https://goo.gl/maps/1csPuznk8nYV8Xpo7",
+  "rules": 10,
+  "site": "New Braunfels Unicorn Stadium",
+  "stadium": "Unicorn Stadium",
+  "stadium_id": 860
  },
  "New Braunfels || Poth v Lexington": {
   "address": "2551 TX-337 Loop, New Braunfels, Texas 78130",
@@ -19409,6 +22406,18 @@
   "stadium": "Newton Field",
   "stadium_id": 688
  },
+ "North Crowley High School || North Crowley v Keller": {
+  "address": "9901 Hemphill Street, Fort Worth, Texas 76134",
+  "city": "Fort Worth",
+  "how": "school (map link)",
+  "lat": 32.60854,
+  "lng": -97.33905,
+  "map_link": "https://goo.gl/maps/vD6WyxBQ71jJaVZ89",
+  "rules": 10,
+  "site": "North Crowley High School",
+  "stadium": "Crowley ISD Multi-Purpose Stadium",
+  "stadium_id": 164
+ },
  "Norville Field, Kaufman || Henderson v Dallas Kimball": {
   "address": "3205 S Houston, Kaufman, Texas 75142",
   "city": "Kaufman",
@@ -19484,6 +22493,16 @@
   "site": "Oakwood",
   "stadium": "Panther Field",
   "stadium_id": 138
+ },
+ "Odem HS Owl Std || Weimar v Santa Maria": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Odem HS Owl Std",
+  "stadium": null,
+  "stadium_id": null
  },
  "Odem || Port Isabel v Jarrell": {
   "address": "1000 Cook Ave, Odem, Texas 78370",
@@ -19571,6 +22590,18 @@
   "stadium": "Tiger Stadium",
   "stadium_id": 166
  },
+ "Ore City High School || Winnsboro v Atlanta": {
+  "address": "100 Rebel Rd, Ore City, Texas 75683",
+  "city": "Ore City",
+  "how": "school (map link)",
+  "lat": 32.80784,
+  "lng": -94.72064,
+  "map_link": "https://goo.gl/maps/T1vbTYoAZ1rp1wjC7",
+  "rules": 10,
+  "site": "Ore City High School",
+  "stadium": "Rebel Stadium",
+  "stadium_id": 549
+ },
  "Ore City || Honey Grove v Joaquin": {
   "address": "100 Rebel Rd, Ore City, Texas 75683",
   "city": "Ore City",
@@ -19609,6 +22640,52 @@
   "stadium": "P.E. Shotwell Stadium",
   "stadium_id": 997
  },
+ "PROSPER HS-6A || Prosper v Plano East": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "PROSPER HS-6A",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "PSJA High School || PSJA High v Los Fresnos": {
+  "address": "703 Gore Street, Pharr, Texas 78577",
+  "city": "Pharr",
+  "how": "school (map link)",
+  "lat": 26.18998,
+  "lng": -98.17563,
+  "map_link": "https://goo.gl/maps/jPbAspzdsyCWxmpP9",
+  "rules": 10,
+  "site": "PSJA High School",
+  "stadium": "PSJA Stadium",
+  "stadium_id": 948
+ },
+ "PSJA High School || Pharr-San Juan-Alamo v Harlingen": {
+  "address": "703 Gore Street, Pharr, Texas 78577",
+  "city": "Pharr",
+  "how": "school (map link)",
+  "lat": 26.18998,
+  "lng": -98.17563,
+  "map_link": "https://goo.gl/maps/jPbAspzdsyCWxmpP9",
+  "rules": 10,
+  "site": "PSJA High School",
+  "stadium": "PSJA Stadium",
+  "stadium_id": 948
+ },
+ "PSJA Stadium || Pharr-San Juan-Alamo North v Mission": {
+  "address": "703 Gore Street, Pharr, Texas 78577",
+  "city": "Pharr",
+  "how": "stadium (map link)",
+  "lat": 26.18998,
+  "lng": -98.17563,
+  "map_link": "https://goo.gl/maps/jPbAspzdsyCWxmpP9",
+  "rules": 10,
+  "site": "PSJA Stadium",
+  "stadium": "PSJA Stadium",
+  "stadium_id": 948
+ },
  "PSJA Stadium, Pharr || Pharr-San Juan-Alamo North v Edinburg": {
   "address": "703 Gore Street, Pharr, Texas 78577",
   "city": "Pharr",
@@ -19634,6 +22711,16 @@
   "site": "Palacios",
   "stadium": "Shark Stadium",
   "stadium_id": 411
+ },
+ "Palestine - Wildcats Stadium || Garrison v Corrigan-Camden": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Palestine - Wildcats Stadium",
+  "stadium": null,
+  "stadium_id": null
  },
  "Palestine Wildcat Stadium || Mount Enterprise v Wortham": {
   "address": "1600 S Loop 256, Palestine, Texas 75801",
@@ -19800,6 +22887,17 @@
   "site": "Paris",
   "stadium": "Wildcat Stadium",
   "stadium_id": 1293
+ },
+ "Pasadena ISD - Memorial High School || La Marque v Hamshire-Fannett": {
+  "address": "",
+  "how": "stadium found by name",
+  "lat": 29.63763,
+  "lng": -95.17484,
+  "map_link": "",
+  "rules": 10,
+  "site": "Pasadena ISD - Memorial High School",
+  "stadium": null,
+  "stadium_id": null
  },
  "Pasadena ISD Veterans Memorial Stadium || Houston Wheatley v Hitchcock": {
   "address": "2906 Dabney Dr, Pasadena, Texas 77502",
@@ -19970,6 +23068,30 @@
   "site": "Pennington Field, Bedford",
   "stadium": "Pennington Field",
   "stadium_id": 286
+ },
+ "Peoples Bank Stadium - Wolfforth, TX || Seminole v Levelland": {
+  "address": "Tiger St. & FM 179, Wolfforth, Texas 79382",
+  "city": "Wolfforth",
+  "how": "stadium (map link)",
+  "lat": 33.51804,
+  "lng": -102.00669,
+  "map_link": "https://goo.gl/maps/yTzp5e5h4y9HwbGZ9",
+  "rules": 10,
+  "site": "Peoples Bank Stadium - Wolfforth, TX",
+  "stadium": "Peoples Bank Stadium",
+  "stadium_id": 823
+ },
+ "Peoples Bank Stadium || Frenship v El Paso Eastlake": {
+  "address": "Tiger St. & FM 179, Wolfforth, Texas 79382",
+  "city": "Wolfforth",
+  "how": "stadium (map link)",
+  "lat": 33.51804,
+  "lng": -102.00669,
+  "map_link": "https://goo.gl/maps/yTzp5e5h4y9HwbGZ9",
+  "rules": 10,
+  "site": "Peoples Bank Stadium",
+  "stadium": "Peoples Bank Stadium",
+  "stadium_id": 823
  },
  "Peoples Bank Stadium || Frenship v El Paso El Dorado": {
   "address": "Tiger St. & FM 179, Wolfforth, Texas 79382",
@@ -20166,6 +23288,18 @@
   "stadium": "Pirate Stadium",
   "stadium_id": 541
  },
+ "Pioneer Stadium || Fort Worth Boswell v Byron Nelson": {
+  "address": "5805 Bailey-Boswell Rd, Saginaw, Texas 76179",
+  "city": "Saginaw",
+  "how": "stadium (map link)",
+  "lat": 32.87786,
+  "lng": -97.41291,
+  "map_link": "https://goo.gl/maps/9sXY85W7cUb5k1Gi8",
+  "rules": 10,
+  "site": "Pioneer Stadium",
+  "stadium": "Pioneer Stadium",
+  "stadium_id": 287
+ },
  "Pirate Stadium, Granbury || Muenster v San Saba": {
   "address": "2000 West Pearl, Granbury, Texas 76048",
   "city": "Granbury",
@@ -20192,16 +23326,17 @@
   "stadium_id": 541
  },
  "Pirate Stadium, Lubbock || El Paso Hanks v Fort Worth Arlington Heights": {
-  "address": "",
+  "address": "16302 TX-493 Loop, Lubbock, Texas 79423",
   "city": "Lubbock",
-  "how": "coordinates confirmed by hand",
-  "lat": 33.449,
-  "lng": -101.84952,
-  "map_link": "",
+  "how": "stadium",
+  "lat": 33.44854,
+  "link_tried": true,
+  "lng": -101.84958,
+  "map_link": "https://goo.gl/maps/FQKvLTo5uvkdytX68",
   "rules": 10,
   "site": "Pirate Stadium, Lubbock",
-  "stadium": "Pirate Stadium",
-  "stadium_id": null
+  "stadium": "Pirate Stadium at First United Park",
+  "stadium_id": 1313
  },
  "Pirate Stadium, Lubbock || Jim Ned v Dalhart": {
   "address": "",
@@ -20339,6 +23474,30 @@
   "stadium": "Greg Sherwood Memorial Stadium",
   "stadium_id": 735
  },
+ "Planet Ford Stadium || Spring Dekaney v Conroe Oak Ridge": {
+  "address": "23802 Cypresswood Dr., Spring, Texas 77373",
+  "city": "Spring",
+  "how": "stadium (map link)",
+  "lat": 30.05856,
+  "lng": -95.35258,
+  "map_link": "https://goo.gl/maps/VDQ4QMgjahxzdW6J7",
+  "rules": 10,
+  "site": "Planet Ford Stadium",
+  "stadium": "Planet Ford Stadium",
+  "stadium_id": 2503
+ },
+ "Planet Ford Stadium || Spring Westfield v Willis": {
+  "address": "23802 Cypresswood Dr., Spring, Texas 77373",
+  "city": "Spring",
+  "how": "stadium (map link)",
+  "lat": 30.05856,
+  "lng": -95.35258,
+  "map_link": "https://goo.gl/maps/VDQ4QMgjahxzdW6J7",
+  "rules": 10,
+  "site": "Planet Ford Stadium",
+  "stadium": "Planet Ford Stadium",
+  "stadium_id": 2503
+ },
  "Planet Ford Stadium, Spring || Pflugerville Weiss v Port Arthur Memorial": {
   "address": "23802 Cypresswood Dr., Spring, Texas 77373",
   "city": "Spring",
@@ -20377,6 +23536,40 @@
   "stadium": "Planet Ford Stadium",
   "stadium_id": 2503
  },
+ "Plano Clark High School || Van Alstyne v Ferris": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Plano Clark High School",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Pleasant Grove High School || Texarkana Pleasant Grove v Brownsboro": {
+  "address": "5406 Mcknight Road, Texarkana, Texas 75503",
+  "city": "Texarkana",
+  "how": "school (map link)",
+  "lat": 33.4678,
+  "lng": -94.11158,
+  "map_link": "https://goo.gl/maps/yWQ8QAhZAqQ4nuzj7",
+  "rules": 10,
+  "site": "Pleasant Grove High School",
+  "stadium": "Hawk Stadium",
+  "stadium_id": 1306
+ },
+ "Pleasant Grove High School || Texarkana Pleasant Grove v Bullard": {
+  "address": "5406 Mcknight Road, Texarkana, Texas 75503",
+  "city": "Texarkana",
+  "how": "school (map link)",
+  "lat": 33.4678,
+  "lng": -94.11158,
+  "map_link": "https://goo.gl/maps/yWQ8QAhZAqQ4nuzj7",
+  "rules": 10,
+  "site": "Pleasant Grove High School",
+  "stadium": "Hawk Stadium",
+  "stadium_id": 1306
+ },
  "Pleasanton ISD Eagle Stadium || Bandera v Kingsville King": {
   "address": "831 Stadium Dr., Pleasanton, Texas 78064",
   "city": "Pleasanton",
@@ -20414,6 +23607,16 @@
   "site": "Pleasanton",
   "stadium": "Eagle Stadium",
   "stadium_id": 917
+ },
+ "Pleasanton-EagleFld || Freer v Shiner": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Pleasanton-EagleFld",
+  "stadium": null,
+  "stadium_id": null
  },
  "Plugerville Pfield || Bellville v Wimberley": {
   "address": "",
@@ -20717,6 +23920,29 @@
   "stadium": "Jimmie Redman Memorial Stadium",
   "stadium_id": 720
  },
+ "Postell Stadium || Arlington High v Dallas Jesuit": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Postell Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Poth Jack Lane Stadium || Schulenburg v Freer": {
+  "address": "Westmeyer Rd At Wright, Poth, Texas 78147",
+  "city": "Poth",
+  "how": "stadium (map link)",
+  "lat": 29.07756,
+  "link_tried": true,
+  "lng": -98.07359,
+  "map_link": "https://goo.gl/maps/P1oebe5s29y3p8dH9",
+  "rules": 10,
+  "site": "Poth Jack Lane Stadium",
+  "stadium": "Jack Lane Stadium",
+  "stadium_id": 102
+ },
  "Prairie View A&M || Richmond Randle v Iowa Colony": {
   "address": "",
   "how": "no stadium, school or town matched",
@@ -20739,6 +23965,16 @@
   "site": "Prairie View Panther Stadium",
   "stadium": "Panther Stadium",
   "stadium_id": 1720
+ },
+ "Premont Cowboy Std || La Villa v Three Rivers": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Premont Cowboy Std",
+  "stadium": null,
+  "stadium_id": null
  },
  "Priddy High School, Priddy || Medina v Aquilla": {
   "address": "11 Co Road 141 #141, Priddy, Texas 76870",
@@ -20934,6 +24170,41 @@
   "stadium": "R. Clinton Schulze Puncher Dome Stadium",
   "stadium_id": 151
  },
+ "R.L. Anderson Stadium (Mansfield, TX) || Mansfield Timberview v Anna": {
+  "address": "1015 E. Broad St., Mansfield, Texas 76063",
+  "city": "Mansfield",
+  "how": "stadium (map link)",
+  "lat": 32.56659,
+  "link_tried": true,
+  "lng": -97.13139,
+  "map_link": "https://goo.gl/maps/Nxuk84wNUfRPWzQ69",
+  "rules": 10,
+  "site": "R.L. Anderson Stadium (Mansfield, TX)",
+  "stadium": "R. L. Anderson Stadium",
+  "stadium_id": 291
+ },
+ "Rains High School (Emory, TX) || Cooper v Frankston": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Rains High School (Emory, TX)",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Rains High School || Honey Grove v Union Grove": {
+  "address": "371 FM 3299, Emory, Texas 75440",
+  "city": "Emory",
+  "how": "school (map link)",
+  "lat": 32.88933,
+  "lng": -95.79148,
+  "map_link": "https://goo.gl/maps/Rsyo9LgTFj4qAC3R9",
+  "rules": 10,
+  "site": "Rains High School",
+  "stadium": "Wildcat Stadium",
+  "stadium_id": 1678
+ },
  "Ram Stadium, Mineral Wells || Mason v Tioga": {
   "address": "3801 Ram Blvd, Mineral Wells, Texas 76067",
   "city": "Mineral Wells",
@@ -20959,6 +24230,16 @@
   "stadium": "Ram Stadium",
   "stadium_id": 684
  },
+ "Randall Reed Stadium || West Orange-Stark v Sweeny": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Randall Reed Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Randall Reed Stadium, New Caney || Conroe Oak Ridge v Tomball High": {
   "address": "",
   "city": "New Caney",
@@ -20972,6 +24253,19 @@
   "stadium_id": null
  },
  "Randall Reed Stadium, New Caney || Little Cypress-Mauriceville v El Campo": {
+  "address": "21360 Valley Ranch Pkwy, New Caney, Texas 77357",
+  "city": "New Caney",
+  "how": "stadium",
+  "lat": 30.13568,
+  "link_tried": true,
+  "lng": -95.23305,
+  "map_link": "https://goo.gl/maps/TVJ1cEsvBjaJfuUJ7",
+  "rules": 10,
+  "site": "Randall Reed Stadium, New Caney",
+  "stadium": "Randall Reed Stadium",
+  "stadium_id": 873
+ },
+ "Randall Reed Stadium, New Caney || West Orange-Stark v Wharton": {
   "address": "",
   "city": "New Caney",
   "how": "coordinates confirmed by hand",
@@ -21021,6 +24315,30 @@
   "stadium": "Ratliff Stadium",
   "stadium_id": 1002
  },
+ "Ratliff Stadium || El Paso Riverside v Hereford": {
+  "address": "North Grandview & Yukon, Odessa, Texas 79765",
+  "city": "Odessa",
+  "how": "stadium (map link)",
+  "lat": 31.92073,
+  "lng": -102.3645,
+  "map_link": "https://goo.gl/maps/dLugWPkwfSzT5Hvd9",
+  "rules": 10,
+  "site": "Ratliff Stadium",
+  "stadium": "Ratliff Stadium",
+  "stadium_id": 1002
+ },
+ "Ratliff Stadium || Wink v Sundown": {
+  "address": "North Grandview & Yukon, Odessa, Texas 79765",
+  "city": "Odessa",
+  "how": "stadium (map link)",
+  "lat": 31.92073,
+  "lng": -102.3645,
+  "map_link": "https://goo.gl/maps/dLugWPkwfSzT5Hvd9",
+  "rules": 10,
+  "site": "Ratliff Stadium",
+  "stadium": "Ratliff Stadium",
+  "stadium_id": 1002
+ },
  "Ratliff Stadium, Odessa || Fort Worth Arlington Heights v El Paso Canutillo": {
   "address": "",
   "city": "Odessa",
@@ -21034,28 +24352,42 @@
   "stadium_id": null
  },
  "Ratliff Stadium, Odessa || Odessa Permian v Keller": {
-  "address": "",
+  "address": "North Grandview & Yukon, Odessa, Texas 79765",
   "city": "Odessa",
-  "how": "coordinates confirmed by hand",
-  "lat": 31.92073,
-  "lng": -102.3645,
-  "map_link": "",
+  "how": "stadium",
+  "lat": 31.9127,
+  "link_tried": true,
+  "lng": -102.3592,
+  "map_link": "https://goo.gl/maps/dLugWPkwfSzT5Hvd9",
   "rules": 10,
   "site": "Ratliff Stadium, Odessa",
   "stadium": "Ratliff Stadium",
-  "stadium_id": null
+  "stadium_id": 1002
  },
  "Ratliff Stadium, Odessa || Post v Ozona": {
-  "address": "",
+  "address": "North Grandview & Yukon, Odessa, Texas 79765",
   "city": "Odessa",
-  "how": "coordinates confirmed by hand",
-  "lat": 31.92073,
-  "lng": -102.3645,
-  "map_link": "",
+  "how": "stadium",
+  "lat": 31.9127,
+  "lng": -102.3592,
+  "map_link": "https://goo.gl/maps/dLugWPkwfSzT5Hvd9",
   "rules": 10,
   "site": "Ratliff Stadium, Odessa",
   "stadium": "Ratliff Stadium",
-  "stadium_id": null
+  "stadium_id": 1002
+ },
+ "Rattler Stadium, San Marcos High School || Lago Vista v Bandera": {
+  "address": "2601 Rattler Rd, San Marcos, Texas 78666",
+  "city": "San Marcos",
+  "how": "stadium (map link)",
+  "lat": 29.82126,
+  "link_tried": true,
+  "lng": -97.94502,
+  "map_link": "https://goo.gl/maps/sT16ANFK7Z8BGfiX8",
+  "rules": 10,
+  "site": "Rattler Stadium, San Marcos High School",
+  "stadium": "Toyota Rattler Stadium",
+  "stadium_id": 1680
  },
  "Ray Akins Wildcat Stadium || Gregory-Portland v Mission Sharyland Pioneer": {
   "address": "4600 Wildcat Drive, Portland, Texas 78374",
@@ -21068,6 +24400,28 @@
   "site": "Ray Akins Wildcat Stadium",
   "stadium": "Ray Akins Wildcat Stadium",
   "stadium_id": 213
+ },
+ "Ray Maddry Stadium || Channelview v Houston King": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Ray Maddry Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Ray Maddry Stadium, Channelview ISD || West Columbia v Shepherd": {
+  "address": "828 Sheldon Rd., Channelview, Texas 77530",
+  "city": "Channelview",
+  "how": "school (map link)",
+  "lat": 29.79223,
+  "lng": -95.1205,
+  "map_link": "https://goo.gl/maps/y1WnDaSAJAQtReKx9",
+  "rules": 10,
+  "site": "Ray Maddry Stadium, Channelview ISD",
+  "stadium": "Ray Maddry Memorial Stadium",
+  "stadium_id": 475
  },
  "Red Devil Stadium, Rankin || Rocksprings v Blackwell": {
   "address": "1300 N. Upton, Rankin, Texas 79778",
@@ -21120,16 +24474,17 @@
   "stadium_id": null
  },
  "Rhodes Stadium, Katy || Bastrop v Huntsville": {
-  "address": "",
+  "address": "1640 Katyland Dr, Katy, Texas 77493",
   "city": "Katy",
-  "how": "coordinates confirmed by hand",
+  "how": "stadium",
   "lat": 29.79137,
+  "link_tried": true,
   "lng": -95.81101,
-  "map_link": "",
+  "map_link": "https://goo.gl/maps/LBEVuH95hAhjacdp8",
   "rules": 10,
   "site": "Rhodes Stadium, Katy",
-  "stadium": "Rhodes Stadium",
-  "stadium_id": null
+  "stadium": "Jack Rhodes Memorial Stadium",
+  "stadium_id": 518
  },
  "Rhodes Stadium, Katy || Cuero v Hamshire-Fannett": {
   "address": "",
@@ -21168,16 +24523,16 @@
   "stadium_id": null
  },
  "Rhodes Stadium, Katy || Houston Yates v La Grange": {
-  "address": "",
+  "address": "1640 Katyland Dr, Katy, Texas 77493",
   "city": "Katy",
-  "how": "coordinates confirmed by hand",
+  "how": "stadium",
   "lat": 29.79137,
   "lng": -95.81101,
-  "map_link": "",
+  "map_link": "https://goo.gl/maps/LBEVuH95hAhjacdp8",
   "rules": 10,
   "site": "Rhodes Stadium, Katy",
-  "stadium": "Rhodes Stadium",
-  "stadium_id": null
+  "stadium": "Jack Rhodes Memorial Stadium",
+  "stadium_id": 518
  },
  "Rhodes Stadium, Katy || Katy Cinco Ranch v Galena Park North Shore": {
   "address": "",
@@ -21229,6 +24584,18 @@
   "stadium": "Richard R. Flores Stadium",
   "stadium_id": 911
  },
+ "Richard Flores Stadium Edinburg, Texas || Edinburg Vela v Corpus Christi Veterans Memorial": {
+  "address": "1800 S Stadium Dr, Edinburg, Texas 78539",
+  "city": "Edinburg",
+  "how": "stadium (map link)",
+  "lat": 26.28298,
+  "lng": -98.1624,
+  "map_link": "https://goo.gl/maps/PurYScT9spqv4hrq5",
+  "rules": 10,
+  "site": "Richard Flores Stadium Edinburg, Texas",
+  "stadium": "Richard R. Flores Stadium",
+  "stadium_id": 911
+ },
  "Richard Flores Stadium Edinburg, Texas || San Antonio Sotomayor v Edinburg Vela": {
   "address": "1800 S Stadium Dr, Edinburg, Texas 78539",
   "city": "Edinburg",
@@ -21254,6 +24621,16 @@
   "stadium": "Richard R. Flores Stadium",
   "stadium_id": 911
  },
+ "Richard Flores Stadium || Edinburg Vela v Harlingen South": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Richard Flores Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Richard R. Flores Stadium, Edinburg || Corpus Christi Miller v Edinburg Vela": {
   "address": "",
   "city": "Edinburg",
@@ -21276,6 +24653,16 @@
   "rules": 10,
   "site": "Richard R. Flores Stadium, Edinburg",
   "stadium": "Richard R. Flores Stadium",
+  "stadium_id": null
+ },
+ "Richland HS || Richardson v Haltom": {
+  "address": "",
+  "how": "several schools with this name",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Richland HS",
+  "stadium": null,
   "stadium_id": null
  },
  "Rising Star || Strawn v Gustine": {
@@ -21764,6 +25151,26 @@
   "stadium": "Roughrider Stadium",
   "stadium_id": 555
  },
+ "Round 1 Bi District - 10 4A / 9 4A || Lumberton v Longview Pine Tree": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Round 1 Bi District - 10 4A / 9 4A",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Round 1 of playoffs. || Fort Bend Hightower v Katy Morton Ranch": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Round 1 of playoffs.",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Round Rock || Austin Lake Travis v Austin Westlake": {
   "address": "300 North Lake Creek Drive, Round Rock, Texas 78681",
   "city": "Round Rock",
@@ -21815,6 +25222,18 @@
   "site": "Round Rock",
   "stadium": "Dragon Stadium",
   "stadium_id": 5
+ },
+ "Royse City High School || Canton v Caddo Mills": {
+  "address": "650 FM 2642 (Exit number 79 IH30), Royse City, Texas 75189",
+  "city": "Royse City",
+  "how": "school (map link)",
+  "lat": 32.97677,
+  "lng": -96.28986,
+  "map_link": "https://goo.gl/maps/L1AteM9Tjj2PhiMCA",
+  "rules": 10,
+  "site": "Royse City High School",
+  "stadium": "Royse City ISD Stadium",
+  "stadium_id": 1241
  },
  "Royse City ISD Stadium, Royse City || Gilmer v Sanger": {
   "address": "650 FM 2642 (Exit number 79 IH30), Royse City, Texas 75189",
@@ -22004,6 +25423,41 @@
   "stadium": "SAISD Sports Complex",
   "stadium_id": 853
  },
+ "SISD SAC - El Paso || El Paso Americas v Lubbock Monterey": {
+  "address": "",
+  "city": "El Paso",
+  "how": "named:SISD SAC, El Paso",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "SISD SAC - El Paso",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "SISD SAC - El Paso || El Paso El Dorado v Amarillo High": {
+  "address": "",
+  "city": "El Paso",
+  "how": "named:SISD SAC, El Paso",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "SISD SAC - El Paso",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Saginaw HS || Saginaw v Azle": {
+  "address": "800 N. Blue Mound Rd., Saginaw, Texas 76131",
+  "city": "Saginaw",
+  "how": "school (map link)",
+  "lat": 32.86879,
+  "link_tried": true,
+  "lng": -97.34781,
+  "map_link": "https://goo.gl/maps/r6GwUNKFReZxZU6u7",
+  "rules": 10,
+  "site": "Saginaw HS",
+  "stadium": "Roughrider Stadium",
+  "stadium_id": 1037
+ },
  "Sam Parker Field, Mount Pleasant || Van Alstyne v Texarkana Pleasant Grove": {
   "address": "2801 Old Paris Rd, Mount Pleasant, Texas 75455",
   "city": "Mount Pleasant",
@@ -22048,6 +25502,18 @@
   "site": "San Angelo Bobcat Stadium",
   "stadium": null,
   "stadium_id": null
+ },
+ "San Angelo Stadium || Andrews v Burnet": {
+  "address": "1919 Knickerbocker Rd, San Angelo, Texas 76904",
+  "city": "San Angelo",
+  "how": "stadium (map link)",
+  "lat": 31.43042,
+  "lng": -100.45998,
+  "map_link": "https://goo.gl/maps/zSVX5h2VG152aGnt9",
+  "rules": 10,
+  "site": "San Angelo Stadium",
+  "stadium": "San Angelo Stadium",
+  "stadium_id": 1004
  },
  "San Angelo Stadium || Brock v Lubbock Estacado": {
   "address": "1919 Knickerbocker Rd, San Angelo, Texas 76904",
@@ -22176,6 +25642,18 @@
   "map_link": "https://goo.gl/maps/zSVX5h2VG152aGnt9",
   "rules": 10,
   "site": "San Angelo Stadium, San Angelo",
+  "stadium": "San Angelo Stadium",
+  "stadium_id": 1004
+ },
+ "San Angelo || Big Spring v Brownwood": {
+  "address": "1919 Knickerbocker Rd, San Angelo, Texas 76904",
+  "city": "San Angelo",
+  "how": "stadium (map link)",
+  "lat": 31.43042,
+  "lng": -100.45998,
+  "map_link": "https://goo.gl/maps/zSVX5h2VG152aGnt9",
+  "rules": 10,
+  "site": "San Angelo",
   "stadium": "San Angelo Stadium",
   "stadium_id": 1004
  },
@@ -23497,6 +26975,16 @@
   "stadium": null,
   "stadium_id": null
  },
+ "Seguin HS || Weimar v Junction": {
+  "address": "",
+  "how": "several schools with this name",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Seguin HS",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Seguin || Austin LBJ v La Vernia": {
   "address": "",
   "how": "several schools with this name",
@@ -23676,6 +27164,19 @@
   "stadium": null,
   "stadium_id": null
  },
+ "Sharyland High School || Mission Sharyland v Brownsville Porter": {
+  "address": "1106 N. Shary Rd., Mission, Texas 78572",
+  "city": "Mission",
+  "how": "school (map link)",
+  "lat": 26.21376,
+  "link_tried": true,
+  "lng": -98.28382,
+  "map_link": "https://goo.gl/maps/MxJA8Mua8V3ga9a86",
+  "rules": 10,
+  "site": "Sharyland High School",
+  "stadium": "Richard Thompson Stadium",
+  "stadium_id": 950
+ },
  "Sheldon ISD Panther Stadium || Houston King v Clear Springs": {
   "address": "11433C East Sam Houston Parkway North, Houston, Texas 77044",
   "city": "Houston",
@@ -23712,16 +27213,17 @@
   "stadium_id": null
  },
  "Sheldon ISD Panther Stadium, Houston || Humble Atascocita v Houston Memorial": {
-  "address": "",
+  "address": "11433C East Sam Houston Parkway North, Houston, Texas 77044",
   "city": "Houston",
-  "how": "coordinates confirmed by hand",
-  "lat": 29.87661,
-  "lng": -95.19594,
-  "map_link": "",
+  "how": "stadium (town only)",
+  "lat": 29.75894,
+  "link_tried": true,
+  "lng": -95.3677,
+  "map_link": "https://goo.gl/maps/QmGujjAKuiCSnGxo7",
   "rules": 10,
   "site": "Sheldon ISD Panther Stadium, Houston",
   "stadium": "Sheldon ISD Panther Stadium",
-  "stadium_id": null
+  "stadium_id": 3381
  },
  "Sheldon ISD Panther Stadium, Houston || Kilgore v Bay City": {
   "address": "",
@@ -23768,6 +27270,18 @@
   "site": "Sheldon",
   "stadium": null,
   "stadium_id": null
+ },
+ "Shelton Stadium - Hays CISD || Devine v Jarrell": {
+  "address": "Simmons Ave & Vogel St, Abilene, Texas 79601",
+  "city": "Abilene",
+  "how": "stadium (map link)",
+  "lat": 32.47816,
+  "lng": -99.73647,
+  "map_link": "https://goo.gl/maps/cPqiSJLD9Ge1GBAZ6",
+  "rules": 10,
+  "site": "Shelton Stadium - Hays CISD",
+  "stadium": "Shelton Stadium",
+  "stadium_id": 1052
  },
  "Shelton Stadium, Buda || Junction v Bartlett": {
   "address": "4800 Jack C. Hays Trail, Buda, Texas 78610",
@@ -24061,16 +27575,17 @@
   "stadium_id": null
  },
  "Shotwell Stadium, Abilene || Denton Ryan v Frenship": {
-  "address": "",
+  "address": "1525 E. S. 11th St, Abilene, Texas 79602",
   "city": "Abilene",
-  "how": "coordinates confirmed by hand",
+  "how": "stadium",
   "lat": 32.43373,
+  "link_tried": true,
   "lng": -99.6982,
-  "map_link": "",
+  "map_link": "https://goo.gl/maps/CejNppU8gPYVjYwX6",
   "rules": 10,
   "site": "Shotwell Stadium, Abilene",
-  "stadium": "Shotwell Stadium",
-  "stadium_id": null
+  "stadium": "P.E. Shotwell Stadium",
+  "stadium_id": 997
  },
  "Shotwell Stadium, Abilene || Fort Worth Arlington Heights v Lubbock Monterey": {
   "address": "",
@@ -24204,6 +27719,16 @@
   "stadium": "Shotwell Stadium",
   "stadium_id": null
  },
+ "Silsbee are Visitors || Brookshire Royal v Silsbee": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Silsbee are Visitors",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Silverton High School, Football Field || Motley County v Lefors": {
   "address": "700 Loretta St, Silverton, Texas 79257",
   "city": "Silverton",
@@ -24279,6 +27804,16 @@
   "site": "Slaton",
   "stadium": "Blake J Boyd Memorial Stadium",
   "stadium_id": 822
+ },
+ "Smithson Valley HS || Comal Smithson Valley v South San Antonio": {
+  "address": "",
+  "how": "site names a team's school, but not in that team's town",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Smithson Valley HS",
+  "stadium": null,
+  "stadium_id": null
  },
  "Smithson Valley Ranger Stadium || Comal Smithson Valley v Laredo Nixon": {
   "address": "14001 State Highway 46 W, Spring Branch, Texas 78070",
@@ -24393,6 +27928,42 @@
   "site": "Smithville's Tiger Stadium",
   "stadium": "Tiger Stadium",
   "stadium_id": 175
+ },
+ "Snyder High School || Ropes v McCamey": {
+  "address": "3901 Denison Ave, Snyder, Texas 79549",
+  "city": "Snyder",
+  "how": "school (map link)",
+  "lat": 32.70251,
+  "lng": -100.93084,
+  "map_link": "https://maps.app.goo.gl/isXFJpXnaUGkXRir6",
+  "rules": 10,
+  "site": "Snyder High School",
+  "stadium": "Grant Teaff Tiger Stadium",
+  "stadium_id": 1009
+ },
+ "Snyder High School || Ropesville v Sterling City": {
+  "address": "3901 Denison Ave, Snyder, Texas 79549",
+  "city": "Snyder",
+  "how": "school (map link)",
+  "lat": 32.70251,
+  "lng": -100.93084,
+  "map_link": "https://maps.app.goo.gl/isXFJpXnaUGkXRir6",
+  "rules": 10,
+  "site": "Snyder High School",
+  "stadium": "Grant Teaff Tiger Stadium",
+  "stadium_id": 1009
+ },
+ "Snyder High School || Stamford v Sonora": {
+  "address": "3901 Denison Ave, Snyder, Texas 79549",
+  "city": "Snyder",
+  "how": "school (map link)",
+  "lat": 32.70251,
+  "lng": -100.93084,
+  "map_link": "https://maps.app.goo.gl/isXFJpXnaUGkXRir6",
+  "rules": 10,
+  "site": "Snyder High School",
+  "stadium": "Grant Teaff Tiger Stadium",
+  "stadium_id": 1009
  },
  "Snyder High School || Stanton v Henrietta": {
   "address": "3901 Denison Ave, Snyder, Texas 79549",
@@ -24572,6 +28143,18 @@
   "stadium": "Bronco Stadium",
   "stadium_id": 976
  },
+ "Southlake Carroll Senior HS || Southlake Carroll v Mansfield Legacy": {
+  "address": "1085 S. Kimball Ave, Southlake, Texas 76092",
+  "city": "Southlake",
+  "how": "school (map link)",
+  "lat": 32.92946,
+  "lng": -97.1119,
+  "map_link": "https://goo.gl/maps/1tWzQrMKAb1JR8rW8",
+  "rules": 10,
+  "site": "Southlake Carroll Senior HS",
+  "stadium": "Dragon Stadium",
+  "stadium_id": 229
+ },
  "Southlake Dragon Stadium || Allen v Arlington Martin": {
   "address": "1085 S. Kimball Ave, Southlake, Texas 76092",
   "city": "Southlake",
@@ -24649,6 +28232,19 @@
   "stadium": "Southside ISD Stadium",
   "stadium_id": 855
  },
+ "Southwest HS || San Antonio Southwest v Seguin": {
+  "address": "11914 Dragon LN, San Antonio, Texas 78252",
+  "city": "San Antonio",
+  "how": "school (map link)",
+  "lat": 29.31282,
+  "link_tried": true,
+  "lng": -98.66975,
+  "map_link": "https://goo.gl/maps/CYygHVmigVMG15tW7",
+  "rules": 10,
+  "site": "Southwest HS",
+  "stadium": "Frazier Field at Dragon Stadium",
+  "stadium_id": 856
+ },
  "Southwest Legacy Stadium, Von Ormy || Brackettville v Granger": {
   "address": "",
   "city": "Von Ormy",
@@ -24696,6 +28292,19 @@
   "site": "Spring Branch ISD Tully Stadium",
   "stadium": "Darrell Tully Stadium",
   "stadium_id": 364
+ },
+ "Spring Hill High School || Carthage v Spring Hill": {
+  "address": "3101 Spring Hill Road (cut-off), Longview, Texas 75605",
+  "city": "Longview",
+  "how": "school (map link)",
+  "lat": 32.56281,
+  "link_tried": true,
+  "lng": -94.7965,
+  "map_link": "https://goo.gl/maps/LYPfatE2eE5SZvT28",
+  "rules": 10,
+  "site": "Spring Hill High School",
+  "stadium": "Panther Stadium",
+  "stadium_id": 538
  },
  "Spring ISD Planet Ford District Stadium || Spring Westfield v Willis": {
   "address": "23802 Cypresswood Dr., Spring, Texas 77373",
@@ -25281,6 +28890,19 @@
   "stadium": "Gerald Prim Stadium",
   "stadium_id": 699
  },
+ "Sulphur Springs- Gerald Prim Stadium || Honey Grove v Ore City": {
+  "address": "1000 Houston Street, Sulphur Springs, Texas 75482",
+  "city": "Sulphur Springs",
+  "how": "stadium (map link)",
+  "lat": 33.14089,
+  "link_tried": true,
+  "lng": -95.61511,
+  "map_link": "https://goo.gl/maps/8AAbSUGezis",
+  "rules": 10,
+  "site": "Sulphur Springs- Gerald Prim Stadium",
+  "stadium": "Gerald Prim Stadium",
+  "stadium_id": 699
+ },
  "Sundown || Ropesville v Farwell": {
   "address": "511 E 7th, Sundown, Texas 79372",
   "city": "Sundown",
@@ -25303,6 +28925,30 @@
   "map_link": "https://goo.gl/maps/ZoK3S1snEe41y7LW8",
   "rules": 10,
   "site": "Sweetwater HS",
+  "stadium": "Mustang Bowl",
+  "stadium_id": 993
+ },
+ "Sweetwater High School || Eldorado v Tahoka": {
+  "address": "1205 Ragland, Sweetwater, Texas 79556",
+  "city": "Sweetwater",
+  "how": "school (map link)",
+  "lat": 32.48228,
+  "lng": -100.40572,
+  "map_link": "https://goo.gl/maps/ZoK3S1snEe41y7LW8",
+  "rules": 10,
+  "site": "Sweetwater High School",
+  "stadium": "Mustang Bowl",
+  "stadium_id": 993
+ },
+ "Sweetwater High School || Stamford v Forsan": {
+  "address": "1205 Ragland, Sweetwater, Texas 79556",
+  "city": "Sweetwater",
+  "how": "school (map link)",
+  "lat": 32.48228,
+  "lng": -100.40572,
+  "map_link": "https://goo.gl/maps/ZoK3S1snEe41y7LW8",
+  "rules": 10,
+  "site": "Sweetwater High School",
   "stadium": "Mustang Bowl",
   "stadium_id": 993
  },
@@ -25527,6 +29173,16 @@
   "stadium": "Mustang Bowl",
   "stadium_id": 993
  },
+ "TBA || Collinsville v Roscoe": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "TBA",
+  "stadium": null,
+  "stadium_id": null
+ },
  "TMF Rose Stadium, Tyler || Cooper v Shelbyville": {
   "address": "609 Fair Park Drive, Tyler, Texas 75701",
   "city": "Tyler",
@@ -25608,6 +29264,18 @@
   "stadium": null,
   "stadium_id": null
  },
+ "Tatum High School || Gilmer v Center": {
+  "address": "483 Hill St, Tatum, Texas 75691",
+  "city": "Tatum",
+  "how": "school (map link)",
+  "lat": 32.32196,
+  "lng": -94.51507,
+  "map_link": "https://goo.gl/maps/k44xjMou3wyxeSwh7",
+  "rules": 10,
+  "site": "Tatum High School",
+  "stadium": "Eagle Stadium",
+  "stadium_id": 455
+ },
  "Tatum || Joaquin v Elysian Fields": {
   "address": "483 Hill St, Tatum, Texas 75691",
   "city": "Tatum",
@@ -25686,6 +29354,19 @@
   "stadium": "Wildcat Stadium",
   "stadium_id": 190
  },
+ "Terrell Memorial Stadium || Terrell v Seagoville": {
+  "address": "1300 W. Moore, Terrell, Texas 75160",
+  "city": "Terrell",
+  "how": "stadium (map link)",
+  "lat": 32.7398,
+  "link_tried": true,
+  "lng": -96.29503,
+  "map_link": "https://goo.gl/maps/EHtK3CUcoTLJVZCq5",
+  "rules": 10,
+  "site": "Terrell Memorial Stadium",
+  "stadium": "Terrell Memorial Stadium",
+  "stadium_id": 298
+ },
  "Texarkana Hawk Stadium || Texarkana Pleasant Grove v Farmersville": {
   "address": "5406 Mcknight Road, Texarkana, Texas 75503",
   "city": "Texarkana",
@@ -25757,6 +29438,18 @@
   "site": "The Bears' Den, Baird",
   "stadium": "The Bears' Den",
   "stadium_id": 1007
+ },
+ "The Pfield || La Vega v La Grange": {
+  "address": "1440 W Pecan St, Pflugerville, Texas 78660",
+  "city": "Pflugerville",
+  "how": "stadium (map link)",
+  "lat": 30.44853,
+  "lng": -97.63443,
+  "map_link": "https://goo.gl/maps/2Bh3mQeD8Hzt9brS7",
+  "rules": 10,
+  "site": "The Pfield",
+  "stadium": "The Pfield",
+  "stadium_id": 1732
  },
  "The Pfield, Pflugerville || Austin Lake Travis v Austin Westlake": {
   "address": "",
@@ -25855,28 +29548,29 @@
   "stadium_id": null
  },
  "The Pfield, Pflugerville || Pflugerville Weiss v Iowa Colony": {
-  "address": "",
+  "address": "1440 W Pecan St, Pflugerville, Texas 78660",
   "city": "Pflugerville",
-  "how": "coordinates confirmed by hand",
-  "lat": 30.44853,
-  "lng": -97.63443,
-  "map_link": "",
+  "how": "stadium",
+  "lat": 30.44575,
+  "lng": -97.63307,
+  "map_link": "https://goo.gl/maps/2Bh3mQeD8Hzt9brS7",
   "rules": 10,
   "site": "The Pfield, Pflugerville",
   "stadium": "The Pfield",
-  "stadium_id": null
+  "stadium_id": 1732
  },
  "The Pfield, Pflugerville || Pflugerville v Richmond Tomas": {
-  "address": "",
+  "address": "1440 W Pecan St, Pflugerville, Texas 78660",
   "city": "Pflugerville",
-  "how": "coordinates confirmed by hand",
+  "how": "stadium (map link)",
   "lat": 30.44853,
+  "link_tried": true,
   "lng": -97.63443,
-  "map_link": "",
+  "map_link": "https://goo.gl/maps/2Bh3mQeD8Hzt9brS7",
   "rules": 10,
   "site": "The Pfield, Pflugerville",
   "stadium": "The Pfield",
-  "stadium_id": null
+  "stadium_id": 1732
  },
  "The Pfield, Pflugerville || Pflugerville v Tomas": {
   "address": "1440 W Pecan St, Pflugerville, Texas 78660",
@@ -25891,16 +29585,17 @@
   "stadium_id": 1732
  },
  "The Pfield, Pflugerville || Poth v Rice Consolidated": {
-  "address": "",
+  "address": "1440 W Pecan St, Pflugerville, Texas 78660",
   "city": "Pflugerville",
-  "how": "coordinates confirmed by hand",
-  "lat": 30.44853,
-  "lng": -97.63443,
-  "map_link": "",
+  "how": "stadium",
+  "lat": 30.44575,
+  "link_tried": true,
+  "lng": -97.63307,
+  "map_link": "https://goo.gl/maps/2Bh3mQeD8Hzt9brS7",
   "rules": 10,
   "site": "The Pfield, Pflugerville",
   "stadium": "The Pfield",
-  "stadium_id": null
+  "stadium_id": 1732
  },
  "The Pfield, Pflugerville || Rockwall High v Spring Westfield": {
   "address": "",
@@ -25938,6 +29633,16 @@
   "stadium": null,
   "stadium_id": null
  },
+ "The game site is FBISD Hall Stadium. || Almeta Crawford v Houston Worthing": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "The game site is FBISD Hall Stadium.",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Thompson Stadium, Mission || Mission Sharyland v Brownsville Pace": {
   "address": "1106 N. Shary Rd., Mission, Texas 78572",
   "city": "Mission",
@@ -25949,6 +29654,19 @@
   "site": "Thompson Stadium, Mission",
   "stadium": "Richard Thompson Stadium",
   "stadium_id": 950
+ },
+ "Thorne Stadium - Aldine ISD || Houston North Forest v Navasota": {
+  "address": "1865 Aldine Bender, Houston, Texas 77032",
+  "city": "Houston",
+  "how": "stadium (map link)",
+  "lat": 29.93361,
+  "link_tried": true,
+  "lng": -95.36,
+  "map_link": "https://goo.gl/maps/7sh3THKVEVzwZ1fk8",
+  "rules": 10,
+  "site": "Thorne Stadium - Aldine ISD",
+  "stadium": "W. W. Thorne Stadium",
+  "stadium_id": 366
  },
  "Thorne Stadium, Houston || Fort Bend Ridge Point v Galena Park North Shore": {
   "address": "",
@@ -26023,16 +29741,17 @@
   "stadium_id": null
  },
  "Thorne Stadium, Houston || The Woodlands v Klein": {
-  "address": "",
+  "address": "1865 Aldine Bender, Houston, Texas 77032",
   "city": "Houston",
-  "how": "coordinates confirmed by hand",
+  "how": "stadium",
   "lat": 29.93033,
+  "link_tried": true,
   "lng": -95.3205,
-  "map_link": "",
+  "map_link": "https://goo.gl/maps/7sh3THKVEVzwZ1fk8",
   "rules": 10,
   "site": "Thorne Stadium, Houston",
-  "stadium": "Thorne Stadium",
-  "stadium_id": null
+  "stadium": "W. W. Thorne Stadium",
+  "stadium_id": 366
  },
  "Thorne Stadium, Houston || The Woodlands v Spring Klein Collins": {
   "address": "",
@@ -26229,6 +29948,16 @@
   "stadium": "Tiger Stadium at Grim Park",
   "stadium_id": 460
  },
+ "Tiger Std - Smithville ISD || Columbus v Cameron Yoe": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Tiger Std - Smithville ISD",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Tigerland Stadium || Hutto v Cy Ranch": {
   "address": "1801 Harvey Mitchell Pkwy, College Station, Texas 77840",
   "city": "College Station",
@@ -26265,6 +29994,18 @@
   "site": "Tigerland Stadium, College Station",
   "stadium": "Tigerland Stadium",
   "stadium_id": null
+ },
+ "Timpson High School || West Sabine v Grapeland": {
+  "address": "836 Bear Dr, Timpson, Texas 75975",
+  "city": "Timpson",
+  "how": "school (map link)",
+  "lat": 31.90637,
+  "lng": -94.38696,
+  "map_link": "https://goo.gl/maps/jNbU7wwTYrgeFdqv8",
+  "rules": 10,
+  "site": "Timpson High School",
+  "stadium": "John Herbert Eakin Stadium",
+  "stadium_id": 423
  },
  "Timpson ISD Bear Stadium || Newton v Elkhart": {
   "address": "",
@@ -26315,6 +30056,43 @@
   "site": "Tom Landry Stadium, Mission",
   "stadium": "Tom Landry Stadium",
   "stadium_id": 960
+ },
+ "Tomato Bowl in Jacksonville Tx || Garrison v Corrigan-Camden": {
+  "address": "202 Austin Street, Jacksonville, Texas 75766",
+  "city": "Jacksonville",
+  "how": "stadium (map link)",
+  "lat": 31.96561,
+  "link_tried": true,
+  "lng": -95.26699,
+  "map_link": "https://goo.gl/maps/TnGxxBwkA1Q1N3fD8",
+  "rules": 10,
+  "site": "Tomato Bowl in Jacksonville Tx",
+  "stadium": "The Tomato Bowl",
+  "stadium_id": 567
+ },
+ "Tomball ISD Stadium || East Chambers v Diboll": {
+  "address": "20235 Cypress Rosehill Road, Tomball, Texas 77375",
+  "city": "Tomball",
+  "how": "stadium (map link)",
+  "lat": 30.05549,
+  "lng": -95.70104,
+  "map_link": "https://goo.gl/maps/Z6Jh79x8crv1Gjhu6",
+  "rules": 10,
+  "site": "Tomball ISD Stadium",
+  "stadium": "Tomball ISD Stadium",
+  "stadium_id": 616
+ },
+ "Tomball ISD Stadium || Tomball High v Cypress Woods": {
+  "address": "20235 Cypress Rosehill Road, Tomball, Texas 77375",
+  "city": "Tomball",
+  "how": "stadium (map link)",
+  "lat": 30.05549,
+  "lng": -95.70104,
+  "map_link": "https://goo.gl/maps/Z6Jh79x8crv1Gjhu6",
+  "rules": 10,
+  "site": "Tomball ISD Stadium",
+  "stadium": "Tomball ISD Stadium",
+  "stadium_id": 616
  },
  "Tomball ISD Stadium || Tomball High v Langham Creek": {
   "address": "20235 Cypress Rosehill Road, Tomball, Texas 77375",
@@ -26572,16 +30350,17 @@
   "stadium_id": null
  },
  "Toyota Rattler Stadium, San Marcos || Austin Westlake v San Antonio Pieper": {
-  "address": "",
+  "address": "2601 Rattler Rd, San Marcos, Texas 78666",
   "city": "San Marcos",
-  "how": "coordinates confirmed by hand",
+  "how": "stadium",
   "lat": 29.82228,
+  "link_tried": true,
   "lng": -97.94768,
-  "map_link": "",
+  "map_link": "https://goo.gl/maps/sT16ANFK7Z8BGfiX8",
   "rules": 10,
   "site": "Toyota Rattler Stadium, San Marcos",
   "stadium": "Toyota Rattler Stadium",
-  "stadium_id": null
+  "stadium_id": 1680
  },
  "Toyota Rattler Stadium, San Marcos || Edna v San Antonio Cole": {
   "address": "",
@@ -26596,16 +30375,16 @@
   "stadium_id": null
  },
  "Toyota Rattler Stadium, San Marcos || Jarrell v El Campo": {
-  "address": "",
+  "address": "2601 Rattler Rd, San Marcos, Texas 78666",
   "city": "San Marcos",
-  "how": "coordinates confirmed by hand",
+  "how": "stadium",
   "lat": 29.82228,
   "lng": -97.94768,
-  "map_link": "",
+  "map_link": "https://goo.gl/maps/sT16ANFK7Z8BGfiX8",
   "rules": 10,
   "site": "Toyota Rattler Stadium, San Marcos",
   "stadium": "Toyota Rattler Stadium",
-  "stadium_id": null
+  "stadium_id": 1680
  },
  "Toyota Rattler Stadium, San Marcos || Llano v Edna": {
   "address": "",
@@ -26667,6 +30446,16 @@
   "stadium": "Toyota Rattler Stadium",
   "stadium_id": null
  },
+ "Traylor Stadium || Richmond Foster v Fulshear Jordan": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Traylor Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Traylor Stadium, Rosenberg || Richmond Randle v A&M Consolidated": {
   "address": "4606 Mustang Ave, Rosenberg, Texas 77469",
   "city": "Rosenberg",
@@ -26716,6 +30505,30 @@
   "site": "Trooper Stadium",
   "stadium": "Trooper Stadium",
   "stadium_id": 601
+ },
+ "Tulia HS || Panhandle v Post": {
+  "address": "501 NE Hornet Place, Tulia, Texas 79088",
+  "city": "Tulia",
+  "how": "school (map link)",
+  "lat": 34.54004,
+  "lng": -101.75666,
+  "map_link": "https://goo.gl/maps/NnSnqZU4gUMWJTXz7",
+  "rules": 10,
+  "site": "Tulia HS",
+  "stadium": "Younger Field",
+  "stadium_id": 835
+ },
+ "Tulia High School || Post v Spearman": {
+  "address": "501 NE Hornet Place, Tulia, Texas 79088",
+  "city": "Tulia",
+  "how": "school (map link)",
+  "lat": 34.54004,
+  "lng": -101.75666,
+  "map_link": "https://goo.gl/maps/NnSnqZU4gUMWJTXz7",
+  "rules": 10,
+  "site": "Tulia High School",
+  "stadium": "Younger Field",
+  "stadium_id": 835
  },
  "Tulia || Booker v Whiteface": {
   "address": "501 NE Hornet Place, Tulia, Texas 79088",
@@ -26807,16 +30620,16 @@
   "stadium_id": null
  },
  "Tully Stadium, Houston || Houston Memorial v Manvel": {
-  "address": "",
+  "address": "1050 Dairy Ashford, Houston, Texas 77079",
   "city": "Houston",
-  "how": "coordinates confirmed by hand",
+  "how": "stadium",
   "lat": 29.77868,
   "lng": -95.6063,
-  "map_link": "",
+  "map_link": "https://goo.gl/maps/dt5v3mkS1Y6E9dzx5",
   "rules": 10,
   "site": "Tully Stadium, Houston",
-  "stadium": "Tully Stadium",
-  "stadium_id": null
+  "stadium": "Darrell Tully Stadium",
+  "stadium_id": 364
  },
  "Tully Stadium, Houston || Houston Stratford v Fulshear Jordan": {
   "address": "",
@@ -26878,6 +30691,30 @@
   "site": "Tuloso Midway ISD Tuloso Midway HS",
   "stadium": "Warrior Stadium",
   "stadium_id": 211
+ },
+ "Tuloso-Midway HS || CC Tuloso-Midway v La Vernia": {
+  "address": "9760 McKinzie, Corpus Christi, Texas 78410",
+  "city": "Corpus Christi",
+  "how": "school (map link)",
+  "lat": 27.82919,
+  "lng": -97.57924,
+  "map_link": "https://goo.gl/maps/vP8dH4Z53hXBLkjP7",
+  "rules": 10,
+  "site": "Tuloso-Midway HS",
+  "stadium": "Warrior Stadium",
+  "stadium_id": 211
+ },
+ "Turner Stadium (Humble ISD) || Humble Summer Creek v Clear Falls": {
+  "address": "1700 Wilson Road, Humble, Texas 77338",
+  "city": "Humble",
+  "how": "stadium (map link)",
+  "lat": 29.98298,
+  "lng": -95.24569,
+  "map_link": "https://goo.gl/maps/G8wYEzoiyuLYwYDM8",
+  "rules": 10,
+  "site": "Turner Stadium (Humble ISD)",
+  "stadium": "Turner Stadium",
+  "stadium_id": 365
  },
  "Turner Stadium, Humble || Pearland v Humble Atascocita": {
   "address": "1700 Wilson Road, Humble, Texas 77338",
@@ -27087,6 +30924,36 @@
   "stadium": "Christus Trinity Mother Frances Rose Stadium",
   "stadium_id": 568
  },
+ "Tyler-Rose Stadium || Athens v Van": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Tyler-Rose Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Tyler-Rose Stadium || Beckville v Alba-Golden": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Tyler-Rose Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Tyler-Rose Stadium || Malakoff v Tatum": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Tyler-Rose Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
  "UMHB (Belton || Lovelady v Hico": {
   "address": "",
   "how": "no stadium, school or town matched",
@@ -27094,6 +30961,16 @@
   "missed": "2026-11-17",
   "rules": 10,
   "site": "UMHB (Belton",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "UMHB Crusader Stadium || La Vega v La Grange": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "UMHB Crusader Stadium",
   "stadium": null,
   "stadium_id": null
  },
@@ -27195,6 +31072,19 @@
   "stadium": "Van Memorial Stadium",
   "stadium_id": 1295
  },
+ "Venue: Leo Buckley Stadium || Harker Heights v Mansfield": {
+  "address": "3498 Atkinson Ave, Killeen, Texas 76543",
+  "city": "Killeen",
+  "how": "stadium (map link)",
+  "lat": 31.10991,
+  "link_tried": true,
+  "lng": -97.69439,
+  "map_link": "https://goo.gl/maps/iRCx4CvmWew9RcTU9",
+  "rules": 10,
+  "site": "Venue: Leo Buckley Stadium",
+  "stadium": "Leo Buckley Stadium",
+  "stadium_id": 110
+ },
  "Vernon High School || Shallowater v Peaster": {
   "address": "Paradise St & Stadium St, Vernon, Texas 76384",
   "city": "Vernon",
@@ -27207,6 +31097,16 @@
   "site": "Vernon High School",
   "stadium": "Lion Stadium",
   "stadium_id": 680
+ },
+ "Vernon Newsome Stadium || Mansfield Timberview v Heritage": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Vernon Newsome Stadium",
+  "stadium": null,
+  "stadium_id": null
  },
  "Vernon || Bushland v Brock": {
   "address": "Paradise St & Stadium St, Vernon, Texas 76384",
@@ -27299,6 +31199,60 @@
   "stadium": "Lion Stadium",
   "stadium_id": 680
  },
+ "Veterans Memorial HS (JISD) || Brackettville v Burton": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Veterans Memorial HS (JISD)",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Veterans Stadium (JF Kennedy HS) || San Antonio Cole v Ingram Moore": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Veterans Stadium (JF Kennedy HS)",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Vets Mem Std - Beeville ISD || Refugio v Kenedy": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Vets Mem Std - Beeville ISD",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Vets Mem. Std - McAllen || McAllen Memorial v Corpus Christi Flour Bluff": {
+  "address": "2155 North Bicentennial Boulevard, McAllen, Texas 78501",
+  "city": "McAllen",
+  "how": "town (map link)",
+  "lat": 26.22388,
+  "lng": -98.2373,
+  "map_link": "https://goo.gl/maps/oh6oCgZPThijshDW7",
+  "rules": 10,
+  "site": "Vets Mem. Std - McAllen",
+  "stadium": "McAllen Memorial Stadium",
+  "stadium_id": 942
+ },
+ "Victoria Memorial Stadium || CC Tuloso-Midway v Bay City": {
+  "address": "1110 Sam Houston Dr, Victoria, Texas 77901",
+  "city": "Victoria",
+  "how": "stadium (map link)",
+  "lat": 28.82609,
+  "lng": -96.97138,
+  "map_link": "https://goo.gl/maps/8hmhUAiFwEUuHg4W9",
+  "rules": 10,
+  "site": "Victoria Memorial Stadium",
+  "stadium": "Memorial Stadium",
+  "stadium_id": 405
+ },
  "Victoria Memorial Stadium || Ganado v Refugio": {
   "address": "1110 Sam Houston Dr, Victoria, Texas 77901",
   "city": "Victoria",
@@ -27363,6 +31317,16 @@
   "site": "Victoria Memorial Stadium",
   "stadium": "Memorial Stadium",
   "stadium_id": 405
+ },
+ "Victoria Memorial Std || Ganado v Skidmore-Tynan": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Victoria Memorial Std",
+  "stadium": null,
+  "stadium_id": null
  },
  "Victoria Memorial || Jourdanton v Edna": {
   "address": "",
@@ -27435,6 +31399,16 @@
   "site": "WTAMU Buffalo Stadium",
   "stadium": "Buffalo Stadium",
   "stadium_id": 2625
+ },
+ "Waco ISD Sports Complex || Marlin v Holland": {
+  "address": "",
+  "how": "district:Sports Complex, Waco",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Waco ISD Sports Complex",
+  "stadium": null,
+  "stadium_id": null
  },
  "Waco ISD Stadium || Austin LBJ v Huntsville": {
   "address": "1401 S. New Rd, Waco, Texas 76711",
@@ -27520,6 +31494,18 @@
   "how": "stadium (map link)",
   "lat": 31.50814,
   "link_tried": true,
+  "lng": -97.15987,
+  "map_link": "https://goo.gl/maps/4f5PQphsG288xBLC7",
+  "rules": 10,
+  "site": "Waco ISD Stadium",
+  "stadium": "Waco ISD Stadium",
+  "stadium_id": 183
+ },
+ "Waco ISD Stadium || Waco University v Fort Bend Marshall": {
+  "address": "1401 S. New Rd, Waco, Texas 76711",
+  "city": "Waco",
+  "how": "stadium (map link)",
+  "lat": 31.50814,
   "lng": -97.15987,
   "map_link": "https://goo.gl/maps/4f5PQphsG288xBLC7",
   "rules": 10,
@@ -27648,6 +31634,42 @@
   "missed": "2026-11-17",
   "rules": 10,
   "site": "Waco Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Wall High School || Lampasas v Pecos": {
+  "address": "8065 Loop 570, Wall, Texas 76957",
+  "city": "Wall",
+  "how": "school (map link)",
+  "lat": 31.37208,
+  "link_tried": true,
+  "lng": -100.30725,
+  "map_link": "https://goo.gl/maps/YX1GXMFVAX6WDvZs8",
+  "rules": 10,
+  "site": "Wall High School",
+  "stadium": "Hawk Stadium",
+  "stadium_id": 523
+ },
+ "Waller ISD Daikin Std || Franklin v Hallettsville": {
+  "address": "20735 Stokes Rd, Waller, Texas 77484",
+  "city": "Waller",
+  "how": "stadium (map link)",
+  "lat": 30.07528,
+  "lng": -95.91307,
+  "map_link": "https://goo.gl/maps/v6amowm16uydWWqQ9",
+  "rules": 10,
+  "site": "Waller ISD Daikin Std",
+  "stadium": "Daikin Stadium",
+  "stadium_id": 1289
+ },
+ "Waller ISD Stadium || Hitchcock v Little River Academy": {
+  "address": "",
+  "how": "stadium found by name, near the district",
+  "lat": 30.08259,
+  "lng": -96.0732,
+  "map_link": "",
+  "rules": 10,
+  "site": "Waller ISD Stadium",
   "stadium": null,
   "stadium_id": null
  },
@@ -27882,6 +31904,18 @@
   "stadium": "Lumpkins Stadium",
   "stadium_id": 123
  },
+ "Waxahachie- Lumpkins Stadium || Palmer v Whitney": {
+  "address": "600 Indian Dr, Waxahachie, Texas 75165",
+  "city": "Waxahachie",
+  "how": "stadium (map link)",
+  "lat": 32.41387,
+  "lng": -96.83464,
+  "map_link": "https://goo.gl/maps/UN3VTUYs5qTKMNLK6",
+  "rules": 10,
+  "site": "Waxahachie- Lumpkins Stadium",
+  "stadium": "Lumpkins Stadium",
+  "stadium_id": 123
+ },
  "Waxahatchie || Lake Worth v China Spring": {
   "address": "",
   "how": "no stadium, school or town matched",
@@ -28040,6 +32074,56 @@
   "site": "Webster",
   "stadium": null,
   "stadium_id": null
+ },
+ "Weslaco High School || Weslaco v San Benito": {
+  "address": "W. Pike Blvd at N. Westgate, Weslaco, Texas 78596",
+  "city": "Weslaco",
+  "how": "school (map link)",
+  "lat": 26.16823,
+  "lng": -98.00656,
+  "map_link": "https://maps.app.goo.gl/e3rHLn8uzsUheoqh6",
+  "rules": 10,
+  "site": "Weslaco High School",
+  "stadium": "Bobby Lackey Stadium",
+  "stadium_id": 897
+ },
+ "West Oso HS || Santa Maria v Kenedy": {
+  "address": "Bear Ln at Flato Rd, Corpus Christi, Texas 78405",
+  "city": "Corpus Christi",
+  "how": "school (map link)",
+  "lat": 27.76712,
+  "link_tried": true,
+  "lng": -97.45926,
+  "map_link": "https://goo.gl/maps/nj6jntAqffd7VzZ39",
+  "rules": 10,
+  "site": "West Oso HS",
+  "stadium": "Bear Stadium",
+  "stadium_id": 201
+ },
+ "Westlake HS || Austin Westlake v Cedar Park Vista Ridge": {
+  "address": "4100 Westbank Dr., Austin, Texas 78746",
+  "city": "Austin",
+  "how": "school (map link)",
+  "lat": 30.27761,
+  "link_tried": true,
+  "lng": -97.81329,
+  "map_link": "https://goo.gl/maps/i1NMdd5e4Bbwt6fp6",
+  "rules": 10,
+  "site": "Westlake HS",
+  "stadium": "Chaparral Stadium",
+  "stadium_id": 3
+ },
+ "Westlake HS || Austin Westlake v Round Rock": {
+  "address": "4100 Westbank Dr., Austin, Texas 78746",
+  "city": "Austin",
+  "how": "school (map link)",
+  "lat": 30.27761,
+  "lng": -97.81329,
+  "map_link": "https://goo.gl/maps/i1NMdd5e4Bbwt6fp6",
+  "rules": 10,
+  "site": "Westlake HS",
+  "stadium": "Chaparral Stadium",
+  "stadium_id": 3
  },
  "Whiteface Stadium, Hereford Texas Stratford Home || Stratford v Seagraves": {
   "address": "300 Stadium Dr., Hereford, Texas 79045",
@@ -28596,6 +32680,31 @@
   "stadium": "Aledo Middle School Stadium",
   "stadium_id": 214
  },
+ "Wink HS || Canyon Randall v El Paso Austin": {
+  "address": "Wildcat Drive, Wink, Texas 79789",
+  "city": "Wink",
+  "how": "school (map link)",
+  "lat": 31.75515,
+  "link_tried": true,
+  "lng": -103.15082,
+  "map_link": "https://goo.gl/maps/CeA5xcLMY27AKi5H7",
+  "rules": 10,
+  "site": "Wink HS",
+  "stadium": "Wildcat Field",
+  "stadium_id": 1012
+ },
+ "Wink High School || Hawley v Anthony": {
+  "address": "Wildcat Drive, Wink, Texas 79789",
+  "city": "Wink",
+  "how": "school (map link)",
+  "lat": 31.75515,
+  "lng": -103.15082,
+  "map_link": "https://goo.gl/maps/CeA5xcLMY27AKi5H7",
+  "rules": 10,
+  "site": "Wink High School",
+  "stadium": "Wildcat Field",
+  "stadium_id": 1012
+ },
  "Winnsboro High School || Clarksville v Boles": {
   "address": "634 S Post Oak St, Winnsboro, Texas 75494",
   "city": "Winnsboro",
@@ -28685,40 +32794,41 @@
   "stadium_id": 823
  },
  "Woodforest Bank Stadium, Shenandoah || The Woodlands College Park v Langham Creek": {
-  "address": "",
+  "address": "19115 David Memorial Dr, Shenandoah, Texas 77385",
   "city": "Shenandoah",
-  "how": "coordinates confirmed by hand",
+  "how": "stadium",
   "lat": 30.18487,
+  "link_tried": true,
   "lng": -95.44899,
-  "map_link": "",
+  "map_link": "https://goo.gl/maps/upEFqtHzV76XXwvP8",
   "rules": 10,
   "site": "Woodforest Bank Stadium, Shenandoah",
   "stadium": "Woodforest Bank Stadium",
-  "stadium_id": null
+  "stadium_id": 1151
  },
  "Woodforest Bank Stadium, Shenandoah || The Woodlands College Park v Spring Dekaney": {
-  "address": "",
+  "address": "19115 David Memorial Dr, Shenandoah, Texas 77385",
   "city": "Shenandoah",
-  "how": "coordinates confirmed by hand",
+  "how": "stadium",
   "lat": 30.18487,
   "lng": -95.44899,
-  "map_link": "",
+  "map_link": "https://goo.gl/maps/upEFqtHzV76XXwvP8",
   "rules": 10,
   "site": "Woodforest Bank Stadium, Shenandoah",
   "stadium": "Woodforest Bank Stadium",
-  "stadium_id": null
+  "stadium_id": 1151
  },
  "Woodforest Bank Stadium, Shenandoah || The Woodlands v Aldine Nimitz": {
-  "address": "",
+  "address": "19115 David Memorial Dr, Shenandoah, Texas 77385",
   "city": "Shenandoah",
-  "how": "coordinates confirmed by hand",
+  "how": "stadium",
   "lat": 30.18487,
   "lng": -95.44899,
-  "map_link": "",
+  "map_link": "https://goo.gl/maps/upEFqtHzV76XXwvP8",
   "rules": 10,
   "site": "Woodforest Bank Stadium, Shenandoah",
   "stadium": "Woodforest Bank Stadium",
-  "stadium_id": null
+  "stadium_id": 1151
  },
  "Woodforest Bank Stadium, Shenandoah || The Woodlands v Houston Klein Cain": {
   "address": "",
@@ -28818,6 +32928,16 @@
   "site": "Yoakum",
   "stadium": "Bulldog Stadium",
   "stadium_id": 330
+ },
+ "at Slaton || Sudan v Ropesville": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "at Slaton",
+  "stadium": null,
+  "stadium_id": null
  },
  "clyde || Lubbock Estacado v Brock": {
   "address": "500 Hays Road, Clyde, Texas 79510",

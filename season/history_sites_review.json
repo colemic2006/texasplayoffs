@@ -1,7 +1,37 @@
 [
  {
+  "site": "500 W. Lindsey St. in Breckenridge, Tx",
+  "game": "Coleman v Alvord",
+  "why": "address:500 W. Lindsey St. in Breckenridge, Tx"
+ },
+ {
+  "site": "6A Division I",
+  "game": "San Benito v La Joya",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "@ Artesia, NM (Bulldog Bowl) - 6:00 PM MST",
+  "game": "Canyon West Plains v Clint",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "@ Strake Jesuit HS Stadium",
+  "game": "Houston Strake Jesuit v Katy Tompkins",
+  "why": "no stadium, school or town matched"
+ },
+ {
   "site": "ACU, Wildcat Stadium",
   "game": "Brownwood v Big Spring",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Abilene Shotwell Stadium",
+  "game": "Abilene High v El Paso Bel Air",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Abilene Shotwell Stadium",
+  "game": "Stephenville v San Angelo Lake View",
   "why": "no stadium, school or town matched"
  },
  {
@@ -10,14 +40,59 @@
   "why": "no stadium, school or town matched"
  },
  {
+  "site": "Alice Memorial Stadium, Alice Tx",
+  "game": "Refugio v Ben Bolt",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Allen Athletic Facility",
+  "game": "Lewisville v Allen",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Astound Broadband Std",
+  "game": "Midland Legacy v El Paso Montwood",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "At Apogee Stadium - UNT",
+  "game": "Alvarado v Lake Worth",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "At Castleberry HS in Fort Worth",
+  "game": "Coleman v Alvord",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "At Center",
+  "game": "Hughes Springs v Newton",
+  "why": "no stadium, school or town matched"
+ },
+ {
   "site": "At Floydada",
   "game": "New Home v Amarillo Highland Park",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "At Hall Stadium",
+  "game": "Houston Worthing v Almeta Crawford",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "At Premont",
+  "game": "La Villa v Louise",
   "why": "no stadium, school or town matched"
  },
  {
   "site": "Austin Veterans Stadium",
   "game": "Bay City v Canyon Lake",
   "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Barnett Stadium6800 Fairway | Houston, Texas 77087",
+  "game": "Houston Sterling v Barbers Hill",
+  "why": "address:Barnett Stadium6800 Fairway | Houston, Texas 77087"
  },
  {
   "site": "Beaumont Memorial",
@@ -45,8 +120,43 @@
   "why": "no stadium, school or town matched"
  },
  {
+  "site": "Bi District Play Off Game",
+  "game": "Frisco Rock Hill v Lewisville Hebron",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Bi-District Championship",
+  "game": "Midlothian v Lake Belton",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Bi-District Championship",
+  "game": "San Antonio Brennan v Laredo Alexander",
+  "why": "no stadium, school or town matched"
+ },
+ {
   "site": "Bi-District Championship @ Challenger Stadium",
   "game": "Clear Falls v Houston King",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Bi-District Playoffs @ Rhodes Stadium",
+  "game": "Katy Cinco Ranch v George Ranch",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Bi-District in Mathis - 7:00 pm",
+  "game": "Refugio v Ben Bolt",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Big Spring Field",
+  "game": "Tahoka v Eldorado",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Boggus Stadium Harlingen",
+  "game": "Rio Hondo v London",
   "why": "no stadium, school or town matched"
  },
  {
@@ -60,9 +170,54 @@
   "why": "several schools with this name"
  },
  {
+  "site": "CF-FCU Stadium",
+  "game": "Klein Oak v Cypress Bridgeland",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "CF-FCU Stadium",
+  "game": "Spring Klein Collins v Cypress Woods",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Cabaniss Field",
+  "game": "Corpus Christi Veterans Memorial v Mission",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Calallen HS Wildcat Std",
+  "game": "Zapata v Port Lavaca Calhoun",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Cameron Stadium",
+  "game": "Wellington v Petrolia",
+  "why": "no stadium, school or town matched"
+ },
+ {
   "site": "Canyon",
   "game": "Denver City v Vernon",
   "why": "several schools with this name"
+ },
+ {
+  "site": "Collins Stadium",
+  "game": "Denton Guyer v Flower Mound Marcus",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Comalander Std",
+  "game": "Llano v Crystal City",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Comalander Std",
+  "game": "San Antonio Reagan v San Antonio East Central",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Coppell High School 9th Grade Center",
+  "game": "Coppell v Prosper",
+  "why": "no stadium, school or town matched"
  },
  {
   "site": "Crockett",
@@ -100,6 +255,21 @@
   "why": "no stadium, school or town matched"
  },
  {
+  "site": "Dripping Springs Middle School",
+  "game": "Dripping Springs v Austin McNeil",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Eagle Mountain HS",
+  "game": "Decatur v Carrollton Ranchview",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "East Central HS - Hornet Std",
+  "game": "San Antonio East Central v Laredo United South",
+  "why": "no stadium, school or town matched"
+ },
+ {
   "site": "FW Ranger Stadium",
   "game": "Tolar v Bells",
   "why": "no stadium, school or town matched"
@@ -110,9 +280,69 @@
   "why": "no stadium, school or town matched"
  },
  {
+  "site": "Freer Buckaroo Std",
+  "game": "La Villa v Louise",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Game at Boyd High School",
+  "game": "Tioga v Ballinger",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Game site is Shelbyville",
+  "game": "Deweyville v Mount Enterprise",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Game will be played at Bryan ISD Stadium",
+  "game": "Bellville v Waco Connally",
+  "why": "district:Stadium, Game will be played at Bryan"
+ },
+ {
+  "site": "Gopher Bowl",
+  "game": "Mexia v Pilot Point",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Greyhound Std-Taft Tx",
+  "game": "Ganado v Santa Maria",
+  "why": "no stadium, school or town matched"
+ },
+ {
   "site": "HARLANDALE ISD MEMORIAL STADIUM",
   "game": "Bandera v Gonzales",
   "why": "district:MEMORIAL STADIUM, HARLANDALE"
+ },
+ {
+  "site": "Hays HS",
+  "game": "Holland v Harper",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Herman Clark Field Fort Worth",
+  "game": "Hamilton v Whitewright",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Heroes Std",
+  "game": "Randolph v Hondo",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Highlander Stadium",
+  "game": "Dallas Highland Park v Arlington Bowie",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Highlander Stadium",
+  "game": "Dallas Highland Park v Leander Rouse",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Hobbs High School",
+  "game": "Canyon Randall v El Paso Ysleta",
+  "why": "no stadium, school or town matched"
  },
  {
   "site": "Irion County",
@@ -165,6 +395,11 @@
   "why": "no stadium, school or town matched"
  },
  {
+  "site": "Kilgore College",
+  "game": "Kilgore v Vidor",
+  "why": "no stadium, school or town matched"
+ },
+ {
   "site": "Laredo Johnson United",
   "game": "Boerne v Mission Sharyland Pioneer",
   "why": "no stadium, school or town matched"
@@ -173,6 +408,26 @@
   "site": "Laredo Johnson United",
   "game": "Pharr-San Juan-Alamo North v Boerne Champion",
   "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Lehnhoff Std",
+  "game": "Cibolo Steele v Laredo Alexander",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Little Cypress Mauriceville Junior High",
+  "game": "Little Cypress-Mauriceville v Lindale",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Location Greenville, Tx",
+  "game": "Dallas Carter v Sulphur Springs",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Lone Oak ISD Stadium",
+  "game": "Howe v Palmer",
+  "why": "district:Stadium, Lone Oak"
  },
  {
   "site": "Loos Athletic Complex",
@@ -187,6 +442,16 @@
  {
   "site": "Lubbock Trinity",
   "game": "Klondike v Whitharral",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Lubbock-Cooper Liberty High School",
+  "game": "Midland Greenwood v Borger",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Lufkin High School Arena",
+  "game": "Lufkin v Houston Milby",
   "why": "no stadium, school or town matched"
  },
  {
@@ -215,6 +480,31 @@
   "why": "no stadium, school or town matched"
  },
  {
+  "site": "Midway Panther Stadium",
+  "game": "Marlin v Kerens",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Midway Panther Stadium",
+  "game": "Waco Midway v Waxahachie",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Monroe Stadium",
+  "game": "Austin Vandegrift v Austin Lake Travis",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "NB Canyon Cougar Std",
+  "game": "New Braunfels Canyon v Medina Valley",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "NB Canyon Cougar Std",
+  "game": "Three Rivers v Schulenburg",
+  "why": "no stadium, school or town matched"
+ },
+ {
   "site": "Nacogdoches Bryce Stadium",
   "game": "Newton v Big Sandy Harmony",
   "why": "no stadium, school or town matched"
@@ -227,6 +517,31 @@
  {
   "site": "Natchitoches, LA Turpin Stadium",
   "game": "Texarkana Texas v Port Neches-Groves",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Odem HS Owl Std",
+  "game": "Weimar v Santa Maria",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "PROSPER HS-6A",
+  "game": "Prosper v Plano East",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Palestine - Wildcats Stadium",
+  "game": "Garrison v Corrigan-Camden",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Plano Clark High School",
+  "game": "Van Alstyne v Ferris",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Pleasanton-EagleFld",
+  "game": "Freer v Shiner",
   "why": "no stadium, school or town matched"
  },
  {
@@ -245,9 +560,44 @@
   "why": "no stadium, school or town matched"
  },
  {
+  "site": "Postell Stadium",
+  "game": "Arlington High v Dallas Jesuit",
+  "why": "no stadium, school or town matched"
+ },
+ {
   "site": "Prairie View A&M",
   "game": "Richmond Randle v Iowa Colony",
   "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Premont Cowboy Std",
+  "game": "La Villa v Three Rivers",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Rains High School (Emory, TX)",
+  "game": "Cooper v Frankston",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Randall Reed Stadium",
+  "game": "West Orange-Stark v Sweeny",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Ray Maddry Stadium",
+  "game": "Channelview v Houston King",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Richard Flores Stadium",
+  "game": "Edinburg Vela v Harlingen South",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Richland HS",
+  "game": "Richardson v Haltom",
+  "why": "several schools with this name"
  },
  {
   "site": "Round 1 Bi District - 10 4A / 9 4A",
@@ -255,9 +605,24 @@
   "why": "no stadium, school or town matched"
  },
  {
+  "site": "Round 1 of playoffs.",
+  "game": "Fort Bend Hightower v Katy Morton Ranch",
+  "why": "no stadium, school or town matched"
+ },
+ {
   "site": "Rusj",
   "game": "Edgewood v Woodville",
   "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "SISD SAC - El Paso",
+  "game": "El Paso Americas v Lubbock Monterey",
+  "why": "named:SISD SAC, El Paso"
+ },
+ {
+  "site": "SISD SAC - El Paso",
+  "game": "El Paso El Dorado v Amarillo High",
+  "why": "named:SISD SAC, El Paso"
  },
  {
   "site": "San Angelo ASU",
@@ -290,13 +655,33 @@
   "why": "no stadium, school or town matched"
  },
  {
+  "site": "Seguin HS",
+  "game": "Weimar v Junction",
+  "why": "several schools with this name"
+ },
+ {
   "site": "Sheldon",
   "game": "Alvin Shadow Creek v Houston King",
   "why": "no stadium, school or town matched"
  },
  {
+  "site": "Silsbee are Visitors",
+  "game": "Brookshire Royal v Silsbee",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Smithson Valley HS",
+  "game": "Comal Smithson Valley v South San Antonio",
+  "why": "site names a team's school, but not in that team's town"
+ },
+ {
   "site": "Sugarland Hall Stadium",
   "game": "Houston Heights v Fort Bend Hightower",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "TBA",
+  "game": "Collinsville v Roscoe",
   "why": "no stadium, school or town matched"
  },
  {
@@ -310,14 +695,64 @@
   "why": "no stadium, school or town matched"
  },
  {
+  "site": "Tiger Std - Smithville ISD",
+  "game": "Columbus v Cameron Yoe",
+  "why": "no stadium, school or town matched"
+ },
+ {
   "site": "Traylor Stadium",
   "game": "Richmond Foster v Fulshear Jordan",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Tyler-Rose Stadium",
+  "game": "Athens v Van",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Tyler-Rose Stadium",
+  "game": "Beckville v Alba-Golden",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Tyler-Rose Stadium",
+  "game": "Malakoff v Tatum",
   "why": "no stadium, school or town matched"
  },
  {
   "site": "UMHB Crusader Stadium",
   "game": "La Vega v La Grange",
   "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Vernon Newsome Stadium",
+  "game": "Mansfield Timberview v Heritage",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Veterans Memorial HS (JISD)",
+  "game": "Brackettville v Burton",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Veterans Stadium (JF Kennedy HS)",
+  "game": "San Antonio Cole v Ingram Moore",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Vets Mem Std - Beeville ISD",
+  "game": "Refugio v Kenedy",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Victoria Memorial Std",
+  "game": "Ganado v Skidmore-Tynan",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Waco ISD Sports Complex",
+  "game": "Marlin v Holland",
+  "why": "district:Sports Complex, Waco"
  },
  {
   "site": "Waco Panther Stadium",
@@ -342,6 +777,11 @@
  {
   "site": "Woodrow",
   "game": "Stratford v Cisco",
+  "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "at Slaton",
+  "game": "Sudan v Ropesville",
   "why": "no stadium, school or town matched"
  }
 ]

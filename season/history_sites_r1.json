@@ -181,6 +181,123 @@
  },
  {
   "year": 2025,
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "Eldorado",
+  "team2": "Tahoka",
+  "site": "Sweetwater High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2025,
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "Hale Center",
+  "team2": "Bovina",
+  "site": "Happy State Bank Stadium, Canyon",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2025,
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "Ropes",
+  "team2": "McCamey",
+  "site": "Snyder High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2025,
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "Sudan",
+  "team2": "Farwell",
+  "site": "Dimmitt High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2025,
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "Wink",
+  "team2": "Sundown",
+  "site": "Andrews High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2025,
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "Gruver",
+  "team2": "Lockney",
+  "site": "Amarillo River Road HS",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2025,
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "Wheeler",
+  "team2": "Electra",
+  "site": "@ Childress",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2025,
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "Collinsville",
+  "team2": "Roscoe",
+  "site": "TBA",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2025,
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "Cumby",
+  "team2": "Mart",
+  "site": "Big Sandy High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2025,
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "Mount Enterprise",
+  "team2": "West Hardin",
+  "site": "Abe Martin Std - Lufkin",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2025,
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "West Sabine",
+  "team2": "Overton",
+  "site": "Joaquin High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2025,
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "Brackettville",
+  "team2": "Burton",
+  "site": "Veterans Memorial HS (JISD)",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2025,
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "La Villa",
+  "team2": "Louise",
+  "site": "At Premont",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2025,
   "classification": "4A D1",
   "week": 1,
   "team1": "El Paso Ysleta",
@@ -469,6 +586,87 @@
  },
  {
   "year": 2025,
+  "classification": "5A D1",
+  "week": 1,
+  "team1": "El Paso El Dorado",
+  "team2": "Amarillo High",
+  "site": "El Paso SAC II Stadium   1300 Joe Battle Blvd.",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2025,
+  "classification": "5A D1",
+  "week": 1,
+  "team1": "Abilene High",
+  "team2": "El Paso Bel Air",
+  "site": "Abilene Shotwell Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2025,
+  "classification": "5A D1",
+  "week": 1,
+  "team1": "Fort Worth Arlington Heights",
+  "team2": "Fort Worth Brewer",
+  "site": "Game is at Farrington Field in Ft. Worth, Tx",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2025,
+  "classification": "5A D1",
+  "week": 1,
+  "team1": "El Paso Americas",
+  "team2": "Lubbock Monterey",
+  "site": "SISD SAC - El Paso",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2025,
+  "classification": "5A D1",
+  "week": 1,
+  "team1": "A&M Consolidated",
+  "team2": "Crosby",
+  "site": "Merrill Green Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2025,
+  "classification": "5A D1",
+  "week": 1,
+  "team1": "Edinburg Vela",
+  "team2": "Corpus Christi Veterans Memorial",
+  "site": "Richard Flores Stadium Edinburg, Texas",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2025,
+  "classification": "5A D1",
+  "week": 1,
+  "team1": "Pharr-San Juan-Alamo North",
+  "team2": "Mission",
+  "site": "PSJA Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2025,
+  "classification": "5A D1",
+  "week": 1,
+  "team1": "McAllen Memorial",
+  "team2": "Harlingen South",
+  "site": "McAllen High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2025,
+  "classification": "5A D1",
+  "week": 1,
+  "team1": "New Braunfels",
+  "team2": "Laredo Nixon",
+  "site": "New Braunfels Unicorn Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2025,
   "classification": "5A D2",
   "week": 1,
   "team1": "Melissa",
@@ -663,6 +861,2355 @@
   "team1": "Harlingen",
   "team2": "La Joya",
   "site": "Harlingen High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Sunray",
+  "team2": "Olton",
+  "site": "Happy State Bank Stadium, Canyon",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Hawley",
+  "team2": "Ozona",
+  "site": "Colorado City High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Post",
+  "team2": "Spearman",
+  "site": "Tulia High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Christoval",
+  "team2": "Anson",
+  "site": "@Sweetwater ISD Mustang Bowl",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Reagan County",
+  "team2": "Cisco",
+  "site": "Big Spring High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Stamford",
+  "team2": "Sonora",
+  "site": "Snyder High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Panhandle",
+  "team2": "New Home",
+  "site": "Happy State Bank Stadium, Canyon",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Hamilton",
+  "team2": "Whitewright",
+  "site": "Herman Clark Field Fort Worth",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Frankston",
+  "team2": "Italy",
+  "site": "Kemp High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Tioga",
+  "team2": "Ballinger",
+  "site": "Game at Boyd High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Dawson",
+  "team2": "Kerens",
+  "site": "Corsicana",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Axtell",
+  "team2": "Cayuga",
+  "site": "Athens - Bruce Field",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Wolfe City",
+  "team2": "Coleman",
+  "site": "Godley HS",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Honey Grove",
+  "team2": "Elysian Fields",
+  "site": "Mabank High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Waskom",
+  "team2": "Omaha Paul Pewitt",
+  "site": "Marshall, TX HS",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Garrison",
+  "team2": "Corrigan-Camden",
+  "site": "Palestine - Wildcats Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Shelbyville",
+  "team2": "Jewett Leon",
+  "site": "Nacogdoches High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Beckville",
+  "team2": "Bogata Rivercrest",
+  "site": "Gladewater- Jack V. Murphy Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Centerville",
+  "team2": "Joaquin",
+  "site": "Arp High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Cooper",
+  "team2": "Big Sandy",
+  "site": "Mt Vernon, Don Meredith Football Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Marlin",
+  "team2": "Holland",
+  "site": "Waco ISD Sports Complex",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Three Rivers",
+  "team2": "Schulenburg",
+  "site": "NB Canyon Cougar Std",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Mason",
+  "team2": "Rosebud-Lott",
+  "site": "@ Copperas Cove",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Weimar",
+  "team2": "Santa Maria",
+  "site": "Odem HS Owl Std",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Ganado",
+  "team2": "Skidmore-Tynan",
+  "site": "Victoria Memorial Std",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Refugio",
+  "team2": "Kenedy",
+  "site": "Vets Mem Std - Beeville ISD",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Riesel",
+  "team2": "Thorndale",
+  "site": "Jarrell High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "Gruver",
+  "team2": "Morton",
+  "site": "Dick Bivins (Amarillo)",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "Iraan",
+  "team2": "Seagraves",
+  "site": "Midland Christian School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "Hale Center",
+  "team2": "Bovina",
+  "site": "Happy State Bank Stadium, Canyon",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "Tahoka",
+  "team2": "Eldorado",
+  "site": "Big Spring Field",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "Ropesville",
+  "team2": "Sterling City",
+  "site": "Snyder High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "Sudan",
+  "team2": "Farwell",
+  "site": "Muleshoe High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "Wink",
+  "team2": "Sundown",
+  "site": "Ratliff Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "Stratford",
+  "team2": "Crosbyton",
+  "site": "Amarillo - Dick Bivins Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "Wellington",
+  "team2": "Petrolia",
+  "site": "Cameron Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "Windthorst",
+  "team2": "Quanah",
+  "site": "Iowa Park, TX",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "Miles",
+  "team2": "Lindsay",
+  "site": "Brock HS",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "Albany",
+  "team2": "Era",
+  "site": "Mineral Wells ISD",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "Archer City",
+  "team2": "Shamrock",
+  "site": "Childress High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "Muenster",
+  "team2": "Hamlin",
+  "site": "Jacksboro ISD Tiger Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "West Sabine",
+  "team2": "Grapeland",
+  "site": "Timpson High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "Mart",
+  "team2": "Cumby",
+  "site": "Malakoff High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "Overton",
+  "team2": "Evadale",
+  "site": "702 North Clark Street-San Augustine, Texas 75972",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "Deweyville",
+  "team2": "Mount Enterprise",
+  "site": "Game site is Shelbyville",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "Somerville",
+  "team2": "D'Hanis",
+  "site": "Luling High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "Ben Bolt",
+  "team2": "Yorktown",
+  "site": "Beeville A. C. Jones Veterans Memorial Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "La Villa",
+  "team2": "Louise",
+  "site": "Freer Buckaroo Std",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "3A D1",
+  "week": 1,
+  "team1": "Shallowater",
+  "team2": "Brownfield",
+  "site": "Lubbock Cooper High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "3A D1",
+  "week": 1,
+  "team1": "Peaster",
+  "team2": "Comanche",
+  "site": "Graham High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "3A D1",
+  "week": 1,
+  "team1": "Lamesa",
+  "team2": "Amarillo River Road",
+  "site": "Frenship High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "3A D1",
+  "week": 1,
+  "team1": "Sweetwater",
+  "team2": "Vernon",
+  "site": "Graham High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "3A D1",
+  "week": 1,
+  "team1": "Jim Ned",
+  "team2": "Iowa Park",
+  "site": "Breckenridge High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "3A D1",
+  "week": 1,
+  "team1": "Denver City",
+  "team2": "Dalhart",
+  "site": "Lowrey Field",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "3A D1",
+  "week": 1,
+  "team1": "Paradise",
+  "team2": "Clyde",
+  "site": "@ Granbury",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "3A D1",
+  "week": 1,
+  "team1": "Bushland",
+  "team2": "Kermit",
+  "site": "Levelland High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "3A D1",
+  "week": 1,
+  "team1": "Mexia",
+  "team2": "Pilot Point",
+  "site": "Gopher Bowl",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "3A D1",
+  "week": 1,
+  "team1": "Liberty-Eylau",
+  "team2": "Commerce",
+  "site": "Mount Vernon High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "3A D1",
+  "week": 1,
+  "team1": "Palmer",
+  "team2": "Whitney",
+  "site": "Waxahachie- Lumpkins Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "3A D1",
+  "week": 1,
+  "team1": "Winnsboro",
+  "team2": "Atlanta",
+  "site": "Ore City High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "3A D1",
+  "week": 1,
+  "team1": "Malakoff",
+  "team2": "Tatum",
+  "site": "Tyler-Rose Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "3A D1",
+  "week": 1,
+  "team1": "Pottsboro",
+  "team2": "Maypearl",
+  "site": "Mesquite Memorial Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "3A D1",
+  "week": 1,
+  "team1": "Jefferson",
+  "team2": "Mineola",
+  "site": "Lindale High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "3A D1",
+  "week": 1,
+  "team1": "Grandview",
+  "team2": "Whitesboro",
+  "site": "Grapevine HS",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "3A D1",
+  "week": 1,
+  "team1": "Columbus",
+  "team2": "Cameron Yoe",
+  "site": "Tiger Std - Smithville ISD",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "3A D1",
+  "week": 1,
+  "team1": "Orangefield",
+  "team2": "Fairfield",
+  "site": "Game played at Splendora Wildcat Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "3A D1",
+  "week": 1,
+  "team1": "Troy",
+  "team2": "Yoakum",
+  "site": "Hutto High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "3A D1",
+  "week": 1,
+  "team1": "Franklin",
+  "team2": "Hallettsville",
+  "site": "Waller ISD Daikin Std",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "3A D1",
+  "week": 1,
+  "team1": "East Chambers",
+  "team2": "Diboll",
+  "site": "Tomball ISD Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "3A D1",
+  "week": 1,
+  "team1": "Hitchcock",
+  "team2": "Little River Academy",
+  "site": "Waller ISD Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "3A D1",
+  "week": 1,
+  "team1": "Teague",
+  "team2": "Coldspring",
+  "site": "Madisonville High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "3A D1",
+  "week": 1,
+  "team1": "Llano",
+  "team2": "Crystal City",
+  "site": "Comalander Std",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "3A D1",
+  "week": 1,
+  "team1": "San Diego",
+  "team2": "Orange Grove",
+  "site": "@ Sinton HS",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "3A D1",
+  "week": 1,
+  "team1": "Jourdanton",
+  "team2": "Marion",
+  "site": "Floresville HS",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "3A D1",
+  "week": 1,
+  "team1": "San Antonio Cole",
+  "team2": "Ingram Moore",
+  "site": "Veterans Stadium (JF Kennedy HS)",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "3A D1",
+  "week": 1,
+  "team1": "Rio Hondo",
+  "team2": "London",
+  "site": "Boggus Stadium Harlingen",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "3A D1",
+  "week": 1,
+  "team1": "Randolph",
+  "team2": "Hondo",
+  "site": "Heroes Std",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D1",
+  "week": 1,
+  "team1": "El Paso Austin",
+  "team2": "Dumas",
+  "site": "Denver City High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D1",
+  "week": 1,
+  "team1": "Lampasas",
+  "team2": "Pecos",
+  "site": "Wall High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D1",
+  "week": 1,
+  "team1": "Canyon West Plains",
+  "team2": "Clint",
+  "site": "@ Artesia, NM (Bulldog Bowl) - 6:00 PM MST",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D1",
+  "week": 1,
+  "team1": "Big Spring",
+  "team2": "Brownwood",
+  "site": "San Angelo",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D1",
+  "week": 1,
+  "team1": "Andrews",
+  "team2": "Burnet",
+  "site": "San Angelo Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D1",
+  "week": 1,
+  "team1": "Canyon Randall",
+  "team2": "El Paso Ysleta",
+  "site": "Hobbs High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D1",
+  "week": 1,
+  "team1": "Stephenville",
+  "team2": "San Angelo Lake View",
+  "site": "Abilene Shotwell Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D1",
+  "week": 1,
+  "team1": "El Paso Riverside",
+  "team2": "Hereford",
+  "site": "Ratliff Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D1",
+  "week": 1,
+  "team1": "Springtown",
+  "team2": "River Oaks Castleberry",
+  "site": "Boswell HS",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D1",
+  "week": 1,
+  "team1": "Dallas Carter",
+  "team2": "Sulphur Springs",
+  "site": "Location Greenville, Tx",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D1",
+  "week": 1,
+  "team1": "Alvarado",
+  "team2": "Fort Worth Eastern Hills",
+  "site": "Crowley ISD Multi-Purpose",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D1",
+  "week": 1,
+  "team1": "Frisco Panther Creek",
+  "team2": "Dallas Pinkston",
+  "site": "Kuykendall Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D1",
+  "week": 1,
+  "team1": "Kennedale",
+  "team2": "Fort Worth Southwest",
+  "site": "Location-Kennedale HS, Wildcat Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D1",
+  "week": 1,
+  "team1": "Dallas Kimball",
+  "team2": "Aubrey",
+  "site": "John Clark Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D1",
+  "week": 1,
+  "team1": "Decatur",
+  "team2": "Carrollton Ranchview",
+  "site": "Eagle Mountain HS",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D1",
+  "week": 1,
+  "team1": "Kilgore",
+  "team2": "Vidor",
+  "site": "Kilgore College",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D1",
+  "week": 1,
+  "team1": "Little Cypress-Mauriceville",
+  "team2": "Lindale",
+  "site": "Little Cypress Mauriceville Junior High",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D1",
+  "week": 1,
+  "team1": "Houston Yates",
+  "team2": "Navasota",
+  "site": "Katy ISD - Rhodes Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D1",
+  "week": 1,
+  "team1": "Houston Worthing",
+  "team2": "Almeta Crawford",
+  "site": "At Hall Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D1",
+  "week": 1,
+  "team1": "Austin LBJ",
+  "team2": "Fredericksburg",
+  "site": "Marble Falls Mustang Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D1",
+  "week": 1,
+  "team1": "CC Tuloso-Midway",
+  "team2": "La Vernia",
+  "site": "Tuloso-Midway HS",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D1",
+  "week": 1,
+  "team1": "Zapata",
+  "team2": "Port Lavaca Calhoun",
+  "site": "Calallen HS Wildcat Std",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D1",
+  "week": 1,
+  "team1": "Bay City",
+  "team2": "Hidalgo",
+  "site": "Mathis High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D1",
+  "week": 1,
+  "team1": "Canyon Lake",
+  "team2": "Austin Travis",
+  "site": "Canyon Lake HS",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D1",
+  "week": 1,
+  "team1": "Corpus Christi Calallen",
+  "team2": "El Campo",
+  "site": "@ Port Lavaca Calhoun",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D1",
+  "week": 1,
+  "team1": "Taylor",
+  "team2": "Somerset",
+  "site": "House Park",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D2",
+  "week": 1,
+  "team1": "Midland Greenwood",
+  "team2": "Borger",
+  "site": "Lubbock-Cooper Liberty High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D2",
+  "week": 1,
+  "team1": "Lubbock Estacado",
+  "team2": "Fort Stockton",
+  "site": "Andrews HS",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D2",
+  "week": 1,
+  "team1": "Brock",
+  "team2": "Godley",
+  "site": "Burleson High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D2",
+  "week": 1,
+  "team1": "Graham",
+  "team2": "Fort Worth Dunbar",
+  "site": "Aledo High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D2",
+  "week": 1,
+  "team1": "Perryton",
+  "team2": "Monahans",
+  "site": "Lubbock Cooper High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D2",
+  "week": 1,
+  "team1": "Seminole",
+  "team2": "Levelland",
+  "site": "Denver City High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D2",
+  "week": 1,
+  "team1": "Van Alstyne",
+  "team2": "Ferris",
+  "site": "Plano Clark High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D2",
+  "week": 1,
+  "team1": "Athens",
+  "team2": "Van",
+  "site": "Tyler-Rose Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D2",
+  "week": 1,
+  "team1": "Gilmer",
+  "team2": "Center",
+  "site": "Tatum High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D2",
+  "week": 1,
+  "team1": "Texarkana Pleasant Grove",
+  "team2": "Bullard",
+  "site": "Pleasant Grove High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D2",
+  "week": 1,
+  "team1": "Canton",
+  "team2": "Farmersville",
+  "site": "Garland: Williams Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D2",
+  "week": 1,
+  "team1": "Carthage",
+  "team2": "Spring Hill",
+  "site": "Spring Hill High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D2",
+  "week": 1,
+  "team1": "Hamshire-Fannett",
+  "team2": "La Marque",
+  "site": "La Marque High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D2",
+  "week": 1,
+  "team1": "Robinson",
+  "team2": "Sealy",
+  "site": "Merrill Green Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D2",
+  "week": 1,
+  "team1": "Madisonville",
+  "team2": "Gatesville",
+  "site": "@ Rockdale HS",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D2",
+  "week": 1,
+  "team1": "Bellville",
+  "team2": "Waco Connally",
+  "site": "Game will be played at Bryan ISD Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D2",
+  "week": 1,
+  "team1": "Brookshire Royal",
+  "team2": "Silsbee",
+  "site": "Silsbee are Visitors",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D2",
+  "week": 1,
+  "team1": "La Vega",
+  "team2": "La Grange",
+  "site": "The Pfield",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D2",
+  "week": 1,
+  "team1": "West Orange-Stark",
+  "team2": "Sweeny",
+  "site": "Randall Reed Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D2",
+  "week": 1,
+  "team1": "Wimberley",
+  "team2": "Pearsall",
+  "site": "Alamo Stadium, San Antonio",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D2",
+  "week": 1,
+  "team1": "Carrizo Springs",
+  "team2": "Geronimo Navarro",
+  "site": "Jourdanton HS",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D2",
+  "week": 1,
+  "team1": "Devine",
+  "team2": "Salado",
+  "site": "@ Wimberley",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D2",
+  "week": 1,
+  "team1": "Port Isabel",
+  "team2": "Ingleside",
+  "site": "Falfurrias, Texas - Jersey Bull Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "4A D2",
+  "week": 1,
+  "team1": "Lago Vista",
+  "team2": "Bandera",
+  "site": "Rattler Stadium, San Marcos High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "5A D1",
+  "week": 1,
+  "team1": "El Paso El Dorado",
+  "team2": "Amarillo High",
+  "site": "SISD SAC - El Paso",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "5A D1",
+  "week": 1,
+  "team1": "Fort Worth Arlington Heights",
+  "team2": "North Richland Hills Richland",
+  "site": "FWISD Farrington Field",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "5A D1",
+  "week": 1,
+  "team1": "Lubbock Monterey",
+  "team2": "El Paso Bel Air",
+  "site": "Lowrey Field",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "5A D1",
+  "week": 1,
+  "team1": "Denton Ryan",
+  "team2": "FW Paschal",
+  "site": "DENTON HS",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "5A D1",
+  "week": 1,
+  "team1": "Saginaw",
+  "team2": "Azle",
+  "site": "Saginaw HS",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "5A D1",
+  "week": 1,
+  "team1": "Cedar Park",
+  "team2": "Red Oak",
+  "site": "Cedar Park HS",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "5A D1",
+  "week": 1,
+  "team1": "West Mesquite",
+  "team2": "McKinney North",
+  "site": "Memorial Stadium - Mesquite, Texas",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "5A D1",
+  "week": 1,
+  "team1": "Midlothian",
+  "team2": "Lake Belton",
+  "site": "Bi-District Championship",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "5A D1",
+  "week": 1,
+  "team1": "Dallas Highland Park",
+  "team2": "Leander Rouse",
+  "site": "Highlander Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "5A D1",
+  "week": 1,
+  "team1": "Lufkin",
+  "team2": "Houston Milby",
+  "site": "Lufkin High School Arena",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "5A D1",
+  "week": 1,
+  "team1": "College Station",
+  "team2": "Crosby",
+  "site": "College Station HS",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "5A D1",
+  "week": 1,
+  "team1": "Houston Sterling",
+  "team2": "Barbers Hill",
+  "site": "Barnett Stadium6800 Fairway | Houston, Texas 77087",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "5A D1",
+  "week": 1,
+  "team1": "A&M Consolidated",
+  "team2": "Friendswood",
+  "site": "A&M Consolidated HS",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "5A D1",
+  "week": 1,
+  "team1": "Galveston Ball",
+  "team2": "Houston Waltrip",
+  "site": "Galveston Ball High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "5A D1",
+  "week": 1,
+  "team1": "McAllen Memorial",
+  "team2": "Corpus Christi Flour Bluff",
+  "site": "Vets Mem. Std - McAllen",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "5A D1",
+  "week": 1,
+  "team1": "San Antonio Southwest",
+  "team2": "Seguin",
+  "site": "Southwest HS",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "5A D1",
+  "week": 1,
+  "team1": "Corpus Christi Veterans Memorial",
+  "team2": "Mission",
+  "site": "Cabaniss Field",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "5A D1",
+  "week": 1,
+  "team1": "San Antonio Jay",
+  "team2": "New Braunfels",
+  "site": "Gustafson Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "5A D1",
+  "week": 1,
+  "team1": "Edinburg Vela",
+  "team2": "Harlingen South",
+  "site": "Richard Flores Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "5A D1",
+  "week": 1,
+  "team1": "Comal Smithson Valley",
+  "team2": "South San Antonio",
+  "site": "Smithson Valley HS",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "North Crowley",
+  "team2": "Byron Nelson",
+  "site": "Crowley ISD Multi-Purpose Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "Coppell",
+  "team2": "Prosper",
+  "site": "Coppell High School 9th Grade Center",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "El Paso Franklin",
+  "team2": "Midland Legacy",
+  "site": "EP Franklin HS",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "Euless Trinity",
+  "team2": "Mansfield",
+  "site": "HEBISD Pennington Field",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "Lewisville",
+  "team2": "Allen",
+  "site": "Allen Athletic Facility",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "Richardson",
+  "team2": "Haltom",
+  "site": "Richland HS",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "Houston Klein Cain",
+  "team2": "Cy Ranch",
+  "site": "Klein Memorial Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "Waco Midway",
+  "team2": "Waxahachie",
+  "site": "Midway Panther Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "Klein Oak",
+  "team2": "Cypress Bridgeland",
+  "site": "CF-FCU Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "Cy-Fair",
+  "team2": "Houston Lamar",
+  "site": "Butler Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "San Antonio East Central",
+  "team2": "Laredo United South",
+  "site": "East Central HS - Hornet Std",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "Weslaco",
+  "team2": "San Benito",
+  "site": "Weslaco High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "Austin Westlake",
+  "team2": "Cedar Park Vista Ridge",
+  "site": "Westlake HS",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "Los Fresnos",
+  "team2": "Edinburg Economedes",
+  "site": "Los Fresnos Leo Aguilar Memorial Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "Crowley",
+  "team2": "Justin Northwest",
+  "site": "Crowley ISD Multi-Purpose",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "Richardson Pearce",
+  "team2": "Arlington High",
+  "site": "Irving ISD Ellis Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "Frenship",
+  "team2": "El Paso Montwood",
+  "site": "Frenship High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "Southlake Carroll",
+  "team2": "Mansfield Legacy",
+  "site": "Southlake Carroll Senior HS",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "Frisco Rock Hill",
+  "team2": "Lewisville Hebron",
+  "site": "Bi District Play Off Game",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "DeSoto",
+  "team2": "Killeen Shoemaker",
+  "site": "Eagle Stadium DeSoto, Tx",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "Longview",
+  "team2": "Garland Naaman Forest",
+  "site": "Longview High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "Spring Klein Collins",
+  "team2": "Cypress Woods",
+  "site": "CF-FCU Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "Fulshear Jordan",
+  "team2": "Richmond Foster",
+  "site": "Legacy Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "Humble Summer Creek",
+  "team2": "Clear Falls",
+  "site": "Turner Stadium (Humble ISD)",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "Houston Heights",
+  "team2": "Houston Memorial",
+  "site": "Game will be played at Delmar Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "Houston Strake Jesuit",
+  "team2": "Katy Tompkins",
+  "site": "@ Strake Jesuit HS Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "Clear Springs",
+  "team2": "Humble Kingwood",
+  "site": "Clear Springs High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "Cibolo Steele",
+  "team2": "Laredo Alexander",
+  "site": "Lehnhoff Std",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "Pharr-San Juan-Alamo",
+  "team2": "Harlingen",
+  "site": "PSJA High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "Dripping Springs",
+  "team2": "Austin McNeil",
+  "site": "Dripping Springs Middle School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "San Antonio Clark",
+  "team2": "San Antonio Harlan",
+  "site": "Farris Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2024,
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "New Braunfels Canyon",
+  "team2": "Medina Valley",
+  "site": "NB Canyon Cougar Std",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Stamford",
+  "team2": "Forsan",
+  "site": "Sweetwater High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Ozona",
+  "team2": "Cisco",
+  "site": "Colorado City High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Olton",
+  "team2": "Farwell",
+  "site": "Littlefield High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Hawley",
+  "team2": "Anthony",
+  "site": "Wink High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Panhandle",
+  "team2": "Tahoka",
+  "site": "Happy State Bank Stadium, Canyon",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Tolar",
+  "team2": "Trenton",
+  "site": "Chisholm Trail High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Riesel",
+  "team2": "Cayuga",
+  "site": "Madisonville High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Marlin",
+  "team2": "Kerens",
+  "site": "Midway Panther Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Coleman",
+  "team2": "Alvord",
+  "site": "500 W. Lindsey St. in Breckenridge, Tx",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Cooper",
+  "team2": "Frankston",
+  "site": "Rains High School (Emory, TX)",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Groveton",
+  "team2": "Shelbyville",
+  "site": "Nacogdoches High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Beckville",
+  "team2": "Alba-Golden",
+  "site": "Tyler-Rose Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Timpson",
+  "team2": "Corrigan-Camden",
+  "site": "Lufkin High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Centerville",
+  "team2": "West Sabine",
+  "site": "Diboll High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Honey Grove",
+  "team2": "Ore City",
+  "site": "Sulphur Springs- Gerald Prim Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Holland",
+  "team2": "Harper",
+  "site": "Hays HS",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Freer",
+  "team2": "Shiner",
+  "site": "Pleasanton-EagleFld",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Mason",
+  "team2": "Thrall",
+  "site": "Marble Falls HS",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Ganado",
+  "team2": "Santa Maria",
+  "site": "Greyhound Std-Taft Tx",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Refugio",
+  "team2": "Ben Bolt",
+  "site": "Alice Memorial Stadium, Alice Tx",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "La Villa",
+  "team2": "Three Rivers",
+  "site": "Premont Cowboy Std",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Weimar",
+  "team2": "Junction",
+  "site": "Seguin HS",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "North Crowley",
+  "team2": "Keller",
+  "site": "North Crowley High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "Prosper",
+  "team2": "Plano East",
+  "site": "PROSPER HS-6A",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "Midland Legacy",
+  "team2": "El Paso Montwood",
+  "site": "Astound Broadband Std",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "Duncanville",
+  "team2": "Hutto",
+  "site": "Duncanville High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "Spring Klein Collins",
+  "team2": "Cy Ranch",
+  "site": "Klein Memorial Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "Cypress Bridgeland",
+  "team2": "Houston Klein Cain",
+  "site": "Cy-Fair FCU Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "Cy-Fair",
+  "team2": "Houston Bellaire",
+  "site": "Cy-Fair FCU Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "Houston Lamar",
+  "team2": "Houston Jersey Village",
+  "site": "Delmar Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "Dickinson",
+  "team2": "Pearland",
+  "site": "Dickinson High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "Austin Vandegrift",
+  "team2": "Austin Lake Travis",
+  "site": "Monroe Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "New Braunfels",
+  "team2": "San Antonio Johnson",
+  "site": "Heroes Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "PSJA High",
+  "team2": "Los Fresnos",
+  "site": "PSJA High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "Austin Westlake",
+  "team2": "Round Rock",
+  "site": "Westlake HS",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2023,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "San Antonio Reagan",
+  "team2": "San Antonio East Central",
+  "site": "Comalander Std",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Coleman",
+  "team2": "Alvord",
+  "site": "At Castleberry HS in Fort Worth",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "2A D1",
+  "week": 1,
+  "team1": "Refugio",
+  "team2": "Ben Bolt",
+  "site": "Bi-District in Mathis - 7:00 pm",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "2A D2",
+  "week": 1,
+  "team1": "Sudan",
+  "team2": "Ropesville",
+  "site": "at Slaton",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "3A D2",
+  "week": 1,
+  "team1": "Howe",
+  "team2": "Palmer",
+  "site": "Lone Oak ISD Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "3A D2",
+  "week": 1,
+  "team1": "Millsap",
+  "team2": "Callisburg",
+  "site": "Birdville stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "3A D2",
+  "week": 1,
+  "team1": "Omaha Paul Pewitt",
+  "team2": "West Rusk",
+  "site": "@ Pittsburg High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "3A D2",
+  "week": 1,
+  "team1": "New Waverly",
+  "team2": "Big Sandy Harmony",
+  "site": "Bruce Field, Athens",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "3A D2",
+  "week": 1,
+  "team1": "Hughes Springs",
+  "team2": "Newton",
+  "site": "At Center",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "4A D1",
+  "week": 1,
+  "team1": "El Paso Bowie",
+  "team2": "Lubbock Estacado",
+  "site": "@ Astound Broadband Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "4A D1",
+  "week": 1,
+  "team1": "Alvarado",
+  "team2": "Lake Worth",
+  "site": "At Apogee Stadium - UNT",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "4A D1",
+  "week": 1,
+  "team1": "Taylor",
+  "team2": "Boerne",
+  "site": "@ Marble Falls",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "4A D2",
+  "week": 1,
+  "team1": "Pecos",
+  "team2": "Canyon West Plains",
+  "site": "@ Seminole's Wigwam Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "4A D2",
+  "week": 1,
+  "team1": "Quinlan Ford",
+  "team2": "Van Alstyne",
+  "site": "Kimbrough Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "4A D2",
+  "week": 1,
+  "team1": "Young Mens Leadership Academy",
+  "team2": "Wimberley",
+  "site": "Alamo Stadium - San Antonio",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "4A D2",
+  "week": 1,
+  "team1": "Devine",
+  "team2": "Jarrell",
+  "site": "@ Canyon Lake High School",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "5A D1",
+  "week": 1,
+  "team1": "Mansfield Timberview",
+  "team2": "Heritage",
+  "site": "Vernon Newsome Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "5A D1",
+  "week": 1,
+  "team1": "Houston Waltrip",
+  "team2": "Manvel",
+  "site": "Delmar Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "5A D1",
+  "week": 1,
+  "team1": "Edinburg Vela",
+  "team2": "Weslaco East",
+  "site": "McAllen Memorial Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "North Crowley",
+  "team2": "Keller Timber Creek",
+  "site": "Crowley ISD Multi-Purpose Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "Wylie",
+  "team2": "Mesquite Horn",
+  "site": "@Eagle Stadium in Allen",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "The Woodlands",
+  "team2": "Aldine Nimitz",
+  "site": "@ Woodforest Bank Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "Houston Klein Cain",
+  "team2": "Cy Ranch",
+  "site": "Klein Memorial Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "Cypress Bridgeland",
+  "team2": "Spring Klein Collins",
+  "site": "Cy-Fair FCU Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "Cy-Fair",
+  "team2": "Houston Westside",
+  "site": "Ken Pridgeon Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "Katy Cinco Ranch",
+  "team2": "George Ranch",
+  "site": "Bi-District Playoffs @ Rhodes Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "Houston Lamar",
+  "team2": "Houston Jersey Village",
+  "site": "Delmar Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "Fort Bend Ridge Point",
+  "team2": "Katy Tompkins",
+  "site": "Mercer Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "San Antonio Brennan",
+  "team2": "Laredo Alexander",
+  "site": "Bi-District Championship",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "6A D1",
+  "week": 1,
+  "team1": "San Benito",
+  "team2": "La Joya",
+  "site": "6A Division I",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "El Paso Eastwood",
+  "team2": "San Angelo Central",
+  "site": "El Paso Trooper Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "Fort Worth Boswell",
+  "team2": "Byron Nelson",
+  "site": "Pioneer Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "Denton Guyer",
+  "team2": "Flower Mound Marcus",
+  "site": "Collins Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "Dallas Highland Park",
+  "team2": "Arlington Bowie",
+  "site": "Highlander Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "Frenship",
+  "team2": "El Paso Eastlake",
+  "site": "Peoples Bank Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "Southlake Carroll",
+  "team2": "Crowley",
+  "site": "Dragon Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "Coppell",
+  "team2": "McKinney High",
+  "site": "Echols Field",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "Arlington High",
+  "team2": "Dallas Jesuit",
+  "site": "Postell Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "Tomball High",
+  "team2": "Cypress Woods",
+  "site": "Tomball ISD Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "Harker Heights",
+  "team2": "Mansfield",
+  "site": "Venue: Leo Buckley Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "Spring Dekaney",
+  "team2": "Conroe Oak Ridge",
+  "site": "Planet Ford Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "Cypress Falls",
+  "team2": "Tomball Memorial",
+  "site": "Ken Pridgeon Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "Katy High",
+  "team2": "Fort Bend Clements",
+  "site": "Legacy Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "Alvin Shadow Creek",
+  "team2": "Brazosport Brazoswood",
+  "site": "Game Location is Freedom Field, Iowa Colony, TX",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "Houston Heights",
+  "team2": "Houston Stratford",
+  "site": "Game at Delmar Stadium",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "Fort Bend Hightower",
+  "team2": "Katy Morton Ranch",
+  "site": "Round 1 of playoffs.",
+  "source_text": "MaxPreps game card"
+ },
+ {
+  "year": 2022,
+  "classification": "6A D2",
+  "week": 1,
+  "team1": "Channelview",
+  "team2": "Houston King",
+  "site": "Ray Maddry Stadium",
   "source_text": "MaxPreps game card"
  }
 ]
