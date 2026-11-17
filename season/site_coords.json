@@ -13,6 +13,13 @@
   "source": "University of Mary Hardin-Baylor campus, Belton (approximate)",
   "stadium": "Crusader Stadium (UMHB)"
  },
+ "Dub Ferris Athletic Complex, Northeast ISD San Ant": {
+  "city": "San Antonio",
+  "lat": 29.56489,
+  "lng": -98.65321,
+  "source": "Same spot as Dub Farris Athletic Complex (Farris Stadium), already mapped for other San Antonio games; MaxPreps misspells it",
+  "stadium": "Dub Farris Athletic Complex"
+ },
  "Eagle Stadium": {
   "city": "Allen",
   "lat": 33.11407,

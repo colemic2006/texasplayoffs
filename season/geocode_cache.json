@@ -2408,12 +2408,14 @@
  },
  "Dub Ferris Athletic Complex, Northeast ISD San Ant || Corpus Christi Veterans Memorial v Austin Anderson": {
   "address": "",
-  "how": "district:San Ant, Dub Ferris Athletic Complex, Northeast",
+  "city": "San Antonio",
+  "how": "coordinates confirmed by hand",
+  "lat": 29.56489,
+  "lng": -98.65321,
   "map_link": "",
-  "missed": "2026-11-16",
   "rules": 10,
   "site": "Dub Ferris Athletic Complex, Northeast ISD San Ant",
-  "stadium": null,
+  "stadium": "Dub Farris Athletic Complex",
   "stadium_id": null
  },
  "Dublin's Cervetto Stadium || Paradise v Llano": {
