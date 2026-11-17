@@ -44,6 +44,21 @@ export default function PayIssuesView() {
         Officials Pay Issues
       </div>
 
+      <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderLeft:'4px solid var(--burnt)', borderRadius:10, padding:'16px 20px', margin:'16px 0 0', maxWidth:860 }}>
+        <div style={{ fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.16em', textTransform:'uppercase', color:'var(--burnt)', marginBottom:8, fontWeight:700 }}>The most common issue</div>
+        <div style={{ fontSize:14, color:'var(--ink)', lineHeight:1.65 }}>
+          <p style={{ margin:'0 0 10px' }}>
+            Playoff officials are paid on a scale tied to the game's gate receipts: the bigger the gate, the higher the pay band.
+            The most common problem is a game played in front of <strong>packed stands</strong> that still pays the crew at the <strong>lowest band</strong>.
+          </p>
+          <p style={{ margin:0 }}>
+            The usual reason is that the school reports only the tickets sold at the gate. Many schools refuse to count
+            <strong> season tickets and online sales</strong> as part of the gate receipts, even though <strong>UIL and the official pay sheet require them to be included</strong>.
+            Leaving them out can drop a large crowd into the lowest pay band.
+          </p>
+        </div>
+      </div>
+
       <div style={{ background:'rgba(253,208,35,0.22)', border:'2px solid var(--gold)', borderRadius:10, padding:'16px 18px', margin:'16px 0 24px',
         display:'flex', justifyContent:'space-between', alignItems:'center', flexWrap:'wrap', gap:12 }}>
         <div style={{ fontSize:15, color:'var(--ink)', lineHeight:1.5, maxWidth:640 }}>
