@@ -1,10 +1,10 @@
-import React, { useMemo, useState } from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
 import { chapterColor } from '../chapterColors'
 import { placeName } from '../placeName'
 
 // Each chapter's most-worked playoff sites. Games at the same stadium share a map pin, so they're
 // grouped by spot (to ~100 m) rather than by how the site was written. Uses every season that has
-// game sites on file (2026 so far; past seasons were recorded without sites).
+// game sites on file: 2022-2025 from the owner's bracket workbooks (Area round on), and the current season.
 const NAMES = {
   ABI:'Abilene', AMA:'Amarillo', AUS:'Austin', BEA:'Southeast Texas', COM:'Commerce', CSC:'College Station',
   CTX:'Central Texas', DAL:'Dallas', ELP:'El Paso', FTW:'Fort Worth', HOU:'Houston', NTX:'North Texas', PBC:'Permian Basin',
@@ -12,8 +12,11 @@ const NAMES = {
   STX:'South Texas', TYL:'Tyler', WAC:'Waco',
 }
 
-export default function FavoriteSites({ data, allData }) {
+export default function FavoriteSites({ data, allData, loadAllYears }) {
   const [open, setOpen] = useState(null)
+  const [span, setSpan] = useState('all')   // 'all' seasons with sites, or 'year' (the season being viewed)
+  useEffect(() => { loadAllYears?.() }, [])
+  const thisYear = data?.games?.[0]?.year
   const seasons = useMemo(() => {
     const all = { ...(allData || {}) }
     if (data?.games?.[0]?.year) all[data.games[0].year] = data
@@ -23,22 +26,22 @@ export default function FavoriteSites({ data, allData }) {
 
   const rows = useMemo(() => {
     const by = {}
-    for (const s of seasons) for (const g of s.games) {
+    for (const s of seasons.filter(s => span === 'all' || s.year === thisYear)) for (const g of s.games) {
       if (!g.chapter || g.lat == null) continue
       const c = by[g.chapter] || (by[g.chapter] = { code: g.chapter, games: 0, sites: {} })
       c.games++
       const k = `${g.lat.toFixed(3)},${g.lng.toFixed(3)}`
       const site = c.sites[k] || (c.sites[k] = { name: placeName(g), n: 0, years: new Set(), games: [] })
-      site.n++; site.years.add(s.year); site.games.push(g)
+      site.n++; site.years.add(s.year); site.games.push({ ...g, year: s.year })
     }
     return Object.values(by).map(c => {
       const sites = Object.values(c.sites).sort((a, b) => b.n - a.n || a.name.localeCompare(b.name))
       return { ...c, sites, top: sites.filter(s => s.n === sites[0].n) }
     }).sort((a, b) => (NAMES[a.code] || a.code).localeCompare(NAMES[b.code] || b.code))
-  }, [seasons])
+  }, [seasons, span, thisYear])
   if (!rows.length) return null
 
-  const years = seasons.map(s => s.year)
+  const years = seasons.map(s => s.year).filter(y => span === 'all' || y === thisYear)
   const th = { fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--mid)', padding:'8px 10px', textAlign:'left', borderBottom:'1px solid var(--border)', whiteSpace:'nowrap' }
   const td = { padding:'8px 10px', borderBottom:'1px solid var(--border)', fontSize:13, verticalAlign:'top' }
   return (
@@ -49,8 +52,16 @@ export default function FavoriteSites({ data, allData }) {
         Each Chapter's Most-Worked Sites
       </div>
       <div style={{ fontSize:13, color:'var(--mid)', lineHeight:1.55, margin:'10px 0 14px', maxWidth:800 }}>
-        The playoff site each chapter has worked most often{years.length > 1 ? ` (${years[0]}–${years[years.length - 1]})` : ` in ${years[0]}`}. Click a chapter to see all of its sites.
+        The playoff site each chapter has worked most often{years.length > 1 ? ` (${years.join(', ')})` : ` in ${years[0]}`}. Click a chapter to see all of its sites.
       </div>
+      {seasons.length > 1 && seasons.some(s => s.year === thisYear) && (
+        <div style={{ display:'flex', gap:4, marginBottom:10 }}>
+          {[['all', `All seasons (${seasons.map(s => s.year).join(', ')})`], ['year', `${thisYear} only`]].map(([k, l]) => (
+            <button key={k} onClick={() => setSpan(k)} style={{ fontFamily:'var(--mono)', fontSize:10, padding:'4px 10px', borderRadius:3, cursor:'pointer',
+              border:`1px solid ${span === k ? 'var(--burnt)' : 'var(--border)'}`, background: span === k ? 'var(--burnt)' : 'transparent', color: span === k ? '#fff' : 'var(--mid)' }}>{l}</button>
+          ))}
+        </div>
+      )}
       <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, overflowX:'auto' }}>
         <table style={{ width:'100%', borderCollapse:'collapse' }}>
           <thead><tr>
@@ -96,7 +107,7 @@ export default function FavoriteSites({ data, allData }) {
       </div>
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6 }}>
         Counts games with a chapter and a mapped site; games at the same stadium are counted together however the site was listed.
-        Seasons before 2026 were recorded without game sites, so they aren't included yet.
+        Sites for 2022–2025 come from the site owner's bracket workbooks, which list sites from the Area round on, so first-round games from those seasons aren't counted. Seasons before 2022 aren't included.
       </div>
     </div>
   )

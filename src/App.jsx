@@ -120,7 +120,7 @@ export default function App() {
                 {page === 'chapters' && yearData.season && <WeekMap data={yearData} />}
                 {page === 'chapters' && <ChapterDashboard data={yearData} year={year} allData={data} years={YEARS} loadAllYears={loadAllYears} />}
                 {page === 'chapters' && <ChapterTravel data={yearData} />}
-                {page === 'chapters' && <FavoriteSites data={yearData} allData={data} />}
+                {page === 'chapters' && <FavoriteSites data={yearData} allData={data} loadAllYears={loadAllYears} />}
                 {page === 'chapters' && <LocalMatchups data={yearData} />}
                 {page === 'chapters' && <UilPicks data={yearData} />}
                 {page === 'chapters' && <OutsideChapterGames data={yearData} />}
