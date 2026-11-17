@@ -8,7 +8,7 @@ const DISTRICTS = [
   'Carrollton-Farmers Branch ISD', 'Cedar Hill ISD', 'Celina ISD', 'Chico ISD', 'College Station ISD', 'Colorado City ISD',
   'Commerce ISD', 'Cy-Fair ISD', 'Dallas ISD', 'Deer Park ISD', 'DeSoto ISD', 'Dumas ISD', 'Duncanville ISD', 'Edcouch Elsa ISD',
   'Edinburg ISD', 'Everman ISD', 'Ferris ISD', 'Fort Stockton ISD', 'Frisco ISD', 'Galena Park ISD', 'Garland ISD', 'Greenwood ISD',
-  'Goose Creek ISD', 'Grand Prairie ISD', 'Grandview ISD', 'Grapevine-Colleyville ISD', 'Gunter ISD', 'Herford ISD',
+  'Goose Creek ISD', 'Grand Prairie ISD', 'Grandview ISD', 'Grapevine-Colleyville ISD', 'Gunter ISD', 'Hereford ISD',
   'Hurst Euless Bedford ISD', 'Idalou ISD', 'Keller ISD', 'Kermit ISD', 'La Feria ISD', 'La Porte ISD', 'Lancaster ISD', 'Lamesa ISD',
   'Little Elm ISD', 'Lone Oak ISD', 'Mansfield ISD', 'Mercedes ISD', 'Mesquite ISD', 'Mexia ISD', 'Midland ISD', 'Mission ISD',
   'Odessa ISD', 'Palo Duro ISD', 'Pampa ISD', 'Pasadena ISD', 'Pecos ISD', 'Perryton ISD', 'Pilot Point ISD', 'Red Oak ISD',
