@@ -13,6 +13,7 @@ import RecentChanges from './components/RecentChanges'
 import MembershipView from './components/MembershipView'
 import ChapterCoverageMap from './components/ChapterCoverageMap'
 import LinksView from './components/LinksView'
+import PayIssuesView from './components/PayIssuesView'
 import ScoresView from './components/ScoresView'
 import HistoryView from './components/HistoryView'
 import TeamsView from './components/TeamsView'
@@ -97,6 +98,8 @@ export default function App() {
           <ChampionshipsView />
         ) : page === 'links' ? (
           <LinksView />
+        ) : page === 'pay' ? (
+          <PayIssuesView />
         ) : page === 'coverage' ? (
           <ChapterCoverageMap />
         ) : page === 'membership' ? (
