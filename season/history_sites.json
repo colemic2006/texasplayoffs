@@ -12148,5 +12148,23 @@
   "team2": "Houston King",
   "site": "AT&T Stadium Arlington",
   "source_text": "AT&T Stadium\nArlington, TX\nSat, Dec 20, 2025\n7:00 pm"
+ },
+ {
+  "year": 2025,
+  "classification": "2A D2",
+  "week": 2,
+  "team1": "Clarendon",
+  "team2": "Lindsay",
+  "site": "Weatherford",
+  "source_text": "Fri 11/21 @Weatherford, 7pm (workbook lists Windthorst; UIL bracket: Clarendon beat Windthorst 55-14)"
+ },
+ {
+  "year": 2025,
+  "classification": "5A D2",
+  "week": 3,
+  "team1": "Richmond Randle",
+  "team2": "Waco University",
+  "site": "Prairie View Panther Stadium",
+  "source_text": "Sat 11/29 @Prairie View Panther Stadium, 1pm (workbook lists Bastrop; UIL bracket: Waco University beat Bastrop 63-21)"
  }
 ]
