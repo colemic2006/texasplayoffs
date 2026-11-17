@@ -460,5 +460,16 @@
   "new": "7:30 PM",
   "at": "2026-11-16T22:03+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "6A D1",
+  "week": 2,
+  "team1": "Galena Park North Shore",
+  "team2": "Pearland",
+  "field": "date",
+  "old": "2026-11-19",
+  "new": "2026-11-20",
+  "at": "2026-11-17T02:01+00:00",
+  "status": "changed"
  }
 ]
