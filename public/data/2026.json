@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-17T13:11+00:00",
+    "updated": "2026-11-17T15:07+00:00",
     "games": 528,
     "played": 352,
     "assigned": 527,
@@ -1681,7 +1681,8 @@
       "city": "Taft",
       "date": "2026-11-12",
       "time": "7:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/ganado-vs-taft/11-12-2026/?c=1b24168b-d0dc-4bb2-9d7c-913a92462929"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/ganado-vs-taft/11-12-2026/?c=1b24168b-d0dc-4bb2-9d7c-913a92462929",
+      "uil_pick": true
     },
     {
       "year": 2026,
@@ -1702,7 +1703,8 @@
       "city": "Karnes City",
       "date": "2026-11-12",
       "time": "7:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/freer-vs-shiner/11-12-2026/?c=fcc4abbd-3f11-493c-a866-3dfd28f5a031"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/freer-vs-shiner/11-12-2026/?c=fcc4abbd-3f11-493c-a866-3dfd28f5a031",
+      "uil_pick": true
     },
     {
       "year": 2026,
@@ -2499,7 +2501,8 @@
       "city": "Premont",
       "date": "2026-11-13",
       "time": "7:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/la-villa-vs-pettus/11-13-2026/?c=40c47ee9-2935-4e05-971f-d2d2a5268415"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/la-villa-vs-pettus/11-13-2026/?c=40c47ee9-2935-4e05-971f-d2d2a5268415",
+      "uil_pick": true
     },
     {
       "year": 2026,
@@ -4338,7 +4341,8 @@
       "city": "Deer Park",
       "date": "2026-11-13",
       "time": "7:30 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/bridge-city-vs-stafford/11-13-2026/?c=4280193f-f59b-4674-a4e8-2e9715f9d7c5"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/bridge-city-vs-stafford/11-13-2026/?c=4280193f-f59b-4674-a4e8-2e9715f9d7c5",
+      "uil_pick": true
     },
     {
       "year": 2026,
@@ -5701,7 +5705,8 @@
       "city": "El Paso",
       "date": "2026-11-12",
       "time": "6:30 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/americas-el-paso-vs-tascosa-amarillo/11-12-2026/?c=1f54de0a-ba67-4495-8a02-4608a638bda6"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/americas-el-paso-vs-tascosa-amarillo/11-12-2026/?c=1f54de0a-ba67-4495-8a02-4608a638bda6",
+      "uil_pick": true
     },
     {
       "year": 2026,
@@ -5827,7 +5832,8 @@
       "city": "McAllen",
       "date": "2026-11-12",
       "time": "7:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/flour-bluff-corpus-christi-vs-rowe-mcallen/11-12-2026/?c=920c1714-7f59-436d-8369-3afa672d6d1d"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/flour-bluff-corpus-christi-vs-rowe-mcallen/11-12-2026/?c=920c1714-7f59-436d-8369-3afa672d6d1d",
+      "uil_pick": true
     },
     {
       "year": 2026,
