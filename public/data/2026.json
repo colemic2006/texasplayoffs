@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-17T17:05+00:00",
+    "updated": "2026-11-17T17:13+00:00",
     "games": 528,
     "played": 352,
     "assigned": 527,
@@ -8270,6 +8270,12 @@
       "team2": "Apple Springs",
       "score2": null,
       "winner": null,
+      "site": "Grapeland Sandies Stadium, Grapeland",
+      "lat": 31.49523,
+      "lng": -95.48492,
+      "stadium": "Grapeland Sandies Stadium",
+      "map_link": "https://goo.gl/maps/wri5EzghE7nnRcCg8",
+      "city": "Grapeland",
       "date": "2026-11-20",
       "time": "7:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/apple-springs-vs-fannindel-ladonia/11-20-2026/?c=d3962a2b-57f7-418e-8206-658f8a50e1c5"
