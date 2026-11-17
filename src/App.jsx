@@ -7,6 +7,7 @@ import ChapterTravel from './components/ChapterTravel'
 import OutsideChapterGames from './components/OutsideChapterGames'
 import LocalMatchups from './components/LocalMatchups'
 import UilPicks from './components/UilPicks'
+import FavoriteSites from './components/FavoriteSites'
 import OfficialsCost from './components/OfficialsCost'
 import RecentChanges from './components/RecentChanges'
 import MembershipView from './components/MembershipView'
@@ -119,6 +120,7 @@ export default function App() {
                 {page === 'chapters' && yearData.season && <WeekMap data={yearData} />}
                 {page === 'chapters' && <ChapterDashboard data={yearData} year={year} allData={data} years={YEARS} loadAllYears={loadAllYears} />}
                 {page === 'chapters' && <ChapterTravel data={yearData} />}
+                {page === 'chapters' && <FavoriteSites data={yearData} allData={data} />}
                 {page === 'chapters' && <LocalMatchups data={yearData} />}
                 {page === 'chapters' && <UilPicks data={yearData} />}
                 {page === 'chapters' && <OutsideChapterGames data={yearData} />}
