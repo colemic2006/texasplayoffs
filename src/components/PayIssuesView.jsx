@@ -16,6 +16,64 @@ const DISTRICTS = [
   'Tioga ISD', 'Tascosa ISD', 'Tolar ISD', 'Venus ISD', 'Wall ISD', 'Whitehouse ISD', 'Wink Loving ISD', 'Woodlands ISD',
 ].sort((a, b) => a.localeCompare(b))
 
+// What the pay sheet says each official should earn at a given gate (bands above; past $20,500,
+// +$45 for each full additional $5,000)
+function feeFor(gate) {
+  for (const [hi, f] of [[4000, 100], [5000, 105], [7500, 110], [10000, 115], [12500, 120], [15000, 125], [17500, 140], [20500, 150]]) if (gate <= hi) return f
+  return 150 + 45 * Math.floor((gate - 20500) / 5000)
+}
+const TICKET = 8   // typical Texas varsity ticket: adults $7-$10, students $3-$5 (see sources below)
+
+// Worked examples: what a crowd at a typical ticket price brings in, and the fee that gate should pay
+function GateExamples() {
+  const fmt = n => `$${Math.round(n).toLocaleString()}`
+  const th = { fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--mid)', padding:'6px 10px', textAlign:'right', borderBottom:'1px solid var(--border)' }
+  const td = { padding:'7px 10px', fontSize:13, textAlign:'right', fontFamily:'var(--mono)', borderBottom:'1px solid var(--border)' }
+  return (
+    <div style={{ marginTop:18 }}>
+      <div style={{ fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginBottom:6 }}>What a crowd should pay: worked examples</div>
+      <div style={{ fontSize:13, color:'var(--ink)', lineHeight:1.6, marginBottom:8, maxWidth:820 }}>
+        Texas varsity tickets typically run <strong>$7–$10 for adults</strong> and <strong>$3–$5 for students</strong>, so these examples use an average of
+        <strong> ${TICKET} a ticket</strong> across everyone in the stands. Each cell shows the gross gate, then the fee each official should be paid from the scale above.
+      </div>
+      <div style={{ overflowX:'auto' }}>
+        <table style={{ borderCollapse:'collapse', minWidth:520 }}>
+          <thead><tr>
+            <th style={{ ...th, textAlign:'left' }}>Stadium seats</th>
+            {[50, 75, 100].map(p => <th key={p} style={th}>{p}% full</th>)}
+          </tr></thead>
+          <tbody>
+            {[3000, 6000, 10000].map(cap => (
+              <tr key={cap}>
+                <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans', fontWeight:600 }}>{cap.toLocaleString()}</td>
+                {[50, 75, 100].map(p => {
+                  const fans = cap * p / 100, gate = fans * TICKET
+                  return <td key={p} style={td}>
+                    <div style={{ color:'var(--mid)', fontSize:11 }}>{fans.toLocaleString()} fans · {fmt(gate)}</div>
+                    <div style={{ color:'var(--burnt)', fontWeight:700 }}>{fmt(feeFor(gate))} each</div>
+                  </td>
+                })}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <div style={{ fontSize:13, color:'var(--ink)', lineHeight:1.6, marginTop:10, maxWidth:820 }}>
+        Compare that with the <strong>$100</strong> a crew gets when only walk-up sales are reported: a sold-out 6,000-seat stadium should pay each official about
+        <strong> {fmt(feeFor(6000 * TICKET))}</strong>, but if the school reports only $4,000 in game-day sales, the crew is paid <strong>$100 each</strong>.
+      </div>
+      <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6, maxWidth:820 }}>
+        Estimates only: actual prices vary by district, and passes and free admissions lower the gate. Past $20,500 the scale adds $45 for each full additional $5,000.
+        Ticket prices from district athletics pages, e.g.{' '}
+        <a href="https://www.austinisd.org/athletics/tix" target="_blank" rel="noreferrer">Austin ISD</a> (6A adults $9, students $5),{' '}
+        <a href="https://www.pisd.edu/cms/lib/TX02215173/Centricity/Domain/61/PLANO%20ISD%20ATHLETIC%20TICKET%20INFORMATION%2024-25.pdf" target="_blank" rel="noreferrer">Plano ISD</a> (adults $8, students $4, reserved $10),{' '}
+        <a href="https://www.nisdtx.org/news-events/newsroom/details/~board/homepage-news/post/athletic-ticketing-sales-options-set-for-2026-2027" target="_blank" rel="noreferrer">Northwest ISD</a> (adults $7–$9, reserved $11),{' '}
+        <a href="https://lchs.lcisd.net/page/ticketing-policy" target="_blank" rel="noreferrer">Lubbock-Cooper ISD</a> (adults $8, students $3).
+      </div>
+    </div>
+  )
+}
+
 export default function PayIssuesView() {
   const [open, setOpen] = useState(false)
   const [q, setQ] = useState('')
@@ -67,6 +125,7 @@ export default function PayIssuesView() {
               </div>
             ))}
           </div>
+          <GateExamples />
           <div style={{ fontSize:12, color:'var(--ink)', background:'rgba(70,29,124,0.05)', borderRadius:6, padding:'10px 12px', marginTop:12, lineHeight:1.6 }}>
             <strong>How UIL defines gross gate receipts:</strong> <em>“all ticket sales which would include walk-up ticket sales at the game site, ticket sales at the home school,
             season ticket sales (pro-rated), tickets sales at visiting school and ticket sales at a third-party site, before any expenses are deducted.”</em>
