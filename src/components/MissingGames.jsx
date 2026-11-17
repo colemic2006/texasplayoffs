@@ -43,13 +43,16 @@ export default function MissingGames({ data, onSubmit }) {
 
   const th = { fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--mid)', textAlign:'left', padding:'8px 12px', fontWeight:500 }
   const td = { padding:'8px 12px', fontSize:12, color:'var(--ink)', borderTop:'1px solid rgba(15,13,11,0.06)' }
-  const head = (title, line, button) => (
-    <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', flexWrap:'wrap', gap:10, padding:'14px 16px', borderBottom:'1px solid var(--border)', borderTop:'1px solid var(--border)', marginTop:-1 }}>
+  // alert: the unassigned-games header, drawn to catch the eye (gold band, pulsing dot, larger type)
+  const head = (title, line, button, alert) => (
+    <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', flexWrap:'wrap', gap:10, padding: alert ? '16px 18px' : '14px 16px',
+      borderBottom:'1px solid var(--border)', borderTop:'1px solid var(--border)', marginTop:-1, background: alert ? 'rgba(253,208,35,0.22)' : 'transparent' }}>
       <div>
-        <div style={{ fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.16em', textTransform:'uppercase', color:'var(--burnt)', marginBottom:4 }}>
+        <div style={{ fontFamily:'var(--mono)', fontSize: alert ? 11 : 10, letterSpacing:'0.16em', textTransform:'uppercase', color:'var(--burnt)', marginBottom:4, fontWeight: alert ? 700 : 400, display:'flex', alignItems:'center', gap:8 }}>
+          {alert && <span className="mg-pulse" />}
           {ROUNDS[week] || `Week ${week}`} · {title}
         </div>
-        <div style={{ fontSize:14, color:'var(--ink)' }}>{line}</div>
+        <div style={{ fontSize: alert ? 17 : 14, fontWeight: alert ? 600 : 400, color:'var(--ink)' }}>{line}</div>
       </div>
       {button}
     </div>
@@ -72,7 +75,11 @@ export default function MissingGames({ data, onSubmit }) {
     </div>
   )
   return (
-    <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, marginBottom:32, overflow:'hidden' }}>
+    <div style={{ background:'var(--surface)', border: showChapter ? '2px solid var(--gold)' : '1px solid var(--border)', borderLeft: showChapter ? '6px solid var(--gold)' : undefined,
+      boxShadow: showChapter ? '0 0 0 4px rgba(253,208,35,0.18), 0 4px 14px rgba(70,29,124,0.10)' : 'none', borderRadius:10, marginBottom:32, overflow:'hidden' }}>
+      <style>{`.mg-pulse{width:10px;height:10px;border-radius:50%;background:var(--burnt);display:inline-block;animation:mgpulse 1.6s ease-out infinite}
+        @keyframes mgpulse{0%{box-shadow:0 0 0 0 rgba(70,29,124,.55)}70%{box-shadow:0 0 0 9px rgba(70,29,124,0)}100%{box-shadow:0 0 0 0 rgba(70,29,124,0)}}
+        @media (prefers-reduced-motion: reduce){.mg-pulse{animation:none}}`}</style>
       {showChapter && <>
         {head('Still unassigned', `${noChapter.length} of ${round.length} games ${noChapter.length === 1 ? "doesn't" : "don't"} have a chapter yet. Know who has one?`,
           onSubmit && (
@@ -80,7 +87,7 @@ export default function MissingGames({ data, onSubmit }) {
               fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.12em', textTransform:'uppercase', padding:'9px 16px',
               borderRadius:6, border:'none', background:'var(--burnt)', color:'#fff', cursor:'pointer',
             }}>Submit an assignment</button>
-          ))}
+          ), true)}
         {table(noChapter, 'Site')}
       </>}
       {showPin && <>
