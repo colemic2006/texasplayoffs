@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
+import { addBaseLayers } from '../baseLayers'
 import 'leaflet/dist/leaflet.css'
 import { chapterColor } from '../chapterColors'
 import { CHAPTER_CENTERS } from '../chapterCenters'
@@ -200,7 +201,7 @@ function MembershipMap({ members, sites }) {
       if (!alive || !ref.current) return
       if (!map.current) {
         map.current = L.map(ref.current, { zoomControl: true, scrollWheelZoom: false }).setView([31.2, -99.3], 6)
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '&copy; OpenStreetMap contributors', maxZoom: 12 }).addTo(map.current)
+        addBaseLayers(L, map.current, { maxZoom: 12 })
       }
       if (layer.current) layer.current.remove()
       layer.current = L.layerGroup().addTo(map.current)

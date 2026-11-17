@@ -1,4 +1,5 @@
 import { UilTag, UIL_TIP } from '../uilPick'
+import { addBaseLayers } from '../baseLayers'
 import React, { useState, useMemo, useEffect, useRef } from 'react'
 import { placeName, gameWhen } from '../placeName'
 import { UNASSIGNED, colorFor } from '../chapterColors'
@@ -388,9 +389,7 @@ export function GameMap({ markers }) {
 
       if (!leafletMap.current) {
         leafletMap.current = L.map(mapRef.current, { zoomControl: true }).setView([31.0, -99.0], 6)
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-          attribution: '© OpenStreetMap contributors'
-        }).addTo(leafletMap.current)
+        addBaseLayers(L, leafletMap.current)
       }
 
       // Clear old markers

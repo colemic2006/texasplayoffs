@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react'
+import { addBaseLayers } from '../baseLayers'
 import 'leaflet/dist/leaflet.css'
 import { chapterColor } from '../chapterColors'
 import { useHomeChapterStatus } from '../homeChapters'
@@ -58,7 +59,7 @@ export default function ChapterCoverageMap() {
       if (gone) return
       if (!map.current) {
         map.current = L.map(mapEl.current, { zoomControl: true }).setView([31.2, -99.3], 6)
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap contributors' }).addTo(map.current)
+        addBaseLayers(L, map.current)
       }
       if (layer.current) layer.current.remove()
       const g = L.layerGroup().addTo(map.current); layer.current = g
