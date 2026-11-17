@@ -14,6 +14,7 @@ const NAMES = {
 
 export default function FavoriteSites({ data, allData, loadAllYears }) {
   const [open, setOpen] = useState(null)
+  const [allSites, setAllSites] = useState(false)   // in an opened chapter, also list sites worked only once
   const [span, setSpan] = useState('all')   // 'all' seasons with sites, or 'year' (the season being viewed)
   useEffect(() => { loadAllYears?.() }, [])
   const thisYear = data?.games?.[0]?.year
@@ -73,30 +74,38 @@ export default function FavoriteSites({ data, allData, loadAllYears }) {
               const n = r.top[0].n, isOpen = open === r.code
               return (
                 <React.Fragment key={r.code}>
-                  <tr onClick={() => setOpen(isOpen ? null : r.code)} style={{ cursor:'pointer' }}>
+                  <tr onClick={() => { setOpen(isOpen ? null : r.code); setAllSites(false) }} style={{ cursor:'pointer' }}>
                     <td style={{ ...td, whiteSpace:'nowrap' }}>
                       <span style={{ display:'inline-block', width:9, height:9, borderRadius:'50%', background:chapterColor(r.code), marginRight:7 }} />
                       <strong>{NAMES[r.code] || r.code}</strong> <span style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)' }}>{r.code}</span>
                       <span style={{ color:'var(--burnt)', fontSize:11, marginLeft:6 }}>{isOpen ? '▾' : '▸'}</span>
                     </td>
                     <td style={td}>
-                      {n > 1 ? r.top.map(s => <div key={s.name}>{s.name}</div>)
+                      {n > 1 ? <>
+                        {r.top.slice(0, 3).map(s => <div key={s.name}>{s.name}</div>)}
+                        {r.top.length > 3 && <div style={{ color:'var(--mid)', fontSize:12 }}>+ {r.top.length - 3} more tied (open to see them)</div>}
+                      </>
                         : <span style={{ color:'var(--mid)' }}>{r.sites.length === 1 ? 'Only one game with a mapped site so far' : `No site more than once yet (${r.sites.length} different sites)`}</span>}
                     </td>
                     <td style={{ ...td, textAlign:'right', fontFamily:'var(--mono)', whiteSpace:'nowrap' }}>
-                      {n > 1 ? <>{n} <span style={{ color:'var(--mid)', fontSize:11 }}>of {r.games} ({Math.round(100 * n / r.games)}%)</span></> : '—'}
+                      {n > 1 ? <>{n}{r.top.length > 1 ? ' each' : ''} <span style={{ color:'var(--mid)', fontSize:11 }}>of {r.games} games{r.top.length > 1 ? ` · ${r.top.length} sites tied` : ` (${Math.round(100 * n / r.games)}%)`}</span></> : '—'}
                     </td>
                     <td style={{ ...td, textAlign:'right', fontFamily:'var(--mono)' }}>{r.sites.length}</td>
                   </tr>
                   {isOpen && (
                     <tr><td colSpan={4} style={{ padding:'4px 10px 12px 28px', borderBottom:'1px solid var(--border)', background:'rgba(70,29,124,0.03)' }}>
-                      {r.sites.map(s => (
+                      {r.sites.filter(s => allSites || s.n > 1 || r.sites[0].n === 1).map(s => (
                         <div key={s.name + s.n} style={{ display:'flex', gap:10, fontSize:12, padding:'4px 0', borderBottom:'1px dashed var(--border)' }}>
                           <span style={{ fontFamily:'var(--mono)', width:22, textAlign:'right', color:'var(--burnt)', fontWeight:700 }}>{s.n}</span>
                           <span style={{ flex:'0 0 38%', minWidth:180 }}>{s.name}</span>
                           <span style={{ flex:1, color:'var(--mid)' }}>{s.games.map(g => `${g.team1} v ${g.team2}${years.length > 1 ? ` (${g.year})` : ''}`).join(' · ')}</span>
                         </div>
                       ))}
+                      {!allSites && r.sites[0].n > 1 && r.sites.some(s => s.n === 1) && (
+                        <button onClick={() => setAllSites(true)} style={{ marginTop:6, fontFamily:'var(--mono)', fontSize:10, color:'var(--burnt)', background:'none', border:'none', cursor:'pointer', padding:'4px 0' }}>
+                          ▸ Show the {r.sites.filter(s => s.n === 1).length} sites worked only once
+                        </button>
+                      )}
                     </td></tr>
                   )}
                 </React.Fragment>
