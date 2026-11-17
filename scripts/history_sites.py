@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Game sites for past seasons, from the owner's season bracket workbooks (Area round on; the
-bracket workbooks don't list first-round sites). season/history_sites.json holds the sites as
+Game sites for past seasons, from the owner's season bracket workbooks (Area round on) and, for
+first-round games, MaxPreps (season/history_sites_r1.json, from scripts/mp_history.py). season/history_sites.json holds the sites as
 pulled from those workbooks; this places them on the map (game_sites.py, same rules as the
 current season) and writes site, coordinates and stadium onto the games in public/data/<year>.json.
 
@@ -16,6 +16,10 @@ sys.path.insert(0, str(ROOT / 'scripts'))
 import game_sites  # noqa: E402
 
 rows = json.loads((ROOT / 'season/history_sites.json').read_text())
+# first-round sites from MaxPreps (scripts/mp_history.py)
+R1 = ROOT / 'season/history_sites_r1.json'
+if R1.exists():
+    rows += json.loads(R1.read_text())
 review = ROOT / 'season' / 'history_sites_review.json'
 added = game_sites.locate([(r['site'], r['team1'], r['team2']) for r in rows], review)
 cache = json.loads(game_sites.CACHE.read_text())

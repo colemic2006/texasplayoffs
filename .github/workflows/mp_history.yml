@@ -1,0 +1,51 @@
+name: Past seasons' first-round sites (MaxPreps)
+
+# One-off backfill: first-round game sites for past seasons from MaxPreps, then places them on the
+# map. Run from the Actions tab; a rerun resumes from season/history_mp.json.
+on:
+  workflow_dispatch:
+    inputs:
+      years:
+        description: 'Seasons to fill'
+        default: '2022 2023 2024 2025'
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    concurrency:
+      group: history-sites
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install openpyxl pdfplumber beautifulsoup4
+      - name: First-round sites from MaxPreps
+        run: python3 scripts/mp_history.py ${{ inputs.years }}
+      - name: Place them on the map
+        if: always()
+        run: python3 scripts/history_sites.py
+      - name: Commit changes
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git add season public/data
+            if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+            git commit -q -m "First-round sites for past seasons from MaxPreps"
+            if git push; then gh workflow run deploy.yml --ref main || true; exit 0; fi
+            mkdir -p "$RUNNER_TEMP/keep" && cp season/geocode_cache.json season/history_mp.json season/history_sites_r1.json "$RUNNER_TEMP/keep/"
+            git fetch -q origin main && git reset -q --hard origin/main
+            cp "$RUNNER_TEMP"/keep/* season/
+            python3 scripts/history_sites.py
+          done
+          exit 1
