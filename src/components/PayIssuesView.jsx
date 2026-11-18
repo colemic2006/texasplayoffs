@@ -207,7 +207,7 @@ export default function PayIssuesView() {
             <strong>A flat playoff fee by round,</strong> set by UIL and not tied to the gate. This removes any incentive to under-report playoff gates.
           </li>
           <li>
-            <strong>A real consequence for misreporting.</strong> A school found under-reporting its gate would <strong>lose coverage from its local officiating chapter</strong>.
+            <strong>A real consequence for misreporting.</strong> A school found under-reporting its gate could <strong>lose coverage from its local officiating chapter</strong>.
           </li>
         </ol>
       </div>
