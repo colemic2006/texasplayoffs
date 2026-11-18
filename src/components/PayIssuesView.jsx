@@ -161,6 +161,36 @@ export default function PayIssuesView() {
         </div>
       </div>
 
+      <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, padding:'16px 20px', margin:'16px 0 0', maxWidth:860 }}>
+        <div style={{ fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.16em', textTransform:'uppercase', color:'var(--burnt)', marginBottom:10, fontWeight:700 }}>Other ways to fix it</div>
+        <ol style={{ margin:0, paddingLeft:20, fontSize:14, color:'var(--ink)', lineHeight:1.65, display:'flex', flexDirection:'column', gap:10 }}>
+          <li>
+            <strong>Attach the ticketing platform's sales report.</strong> Online ticketing services (GoFan, HomeTown and others) produce an exact sales report for every game.
+            Requiring that report with the pay sheet removes the guesswork about online and presale tickets.
+          </li>
+          <li>
+            <strong>The visiting school reports its presales to the host, in writing, and the number goes on the pay sheet.</strong> Visiting-school sales are the
+            line most likely to go missing because the host may not know the number. It should be shown to the officials on the pay sheet, not just passed between schools.
+          </li>
+          <li>
+            <strong>A standard formula for pro-rating season tickets,</strong> for example season ticket revenue divided by the number of home games.
+            "Pro-rated" with no formula invites a zero.
+          </li>
+          <li>
+            <strong>A floor based on stadium size.</strong> Every game would be paid as if at least <strong>25% of the stadium's established capacity</strong> attended,
+            at an average of ${TICKET} a ticket, whatever gate is reported. For a 6,000-seat stadium that is 1,500 fans and a
+            ${(6000 * 0.25 * TICKET).toLocaleString()} gate, so the fee could not drop below <strong>${feeFor(6000 * 0.25 * TICKET)}</strong> per official
+            ({[3000, 10000].map(c => `${c.toLocaleString()} seats: $${feeFor(c * 0.25 * TICKET)}`).join('; ')}).
+          </li>
+          <li>
+            <strong>A flat playoff fee by round,</strong> set by UIL and not tied to the gate. This removes any incentive to under-report playoff gates.
+          </li>
+          <li>
+            <strong>A real consequence for misreporting.</strong> A school found under-reporting its gate would <strong>lose coverage from its local officiating chapter</strong>.
+          </li>
+        </ol>
+      </div>
+
       <div style={{ background:'rgba(253,208,35,0.22)', border:'2px solid var(--gold)', borderRadius:10, padding:'16px 18px', margin:'16px 0 24px',
         display:'flex', justifyContent:'space-between', alignItems:'center', flexWrap:'wrap', gap:12 }}>
         <div style={{ fontSize:15, color:'var(--ink)', lineHeight:1.5, maxWidth:640 }}>
