@@ -35,7 +35,7 @@ function GateExamples() {
       <div style={{ fontSize:13, color:'var(--ink)', lineHeight:1.6, marginBottom:8, maxWidth:820 }}>
         Texas varsity tickets typically run <strong>$7–$10 for adults</strong> and <strong>$3–$5 for students</strong>, so these examples use an average of
         <strong> ${TICKET} a ticket</strong> across everyone in the stands. For example, the lowest band tops out at a <strong>$4,000</strong> gate: at ${TICKET} a ticket,
-        that is only <strong>{(4000 / TICKET).toLocaleString()} fans</strong>. Any crowd bigger than that should move the crew above the lowest band.
+        that is only <strong style={{ fontWeight:800, color:'var(--burnt)', fontSize:15 }}>{(4000 / TICKET).toLocaleString()} fans</strong>. Any crowd bigger than that should move the crew above the lowest band.
         Each cell below shows the gross gate, then the fee each official should be paid from the scale above.
       </div>
       <div style={{ overflowX:'auto' }}>
