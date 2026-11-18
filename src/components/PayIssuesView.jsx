@@ -22,7 +22,7 @@ function feeFor(gate) {
   for (const [hi, f] of [[4000, 100], [5000, 105], [7500, 110], [10000, 115], [12500, 120], [15000, 125], [17500, 140], [20500, 150]]) if (gate <= hi) return f
   return 150 + 45 * Math.floor((gate - 20500) / 5000)
 }
-const TICKET = 8   // typical Texas varsity ticket: adults $7-$10, students $3-$5 (see sources below)
+const TICKET = 10   // average ticket across everyone in the stands: adults $7-$10, students $3-$5, reserved seats more (see sources below)
 
 // Worked examples: what a crowd at a typical ticket price brings in, and the fee that gate should pay
 function GateExamples() {
@@ -33,9 +33,9 @@ function GateExamples() {
     <div style={{ marginTop:18 }}>
       <div style={{ fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginBottom:6 }}>What a crowd should pay: worked examples</div>
       <div style={{ fontSize:13, color:'var(--ink)', lineHeight:1.6, marginBottom:8, maxWidth:820 }}>
-        Texas varsity tickets typically run <strong>$7–$10 for adults</strong> and <strong>$3–$5 for students</strong>, so these examples use an average of
-        <strong> ${TICKET} a ticket</strong> across everyone in the stands. Some schools charge much more: this season, Coppell's home-side reserved seats were
-        <strong> $23 each</strong> ($22 plus a $1 platform fee), with general admission at $9, so the examples here are likely on the low side. For example, the lowest band tops out at a <strong>$4,000</strong> gate: at ${TICKET} a ticket,
+        Texas varsity tickets typically run <strong>$7–$10 for adults</strong> and <strong>$3–$5 for students</strong>, and reserved seats cost more: this season,
+        Coppell's home-side reserved seats were <strong>$23 each</strong> ($22 plus a $1 platform fee), with general admission at $9. These examples use a round
+        average of <strong>${TICKET} a ticket</strong> across everyone in the stands, which is likely still on the low side for many games. For example, the lowest band tops out at a <strong>$4,000</strong> gate: at ${TICKET} a ticket,
         that is only <strong style={{ fontWeight:800, color:'var(--burnt)', fontSize:15 }}>{(4000 / TICKET).toLocaleString()} fans</strong>. Any crowd bigger than that should move the crew above the lowest band.
         Each cell below shows the gross gate, then the fee each official should be paid from the scale above.
       </div>
@@ -192,14 +192,14 @@ export default function PayIssuesView() {
             </div>
             <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(200px, 1fr))', gap:'4px 18px', fontSize:13, fontFamily:'var(--mono)', maxWidth:760 }}>
               {[['Up to 400 fans', '$100'], ['401 – 500', '$105'], ['501 – 750', '$110'], ['751 – 1,000', '$115'], ['1,001 – 1,250', '$120'],
-                ['1,251 – 1,500', '$125'], ['1,501 – 1,750', '$140'], ['1,751 – 2,000', '$150'], ['Each add’l 500 fans', '+ $45']].map(([h, f]) => (
+                ['1,251 – 1,500', '$125'], ['1,501 – 1,750', '$140'], ['1,751 – 2,050', '$150'], ['Each add’l 500 fans', '+ $45']].map(([h, f]) => (
                 <div key={h} style={{ display:'flex', justifyContent:'space-between', borderBottom:'1px dashed var(--border)', padding:'3px 0' }}>
                   <span style={{ color:'var(--mid)' }}>{h}</span><strong style={{ color:'var(--ink)', whiteSpace:'nowrap', marginLeft:8 }}>{f}</strong>
                 </div>
               ))}
             </div>
             <div style={{ fontSize:12, color:'var(--mid)', marginTop:6 }}>
-              For example, a full 6,000-seat stadium would pay each official $150 + 8 × $45 = <strong style={{ color:'var(--ink)' }}>$510</strong>,
+              For example, a full 6,000-seat stadium would pay each official $150 + 7 × $45 = <strong style={{ color:'var(--ink)' }}>$465</strong> (the same as its $60,000 gate),
               and a half-full 3,000-seat stadium (1,500 fans) would pay <strong style={{ color:'var(--ink)' }}>$125</strong>.
             </div>
           </li>
