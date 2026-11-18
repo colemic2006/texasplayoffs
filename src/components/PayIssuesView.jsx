@@ -186,6 +186,22 @@ export default function PayIssuesView() {
             <strong>Pay bands based on attendance, not gate dollars.</strong> Set the fee by how many people are in the stands (the headcount) instead of how much
             money the school reports. A crowd is hard to hide: it can be counted at the gate or by scanned tickets, and anyone in the stadium can see a full house.
             Pay would no longer depend on which ticket sales a school chooses to count, and it would stay fair when ticket prices differ from school to school.
+            <div style={{ fontSize:13, margin:'8px 0 4px' }}>
+              Suggested bands, counting <strong>everyone through the gates</strong> (paid tickets, students, passes and comps), set to match the dollar bands
+              at an average of <strong>$10 a ticket</strong>:
+            </div>
+            <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(200px, 1fr))', gap:'4px 18px', fontSize:13, fontFamily:'var(--mono)', maxWidth:760 }}>
+              {[['Up to 400 fans', '$100'], ['401 – 500', '$105'], ['501 – 750', '$110'], ['751 – 1,000', '$115'], ['1,001 – 1,250', '$120'],
+                ['1,251 – 1,500', '$125'], ['1,501 – 1,750', '$140'], ['1,751 – 2,000', '$150'], ['Each add’l 500 fans', '+ $45']].map(([h, f]) => (
+                <div key={h} style={{ display:'flex', justifyContent:'space-between', borderBottom:'1px dashed var(--border)', padding:'3px 0' }}>
+                  <span style={{ color:'var(--mid)' }}>{h}</span><strong style={{ color:'var(--ink)', whiteSpace:'nowrap', marginLeft:8 }}>{f}</strong>
+                </div>
+              ))}
+            </div>
+            <div style={{ fontSize:12, color:'var(--mid)', marginTop:6 }}>
+              For example, a full 6,000-seat stadium would pay each official $150 + 8 × $45 = <strong style={{ color:'var(--ink)' }}>$510</strong>,
+              and a half-full 3,000-seat stadium (1,500 fans) would pay <strong style={{ color:'var(--ink)' }}>$125</strong>.
+            </div>
           </li>
           <li>
             <strong>A flat playoff fee by round,</strong> set by UIL and not tied to the gate. This removes any incentive to under-report playoff gates.
