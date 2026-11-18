@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-17T20:18+00:00",
+    "updated": "2026-11-18T17:49+00:00",
     "games": 528,
     "played": 352,
     "assigned": 527,
@@ -9064,16 +9064,7 @@
       "city": "Madisonville",
       "date": "2026-11-20",
       "time": "7:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/diboll-vs-lorena/11-20-2026/?c=24bceaf8-660e-42bd-ab37-9bf69f3bb673",
-      "changes": [
-        {
-          "field": "time",
-          "old": "7:30 PM",
-          "new": "7:00 PM",
-          "at": "2026-11-14T17:41+00:00",
-          "status": "changed"
-        }
-      ]
+      "mp_url": "https://www.maxpreps.com/tx/football/game/diboll-vs-lorena/11-20-2026/?c=24bceaf8-660e-42bd-ab37-9bf69f3bb673"
     },
     {
       "year": 2026,
