@@ -136,6 +136,31 @@ export default function PayIssuesView() {
         </div>
       </div>
 
+      <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderLeft:'4px solid var(--sage)', borderRadius:10, padding:'16px 20px', margin:'16px 0 0', maxWidth:860 }}>
+        <div style={{ fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.16em', textTransform:'uppercase', color:'var(--sage)', marginBottom:8, fontWeight:700 }}>A step in the right direction: an itemized pay sheet</div>
+        <div style={{ fontSize:14, color:'var(--ink)', lineHeight:1.65 }}>
+          <p style={{ margin:'0 0 10px' }}>
+            Today the pay sheet asks for a single gate number, so there is no way to see what was left out. The proposed sheet has the school
+            <strong> list each kind of ticket sale on its own line</strong>, the same five sources in UIL's definition, and add them up to the gross gate:
+          </p>
+          <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(300px, 1fr))', gap:'6px 24px', fontSize:13, margin:'4px 0 12px' }}>
+            {['Walk-up ticket sales', 'Home school ticket sales', 'Third-party site ticket sales (online)', 'Total season ticket sales (pro-rated)', 'Visiting school ticket sales'].map(t => (
+              <div key={t} style={{ display:'flex', justifyContent:'space-between', alignItems:'flex-end', gap:8, borderBottom:'1px solid var(--border)', padding:'4px 0' }}>
+                <span>{t}</span><span style={{ fontFamily:'var(--mono)', color:'var(--mid)', whiteSpace:'nowrap' }}>$ ______</span>
+              </div>
+            ))}
+            <div style={{ display:'flex', justifyContent:'space-between', alignItems:'flex-end', gap:8, borderBottom:'2px solid var(--ink)', padding:'4px 0', fontWeight:700 }}>
+              <span>Gross gate receipts</span><span style={{ fontFamily:'var(--mono)', whiteSpace:'nowrap' }}>$ ______</span>
+            </div>
+          </div>
+          <p style={{ margin:0 }}>
+            The school then <strong>returns or mails a copy of the pay sheet to each official</strong> as documentation that the pay was computed correctly.
+            It doesn't stop a school from leaving a line blank, but a blank "season ticket" or "third-party" line on a game with full stands is easy to spot and question,
+            and it puts the numbers in writing.
+          </p>
+        </div>
+      </div>
+
       <div style={{ background:'rgba(253,208,35,0.22)', border:'2px solid var(--gold)', borderRadius:10, padding:'16px 18px', margin:'16px 0 24px',
         display:'flex', justifyContent:'space-between', alignItems:'center', flexWrap:'wrap', gap:12 }}>
         <div style={{ fontSize:15, color:'var(--ink)', lineHeight:1.5, maxWidth:640 }}>
