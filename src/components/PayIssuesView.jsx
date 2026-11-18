@@ -183,6 +183,11 @@ export default function PayIssuesView() {
             ({[3000, 10000].map(c => `${c.toLocaleString()} seats: $${feeFor(c * 0.25 * TICKET)}`).join('; ')}).
           </li>
           <li>
+            <strong>Pay bands based on attendance, not gate dollars.</strong> Set the fee by how many people are in the stands (the headcount) instead of how much
+            money the school reports. A crowd is hard to hide: it can be counted at the gate or by scanned tickets, and anyone in the stadium can see a full house.
+            Pay would no longer depend on which ticket sales a school chooses to count, and it would stay fair when ticket prices differ from school to school.
+          </li>
+          <li>
             <strong>A flat playoff fee by round,</strong> set by UIL and not tied to the gate. This removes any incentive to under-report playoff gates.
           </li>
           <li>
