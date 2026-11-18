@@ -5,7 +5,7 @@
     "updated": "2026-11-18T17:49+00:00",
     "games": 528,
     "played": 352,
-    "assigned": 527,
+    "assigned": 528,
     "weeks": {
       "1": {
         "games": 352,
@@ -13,7 +13,7 @@
       },
       "2": {
         "games": 176,
-        "assigned": 175
+        "assigned": 176
       },
       "3": {
         "games": 0,
@@ -145,7 +145,7 @@
     {
       "code": "DAL",
       "name": "Dallas",
-      "total": 47,
+      "total": 48,
       "weeks": {
         "1": {
           "total": 29,
@@ -163,8 +163,9 @@
           }
         },
         "2": {
-          "total": 18,
+          "total": 19,
           "classifications": {
+            "1A D2": 1,
             "2A D1": 1,
             "2A D2": 2,
             "3A D1": 2,
@@ -8245,7 +8246,7 @@
       "classification": "1A D2",
       "week": 2,
       "round": "Area",
-      "chapter": null,
+      "chapter": "DAL",
       "team1": "Fannindel",
       "score1": null,
       "team2": "Apple Springs",
