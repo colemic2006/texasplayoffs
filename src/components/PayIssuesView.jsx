@@ -34,7 +34,9 @@ function GateExamples() {
       <div style={{ fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginBottom:6 }}>What a crowd should pay: worked examples</div>
       <div style={{ fontSize:13, color:'var(--ink)', lineHeight:1.6, marginBottom:8, maxWidth:820 }}>
         Texas varsity tickets typically run <strong>$7–$10 for adults</strong> and <strong>$3–$5 for students</strong>, so these examples use an average of
-        <strong> ${TICKET} a ticket</strong> across everyone in the stands. Each cell shows the gross gate, then the fee each official should be paid from the scale above.
+        <strong> ${TICKET} a ticket</strong> across everyone in the stands. For example, the lowest band tops out at a <strong>$4,000</strong> gate: at ${TICKET} a ticket,
+        that is only <strong>{(4000 / TICKET).toLocaleString()} fans</strong>. Any crowd bigger than that should move the crew above the lowest band.
+        Each cell below shows the gross gate, then the fee each official should be paid from the scale above.
       </div>
       <div style={{ overflowX:'auto' }}>
         <table style={{ borderCollapse:'collapse', minWidth:520 }}>
