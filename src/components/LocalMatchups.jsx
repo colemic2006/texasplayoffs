@@ -95,7 +95,7 @@ export default function LocalMatchups({ data }) {
                           {list.map((g, i) => (
                         <div key={i} style={{ display:'flex', gap:10, alignItems:'center', fontSize:12, padding:'4px 0', borderBottom:'1px dashed var(--border)' }}>
                           <span style={{ flex:1, minWidth:0 }}>{g.team1} v {g.team2} <span style={{ color:'var(--mid)' }}>· {g.classification}</span></span>
-                          <span style={{ fontFamily:'var(--mono)', fontSize:10, padding:'2px 6px', borderRadius:3, background:chapterColor(g.home), color:'#fff' }}>home: {g.home}</span>
+                          <span style={{ fontFamily:'var(--mono)', fontSize:10, padding:'2px 6px', borderRadius:3, background:chapterColor(g.home), color:'#fff' }} title="Both schools' home chapter">both schools: {g.home}</span>
                           <span style={{ fontFamily:'var(--mono)', fontSize:10, padding:'2px 6px', borderRadius:3, background:chapterColor(g.chapter), color:'#fff' }}>worked by: {g.chapter}</span>
                           <span style={{ fontFamily:'var(--mono)', fontSize:10, width:16, textAlign:'center', color: g.chapter === g.home ? 'var(--sage)' : 'var(--burnt)', fontWeight:700 }}>{g.chapter === g.home ? '✓' : '✕'}</span>
                         </div>
