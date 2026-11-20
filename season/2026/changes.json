@@ -471,5 +471,16 @@
   "new": "2026-11-20",
   "at": "2026-11-17T02:01+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "2A D1",
+  "week": 2,
+  "team1": "Axtell",
+  "team2": "De Leon",
+  "field": "date",
+  "old": "2026-11-20",
+  "new": "2026-11-19",
+  "at": "2026-11-20T02:24+00:00",
+  "status": "changed"
  }
 ]

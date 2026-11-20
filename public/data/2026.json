@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-20T02:07+00:00",
+    "updated": "2026-11-20T02:24+00:00",
     "games": 528,
-    "played": 354,
+    "played": 355,
     "assigned": 528,
     "weeks": {
       "1": {
@@ -8486,9 +8486,18 @@
       "stadium": "Bob and Norma Cervetto Stadium",
       "map_link": "https://goo.gl/maps/SnMek5KYTMWGGttj8",
       "city": "Dublin",
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "time": "7:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/axtell-vs-de-leon/11-19-2026/?c=5516a47e-e7b8-44a6-9dc7-5a666bc10f31"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/axtell-vs-de-leon/11-19-2026/?c=5516a47e-e7b8-44a6-9dc7-5a666bc10f31",
+      "changes": [
+        {
+          "field": "date",
+          "old": "2026-11-20",
+          "new": "2026-11-19",
+          "at": "2026-11-20T02:24+00:00",
+          "status": "changed"
+        }
+      ]
     },
     {
       "year": 2026,
@@ -11022,10 +11031,10 @@
       "round": "Area",
       "chapter": "RGV",
       "team1": "San Antonio Brennan",
-      "score1": null,
+      "score1": 31,
       "team2": "Weslaco",
-      "score2": null,
-      "winner": null,
+      "score2": 15,
+      "winner": "San Antonio Brennan",
       "site": "Farris Stadium",
       "lat": 29.56343,
       "lng": -98.65351,
