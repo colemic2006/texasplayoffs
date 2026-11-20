@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-20T02:24+00:00",
+    "updated": "2026-11-20T02:43+00:00",
     "games": 528,
-    "played": 355,
+    "played": 356,
     "assigned": 528,
     "weeks": {
       "1": {
@@ -9116,10 +9116,10 @@
       "round": "Area",
       "chapter": "SPC",
       "team1": "Wall",
-      "score1": null,
+      "score1": 45,
       "team2": "Sweetwater",
-      "score2": null,
-      "winner": null,
+      "score2": 28,
+      "winner": "Wall",
       "site": "Wolf Stadium, Colorado City",
       "lat": 32.39832,
       "lng": -100.86988,
