@@ -537,5 +537,16 @@
   "new": "7:00 PM",
   "at": "2026-11-20T17:54+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "4A D1",
+  "week": 2,
+  "team1": "Canyon Randall",
+  "team2": "Lake Dallas",
+  "field": "score",
+  "old": "Canyon Randall 36, Lake Dallas 21",
+  "new": "Canyon Randall 30, Lake Dallas 27",
+  "at": "2026-11-20T19:27+00:00",
+  "status": "changed"
  }
 ]
