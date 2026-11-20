@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-20T19:27+00:00",
+    "updated": "2026-11-20T20:58+00:00",
     "games": 535,
     "played": 389,
     "assigned": 528,
@@ -9384,16 +9384,7 @@
       "city": "Childress",
       "date": "2026-11-20",
       "time": "7:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/henrietta-vs-slaton/11-20-2026/?c=8c71695c-7e25-47b5-978a-b82e912091ac",
-      "changes": [
-        {
-          "field": "date",
-          "old": "2026-11-19",
-          "new": "2026-11-20",
-          "at": "2026-11-16T20:55+00:00",
-          "status": "changed"
-        }
-      ]
+      "mp_url": "https://www.maxpreps.com/tx/football/game/henrietta-vs-slaton/11-20-2026/?c=8c71695c-7e25-47b5-978a-b82e912091ac"
     },
     {
       "year": 2026,
