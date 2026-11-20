@@ -515,5 +515,16 @@
   "new": "Jewett Leon 26, Ganado 54",
   "at": "2026-11-20T14:38+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "2A D1",
+  "week": 2,
+  "team1": "New Deal",
+  "team2": "Spearman",
+  "field": "score",
+  "old": "New Deal 27, Spearman 3",
+  "new": "New Deal 3, Spearman 27",
+  "at": "2026-11-20T15:38+00:00",
+  "status": "changed"
  }
 ]
