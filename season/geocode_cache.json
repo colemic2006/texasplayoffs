@@ -5128,6 +5128,18 @@
   "stadium": "Buccaneer Stadium",
   "stadium_id": null
  },
+ "Buccaneer Stadium, Corpus Christi || Gregory-Portland v San Antonio Alamo Heights": {
+  "address": "",
+  "city": "Corpus Christi",
+  "how": "coordinates confirmed by hand",
+  "lat": 27.79536,
+  "lng": -97.42433,
+  "map_link": "",
+  "rules": 10,
+  "site": "Buccaneer Stadium, Corpus Christi",
+  "stadium": "Buccaneer Stadium",
+  "stadium_id": null
+ },
  "Buchanan Stadium, Aledo || Hillsboro v Sanger": {
   "address": "1000 Bailey Ranch Road, Aledo, Texas 76008",
   "city": "Aledo",

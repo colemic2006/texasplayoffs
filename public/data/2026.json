@@ -2,8 +2,8 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-20T10:14+00:00",
-    "games": 532,
+    "updated": "2026-11-20T12:07+00:00",
+    "games": 535,
     "played": 385,
     "assigned": 528,
     "weeks": {
@@ -16,7 +16,7 @@
         "assigned": 176
       },
       "3": {
-        "games": 4,
+        "games": 7,
         "assigned": 0
       },
       "4": {
@@ -11735,6 +11735,19 @@
     },
     {
       "year": 2026,
+      "classification": "3A D2",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "Canadian",
+      "score1": null,
+      "team2": "Idalou",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/canadian-vs-idalou/11-26-2026/?c=0168a7b0-5464-401d-871f-7ff4c5d6b911"
+    },
+    {
+      "year": 2026,
       "classification": "4A D1",
       "week": 3,
       "round": "Regionals",
@@ -11753,6 +11766,38 @@
       "date": "2026-11-26",
       "time": "6:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/canyon-vs-springtown/11-26-2026/?c=cf026a14-7c64-4461-910a-5cbd91277fd6"
+    },
+    {
+      "year": 2026,
+      "classification": "4A D2",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "Graham",
+      "score1": null,
+      "team2": "Seminole",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/graham-vs-seminole/11-26-2026/?c=92590c6f-e9fd-4bab-bab7-4e58f06be132"
+    },
+    {
+      "year": 2026,
+      "classification": "5A D2",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "Gregory-Portland",
+      "score1": null,
+      "team2": "San Antonio Alamo Heights",
+      "score2": null,
+      "winner": null,
+      "site": "Buccaneer Stadium, Corpus Christi",
+      "lat": 27.79536,
+      "lng": -97.42433,
+      "stadium": "Buccaneer Stadium",
+      "city": "Corpus Christi",
+      "date": "2026-11-27",
+      "mp_url": "https://www.maxpreps.com/tx/football/game/alamo-heights-san-antonio-vs-gregory-portland/11-26-2026/?c=c273daaf-2aee-466b-b03a-67009a99703b"
     }
   ]
 }
