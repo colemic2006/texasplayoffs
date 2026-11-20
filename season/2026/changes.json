@@ -482,5 +482,16 @@
   "new": "2026-11-19",
   "at": "2026-11-20T02:24+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "3A D1",
+  "week": 2,
+  "team1": "Columbus",
+  "team2": "Palestine Westwood",
+  "field": "score",
+  "old": "Columbus 51, Palestine Westwood 35",
+  "new": "Columbus 49, Palestine Westwood 14",
+  "at": "2026-11-20T06:59+00:00",
+  "status": "changed"
  }
 ]
