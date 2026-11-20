@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-20T16:08+00:00",
+    "updated": "2026-11-20T16:24+00:00",
     "games": 535,
-    "played": 386,
+    "played": 387,
     "assigned": 528,
     "weeks": {
       "1": {
@@ -9248,20 +9248,6 @@
       "changes": [
         {
           "field": "date",
-          "old": "2026-11-20",
-          "new": "2026-11-19",
-          "at": "2026-11-16T16:18+00:00",
-          "status": "changed"
-        },
-        {
-          "field": "time",
-          "old": "7:30 PM",
-          "new": "7:00 PM",
-          "at": "2026-11-16T16:18+00:00",
-          "status": "changed"
-        },
-        {
-          "field": "date",
           "old": "2026-11-19",
           "new": "2026-11-20",
           "at": "2026-11-16T22:03+00:00",
@@ -9400,13 +9386,6 @@
       "time": "7:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/henrietta-vs-slaton/11-20-2026/?c=8c71695c-7e25-47b5-978a-b82e912091ac",
       "changes": [
-        {
-          "field": "date",
-          "old": "2026-11-20",
-          "new": "2026-11-19",
-          "at": "2026-11-16T16:18+00:00",
-          "status": "changed"
-        },
         {
           "field": "date",
           "old": "2026-11-19",
@@ -9624,16 +9603,7 @@
       "date": "2026-11-21",
       "time": "7:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/boling-vs-george-west/11-21-2026/?c=5955422c-8431-4727-ba54-f4f811b26360",
-      "uil_pick": true,
-      "changes": [
-        {
-          "field": "date",
-          "old": "2026-11-19",
-          "new": "2026-11-21",
-          "at": "2026-11-16T16:18+00:00",
-          "status": "changed"
-        }
-      ]
+      "uil_pick": true
     },
     {
       "year": 2026,
@@ -9978,10 +9948,10 @@
       "round": "Area",
       "chapter": "ABI",
       "team1": "Canyon Randall",
-      "score1": null,
+      "score1": 36,
       "team2": "Lake Dallas",
-      "score2": null,
-      "winner": null,
+      "score2": 21,
+      "winner": "Canyon Randall",
       "site": "Grant Teaff Tiger Stadium, Snyder",
       "lat": 32.7025,
       "lng": -100.9318,
@@ -10621,13 +10591,6 @@
       "time": "7:30 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/anderson-austin-vs-corpus-christi-veterans-memorial/11-20-2026/?c=50f820c0-6cfb-4d08-9578-4e3c03236e57",
       "changes": [
-        {
-          "field": "time",
-          "old": "7:30 PM",
-          "new": "7:00 PM",
-          "at": "2026-11-16T16:18+00:00",
-          "status": "changed"
-        },
         {
           "field": "time",
           "old": "7:00 PM",
