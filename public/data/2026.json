@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-20T17:08+00:00",
+    "updated": "2026-11-20T17:38+00:00",
     "games": 535,
     "played": 387,
     "assigned": 528,
@@ -9930,16 +9930,7 @@
       "city": "New Braunfels",
       "date": "2026-11-20",
       "time": "7:30 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/la-vernia-vs-tuloso-midway-warriors-and-cherokees-corpus-christi/11-20-2026/?c=aa5bb140-26e7-4228-9660-669d0ee135b9",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Dragon Stadium, New Braunfels",
-          "new": "@ Long Creek High School (New Braunfels)",
-          "at": "2026-11-16T17:32+00:00",
-          "status": "changed"
-        }
-      ]
+      "mp_url": "https://www.maxpreps.com/tx/football/game/la-vernia-vs-tuloso-midway-warriors-and-cherokees-corpus-christi/11-20-2026/?c=aa5bb140-26e7-4228-9660-669d0ee135b9"
     },
     {
       "year": 2026,
@@ -11093,13 +11084,6 @@
       "time": "7:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/north-shore-houston-vs-pearland/11-20-2026/?c=4e6d47f4-85ad-4187-be97-2d4d895ff34f",
       "changes": [
-        {
-          "field": "date",
-          "old": "2026-11-20",
-          "new": "2026-11-19",
-          "at": "2026-11-16T17:32+00:00",
-          "status": "changed"
-        },
         {
           "field": "date",
           "old": "2026-11-19",
