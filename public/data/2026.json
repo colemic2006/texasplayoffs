@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-20T14:24+00:00",
+    "updated": "2026-11-20T14:38+00:00",
     "games": 535,
     "played": 386,
     "assigned": 528,
@@ -8271,7 +8271,7 @@
       "team1": "Jewett Leon",
       "score1": 26,
       "team2": "Ganado",
-      "score2": 55,
+      "score2": 54,
       "winner": "Ganado",
       "site": "Tomball ISD Stadium, Tomball",
       "lat": 30.11165,
