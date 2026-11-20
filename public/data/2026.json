@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-19T22:53+00:00",
+    "updated": "2026-11-20T01:23+00:00",
     "games": 528,
-    "played": 352,
+    "played": 353,
     "assigned": 528,
     "weeks": {
       "1": {
@@ -8981,10 +8981,10 @@
       "round": "Area",
       "chapter": "HOU",
       "team1": "Columbus",
-      "score1": null,
+      "score1": 51,
       "team2": "Palestine Westwood",
-      "score2": null,
-      "winner": null,
+      "score2": 35,
+      "winner": "Columbus",
       "site": "Merrill Green Stadium (Bryan, TX)",
       "lat": 30.65649,
       "lng": -96.33336,
