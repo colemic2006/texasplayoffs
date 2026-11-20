@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-20T01:23+00:00",
+    "updated": "2026-11-20T02:07+00:00",
     "games": 528,
-    "played": 353,
+    "played": 354,
     "assigned": 528,
     "weeks": {
       "1": {
@@ -8456,10 +8456,10 @@
       "round": "Area",
       "chapter": "WAC",
       "team1": "Thorndale",
-      "score1": null,
+      "score1": 56,
       "team2": "Weimar",
-      "score2": null,
-      "winner": null,
+      "score2": 34,
+      "winner": "Thorndale",
       "site": "Matador Stadium, Seguin",
       "lat": 29.57658,
       "lng": -97.94563,
@@ -8488,7 +8488,7 @@
       "city": "Dublin",
       "date": "2026-11-20",
       "time": "7:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/axtell-vs-de-leon/11-20-2026/?c=5516a47e-e7b8-44a6-9dc7-5a666bc10f31"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/axtell-vs-de-leon/11-19-2026/?c=5516a47e-e7b8-44a6-9dc7-5a666bc10f31"
     },
     {
       "year": 2026,
