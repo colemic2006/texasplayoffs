@@ -493,5 +493,16 @@
   "new": "Columbus 49, Palestine Westwood 14",
   "at": "2026-11-20T06:59+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "2A D1",
+  "week": 2,
+  "team1": "Thorndale",
+  "team2": "Weimar",
+  "field": "score",
+  "old": "Thorndale 56, Weimar 34",
+  "new": "Thorndale 49, Weimar 7",
+  "at": "2026-11-20T13:23+00:00",
+  "status": "changed"
  }
 ]
