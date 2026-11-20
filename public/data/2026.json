@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-20T17:38+00:00",
+    "updated": "2026-11-20T17:54+00:00",
     "games": 535,
     "played": 387,
     "assigned": 528,
@@ -9497,8 +9497,17 @@
       "map_link": "https://goo.gl/maps/32KqqTJ9nxj6qnBM9",
       "city": "Midlothian",
       "date": "2026-11-20",
-      "time": "7:30 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/grand-saline-vs-tolar/11-20-2026/?c=a6ecbfb5-4cf9-4ffb-b86e-7a2ac4c220b6"
+      "time": "7:00 PM",
+      "mp_url": "https://www.maxpreps.com/tx/football/game/grand-saline-vs-tolar/11-20-2026/?c=a6ecbfb5-4cf9-4ffb-b86e-7a2ac4c220b6",
+      "changes": [
+        {
+          "field": "time",
+          "old": "7:30 PM",
+          "new": "7:00 PM",
+          "at": "2026-11-20T17:54+00:00",
+          "status": "changed"
+        }
+      ]
     },
     {
       "year": 2026,

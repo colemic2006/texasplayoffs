@@ -526,5 +526,16 @@
   "new": "New Deal 3, Spearman 27",
   "at": "2026-11-20T15:38+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "3A D2",
+  "week": 2,
+  "team1": "Grand Saline",
+  "team2": "Tolar",
+  "field": "time",
+  "old": "7:30 PM",
+  "new": "7:00 PM",
+  "at": "2026-11-20T17:54+00:00",
+  "status": "changed"
  }
 ]
