@@ -21966,6 +21966,18 @@
   "stadium": "Mustang Bowl",
   "stadium_id": 993
  },
+ "Mustang Bowl, Sweetwater || Springtown v Canyon High": {
+  "address": "1205 Ragland, Sweetwater, Texas 79556",
+  "city": "Sweetwater",
+  "how": "stadium (map link)",
+  "lat": 32.48228,
+  "lng": -100.40572,
+  "map_link": "https://goo.gl/maps/ZoK3S1snEe41y7LW8",
+  "rules": 10,
+  "site": "Mustang Bowl, Sweetwater",
+  "stadium": "Mustang Bowl",
+  "stadium_id": 993
+ },
  "Mustang Bowl, Sweetwater || Springtown v Canyon West Plains": {
   "address": "1205 Ragland, Sweetwater, Texas 79556",
   "city": "Sweetwater",

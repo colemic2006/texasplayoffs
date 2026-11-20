@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-20T02:43+00:00",
-    "games": 528,
-    "played": 356,
+    "updated": "2026-11-20T02:58+00:00",
+    "games": 529,
+    "played": 359,
     "assigned": 528,
     "weeks": {
       "1": {
@@ -16,7 +16,7 @@
         "assigned": 176
       },
       "3": {
-        "games": 0,
+        "games": 1,
         "assigned": 0
       },
       "4": {
@@ -9672,10 +9672,10 @@
       "round": "Area",
       "chapter": "SAN",
       "team1": "Aubrey",
-      "score1": null,
+      "score1": 36,
       "team2": "Canyon High",
-      "score2": null,
-      "winner": null,
+      "score2": 39,
+      "winner": "Canyon High",
       "site": "Bulldog Stadium, Burkburnett",
       "lat": 34.08003,
       "lng": -98.58304,
@@ -9693,10 +9693,10 @@
       "round": "Area",
       "chapter": "SAN",
       "team1": "Springtown",
-      "score1": null,
+      "score1": 41,
       "team2": "Canyon West Plains",
-      "score2": null,
-      "winner": null,
+      "score2": 23,
+      "winner": "Springtown",
       "site": "Mustang Bowl, Sweetwater",
       "lat": 32.48264,
       "lng": -100.40611,
@@ -10223,10 +10223,10 @@
       "round": "Area",
       "chapter": "SAN",
       "team1": "Seminole",
-      "score1": null,
+      "score1": 45,
       "team2": "Mineral Wells",
-      "score2": null,
-      "winner": null,
+      "score2": 34,
+      "winner": "Seminole",
       "site": "San Angelo Stadium",
       "lat": 31.43042,
       "lng": -100.45998,
@@ -11702,6 +11702,27 @@
       "date": "2026-11-20",
       "time": "7:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/pharr-san-juan-alamo-north-vs-warren-san-antonio/11-20-2026/?c=55afd2c6-1b1e-4fd7-87b3-f7f9fcd1ccb0"
+    },
+    {
+      "year": 2026,
+      "classification": "4A D1",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "Springtown",
+      "score1": null,
+      "team2": "Canyon High",
+      "score2": null,
+      "winner": null,
+      "site": "Mustang Bowl, Sweetwater",
+      "lat": 32.48228,
+      "lng": -100.40572,
+      "stadium": "Mustang Bowl",
+      "map_link": "https://goo.gl/maps/ZoK3S1snEe41y7LW8",
+      "city": "Sweetwater",
+      "date": "2026-11-26",
+      "time": "6:00 PM",
+      "mp_url": "https://www.maxpreps.com/tx/football/game/canyon-vs-springtown/11-26-2026/?c=cf026a14-7c64-4461-910a-5cbd91277fd6"
     }
   ]
 }
