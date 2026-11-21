@@ -680,5 +680,16 @@
   "new": "Orangefield 48, Cameron Yoe 50",
   "at": "2026-11-21T21:16+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "4A D2",
+  "week": 2,
+  "team1": "La Vega",
+  "team2": "Geronimo Navarro",
+  "field": "site",
+  "old": "Crusader Stadium, Belton",
+  "new": "University of Mary Hardin Baylor",
+  "at": "2026-11-21T22:21+00:00",
+  "status": "changed"
  }
 ]

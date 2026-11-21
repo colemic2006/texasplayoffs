@@ -32543,6 +32543,16 @@
   "stadium": "Bill Johnson Student Activity Center",
   "stadium_id": 955
  },
+ "University of Mary Hardin Baylor || La Vega v Geronimo Navarro": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-21",
+  "rules": 10,
+  "site": "University of Mary Hardin Baylor",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Van High School || Cooper v Price Carlisle": {
   "address": "1085 N. Maple, Van, Texas 75790",
   "city": "Van",

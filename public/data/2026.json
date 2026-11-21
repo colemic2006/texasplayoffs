@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-21T21:51+00:00",
+    "updated": "2026-11-21T22:21+00:00",
     "games": 608,
-    "played": 520,
+    "played": 522,
     "assigned": 528,
     "weeks": {
       "1": {
@@ -9524,10 +9524,10 @@
       "round": "Area",
       "chapter": "HOU",
       "team1": "Arp",
-      "score1": null,
+      "score1": 54,
       "team2": "Buffalo",
-      "score2": null,
-      "winner": null,
+      "score2": 14,
+      "winner": "Arp",
       "site": "Driskell Stadium, Crockett",
       "lat": 31.31802,
       "lng": -95.4573,
@@ -9536,7 +9536,7 @@
       "city": "Crockett",
       "date": "2026-11-20",
       "time": "7:30 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/arp-vs-buffalo/11-20-2026/?c=729f574f-0671-4be4-b9fa-71e40571c50f"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/arp-vs-buffalo/11-20-2026/?c=112b4351-78b0-487c-8016-e2aa7eaf0276"
     },
     {
       "year": 2026,
@@ -10246,18 +10246,14 @@
       "round": "Area",
       "chapter": "FTW",
       "team1": "La Vega",
-      "score1": null,
+      "score1": 49,
       "team2": "Geronimo Navarro",
-      "score2": null,
-      "winner": null,
-      "site": "Crusader Stadium, Belton",
-      "lat": 31.0657,
-      "lng": -97.4636,
-      "stadium": "Crusader Stadium (UMHB)",
-      "city": "Belton",
+      "score2": 7,
+      "winner": "La Vega",
+      "site": "University of Mary Hardin Baylor",
       "date": "2026-11-20",
       "time": "7:30 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/la-vega-waco-vs-navarro-geronimo/11-20-2026/?c=e12f876e-6a3f-4445-8004-f3f1ba881e8d"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/la-vega-waco-vs-navarro-geronimo/11-20-2026/?c=88fa26cf-6071-4cf9-bbe6-30df0126216c"
     },
     {
       "year": 2026,
