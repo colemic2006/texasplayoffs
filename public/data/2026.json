@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-21T06:12+00:00",
+    "updated": "2026-11-21T06:59+00:00",
     "games": 577,
-    "played": 482,
+    "played": 483,
     "assigned": 528,
     "weeks": {
       "1": {
@@ -9023,10 +9023,10 @@
       "round": "Area",
       "chapter": "ABI",
       "team1": "Atlanta",
-      "score1": null,
+      "score1": 44,
       "team2": "Whitesboro",
-      "score2": null,
-      "winner": null,
+      "score2": 13,
+      "winner": "Atlanta",
       "site": "Prim Stadium, Sulphur Springs",
       "lat": 33.14157,
       "lng": -95.60695,
