@@ -2,8 +2,8 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-21T22:21+00:00",
-    "games": 608,
+    "updated": "2026-11-21T22:34+00:00",
+    "games": 610,
     "played": 522,
     "assigned": 528,
     "weeks": {
@@ -16,7 +16,7 @@
         "assigned": 176
       },
       "3": {
-        "games": 80,
+        "games": 82,
         "assigned": 0
       },
       "4": {
@@ -12260,6 +12260,27 @@
     },
     {
       "year": 2026,
+      "classification": "3A D2",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "Arp",
+      "score1": null,
+      "team2": "Jefferson",
+      "score2": null,
+      "winner": null,
+      "site": "Murphy Stadium, Gladewater",
+      "lat": 32.54907,
+      "lng": -94.96618,
+      "stadium": "Jack V. Murphy Stadium",
+      "map_link": "https://goo.gl/maps/qkGmwVRmNDBqjnRB9",
+      "city": "Gladewater",
+      "date": "2026-11-27",
+      "time": "3:00 PM",
+      "mp_url": "https://www.maxpreps.com/tx/football/game/arp-vs-jefferson/11-26-2026/?c=ab4854d0-b600-45e7-b52c-e23eebff55a5"
+    },
+    {
+      "year": 2026,
       "classification": "4A D1",
       "week": 3,
       "round": "Regionals",
@@ -12544,6 +12565,26 @@
       "date": "2026-11-27",
       "time": "5:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/carthage-vs-van-alstyne/11-26-2026/?c=39371343-4ae3-4d29-8cd1-39a0a57eebfc"
+    },
+    {
+      "year": 2026,
+      "classification": "4A D2",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "La Vega",
+      "score1": null,
+      "team2": "Wimberley",
+      "score2": null,
+      "winner": null,
+      "site": "The Pfield, Pflugerville",
+      "lat": 30.44853,
+      "lng": -97.63443,
+      "stadium": "The Pfield",
+      "city": "Pflugerville",
+      "date": "2026-11-27",
+      "time": "7:00 PM",
+      "mp_url": "https://www.maxpreps.com/tx/football/game/la-vega-waco-vs-wimberley/11-26-2026/?c=18652f68-aecc-4f37-b150-a5560278bf94"
     },
     {
       "year": 2026,

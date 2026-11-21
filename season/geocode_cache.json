@@ -22489,6 +22489,18 @@
   "stadium": null,
   "stadium_id": null
  },
+ "Murphy Stadium, Gladewater || Arp v Jefferson": {
+  "address": "2201 W. Gay, Gladewater, Texas 75647",
+  "city": "Gladewater",
+  "how": "stadium (map link)",
+  "lat": 32.54907,
+  "lng": -94.96618,
+  "map_link": "https://goo.gl/maps/qkGmwVRmNDBqjnRB9",
+  "rules": 10,
+  "site": "Murphy Stadium, Gladewater",
+  "stadium": "Jack V. Murphy Stadium",
+  "stadium_id": 469
+ },
  "Mustang Bowl - Sweetwater, TX || Graham v Seminole": {
   "address": "1205 Ragland, Sweetwater, Texas 79556",
   "city": "Sweetwater",
@@ -30977,6 +30989,18 @@
   "stadium_id": null
  },
  "The Pfield, Pflugerville || Galena Park North Shore v Austin Westlake": {
+  "address": "",
+  "city": "Pflugerville",
+  "how": "coordinates confirmed by hand",
+  "lat": 30.44853,
+  "lng": -97.63443,
+  "map_link": "",
+  "rules": 10,
+  "site": "The Pfield, Pflugerville",
+  "stadium": "The Pfield",
+  "stadium_id": null
+ },
+ "The Pfield, Pflugerville || La Vega v Wimberley": {
   "address": "",
   "city": "Pflugerville",
   "how": "coordinates confirmed by hand",
