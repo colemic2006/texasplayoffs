@@ -13981,6 +13981,18 @@
   "stadium": "Tiger Field",
   "stadium_id": 820
  },
+ "Gupton Stadium, Cedar Park || Boerne v Legacy Ranch": {
+  "address": "",
+  "city": "Cedar Park",
+  "how": "coordinates confirmed by hand",
+  "lat": 30.51517,
+  "lng": -97.79197,
+  "map_link": "",
+  "rules": 10,
+  "site": "Gupton Stadium, Cedar Park",
+  "stadium": "Gupton Stadium",
+  "stadium_id": null
+ },
  "Gupton Stadium, Cedar Park || Bremond v Junction": {
   "address": "",
   "city": "Cedar Park",

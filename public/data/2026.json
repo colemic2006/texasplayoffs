@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-21T19:16+00:00",
+    "updated": "2026-11-21T19:32+00:00",
     "games": 607,
     "played": 519,
     "assigned": 528,
@@ -12753,6 +12753,13 @@
       "team2": "Legacy Ranch",
       "score2": null,
       "winner": null,
+      "site": "Gupton Stadium, Cedar Park",
+      "lat": 30.51517,
+      "lng": -97.79197,
+      "stadium": "Gupton Stadium",
+      "city": "Cedar Park",
+      "date": "2026-11-27",
+      "time": "1:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/boerne-vs-legacy-ranch-liberty-hill/11-26-2026/?c=6fd1c791-1a24-444d-b249-0017d6a7ef4f"
     },
     {
