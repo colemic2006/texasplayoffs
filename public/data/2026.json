@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-21T15:04+00:00",
+    "updated": "2026-11-21T15:18+00:00",
     "games": 607,
     "played": 519,
     "assigned": 528,
@@ -11790,6 +11790,14 @@
       "team2": "Price Carlisle",
       "score2": null,
       "winner": null,
+      "site": "Van High School",
+      "lat": 32.54254,
+      "lng": -95.63912,
+      "stadium": "Van Memorial Stadium",
+      "map_link": "https://goo.gl/maps/1fXuTChwpM4Cfjgc7",
+      "city": "Van",
+      "date": "2026-11-27",
+      "time": "7:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/carlisle-price-vs-cooper/11-27-2026/?c=f354237f-03b2-42c7-888f-a8affa312359"
     },
     {

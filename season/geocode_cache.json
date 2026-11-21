@@ -32125,6 +32125,18 @@
   "stadium": "Bill Johnson Student Activity Center",
   "stadium_id": 955
  },
+ "Van High School || Cooper v Price Carlisle": {
+  "address": "1085 N. Maple, Van, Texas 75790",
+  "city": "Van",
+  "how": "school (map link)",
+  "lat": 32.54254,
+  "lng": -95.63912,
+  "map_link": "https://goo.gl/maps/1fXuTChwpM4Cfjgc7",
+  "rules": 10,
+  "site": "Van High School",
+  "stadium": "Van Memorial Stadium",
+  "stadium_id": 1295
+ },
  "Van || Bowie v Mart": {
   "address": "1085 N. Maple, Van, Texas 75790",
   "city": "Van",
