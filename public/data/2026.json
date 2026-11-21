@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-21T19:32+00:00",
+    "updated": "2026-11-21T19:46+00:00",
     "games": 607,
     "played": 519,
     "assigned": 528,
@@ -12069,7 +12069,7 @@
       "city": "Seguin",
       "date": "2026-11-27",
       "time": "7:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/hallettsville-vs-san-diego/11-26-2026/?c=e0a7bbd6-e046-471e-8950-0fef8f731561"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/hallettsville-vs-san-diego/11-27-2026/?c=e0a7bbd6-e046-471e-8950-0fef8f731561"
     },
     {
       "year": 2026,
@@ -12179,6 +12179,14 @@
       "team2": "Jacksboro",
       "score2": null,
       "winner": null,
+      "site": "Lion Stadium, Vernon",
+      "lat": 34.14706,
+      "lng": -99.31608,
+      "stadium": "Lion Stadium",
+      "map_link": "https://goo.gl/maps/qH9J1GHS28QjuZne7",
+      "city": "Vernon",
+      "date": "2026-11-27",
+      "time": "1:30 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/jacksboro-vs-slaton/11-26-2026/?c=153d94f6-ea8d-4333-a348-3039af8cbdcd"
     },
     {

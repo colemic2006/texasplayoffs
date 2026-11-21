@@ -18507,6 +18507,18 @@
   "stadium": "Lion Stadium",
   "stadium_id": 680
  },
+ "Lion Stadium, Vernon || Slaton v Jacksboro": {
+  "address": "Paradise St & Stadium St, Vernon, Texas 76384",
+  "city": "Vernon",
+  "how": "stadium (map link)",
+  "lat": 34.14706,
+  "lng": -99.31608,
+  "map_link": "https://goo.gl/maps/qH9J1GHS28QjuZne7",
+  "rules": 10,
+  "site": "Lion Stadium, Vernon",
+  "stadium": "Lion Stadium",
+  "stadium_id": 680
+ },
  "Lion Stadium, Vernon || Wheeler v Seymour": {
   "address": "Paradise St & Stadium St, Vernon, Texas 76384",
   "city": "Vernon",
