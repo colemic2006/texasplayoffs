@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-21T09:06+00:00",
+    "updated": "2026-11-21T09:49+00:00",
     "games": 579,
-    "played": 489,
+    "played": 490,
     "assigned": 528,
     "weeks": {
       "1": {
@@ -8187,10 +8187,10 @@
       "round": "Area",
       "chapter": "SPC",
       "team1": "Turkey Valley",
-      "score1": null,
+      "score1": 84,
       "team2": "Meadow",
-      "score2": null,
-      "winner": null,
+      "score2": 20,
+      "winner": "Turkey Valley",
       "site": "Mitchell Zimmerman Field, Lockney",
       "lat": 34.12401,
       "lng": -101.43507,
