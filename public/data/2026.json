@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-21T14:11+00:00",
+    "updated": "2026-11-21T14:18+00:00",
     "games": 606,
     "played": 518,
     "assigned": 528,
@@ -11951,6 +11951,8 @@
       "score2": null,
       "winner": null,
       "site": "Berry Center (Cypress, TX)",
+      "date": "2026-11-27",
+      "time": "7:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/columbus-vs-franklin/11-27-2026/?c=063d414f-ed7a-446f-a307-39e06795461a"
     },
     {
@@ -12226,6 +12228,14 @@
       "team2": "La Vernia",
       "score2": null,
       "winner": null,
+      "site": "San Antonio Alamodome",
+      "lat": 29.41695,
+      "lng": -98.47993,
+      "stadium": "Alamodome",
+      "map_link": "https://goo.gl/maps/5wbgxX367Seg1e5x5",
+      "city": "San Antonio",
+      "date": "2026-11-28",
+      "time": "3:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/calallen-corpus-christi-vs-la-vernia/11-28-2026/?c=6b1bead5-bc1c-477b-81df-68c69bc0cd20"
     },
     {

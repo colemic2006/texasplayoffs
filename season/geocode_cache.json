@@ -26801,6 +26801,18 @@
   "stadium": "Alamodome",
   "stadium_id": 1017
  },
+ "San Antonio Alamodome || Corpus Christi Calallen v La Vernia": {
+  "address": "100 Montana St, San Antonio, Texas 78203",
+  "city": "San Antonio",
+  "how": "stadium (map link)",
+  "lat": 29.41695,
+  "lng": -98.47993,
+  "map_link": "https://goo.gl/maps/5wbgxX367Seg1e5x5",
+  "rules": 10,
+  "site": "San Antonio Alamodome",
+  "stadium": "Alamodome",
+  "stadium_id": 1017
+ },
  "San Antonio Alamodome || Corpus Christi Flour Bluff v Comal Smithson Valley": {
   "address": "100 Montana St, San Antonio, Texas 78203",
   "city": "San Antonio",
