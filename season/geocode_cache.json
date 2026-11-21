@@ -9398,6 +9398,18 @@
   "stadium": "Delmar Stadium",
   "stadium_id": 621
  },
+ "Delmar Stadium, Houston || Lorena v Cameron Yoe": {
+  "address": "2020 Mangum Rd, Houston, Texas 77455",
+  "city": "Houston",
+  "how": "stadium (map link)",
+  "lat": 29.80361,
+  "lng": -95.45626,
+  "map_link": "https://goo.gl/maps/ZeFpyvP6AT2FBnRG8",
+  "rules": 10,
+  "site": "Delmar Stadium, Houston",
+  "stadium": "Delmar Stadium",
+  "stadium_id": 621
+ },
  "Delmar Stadium, Houston || Orangefield v Cameron Yoe": {
   "address": "2020 Mangum Rd, Houston, Texas 77455",
   "city": "Houston",
@@ -18143,6 +18155,18 @@
   "lat": 32.14163,
   "link_tried": true,
   "lng": -94.80468,
+  "map_link": "https://goo.gl/maps/bbpqzihHmpdMipCy5",
+  "rules": 10,
+  "site": "Lion Stadium, Henderson",
+  "stadium": "Lion Stadium",
+  "stadium_id": 533
+ },
+ "Lion Stadium, Henderson || Joaquin v San Augustine": {
+  "address": "700 Lion Street, Henderson, Texas 75654",
+  "city": "Henderson",
+  "how": "stadium (map link)",
+  "lat": 32.14497,
+  "lng": -94.80589,
   "map_link": "https://goo.gl/maps/bbpqzihHmpdMipCy5",
   "rules": 10,
   "site": "Lion Stadium, Henderson",
