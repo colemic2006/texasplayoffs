@@ -5329,6 +5329,19 @@
   "stadium": "Bulldog Stadium",
   "stadium_id": 45
  },
+ "Bulldog Stadium, Somerset || Falls City v La Villa": {
+  "address": "7791 E. Third St., Somerset, Texas 78069",
+  "city": "Somerset",
+  "how": "stadium (map link)",
+  "lat": 29.22759,
+  "link_tried": true,
+  "lng": -98.65507,
+  "map_link": "https://goo.gl/maps/RYU3fJ24RWj451ZM8",
+  "rules": 10,
+  "site": "Bulldog Stadium, Somerset",
+  "stadium": "Bulldog Stadium",
+  "stadium_id": 838
+ },
  "Bulldog Stadium, Somerset || La Villa v Chilton": {
   "address": "7791 E. Third St., Somerset, Texas 78069",
   "city": "Somerset",
@@ -13754,6 +13767,18 @@
   "stadium": "Gustafson Stadium",
   "stadium_id": 846
  },
+ "Gustafson Stadium, San Antonio || Brownwood v Robinson": {
+  "address": "7001 Culebra, San Antonio, Texas 78238",
+  "city": "San Antonio",
+  "how": "stadium (map link)",
+  "lat": 29.45314,
+  "lng": -98.6251,
+  "map_link": "https://goo.gl/maps/JZrEVmzY6YKz9yoE8",
+  "rules": 10,
+  "site": "Gustafson Stadium, San Antonio",
+  "stadium": "Gustafson Stadium",
+  "stadium_id": 846
+ },
  "Gustafson-Northside ISD Stadium (San Antonio) || San Antonio Sotomayor v Eagle Pass": {
   "address": "7001 Culebra, San Antonio, Texas 78238",
   "city": "San Antonio",
@@ -22077,6 +22102,18 @@
   "stadium": "Mustang Stadium",
   "stadium_id": 132
  },
+ "Mustang Stadium, Magnolia || Columbus v Franklin": {
+  "address": "44204 FM 1774, Magnolia, Texas 77353",
+  "city": "Magnolia",
+  "how": "stadium (map link)",
+  "lat": 30.21862,
+  "lng": -95.76553,
+  "map_link": "https://goo.gl/maps/ZicTQiTy3iD56Ri5A",
+  "rules": 10,
+  "site": "Mustang Stadium, Magnolia",
+  "stadium": "Mustang Stadium",
+  "stadium_id": 1131
+ },
  "Mustang Stadium, Magnolia || Lorena v Sweeny": {
   "address": "44204 FM 1774, Magnolia, Texas 77353",
   "city": "Magnolia",
@@ -24845,6 +24882,18 @@
   "stadium_id": 1002
  },
  "Ratliff Stadium, Odessa || Fort Worth Arlington Heights v El Paso Canutillo": {
+  "address": "",
+  "city": "Odessa",
+  "how": "coordinates confirmed by hand",
+  "lat": 31.92073,
+  "lng": -102.3645,
+  "map_link": "",
+  "rules": 10,
+  "site": "Ratliff Stadium, Odessa",
+  "stadium": "Ratliff Stadium",
+  "stadium_id": null
+ },
+ "Ratliff Stadium, Odessa || Odessa Permian v Allen": {
   "address": "",
   "city": "Odessa",
   "how": "coordinates confirmed by hand",
