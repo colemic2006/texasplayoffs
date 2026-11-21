@@ -548,5 +548,16 @@
   "new": "Canyon Randall 30, Lake Dallas 27",
   "at": "2026-11-20T19:27+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "4A D2",
+  "week": 2,
+  "team1": "Wimberley",
+  "team2": "Kingsville King",
+  "field": "score",
+  "old": "Wimberley 56, Kingsville King 6",
+  "new": "Wimberley 70, Kingsville King 6",
+  "at": "2026-11-21T00:58+00:00",
+  "status": "changed"
  }
 ]
