@@ -3,6 +3,7 @@ import { addBaseLayers } from '../baseLayers'
 import 'leaflet/dist/leaflet.css'
 import { chapterColor } from '../chapterColors'
 import { CHAPTER_CENTERS } from '../chapterCenters'
+import CoverageDensity from './CoverageDensity'
 
 const NAMES = {
   ABI:'Abilene', AMA:'Amarillo', AUS:'Austin', BEA:'Southeast Texas (Beaumont)', COM:'Commerce', CSC:'College Station',
@@ -85,6 +86,7 @@ export default function MembershipView() {
         </table>
       </div>
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8 }}>{d.source}.</div>
+      <CoverageDensity members={d.members} />
       {d.history && <MembershipHistory d={d} th={th} td={td} />}
       {st && <MembershipStats st={st} th={th} td={td} />}
     </div>
