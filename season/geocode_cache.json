@@ -13264,6 +13264,18 @@
   "stadium": "Gordon Wood Stadium",
   "stadium_id": 84
  },
+ "Gordon Wood Stadium, Brownwood || Mason v De Leon": {
+  "address": "3206 Milam Dr, Brownwood, Texas 76801",
+  "city": "Brownwood",
+  "how": "stadium (map link)",
+  "lat": 31.66748,
+  "lng": -98.97884,
+  "map_link": "https://goo.gl/maps/RJK8G9xu2CNQVoaFA",
+  "rules": 10,
+  "site": "Gordon Wood Stadium, Brownwood",
+  "stadium": "Gordon Wood Stadium",
+  "stadium_id": 84
+ },
  "Grady High School || Rankin v Klondike": {
   "address": "3500 FM 829, Lenorah, Texas 79749",
   "city": "Lenorah",
@@ -14107,6 +14119,18 @@
   "stadium_id": null
  },
  "Happy State Bank Stadium, Canyon || Gruver v Ralls": {
+  "address": "",
+  "city": "Canyon",
+  "how": "coordinates confirmed by hand",
+  "lat": 35.01237,
+  "lng": -101.91663,
+  "map_link": "",
+  "rules": 10,
+  "site": "Happy State Bank Stadium, Canyon",
+  "stadium": "Happy State Bank Stadium",
+  "stadium_id": null
+ },
+ "Happy State Bank Stadium, Canyon || Gruver v Ropes": {
   "address": "",
   "city": "Canyon",
   "how": "coordinates confirmed by hand",
@@ -18774,6 +18798,18 @@
   "stadium_id": null
  },
  "Lowrey Field, Lubbock || Pecos v Graham": {
+  "address": "",
+  "city": "Lubbock",
+  "how": "coordinates confirmed by hand",
+  "lat": 33.53277,
+  "lng": -101.85134,
+  "map_link": "",
+  "rules": 10,
+  "site": "Lowrey Field, Lubbock",
+  "stadium": "Lowrey Field",
+  "stadium_id": null
+ },
+ "Lowrey Field, Lubbock || Roscoe v Wink": {
   "address": "",
   "city": "Lubbock",
   "how": "coordinates confirmed by hand",
@@ -33561,6 +33597,18 @@
   "site": "Wildcat Stadium, Paris",
   "stadium": "Wildcat Stadium",
   "stadium_id": 1293
+ },
+ "Wildcat Stadium, Temple || Mansfield Timberview v Brenham": {
+  "address": "415 N 31st ST, Temple, Texas 76504",
+  "city": "Temple",
+  "how": "stadium (map link)",
+  "lat": 31.10469,
+  "lng": -97.35498,
+  "map_link": "https://goo.gl/maps/64u6tuLJJd2pzgrN6",
+  "rules": 10,
+  "site": "Wildcat Stadium, Temple",
+  "stadium": "Wildcat Stadium",
+  "stadium_id": 190
  },
  "Wildcat Stadium, Temple || Stephenville v Navasota": {
   "address": "415 N 31st ST, Temple, Texas 76504",
