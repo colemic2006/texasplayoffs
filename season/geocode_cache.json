@@ -8052,6 +8052,18 @@
   "stadium": "Cotton Picker Stadium",
   "stadium_id": 205
  },
+ "Cougar Stadium, New Braunfels || Round Rock v San Antonio Harlan": {
+  "address": "1510 East I 35, New Braunfels, Texas 78130",
+  "city": "New Braunfels",
+  "how": "stadium (map link)",
+  "lat": 29.70658,
+  "lng": -98.08646,
+  "map_link": "https://goo.gl/maps/g3hNAyAqt83r81Jd6",
+  "rules": 10,
+  "site": "Cougar Stadium, New Braunfels",
+  "stadium": "Cougar Stadium",
+  "stadium_id": 843
+ },
  "Cougar Stadium, New Braunfels || Round Rock v San Antonio Johnson": {
   "address": "1510 East I 35, New Braunfels, Texas 78130",
   "city": "New Braunfels",
@@ -24620,6 +24632,18 @@
   "stadium": "Pridgeon Stadium",
   "stadium_id": 634
  },
+ "Pridgeon Stadium, Cypress || Madisonville v Hamshire-Fannett": {
+  "address": "11355 Bobcat Rd., Houston, Texas 77064",
+  "city": "Houston",
+  "how": "stadium (map link)",
+  "lat": 29.93564,
+  "lng": -95.57,
+  "map_link": "https://goo.gl/maps/WGtow4sC3X82",
+  "rules": 10,
+  "site": "Pridgeon Stadium, Cypress",
+  "stadium": "Pridgeon Stadium",
+  "stadium_id": 634
+ },
  "Prim Stadium, Sulphur Springs || Atlanta v Whitesboro": {
   "address": "1000 Houston Street, Sulphur Springs, Texas 75482",
   "city": "Sulphur Springs",
@@ -27475,6 +27499,18 @@
   "stadium": null,
   "stadium_id": null
  },
+ "Sandcrab Stadium, Port Lavaca || Hallettsville v San Diego": {
+  "address": "734 TX-35, Port Lavaca, Texas 77979",
+  "city": "Port Lavaca",
+  "how": "stadium (map link)",
+  "lat": 28.62013,
+  "lng": -96.63753,
+  "map_link": "https://goo.gl/maps/uMrkiyrXbLM9ZujUA",
+  "rules": 10,
+  "site": "Sandcrab Stadium, Port Lavaca",
+  "stadium": "Sandcrab Stadium",
+  "stadium_id": 410
+ },
  "Sandcrab Stadium, Port Lavaca || Sinton v Hallettsville": {
   "address": "734 TX-35, Port Lavaca, Texas 77979",
   "city": "Port Lavaca",
@@ -28246,6 +28282,18 @@
   "stadium_id": null
  },
  "Shotwell Stadium, Abilene || Decatur v Andrews": {
+  "address": "",
+  "city": "Abilene",
+  "how": "coordinates confirmed by hand",
+  "lat": 32.43373,
+  "lng": -99.6982,
+  "map_link": "",
+  "rules": 10,
+  "site": "Shotwell Stadium, Abilene",
+  "stadium": "Shotwell Stadium",
+  "stadium_id": null
+ },
+ "Shotwell Stadium, Abilene || Denton Ryan v Fort Worth Brewer": {
   "address": "",
   "city": "Abilene",
   "how": "coordinates confirmed by hand",
@@ -30874,6 +30922,18 @@
   "lat": 30.11165,
   "link_tried": true,
   "lng": -95.6257,
+  "map_link": "https://goo.gl/maps/Z6Jh79x8crv1Gjhu6",
+  "rules": 10,
+  "site": "Tomball ISD Stadium, Tomball",
+  "stadium": "Tomball ISD Stadium",
+  "stadium_id": 616
+ },
+ "Tomball ISD Stadium, Tomball || La Porte v Angleton": {
+  "address": "20235 Cypress Rosehill Road, Tomball, Texas 77375",
+  "city": "Tomball",
+  "how": "stadium (map link)",
+  "lat": 30.05549,
+  "lng": -95.70104,
   "map_link": "https://goo.gl/maps/Z6Jh79x8crv1Gjhu6",
   "rules": 10,
   "site": "Tomball ISD Stadium, Tomball",
