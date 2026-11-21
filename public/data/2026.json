@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-21T05:13+00:00",
+    "updated": "2026-11-21T05:42+00:00",
     "games": 576,
     "played": 481,
     "assigned": 528,
@@ -11771,15 +11771,19 @@
       "team2": "Franklin",
       "score2": null,
       "winner": null,
-      "site": "Mustang Stadium, Magnolia",
-      "lat": 30.21862,
-      "lng": -95.76553,
-      "stadium": "Mustang Stadium",
-      "map_link": "https://goo.gl/maps/ZicTQiTy3iD56Ri5A",
-      "city": "Magnolia",
+      "site": "Berry Center (Cypress, TX)",
       "date": "2026-11-27",
       "time": "7:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/columbus-vs-franklin/11-26-2026/?c=063d414f-ed7a-446f-a307-39e06795461a"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/columbus-vs-franklin/11-27-2026/?c=063d414f-ed7a-446f-a307-39e06795461a",
+      "changes": [
+        {
+          "field": "site",
+          "old": "Mustang Stadium, Magnolia",
+          "new": "Berry Center (Cypress, TX)",
+          "at": "2026-11-21T05:42+00:00",
+          "status": "changed"
+        }
+      ]
     },
     {
       "year": 2026,

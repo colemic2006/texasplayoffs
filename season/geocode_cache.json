@@ -4099,6 +4099,16 @@
   "stadium": "Benny Douglas Stadium",
   "stadium_id": 796
  },
+ "Berry Center (Cypress, TX) || Columbus v Franklin": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-21",
+  "rules": 10,
+  "site": "Berry Center (Cypress, TX)",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Berry Center, 8877 Barker Cypress Rd, Cypress, TX || Katy Cypress Lakes v Spring Klein Collins": {
   "address": "",
   "city": "Cypress",
