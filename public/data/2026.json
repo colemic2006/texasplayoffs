@@ -2,8 +2,8 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-21T23:21+00:00",
-    "games": 612,
+    "updated": "2026-11-21T23:51+00:00",
+    "games": 613,
     "played": 525,
     "assigned": 528,
     "weeks": {
@@ -16,7 +16,7 @@
         "assigned": 176
       },
       "3": {
-        "games": 84,
+        "games": 85,
         "assigned": 0
       },
       "4": {
@@ -12432,6 +12432,19 @@
       "score2": null,
       "winner": null,
       "mp_url": "https://www.maxpreps.com/tx/football/game/bay-city-vs-stephenville/11-26-2026/?c=225f5df9-dda8-4e92-8e48-46c0302d732f"
+    },
+    {
+      "year": 2026,
+      "classification": "4A D1",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "Decatur",
+      "score1": null,
+      "team2": "Canyon Randall",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/decatur-vs-randall-amarillo/11-26-2026/?c=5c26177f-ae77-4bfb-9f4f-4f441bdbd89f"
     },
     {
       "year": 2026,
