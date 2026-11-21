@@ -24767,6 +24767,17 @@
   "stadium": "Children's Health Stadium",
   "stadium_id": 2439
  },
+ "Prosper ISD Stadium - Rd 3 || Argyle v Anna": {
+  "address": "",
+  "how": "stadium found by name",
+  "lat": 33.26024,
+  "lng": -96.80644,
+  "map_link": "",
+  "rules": 10,
+  "site": "Prosper ISD Stadium - Rd 3",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Prosper || Argyle v Prosper Walnut Grove": {
   "address": "2000 Stadium Drive, Prosper, Texas 75078",
   "city": "Prosper",

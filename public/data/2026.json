@@ -2,8 +2,8 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-21T06:59+00:00",
-    "games": 577,
+    "updated": "2026-11-21T07:13+00:00",
+    "games": 578,
     "played": 483,
     "assigned": 528,
     "weeks": {
@@ -16,7 +16,7 @@
         "assigned": 176
       },
       "3": {
-        "games": 49,
+        "games": 50,
         "assigned": 0
       },
       "4": {
@@ -11846,6 +11846,19 @@
     },
     {
       "year": 2026,
+      "classification": "3A D1",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "Malakoff",
+      "score1": null,
+      "team2": "Atlanta",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/atlanta-vs-malakoff/11-26-2026/?c=13d9ae45-b001-42cf-b5ec-1d54bdc21947"
+    },
+    {
+      "year": 2026,
       "classification": "3A D2",
       "week": 3,
       "round": "Regionals",
@@ -12227,7 +12240,11 @@
       "team2": "Anna",
       "score2": null,
       "winner": null,
+      "site": "Prosper ISD Stadium - Rd 3",
+      "lat": 33.26024,
+      "lng": -96.80644,
       "date": "2026-11-27",
+      "time": "4:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/anna-vs-argyle/11-27-2026/?c=2b8f8818-e1ad-4d73-871c-a185e4308a84"
     },
     {
