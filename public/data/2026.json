@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-21T00:58+00:00",
+    "updated": "2026-11-21T02:11+00:00",
     "games": 535,
     "played": 389,
     "assigned": 528,
@@ -11050,16 +11050,7 @@
       "city": "La Porte",
       "date": "2026-11-20",
       "time": "7:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/north-shore-houston-vs-pearland/11-20-2026/?c=4e6d47f4-85ad-4187-be97-2d4d895ff34f",
-      "changes": [
-        {
-          "field": "date",
-          "old": "2026-11-19",
-          "new": "2026-11-20",
-          "at": "2026-11-17T02:01+00:00",
-          "status": "changed"
-        }
-      ]
+      "mp_url": "https://www.maxpreps.com/tx/football/game/north-shore-houston-vs-pearland/11-20-2026/?c=4e6d47f4-85ad-4187-be97-2d4d895ff34f"
     },
     {
       "year": 2026,
