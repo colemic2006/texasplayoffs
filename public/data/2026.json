@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-21T03:28+00:00",
-    "games": 536,
-    "played": 403,
+    "updated": "2026-11-21T03:41+00:00",
+    "games": 539,
+    "played": 404,
     "assigned": 528,
     "weeks": {
       "1": {
@@ -16,7 +16,7 @@
         "assigned": 176
       },
       "3": {
-        "games": 8,
+        "games": 11,
         "assigned": 0
       },
       "4": {
@@ -8749,10 +8749,10 @@
       "round": "Area",
       "chapter": "SPC",
       "team1": "Gruver",
-      "score1": null,
+      "score1": 66,
       "team2": "McCamey",
-      "score2": null,
-      "winner": null,
+      "score2": 19,
+      "winner": "Gruver",
       "site": "Abernathy High School",
       "lat": 33.83023,
       "lng": -101.84873,
@@ -11634,6 +11634,19 @@
     },
     {
       "year": 2026,
+      "classification": "3A D1",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "Columbus",
+      "score1": null,
+      "team2": "Franklin",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/columbus-vs-franklin/11-26-2026/?c=063d414f-ed7a-446f-a307-39e06795461a"
+    },
+    {
+      "year": 2026,
       "classification": "3A D2",
       "week": 3,
       "round": "Regionals",
@@ -11644,6 +11657,27 @@
       "score2": null,
       "winner": null,
       "mp_url": "https://www.maxpreps.com/tx/football/game/canadian-vs-idalou/11-26-2026/?c=0168a7b0-5464-401d-871f-7ff4c5d6b911"
+    },
+    {
+      "year": 2026,
+      "classification": "3A D2",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "Blanco",
+      "score1": null,
+      "team2": "East Bernard",
+      "score2": null,
+      "winner": null,
+      "site": "House Park Stadium, Austin",
+      "lat": 30.27869,
+      "lng": -97.74934,
+      "stadium": "House Park Stadium",
+      "map_link": "https://goo.gl/maps/7dmXX6Uuka3tSLcF6",
+      "city": "Austin",
+      "date": "2026-11-27",
+      "time": "7:00 PM",
+      "mp_url": "https://www.maxpreps.com/tx/football/game/blanco-vs-east-bernard/11-26-2026/?c=84efa4cf-177d-47e3-a2dd-906bd493fb47"
     },
     {
       "year": 2026,
@@ -11718,6 +11752,19 @@
       "city": "Corpus Christi",
       "date": "2026-11-27",
       "mp_url": "https://www.maxpreps.com/tx/football/game/alamo-heights-san-antonio-vs-gregory-portland/11-26-2026/?c=c273daaf-2aee-466b-b03a-67009a99703b"
+    },
+    {
+      "year": 2026,
+      "classification": "5A D2",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "Boerne",
+      "score1": null,
+      "team2": "Legacy Ranch",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/boerne-vs-legacy-ranch-liberty-hill/11-26-2026/?c=6fd1c791-1a24-444d-b249-0017d6a7ef4f"
     }
   ]
 }

@@ -14924,6 +14924,18 @@
   "stadium": null,
   "stadium_id": null
  },
+ "House Park Stadium, Austin || Blanco v East Bernard": {
+  "address": "1301 Shoal Creek Blvd, Austin, Texas 78701",
+  "city": "Austin",
+  "how": "stadium (map link)",
+  "lat": 30.27869,
+  "lng": -97.74934,
+  "map_link": "https://goo.gl/maps/7dmXX6Uuka3tSLcF6",
+  "rules": 10,
+  "site": "House Park Stadium, Austin",
+  "stadium": "House Park Stadium",
+  "stadium_id": 8
+ },
  "House Park || Taylor v Somerset": {
   "address": "1301 Shoal Creek Blvd, Austin, Texas 78701",
   "city": "Austin",
