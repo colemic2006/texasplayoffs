@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-21T20:46+00:00",
+    "updated": "2026-11-21T21:16+00:00",
     "games": 607,
     "played": 519,
     "assigned": 528,
@@ -9234,7 +9234,7 @@
       "team1": "Orangefield",
       "score1": 48,
       "team2": "Cameron Yoe",
-      "score2": 54,
+      "score2": 50,
       "winner": "Cameron Yoe",
       "site": "Delmar Stadium, Houston",
       "lat": 29.80366,

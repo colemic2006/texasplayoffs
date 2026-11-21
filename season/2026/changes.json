@@ -669,5 +669,16 @@
   "new": "Rockwall High 32, Duncanville 49",
   "at": "2026-11-21T15:04+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "3A D1",
+  "week": 2,
+  "team1": "Orangefield",
+  "team2": "Cameron Yoe",
+  "field": "score",
+  "old": "Orangefield 48, Cameron Yoe 54",
+  "new": "Orangefield 48, Cameron Yoe 50",
+  "at": "2026-11-21T21:16+00:00",
+  "status": "changed"
  }
 ]
