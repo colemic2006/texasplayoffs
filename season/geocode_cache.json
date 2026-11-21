@@ -32240,6 +32240,18 @@
   "stadium": null,
   "stadium_id": null
  },
+ "Waco ISD Stadium - Waco || North Crowley v The Woodlands College Park": {
+  "address": "1401 S. New Rd, Waco, Texas 76711",
+  "city": "Waco",
+  "how": "stadium (map link)",
+  "lat": 31.50814,
+  "lng": -97.15987,
+  "map_link": "https://goo.gl/maps/4f5PQphsG288xBLC7",
+  "rules": 10,
+  "site": "Waco ISD Stadium - Waco",
+  "stadium": "Waco ISD Stadium",
+  "stadium_id": 183
+ },
  "Waco ISD Stadium || Austin LBJ v Huntsville": {
   "address": "1401 S. New Rd, Waco, Texas 76711",
   "city": "Waco",

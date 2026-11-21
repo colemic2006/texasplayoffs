@@ -2,8 +2,8 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-21T04:29+00:00",
-    "games": 568,
+    "updated": "2026-11-21T04:43+00:00",
+    "games": 572,
     "played": 477,
     "assigned": 528,
     "weeks": {
@@ -16,7 +16,7 @@
         "assigned": 176
       },
       "3": {
-        "games": 40,
+        "games": 44,
         "assigned": 0
       },
       "4": {
@@ -11634,6 +11634,19 @@
     },
     {
       "year": 2026,
+      "classification": "2A D1",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "Shiner",
+      "score1": null,
+      "team2": "Rosebud-Lott",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/rosebud-lott-vs-shiner/11-26-2026/?c=8054b65d-6049-45bd-a450-fb189d90d0e8"
+    },
+    {
+      "year": 2026,
       "classification": "2A D2",
       "week": 3,
       "round": "Regionals",
@@ -11890,6 +11903,19 @@
     },
     {
       "year": 2026,
+      "classification": "4A D1",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "Canyon Lake",
+      "score1": null,
+      "team2": "San Antonio Davenport",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/canyon-lake-fischer-vs-davenport-san-antonio/11-26-2026/?c=c7179784-1963-4ac0-9735-152774966a55"
+    },
+    {
+      "year": 2026,
       "classification": "4A D2",
       "week": 3,
       "round": "Regionals",
@@ -12063,6 +12089,19 @@
     },
     {
       "year": 2026,
+      "classification": "5A D1",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "Austin Anderson",
+      "score1": null,
+      "team2": "Boerne Champion",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/anderson-austin-vs-boerne-champion/11-26-2026/?c=e33cc81a-dc99-4cf6-9760-92ac0a0257fc"
+    },
+    {
+      "year": 2026,
       "classification": "5A D2",
       "week": 3,
       "round": "Regionals",
@@ -12175,6 +12214,19 @@
     },
     {
       "year": 2026,
+      "classification": "6A D1",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "Waxahachie",
+      "score1": null,
+      "team2": "Klein",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/klein-vs-waxahachie/11-26-2026/?c=6d6957b9-15f3-4339-9a9b-6d861e6b4e5f"
+    },
+    {
+      "year": 2026,
       "classification": "6A D2",
       "week": 3,
       "round": "Regionals",
@@ -12197,6 +12249,14 @@
       "team2": "The Woodlands College Park",
       "score2": null,
       "winner": null,
+      "site": "Waco ISD Stadium - Waco",
+      "lat": 31.50814,
+      "lng": -97.15987,
+      "stadium": "Waco ISD Stadium",
+      "map_link": "https://goo.gl/maps/4f5PQphsG288xBLC7",
+      "city": "Waco",
+      "date": "2026-11-27",
+      "time": "7:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/college-park-the-woodlands-vs-north-crowley-fort-worth/11-27-2026/?c=adafbaa2-d0e7-4e7e-af56-8093ce20bc45"
     },
     {
