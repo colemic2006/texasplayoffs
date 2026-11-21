@@ -79,7 +79,9 @@ def main(year, url=None):
         for r in open_rows:
             for x, y in ((r['team1'], r['team2']), (r['team2'], r['team1'])):
                 m1, m2 = match(g['a'], x), match(g['b'], y)
-                if max(m1, m2) >= 0.8 and min(m1, m2) >= 0.3 and (not best or m1 + m2 > best[0]):
+                # both teams must match: with one team matching, an earlier round's line (the same
+                # team's last game) was copied onto its next game
+                if max(m1, m2) >= 0.8 and min(m1, m2) >= 0.6 and (not best or m1 + m2 > best[0]):
                     best = (m1 + m2, r)
         if not best:
             unmatched.append(g['raw']); continue

@@ -572,17 +572,6 @@
   "status": "changed"
  },
  {
-  "classification": "3A D1",
-  "week": 3,
-  "team1": "Columbus",
-  "team2": "Franklin",
-  "field": "site",
-  "old": "Mustang Stadium, Magnolia",
-  "new": "Berry Center (Cypress, TX)",
-  "at": "2026-11-21T05:42+00:00",
-  "status": "changed"
- },
- {
   "classification": "4A D1",
   "week": 2,
   "team1": "Corpus Christi Calallen",
