@@ -2,8 +2,8 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-21T22:51+00:00",
-    "games": 610,
+    "updated": "2026-11-21T23:04+00:00",
+    "games": 611,
     "played": 523,
     "assigned": 528,
     "weeks": {
@@ -16,7 +16,7 @@
         "assigned": 176
       },
       "3": {
-        "games": 82,
+        "games": 83,
         "assigned": 0
       },
       "4": {
@@ -13212,6 +13212,19 @@
       "date": "2026-11-27",
       "time": "2:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/southlake-carroll-vs-walnut-grove-prosper/11-27-2026/?c=e08c3896-0274-4583-9330-cb3e0b0f451f"
+    },
+    {
+      "year": 2026,
+      "classification": "6A D2",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "Longview",
+      "score1": null,
+      "team2": "Spring Westfield",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/longview-vs-westfield-houston/11-26-2026/?c=acbdc6ef-f0da-464f-959c-c86a497ba73b"
     }
   ]
 }
