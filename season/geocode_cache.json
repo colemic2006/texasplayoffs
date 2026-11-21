@@ -2053,6 +2053,18 @@
   "stadium": "Alamo Stadium",
   "stadium_id": 836
  },
+ "Alamo Stadium || Dripping Springs v Pharr-San Juan-Alamo North": {
+  "address": "760 Stadium Dr., San Antonio, Texas 78212",
+  "city": "San Antonio",
+  "how": "stadium (map link)",
+  "lat": 29.4628,
+  "lng": -98.47904,
+  "map_link": "https://goo.gl/maps/9ZHVH4NooUHkfakd8",
+  "rules": 10,
+  "site": "Alamo Stadium",
+  "stadium": "Alamo Stadium",
+  "stadium_id": 836
+ },
  "Alamo Stadium, San Antonio || San Antonio Davenport v Corpus Christi Miller": {
   "address": "760 Stadium Dr., San Antonio, Texas 78212",
   "city": "San Antonio",

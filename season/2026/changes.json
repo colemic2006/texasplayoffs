@@ -658,5 +658,16 @@
   "new": "Bastrop 37, Huntsville 51",
   "at": "2026-11-21T14:35+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "6A D1",
+  "week": 2,
+  "team1": "Rockwall High",
+  "team2": "Duncanville",
+  "field": "score",
+  "old": "Rockwall High 25, Duncanville 35",
+  "new": "Rockwall High 32, Duncanville 49",
+  "at": "2026-11-21T15:04+00:00",
+  "status": "changed"
  }
 ]

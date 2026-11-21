@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-21T14:48+00:00",
+    "updated": "2026-11-21T15:04+00:00",
     "games": 607,
     "played": 519,
     "assigned": 528,
@@ -11176,9 +11176,9 @@
       "round": "Area",
       "chapter": "DAL",
       "team1": "Rockwall High",
-      "score1": 25,
+      "score1": 32,
       "team2": "Duncanville",
-      "score2": 35,
+      "score2": 49,
       "winner": "Duncanville",
       "site": "Crowley ISD Multi-Purpose",
       "lat": 32.60854,
@@ -11790,7 +11790,7 @@
       "team2": "Price Carlisle",
       "score2": null,
       "winner": null,
-      "mp_url": "https://www.maxpreps.com/tx/football/game/carlisle-price-vs-cooper/11-26-2026/?c=f354237f-03b2-42c7-888f-a8affa312359"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/carlisle-price-vs-cooper/11-27-2026/?c=f354237f-03b2-42c7-888f-a8affa312359"
     },
     {
       "year": 2026,
@@ -12833,6 +12833,14 @@
       "team2": "Pharr-San Juan-Alamo North",
       "score2": null,
       "winner": null,
+      "site": "Alamo Stadium",
+      "lat": 29.4628,
+      "lng": -98.47904,
+      "stadium": "Alamo Stadium",
+      "map_link": "https://goo.gl/maps/9ZHVH4NooUHkfakd8",
+      "city": "San Antonio",
+      "date": "2026-11-27",
+      "time": "5:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/dripping-springs-vs-pharr-san-juan-alamo-north/11-27-2026/?c=d9d02742-d7f9-4a68-8aff-d8d2f717c900"
     },
     {
