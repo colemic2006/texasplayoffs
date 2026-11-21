@@ -2,8 +2,8 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-21T04:59+00:00",
-    "games": 575,
+    "updated": "2026-11-21T05:13+00:00",
+    "games": 576,
     "played": 481,
     "assigned": 528,
     "weeks": {
@@ -16,7 +16,7 @@
         "assigned": 176
       },
       "3": {
-        "games": 47,
+        "games": 48,
         "assigned": 0
       },
       "4": {
@@ -12202,6 +12202,19 @@
     },
     {
       "year": 2026,
+      "classification": "5A D2",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "Argyle",
+      "score1": null,
+      "team2": "Anna",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/anna-vs-argyle/11-26-2026/?c=2b8f8818-e1ad-4d73-871c-a185e4308a84"
+    },
+    {
+      "year": 2026,
       "classification": "6A D1",
       "week": 3,
       "round": "Regionals",
@@ -12231,6 +12244,9 @@
       "team2": "San Antonio Brennan",
       "score2": null,
       "winner": null,
+      "site": "Texas State Football Field",
+      "date": "2026-11-27",
+      "time": "2:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/brennan-san-antonio-vs-lake-travis-austin/11-27-2026/?c=2436acf0-8081-434a-9067-99cda1709bc2"
     },
     {

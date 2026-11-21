@@ -30214,6 +30214,16 @@
   "stadium": "Stingaree Stadium",
   "stadium_id": 362
  },
+ "Texas State Football Field || Austin Lake Travis v San Antonio Brennan": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-21",
+  "rules": 10,
+  "site": "Texas State Football Field",
+  "stadium": null,
+  "stadium_id": null
+ },
  "The Bears' Den, Baird || Newcastle v May": {
   "address": "600 W. 7th, Baird, Texas 79504",
   "city": "Baird",
