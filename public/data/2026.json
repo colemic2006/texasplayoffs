@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-21T08:36+00:00",
+    "updated": "2026-11-21T09:06+00:00",
     "games": 579,
-    "played": 488,
+    "played": 489,
     "assigned": 528,
     "weeks": {
       "1": {
@@ -10699,10 +10699,10 @@
       "round": "Area",
       "chapter": "FTW",
       "team1": "Mansfield Timberview",
-      "score1": null,
+      "score1": 58,
       "team2": "Texarkana Texas",
-      "score2": null,
-      "winner": null,
+      "score2": 37,
+      "winner": "Mansfield Timberview",
       "site": "Bulldog Stadium, Tyler",
       "lat": 32.31056,
       "lng": -95.1896,
