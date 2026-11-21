@@ -2887,8 +2887,8 @@
   {
    "name": "Forney",
    "chapter": "DAL",
-   "lat": 32.73659,
-   "lng": -96.46865,
+   "lat": 32.72391,
+   "lng": -96.45884,
    "at": "stadium"
   },
   {
@@ -3419,9 +3419,9 @@
   {
    "name": "Glen Rose",
    "chapter": "FTW",
-   "lat": 32.23408,
-   "lng": -97.755,
-   "at": "town"
+   "lat": 32.23052,
+   "lng": -97.76651,
+   "at": "stadium"
   },
   {
    "name": "Godley",
@@ -6093,8 +6093,8 @@
   {
    "name": "North Forney",
    "chapter": "DAL",
-   "lat": 32.73659,
-   "lng": -96.46865,
+   "lat": 32.72391,
+   "lng": -96.45884,
    "at": "stadium"
   },
   {
@@ -7892,8 +7892,8 @@
   {
    "name": "Springtown",
    "chapter": "FTW",
-   "lat": 32.97673,
-   "lng": -97.6936,
+   "lat": 32.97675,
+   "lng": -97.69348,
    "at": "stadium"
   },
   {

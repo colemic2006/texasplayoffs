@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-21T17:16+00:00",
+    "updated": "2026-11-21T19:03+00:00",
     "games": 607,
     "played": 519,
     "assigned": 528,
@@ -11704,6 +11704,14 @@
       "team2": "Muenster",
       "score2": null,
       "winner": null,
+      "site": "Porcupine Stadium, Springtown",
+      "lat": 32.97675,
+      "lng": -97.69348,
+      "stadium": "Porcupine Stadium",
+      "map_link": "https://goo.gl/maps/47JnPKukb5mzd3YG9",
+      "city": "Springtown",
+      "date": "2026-11-27",
+      "time": "7:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/cisco-vs-muenster/11-26-2026/?c=e712542a-893e-48d0-8d86-090d02f0be50"
     },
     {
@@ -11717,6 +11725,13 @@
       "team2": "Ballinger",
       "score2": null,
       "winner": null,
+      "site": "Lowrey Field, Lubbock",
+      "lat": 33.53277,
+      "lng": -101.85134,
+      "stadium": "Lowrey Field",
+      "city": "Lubbock",
+      "date": "2026-11-27",
+      "time": "2:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/ballinger-vs-panhandle/11-26-2026/?c=a99ec592-208a-444b-8a35-59f299bbffc3"
     },
     {
@@ -11730,6 +11745,14 @@
       "team2": "Rosebud-Lott",
       "score2": null,
       "winner": null,
+      "site": "House Park Stadium, Austin",
+      "lat": 30.27869,
+      "lng": -97.74934,
+      "stadium": "House Park Stadium",
+      "map_link": "https://goo.gl/maps/7dmXX6Uuka3tSLcF6",
+      "city": "Austin",
+      "date": "2026-11-27",
+      "time": "3:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/rosebud-lott-vs-shiner/11-26-2026/?c=8054b65d-6049-45bd-a450-fb189d90d0e8"
     },
     {
@@ -11756,7 +11779,13 @@
       "team2": "Spearman",
       "score2": null,
       "winner": null,
-      "date": "2026-11-20"
+      "site": "Pirate Stadium, Lubbock",
+      "lat": 33.449,
+      "lng": -101.84952,
+      "stadium": "Pirate Stadium",
+      "city": "Lubbock",
+      "date": "2026-11-20",
+      "time": "4:00 PM"
     },
     {
       "year": 2026,
@@ -11811,6 +11840,9 @@
       "team2": "La Villa",
       "score2": null,
       "winner": null,
+      "site": "La Villa - Home",
+      "date": "2026-11-27",
+      "time": "6:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/falls-city-vs-la-villa/11-26-2026/?c=ba870886-8c0b-46b7-bbf2-0f4b9eef9d0c"
     },
     {
@@ -11824,6 +11856,14 @@
       "team2": "Clarksville",
       "score2": null,
       "winner": null,
+      "site": "Patriot Stadium, Pattonville",
+      "lat": 33.57137,
+      "lng": -95.39249,
+      "stadium": "Patriot Stadium",
+      "map_link": "https://goo.gl/maps/ZuUpavZ7hUGitbt57",
+      "city": "Pattonville",
+      "date": "2026-11-27",
+      "time": "2:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/clarksville-vs-collinsville/11-26-2026/?c=3ba330de-4983-44a0-8f49-d1ef3b6240b9"
     },
     {
@@ -11837,6 +11877,13 @@
       "team2": "Junction",
       "score2": null,
       "winner": null,
+      "site": "Gupton Stadium, Cedar Park",
+      "lat": 30.51517,
+      "lng": -97.79197,
+      "stadium": "Gupton Stadium",
+      "city": "Cedar Park",
+      "date": "2026-11-27",
+      "time": "7:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/bremond-vs-junction/11-26-2026/?c=e710d958-4736-4342-847e-7e176c32973a"
     },
     {
@@ -11937,6 +11984,14 @@
       "team2": "Whitney",
       "score2": null,
       "winner": null,
+      "site": "Pennington Field, Bedford",
+      "lat": 32.83272,
+      "lng": -97.1364,
+      "stadium": "Pennington Field",
+      "map_link": "https://g.page/PenningtonField-HEBISD?share",
+      "city": "Bedford",
+      "date": "2026-11-27",
+      "time": "1:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/gunter-vs-whitney/11-26-2026/?c=f5c0de50-5600-4ecc-8e3b-25b453341d13"
     },
     {
@@ -11987,6 +12042,13 @@
       "team2": "Vernon",
       "score2": null,
       "winner": null,
+      "site": "Memorial Stadium, Wichita Falls",
+      "lat": 33.85787,
+      "lng": -98.57787,
+      "stadium": "Memorial Stadium",
+      "city": "Wichita Falls",
+      "date": "2026-11-27",
+      "time": "3:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/peaster-vs-vernon/11-26-2026/?c=b8c78500-905a-4d19-88e1-c6fd99154d5d"
     },
     {
@@ -12000,6 +12062,13 @@
       "team2": "San Diego",
       "score2": null,
       "winner": null,
+      "site": "Matador Stadium, Seguin",
+      "lat": 29.57658,
+      "lng": -97.94563,
+      "stadium": "Matador Stadium",
+      "city": "Seguin",
+      "date": "2026-11-27",
+      "time": "7:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/hallettsville-vs-san-diego/11-26-2026/?c=e0a7bbd6-e046-471e-8950-0fef8f731561"
     },
     {
@@ -12013,6 +12082,13 @@
       "team2": "Devine",
       "score2": null,
       "winner": null,
+      "site": "Heroes Stadium, San Antonio",
+      "lat": 29.5369,
+      "lng": -98.39781,
+      "stadium": "Heroes Stadium",
+      "city": "San Antonio",
+      "date": "2026-11-27",
+      "time": "7:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/devine-vs-yoakum/11-26-2026/?c=3c0c318a-40f3-48e0-99b9-195577547fab"
     },
     {
@@ -12026,7 +12102,10 @@
       "team2": "Cameron Yoe",
       "score2": null,
       "winner": null,
-      "mp_url": "https://www.maxpreps.com/tx/football/game/ch-yoe-cameron-vs-lorena/11-26-2026/?c=b1b208d1-2d7f-4255-861b-4b8111486e8d"
+      "site": "Salado ISD Stadium, Salado",
+      "date": "2026-11-27",
+      "time": "7:00 PM",
+      "mp_url": "https://www.maxpreps.com/tx/football/game/ch-yoe-cameron-vs-lorena/11-27-2026/?c=b1b208d1-2d7f-4255-861b-4b8111486e8d"
     },
     {
       "year": 2026,
@@ -12039,6 +12118,14 @@
       "team2": "Atlanta",
       "score2": null,
       "winner": null,
+      "site": "Royse City ISD Stadium, Royse City",
+      "lat": 32.97677,
+      "lng": -96.28986,
+      "stadium": "Royse City ISD Stadium",
+      "map_link": "https://goo.gl/maps/L1AteM9Tjj2PhiMCA",
+      "city": "Royse City",
+      "date": "2026-11-27",
+      "time": "2:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/atlanta-vs-malakoff/11-26-2026/?c=13d9ae45-b001-42cf-b5ec-1d54bdc21947"
     },
     {
@@ -12072,6 +12159,13 @@
       "team2": "East Bernard",
       "score2": null,
       "winner": null,
+      "site": "Memorial Stadium, Bastrop",
+      "lat": 30.1105,
+      "lng": -97.3153,
+      "stadium": "Memorial Stadium",
+      "city": "Bastrop",
+      "date": "2026-11-27",
+      "time": "7:30 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/blanco-vs-east-bernard/11-26-2026/?c=84efa4cf-177d-47e3-a2dd-906bd493fb47"
     },
     {
@@ -12098,6 +12192,14 @@
       "team2": "Maypearl",
       "score2": null,
       "winner": null,
+      "site": "Tiger Stadium, Glen Rose",
+      "lat": 32.23052,
+      "lng": -97.76651,
+      "stadium": "Tiger Stadium",
+      "map_link": "https://goo.gl/maps/6vrYeBojR9A5VXNv7",
+      "city": "Glen Rose",
+      "date": "2026-11-27",
+      "time": "7:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/maypearl-vs-millsap/11-26-2026/?c=2097fe94-352d-4927-9e31-8c6f7766c2af"
     },
     {
@@ -12111,6 +12213,14 @@
       "team2": "Tolar",
       "score2": null,
       "winner": null,
+      "site": "Knight Stadium, Fort Worth",
+      "lat": 32.92429,
+      "lng": -97.40963,
+      "stadium": "Knight Stadium",
+      "map_link": "https://maps.app.goo.gl/b2LbMKaXwRA6CfYQA",
+      "city": "Fort Worth",
+      "date": "2026-11-27",
+      "time": "2:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/bells-vs-tolar/11-26-2026/?c=c6decfd9-7e93-4886-8fec-5b1db12364b8"
     },
     {
@@ -12124,6 +12234,13 @@
       "team2": "Newton",
       "score2": null,
       "winner": null,
+      "site": "Randall Reed Stadium, New Caney",
+      "lat": 30.13568,
+      "lng": -95.23305,
+      "stadium": "Randall Reed Stadium",
+      "city": "New Caney",
+      "date": "2026-11-27",
+      "time": "2:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/newton-vs-west-rusk-new-london/11-26-2026/?c=4f17a71c-ab86-47fa-b46b-7df805f403ea"
     },
     {
@@ -12236,6 +12353,14 @@
       "team2": "Paris",
       "score2": null,
       "winner": null,
+      "site": "Hawk Stadium, Texarkana",
+      "lat": 33.4678,
+      "lng": -94.11158,
+      "stadium": "Hawk Stadium",
+      "map_link": "https://goo.gl/maps/yWQ8QAhZAqQ4nuzj7",
+      "city": "Texarkana",
+      "date": "2026-11-27",
+      "time": "6:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/paris-vs-pine-tree-longview/11-26-2026/?c=c6446c89-0fd8-4ce9-974d-78f50eab5cb3"
     },
     {
@@ -12291,6 +12416,14 @@
       "team2": "Brock",
       "score2": null,
       "winner": null,
+      "site": "Anthony Field, Abilene",
+      "lat": 32.4733,
+      "lng": -99.70905,
+      "stadium": "Anthony Field at Wildcat Stadium",
+      "map_link": "https://goo.gl/maps/BmRi2NZMvheTgJtJ9",
+      "city": "Abilene",
+      "date": "2026-11-27",
+      "time": "2:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/brock-vs-liberty-lubbock/11-26-2026/?c=be3ff0c6-2e4a-436c-8ec6-2d2501318dc4"
     },
     {
@@ -12304,6 +12437,14 @@
       "team2": "Robinson",
       "score2": null,
       "winner": null,
+      "site": "Wildcat Stadium, Godley",
+      "lat": 32.45865,
+      "lng": -97.54789,
+      "stadium": "The Wild",
+      "map_link": "https://goo.gl/maps/jWCZM2rYxFT12qi56",
+      "city": "Godley",
+      "date": "2026-11-27",
+      "time": "7:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/brownwood-vs-robinson/11-26-2026/?c=24c05c7a-3a97-4d9a-8e20-f01f5dbba6bc"
     },
     {
@@ -12338,6 +12479,14 @@
       "team2": "Hamshire-Fannett",
       "score2": null,
       "winner": null,
+      "site": "Planet Ford Stadium, Spring",
+      "lat": 30.05856,
+      "lng": -95.35258,
+      "stadium": "Planet Ford Stadium",
+      "map_link": "https://goo.gl/maps/VDQ4QMgjahxzdW6J7",
+      "city": "Spring",
+      "date": "2026-11-27",
+      "time": "7:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/hamshire-fannett-vs-madisonville/11-26-2026/?c=72759d62-0fb0-472c-98d7-6651591fa2dc"
     },
     {
@@ -12351,6 +12500,13 @@
       "team2": "Gilmer",
       "score2": null,
       "winner": null,
+      "site": "Bulldog Stadium, Tyler",
+      "lat": 32.31056,
+      "lng": -95.1896,
+      "stadium": "Bulldog Stadium (Chapel Hill HS)",
+      "city": "Tyler",
+      "date": "2026-11-27",
+      "time": "7:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/gilmer-vs-sunnyvale/11-26-2026/?c=4a6d2889-0f5d-4d9d-95b3-9aa48d426660"
     },
     {
@@ -12364,6 +12520,14 @@
       "team2": "Van Alstyne",
       "score2": null,
       "winner": null,
+      "site": "City Bank Stadium, Forney",
+      "lat": 32.72391,
+      "lng": -96.45884,
+      "stadium": "Forney City Bank Stadium",
+      "map_link": "https://goo.gl/maps/F7gGtPMCR2jCZJpy8",
+      "city": "Forney",
+      "date": "2026-11-27",
+      "time": "5:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/carthage-vs-van-alstyne/11-26-2026/?c=39371343-4ae3-4d29-8cd1-39a0a57eebfc"
     },
     {
@@ -12377,6 +12541,14 @@
       "team2": "DeSoto",
       "score2": null,
       "winner": null,
+      "site": "Crowley ISD Stadium, Fort Worth",
+      "lat": 32.60854,
+      "lng": -97.33905,
+      "stadium": "Crowley ISD Multi-Purpose Stadium",
+      "map_link": "https://goo.gl/maps/vD6WyxBQ71jJaVZ89",
+      "city": "Fort Worth",
+      "date": "2026-11-27",
+      "time": "12:30 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/desoto-vs-richland-north-richland-hills/11-26-2026/?c=87572481-ffcb-4b8b-998b-5e27be4459f4"
     },
     {
@@ -12420,6 +12592,14 @@
       "team2": "Midlothian",
       "score2": null,
       "winner": null,
+      "site": "Clark Field, Plano",
+      "lat": 33.06338,
+      "lng": -96.70214,
+      "stadium": "John Clark Stadium",
+      "map_link": "https://goo.gl/maps/pU9X6D5ouNTVE2pB7",
+      "city": "Plano",
+      "date": "2026-11-27",
+      "time": "6:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/lone-star-frisco-vs-midlothian/11-26-2026/?c=c793da52-ea51-4dcf-88a7-72d3d4250470"
     },
     {
@@ -12470,6 +12650,14 @@
       "team2": "Boerne Champion",
       "score2": null,
       "winner": null,
+      "site": "Shelton Stadium, Buda",
+      "lat": 30.03343,
+      "lng": -97.88928,
+      "stadium": "Bob Shelton Stadium",
+      "map_link": "https://goo.gl/maps/WmBEGu5qcdymYWGg6",
+      "city": "Buda",
+      "date": "2026-11-27",
+      "time": "2:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/anderson-austin-vs-boerne-champion/11-26-2026/?c=e33cc81a-dc99-4cf6-9760-92ac0a0257fc"
     },
     {
@@ -12483,6 +12671,14 @@
       "team2": "Amarillo High",
       "score2": null,
       "winner": null,
+      "site": "Astound Broadband, Midland",
+      "lat": 31.98925,
+      "lng": -102.15394,
+      "stadium": "Astound Broadband Stadium",
+      "map_link": "https://goo.gl/maps/2xizkpWLXy9xkYWw9",
+      "city": "Midland",
+      "date": "2026-11-28",
+      "time": "3:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/amarillo-vs-arlington-heights-fort-worth/11-26-2026/?c=408f9c62-659a-4051-9f53-6ccf91daeb0c"
     },
     {
@@ -12496,6 +12692,14 @@
       "team2": "Pflugerville Weiss",
       "score2": null,
       "winner": null,
+      "site": "Waco ISD Stadium, Waco",
+      "lat": 31.50814,
+      "lng": -97.15987,
+      "stadium": "Waco ISD Stadium",
+      "map_link": "https://goo.gl/maps/4f5PQphsG288xBLC7",
+      "city": "Waco",
+      "date": "2026-11-27",
+      "time": "1:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/aandm-consolidated-college-station-vs-weiss-pflugerville/11-26-2026/?c=2b5cc6f3-140e-4185-be1f-58084460f1e4"
     },
     {
@@ -12509,6 +12713,13 @@
       "team2": "Medina Valley",
       "score2": null,
       "winner": null,
+      "site": "Farris Stadium, San Antonio",
+      "lat": 29.56489,
+      "lng": -98.65321,
+      "stadium": "Farris Stadium",
+      "city": "San Antonio",
+      "date": "2026-11-27",
+      "time": "1:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/medina-valley-castroville-vs-smithson-valley-spring-branch/11-26-2026/?c=f7f2e6db-5c5b-40f7-9d99-73be86c38b49"
     },
     {
@@ -12713,6 +12924,12 @@
       "team2": "San Antonio Harlan",
       "score2": null,
       "winner": null,
+      "site": "UFCU Stadium, San Marcos",
+      "lat": 29.89106,
+      "lng": -97.92555,
+      "city": "San Marcos",
+      "date": "2026-11-27",
+      "time": "8:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/harlan-san-antonio-vs-round-rock/11-26-2026/?c=ed93d118-3706-4446-a154-2b5cdddc4db7"
     },
     {
@@ -12733,6 +12950,7 @@
       "map_link": "https://goo.gl/maps/4f5PQphsG288xBLC7",
       "city": "Waco",
       "date": "2026-11-28",
+      "time": "2:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/klein-vs-waxahachie/11-26-2026/?c=6d6957b9-15f3-4339-9a9b-6d861e6b4e5f"
     },
     {
@@ -12767,6 +12985,14 @@
       "team2": "Lewisville",
       "score2": null,
       "winner": null,
+      "site": "Mustang-Panther Stadium, Grapevine",
+      "lat": 32.92058,
+      "lng": -97.11303,
+      "stadium": "Mustang-Panther Stadium",
+      "map_link": "https://goo.gl/maps/TbwVMmDFvdmX979QA",
+      "city": "Grapevine",
+      "date": "2026-11-28",
+      "time": "2:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/lewisville-vs-martin-arlington/11-26-2026/?c=f5316724-39db-4ecc-ba84-a8bbc157d9bf"
     },
     {

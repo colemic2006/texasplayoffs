@@ -15,9 +15,19 @@
   "why": "named:Kight Stadium, Fort Worth"
  },
  {
+  "site": "La Villa - Home",
+  "game": "Falls City v La Villa",
+  "why": "no stadium, school or town matched"
+ },
+ {
   "site": "Location: Kenneth Hall Stadium",
   "game": "Almeta Crawford v Elgin",
   "why": "no stadium, school or town matched"
+ },
+ {
+  "site": "Salado ISD Stadium, Salado",
+  "game": "Lorena v Cameron Yoe",
+  "why": "district:Stadium, Salado, Salado"
  },
  {
   "site": "Texas State Football Field",
