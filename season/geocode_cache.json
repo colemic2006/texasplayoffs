@@ -9076,6 +9076,18 @@
   "stadium": null,
   "stadium_id": null
  },
+ "Daikin Stadium, 20735 Stokes Rd, Waller, TX 77484 || Humble Atascocita v Katy Tompkins": {
+  "address": "20735 Stokes Rd, Waller, Texas 77484",
+  "city": "Waller",
+  "how": "stadium (map link)",
+  "lat": 30.07528,
+  "lng": -95.91307,
+  "map_link": "https://goo.gl/maps/v6amowm16uydWWqQ9",
+  "rules": 10,
+  "site": "Daikin Stadium, 20735 Stokes Rd, Waller, TX 77484",
+  "stadium": "Daikin Stadium",
+  "stadium_id": 1289
+ },
  "Daikin Stadium, 20735 Stokes Rd, Waller, TX 77484 || Katy Tompkins v Waller": {
   "address": "20735 Stokes Rd, Waller, Texas 77484",
   "city": "Waller",

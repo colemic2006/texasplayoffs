@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-21T05:59+00:00",
+    "updated": "2026-11-21T06:12+00:00",
     "games": 577,
     "played": 482,
     "assigned": 528,
@@ -9473,16 +9473,7 @@
       "city": "Midlothian",
       "date": "2026-11-20",
       "time": "7:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/grand-saline-vs-tolar/11-20-2026/?c=a6ecbfb5-4cf9-4ffb-b86e-7a2ac4c220b6",
-      "changes": [
-        {
-          "field": "time",
-          "old": "7:30 PM",
-          "new": "7:00 PM",
-          "at": "2026-11-20T17:54+00:00",
-          "status": "changed"
-        }
-      ]
+      "mp_url": "https://www.maxpreps.com/tx/football/game/grand-saline-vs-tolar/11-20-2026/?c=a6ecbfb5-4cf9-4ffb-b86e-7a2ac4c220b6"
     },
     {
       "year": 2026,
@@ -9772,16 +9763,7 @@
       "city": "Corpus Christi",
       "date": "2026-11-20",
       "time": "7:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/calallen-corpus-christi-vs-floresville-tigers-jaguars/11-20-2026/?c=0846ce82-db79-40c4-bc0c-fe0ee0934239",
-      "changes": [
-        {
-          "field": "score",
-          "old": "Corpus Christi Calallen 63, Floresville 15",
-          "new": "Corpus Christi Calallen 56, Floresville 15",
-          "at": "2026-11-21T05:59+00:00",
-          "status": "changed"
-        }
-      ]
+      "mp_url": "https://www.maxpreps.com/tx/football/game/calallen-corpus-christi-vs-floresville-tigers-jaguars/11-20-2026/?c=0846ce82-db79-40c4-bc0c-fe0ee0934239"
     },
     {
       "year": 2026,
@@ -12245,7 +12227,8 @@
       "team2": "Anna",
       "score2": null,
       "winner": null,
-      "mp_url": "https://www.maxpreps.com/tx/football/game/anna-vs-argyle/11-26-2026/?c=2b8f8818-e1ad-4d73-871c-a185e4308a84"
+      "date": "2026-11-27",
+      "mp_url": "https://www.maxpreps.com/tx/football/game/anna-vs-argyle/11-27-2026/?c=2b8f8818-e1ad-4d73-871c-a185e4308a84"
     },
     {
       "year": 2026,
@@ -12375,7 +12358,15 @@
       "team2": "Katy Tompkins",
       "score2": null,
       "winner": null,
-      "mp_url": "https://www.maxpreps.com/tx/football/game/atascocita-humble-vs-tompkins-katy/11-26-2026/?c=fc7742ca-0362-4d7b-9984-493c532f9536"
+      "site": "Daikin Stadium, 20735 Stokes Rd, Waller, TX 77484",
+      "lat": 30.07528,
+      "lng": -95.91307,
+      "stadium": "Daikin Stadium",
+      "map_link": "https://goo.gl/maps/v6amowm16uydWWqQ9",
+      "city": "Waller",
+      "date": "2026-11-27",
+      "time": "6:00 PM",
+      "mp_url": "https://www.maxpreps.com/tx/football/game/atascocita-humble-vs-tompkins-katy/11-27-2026/?c=fc7742ca-0362-4d7b-9984-493c532f9536"
     },
     {
       "year": 2026,
