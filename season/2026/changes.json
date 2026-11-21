@@ -647,5 +647,16 @@
   "new": "Shotwell Stadium, Abilene",
   "at": "2026-11-21T07:29+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "5A D2",
+  "week": 2,
+  "team1": "Bastrop",
+  "team2": "Huntsville",
+  "field": "score",
+  "old": "Bastrop 37, Huntsville 44",
+  "new": "Bastrop 37, Huntsville 51",
+  "at": "2026-11-21T14:35+00:00",
+  "status": "changed"
  }
 ]

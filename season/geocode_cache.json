@@ -25264,6 +25264,18 @@
   "stadium": "Red Raider Stadium",
   "stadium_id": 551
  },
+ "Regional Semi-Final @ Pridgeon Stadium || Houston King v Fort Bend Ridge Point": {
+  "address": "11355 Bobcat Rd., Houston, Texas 77064",
+  "city": "Houston",
+  "how": "stadium (map link)",
+  "lat": 29.93564,
+  "lng": -95.57,
+  "map_link": "https://goo.gl/maps/WGtow4sC3X82",
+  "rules": 10,
+  "site": "Regional Semi-Final @ Pridgeon Stadium",
+  "stadium": "Pridgeon Stadium",
+  "stadium_id": 634
+ },
  "Rhodes Stadium, Katy || Austin LBJ v Port Neches-Groves": {
   "address": "",
   "city": "Katy",
