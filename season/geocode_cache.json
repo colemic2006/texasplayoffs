@@ -33895,6 +33895,18 @@
   "stadium": "Peoples Bank Stadium",
   "stadium_id": 823
  },
+ "Woodforest Bank Stadium || La Marque v West Orange-Stark": {
+  "address": "19115 David Memorial Dr, Shenandoah, Texas 77385",
+  "city": "Shenandoah",
+  "how": "stadium (map link)",
+  "lat": 30.18591,
+  "lng": -95.44679,
+  "map_link": "https://goo.gl/maps/upEFqtHzV76XXwvP8",
+  "rules": 10,
+  "site": "Woodforest Bank Stadium",
+  "stadium": "Woodforest Bank Stadium",
+  "stadium_id": 1151
+ },
  "Woodforest Bank Stadium || The Woodlands v Aldine Nimitz": {
   "address": "19115 David Memorial Dr, Shenandoah, Texas 77385",
   "city": "Shenandoah",

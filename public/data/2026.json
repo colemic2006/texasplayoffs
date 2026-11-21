@@ -2,8 +2,8 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-21T07:29+00:00",
-    "games": 578,
+    "updated": "2026-11-21T07:43+00:00",
+    "games": 579,
     "played": 484,
     "assigned": 528,
     "weeks": {
@@ -16,7 +16,7 @@
         "assigned": 176
       },
       "3": {
-        "games": 50,
+        "games": 51,
         "assigned": 0
       },
       "4": {
@@ -12096,7 +12096,15 @@
       "team2": "West Orange-Stark",
       "score2": null,
       "winner": null,
-      "mp_url": "https://www.maxpreps.com/tx/football/game/la-marque-vs-west-orange-stark/11-26-2026/?c=2b549567-79e7-494a-8874-6c46ba6e2a1f"
+      "site": "Woodforest Bank Stadium",
+      "lat": 30.18591,
+      "lng": -95.44679,
+      "stadium": "Woodforest Bank Stadium",
+      "map_link": "https://goo.gl/maps/upEFqtHzV76XXwvP8",
+      "city": "Shenandoah",
+      "date": "2026-11-27",
+      "time": "6:00 PM",
+      "mp_url": "https://www.maxpreps.com/tx/football/game/la-marque-vs-west-orange-stark/11-27-2026/?c=2b549567-79e7-494a-8874-6c46ba6e2a1f"
     },
     {
       "year": 2026,
@@ -12436,6 +12444,19 @@
       "city": "Waco",
       "date": "2026-11-28",
       "mp_url": "https://www.maxpreps.com/tx/football/game/klein-vs-waxahachie/11-26-2026/?c=6d6957b9-15f3-4339-9a9b-6d861e6b4e5f"
+    },
+    {
+      "year": 2026,
+      "classification": "6A D1",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "Humble Summer Creek",
+      "score1": null,
+      "team2": "Katy High",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/katy-vs-summer-creek-houston/11-26-2026/?c=30004ee9-2004-4424-95e2-d44caef1ecc2"
     },
     {
       "year": 2026,
