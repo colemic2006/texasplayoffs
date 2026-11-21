@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-21T20:02+00:00",
+    "updated": "2026-11-21T20:46+00:00",
     "games": 607,
     "played": 519,
     "assigned": 528,
@@ -11671,7 +11671,10 @@
       "team2": "Mount Calm",
       "score2": null,
       "winner": null,
-      "mp_url": "https://www.maxpreps.com/tx/football/game/fannindel-ladonia-vs-mount-calm/11-26-2026/?c=19ef0b77-f32f-4553-aabf-40dbd892cd75"
+      "site": "Coolidge ISD / Regional Championship",
+      "date": "2026-11-27",
+      "time": "7:00 PM",
+      "mp_url": "https://www.maxpreps.com/tx/football/game/fannindel-ladonia-vs-mount-calm/11-27-2026/?c=19ef0b77-f32f-4553-aabf-40dbd892cd75"
     },
     {
       "year": 2026,
@@ -11766,6 +11769,14 @@
       "team2": "San Augustine",
       "score2": null,
       "winner": null,
+      "site": "Lion Stadium, Henderson",
+      "lat": 32.14497,
+      "lng": -94.80589,
+      "stadium": "Lion Stadium",
+      "map_link": "https://goo.gl/maps/bbpqzihHmpdMipCy5",
+      "city": "Henderson",
+      "date": "2026-11-27",
+      "time": "2:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/joaquin-vs-san-augustine/11-26-2026/?c=fc907ac2-1c18-4e43-b7b2-4004acd4ac1d"
     },
     {

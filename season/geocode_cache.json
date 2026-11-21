@@ -7623,6 +7623,16 @@
   "stadium": "Coolidge Yellow Jacket Athletic Complex",
   "stadium_id": 197
  },
+ "Coolidge ISD / Regional Championship || Fannindel v Mount Calm": {
+  "address": "",
+  "how": "district:/ Regional Championship, Coolidge",
+  "map_link": "",
+  "missed": "2026-11-21",
+  "rules": 10,
+  "site": "Coolidge ISD / Regional Championship",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Coolidge || Oakwood v Oglesby": {
   "address": "1002 Kirven St., Coolidge, Texas 76635",
   "city": "Coolidge",
