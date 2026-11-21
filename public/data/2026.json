@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-21T23:04+00:00",
-    "games": 611,
-    "played": 523,
+    "updated": "2026-11-21T23:21+00:00",
+    "games": 612,
+    "played": 525,
     "assigned": 528,
     "weeks": {
       "1": {
@@ -16,7 +16,7 @@
         "assigned": 176
       },
       "3": {
-        "games": 83,
+        "games": 84,
         "assigned": 0
       },
       "4": {
@@ -9650,10 +9650,10 @@
       "round": "Area",
       "chapter": "PBC",
       "team1": "El Paso Andress",
-      "score1": null,
+      "score1": 14,
       "team2": "Decatur",
-      "score2": null,
-      "winner": null,
+      "score2": 42,
+      "winner": "Decatur",
       "site": "Astound Broadband Stadium, Midland",
       "lat": 31.96078,
       "lng": -102.14848,
@@ -9853,10 +9853,10 @@
       "round": "Area",
       "chapter": "HOU",
       "team1": "Bay City",
-      "score1": null,
+      "score1": 70,
       "team2": "Huffman-Hargrave",
-      "score2": null,
-      "winner": null,
+      "score2": 28,
+      "winner": "Bay City",
       "site": "Berry Complex CyFair FCU Stadium",
       "lat": 29.99014,
       "lng": -95.67814,
@@ -12422,6 +12422,19 @@
     },
     {
       "year": 2026,
+      "classification": "4A D1",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "Bay City",
+      "score1": null,
+      "team2": "Stephenville",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/bay-city-vs-stephenville/11-26-2026/?c=225f5df9-dda8-4e92-8e48-46c0302d732f"
+    },
+    {
+      "year": 2026,
       "classification": "4A D2",
       "week": 3,
       "round": "Regionals",
@@ -12923,6 +12936,12 @@
       "team2": "Huntsville",
       "score2": null,
       "winner": null,
+      "site": "Legacy Stadium Katy, TX",
+      "lat": 29.80001,
+      "lng": -95.80539,
+      "stadium": "Mike Johnston Field at Legacy Stadium",
+      "map_link": "https://goo.gl/maps/km2SPmR8CsAASd3H6",
+      "city": "Katy",
       "date": "2026-11-28",
       "time": "12:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/almeta-crawford-rosharon-vs-huntsville/11-28-2026/?c=376e6d56-8b0e-4b39-902f-e20bb0b5fbc8"
