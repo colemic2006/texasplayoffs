@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-21T12:21+00:00",
+    "updated": "2026-11-21T13:07+00:00",
     "games": 606,
     "played": 518,
     "assigned": 528,
@@ -12812,7 +12812,15 @@
       "team2": "Katy High",
       "score2": null,
       "winner": null,
-      "mp_url": "https://www.maxpreps.com/tx/football/game/katy-vs-summer-creek-houston/11-26-2026/?c=30004ee9-2004-4424-95e2-d44caef1ecc2"
+      "site": "Turner Stadium",
+      "lat": 29.98298,
+      "lng": -95.24569,
+      "stadium": "Turner Stadium",
+      "map_link": "https://goo.gl/maps/G8wYEzoiyuLYwYDM8",
+      "city": "Humble",
+      "date": "2026-11-27",
+      "time": "2:00 PM",
+      "mp_url": "https://www.maxpreps.com/tx/football/game/katy-vs-summer-creek-houston/11-27-2026/?c=30004ee9-2004-4424-95e2-d44caef1ecc2"
     },
     {
       "year": 2026,

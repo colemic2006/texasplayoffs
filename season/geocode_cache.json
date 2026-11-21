@@ -31748,6 +31748,18 @@
   "stadium": "Turner Stadium",
   "stadium_id": 365
  },
+ "Turner Stadium || Humble Summer Creek v Katy High": {
+  "address": "1700 Wilson Road, Humble, Texas 77338",
+  "city": "Humble",
+  "how": "stadium (map link)",
+  "lat": 29.98298,
+  "lng": -95.24569,
+  "map_link": "https://goo.gl/maps/G8wYEzoiyuLYwYDM8",
+  "rules": 10,
+  "site": "Turner Stadium",
+  "stadium": "Turner Stadium",
+  "stadium_id": 365
+ },
  "Turner Stadium, Humble || Pearland v Humble Atascocita": {
   "address": "1700 Wilson Road, Humble, Texas 77338",
   "city": "Humble",
