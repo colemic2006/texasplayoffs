@@ -6690,6 +6690,18 @@
   "stadium": "Rangers Stadium",
   "stadium_id": 1611
  },
+ "Choctaw Stadium - Arlington || Southlake Carroll v Prosper Walnut Grove": {
+  "address": "1000 Ballpark Way, Arlington, Texas 76011",
+  "city": "Arlington",
+  "how": "stadium (map link)",
+  "lat": 32.75101,
+  "lng": -97.08299,
+  "map_link": "https://goo.gl/maps/nbzwbc7VP5ZugVnQ7",
+  "rules": 10,
+  "site": "Choctaw Stadium - Arlington",
+  "stadium": "Choctaw Stadium",
+  "stadium_id": 3469
+ },
  "Choctaw Stadium, Arlington || Abilene High v Burleson Centennial": {
   "address": "",
   "city": "Arlington",
