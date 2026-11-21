@@ -2,8 +2,8 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-21T03:58+00:00",
-    "games": 546,
+    "updated": "2026-11-21T04:12+00:00",
+    "games": 561,
     "played": 451,
     "assigned": 528,
     "weeks": {
@@ -16,7 +16,7 @@
         "assigned": 176
       },
       "3": {
-        "games": 18,
+        "games": 33,
         "assigned": 0
       },
       "4": {
@@ -11642,6 +11642,40 @@
     },
     {
       "year": 2026,
+      "classification": "2A D2",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "Collinsville",
+      "score1": null,
+      "team2": "Clarksville",
+      "score2": null,
+      "winner": null,
+      "site": "Blackcat Field, Mexia",
+      "lat": 31.69445,
+      "lng": -96.47086,
+      "stadium": "Blackcat Field",
+      "map_link": "https://goo.gl/maps/EkD2KuxKZWcYqZw69",
+      "city": "Mexia",
+      "date": "2026-11-27",
+      "time": "7:00 PM",
+      "mp_url": "https://www.maxpreps.com/tx/football/game/clarksville-vs-collinsville/11-26-2026/?c=3ba330de-4983-44a0-8f49-d1ef3b6240b9"
+    },
+    {
+      "year": 2026,
+      "classification": "2A D2",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "Bremond",
+      "score1": null,
+      "team2": "Junction",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/bremond-vs-junction/11-26-2026/?c=e710d958-4736-4342-847e-7e176c32973a"
+    },
+    {
+      "year": 2026,
       "classification": "3A D1",
       "week": 3,
       "round": "Regionals",
@@ -11702,6 +11736,19 @@
     },
     {
       "year": 2026,
+      "classification": "3A D1",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "Hallettsville",
+      "score1": null,
+      "team2": "San Diego",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/hallettsville-vs-san-diego/11-26-2026/?c=e0a7bbd6-e046-471e-8950-0fef8f731561"
+    },
+    {
+      "year": 2026,
       "classification": "3A D2",
       "week": 3,
       "round": "Regionals",
@@ -11736,6 +11783,19 @@
     },
     {
       "year": 2026,
+      "classification": "3A D2",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "Slaton",
+      "score1": null,
+      "team2": "Jacksboro",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/jacksboro-vs-slaton/11-26-2026/?c=153d94f6-ea8d-4333-a348-3039af8cbdcd"
+    },
+    {
+      "year": 2026,
       "classification": "4A D1",
       "week": 3,
       "round": "Regionals",
@@ -11767,6 +11827,19 @@
       "score2": null,
       "winner": null,
       "mp_url": "https://www.maxpreps.com/tx/football/game/el-campo-vs-stafford/11-26-2026/?c=e95b92b3-6278-4cd2-9142-c335a940838b"
+    },
+    {
+      "year": 2026,
+      "classification": "4A D1",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "Henderson",
+      "score1": null,
+      "team2": "Lindale",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/henderson-vs-lindale/11-26-2026/?c=913aca75-1395-4966-88b5-fe42a16849d4"
     },
     {
       "year": 2026,
@@ -11825,6 +11898,19 @@
     },
     {
       "year": 2026,
+      "classification": "4A D2",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "La Marque",
+      "score1": null,
+      "team2": "West Orange-Stark",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/la-marque-vs-west-orange-stark/11-26-2026/?c=2b549567-79e7-494a-8874-6c46ba6e2a1f"
+    },
+    {
+      "year": 2026,
       "classification": "5A D1",
       "week": 3,
       "round": "Regionals",
@@ -11835,6 +11921,61 @@
       "score2": null,
       "winner": null,
       "mp_url": "https://www.maxpreps.com/tx/football/game/desoto-vs-richland-north-richland-hills/11-26-2026/?c=87572481-ffcb-4b8b-998b-5e27be4459f4"
+    },
+    {
+      "year": 2026,
+      "classification": "5A D1",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "Denton Ryan",
+      "score1": null,
+      "team2": "Fort Worth Brewer",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/brewer-fort-worth-vs-ryan-denton/11-26-2026/?c=a4ddf1de-1265-44a6-ad69-dfb7fecaf463"
+    },
+    {
+      "year": 2026,
+      "classification": "5A D1",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "Frisco Lone Star",
+      "score1": null,
+      "team2": "Midlothian",
+      "score2": null,
+      "winner": null,
+      "site": "Gopher Bowl, Grand Prairie",
+      "lat": 32.75525,
+      "lng": -97.00223,
+      "stadium": "Gopher Warrior Bowl",
+      "map_link": "https://goo.gl/maps/QFKT9z4qiVFXn1PC9",
+      "city": "Grand Prairie",
+      "date": "2026-11-27",
+      "time": "7:00 PM",
+      "mp_url": "https://www.maxpreps.com/tx/football/game/lone-star-frisco-vs-midlothian/11-26-2026/?c=c793da52-ea51-4dcf-88a7-72d3d4250470"
+    },
+    {
+      "year": 2026,
+      "classification": "5A D1",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "La Porte",
+      "score1": null,
+      "team2": "Angleton",
+      "score2": null,
+      "winner": null,
+      "site": "Abshier Stadium, Deer Park",
+      "lat": 29.68544,
+      "lng": -95.12904,
+      "stadium": "Clyde Abshier Stadium",
+      "map_link": "https://goo.gl/maps/Zo29mgekZZ3hSgww7",
+      "city": "Deer Park",
+      "date": "2026-11-27",
+      "time": "7:00 PM",
+      "mp_url": "https://www.maxpreps.com/tx/football/game/angleton-vs-la-porte/11-26-2026/?c=3f82b268-07fd-44e5-b7a2-ab485a2da2b5"
     },
     {
       "year": 2026,
@@ -11870,6 +12011,19 @@
     },
     {
       "year": 2026,
+      "classification": "5A D2",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "Montgomery",
+      "score1": null,
+      "team2": "Port Neches-Groves",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/montgomery-vs-port-neches-groves/11-26-2026/?c=2aa46149-18b7-4df4-8fae-749ede6929c5"
+    },
+    {
+      "year": 2026,
       "classification": "6A D1",
       "week": 3,
       "round": "Regionals",
@@ -11887,6 +12041,71 @@
       "date": "2026-11-27",
       "time": "7:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/allen-vs-permian-odessa/11-26-2026/?c=08f350dd-f15f-4dd3-8437-90c54b49eb80"
+    },
+    {
+      "year": 2026,
+      "classification": "6A D1",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "Austin Lake Travis",
+      "score1": null,
+      "team2": "San Antonio Brennan",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/brennan-san-antonio-vs-lake-travis-austin/11-26-2026/?c=2436acf0-8081-434a-9067-99cda1709bc2"
+    },
+    {
+      "year": 2026,
+      "classification": "6A D2",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "Aledo",
+      "score1": null,
+      "team2": "Denton Guyer",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/aledo-vs-guyer-denton/11-26-2026/?c=b2870ae1-1c00-406d-881e-3e89e94d4611"
+    },
+    {
+      "year": 2026,
+      "classification": "6A D2",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "North Crowley",
+      "score1": null,
+      "team2": "The Woodlands College Park",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/college-park-the-woodlands-vs-north-crowley-fort-worth/11-26-2026/?c=adafbaa2-d0e7-4e7e-af56-8093ce20bc45"
+    },
+    {
+      "year": 2026,
+      "classification": "6A D2",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "Humble Atascocita",
+      "score1": null,
+      "team2": "Katy Tompkins",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/atascocita-humble-vs-tompkins-katy/11-26-2026/?c=fc7742ca-0362-4d7b-9984-493c532f9536"
+    },
+    {
+      "year": 2026,
+      "classification": "6A D2",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "Dripping Springs",
+      "score1": null,
+      "team2": "Pharr-San Juan-Alamo North",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/dripping-springs-vs-pharr-san-juan-alamo-north/11-26-2026/?c=d9d02742-d7f9-4a68-8aff-d8d2f717c900"
     }
   ]
 }

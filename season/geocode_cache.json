@@ -2004,6 +2004,18 @@
   "stadium": "Clyde Abshier Stadium",
   "stadium_id": 614
  },
+ "Abshier Stadium, Deer Park || La Porte v Angleton": {
+  "address": "710 W. San Augustine, Deer Park, Texas 77536",
+  "city": "Deer Park",
+  "how": "stadium (map link)",
+  "lat": 29.68544,
+  "lng": -95.12904,
+  "map_link": "https://goo.gl/maps/Zo29mgekZZ3hSgww7",
+  "rules": 10,
+  "site": "Abshier Stadium, Deer Park",
+  "stadium": "Clyde Abshier Stadium",
+  "stadium_id": 614
+ },
  "Abshier Stadium, Deer Park || Stafford v Bridge City": {
   "address": "710 W. San Augustine, Deer Park, Texas 77536",
   "city": "Deer Park",
@@ -4472,6 +4484,18 @@
   "site": "Birkelbach Field",
   "stadium": null,
   "stadium_id": null
+ },
+ "Blackcat Field, Mexia || Collinsville v Clarksville": {
+  "address": "1000 N Bailey St (Blackcat Dr.), Mexia, Texas 76667",
+  "city": "Mexia",
+  "how": "stadium (map link)",
+  "lat": 31.69445,
+  "lng": -96.47086,
+  "map_link": "https://goo.gl/maps/EkD2KuxKZWcYqZw69",
+  "rules": 10,
+  "site": "Blackcat Field, Mexia",
+  "stadium": "Blackcat Field",
+  "stadium_id": 24
  },
  "Blackcat Field, Mexia || Collinsville v Colmesneil": {
   "address": "1000 N Bailey St (Blackcat Dr.), Mexia, Texas 76667",
@@ -13107,6 +13131,18 @@
   "site": "Gopher Bowl",
   "stadium": null,
   "stadium_id": null
+ },
+ "Gopher Bowl, Grand Prairie || Frisco Lone Star v Midlothian": {
+  "address": "250 E Tarrant Rd, Grand Prairie, Texas 75050",
+  "city": "Grand Prairie",
+  "how": "stadium (map link)",
+  "lat": 32.75525,
+  "lng": -97.00223,
+  "map_link": "https://goo.gl/maps/QFKT9z4qiVFXn1PC9",
+  "rules": 10,
+  "site": "Gopher Bowl, Grand Prairie",
+  "stadium": "Gopher Warrior Bowl",
+  "stadium_id": 248
  },
  "Gopher Stadium, Grand Prairie || Dallas Highland Park v Midlothian": {
   "address": "250 E Tarrant Rd, Grand Prairie, Texas 75050",
