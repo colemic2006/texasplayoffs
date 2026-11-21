@@ -21890,6 +21890,19 @@
   "stadium": "MISD Multi-Purpose Stadium",
   "stadium_id": 1044
  },
+ "Midlothian ISD Stadium, Midlothian || South Oak Cliff v Terrell": {
+  "address": "1800 S 14th, Midlothian, Texas 76065",
+  "city": "Midlothian",
+  "confirmed_as": "MISD Multi-Purpose Stadium, Midlothian",
+  "how": "stadium (map link)",
+  "lat": 32.46584,
+  "lng": -96.98502,
+  "map_link": "https://goo.gl/maps/32KqqTJ9nxj6qnBM9",
+  "rules": 10,
+  "site": "Midlothian ISD Stadium, Midlothian",
+  "stadium": "MISD Multi-Purpose Stadium",
+  "stadium_id": 1044
+ },
  "Midlothian ISD || Grand Saline v Tolar": {
   "address": "1800 S 14th, Midlothian, Texas 76065",
   "city": "Midlothian",

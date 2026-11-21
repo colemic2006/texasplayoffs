@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-21T19:46+00:00",
+    "updated": "2026-11-21T20:02+00:00",
     "games": 607,
     "played": 519,
     "assigned": 528,
@@ -12833,6 +12833,14 @@
       "team2": "Terrell",
       "score2": null,
       "winner": null,
+      "site": "Midlothian ISD Stadium, Midlothian",
+      "lat": 32.46584,
+      "lng": -96.98502,
+      "stadium": "MISD Multi-Purpose Stadium",
+      "map_link": "https://goo.gl/maps/32KqqTJ9nxj6qnBM9",
+      "city": "Midlothian",
+      "date": "2026-11-27",
+      "time": "1:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/south-oak-cliff-dallas-vs-terrell/11-26-2026/?c=7e16a053-5ea1-4944-a194-277297bcf24e"
     },
     {
