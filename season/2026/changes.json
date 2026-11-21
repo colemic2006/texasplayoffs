@@ -592,5 +592,71 @@
   "new": "Corpus Christi Calallen 56, Floresville 15",
   "at": "2026-11-21T05:59+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "4A D1",
+  "week": 3,
+  "team1": "Springtown",
+  "team2": "Canyon High",
+  "field": "date",
+  "old": "2026-11-26",
+  "new": "2026-11-27",
+  "at": "2026-11-21T07:29+00:00",
+  "status": "changed"
+ },
+ {
+  "classification": "4A D1",
+  "week": 3,
+  "team1": "Springtown",
+  "team2": "Canyon High",
+  "field": "time",
+  "old": "6:00 PM",
+  "new": "1:00 PM",
+  "at": "2026-11-21T07:29+00:00",
+  "status": "changed"
+ },
+ {
+  "classification": "5A D1",
+  "week": 3,
+  "team1": "Denton Ryan",
+  "team2": "Fort Worth Brewer",
+  "field": "site",
+  "old": "Shotwell Stadium, Abilene",
+  "new": "Crowley ISD Stadium, Fort Worth",
+  "at": "2026-11-21T07:29+00:00",
+  "status": "changed"
+ },
+ {
+  "classification": "5A D1",
+  "week": 3,
+  "team1": "La Porte",
+  "team2": "Angleton",
+  "field": "site",
+  "old": "Tomball ISD Stadium, Tomball",
+  "new": "Freedom Field, Iowa Colony",
+  "at": "2026-11-21T07:29+00:00",
+  "status": "changed"
+ },
+ {
+  "classification": "6A D1",
+  "week": 3,
+  "team1": "Odessa Permian",
+  "team2": "Allen",
+  "field": "time",
+  "old": "7:00 PM",
+  "new": "6:00 PM",
+  "at": "2026-11-21T07:29+00:00",
+  "status": "changed"
+ },
+ {
+  "classification": "6A D1",
+  "week": 3,
+  "team1": "Odessa Permian",
+  "team2": "Allen",
+  "field": "site",
+  "old": "Ratliff Stadium, Odessa",
+  "new": "Shotwell Stadium, Abilene",
+  "at": "2026-11-21T07:29+00:00",
+  "status": "changed"
  }
 ]

@@ -4922,6 +4922,19 @@
   "stadium": "Larry Ward Stadium",
   "stadium_id": 885
  },
+ "Briles Stadium, Stephenville || Wall v Paradise": {
+  "address": "N Wolfe Nursery Rd, Stephenville, Texas 76401",
+  "city": "Stephenville",
+  "how": "stadium",
+  "lat": 32.20913,
+  "link_tried": true,
+  "lng": -98.24058,
+  "map_link": "https://maps.app.goo.gl/eJk5HsVqy4EL1ym9A",
+  "rules": 10,
+  "site": "Briles Stadium, Stephenville",
+  "stadium": "Art Briles Stadium",
+  "stadium_id": 5788
+ },
  "Brock HS || Miles v Lindsay": {
   "address": "410 Eagle Spirit, Brock, Texas 76087",
   "city": "Brock",
@@ -6379,6 +6392,18 @@
   "lat": 32.08613,
   "link_tried": true,
   "lng": -98.34223,
+  "map_link": "https://goo.gl/maps/SnMek5KYTMWGGttj8",
+  "rules": 10,
+  "site": "Cervetto Stadium, Dublin",
+  "stadium": "Bob and Norma Cervetto Stadium",
+  "stadium_id": 3542
+ },
+ "Cervetto Stadium, Dublin || Goldthwaite v Santo": {
+  "address": "2233 Hwy 6, Dublin, Texas 76446",
+  "city": "Dublin",
+  "how": "stadium (map link)",
+  "lat": 32.0867,
+  "lng": -98.3215,
   "map_link": "https://goo.gl/maps/SnMek5KYTMWGGttj8",
   "rules": 10,
   "site": "Cervetto Stadium, Dublin",
@@ -8346,6 +8371,18 @@
   "map_link": "https://goo.gl/maps/vD6WyxBQ71jJaVZ89",
   "rules": 10,
   "site": "Crowley ISD Multi-Purpose",
+  "stadium": "Crowley ISD Multi-Purpose Stadium",
+  "stadium_id": 164
+ },
+ "Crowley ISD Stadium, Fort Worth || Denton Ryan v Fort Worth Brewer": {
+  "address": "9901 Hemphill Street, Fort Worth, Texas 76134",
+  "city": "Fort Worth",
+  "how": "stadium (map link)",
+  "lat": 32.60854,
+  "lng": -97.33905,
+  "map_link": "https://goo.gl/maps/vD6WyxBQ71jJaVZ89",
+  "rules": 10,
+  "site": "Crowley ISD Stadium, Fort Worth",
   "stadium": "Crowley ISD Multi-Purpose Stadium",
   "stadium_id": 164
  },
@@ -11903,6 +11940,18 @@
   "how": "stadium",
   "lat": 29.39719,
   "lng": -95.41014,
+  "map_link": "https://goo.gl/maps/acSazZbAU2ovYKdUA",
+  "rules": 10,
+  "site": "Freedom Field, Iowa Colony",
+  "stadium": "Alvin ISD Freedom Field",
+  "stadium_id": 1758
+ },
+ "Freedom Field, Iowa Colony || La Porte v Angleton": {
+  "address": "10855 County Road 65, Iowa Colony, Texas 77583",
+  "city": "Iowa Colony",
+  "how": "stadium (map link)",
+  "lat": 29.42756,
+  "lng": -95.41053,
   "map_link": "https://goo.gl/maps/acSazZbAU2ovYKdUA",
   "rules": 10,
   "site": "Freedom Field, Iowa Colony",
@@ -17820,6 +17869,18 @@
   "stadium": "Legacy Stadium",
   "stadium_id": null
  },
+ "Legacy Stadium, Katy || El Campo v Stafford": {
+  "address": "",
+  "city": "Katy",
+  "how": "coordinates confirmed by hand",
+  "lat": 29.80121,
+  "lng": -95.80476,
+  "map_link": "",
+  "rules": 10,
+  "site": "Legacy Stadium, Katy",
+  "stadium": "Legacy Stadium",
+  "stadium_id": null
+ },
  "Legacy Stadium, Katy || Galena Park North Shore v Austin Westlake": {
   "address": "",
   "city": "Katy",
@@ -20547,6 +20608,18 @@
   "stadium": "Memorial Stadium",
   "stadium_id": null
  },
+ "Memorial Stadium, Bastrop || Thorndale v Ganado": {
+  "address": "",
+  "city": "Bastrop",
+  "how": "coordinates confirmed by hand",
+  "lat": 30.1105,
+  "lng": -97.3153,
+  "map_link": "",
+  "rules": 10,
+  "site": "Memorial Stadium, Bastrop",
+  "stadium": "Memorial Stadium",
+  "stadium_id": null
+ },
  "Memorial Stadium, Commerce || Dallas Lincoln v Paris": {
   "address": "",
   "city": "Commerce",
@@ -20607,6 +20680,18 @@
   "site": "Memorial Stadium, McAllen",
   "stadium": "McAllen Memorial Stadium",
   "stadium_id": 942
+ },
+ "Memorial Stadium, Mesquite || Aledo v Denton Guyer": {
+  "address": "2411 W. Scyene Rd., Mesquite, Texas 75149",
+  "city": "Mesquite",
+  "how": "stadium (map link)",
+  "lat": 32.76396,
+  "lng": -96.63454,
+  "map_link": "https://goo.gl/maps/ok5pezoVBGQYri9G6",
+  "rules": 10,
+  "site": "Memorial Stadium, Mesquite",
+  "stadium": "Mesquite Memorial Stadium",
+  "stadium_id": 279
  },
  "Memorial Stadium, Mesquite || DeSoto v Melissa": {
   "address": "2411 W. Scyene Rd., Mesquite, Texas 75149",
@@ -24672,6 +24757,18 @@
   "lat": 29.93565,
   "link_tried": true,
   "lng": -95.56999,
+  "map_link": "https://goo.gl/maps/WGtow4sC3X82",
+  "rules": 10,
+  "site": "Pridgeon Stadium, Cypress",
+  "stadium": "Pridgeon Stadium",
+  "stadium_id": 634
+ },
+ "Pridgeon Stadium, Cypress || Houston King v Fort Bend Ridge Point": {
+  "address": "11355 Bobcat Rd., Houston, Texas 77064",
+  "city": "Houston",
+  "how": "stadium (map link)",
+  "lat": 29.93564,
+  "lng": -95.57,
   "map_link": "https://goo.gl/maps/WGtow4sC3X82",
   "rules": 10,
   "site": "Pridgeon Stadium, Cypress",
@@ -30041,6 +30138,18 @@
   "stadium": "Christus Trinity Mother Frances Rose Stadium",
   "stadium_id": 568
  },
+ "TMF Rose Stadium, Tyler || Henderson v Lindale": {
+  "address": "609 Fair Park Drive, Tyler, Texas 75701",
+  "city": "Tyler",
+  "how": "stadium (map link)",
+  "lat": 32.34206,
+  "lng": -95.3239,
+  "map_link": "https://goo.gl/maps/ZwesgiaqJ8b5bMgQ7",
+  "rules": 10,
+  "site": "TMF Rose Stadium, Tyler",
+  "stadium": "Christus Trinity Mother Frances Rose Stadium",
+  "stadium_id": 568
+ },
  "TMF Rose Stadium, Tyler || Malakoff v Gladewater": {
   "address": "609 Fair Park Drive, Tyler, Texas 75701",
   "city": "Tyler",
@@ -32447,6 +32556,18 @@
   "stadium": "Waco ISD Stadium",
   "stadium_id": 183
  },
+ "Waco ISD Stadium, Waco || Waxahachie v Klein": {
+  "address": "1401 S. New Rd, Waco, Texas 76711",
+  "city": "Waco",
+  "how": "stadium (map link)",
+  "lat": 31.50814,
+  "lng": -97.15987,
+  "map_link": "https://goo.gl/maps/4f5PQphsG288xBLC7",
+  "rules": 10,
+  "site": "Waco ISD Stadium, Waco",
+  "stadium": "Waco ISD Stadium",
+  "stadium_id": 183
+ },
  "Waco McLane Stadium || Brownwood v Decatur": {
   "address": "927 South Lake Brazos Parkway, Waco, Texas 76711",
   "city": "Waco",
@@ -32708,6 +32829,18 @@
   "site": "Waller's Daiken Stadium",
   "stadium": null,
   "stadium_id": null
+ },
+ "Warrior Coliseum, San Antonio || Canyon Lake v San Antonio Davenport": {
+  "address": "1400 Kinder Parkway, San Antonio, Texas 78260",
+  "city": "San Antonio",
+  "how": "stadium (map link)",
+  "lat": 29.72181,
+  "lng": -98.47099,
+  "map_link": "https://maps.app.goo.gl/ujgW8dE8QLLpPt8L8",
+  "rules": 10,
+  "site": "Warrior Coliseum, San Antonio",
+  "stadium": "Warrior Coliseum",
+  "stadium_id": 2713
  },
  "Warrior Coliseum, San Antonio || Dripping Springs v Converse Judson": {
   "address": "1400 Kinder Parkway, San Antonio, Texas 78260",
