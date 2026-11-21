@@ -2725,6 +2725,18 @@
   "stadium": "Wildcat Stadium",
   "stadium_id": 1280
  },
+ "Anthony Field, Abilene || Frisco v Amarillo Palo Duro": {
+  "address": "2225 Oliver Jackson Boulevard, Abilene, Texas 79602",
+  "city": "Abilene",
+  "how": "stadium (map link)",
+  "lat": 32.4733,
+  "lng": -99.70905,
+  "map_link": "https://goo.gl/maps/BmRi2NZMvheTgJtJ9",
+  "rules": 10,
+  "site": "Anthony Field, Abilene",
+  "stadium": "Anthony Field at Wildcat Stadium",
+  "stadium_id": 1062
+ },
  "Anthony Field, Abilene || Lubbock Liberty v Brock": {
   "address": "2225 Oliver Jackson Boulevard, Abilene, Texas 79602",
   "city": "Abilene",
@@ -3093,6 +3105,18 @@
   "lat": 31.96078,
   "link_tried": true,
   "lng": -102.14848,
+  "map_link": "https://goo.gl/maps/2xizkpWLXy9xkYWw9",
+  "rules": 10,
+  "site": "Astound Broadband Stadium, Midland",
+  "stadium": "Astound Broadband Stadium",
+  "stadium_id": 521
+ },
+ "Astound Broadband Stadium, Midland || Fort Worth Arlington Heights v Amarillo High": {
+  "address": "Tradewinds Blvd, Midland, Texas 79706",
+  "city": "Midland",
+  "how": "stadium (map link)",
+  "lat": 31.98925,
+  "lng": -102.15394,
   "map_link": "https://goo.gl/maps/2xizkpWLXy9xkYWw9",
   "rules": 10,
   "site": "Astound Broadband Stadium, Midland",
