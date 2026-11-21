@@ -581,5 +581,16 @@
   "new": "Berry Center (Cypress, TX)",
   "at": "2026-11-21T05:42+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "4A D1",
+  "week": 2,
+  "team1": "Corpus Christi Calallen",
+  "team2": "Floresville",
+  "field": "score",
+  "old": "Corpus Christi Calallen 63, Floresville 15",
+  "new": "Corpus Christi Calallen 56, Floresville 15",
+  "at": "2026-11-21T05:59+00:00",
+  "status": "changed"
  }
 ]

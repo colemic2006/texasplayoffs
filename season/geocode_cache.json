@@ -25955,6 +25955,18 @@
   "stadium": "Royse City ISD Stadium",
   "stadium_id": 1241
  },
+ "Royse City ISD Stadium, Royse City || Sunnyvale v Gilmer": {
+  "address": "650 FM 2642 (Exit number 79 IH30), Royse City, Texas 75189",
+  "city": "Royse City",
+  "how": "stadium (map link)",
+  "lat": 32.97677,
+  "lng": -96.28986,
+  "map_link": "https://goo.gl/maps/L1AteM9Tjj2PhiMCA",
+  "rules": 10,
+  "site": "Royse City ISD Stadium, Royse City",
+  "stadium": "Royse City ISD Stadium",
+  "stadium_id": 1241
+ },
  "Royse City || Aubrey v Van": {
   "address": "650 FM 2642 (Exit number 79 IH30), Royse City, Texas 75189",
   "city": "Royse City",
