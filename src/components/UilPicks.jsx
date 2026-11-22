@@ -4,7 +4,45 @@ import { useHomeChapters } from '../homeChapters'
 import { UilTag } from '../uilPick'
 import { CHAPTER_CENTERS, roundTripMiles } from '../chapterCenters'
 
-const ROUNDS = { 1: 'Bi-District', 2: 'Area', 3: 'Regionals', 4: 'Quarterfinals', 5: 'Semifinals', 6: 'State Final' }
+const CH_NAMES = {
+  ABI:'Abilene', AMA:'Amarillo', AUS:'Austin', BEA:'Southeast Texas', COM:'Commerce', CSC:'College Station', CTX:'Central Texas',
+  DAL:'Dallas', ELP:'El Paso', FTW:'Fort Worth', HOU:'Houston', NTX:'North Texas', PBC:'Permian Basin', PVC:'Pecan Valley',
+  RGV:'Rio Grande Valley', SAN:'San Angelo', SAT:'San Antonio', SFA:'Stephen F. Austin', SPC:'South Plains', STX:'South Texas', TYL:'Tyler', WAC:'Waco',
+}
+
+// How many UIL-assigned games each chapter got, with the miles they drove for them
+function ByChapter({ rounds }) {
+  const by = {}
+  for (const r of rounds) for (const g of r.games) {
+    if (!g.chapter) continue
+    const c = by[g.chapter] || (by[g.chapter] = { c: g.chapter, n: 0, miles: 0 })
+    c.n++; c.miles += roundTripMiles(g) || 0
+  }
+  const rows = Object.values(by).sort((a, b) => b.n - a.n || b.miles - a.miles)
+  if (!rows.length) return null
+  const max = rows[0].n, total = rows.reduce((s, r) => s + r.n, 0)
+  return (
+    <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, padding:'14px 16px', marginTop:14 }}>
+      <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--mid)', marginBottom:10 }}>
+        UIL-assigned games by chapter
+      </div>
+      {rows.map(r => (
+        <div key={r.c} style={{ display:'grid', gridTemplateColumns:'150px 1fr 170px', alignItems:'center', gap:10, padding:'4px 0' }}>
+          <span style={{ fontSize:13 }}>{CH_NAMES[r.c] || r.c} <span style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)' }}>{r.c}</span></span>
+          <div style={{ display:'flex', alignItems:'center', gap:8 }}>
+            <div style={{ height:14, borderRadius:3, background:chapterColor(r.c), width:`${100 * r.n / max}%`, minWidth:6 }} />
+            <span style={{ fontFamily:'var(--mono)', fontSize:12, fontWeight:700 }}>{r.n}</span>
+          </div>
+          <span style={{ fontFamily:'var(--mono)', fontSize:11, color:'var(--mid)', textAlign:'right' }}>
+            {Math.round(100 * r.n / total)}% · ~{Math.round(r.miles).toLocaleString()} mi driven
+          </span>
+        </div>
+      ))}
+    </div>
+  )
+}
+
+const ROUNDS ={ 1: 'Bi-District', 2: 'Area', 3: 'Regionals', 4: 'Quarterfinals', 5: 'Semifinals', 6: 'State Final' }
 
 // Games where UIL, not the two schools, picked the officiating chapter (workbook "UIL pick" column)
 export default function UilPicks({ data }) {
@@ -56,6 +94,13 @@ export default function UilPicks({ data }) {
             })}
           </div>
         ))}
+      </div>
+      <ByChapter rounds={rounds} />
+      <div style={{ fontSize:13, color:'var(--ink)', lineHeight:1.6, marginTop:14, maxWidth:860, background:'rgba(253,208,35,0.22)',
+        borderLeft:'4px solid var(--gold)', borderRadius:6, padding:'10px 14px' }}>
+        <strong>Even a "UIL assignment" isn't a neutral draw.</strong> Coaches can still tell UIL which chapters they want <em>excluded</em> from
+        consideration, and which chapters are acceptable. So the officials UIL "picks" come from a list the coaches have already shaped:
+        the same coaches the system is supposed to take out of the decision.
       </div>
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6 }}>
         Only games known to be UIL assignments are listed; others may not have been reported yet.
