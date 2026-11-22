@@ -51,7 +51,7 @@ export default function LinksView() {
           <div style={{ fontSize:12, color:'var(--mid)', marginTop:8, fontStyle:'italic' }}>Officiate Better is a site I maintain.</div>
         </LinkCard>
         <LinkCard kicker="Officiate Better" title="Officiate Better Quiz" href="https://officiatebetter.com/officiate-better-quiz/#/" cta="Take a quiz">
-          A rules quiz engine built from CFO quizzes, national CFO tests and other confirmed sources, which is where every question comes from.
+          A rules quiz engine built from CFO quizzes, national CFO tests and other confirmed sources, which is where every question comes from. Every question includes its rules reference.
           <div style={{ fontSize:12, color:'var(--mid)', marginTop:8, fontStyle:'italic' }}>Officiate Better is a site I maintain.</div>
         </LinkCard>
       </div>
