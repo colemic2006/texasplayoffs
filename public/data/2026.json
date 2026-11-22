@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-22T03:26+00:00",
+    "updated": "2026-11-22T04:56+00:00",
     "games": 615,
     "played": 527,
     "assigned": 528,
@@ -12307,6 +12307,12 @@
       "team2": "Boling",
       "score2": null,
       "winner": null,
+      "site": "UFCU Stadium, San Marcos",
+      "lat": 29.89106,
+      "lng": -97.92555,
+      "city": "San Marcos",
+      "date": "2026-11-28",
+      "time": "6:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/boling-vs-poth/11-26-2026/?c=4faadf0b-7458-4873-9082-daced8256fc7"
     },
     {
@@ -13337,6 +13343,13 @@
       "team2": "Edinburg Vela",
       "score2": null,
       "winner": null,
+      "site": "Heroes Stadium, San Antonio",
+      "lat": 29.5369,
+      "lng": -98.39781,
+      "stadium": "Heroes Stadium",
+      "city": "San Antonio",
+      "date": "2026-11-27",
+      "time": "2:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/vela-edinburg-vs-westlake-austin/11-26-2026/?c=985b8093-50c2-4d34-a64c-9fa1b5970181"
     }
   ]

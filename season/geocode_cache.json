@@ -14928,6 +14928,18 @@
   "stadium": "Heroes Stadium",
   "stadium_id": 1276
  },
+ "Heroes Stadium, San Antonio || Austin Westlake v Edinburg Vela": {
+  "address": "",
+  "city": "San Antonio",
+  "how": "coordinates confirmed by hand",
+  "lat": 29.5369,
+  "lng": -98.39781,
+  "map_link": "",
+  "rules": 10,
+  "site": "Heroes Stadium, San Antonio",
+  "stadium": "Heroes Stadium",
+  "stadium_id": null
+ },
  "Heroes Stadium, San Antonio || La Vernia v Somerset": {
   "address": "",
   "city": "San Antonio",
@@ -32582,6 +32594,18 @@
   "missed": "2026-11-17",
   "rules": 10,
   "site": "Tyler-Rose Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "UFCU Stadium, San Marcos || Poth v Boling": {
+  "address": "",
+  "city": "San Marcos",
+  "how": "stadium found by name",
+  "lat": 29.89106,
+  "lng": -97.92555,
+  "map_link": "",
+  "rules": 10,
+  "site": "UFCU Stadium, San Marcos",
   "stadium": null,
   "stadium_id": null
  },
