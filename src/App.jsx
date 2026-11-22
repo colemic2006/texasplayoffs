@@ -4,6 +4,7 @@ import Nav from './components/Nav'
 import ChapterDashboard from './components/ChapterDashboard'
 import BracketViewer from './components/BracketViewer'
 import ChapterTravel from './components/ChapterTravel'
+import SchoolTravel from './components/SchoolTravel'
 import OutsideChapterGames from './components/OutsideChapterGames'
 import LocalMatchups from './components/LocalMatchups'
 import UilPicks from './components/UilPicks'
@@ -123,6 +124,7 @@ export default function App() {
                 {page === 'chapters' && yearData.season && <WeekMap data={yearData} />}
                 {page === 'chapters' && <ChapterDashboard data={yearData} year={year} allData={data} years={YEARS} loadAllYears={loadAllYears} />}
                 {page === 'chapters' && <ChapterTravel data={yearData} />}
+                {page === 'chapters' && <SchoolTravel data={yearData} />}
                 {page === 'chapters' && <LocalMatchups data={yearData} />}
                 {page === 'chapters' && <UilPicks data={yearData} />}
                 {page === 'chapters' && <OutsideChapterGames data={yearData} />}
