@@ -45,7 +45,6 @@ export default function LocalMatchups({ data }) {
         <table style={{ width:'100%', borderCollapse:'collapse' }}>
           <thead><tr>
             <th style={{ ...th, textAlign:'left' }}>Round</th>
-            <th style={th}>Games with a chapter</th>
             <th style={th}>Same-chapter matchups</th>
             <th style={{ ...th, color:'var(--burnt)' }}>Picked their home chapter</th>
             <th style={{ ...th, width:'28%' }}></th>
@@ -60,7 +59,6 @@ export default function LocalMatchups({ data }) {
                       <strong>{ROUNDS[r.week]}</strong> <span style={{ color:'var(--mid)', fontSize:11 }}>· Week {r.week}</span>
                       {r.local.length > 0 && <span style={{ color:'var(--burnt)', fontSize:11, marginLeft:6 }}>{open === r.week ? '▾' : '▸'} games</span>}
                     </td>
-                    <td style={td}>{r.assigned}</td>
                     <td style={td}>{r.local.length} <span style={{ color:'var(--mid)', fontSize:11 }}>({pct(r.local.length, r.assigned)}%)</span></td>
                     <td style={{ ...td, color:'var(--burnt)', fontWeight:700 }}>{r.local.length ? `${r.kept.length} of ${r.local.length} · ${p}%` : '—'}</td>
                     <td style={{ ...td, paddingLeft:4 }}>
@@ -72,7 +70,7 @@ export default function LocalMatchups({ data }) {
                     </td>
                   </tr>
                   {open === r.week && (
-                    <tr><td colSpan={5} style={{ padding:'4px 10px 12px 18px', borderBottom:'1px solid var(--border)', background:'rgba(70,29,124,0.03)' }}>
+                    <tr><td colSpan={4} style={{ padding:'4px 10px 12px 18px', borderBottom:'1px solid var(--border)', background:'rgba(70,29,124,0.03)' }}>
                       {(() => {
                         const chs = [...new Set(r.local.flatMap(g => [g.home, g.chapter]))].sort()
                         const list = r.local.filter(g => (show === 'all' || (show === 'kept') === (g.chapter === g.home))
