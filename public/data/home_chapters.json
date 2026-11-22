@@ -419,7 +419,7 @@
     "chapter": "DAL",
     "confidence": "MEDIUM"
   },
-  "Brackettville": {
+  "Brackett": {
     "chapter": "SAT",
     "confidence": "LOW"
   },
@@ -743,7 +743,7 @@
     "chapter": "PBC",
     "confidence": "MEDIUM"
   },
-  "Coldspring": {
+  "Coldspring-Oakhurst": {
     "chapter": "HOU",
     "confidence": "MEDIUM"
   },
@@ -1773,10 +1773,6 @@
   },
   "Hico": {
     "chapter": "FTW",
-    "confidence": "HIGH"
-  },
-  "Hidalgo": {
-    "chapter": "RGV",
     "confidence": "HIGH"
   },
   "Hidalgo Early College": {

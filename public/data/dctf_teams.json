@@ -112,7 +112,6 @@
   "Bowie": "bowie-jackrabbits",
   "Boyd": "boyd-yellowjackets",
   "Boys Ranch": "boys-ranch-roughriders",
-  "Brackettville": "brackettville-tigers",
   "Brady": "brady-bulldogs",
   "Brazosport": "brazosport-exporters",
   "Breckenridge": "breckenridge-buckaroos",
@@ -205,7 +204,6 @@
   "Clint Mountain View": "clint-mountain-view-lobos",
   "Clyde": "clyde-bulldogs",
   "Coahoma": "coahoma-bulldogs",
-  "Coldspring": "coldspring-oakhurst-trojans",
   "Coldspring-Oakhurst": "coldspring-oakhurst-trojans",
   "Coleman": "coleman-bluecats",
   "College Station": "college-station-cougars",
@@ -482,7 +480,6 @@
   "Hereford": "hereford-whitefaces",
   "Hermleigh": "hermleigh-cardinals",
   "Hico": "hico-tigers",
-  "Hidalgo": "hidalgo-pirates",
   "High Island": "high-island-cardinals",
   "Highland": "highland-hornets",
   "Hillsboro": "hillsboro-eagles",
@@ -1121,6 +1118,8 @@
   "Yoakum": "yoakum-bulldogs",
   "Yorktown": "yorktown-wildcats",
   "Zapata": "zapata-hawks",
-  "Zephyr": "zephyr-bulldogs"
+  "Zephyr": "zephyr-bulldogs",
+  "Brackett": "brackettville-tigers",
+  "Hidalgo Early College": "hidalgo-pirates"
  }
 }

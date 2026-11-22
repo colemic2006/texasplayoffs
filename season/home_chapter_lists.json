@@ -76,7 +76,8 @@
   "Throckmorton High School": "Throckmorton",
   "Trent High School": "Trent",
   "Winters High School": "Winters",
-  "Woodson High School": "Woodson"
+  "Woodson High School": "Woodson",
+  "Novice": "Novice"
  },
  "ELP": {
   "Anthony High School": "Anthony",
@@ -891,7 +892,9 @@
   "Lyford": "Lyford",
   "Mercedes": "Mercedes",
   "Santa Maria": "Santa Maria",
-  "Santa Rosa": "Santa Rosa"
+  "Santa Rosa": "Santa Rosa",
+  "Donna": "Donna",
+  "Roma": "Roma"
  },
  "STX": {
   "CC Tuloso-Midway": "CC Tuloso-Midway",
@@ -931,7 +934,9 @@
   "Victoria West": "Victoria West",
   "Victoria East": "Victoria East",
   "Alice": "Alice",
-  "Ben Bolt": "Ben Bolt"
+  "Ben Bolt": "Ben Bolt",
+  "Banquete": "Banquete",
+  "Bishop": "Bishop"
  },
  "WAC": {
   "Abbott": "Abbott",

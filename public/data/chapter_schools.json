@@ -582,6 +582,13 @@
    "at": "town"
   },
   {
+   "name": "Banquete",
+   "chapter": "STX",
+   "lat": 27.80614,
+   "lng": -97.79611,
+   "at": "town"
+  },
+  {
    "name": "Barbers Hill",
    "chapter": "HOU",
    "lat": 29.84772,
@@ -754,6 +761,13 @@
    "chapter": "FTW",
    "lat": 32.8343,
    "lng": -97.2289,
+   "at": "town"
+  },
+  {
+   "name": "Bishop",
+   "chapter": "STX",
+   "lat": 27.58614,
+   "lng": -97.79916,
    "at": "town"
   },
   {
@@ -2372,6 +2386,13 @@
    "lat": 34.54152,
    "lng": -102.33217,
    "at": "stadium"
+  },
+  {
+   "name": "Donna",
+   "chapter": "RGV",
+   "lat": 26.17021,
+   "lng": -98.05224,
+   "at": "town"
   },
   {
    "name": "Dripping Springs",
@@ -7026,6 +7047,13 @@
    "chapter": "CTX",
    "lat": 30.93158,
    "lng": -97.22672,
+   "at": "town"
+  },
+  {
+   "name": "Roma",
+   "chapter": "RGV",
+   "lat": 26.40941,
+   "lng": -99.01446,
    "at": "town"
   },
   {

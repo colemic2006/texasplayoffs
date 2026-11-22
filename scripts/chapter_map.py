@@ -49,6 +49,8 @@ TOWN = {
     'Klondike': 'Lamesa', 'Cotton Center': 'Cotton Center', 'Welch Dawson': 'Welch', 'Dawson': 'Dawson', 'Bruceville-Eddy': 'Eddy', 'West': 'West', 'Center Point': 'Center Point',
     'Sabine': 'Liberty City', 'Groesbeck': 'Groesbeck', 'Tornillo': 'Tornillo', 'Water Valley': 'Water Valley', 'Weimar': 'Weimar', 'Bishop Gorman': 'Tyler', 'Seguin': 'Seguin', 'San Antonio Sam Houston': 'San Antonio',
 }
+# schools that have closed: kept for their past games, left off the coverage map
+CLOSED = {'Novice'}
 PREFIX = {'fw': 'Fort Worth', 'sa': 'San Antonio', 'cc': 'Corpus Christi', 'ep': 'El Paso', 'disd': 'Dallas'}
 
 
@@ -83,6 +85,8 @@ def town_spot(town):
 
 out, unplaced = [], []
 for name, ch in sorted(home.items()):
+    if name in CLOSED:
+        continue
     h = teams.get(name) or {}
     sid = h.get('stadium_id')
     if sid in spot and name not in TOWN:

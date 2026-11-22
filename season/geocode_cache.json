@@ -12060,6 +12060,19 @@
   "stadium": "Franklin Stadium",
   "stadium_id": 245
  },
+ "Fredericksburg || Chilton v Brackett": {
+  "address": "1107 S Hwy 16, Fredericksburg, Texas 78624",
+  "city": "Fredericksburg",
+  "how": "school (map link)",
+  "lat": 30.25813,
+  "link_tried": true,
+  "lng": -98.8814,
+  "map_link": "https://goo.gl/maps/nXrmvUnANqVmzvFx6",
+  "rules": 10,
+  "site": "Fredericksburg",
+  "stadium": "Battlin' Billie Stadium",
+  "stadium_id": 83
+ },
  "Fredericksburg || Chilton v Brackettville": {
   "address": "1107 S Hwy 16, Fredericksburg, Texas 78624",
   "city": "Fredericksburg",
@@ -16854,6 +16867,19 @@
   "stadium": "Indian Stadium",
   "stadium_id": 881
  },
+ "Jourdanton || Shiner v Brackett": {
+  "address": "200 Zanderson Ave., Jourdanton, Texas 78026",
+  "city": "Jourdanton",
+  "how": "school (map link)",
+  "lat": 28.90916,
+  "link_tried": true,
+  "lng": -98.54295,
+  "map_link": "https://goo.gl/maps/kN15KdxpF6CLvxc58",
+  "rules": 10,
+  "site": "Jourdanton",
+  "stadium": "Indian Stadium",
+  "stadium_id": 881
+ },
  "Jourdanton || Shiner v Brackettville": {
   "address": "200 Zanderson Ave., Jourdanton, Texas 78026",
   "city": "Jourdanton",
@@ -19809,6 +19835,18 @@
   "stadium": "Mustang Stadium",
   "stadium_id": 132
  },
+ "Madisonville High School || Teague v Coldspring-Oakhurst": {
+  "address": "811 S May St,, Madisonville, Texas 77864",
+  "city": "Madisonville",
+  "how": "school (map link)",
+  "lat": 30.94603,
+  "lng": -95.90261,
+  "map_link": "https://goo.gl/maps/uCkXHGAGQdu9zi1W6",
+  "rules": 10,
+  "site": "Madisonville High School",
+  "stadium": "Mustang Stadium",
+  "stadium_id": 132
+ },
  "Madisonville || Bremond v Grapeland": {
   "address": "811 S May St,, Madisonville, Texas 77864",
   "city": "Madisonville",
@@ -20467,6 +20505,18 @@
   "stadium_id": null
  },
  "Mathis High School || Bay City v Hidalgo": {
+  "address": "E. San Patricio at Lamar St, Mathis, Texas 78368",
+  "city": "Mathis",
+  "how": "school (map link)",
+  "lat": 28.08533,
+  "lng": -97.81448,
+  "map_link": "https://goo.gl/maps/uatJu1uADNfuArhv8",
+  "rules": 10,
+  "site": "Mathis High School",
+  "stadium": "Pirate Stadium",
+  "stadium_id": 209
+ },
+ "Mathis High School || Bay City v Hidalgo Early College": {
   "address": "E. San Patricio at Lamar St, Mathis, Texas 78368",
   "city": "Mathis",
   "how": "school (map link)",
@@ -24784,6 +24834,19 @@
   "stadium_id": 917
  },
  "Pleasanton || Bandera v Ingleside": {
+  "address": "831 Stadium Dr., Pleasanton, Texas 78064",
+  "city": "Pleasanton",
+  "how": "school (map link)",
+  "lat": 28.96638,
+  "link_tried": true,
+  "lng": -98.49705,
+  "map_link": "https://maps.app.goo.gl/LCaH64sxH9hZNfaf7",
+  "rules": 10,
+  "site": "Pleasanton",
+  "stadium": "Eagle Stadium",
+  "stadium_id": 917
+ },
+ "Pleasanton || Shiner v Brackett": {
   "address": "831 Stadium Dr., Pleasanton, Texas 78064",
   "city": "Pleasanton",
   "how": "school (map link)",
@@ -29796,6 +29859,18 @@
   "stadium": "Frazier Field at Dragon Stadium",
   "stadium_id": 856
  },
+ "Southwest Legacy Stadium, Von Ormy || Brackett v Granger": {
+  "address": "",
+  "city": "Von Ormy",
+  "how": "coordinates confirmed by hand",
+  "lat": 29.29619,
+  "lng": -98.58606,
+  "map_link": "",
+  "rules": 10,
+  "site": "Southwest Legacy Stadium, Von Ormy",
+  "stadium": "Southwest Legacy Stadium",
+  "stadium_id": null
+ },
  "Southwest Legacy Stadium, Von Ormy || Brackettville v Granger": {
   "address": "",
   "city": "Von Ormy",
@@ -32909,6 +32984,16 @@
   "stadium": "Lion Stadium",
   "stadium_id": 680
  },
+ "Veterans Memorial HS (JISD) || Brackett v Burton": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Veterans Memorial HS (JISD)",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Veterans Memorial HS (JISD) || Brackettville v Burton": {
   "address": "",
   "how": "no stadium, school or town matched",
@@ -33067,6 +33152,16 @@
   "missed": "2026-11-17",
   "rules": 10,
   "site": "Victoria Memorial",
+  "stadium": null,
+  "stadium_id": null
+ },
+ "Von Ormy Southwest Legacy || Brackett v Granger": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-17",
+  "rules": 10,
+  "site": "Von Ormy Southwest Legacy",
   "stadium": null,
   "stadium_id": null
  },

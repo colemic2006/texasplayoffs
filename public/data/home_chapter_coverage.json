@@ -1,49 +1,8 @@
 {
- "total": 1293,
- "with_chapter": 1285,
+ "total": 1290,
+ "with_chapter": 1290,
  "current_year": 2026,
  "current_total": 704,
  "current_missing": 0,
- "missing": [
-  {
-   "name": "Banquete",
-   "last_playoffs": 2021,
-   "town": "Banquete",
-   "county": "Nueces"
-  },
-  {
-   "name": "Bishop",
-   "last_playoffs": 2025,
-   "town": "Bishop",
-   "county": "Nueces"
-  },
-  {
-   "name": "Brackettville",
-   "last_playoffs": 2025
-  },
-  {
-   "name": "Coldspring",
-   "last_playoffs": 2024
-  },
-  {
-   "name": "Donna",
-   "last_playoffs": 2023,
-   "town": "Donna",
-   "county": "Hidalgo"
-  },
-  {
-   "name": "Hidalgo",
-   "last_playoffs": 2024
-  },
-  {
-   "name": "Novice",
-   "last_playoffs": 2010
-  },
-  {
-   "name": "Roma",
-   "last_playoffs": 2025,
-   "town": "Roma",
-   "county": "Starr"
-  }
- ]
+ "missing": []
 }
