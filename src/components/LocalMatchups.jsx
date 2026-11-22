@@ -97,7 +97,7 @@ export default function LocalMatchups({ data }) {
                             : { padding:'4px 0' }) }}
                           title={g.chapter !== g.home ? `Both schools are ${g.home} schools, but ${g.chapter} worked the game` : undefined}>
                           <span style={{ flex:1, minWidth:0, fontWeight: g.chapter !== g.home ? 700 : 400 }}>{g.team1} v {g.team2} <span style={{ color:'var(--mid)', fontWeight:400 }}>· {g.classification}</span>
-                            {g.chapter !== g.home && <span style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.1em', textTransform:'uppercase', color:'var(--burnt)', marginLeft:8, fontWeight:700 }}>went to another chapter</span>}</span>
+                            {g.chapter !== g.home && <span style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.1em', textTransform:'uppercase', color:'var(--burnt)', marginLeft:8, fontWeight:700 }}>{g.uil_pick ? 'UIL assigned an outside chapter' : 'Coaches picked an outside chapter'}</span>}</span>
                           <span style={{ fontFamily:'var(--mono)', fontSize:10, padding:'2px 6px', borderRadius:3, background:chapterColor(g.home), color:'#fff' }} title="Both schools' home chapter">both schools: {g.home}</span>
                           <span style={{ fontFamily:'var(--mono)', fontSize:10, padding:'2px 6px', borderRadius:3, background:chapterColor(g.chapter), color:'#fff' }}>worked by: {g.chapter}</span>
                           <span style={{ fontFamily:'var(--mono)', fontSize:10, width:16, textAlign:'center', color: g.chapter === g.home ? 'var(--sage)' : 'var(--burnt)', fontWeight:700 }}>{g.chapter === g.home ? '✓' : '✕'}</span>
