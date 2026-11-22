@@ -23,10 +23,11 @@ export default function SchoolTravel({ data }) {
     const out = []
     for (const g of data?.games || []) {
       if (g.lat == null) continue
+      const rt = s => s ? 2 * ROAD_FACTOR * straightMiles(s.lat, s.lng, g.lat, g.lng) : null
       for (const [team, opp] of [[g.team1, g.team2], [g.team2, g.team1]]) {
         const s = spots[team]
         if (!s) continue
-        out.push({ team, opp, g, miles: 2 * ROAD_FACTOR * straightMiles(s.lat, s.lng, g.lat, g.lng) })
+        out.push({ team, opp, g, miles: rt(s), oppMiles: rt(spots[opp]) })   // oppMiles: null when the opponent can't be placed
       }
     }
     return out
@@ -42,12 +43,14 @@ export default function SchoolTravel({ data }) {
     if (week === 'all') {
       const by = {}
       for (const t of trips) {
-        const r = by[t.team] || (by[t.team] = { team: t.team, miles: 0, games: 0, trips: [] })
+        const r = by[t.team] || (by[t.team] = { team: t.team, miles: 0, oppMiles: 0, oppKnown: 0, games: 0, trips: [] })
         r.miles += t.miles; r.games++; r.trips.push(t)
+        if (t.oppMiles != null) { r.oppMiles += t.oppMiles; r.oppKnown++ }
       }
       return Object.values(by).map(r => ({ ...r, avg: r.miles / r.games }))
     }
-    return trips.filter(t => t.g.week === week).map(t => ({ team: t.team, miles: t.miles, games: 1, trips: [t], avg: t.miles }))
+    return trips.filter(t => t.g.week === week).map(t => ({ team: t.team, miles: t.miles, games: 1, trips: [t], avg: t.miles,
+      oppMiles: t.oppMiles ?? 0, oppKnown: t.oppMiles != null ? 1 : 0 }))
   }, [trips, week])
   if (!trips.length || week === null) return null
 
@@ -76,6 +79,19 @@ export default function SchoolTravel({ data }) {
             </div>
             {max > 0 && <div style={{ height:5, borderRadius:3, background:color, opacity:0.75, width:`${Math.max(1, 100 * r.miles / max)}%`, margin:'4px 0 3px' }} />}
             <div style={{ fontSize:11, color:'var(--mid)' }}>{detail}</div>
+            {r.oppKnown === r.games && (() => {
+              const diff = r.miles - r.oppMiles
+              return (
+                <div style={{ fontSize:11, marginTop:2, color:'var(--ink)' }}>
+                  {week === 'all' ? 'Their opponents traveled' : `${t.opp} traveled`} <strong>{mi(r.oppMiles)}</strong>
+                  {Math.abs(diff) >= 10
+                    ? <span style={{ fontFamily:'var(--mono)', fontSize:10, marginLeft:6, padding:'1px 5px', borderRadius:3,
+                        background: diff > 0 ? 'rgba(70,29,124,0.12)' : 'rgba(80,140,90,0.15)', color: diff > 0 ? 'var(--burnt)' : 'var(--sage)' }}>
+                        {diff > 0 ? `${mi(diff)} more` : `${mi(-diff)} less`}</span>
+                    : <span style={{ fontFamily:'var(--mono)', fontSize:10, marginLeft:6, color:'var(--mid)' }}>about even</span>}
+                </div>
+              )
+            })()}
           </div>
         )
       })}
