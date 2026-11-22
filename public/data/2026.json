@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-22T02:09+00:00",
-    "games": 614,
-    "played": 526,
+    "updated": "2026-11-22T03:26+00:00",
+    "games": 615,
+    "played": 527,
     "assigned": 528,
     "weeks": {
       "1": {
@@ -16,7 +16,7 @@
         "assigned": 176
       },
       "3": {
-        "games": 86,
+        "games": 87,
         "assigned": 0
       },
       "4": {
@@ -9566,10 +9566,10 @@
       "round": "Area",
       "chapter": "WAC",
       "team1": "George West",
-      "score1": null,
+      "score1": 6,
       "team2": "Boling",
-      "score2": null,
-      "winner": null,
+      "score2": 17,
+      "winner": "Boling",
       "site": "Memorial Stadium, Victoria",
       "lat": 28.82518,
       "lng": -96.97605,
@@ -12295,6 +12295,19 @@
       "date": "2026-11-27",
       "time": "3:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/arp-vs-jefferson/11-26-2026/?c=ab4854d0-b600-45e7-b52c-e23eebff55a5"
+    },
+    {
+      "year": 2026,
+      "classification": "3A D2",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "Poth",
+      "score1": null,
+      "team2": "Boling",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/boling-vs-poth/11-26-2026/?c=4faadf0b-7458-4873-9082-daced8256fc7"
     },
     {
       "year": 2026,
