@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react'
+import { roundName } from '../roundName'
 import { chapterColor } from '../chapterColors'
 
 // Score stats across every season on file, by round, with the chapter that worked each game
@@ -228,7 +229,7 @@ function Upsets({ games, allGames, rawGames, seeds, scopeLabel, weeks, current, 
           <tbody>{shown.map((g, i) => (
             <tr key={i}>
               <td style={{ ...td, textAlign:'left' }}>{g.year}</td>
-              <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans' }}>{ROUNDS[g.week]}</td>
+              <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans' }}>{roundName(g)}</td>
               <td style={{ ...td, textAlign:'left' }}>{g.classification}</td>
               <td style={tdl}><strong>{g.winner}</strong> <span style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--burnt)' }}>{seedTag(g.ws)}</span></td>
               <td style={tdl}>{g.loser} <span style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)' }}>{seedTag(g.ls)}</span></td>
@@ -260,7 +261,7 @@ function GameList({ games, value, valueLabel }) {
         return (
           <tr key={i}>
             <td style={{ ...td, textAlign:'left' }}>{g.year}</td>
-            <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans' }}>{ROUNDS[g.week]}</td>
+            <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans' }}>{roundName(g)}</td>
             <td style={{ ...td, textAlign:'left' }}>{g.classification}</td>
             <td style={tdl}>
               <span style={{ fontWeight: w ? 700 : 400 }}>{g.team1} {g.score1}</span>

@@ -1,4 +1,5 @@
 import { UilTag, UIL_TIP } from '../uilPick'
+import { roundName } from '../roundName'
 import HomeChapterCoverage from './HomeChapterCoverage'
 import React, { useMemo, useState, useEffect } from 'react'
 import { useFinals } from '../finals'
@@ -349,7 +350,7 @@ export default function TeamsView({ allData, years }) {
                     return (
                       <div key={i} style={{ padding:'6px 0', borderTop: i ? '1px solid rgba(15,13,11,0.06)' : 'none' }}>
                         <div style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)', textTransform:'uppercase', letterSpacing:'0.1em' }}>
-                          {ROUNDS[g.week] || `Week ${g.week}`} · {g.classification}
+                          {roundName(g)} · {g.classification}
                         </div>
                         <div style={{ fontSize:14, color:'var(--ink)', marginTop:2 }}>
                           vs <strong>{opp}</strong>{res && <span style={{ fontFamily:'var(--mono)', fontSize:11, marginLeft:8 }}>{res}</span>}

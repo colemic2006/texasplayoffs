@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react'
+import { roundName } from '../roundName'
 import { gameCost, PAY } from '../officialsCost'
 import { chapterColor } from '../chapterColors'
 import { placeName } from '../placeName'
@@ -107,7 +108,7 @@ export default function OfficialsCost({ data }) {
                   <td style={{ ...td, textAlign:'left', color:'var(--mid)' }}>{i + 1}</td>
                   <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans', whiteSpace:'normal', minWidth:220 }}>
                     <div style={{ fontWeight:600 }}>{g.team1} v {g.team2}</div>
-                    <div style={{ fontSize:11, color:'var(--mid)' }}>{ROUNDS[g.week]} · {g.classification} · {placeName(g)} · crew of {c.crew}</div>
+                    <div style={{ fontSize:11, color:'var(--mid)' }}>{roundName(g)} · {g.classification} · {placeName(g)} · crew of {c.crew}</div>
                   </td>
                   <td style={{ ...td, textAlign:'left' }}>{chip(g.chapter)}</td>
                   <td style={td}>{Math.round(c.oneWay)} mi</td>

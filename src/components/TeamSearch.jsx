@@ -1,4 +1,5 @@
 import { UilTag, UIL_TIP } from '../uilPick'
+import { roundName } from '../roundName'
 import React, { useEffect, useMemo, useState } from 'react'
 import { placeName, gameWhen } from '../placeName'
 import { ChangeBadge, ChangeDetail } from '../changes'
@@ -142,7 +143,7 @@ function TeamCard({ t, seasonsOnSite, homeChapter, finals, year, inProgress, hom
       {now.map(({ game: g, opp, mine, theirs }, i) => (
         <div key={i} style={{ display:'flex', flexWrap:'wrap', gap:'6px 18px', alignItems:'center', padding:'8px 0', borderTop: i ? '1px solid rgba(15,13,11,0.07)' : 'none' }}>
           <div style={{ flex:'2 1 240px' }}>
-            <div style={label}>{ROUNDS[g.week] || `Week ${g.week}`} · {g.classification}</div>
+            <div style={label}>{roundName(g)} · {g.classification}</div>
             <div style={{ fontSize:15, color:'var(--ink)', marginTop:2 }}>
               vs <strong>{opp}</strong>{mine != null && theirs != null ? <span style={{ fontFamily:'var(--mono)', fontSize:12, marginLeft:8 }}>{mine > theirs ? 'W' : mine < theirs ? 'L' : 'T'} {mine}–{theirs}</span> : null}
             </div>
@@ -240,7 +241,7 @@ function TeamCard({ t, seasonsOnSite, homeChapter, finals, year, inProgress, hom
                   {past.map(({ year: y, game: g, opp, mine, theirs }, i) => (
                     <tr key={i} style={{ borderTop:'1px solid rgba(15,13,11,0.06)' }}>
                       <td style={{ padding:'6px 8px', fontFamily:'var(--mono)', fontSize:11 }}>{y}</td>
-                      <td style={{ padding:'6px 8px' }}>{ROUNDS[g.week] || g.round || `Week ${g.week}`}</td>
+                      <td style={{ padding:'6px 8px' }}>{roundName(g)}</td>
                       <td style={{ padding:'6px 8px', fontFamily:'var(--mono)', fontSize:10, color:'var(--steel)' }}>{g.classification}</td>
                       <td style={{ padding:'6px 8px' }}>{opp}</td>
                       <td style={{ padding:'6px 8px', fontFamily:'var(--mono)', fontSize:11 }}>{mine != null && theirs != null ? `${mine > theirs ? 'W' : mine < theirs ? 'L' : 'T'} ${mine}–${theirs}` : '—'}</td>

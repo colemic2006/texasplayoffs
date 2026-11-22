@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react'
+import { roundName } from '../roundName'
 import { useForm, ValidationError } from '@formspree/react'
 
 const CHAPTERS = {
@@ -44,7 +45,7 @@ export default function SubmitAssignmentView() {
     return hits[0] || null
   }, [home, visitor, games])
 
-  const describe = g => `${g.classification} · ${g.team1} vs ${g.team2} · ${ROUNDS[g.week] || 'Week ' + g.week}` +
+  const describe = g => `${g.classification} · ${g.team1} vs ${g.team2} · ${roundName(g)}` +
     (g.date ? ` · ${g.date.slice(5, 7)}/${g.date.slice(8, 10)}/${g.date.slice(0, 4)}` : '')
 
   const onSubmit = e => {

@@ -1,4 +1,5 @@
 import React, { useMemo } from 'react'
+import { roundName } from '../roundName'
 import { useHomeChapters, useHomeChapterStatus } from '../homeChapters'
 import { roundTripMiles } from '../chapterCenters'
 import { chapterColor } from '../chapterColors'
@@ -58,7 +59,7 @@ export default function OutsideChapterGames({ data }) {
             <tbody>
               {rows.map((r, i) => (
                 <tr key={i}>
-                  <td style={{ ...td, fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', whiteSpace:'nowrap' }}>{ROUNDS[r.week]}</td>
+                  <td style={{ ...td, fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', whiteSpace:'nowrap' }}>{roundName(r)}</td>
                   <td style={td}>
                     <div style={{ fontWeight:600 }}>{r.team1} v {r.team2}</div>
                     <div style={{ fontSize:11, color:'var(--mid)' }}>{r.classification}{r.site ? ` · ${placeName(r)}` : ''}</div>

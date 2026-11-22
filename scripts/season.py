@@ -34,6 +34,8 @@ ROOT = Path(__file__).resolve().parent.parent
 CLASSES = ['1A D1', '1A D2', '2A D1', '2A D2', '3A D1', '3A D2',
            '4A D1', '4A D2', '5A D1', '5A D2', '6A D1', '6A D2']
 ROUNDS = {1: 'Bi-District', 2: 'Area', 3: 'Regionals', 4: 'Quarterfinals', 5: 'Semifinals', 6: 'Championship'}
+# six-man (1A) has fewer teams: it starts at the Area round, the same week as 11-man bi-district
+ROUNDS_1A = {1: 'Area', 2: 'Regionals', 3: 'Quarterfinals', 4: 'Semifinals', 6: 'Championship'}
 UIL = 'https://www.uiltexas.org'
 UA = 'Mozilla/5.0 (compatible; texasplayoffs.com bracket sync)'
 FIRST_ROW, LAST_ROW = 2, 801          # Games tab rows the template formats
@@ -727,7 +729,7 @@ def build(year, force=False):
         forfeit = (r['forfeit'] or '').upper() == 'Y'
         winner = r['team1'] if (s1 is not None and s2 is not None and s1 > s2) else \
                  r['team2'] if (s1 is not None and s2 is not None and s2 > s1) else None
-        g = dict(year=year, classification=r['cls'], week=week, round=ROUNDS[week],
+        g = dict(year=year, classification=r['cls'], week=week, round=(ROUNDS_1A if r['cls'].startswith('1A') else ROUNDS)[week],
                  chapter=None if forfeit else r['chapter'], team1=r['team1'], score1=s1,
                  team2=r['team2'], score2=s2, winner=winner)
         if r['site']:
