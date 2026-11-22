@@ -110,7 +110,7 @@ export default function App() {
           allYearsLoaded ? <ScoresView allData={data} years={YEARS} /> : <LoadingState />
         ) : (page === 'teams' || page === 'regulars') ? (
           allYearsLoaded
-            ? page === 'teams' ? <><TeamsView allData={data} years={YEARS} /><SchoolTravel data={yearData} /></> : <><ChapterRegulars allData={data} years={YEARS} /><FavoriteSites data={yearData} allData={data} loadAllYears={loadAllYears} /></>
+            ? page === 'teams' ? <><TeamsView allData={data} years={YEARS} /><SchoolTravel data={yearData} /></> : <><ChapterRegulars allData={data} years={YEARS} /><FavoriteSites data={yearData} allData={data} loadAllYears={loadAllYears} /><ClassBreakdown allData={data} years={YEARS} loadAllYears={loadAllYears} /></>
             : <LoadingState />
         ) : (
           <>
@@ -137,7 +137,6 @@ export default function App() {
                     .then(d => { if (d) setData(prev => ({ ...prev, [y]: d })) })
                     .catch(() => {})
                 }} />}
-                {page === 'history' && <ClassBreakdown allData={data} years={YEARS} loadAllYears={loadAllYears} />}
               </>
             )}
           </>
