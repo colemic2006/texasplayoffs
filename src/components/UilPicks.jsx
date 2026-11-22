@@ -98,9 +98,11 @@ export default function UilPicks({ data }) {
       <ByChapter rounds={rounds} />
       <div style={{ fontSize:13, color:'var(--ink)', lineHeight:1.6, marginTop:14, maxWidth:860, background:'rgba(253,208,35,0.22)',
         borderLeft:'4px solid var(--gold)', borderRadius:6, padding:'10px 14px' }}>
-        <strong>Even a "UIL assignment" isn't a neutral draw.</strong> Coaches can still tell UIL which chapters they want <em>excluded</em> from
-        consideration, and which chapters are acceptable. So the officials UIL "picks" come from a list the coaches have already shaped:
-        the same coaches the system is supposed to take out of the decision.
+        <strong>Even when UIL steps in, the coaches still choose.</strong> On UIL's officials request form, the coaches hand UIL a list of the
+        chapters they'll accept ("Chapters You Want UIL to Choose From") and a <strong>blacklist</strong> of chapters they won't
+        ("Chapters Schools Want to Scratch"). Blacklisted chapters aren't even considered. The "neutral" UIL pick only chooses from the
+        coaches' own list.{' '}
+        <a href="https://www.uiltexas.org/form/officials-request/football.php" target="_blank" rel="noopener noreferrer" style={{ color:'var(--burnt)' }}>See the form ↗</a>
       </div>
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6 }}>
         Only games known to be UIL assignments are listed; others may not have been reported yet.
