@@ -101,7 +101,7 @@ export default function UilPicks({ data }) {
         <strong>Even when UIL steps in, the coaches still choose.</strong> The very first preference on UIL's officials request form is
         "Chapter Agreed Upon by BOTH Coaches (if any)": the coaches can simply name the chapter they want. Failing that, they hand UIL a list of the
         chapters they'll accept ("Chapters You Want UIL to Choose From") and a <strong>blacklist</strong> of chapters they won't
-        ("Chapters Schools Want to Scratch"). Blacklisted chapters aren't even considered. The "neutral" UIL pick only chooses from the
+        ("Chapters Schools Want to Scratch"). <strong>Blacklisted chapters aren't even considered.</strong> The "neutral" UIL pick only chooses from the
         coaches' own list.{' '}
         <a href="https://www.uiltexas.org/form/officials-request/football.php" target="_blank" rel="noopener noreferrer" style={{ color:'var(--burnt)' }}>See the form ↗</a>
       </div>
