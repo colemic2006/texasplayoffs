@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-21T23:51+00:00",
+    "updated": "2026-11-22T00:04+00:00",
     "games": 613,
     "played": 525,
     "assigned": 528,
@@ -11965,6 +11965,14 @@
       "team2": "Windthorst",
       "score2": null,
       "winner": null,
+      "site": "Bulldog Stadium, Burkburnett",
+      "lat": 34.0799,
+      "lng": -98.57657,
+      "stadium": "Bulldog Stadium",
+      "map_link": "https://goo.gl/maps/wjU4N53J7f4SKW7A6",
+      "city": "Burkburnett",
+      "date": "2026-11-27",
+      "time": "6:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/wellington-skyrockets-vs-windthorst/11-26-2026/?c=cd163c8e-b3c8-4d12-a639-66ba1c545eca"
     },
     {
@@ -11978,6 +11986,14 @@
       "team2": "Lindsay",
       "score2": null,
       "winner": null,
+      "site": "Midlothian ISD Stadium, Midlothian",
+      "lat": 32.46584,
+      "lng": -96.98502,
+      "stadium": "MISD Multi-Purpose Stadium",
+      "map_link": "https://goo.gl/maps/32KqqTJ9nxj6qnBM9",
+      "city": "Midlothian",
+      "date": "2026-11-27",
+      "time": "6:30 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/lindsay-vs-overton/11-26-2026/?c=72693165-7940-4577-96cd-3c1a405b1662"
     },
     {
@@ -12431,6 +12447,14 @@
       "team2": "Stephenville",
       "score2": null,
       "winner": null,
+      "site": "Hutto Memorial Stadium, Hutto",
+      "lat": 30.53822,
+      "lng": -97.55915,
+      "stadium": "Hutto Memorial Stadium",
+      "map_link": "https://goo.gl/maps/z6e7Bj6zqEASWTvY6",
+      "city": "Hutto",
+      "date": "2026-11-27",
+      "time": "2:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/bay-city-vs-stephenville/11-26-2026/?c=225f5df9-dda8-4e92-8e48-46c0302d732f"
     },
     {
@@ -12444,6 +12468,14 @@
       "team2": "Canyon Randall",
       "score2": null,
       "winner": null,
+      "site": "Lion Stadium, Vernon",
+      "lat": 34.14706,
+      "lng": -99.31608,
+      "stadium": "Lion Stadium",
+      "map_link": "https://goo.gl/maps/qH9J1GHS28QjuZne7",
+      "city": "Vernon",
+      "date": "2026-11-27",
+      "time": "7:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/decatur-vs-randall-amarillo/11-26-2026/?c=5c26177f-ae77-4bfb-9f4f-4f441bdbd89f"
     },
     {
@@ -12753,7 +12785,7 @@
       "team2": "Amarillo High",
       "score2": null,
       "winner": null,
-      "site": "Astound Broadband Stadium, Midland",
+      "site": "Astound Broadband, Midland",
       "lat": 31.98925,
       "lng": -102.15394,
       "stadium": "Astound Broadband Stadium",
@@ -12855,6 +12887,13 @@
       "team2": "Port Neches-Groves",
       "score2": null,
       "winner": null,
+      "site": "Randall Reed Stadium, New Caney",
+      "lat": 30.13568,
+      "lng": -95.23305,
+      "stadium": "Randall Reed Stadium",
+      "city": "New Caney",
+      "date": "2026-11-27",
+      "time": "7:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/montgomery-vs-port-neches-groves/11-26-2026/?c=2aa46149-18b7-4df4-8fae-749ede6929c5"
     },
     {
@@ -13117,6 +13156,14 @@
       "team2": "Cypress Bridgeland",
       "score2": null,
       "winner": null,
+      "site": "Tomball ISD Stadium, Tomball",
+      "lat": 30.05549,
+      "lng": -95.70104,
+      "stadium": "Tomball ISD Stadium",
+      "map_link": "https://goo.gl/maps/Z6Jh79x8crv1Gjhu6",
+      "city": "Tomball",
+      "date": "2026-11-27",
+      "time": "2:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/bridgeland-cypress-vs-north-shore-houston/11-26-2026/?c=e69697cb-df12-4c53-bb2a-acfa462bf506"
     },
     {
@@ -13256,6 +13303,13 @@
       "team2": "Spring Westfield",
       "score2": null,
       "winner": null,
+      "site": "Randall Reed Stadium, New Caney",
+      "lat": 30.13568,
+      "lng": -95.23305,
+      "stadium": "Randall Reed Stadium",
+      "city": "New Caney",
+      "date": "2026-11-28",
+      "time": "2:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/longview-vs-westfield-houston/11-26-2026/?c=acbdc6ef-f0da-464f-959c-c86a497ba73b"
     }
   ]

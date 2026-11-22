@@ -5386,6 +5386,18 @@
   "stadium": "Bulldog Stadium",
   "stadium_id": 644
  },
+ "Bulldog Stadium, Burkburnett || Wellington v Windthorst": {
+  "address": "830 W. Kramer Rd, Burkburnett, Texas 76354",
+  "city": "Burkburnett",
+  "how": "stadium (map link)",
+  "lat": 34.0799,
+  "lng": -98.57657,
+  "map_link": "https://goo.gl/maps/wjU4N53J7f4SKW7A6",
+  "rules": 10,
+  "site": "Bulldog Stadium, Burkburnett",
+  "stadium": "Bulldog Stadium",
+  "stadium_id": 644
+ },
  "Bulldog Stadium, Carthage || Shelbyville v Waskom": {
   "address": "1600 W. Panola Street, Carthage, Texas 75633",
   "city": "Carthage",
@@ -10402,7 +10414,7 @@
   "address": "",
   "how": "no stadium, school or town matched",
   "map_link": "",
-  "missed": "2026-11-19",
+  "missed": "2026-11-22",
   "rules": 10,
   "site": "Eagle Mountain HS",
   "stadium": null,
@@ -12019,7 +12031,7 @@
   "city": "Fort Worth",
   "how": "named:Kight Stadium, Fort Worth",
   "map_link": "",
-  "missed": "2026-11-19",
+  "missed": "2026-11-22",
   "rules": 10,
   "site": "Fort Worth's Kight Stadium",
   "stadium": null,
@@ -15888,6 +15900,18 @@
   "stadium": "Hutto Memorial Stadium",
   "stadium_id": 90
  },
+ "Hutto Memorial Stadium, Hutto || Bay City v Stephenville": {
+  "address": "573 Chris Kelley Blvd, Hutto, Texas 78634",
+  "city": "Hutto",
+  "how": "stadium (map link)",
+  "lat": 30.53822,
+  "lng": -97.55915,
+  "map_link": "https://goo.gl/maps/z6e7Bj6zqEASWTvY6",
+  "rules": 10,
+  "site": "Hutto Memorial Stadium, Hutto",
+  "stadium": "Hutto Memorial Stadium",
+  "stadium_id": 90
+ },
  "Hutto || College Station v Comal Smithson Valley": {
   "address": "573 Chris Kelley Blvd, Hutto, Texas 78634",
   "city": "Hutto",
@@ -18529,6 +18553,18 @@
   "stadium": "Lion Stadium",
   "stadium_id": 680
  },
+ "Lion Stadium, Vernon || Decatur v Canyon Randall": {
+  "address": "Paradise St & Stadium St, Vernon, Texas 76384",
+  "city": "Vernon",
+  "how": "stadium (map link)",
+  "lat": 34.14706,
+  "lng": -99.31608,
+  "map_link": "https://goo.gl/maps/qH9J1GHS28QjuZne7",
+  "rules": 10,
+  "site": "Lion Stadium, Vernon",
+  "stadium": "Lion Stadium",
+  "stadium_id": 680
+ },
  "Lion Stadium, Vernon || Slaton v Jacksboro": {
   "address": "Paradise St & Stadium St, Vernon, Texas 76384",
   "city": "Vernon",
@@ -18628,7 +18664,7 @@
   "address": "",
   "how": "no stadium, school or town matched",
   "map_link": "",
-  "missed": "2026-11-19",
+  "missed": "2026-11-22",
   "rules": 10,
   "site": "Location: Kenneth Hall Stadium",
   "stadium": null,
@@ -21906,6 +21942,19 @@
   "how": "stadium",
   "lat": 32.46577,
   "lng": -96.98505,
+  "map_link": "https://goo.gl/maps/32KqqTJ9nxj6qnBM9",
+  "rules": 10,
+  "site": "Midlothian ISD Stadium, Midlothian",
+  "stadium": "MISD Multi-Purpose Stadium",
+  "stadium_id": 1044
+ },
+ "Midlothian ISD Stadium, Midlothian || Overton v Lindsay": {
+  "address": "1800 S 14th, Midlothian, Texas 76065",
+  "city": "Midlothian",
+  "confirmed_as": "MISD Multi-Purpose Stadium, Midlothian",
+  "how": "stadium (map link)",
+  "lat": 32.46584,
+  "lng": -96.98502,
   "map_link": "https://goo.gl/maps/32KqqTJ9nxj6qnBM9",
   "rules": 10,
   "site": "Midlothian ISD Stadium, Midlothian",
@@ -25441,6 +25490,30 @@
   "stadium_id": null
  },
  "Randall Reed Stadium, New Caney || Little Cypress-Mauriceville v El Campo": {
+  "address": "",
+  "city": "New Caney",
+  "how": "coordinates confirmed by hand",
+  "lat": 30.13568,
+  "lng": -95.23305,
+  "map_link": "",
+  "rules": 10,
+  "site": "Randall Reed Stadium, New Caney",
+  "stadium": "Randall Reed Stadium",
+  "stadium_id": null
+ },
+ "Randall Reed Stadium, New Caney || Longview v Spring Westfield": {
+  "address": "",
+  "city": "New Caney",
+  "how": "coordinates confirmed by hand",
+  "lat": 30.13568,
+  "lng": -95.23305,
+  "map_link": "",
+  "rules": 10,
+  "site": "Randall Reed Stadium, New Caney",
+  "stadium": "Randall Reed Stadium",
+  "stadium_id": null
+ },
+ "Randall Reed Stadium, New Caney || Montgomery v Port Neches-Groves": {
   "address": "",
   "city": "New Caney",
   "how": "coordinates confirmed by hand",
@@ -31626,6 +31699,18 @@
   "map_link": "https://goo.gl/maps/Z6Jh79x8crv1Gjhu6",
   "rules": 10,
   "site": "Tomball ISD Stadium",
+  "stadium": "Tomball ISD Stadium",
+  "stadium_id": 616
+ },
+ "Tomball ISD Stadium, Tomball || Galena Park North Shore v Cypress Bridgeland": {
+  "address": "20235 Cypress Rosehill Road, Tomball, Texas 77375",
+  "city": "Tomball",
+  "how": "stadium (map link)",
+  "lat": 30.05549,
+  "lng": -95.70104,
+  "map_link": "https://goo.gl/maps/Z6Jh79x8crv1Gjhu6",
+  "rules": 10,
+  "site": "Tomball ISD Stadium, Tomball",
   "stadium": "Tomball ISD Stadium",
   "stadium_id": 616
  },
