@@ -18983,6 +18983,18 @@
   "stadium": "Lowery Field at Plains Capital Park",
   "stadium_id": 791
  },
+ "Lowery Field, Lubbock, Texas || Roscoe v Wink": {
+  "address": "Avenue P at 66th St, Lubbock, Texas 79412",
+  "city": "Lubbock",
+  "how": "stadium (map link)",
+  "lat": 33.53277,
+  "lng": -101.85134,
+  "map_link": "https://goo.gl/maps/8DGWRhdF8PcJ6Znn7",
+  "rules": 10,
+  "site": "Lowery Field, Lubbock, Texas",
+  "stadium": "Lowery Field at Plains Capital Park",
+  "stadium_id": 791
+ },
  "Lowrey Field || Brock v Perryton": {
   "address": "",
   "city": "Lubbock",
