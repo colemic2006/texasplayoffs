@@ -98,7 +98,8 @@ export default function UilPicks({ data }) {
       <ByChapter rounds={rounds} />
       <div style={{ fontSize:13, color:'var(--ink)', lineHeight:1.6, marginTop:14, maxWidth:860, background:'rgba(253,208,35,0.22)',
         borderLeft:'4px solid var(--gold)', borderRadius:6, padding:'10px 14px' }}>
-        <strong>Even when UIL steps in, the coaches still choose.</strong> On UIL's officials request form, the coaches hand UIL a list of the
+        <strong>Even when UIL steps in, the coaches still choose.</strong> The very first preference on UIL's officials request form is
+        "Chapter Agreed Upon by BOTH Coaches (if any)": the coaches can simply name the chapter they want. Failing that, they hand UIL a list of the
         chapters they'll accept ("Chapters You Want UIL to Choose From") and a <strong>blacklist</strong> of chapters they won't
         ("Chapters Schools Want to Scratch"). Blacklisted chapters aren't even considered. The "neutral" UIL pick only chooses from the
         coaches' own list.{' '}
