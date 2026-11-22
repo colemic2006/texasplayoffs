@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react'
+import { weekLabel } from '../roundName'
 import { ROAD_FACTOR, straightMiles } from '../chapterCenters'
 import { placeName } from '../placeName'
 
@@ -106,7 +107,7 @@ export default function SchoolTravel({ data }) {
         Who Traveled Farthest to Play
       </div>
       <div style={{ display:'flex', gap:4, flexWrap:'wrap', margin:'10px 0 8px' }}>
-        {weeks.map(w => <button key={w} onClick={() => setWeek(w)} style={btn(week === w)}>{ROUNDS[w]}</button>)}
+        {weeks.map(w => <button key={w} onClick={() => setWeek(w)} style={btn(week === w)}>{weekLabel(w, ROUNDS[w])}</button>)}
         {weeks.length > 1 && <button onClick={() => setWeek('all')} style={btn(week === 'all')}>All rounds</button>}
       </div>
       <div style={{ fontSize:13, color:'var(--mid)', lineHeight:1.55, margin:'4px 0 14px', maxWidth:820 }}>

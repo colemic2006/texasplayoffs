@@ -1,4 +1,5 @@
 import React, { useState, useMemo, useEffect } from 'react'
+import { weekLabel } from '../roundName'
 import { GameMap } from './BracketViewer'
 import { UNASSIGNED, colorFor } from '../chapterColors'
 
@@ -81,12 +82,12 @@ export default function WeekMap({ data }) {
             This Week's Game Sites
           </div>
           <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:26, color:'var(--ink)' }}>
-            {ROUND_NAMES[week]} · Week {week}{day !== 'all' ? ` · ${dayLabel(day)}` : ''}{uilOnly ? ' · UIL picks' : ''}{picked.length ? ` · ${picked.map(label).join(' + ')}` : ''} · {markers.length} of {weekGames.length} sites on the map
+            {weekLabel(week, ROUND_NAMES[week])} · Week {week}{day !== 'all' ? ` · ${dayLabel(day)}` : ''}{uilOnly ? ' · UIL picks' : ''}{picked.length ? ` · ${picked.map(label).join(' + ')}` : ''} · {markers.length} of {weekGames.length} sites on the map
           </div>
         </div>
         <div style={{ display:'flex', gap:4 }}>
           {weeks.map(w => (
-            <button key={w} onClick={() => { setWeek(w); setDay('all') }} style={chip(week === w)}>{ROUND_NAMES[w]}</button>
+            <button key={w} onClick={() => { setWeek(w); setDay('all') }} style={chip(week === w)}>{weekLabel(w, ROUND_NAMES[w])}</button>
           ))}
         </div>
       </div>

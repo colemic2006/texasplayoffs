@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react'
-import { roundName } from '../roundName'
+import { roundName, weekLabel } from '../roundName'
 import { chapterColor } from '../chapterColors'
 
 // Score stats across every season on file, by round, with the chapter that worked each game
@@ -338,7 +338,7 @@ export default function ScoresView({ allData, years }) {
       <div style={{ display:'flex', gap:4, flexWrap:'wrap', marginBottom:8, alignItems:'center' }}>
         <span style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginRight:4 }}>Round:</span>
         <button onClick={() => setRound('all')} style={chip(round === 'all')}>All rounds</button>
-        {weeks.map(w => <button key={w} onClick={() => setRound(String(w))} style={chip(round === String(w))}>{ROUNDS[w]}</button>)}
+        {weeks.map(w => <button key={w} onClick={() => setRound(String(w))} style={chip(round === String(w))}>{weekLabel(w, ROUNDS[w])}</button>)}
       </div>
       <div style={{ display:'flex', gap:4, flexWrap:'wrap', marginBottom:20, alignItems:'center' }}>
         <span style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginRight:4 }}>Games from:</span>

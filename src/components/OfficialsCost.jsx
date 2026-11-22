@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react'
-import { roundName } from '../roundName'
+import { roundName, weekLabel } from '../roundName'
 import { gameCost, PAY } from '../officialsCost'
 import { chapterColor } from '../chapterColors'
 import { placeName } from '../placeName'
@@ -66,7 +66,7 @@ export default function OfficialsCost({ data }) {
         Most Expensive Games to Officiate
       </div>
       <div style={{ display:'flex', gap:4, flexWrap:'wrap', margin:'10px 0 8px' }}>
-        {weeks.map(w => <button key={w} onClick={() => setWeek(w)} style={btn(week === w)}>{ROUNDS[w]} ({all.filter(g => g.week === w).length})</button>)}
+        {weeks.map(w => <button key={w} onClick={() => setWeek(w)} style={btn(week === w)}>{weekLabel(w, ROUNDS[w])} ({all.filter(g => g.week === w).length})</button>)}
         {weeks.length > 1 && <button onClick={() => setWeek('all')} style={btn(week === 'all')}>All rounds ({all.length})</button>}
       </div>
       <div style={{ fontSize:13, color:'var(--mid)', lineHeight:1.55, margin:'4px 0 14px', maxWidth:820 }}>

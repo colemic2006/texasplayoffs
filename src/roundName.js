@@ -11,3 +11,12 @@ export function isSixMan(g) {
 export function roundName(g) {
   return (isSixMan(g) ? SIX : ELEVEN)[g.week] || `Week ${g.week}`
 }
+
+// A week's name for buttons that cover every class at once: the 11-man round, with the six-man
+// (1A) round for the same week ("Bi-District · 1A Area"). 1A is off in week 5.
+const WEEK_1A = { 1: 'Area', 2: 'Regionals', 3: 'Quarterfinals', 4: 'Semifinals' }   // week 6: every class plays its state final
+export function weekLabel(week, base) {
+  const name = base || ELEVEN[week] || `Week ${week}`
+  const six = WEEK_1A[week]
+  return six && six !== name ? `${name} · 1A ${six}` : name
+}

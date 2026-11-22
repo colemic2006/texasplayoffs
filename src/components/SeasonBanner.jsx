@@ -1,4 +1,5 @@
 import React from 'react'
+import { weekLabel } from '../roundName'
 
 const ROUND_LABELS = { 1:'Bi-District', 2:'Area', 3:'Regionals', 4:'Quarterfinals', 5:'Semifinals', 6:'Championship' }
 // games in a full round: 10 brackets of 64 teams (2A-6A) plus two 1A brackets of 32, which are idle in week 5
@@ -47,7 +48,7 @@ export default function SeasonBanner({ data, year }) {
                 fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.08em', color:'var(--mid)',
                 border:'1px solid var(--border)', borderRadius:4, padding:'4px 8px'
               }}>
-                {ROUND_LABELS[w]} · {wk.assigned}/{wk.games} · {pct(wk.assigned, wk.games)}%
+                {weekLabel(w, ROUND_LABELS[w])} · {wk.assigned}/{wk.games} · {pct(wk.assigned, wk.games)}%
               </div>
             ))}
           </div>
