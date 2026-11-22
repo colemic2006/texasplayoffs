@@ -332,6 +332,19 @@ def fill_sites(year, ws, placed):
     cards = json.loads(cards_path(year).read_text()) if cards_path(year).exists() else {}
     now = datetime.datetime.now(datetime.timezone.utc)
     filled = 0
+    # Monday of week 1, from the earliest bi-district date: a date before the Monday of a game's own
+    # week is a leftover placeholder (MaxPreps shows the round before's date until it's set)
+    w1 = sorted(str(r['date'])[:10] for r, _ in placed if r.get('week') and int(r['week']) == 1 and r.get('date'))
+    monday1 = None
+    if w1:
+        d0 = datetime.date.fromisoformat(w1[0]); monday1 = d0 - datetime.timedelta(days=d0.weekday())
+    def in_week(r, d):
+        if not (monday1 and d and r.get('week')):
+            return True
+        try:
+            return datetime.date.fromisoformat(d[:10]) >= monday1 + datetime.timedelta(days=7 * (int(r['week']) - 1))
+        except ValueError:
+            return True
     for r, g in placed:
         if r['site'] and r['site'].lower().startswith('game details'):
             # raw card text from before sites were cleaned up
@@ -386,8 +399,9 @@ def fill_sites(year, ws, placed):
             filled += 1
         # dates and kickoffs: UIL / MaxPreps are authoritative, so the source's value replaces a
         # different one shown, even one set by hand; a real change shows as a 'changed' alert
-        for k, val in (('date', info['date'] if date_set(info) else ''),
-                       ('time', info.get('time', '') if date_set(info) else '')):
+        ok = date_set(info) and in_week(r, info.get('date', ''))
+        for k, val in (('date', info['date'] if ok else ''),
+                       ('time', info.get('time', '') if ok else '')):
             if k == 'time' and 'time' not in info:
                 continue   # card saved before kickoffs were read: says nothing about the time
             old = str(r[k] or '')[:10] if k == 'date' else str(r[k] or '')

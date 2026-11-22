@@ -733,10 +733,11 @@
  },
  "2A D1|mp:52eeeaf7-937f-4665-8abd-91d1e3e42a4e|mp:926cbc9b-72c1-42db-b226-7aa3389f3646": {
   "date": "2026-11-20",
+  "dctf_date": "2026-11-27",
   "dctf_site": "Pirate Stadium, Lubbock",
   "dctf_time": "4:00 PM",
   "description": "",
-  "filled_date": "2026-11-20",
+  "filled_date": "2026-11-27",
   "filled_site": "Pirate Stadium, Lubbock",
   "filled_time": "4:00 PM",
   "read": "2026-11-22T21:24:23+00:00",
