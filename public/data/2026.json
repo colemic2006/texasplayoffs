@@ -2,10 +2,10 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-22T20:41+00:00",
+    "updated": "2026-11-22T21:13+00:00",
     "games": 616,
     "played": 528,
-    "assigned": 550,
+    "assigned": 561,
     "weeks": {
       "1": {
         "games": 352,
@@ -17,7 +17,7 @@
       },
       "3": {
         "games": 88,
-        "assigned": 22
+        "assigned": 33
       },
       "4": {
         "games": 0,
@@ -106,6 +106,56 @@
       }
     },
     {
+      "code": "DAL",
+      "name": "Dallas",
+      "total": 60,
+      "weeks": {
+        "1": {
+          "total": 29,
+          "classifications": {
+            "1A D1": 1,
+            "1A D2": 1,
+            "2A D1": 1,
+            "2A D2": 2,
+            "3A D2": 4,
+            "4A D2": 2,
+            "5A D1": 6,
+            "5A D2": 4,
+            "6A D1": 6,
+            "6A D2": 2
+          }
+        },
+        "2": {
+          "total": 19,
+          "classifications": {
+            "1A D2": 1,
+            "2A D1": 1,
+            "2A D2": 2,
+            "3A D1": 2,
+            "3A D2": 4,
+            "4A D2": 2,
+            "5A D1": 2,
+            "5A D2": 1,
+            "6A D1": 3,
+            "6A D2": 1
+          }
+        },
+        "3": {
+          "total": 12,
+          "classifications": {
+            "2A D1": 1,
+            "2A D2": 2,
+            "3A D1": 1,
+            "3A D2": 1,
+            "4A D1": 1,
+            "5A D1": 3,
+            "5A D2": 2,
+            "6A D2": 1
+          }
+        }
+      }
+    },
+    {
       "code": "FTW",
       "name": "Fort Worth",
       "total": 59,
@@ -151,49 +201,6 @@
             "5A D1": 1,
             "6A D1": 1,
             "6A D2": 2
-          }
-        }
-      }
-    },
-    {
-      "code": "DAL",
-      "name": "Dallas",
-      "total": 49,
-      "weeks": {
-        "1": {
-          "total": 29,
-          "classifications": {
-            "1A D1": 1,
-            "1A D2": 1,
-            "2A D1": 1,
-            "2A D2": 2,
-            "3A D2": 4,
-            "4A D2": 2,
-            "5A D1": 6,
-            "5A D2": 4,
-            "6A D1": 6,
-            "6A D2": 2
-          }
-        },
-        "2": {
-          "total": 19,
-          "classifications": {
-            "1A D2": 1,
-            "2A D1": 1,
-            "2A D2": 2,
-            "3A D1": 2,
-            "3A D2": 4,
-            "4A D2": 2,
-            "5A D1": 2,
-            "5A D2": 1,
-            "6A D1": 3,
-            "6A D2": 1
-          }
-        },
-        "3": {
-          "total": 1,
-          "classifications": {
-            "2A D1": 1
           }
         }
       }
@@ -11914,7 +11921,7 @@
       "classification": "2A D2",
       "week": 3,
       "round": "Regionals",
-      "chapter": null,
+      "chapter": "DAL",
       "team1": "Collinsville",
       "score1": null,
       "team2": "Clarksville",
@@ -12038,7 +12045,7 @@
       "classification": "2A D2",
       "week": 3,
       "round": "Regionals",
-      "chapter": null,
+      "chapter": "DAL",
       "team1": "Overton",
       "score1": null,
       "team2": "Lindsay",
@@ -12080,7 +12087,7 @@
       "classification": "3A D1",
       "week": 3,
       "round": "Regionals",
-      "chapter": null,
+      "chapter": "DAL",
       "team1": "Wall",
       "score1": null,
       "team2": "Paradise",
@@ -12296,7 +12303,7 @@
       "classification": "3A D2",
       "week": 3,
       "round": "Regionals",
-      "chapter": null,
+      "chapter": "DAL",
       "team1": "Bells",
       "score1": null,
       "team2": "Tolar",
@@ -12518,7 +12525,7 @@
       "classification": "4A D1",
       "week": 3,
       "round": "Regionals",
-      "chapter": null,
+      "chapter": "DAL",
       "team1": "Bay City",
       "score1": null,
       "team2": "Stephenville",
@@ -12744,7 +12751,7 @@
       "classification": "5A D1",
       "week": 3,
       "round": "Regionals",
-      "chapter": null,
+      "chapter": "DAL",
       "team1": "Denton Ryan",
       "score1": null,
       "team2": "Fort Worth Brewer",
@@ -12836,7 +12843,7 @@
       "classification": "5A D1",
       "week": 3,
       "round": "Regionals",
-      "chapter": null,
+      "chapter": "DAL",
       "team1": "Austin Anderson",
       "score1": null,
       "team2": "Boerne Champion",
@@ -12878,7 +12885,7 @@
       "classification": "5A D1",
       "week": 3,
       "round": "Regionals",
-      "chapter": null,
+      "chapter": "DAL",
       "team1": "A&M Consolidated",
       "score1": null,
       "team2": "Pflugerville Weiss",
@@ -12979,7 +12986,7 @@
       "classification": "5A D2",
       "week": 3,
       "round": "Regionals",
-      "chapter": null,
+      "chapter": "DAL",
       "team1": "Argyle",
       "score1": null,
       "team2": "Anna",
@@ -13018,7 +13025,7 @@
       "classification": "5A D2",
       "week": 3,
       "round": "Regionals",
-      "chapter": null,
+      "chapter": "DAL",
       "team1": "South Oak Cliff",
       "score1": null,
       "team2": "Terrell",
@@ -13270,7 +13277,7 @@
       "classification": "6A D2",
       "week": 3,
       "round": "Regionals",
-      "chapter": null,
+      "chapter": "DAL",
       "team1": "North Crowley",
       "score1": null,
       "team2": "The Woodlands College Park",
