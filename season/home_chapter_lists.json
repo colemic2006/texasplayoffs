@@ -1291,7 +1291,8 @@
   "SFA",
   "SPC",
   "TYL",
-  "WAC"
+  "WAC",
+  "PVC"
  ],
  "_partial": [
   "CSC"
@@ -1355,7 +1356,6 @@
   "Lohn": "Lohn",
   "Mullin": "Mullin",
   "Priddy": "Priddy",
-  "Stephenville Faith": "Stephenville Faith",
   "Ranger": "Ranger",
   "Strawn": "Strawn"
  }

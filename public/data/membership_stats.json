@@ -39,7 +39,8 @@
   "SFA",
   "SPC",
   "TYL",
-  "WAC"
+  "WAC",
+  "PVC"
  ],
  "chapters": {
   "ABI": {
@@ -135,7 +136,7 @@
    "season_games": 2,
    "hist_games": 51,
    "late_games": 3,
-   "schools": 19,
+   "schools": 18,
    "counties": 7
   },
   "PBC": {
