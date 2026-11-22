@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-22T16:21+00:00",
+    "updated": "2026-11-22T17:48+00:00",
     "games": 616,
     "played": 528,
     "assigned": 544,
@@ -11736,7 +11736,8 @@
       "city": "Bastrop",
       "date": "2026-11-27",
       "time": "2:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/ganado-vs-thorndale/11-27-2026/?c=af7b7e69-9051-4ca1-8a94-86ca8e272e6a"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/ganado-vs-thorndale/11-27-2026/?c=af7b7e69-9051-4ca1-8a94-86ca8e272e6a",
+      "uil_pick": true
     },
     {
       "year": 2026,
