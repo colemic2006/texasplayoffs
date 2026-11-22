@@ -10,6 +10,17 @@
   "stadium": null,
   "stadium_id": null
  },
+ "573 Chris Kelley Blvd -- Hutto, Texas 78634 || Bay City v Stephenville": {
+  "address": "",
+  "how": "address in site text",
+  "lat": 30.53093,
+  "lng": -97.56442,
+  "map_link": "",
+  "rules": 10,
+  "site": "573 Chris Kelley Blvd -- Hutto, Texas 78634",
+  "stadium": null,
+  "stadium_id": null
+ },
  "6A Division I || San Benito v La Joya": {
   "address": "",
   "how": "no stadium, school or town matched",

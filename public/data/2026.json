@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-22T04:56+00:00",
+    "updated": "2026-11-22T13:24+00:00",
     "games": 615,
     "played": 527,
     "assigned": 528,
@@ -12467,15 +12467,12 @@
       "team2": "Stephenville",
       "score2": null,
       "winner": null,
-      "site": "Hutto Memorial Stadium, Hutto",
-      "lat": 30.53822,
-      "lng": -97.55915,
-      "stadium": "Hutto Memorial Stadium",
-      "map_link": "https://goo.gl/maps/z6e7Bj6zqEASWTvY6",
-      "city": "Hutto",
+      "site": "573 Chris Kelley Blvd -- Hutto, Texas 78634",
+      "lat": 30.53093,
+      "lng": -97.56442,
       "date": "2026-11-27",
       "time": "2:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/bay-city-vs-stephenville/11-26-2026/?c=225f5df9-dda8-4e92-8e48-46c0302d732f"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/bay-city-vs-stephenville/11-27-2026/?c=225f5df9-dda8-4e92-8e48-46c0302d732f"
     },
     {
       "year": 2026,
