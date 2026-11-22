@@ -1,29 +1,15 @@
 {
  "total": 1293,
- "with_chapter": 1275,
+ "with_chapter": 1285,
  "current_year": 2026,
  "current_total": 704,
- "current_missing": 10,
+ "current_missing": 0,
  "missing": [
-  {
-   "name": "Alice",
-   "last_playoffs": 2026,
-   "town": "Alice",
-   "county": "Jim Wells"
-  },
   {
    "name": "Banquete",
    "last_playoffs": 2021,
    "town": "Banquete",
    "county": "Nueces"
-  },
-  {
-   "name": "Ben Bolt",
-   "last_playoffs": 2026
-  },
-  {
-   "name": "Benavides",
-   "last_playoffs": 2026
   },
   {
    "name": "Bishop",
@@ -46,38 +32,8 @@
    "county": "Hidalgo"
   },
   {
-   "name": "Edcouch-Elsa",
-   "last_playoffs": 2026,
-   "town": "Elsa",
-   "county": "Hidalgo"
-  },
-  {
    "name": "Hidalgo",
    "last_playoffs": 2024
-  },
-  {
-   "name": "Hidalgo Early College",
-   "last_playoffs": 2026,
-   "town": "Hidalgo",
-   "county": "Hidalgo"
-  },
-  {
-   "name": "Los Fresnos",
-   "last_playoffs": 2026,
-   "town": "Los Fresnos",
-   "county": "Cameron"
-  },
-  {
-   "name": "Lyford",
-   "last_playoffs": 2026,
-   "town": "Lyford",
-   "county": "Willacy"
-  },
-  {
-   "name": "Mercedes",
-   "last_playoffs": 2026,
-   "town": "Mercedes",
-   "county": "Hidalgo"
   },
   {
    "name": "Novice",
@@ -88,18 +44,6 @@
    "last_playoffs": 2025,
    "town": "Roma",
    "county": "Starr"
-  },
-  {
-   "name": "Santa Maria",
-   "last_playoffs": 2026,
-   "town": "Santa Maria",
-   "county": "Cameron"
-  },
-  {
-   "name": "Santa Rosa",
-   "last_playoffs": 2026,
-   "town": "Santa Rosa",
-   "county": "Cameron"
   }
  ]
 }

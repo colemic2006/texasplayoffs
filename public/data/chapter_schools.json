@@ -99,6 +99,13 @@
    "at": "stadium"
   },
   {
+   "name": "Alice",
+   "chapter": "STX",
+   "lat": 27.7543,
+   "lng": -98.05596,
+   "at": "stadium"
+  },
+  {
    "name": "Alief Elsik",
    "chapter": "HOU",
    "lat": 29.75894,
@@ -692,6 +699,20 @@
    "lat": 31.08767,
    "lng": -97.47393,
    "at": "stadium"
+  },
+  {
+   "name": "Ben Bolt",
+   "chapter": "STX",
+   "lat": 27.64753,
+   "lng": -98.08139,
+   "at": "town"
+  },
+  {
+   "name": "Benavides",
+   "chapter": "RGV",
+   "lat": 27.59584,
+   "lng": -98.41183,
+   "at": "town"
   },
   {
    "name": "Benbrook",
@@ -2423,6 +2444,13 @@
    "at": "town"
   },
   {
+   "name": "Edcouch-Elsa",
+   "chapter": "RGV",
+   "lat": 26.29662,
+   "lng": -97.99311,
+   "at": "town"
+  },
+  {
    "name": "Eden",
    "chapter": "SAN",
    "lat": 31.21615,
@@ -3851,6 +3879,13 @@
    "at": "stadium"
   },
   {
+   "name": "Hidalgo Early College",
+   "chapter": "RGV",
+   "lat": 26.10199,
+   "lng": -98.25776,
+   "at": "town"
+  },
+  {
    "name": "High Island",
    "chapter": "BEA",
    "lat": 29.56695,
@@ -5244,6 +5279,13 @@
    "at": "town"
   },
   {
+   "name": "Los Fresnos",
+   "chapter": "RGV",
+   "lat": 26.07145,
+   "lng": -97.47708,
+   "at": "stadium"
+  },
+  {
    "name": "Louise",
    "chapter": "HOU",
    "lat": 29.10909,
@@ -5339,6 +5381,13 @@
    "chapter": "HOU",
    "lat": 30.26553,
    "lng": -94.19914,
+   "at": "town"
+  },
+  {
+   "name": "Lyford",
+   "chapter": "RGV",
+   "lat": 26.41229,
+   "lng": -97.78972,
    "at": "town"
   },
   {
@@ -5633,6 +5682,13 @@
    "chapter": "SAN",
    "lat": 30.91179,
    "lng": -99.78152,
+   "at": "stadium"
+  },
+  {
+   "name": "Mercedes",
+   "chapter": "RGV",
+   "lat": 26.14045,
+   "lng": -97.90405,
    "at": "stadium"
   },
   {
@@ -7559,6 +7615,20 @@
    "lat": 27.52886,
    "lng": -97.88007,
    "at": "stadium"
+  },
+  {
+   "name": "Santa Maria",
+   "chapter": "RGV",
+   "lat": 26.07869,
+   "lng": -97.84944,
+   "at": "town"
+  },
+  {
+   "name": "Santa Rosa",
+   "chapter": "RGV",
+   "lat": 26.25674,
+   "lng": -97.825,
+   "at": "town"
   },
   {
    "name": "Santo",
