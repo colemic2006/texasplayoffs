@@ -9,6 +9,7 @@ import OutsideChapterGames from './components/OutsideChapterGames'
 import LocalMatchups from './components/LocalMatchups'
 import UilPicks from './components/UilPicks'
 import FavoriteSites from './components/FavoriteSites'
+import ClassBreakdown from './components/ClassBreakdown'
 import OfficialsCost from './components/OfficialsCost'
 import RecentChanges from './components/RecentChanges'
 import MembershipView from './components/MembershipView'
@@ -137,6 +138,7 @@ export default function App() {
                     .then(d => { if (d) setData(prev => ({ ...prev, [y]: d })) })
                     .catch(() => {})
                 }} />}
+                {page === 'history' && <ClassBreakdown allData={data} years={YEARS} loadAllYears={loadAllYears} />}
               </>
             )}
           </>
