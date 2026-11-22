@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-22T00:04+00:00",
-    "games": 613,
-    "played": 525,
+    "updated": "2026-11-22T00:21+00:00",
+    "games": 614,
+    "played": 526,
     "assigned": 528,
     "weeks": {
       "1": {
@@ -16,7 +16,7 @@
         "assigned": 176
       },
       "3": {
-        "games": 85,
+        "games": 86,
         "assigned": 0
       },
       "4": {
@@ -11524,10 +11524,10 @@
       "round": "Area",
       "chapter": "STX",
       "team1": "San Antonio Sotomayor",
-      "score1": null,
+      "score1": 7,
       "team2": "Edinburg Vela",
-      "score2": null,
-      "winner": null,
+      "score2": 17,
+      "winner": "Edinburg Vela",
       "site": "Richard Flores Stadium Edinburg, Texas",
       "lat": 26.28298,
       "lng": -98.1624,
@@ -13311,6 +13311,19 @@
       "date": "2026-11-28",
       "time": "2:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/longview-vs-westfield-houston/11-26-2026/?c=acbdc6ef-f0da-464f-959c-c86a497ba73b"
+    },
+    {
+      "year": 2026,
+      "classification": "6A D2",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "Austin Westlake",
+      "score1": null,
+      "team2": "Edinburg Vela",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/vela-edinburg-vs-westlake-austin/11-26-2026/?c=985b8093-50c2-4d34-a64c-9fa1b5970181"
     }
   ]
 }
