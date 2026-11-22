@@ -67,6 +67,17 @@ export default function Header({ yearData, year }) {
           </div>
         ))}
       </div>
+      {/* Support box: top right on wide screens, under the stats on phones (index.css .header-support) */}
+      <div className="header-support">
+        <p>
+          I built this site and keep it running on my own time and my own dime. If it's been useful to you, chipping in for a coffee
+          helps cover the costs of building, maintaining and hosting it. This site will always be 100% free, whether you donate or not.
+        </p>
+        <a href="https://www.buymeacoffee.com/colemic" target="_blank" rel="noopener noreferrer" className="bmc-button">
+          <span aria-hidden="true">☕</span> Buy me a coffee
+        </a>
+      </div>
+
     </header>
   )
 }
