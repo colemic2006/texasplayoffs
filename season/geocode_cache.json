@@ -24737,6 +24737,16 @@
   "stadium": null,
   "stadium_id": null
  },
+ "Plano Clark Stadium || Frisco Lone Star v Midlothian": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-22",
+  "rules": 10,
+  "site": "Plano Clark Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Pleasant Grove High School || Texarkana Pleasant Grove v Brownsboro": {
   "address": "5406 Mcknight Road, Texarkana, Texas 75503",
   "city": "Texarkana",

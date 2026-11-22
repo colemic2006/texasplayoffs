@@ -691,5 +691,16 @@
   "new": "University of Mary Hardin Baylor",
   "at": "2026-11-21T22:21+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "5A D1",
+  "week": 3,
+  "team1": "Frisco Lone Star",
+  "team2": "Midlothian",
+  "field": "site",
+  "old": "Clark Field, Plano",
+  "new": "Plano Clark Stadium",
+  "at": "2026-11-22T20:15+00:00",
+  "status": "changed"
  }
 ]
