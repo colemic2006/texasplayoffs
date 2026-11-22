@@ -5237,6 +5237,13 @@
    "at": "stadium"
   },
   {
+   "name": "Lohn",
+   "chapter": "PVC",
+   "lat": 31.32378,
+   "lng": -99.41006,
+   "at": "town"
+  },
+  {
    "name": "Lometa",
    "chapter": "PVC",
    "lat": 31.21716,
@@ -5993,6 +6000,13 @@
    "at": "stadium"
   },
   {
+   "name": "Mullin",
+   "chapter": "PVC",
+   "lat": 31.55683,
+   "lng": -98.6656,
+   "at": "town"
+  },
+  {
    "name": "Munday",
    "chapter": "NTX",
    "lat": 33.44926,
@@ -6721,6 +6735,13 @@
    "at": "town"
   },
   {
+   "name": "Priddy",
+   "chapter": "PVC",
+   "lat": 31.67543,
+   "lng": -98.50893,
+   "at": "town"
+  },
+  {
    "name": "Princeton",
    "chapter": "DAL",
    "lat": 33.17737,
@@ -6806,7 +6827,7 @@
   },
   {
    "name": "Ranger",
-   "chapter": "FTW",
+   "chapter": "PVC",
    "lat": 32.47057,
    "lng": -98.68082,
    "at": "town"
@@ -8030,6 +8051,13 @@
    "at": "stadium"
   },
   {
+   "name": "Stephenville Faith",
+   "chapter": "PVC",
+   "lat": 32.22014,
+   "lng": -98.20454,
+   "at": "town"
+  },
+  {
    "name": "Sterling City",
    "chapter": "SAN",
    "lat": 31.84039,
@@ -8052,7 +8080,7 @@
   },
   {
    "name": "Strawn",
-   "chapter": "FTW",
+   "chapter": "PVC",
    "lat": 32.55036,
    "lng": -98.50581,
    "at": "stadium"
