@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-22T16:09+00:00",
-    "games": 615,
-    "played": 527,
+    "updated": "2026-11-22T16:21+00:00",
+    "games": 616,
+    "played": 528,
     "assigned": 544,
     "weeks": {
       "1": {
@@ -16,7 +16,7 @@
         "assigned": 176
       },
       "3": {
-        "games": 87,
+        "games": 88,
         "assigned": 16
       },
       "4": {
@@ -8178,10 +8178,10 @@
       "round": "Area",
       "chapter": "PBC",
       "team1": "Rocksprings",
-      "score1": null,
+      "score1": 50,
       "team2": "Blackwell",
-      "score2": null,
-      "winner": null,
+      "score2": 62,
+      "winner": "Blackwell",
       "site": "Red Devil Stadium, Rankin",
       "lat": 31.22563,
       "lng": -101.94157,
@@ -11704,6 +11704,19 @@
       "date": "2026-11-27",
       "time": "7:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/fannindel-ladonia-vs-mount-calm/11-27-2026/?c=19ef0b77-f32f-4553-aabf-40dbd892cd75"
+    },
+    {
+      "year": 2026,
+      "classification": "1A D2",
+      "week": 3,
+      "round": "Regionals",
+      "chapter": null,
+      "team1": "Blackwell",
+      "score1": null,
+      "team2": "Richland Springs",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/blackwell-vs-richland-springs/11-26-2026/?c=347a9592-b5a7-4ab2-9f8f-cfd0330a0611"
     },
     {
       "year": 2026,
