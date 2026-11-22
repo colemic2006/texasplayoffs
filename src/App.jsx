@@ -108,7 +108,7 @@ export default function App() {
           allYearsLoaded ? <ScoresView allData={data} years={YEARS} /> : <LoadingState />
         ) : (page === 'teams' || page === 'regulars') ? (
           allYearsLoaded
-            ? page === 'teams' ? <TeamsView allData={data} years={YEARS} /> : <ChapterRegulars allData={data} years={YEARS} />
+            ? page === 'teams' ? <TeamsView allData={data} years={YEARS} /> : <><ChapterRegulars allData={data} years={YEARS} /><FavoriteSites data={yearData} allData={data} loadAllYears={loadAllYears} /></>
             : <LoadingState />
         ) : (
           <>
@@ -123,7 +123,6 @@ export default function App() {
                 {page === 'chapters' && yearData.season && <WeekMap data={yearData} />}
                 {page === 'chapters' && <ChapterDashboard data={yearData} year={year} allData={data} years={YEARS} loadAllYears={loadAllYears} />}
                 {page === 'chapters' && <ChapterTravel data={yearData} />}
-                {page === 'chapters' && <FavoriteSites data={yearData} allData={data} loadAllYears={loadAllYears} />}
                 {page === 'chapters' && <LocalMatchups data={yearData} />}
                 {page === 'chapters' && <UilPicks data={yearData} />}
                 {page === 'chapters' && <OutsideChapterGames data={yearData} />}
