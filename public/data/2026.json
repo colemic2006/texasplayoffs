@@ -2,10 +2,10 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-23T20:03+00:00",
+    "updated": "2026-11-23T20:04+00:00",
     "games": 616,
     "played": 528,
-    "assigned": 606,
+    "assigned": 607,
     "weeks": {
       "1": {
         "games": 352,
@@ -17,7 +17,7 @@
       },
       "3": {
         "games": 88,
-        "assigned": 78
+        "assigned": 79
       },
       "4": {
         "games": 0,
@@ -232,7 +232,7 @@
     {
       "code": "TYL",
       "name": "Tyler",
-      "total": 48,
+      "total": 49,
       "weeks": {
         "1": {
           "total": 30,
@@ -263,11 +263,12 @@
           }
         },
         "3": {
-          "total": 4,
+          "total": 5,
           "classifications": {
             "2A D1": 1,
             "3A D1": 1,
             "3A D2": 1,
+            "4A D1": 1,
             "6A D1": 1
           }
         }
@@ -13429,7 +13430,7 @@
       "classification": "4A D1",
       "week": 3,
       "round": "Regionals",
-      "chapter": null,
+      "chapter": "TYL",
       "team1": "Henderson",
       "score1": null,
       "team2": "Lindale",
