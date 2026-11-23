@@ -702,5 +702,16 @@
   "new": "Plano Clark Stadium",
   "at": "2026-11-22T20:15+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "2A D2",
+  "week": 3,
+  "team1": "Collinsville",
+  "team2": "Clarksville",
+  "field": "site",
+  "old": "Patriot Stadium, Pattonville",
+  "new": "Patriot Stadium Prairiland HS",
+  "at": "2026-11-23T02:41+00:00",
+  "status": "changed"
  }
 ]
