@@ -2,10 +2,10 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-23T00:28+00:00",
+    "updated": "2026-11-23T01:03+00:00",
     "games": 616,
     "played": 528,
-    "assigned": 583,
+    "assigned": 584,
     "weeks": {
       "1": {
         "games": 352,
@@ -17,7 +17,7 @@
       },
       "3": {
         "games": 88,
-        "assigned": 55
+        "assigned": 56
       },
       "4": {
         "games": 0,
@@ -255,7 +255,7 @@
     {
       "code": "ABI",
       "name": "Abilene",
-      "total": 40,
+      "total": 41,
       "weeks": {
         "1": {
           "total": 17,
@@ -283,9 +283,9 @@
           }
         },
         "3": {
-          "total": 6,
+          "total": 7,
           "classifications": {
-            "1A D1": 1,
+            "1A D1": 2,
             "1A D2": 1,
             "3A D2": 1,
             "4A D1": 1,
@@ -11678,7 +11678,7 @@
       "classification": "1A D1",
       "week": 3,
       "round": "Quarterfinals",
-      "chapter": null,
+      "chapter": "ABI",
       "team1": "Milford",
       "score1": null,
       "team2": "Gordon",
