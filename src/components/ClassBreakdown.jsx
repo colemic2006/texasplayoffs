@@ -26,6 +26,7 @@ function classOf(cls, year, modern) {
 export default function ClassBreakdown({ allData, years, loadAllYears }) {
   const [season, setSeason] = useState('all')
   const [divs, setDivs] = useState(false)
+  const [unit, setUnit] = useState('pct')   // 'pct': each chapter's share of the class's games; 'count': games
   const [modern, setModern] = useState(true)
   const [focus, setFocus] = useState('6A')
   const [pick, setPick] = useState(null)
@@ -57,7 +58,15 @@ export default function ClassBreakdown({ allData, years, loadAllYears }) {
   const inFocus = r => focusCols.reduce((s, c) => s + (r.by[c] || 0), 0)
   const sorted = [...rows].sort((a, b) => (focusCols.length ? inFocus(b) - inFocus(a) : 0) || b.total - a.total)
   const worked = sorted.filter(r => inFocus(r) > 0), never = sorted.filter(r => inFocus(r) === 0)
-  const max = Math.max(1, ...rows.flatMap(r => cols.map(c => r.by[c] || 0)))
+  const colTotal = Object.fromEntries(cols.map(c => [c, rows.reduce((t, r) => t + (r.by[c] || 0), 0)]))
+  const allTotal = rows.reduce((t, r) => t + r.total, 0)
+  const val = (r, c) => unit === 'pct' ? (colTotal[c] ? (r.by[c] || 0) / colTotal[c] : 0) : (r.by[c] || 0)
+  const max = Math.max(unit === 'pct' ? 0.0001 : 1, ...rows.flatMap(r => cols.map(c => val(r, c))))
+  const show = (r, c) => {
+    if (unit === 'count') return r.by[c] || 0
+    const v = val(r, c)
+    return !v ? '0%' : v < 0.005 ? '<1%' : `${Math.round(100 * v)}%`
+  }
   const sel = rows.find(r => r.code === pick)
   const label = season === 'all' ? `${loaded[loaded.length - 1]}–${loaded[0]} (${loaded.length} seasons)` : season
 
@@ -90,6 +99,10 @@ export default function ClassBreakdown({ allData, years, loadAllYears }) {
         {(modern || !hasOld ? CLASSES : [...CLASSES, 'Six Man']).map(c => <button key={c} onClick={() => setFocus(c)} style={btn(focus === c)}>{c}</button>)}
         <span style={{ width:12 }} />
         <button onClick={() => setDivs(d => !d)} style={btn(divs)}>{divs ? '✓ ' : ''}Show D1 / D2</button>
+        <span style={{ width:12 }} />
+        <span style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginRight:4 }}>Show:</span>
+        <button onClick={() => setUnit('pct')} style={btn(unit === 'pct')}>% of the class's games</button>
+        <button onClick={() => setUnit('count')} style={btn(unit === 'count')}>Number of games</button>
         {hasOld && <button onClick={() => setModern(m => !m)} style={btn(modern)} title="Before 2014, UIL's classes were one step lower: old 5A is today's 6A, and six-man is today's 1A">
           {modern ? '✓ ' : ''}Today's class names</button>}
       </div>
@@ -113,14 +126,19 @@ export default function ClassBreakdown({ allData, years, loadAllYears }) {
             <th style={th}>Total</th>
           </tr></thead>
           <tbody>
+            {unit === 'pct' && (
+              <tr><td style={{ ...td, textAlign:'left', fontFamily:'DM Sans', color:'var(--mid)', fontSize:11 }}>Games in this class</td>
+                {cols.map(c => <td key={c} style={{ ...td, color:'var(--mid)', fontSize:11 }}>{colTotal[c]}</td>)}
+                <td style={{ ...td, color:'var(--mid)', fontSize:11 }}>{allTotal}</td></tr>
+            )}
             {sorted.map(r => (
               <tr key={r.code} onClick={() => setPick(pick === r.code ? null : r.code)} style={{ cursor:'pointer', outline: pick === r.code ? '2px solid var(--burnt)' : 'none', outlineOffset:-2 }}>
                 <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans', whiteSpace:'nowrap' }}>
                   <span style={{ display:'inline-block', width:8, height:8, borderRadius:'50%', background:chapterColor(r.code), marginRight:6 }} />
                   {NAMES[r.code] || r.code} <span style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)' }}>{r.code}</span>
                 </td>
-                {cols.map(c => <td key={c} style={{ ...td, ...cell(r.by[c] || 0), fontWeight: focusCols.includes(c) ? 700 : 400 }}>{r.by[c] || 0}</td>)}
-                <td style={{ ...td, fontWeight:700 }}>{r.total}</td>
+                {cols.map(c => <td key={c} title={`${r.by[c] || 0} of ${colTotal[c]} ${c} games`} style={{ ...td, ...cell(val(r, c)), fontWeight: focusCols.includes(c) ? 700 : 400 }}>{show(r, c)}</td>)}
+                <td style={{ ...td, fontWeight:700 }} title={`${r.total} of ${allTotal} games`}>{unit === 'pct' ? `${(100 * r.total / allTotal).toFixed(1)}%` : r.total}</td>
               </tr>
             ))}
           </tbody>
@@ -130,7 +148,7 @@ export default function ClassBreakdown({ allData, years, loadAllYears }) {
       {sel && <ChapterDetail sel={sel} cols={cols} years={shownYears} />}
 
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6, maxWidth:900 }}>
-        Counts only games with a chapter on file. Red-tinted zeros are classes a chapter didn't work in the seasons shown.
+        Counts only games with a chapter on file. Percentages are each chapter's share of all that class's games in the seasons shown, so each column adds up to 100%; hover a cell for the game count. Red-tinted zeros are classes a chapter didn't work.
         {hasOld && modern && ' 2010 and 2013 are shown in today\'s class names: before 2014 the top class was 5A (today\'s 6A) and six-man was its own class (today\'s 1A).'}
         {' '}The 2026 season is still in progress.
       </div>
