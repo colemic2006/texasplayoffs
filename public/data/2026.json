@@ -2,10 +2,10 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-23T20:45+00:00",
+    "updated": "2026-11-23T22:25+00:00",
     "games": 616,
     "played": 528,
-    "assigned": 610,
+    "assigned": 611,
     "weeks": {
       "1": {
         "games": 352,
@@ -17,7 +17,7 @@
       },
       "3": {
         "games": 88,
-        "assigned": 82
+        "assigned": 83
       },
       "4": {
         "games": 0,
@@ -403,7 +403,7 @@
     {
       "code": "PBC",
       "name": "Permian Basin",
-      "total": 21,
+      "total": 22,
       "weeks": {
         "1": {
           "total": 14,
@@ -428,8 +428,9 @@
           }
         },
         "3": {
-          "total": 1,
+          "total": 2,
           "classifications": {
+            "1A D1": 1,
             "2A D2": 1
           }
         }
@@ -12642,7 +12643,7 @@
       "classification": "1A D1",
       "week": 3,
       "round": "Quarterfinals",
-      "chapter": null,
+      "chapter": "PBC",
       "team1": "Borden County",
       "score1": null,
       "team2": "Menard",
