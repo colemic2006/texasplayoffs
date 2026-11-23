@@ -5,7 +5,7 @@
     "updated": "2026-11-23T03:42+00:00",
     "games": 616,
     "played": 528,
-    "assigned": 593,
+    "assigned": 594,
     "weeks": {
       "1": {
         "games": 352,
@@ -17,7 +17,7 @@
       },
       "3": {
         "games": 88,
-        "assigned": 65
+        "assigned": 66
       },
       "4": {
         "games": 0,
@@ -341,7 +341,7 @@
     {
       "code": "AUS",
       "name": "Austin",
-      "total": 31,
+      "total": 32,
       "weeks": {
         "1": {
           "total": 22,
@@ -370,8 +370,9 @@
           }
         },
         "3": {
-          "total": 1,
+          "total": 2,
           "classifications": {
+            "4A D2": 1,
             "6A D1": 1
           }
         }
@@ -12667,7 +12668,7 @@
       "classification": "4A D2",
       "week": 3,
       "round": "Regionals",
-      "chapter": null,
+      "chapter": "AUS",
       "team1": "La Marque",
       "score1": null,
       "team2": "West Orange-Stark",
