@@ -132,8 +132,8 @@ export default function BracketViewer({ data, year }) {
 
   return (
     <div>
-      <SectionLabel>03 · Brackets</SectionLabel>
-      <div style={{
+      <SectionLabel>Brackets</SectionLabel>
+      <div className="card-title" style={{
         fontFamily:"'Bebas Neue', sans-serif", fontSize:30, letterSpacing:0.5,
         color:'var(--ink)', marginBottom:20, paddingBottom:12,
         borderBottom:'1px solid var(--border)', display:'flex', alignItems:'center', gap:12

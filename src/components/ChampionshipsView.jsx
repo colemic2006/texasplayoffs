@@ -120,9 +120,9 @@ export default function ChampionshipsView() {
   return (
     <div>
       <div style={{ fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.18em', textTransform:'uppercase', color:'var(--mid)', marginBottom:6 }}>
-        05 · Championships
+        Championships
       </div>
-      <div style={{
+      <div className="card-title" style={{
         fontFamily:"'Bebas Neue', sans-serif", fontSize:30, letterSpacing:0.5,
         color:'var(--ink)', marginBottom:20, paddingBottom:12,
         borderBottom:'1px solid var(--border)', display:'flex', alignItems:'center', gap:12

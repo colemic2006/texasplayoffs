@@ -71,7 +71,7 @@ export default function CoverageDensity({ members }) {
   return (
     <div style={{ marginTop:40 }}>
       <div style={{ fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.18em', textTransform:'uppercase', color:'var(--mid)', marginBottom:6 }}>Members and the area they cover</div>
-      <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:26, color:'var(--ink)', marginBottom:6, paddingBottom:10, borderBottom:'1px solid var(--border)', display:'flex', alignItems:'center', gap:12 }}>
+      <div className="card-title" style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:26, color:'var(--ink)', marginBottom:6, paddingBottom:10, borderBottom:'1px solid var(--border)', display:'flex', alignItems:'center', gap:12 }}>
         <div style={{ width:4, height:24, borderRadius:2, background:'var(--burnt)' }} />How Thinly Each Chapter Is Spread
       </div>
       <div style={{ fontSize:13, color:'var(--mid)', lineHeight:1.55, margin:'8px 0 12px', maxWidth:820 }}>

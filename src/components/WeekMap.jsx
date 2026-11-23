@@ -81,7 +81,7 @@ export default function WeekMap({ data }) {
           <div style={{ fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.18em', textTransform:'uppercase', color:'var(--mid)', marginBottom:4 }}>
             This Week's Game Sites
           </div>
-          <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:26, color:'var(--ink)' }}>
+          <div className="card-title" style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:26, color:'var(--ink)' }}>
             {weekLabel(week, ROUND_NAMES[week])} · Week {week}{day !== 'all' ? ` · ${dayLabel(day)}` : ''}{uilOnly ? ' · UIL picks' : ''}{picked.length ? ` · ${picked.map(label).join(' + ')}` : ''} · {markers.length} of {weekGames.length} sites on the map
           </div>
         </div>

@@ -34,7 +34,7 @@ export default function MembershipView() {
   return (
     <div>
       <div style={{ fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.18em', textTransform:'uppercase', color:'var(--mid)', marginBottom:6 }}>TASO Football</div>
-      <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:30, color:'var(--ink)', marginBottom:20, paddingBottom:12, borderBottom:'1px solid var(--border)', display:'flex', alignItems:'center', gap:12 }}>
+      <div className="card-title" style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:30, color:'var(--ink)', marginBottom:20, paddingBottom:12, borderBottom:'1px solid var(--border)', display:'flex', alignItems:'center', gap:12 }}>
         <div style={{ width:4, height:28, borderRadius:2, background:'var(--burnt)' }} />
         Chapter Membership · {d.season}
       </div>
@@ -167,7 +167,7 @@ function Section({ label, title, intro, children, note }) {
   return (
     <div style={{ marginTop:40 }}>
       <div style={{ fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.18em', textTransform:'uppercase', color:'var(--mid)', marginBottom:6 }}>{label}</div>
-      <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:26, color:'var(--ink)', marginBottom:6, paddingBottom:10, borderBottom:'1px solid var(--border)', display:'flex', alignItems:'center', gap:12 }}>
+      <div className="card-title" style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:26, color:'var(--ink)', marginBottom:6, paddingBottom:10, borderBottom:'1px solid var(--border)', display:'flex', alignItems:'center', gap:12 }}>
         <div style={{ width:4, height:24, borderRadius:2, background:'var(--burnt)' }} />{title}
       </div>
       <div style={{ fontSize:13, color:'var(--mid)', lineHeight:1.55, margin:'8px 0 12px', maxWidth:820 }}>{intro}</div>

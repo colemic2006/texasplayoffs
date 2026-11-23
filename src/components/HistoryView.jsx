@@ -62,8 +62,8 @@ export default function HistoryView({ allData, years, loadYear }) {
 
   return (
     <div>
-      <SectionLabel>04 · Multi-Year Analysis</SectionLabel>
-      <div style={{
+      <SectionLabel>Multi-Year Analysis</SectionLabel>
+      <div className="card-title" style={{
         fontFamily:"'Bebas Neue', sans-serif", fontSize:30, letterSpacing:0.5,
         color:'var(--ink)', marginBottom:20, paddingBottom:12,
         borderBottom:'1px solid var(--border)', display:'flex', alignItems:'center', gap:12

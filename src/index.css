@@ -71,3 +71,11 @@ a { color: inherit; text-decoration: none; }
 @media (max-width: 1000px) {
   .header-support { position: static; width: auto; max-width: 560px; margin-top: 24px; }
 }
+
+/* Card numbers: every section title on a page is numbered 1, 2, 3... (restarts on each page, since
+   only one page is in <main> at a time). Same look as the Scores page's card numbers. */
+main { counter-reset: card; }
+.card-title { counter-increment: card; }
+.card-title::before { content: counter(card); order: -1; font-family: 'Bebas Neue', sans-serif; color: var(--gold);
+  -webkit-text-stroke: 0.5px var(--burnt); font-size: 0.95em; line-height: 1; margin-right: 0.25em; }
+.card-title > div:first-child { order: -2; }

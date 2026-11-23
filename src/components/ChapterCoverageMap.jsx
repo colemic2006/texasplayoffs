@@ -102,7 +102,7 @@ export default function ChapterCoverageMap() {
         .cov-label:before{display:none}
         .cov-chapter span{font:400 22px 'Bebas Neue',sans-serif;letter-spacing:.06em;white-space:nowrap;text-shadow:0 0 3px #fff,0 0 3px #fff,0 0 6px #fff;transform:translate(-50%,-50%);display:inline-block}`}</style>
       <div style={{ fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.18em', textTransform:'uppercase', color:'var(--mid)', marginBottom:6 }}>Who covers what</div>
-      <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:30, color:'var(--ink)', marginBottom:6, paddingBottom:12, borderBottom:'1px solid var(--border)', display:'flex', alignItems:'center', gap:12 }}>
+      <div className="card-title" style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:30, color:'var(--ink)', marginBottom:6, paddingBottom:12, borderBottom:'1px solid var(--border)', display:'flex', alignItems:'center', gap:12 }}>
         <div style={{ width:4, height:28, borderRadius:2, background:'var(--burnt)' }} />
         Chapter Coverage Map{sel ? ` · ${NAMES[sel.c] || sel.c}` : ''}
       </div>

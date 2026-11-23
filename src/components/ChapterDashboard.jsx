@@ -36,9 +36,9 @@ function SectionLabel({ children }) {
   )
 }
 
-function SectionTitle({ accent, children }) {
+function SectionTitle({ accent, children, numbered = true }) {
   return (
-    <div style={{
+    <div className={numbered ? 'card-title' : undefined} style={{
       fontFamily:"'Bebas Neue', sans-serif", fontSize:30, letterSpacing:0.5,
       color:'var(--ink)', marginBottom:20, paddingBottom:12,
       borderBottom:'1px solid var(--border)',
@@ -222,7 +222,7 @@ export default function ChapterDashboard({ data, year, allData = {}, years = [],
 
       {/* ── BAR CHART ── */}
       <div style={{ marginBottom:48 }}>
-        <SectionLabel>01 · Visual Overview</SectionLabel>
+        <SectionLabel>Visual Overview</SectionLabel>
         <SectionTitle accent="var(--burnt)">Games by Chapter</SectionTitle>
 
         {/* Filters */}
@@ -311,7 +311,7 @@ export default function ChapterDashboard({ data, year, allData = {}, years = [],
       {selectedChapterData && (
         <div ref={detailRef} style={{ marginBottom:48, scrollMarginTop:90 }}>
           <SectionLabel>Chapter Detail</SectionLabel>
-          <SectionTitle accent="var(--gold)">{CHAPTER_NAMES[selectedChapterData.code] || selectedChapterData.name} ({selectedChapterData.code})</SectionTitle>
+          <SectionTitle accent="var(--gold)" numbered={false}>{CHAPTER_NAMES[selectedChapterData.code] || selectedChapterData.name} ({selectedChapterData.code})</SectionTitle>
 
           <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:14 }}>
             {/* Weekly summary table */}
@@ -372,7 +372,7 @@ export default function ChapterDashboard({ data, year, allData = {}, years = [],
 
       {/* ── FULL DATA TABLE ── */}
       <div style={{ marginBottom:48 }}>
-        <SectionLabel>02 · Full Data</SectionLabel>
+        <SectionLabel>Full Data</SectionLabel>
         <SectionTitle accent="var(--steel)">All Chapters — Week by Week</SectionTitle>
 
         {/* Sort controls + division filter */}
