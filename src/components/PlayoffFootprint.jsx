@@ -83,7 +83,7 @@ export default function PlayoffFootprint({ data }) {
       if (layer.current) layer.current.remove()
       const g = L.layerGroup().addTo(map.current); layer.current = g
       const list = pick ? rows.filter(r => r.c === pick) : rows
-      const fit = []
+      const fit = [], dots = []
       for (const r of list) {
         const col = chapterColor(r.c), ctr = CHAPTER_CENTERS[r.c]
         if (pick && home && homeRing[r.c]?.length >= 3) {
@@ -97,8 +97,9 @@ export default function PlayoffFootprint({ data }) {
           for (const x of r.games) L.polyline([[ctr[1], ctr[2]], [x.lat, x.lng]], { color: col, weight: pick ? 2.5 : 1.5, opacity: pick ? 0.85 : 0.55, interactive: false }).addTo(g)
         }
         for (const x of r.games) {
-          L.circleMarker([x.lat, x.lng], { radius: pick ? 6 : 4.5, weight: 1.5, color: '#fff', fillColor: col, fillOpacity: 0.95 }).addTo(g)
-            .bindTooltip(`<strong>${x.team1} v ${x.team2}</strong><br>${x.classification}${wk === 'all' ? ` · ${ROUNDS[x.week] || 'Week ' + x.week}` : ''} · ${NAMES[r.c] || r.c}<br>${x.stadium || x.site || ''}${x.city ? ', ' + x.city : ''}`)
+          const dot = L.circleMarker([x.lat, x.lng], { radius: pick ? 6 : 4.5, weight: 1.5, color: '#fff', fillColor: col, fillOpacity: 0.95 }).addTo(g)
+          dot._home = L.latLng(x.lat, x.lng); dots.push(dot)
+          dot.bindTooltip(`<strong>${x.team1} v ${x.team2}</strong><br>${x.classification}${wk === 'all' ? ` · ${ROUNDS[x.week] || 'Week ' + x.week}` : ''} · ${NAMES[r.c] || r.c}<br>${x.stadium || x.site || ''}${x.city ? ', ' + x.city : ''}`)
           fit.push([x.lat, x.lng])
         }
         // the label: at the chapter's home city in the lines view, else at the middle of its sites
@@ -112,6 +113,24 @@ export default function PlayoffFootprint({ data }) {
       }
       if (pick && fit.length) map.current.fitBounds(L.latLngBounds(fit), { padding: [40, 40], maxZoom: 9 })
       else map.current.setView([31.2, -99.3], 6)
+      // two games at one stadium would hide each other: set them side by side so both show
+      const m = map.current
+      const spread = () => {
+        const pts = dots.map(d => m.latLngToContainerPoint(d._home)), seen = new Set()
+        dots.forEach((d, i) => {
+          if (seen.has(i)) return
+          const group = [i]
+          for (let j = i + 1; j < dots.length; j++) if (!seen.has(j) && pts[i].distanceTo(pts[j]) < 2) group.push(j)
+          group.forEach(k => seen.add(k))
+          if (group.length === 1) { d.setLatLng(d._home); return }
+          const r = Math.min(6 + 2 * group.length, 16)
+          group.forEach((k, n) => {
+            const a = (2 * Math.PI * n) / group.length - Math.PI / 2
+            dots[k].setLatLng(m.containerPointToLatLng(L.point(pts[i].x + r * Math.cos(a), pts[i].y + r * Math.sin(a))))
+          })
+        })
+      }
+      m.off('zoomend', m._fpSpread); m._fpSpread = spread; m.on('zoomend', spread); spread()
     })
     return () => { gone = true }
   }, [rows, pick, view, home, homeRing])
