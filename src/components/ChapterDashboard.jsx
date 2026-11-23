@@ -1,5 +1,7 @@
 import { UilTag, UIL_TIP } from '../uilPick'
 import React, { useState, useMemo, useEffect, useRef } from 'react'
+import { upcomingCell, UPCOMING, UPCOMING_TIP } from '../upcoming'
+import { useCollapse, ShowMore } from '../ShowMore'
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell
 } from 'recharts'
@@ -95,6 +97,7 @@ export default function ChapterDashboard({ data, year, allData = {}, years = [],
   useEffect(() => { setDetailWeek('all'); setDetailClass('all') }, [selectedChapter, year])
   const [filterClass, setFilterClass] = useState('all')
   const [tableClass, setTableClass] = useState('all')
+  const more = useCollapse()
 
   // every current chapter, including those with no games yet (East Texas was folded into Tyler), so all of them show on the chart and table
   const chapters = useMemo(() => {
@@ -113,6 +116,7 @@ export default function ChapterDashboard({ data, year, allData = {}, years = [],
   const playedThrough = inProgress
     ? Math.max(0, ...WEEKS.map(Number).filter(w => chapters.some(c => (c.weeks?.[w]?.total || 0) > 0) || (data?.games || []).some(g => g.week === w)))
     : 6
+  const future = w => inProgress && Number(w) > playedThrough   // a round not played yet
   const histAvg = useMemo(() => {
     const per = {}
     const n = (ch, w) => tableClass === 'all' ? (ch.weeks?.[w]?.total || 0) : (ch.weeks?.[w]?.classifications?.[tableClass] || 0)
@@ -339,10 +343,13 @@ export default function ChapterDashboard({ data, year, allData = {}, years = [],
                                    background: detailWeek === w ? 'rgba(253,208,35,0.12)' : undefined }}>
                           <td style={{ ...tdStyle, textAlign:'center' }}>{w}</td>
                           <td style={{ ...tdStyle, color:'var(--mid)', fontSize:11, textAlign:'center' }}>{ROUND_LABELS[w]}</td>
+                          {future(w)
+                            ? <td colSpan={2} title={UPCOMING_TIP} style={{ ...tdStyle, ...upcomingCell, textAlign:'center' }}>{UPCOMING}</td>
+                            : <>
                           <td style={{ ...tdStyle, fontWeight:500, textAlign:'center' }}>{games}</td>
                           <td style={{ ...tdStyle, color:'var(--burnt)', fontFamily:'var(--mono)', fontSize:11, textAlign:'center' }}>
                             {running}
-                          </td>
+                          </td></>}
                         </tr>
                       )
                     })
@@ -423,7 +430,7 @@ export default function ChapterDashboard({ data, year, allData = {}, years = [],
             <thead>
               <tr style={{ background:'rgba(15,13,11,0.03)' }}>
                 <th style={{ ...thStyle, textAlign:'left', position:'sticky', left:0, background:'rgba(245,240,232,0.98)' }}>Chapter</th>
-                {WEEKS.map(w => <th key={w} style={thStyle}>Wk {w}{inProgress && Number(w) <= playedThrough && !shadeWeek(w) && weekCover[w].n > 0 &&
+                {WEEKS.map(w => <th key={w} style={{ ...thStyle, ...(future(w) ? { opacity:0.55 } : {}) }} title={future(w) ? UPCOMING_TIP : undefined}>Wk {w}{future(w) && <div style={{ fontSize:8, letterSpacing:0, textTransform:'none', fontWeight:400, fontStyle:'italic' }}>{UPCOMING}</div>}{inProgress && Number(w) <= playedThrough && !shadeWeek(w) && weekCover[w].n > 0 &&
                   <div style={{ fontSize:8, letterSpacing:0, textTransform:'none', color:'var(--mid)', fontWeight:400 }}>{weekCover[w].in} of {weekCover[w].n} in</div>}</th>)}
                 <th style={{ ...thStyle, color:'var(--burnt)' }}>Total</th>
                 <th style={thStyle} title="Average games per season in the other seasons on the site, counting the seasons the chapter worked playoff games">{playedThrough < 6 ? `Hist. Avg thru Wk ${playedThrough}` : 'Hist. Avg'}</th>
@@ -435,7 +442,7 @@ export default function ChapterDashboard({ data, year, allData = {}, years = [],
                 const divisionTotal = tableClass === 'all'
                   ? totalGames
                   : sorted.reduce((s, ch) => s + WEEKS.reduce((ws, w) => ws + (ch.weeks?.[w]?.classifications?.[tableClass] || 0), 0), 0)
-                return sorted.map((ch, idx) => {
+                return more.cut(sorted).map((ch, idx) => {
                 const rowTotal = tableClass === 'all'
                   ? (ch.total || 0)
                   : WEEKS.reduce((s, w) => s + (ch.weeks?.[w]?.classifications?.[tableClass] || 0), 0)
@@ -460,6 +467,7 @@ export default function ChapterDashboard({ data, year, allData = {}, years = [],
                       <span style={{ fontFamily:'DM Sans', fontSize:11, color:'var(--mid)', marginLeft:8 }}>{ch.name}</span>
                     </td>
                     {WEEKS.map(w => {
+                      if (future(w)) return <td key={w} title={UPCOMING_TIP} style={{ ...tdStyle, ...upcomingCell, textAlign:'center' }} />
                       const val = tableClass === 'all'
                         ? (ch.weeks?.[w]?.total ?? 0)
                         : (ch.weeks?.[w]?.classifications?.[tableClass] || 0)
@@ -512,6 +520,7 @@ export default function ChapterDashboard({ data, year, allData = {}, years = [],
             </tbody>
           </table>
         </div>
+        <ShowMore c={more} total={sorted.length} noun="chapters" />
       </div>
     </div>
   )
@@ -555,6 +564,7 @@ function FilterGroup({ label, options, value, onChange, byeKeys = [] }) {
 }
 
 function ClassificationBreakdown({ chapter }) {
+  const more = useCollapse()
   const totals = CLASSIFICATIONS.map(cls => ({
     cls,
     value: WEEKS.reduce((s, w) => s + (chapter.weeks?.[w]?.classifications?.[cls] || 0), 0)
@@ -573,7 +583,7 @@ function ClassificationBreakdown({ chapter }) {
       <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginBottom:14 }}>
         Games by Classification (Post-Season Total)
       </div>
-      {totals.sort((a,b)=>b.value-a.value).map(({ cls, value }, i) => (
+      {more.cut(totals.sort((a,b)=>b.value-a.value)).map(({ cls, value }, i) => (
         <div key={cls} style={{ marginBottom:8 }}>
           <div style={{ display:'flex', justifyContent:'space-between', marginBottom:3 }}>
             <span style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--ink)' }}>{cls}</span>
@@ -588,6 +598,7 @@ function ClassificationBreakdown({ chapter }) {
           </div>
         </div>
       ))}
+      <ShowMore c={more} total={totals.length} noun="classes" />
     </div>
   )
 }
@@ -622,6 +633,7 @@ const tdStyle = {
 // Every game a chapter worked, filterable by week (click a row in the weekly table) and class
 function ChapterGames({ games, week, setWeek, cls, setCls, inProgress }) {
   const dctf = useDctfTeams()
+  const more = useCollapse()
   const classes = CLASSIFICATIONS.filter(c => games.some(g => g.classification === c && (week === 'all' || String(g.week) === week)))
   const shown = games
     .filter(g => (week === 'all' || String(g.week) === week) && (cls === 'all' || g.classification === cls))
@@ -664,7 +676,7 @@ function ChapterGames({ games, week, setWeek, cls, setCls, inProgress }) {
             </tr>
           </thead>
           <tbody>
-            {shown.map((g, i) => (
+            {more.cut(shown).map((g, i) => (
               <tr key={i} style={{ borderBottom:'1px solid rgba(15,13,11,0.05)' }}>
                 <td style={{ ...tdStyle, textAlign:'center', whiteSpace:'nowrap' }}>{ROUND_LABELS[g.week] || g.week}</td>
                 <td style={{ ...tdStyle, textAlign:'center', fontFamily:'var(--mono)', fontSize:10, color:'var(--steel)', whiteSpace:'nowrap' }}>{g.classification}</td>
@@ -685,6 +697,7 @@ function ChapterGames({ games, week, setWeek, cls, setCls, inProgress }) {
           </tbody>
         </table>
       </div>
+      <ShowMore c={more} total={shown.length} noun="games" style={{ margin:'8px 16px 12px' }} />
     </div>
   )
 }

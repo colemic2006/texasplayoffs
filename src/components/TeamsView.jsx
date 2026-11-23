@@ -2,6 +2,7 @@ import { UilTag, UIL_TIP } from '../uilPick'
 import { roundName } from '../roundName'
 import HomeChapterCoverage from './HomeChapterCoverage'
 import React, { useMemo, useState, useEffect } from 'react'
+import { GAPS } from './NotAllTime'
 import { useFinals } from '../finals'
 import { useHomeChapters } from '../homeChapters'
 import { placeName, gameWhen } from '../placeName'
@@ -204,7 +205,7 @@ export default function TeamsView({ allData, years }) {
 
       <div style={{ background:'rgba(253,208,35,0.16)', border:'1px solid var(--gold)', borderLeft:'4px solid var(--gold)', borderRadius:8, padding:'12px 16px', marginBottom:18, fontSize:13, lineHeight:1.55, color:'var(--ink)' }}>
         <strong>These are not all-time records.</strong> Every stat and count on this page covers only the seasons where chapter assignments are on file:{' '}
-        <strong>{[...years].filter(y => allData[y]?.games?.length).sort((a, b) => a - b).join(', ')}</strong>. Seasons in between (such as 2011–12, 2014, 2016–17, 2019 and 2020)
+        <strong>{[...years].filter(y => allData[y]?.games?.length).sort((a, b) => a - b).join(', ')}</strong>. Seasons in between (such as {GAPS})
         aren't included, so a team's playoff appearances, games and championships may be higher than shown here.
       </div>
 

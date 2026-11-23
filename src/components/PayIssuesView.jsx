@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { useForm, ValidationError } from '@formspree/react'
+import { useCollapse, ShowMore } from '../ShowMore'
 
 // School districts listed by the site owner for officials' pay issues, and a form to report one
 const DISTRICTS = [
@@ -80,6 +81,7 @@ function GateExamples() {
 export default function PayIssuesView() {
   const [open, setOpen] = useState(false)
   const [q, setQ] = useState('')
+  const more = useCollapse()
   const [state, handleSubmit] = useForm('xqevvaow')
   const list = DISTRICTS.filter(d => d.toLowerCase().includes(q.trim().toLowerCase()))
 
@@ -249,10 +251,11 @@ export default function PayIssuesView() {
       </div>
       <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, padding:'14px 18px' }}>
         <div style={{ columns:'220px', columnGap:24, fontSize:13, lineHeight:1.9 }}>
-          {list.map(d => <div key={d} style={{ breakInside:'avoid' }}>{d}</div>)}
+          {more.cut(list).map(d => <div key={d} style={{ breakInside:'avoid' }}>{d}</div>)}
           {!list.length && <div style={{ color:'var(--mid)' }}>No district matches “{q}”.</div>}
         </div>
       </div>
+      <ShowMore c={more} total={list.length} noun="districts" />
     </div>
   )
 }

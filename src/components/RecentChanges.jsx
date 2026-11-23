@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { hasChanges, fmtValue, fmtWhen, ALERT, ALERT_BG } from '../changes'
 import { placeName, gameWhen } from '../placeName'
+import { useCollapse, ShowMore } from '../ShowMore'
 
 const LABEL = { date: 'Date', time: 'Kickoff', site: 'Site', score: 'Score' }
 
@@ -10,6 +11,7 @@ const readClosed = () => { try { return localStorage.getItem(KEY) || '' } catch 
 
 export default function RecentChanges({ data }) {
   const [closed, setClosed] = useState(readClosed)
+  const more = useCollapse()
   const games = (data?.games || []).filter(hasChanges)
   if (!games.length) return null
   const rows = games.flatMap(g => g.changes.map(c => ({ g, c }))).sort((a, b) => b.c.at.localeCompare(a.c.at))
@@ -27,7 +29,7 @@ export default function RecentChanges({ data }) {
       <div style={{ fontSize:12, color:'var(--ink)', marginBottom:10 }}>
         These games' date, kickoff, site or final score changed after they were first posted. Checked against the UIL / MaxPreps brackets every 15 minutes.
       </div>
-      {rows.map(({ g, c }, i) => (
+      {more.cut(rows).map(({ g, c }, i) => (
         <div key={i} style={{ display:'flex', flexWrap:'wrap', gap:'2px 12px', alignItems:'baseline', padding:'6px 0', borderTop: i ? '1px solid rgba(198,40,40,0.2)' : 'none', fontSize:13 }}>
           <strong style={{ minWidth:220 }}>{g.team1} v {g.team2}</strong>
           <span style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)' }}>{g.classification}{g.chapter ? ` · ${g.chapter}` : ''}</span>
@@ -39,6 +41,7 @@ export default function RecentChanges({ data }) {
           <span style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)' }}>now: {[g.site && placeName(g), gameWhen(g)].filter(Boolean).join(' · ')} · detected {fmtWhen(c.at)}</span>
         </div>
       ))}
+      <ShowMore c={more} total={rows.length} noun="changes" />
     </div>
   )
 }

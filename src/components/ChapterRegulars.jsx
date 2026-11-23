@@ -1,6 +1,7 @@
 import React, { useMemo, useState } from 'react'
 import NotAllTime, { SEASONS_ON_FILE, GAPS } from './NotAllTime'
 import { useHomeChapters, useHomeChapterStatus } from '../homeChapters'
+import { useCollapse, ShowMore } from '../ShowMore'
 
 const KNOWN_CHAPTERS = new Set(['ABI','AMA','AUS','BEA','COM','CSC','CTX','DAL','ELP','ETX','FTW','HOU','NTX','PBC','PVC','RGV','SAT','SAN','SFA','SPC','STX','TYL','WAC','WACO'])
 const BAD_NAMES = new Set(['total bracket counts','totals','total','bye','filler',''])
@@ -54,6 +55,7 @@ const RANK_COLORS = ['var(--burnt)', 'var(--gold)', 'var(--steel)']
 export default function ChapterRegulars({ allData, years }) {
   const [regularsChapter, setRegularsChapter] = useState(null)
   const [selectedTeam, setSelectedTeam] = useState(null)
+  const more = useCollapse()
 
   const { teams, allChapterCodes, gameIndex } = useMemo(() => {
     const map = new Map()
@@ -171,7 +173,7 @@ export default function ChapterRegulars({ allData, years }) {
           </div>
 
           <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(280px, 1fr))', gap:8 }}>
-            {chapterRegularsList.map((team, i) => {
+            {more.cut(chapterRegularsList).map((team, i) => {
               const max = chapterRegularsList[0]?.count || 1
               const pct = (team.count / max) * 100
               const rankColor = i < 3 ? RANK_COLORS[i] : 'var(--mid)'
@@ -265,6 +267,7 @@ export default function ChapterRegulars({ allData, years }) {
               )
             })}
           </div>
+          <ShowMore c={more} total={chapterRegularsList.length} noun="teams" />
         </div>
       )}
     </div>

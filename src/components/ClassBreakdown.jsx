@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react'
 import { chapterColor } from '../chapterColors'
+import { useCollapse, ShowMore } from '../ShowMore'
 
 // Which chapters have worked which classifications, across every season on file.
 // Before 2014 UIL's top class was 5A and six-man was its own class; in 2014 every class moved up one
@@ -30,6 +31,7 @@ export default function ClassBreakdown({ allData, years, loadAllYears }) {
   const [modern, setModern] = useState(true)
   const [focus, setFocus] = useState('6A')
   const [pick, setPick] = useState(null)
+  const more = useCollapse()
   useEffect(() => { loadAllYears?.() }, [])
 
   const loaded = years.filter(y => allData[y]?.games?.length)
@@ -131,7 +133,7 @@ export default function ClassBreakdown({ allData, years, loadAllYears }) {
                 {cols.map(c => <td key={c} style={{ ...td, color:'var(--mid)', fontSize:11 }}>{colTotal[c]}</td>)}
                 <td style={{ ...td, color:'var(--mid)', fontSize:11 }}>{allTotal}</td></tr>
             )}
-            {sorted.map(r => (
+            {more.cut(sorted).map(r => (
               <tr key={r.code} onClick={() => setPick(pick === r.code ? null : r.code)} style={{ cursor:'pointer', outline: pick === r.code ? '2px solid var(--burnt)' : 'none', outlineOffset:-2 }}>
                 <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans', whiteSpace:'nowrap' }}>
                   <span style={{ display:'inline-block', width:8, height:8, borderRadius:'50%', background:chapterColor(r.code), marginRight:6 }} />
@@ -144,13 +146,14 @@ export default function ClassBreakdown({ allData, years, loadAllYears }) {
           </tbody>
         </table>
       </div>
+      <ShowMore c={more} total={sorted.length} noun="chapters" />
 
       {sel && <ChapterDetail sel={sel} cols={cols} years={shownYears} />}
 
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6, maxWidth:900 }}>
         Counts only games with a chapter on file. Percentages are each chapter's share of all that class's games in the seasons shown, so each column adds up to 100%; hover a cell for the game count. Red-tinted zeros are classes a chapter didn't work.
         {hasOld && modern && ' 2010 and 2013 are shown in today\'s class names: before 2014 the top class was 5A (today\'s 6A) and six-man was its own class (today\'s 1A).'}
-        {' '}The 2026 season is still in progress.
+        {shownYears.filter(y => allData[y]?.season?.status === 'in_progress').map(y => ` The ${y} season is still in progress.`)}
       </div>
     </div>
   )

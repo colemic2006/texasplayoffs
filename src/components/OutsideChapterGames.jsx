@@ -4,6 +4,7 @@ import { useHomeChapters, useHomeChapterStatus } from '../homeChapters'
 import { roundTripMiles } from '../chapterCenters'
 import { chapterColor } from '../chapterColors'
 import { placeName } from '../placeName'
+import { useCollapse, ShowMore } from '../ShowMore'
 
 const ROUNDS = { 1: 'Bi-District', 2: 'Area', 3: 'Regionals', 4: 'Quarterfinals', 5: 'Semifinals', 6: 'State Final' }
 const fmt = n => Math.round(n).toLocaleString()
@@ -12,6 +13,7 @@ const fmt = n => Math.round(n).toLocaleString()
 export default function OutsideChapterGames({ data }) {
   const home = useHomeChapters(data?.games?.[0]?.year)
   const status = useHomeChapterStatus()
+  const more = useCollapse()
   const names = { ELP: 'El Paso', BEA: 'Beaumont', COM: 'Commerce', PVC: 'Pecan Valley', STX: 'South Texas', RGV: 'Rio Grande Valley', DAL: 'Dallas', FTW: 'Fort Worth', WAC: 'Waco', CSC: 'College Station', ...Object.fromEntries((data?.chapters || []).map(c => [c.code, c.name])) }
   const name = c => names[c] || c
   const { rows, shared, listed } = useMemo(() => {
@@ -57,7 +59,7 @@ export default function OutsideChapterGames({ data }) {
               <th style={{ ...th, textAlign:'right' }}>Round trip</th><th style={{ ...th, textAlign:'right' }}>Extra miles</th>
             </tr></thead>
             <tbody>
-              {rows.map((r, i) => (
+              {more.cut(rows).map((r, i) => (
                 <tr key={i}>
                   <td style={{ ...td, fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', whiteSpace:'nowrap' }}>{roundName(r)}</td>
                   <td style={td}>
@@ -76,6 +78,7 @@ export default function OutsideChapterGames({ data }) {
           </table>
         </div>
       )}
+      <ShowMore c={more} total={rows.length} noun="games" />
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6 }}>
         {status.missing.length > 0 && <>Still waiting on school lists from: {status.missing.map(name).join(', ')}.{' '}</>}
         {status.partial.length > 0 && <>Partial list so far: {status.partial.map(name).join(', ')}.{' '}</>}

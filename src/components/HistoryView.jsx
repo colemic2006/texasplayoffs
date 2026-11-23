@@ -1,5 +1,6 @@
 import React, { useState, useMemo, useEffect } from 'react'
 import NotAllTime, { SEASONS_ON_FILE, GAPS } from './NotAllTime'
+import { useCollapse, ShowMore } from '../ShowMore'
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend } from 'recharts'
 
 const CHAPTER_COLORS = [
@@ -188,8 +189,10 @@ export default function HistoryView({ allData, years, loadYear }) {
 
 function ComparisonTable({ allData, years, allChapters }) {
   const sortedYears = [...years].sort()
+  const more = useCollapse()
 
   return (
+    <>
     <div style={{ overflow:'auto', borderRadius:10, border:'1px solid var(--border)' }}>
       <table style={{ width:'100%', borderCollapse:'collapse', fontSize:11, background:'var(--surface)', minWidth:600 }}>
         <thead>
@@ -202,7 +205,7 @@ function ComparisonTable({ allData, years, allChapters }) {
           </tr>
         </thead>
         <tbody>
-          {allChapters.map((code, idx) => {
+          {more.cut(allChapters).map((code, idx) => {
             const vals = sortedYears.map(y => {
               const ch = allData[y]?.chapters?.find(c => c.code === code)
               return ch?.total || 0
@@ -250,6 +253,8 @@ function ComparisonTable({ allData, years, allChapters }) {
         </tbody>
       </table>
     </div>
+    <ShowMore c={more} total={allChapters.length} noun="chapters" />
+    </>
   )
 }
 

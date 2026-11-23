@@ -3,6 +3,8 @@ import { chapterColor } from '../chapterColors'
 import { weekLabel, roundName } from '../roundName'
 import { CHAPTER_CENTERS, straightMiles } from '../chapterCenters'
 import { useHomeChaptersByYear } from '../homeChapters'
+import { roundsToShow, isInProgress, upcomingBtn, upcomingCell, UPCOMING, UPCOMING_TIP } from '../upcoming'
+import { useCollapse, ShowMore } from '../ShowMore'
 
 // Cards on the Coverage Map page that follow from the playoff footprints: chapters trading
 // territory, who works El Paso's games, the big chapters' growing share, which chapters' schools
@@ -48,12 +50,15 @@ function Card({ kicker, title, intro, children }) {
 }
 
 // round buttons: each round played, or every round so far
-function RoundPick({ weeks, wk, setWk }) {
+// (rounds not played yet show as placeholders while the season is in progress)
+function RoundPick({ weeks, wk, setWk, inProgress }) {
   return (
     <div style={{ display:'flex', gap:4, flexWrap:'wrap', marginBottom:10 }}>
       <span style={lab}>Round:</span>
       <button onClick={() => setWk('all')} style={btn(wk === 'all')}>All rounds so far</button>
-      {weeks.map(w => <button key={w} onClick={() => setWk(w)} style={btn(wk === w)}>{weekLabel(w, ROUNDS[w])}</button>)}
+      {roundsToShow(weeks, inProgress).map(w => weeks.includes(w)
+        ? <button key={w} onClick={() => setWk(w)} style={btn(wk === w)}>{weekLabel(w, ROUNDS[w])}</button>
+        : <button key={w} disabled title={UPCOMING_TIP} style={upcomingBtn(btn(false))}>{weekLabel(w, ROUNDS[w])}</button>)}
     </div>
   )
 }
@@ -66,19 +71,20 @@ function Trade({ a, b, data, allData, seasons, byYear }) {
   const games = data?.games || [], year = games[0]?.year
   const weeks = [...new Set(games.filter(g => g.chapter).map(g => g.week))].sort((x, y) => x - y)
   const [wk, setWk] = useState('all')
+  const moreAB = useCollapse(), moreBA = useCollapse(), moreHist = useCollapse()
   const hm = byYear(year)
   // games chapter x worked with a school from y's area and none from its own
   const into = (gs, hmap, x, y) => gs.filter(g => code(g.chapter) === x && homes(g, hmap).includes(y) && !homes(g, hmap).includes(x))
   const now = games.filter(g => wk === 'all' || g.week === wk)
   const ab = into(now, hm, a, b), ba = into(now, hm, b, a)
   const history = seasons.map(y => { const gs = allData[y]?.games || [], m = byYear(y); return { y, ab: into(gs, m, a, b).length, ba: into(gs, m, b, a).length } })
-  const list = (gs, c) => (
+  const list = (gs, c, more) => (
     <div style={{ ...box, flex:'1 1 400px', padding:'10px 14px' }}>
       <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--mid)', marginBottom:6 }}>
         {dot(c)}{name(c)} working {name(c === a ? b : a)}-area schools · {gs.length}
       </div>
       {gs.length === 0 && <div style={{ fontSize:12, color:'var(--mid)' }}>None.</div>}
-      {[...gs].sort((x, y) => x.week - y.week || (away(c, y) || 0) - (away(c, x) || 0)).map((g, i) => {
+      {more.cut([...gs].sort((x, y) => x.week - y.week || (away(c, y) || 0) - (away(c, x) || 0))).map((g, i) => {
         const m = away(c, g)
         return (
           <div key={i} style={{ display:'flex', gap:8, flexWrap:'wrap', fontSize:12, padding:'4px 0', borderTop: i ? '1px dashed var(--border)' : 'none' }}>
@@ -88,27 +94,29 @@ function Trade({ a, b, data, allData, seasons, byYear }) {
           </div>
         )
       })}
+      <ShowMore c={more} total={gs.length} noun="games" />
     </div>
   )
   return (
     <Card kicker="Trading territory" title={`${name(a)} and ${name(b)} Work Each Other's Schools`}
       intro={<>Coaches in one chapter's area keep choosing the other chapter, and the other way round. Counted here: games one chapter worked that had a school from the other's area and none from its own.</>}>
-      <RoundPick weeks={weeks} wk={wk} setWk={setWk} />
+      <RoundPick weeks={weeks} wk={wk} setWk={setWk} inProgress={isInProgress(data)} />
       <div style={{ fontSize:15, color:'var(--ink)', lineHeight:1.6, margin:'4px 0 12px', maxWidth:900 }}>
         {wk === 'all' ? `In the ${year} playoffs so far` : `In ${weekLabel(wk, ROUNDS[wk])}`}, <strong>{name(a)}</strong> worked <strong>{ab.length}</strong> games with {name(b)}-area schools,
         and <strong>{name(b)}</strong> worked <strong>{ba.length}</strong> with {name(a)}-area schools.
       </div>
-      <div style={{ display:'flex', gap:14, flexWrap:'wrap' }}>{list(ab, a)}{list(ba, b)}</div>
+      <div style={{ display:'flex', gap:14, flexWrap:'wrap' }}>{list(ab, a, moreAB)}{list(ba, b, moreBA)}</div>
       {seasons.length > 1 && (
         <div style={{ ...box, marginTop:12, maxWidth:560 }}>
           <table style={{ width:'100%', borderCollapse:'collapse' }}>
             <thead><tr><th style={{ ...th, textAlign:'left' }}>Season</th><th style={th}>{name(a)} → {name(b)} schools</th><th style={th}>{name(b)} → {name(a)} schools</th></tr></thead>
-            <tbody>{[...history].reverse().map(h => (
+            <tbody>{moreHist.cut([...history].reverse()).map(h => (
               <tr key={h.y}><td style={{ ...td, textAlign:'left' }}>{h.y}</td><td style={td}>{h.ab}</td><td style={td}>{h.ba}</td></tr>
             ))}</tbody>
           </table>
         </div>
       )}
+      {seasons.length > 1 && <ShowMore c={moreHist} total={history.length} noun="seasons" />}
       <div style={note}>Schools are placed in a chapter's area by the home-chapter lists (as they were each season). Miles are straight-line from the working chapter's main city to the game site.
         Every playoff round in each season on file is counted in the season table.</div>
     </Card>
@@ -120,6 +128,7 @@ const EP = [31.76, -106.49], EP_MILES = 35   // El Paso and its suburbs (Canutil
 const inEP = g => g.lat != null && straightMiles(EP[0], EP[1], g.lat, g.lng) <= EP_MILES
 function ElPaso({ data, allData, seasons, byYear }) {
   const year = data?.games?.[0]?.year
+  const moreRows = useCollapse(), moreNow = useCollapse()
   const withSites = seasons.filter(y => (allData[y]?.games || []).some(g => g.lat != null))
   const rows = withSites.map(y => {
     const m = byYear(y), all = allData[y]?.games || []
@@ -142,7 +151,7 @@ function ElPaso({ data, allData, seasons, byYear }) {
       <div style={{ ...box, marginBottom:12 }}>
         <table style={{ width:'100%', borderCollapse:'collapse', minWidth:620 }}>
           <thead><tr><th style={{ ...th, textAlign:'left' }}>Season</th><th style={th}>Games played in El Paso area</th><th style={th}>Worked by El Paso</th><th style={{ ...th, textAlign:'left' }}>Worked by others</th><th style={th}>El Paso-school games, no site on file</th></tr></thead>
-          <tbody>{[...rows].reverse().map(r => (
+          <tbody>{moreRows.cut([...rows].reverse()).map(r => (
             <tr key={r.y}>
               <td style={{ ...td, textAlign:'left' }}>{r.y}</td>
               <td style={td}>{r.n}</td>
@@ -152,11 +161,12 @@ function ElPaso({ data, allData, seasons, byYear }) {
             </tr>
           ))}</tbody>
         </table>
+        <ShowMore c={moreRows} total={rows.length} noun="seasons" style={{ margin:'8px 10px' }} />
       </div>
       <div style={{ ...box, padding:'10px 14px' }}>
         <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--mid)', marginBottom:6 }}>{year} games played in the El Paso area</div>
         {now.length === 0 && <div style={{ fontSize:12, color:'var(--mid)' }}>None on file yet.</div>}
-        {now.map((g, i) => {
+        {moreNow.cut(now).map((g, i) => {
           const c = code(g.chapter), mi = c ? away(c, g) : null
           return (
             <div key={i} style={{ display:'flex', gap:10, flexWrap:'wrap', alignItems:'center', fontSize:12, padding:'5px 0', borderTop: i ? '1px dashed var(--border)' : 'none' }}>
@@ -168,6 +178,7 @@ function ElPaso({ data, allData, seasons, byYear }) {
             </div>
           )
         })}
+        <ShowMore c={moreNow} total={now.length} noun="games" />
       </div>
       <div style={note}>"El Paso area" = a game site within {EP_MILES} miles of downtown El Paso. Game sites are on file from {withSites[0]} on; for 2022–2025, first-round sites
         are only partly on file, so games played in El Paso are undercounted there (the last column counts games with an El Paso school whose site isn't on file).
@@ -181,14 +192,17 @@ function ElPaso({ data, allData, seasons, byYear }) {
 function BigShare({ data, allData, seasons }) {
   const year = data?.games?.[0]?.year
   const [span, setSpan] = useState('season')
+  const more = useCollapse()
   const ys = span === 'season' ? [year] : seasons
   const gs = ys.flatMap(y => (allData[y]?.games || (y === year ? data.games : [])).filter(g => g.chapter))
-  const weeks = [...new Set(gs.map(g => g.week))].sort((a, b) => a - b)
+  const played = [...new Set(gs.map(g => g.week))].sort((a, b) => a - b)
+  const weeks = roundsToShow(played, span === 'season' && isInProgress(data))
   const count = {}, tot = {}
   for (const g of gs) { const c = code(g.chapter); (count[c] = count[c] || {})[g.week] = (count[c][g.week] || 0) + 1; tot[g.week] = (tot[g.week] || 0) + 1 }
   const big = w => BIG.reduce((t, c) => t + (count[c]?.[w] || 0), 0)
   const chs = Object.keys(count).sort((a, b) => BIG.includes(b) - BIG.includes(a) || (weeks.reduce((t, w) => t + (count[b][w] || 0), 0) - weeks.reduce((t, w) => t + (count[a][w] || 0), 0)))
-  const first = weeks[0], last = weeks[weeks.length - 1]
+  const first = played[0], last = played[played.length - 1]
+  const later = w => !tot[w]   // a round not played yet: a placeholder column
   return (
     <Card kicker="Deeper runs, fewer chapters" title="The Big Four's Share Grows Each Round"
       intro={<>Houston, Dallas, Fort Worth and San Antonio work a bigger share of the games every round, while smaller chapters drop out of the later rounds altogether.</>}>
@@ -197,34 +211,36 @@ function BigShare({ data, allData, seasons }) {
         <button onClick={() => setSpan('season')} style={btn(span === 'season')}>{year} season</button>
         <button onClick={() => setSpan('all')} style={btn(span === 'all')}>All seasons on file</button>
       </div>
-      {weeks.length > 1 && (
+      {played.length > 1 && (
         <div style={{ fontSize:15, color:'var(--ink)', lineHeight:1.6, margin:'4px 0 12px', maxWidth:900 }}>
           The big four worked <strong>{pct(big(first), tot[first])}%</strong> of {weekLabel(first, ROUNDS[first])} games and <strong>{pct(big(last), tot[last])}%</strong> of {weekLabel(last, ROUNDS[last])}.
         </div>
       )}
       <div style={box}>
         <table style={{ width:'100%', borderCollapse:'collapse', minWidth:560 }}>
-          <thead><tr><th style={{ ...th, textAlign:'left' }}>Chapter</th>{weeks.map(w => <th key={w} style={th}>{ROUNDS[w] || `Week ${w}`}</th>)}</tr></thead>
+          <thead><tr><th style={{ ...th, textAlign:'left' }}>Chapter</th>{weeks.map(w => <th key={w} style={{ ...th, ...(later(w) ? { opacity:0.55 } : {}) }} title={later(w) ? UPCOMING_TIP : undefined}>{ROUNDS[w] || `Week ${w}`}</th>)}</tr></thead>
           <tbody>
             <tr style={{ background:'rgba(253,208,35,0.22)' }}>
               <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans', fontWeight:700 }}>Big four share</td>
-              {weeks.map(w => <td key={w} style={{ ...td, fontWeight:700 }}>{pct(big(w), tot[w])}%</td>)}
+              {weeks.map(w => later(w) ? <td key={w} style={{ ...td, ...upcomingCell }}>{UPCOMING}</td> : <td key={w} style={{ ...td, fontWeight:700 }}>{pct(big(w), tot[w])}%</td>)}
             </tr>
-            {chs.map(c => (
+            {more.cut(chs).map(c => (
               <tr key={c} style={{ background: BIG.includes(c) ? 'rgba(80,140,90,0.06)' : 'transparent' }}>
                 <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans', whiteSpace:'nowrap', fontWeight: BIG.includes(c) ? 600 : 400 }}>{dot(c)}{name(c)}</td>
                 {weeks.map(w => {
+                  if (later(w)) return <td key={w} style={{ ...td, ...upcomingCell }} />
                   const n = count[c][w] || 0
                   return <td key={w} style={{ ...td, color: n ? 'var(--ink)' : 'var(--burnt)' }}>{n ? <>{n} <span style={{ color:'var(--mid)', fontSize:10 }}>{pct(n, tot[w])}%</span></> : '—'}</td>
                 })}
               </tr>
             ))}
-            <tr><td style={{ ...td, textAlign:'left', fontFamily:'DM Sans', color:'var(--mid)' }}>Games with a chapter</td>{weeks.map(w => <td key={w} style={{ ...td, color:'var(--mid)' }}>{tot[w]}</td>)}</tr>
+            <tr><td style={{ ...td, textAlign:'left', fontFamily:'DM Sans', color:'var(--mid)' }}>Games with a chapter</td>{weeks.map(w => <td key={w} style={{ ...td, color:'var(--mid)', ...(later(w) ? upcomingCell : {}) }}>{tot[w] || ''}</td>)}</tr>
           </tbody>
         </table>
       </div>
+      <ShowMore c={more} total={chs.length} noun="chapters" />
       <div style={note}>Counts games with a chapter on file; each cell is the chapter's games and its share of that round. Rounds are by week, so 1A's rounds sit in the same column as the week they're played.
-        {span === 'all' && ` Seasons on file: ${seasons.join(', ')}.`}</div>
+        {span === 'all' && ` Seasons on file: ${seasons.join(', ')}.`}{weeks.some(later) && ' Rounds not played yet are shown as placeholders and fill in as games come in.'}</div>
     </Card>
   )
 }
@@ -234,6 +250,7 @@ function StayHome({ data, byYear }) {
   const games = data?.games || [], year = games[0]?.year
   const weeks = [...new Set(games.filter(g => g.chapter).map(g => g.week))].sort((a, b) => a - b)
   const [wk, setWk] = useState('all')
+  const more = useCollapse()
   const hm = byYear(year)
   const now = games.filter(g => g.chapter && (wk === 'all' || g.week === wk))
   const rows = Object.keys(NAMES).map(c => {
@@ -247,7 +264,7 @@ function StayHome({ data, byYear }) {
   return (
     <Card kicker="Home crews" title="Which Chapters' Schools Stay Home"
       intro={<>For each chapter: of the playoff games its own schools played, how many it worked, and where the rest went. A chapter can work plenty of games and still lose many of its own schools' games to other chapters.</>}>
-      <RoundPick weeks={weeks} wk={wk} setWk={setWk} />
+      <RoundPick weeks={weeks} wk={wk} setWk={setWk} inProgress={isInProgress(data)} />
       <div style={box}>
         <table style={{ width:'100%', borderCollapse:'collapse', minWidth:720 }}>
           <thead><tr>
@@ -258,7 +275,7 @@ function StayHome({ data, byYear }) {
             <th style={th}>Games it worked</th>
             <th style={th}>…with its own school</th>
           </tr></thead>
-          <tbody>{rows.map(r => (
+          <tbody>{more.cut(rows).map(r => (
             <tr key={r.c}>
               <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans', whiteSpace:'nowrap' }}>{dot(r.c)}{name(r.c)}</td>
               <td style={td}>{r.mine}</td>
@@ -270,6 +287,7 @@ function StayHome({ data, byYear }) {
           ))}</tbody>
         </table>
       </div>
+      <ShowMore c={more} total={rows.length} noun="chapters" />
       <div style={note}>{year} season, games with a chapter on file. "Its schools" = schools on the chapter's home list; a game between two of its schools counts once.
         Some chapters' lists are still incomplete, so their schools' games are undercounted.</div>
     </Card>
@@ -281,6 +299,7 @@ function Reach({ data }) {
   const games = data?.games || [], year = games[0]?.year
   const weeks = [...new Set(games.filter(g => g.chapter).map(g => g.week))].sort((a, b) => a - b)
   const [wk, setWk] = useState('all')
+  const more = useCollapse()
   const now = games.filter(g => g.chapter && g.lat != null && (wk === 'all' || g.week === wk))
   const by = {}
   for (const g of now) { const c = code(g.chapter), m = away(c, g); if (m != null) (by[c] = by[c] || []).push({ g, m }) }
@@ -292,7 +311,7 @@ function Reach({ data }) {
   return (
     <Card kicker="Reach" title="How Far Each Chapter Travels"
       intro={<>How far each chapter's crews went from their home city to the games they worked: the typical (median) trip, how many were over 100 miles, and the farthest.</>}>
-      <RoundPick weeks={weeks} wk={wk} setWk={setWk} />
+      <RoundPick weeks={weeks} wk={wk} setWk={setWk} inProgress={isInProgress(data)} />
       <div style={box}>
         <table style={{ width:'100%', borderCollapse:'collapse', minWidth:760 }}>
           <thead><tr>
@@ -303,7 +322,7 @@ function Reach({ data }) {
             <th style={{ ...th, textAlign:'left', width:'22%' }}><span style={{ color:'#9B79D2' }}>■</span> median <span style={{ color:'var(--burnt)', marginLeft:6 }}>■</span> farthest</th>
             <th style={{ ...th, textAlign:'left' }}>Farthest game</th>
           </tr></thead>
-          <tbody>{rows.map(r => (
+          <tbody>{more.cut(rows).map(r => (
             <tr key={r.c}>
               <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans', whiteSpace:'nowrap' }}>{dot(r.c)}{name(r.c)}</td>
               <td style={td}>{r.n}</td>
@@ -318,6 +337,7 @@ function Reach({ data }) {
           ))}</tbody>
         </table>
       </div>
+      <ShowMore c={more} total={rows.length} noun="chapters" />
       <div style={note}>{year} season, games with a chapter and a mapped site. Miles are straight-line, one way, from the chapter's main city to the game site; driving miles run about 20% more.
         Crews come from all over a chapter's area, so a chapter's main city is an estimate of where they start.</div>
     </Card>

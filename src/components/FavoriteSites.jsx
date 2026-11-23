@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react'
 import { chapterColor } from '../chapterColors'
 import { placeName } from '../placeName'
+import { useCollapse, ShowMore } from '../ShowMore'
 
 // Each chapter's most-worked playoff sites. Games at the same stadium share a map pin, so they're
 // grouped by spot (to ~100 m) rather than by how the site was written. Uses every season that has
@@ -16,6 +17,7 @@ export default function FavoriteSites({ data, allData, loadAllYears }) {
   const [open, setOpen] = useState(null)
   const [allSites, setAllSites] = useState(false)   // in an opened chapter, also list sites worked only once
   const [span, setSpan] = useState('all')   // 'all' seasons with sites, or 'year' (the season being viewed)
+  const more = useCollapse()
   useEffect(() => { loadAllYears?.() }, [])
   const thisYear = data?.games?.[0]?.year
   const seasons = useMemo(() => {
@@ -71,7 +73,7 @@ export default function FavoriteSites({ data, allData, loadAllYears }) {
             <th style={{ ...th, textAlign:'right' }}>Games there</th><th style={{ ...th, textAlign:'right' }}>Sites worked</th>
           </tr></thead>
           <tbody>
-            {rows.map(r => {
+            {more.cut(rows).map(r => {
               const n = r.top[0].n, isOpen = open === r.code
               return (
                 <React.Fragment key={r.code}>
@@ -115,6 +117,7 @@ export default function FavoriteSites({ data, allData, loadAllYears }) {
           </tbody>
         </table>
       </div>
+      <ShowMore c={more} total={rows.length} noun="chapters" />
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6 }}>
         Counts games with a chapter and a mapped site; games at the same stadium are counted together however the site was listed.
         Sites for 2022–2025 come from the site owner's bracket workbooks, which list sites from the Area round on, so first-round games from those seasons aren't counted. Seasons before 2022 aren't included.

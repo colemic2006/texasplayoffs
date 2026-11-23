@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react'
 import { chapterColor } from '../chapterColors'
+import { useCollapse, ShowMore } from '../ShowMore'
 
 // Share of state championship games vs share of all playoff games, by chapter and class.
 // Before 2014 UIL's classes were one step lower (old 5A = today's 6A ... six-man = today's 1A);
@@ -24,6 +25,7 @@ export default function ChampShare({ allData = {}, years = [], loadAllYears }) {
   const [cls, setCls] = useState('all')
   const [span, setSpan] = useState('all')   // 'all' | 'onfile' | a season
   const [open, setOpen] = useState(null)   // chapter whose finals are listed
+  const more = useCollapse()
   useEffect(() => {
     loadAllYears?.()
     fetch(`${import.meta.env.BASE_URL}data/championship_games.json?v=${__BUILD_TIME__}`).then(r => r.ok ? r.json() : null).then(setFinals).catch(() => setFinals({}))
@@ -141,7 +143,7 @@ export default function ChampShare({ allData = {}, years = [], loadAllYears }) {
             <th style={{ ...th, width:'26%', textAlign:'left' }}><span style={{ color:'#9B79D2' }}>■</span> playoffs <span style={{ color:'var(--burnt)', marginLeft:6 }}>■</span> finals</th>
           </tr></thead>
           <tbody>
-            {rows.map(r => {
+            {more.cut(rows).map(r => {
               const hot = r.cw >= 3 && r.ratio >= 1.5, cold = r.expected >= 3 && r.ratio <= 0.5
               return (
                 <React.Fragment key={r.c}>
@@ -180,6 +182,7 @@ export default function ChampShare({ allData = {}, years = [], loadAllYears }) {
           </tbody>
         </table>
       </div>
+      <ShowMore c={more} total={rows.length} noun="chapters" />
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6, maxWidth:900 }}>
         "Expected" = the chapter's share of that class's playoff games × the number of finals. Sorted by finals above expected. Click a chapter to list its finals. Highlighted: at least 3 finals and
         1.5× or more its playoff share (green), or at least 3 expected and half or less (red). Only {ct} finals {cls === 'all' ? 'in all' : `in ${cls}`}, so one or two games

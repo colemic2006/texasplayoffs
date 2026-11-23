@@ -3,8 +3,10 @@ import { addBaseLayers } from '../baseLayers'
 import 'leaflet/dist/leaflet.css'
 import { chapterColor } from '../chapterColors'
 import { weekLabel } from '../roundName'
+import { roundsToShow, isInProgress, upcomingBtn, UPCOMING_TIP } from '../upcoming'
 import { CHAPTER_CENTERS } from '../chapterCenters'
 import { hull, median, miles } from './ChapterCoverageMap'
+import { useCollapse, ShowMore } from '../ShowMore'
 
 // Where each chapter worked playoff games, round by round: the outline around its game sites
 // (its playoff footprint), or lines from the chapter's home city to each site, set against the
@@ -37,6 +39,7 @@ export default function PlayoffFootprint({ data }) {
   const [pick, setPick] = useState(null)
   const [home, setHome] = useState(true)   // show the chapter's regular-season area
   const [schools, setSchools] = useState(null)
+  const more = useCollapse()
   const mapEl = useRef(null), map = useRef(null), layer = useRef(null)
   const wk = week ?? weeks[weeks.length - 1]
 
@@ -160,7 +163,9 @@ export default function PlayoffFootprint({ data }) {
       </div>
       <div style={{ display:'flex', gap:4, flexWrap:'wrap', marginBottom:6 }}>
         <span style={lab}>Round:</span>
-        {weeks.map(w => <button key={w} onClick={() => setWeek(w)} style={chip(wk === w, 'var(--burnt)')}>{weekLabel(w, ROUNDS[w])}</button>)}
+        {roundsToShow(weeks, isInProgress(data)).map(w => weeks.includes(w)
+          ? <button key={w} onClick={() => setWeek(w)} style={chip(wk === w, 'var(--burnt)')}>{weekLabel(w, ROUNDS[w])}</button>
+          : <button key={w} disabled title={UPCOMING_TIP} style={upcomingBtn(chip(false))}>{weekLabel(w, ROUNDS[w])}</button>)}
         <button onClick={() => setWeek('all')} style={chip(wk === 'all', 'var(--burnt)')}>All rounds so far</button>
       </div>
       <div style={{ display:'flex', gap:4, flexWrap:'wrap', marginBottom:6 }}>
@@ -195,7 +200,7 @@ export default function PlayoffFootprint({ data }) {
             <th style={{ ...th, textAlign:'left' }}>Farthest game</th>
           </tr></thead>
           <tbody>
-            {rows.map(r => (
+            {more.cut(rows).map(r => (
               <tr key={r.c} onClick={() => setPick(pick === r.c ? null : r.c)} style={{ cursor:'pointer', background: pick === r.c ? 'rgba(253,208,35,0.18)' : 'transparent' }}>
                 <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans', whiteSpace:'nowrap' }}>
                   <span style={{ display:'inline-block', width:8, height:8, borderRadius:'50%', background:chapterColor(r.c), marginRight:6 }} />{NAMES[r.c] || r.c}</td>
@@ -208,6 +213,7 @@ export default function PlayoffFootprint({ data }) {
           </tbody>
         </table>
       </div>
+      <ShowMore c={more} total={rows.length} noun="chapters" />
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6 }}>
         {data?.games?.[0]?.year} season. Only games with a chapter and a mapped site are shown ({total} {wk === 'all' ? 'so far' : 'this round'}). "Own area" is the outline around the chapter's schools on the map above;
         chapters without a school list on file show —. Miles are straight-line from the chapter's main city. Click a row, an outline or a chapter button to focus on one chapter.

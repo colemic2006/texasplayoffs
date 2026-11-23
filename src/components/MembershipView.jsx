@@ -6,6 +6,7 @@ import { chapterColor } from '../chapterColors'
 import { CHAPTER_CENTERS } from '../chapterCenters'
 import CoverageDensity from './CoverageDensity'
 import SizeVsShare from './SizeVsShare'
+import { useCollapse, ShowMore } from '../ShowMore'
 
 const NAMES = {
   ABI:'Abilene', AMA:'Amarillo', AUS:'Austin', BEA:'Southeast Texas (Beaumont)', COM:'Commerce', CSC:'College Station',
@@ -19,6 +20,7 @@ export default function MembershipView({ allData, years, loadAllYears }) {
   const [d, setD] = useState(null)
   const [st, setSt] = useState(null)
   const [sites, setSites] = useState([])
+  const more = useCollapse()
   useEffect(() => {
     const get = f => fetch(`${import.meta.env.BASE_URL}data/${f}?v=${__BUILD_TIME__}`).then(r => r.ok ? r.json() : null)
     get('membership.json').then(setD).catch(() => {})
@@ -69,7 +71,7 @@ export default function MembershipView({ allData, years, loadAllYears }) {
             <th style={{ ...th, width:'40%' }}></th>
           </tr></thead>
           <tbody>
-            {rows.map(([c, n]) => (
+            {more.cut(rows).map(([c, n]) => (
               <tr key={c}>
                 <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans' }}>
                   <span style={{ display:'inline-block', width:9, height:9, borderRadius:2, background:chapterColor(c), marginRight:8 }} />
@@ -91,6 +93,7 @@ export default function MembershipView({ allData, years, loadAllYears }) {
           </tbody>
         </table>
       </div>
+      <ShowMore c={more} total={rows.length} noun="chapters" />
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8 }}>{d.source}.</div>
       <CoverageDensity members={d.members} />
       <SizeVsShare members={d.members} history={d.history} allData={allData} years={years} loadAllYears={loadAllYears} />
@@ -107,6 +110,7 @@ const name = c => NAMES[c] || c
 const MERGED = { ETX: 'TYL' }
 function MembershipHistory({ d, th, td }) {
   const years = Object.keys(d.history).sort()
+  const more = useCollapse()
   const first = years[0]
   const past = (y, c) => {
     const h = d.history[y] || {}
@@ -127,7 +131,7 @@ function MembershipHistory({ d, th, td }) {
   return (
     <Section label="Over time" title={`Membership, ${years.join(', ')} vs ${d.season}`}
       intro={`How each chapter's football membership has changed since ${first}. Green is growth, red is a decline.`}
-      note={d.history_note}>
+      note={d.history_note} after={<ShowMore c={more} total={rows.length} noun="chapters" />}>
       <table style={{ width:'100%', borderCollapse:'collapse' }}>
         <thead><tr>
           <th style={{ ...th, textAlign:'left' }}>Chapter</th>
@@ -135,7 +139,7 @@ function MembershipHistory({ d, th, td }) {
           <th style={th}>{d.season}</th><th style={th}>Change</th><th style={th}>% change</th>
         </tr></thead>
         <tbody>
-          {rows.map(([c, n]) => (
+          {more.cut(rows).map(([c, n]) => (
             <tr key={c}>
               <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans' }}><Dot c={c} />{name(c)}
                 <span style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginLeft:4 }}>{c}</span></td>
@@ -170,7 +174,7 @@ function MembershipHistory({ d, th, td }) {
 const Dot = ({ c }) => <span style={{ display:'inline-block', width:9, height:9, borderRadius:2, background:chapterColor(c), marginRight:8 }} />
 const fmt1 = n => (Math.round(n * 10) / 10).toFixed(1)
 
-function Section({ label, title, intro, children, note }) {
+function Section({ label, title, intro, children, note, after }) {
   return (
     <div style={{ marginTop:40 }}>
       <div style={{ fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.18em', textTransform:'uppercase', color:'var(--mid)', marginBottom:6 }}>{label}</div>
@@ -179,6 +183,7 @@ function Section({ label, title, intro, children, note }) {
       </div>
       <div style={{ fontSize:13, color:'var(--mid)', lineHeight:1.55, margin:'8px 0 12px', maxWidth:820 }}>{intro}</div>
       <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, overflowX:'auto' }}>{children}</div>
+      {after}
       {note && <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6 }}>{note}</div>}
     </div>
   )
@@ -197,6 +202,7 @@ function MembershipStats({ st, th, td }) {
   const perHist = c => 100 * c.hist_games / c.members / (st.history_seasons || 5)
   const avgSeason = 100 * T.season_games / T.members, avgHist = 100 * T.hist_games / T.members / (st.history_seasons || 5)
   const complete = new Set(st.complete_lists)
+  const moreWork = useCollapse(), moreCover = useCollapse(), moreLate = useCollapse()
   const work = [...ch].sort((a, b) => perSeason(b[1]) - perSeason(a[1]))
   const cover = [...ch].sort((a, b) => (complete.has(b[0]) - complete.has(a[0])) || (b[1].counties / b[1].members) - (a[1].counties / a[1].members))
   const late = [...ch].sort((a, b) => (b[1].late_games / T.late_games / share(b[1])) - (a[1].late_games / T.late_games / share(a[1])))
@@ -204,14 +210,15 @@ function MembershipStats({ st, th, td }) {
     <>
       <Section label="Workload" title="Playoff Games per 100 Members"
         intro={<>How many playoff games each chapter works for its size. Statewide: <strong>{fmt1(avgSeason)}</strong> games per 100 members this season so far, and <strong>{fmt1(avgHist)}</strong> per season across the {st.history_seasons} seasons on file ({(st.history_years || []).join(', ')}).</>}
-        note={`1.00x = the chapter's share of games matches its share of members. ${st.season} counts only rounds whose assignments are at least 90% in${st.season_weeks?.length ? ` (so far: week ${st.season_weeks.join(', ')})` : ''}, so a chapter that sends its list early isn't compared with ones that haven't yet.`}>
+        note={`1.00x = the chapter's share of games matches its share of members. ${st.season} counts only rounds whose assignments are at least 90% in${st.season_weeks?.length ? ` (so far: week ${st.season_weeks.join(', ')})` : ''}, so a chapter that sends its list early isn't compared with ones that haven't yet.`}
+        after={<ShowMore c={moreWork} total={work.length} noun="chapters" />}>
         <table style={{ width:'100%', borderCollapse:'collapse' }}>
           <thead><tr>
             <th style={{ ...th, textAlign:'left' }}>Chapter</th><th style={th}>Members</th>
             <th style={th}>{st.season} games{st.season_weeks?.length ? ` (wk ${st.season_weeks.join(', ')})` : ''}</th><th style={th}>Per 100 members</th><th style={th}>vs. size</th>
             <th style={th}>All seasons on file ({st.history_seasons})</th><th style={th}>Per 100 / season</th><th style={th}>vs. size</th>
           </tr></thead>
-          <tbody>{work.map(([c, x]) => (
+          <tbody>{moreWork.cut(work).map(([c, x]) => (
             <tr key={c}>
               <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans' }}><Dot c={c} />{name(c)}</td>
               <td style={td}>{x.members.toLocaleString()}</td>
@@ -225,13 +232,14 @@ function MembershipStats({ st, th, td }) {
 
       <Section label="Coverage" title="Members per School and County"
         intro="How thinly each chapter's officials are spread over the schools it covers in the regular season. Counties are the counties those schools' stadiums are in."
-        note="Only chapters that have sent their full school list are shown with numbers; the rest are marked list pending.">
+        note="Only chapters that have sent their full school list are shown with numbers; the rest are marked list pending."
+        after={<ShowMore c={moreCover} total={cover.length} noun="chapters" />}>
         <table style={{ width:'100%', borderCollapse:'collapse' }}>
           <thead><tr>
             <th style={{ ...th, textAlign:'left' }}>Chapter</th><th style={th}>Members</th><th style={th}>Home schools</th>
             <th style={th}>Members per school</th><th style={th}>Counties</th><th style={th}>Counties per 100 members</th>
           </tr></thead>
-          <tbody>{cover.map(([c, x]) => complete.has(c) ? (
+          <tbody>{moreCover.cut(cover).map(([c, x]) => complete.has(c) ? (
             <tr key={c}>
               <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans' }}><Dot c={c} />{name(c)}</td>
               <td style={td}>{x.members.toLocaleString()}</td><td style={td}>{x.schools}</td>
@@ -248,13 +256,14 @@ function MembershipStats({ st, th, td }) {
 
       <Section label="Later Rounds" title={`Quarterfinals to State Final, all seasons on file`}
         intro={<>Who works the biggest games. Share of the {T.late_games} Quarterfinal, Semifinal and State Final games across the {st.history_seasons} seasons on file ({st.history}), compared with each chapter's share of members.</>}
-        note="1.00x = the chapter's share of later-round games matches its share of members. Seasons on file: the site has no data for 2011-12, 2014, 2016-17, 2019 or 2020. Old East Texas (ETX) games count toward Tyler.">
+        note={`1.00x = the chapter's share of later-round games matches its share of members. Seasons on file: ${SEASONS_ON_FILE.join(', ')} (no data for ${GAPS}). Old East Texas (ETX) games count toward Tyler.`}
+        after={<ShowMore c={moreLate} total={late.length} noun="chapters" />}>
         <table style={{ width:'100%', borderCollapse:'collapse' }}>
           <thead><tr>
             <th style={{ ...th, textAlign:'left' }}>Chapter</th><th style={th}>Share of members</th>
             <th style={th}>Later-round games</th><th style={th}>Share of later-round games</th><th style={th}>vs. size</th>
           </tr></thead>
-          <tbody>{late.map(([c, x]) => (
+          <tbody>{moreLate.cut(late).map(([c, x]) => (
             <tr key={c}>
               <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans' }}><Dot c={c} />{name(c)}</td>
               <td style={td}>{(100 * share(x)).toFixed(1)}%</td><td style={td}>{x.late_games}</td>

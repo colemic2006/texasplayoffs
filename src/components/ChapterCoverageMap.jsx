@@ -3,6 +3,7 @@ import { addBaseLayers } from '../baseLayers'
 import 'leaflet/dist/leaflet.css'
 import { chapterColor } from '../chapterColors'
 import { useHomeChapterStatus } from '../homeChapters'
+import { useCollapse, ShowMore } from '../ShowMore'
 
 const NAMES = {
   ABI:'Abilene', AMA:'Amarillo', AUS:'Austin', BEA:'Southeast Texas (Beaumont)', COM:'Commerce', CSC:'College Station',
@@ -31,6 +32,7 @@ export const miles = (a, b) => {
 export default function ChapterCoverageMap() {
   const [data, setData] = useState(null)
   const [pick, setPick] = useState(null)
+  const more = useCollapse()
   const status = useHomeChapterStatus()
   const mapEl = useRef(null), map = useRef(null), layer = useRef(null)
 
@@ -128,8 +130,9 @@ export default function ChapterCoverageMap() {
             {NAMES[sel.c] || sel.c} · {sel.schools.length} schools on the map
           </div>
           <div style={{ columns:'220px', columnGap:20, fontSize:12, lineHeight:1.7 }}>
-            {[...sel.schools].sort((a, b) => a.name.localeCompare(b.name)).map(s => <div key={s.name}>{s.name}</div>)}
+            {more.cut([...sel.schools].sort((a, b) => a.name.localeCompare(b.name))).map(s => <div key={s.name}>{s.name}</div>)}
           </div>
+          <ShowMore c={more} total={sel.schools.length} noun="schools" />
           {sel.far.length > 0 && (
             <div style={{ fontSize:11, color:'var(--burnt)', marginTop:8 }}>
               Outside this chapter's usual area, so left out of the outline: {sel.far.map(s => s.name).join(', ')}. Worth a check that these are listed under the right chapter.

@@ -11,7 +11,7 @@ const CHAPTERS = {
   TYL:'Tyler', WAC:'Waco',
 }
 const ROUNDS = { 1:'Bi-District', 2:'Area', 3:'Regionals', 4:'Quarterfinals', 5:'Semifinals', 6:'Championship' }
-const SEASON = 2026
+const SEASON = Math.max(...__SEASONS__)   // the newest season on file
 
 // Visitors send in a game's chapter assignment; it arrives by email through Formspree
 // (same form as Contact Us), marked "Game assignment submission".

@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react'
 import { weekLabel } from '../roundName'
+import { roundsToShow, isInProgress, upcomingBtn, upcomingCell, UPCOMING, UPCOMING_TIP } from '../upcoming'
 import { ROAD_FACTOR, straightMiles } from '../chapterCenters'
 import { placeName } from '../placeName'
 
@@ -107,7 +108,9 @@ export default function SchoolTravel({ data }) {
         Who Traveled Farthest to Play
       </div>
       <div style={{ display:'flex', gap:4, flexWrap:'wrap', margin:'10px 0 8px' }}>
-        {weeks.map(w => <button key={w} onClick={() => setWeek(w)} style={btn(week === w)}>{weekLabel(w, ROUNDS[w])}</button>)}
+        {roundsToShow(weeks, isInProgress(data)).map(w => weeks.includes(w)
+          ? <button key={w} onClick={() => setWeek(w)} style={btn(week === w)}>{weekLabel(w, ROUNDS[w])}</button>
+          : <button key={w} disabled title={UPCOMING_TIP} style={upcomingBtn(btn(false))}>{weekLabel(w, ROUNDS[w])}</button>)}
         {weeks.length > 1 && <button onClick={() => setWeek('all')} style={btn(week === 'all')}>All rounds</button>}
       </div>
       <div style={{ fontSize:13, color:'var(--mid)', lineHeight:1.55, margin:'4px 0 14px', maxWidth:820 }}>

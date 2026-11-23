@@ -1,6 +1,8 @@
 import React, { useEffect, useMemo, useState } from 'react'
+import { GAPS } from './NotAllTime'
 import { roundName, weekLabel } from '../roundName'
 import { chapterColor } from '../chapterColors'
+import { useCollapse, ShowMore } from '../ShowMore'
 
 // Score stats across every season on file, by round, with the chapter that worked each game
 const ROUNDS = { 1: 'Bi-District', 2: 'Area', 3: 'Regionals', 4: 'Quarterfinals', 5: 'Semifinals', 6: 'State Final' }
@@ -283,6 +285,7 @@ export default function ScoresView({ allData, years }) {
   const [scope, setScope] = useState('all')   // 'season' | 'all'
   const [kind, setKind] = useState('eleven')  // 'eleven' (2A-6A) | 'six' (1A six-man)
   const [seeds, setSeeds] = useState(null)
+  const moreDiv = useCollapse(), moreWL = useCollapse(), moreMercy = useCollapse(), moreProf = useCollapse()
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/seeds.json?v=${__BUILD_TIME__}`).then(r => r.ok ? r.json() : {}).then(setSeeds).catch(() => setSeeds({}))
   }, [])
@@ -301,6 +304,8 @@ export default function ScoresView({ allData, years }) {
   const hist = all.filter(g => g.year !== current)
   const top = (arr, key, n = 10, asc = false) => [...arr].sort((a, b) => asc ? a[key] - b[key] || b.total - a.total : b[key] - a[key] || b.total - a.total).slice(0, n)
   const weeks = [1, 2, 3, 4, 5, 6].filter(w => all.some(g => g.week === w))
+  const divRows = CLASSES.filter(c => all.some(g => g.classification === c && inRound(g)))
+  const wlRows = CLASSES.filter(c => all.some(g => g.classification === c))
 
   // per-chapter profile over the current filters
   const chapters = useMemo(() => {
@@ -325,7 +330,7 @@ export default function ScoresView({ allData, years }) {
 
       <div style={{ background:'rgba(253,208,35,0.16)', border:'1px solid var(--gold)', borderLeft:'4px solid var(--gold)', borderRadius:8, padding:'12px 16px', marginBottom:18, fontSize:13, lineHeight:1.55, color:'var(--ink)' }}>
         <strong>These are not all-time records.</strong> Every stat and average on this page covers only the seasons where chapter assignments are on file:{' '}
-        <strong>{[...years].sort((a, b) => a - b).join(', ')}</strong>. Seasons in between (such as 2011–12, 2014, 2016–17, 2019 and 2020) aren't included,
+        <strong>{[...years].sort((a, b) => a - b).join(', ')}</strong>. Seasons in between (such as {GAPS}) aren't included,
         so a bigger score or closer game may exist in a year that isn't here.
       </div>
       <div style={{ display:'flex', gap:4, flexWrap:'wrap', marginBottom:8, alignItems:'center' }}>
@@ -375,7 +380,7 @@ export default function ScoresView({ allData, years }) {
             <th style={{ ...th, textAlign:'left' }}>Division</th>
             <th style={th}>{current} avg total</th><th style={th}>Historical avg total</th><th style={th}>{current} avg margin</th><th style={th}>Historical avg margin</th><th style={th}>Most games ({current})</th>
           </tr></thead>
-          <tbody>{CLASSES.filter(c => all.some(g => g.classification === c && inRound(g))).map(c => {
+          <tbody>{moreDiv.cut(divRows).map(c => {
             const s = season.filter(g => g.classification === c && inRound(g)), h = hist.filter(g => g.classification === c && inRound(g))
             const cnt = {}; s.forEach(g => { const k = normCh(g.chapter); if (k) cnt[k] = (cnt[k] || 0) + 1 })
             const lead = Object.entries(cnt).sort((a, b) => b[1] - a[1])[0]
@@ -389,6 +394,7 @@ export default function ScoresView({ allData, years }) {
             )
           })}</tbody>
         </table>
+        <ShowMore c={moreDiv} total={divRows.length} noun="divisions" />
       </Card>
 
       <Card n="2b" title="Winning and Losing Scores" intro={`Average winning score – average losing score, by division and round (${scopeLabel}). The All column covers every round.`}>
@@ -398,7 +404,7 @@ export default function ScoresView({ allData, years }) {
             {weeks.map(w => <th key={w} style={th}>{ROUNDS[w]}</th>)}
             <th style={{ ...th, color:'var(--burnt)' }}>All</th>
           </tr></thead>
-          <tbody>{CLASSES.filter(c => all.some(g => g.classification === c)).map(c => {
+          <tbody>{moreWL.cut(wlRows).map(c => {
             const base = all.filter(g => g.classification === c && (scope === 'all' || g.year === current))
             const cell = gs => gs.length ? <><strong>{r0(avg(gs.map(g => g.high)))}</strong><span style={{ color:'var(--mid)' }}> – {r0(avg(gs.map(g => g.low)))}</span></> : '—'
             return (
@@ -415,6 +421,7 @@ export default function ScoresView({ allData, years }) {
             {(() => { const gs = all.filter(g => scope === 'all' || g.year === current); return <td style={{ ...td, fontWeight:700, background:'rgba(253,208,35,0.12)' }}>{gs.length ? `${r0(avg(gs.map(g => g.high)))} – ${r0(avg(gs.map(g => g.low)))}` : '—'}</td> })()}
           </tr></tbody>
         </table>
+        <ShowMore c={moreWL} total={wlRows.length} noun="divisions" />
       </Card>
 
       <Card n="3" title="Closest Games" intro={`Smallest winning margins, ${scopeLabel}.`}>
@@ -475,17 +482,18 @@ export default function ScoresView({ allData, years }) {
           </table>
           <table style={{ width:'100%', borderCollapse:'collapse' }}>
             <thead><tr><th style={{ ...th, textAlign:'left' }}>Chapter</th><th style={th}>Six-man games</th><th style={th}>Mercy-rule games</th><th style={th}>Rate</th></tr></thead>
-            <tbody>{chapters.slice().sort((a, b) => b.blow / b.n - a.blow / a.n).map(x => (
+            <tbody>{moreMercy.cut(chapters.slice().sort((a, b) => b.blow / b.n - a.blow / a.n)).map(x => (
               <tr key={x.c}><td style={{ ...td, textAlign:'left' }}><Chip c={x.c} /></td><td style={td}>{x.n}</td><td style={{ ...td, fontWeight:700 }}>{x.blow}</td><td style={td}>{pct(x.blow, x.n)}</td></tr>
             ))}</tbody>
           </table>
+          <ShowMore c={moreMercy} total={chapters.length} noun="chapters" />
         </Card>
       )}
 
       <Card n="10" title="Chapter Scoring Profiles" intro={`For the games each chapter worked (${scopeLabel}${round === 'all' ? '' : `, ${ROUNDS[round]}`}): average points, average margin, close games (8 or fewer), ${kind === 'six' ? 'mercy-rule games (45+)' : 'blowouts (35+)'} and shutouts. Chapters with at least 5 scored games.`}>
         <table style={{ width:'100%', borderCollapse:'collapse' }}>
           <thead><tr><th style={{ ...th, textAlign:'left' }}>Chapter</th><th style={th}>Games</th><th style={th}>Avg total</th><th style={th}>Avg margin</th><th style={th}>Close</th><th style={th}>{kind === 'six' ? 'Mercy-rule' : 'Blowouts'}</th><th style={th}>Shutouts</th></tr></thead>
-          <tbody>{chapters.map(x => (
+          <tbody>{moreProf.cut(chapters).map(x => (
             <tr key={x.c}>
               <td style={{ ...td, textAlign:'left' }}><Chip c={x.c} /></td>
               <td style={td}>{x.n}</td><td style={{ ...td, fontWeight:700 }}>{f1(x.total)}</td><td style={td}>{f1(x.margin)}</td>
@@ -495,6 +503,7 @@ export default function ScoresView({ allData, years }) {
             </tr>
           ))}</tbody>
         </table>
+        <ShowMore c={moreProf} total={chapters.length} noun="chapters" />
         <div style={{ fontSize:11, color:'var(--mid)', marginTop:6 }}>{kind === 'six' ? 'Six-man games only.' : 'Eleven-man games only; switch to Six-man above for six-man.'}</div>
       </Card>
       <Card n="11" title="Upsets" intro={`A lower seed beating a higher seed${scope === 'season' ? `, ${current} only` : ''}${round === 'all' ? '' : `, ${ROUNDS[round]}`}. Seed = where the team finished in its district (1st = district champion).`}>

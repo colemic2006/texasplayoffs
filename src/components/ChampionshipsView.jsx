@@ -1,5 +1,6 @@
 import React, { useMemo, useState, useEffect } from 'react'
 import NotAllTime, { SEASONS_ON_FILE, GAPS } from './NotAllTime'
+import { useCollapse, ShowMore } from '../ShowMore'
 
 const CHAPTER_NAMES = {
   ABI:'Abilene', AMA:'Amarillo', AUS:'Austin', BEA:'Beaumont',
@@ -25,10 +26,13 @@ function heatColor(val, max) {
   return HEAT_COLORS[Math.min(idx, HEAT_COLORS.length - 1)]
 }
 
-const GAME_DATA_YEARS = [2022, 2023, 2024, 2025]
+// season files with every round's games (2022 on, plus each new season as its file appears)
+const GAME_DATA_YEARS = __SEASONS__.filter(y => y >= 2022)
+const isFinal = g => g.round === 'State Final' || g.round === 'Championship' || g.week === 6
 
 export default function ChampionshipsView() {
-  const [data, setData] = useState(null)
+  const [raw, setRaw] = useState(null)   // championships.json: the finals on file (2000 on)
+  const [later, setLater] = useState({})   // { year: { chapter: finals } } from season files, for seasons after the file
   const [view, setView] = useState('heatmap') // 'heatmap' | 'bar'
   const [sortBy, setSortBy] = useState('total') // 'total' | 'name'
   const [highlightChapter, setHighlightChapter] = useState(null)
@@ -38,7 +42,7 @@ export default function ChampionshipsView() {
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/championships.json?v=${__BUILD_TIME__}`)
       .then(r => r.ok ? r.json() : null)
-      .then(setData)
+      .then(setRaw)
       .catch(() => {})
   }, [])
 
@@ -70,7 +74,7 @@ export default function ChampionshipsView() {
       results.forEach((d, i) => {
         if (!d || !d.games) return
         const year = String(GAME_DATA_YEARS[i])
-        d.games.filter(g => g.round === 'State Final' || g.round === 'Championship').forEach(g => {
+        d.games.filter(isFinal).forEach(g => {
           if (!g.chapter) return
           if (!map[g.chapter]) map[g.chapter] = {}
           if (!map[g.chapter][year]) map[g.chapter][year] = []
@@ -78,8 +82,34 @@ export default function ChampionshipsView() {
         })
       })
       setGamesByChYear(map)
+      // finals already played in each season file, counted by chapter (used for seasons the
+      // championship file doesn't have yet, so a new season's finals show up on their own)
+      const counts = {}
+      results.forEach((d, i) => {
+        for (const g of d?.games || []) {
+          if (!isFinal(g) || !g.chapter || g.score1 == null || g.score2 == null) continue
+          const y = String(GAME_DATA_YEARS[i]), c = counts[y] = counts[y] || {}
+          c[g.chapter] = (c[g.chapter] || 0) + 1
+        }
+      })
+      setLater(counts)
     })
   }, [])
+
+  // the championship file plus any later season's finals from the season files
+  const data = useMemo(() => {
+    if (!raw) return null
+    const extra = Object.keys(later).filter(y => !raw.years.includes(y)).sort()
+    if (!extra.length) return raw
+    const chapters = Object.fromEntries(Object.entries(raw.chapters).map(([c, by]) => [c, { ...by }]))
+    const totals = { ...raw.totals }
+    for (const y of extra) for (const [c, n] of Object.entries(later[y])) {
+      chapters[c] = chapters[c] || {}
+      chapters[c][y] = n
+      totals[y] = (totals[y] || 0) + n
+    }
+    return { ...raw, years: [...raw.years, ...extra], chapters, totals }
+  }, [raw, later])
 
   const { chapters, years, maxVal, sorted, grandTotal } = useMemo(() => {
     if (!data) return { chapters: {}, years: [], maxVal: 1, sorted: [], grandTotal: 0 }
@@ -133,7 +163,7 @@ export default function ChampionshipsView() {
       </div>
 
       <NotAllTime>
-        Championship counts cover the state finals from 2000 to 2025 whose officiating chapter is known; a final with no chapter on file isn't counted. Where this page compares finals with the rest of the playoffs, the playoff side covers only the seasons where every round's chapter assignments are on file: <strong>{SEASONS_ON_FILE.join(', ')}</strong>. Seasons in between (such as {GAPS}) aren't included.
+        Championship counts cover the state finals from {data.years[0]} to {data.years[data.years.length - 1]} whose officiating chapter is known; a final with no chapter on file isn't counted. Where this page compares finals with the rest of the playoffs, the playoff side covers only the seasons where every round's chapter assignments are on file: <strong>{SEASONS_ON_FILE.join(', ')}</strong>. Seasons in between (such as {GAPS}) aren't included.
       </NotAllTime>
 
       <div style={{ fontFamily:'var(--mono)', fontSize:11, color:'var(--mid)', marginBottom:20 }}>
@@ -301,6 +331,7 @@ function RangePicker({ all, range, setRange }) {
 }
 
 function HeatMap({ years, sorted, maxVal, grandTotal, highlightChapter, setHighlightChapter }) {
+  const more = useCollapse()
   const totalsRow = useMemo(() => {
     const t = {}
     years.forEach(y => { t[y] = sorted.reduce((s, r) => s + (r.byYear[y] || 0), 0) })
@@ -325,7 +356,7 @@ function HeatMap({ years, sorted, maxVal, grandTotal, highlightChapter, setHighl
           </tr>
         </thead>
         <tbody>
-          {sorted.map(({ ch, name, total, byYear }) => {
+          {more.cut(sorted).map(({ ch, name, total, byYear }) => {
             const isHL = highlightChapter === ch
             return (
               <tr
@@ -387,15 +418,18 @@ function HeatMap({ years, sorted, maxVal, grandTotal, highlightChapter, setHighl
           </tr>
         </tfoot>
       </table>
+      <ShowMore c={more} total={sorted.length} noun="chapters" />
     </div>
   )
 }
 
 function BarChart({ sorted, grandTotal, highlightChapter, setHighlightChapter }) {
   const maxTotal = sorted.reduce((m, r) => r.total > m ? r.total : m, 1)
+  const more = useCollapse()
   return (
+    <>
     <div style={{ display:'flex', flexDirection:'column', gap:6 }}>
-      {sorted.map(({ ch, name, total, byYear }) => {
+      {more.cut(sorted).map(({ ch, name, total, byYear }) => {
         const isHL = highlightChapter === ch
         const pct = (total / maxTotal) * 100
         const pctOfAll = grandTotal > 0 ? ((total / grandTotal) * 100).toFixed(1) : '0.0'
@@ -432,6 +466,8 @@ function BarChart({ sorted, grandTotal, highlightChapter, setHighlightChapter })
         )
       })}
     </div>
+    <ShowMore c={more} total={sorted.length} noun="chapters" />
+    </>
   )
 }
 

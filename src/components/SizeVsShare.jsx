@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react'
 import { chapterColor } from '../chapterColors'
+import { useCollapse, ShowMore } from '../ShowMore'
 
 // Does a chapter's share of playoff games follow its share of TASO members? By classification.
 // Members: the current season's membership (public/data/membership.json); games: 2022 on, the
@@ -25,6 +26,7 @@ export default function SizeVsShare({ members: current, history = {}, allData = 
   const [cls, setCls] = useState('6A')
   const [span, setSpan] = useState('all')   // 'all' (every season from 2022) or one season
   const [hover, setHover] = useState(null)
+  const more = useCollapse()
   useEffect(() => { loadAllYears?.() }, [])
   const allSeasons = years.filter(y => y >= FROM && allData[y]?.games?.length).sort((a, b) => a - b)
   const seasons = span === 'all' ? allSeasons : allSeasons.filter(y => y === span)
@@ -158,7 +160,7 @@ export default function SizeVsShare({ members: current, history = {}, allData = 
             {CLASSES.map(c => <th key={c} style={{ ...th, color: c === cls ? 'var(--burnt)' : 'var(--mid)', cursor:'pointer' }} onClick={() => setCls(c)}>{c}</th>)}
           </tr></thead>
           <tbody>
-            {chapters.map(ch => (
+            {more.cut(chapters).map(ch => (
               <tr key={ch}>
                 <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans', whiteSpace:'nowrap' }}>
                   <span style={{ display:'inline-block', width:8, height:8, borderRadius:'50%', background:chapterColor(ch), marginRight:6 }} />{NAMES[ch] || ch}</td>
@@ -173,6 +175,7 @@ export default function SizeVsShare({ members: current, history = {}, allData = 
           </tbody>
         </table>
       </div>
+      <ShowMore c={more} total={chapters.length} noun="chapters" />
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6, maxWidth:900 }}>
         Members: {Object.values(members).reduce((a, b) => a + b, 0).toLocaleString()} registered football officials ({memYear === 'this season' ? 'this season' : memYear}{memYear !== 'this season' ? ', East Texas counted with Tyler' : ''}). Games: playoff games with a chapter on file, {seasons.join(', ')};
         East Texas games count as Tyler. Correlation compares each chapter's share of members with its share of that class's games across all chapters.

@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react'
 import { chapterColor } from '../chapterColors'
+import { useCollapse, ShowMore } from '../ShowMore'
 
 // Two sides of "how local is a chapter": of the games it works, how many involve its own schools;
 // and of its own schools' games, how many it works (and who works the rest).
@@ -16,6 +17,7 @@ export default function LocalShare({ allData, years }) {
   const [home, setHome] = useState(null), [past, setPast] = useState({})
   const [season, setSeason] = useState('all')
   const [sort, setSort] = useState('own')
+  const more = useCollapse()
   useEffect(() => {
     const get = f => fetch(`${import.meta.env.BASE_URL}data/${f}?v=${__BUILD_TIME__}`).then(r => r.ok ? r.json() : {})
     get('home_chapters_confirmed.json').then(setHome).catch(() => setHome({}))
@@ -101,7 +103,7 @@ export default function LocalShare({ allData, years }) {
             <th style={th}>Who else worked its schools' games</th>
           </tr></thead>
           <tbody>
-            {sorted.map(r => (
+            {more.cut(sorted).map(r => (
               <tr key={r.c}>
                 <td style={{ ...td, whiteSpace:'nowrap' }}>
                   <span style={{ display:'inline-block', width:8, height:8, borderRadius:'50%', background:chapterColor(r.c), marginRight:6 }} />
@@ -117,6 +119,7 @@ export default function LocalShare({ allData, years }) {
           </tbody>
         </table>
       </div>
+      <ShowMore c={more} total={sorted.length} noun="chapters" />
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6, maxWidth:900 }}>
         Counts games with a chapter on file. Home chapters are as they were each season where a school has moved. East Texas games count as Tyler.
         A game between two of a chapter's own schools counts once in "its schools' games."

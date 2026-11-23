@@ -3,6 +3,7 @@ import { chapterColor } from '../chapterColors'
 import { useHomeChapters } from '../homeChapters'
 import { UilTag } from '../uilPick'
 import { CHAPTER_CENTERS, roundTripMiles } from '../chapterCenters'
+import { useCollapse, ShowMore } from '../ShowMore'
 
 const CH_NAMES = {
   ABI:'Abilene', AMA:'Amarillo', AUS:'Austin', BEA:'Southeast Texas', COM:'Commerce', CSC:'College Station', CTX:'Central Texas',
@@ -12,6 +13,7 @@ const CH_NAMES = {
 
 // How many UIL-assigned games each chapter got, with the miles they drove for them
 function ByChapter({ rounds }) {
+  const more = useCollapse()
   const by = {}
   for (const r of rounds) for (const g of r.games) {
     if (!g.chapter) continue
@@ -26,7 +28,7 @@ function ByChapter({ rounds }) {
       <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--mid)', marginBottom:10 }}>
         UIL-assigned games by chapter
       </div>
-      {rows.map(r => (
+      {more.cut(rows).map(r => (
         <div key={r.c} style={{ display:'grid', gridTemplateColumns:'150px 1fr 170px', alignItems:'center', gap:10, padding:'4px 0' }}>
           <span style={{ fontSize:13 }}>{CH_NAMES[r.c] || r.c} <span style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)' }}>{r.c}</span></span>
           <div style={{ display:'flex', alignItems:'center', gap:8 }}>
@@ -38,6 +40,7 @@ function ByChapter({ rounds }) {
           </span>
         </div>
       ))}
+      <ShowMore c={more} total={rows.length} noun="chapters" />
     </div>
   )
 }
@@ -47,6 +50,7 @@ const ROUNDS ={ 1: 'Bi-District', 2: 'Area', 3: 'Regionals', 4: 'Quarterfinals',
 // Games where UIL, not the two schools, picked the officiating chapter (workbook "UIL pick" column)
 export default function UilPicks({ data }) {
   const home = useHomeChapters(data?.games?.[0]?.year)
+  const more = useCollapse()
   const rounds = useMemo(() => {
     const by = {}
     for (const g of data?.games || []) if (g.uil_pick) (by[g.week] = by[g.week] || []).push(g)
@@ -56,6 +60,9 @@ export default function UilPicks({ data }) {
   const total = rounds.reduce((n, r) => n + r.games.length, 0)
   if (!total) return null
 
+  // collapsed: the first 10 games across the rounds, in order
+  let left = more.open ? Infinity : more.limit
+  const shownRounds = rounds.map(r => { const games = r.games.slice(0, Math.max(0, left)); left -= games.length; return { ...r, shown: games } }).filter(r => r.shown.length)
   const chip = c => ({ fontFamily:'var(--mono)', fontSize:10, padding:'2px 6px', borderRadius:3, background:chapterColor(c), color:'#fff', whiteSpace:'nowrap' })
   return (
     <div style={{ marginBottom:48 }}>
@@ -77,12 +84,12 @@ export default function UilPicks({ data }) {
         Normally the two schools' coaches choose the chapter for a playoff game. In these {total} games, UIL assigned the officials instead.
       </div>
       <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, padding:'6px 16px 10px' }}>
-        {rounds.map(r => (
+        {shownRounds.map(r => (
           <div key={r.week}>
             <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--mid)', padding:'10px 0 4px' }}>
               {ROUNDS[r.week] || `Week ${r.week}`} · {r.games.length} game{r.games.length === 1 ? '' : 's'}
             </div>
-            {r.games.map((g, i) => {
+            {r.shown.map((g, i) => {
               const hs = [...new Set([home[g.team1], home[g.team2]].filter(Boolean))]
               const played = g.score1 != null && g.score2 != null
               const name = <>{g.team1}{played && <span style={{ color:'var(--mid)' }}> {g.score1}</span>} v {g.team2}{played && <span style={{ color:'var(--mid)' }}> {g.score2}</span>}</>
@@ -104,6 +111,7 @@ export default function UilPicks({ data }) {
           </div>
         ))}
       </div>
+      <ShowMore c={more} total={total} noun="games" />
       <ByChapter rounds={rounds} />
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6 }}>
         Only games known to be UIL assignments are listed; others may not have been reported yet.
