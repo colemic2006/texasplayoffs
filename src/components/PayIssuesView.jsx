@@ -144,6 +144,22 @@ function StateFinalsPay() {
           local school districts' own streams. Schools charge for that access, and so does the NFHS streaming service.
         </p>
       </div>
+      <div style={{ background:'var(--surface)', border:'2px solid var(--burnt)', borderRadius:10, padding:'12px 16px', fontSize:14, color:'var(--ink)', lineHeight:1.65, maxWidth:860, marginTop:12 }}>
+        <div style={{ fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.16em', textTransform:'uppercase', color:'var(--burnt)', fontWeight:700, marginBottom:6 }}>This year, UIL is moving the other way</div>
+        <p style={{ margin:'0 0 10px' }}>
+          Instead of counting media revenue, UIL's own proposal takes it out. The{' '}
+          <a href="https://www.uiltexas.org/files/policy/Legislative-Council-General-Session-Packet-Oct-2026-DRAFT.pdf" target="_blank" rel="noopener noreferrer" style={{ color:'var(--burnt)' }}>draft packet for the October 2026 Legislative Council</a>{' '}
+          includes an amendment to the officials' pay rules that <strong>strikes</strong> these two lines from the Constitution and Contest Rules:
+        </p>
+        <ul style={{ margin:'0 0 10px', paddingLeft:20 }}>
+          <li>Section 1250(g)(3), Football Plan: <em style={{ textDecoration:'line-through' }}>"Radio, Television Proceeds. Proceeds from radio and television are considered a part of the receipts of the game."</em></li>
+          <li>Section 1208(j), post-district receipts: <em style={{ textDecoration:'line-through' }}>"The radio broadcast receipts and the telecast receipts are considered a part of the game receipts in all post-district games."</em></li>
+        </ul>
+        <p style={{ margin:0 }}>
+          Season tickets would still count as part of a game's receipts. Broadcast money would no longer be named as part of them, at the same time streaming audiences are growing.
+          The amendment comes from the UIL Sports Officials Committee; the Standing Committee on Athletics moved to pass it, effective <strong>August 1, 2027</strong> if approved by the Commissioner of Education.
+        </p>
+      </div>
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6, maxWidth:860 }}>
         Source: UIL open records request (state championship football officials' payments, 2021–present).
         Percentages and multiples are worked out from these figures.
