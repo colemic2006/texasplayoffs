@@ -31,7 +31,8 @@ export default function FavoriteSites({ data, allData, loadAllYears }) {
       if (!g.chapter || g.lat == null) continue
       const c = by[g.chapter] || (by[g.chapter] = { code: g.chapter, games: 0, sites: {} })
       c.games++
-      const k = `${g.lat.toFixed(3)},${g.lng.toFixed(3)}`
+      const [la, ln] = g.venue || [g.lat, g.lng]   // the stadium's shared spot, so one venue counts once
+      const k = `${la.toFixed(3)},${ln.toFixed(3)}`
       const site = c.sites[k] || (c.sites[k] = { name: placeName(g), n: 0, years: new Set(), games: [] })
       site.n++; site.years.add(s.year); site.games.push({ ...g, year: s.year })
     }

@@ -24,7 +24,7 @@ export default function SiteSearch({ allData = {}, years = [], loadAllYears }) {
     for (const y of years) for (const g of allData[y]?.games || []) {
       if (!g.site && g.lat == null) continue
       const keys = []
-      if (g.lat != null) keys.push(`p:${g.lat.toFixed(3)},${g.lng.toFixed(3)}`)
+      if (g.lat != null) { const [la, ln] = g.venue || [g.lat, g.lng]; keys.push(`p:${la.toFixed(3)},${ln.toFixed(3)}`) }
       if (g.stadium && g.city) keys.push(`n:${norm(g.stadium)}|${norm(g.city)}`)
       if (!keys.length) keys.push(`t:${norm(g.site)}`)
       keys.forEach(k => { parent[k] ??= k })

@@ -505,8 +505,12 @@ def place(game, cache):
     if hit and 'lat' in hit:
         spot = stadium_spots(cache).get(((hit.get('stadium') or '').strip().lower(), (hit.get('city') or '').strip().lower())) \
             if hit.get('stadium') else None
-        lat, lng = spot or (hit['lat'], hit['lng'])
-        game.update(lat=lat, lng=lng)
+        # the map keeps each game's own pin, so games at one stadium the same week don't stack;
+        # the stadium's shared spot rides along as `venue` so site counts treat it as one place
+        game.update(lat=hit['lat'], lng=hit['lng'])
+        game.pop('venue', None)
+        if spot and (round(spot[0], 5), round(spot[1], 5)) != (round(hit['lat'], 5), round(hit['lng'], 5)):
+            game['venue'] = [spot[0], spot[1]]
         if hit.get('stadium'):
             game['stadium'] = hit['stadium']
         if hit.get('map_link'):

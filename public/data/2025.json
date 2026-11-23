@@ -1884,11 +1884,15 @@
       "score2": 27,
       "winner": "Refugio",
       "site": "San Antonio Heroes Stadium",
-      "lat": 29.5369,
+      "lat": 29.53689,
       "lng": -98.39781,
       "stadium": "Heroes Stadium",
       "map_link": "https://goo.gl/maps/FxXig925WVVYT43Q9",
-      "city": "San Antonio"
+      "city": "San Antonio",
+      "venue": [
+        29.5369,
+        -98.39781
+      ]
     },
     {
       "year": 2025,
@@ -2082,11 +2086,15 @@
       "score2": 8,
       "winner": "Wheeler",
       "site": "Childress",
-      "lat": 34.51966,
-      "lng": -100.20677,
+      "lat": 34.43004,
+      "lng": -100.20491,
       "stadium": "Fair Park Stadium",
       "map_link": "https://goo.gl/maps/T5USJpM1hofREJkc6",
-      "city": "Childress"
+      "city": "Childress",
+      "venue": [
+        34.51966,
+        -100.20677
+      ]
     },
     {
       "year": 2025,
@@ -2851,11 +2859,15 @@
       "score2": 28,
       "winner": "Muenster",
       "site": "Wichita Falls Memorial",
-      "lat": 33.85787,
-      "lng": -98.57787,
+      "lat": 33.85419,
+      "lng": -98.58251,
       "stadium": "Memorial Stadium",
       "map_link": "https://goo.gl/maps/iAQNicf1EvGtWVBr9",
-      "city": "Wichita Falls"
+      "city": "Wichita Falls",
+      "venue": [
+        33.85787,
+        -98.57787
+      ]
     },
     {
       "year": 2025,
@@ -3331,11 +3343,15 @@
       "score2": 16,
       "winner": "Peaster",
       "site": "Childress",
-      "lat": 34.51966,
-      "lng": -100.20677,
+      "lat": 34.43004,
+      "lng": -100.20491,
       "stadium": "Fair Park Stadium",
       "map_link": "https://goo.gl/maps/T5USJpM1hofREJkc6",
-      "city": "Childress"
+      "city": "Childress",
+      "venue": [
+        34.51966,
+        -100.20677
+      ]
     },
     {
       "year": 2025,
@@ -3379,11 +3395,15 @@
       "score2": 0,
       "winner": "Paradise",
       "site": "Childress",
-      "lat": 34.51966,
-      "lng": -100.20677,
+      "lat": 34.43004,
+      "lng": -100.20491,
       "stadium": "Fair Park Stadium",
       "map_link": "https://goo.gl/maps/T5USJpM1hofREJkc6",
-      "city": "Childress"
+      "city": "Childress",
+      "venue": [
+        34.51966,
+        -100.20677
+      ]
     },
     {
       "year": 2025,
@@ -3504,11 +3524,15 @@
       "score2": 34,
       "winner": "Franklin",
       "site": "Shenedoah Woodforest Bank Stadium",
-      "lat": 30.18487,
-      "lng": -95.44899,
+      "lat": 30.18591,
+      "lng": -95.44679,
       "stadium": "Woodforest Bank Stadium",
       "map_link": "https://goo.gl/maps/upEFqtHzV76XXwvP8",
-      "city": "Shenandoah"
+      "city": "Shenandoah",
+      "venue": [
+        30.18487,
+        -95.44899
+      ]
     },
     {
       "year": 2025,
@@ -3557,11 +3581,15 @@
       "score2": 49,
       "winner": "Goliad",
       "site": "San Antonio Heroes Stadium",
-      "lat": 29.5369,
+      "lat": 29.53689,
       "lng": -98.39781,
       "stadium": "Heroes Stadium",
       "map_link": "https://goo.gl/maps/FxXig925WVVYT43Q9",
-      "city": "San Antonio"
+      "city": "San Antonio",
+      "venue": [
+        29.5369,
+        -98.39781
+      ]
     },
     {
       "year": 2025,
@@ -3660,11 +3688,15 @@
       "score2": 49,
       "winner": "Grandview",
       "site": "Mesquite Memorial Stadium",
-      "lat": 32.76383,
-      "lng": -96.63472,
+      "lat": 32.76396,
+      "lng": -96.63454,
       "stadium": "Mesquite Memorial Stadium",
       "map_link": "https://goo.gl/maps/ok5pezoVBGQYri9G6",
-      "city": "Mesquite"
+      "city": "Mesquite",
+      "venue": [
+        32.76383,
+        -96.63472
+      ]
     },
     {
       "year": 2025,
@@ -3822,11 +3854,15 @@
       "score2": 21,
       "winner": "Grandview",
       "site": "Crowley",
-      "lat": 32.61019,
-      "lng": -97.33556,
+      "lat": 32.60854,
+      "lng": -97.33905,
       "stadium": "Crowley ISD Multi-Purpose Stadium",
       "map_link": "https://goo.gl/maps/vD6WyxBQ71jJaVZ89",
-      "city": "Fort Worth"
+      "city": "Fort Worth",
+      "venue": [
+        32.61019,
+        -97.33556
+      ]
     },
     {
       "year": 2025,
@@ -4490,11 +4526,15 @@
       "score2": 30,
       "winner": "East Bernard",
       "site": "Victoria Memorial Stadium",
-      "lat": 28.82518,
-      "lng": -96.97605,
+      "lat": 28.82609,
+      "lng": -96.97138,
       "stadium": "Memorial Stadium",
       "map_link": "https://goo.gl/maps/8hmhUAiFwEUuHg4W9",
-      "city": "Victoria"
+      "city": "Victoria",
+      "venue": [
+        28.82518,
+        -96.97605
+      ]
     },
     {
       "year": 2025,
@@ -4748,11 +4788,15 @@
       "score2": 20,
       "winner": "Newton",
       "site": "New Caney Randall Reed Stadium",
-      "lat": 30.13568,
-      "lng": -95.23305,
+      "lat": 30.13566,
+      "lng": -95.23296,
       "stadium": "Randall Reed Stadium",
       "map_link": "https://goo.gl/maps/TVJ1cEsvBjaJfuUJ7",
-      "city": "New Caney"
+      "city": "New Caney",
+      "venue": [
+        30.13568,
+        -95.23305
+      ]
     },
     {
       "year": 2025,
@@ -5313,11 +5357,15 @@
       "score2": 41,
       "winner": "Springtown",
       "site": "Birdville",
-      "lat": 32.86199,
-      "lng": -97.18685,
+      "lat": 32.85934,
+      "lng": -97.18808,
       "stadium": "Birdville Fine Arts and Athletics Complex",
       "map_link": "https://goo.gl/maps/yEn58gKNyARVkf9i9",
-      "city": "North Richland Hills"
+      "city": "North Richland Hills",
+      "venue": [
+        32.86199,
+        -97.18685
+      ]
     },
     {
       "year": 2025,
@@ -6592,11 +6640,15 @@
       "score2": 28,
       "winner": "West Orange-Stark",
       "site": "New Caney Randall Reed Stadium",
-      "lat": 30.13568,
-      "lng": -95.23305,
+      "lat": 30.13566,
+      "lng": -95.23296,
       "stadium": "Randall Reed Stadium",
       "map_link": "https://goo.gl/maps/TVJ1cEsvBjaJfuUJ7",
-      "city": "New Caney"
+      "city": "New Caney",
+      "venue": [
+        30.13568,
+        -95.23305
+      ]
     },
     {
       "year": 2025,
@@ -6610,11 +6662,15 @@
       "score2": 33,
       "winner": "La Vega",
       "site": "Bryan",
-      "lat": 30.65651,
-      "lng": -96.33315,
+      "lat": 30.65649,
+      "lng": -96.33336,
       "stadium": "Merrill Green Stadium",
       "map_link": "https://goo.gl/maps/jbwDcfrRANqXJiX78",
-      "city": "Bryan"
+      "city": "Bryan",
+      "venue": [
+        30.65651,
+        -96.33315
+      ]
     },
     {
       "year": 2025,
@@ -6628,11 +6684,15 @@
       "score2": 48,
       "winner": "Cuero",
       "site": "CC Buccaneer Stadium",
-      "lat": 27.79536,
-      "lng": -97.42433,
+      "lat": 27.79494,
+      "lng": -97.42371,
       "stadium": "Buccaneer Stadium",
       "map_link": "https://goo.gl/maps/ReLaXTsDbA8z2EWQ9",
-      "city": "Corpus Christi"
+      "city": "Corpus Christi",
+      "venue": [
+        27.79536,
+        -97.42433
+      ]
     },
     {
       "year": 2025,
@@ -6698,11 +6758,15 @@
       "score2": 20,
       "winner": "West Orange-Stark",
       "site": "Shenendoah Woodforest Bank Stadium",
-      "lat": 30.18487,
-      "lng": -95.44899,
+      "lat": 30.18591,
+      "lng": -95.44679,
       "stadium": "Woodforest Bank Stadium",
       "map_link": "https://goo.gl/maps/upEFqtHzV76XXwvP8",
-      "city": "Shenandoah"
+      "city": "Shenandoah",
+      "venue": [
+        30.18487,
+        -95.44899
+      ]
     },
     {
       "year": 2025,
@@ -6716,11 +6780,15 @@
       "score2": 45,
       "winner": "Sinton",
       "site": "San Antonio Heroes Stadium",
-      "lat": 29.5369,
+      "lat": 29.53689,
       "lng": -98.39781,
       "stadium": "Heroes Stadium",
       "map_link": "https://goo.gl/maps/FxXig925WVVYT43Q9",
-      "city": "San Antonio"
+      "city": "San Antonio",
+      "venue": [
+        29.5369,
+        -98.39781
+      ]
     },
     {
       "year": 2025,
@@ -7009,11 +7077,15 @@
       "score2": 26,
       "winner": "A&M Consolidated",
       "site": "Merrill Green Stadium",
-      "lat": 30.65651,
-      "lng": -96.33315,
+      "lat": 30.65649,
+      "lng": -96.33336,
       "stadium": "Merrill Green Stadium",
       "map_link": "https://goo.gl/maps/jbwDcfrRANqXJiX78",
-      "city": "Bryan"
+      "city": "Bryan",
+      "venue": [
+        30.65651,
+        -96.33315
+      ]
     },
     {
       "year": 2025,
@@ -7111,11 +7183,15 @@
       "score2": 31,
       "winner": "Corpus Christi Veterans Memorial",
       "site": "Richard Flores Stadium Edinburg, Texas",
-      "lat": 26.28424,
-      "lng": -98.16123,
+      "lat": 26.28298,
+      "lng": -98.1624,
       "stadium": "Richard R. Flores Stadium",
       "map_link": "https://goo.gl/maps/PurYScT9spqv4hrq5",
-      "city": "Edinburg"
+      "city": "Edinburg",
+      "venue": [
+        26.28424,
+        -98.16123
+      ]
     },
     {
       "year": 2025,
@@ -7237,11 +7313,15 @@
       "score2": 59,
       "winner": "Denton Ryan",
       "site": "Crowley",
-      "lat": 32.61019,
-      "lng": -97.33556,
+      "lat": 32.60854,
+      "lng": -97.33905,
       "stadium": "Crowley ISD Multi-Purpose Stadium",
       "map_link": "https://goo.gl/maps/vD6WyxBQ71jJaVZ89",
-      "city": "Fort Worth"
+      "city": "Fort Worth",
+      "venue": [
+        32.61019,
+        -97.33556
+      ]
     },
     {
       "year": 2025,
@@ -7398,11 +7478,15 @@
       "score2": 14,
       "winner": "Pflugerville Weiss",
       "site": "Shenandoah Woodforest Bank Stadium",
-      "lat": 30.18487,
-      "lng": -95.44899,
+      "lat": 30.18591,
+      "lng": -95.44679,
       "stadium": "Woodforest Bank Stadium",
       "map_link": "https://goo.gl/maps/upEFqtHzV76XXwvP8",
-      "city": "Shenandoah"
+      "city": "Shenandoah",
+      "venue": [
+        30.18487,
+        -95.44899
+      ]
     },
     {
       "year": 2025,
@@ -7483,11 +7567,15 @@
       "score2": 63,
       "winner": "New Braunfels",
       "site": "Corpus Christi Buccaneer Stadium",
-      "lat": 27.79536,
-      "lng": -97.42433,
+      "lat": 27.79494,
+      "lng": -97.42371,
       "stadium": "Buccaneer Stadium",
       "map_link": "https://goo.gl/maps/ReLaXTsDbA8z2EWQ9",
-      "city": "Corpus Christi"
+      "city": "Corpus Christi",
+      "venue": [
+        27.79536,
+        -97.42433
+      ]
     },
     {
       "year": 2025,
@@ -7519,11 +7607,15 @@
       "score2": 0,
       "winner": "Aledo",
       "site": "Crowley",
-      "lat": 32.61019,
-      "lng": -97.33556,
+      "lat": 32.60854,
+      "lng": -97.33905,
       "stadium": "Crowley ISD Multi-Purpose Stadium",
       "map_link": "https://goo.gl/maps/vD6WyxBQ71jJaVZ89",
-      "city": "Fort Worth"
+      "city": "Fort Worth",
+      "venue": [
+        32.61019,
+        -97.33556
+      ]
     },
     {
       "year": 2025,
@@ -7609,11 +7701,15 @@
       "score2": 14,
       "winner": "Comal Smithson Valley",
       "site": "San Antonio Heroes Stadium",
-      "lat": 29.5369,
+      "lat": 29.53689,
       "lng": -98.39781,
       "stadium": "Heroes Stadium",
       "map_link": "https://goo.gl/maps/FxXig925WVVYT43Q9",
-      "city": "San Antonio"
+      "city": "San Antonio",
+      "venue": [
+        29.5369,
+        -98.39781
+      ]
     },
     {
       "year": 2025,
@@ -8167,11 +8263,15 @@
       "score2": 61,
       "winner": "Victoria West",
       "site": "Buccaneer Stadium Corpus Christi",
-      "lat": 27.79536,
-      "lng": -97.42433,
+      "lat": 27.79494,
+      "lng": -97.42371,
       "stadium": "Buccaneer Stadium",
       "map_link": "https://goo.gl/maps/ReLaXTsDbA8z2EWQ9",
-      "city": "Corpus Christi"
+      "city": "Corpus Christi",
+      "venue": [
+        27.79536,
+        -97.42433
+      ]
     },
     {
       "year": 2025,
@@ -8233,11 +8333,15 @@
       "score2": 38,
       "winner": "Anna",
       "site": "Wichita Falls Memorial Stadium",
-      "lat": 33.85787,
-      "lng": -98.57787,
+      "lat": 33.85419,
+      "lng": -98.58251,
       "stadium": "Memorial Stadium",
       "map_link": "https://goo.gl/maps/iAQNicf1EvGtWVBr9",
-      "city": "Wichita Falls"
+      "city": "Wichita Falls",
+      "venue": [
+        33.85787,
+        -98.57787
+      ]
     },
     {
       "year": 2025,
@@ -8358,11 +8462,15 @@
       "score2": 28,
       "winner": "Richmond Randle",
       "site": "Bryan",
-      "lat": 30.65651,
-      "lng": -96.33315,
+      "lat": 30.65649,
+      "lng": -96.33336,
       "stadium": "Merrill Green Stadium",
       "map_link": "https://goo.gl/maps/jbwDcfrRANqXJiX78",
-      "city": "Bryan"
+      "city": "Bryan",
+      "venue": [
+        30.65651,
+        -96.33315
+      ]
     },
     {
       "year": 2025,
@@ -8473,11 +8581,15 @@
       "score2": 63,
       "winner": "San Antonio Alamo Heights",
       "site": "Corpus Christi Buccaneer Stadium",
-      "lat": 27.79536,
-      "lng": -97.42433,
+      "lat": 27.79494,
+      "lng": -97.42371,
       "stadium": "Buccaneer Stadium",
       "map_link": "https://goo.gl/maps/ReLaXTsDbA8z2EWQ9",
-      "city": "Corpus Christi"
+      "city": "Corpus Christi",
+      "venue": [
+        27.79536,
+        -97.42433
+      ]
     },
     {
       "year": 2025,
@@ -8491,11 +8603,15 @@
       "score2": 7,
       "winner": "Melissa",
       "site": "Allen",
-      "lat": 33.11407,
-      "lng": -96.65762,
+      "lat": 33.1141,
+      "lng": -96.65699,
       "stadium": "Eagle Stadium",
       "map_link": "https://goo.gl/maps/F6vHjvY4xeBeZCZs9",
-      "city": "Allen"
+      "city": "Allen",
+      "venue": [
+        33.11407,
+        -96.65762
+      ]
     },
     {
       "year": 2025,
@@ -8545,11 +8661,15 @@
       "score2": 17,
       "winner": "Port Neches-Groves",
       "site": "Shenendoah's Woodforest Bank Stadium",
-      "lat": 30.18487,
-      "lng": -95.44899,
+      "lat": 30.18591,
+      "lng": -95.44679,
       "stadium": "Woodforest Bank Stadium",
       "map_link": "https://goo.gl/maps/upEFqtHzV76XXwvP8",
-      "city": "Shenandoah"
+      "city": "Shenandoah",
+      "venue": [
+        30.18487,
+        -95.44899
+      ]
     },
     {
       "year": 2025,
@@ -8652,11 +8772,15 @@
       "score2": 0,
       "winner": "South Oak Cliff",
       "site": "Bryan",
-      "lat": 30.65651,
-      "lng": -96.33315,
+      "lat": 30.65649,
+      "lng": -96.33336,
       "stadium": "Merrill Green Stadium",
       "map_link": "https://goo.gl/maps/jbwDcfrRANqXJiX78",
-      "city": "Bryan"
+      "city": "Bryan",
+      "venue": [
+        30.65651,
+        -96.33315
+      ]
     },
     {
       "year": 2025,
@@ -9191,11 +9315,15 @@
       "score2": 7,
       "winner": "Allen",
       "site": "McKinney",
-      "lat": 33.15742,
-      "lng": -96.66153,
+      "lat": 33.15882,
+      "lng": -96.66302,
       "stadium": "McKinney ISD Stadium",
       "map_link": "https://goo.gl/maps/46cUGoZ2vBwbN8Yj8",
-      "city": "McKinney"
+      "city": "McKinney",
+      "venue": [
+        33.15742,
+        -96.66153
+      ]
     },
     {
       "year": 2025,
@@ -9209,11 +9337,15 @@
       "score2": 43,
       "winner": "Duncanville",
       "site": "Allen",
-      "lat": 33.11407,
-      "lng": -96.65762,
+      "lat": 33.1141,
+      "lng": -96.65699,
       "stadium": "Eagle Stadium",
       "map_link": "https://goo.gl/maps/F6vHjvY4xeBeZCZs9",
-      "city": "Allen"
+      "city": "Allen",
+      "venue": [
+        33.11407,
+        -96.65762
+      ]
     },
     {
       "year": 2025,
@@ -9398,11 +9530,15 @@
       "score2": 20,
       "winner": "Laredo United",
       "site": "Corpus Christi Buccaneer Stadium",
-      "lat": 27.79536,
-      "lng": -97.42433,
+      "lat": 27.79494,
+      "lng": -97.42371,
       "stadium": "Buccaneer Stadium",
       "map_link": "https://goo.gl/maps/ReLaXTsDbA8z2EWQ9",
-      "city": "Corpus Christi"
+      "city": "Corpus Christi",
+      "venue": [
+        27.79536,
+        -97.42433
+      ]
     },
     {
       "year": 2025,
@@ -9541,11 +9677,15 @@
       "score2": 7,
       "winner": "Austin Lake Travis",
       "site": "San Antonio Heroes Stadium",
-      "lat": 29.5369,
+      "lat": 29.53689,
       "lng": -98.39781,
       "stadium": "Heroes Stadium",
       "map_link": "https://goo.gl/maps/FxXig925WVVYT43Q9",
-      "city": "San Antonio"
+      "city": "San Antonio",
+      "venue": [
+        29.5369,
+        -98.39781
+      ]
     },
     {
       "year": 2025,
@@ -10343,11 +10483,15 @@
       "score2": 3,
       "winner": "San Marcos",
       "site": "Corpus Christi Buccaneer Stadium",
-      "lat": 27.79536,
-      "lng": -97.42433,
+      "lat": 27.79494,
+      "lng": -97.42371,
       "stadium": "Buccaneer Stadium",
       "map_link": "https://goo.gl/maps/ReLaXTsDbA8z2EWQ9",
-      "city": "Corpus Christi"
+      "city": "Corpus Christi",
+      "venue": [
+        27.79536,
+        -97.42433
+      ]
     },
     {
       "year": 2025,
@@ -10532,11 +10676,15 @@
       "score2": 51,
       "winner": "Southlake Carroll",
       "site": "Crowley",
-      "lat": 32.61019,
-      "lng": -97.33556,
+      "lat": 32.60854,
+      "lng": -97.33905,
       "stadium": "Crowley ISD Multi-Purpose Stadium",
       "map_link": "https://goo.gl/maps/vD6WyxBQ71jJaVZ89",
-      "city": "Fort Worth"
+      "city": "Fort Worth",
+      "venue": [
+        32.61019,
+        -97.33556
+      ]
     },
     {
       "year": 2025,
