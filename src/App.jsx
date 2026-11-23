@@ -107,7 +107,7 @@ export default function App() {
         ) : page === 'coverage' ? (
           <ChapterCoverageMap />
         ) : page === 'membership' ? (
-          <MembershipView />
+          <MembershipView allData={data} years={YEARS} loadAllYears={loadAllYears} />
         ) : page === 'scores' ? (
           allYearsLoaded ? <ScoresView allData={data} years={YEARS} /> : <LoadingState />
         ) : (page === 'teams' || page === 'regulars') ? (

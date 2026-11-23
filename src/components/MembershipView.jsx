@@ -4,6 +4,7 @@ import 'leaflet/dist/leaflet.css'
 import { chapterColor } from '../chapterColors'
 import { CHAPTER_CENTERS } from '../chapterCenters'
 import CoverageDensity from './CoverageDensity'
+import SizeVsShare from './SizeVsShare'
 
 const NAMES = {
   ABI:'Abilene', AMA:'Amarillo', AUS:'Austin', BEA:'Southeast Texas (Beaumont)', COM:'Commerce', CSC:'College Station',
@@ -13,7 +14,7 @@ const NAMES = {
 }
 
 // TASO football membership by chapter (public/data/membership.json)
-export default function MembershipView() {
+export default function MembershipView({ allData, years, loadAllYears }) {
   const [d, setD] = useState(null)
   const [st, setSt] = useState(null)
   const [sites, setSites] = useState([])
@@ -87,6 +88,7 @@ export default function MembershipView() {
       </div>
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8 }}>{d.source}.</div>
       <CoverageDensity members={d.members} />
+      <SizeVsShare members={d.members} allData={allData} years={years} loadAllYears={loadAllYears} />
       {d.history && <MembershipHistory d={d} th={th} td={td} />}
       {st && <MembershipStats st={st} th={th} td={td} />}
     </div>
