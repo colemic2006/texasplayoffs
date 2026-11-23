@@ -10,6 +10,7 @@ const norm = s => (s || '').toLowerCase().replace(/[^a-z0-9 ]/g, ' ').replace(/\
 export default function SiteSearch({ allData = {}, years = [], loadAllYears }) {
   const [q, setQ] = useState('')
   const [open, setOpen] = useState(null)
+  const [yr, setYr] = useState('all')   // 'all' or one season
   useEffect(() => { loadAllYears?.() }, [])
 
   const venues = useMemo(() => {
@@ -34,8 +35,12 @@ export default function SiteSearch({ allData = {}, years = [], loadAllYears }) {
   const seasons = [...new Set(venues.flatMap(v => v.games.map(g => g.year)))].sort((a, b) => a - b)
 
   const words = norm(q).split(' ').filter(Boolean)
-  const hits = words.length ? venues.filter(v => words.every(w => v.text.includes(w))).sort((a, b) => b.games.length - a.games.length) : []
-  const top = !words.length ? [...venues].sort((a, b) => b.games.length - a.games.length).slice(0, 8) : []
+  // the chosen season's games at each site
+  const inYear = useMemo(() => venues.map(v => ({ ...v, games: yr === 'all' ? v.games : v.games.filter(g => g.year === yr) })).filter(v => v.games.length), [venues, yr])
+  const hits = words.length ? inYear.filter(v => words.every(w => v.text.includes(w))).sort((a, b) => b.games.length - a.games.length) : []
+  const top = !words.length ? [...inYear].sort((a, b) => b.games.length - a.games.length || a.title.localeCompare(b.title)).slice(0, 10) : []
+  const btn = on => ({ fontFamily:'var(--mono)', fontSize:10, padding:'4px 10px', borderRadius:3, cursor:'pointer',
+    border:`1px solid ${on ? 'var(--burnt)' : 'var(--border)'}`, background: on ? 'var(--burnt)' : 'transparent', color: on ? '#fff' : 'var(--mid)' })
 
   const row = v => (
     <div key={v.key} style={{ borderBottom:'1px solid var(--border)' }}>
@@ -80,6 +85,11 @@ export default function SiteSearch({ allData = {}, years = [], loadAllYears }) {
         Type a stadium or town to see every playoff game on file played there, with the score and the chapter that worked it.
         Games at the same stadium are grouped even when the site was written differently.
       </div>
+      <div style={{ display:'flex', gap:4, flexWrap:'wrap', alignItems:'center', marginBottom:10 }}>
+        <span style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginRight:4 }}>Seasons:</span>
+        <button onClick={() => { setYr('all'); setOpen(null) }} style={btn(yr === 'all')}>All</button>
+        {[...seasons].reverse().map(y => <button key={y} onClick={() => { setYr(y); setOpen(null) }} style={btn(yr === y)}>{y}</button>)}
+      </div>
       <input value={q} onChange={e => { setQ(e.target.value); setOpen(null) }} placeholder="e.g. Shotwell, Lowrey Field, Canyon, Alamodome…" aria-label="Search stadiums"
         style={{ fontFamily:'var(--sans)', fontSize:14, padding:'10px 14px', borderRadius:6, border:'1px solid var(--border)', background:'#fff',
           color:'var(--ink)', width:'100%', maxWidth:520, boxSizing:'border-box', marginBottom:12 }} />
@@ -91,7 +101,7 @@ export default function SiteSearch({ allData = {}, years = [], loadAllYears }) {
         )}
         {!words.length && (
           <div style={{ fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--mid)', padding:'8px 14px', borderBottom:'1px solid var(--border)' }}>
-            Busiest sites
+            Busiest sites{yr === 'all' ? ', all seasons' : ` in ${yr}`}
           </div>
         )}
         {(words.length ? hits.slice(0, 40) : top).map(row)}
