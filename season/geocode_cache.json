@@ -4631,6 +4631,18 @@
   "stadium": "Bob and Norma Cervetto Stadium",
   "stadium_id": 3542
  },
+ "Bob and Norma Cervetto Stadium, Dublin, TX || Strawn v Zephyr": {
+  "address": "2233 Hwy 6, Dublin, Texas 76446",
+  "city": "Dublin",
+  "how": "stadium (map link)",
+  "lat": 32.0867,
+  "lng": -98.3215,
+  "map_link": "https://goo.gl/maps/SnMek5KYTMWGGttj8",
+  "rules": 10,
+  "site": "Bob and Norma Cervetto Stadium, Dublin, TX",
+  "stadium": "Bob and Norma Cervetto Stadium",
+  "stadium_id": 3542
+ },
  "Bobcat Stadium (Texas State), San Marcos || Austin Lake Travis v San Antonio Johnson": {
   "address": "",
   "city": "San Marcos",

@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-23T20:40+00:00",
+    "updated": "2026-11-23T20:44+00:00",
     "games": 616,
     "played": 528,
     "assigned": 609,
@@ -12714,6 +12714,12 @@
       "team2": "Zephyr",
       "score2": null,
       "winner": null,
+      "site": "Bob and Norma Cervetto Stadium, Dublin, TX",
+      "lat": 32.0867,
+      "lng": -98.3215,
+      "stadium": "Bob and Norma Cervetto Stadium",
+      "map_link": "https://goo.gl/maps/SnMek5KYTMWGGttj8",
+      "city": "Dublin",
       "mp_url": "https://www.maxpreps.com/tx/football/game/strawn-vs-zephyr/11-26-2026/?c=34cc6230-b050-4f61-8c26-cd15172400c0"
     },
     {
