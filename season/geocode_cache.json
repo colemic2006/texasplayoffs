@@ -28615,16 +28615,16 @@
   "stadium_id": null
  },
  "Seminole HS || Forsan v Abernathy": {
-  "address": "NW Ave F at NW 8th, Seminole, Texas 79360",
+  "address": "",
   "city": "Seminole",
-  "how": "school",
-  "lat": 32.71674,
-  "lng": -102.6491,
+  "how": "coordinates confirmed by hand",
+  "lat": 32.72463,
+  "lng": -102.65136,
   "map_link": "https://goo.gl/maps/Ldj6eueXwab4Znh6A",
   "rules": 10,
   "site": "Seminole HS",
   "stadium": "Wigwam Stadium",
-  "stadium_id": 829
+  "stadium_id": null
  },
  "Seminole HS || Seminole v Bowie": {
   "address": "NW Ave F at NW 8th, Seminole, Texas 79360",
@@ -28649,52 +28649,51 @@
   "stadium_id": 829
  },
  "Seminole HS, Football Field || Seminole v El Paso Bowie": {
-  "address": "NW Ave F at NW 8th, Seminole, Texas 79360",
+  "address": "",
   "city": "Seminole",
-  "how": "school",
-  "lat": 32.71674,
-  "lng": -102.6491,
+  "how": "coordinates confirmed by hand",
+  "lat": 32.72463,
+  "lng": -102.65136,
   "map_link": "https://goo.gl/maps/Ldj6eueXwab4Znh6A",
   "rules": 10,
   "site": "Seminole HS, Football Field",
   "stadium": "Wigwam Stadium",
-  "stadium_id": 829
+  "stadium_id": null
  },
  "Seminole || Monahans v Sweetwater": {
-  "address": "NW Ave F at NW 8th, Seminole, Texas 79360",
+  "address": "",
   "city": "Seminole",
-  "how": "school (map link)",
+  "how": "coordinates confirmed by hand",
   "lat": 32.72463,
-  "link_tried": true,
   "lng": -102.65136,
   "map_link": "https://goo.gl/maps/Ldj6eueXwab4Znh6A",
   "rules": 10,
   "site": "Seminole",
   "stadium": "Wigwam Stadium",
-  "stadium_id": 829
+  "stadium_id": null
  },
  "Seminole's Wigwam Stadium || Pecos v Canyon West Plains": {
-  "address": "NW Ave F at NW 8th, Seminole, Texas 79360",
+  "address": "",
   "city": "Seminole",
-  "how": "stadium (map link)",
+  "how": "coordinates confirmed by hand",
   "lat": 32.72463,
   "lng": -102.65136,
   "map_link": "https://goo.gl/maps/Ldj6eueXwab4Znh6A",
   "rules": 10,
   "site": "Seminole's Wigwam Stadium",
   "stadium": "Wigwam Stadium",
-  "stadium_id": 829
+  "stadium_id": null
  },
  "Seminole, TX || Canyon West Plains v El Paso Irvin": {
   "address": "",
   "city": "Seminole",
-  "how": "stadium found by name",
-  "lat": 32.71761,
-  "lng": -102.64334,
-  "map_link": "",
+  "how": "coordinates confirmed by hand",
+  "lat": 32.72463,
+  "lng": -102.65136,
+  "map_link": "https://goo.gl/maps/Ldj6eueXwab4Znh6A",
   "rules": 10,
   "site": "Seminole, TX",
-  "stadium": null,
+  "stadium": "Wigwam Stadium",
   "stadium_id": null
  },
  "Sequin || Sinton v Lago Vista": {

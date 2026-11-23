@@ -1,4 +1,20 @@
 {
+ "@ Seminole's Wigwam Stadium": {
+  "city": "Seminole",
+  "lat": 32.72463,
+  "lng": -102.65136,
+  "map_link": "https://goo.gl/maps/Ldj6eueXwab4Znh6A",
+  "source": "Wigwam Stadium, NW Ave F at NW 8th, Seminole (its Google map link); owner asked for every Seminole game to pin here",
+  "stadium": "Wigwam Stadium"
+ },
+ "@ Seminole, TX": {
+  "city": "Seminole",
+  "lat": 32.72463,
+  "lng": -102.65136,
+  "map_link": "https://goo.gl/maps/Ldj6eueXwab4Znh6A",
+  "source": "Wigwam Stadium, NW Ave F at NW 8th, Seminole (its Google map link); owner asked for every Seminole game to pin here",
+  "stadium": "Wigwam Stadium"
+ },
  "AT&T Stadium, Arlington": {
   "city": "Arlington",
   "lat": 32.74728,
@@ -359,6 +375,46 @@
   "lng": -98.3054,
   "source": "same spot as D.W. Rutledge Stadium, Converse on other mapped games",
   "stadium": "Rutledge Stadium"
+ },
+ "Seminole": {
+  "city": "Seminole",
+  "lat": 32.72463,
+  "lng": -102.65136,
+  "map_link": "https://goo.gl/maps/Ldj6eueXwab4Znh6A",
+  "source": "Wigwam Stadium, NW Ave F at NW 8th, Seminole (its Google map link); owner asked for every Seminole game to pin here",
+  "stadium": "Wigwam Stadium"
+ },
+ "Seminole HS": {
+  "city": "Seminole",
+  "lat": 32.72463,
+  "lng": -102.65136,
+  "map_link": "https://goo.gl/maps/Ldj6eueXwab4Znh6A",
+  "source": "Wigwam Stadium, NW Ave F at NW 8th, Seminole (its Google map link); owner asked for every Seminole game to pin here",
+  "stadium": "Wigwam Stadium"
+ },
+ "Seminole HS, Football Field": {
+  "city": "Seminole",
+  "lat": 32.72463,
+  "lng": -102.65136,
+  "map_link": "https://goo.gl/maps/Ldj6eueXwab4Znh6A",
+  "source": "Wigwam Stadium, NW Ave F at NW 8th, Seminole (its Google map link); owner asked for every Seminole game to pin here",
+  "stadium": "Wigwam Stadium"
+ },
+ "Seminole's Wigwam Stadium": {
+  "city": "Seminole",
+  "lat": 32.72463,
+  "lng": -102.65136,
+  "map_link": "https://goo.gl/maps/Ldj6eueXwab4Znh6A",
+  "source": "Wigwam Stadium, NW Ave F at NW 8th, Seminole (its Google map link); owner asked for every Seminole game to pin here",
+  "stadium": "Wigwam Stadium"
+ },
+ "Seminole, TX": {
+  "city": "Seminole",
+  "lat": 32.72463,
+  "lng": -102.65136,
+  "map_link": "https://goo.gl/maps/Ldj6eueXwab4Znh6A",
+  "source": "Wigwam Stadium, NW Ave F at NW 8th, Seminole (its Google map link); owner asked for every Seminole game to pin here",
+  "stadium": "Wigwam Stadium"
  },
  "Sheldon ISD Panther Stadium, Houston": {
   "city": "Houston",

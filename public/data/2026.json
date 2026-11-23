@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-23T13:13+00:00",
+    "updated": "2026-11-23T13:15+00:00",
     "games": 616,
     "played": 528,
     "assigned": 596,
@@ -1529,12 +1529,8 @@
       "score2": 28,
       "winner": "Forsan",
       "site": "Seminole HS",
-      "lat": 32.71674,
-      "lng": -102.6491,
-      "venue": [
-        32.72463,
-        -102.65136
-      ],
+      "lat": 32.72463,
+      "lng": -102.65136,
       "stadium": "Wigwam Stadium",
       "map_link": "https://goo.gl/maps/Ldj6eueXwab4Znh6A",
       "city": "Seminole",
@@ -5664,12 +5660,8 @@
       "score2": 0,
       "winner": "Seminole",
       "site": "Seminole HS, Football Field",
-      "lat": 32.71674,
-      "lng": -102.6491,
-      "venue": [
-        32.72463,
-        -102.65136
-      ],
+      "lat": 32.72463,
+      "lng": -102.65136,
       "stadium": "Wigwam Stadium",
       "map_link": "https://goo.gl/maps/Ldj6eueXwab4Znh6A",
       "city": "Seminole",
