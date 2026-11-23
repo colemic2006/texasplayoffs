@@ -12,7 +12,7 @@ const NAMES = {
 }
 
 // convex hull (monotone chain) of [lat, lng] points, as a closed ring
-function hull(pts) {
+export function hull(pts) {
   const p = [...new Map(pts.map(q => [q.join(','), q])).values()].sort((a, b) => a[1] - b[1] || a[0] - b[0])
   if (p.length < 3) return p
   const cross = (o, a, b) => (a[1] - o[1]) * (b[0] - o[0]) - (a[0] - o[0]) * (b[1] - o[1])
@@ -21,8 +21,8 @@ function hull(pts) {
   for (const q of [...p].reverse()) { while (up.length >= 2 && cross(up[up.length - 2], up[up.length - 1], q) <= 0) up.pop(); up.push(q) }
   return lo.slice(0, -1).concat(up.slice(0, -1))
 }
-const median = a => { const s = [...a].sort((x, y) => x - y); return s.length ? s[Math.floor(s.length / 2)] : 0 }
-const miles = (a, b) => {
+export const median = a => { const s = [...a].sort((x, y) => x - y); return s.length ? s[Math.floor(s.length / 2)] : 0 }
+export const miles = (a, b) => {
   const r = Math.PI / 180, h = Math.sin((b[0] - a[0]) * r / 2) ** 2 + Math.cos(a[0] * r) * Math.cos(b[0] * r) * Math.sin((b[1] - a[1]) * r / 2) ** 2
   return 3958.8 * 2 * Math.asin(Math.sqrt(h))
 }

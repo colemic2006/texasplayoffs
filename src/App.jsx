@@ -16,6 +16,7 @@ import OfficialsCost from './components/OfficialsCost'
 import RecentChanges from './components/RecentChanges'
 import MembershipView from './components/MembershipView'
 import ChapterCoverageMap from './components/ChapterCoverageMap'
+import PlayoffFootprint from './components/PlayoffFootprint'
 import LinksView from './components/LinksView'
 import PayIssuesView from './components/PayIssuesView'
 import ScoresView from './components/ScoresView'
@@ -107,7 +108,7 @@ export default function App() {
         ) : page === 'pay' ? (
           <PayIssuesView />
         ) : page === 'coverage' ? (
-          <ChapterCoverageMap />
+          <><ChapterCoverageMap />{yearData && <PlayoffFootprint data={yearData} />}</>
         ) : page === 'membership' ? (
           <MembershipView allData={data} years={YEARS} loadAllYears={loadAllYears} />
         ) : page === 'scores' ? (
