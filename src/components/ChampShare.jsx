@@ -22,38 +22,57 @@ function modern(cls, year) {
 export default function ChampShare({ allData = {}, years = [], loadAllYears }) {
   const [finals, setFinals] = useState(null)
   const [cls, setCls] = useState('all')
+  const [span, setSpan] = useState('all')   // 'all' | 'onfile' | a season
   useEffect(() => {
     loadAllYears?.()
     fetch(`${import.meta.env.BASE_URL}data/championship_games.json?v=${__BUILD_TIME__}`).then(r => r.ok ? r.json() : null).then(setFinals).catch(() => setFinals({}))
   }, [])
   const seasons = years.filter(y => allData[y]?.games?.length).sort((a, b) => a - b)
 
-  const data = useMemo(() => {
+  // finals and playoff games per season: { year: { class: { chapter: n } } } ('all' holds every class)
+  const raw = useMemo(() => {
     if (!finals) return null
-    const champ = {}, champYears = new Set(), play = {}
-    const add = (o, c, ch) => { o[c] = o[c] || {}; o[c][ch] = (o[c][ch] || 0) + 1; o.all = o.all || {}; o.all[ch] = (o.all[ch] || 0) + 1 }
+    const champY = {}, playY = {}
+    const add = (o, y, c, ch) => {
+      const t = o[y] = o[y] || {}
+      for (const k of [c, 'all']) { t[k] = t[k] || {}; t[k][ch] = (t[k][ch] || 0) + 1 }
+    }
     for (const [ch0, ys] of Object.entries(finals)) for (const [y, gs] of Object.entries(ys)) for (const g of gs) {
-      const c = modern(g.classification, +y); if (!c) continue
-      champYears.add(+y); add(champ, c, CODE[ch0] || ch0)
+      const c = modern(g.classification, +y); if (c) add(champY, +y, c, CODE[ch0] || ch0)
     }
     // seasons after the championship file (2022 on) come from the season data's state finals
-    const fileYears = new Set(champYears)
+    const fileYears = new Set(Object.keys(champY).map(Number))
     for (const y of seasons) {
       if (fileYears.has(y)) continue
       for (const g of allData[y].games) {
         if (g.week !== 6 || !g.chapter) continue
-        const c = modern(g.classification, y); if (!c) continue
-        champYears.add(y); add(champ, c, CODE[g.chapter] || g.chapter)
+        const c = modern(g.classification, y); if (c) add(champY, y, c, CODE[g.chapter] || g.chapter)
       }
     }
     for (const y of seasons) for (const g of allData[y].games) {
       if (!g.chapter) continue
-      const c = modern(g.classification, y); if (!c) continue
-      add(play, c, CODE[g.chapter] || g.chapter)
+      const c = modern(g.classification, y); if (c) add(playY, y, c, CODE[g.chapter] || g.chapter)
     }
-    const yrs = [...champYears].sort((a, b) => a - b)
-    return { champ, play, from: yrs[0], to: yrs[yrs.length - 1] }
+    return { champY, playY }
   }, [finals, allData, seasons.length])
+  // both sides for the chosen span: every final on file vs every playoff season ('all'), the same seasons
+  // on both sides ('onfile'), or one season
+  const both = raw ? Object.keys(raw.champY).map(Number).filter(y => raw.playY[y]).sort((a, b) => a - b) : []
+  const data = useMemo(() => {
+    if (!raw) return null
+    const sum = (o, ys) => {
+      const out = {}
+      for (const y of ys) for (const [c, m] of Object.entries(o[y] || {})) {
+        out[c] = out[c] || {}
+        for (const [ch, n] of Object.entries(m)) out[c][ch] = (out[c][ch] || 0) + n
+      }
+      return out
+    }
+    const allChamp = Object.keys(raw.champY).map(Number).sort((a, b) => a - b)
+    const cy = span === 'all' ? allChamp : span === 'onfile' ? both : [span]
+    const py = span === 'all' ? seasons : cy
+    return { champ: sum(raw.champY, cy), play: sum(raw.playY, py), from: cy[0], to: cy[cy.length - 1], cy, py }
+  }, [raw, span, seasons.length])
   if (!data || !seasons.length) return null
 
   const total = o => Object.values(o || {}).reduce((a, b) => a + b, 0)
@@ -83,10 +102,17 @@ export default function ChampShare({ allData = {}, years = [], loadAllYears }) {
       </div>
       <div style={{ fontSize:13, color:'var(--mid)', lineHeight:1.55, margin:'10px 0 12px', maxWidth:860 }}>
         If championship games went to chapters in line with the rest of the playoffs, a chapter that works 24% of a class's playoff games would work about 24% of its
-        state finals too. Here each chapter's share of championship games ({data.from}–{data.to}) is set against its share of all that class's playoff games
-        (seasons on file), along with how many finals that share "should" have given it.
+        state finals too. Here each chapter's share of championship games ({data.from === data.to ? data.from : `${data.from}–${data.to}`}) is set against its share of all that class's playoff games
+        ({span === 'all' ? 'every season on file' : data.py.length === 1 ? `the ${data.py[0]} playoffs` : `the same ${data.py.length} seasons`}), along with how many finals that share "should" have given it.
+      </div>
+      <div style={{ display:'flex', gap:4, flexWrap:'wrap', alignItems:'center', marginBottom:6 }}>
+        <span style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginRight:4 }}>Seasons:</span>
+        <button onClick={() => setSpan('all')} style={btn(span === 'all')} title="Every final on file (2000 on) against every playoff season on file">All finals, cumulative</button>
+        <button onClick={() => setSpan('onfile')} style={btn(span === 'onfile')} title="Only seasons with both the final and every playoff round on file">Same seasons both sides</button>
+        {[...both].reverse().map(y => <button key={y} onClick={() => setSpan(y)} style={btn(span === y)}>{y}</button>)}
       </div>
       <div style={{ display:'flex', gap:4, flexWrap:'wrap', marginBottom:10 }}>
+        <span style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginRight:4, alignSelf:'center' }}>Class:</span>
         <button onClick={() => setCls('all')} style={btn(cls === 'all')}>All classes ({total(data.champ.all)} finals)</button>
         {CLASSES.map(c => <button key={c} onClick={() => setCls(c)} style={btn(cls === c)}>{c} ({total(data.champ[c])})</button>)}
       </div>
@@ -137,7 +163,7 @@ export default function ChampShare({ allData = {}, years = [], loadAllYears }) {
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6, maxWidth:900 }}>
         "Expected" = the chapter's share of that class's playoff games × the number of finals. Sorted by finals above expected. Highlighted: at least 3 finals and
         1.5× or more its playoff share (green), or at least 3 expected and half or less (red). Only {ct} finals {cls === 'all' ? 'in all' : `in ${cls}`}, so one or two games
-        moves a share a lot. Playoff shares use seasons on file ({seasons.join(', ')}); finals use every championship on file. Classes before 2014 are in today's names;
+        moves a share a lot. Playoff shares use {span === 'all' ? `seasons on file (${seasons.join(', ')})` : data.py.join(', ')}; finals use {span === 'all' ? 'every championship on file' : data.cy.join(', ')}. A single season has only about a dozen finals (2 per class), so a one-year view shows who got the finals that year more than any pattern. Classes before 2014 are in today's names;
         East Texas counts as Tyler.
       </div>
     </div>
