@@ -79,7 +79,7 @@ export default function ChapterRuns({ data, allData, years }) {
       <div style={{ fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.18em', textTransform:'uppercase', color:'var(--mid)', marginBottom:6 }}>Same crew, again</div>
       <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:30, color:'var(--ink)', marginBottom:6, paddingBottom:12, borderBottom:'1px solid var(--border)', display:'flex', alignItems:'center', gap:12 }}>
         <div style={{ width:4, height:28, borderRadius:2, background:'var(--burnt)' }} />
-        Teams That Keep Getting the Same Chapter
+        Teams That Keep Picking the Same Chapter
       </div>
       <div style={{ display:'flex', gap:4, flexWrap:'wrap', margin:'10px 0 8px' }}>
         <button onClick={() => setScope('season')} style={btn(scope === 'season')}>{season} season</button>

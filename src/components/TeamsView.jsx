@@ -87,6 +87,7 @@ export default function TeamsView({ allData, years }) {
   const [sortBy, setSortBy] = useState('appearances')
   const [selectedTeam, setSelectedTeam] = useState(null)
   const [classFilter, setClassFilter] = useState('all')
+  const [expanded, setExpanded] = useState(false)   // the team table shows the top 10 until opened (or while searching)
   const [lbYear, setLbYear] = useState('all')
   const [homeStadiums, setHomeStadiums] = useState({})
 
@@ -259,7 +260,7 @@ export default function TeamsView({ allData, years }) {
               </tr>
             </thead>
             <tbody>
-              {filtered.slice(0, 200).map(team => {
+              {filtered.slice(0, (expanded || search) ? 200 : 10).map(team => {
                 const isSelected = selectedTeam === team.name
                 return (
                   <tr key={team.name} onClick={() => setSelectedTeam(isSelected ? null : team.name)} style={{
@@ -297,7 +298,14 @@ export default function TeamsView({ allData, years }) {
               })}
             </tbody>
           </table>
-          {filtered.length > 200 && (
+          {!search && filtered.length > 10 && (
+            <button onClick={() => setExpanded(e => !e)} style={{ display:'block', width:'100%', padding:'10px 16px', fontFamily:'var(--mono)', fontSize:10,
+              letterSpacing:'0.1em', textTransform:'uppercase', color:'var(--burnt)', background:'rgba(70,29,124,0.04)', border:'none',
+              borderTop:'1px solid var(--border)', cursor:'pointer', textAlign:'left' }}>
+              {expanded ? '▴ Show the top 10 only' : `▾ Show all ${filtered.length.toLocaleString()} teams`}
+            </button>
+          )}
+          {(expanded || search) && filtered.length > 200 && (
             <div style={{ padding:'10px 16px', fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)', borderTop:'1px solid var(--border)' }}>
               Showing first 200 of {filtered.length.toLocaleString()} — refine your search to narrow results
             </div>
