@@ -64,7 +64,16 @@ export default function UilPicks({ data }) {
         <div style={{ width:4, height:28, borderRadius:2, background:'var(--burnt)' }} />
         UIL-Assigned Games
       </div>
-      <div style={{ fontSize:13, color:'var(--mid)', lineHeight:1.55, margin:'10px 0 14px', maxWidth:800 }}>
+      <div style={{ fontSize:13, color:'var(--ink)', lineHeight:1.6, margin:'12px 0 14px', maxWidth:860, background:'rgba(253,208,35,0.22)',
+        borderLeft:'4px solid var(--gold)', borderRadius:6, padding:'10px 14px' }}>
+        <strong>Even when UIL steps in, the coaches still choose.</strong> The very first preference on UIL's officials request form is
+        "Chapter Agreed Upon by BOTH Coaches (if any)": the coaches can simply name the chapter they want. Failing that, they hand UIL a list of the
+        chapters they'll accept ("Chapters You Want UIL to Choose From") and a <strong>blacklist</strong> of chapters they won't
+        ("Chapters Schools Want to Scratch"). <strong>Blacklisted chapters aren't even considered.</strong> The "neutral" UIL pick only chooses from the
+        coaches' own list.{' '}
+        <a href="https://www.uiltexas.org/form/officials-request/football.php" target="_blank" rel="noopener noreferrer" style={{ color:'var(--burnt)' }}>See the form ↗</a>
+      </div>
+      <div style={{ fontSize:13, color:'var(--mid)', lineHeight:1.55, margin:'0 0 14px', maxWidth:800 }}>
         Normally the two schools' coaches choose the chapter for a playoff game. In these {total} games, UIL assigned the officials instead.
       </div>
       <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, padding:'6px 16px 10px' }}>
@@ -96,15 +105,6 @@ export default function UilPicks({ data }) {
         ))}
       </div>
       <ByChapter rounds={rounds} />
-      <div style={{ fontSize:13, color:'var(--ink)', lineHeight:1.6, marginTop:14, maxWidth:860, background:'rgba(253,208,35,0.22)',
-        borderLeft:'4px solid var(--gold)', borderRadius:6, padding:'10px 14px' }}>
-        <strong>Even when UIL steps in, the coaches still choose.</strong> The very first preference on UIL's officials request form is
-        "Chapter Agreed Upon by BOTH Coaches (if any)": the coaches can simply name the chapter they want. Failing that, they hand UIL a list of the
-        chapters they'll accept ("Chapters You Want UIL to Choose From") and a <strong>blacklist</strong> of chapters they won't
-        ("Chapters Schools Want to Scratch"). <strong>Blacklisted chapters aren't even considered.</strong> The "neutral" UIL pick only chooses from the
-        coaches' own list.{' '}
-        <a href="https://www.uiltexas.org/form/officials-request/football.php" target="_blank" rel="noopener noreferrer" style={{ color:'var(--burnt)' }}>See the form ↗</a>
-      </div>
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6 }}>
         Only games known to be UIL assignments are listed; others may not have been reported yet.
         Miles are estimated driving miles, round trip, from the chapter's main city to the game site (straight-line distance × 1.2).
