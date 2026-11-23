@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-23T22:28+00:00",
+    "updated": "2026-11-23T23:08+00:00",
     "games": 616,
     "played": 528,
     "assigned": 612,
@@ -13030,7 +13030,8 @@
       "city": "Dublin",
       "date": "2026-11-27",
       "time": "7:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/goldthwaite-vs-santo/11-27-2026/?c=40855de7-de8f-4008-a90a-fbb678a4a1fc"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/goldthwaite-vs-santo/11-27-2026/?c=40855de7-de8f-4008-a90a-fbb678a4a1fc",
+      "uil_pick": true
     },
     {
       "year": 2026,
