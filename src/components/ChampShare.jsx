@@ -23,6 +23,7 @@ export default function ChampShare({ allData = {}, years = [], loadAllYears }) {
   const [finals, setFinals] = useState(null)
   const [cls, setCls] = useState('all')
   const [span, setSpan] = useState('all')   // 'all' | 'onfile' | a season
+  const [open, setOpen] = useState(null)   // chapter whose finals are listed
   useEffect(() => {
     loadAllYears?.()
     fetch(`${import.meta.env.BASE_URL}data/championship_games.json?v=${__BUILD_TIME__}`).then(r => r.ok ? r.json() : null).then(setFinals).catch(() => setFinals({}))
@@ -32,13 +33,13 @@ export default function ChampShare({ allData = {}, years = [], loadAllYears }) {
   // finals and playoff games per season: { year: { class: { chapter: n } } } ('all' holds every class)
   const raw = useMemo(() => {
     if (!finals) return null
-    const champY = {}, playY = {}
+    const champY = {}, playY = {}, list = []   // list: every final with its chapter, season and class
     const add = (o, y, c, ch) => {
       const t = o[y] = o[y] || {}
       for (const k of [c, 'all']) { t[k] = t[k] || {}; t[k][ch] = (t[k][ch] || 0) + 1 }
     }
     for (const [ch0, ys] of Object.entries(finals)) for (const [y, gs] of Object.entries(ys)) for (const g of gs) {
-      const c = modern(g.classification, +y); if (c) add(champY, +y, c, CODE[ch0] || ch0)
+      const c = modern(g.classification, +y); if (c) { add(champY, +y, c, CODE[ch0] || ch0); list.push({ ...g, ch: CODE[ch0] || ch0, cls: c, year: +y }) }
     }
     // seasons after the championship file (2022 on) come from the season data's state finals
     const fileYears = new Set(Object.keys(champY).map(Number))
@@ -46,14 +47,14 @@ export default function ChampShare({ allData = {}, years = [], loadAllYears }) {
       if (fileYears.has(y)) continue
       for (const g of allData[y].games) {
         if (g.week !== 6 || !g.chapter) continue
-        const c = modern(g.classification, y); if (c) add(champY, y, c, CODE[g.chapter] || g.chapter)
+        const c = modern(g.classification, y); if (c) { add(champY, y, c, CODE[g.chapter] || g.chapter); list.push({ ...g, ch: CODE[g.chapter] || g.chapter, cls: c, year: y }) }
       }
     }
     for (const y of seasons) for (const g of allData[y].games) {
       if (!g.chapter) continue
       const c = modern(g.classification, y); if (c) add(playY, y, c, CODE[g.chapter] || g.chapter)
     }
-    return { champY, playY }
+    return { champY, playY, list }
   }, [finals, allData, seasons.length])
   // both sides for the chosen span: every final on file vs every playoff season ('all'), the same seasons
   // on both sides ('onfile'), or one season
@@ -71,7 +72,9 @@ export default function ChampShare({ allData = {}, years = [], loadAllYears }) {
     const allChamp = Object.keys(raw.champY).map(Number).sort((a, b) => a - b)
     const cy = span === 'all' ? allChamp : span === 'onfile' ? both : [span]
     const py = span === 'all' ? seasons : cy
-    return { champ: sum(raw.champY, cy), play: sum(raw.playY, py), from: cy[0], to: cy[cy.length - 1], cy, py }
+    const inSpan = new Set(cy)
+    return { champ: sum(raw.champY, cy), play: sum(raw.playY, py), from: cy[0], to: cy[cy.length - 1], cy, py,
+      list: raw.list.filter(g => inSpan.has(g.year)).sort((a, b) => b.year - a.year || CLASSES.indexOf(a.cls) - CLASSES.indexOf(b.cls) || (a.classification || '').localeCompare(b.classification || '')) }
   }, [raw, span, seasons.length])
   if (!data || !seasons.length) return null
 
@@ -141,8 +144,11 @@ export default function ChampShare({ allData = {}, years = [], loadAllYears }) {
             {rows.map(r => {
               const hot = r.cw >= 3 && r.ratio >= 1.5, cold = r.expected >= 3 && r.ratio <= 0.5
               return (
-                <tr key={r.c} style={{ background: hot ? 'rgba(80,140,90,0.10)' : cold ? 'rgba(200,60,40,0.07)' : 'transparent' }}>
+                <React.Fragment key={r.c}>
+                <tr onClick={() => r.cw && setOpen(open === r.c ? null : r.c)} title={r.cw ? 'Show the finals this chapter worked' : undefined}
+                  style={{ background: hot ? 'rgba(80,140,90,0.10)' : cold ? 'rgba(200,60,40,0.07)' : 'transparent', cursor: r.cw ? 'pointer' : 'default' }}>
                   <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans', whiteSpace:'nowrap' }}>
+                    <span style={{ color:'var(--burnt)', fontSize:10, display:'inline-block', width:12 }}>{r.cw ? (open === r.c ? '▾' : '▸') : ''}</span>
                     <span style={{ display:'inline-block', width:8, height:8, borderRadius:'50%', background:chapterColor(r.c), marginRight:6 }} />{NAMES[r.c]}</td>
                   <td style={td}>{pct(r.ps)}</td>
                   <td style={{ ...td, fontWeight:700 }}>{pct(r.cs)}</td>
@@ -155,13 +161,27 @@ export default function ChampShare({ allData = {}, years = [], loadAllYears }) {
                     <div style={{ height:6, borderRadius:3, background:'var(--burnt)', width:`${100 * r.cs / maxShare}%`, minWidth: r.cs ? 2 : 0 }} />
                   </td>
                 </tr>
+                {open === r.c && (
+                  <tr><td colSpan={7} style={{ padding:'4px 10px 10px 34px', borderBottom:'1px solid var(--border)', background:'var(--bg, #fff)' }}>
+                    {data.list.filter(g => g.ch === r.c && (cls === 'all' || g.cls === cls)).map((g, i) => {
+                      const played = g.score1 != null && g.score2 != null
+                      return (
+                        <div key={i} style={{ display:'flex', gap:10, flexWrap:'wrap', fontSize:12, padding:'4px 0', borderTop: i ? '1px dashed var(--border)' : 'none' }}>
+                          <span style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', width:150 }}>{g.year} · {g.classification}{g.year < 2014 ? ` (today's ${g.cls})` : ''}</span>
+                          <span>{g.team1}{played && <span style={{ color:'var(--mid)' }}> {g.score1}</span>} v {g.team2}{played && <span style={{ color:'var(--mid)' }}> {g.score2}</span>}</span>
+                        </div>
+                      )
+                    })}
+                  </td></tr>
+                )}
+                </React.Fragment>
               )
             })}
           </tbody>
         </table>
       </div>
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6, maxWidth:900 }}>
-        "Expected" = the chapter's share of that class's playoff games × the number of finals. Sorted by finals above expected. Highlighted: at least 3 finals and
+        "Expected" = the chapter's share of that class's playoff games × the number of finals. Sorted by finals above expected. Click a chapter to list its finals. Highlighted: at least 3 finals and
         1.5× or more its playoff share (green), or at least 3 expected and half or less (red). Only {ct} finals {cls === 'all' ? 'in all' : `in ${cls}`}, so one or two games
         moves a share a lot. Playoff shares use {span === 'all' ? `seasons on file (${seasons.join(', ')})` : data.py.join(', ')}; finals use {span === 'all' ? 'every championship on file' : data.cy.join(', ')}. A single season has only about a dozen finals (2 per class), so a one-year view shows who got the finals that year more than any pattern. Classes before 2014 are in today's names;
         East Texas counts as Tyler.
