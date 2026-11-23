@@ -14,6 +14,7 @@ const CODE = { WACO: 'WAC' }
 
 export default function ChapterRuns({ data, allData, years }) {
   const [scope, setScope] = useState('season')   // 'season' | 'all'
+  const [chap, setChap] = useState('')   // only this chapter's runs ('' = every chapter)
   const [show, setShow] = useState(15)
   const season = data?.games?.[0]?.year
 
@@ -84,6 +85,13 @@ export default function ChapterRuns({ data, allData, years }) {
       <div style={{ display:'flex', gap:4, flexWrap:'wrap', margin:'10px 0 8px' }}>
         <button onClick={() => setScope('season')} style={btn(scope === 'season')}>{season} season</button>
         <button onClick={() => setScope('all')} style={btn(scope === 'all')}>All seasons on file</button>
+        <select value={chap} onChange={e => { setChap(e.target.value); setShow(15) }} aria-label="Chapter"
+          style={{ fontFamily:'var(--mono)', fontSize:10, padding:'4px 8px', borderRadius:3, border:`1px solid ${chap ? 'var(--burnt)' : 'var(--border)'}`,
+            background: chap ? 'var(--burnt)' : 'var(--surface)', color: chap ? '#fff' : 'var(--ink)', marginLeft:8 }}>
+          <option value="">All chapters</option>
+          {[...new Set([...runs, ...totals].map(r => r.ch))].sort((a, b) => (NAMES[a] || a).localeCompare(NAMES[b] || b))
+            .map(c => <option key={c} value={c}>{NAMES[c] || c}</option>)}
+        </select>
       </div>
       <div style={{ fontSize:13, color:'var(--mid)', lineHeight:1.55, margin:'4px 0 14px', maxWidth:820 }}>
         Left: the same chapter working 2 or more of a team's playoff games <strong style={{ color:'var(--ink)' }}>in a row</strong>.
@@ -91,10 +99,10 @@ export default function ChapterRuns({ data, allData, years }) {
         {scope === 'all' && ' Across seasons, games run in order from the earliest season on file, so a run can carry over from one season to the next.'}
       </div>
       <div style={{ display:'flex', gap:16, flexWrap:'wrap' }}>
-        <List title="In a row" rows={runs} kind="run" />
-        <List title="Altogether" rows={totals} kind="total" />
+        <List title={chap ? `In a row · ${NAMES[chap] || chap}` : 'In a row'} rows={chap ? runs.filter(r => r.ch === chap) : runs} kind="run" />
+        <List title={chap ? `Altogether · ${NAMES[chap] || chap}` : 'Altogether'} rows={chap ? totals.filter(r => r.ch === chap) : totals} kind="total" />
       </div>
-      {Math.max(runs.length, totals.length) > show && (
+      {Math.max(...[runs, totals].map(l => (chap ? l.filter(r => r.ch === chap) : l).length)) > show && (
         <button onClick={() => setShow(s => s + 25)} style={{ ...btn(false), marginTop:10 }}>Show more</button>
       )}
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6 }}>
