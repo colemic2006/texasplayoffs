@@ -1,4 +1,5 @@
 import React, { useState, useMemo, useEffect } from 'react'
+import NotAllTime, { SEASONS_ON_FILE, GAPS } from './NotAllTime'
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend } from 'recharts'
 
 const CHAPTER_COLORS = [
@@ -69,8 +70,12 @@ export default function HistoryView({ allData, years, loadYear }) {
         borderBottom:'1px solid var(--border)', display:'flex', alignItems:'center', gap:12
       }}>
         <div style={{ width:4, height:28, borderRadius:2, background:'var(--gold)', flexShrink:0 }} />
-        Chapter History · 2022–{Math.max(...years)}
+        Chapter History · {Math.min(...years)}–{Math.max(...years)}
       </div>
+
+      <NotAllTime>
+        Every total and trend on this page covers only the seasons where chapter assignments are on file: <strong>{SEASONS_ON_FILE.join(', ')}</strong>. Seasons in between (such as {GAPS}) aren't included, so a chapter's real totals over the years may be higher, and a trend may look different with those seasons in.
+      </NotAllTime>
 
       {missingYears.length > 0 && (
         <div style={{

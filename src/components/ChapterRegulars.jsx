@@ -1,4 +1,5 @@
 import React, { useMemo, useState } from 'react'
+import NotAllTime, { SEASONS_ON_FILE, GAPS } from './NotAllTime'
 import { useHomeChapters, useHomeChapterStatus } from '../homeChapters'
 
 const KNOWN_CHAPTERS = new Set(['ABI','AMA','AUS','BEA','COM','CSC','CTX','DAL','ELP','ETX','FTW','HOU','NTX','PBC','PVC','RGV','SAT','SAN','SFA','SPC','STX','TYL','WAC','WACO'])
@@ -120,6 +121,10 @@ export default function ChapterRegulars({ allData, years }) {
         <div style={{ width:4, height:28, borderRadius:2, background:'var(--gold)', flexShrink:0 }} />
         Top Teams per Chapter
       </div>
+
+      <NotAllTime>
+        Every count on this page covers only the seasons where chapter assignments are on file: <strong>{SEASONS_ON_FILE.join(', ')}</strong>. Seasons in between (such as {GAPS}) aren't included, so a chapter may have worked more games for a team, at a site or in a class than shown here.
+      </NotAllTime>
 
       <div style={{ fontFamily:'var(--mono)', fontSize:11, color:'var(--mid)', marginBottom:16 }}>
         Select a chapter to see which teams have been assigned to it most across all years.

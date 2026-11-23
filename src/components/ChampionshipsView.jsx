@@ -1,4 +1,5 @@
 import React, { useMemo, useState, useEffect } from 'react'
+import NotAllTime, { SEASONS_ON_FILE, GAPS } from './NotAllTime'
 
 const CHAPTER_NAMES = {
   ABI:'Abilene', AMA:'Amarillo', AUS:'Austin', BEA:'Beaumont',
@@ -130,6 +131,10 @@ export default function ChampionshipsView() {
         <div style={{ width:4, height:28, borderRadius:2, background:'var(--burnt)', flexShrink:0 }} />
         Texas High School Football Championships by Chapter
       </div>
+
+      <NotAllTime>
+        Championship counts cover the state finals from 2000 to 2025 whose officiating chapter is known; a final with no chapter on file isn't counted. Where this page compares finals with the rest of the playoffs, the playoff side covers only the seasons where every round's chapter assignments are on file: <strong>{SEASONS_ON_FILE.join(', ')}</strong>. Seasons in between (such as {GAPS}) aren't included.
+      </NotAllTime>
 
       <div style={{ fontFamily:'var(--mono)', fontSize:11, color:'var(--mid)', marginBottom:20 }}>
         Texas High School Football Championships per chapter, {years[0]}{years.length > 1 ? `–${years[years.length - 1]}` : ''} ·{' '}

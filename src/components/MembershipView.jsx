@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
+import NotAllTime, { SEASONS_ON_FILE, GAPS } from './NotAllTime'
 import { addBaseLayers } from '../baseLayers'
 import 'leaflet/dist/leaflet.css'
 import { chapterColor } from '../chapterColors'
@@ -39,6 +40,10 @@ export default function MembershipView({ allData, years, loadAllYears }) {
         <div style={{ width:4, height:28, borderRadius:2, background:'var(--burnt)' }} />
         Chapter Membership · {d.season}
       </div>
+
+      <NotAllTime>
+        Membership is this season's TASO registration (with 2022 for comparison). Game counts on this page cover only the seasons where chapter assignments are on file: <strong>{SEASONS_ON_FILE.join(', ')}</strong>. Seasons in between (such as {GAPS}) aren't included, so per-member rates and shares reflect those seasons only.
+      </NotAllTime>
 
       <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fit,minmax(160px,1fr))', gap:12, marginBottom:24 }}>
         {[
