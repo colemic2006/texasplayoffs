@@ -23,6 +23,7 @@ import HistoryView from './components/HistoryView'
 import TeamsView from './components/TeamsView'
 import ChapterRegulars from './components/ChapterRegulars'
 import ChampionshipsView from './components/ChampionshipsView'
+import ChampShare from './components/ChampShare'
 import ContactView from './components/ContactView'
 import SubmitAssignmentView from './components/SubmitAssignmentView'
 import SeasonBanner from './components/SeasonBanner'
@@ -99,7 +100,7 @@ export default function App() {
         ) : page === 'submit' ? (
           <SubmitAssignmentView />
         ) : page === 'championships' ? (
-          <ChampionshipsView />
+          <><ChampionshipsView /><ChampShare allData={data} years={YEARS} loadAllYears={loadAllYears} /></>
         ) : page === 'links' ? (
           <LinksView />
         ) : page === 'pay' ? (
