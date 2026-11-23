@@ -24,6 +24,7 @@ import TeamsView from './components/TeamsView'
 import ChapterRegulars from './components/ChapterRegulars'
 import ChampionshipsView from './components/ChampionshipsView'
 import ChampShare from './components/ChampShare'
+import SiteSearch from './components/SiteSearch'
 import ContactView from './components/ContactView'
 import SubmitAssignmentView from './components/SubmitAssignmentView'
 import SeasonBanner from './components/SeasonBanner'
@@ -133,6 +134,7 @@ export default function App() {
                 {page === 'chapters' && <OutsideChapterGames data={yearData} />}
                 {page === 'chapters' && <OfficialsCost data={yearData} />}
                 {page === 'brackets' && <BracketViewer data={yearData} year={year} />}
+                {page === 'brackets' && <SiteSearch allData={data} years={YEARS} loadAllYears={loadAllYears} />}
                 {page === 'history' && <HistoryView allData={data} years={HISTORY_YEARS} loadYear={(y) => {
                   if (data[y]) return
                   fetch(`${import.meta.env.BASE_URL}data/${y}.json?v=${__BUILD_TIME__}`)
