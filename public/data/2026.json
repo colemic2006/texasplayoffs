@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-23T20:39+00:00",
+    "updated": "2026-11-23T20:40+00:00",
     "games": 616,
     "played": 528,
     "assigned": 609,
@@ -12682,6 +12682,12 @@
       "team2": "Aquilla",
       "score2": null,
       "winner": null,
+      "site": "Sandies Stadium, Grapeland",
+      "lat": 31.49523,
+      "lng": -95.48492,
+      "stadium": "Grapeland Sandies Stadium",
+      "map_link": "https://goo.gl/maps/wri5EzghE7nnRcCg8",
+      "city": "Grapeland",
       "mp_url": "https://www.maxpreps.com/tx/football/game/aquilla-vs-union-hill-gilmer/11-26-2026/?c=e5100e18-8a30-478d-a6c3-817ada6c2e92"
     },
     {
