@@ -2,10 +2,10 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-23T19:50+00:00",
+    "updated": "2026-11-23T20:03+00:00",
     "games": 616,
     "played": 528,
-    "assigned": 604,
+    "assigned": 605,
     "weeks": {
       "1": {
         "games": 352,
@@ -17,7 +17,7 @@
       },
       "3": {
         "games": 88,
-        "assigned": 76
+        "assigned": 77
       },
       "4": {
         "games": 0,
@@ -37,7 +37,7 @@
     {
       "code": "HOU",
       "name": "Houston",
-      "total": 124,
+      "total": 125,
       "weeks": {
         "1": {
           "total": 62,
@@ -69,13 +69,13 @@
           }
         },
         "3": {
-          "total": 18,
+          "total": 19,
           "classifications": {
             "3A D2": 1,
             "4A D1": 2,
             "4A D2": 3,
             "5A D1": 1,
-            "5A D2": 4,
+            "5A D2": 5,
             "6A D1": 4,
             "6A D2": 3
           }
@@ -14067,7 +14067,7 @@
       "classification": "5A D2",
       "week": 3,
       "round": "Regionals",
-      "chapter": null,
+      "chapter": "HOU",
       "team1": "Almeta Crawford",
       "score1": null,
       "team2": "Huntsville",
