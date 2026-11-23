@@ -2,10 +2,10 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-23T03:42+00:00",
+    "updated": "2026-11-23T03:54+00:00",
     "games": 616,
     "played": 528,
-    "assigned": 594,
+    "assigned": 596,
     "weeks": {
       "1": {
         "games": 352,
@@ -17,7 +17,7 @@
       },
       "3": {
         "games": 88,
-        "assigned": 66
+        "assigned": 68
       },
       "4": {
         "games": 0,
@@ -85,7 +85,7 @@
     {
       "code": "SAT",
       "name": "San Antonio",
-      "total": 70,
+      "total": 71,
       "weeks": {
         "1": {
           "total": 46,
@@ -116,13 +116,14 @@
           }
         },
         "3": {
-          "total": 9,
+          "total": 10,
           "classifications": {
             "2A D1": 1,
             "2A D2": 1,
             "3A D1": 3,
             "4A D1": 1,
             "5A D1": 1,
+            "6A D1": 1,
             "6A D2": 2
           }
         }
@@ -231,7 +232,7 @@
     {
       "code": "TYL",
       "name": "Tyler",
-      "total": 44,
+      "total": 45,
       "weeks": {
         "1": {
           "total": 30,
@@ -259,6 +260,12 @@
             "5A D1": 1,
             "5A D2": 2,
             "6A D2": 1
+          }
+        },
+        "3": {
+          "total": 1,
+          "classifications": {
+            "6A D1": 1
           }
         }
       }
@@ -13181,7 +13188,7 @@
       "classification": "6A D1",
       "week": 3,
       "round": "Regionals",
-      "chapter": null,
+      "chapter": "SAT",
       "team1": "Duncanville",
       "score1": null,
       "team2": "Houston Benjamin Davis",
@@ -13213,7 +13220,7 @@
       "classification": "6A D1",
       "week": 3,
       "round": "Regionals",
-      "chapter": null,
+      "chapter": "TYL",
       "team1": "Waxahachie",
       "score1": null,
       "team2": "Klein",
