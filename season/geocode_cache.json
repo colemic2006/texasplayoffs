@@ -14028,6 +14028,18 @@
   "stadium": "Tiger Field",
   "stadium_id": 820
  },
+ "Gupton Stadium - Leander ISD || Boerne v Legacy Ranch": {
+  "address": "S. Vista Ridge Blvd at E. Park St, Cedar Park, Texas 78613",
+  "city": "Cedar Park",
+  "how": "stadium (map link)",
+  "lat": 30.51517,
+  "lng": -97.79197,
+  "map_link": "https://goo.gl/maps/dJoKL6tqpt1DgXV18",
+  "rules": 10,
+  "site": "Gupton Stadium - Leander ISD",
+  "stadium": "John Gupton Stadium",
+  "stadium_id": 1340
+ },
  "Gupton Stadium, Cedar Park || Boerne v Legacy Ranch": {
   "address": "",
   "city": "Cedar Park",
