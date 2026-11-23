@@ -11,16 +11,32 @@ export default function SiteSearch({ allData = {}, years = [], loadAllYears }) {
   const [q, setQ] = useState('')
   const [open, setOpen] = useState(null)
   const [yr, setYr] = useState('all')   // 'all' or one season
+  const [cls, setCls] = useState('all')   // 'all' or a class ('6A' ... '1A')
   useEffect(() => { loadAllYears?.() }, [])
 
   const venues = useMemo(() => {
-    const by = {}
+    // one venue = games sharing a stadium name and town, or the same map spot. The same stadium can be
+    // pinned a few hundred feet apart by different lookups, and written different ways at the same pin.
+    const parent = {}
+    const find = k => { while (parent[k] !== k) k = parent[k] = parent[parent[k]]; return k }
+    const join = (a, b) => { parent[a] ??= a; parent[b] ??= b; const x = find(a), y = find(b); if (x !== y) parent[y] = x }
+    const items = []
     for (const y of years) for (const g of allData[y]?.games || []) {
       if (!g.site && g.lat == null) continue
-      const key = g.lat != null ? `${g.lat.toFixed(3)},${g.lng.toFixed(3)}` : `t:${norm(g.site)}`
+      const keys = []
+      if (g.lat != null) keys.push(`p:${g.lat.toFixed(3)},${g.lng.toFixed(3)}`)
+      if (g.stadium && g.city) keys.push(`n:${norm(g.stadium)}|${norm(g.city)}`)
+      if (!keys.length) keys.push(`t:${norm(g.site)}`)
+      keys.forEach(k => { parent[k] ??= k })
+      for (let i = 1; i < keys.length; i++) join(keys[0], keys[i])
+      items.push([keys[0], { ...g, year: g.year || y }])
+    }
+    const by = {}
+    for (const [k, g] of items) {
+      const key = find(k)
       const v = by[key] || (by[key] = { key, names: new Set(), games: [], city: g.city || '' })
       v.names.add(placeName(g) || g.site); if (g.city) v.city = g.city
-      v.games.push({ ...g, year: g.year || y })
+      v.games.push(g)
     }
     return Object.values(by).map(v => {
       const names = [...v.names].filter(Boolean)
@@ -36,7 +52,8 @@ export default function SiteSearch({ allData = {}, years = [], loadAllYears }) {
 
   const words = norm(q).split(' ').filter(Boolean)
   // the chosen season's games at each site
-  const inYear = useMemo(() => venues.map(v => ({ ...v, games: yr === 'all' ? v.games : v.games.filter(g => g.year === yr) })).filter(v => v.games.length), [venues, yr])
+  const inYear = useMemo(() => venues.map(v => ({ ...v, games: v.games.filter(g => (yr === 'all' || g.year === yr) && (cls === 'all' || (g.classification || '').startsWith(cls))) }))
+    .filter(v => v.games.length), [venues, yr, cls])
   const hits = words.length ? inYear.filter(v => words.every(w => v.text.includes(w))).sort((a, b) => b.games.length - a.games.length) : []
   const top = !words.length ? [...inYear].sort((a, b) => b.games.length - a.games.length || a.title.localeCompare(b.title)).slice(0, 10) : []
   const btn = on => ({ fontFamily:'var(--mono)', fontSize:10, padding:'4px 10px', borderRadius:3, cursor:'pointer',
@@ -90,6 +107,10 @@ export default function SiteSearch({ allData = {}, years = [], loadAllYears }) {
         <button onClick={() => { setYr('all'); setOpen(null) }} style={btn(yr === 'all')}>All</button>
         {[...seasons].reverse().map(y => <button key={y} onClick={() => { setYr(y); setOpen(null) }} style={btn(yr === y)}>{y}</button>)}
       </div>
+      <div style={{ display:'flex', gap:4, flexWrap:'wrap', alignItems:'center', marginBottom:10 }}>
+        <span style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginRight:4 }}>Class:</span>
+        {['all', '6A', '5A', '4A', '3A', '2A', '1A'].map(c => <button key={c} onClick={() => { setCls(c); setOpen(null) }} style={btn(cls === c)}>{c === 'all' ? 'All' : c}</button>)}
+      </div>
       <input value={q} onChange={e => { setQ(e.target.value); setOpen(null) }} placeholder="e.g. Shotwell, Lowrey Field, Canyon, Alamodome…" aria-label="Search stadiums"
         style={{ fontFamily:'var(--sans)', fontSize:14, padding:'10px 14px', borderRadius:6, border:'1px solid var(--border)', background:'#fff',
           color:'var(--ink)', width:'100%', maxWidth:520, boxSizing:'border-box', marginBottom:12 }} />
@@ -101,7 +122,7 @@ export default function SiteSearch({ allData = {}, years = [], loadAllYears }) {
         )}
         {!words.length && (
           <div style={{ fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--mid)', padding:'8px 14px', borderBottom:'1px solid var(--border)' }}>
-            Busiest sites{yr === 'all' ? ', all seasons' : ` in ${yr}`}
+            Busiest sites{cls === 'all' ? '' : ` for ${cls}`}{yr === 'all' ? ', all seasons' : ` in ${yr}`}
           </div>
         )}
         {(words.length ? hits.slice(0, 40) : top).map(row)}
