@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-23T20:31+00:00",
+    "updated": "2026-11-23T20:39+00:00",
     "games": 616,
     "played": 528,
     "assigned": 609,
@@ -12642,6 +12642,12 @@
       "team2": "Menard",
       "score2": null,
       "winner": null,
+      "site": "Griffith Stadium, Robert Lee",
+      "lat": 31.90081,
+      "lng": -100.48903,
+      "stadium": "Griffith Stadium",
+      "map_link": "https://goo.gl/maps/rtUWeUBFBqsEXabD6",
+      "city": "Robert Lee",
       "mp_url": "https://www.maxpreps.com/tx/football/game/borden-county-gail-vs-menard/11-26-2026/?c=888955e3-a8c1-4af1-bb04-90c173b6e00a"
     },
     {

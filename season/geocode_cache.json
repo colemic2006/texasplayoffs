@@ -13970,6 +13970,18 @@
   "stadium": null,
   "stadium_id": null
  },
+ "Griffith Stadium, Robert Lee || Borden County v Menard": {
+  "address": "1323 W. Hamilton St, Robert Lee, Texas 76945",
+  "city": "Robert Lee",
+  "how": "stadium (map link)",
+  "lat": 31.90081,
+  "lng": -100.48903,
+  "map_link": "https://goo.gl/maps/rtUWeUBFBqsEXabD6",
+  "rules": 10,
+  "site": "Griffith Stadium, Robert Lee",
+  "stadium": "Griffith Stadium",
+  "stadium_id": 1006
+ },
  "Griffith Stadium, Robert Lee || Menard v Rankin": {
   "address": "1323 W. Hamilton St, Robert Lee, Texas 76945",
   "city": "Robert Lee",
