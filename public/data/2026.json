@@ -5,7 +5,7 @@
     "updated": "2026-11-23T20:03+00:00",
     "games": 616,
     "played": 528,
-    "assigned": 605,
+    "assigned": 606,
     "weeks": {
       "1": {
         "games": 352,
@@ -17,7 +17,7 @@
       },
       "3": {
         "games": 88,
-        "assigned": 77
+        "assigned": 78
       },
       "4": {
         "games": 0,
@@ -232,7 +232,7 @@
     {
       "code": "TYL",
       "name": "Tyler",
-      "total": 47,
+      "total": 48,
       "weeks": {
         "1": {
           "total": 30,
@@ -263,8 +263,9 @@
           }
         },
         "3": {
-          "total": 3,
+          "total": 4,
           "classifications": {
+            "2A D1": 1,
             "3A D1": 1,
             "3A D2": 1,
             "6A D1": 1
@@ -12806,7 +12807,7 @@
       "classification": "2A D1",
       "week": 3,
       "round": "Regionals",
-      "chapter": null,
+      "chapter": "TYL",
       "team1": "Joaquin",
       "score1": null,
       "team2": "San Augustine",
