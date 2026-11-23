@@ -5,6 +5,7 @@ import { ChangeBadge, ChangeDetail } from '../changes'
 const ROUNDS = { 1:'Bi-District', 2:'Area', 3:'Regionals', 4:'Quarterfinals', 5:'Semifinals', 6:'Championship' }
 const CLASSES = ['1A D1','1A D2','2A D1','2A D2','3A D1','3A D2','4A D1','4A D2','5A D1','5A D2','6A D1','6A D2']
 export const SHOW_AT_MOST = 10
+export const ENTERED_SHARE = 0.75   // Regionals on: share of the round's games with a chapter before the unassigned list shows
 
 const DAY = 86400000
 const todayCT = () => new Date().toLocaleDateString('en-CA', { timeZone: 'America/Chicago' })
@@ -27,7 +28,8 @@ export function roundOpen(games, week) {
 }   // the list appears once this round is down to this many unassigned games
 
 // While a season is in progress: the current round's games that no chapter has claimed yet, and
-// the ones with no site on the map yet. Each list shows only once it is down to SHOW_AT_MOST games,
+// the ones with no site on the map yet. Each list shows only once it is down to SHOW_AT_MOST games
+// (the unassigned list, from Regionals on: once ENTERED_SHARE of the round's games have a chapter),
 // so it doesn't fill the page early in the week before brackets and assignments come in.
 export default function MissingGames({ data, onSubmit }) {
   if (data?.season?.status !== 'in_progress') return null
@@ -37,7 +39,10 @@ export default function MissingGames({ data, onSubmit }) {
   const order = (a, b) => CLASSES.indexOf(a.classification) - CLASSES.indexOf(b.classification) || (a.date || '').localeCompare(b.date || '')
   const noChapter = round.filter(g => !g.chapter).sort(order)
   const noPin = round.filter(g => g.lat == null || g.lng == null).sort(order)
-  const showChapter = noChapter.length > 0 && noChapter.length <= SHOW_AT_MOST
+  // Regionals on, the rounds are small, so the unassigned list shows once 75% of the round's games have a chapter
+  const showChapter = noChapter.length > 0 && (week >= 3
+    ? (round.length - noChapter.length) / round.length >= ENTERED_SHARE
+    : noChapter.length <= SHOW_AT_MOST)
   const showPin = noPin.length > 0 && noPin.length <= SHOW_AT_MOST
   if (!showChapter && !showPin) return null
 
