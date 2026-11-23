@@ -115,43 +115,53 @@ function Trade({ a, b, data, allData, seasons, byYear }) {
   )
 }
 
-// ---- 4: who works games with El Paso schools
+// ---- 4: who works the games played in the El Paso area
+const EP = [31.76, -106.49], EP_MILES = 35   // El Paso and its suburbs (Canutillo, Socorro, Horizon City, Clint, Anthony...)
+const inEP = g => g.lat != null && straightMiles(EP[0], EP[1], g.lat, g.lng) <= EP_MILES
 function ElPaso({ data, allData, seasons, byYear }) {
   const year = data?.games?.[0]?.year
-  const rows = seasons.map(y => {
-    const m = byYear(y)
-    const gs = (allData[y]?.games || []).filter(g => homes(g, m).includes('ELP'))
+  const withSites = seasons.filter(y => (allData[y]?.games || []).some(g => g.lat != null))
+  const rows = withSites.map(y => {
+    const m = byYear(y), all = allData[y]?.games || []
+    const gs = all.filter(inEP)
     const by = {}
     for (const g of gs) if (g.chapter) by[code(g.chapter)] = (by[code(g.chapter)] || 0) + 1
-    return { y, n: gs.length, elp: by.ELP || 0, known: gs.filter(g => g.chapter).length, by }
+    // games with an El Paso school whose site isn't on file: they may have been played in El Paso too
+    const unknown = all.filter(g => g.lat == null && homes(g, m).includes('ELP')).length
+    return { y, n: gs.length, elp: by.ELP || 0, known: gs.filter(g => g.chapter).length, by, unknown }
   })
-  const m = byYear(year)
-  const now = (data?.games || []).filter(g => homes(g, m).includes('ELP')).sort((a, b) => a.week - b.week)
+  // before sites were kept: El Paso's games with El Paso schools, wherever played
+  const early = seasons.filter(y => !withSites.includes(y)).map(y => {
+    const gs = (allData[y]?.games || []).filter(g => homes(g, byYear(y)).includes('ELP') && g.chapter)
+    return { y, elp: gs.filter(g => code(g.chapter) === 'ELP').length, n: gs.length }
+  })
+  const now = (data?.games || []).filter(inEP).sort((a, b) => a.week - b.week)
   return (
-    <Card kicker="Far West Texas" title="Who Works El Paso's Playoff Games"
-      intro={<>The El Paso chapter used to work a handful of playoff games each season. Lately it works almost none, and the games with El Paso schools go to crews from hundreds of miles away.</>}>
+    <Card kicker="Far West Texas" title="Who Works the Playoff Games Played in El Paso"
+      intro={<>Playoff games played in the El Paso area, and the chapter that worked them. The El Paso chapter works almost none of them; the crews come from hundreds of miles away.</>}>
       <div style={{ ...box, marginBottom:12 }}>
-        <table style={{ width:'100%', borderCollapse:'collapse', minWidth:560 }}>
-          <thead><tr><th style={{ ...th, textAlign:'left' }}>Season</th><th style={th}>Games with an El Paso school</th><th style={th}>Worked by El Paso</th><th style={{ ...th, textAlign:'left' }}>Worked by others</th></tr></thead>
+        <table style={{ width:'100%', borderCollapse:'collapse', minWidth:620 }}>
+          <thead><tr><th style={{ ...th, textAlign:'left' }}>Season</th><th style={th}>Games played in El Paso area</th><th style={th}>Worked by El Paso</th><th style={{ ...th, textAlign:'left' }}>Worked by others</th><th style={th}>El Paso-school games, no site on file</th></tr></thead>
           <tbody>{[...rows].reverse().map(r => (
             <tr key={r.y}>
               <td style={{ ...td, textAlign:'left' }}>{r.y}</td>
               <td style={td}>{r.n}</td>
-              <td style={{ ...td, fontWeight:700, color: r.elp ? 'var(--ink)' : 'var(--burnt)' }}>{r.elp}{r.known ? <span style={{ color:'var(--mid)', fontWeight:400 }}> of {r.known}</span> : ''}</td>
+              <td style={{ ...td, fontWeight:700, color: r.elp ? 'var(--ink)' : 'var(--burnt)' }}>{r.n ? <>{r.elp}{r.known ? <span style={{ color:'var(--mid)', fontWeight:400 }}> of {r.known}</span> : ''}</> : '—'}</td>
               <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans' }}>{Object.entries(r.by).filter(([c]) => c !== 'ELP').sort((x, y) => y[1] - x[1]).map(([c, n]) => `${name(c)} ${n}`).join(' · ') || '—'}</td>
+              <td style={{ ...td, color:'var(--mid)' }}>{r.unknown || '—'}</td>
             </tr>
           ))}</tbody>
         </table>
       </div>
       <div style={{ ...box, padding:'10px 14px' }}>
-        <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--mid)', marginBottom:6 }}>{year} games with an El Paso school</div>
-        {now.length === 0 && <div style={{ fontSize:12, color:'var(--mid)' }}>None.</div>}
+        <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--mid)', marginBottom:6 }}>{year} games played in the El Paso area</div>
+        {now.length === 0 && <div style={{ fontSize:12, color:'var(--mid)' }}>None on file yet.</div>}
         {now.map((g, i) => {
           const c = code(g.chapter), mi = c ? away(c, g) : null
           return (
             <div key={i} style={{ display:'flex', gap:10, flexWrap:'wrap', alignItems:'center', fontSize:12, padding:'5px 0', borderTop: i ? '1px dashed var(--border)' : 'none' }}>
               <span style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', width:110 }}>{roundName(g)} · {g.classification}</span>
-              <span style={{ flex:1, minWidth:200 }}>{vs(g)}{g.city ? <span style={{ color:'var(--mid)' }}> · {g.city}</span> : ''}</span>
+              <span style={{ flex:1, minWidth:200 }}>{vs(g)}<span style={{ color:'var(--mid)' }}> · {g.stadium || g.site}{g.city ? `, ${g.city}` : ''}</span></span>
               {c ? <span style={{ fontFamily:'var(--mono)', fontSize:10, padding:'2px 6px', borderRadius:3, background:chapterColor(c), color:'#fff' }}>{name(c)}</span>
                 : <span style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)' }}>no chapter on file</span>}
               <span style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', minWidth:70, textAlign:'right' }}>{mi != null ? `${Math.round(mi)} mi` : ''}</span>
@@ -159,8 +169,10 @@ function ElPaso({ data, allData, seasons, byYear }) {
           )
         })}
       </div>
-      <div style={note}>"El Paso school" = a school on the El Paso chapter's home list. Miles are straight-line from the working chapter's main city to the game site, one way.
-        Seasons on file only ({seasons.join(', ')}).</div>
+      <div style={note}>"El Paso area" = a game site within {EP_MILES} miles of downtown El Paso. Game sites are on file from {withSites[0]} on; for 2022–2025, first-round sites
+        are only partly on file, so games played in El Paso are undercounted there (the last column counts games with an El Paso school whose site isn't on file).
+        Miles are straight-line, one way, from the working chapter's main city.
+        {early.length > 0 && <> Before sites were kept, the El Paso chapter worked {early.map(e => `${e.elp} of ${e.n} (${e.y})`).join(', ')} games with El Paso schools, wherever they were played.</>}</div>
     </Card>
   )
 }
