@@ -4172,12 +4172,14 @@
  },
  "Berry Center (Cypress, TX) || Columbus v Franklin": {
   "address": "",
-  "how": "no stadium, school or town matched",
+  "city": "Cypress",
+  "how": "coordinates confirmed by hand",
+  "lat": 29.90618,
+  "lng": -95.68857,
   "map_link": "",
-  "missed": "2026-11-21",
   "rules": 10,
   "site": "Berry Center (Cypress, TX)",
-  "stadium": null,
+  "stadium": "Berry Center",
   "stadium_id": null
  },
  "Berry Center, 8877 Barker Cypress Rd, Cypress, TX || Katy Cypress Lakes v Spring Klein Collins": {
@@ -7648,12 +7650,14 @@
  },
  "Coolidge ISD / Regional Championship || Fannindel v Mount Calm": {
   "address": "",
-  "how": "district:/ Regional Championship, Coolidge",
-  "map_link": "",
-  "missed": "2026-11-21",
+  "city": "Coolidge",
+  "how": "coordinates confirmed by hand",
+  "lat": 31.74728,
+  "lng": -96.65566,
+  "map_link": "https://maps.app.goo.gl/Dh9kMGrjncAQdH4G6",
   "rules": 10,
   "site": "Coolidge ISD / Regional Championship",
-  "stadium": null,
+  "stadium": "Coolidge Yellow Jacket Athletic Complex",
   "stadium_id": null
  },
  "Coolidge || Oakwood v Oglesby": {
@@ -17859,12 +17863,14 @@
  },
  "La Villa - Home || Falls City v La Villa": {
   "address": "",
-  "how": "no stadium, school or town matched",
-  "map_link": "",
-  "missed": "2026-11-21",
+  "city": "La Villa",
+  "how": "coordinates confirmed by hand",
+  "lat": 26.29432,
+  "lng": -97.93211,
+  "map_link": "https://goo.gl/maps/Vhm1fDCUJXE8CBRZ8",
   "rules": 10,
   "site": "La Villa - Home",
-  "stadium": null,
+  "stadium": "Cardinal Stadium",
   "stadium_id": null
  },
  "Lackey Stadium, Weslaco || Weslaco v Los Fresnos": {
@@ -24191,12 +24197,14 @@
  },
  "Patriot Stadium Prairiland HS || Collinsville v Clarksville": {
   "address": "",
-  "how": "no stadium, school or town matched",
-  "map_link": "",
-  "missed": "2026-11-23",
+  "city": "Pattonville",
+  "how": "coordinates confirmed by hand",
+  "lat": 33.57137,
+  "lng": -95.39249,
+  "map_link": "https://goo.gl/maps/ZuUpavZ7hUGitbt57",
   "rules": 10,
   "site": "Patriot Stadium Prairiland HS",
-  "stadium": null,
+  "stadium": "Patriot Stadium",
   "stadium_id": null
  },
  "Patriot Stadium, Lubbock || El Paso Pebble Hills v Arlington Martin": {
@@ -24812,12 +24820,14 @@
  },
  "Plano Clark Stadium || Frisco Lone Star v Midlothian": {
   "address": "",
-  "how": "no stadium, school or town matched",
-  "map_link": "",
-  "missed": "2026-11-22",
+  "city": "Plano",
+  "how": "coordinates confirmed by hand",
+  "lat": 33.06338,
+  "lng": -96.70214,
+  "map_link": "https://goo.gl/maps/pU9X6D5ouNTVE2pB7",
   "rules": 10,
   "site": "Plano Clark Stadium",
-  "stadium": null,
+  "stadium": "John Clark Stadium",
   "stadium_id": null
  },
  "Pleasant Grove High School || Texarkana Pleasant Grove v Brownsboro": {
@@ -26957,12 +26967,14 @@
  },
  "Salado ISD Stadium, Salado || Lorena v Cameron Yoe": {
   "address": "",
-  "how": "district:Stadium, Salado, Salado",
-  "map_link": "",
-  "missed": "2026-11-21",
+  "city": "Salado",
+  "how": "coordinates confirmed by hand",
+  "lat": 30.94992,
+  "lng": -97.54544,
+  "map_link": "https://goo.gl/maps/DgLtk8dqghqn1XA77",
   "rules": 10,
   "site": "Salado ISD Stadium, Salado",
-  "stadium": null,
+  "stadium": "Eagle Stadium",
   "stadium_id": null
  },
  "Sam Parker Field, Mount Pleasant || Van Alstyne v Texarkana Pleasant Grove": {
@@ -31087,12 +31099,14 @@
  },
  "Texas State Football Field || Austin Lake Travis v San Antonio Brennan": {
   "address": "",
-  "how": "no stadium, school or town matched",
+  "city": "San Marcos",
+  "how": "coordinates confirmed by hand",
+  "lat": 29.8907,
+  "lng": -97.9257,
   "map_link": "",
-  "missed": "2026-11-21",
   "rules": 10,
   "site": "Texas State Football Field",
-  "stadium": null,
+  "stadium": "UFCU Stadium (Texas State)",
   "stadium_id": null
  },
  "The Bears' Den, Baird || Newcastle v May": {

@@ -38,6 +38,13 @@
   "source": "Beaumont ISD Doggett Family Stadium, 5250 Bayou Willow Way (its Google map link, as read on an earlier lookup)",
   "stadium": "Doggett Family Stadium"
  },
+ "Berry Center (Cypress, TX)": {
+  "city": "Cypress",
+  "lat": 29.90618,
+  "lng": -95.68857,
+  "source": "Berry Center of Northwest Houston, 8877 Barker Cypress Rd (OpenStreetMap)",
+  "stadium": "Berry Center"
+ },
  "Birdville Fine Arts and Athletics Complex, North Richland Hills": {
   "city": "North Richland Hills",
   "lat": 32.86199,
@@ -93,6 +100,14 @@
   "lng": -98.46586,
   "source": "same spot as Comalander Stadium, San Antonio on other mapped games",
   "stadium": "Comalander Stadium"
+ },
+ "Coolidge ISD / Regional Championship": {
+  "city": "Coolidge",
+  "lat": 31.74728,
+  "lng": -96.65566,
+  "map_link": "https://maps.app.goo.gl/Dh9kMGrjncAQdH4G6",
+  "source": "Coolidge Yellow Jacket Athletic Complex, 1002 Kirven St (its Google map link, as read on an earlier lookup)",
+  "stadium": "Coolidge Yellow Jacket Athletic Complex"
  },
  "Crowley ISD Multi-Purpose Stadium, Fort Worth": {
   "city": "Fort Worth",
@@ -236,6 +251,14 @@
   "source": "same spot as John Kincaide Stadium, Dallas on other mapped games",
   "stadium": "Kincaide Stadium"
  },
+ "La Villa - Home": {
+  "city": "La Villa",
+  "lat": 26.29432,
+  "lng": -97.93211,
+  "map_link": "https://goo.gl/maps/Vhm1fDCUJXE8CBRZ8",
+  "source": "La Villa Cardinal Stadium, 200 TX-107 (address lookup, OpenStreetMap)",
+  "stadium": "Cardinal Stadium"
+ },
  "Legacy Stadium, Katy": {
   "city": "Katy",
   "lat": 29.80121,
@@ -320,12 +343,28 @@
   "source": "same spot as Patriot Field, Lubbock on other mapped games",
   "stadium": "Patriot Field"
  },
+ "Patriot Stadium Prairiland HS": {
+  "city": "Pattonville",
+  "lat": 33.57137,
+  "lng": -95.39249,
+  "map_link": "https://goo.gl/maps/ZuUpavZ7hUGitbt57",
+  "source": "Prairiland Patriot Stadium, 466 FM 196, Pattonville (its Google map link, as read on an earlier lookup)",
+  "stadium": "Patriot Stadium"
+ },
  "Pirate Stadium, Lubbock": {
   "city": "Lubbock",
   "lat": 33.449,
   "lng": -101.84952,
   "source": "same spot as Pirate Stadium at First United Park, Lubbock on other mapped games",
   "stadium": "Pirate Stadium"
+ },
+ "Plano Clark Stadium": {
+  "city": "Plano",
+  "lat": 33.06338,
+  "lng": -96.70214,
+  "map_link": "https://goo.gl/maps/pU9X6D5ouNTVE2pB7",
+  "source": "John Clark Stadium, 429 Spring Creek Pkwy (its Google map link, as read on an earlier lookup)",
+  "stadium": "John Clark Stadium"
  },
  "Randall Reed Stadium, New Caney": {
   "city": "New Caney",
@@ -375,6 +414,14 @@
   "lng": -98.3054,
   "source": "same spot as D.W. Rutledge Stadium, Converse on other mapped games",
   "stadium": "Rutledge Stadium"
+ },
+ "Salado ISD Stadium, Salado": {
+  "city": "Salado",
+  "lat": 30.94992,
+  "lng": -97.54544,
+  "map_link": "https://goo.gl/maps/DgLtk8dqghqn1XA77",
+  "source": "Salado Eagle Field, Thomas Arnold Rd (OpenStreetMap)",
+  "stadium": "Eagle Stadium"
  },
  "Seminole": {
   "city": "Seminole",
@@ -443,6 +490,13 @@
   "lng": -98.22355,
   "source": "same spot as Tarleton State University Memorial Stadium, Stephenville on other mapped games",
   "stadium": "Tarleton State University Memorial Stadium"
+ },
+ "Texas State Football Field": {
+  "city": "San Marcos",
+  "lat": 29.8907,
+  "lng": -97.9257,
+  "source": "UFCU Stadium (Bobcat Stadium), Texas State University, San Marcos; owner confirmed",
+  "stadium": "UFCU Stadium (Texas State)"
  },
  "The Pfield, Pflugerville": {
   "city": "Pflugerville",
