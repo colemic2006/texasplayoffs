@@ -1049,7 +1049,6 @@
   "Frisco Rock Hill": "Frisco Rock Hill",
   "Frisco Wakeland": "Frisco Wakeland",
   "Garland Naaman Forest": "Garland Naaman Forest",
-  "Lake Dallas": "Lake Dallas",
   "McKinney Boyd": "McKinney Boyd",
   "McKinney High": "McKinney High",
   "McKinney North": "McKinney North",
@@ -1273,7 +1272,8 @@
   "South Grand Prairie High": "South Grand Prairie",
   "Bluff Dale": "Bluff Dale",
   "Haltom City": "Haltom City",
-  "Trophy Club Nelson": "Trophy Club Nelson"
+  "Trophy Club Nelson": "Trophy Club Nelson",
+  "Lake Dallas": "Lake Dallas"
  },
  "_complete": [
   "ABI",

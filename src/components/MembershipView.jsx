@@ -93,7 +93,7 @@ export default function MembershipView({ allData, years, loadAllYears }) {
       </div>
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8 }}>{d.source}.</div>
       <CoverageDensity members={d.members} />
-      <SizeVsShare members={d.members} allData={allData} years={years} loadAllYears={loadAllYears} />
+      <SizeVsShare members={d.members} history={d.history} allData={allData} years={years} loadAllYears={loadAllYears} />
       {d.history && <MembershipHistory d={d} th={th} td={td} />}
       {st && <MembershipStats st={st} th={th} td={td} />}
     </div>

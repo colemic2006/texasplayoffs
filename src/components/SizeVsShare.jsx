@@ -21,11 +21,22 @@ function pearson(xs, ys) {
   return sxx && syy ? sxy / Math.sqrt(sxx * syy) : 0
 }
 
-export default function SizeVsShare({ members, allData = {}, years = [], loadAllYears }) {
+export default function SizeVsShare({ members: current, history = {}, allData = {}, years = [], loadAllYears }) {
   const [cls, setCls] = useState('6A')
+  const [span, setSpan] = useState('all')   // 'all' (every season from 2022) or one season
   const [hover, setHover] = useState(null)
   useEffect(() => { loadAllYears?.() }, [])
-  const seasons = years.filter(y => y >= FROM && allData[y]?.games?.length).sort((a, b) => a - b)
+  const allSeasons = years.filter(y => y >= FROM && allData[y]?.games?.length).sort((a, b) => a - b)
+  const seasons = span === 'all' ? allSeasons : allSeasons.filter(y => y === span)
+  // membership: that season's numbers where on file (2022), East Texas folded into Tyler; otherwise this season's
+  const members = useMemo(() => {
+    const h = span !== 'all' && history[String(span)]
+    if (!h) return current
+    const out = {}
+    for (const [c, n] of Object.entries(h)) { const k = CODE[c] || c; out[k] = (out[k] || 0) + n }
+    return out
+  }, [current, history, span])
+  const memYear = span !== 'all' && history[String(span)] ? span : 'this season'
 
   const stats = useMemo(() => {
     if (!members || !seasons.length) return null
@@ -44,7 +55,7 @@ export default function SizeVsShare({ members, allData = {}, years = [], loadAll
       by[c] = { tot, pts, r: pearson(pts.map(p => p.mem), pts.map(p => p.share)) }
     }
     return { T, by }
-  }, [members, allData, seasons.length])
+  }, [members, allData, seasons.join()])
   if (!stats) return null
   const cur = stats.by[cls]
 
@@ -74,9 +85,14 @@ export default function SizeVsShare({ members, allData = {}, years = [], loadAll
       </div>
       <div style={{ fontSize:13, color:'var(--mid)', lineHeight:1.55, margin:'8px 0 12px', maxWidth:860 }}>
         If games followed membership, a chapter with 10% of TASO's members would work about 10% of each class's playoff games. In the big classes they do;
-        in the small-school classes, size barely matters and a few West Texas chapters work far more than their share. Games from {seasons[0]}–{seasons[seasons.length - 1]}.
+        in the small-school classes, size barely matters and a few West Texas chapters work far more than their share. Games from {seasons.length > 1 ? `${seasons[0]}–${seasons[seasons.length - 1]}` : seasons[0]}.
       </div>
 
+      <div style={{ display:'flex', gap:4, flexWrap:'wrap', alignItems:'center', marginBottom:8 }}>
+        <span style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginRight:4 }}>Seasons:</span>
+        <button onClick={() => setSpan('all')} style={btn(span === 'all')}>All, {allSeasons[0]}–{allSeasons[allSeasons.length - 1]}</button>
+        {[...allSeasons].reverse().map(y => <button key={y} onClick={() => setSpan(y)} style={btn(span === y)}>{y}</button>)}
+      </div>
       <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, padding:'14px 16px', marginBottom:14 }}>
         <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--mid)', marginBottom:8 }}>How closely game share follows chapter size (correlation, 1 = perfectly)</div>
         {CLASSES.map(c => {
@@ -158,7 +174,7 @@ export default function SizeVsShare({ members, allData = {}, years = [], loadAll
         </table>
       </div>
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6, maxWidth:900 }}>
-        Members: {Object.values(members).reduce((a, b) => a + b, 0).toLocaleString()} registered football officials this season. Games: playoff games with a chapter on file, {seasons.join(', ')};
+        Members: {Object.values(members).reduce((a, b) => a + b, 0).toLocaleString()} registered football officials ({memYear === 'this season' ? 'this season' : memYear}{memYear !== 'this season' ? ', East Texas counted with Tyler' : ''}). Games: playoff games with a chapter on file, {seasons.join(', ')};
         East Texas games count as Tyler. Correlation compares each chapter's share of members with its share of that class's games across all chapters.
       </div>
     </div>
