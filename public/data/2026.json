@@ -5,7 +5,7 @@
     "updated": "2026-11-23T03:42+00:00",
     "games": 616,
     "played": 528,
-    "assigned": 593,
+    "assigned": 592,
     "weeks": {
       "1": {
         "games": 352,
@@ -17,7 +17,7 @@
       },
       "3": {
         "games": 88,
-        "assigned": 65
+        "assigned": 64
       },
       "4": {
         "games": 0,
@@ -37,7 +37,7 @@
     {
       "code": "HOU",
       "name": "Houston",
-      "total": 126,
+      "total": 125,
       "weeks": {
         "1": {
           "total": 62,
@@ -69,11 +69,11 @@
           }
         },
         "3": {
-          "total": 20,
+          "total": 19,
           "classifications": {
             "3A D2": 1,
             "4A D1": 2,
-            "4A D2": 4,
+            "4A D2": 3,
             "5A D1": 1,
             "5A D2": 5,
             "6A D1": 4,
@@ -12661,7 +12661,7 @@
       "classification": "4A D2",
       "week": 3,
       "round": "Regionals",
-      "chapter": "HOU",
+      "chapter": null,
       "team1": "La Marque",
       "score1": null,
       "team2": "West Orange-Stark",
