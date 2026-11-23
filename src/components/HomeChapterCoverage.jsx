@@ -16,6 +16,8 @@ export default function HomeChapterCoverage() {
   if (!d) return null
 
   const missing = d.total - d.with_chapter
+  // every school has a home chapter: nothing to show (the card comes back if a new school turns up without one)
+  if (missing === 0 && !d.current_missing) return null
   const pct = (n, of) => of ? Math.round(1000 * n / of) / 10 : 0
   const bars = [
     { label: 'All schools on the site', total: d.total, missing },
