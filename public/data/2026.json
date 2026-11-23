@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-23T20:28+00:00",
+    "updated": "2026-11-23T20:31+00:00",
     "games": 616,
     "played": 528,
     "assigned": 609,
@@ -12623,6 +12623,12 @@
       "team2": "Jayton",
       "score2": null,
       "winner": null,
+      "site": "Grant Teaff Tiger Stadium, Snyder",
+      "lat": 32.70251,
+      "lng": -100.93084,
+      "stadium": "Grant Teaff Tiger Stadium",
+      "map_link": "https://maps.app.goo.gl/isXFJpXnaUGkXRir6",
+      "city": "Snyder",
       "mp_url": "https://www.maxpreps.com/tx/football/game/hermleigh-vs-jayton/11-26-2026/?c=11f7c636-56e5-4c5d-9ebb-6efbf7387f8c"
     },
     {
@@ -12649,6 +12655,12 @@
       "team2": "Gordon",
       "score2": null,
       "winner": null,
+      "site": "Kangaroo Stadium, Weatherford",
+      "lat": 32.74842,
+      "lng": -97.79495,
+      "stadium": "Kangaroo Stadium",
+      "map_link": "https://goo.gl/maps/hPtAqGbeGsbXFgSd8",
+      "city": "Weatherford",
       "date": "2026-11-27",
       "time": "7:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/gordon-vs-milford/11-27-2026/?c=75f1675a-ede1-480c-9bd0-e412d00f5c9f"
@@ -12724,6 +12736,12 @@
       "team2": "Richland Springs",
       "score2": null,
       "winner": null,
+      "site": "The Bears' Den, Baird",
+      "lat": 32.39871,
+      "lng": -99.40003,
+      "stadium": "The Bears' Den",
+      "map_link": "https://goo.gl/maps/G551wrtuVmVkLiB98",
+      "city": "Baird",
       "mp_url": "https://www.maxpreps.com/tx/football/game/blackwell-vs-richland-springs/11-26-2026/?c=347a9592-b5a7-4ab2-9f8f-cfd0330a0611"
     },
     {

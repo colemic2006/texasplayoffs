@@ -13682,6 +13682,18 @@
   "stadium": "Grant Teaff Tiger Stadium",
   "stadium_id": 1009
  },
+ "Grant Teaff Tiger Stadium, Snyder || Hermleigh v Jayton": {
+  "address": "3901 Denison Ave, Snyder, Texas 79549",
+  "city": "Snyder",
+  "how": "stadium (map link)",
+  "lat": 32.70251,
+  "lng": -100.93084,
+  "map_link": "https://maps.app.goo.gl/isXFJpXnaUGkXRir6",
+  "rules": 10,
+  "site": "Grant Teaff Tiger Stadium, Snyder",
+  "stadium": "Grant Teaff Tiger Stadium",
+  "stadium_id": 1009
+ },
  "Grant Teaff Tiger Stadium, Snyder || Ozona v Olton": {
   "address": "3901 Denison Ave, Snyder, Texas 79549",
   "city": "Snyder",
@@ -17004,6 +17016,18 @@
   "how": "stadium",
   "lat": 32.748,
   "lng": -97.79743,
+  "map_link": "https://goo.gl/maps/hPtAqGbeGsbXFgSd8",
+  "rules": 10,
+  "site": "Kangaroo Stadium, Weatherford",
+  "stadium": "Kangaroo Stadium",
+  "stadium_id": 676
+ },
+ "Kangaroo Stadium, Weatherford || Milford v Gordon": {
+  "address": "1007 S. Main St, Weatherford, Texas 76086",
+  "city": "Weatherford",
+  "how": "stadium (map link)",
+  "lat": 32.74842,
+  "lng": -97.79495,
   "map_link": "https://goo.gl/maps/hPtAqGbeGsbXFgSd8",
   "rules": 10,
   "site": "Kangaroo Stadium, Weatherford",
@@ -31108,6 +31132,18 @@
   "site": "Texas State Football Field",
   "stadium": "UFCU Stadium (Texas State)",
   "stadium_id": null
+ },
+ "The Bears' Den, Baird || Blackwell v Richland Springs": {
+  "address": "600 W. 7th, Baird, Texas 79504",
+  "city": "Baird",
+  "how": "stadium",
+  "lat": 32.39871,
+  "lng": -99.40003,
+  "map_link": "https://goo.gl/maps/G551wrtuVmVkLiB98",
+  "rules": 10,
+  "site": "The Bears' Den, Baird",
+  "stadium": "The Bears' Den",
+  "stadium_id": 1007
  },
  "The Bears' Den, Baird || Newcastle v May": {
   "address": "600 W. 7th, Baird, Texas 79504",
