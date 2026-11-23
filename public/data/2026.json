@@ -5,7 +5,7 @@
     "updated": "2026-11-23T20:04+00:00",
     "games": 616,
     "played": 528,
-    "assigned": 607,
+    "assigned": 608,
     "weeks": {
       "1": {
         "games": 352,
@@ -17,7 +17,7 @@
       },
       "3": {
         "games": 88,
-        "assigned": 79
+        "assigned": 80
       },
       "4": {
         "games": 0,
@@ -232,7 +232,7 @@
     {
       "code": "TYL",
       "name": "Tyler",
-      "total": 49,
+      "total": 50,
       "weeks": {
         "1": {
           "total": 30,
@@ -263,12 +263,13 @@
           }
         },
         "3": {
-          "total": 5,
+          "total": 6,
           "classifications": {
             "2A D1": 1,
             "3A D1": 1,
             "3A D2": 1,
             "4A D1": 1,
+            "5A D1": 1,
             "6A D1": 1
           }
         }
@@ -13782,7 +13783,7 @@
       "classification": "5A D1",
       "week": 3,
       "round": "Regionals",
-      "chapter": null,
+      "chapter": "TYL",
       "team1": "Frisco Lone Star",
       "score1": null,
       "team2": "Midlothian",
