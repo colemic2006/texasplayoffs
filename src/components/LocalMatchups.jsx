@@ -2,6 +2,8 @@ import React, { useEffect, useMemo, useState } from 'react'
 import { useHomeChapters, useHomeChapterStatus } from '../homeChapters'
 import { chapterColor } from '../chapterColors'
 import { roundName } from '../roundName'
+import { roundsToShow, isInProgress, upcomingCell, UPCOMING, UPCOMING_TIP } from '../upcoming'
+import { useCollapse, ShowMore } from '../ShowMore'
 
 const ROUNDS = { 1: 'Bi-District', 2: 'Area', 3: 'Regionals', 4: 'Quarterfinals', 5: 'Semifinals', 6: 'State Final' }
 const pct = (n, of) => of ? Math.round(100 * n / of) : 0
@@ -18,6 +20,7 @@ export default function LocalMatchups({ data, allData = {}, years = [], loadAllY
   }, [])
   const status = useHomeChapterStatus()
   const [open, setOpen] = useState(null)
+  const more = useCollapse()
   const [show, setShow] = useState('all')   // all | kept | away
   const [ch, setCh] = useState('')          // a chapter, as home chapter or the one that worked it
   const rounds = useMemo(() => {
@@ -69,7 +72,7 @@ export default function LocalMatchups({ data, allData = {}, years = [], loadAllY
           <div style={{ fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--burnt)', fontWeight:700, marginBottom:8 }}>
             {season} · {elsewhere.length} local matchup{elsewhere.length === 1 ? '' : 's'} that went to an outside chapter
           </div>
-          {elsewhere.map((g, i) => (
+          {more.cut(elsewhere).map((g, i) => (
             <div key={i} style={{ display:'flex', gap:10, alignItems:'center', flexWrap:'wrap', fontSize:13, padding:'6px 0', borderTop: i ? '1px dashed rgba(70,29,124,0.2)' : 'none' }}>
               <span style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', width:150, whiteSpace:'nowrap' }}>{roundName(g)} · {g.classification}</span>
               <strong style={{ flex:1, minWidth:180 }}>{g.team1} v {g.team2}</strong>
@@ -80,6 +83,7 @@ export default function LocalMatchups({ data, allData = {}, years = [], loadAllY
                 {g.uil_pick ? 'UIL assigned' : 'Coaches picked'}</span>
             </div>
           ))}
+          <ShowMore c={more} total={elsewhere.length} noun="games" />
         </div>
       )}
       <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, overflowX:'auto' }}>
@@ -91,7 +95,13 @@ export default function LocalMatchups({ data, allData = {}, years = [], loadAllY
             <th style={{ ...th, width:'28%' }}></th>
           </tr></thead>
           <tbody>
-            {rounds.map(r => {
+            {roundsToShow(rounds.map(r => r.week), isInProgress(data)).map(w => rounds.find(r => r.week === w) || { week: w, upcoming: true }).map(r => {
+              if (r.upcoming) return (
+                <tr key={r.week} title={UPCOMING_TIP}>
+                  <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans', opacity:0.55 }}><strong>{ROUNDS[r.week]}</strong> <span style={{ color:'var(--mid)', fontSize:11 }}>· Week {r.week}</span></td>
+                  <td colSpan={3} style={{ ...td, ...upcomingCell, textAlign:'center' }}>{UPCOMING}</td>
+                </tr>
+              )
               const p = pct(r.kept.length, r.local.length)
               return (
                 <React.Fragment key={r.week}>

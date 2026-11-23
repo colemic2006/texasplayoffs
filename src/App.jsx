@@ -34,11 +34,12 @@ import WeekMap from './components/WeekMap'
 import MissingGames from './components/MissingGames'
 import TeamSearch from './components/TeamSearch'
 
-const YEARS = [2026, 2025, 2024, 2023, 2022, 2021, 2018, 2015, 2013, 2010]
+// every season with a data file, newest first (see vite.config.js): a new season appears on its own
+const YEARS = [...__SEASONS__].reverse()
 
 export default function App() {
   const [page, setPage] = useState('chapters')
-  const [year, setYear] = useState(2026)
+  const [year, setYear] = useState(YEARS[0])
   const [data, setData] = useState({})
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)

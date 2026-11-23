@@ -2,13 +2,16 @@ import React, { useMemo, useState } from 'react'
 import { CHAPTER_CENTERS, ROAD_FACTOR, roundTripMiles } from '../chapterCenters'
 import { chapterColor } from '../chapterColors'
 import { placeName } from '../placeName'
+import { roundsToShow, isInProgress, upcomingCell, UPCOMING, UPCOMING_TIP } from '../upcoming'
+import { useCollapse, ShowMore } from '../ShowMore'
 
 const ROUNDS = { 1: 'Bi-District', 2: 'Area', 3: 'Regionals', 4: 'Quarterfinals', 5: 'Semifinals', 6: 'State Final' }
 const fmt = n => Math.round(n).toLocaleString()
 
 export default function ChapterTravel({ data }) {
   const [open, setOpen] = useState(null)
-  const { rows, weeks, totals } = useMemo(() => {
+  const more = useCollapse()
+  const { rows, weeks, totals, played } = useMemo(() => {
     const by = {}
     const weeks = new Set()
     for (const g of data?.games || []) {
@@ -24,7 +27,7 @@ export default function ChapterTravel({ data }) {
     rows.forEach(r => r.games.sort((a, b) => a.week - b.week || b.miles - a.miles))
     const ws = [...weeks].sort((a, b) => a - b)
     const totals = { weeks: Object.fromEntries(ws.map(w => [w, rows.reduce((s, r) => s + (r.weeks[w] || 0), 0)])), all: rows.reduce((s, r) => s + r.total, 0) }
-    return { rows, weeks: ws, totals }
+    return { rows, weeks: roundsToShow(ws, isInProgress(data)), totals, played: new Set(ws) }
   }, [data])
   if (!rows.length) return null
   const max = rows[0].total
@@ -48,7 +51,7 @@ export default function ChapterTravel({ data }) {
           <thead>
             <tr>
               <th style={{ ...th, textAlign:'left' }}>Chapter</th>
-              {weeks.map(w => <th key={w} style={th}>Wk {w}<div style={{ fontSize:8, letterSpacing:'0.06em', opacity:0.7 }}>{ROUNDS[w]}</div></th>)}
+              {weeks.map(w => <th key={w} style={{ ...th, ...(played.has(w) ? {} : { opacity:0.55 }) }} title={played.has(w) ? undefined : UPCOMING_TIP}>Wk {w}<div style={{ fontSize:8, letterSpacing:'0.06em', opacity:0.7 }}>{ROUNDS[w]}</div></th>)}
               <th style={th}>Games</th>
               <th style={th}>Avg per game<div style={{ fontSize:8, letterSpacing:'0.06em', opacity:0.7 }}>round trip</div></th>
               <th style={{ ...th, color:'var(--burnt)' }}>Season total</th>
@@ -56,7 +59,7 @@ export default function ChapterTravel({ data }) {
             </tr>
           </thead>
           <tbody>
-            {rows.map(r => (
+            {more.cut(rows).map(r => (
               <React.Fragment key={r.code}>
                 <tr onClick={() => setOpen(open === r.code ? null : r.code)} style={{ cursor:'pointer', background: open === r.code ? 'rgba(70,29,124,0.06)' : 'transparent' }}>
                   <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans' }}>
@@ -64,7 +67,7 @@ export default function ChapterTravel({ data }) {
                     <strong style={{ fontFamily:'var(--mono)', fontSize:11 }}>{r.code}</strong>
                     <span style={{ color:'var(--mid)', fontSize:11, marginLeft:6 }}>from {CHAPTER_CENTERS[r.code]?.[0]}</span>
                   </td>
-                  {weeks.map(w => <td key={w} style={td}>{r.weeks[w] ? fmt(r.weeks[w]) : '—'}</td>)}
+                  {weeks.map(w => played.has(w) ? <td key={w} style={td}>{r.weeks[w] ? fmt(r.weeks[w]) : '—'}</td> : <td key={w} style={{ ...td, ...upcomingCell }} />)}
                   <td style={td}>{r.games.length}</td>
                   <td style={td}>{fmt(r.total / r.games.length)}</td>
                   <td style={{ ...td, color:'var(--burnt)', fontWeight:600 }}>{fmt(r.total)}</td>
@@ -87,7 +90,7 @@ export default function ChapterTravel({ data }) {
             ))}
             <tr>
               <td style={{ ...td, textAlign:'left', fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.1em', textTransform:'uppercase', color:'var(--mid)' }}>All chapters</td>
-              {weeks.map(w => <td key={w} style={{ ...td, fontWeight:600 }}>{fmt(totals.weeks[w])}</td>)}
+              {weeks.map(w => played.has(w) ? <td key={w} style={{ ...td, fontWeight:600 }}>{fmt(totals.weeks[w])}</td> : <td key={w} style={{ ...td, ...upcomingCell }}>{UPCOMING}</td>)}
               <td style={td}>{rows.reduce((s, r) => s + r.games.length, 0)}</td>
               <td style={td}>{fmt(totals.all / rows.reduce((s, r) => s + r.games.length, 0))}</td>
               <td style={{ ...td, color:'var(--burnt)', fontWeight:700 }}>{fmt(totals.all)}</td>
@@ -96,6 +99,7 @@ export default function ChapterTravel({ data }) {
           </tbody>
         </table>
       </div>
+      <ShowMore c={more} total={rows.length} noun="chapters" />
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6 }}>
         Estimates: straight-line distance from the chapter's center city to the game site, times {ROAD_FACTOR} for roads, doubled for the return trip.
         Counted once per game (one crew), not per official or per vehicle. Games without a site yet aren't counted.

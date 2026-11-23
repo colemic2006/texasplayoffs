@@ -1,5 +1,6 @@
 import React, { useState, useMemo, useEffect } from 'react'
 import { weekLabel } from '../roundName'
+import { roundsToShow, isInProgress, upcomingBtn, upcomingCell, UPCOMING, UPCOMING_TIP } from '../upcoming'
 import { GameMap } from './BracketViewer'
 import { UNASSIGNED, colorFor } from '../chapterColors'
 
@@ -86,9 +87,9 @@ export default function WeekMap({ data }) {
           </div>
         </div>
         <div style={{ display:'flex', gap:4 }}>
-          {weeks.map(w => (
-            <button key={w} onClick={() => { setWeek(w); setDay('all') }} style={chip(week === w)}>{weekLabel(w, ROUND_NAMES[w])}</button>
-          ))}
+          {roundsToShow(weeks, isInProgress(data)).map(w => weeks.includes(w)
+            ? <button key={w} onClick={() => { setWeek(w); setDay('all') }} style={chip(week === w)}>{weekLabel(w, ROUND_NAMES[w])}</button>
+            : <button key={w} disabled title={UPCOMING_TIP} style={upcomingBtn(chip(false))}>{weekLabel(w, ROUND_NAMES[w])}</button>)}
         </div>
       </div>
       <div style={{ display:'flex', alignItems:'center', gap:4, flexWrap:'wrap', marginBottom:10 }}>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { weekLabel } from '../roundName'
+import { ALL_WEEKS, UPCOMING, UPCOMING_TIP } from '../upcoming'
 
 const ROUND_LABELS = { 1:'Bi-District', 2:'Area', 3:'Regionals', 4:'Quarterfinals', 5:'Semifinals', 6:'Championship' }
 // games in a full round: 10 brackets of 64 teams (2A-6A) plus two 1A brackets of 32, which are idle in week 5
@@ -43,14 +44,18 @@ export default function SeasonBanner({ data, year }) {
             {updated ? ` Last updated ${updated}.` : ''}
           </div>
           <div style={{ display:'flex', gap:8, flexWrap:'wrap' }}>
-            {weeks.map(([w, wk]) => (
-              <div key={w} style={{
-                fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.08em', color:'var(--mid)',
-                border:'1px solid var(--border)', borderRadius:4, padding:'4px 8px'
-              }}>
-                {weekLabel(w, ROUND_LABELS[w])} · {wk.assigned}/{wk.games} · {pct(wk.assigned, wk.games)}%
-              </div>
-            ))}
+            {ALL_WEEKS.map(w => {
+              const wk = season.weeks?.[w]
+              const on = wk && wk.games > 0
+              return (
+                <div key={w} title={on ? undefined : UPCOMING_TIP} style={{
+                  fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.08em', color:'var(--mid)',
+                  border:`1px ${on ? 'solid' : 'dashed'} var(--border)`, borderRadius:4, padding:'4px 8px', opacity: on ? 1 : 0.55
+                }}>
+                  {weekLabel(w, ROUND_LABELS[w])} · {on ? `${wk.assigned}/${wk.games} · ${pct(wk.assigned, wk.games)}%` : UPCOMING}
+                </div>
+              )
+            })}
           </div>
         </>
       )}
