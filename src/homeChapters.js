@@ -36,3 +36,26 @@ export function useHomeChapterStatus() {
   }, [])
   return { ...st, missing: CURRENT.filter(c => !st.complete.includes(c) && !st.partial.includes(c)) }
 }
+
+// Home chapters for any season: returns year => { team: chapter } (null until both lists load)
+export function useHomeChaptersByYear() {
+  const now = useHomeChapters()
+  const [past, setPast] = useState(pastCached)
+  useEffect(() => {
+    if (pastCached) { setPast(pastCached); return }
+    fetch(`${import.meta.env.BASE_URL}data/home_chapters_past.json?v=${__BUILD_TIME__}`)
+      .then(r => r.ok ? r.json() : {}).then(d => { pastCached = d || {}; setPast(pastCached) }).catch(() => setPast({}))
+  }, [])
+  return useMemo(() => {
+    if (!Object.keys(now).length || !past) return null
+    const memo = {}
+    return year => memo[year] || (memo[year] = (() => {
+      const out = { ...now }
+      for (const [team, entries] of Object.entries(past)) {
+        const then = entries.find(e => year <= e.through)
+        if (then) out[team] = then.chapter
+      }
+      return out
+    })())
+  }, [now, past])
+}
