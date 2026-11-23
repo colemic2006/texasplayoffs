@@ -78,6 +78,80 @@ function GateExamples() {
   )
 }
 
+// State championship pay, from a UIL open records request the site owner made (2021-present data)
+const FINALS = { gate: 1748455, fees2025: 93000, fees2020: 69990, games: 12, avgPay: 1276.96,
+  high: { game: 'Richmond Randle vs South Oak Cliff', cls: '5A D2', gate: 289618.33 },
+  low: { game: 'Richland Springs vs Jayton', cls: '1A D2', gate: 40170 },
+  victory: 2100000, bally: 250000 }
+const usd = (n, c = 0) => '$' + n.toLocaleString('en-US', { minimumFractionDigits: c, maximumFractionDigits: c })
+function StateFinalsPay() {
+  const f = FINALS
+  const tile = (big, small, hot) => (
+    <div style={{ background: hot ? 'rgba(253,208,35,0.22)' : 'var(--surface)', border:`1px solid ${hot ? 'var(--gold)' : 'var(--border)'}`, borderRadius:10, padding:'12px 14px' }}>
+      <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:30, color:'var(--burnt)', lineHeight:1.05 }}>{big}</div>
+      <div style={{ fontSize:12, color:'var(--ink)', lineHeight:1.45, marginTop:4 }}>{small}</div>
+    </div>
+  )
+  const share = 100 * f.fees2025 / f.gate
+  return (
+    <div style={{ marginTop:48 }}>
+      <div style={{ fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.18em', textTransform:'uppercase', color:'var(--mid)', marginBottom:6 }}>UIL open records request</div>
+      <div className="card-title" style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:30, color:'var(--ink)', marginBottom:6, paddingBottom:12, borderBottom:'1px solid var(--border)', display:'flex', alignItems:'center', gap:12 }}>
+        <div style={{ width:4, height:28, borderRadius:2, background:'var(--burnt)' }} />
+        What UIL Paid State Championship Officials
+      </div>
+      <div style={{ fontSize:13, color:'var(--mid)', lineHeight:1.55, margin:'10px 0 14px', maxWidth:860 }}>
+        From a UIL open records request I submitted for state championship football officials' payments. I asked for, and got, data from 2021 to the present;
+        the figures below are for the <strong style={{ color:'var(--ink)' }}>2025 state finals</strong> unless another year is named.
+      </div>
+
+      <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fit, minmax(200px, 1fr))', gap:10, marginBottom:14 }}>
+        {tile(usd(f.gate), <>total gate revenue for the 2025 finals (home team sales + visitor team sales + onsite sales)</>, true)}
+        {tile(usd(f.fees2025), <>total honorariums (game fees only) for on-field officials, about <strong>{share.toFixed(1)}%</strong> of the gate</>, true)}
+        {tile(usd(f.avgPay, 2), <>average total pay per official</>)}
+        {tile(`${usd(310)} – ${usd(2285)}`, <>lowest and highest pay for an on-field official, meal and travel included (the highest ever in the data: <strong>{usd(2751.64, 2)}</strong>, in 2023)</>)}
+        {tile(usd(50), <>flat fee for alternate officials: no mileage, no meal money, no per diem</>)}
+        {tile(`${usd(f.fees2020)} → ${usd(f.fees2025)}`, <>on-field honorariums, 2020 to 2025 (up {Math.round(100 * (f.fees2025 / f.fees2020 - 1))}%)</>)}
+      </div>
+
+      <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, overflow:'hidden', marginBottom:14, maxWidth:860 }}>
+        {[['Highest-grossing game', f.high], ['Lowest-grossing game', f.low]].map(([l, g], i) => (
+          <div key={l} style={{ display:'flex', flexWrap:'wrap', gap:10, alignItems:'baseline', padding:'10px 16px', borderTop: i ? '1px solid var(--border)' : 'none' }}>
+            <span style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--mid)', width:170 }}>{l}</span>
+            <span style={{ flex:1, minWidth:220, fontSize:14 }}><strong>{g.cls}</strong>, {g.game}</span>
+            <span style={{ fontFamily:'var(--mono)', fontSize:14, fontWeight:700 }}>{usd(g.gate, g.gate % 1 ? 2 : 0)}</span>
+          </div>
+        ))}
+        <div style={{ padding:'8px 16px', borderTop:'1px solid var(--border)', fontSize:12, color:'var(--mid)', lineHeight:1.55 }}>
+          The biggest gate was about {(f.high.gate / f.low.gate).toFixed(1)}× the smallest. Gate receipts here are team sales plus onsite receipts.
+        </div>
+      </div>
+
+      <div style={{ fontSize:13, color:'var(--ink)', lineHeight:1.65, maxWidth:860, marginBottom:14 }}>
+        <strong>How UIL figures each game's gate:</strong> the home and visitor ticket sales are added together, and for each day of finals (three games a day),
+        the day's total onsite gate is divided by 3 and one-third is credited to each game.
+      </div>
+
+      <div style={{ background:'rgba(253,208,35,0.22)', borderLeft:'4px solid var(--gold)', borderRadius:6, padding:'12px 16px', fontSize:14, color:'var(--ink)', lineHeight:1.65, maxWidth:860 }}>
+        <p style={{ margin:'0 0 10px' }}>
+          <strong>None of these numbers include streaming revenue</strong> from Fox Sports Southwest, Bally or Victory+. I have no idea what UIL earned from streaming,
+          but I do know how many people watched the finals on Victory+: <strong>2.1 million</strong>{' '}
+          (<a href="https://www.dallasnews.com/high-school-sports/football/2025/12/23/texas-high-school-football-state-championships-eclipse-2-million-viewers-on-victory/" target="_blank" rel="noopener noreferrer" style={{ color:'var(--burnt)' }}>Dallas Morning News</a>).
+          In 2023, Bally had 250,000. That's about <strong>{Math.round(f.victory / f.bally)}×</strong> the online audience in three years.
+        </p>
+        <p style={{ margin:0 }}>
+          To me that's a compelling argument that <strong>streaming revenue should count toward officials' game fees</strong>, both for NFHS Network games and for
+          local school districts' own streams. Schools charge for that access, and so does the NFHS streaming service.
+        </p>
+      </div>
+      <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6, maxWidth:860 }}>
+        Source: UIL open records request (state championship football officials' payments, 2021–present).
+        Percentages and multiples are worked out from these figures.
+      </div>
+    </div>
+  )
+}
+
 export default function PayIssuesView() {
   const [open, setOpen] = useState(false)
   const [q, setQ] = useState('')
@@ -256,6 +330,7 @@ export default function PayIssuesView() {
         </div>
       </div>
       <ShowMore c={more} total={list.length} noun="districts" />
+      <StateFinalsPay />
     </div>
   )
 }
