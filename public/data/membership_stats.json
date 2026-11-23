@@ -20,7 +20,7 @@
  ],
  "totals": {
   "members": 6107,
-  "season_games": 610,
+  "season_games": 612,
   "hist_games": 6076,
   "late_games": 678
  },
@@ -54,7 +54,7 @@
   },
   "AMA": {
    "members": 139,
-   "season_games": 8,
+   "season_games": 9,
    "hist_games": 136,
    "late_games": 14,
    "schools": 45,
@@ -142,7 +142,7 @@
   },
   "PBC": {
    "members": 112,
-   "season_games": 21,
+   "season_games": 22,
    "hist_games": 117,
    "late_games": 3,
    "schools": 37,
