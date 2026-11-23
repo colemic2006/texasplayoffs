@@ -463,11 +463,50 @@ def locate(games, review_path=None):
     return added
 
 
+_SPOTS = {}   # id(cache) -> {(stadium, city): (lat, lng)}
+
+
+def _how_rank(how):
+    """How trustworthy a placement is, best first: hand-confirmed, the stadium's own map link,
+    found by stadium, by school, anything else, a town's middle last."""
+    how = how or ''
+    if 'confirmed by hand' in how:
+        return 0
+    if '(map link)' in how:
+        return 1
+    if 'town' in how:
+        return 5
+    if how.startswith('stadium'):
+        return 2
+    if how.startswith('school'):
+        return 3
+    return 4
+
+
+def stadium_spots(cache):
+    """One spot per stadium: the same stadium is sometimes pinned a few hundred feet apart by different
+    lookups (its map link for one game, an address search for another). Every game at it gets the most
+    trustworthy pin, the most common one among equals."""
+    key = id(cache)
+    if key not in _SPOTS:
+        votes = {}
+        for v in cache.values():
+            if v.get('lat') is None or not v.get('stadium'):
+                continue
+            k = (v['stadium'].strip().lower(), (v.get('city') or '').strip().lower())
+            votes.setdefault(k, {}).setdefault((round(v['lat'], 5), round(v['lng'], 5)), []).append(_how_rank(v.get('how')))
+        _SPOTS[key] = {k: min(spots.items(), key=lambda s: (min(s[1]), -len(s[1])))[0] for k, spots in votes.items()}
+    return _SPOTS[key]
+
+
 def place(game, cache):
     """Copy a site's coordinates and stadium onto a game for the map."""
     hit = cache.get(cache_key(game.get('site') or '', game['team1'], game['team2']))
     if hit and 'lat' in hit:
-        game.update(lat=hit['lat'], lng=hit['lng'])
+        spot = stadium_spots(cache).get(((hit.get('stadium') or '').strip().lower(), (hit.get('city') or '').strip().lower())) \
+            if hit.get('stadium') else None
+        lat, lng = spot or (hit['lat'], hit['lng'])
+        game.update(lat=lat, lng=lng)
         if hit.get('stadium'):
             game['stadium'] = hit['stadium']
         if hit.get('map_link'):
