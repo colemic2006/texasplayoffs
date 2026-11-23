@@ -5,6 +5,7 @@ import ChapterDashboard from './components/ChapterDashboard'
 import BracketViewer from './components/BracketViewer'
 import ChapterTravel from './components/ChapterTravel'
 import SchoolTravel from './components/SchoolTravel'
+import ChapterRuns from './components/ChapterRuns'
 import OutsideChapterGames from './components/OutsideChapterGames'
 import LocalMatchups from './components/LocalMatchups'
 import UilPicks from './components/UilPicks'
@@ -110,7 +111,7 @@ export default function App() {
           allYearsLoaded ? <ScoresView allData={data} years={YEARS} /> : <LoadingState />
         ) : (page === 'teams' || page === 'regulars') ? (
           allYearsLoaded
-            ? page === 'teams' ? <><TeamsView allData={data} years={YEARS} /><SchoolTravel data={yearData} /></> : <><ChapterRegulars allData={data} years={YEARS} /><FavoriteSites data={yearData} allData={data} loadAllYears={loadAllYears} /><ClassBreakdown allData={data} years={YEARS} loadAllYears={loadAllYears} /></>
+            ? page === 'teams' ? <><TeamsView allData={data} years={YEARS} /><ChapterRuns data={yearData} allData={data} years={YEARS} /><SchoolTravel data={yearData} /></> : <><ChapterRegulars allData={data} years={YEARS} /><FavoriteSites data={yearData} allData={data} loadAllYears={loadAllYears} /><ClassBreakdown allData={data} years={YEARS} loadAllYears={loadAllYears} /></>
             : <LoadingState />
         ) : (
           <>
