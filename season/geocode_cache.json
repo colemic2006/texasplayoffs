@@ -2748,6 +2748,18 @@
   "stadium": "Wildcat Stadium",
   "stadium_id": 1280
  },
+ "Anthony Field ACU || Frisco v Amarillo Palo Duro": {
+  "address": "2225 Oliver Jackson Boulevard, Abilene, Texas 79602",
+  "city": "Abilene",
+  "how": "same game, site renamed (was: Anthony Field, Abilene)",
+  "lat": 32.4733,
+  "lng": -99.70905,
+  "map_link": "https://goo.gl/maps/BmRi2NZMvheTgJtJ9",
+  "rules": 10,
+  "site": "Anthony Field ACU",
+  "stadium": "Anthony Field at Wildcat Stadium",
+  "stadium_id": 1062
+ },
  "Anthony Field, Abilene || Frisco v Amarillo Palo Duro": {
   "address": "2225 Oliver Jackson Boulevard, Abilene, Texas 79602",
   "city": "Abilene",

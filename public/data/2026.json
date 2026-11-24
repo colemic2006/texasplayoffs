@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-24T20:27+00:00",
+    "updated": "2026-11-24T21:32+00:00",
     "games": 616,
     "played": 528,
     "assigned": 614,
@@ -14168,7 +14168,7 @@
       "team2": "Amarillo Palo Duro",
       "score2": null,
       "winner": null,
-      "site": "Anthony Field, Abilene",
+      "site": "Anthony Field ACU",
       "lat": 32.4733,
       "lng": -99.70905,
       "stadium": "Anthony Field at Wildcat Stadium",
