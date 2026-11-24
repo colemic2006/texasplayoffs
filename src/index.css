@@ -79,3 +79,6 @@ main { counter-reset: card; }
 .card-title::before { content: counter(card); order: -1; font-family: 'Bebas Neue', sans-serif; color: var(--gold);
   -webkit-text-stroke: 0.5px var(--burnt); font-size: 0.95em; line-height: 1; margin-right: 0.25em; }
 .card-title > div:first-child { order: -2; }
+
+/* never let one wide element make the whole page scroll sideways on a phone */
+html, body { overflow-x: clip; }

@@ -29,13 +29,13 @@ function ByChapter({ rounds }) {
         UIL-assigned games by chapter
       </div>
       {more.cut(rows).map(r => (
-        <div key={r.c} style={{ display:'grid', gridTemplateColumns:'150px 1fr 170px', alignItems:'center', gap:10, padding:'4px 0' }}>
+        <div key={r.c} style={{ display:'grid', gridTemplateColumns:'minmax(90px, 150px) minmax(40px, 1fr) minmax(0, max-content)', alignItems:'center', gap:10, padding:'4px 0' }}>
           <span style={{ fontSize:13 }}>{CH_NAMES[r.c] || r.c} <span style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)' }}>{r.c}</span></span>
           <div style={{ display:'flex', alignItems:'center', gap:8 }}>
             <div style={{ height:14, borderRadius:3, background:chapterColor(r.c), width:`${100 * r.n / max}%`, minWidth:6 }} />
             <span style={{ fontFamily:'var(--mono)', fontSize:12, fontWeight:700 }}>{r.n}</span>
           </div>
-          <span style={{ fontFamily:'var(--mono)', fontSize:11, color:'var(--mid)', textAlign:'right' }}>
+          <span style={{ fontFamily:'var(--mono)', fontSize:11, color:'var(--mid)', textAlign:'right', whiteSpace:'normal' }}>
             {Math.round(100 * r.n / total)}% · ~{Math.round(r.miles).toLocaleString()} mi driven
           </span>
         </div>

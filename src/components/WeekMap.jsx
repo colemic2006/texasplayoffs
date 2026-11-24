@@ -86,7 +86,7 @@ export default function WeekMap({ data }) {
             {weekLabel(week, ROUND_NAMES[week])} · Week {week}{day !== 'all' ? ` · ${dayLabel(day)}` : ''}{uilOnly ? ' · UIL picks' : ''}{picked.length ? ` · ${picked.map(label).join(' + ')}` : ''} · {markers.length} of {weekGames.length} sites on the map
           </div>
         </div>
-        <div style={{ display:'flex', gap:4 }}>
+        <div style={{ display:'flex', gap:4, flexWrap:'wrap' }}>
           {roundsToShow(weeks, isInProgress(data)).map(w => weeks.includes(w)
             ? <button key={w} onClick={() => { setWeek(w); setDay('all') }} style={chip(week === w)}>{weekLabel(w, ROUND_NAMES[w])}</button>
             : <button key={w} disabled title={UPCOMING_TIP} style={upcomingBtn(chip(false))}>{weekLabel(w, ROUND_NAMES[w])}</button>)}

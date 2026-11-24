@@ -513,11 +513,11 @@ export default function TeamsView({ allData, years }) {
 
       {/* ── LEADERBOARD ── */}
       <div style={{ marginBottom:32 }}>
-        <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:12 }}>
+        <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', flexWrap:'wrap', gap:8, marginBottom:12 }}>
           <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)' }}>
             Top Teams by Playoff Games
           </div>
-          <div style={{ display:'flex', gap:4 }}>
+          <div style={{ display:'flex', gap:4, flexWrap:'wrap' }}>
             {['all', ...loadedYears.map(String)].map(y => {
               const inactive = ['2010'].includes(y)
               return (
