@@ -16001,6 +16001,18 @@
   "stadium": "Hutto Memorial Stadium",
   "stadium_id": 90
  },
+ "Hutto Memorial Stadium, Hutto || Duncanville v Houston Benjamin Davis": {
+  "address": "573 Chris Kelley Blvd, Hutto, Texas 78634",
+  "city": "Hutto",
+  "how": "stadium (map link)",
+  "lat": 30.53822,
+  "lng": -97.55915,
+  "map_link": "https://goo.gl/maps/z6e7Bj6zqEASWTvY6",
+  "rules": 10,
+  "site": "Hutto Memorial Stadium, Hutto",
+  "stadium": "Hutto Memorial Stadium",
+  "stadium_id": 90
+ },
  "Hutto || College Station v Comal Smithson Valley": {
   "address": "573 Chris Kelley Blvd, Hutto, Texas 78634",
   "city": "Hutto",

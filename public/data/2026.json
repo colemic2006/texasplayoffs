@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-24T13:59+00:00",
+    "updated": "2026-11-24T14:07+00:00",
     "games": 616,
     "played": 528,
     "assigned": 613,
@@ -14246,6 +14246,14 @@
       "team2": "Houston Benjamin Davis",
       "score2": null,
       "winner": null,
+      "site": "Hutto Memorial Stadium, Hutto",
+      "lat": 30.53822,
+      "lng": -97.55915,
+      "stadium": "Hutto Memorial Stadium",
+      "map_link": "https://goo.gl/maps/z6e7Bj6zqEASWTvY6",
+      "city": "Hutto",
+      "date": "2026-11-28",
+      "time": "3:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/benjamin-davis-panthers-houston-vs-duncanville-panthers-and-pantherettes/11-26-2026/?c=a130509e-8c95-4e7f-84c4-39892ebf3ca6"
     },
     {
