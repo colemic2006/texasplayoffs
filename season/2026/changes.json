@@ -713,5 +713,16 @@
   "new": "Patriot Stadium Prairiland HS",
   "at": "2026-11-23T02:41+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "4A D2",
+  "week": 3,
+  "team1": "Sunnyvale",
+  "team2": "Gilmer",
+  "field": "site",
+  "old": "Bulldog Stadium, Tyler",
+  "new": "Tyier Chapel Hill HS",
+  "at": "2026-11-24T14:57+00:00",
+  "status": "changed"
  }
 ]

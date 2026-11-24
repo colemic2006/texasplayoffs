@@ -32601,6 +32601,16 @@
   "stadium": "Turner Stadium",
   "stadium_id": 365
  },
+ "Tyier Chapel Hill HS || Sunnyvale v Gilmer": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-24",
+  "rules": 10,
+  "site": "Tyier Chapel Hill HS",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Tyler ISD Rose Stadium || Sunnyvale v Pittsburg": {
   "address": "609 Fair Park Drive, Tyler, Texas 75701",
   "city": "Tyler",

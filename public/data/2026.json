@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-24T14:07+00:00",
+    "updated": "2026-11-24T14:57+00:00",
     "games": 616,
     "played": 528,
     "assigned": 613,
@@ -13292,7 +13292,7 @@
       "city": "Royse City",
       "date": "2026-11-27",
       "time": "2:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/atlanta-vs-malakoff/11-26-2026/?c=13d9ae45-b001-42cf-b5ec-1d54bdc21947"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/atlanta-vs-malakoff/11-27-2026/?c=13d9ae45-b001-42cf-b5ec-1d54bdc21947"
     },
     {
       "year": 2026,
@@ -13677,7 +13677,7 @@
       "city": "Abilene",
       "date": "2026-11-27",
       "time": "2:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/brock-vs-liberty-lubbock/11-26-2026/?c=be3ff0c6-2e4a-436c-8ec6-2d2501318dc4"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/brock-vs-liberty-lubbock/11-27-2026/?c=be3ff0c6-2e4a-436c-8ec6-2d2501318dc4"
     },
     {
       "year": 2026,
@@ -13757,14 +13757,19 @@
       "team2": "Gilmer",
       "score2": null,
       "winner": null,
-      "site": "Bulldog Stadium, Tyler",
-      "lat": 32.31056,
-      "lng": -95.1896,
-      "stadium": "Bulldog Stadium (Chapel Hill HS)",
-      "city": "Tyler",
+      "site": "Tyier Chapel Hill HS",
       "date": "2026-11-27",
       "time": "7:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/gilmer-vs-sunnyvale/11-27-2026/?c=4a6d2889-0f5d-4d9d-95b3-9aa48d426660"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/gilmer-vs-sunnyvale/11-27-2026/?c=4a6d2889-0f5d-4d9d-95b3-9aa48d426660",
+      "changes": [
+        {
+          "field": "site",
+          "old": "Bulldog Stadium, Tyler",
+          "new": "Tyier Chapel Hill HS",
+          "at": "2026-11-24T14:57+00:00",
+          "status": "changed"
+        }
+      ]
     },
     {
       "year": 2026,
@@ -14357,7 +14362,7 @@
       "city": "Tomball",
       "date": "2026-11-27",
       "time": "2:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/bridgeland-cypress-vs-north-shore-houston/11-26-2026/?c=e69697cb-df12-4c53-bb2a-acfa462bf506"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/bridgeland-cypress-vs-north-shore-houston/11-27-2026/?c=e69697cb-df12-4c53-bb2a-acfa462bf506"
     },
     {
       "year": 2026,
