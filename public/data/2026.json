@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-24T16:27+00:00",
+    "updated": "2026-11-24T16:57+00:00",
     "games": 616,
     "played": 528,
     "assigned": 614,
@@ -13409,14 +13409,19 @@
       "team2": "Newton",
       "score2": null,
       "winner": null,
-      "site": "Randall Reed Stadium, New Caney",
-      "lat": 30.13568,
-      "lng": -95.23305,
-      "stadium": "Randall Reed Stadium",
-      "city": "New Caney",
+      "site": "New Caney. Randal Reed Stadium",
       "date": "2026-11-27",
       "time": "2:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/newton-vs-west-rusk-new-london/11-26-2026/?c=4f17a71c-ab86-47fa-b46b-7df805f403ea"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/newton-vs-west-rusk-new-london/11-27-2026/?c=4f17a71c-ab86-47fa-b46b-7df805f403ea",
+      "changes": [
+        {
+          "field": "site",
+          "old": "Randall Reed Stadium, New Caney",
+          "new": "New Caney. Randal Reed Stadium",
+          "at": "2026-11-24T16:57+00:00",
+          "status": "changed"
+        }
+      ]
     },
     {
       "year": 2026,

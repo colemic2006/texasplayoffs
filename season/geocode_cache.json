@@ -23603,6 +23603,16 @@
   "stadium": "Randall Reed Stadium",
   "stadium_id": 1694
  },
+ "New Caney. Randal Reed Stadium || West Rusk v Newton": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-24",
+  "rules": 10,
+  "site": "New Caney. Randal Reed Stadium",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Newcastle High School || Knox City v Woodson": {
   "address": "505 Washington Ave, Newcastle, Texas 76372",
   "city": "Newcastle",
