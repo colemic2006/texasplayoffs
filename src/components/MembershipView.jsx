@@ -207,7 +207,25 @@ function MembershipStats({ st, th, td }) {
   const moreWork = useCollapse(), moreCover = useCollapse(), moreLate = useCollapse()
   const work = [...ch].sort((a, b) => perSeason(b[1]) - perSeason(a[1]))
   const cover = [...ch].sort((a, b) => (complete.has(b[0]) - complete.has(a[0])) || (b[1].counties / b[1].members) - (a[1].counties / a[1].members))
-  const late = [...ch].sort((a, b) => (b[1].late_games / T.late_games / share(b[1])) - (a[1].late_games / T.late_games / share(a[1])))
+  // Later Rounds table: sortable by any column (click a header; click again to flip the order)
+  const [lateSort, setLateSort] = useState({ key: 'ratio', dir: -1 })
+  const lateVal = {
+    name: ([c]) => name(c),
+    members: ([, x]) => share(x),
+    games: ([, x]) => x.late_games,
+    share: ([, x]) => x.late_games / T.late_games,
+    ratio: ([, x]) => (x.late_games / T.late_games) / share(x),
+  }
+  const late = [...ch].sort((a, b) => {
+    const f = lateVal[lateSort.key], va = f(a), vb = f(b)
+    return (typeof va === 'string' ? va.localeCompare(vb) : va - vb) * lateSort.dir
+  })
+  const sortTh = (key, label, left) => (
+    <th onClick={() => setLateSort(s => ({ key, dir: s.key === key ? -s.dir : (key === 'name' ? 1 : -1) }))}
+      title="Sort by this column" style={{ ...th, ...(left ? { textAlign:'left' } : {}), cursor:'pointer', userSelect:'none', color: lateSort.key === key ? 'var(--burnt)' : th.color }}>
+      {label} {lateSort.key === key ? (lateSort.dir > 0 ? '▲' : '▼') : <span style={{ opacity:0.35 }}>↕</span>}
+    </th>
+  )
   return (
     <>
       <Section label="Workload" title="Playoff Games per 100 Members"
@@ -262,8 +280,8 @@ function MembershipStats({ st, th, td }) {
         after={<ShowMore c={moreLate} total={late.length} noun="chapters" />}>
         <table style={{ width:'100%', borderCollapse:'collapse' }}>
           <thead><tr>
-            <th style={{ ...th, textAlign:'left' }}>Chapter</th><th style={th}>Share of members</th>
-            <th style={th}>Later-round games</th><th style={th}>Share of later-round games</th><th style={th}>vs. size</th>
+            {sortTh('name', 'Chapter', true)}{sortTh('members', 'Share of members')}
+            {sortTh('games', 'Later-round games')}{sortTh('share', 'Share of later-round games')}{sortTh('ratio', 'vs. size')}
           </tr></thead>
           <tbody>{moreLate.cut(late).map(([c, x]) => (
             <tr key={c}>
