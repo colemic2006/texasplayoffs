@@ -23899,6 +23899,16 @@
   "stadium": "Harry B. Orem Stadium",
   "stadium_id": 847
  },
+ "P-Field Pflugerville || La Vega v Wimberley": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-24",
+  "rules": 10,
+  "site": "P-Field Pflugerville",
+  "stadium": null,
+  "stadium_id": null
+ },
  "P.E. Shotwell Stadium, Abilene, Texas || Levelland v Mineral Wells": {
   "address": "1525 E. S. 11th St, Abilene, Texas 79602",
   "city": "Abilene",

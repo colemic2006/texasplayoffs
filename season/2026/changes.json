@@ -724,5 +724,16 @@
   "new": "Tyier Chapel Hill HS",
   "at": "2026-11-24T14:57+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "4A D2",
+  "week": 3,
+  "team1": "La Vega",
+  "team2": "Wimberley",
+  "field": "site",
+  "old": "The Pfield, Pflugerville",
+  "new": "P-Field Pflugerville",
+  "at": "2026-11-24T15:26+00:00",
+  "status": "changed"
  }
 ]
