@@ -15,6 +15,13 @@
   "source": "Wigwam Stadium, NW Ave F at NW 8th, Seminole (its Google map link); owner asked for every Seminole game to pin here",
   "stadium": "Wigwam Stadium"
  },
+ "@ UFCU Stadium - Texas State University": {
+  "city": "San Marcos",
+  "lat": 29.8907,
+  "lng": -97.9257,
+  "source": "same spot as UFCU Stadium (Texas State) on other mapped games",
+  "stadium": "UFCU Stadium (Texas State)"
+ },
  "AT&T Stadium, Arlington": {
   "city": "Arlington",
   "lat": 32.74728,
@@ -166,6 +173,13 @@
   "lng": -96.59282,
   "source": "same spot as E. H. Hanby Stadium, Mesquite on other mapped games",
   "stadium": "E. H. Hanby Stadium"
+ },
+ "Eagle Mountain HS": {
+  "city": "Fort Worth",
+  "lat": 32.9208,
+  "lng": -97.43385,
+  "source": "Eagle Mountain High School, 3451 Bonds Ranch Rd, Fort Worth (OpenStreetMap)",
+  "stadium": "Eagle Mountain High School"
  },
  "Eagle Stadium": {
   "city": "Allen",
@@ -329,12 +343,26 @@
   "source": "NRG Stadium, Houston",
   "stadium": "NRG Stadium"
  },
+ "New Caney. Randal Reed Stadium": {
+  "city": "New Caney",
+  "lat": 30.13568,
+  "lng": -95.23305,
+  "source": "same spot as Randall Reed Stadium, New Caney on other mapped games",
+  "stadium": "Randall Reed Stadium"
+ },
  "Oakwood Panther Stadium": {
   "city": "Oakwood",
   "lat": 31.5849,
   "lng": -95.8494,
   "source": "Oakwood town center (approximate); stadium is at Oakwood HS",
   "stadium": "Panther Stadium (Oakwood HS)"
+ },
+ "P-Field Pflugerville": {
+  "city": "Pflugerville",
+  "lat": 30.44853,
+  "lng": -97.63443,
+  "source": "same spot as The Pfield, Pflugerville on other mapped games",
+  "stadium": "The Pfield"
  },
  "Patriot Field, Lubbock": {
   "city": "Lubbock",
@@ -546,6 +574,20 @@
   "lng": -95.6063,
   "source": "same spot as Darrell Tully Stadium, Houston on other mapped games",
   "stadium": "Tully Stadium"
+ },
+ "Tyier Chapel Hill HS": {
+  "city": "Tyler",
+  "lat": 32.31056,
+  "lng": -95.1896,
+  "source": "Chapel Hill HS Bulldog Stadium, Tyler (hand-confirmed spot used for this game before)",
+  "stadium": "Bulldog Stadium (Chapel Hill HS)"
+ },
+ "University of Mary Hardin Baylor": {
+  "city": "Belton",
+  "lat": 31.0657,
+  "lng": -97.4636,
+  "source": "Crusader Stadium, University of Mary Hardin-Baylor, Belton (hand-confirmed spot)",
+  "stadium": "Crusader Stadium (UMHB)"
  },
  "Wildcat Stadium (ACU), Abilene": {
   "city": "Abilene",

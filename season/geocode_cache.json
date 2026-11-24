@@ -338,12 +338,14 @@
  },
  "@ UFCU Stadium - Texas State University || Round Rock v San Antonio Harlan": {
   "address": "",
-  "how": "no stadium, school or town matched",
+  "city": "San Marcos",
+  "how": "coordinates confirmed by hand",
+  "lat": 29.8907,
+  "lng": -97.9257,
   "map_link": "",
-  "missed": "2026-11-24",
   "rules": 10,
   "site": "@ UFCU Stadium - Texas State University",
-  "stadium": null,
+  "stadium": "UFCU Stadium (Texas State)",
   "stadium_id": null
  },
  "@ Wildcat Field at Phil Danaher Stadium || Corpus Christi Calallen v El Campo": {
@@ -10449,12 +10451,14 @@
  },
  "Eagle Mountain HS || Millsap v Trinity Leadership": {
   "address": "",
-  "how": "no stadium, school or town matched",
+  "city": "Fort Worth",
+  "how": "coordinates confirmed by hand",
+  "lat": 32.9208,
+  "lng": -97.43385,
   "map_link": "",
-  "missed": "2026-11-22",
   "rules": 10,
   "site": "Eagle Mountain HS",
-  "stadium": null,
+  "stadium": "Eagle Mountain High School",
   "stadium_id": null
  },
  "Eagle Stadium DeSoto, Tx || DeSoto v Killeen Shoemaker": {
@@ -23615,12 +23619,14 @@
  },
  "New Caney. Randal Reed Stadium || West Rusk v Newton": {
   "address": "",
-  "how": "no stadium, school or town matched",
+  "city": "New Caney",
+  "how": "coordinates confirmed by hand",
+  "lat": 30.13568,
+  "lng": -95.23305,
   "map_link": "",
-  "missed": "2026-11-24",
   "rules": 10,
   "site": "New Caney. Randal Reed Stadium",
-  "stadium": null,
+  "stadium": "Randall Reed Stadium",
   "stadium_id": null
  },
  "Newcastle High School || Knox City v Woodson": {
@@ -23921,12 +23927,14 @@
  },
  "P-Field Pflugerville || La Vega v Wimberley": {
   "address": "",
-  "how": "no stadium, school or town matched",
+  "city": "Pflugerville",
+  "how": "coordinates confirmed by hand",
+  "lat": 30.44853,
+  "lng": -97.63443,
   "map_link": "",
-  "missed": "2026-11-24",
   "rules": 10,
   "site": "P-Field Pflugerville",
-  "stadium": null,
+  "stadium": "The Pfield",
   "stadium_id": null
  },
  "P.E. Shotwell Stadium, Abilene, Texas || Levelland v Mineral Wells": {
@@ -32633,12 +32641,14 @@
  },
  "Tyier Chapel Hill HS || Sunnyvale v Gilmer": {
   "address": "",
-  "how": "no stadium, school or town matched",
+  "city": "Tyler",
+  "how": "coordinates confirmed by hand",
+  "lat": 32.31056,
+  "lng": -95.1896,
   "map_link": "",
-  "missed": "2026-11-24",
   "rules": 10,
   "site": "Tyier Chapel Hill HS",
-  "stadium": null,
+  "stadium": "Bulldog Stadium (Chapel Hill HS)",
   "stadium_id": null
  },
  "Tyler ISD Rose Stadium || Sunnyvale v Pittsburg": {
@@ -32971,12 +32981,14 @@
  },
  "University of Mary Hardin Baylor || La Vega v Geronimo Navarro": {
   "address": "",
-  "how": "no stadium, school or town matched",
+  "city": "Belton",
+  "how": "coordinates confirmed by hand",
+  "lat": 31.0657,
+  "lng": -97.4636,
   "map_link": "",
-  "missed": "2026-11-24",
   "rules": 10,
   "site": "University of Mary Hardin Baylor",
-  "stadium": null,
+  "stadium": "Crusader Stadium (UMHB)",
   "stadium_id": null
  },
  "Van High School || Cooper v Price Carlisle": {

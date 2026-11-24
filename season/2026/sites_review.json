@@ -1,15 +1,5 @@
 [
  {
-  "site": "@ UFCU Stadium - Texas State University",
-  "game": "Round Rock v San Antonio Harlan",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Eagle Mountain HS",
-  "game": "Millsap v Trinity Leadership",
-  "why": "no stadium, school or town matched"
- },
- {
   "site": "Fort Worth's Kight Stadium",
   "game": "Aledo v Keller Central",
   "why": "named:Kight Stadium, Fort Worth"
@@ -17,26 +7,6 @@
  {
   "site": "Location: Kenneth Hall Stadium",
   "game": "Almeta Crawford v Elgin",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "New Caney. Randal Reed Stadium",
-  "game": "West Rusk v Newton",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "P-Field Pflugerville",
-  "game": "La Vega v Wimberley",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "Tyier Chapel Hill HS",
-  "game": "Sunnyvale v Gilmer",
-  "why": "no stadium, school or town matched"
- },
- {
-  "site": "University of Mary Hardin Baylor",
-  "game": "La Vega v Geronimo Navarro",
   "why": "no stadium, school or town matched"
  }
 ]
