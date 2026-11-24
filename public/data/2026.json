@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-24T13:02+00:00",
+    "updated": "2026-11-24T13:50+00:00",
     "games": 616,
     "played": 528,
     "assigned": 612,
@@ -12714,6 +12714,13 @@
       "team2": "Motley County",
       "score2": null,
       "winner": null,
+      "site": "Kangaroo Stadium, Kress",
+      "lat": 34.36407,
+      "lng": -101.74379,
+      "stadium": "Kangaroo Stadium",
+      "map_link": "https://goo.gl/maps/xfyE7jceoUDkFNeF6",
+      "city": "Kress",
+      "time": "5:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/motley-county-matador-vs-valley-turkey/11-26-2026/?c=644c3c44-c945-4f2c-a69b-0c6bb2298f64"
     },
     {

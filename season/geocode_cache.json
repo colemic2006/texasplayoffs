@@ -17034,6 +17034,18 @@
   "stadium": "Kangaroo Stadium",
   "stadium_id": 780
  },
+ "Kangaroo Stadium, Kress || Turkey Valley v Motley County": {
+  "address": "200 E 5th St, Kress, Texas 79052",
+  "city": "Kress",
+  "how": "stadium",
+  "lat": 34.36407,
+  "lng": -101.74379,
+  "map_link": "https://goo.gl/maps/xfyE7jceoUDkFNeF6",
+  "rules": 10,
+  "site": "Kangaroo Stadium, Kress",
+  "stadium": "Kangaroo Stadium",
+  "stadium_id": 780
+ },
  "Kangaroo Stadium, Weatherford || Crawford v Albany": {
   "address": "1007 S. Main St, Weatherford, Texas 76086",
   "city": "Weatherford",
