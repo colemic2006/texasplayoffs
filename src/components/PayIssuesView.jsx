@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useForm, ValidationError } from '@formspree/react'
 import { useCollapse, ShowMore } from '../ShowMore'
+import { PAY } from '../officialsCost'
 
 // School districts listed by the site owner for officials' pay issues, and a form to report one
 const DISTRICTS = [
@@ -73,6 +74,84 @@ function GateExamples() {
         <a href="https://www.pisd.edu/cms/lib/TX02215173/Centricity/Domain/61/PLANO%20ISD%20ATHLETIC%20TICKET%20INFORMATION%2024-25.pdf" target="_blank" rel="noreferrer">Plano ISD</a> (adults $8, students $4, reserved $10),{' '}
         <a href="https://www.nisdtx.org/news-events/newsroom/details/~board/homepage-news/post/athletic-ticketing-sales-options-set-for-2026-2027" target="_blank" rel="noreferrer">Northwest ISD</a> (adults $7–$9, reserved $11),{' '}
         <a href="https://lchs.lcisd.net/page/ticketing-policy" target="_blank" rel="noreferrer">Lubbock-Cooper ISD</a> (adults $8, students $3).
+      </div>
+    </div>
+  )
+}
+
+// What a varsity game pays an official by the hour: game fee (by gross gate) plus travel band,
+// for a 4:00 p.m. departure and an 11:00 p.m. return home
+const HOURS = 7
+const GATE_BANDS = [['up to $4,000', 100], ['$4,001 – $5,000', 105], ['$5,001 – $7,500', 110], ['$7,501 – $10,000', 115], ['$10,001 – $12,500', 120],
+  ['$12,501 – $15,000', 125], ['$15,001 – $17,500', 140], ['$17,501 – $20,500', 150], ['$20,501 – $25,500', 195]]
+const TRAVEL = PAY.bands.map(([miles, fee], i) => ({ n: i + 1, miles, fee, from: i ? PAY.bands[i - 1][0] + 1 : 0 }))
+function HourlyPay() {
+  const [band, setBand] = useState(1)   // highlighted travel band
+  const money = n => '$' + n.toFixed(2)
+  const hr = (fee, t) => (fee + t) / HOURS
+  const th = { fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.1em', textTransform:'uppercase', color:'var(--mid)', padding:'8px 10px', textAlign:'right', borderBottom:'1px solid var(--border)', whiteSpace:'nowrap' }
+  const td = { padding:'7px 10px', borderBottom:'1px solid var(--border)', fontSize:12, textAlign:'right', fontFamily:'var(--mono)' }
+  const top = GATE_BANDS[GATE_BANDS.length - 2]
+  const low = hr(GATE_BANDS[0][1], TRAVEL[0].fee), high = hr(top[1], TRAVEL[2].fee)
+  return (
+    <div style={{ marginTop:48 }}>
+      <div style={{ fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.18em', textTransform:'uppercase', color:'var(--mid)', marginBottom:6 }}>Varsity game night</div>
+      <div className="card-title" style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:30, color:'var(--ink)', marginBottom:6, paddingBottom:12, borderBottom:'1px solid var(--border)', display:'flex', alignItems:'center', gap:12 }}>
+        <div style={{ width:4, height:28, borderRadius:2, background:'var(--burnt)' }} />
+        What an Official Makes per Hour on a Varsity Game Night
+      </div>
+      <div style={{ fontSize:13, color:'var(--mid)', lineHeight:1.55, margin:'10px 0 14px', maxWidth:860 }}>
+        A varsity football official's pay for one game is the game fee (set by the gross gate) plus a travel band (set by distance). The night runs much longer than the game:
+        here the official <strong style={{ color:'var(--ink)' }}>leaves at 4:00 p.m. and gets home at 11:00 p.m.</strong>, {HOURS} hours for the drive, pregame, the game and the drive home.
+      </div>
+
+      <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fit, minmax(220px, 1fr))', gap:10, marginBottom:14 }}>
+        <div style={{ background:'rgba(253,208,35,0.22)', border:'1px solid var(--gold)', borderRadius:10, padding:'12px 14px' }}>
+          <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:34, color:'var(--burnt)', lineHeight:1 }}>{money(low)}/hr</div>
+          <div style={{ fontSize:12, color:'var(--ink)', marginTop:4, lineHeight:1.45 }}>the most common night: lowest gate band (${GATE_BANDS[0][1]}) plus travel band 1 (${TRAVEL[0].fee}), ${GATE_BANDS[0][1] + TRAVEL[0].fee} in all</div>
+        </div>
+        <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, padding:'12px 14px' }}>
+          <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:34, color:'var(--burnt)', lineHeight:1 }}>{money(high)}/hr</div>
+          <div style={{ fontSize:12, color:'var(--ink)', marginTop:4, lineHeight:1.45 }}>a packed house: gate band {top[0]} (${top[1]}) plus travel band 3 (${TRAVEL[2].fee}), ${top[1] + TRAVEL[2].fee} in all</div>
+        </div>
+      </div>
+
+      <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, overflowX:'auto', marginBottom:14 }}>
+        <table style={{ width:'100%', borderCollapse:'collapse', minWidth:640 }}>
+          <thead><tr>
+            <th style={{ ...th, textAlign:'left' }}>Gross gate</th>
+            <th style={th}>Game fee</th>
+            {TRAVEL.map(t => <th key={t.n} style={{ ...th, color: band === t.n ? 'var(--burnt)' : 'var(--mid)', cursor:'pointer' }} onClick={() => setBand(t.n)}
+              title={`${t.from}–${t.miles} miles one way: $${t.fee} travel`}>Travel band {t.n}<div style={{ fontSize:8, letterSpacing:0, textTransform:'none' }}>{t.from}–{t.miles} mi one way · +${t.fee}</div></th>)}
+          </tr></thead>
+          <tbody>{GATE_BANDS.map(([g, fee], i) => (
+            <tr key={g} style={{ background: i === 0 ? 'rgba(253,208,35,0.12)' : 'transparent' }}>
+              <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans' }}>{g}{i === GATE_BANDS.length - 1 ? ' (then +$45 for each $5,000 more)' : ''}</td>
+              <td style={td}>${fee}</td>
+              {TRAVEL.map(t => (
+                <td key={t.n} style={{ ...td, fontWeight: band === t.n ? 700 : 400 }}>
+                  {money(hr(fee, t.fee))}<span style={{ color:'var(--mid)', fontSize:10, fontWeight:400 }}> /hr · ${fee + t.fee}</span>
+                </td>
+              ))}
+            </tr>
+          ))}</tbody>
+        </table>
+      </div>
+
+      <div style={{ background:'rgba(253,208,35,0.22)', borderLeft:'4px solid var(--gold)', borderRadius:6, padding:'12px 16px', fontSize:14, color:'var(--ink)', lineHeight:1.65, maxWidth:860 }}>
+        <strong>The travel band doesn't cover the drive.</strong> The pay sheet's own mileage rate (used past 90 miles) is {Math.round(PAY.perMile * 1000) / 10}¢ a mile.
+        At the far end of each band, an official driving alone would be owed:
+        <ul style={{ margin:'8px 0 0', paddingLeft:20 }}>
+          {TRAVEL.map(t => {
+            const cost = 2 * t.miles * PAY.perMile, net = (GATE_BANDS[0][1] + t.fee - cost) / HOURS
+            return <li key={t.n}>Band {t.n}: {2 * t.miles} miles round trip = <strong>${cost.toFixed(2)}</strong> at that rate, against a ${t.fee} travel band.
+              At the lowest gate band, that leaves <strong>{money(net)}/hr</strong> for the night.</li>
+          })}
+        </ul>
+      </div>
+      <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6, maxWidth:860 }}>
+        From the 2026 TASO football pay sheet: game fees by gross gate, and travel bands of ${TRAVEL.map(t => t.fee).join(', $')} per official (up to {TRAVEL.map(t => t.miles).join(', ')} miles one way).
+        Before taxes; officials are paid as independent contractors. Hourly figures divide the night's pay by {HOURS} hours (4:00 to 11:00 p.m.). The mileage comparison assumes one official per car; carpooling splits that cost.
       </div>
     </div>
   )
@@ -352,6 +431,7 @@ export default function PayIssuesView() {
         </div>
       </div>
       <ShowMore c={more} total={list.length} noun="districts" />
+      <HourlyPay />
       <StateFinalsPay />
     </div>
   )
