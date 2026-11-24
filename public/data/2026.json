@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-24T18:40+00:00",
+    "updated": "2026-11-24T18:57+00:00",
     "games": 616,
     "played": 528,
     "assigned": 614,
@@ -12649,7 +12649,9 @@
       "stadium": "Grant Teaff Tiger Stadium",
       "map_link": "https://maps.app.goo.gl/isXFJpXnaUGkXRir6",
       "city": "Snyder",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/hermleigh-vs-jayton/11-26-2026/?c=11f7c636-56e5-4c5d-9ebb-6efbf7387f8c"
+      "date": "2026-11-27",
+      "time": "7:00 PM",
+      "mp_url": "https://www.maxpreps.com/tx/football/game/hermleigh-vs-jayton/11-27-2026/?c=11f7c636-56e5-4c5d-9ebb-6efbf7387f8c"
     },
     {
       "year": 2026,
@@ -12668,7 +12670,9 @@
       "stadium": "Griffith Stadium",
       "map_link": "https://goo.gl/maps/rtUWeUBFBqsEXabD6",
       "city": "Robert Lee",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/borden-county-gail-vs-menard/11-26-2026/?c=888955e3-a8c1-4af1-bb04-90c173b6e00a"
+      "date": "2026-11-27",
+      "time": "6:00 PM",
+      "mp_url": "https://www.maxpreps.com/tx/football/game/borden-county-gail-vs-menard/11-27-2026/?c=888955e3-a8c1-4af1-bb04-90c173b6e00a"
     },
     {
       "year": 2026,
@@ -12708,7 +12712,9 @@
       "stadium": "Grapeland Sandies Stadium",
       "map_link": "https://goo.gl/maps/wri5EzghE7nnRcCg8",
       "city": "Grapeland",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/aquilla-vs-union-hill-gilmer/11-26-2026/?c=e5100e18-8a30-478d-a6c3-817ada6c2e92"
+      "date": "2026-11-27",
+      "time": "6:00 PM",
+      "mp_url": "https://www.maxpreps.com/tx/football/game/aquilla-vs-union-hill-gilmer/11-27-2026/?c=e5100e18-8a30-478d-a6c3-817ada6c2e92"
     },
     {
       "year": 2026,
@@ -12729,7 +12735,7 @@
       "city": "Kress",
       "date": "2026-11-27",
       "time": "5:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/motley-county-matador-vs-valley-turkey/11-26-2026/?c=644c3c44-c945-4f2c-a69b-0c6bb2298f64"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/motley-county-matador-vs-valley-turkey/11-27-2026/?c=644c3c44-c945-4f2c-a69b-0c6bb2298f64"
     },
     {
       "year": 2026,
@@ -12748,7 +12754,9 @@
       "stadium": "Bob and Norma Cervetto Stadium",
       "map_link": "https://goo.gl/maps/SnMek5KYTMWGGttj8",
       "city": "Dublin",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/strawn-vs-zephyr/11-26-2026/?c=34cc6230-b050-4f61-8c26-cd15172400c0"
+      "date": "2026-11-27",
+      "time": "1:00 PM",
+      "mp_url": "https://www.maxpreps.com/tx/football/game/strawn-vs-zephyr/11-27-2026/?c=34cc6230-b050-4f61-8c26-cd15172400c0"
     },
     {
       "year": 2026,
@@ -12788,7 +12796,9 @@
       "stadium": "The Bears' Den",
       "map_link": "https://goo.gl/maps/G551wrtuVmVkLiB98",
       "city": "Baird",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/blackwell-vs-richland-springs/11-26-2026/?c=347a9592-b5a7-4ab2-9f8f-cfd0330a0611"
+      "date": "2026-11-28",
+      "time": "6:30 PM",
+      "mp_url": "https://www.maxpreps.com/tx/football/game/blackwell-vs-richland-springs/11-28-2026/?c=347a9592-b5a7-4ab2-9f8f-cfd0330a0611"
     },
     {
       "year": 2026,
@@ -12850,7 +12860,7 @@
       "city": "Lubbock",
       "date": "2026-11-27",
       "time": "2:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/ballinger-vs-panhandle/11-26-2026/?c=a99ec592-208a-444b-8a35-59f299bbffc3"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/ballinger-vs-panhandle/11-27-2026/?c=a99ec592-208a-444b-8a35-59f299bbffc3"
     },
     {
       "year": 2026,
@@ -12871,7 +12881,7 @@
       "city": "Austin",
       "date": "2026-11-27",
       "time": "3:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/rosebud-lott-vs-shiner/11-26-2026/?c=8054b65d-6049-45bd-a450-fb189d90d0e8"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/rosebud-lott-vs-shiner/11-27-2026/?c=8054b65d-6049-45bd-a450-fb189d90d0e8"
     },
     {
       "year": 2026,
@@ -12911,7 +12921,8 @@
       "stadium": "Pirate Stadium",
       "city": "Lubbock",
       "date": "2026-11-27",
-      "time": "4:00 PM"
+      "time": "4:00 PM",
+      "mp_url": "https://www.maxpreps.com/tx/football/game/ozona-vs-spearman/11-27-2026/?c=ffe0587b-99c8-4bcc-a7de-fb8eec87ed71"
     },
     {
       "year": 2026,
@@ -12932,7 +12943,7 @@
       "city": "Brownwood",
       "date": "2026-11-27",
       "time": "7:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/de-leon-vs-mason/11-26-2026/?c=0e5c2e4f-fd83-4773-8ae9-1f10216a52be"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/de-leon-vs-mason/11-27-2026/?c=72392dd3-1c9a-4a8d-b9c5-a8e1624fdc59"
     },
     {
       "year": 2026,
@@ -13024,7 +13035,7 @@
       "city": "Cedar Park",
       "date": "2026-11-27",
       "time": "7:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/bremond-vs-junction/11-26-2026/?c=e710d958-4736-4342-847e-7e176c32973a"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/bremond-vs-junction/11-27-2026/?c=e710d958-4736-4342-847e-7e176c32973a"
     },
     {
       "year": 2026,
@@ -13066,7 +13077,7 @@
       "city": "Canyon",
       "date": "2026-11-27",
       "time": "6:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/gruver-vs-ropes-ropesville/11-26-2026/?c=9fc95c61-8554-45a6-9bbe-e90e4e773256"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/gruver-vs-ropes-ropesville/11-27-2026/?c=9fc95c61-8554-45a6-9bbe-e90e4e773256"
     },
     {
       "year": 2026,
@@ -13108,7 +13119,7 @@
       "city": "Burkburnett",
       "date": "2026-11-27",
       "time": "6:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/wellington-skyrockets-vs-windthorst/11-26-2026/?c=cd163c8e-b3c8-4d12-a639-66ba1c545eca"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/wellington-skyrockets-vs-windthorst/11-27-2026/?c=cd163c8e-b3c8-4d12-a639-66ba1c545eca"
     },
     {
       "year": 2026,
