@@ -12071,12 +12071,13 @@
  "Fort Worth's Kight Stadium || Aledo v Keller Central": {
   "address": "",
   "city": "Fort Worth",
-  "how": "named:Kight Stadium, Fort Worth",
-  "map_link": "",
-  "missed": "2026-11-22",
+  "how": "coordinates confirmed by hand",
+  "lat": 32.9208,
+  "lng": -97.43385,
+  "map_link": "https://maps.app.goo.gl/b2LbMKaXwRA6CfYQA",
   "rules": 10,
   "site": "Fort Worth's Kight Stadium",
-  "stadium": null,
+  "stadium": "Knight Stadium",
   "stadium_id": null
  },
  "Franklin Stadium, Dallas || Dallas Hillcrest v Hallsville": {
@@ -18816,12 +18817,14 @@
  },
  "Location: Kenneth Hall Stadium || Almeta Crawford v Elgin": {
   "address": "",
-  "how": "no stadium, school or town matched",
-  "map_link": "",
-  "missed": "2026-11-22",
+  "city": "Missouri City",
+  "how": "coordinates confirmed by hand",
+  "lat": 29.53233,
+  "lng": -95.49701,
+  "map_link": "https://goo.gl/maps/F4gUBwst8H7sUr7v6",
   "rules": 10,
   "site": "Location: Kenneth Hall Stadium",
-  "stadium": null,
+  "stadium": "Ken Hall Stadium",
   "stadium_id": null
  },
  "Lockhart HS || Taylor v Canyon Lake": {

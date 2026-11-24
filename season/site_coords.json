@@ -216,6 +216,14 @@
   "source": "same spot as Ford Center at the Star, Frisco on other mapped games",
   "stadium": "Ford Center at the Star"
  },
+ "Fort Worth's Kight Stadium": {
+  "city": "Fort Worth",
+  "lat": 32.9208,
+  "lng": -97.43385,
+  "map_link": "https://maps.app.goo.gl/b2LbMKaXwRA6CfYQA",
+  "source": "Eagle Mountain-Saginaw ISD's Knight Stadium, 3451 Bonds Ranch Rd, Fort Worth (where this game was pinned before the site was renamed)",
+  "stadium": "Knight Stadium"
+ },
  "Gerald J. Ford Stadium (SMU), Dallas": {
   "city": "Dallas",
   "lat": 32.8377,
@@ -279,6 +287,14 @@
   "lng": -95.80476,
   "source": "same spot as Mike Johnston Field at Legacy Stadium, Katy on other mapped games",
   "stadium": "Legacy Stadium"
+ },
+ "Location: Kenneth Hall Stadium": {
+  "city": "Missouri City",
+  "lat": 29.53233,
+  "lng": -95.49701,
+  "map_link": "https://goo.gl/maps/F4gUBwst8H7sUr7v6",
+  "source": "Fort Bend ISD's Ken Hall Stadium, 3333 Hurricane Ln, Missouri City (where this game was pinned before the site was renamed)",
+  "stadium": "Ken Hall Stadium"
  },
  "Lowrey Field, Lubbock": {
   "city": "Lubbock",

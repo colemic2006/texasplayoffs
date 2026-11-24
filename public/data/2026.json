@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-24T20:07+00:00",
+    "updated": "2026-11-24T20:08+00:00",
     "games": 616,
     "played": 528,
     "assigned": 614,
@@ -7057,6 +7057,11 @@
       "score2": 7,
       "winner": "Almeta Crawford",
       "site": "Location: Kenneth Hall Stadium",
+      "lat": 29.53233,
+      "lng": -95.49701,
+      "stadium": "Ken Hall Stadium",
+      "map_link": "https://goo.gl/maps/F4gUBwst8H7sUr7v6",
+      "city": "Missouri City",
       "date": "2026-11-12",
       "time": "6:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/almeta-crawford-rosharon-vs-elgin/11-12-2026/?c=0a5411b6-ce22-4e76-a3b0-eafd62ce5c2f"
@@ -7995,6 +8000,11 @@
       "score2": 20,
       "winner": "Aledo",
       "site": "Fort Worth's Kight Stadium",
+      "lat": 32.9208,
+      "lng": -97.43385,
+      "stadium": "Knight Stadium",
+      "map_link": "https://maps.app.goo.gl/b2LbMKaXwRA6CfYQA",
+      "city": "Fort Worth",
       "date": "2026-11-13",
       "time": "7:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/aledo-vs-keller-central/11-13-2026/?c=f875ce20-9f45-4090-acce-3536bba079c0"
@@ -13410,6 +13420,10 @@
       "site": "Knight Stadium, Fort Worth",
       "lat": 32.92429,
       "lng": -97.40963,
+      "venue": [
+        32.9208,
+        -97.43385
+      ],
       "stadium": "Knight Stadium",
       "map_link": "https://maps.app.goo.gl/b2LbMKaXwRA6CfYQA",
       "city": "Fort Worth",

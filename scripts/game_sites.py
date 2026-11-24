@@ -331,6 +331,26 @@ def town_in(text):
     return parts[-1] if parts else ''
 
 
+_PLAIN = {'stadium', 'field', 'high', 'school', 'isd', 'texas', 'memorial', 'complex', 'athletic', 'athletics', 'the', 'home',
+          'location', 'center', 'park', 'regional', 'championship', 'university', 'football', 'county', 'city'}
+
+
+def _words(text):
+    return {w for w in re.findall(r'[a-z0-9]+', (text or '').lower().replace('-', '')) if len(w) >= 4 and w not in _PLAIN}
+
+
+def renamed_site(cache, site, team1, team2):
+    """The pin this same game already had under another wording of its site, if the new wording
+    shares a distinctive word (a stadium or town name) with it; None otherwise."""
+    new = _words(site)
+    tail = f' || {team1} v {team2}'
+    for k, v in cache.items():
+        if k.endswith(tail) and v.get('lat') is not None and v.get('site') != site:
+            if new & _words(' '.join(str(v.get(f) or '') for f in ('site', 'stadium', 'city'))):
+                return v
+    return None
+
+
 def cache_key(site, team1, team2):
     # the same words can mean different places for different games ("Panther Creek High School")
     return f'{site} || {team1} v {team2}'
@@ -438,8 +458,17 @@ def locate(games, review_path=None):
             if coords:
                 how = q_how
                 break
+        # a source rewrote the site's name for a game already on the map ("UFCU Stadium, San Marcos"
+        # -> "@ UFCU Stadium - Texas State University"): when the new wording can't be read but it
+        # shares a distinctive word with the place this same game was pinned at, keep that pin
+        before = None if coords else renamed_site(cache, site, t1, t2)
+        if before:
+            coords, how = (before['lat'], before['lng']), f'same game, site renamed (was: {before.get("site")})'
         entry = dict(stadium_id=st.get('id') if st else None, stadium=st['name'] if st else None,
                      address=query_for(site, st) if st else '', map_link=(st or {}).get('map_link', ''), how=how)
+        if before:
+            entry.update({k: before.get(k) for k in ('stadium_id', 'stadium', 'address', 'map_link')})
+            town = town or before.get('city', '')
         entry['rules'] = RULES
         if link_tried:
             entry['link_tried'] = True
