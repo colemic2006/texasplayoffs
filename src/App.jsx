@@ -13,6 +13,7 @@ import FavoriteSites from './components/FavoriteSites'
 import ClassBreakdown from './components/ClassBreakdown'
 import LocalShare from './components/LocalShare'
 import OfficialsCost from './components/OfficialsCost'
+import { StickWithCrew, RepeatPairings, OutsideCrewCost, LongTrips } from './components/MoreStats'
 import RecentChanges from './components/RecentChanges'
 import MembershipView from './components/MembershipView'
 import ChapterCoverageMap from './components/ChapterCoverageMap'
@@ -117,7 +118,7 @@ export default function App() {
           allYearsLoaded ? <ScoresView allData={data} years={YEARS} /> : <LoadingState />
         ) : (page === 'teams' || page === 'regulars') ? (
           allYearsLoaded
-            ? page === 'teams' ? <><TeamsView allData={data} years={YEARS} /><ChapterRuns data={yearData} allData={data} years={YEARS} /><SchoolTravel data={yearData} /></> : <><ChapterRegulars allData={data} years={YEARS} /><FavoriteSites data={yearData} allData={data} loadAllYears={loadAllYears} /><ClassBreakdown allData={data} years={YEARS} loadAllYears={loadAllYears} /><LocalShare allData={data} years={YEARS} /></>
+            ? page === 'teams' ? <><TeamsView allData={data} years={YEARS} /><ChapterRuns data={yearData} allData={data} years={YEARS} /><StickWithCrew data={yearData} allData={data} years={YEARS} /><RepeatPairings allData={data} years={YEARS} /><SchoolTravel data={yearData} /></> : <><ChapterRegulars allData={data} years={YEARS} /><FavoriteSites data={yearData} allData={data} loadAllYears={loadAllYears} /><ClassBreakdown allData={data} years={YEARS} loadAllYears={loadAllYears} /><LocalShare allData={data} years={YEARS} /></>
             : <LoadingState />
         ) : (
           <>
@@ -136,6 +137,8 @@ export default function App() {
                 {page === 'chapters' && <UilPicks data={yearData} />}
                 {page === 'chapters' && <OutsideChapterGames data={yearData} />}
                 {page === 'chapters' && <OfficialsCost data={yearData} />}
+                {page === 'chapters' && <OutsideCrewCost data={yearData} />}
+                {page === 'chapters' && <LongTrips data={yearData} />}
                 {page === 'brackets' && <BracketViewer data={yearData} year={year} />}
                 {page === 'brackets' && <SiteSearch allData={data} years={YEARS} loadAllYears={loadAllYears} />}
                 {page === 'history' && <HistoryView allData={data} years={HISTORY_YEARS} loadYear={(y) => {

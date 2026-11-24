@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useForm, ValidationError } from '@formspree/react'
 import { useCollapse, ShowMore } from '../ShowMore'
 import { PAY } from '../officialsCost'
@@ -74,6 +74,113 @@ function GateExamples() {
         <a href="https://www.pisd.edu/cms/lib/TX02215173/Centricity/Domain/61/PLANO%20ISD%20ATHLETIC%20TICKET%20INFORMATION%2024-25.pdf" target="_blank" rel="noreferrer">Plano ISD</a> (adults $8, students $4, reserved $10),{' '}
         <a href="https://www.nisdtx.org/news-events/newsroom/details/~board/homepage-news/post/athletic-ticketing-sales-options-set-for-2026-2027" target="_blank" rel="noreferrer">Northwest ISD</a> (adults $7–$9, reserved $11),{' '}
         <a href="https://lchs.lcisd.net/page/ticketing-policy" target="_blank" rel="noreferrer">Lubbock-Cooper ISD</a> (adults $8, students $3).
+      </div>
+    </div>
+  )
+}
+
+// Pick a stadium, estimate the crowd and the average ticket: what the gate is, and what each
+// official's game fee should be at that gate
+const SHARES = [10, 25, 50, 75, 100]
+function StadiumPayCalc() {
+  const [stadiums, setStadiums] = useState(null)
+  const [q, setQ] = useState('')
+  const [pick, setPick] = useState(null)
+  const [price, setPrice] = useState('10')
+  const [crew, setCrew] = useState(7)
+  useEffect(() => {
+    fetch(`${import.meta.env.BASE_URL}data/stadiums.json?v=${__BUILD_TIME__}`).then(r => r.ok ? r.json() : null)
+      .then(d => setStadiums((d?.stadiums || []).filter(s => s.capacity > 0))).catch(() => setStadiums([]))
+  }, [])
+  const norm = s => (s || '').toLowerCase().replace(/[^a-z0-9 ]/g, ' ')
+  const words = norm(q).split(/\s+/).filter(Boolean)
+  const hits = !stadiums || !words.length ? [] : stadiums.filter(s => {
+    const t = norm(`${s.name} ${s.city} ${(s.home_teams || []).join(' ')}`)
+    return words.every(w => t.includes(w))
+  }).sort((a, b) => b.capacity - a.capacity).slice(0, 8)
+  const ticket = Math.max(0, parseFloat(price) || 0)
+  const money = n => '$' + Math.round(n).toLocaleString()
+  const th = { fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.1em', textTransform:'uppercase', color:'var(--mid)', padding:'8px 10px', textAlign:'right', borderBottom:'1px solid var(--border)', whiteSpace:'nowrap' }
+  const td = { padding:'8px 10px', borderBottom:'1px solid var(--border)', fontSize:13, textAlign:'right', fontFamily:'var(--mono)' }
+  const field = { fontFamily:'var(--sans)', fontSize:14, padding:'9px 12px', borderRadius:6, border:'1px solid var(--border)', background:'#fff', color:'var(--ink)', boxSizing:'border-box' }
+  const chipBtn = on => ({ fontFamily:'var(--mono)', fontSize:10, padding:'4px 10px', borderRadius:3, cursor:'pointer',
+    border:`1px solid ${on ? 'var(--burnt)' : 'var(--border)'}`, background: on ? 'var(--burnt)' : 'transparent', color: on ? '#fff' : 'var(--mid)' })
+  return (
+    <div style={{ marginTop:48 }}>
+      <div style={{ fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.18em', textTransform:'uppercase', color:'var(--mid)', marginBottom:6 }}>Check your game</div>
+      <div className="card-title" style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:30, color:'var(--ink)', marginBottom:6, paddingBottom:12, borderBottom:'1px solid var(--border)', display:'flex', alignItems:'center', gap:12 }}>
+        <div style={{ width:4, height:28, borderRadius:2, background:'var(--burnt)' }} />
+        What Should the Game Have Paid?
+      </div>
+      <div style={{ fontSize:13, color:'var(--mid)', lineHeight:1.55, margin:'10px 0 14px', maxWidth:860 }}>
+        Pick the stadium, set the average ticket price for that venue, and see what the gate would be at different crowd sizes, and the game fee each official should be paid at that gate under the pay sheet.
+        Count everyone who came through the gates: season tickets and online sales are part of the gross gate.
+      </div>
+
+      <div style={{ display:'flex', gap:14, flexWrap:'wrap', alignItems:'flex-end', marginBottom:12 }}>
+        <div style={{ flex:'1 1 320px', position:'relative' }}>
+          <label style={{ display:'block', fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginBottom:6 }}>Stadium</label>
+          <input value={q} onChange={e => { setQ(e.target.value); setPick(null) }} placeholder={stadiums ? 'Type a stadium, town or school…' : 'Loading stadiums…'}
+            aria-label="Find a stadium" style={{ ...field, width:'100%' }} />
+          {!pick && hits.length > 0 && (
+            <div style={{ position:'absolute', zIndex:5, left:0, right:0, top:'100%', marginTop:4, background:'#fff', border:'1px solid var(--border)', borderRadius:8, boxShadow:'0 6px 18px rgba(0,0,0,0.12)', overflow:'hidden' }}>
+              {hits.map(s => (
+                <div key={s.id} onClick={() => { setPick(s); setQ(`${s.name}, ${s.city}`) }}
+                  style={{ padding:'8px 12px', cursor:'pointer', fontSize:13, borderTop:'1px solid var(--border)', display:'flex', justifyContent:'space-between', gap:10 }}>
+                  <span><strong>{s.name}</strong>, {s.city}</span><span style={{ fontFamily:'var(--mono)', fontSize:11, color:'var(--mid)' }}>{s.capacity.toLocaleString()} seats</span>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+        <div>
+          <label style={{ display:'block', fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginBottom:6 }}>Average ticket ($)</label>
+          <input type="number" min="0" step="0.5" value={price} onChange={e => setPrice(e.target.value)} aria-label="Average ticket price" style={{ ...field, width:120 }} />
+        </div>
+        <div>
+          <label style={{ display:'block', fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginBottom:6 }}>Crew</label>
+          <div style={{ display:'flex', gap:4 }}>
+            <button onClick={() => setCrew(7)} style={chipBtn(crew === 7)}>7 (11-man)</button>
+            <button onClick={() => setCrew(5)} style={chipBtn(crew === 5)}>5 (six-man)</button>
+          </div>
+        </div>
+      </div>
+
+      {pick ? (
+        <>
+          <div style={{ fontSize:14, color:'var(--ink)', marginBottom:8 }}>
+            <strong>{pick.name}</strong>, {pick.city}: <strong>{pick.capacity.toLocaleString()}</strong> seats{(pick.home_teams || []).length ? <span style={{ color:'var(--mid)' }}> · home of {pick.home_teams.join(', ')}</span> : ''}
+          </div>
+          <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, overflowX:'auto', maxWidth:860 }}>
+            <table style={{ width:'100%', borderCollapse:'collapse', minWidth:560 }}>
+              <thead><tr>
+                <th style={{ ...th, textAlign:'left' }}>Crowd</th><th style={th}>Fans</th><th style={th}>Gross gate</th>
+                <th style={{ ...th, color:'var(--burnt)' }}>Game fee per official</th><th style={th}>Crew of {crew}</th><th style={th}>vs. lowest band</th>
+              </tr></thead>
+              <tbody>{SHARES.map(p => {
+                const fans = Math.round(pick.capacity * p / 100), gate = fans * ticket, fee = feeFor(gate)
+                return (
+                  <tr key={p}>
+                    <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans' }}><strong>{p}%</strong> full</td>
+                    <td style={td}>{fans.toLocaleString()}</td>
+                    <td style={td}>{money(gate)}</td>
+                    <td style={{ ...td, fontWeight:700, fontSize:15 }}>{money(fee)}</td>
+                    <td style={td}>{money(fee * crew)}</td>
+                    <td style={{ ...td, color: fee > 100 ? 'var(--burnt)' : 'var(--mid)' }}>{fee > 100 ? `+${money(fee - 100)} each` : 'same'}</td>
+                  </tr>
+                )
+              })}</tbody>
+            </table>
+          </div>
+        </>
+      ) : (
+        <div style={{ background:'var(--surface)', border:'1px dashed var(--border)', borderRadius:10, padding:'18px 16px', fontSize:13, color:'var(--mid)', maxWidth:860 }}>
+          Start typing a stadium, town or school above to pick a venue.
+        </div>
+      )}
+      <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6, maxWidth:860 }}>
+        Fees from the 2026 TASO football pay sheet's gross-gate scale (lowest band $100 up to a $4,000 gate; $150 for $17,501–$20,500; +$45 for each $5,000 above that). Travel is paid on top and isn't shown.
+        Seating capacities from TexasBob.com; standing-room crowds can be larger. An estimate only: the official gate figure is what the school reports.
       </div>
     </div>
   )
@@ -431,6 +538,7 @@ export default function PayIssuesView() {
         </div>
       </div>
       <ShowMore c={more} total={list.length} noun="districts" />
+      <StadiumPayCalc />
       <HourlyPay />
       <StateFinalsPay />
     </div>
