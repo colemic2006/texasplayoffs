@@ -4640,7 +4640,11 @@
       "lng": -97.40963,
       "stadium": "Knight Stadium",
       "map_link": "https://maps.app.goo.gl/b2LbMKaXwRA6CfYQA",
-      "city": "Fort Worth"
+      "city": "Fort Worth",
+      "venue": [
+        32.9208,
+        -97.43385
+      ]
     },
     {
       "year": 2024,
@@ -5335,7 +5339,11 @@
       "team2": "Carrollton Ranchview",
       "score2": 7,
       "winner": "Decatur",
-      "site": "Eagle Mountain HS"
+      "site": "Eagle Mountain HS",
+      "lat": 32.9208,
+      "lng": -97.43385,
+      "stadium": "Eagle Mountain High School",
+      "city": "Fort Worth"
     },
     {
       "year": 2024,
@@ -11082,7 +11090,7 @@
       "site": "Bobcat Stadium (Texas State), San Marcos",
       "lat": 29.8907,
       "lng": -97.9257,
-      "stadium": "Bobcat Stadium (Texas State)",
+      "stadium": "UFCU Stadium (Texas State)",
       "city": "San Marcos"
     },
     {
@@ -11157,7 +11165,7 @@
       "site": "Bobcat Stadium (Texas State), San Marcos",
       "lat": 29.8907,
       "lng": -97.9257,
-      "stadium": "Bobcat Stadium (Texas State)",
+      "stadium": "UFCU Stadium (Texas State)",
       "city": "San Marcos"
     },
     {

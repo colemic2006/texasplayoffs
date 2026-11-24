@@ -5600,7 +5600,11 @@
       "lng": -97.40963,
       "stadium": "Knight Stadium",
       "map_link": "https://maps.app.goo.gl/b2LbMKaXwRA6CfYQA",
-      "city": "Fort Worth"
+      "city": "Fort Worth",
+      "venue": [
+        32.9208,
+        -97.43385
+      ]
     },
     {
       "year": 2025,
@@ -5773,7 +5777,11 @@
       "lng": -97.40963,
       "stadium": "Knight Stadium",
       "map_link": "https://maps.app.goo.gl/b2LbMKaXwRA6CfYQA",
-      "city": "Fort Worth"
+      "city": "Fort Worth",
+      "venue": [
+        32.9208,
+        -97.43385
+      ]
     },
     {
       "year": 2025,
@@ -9755,7 +9763,7 @@
       "site": "Bobcat Stadium (Texas State), San Marcos",
       "lat": 29.8907,
       "lng": -97.9257,
-      "stadium": "Bobcat Stadium (Texas State)",
+      "stadium": "UFCU Stadium (Texas State)",
       "city": "San Marcos"
     },
     {

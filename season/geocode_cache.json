@@ -4664,7 +4664,7 @@
   "map_link": "",
   "rules": 10,
   "site": "Bobcat Stadium (Texas State), San Marcos",
-  "stadium": "Bobcat Stadium (Texas State)",
+  "stadium": "UFCU Stadium (Texas State)",
   "stadium_id": null
  },
  "Bobcat Stadium (Texas State), San Marcos || Comal Pieper v Liberty Hill": {
@@ -4676,7 +4676,7 @@
   "map_link": "",
   "rules": 10,
   "site": "Bobcat Stadium (Texas State), San Marcos",
-  "stadium": "Bobcat Stadium (Texas State)",
+  "stadium": "UFCU Stadium (Texas State)",
   "stadium_id": null
  },
  "Bobcat Stadium (Texas State), San Marcos || Leander Vandegrift v San Antonio Harlan": {
@@ -4688,7 +4688,7 @@
   "map_link": "",
   "rules": 10,
   "site": "Bobcat Stadium (Texas State), San Marcos",
-  "stadium": "Bobcat Stadium (Texas State)",
+  "stadium": "UFCU Stadium (Texas State)",
   "stadium_id": null
  },
  "Bobcat Stadium (Texas State), San Marcos || San Antonio Harlan v New Braunfels Canyon": {
@@ -4700,7 +4700,7 @@
   "map_link": "",
   "rules": 10,
   "site": "Bobcat Stadium (Texas State), San Marcos",
-  "stadium": "Bobcat Stadium (Texas State)",
+  "stadium": "UFCU Stadium (Texas State)",
   "stadium_id": null
  },
  "Bobcat Stadium (Texas State), San Marcos || San Antonio Johnson v Austin Lake Travis": {
@@ -4712,7 +4712,7 @@
   "map_link": "",
   "rules": 10,
   "site": "Bobcat Stadium (Texas State), San Marcos",
-  "stadium": "Bobcat Stadium (Texas State)",
+  "stadium": "UFCU Stadium (Texas State)",
   "stadium_id": null
  },
  "Bobcat Stadium (Texas State), San Marcos || Tidehaven v Poth": {
@@ -4724,7 +4724,7 @@
   "map_link": "",
   "rules": 10,
   "site": "Bobcat Stadium (Texas State), San Marcos",
-  "stadium": "Bobcat Stadium (Texas State)",
+  "stadium": "UFCU Stadium (Texas State)",
   "stadium_id": null
  },
  "Boerne ISD Stadium, Boerne || Boerne Champion v Eagle Pass Winn": {
@@ -10441,12 +10441,14 @@
  },
  "Eagle Mountain HS || Decatur v Carrollton Ranchview": {
   "address": "",
-  "how": "no stadium, school or town matched",
+  "city": "Fort Worth",
+  "how": "coordinates confirmed by hand",
+  "lat": 32.9208,
+  "lng": -97.43385,
   "map_link": "",
-  "missed": "2026-11-22",
   "rules": 10,
   "site": "Eagle Mountain HS",
-  "stadium": null,
+  "stadium": "Eagle Mountain High School",
   "stadium_id": null
  },
  "Eagle Mountain HS || Millsap v Trinity Leadership": {
@@ -32882,13 +32884,13 @@
  "UFCU Stadium, San Marcos || Poth v Boling": {
   "address": "",
   "city": "San Marcos",
-  "how": "stadium found by name",
-  "lat": 29.89106,
-  "lng": -97.92555,
+  "how": "coordinates confirmed by hand",
+  "lat": 29.8907,
+  "lng": -97.9257,
   "map_link": "",
   "rules": 10,
   "site": "UFCU Stadium, San Marcos",
-  "stadium": null,
+  "stadium": "UFCU Stadium (Texas State)",
   "stadium_id": null
  },
  "UFCU Stadium, San Marcos || Round Rock v San Antonio Harlan": {

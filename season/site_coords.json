@@ -19,7 +19,7 @@
   "city": "San Marcos",
   "lat": 29.8907,
   "lng": -97.9257,
-  "source": "same spot as UFCU Stadium (Texas State) on other mapped games",
+  "source": "Texas State University's football stadium, San Marcos (UFCU Stadium, formerly Bobcat Stadium): one pin and name for every way it's written",
   "stadium": "UFCU Stadium (Texas State)"
  },
  "AT&T Stadium, Arlington": {
@@ -63,8 +63,8 @@
   "city": "San Marcos",
   "lat": 29.8907,
   "lng": -97.9257,
-  "source": "Texas State University stadium, San Marcos",
-  "stadium": "Bobcat Stadium (Texas State)"
+  "source": "Texas State University's football stadium, San Marcos (UFCU Stadium, formerly Bobcat Stadium): one pin and name for every way it's written",
+  "stadium": "UFCU Stadium (Texas State)"
  },
  "Buccaneer Stadium, Corpus Christi": {
   "city": "Corpus Christi",
@@ -539,7 +539,7 @@
   "city": "San Marcos",
   "lat": 29.8907,
   "lng": -97.9257,
-  "source": "UFCU Stadium (Bobcat Stadium), Texas State University, San Marcos; owner confirmed",
+  "source": "Texas State University's football stadium, San Marcos (UFCU Stadium, formerly Bobcat Stadium): one pin and name for every way it's written",
   "stadium": "UFCU Stadium (Texas State)"
  },
  "The Pfield, Pflugerville": {
@@ -597,6 +597,13 @@
   "lng": -95.1896,
   "source": "Chapel Hill HS Bulldog Stadium, Tyler (hand-confirmed spot used for this game before)",
   "stadium": "Bulldog Stadium (Chapel Hill HS)"
+ },
+ "UFCU Stadium, San Marcos": {
+  "city": "San Marcos",
+  "lat": 29.8907,
+  "lng": -97.9257,
+  "source": "Texas State University's football stadium, San Marcos (UFCU Stadium, formerly Bobcat Stadium): one pin and name for every way it's written",
+  "stadium": "UFCU Stadium (Texas State)"
  },
  "University of Mary Hardin Baylor": {
   "city": "Belton",
