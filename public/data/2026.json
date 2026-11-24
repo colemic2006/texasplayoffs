@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-24T17:57+00:00",
+    "updated": "2026-11-24T18:26+00:00",
     "games": 616,
     "played": 528,
     "assigned": 614,
@@ -14270,7 +14270,7 @@
       "city": "Hutto",
       "date": "2026-11-28",
       "time": "3:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/benjamin-davis-panthers-houston-vs-duncanville-panthers-and-pantherettes/11-26-2026/?c=a130509e-8c95-4e7f-84c4-39892ebf3ca6"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/benjamin-davis-panthers-houston-vs-duncanville-panthers-and-pantherettes/11-28-2026/?c=a130509e-8c95-4e7f-84c4-39892ebf3ca6"
     },
     {
       "year": 2026,
@@ -14283,13 +14283,19 @@
       "team2": "San Antonio Harlan",
       "score2": null,
       "winner": null,
-      "site": "UFCU Stadium, San Marcos",
-      "lat": 29.89106,
-      "lng": -97.92555,
-      "city": "San Marcos",
+      "site": "@ UFCU Stadium - Texas State University",
       "date": "2026-11-27",
       "time": "8:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/harlan-san-antonio-vs-round-rock/11-26-2026/?c=ed93d118-3706-4446-a154-2b5cdddc4db7"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/harlan-san-antonio-vs-round-rock/11-27-2026/?c=ed93d118-3706-4446-a154-2b5cdddc4db7",
+      "changes": [
+        {
+          "field": "site",
+          "old": "UFCU Stadium, San Marcos",
+          "new": "@ UFCU Stadium - Texas State University",
+          "at": "2026-11-24T18:26+00:00",
+          "status": "changed"
+        }
+      ]
     },
     {
       "year": 2026,
@@ -14310,7 +14316,7 @@
       "city": "Waco",
       "date": "2026-11-28",
       "time": "2:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/klein-vs-waxahachie/11-26-2026/?c=6d6957b9-15f3-4339-9a9b-6d861e6b4e5f"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/klein-vs-waxahachie/11-28-2026/?c=6d6957b9-15f3-4339-9a9b-6d861e6b4e5f"
     },
     {
       "year": 2026,
@@ -14398,7 +14404,7 @@
       "city": "Mesquite",
       "date": "2026-11-27",
       "time": "2:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/aledo-vs-guyer-denton/11-26-2026/?c=b2870ae1-1c00-406d-881e-3e89e94d4611"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/aledo-vs-guyer-denton/11-27-2026/?c=b2870ae1-1c00-406d-881e-3e89e94d4611"
     },
     {
       "year": 2026,
@@ -14523,7 +14529,7 @@
       "city": "New Caney",
       "date": "2026-11-28",
       "time": "2:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/longview-vs-westfield-houston/11-26-2026/?c=acbdc6ef-f0da-464f-959c-c86a497ba73b"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/longview-vs-westfield-houston/11-28-2026/?c=acbdc6ef-f0da-464f-959c-c86a497ba73b"
     },
     {
       "year": 2026,

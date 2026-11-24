@@ -336,6 +336,16 @@
   "stadium": null,
   "stadium_id": null
  },
+ "@ UFCU Stadium - Texas State University || Round Rock v San Antonio Harlan": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-24",
+  "rules": 10,
+  "site": "@ UFCU Stadium - Texas State University",
+  "stadium": null,
+  "stadium_id": null
+ },
  "@ Wildcat Field at Phil Danaher Stadium || Corpus Christi Calallen v El Campo": {
   "address": "4001 Wildcat Drive, Corpus Christi, Texas 78410",
   "city": "Corpus Christi",
