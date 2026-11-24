@@ -90,7 +90,7 @@ export default function PlayoffFootprint({ data }) {
       for (const r of list) {
         const col = chapterColor(r.c), ctr = CHAPTER_CENTERS[r.c]
         if (pick && home && homeRing[r.c]?.length >= 3) {
-          L.polygon(homeRing[r.c], { color: col, weight: 1.5, dashArray: '5 5', opacity: 0.8, fillOpacity: 0.04, interactive: false }).addTo(g)
+          L.polygon(homeRing[r.c], { color: '#111', weight: 1.5, dashArray: '5 5', opacity: 0.85, fillColor: col, fillOpacity: 0.04, interactive: false }).addTo(g)
         }
         if (view === 'footprint') {
           if (r.ring.length >= 3) L.polygon(r.ring, { color: col, weight: pick ? 2.5 : 2, opacity: 0.9, fillColor: col, fillOpacity: pick ? 0.18 : 0.10 })
@@ -159,7 +159,7 @@ export default function PlayoffFootprint({ data }) {
       <div style={{ fontSize:13, color:'var(--mid)', lineHeight:1.55, margin:'10px 0 12px', maxWidth:860 }}>
         The map above shows the schools each chapter works in the regular season. This one shows where each chapter actually worked playoff games in a round:
         an outline around its game sites (<strong style={{ color:'var(--ink)' }}>Footprint</strong>), or a line from the chapter's home city to each game (<strong style={{ color:'var(--ink)' }}>Travel lines</strong>).
-        With every chapter on, the outlines overlap a lot; pick a chapter to see its playoff games against its own regular-season area (dashed).
+        With every chapter on, the outlines overlap a lot; pick a chapter to see its playoff games against its own regular-season area (black dashed line).
       </div>
       <div style={{ display:'flex', gap:4, flexWrap:'wrap', marginBottom:6 }}>
         <span style={lab}>Round:</span>
