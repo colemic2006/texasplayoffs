@@ -2,10 +2,10 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-24T15:11+00:00",
+    "updated": "2026-11-24T15:22+00:00",
     "games": 616,
     "played": 528,
-    "assigned": 613,
+    "assigned": 614,
     "weeks": {
       "1": {
         "games": 352,
@@ -17,7 +17,7 @@
       },
       "3": {
         "games": 88,
-        "assigned": 85
+        "assigned": 86
       },
       "4": {
         "games": 0,
@@ -232,7 +232,7 @@
     {
       "code": "TYL",
       "name": "Tyler",
-      "total": 51,
+      "total": 52,
       "weeks": {
         "1": {
           "total": 30,
@@ -263,8 +263,9 @@
           }
         },
         "3": {
-          "total": 7,
+          "total": 8,
           "classifications": {
+            "1A D2": 1,
             "2A D1": 2,
             "3A D1": 1,
             "3A D2": 1,
@@ -12754,7 +12755,7 @@
       "classification": "1A D2",
       "week": 3,
       "round": "Quarterfinals",
-      "chapter": null,
+      "chapter": "TYL",
       "team1": "Fannindel",
       "score1": null,
       "team2": "Mount Calm",
