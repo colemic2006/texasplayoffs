@@ -4,6 +4,9 @@ import 'leaflet/dist/leaflet.css'
 import { chapterColor } from '../chapterColors'
 import { useHomeChapterStatus } from '../homeChapters'
 import { useCollapse, ShowMore } from '../ShowMore'
+import { CHAPTER_CENTERS, ROAD_FACTOR, straightMiles } from '../chapterCenters'
+import { PAY } from '../officialsCost'
+import { useSort, SortTh } from '../sortable'
 
 const NAMES = {
   ABI:'Abilene', AMA:'Amarillo', AUS:'Austin', BEA:'Southeast Texas (Beaumont)', COM:'Commerce', CSC:'College Station',
@@ -29,6 +32,16 @@ export const miles = (a, b) => {
 }
 
 // Each chapter's schools, with an outline around the area they cover
+// driving miles (one way, estimated) from a chapter's center city to a school, and its travel band
+function fromCenter(c, s) {
+  const t = CHAPTER_CENTERS[c]
+  if (!t) return null
+  const straight = straightMiles(t[1], t[2], s.lat, s.lng), drive = ROAD_FACTOR * straight
+  const i = PAY.bands.findIndex(([max]) => drive <= max)
+  return { city: t[0], straight, drive, band: i < 0 ? 4 : i + 1 }
+}
+const bandLabel = b => b === 4 ? `over ${PAY.bands[PAY.bands.length - 1][0]} miles (mileage)` : `travel band ${b} ($${PAY.bands[b - 1][1]})`
+
 export default function ChapterCoverageMap() {
   const [data, setData] = useState(null)
   const [pick, setPick] = useState(null)
@@ -75,7 +88,11 @@ export default function ChapterCoverageMap() {
         for (const s of x.schools) {
           const m = L.circleMarker([s.lat, s.lng], { radius: x.c === pick ? 6 : 4, weight: 1.5, color: '#fff', fillColor: col,
             fillOpacity: on ? 0.95 : 0.25, opacity: on ? 1 : 0.3 })
-            .addTo(g).bindTooltip(`<strong>${s.name}</strong><br>${NAMES[x.c] || x.c}${s.at === 'town' ? ' · placed at town center' : ''}`)
+            .addTo(g).bindTooltip((() => {
+              const d = fromCenter(x.c, s)
+              return `<strong>${s.name}</strong><br>${NAMES[x.c] || x.c}${s.at === 'town' ? ' · placed at town center' : ''}` +
+                (d ? `<br>~${Math.round(d.drive)} mi from ${d.city} (${Math.round(d.straight)} straight-line)<br>${bandLabel(d.band)}` : '')
+            })())
           if (x.c === pick) m.bindTooltip(s.name, { permanent: true, direction: 'right', offset: [6, 0], className: 'cov-label' })
         }
         if (!pick || x.c === pick) {
@@ -99,6 +116,7 @@ export default function ChapterCoverageMap() {
   const noList = status.missing || []
 
   return (
+    <>
     <div style={{ marginBottom:48 }}>
       <style>{`.cov-label{background:rgba(255,255,255,.92);border:none;box-shadow:0 1px 3px rgba(0,0,0,.25);font:600 11px 'DM Sans',sans-serif;padding:1px 5px}
         .cov-label:before{display:none}
@@ -144,6 +162,87 @@ export default function ChapterCoverageMap() {
         Schools are placed at their home stadium where we have it, otherwise at the middle of their town. Outlines are drawn around each chapter's schools and can overlap.
         {noList.length > 0 && <> School lists aren't on file yet for {noList.map(c => NAMES[c] || c).join(', ')}, so those areas are incomplete or missing.</>}
         {data?.unplaced?.length > 0 && <> {data.unplaced.length} schools couldn't be placed.</>}
+      </div>
+    </div>
+    <SchoolBands chapters={chapters} noList={noList} />
+    </>
+  )
+}
+
+// how many of each chapter's schools fall in each travel band, measured from the chapter's center city
+function SchoolBands({ chapters, noList }) {
+  const s = useSort()
+  const more = useCollapse()
+  const rows = chapters.map(x => {
+    const n = [0, 0, 0, 0, 0]
+    for (const sc of x.schools) { const d = fromCenter(x.c, sc); if (d) n[d.band]++ }
+    const total = n[1] + n[2] + n[3] + n[4]
+    return { c: x.c, n, total, city: CHAPTER_CENTERS[x.c]?.[0] }
+  }).filter(r => r.total)
+  if (!rows.length) return null
+  const sorted = s.sort(rows, { name: r => NAMES[r.c] || r.c, b1: r => r.n[1], b2: r => r.n[2], b3: r => r.n[3], b4: r => r.n[4], total: r => r.total,
+    far: r => (r.n[3] + r.n[4]) / r.total })
+  const tot = [1, 2, 3, 4].map(b => rows.reduce((t, r) => t + r.n[b], 0)), all = tot.reduce((a, b) => a + b, 0)
+  const th = { fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.1em', textTransform:'uppercase', color:'var(--mid)', padding:'8px 10px', textAlign:'right', borderBottom:'1px solid var(--border)', whiteSpace:'nowrap' }
+  const td = { padding:'7px 10px', borderBottom:'1px solid var(--border)', fontSize:12, textAlign:'right', fontFamily:'var(--mono)' }
+  const COLORS = ['', '#9B79D2', '#6B3FA0', 'var(--burnt)', '#C0392B']
+  const cell = (r, b) => <td style={td}>{r.n[b] || <span style={{ color:'var(--mid)' }}>0</span>} <span style={{ color:'var(--mid)', fontSize:10 }}>{Math.round(100 * r.n[b] / r.total)}%</span></td>
+  const head = b => <>Band {b}<div style={{ fontSize:8, letterSpacing:0, textTransform:'none' }}>{b === 1 ? 0 : PAY.bands[b - 2][0] + 1}–{PAY.bands[b - 1][0]} mi · ${PAY.bands[b - 1][1]}</div></>
+  return (
+    <div style={{ marginBottom:48 }}>
+      <div style={{ fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.18em', textTransform:'uppercase', color:'var(--mid)', marginBottom:6 }}>Travel bands</div>
+      <div className="card-title" style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:30, color:'var(--ink)', marginBottom:6, paddingBottom:12, borderBottom:'1px solid var(--border)', display:'flex', alignItems:'center', gap:12 }}>
+        <div style={{ width:4, height:28, borderRadius:2, background:'var(--burnt)' }} />
+        Each Chapter's Schools by Travel Band
+      </div>
+      <div style={{ fontSize:13, color:'var(--mid)', lineHeight:1.55, margin:'10px 0 12px', maxWidth:860 }}>
+        How far each chapter's schools are from the chapter's center city, sorted into the pay sheet's travel bands: band 1 up to {PAY.bands[0][0]} miles one way,
+        band 2 up to {PAY.bands[1][0]}, band 3 up to {PAY.bands[2][0]}, and past that, mileage. Statewide, {Math.round(100 * tot[0] / all)}% of schools are in band 1
+        and {Math.round(100 * (tot[2] + tot[3]) / all)}% are band 3 or farther.
+      </div>
+      <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, overflowX:'auto' }}>
+        <table style={{ width:'100%', borderCollapse:'collapse', minWidth:720 }}>
+          <thead><tr>
+            <SortTh s={s} k="name" text style={{ ...th, textAlign:'left' }}>Chapter</SortTh>
+            <SortTh s={s} k="b1" style={th}>{head(1)}</SortTh>
+            <SortTh s={s} k="b2" style={th}>{head(2)}</SortTh>
+            <SortTh s={s} k="b3" style={th}>{head(3)}</SortTh>
+            <SortTh s={s} k="b4" style={th}>Over {PAY.bands[2][0]} mi<div style={{ fontSize:8, letterSpacing:0, textTransform:'none' }}>mileage</div></SortTh>
+            <SortTh s={s} k="total" style={th}>Schools</SortTh>
+            <SortTh s={s} k="far" style={{ ...th, width:'22%', textAlign:'left' }}>Mix</SortTh>
+          </tr></thead>
+          <tbody>
+            {more.cut(sorted).map(r => (
+              <tr key={r.c}>
+                <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans', whiteSpace:'nowrap' }}>
+                  <span style={{ display:'inline-block', width:8, height:8, borderRadius:'50%', background:chapterColor(r.c), marginRight:6 }} />{NAMES[r.c] || r.c}
+                  <span style={{ color:'var(--mid)', fontSize:10, marginLeft:6 }}>from {r.city}</span>
+                </td>
+                {cell(r, 1)}{cell(r, 2)}{cell(r, 3)}{cell(r, 4)}
+                <td style={{ ...td, fontWeight:700 }}>{r.total}</td>
+                <td style={{ ...td, textAlign:'left' }}>
+                  <div style={{ display:'flex', height:10, borderRadius:5, overflow:'hidden', background:'var(--border)' }}>
+                    {[1, 2, 3, 4].map(b => r.n[b] ? <div key={b} title={`${bandLabel(b)}: ${r.n[b]}`} style={{ width:`${100 * r.n[b] / r.total}%`, background:COLORS[b] }} /> : null)}
+                  </div>
+                </td>
+              </tr>
+            ))}
+            <tr>
+              <td style={{ ...td, textAlign:'left', fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.1em', textTransform:'uppercase', color:'var(--mid)' }}>All chapters</td>
+              {tot.map((v, i) => <td key={i} style={{ ...td, fontWeight:600 }}>{v} <span style={{ color:'var(--mid)', fontSize:10, fontWeight:400 }}>{Math.round(100 * v / all)}%</span></td>)}
+              <td style={{ ...td, fontWeight:700 }}>{all}</td><td style={td} />
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <ShowMore c={more} total={sorted.length} noun="chapters" />
+      <div style={{ display:'flex', gap:14, flexWrap:'wrap', fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8 }}>
+        {[1, 2, 3, 4].map(b => <span key={b}><span style={{ display:'inline-block', width:10, height:10, borderRadius:2, background:COLORS[b], marginRight:5, verticalAlign:'middle' }} />{bandLabel(b)}</span>)}
+      </div>
+      <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6, maxWidth:900 }}>
+        Miles are estimated driving miles one way: straight-line distance from the chapter's center city to the school's stadium (or town) times {ROAD_FACTOR}. Real crews come from all over a chapter,
+        so a school near the edge may still get a closer crew. Travel bands from the 2026 pay sheet.
+        {noList.length > 0 && <> School lists aren't complete for {noList.map(c => NAMES[c] || c).join(', ')}.</>}
       </div>
     </div>
   )
