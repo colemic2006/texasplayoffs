@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-25T04:34+00:00",
+    "updated": "2026-11-25T07:32+00:00",
     "games": 616,
     "played": 528,
     "assigned": 614,
@@ -13521,23 +13521,7 @@
       "city": "Sweetwater",
       "date": "2026-11-27",
       "time": "1:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/canyon-vs-springtown/11-27-2026/?c=cf026a14-7c64-4461-910a-5cbd91277fd6",
-      "changes": [
-        {
-          "field": "date",
-          "old": "2026-11-26",
-          "new": "2026-11-27",
-          "at": "2026-11-21T07:29+00:00",
-          "status": "changed"
-        },
-        {
-          "field": "time",
-          "old": "6:00 PM",
-          "new": "1:00 PM",
-          "at": "2026-11-21T07:29+00:00",
-          "status": "changed"
-        }
-      ]
+      "mp_url": "https://www.maxpreps.com/tx/football/game/canyon-vs-springtown/11-27-2026/?c=cf026a14-7c64-4461-910a-5cbd91277fd6"
     },
     {
       "year": 2026,
@@ -13918,16 +13902,7 @@
       "city": "Fort Worth",
       "date": "2026-11-27",
       "time": "7:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/brewer-fort-worth-vs-ryan-denton/11-27-2026/?c=a4ddf1de-1265-44a6-ad69-dfb7fecaf463",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Shotwell Stadium, Abilene",
-          "new": "Crowley ISD Stadium, Fort Worth",
-          "at": "2026-11-21T07:29+00:00",
-          "status": "changed"
-        }
-      ]
+      "mp_url": "https://www.maxpreps.com/tx/football/game/brewer-fort-worth-vs-ryan-denton/11-27-2026/?c=a4ddf1de-1265-44a6-ad69-dfb7fecaf463"
     },
     {
       "year": 2026,
@@ -13978,16 +13953,7 @@
       "city": "Iowa Colony",
       "date": "2026-11-27",
       "time": "7:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/angleton-vs-la-porte/11-27-2026/?c=3f82b268-07fd-44e5-b7a2-ab485a2da2b5",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Tomball ISD Stadium, Tomball",
-          "new": "Freedom Field, Iowa Colony",
-          "at": "2026-11-21T07:29+00:00",
-          "status": "changed"
-        }
-      ]
+      "mp_url": "https://www.maxpreps.com/tx/football/game/angleton-vs-la-porte/11-27-2026/?c=3f82b268-07fd-44e5-b7a2-ab485a2da2b5"
     },
     {
       "year": 2026,
@@ -14253,23 +14219,7 @@
       "city": "Abilene",
       "date": "2026-11-27",
       "time": "6:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/allen-vs-permian-odessa/11-27-2026/?c=08f350dd-f15f-4dd3-8437-90c54b49eb80",
-      "changes": [
-        {
-          "field": "time",
-          "old": "7:00 PM",
-          "new": "6:00 PM",
-          "at": "2026-11-21T07:29+00:00",
-          "status": "changed"
-        },
-        {
-          "field": "site",
-          "old": "Ratliff Stadium, Odessa",
-          "new": "Shotwell Stadium, Abilene",
-          "at": "2026-11-21T07:29+00:00",
-          "status": "changed"
-        }
-      ]
+      "mp_url": "https://www.maxpreps.com/tx/football/game/allen-vs-permian-odessa/11-27-2026/?c=08f350dd-f15f-4dd3-8437-90c54b49eb80"
     },
     {
       "year": 2026,
