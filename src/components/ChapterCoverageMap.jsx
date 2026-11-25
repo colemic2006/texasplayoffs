@@ -7,6 +7,7 @@ import { useCollapse, ShowMore } from '../ShowMore'
 import { CHAPTER_CENTERS, ROAD_FACTOR, straightMiles } from '../chapterCenters'
 import { PAY } from '../officialsCost'
 import { useSort, SortTh } from '../sortable'
+import { sqMiles } from './CoverageDensity'
 
 const NAMES = {
   ABI:'Abilene', AMA:'Amarillo', AUS:'Austin', BEA:'Southeast Texas (Beaumont)', COM:'Commerce', CSC:'College Station',
@@ -165,6 +166,7 @@ export default function ChapterCoverageMap() {
       </div>
     </div>
     <SchoolBands chapters={chapters} noList={noList} />
+    <ChapterArea chapters={chapters} short={[...noList, ...(status.partial || [])]} />
     </>
   )
 }
@@ -243,6 +245,82 @@ function SchoolBands({ chapters, noList }) {
         Miles are estimated driving miles one way: straight-line distance from the chapter's center city to the school's stadium (or town) times {ROAD_FACTOR}. Real crews come from all over a chapter,
         so a school near the edge may still get a closer crew. Travel bands from the 2026 pay sheet.
         {noList.length > 0 && <> School lists aren't complete for {noList.map(c => NAMES[c] || c).join(', ')}.</>}
+      </div>
+    </div>
+  )
+}
+
+// the area inside each chapter's outline on the map, with its schools and members
+function ChapterArea({ chapters, short = [] }) {
+  const s = useSort('area', -1)   // largest area first
+  const more = useCollapse()
+  const [members, setMembers] = useState({})
+  useEffect(() => {
+    fetch(`${import.meta.env.BASE_URL}data/membership.json?v=${__BUILD_TIME__}`).then(r => r.ok ? r.json() : null)
+      .then(d => setMembers(d?.members || {})).catch(() => {})
+  }, [])
+  const rows = chapters.map(x => {
+    const area = sqMiles(x.ring), m = members[x.c] || null
+    return { c: x.c, area, schools: x.schools.length, m, perSchool: x.schools.length ? area / x.schools.length : null,
+      density: m && area ? 1000 * m / area : null, short: short.includes(x.c) }
+  }).filter(r => r.area > 0)
+  if (!rows.length) return null
+  const sorted = s.sort(rows, { name: r => NAMES[r.c] || r.c, area: r => r.area, schools: r => r.schools, m: r => r.m,
+    perSchool: r => r.perSchool, density: r => r.density })
+  const total = rows.reduce((t, r) => t + r.area, 0), top = Math.max(...rows.map(r => r.area))
+  const big = [...rows].sort((a, b) => b.area - a.area)
+  const th = { fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.1em', textTransform:'uppercase', color:'var(--mid)', padding:'8px 10px', textAlign:'right', borderBottom:'1px solid var(--border)', whiteSpace:'nowrap' }
+  const td = { padding:'7px 10px', borderBottom:'1px solid var(--border)', fontSize:12, textAlign:'right', fontFamily:'var(--mono)' }
+  const n = v => Math.round(v).toLocaleString()
+  return (
+    <div style={{ marginBottom:48 }}>
+      <div style={{ fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.18em', textTransform:'uppercase', color:'var(--mid)', marginBottom:6 }}>Ground covered</div>
+      <div className="card-title" style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:30, color:'var(--ink)', marginBottom:6, paddingBottom:12, borderBottom:'1px solid var(--border)', display:'flex', alignItems:'center', gap:12 }}>
+        <div style={{ width:4, height:28, borderRadius:2, background:'var(--burnt)' }} />
+        How Much Ground Each Chapter Covers
+      </div>
+      <div style={{ fontSize:13, color:'var(--mid)', lineHeight:1.55, margin:'10px 0 12px', maxWidth:860 }}>
+        The approximate area inside each chapter's outline on the map above, in square miles, with its schools and members.
+        {' '}{NAMES[big[0].c]} covers the most ground (about <strong style={{ color:'var(--ink)' }}>{n(big[0].area)}</strong> sq mi); {NAMES[big[big.length - 1].c]} the least (about {n(big[big.length - 1].area)}).
+      </div>
+      <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, overflowX:'auto' }}>
+        <table style={{ width:'100%', borderCollapse:'collapse', minWidth:720 }}>
+          <thead><tr>
+            <SortTh s={s} k="name" text style={{ ...th, textAlign:'left' }}>Chapter</SortTh>
+            <SortTh s={s} k="area" style={{ ...th, color:'var(--burnt)' }}>Square miles</SortTh>
+            <SortTh s={s} k="schools" style={th}>Schools</SortTh>
+            <SortTh s={s} k="m" style={th}>Members</SortTh>
+            <SortTh s={s} k="perSchool" style={th}>Sq mi per school</SortTh>
+            <SortTh s={s} k="density" style={th}>Members per 1,000 sq mi</SortTh>
+            <th style={{ ...th, width:'20%' }} />
+          </tr></thead>
+          <tbody>
+            {more.cut(sorted).map(r => (
+              <tr key={r.c}>
+                <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans', whiteSpace:'nowrap' }}>
+                  <span style={{ display:'inline-block', width:8, height:8, borderRadius:'50%', background:chapterColor(r.c), marginRight:6 }} />{NAMES[r.c] || r.c}
+                  {r.short && <span title="School list incomplete: the area is probably understated" style={{ color:'var(--burnt)', marginLeft:4 }}>*</span>}
+                </td>
+                <td style={{ ...td, fontWeight:700 }}>{n(r.area)}</td>
+                <td style={td}>{r.schools}</td>
+                <td style={td}>{r.m ? r.m.toLocaleString() : '—'}</td>
+                <td style={td}>{r.perSchool != null ? n(r.perSchool) : '—'}</td>
+                <td style={td}>{r.density != null ? r.density.toFixed(1) : '—'}</td>
+                <td style={{ ...td, paddingLeft:4 }}><div style={{ height:8, borderRadius:4, background:chapterColor(r.c), width:`${Math.max(2, 100 * r.area / top)}%` }} /></td>
+              </tr>
+            ))}
+            <tr>
+              <td style={{ ...td, textAlign:'left', fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.1em', textTransform:'uppercase', color:'var(--mid)' }}>All chapters</td>
+              <td style={{ ...td, fontWeight:700 }}>{n(total)}</td><td colSpan={5} style={{ ...td, textAlign:'left', fontFamily:'DM Sans', color:'var(--mid)' }}>outlines overlap in places; Texas is about 268,600 sq mi</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <ShowMore c={more} total={sorted.length} noun="chapters" />
+      <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6, maxWidth:900 }}>
+        An estimate, not official territory: the outline is drawn through each chapter's outermost schools, so ground beyond the last school isn't counted
+        (sparse chapters such as Permian Basin, Amarillo and San Angelo really cover more), and neighboring outlines can overlap. A school far outside a chapter's usual area is left out of its outline.
+        {short.length > 0 && <> * School list incomplete, so the area is probably understated.</>}
       </div>
     </div>
   )

@@ -30,7 +30,7 @@ const miles = (a, b) => {
   const r = Math.PI / 180, h = Math.sin((b[0] - a[0]) * r / 2) ** 2 + Math.cos(a[0] * r) * Math.cos(b[0] * r) * Math.sin((b[1] - a[1]) * r / 2) ** 2
   return 3958.8 * 2 * Math.asin(Math.sqrt(h))
 }
-function sqMiles(ring) {
+export function sqMiles(ring) {
   if (ring.length < 3) return 0
   const lat0 = ring.reduce((s, p) => s + p[0], 0) / ring.length
   const kx = 69.17 * Math.cos(lat0 * Math.PI / 180), ky = 69.0
