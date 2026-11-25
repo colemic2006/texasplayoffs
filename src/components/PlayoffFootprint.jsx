@@ -218,7 +218,7 @@ export default function PlayoffFootprint({ data }) {
       <ShowMore c={more} total={rows.length} noun="chapters" />
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6 }}>
         {data?.games?.[0]?.year} season. Only games with a chapter and a mapped site are shown ({total} {wk === 'all' ? 'so far' : 'this round'}). "Own area" is the outline around the chapter's schools on the map above;
-        chapters without a school list on file show —. Miles are straight-line from the chapter's main city. Click a row, an outline or a chapter button to focus on one chapter.
+        chapters without a school list on file show —. Miles are straight-line from the chapter's UIL center point. Click a row, an outline or a chapter button to focus on one chapter.
       </div>
     </div>
   )

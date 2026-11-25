@@ -4,7 +4,7 @@ import 'leaflet/dist/leaflet.css'
 import { chapterColor } from '../chapterColors'
 import { useHomeChapterStatus } from '../homeChapters'
 import { useCollapse, ShowMore } from '../ShowMore'
-import { CHAPTER_CENTERS, ROAD_FACTOR, straightMiles } from '../chapterCenters'
+import { CHAPTER_CENTERS, CENTER_ADDRESS, ROAD_FACTOR, straightMiles } from '../chapterCenters'
 import { PAY } from '../officialsCost'
 import { useSort, SortTh } from '../sortable'
 import { sqMiles } from './CoverageDensity'
@@ -33,7 +33,7 @@ export const miles = (a, b) => {
 }
 
 // Each chapter's schools, with an outline around the area they cover
-// driving miles (one way, estimated) from a chapter's center city to a school, and its travel band
+// driving miles (one way, estimated) from a chapter's UIL center point to a school, and its travel band
 function fromCenter(c, s) {
   const t = CHAPTER_CENTERS[c]
   if (!t) return null
@@ -92,7 +92,7 @@ export default function ChapterCoverageMap() {
             .addTo(g).bindTooltip((() => {
               const d = fromCenter(x.c, s)
               return `<strong>${s.name}</strong><br>${NAMES[x.c] || x.c}${s.at === 'town' ? ' · placed at town center' : ''}` +
-                (d ? `<br>~${Math.round(d.drive)} mi from ${d.city} (${Math.round(d.straight)} straight-line)<br>${bandLabel(d.band)}` : '')
+                (d ? `<br>~${Math.round(d.drive)} mi from the chapter's UIL center point (${CENTER_ADDRESS[x.c] || d.city}), ${Math.round(d.straight)} straight-line<br>${bandLabel(d.band)}` : '')
             })())
           if (x.c === pick) m.bindTooltip(s.name, { permanent: true, direction: 'right', offset: [6, 0], className: 'cov-label' })
         }
@@ -171,7 +171,7 @@ export default function ChapterCoverageMap() {
   )
 }
 
-// how many of each chapter's schools fall in each travel band, measured from the chapter's center city
+// how many of each chapter's schools fall in each travel band, measured from the chapter's UIL center point
 function SchoolBands({ chapters, noList }) {
   const s = useSort()
   const more = useCollapse()
@@ -198,7 +198,7 @@ function SchoolBands({ chapters, noList }) {
         Each Chapter's Schools by Travel Band
       </div>
       <div style={{ fontSize:13, color:'var(--mid)', lineHeight:1.55, margin:'10px 0 12px', maxWidth:860 }}>
-        How far each chapter's schools are from the chapter's center city, sorted into the pay sheet's travel bands: band 1 up to {PAY.bands[0][0]} miles one way,
+        How far each chapter's schools are from the chapter's UIL center point, sorted into the pay sheet's travel bands: band 1 up to {PAY.bands[0][0]} miles one way,
         band 2 up to {PAY.bands[1][0]}, band 3 up to {PAY.bands[2][0]}, and past that, mileage. Statewide, {Math.round(100 * tot[0] / all)}% of schools are in band 1
         and {Math.round(100 * (tot[2] + tot[3]) / all)}% are band 3 or farther.
       </div>
@@ -242,7 +242,7 @@ function SchoolBands({ chapters, noList }) {
         {[1, 2, 3, 4].map(b => <span key={b}><span style={{ display:'inline-block', width:10, height:10, borderRadius:2, background:COLORS[b], marginRight:5, verticalAlign:'middle' }} />{bandLabel(b)}</span>)}
       </div>
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6, maxWidth:900 }}>
-        Miles are estimated driving miles one way: straight-line distance from the chapter's center city to the school's stadium (or town) times {ROAD_FACTOR}. Real crews come from all over a chapter,
+        Miles are estimated driving miles one way: straight-line distance from the chapter's center point (as UIL lists it in its mileage calculator) to the school's stadium (or town) times {ROAD_FACTOR}; UIL's own calculator uses Google's driving route. Real crews come from all over a chapter,
         so a school near the edge may still get a closer crew. Travel bands from the 2026 pay sheet.
         {noList.length > 0 && <> School lists aren't complete for {noList.map(c => NAMES[c] || c).join(', ')}.</>}
       </div>

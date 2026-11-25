@@ -45,7 +45,7 @@ export default function ChapterTravel({ data }) {
         Round-Trip Miles by Chapter
       </div>
       <div style={{ fontSize:13, color:'var(--mid)', lineHeight:1.55, margin:'10px 0 14px', maxWidth:760 }}>
-        Estimated driving miles from each chapter's center city to every game site it works, and back, one trip per game.
+        Estimated driving miles from each chapter's UIL center point to every game site it works, and back, one trip per game.
         All chapters together: <strong style={{ color:'var(--ink)' }}>{fmt(totals.all)} miles</strong>. Click a chapter to see its games.
       </div>
       <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, overflowX:'auto' }}>
@@ -106,7 +106,7 @@ export default function ChapterTravel({ data }) {
       </div>
       <ShowMore c={more} total={rows.length} noun="chapters" />
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6 }}>
-        Estimates: straight-line distance from the chapter's center city to the game site, times {ROAD_FACTOR} for roads, doubled for the return trip.
+        Estimates: straight-line distance from the chapter's UIL center point to the game site, times {ROAD_FACTOR} for roads, doubled for the return trip.
         Counted once per game (one crew), not per official or per vehicle. Games without a site yet aren't counted.
       </div>
     </div>

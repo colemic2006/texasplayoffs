@@ -115,7 +115,7 @@ export default function UilPicks({ data }) {
       <ByChapter rounds={rounds} />
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6 }}>
         Only games known to be UIL assignments are listed; others may not have been reported yet.
-        Miles are estimated driving miles, round trip, from the chapter's main city to the game site (straight-line distance × 1.2).
+        Miles are estimated driving miles, round trip, from the chapter's UIL center point to the game site (straight-line distance × 1.2).
       </div>
     </div>
   )

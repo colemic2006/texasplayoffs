@@ -198,7 +198,7 @@ export function RepeatPairings({ allData = {}, years = [] }) {
   )
 }
 
-// the chapter whose main city is closest to a game site
+// the chapter whose UIL center point is closest to a game site
 const nearest = g => Object.entries(CHAPTER_CENTERS).reduce((best, [c, t]) => {
   const m = straightMiles(t[1], t[2], g.lat, g.lng)
   return !best || m < best.m ? { c, m } : best
@@ -255,7 +255,7 @@ export function OutsideCrewCost({ data }) {
       </div>
       <ShowMore c={more} total={rows.length} noun="chapters" />
       <div style={note}>Estimates from the 2026 pay sheet, as on the Most Expensive Games card: lowest gate band, travel bands up to 90 miles one way, then per-mile pay, riders and playoff meals.
-        "Nearest chapter" = the chapter whose main city is closest to the game site; real crews come from all over a chapter, and the nearest chapter may not have been available. Games without a site aren't counted.</div>
+        "Nearest chapter" = the chapter whose UIL center point is closest to the game site; real crews come from all over a chapter, and the nearest chapter may not have been available. Games without a site aren't counted.</div>
     </Card>
   )
 }
@@ -313,7 +313,7 @@ export function LongTrips({ data }) {
           <ShowMore c={moreG} total={list.length} noun="trips" />
         </div>
       )}
-      <div style={note}>Miles are estimated driving miles one way (straight line × {ROAD_FACTOR}) from the chapter's main city. Cost = game fees at the lowest gate band plus mileage for 2 cars, riders and meals, from the 2026 pay sheet.</div>
+      <div style={note}>Miles are estimated driving miles one way (straight line × {ROAD_FACTOR}) from the chapter's UIL center point. Cost = game fees at the lowest gate band plus mileage for 2 cars, riders and meals, from the 2026 pay sheet.</div>
     </Card>
   )
 }
@@ -365,7 +365,7 @@ export function PayPerMember({ members = {}, allData = {}, years = [] }) {
         </table>
       </div>
       <ShowMore c={more} total={rows.length} noun="chapters" />
-      <div style={note}>{year} season so far, with this season's membership. Pay is estimated from the 2026 pay sheet at the lowest gate band (real gates often pay more), with travel from the chapter's main city;
+      <div style={note}>{year} season so far, with this season's membership. Pay is estimated from the 2026 pay sheet at the lowest gate band (real gates often pay more), with travel from the chapter's UIL center point;
         games without a site yet are counted at the chapter's average. Spread evenly across members for comparison; in practice the same officials work most playoff games.</div>
     </Card>
   )

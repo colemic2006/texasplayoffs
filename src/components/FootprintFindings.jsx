@@ -23,7 +23,7 @@ const BIG = ['HOU', 'DAL', 'FTW', 'SAT']
 const name = c => NAMES[c] || c
 const pct = (a, b) => (b ? Math.round(100 * a / b) : 0)
 const median = a => { const s = [...a].sort((x, y) => x - y); return s.length ? s[Math.floor(s.length / 2)] : null }
-// miles from a chapter's main city to a game's site (null if either isn't known)
+// miles from a chapter's UIL center point to a game's site (null if either isn't known)
 const away = (c, g) => { const t = CHAPTER_CENTERS[c]; return t && g.lat != null ? straightMiles(t[1], t[2], g.lat, g.lng) : null }
 const vs = g => `${g.team1} v ${g.team2}`
 
@@ -119,7 +119,7 @@ function Trade({ a, b, data, allData, seasons, byYear }) {
         </div>
       )}
       {seasons.length > 1 && <ShowMore c={moreHist} total={history.length} noun="seasons" />}
-      <div style={note}>Schools are placed in a chapter's area by the home-chapter lists (as they were each season). Miles are straight-line from the working chapter's main city to the game site.
+      <div style={note}>Schools are placed in a chapter's area by the home-chapter lists (as they were each season). Miles are straight-line from the working chapter's UIL center point to the game site.
         Every playoff round in each season on file is counted in the season table.</div>
     </Card>
   )
@@ -190,7 +190,7 @@ function ElPaso({ data, allData, seasons, byYear }) {
       </div>
       <div style={note}>"El Paso area" = a game site within {EP_MILES} miles of downtown El Paso. Game sites are on file from {withSites[0]} on; for 2022–2025, first-round sites
         are only partly on file, so games played in El Paso are undercounted there (the last column counts games with an El Paso school whose site isn't on file). Nearly every game in El Paso is a Bi-District game; a season is marked "Bi-District sites not on file" when more than half of its El Paso Bi-District sites are missing.
-        Miles are straight-line, one way, from the working chapter's main city.
+        Miles are straight-line, one way, from the working chapter's UIL center point.
         {early.length > 0 && <> Before sites were kept, the El Paso chapter worked {early.map(e => `${e.elp} of ${e.n} (${e.y})`).join(', ')} games with El Paso schools, wherever they were played.</>}</div>
     </Card>
   )
@@ -352,8 +352,8 @@ function Reach({ data }) {
         </table>
       </div>
       <ShowMore c={more} total={rows.length} noun="chapters" />
-      <div style={note}>{year} season, games with a chapter and a mapped site. Miles are straight-line, one way, from the chapter's main city to the game site; driving miles run about 20% more.
-        Crews come from all over a chapter's area, so a chapter's main city is an estimate of where they start.</div>
+      <div style={note}>{year} season, games with a chapter and a mapped site. Miles are straight-line, one way, from the chapter's UIL center point to the game site; driving miles run about 20% more.
+        Crews come from all over a chapter's area, so a chapter's UIL center point is an estimate of where they start.</div>
     </Card>
   )
 }

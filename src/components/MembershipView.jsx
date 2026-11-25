@@ -295,7 +295,7 @@ function MembershipStats({ st, th, td }) {
   )
 }
 
-// circles at each chapter's center city sized by membership; this season's game sites as small dots
+// circles at each chapter's UIL center point sized by membership; this season's game sites as small dots
 function MembershipMap({ members, sites }) {
   const ref = useRef(null), map = useRef(null), layer = useRef(null)
   const [showSites, setShowSites] = useState(true)
@@ -323,7 +323,7 @@ function MembershipMap({ members, sites }) {
   return (
     <div style={{ marginBottom:24 }}>
       <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:6, flexWrap:'wrap', gap:8 }}>
-        <span style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)' }}>Circle size = members · centered on each chapter's main city</span>
+        <span style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)' }}>Circle size = members · centered on each chapter's UIL center point</span>
         <label style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', display:'flex', gap:5, alignItems:'center', cursor:'pointer' }}>
           <input type="checkbox" checked={showSites} onChange={e => setShowSites(e.target.checked)} /> Show this season's game sites ({sites.length})
         </label>
