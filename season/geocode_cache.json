@@ -240,6 +240,18 @@
   "stadium": "Leopard Stadium",
   "stadium_id": 338
  },
+ "@ Lowery Field || Panhandle v Ballinger": {
+  "address": "Avenue P at 66th St, Lubbock, Texas 79412",
+  "city": "Lubbock",
+  "how": "stadium (map link)",
+  "lat": 33.53277,
+  "lng": -101.85134,
+  "map_link": "https://goo.gl/maps/8DGWRhdF8PcJ6Znn7",
+  "rules": 10,
+  "site": "@ Lowery Field",
+  "stadium": "Lowery Field at Plains Capital Park",
+  "stadium_id": 791
+ },
  "@ Marble Falls || Taylor v Boerne": {
   "address": "2101 Mustang Drive, Marble Falls, Texas 78654",
   "city": "Marble Falls",
