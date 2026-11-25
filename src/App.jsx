@@ -22,6 +22,7 @@ import FootprintFindings from './components/FootprintFindings'
 import LinksView from './components/LinksView'
 import PayIssuesView from './components/PayIssuesView'
 import TenYearSchedule from './components/TenYearSchedule'
+import TravelBandInequity from './components/TravelBandInequity'
 import ScoresView from './components/ScoresView'
 import HistoryView from './components/HistoryView'
 import TeamsView from './components/TeamsView'
@@ -110,7 +111,7 @@ export default function App() {
         ) : page === 'links' ? (
           <LinksView />
         ) : page === 'pay' ? (
-          <><PayIssuesView /><TenYearSchedule /><PayPerMemberCard allData={data} years={YEARS} /></>
+          <><PayIssuesView /><TravelBandInequity /><TenYearSchedule /><PayPerMemberCard allData={data} years={YEARS} /></>
         ) : page === 'coverage' ? (
           <><ChapterCoverageMap />{yearData && <PlayoffFootprint data={yearData} />}</>
         ) : page === 'membership' ? (
