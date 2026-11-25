@@ -13,7 +13,7 @@ import FavoriteSites from './components/FavoriteSites'
 import ClassBreakdown from './components/ClassBreakdown'
 import LocalShare from './components/LocalShare'
 import OfficialsCost from './components/OfficialsCost'
-import { StickWithCrew, RepeatPairings, OutsideCrewCost, LongTrips } from './components/MoreStats'
+import { StickWithCrew, RepeatPairings, OutsideCrewCost, LongTrips, PayPerMemberCard } from './components/MoreStats'
 import RecentChanges from './components/RecentChanges'
 import MembershipView from './components/MembershipView'
 import ChapterCoverageMap from './components/ChapterCoverageMap'
@@ -37,6 +37,8 @@ import TeamSearch from './components/TeamSearch'
 
 // every season with a data file, newest first (see vite.config.js): a new season appears on its own
 const YEARS = [...__SEASONS__].reverse()
+// pages built from every season on file: they wait until all seasons have loaded
+const ALL_YEAR_PAGES = ['teams', 'regulars', 'scores', 'picks']
 
 export default function App() {
   const [page, setPage] = useState('chapters')
@@ -73,7 +75,7 @@ export default function App() {
 
   // Preload all years when Teams or Chapter Regulars tab is active
   useEffect(() => {
-    if (page !== 'teams' && page !== 'regulars' && page !== 'scores') return
+    if (!ALL_YEAR_PAGES.includes(page)) return
     YEARS.forEach(y => {
       if (data[y]) return
       fetch(`${import.meta.env.BASE_URL}data/${y}.json?v=${__BUILD_TIME__}`)
@@ -84,7 +86,7 @@ export default function App() {
   }, [page])
 
   const yearData = data[year] || null
-  const allYearsLoaded = (page === 'teams' || page === 'regulars' || page === 'scores') ? YEARS.every(y => data[y]) : true
+  const allYearsLoaded = ALL_YEAR_PAGES.includes(page) ? YEARS.every(y => data[y]) : true
   // a season that hasn't started yet would show as a dip to zero in the trend lines
   const HISTORY_YEARS = YEARS.filter(y => !(data[y] && (data[y].games || []).length === 0))
 
@@ -104,22 +106,47 @@ export default function App() {
           <ContactView />
         ) : page === 'submit' ? (
           <SubmitAssignmentView />
-        ) : page === 'championships' ? (
-          <><ChampionshipsView /><ChampShare allData={data} years={YEARS} loadAllYears={loadAllYears} /></>
         ) : page === 'links' ? (
           <LinksView />
         ) : page === 'pay' ? (
-          <PayIssuesView />
+          <><PayIssuesView /><PayPerMemberCard allData={data} years={YEARS} /></>
         ) : page === 'coverage' ? (
-          <><ChapterCoverageMap />{yearData && <PlayoffFootprint data={yearData} />}{yearData && <FootprintFindings data={yearData} allData={data} years={YEARS} loadAllYears={loadAllYears} />}</>
+          <><ChapterCoverageMap />{yearData && <PlayoffFootprint data={yearData} />}</>
         ) : page === 'membership' ? (
           <MembershipView allData={data} years={YEARS} loadAllYears={loadAllYears} />
+        ) : ALL_YEAR_PAGES.includes(page) && !allYearsLoaded ? (
+          <LoadingState />
         ) : page === 'scores' ? (
-          allYearsLoaded ? <ScoresView allData={data} years={YEARS} /> : <LoadingState />
-        ) : (page === 'teams' || page === 'regulars') ? (
-          allYearsLoaded
-            ? page === 'teams' ? <><TeamsView allData={data} years={YEARS} /><ChapterRuns data={yearData} allData={data} years={YEARS} /><StickWithCrew data={yearData} allData={data} years={YEARS} /><RepeatPairings allData={data} years={YEARS} /><SchoolTravel data={yearData} /></> : <><ChapterRegulars allData={data} years={YEARS} /><FavoriteSites data={yearData} allData={data} loadAllYears={loadAllYears} /><ClassBreakdown allData={data} years={YEARS} loadAllYears={loadAllYears} /><LocalShare allData={data} years={YEARS} /></>
-            : <LoadingState />
+          <><ChampionshipsView /><ChampShare allData={data} years={YEARS} loadAllYears={loadAllYears} /><ScoresView allData={data} years={YEARS} /></>
+        ) : page === 'teams' ? (
+          <TeamsView allData={data} years={YEARS} />
+        ) : page === 'regulars' ? (
+          <>
+            <ChapterRegulars allData={data} years={YEARS} />
+            <ClassBreakdown allData={data} years={YEARS} loadAllYears={loadAllYears} />
+            {yearData && <FootprintFindings data={yearData} allData={data} years={YEARS} loadAllYears={loadAllYears} cards={['bigshare']} />}
+            <HistoryView allData={data} years={HISTORY_YEARS} loadYear={() => {}} />
+          </>
+        ) : page === 'picks' ? (
+          yearData && <>
+            <LocalMatchups data={yearData} allData={data} years={YEARS} loadAllYears={loadAllYears} />
+            <UilPicks data={yearData} />
+            <OutsideChapterGames data={yearData} />
+            <FootprintFindings data={yearData} allData={data} years={YEARS} loadAllYears={loadAllYears} cards={['trade', 'stayhome']} />
+            <LocalShare allData={data} years={YEARS} />
+            <ChapterRuns data={yearData} allData={data} years={YEARS} />
+            <StickWithCrew data={yearData} allData={data} years={YEARS} />
+            <RepeatPairings allData={data} years={YEARS} />
+          </>
+        ) : page === 'travel' ? (
+          yearData ? <>
+            <ChapterTravel data={yearData} />
+            <OfficialsCost data={yearData} />
+            <OutsideCrewCost data={yearData} />
+            <LongTrips data={yearData} />
+            <FootprintFindings data={yearData} allData={data} years={YEARS} loadAllYears={loadAllYears} cards={['reach', 'elpaso']} />
+            <SchoolTravel data={yearData} />
+          </> : <LoadingState />
         ) : (
           <>
             {loading && <LoadingState />}
@@ -127,27 +154,14 @@ export default function App() {
             {!loading && !error && yearData && (
               <>
                 {page === 'chapters' && <MissingGames data={yearData} onSubmit={() => setPage('submit')} />}
-                {(page === 'chapters' || page === 'brackets') && <SeasonBanner data={yearData} year={year} />}
-                {(page === 'chapters' || page === 'brackets') && <RecentChanges data={yearData} />}
+                {page === 'chapters' && <SeasonBanner data={yearData} year={year} />}
+                {page === 'chapters' && <RecentChanges data={yearData} />}
                 {page === 'chapters' && <TeamSearch data={yearData} year={year} allData={data} years={YEARS} loadAllYears={loadAllYears} />}
                 {page === 'chapters' && yearData.season && <WeekMap data={yearData} />}
                 {page === 'chapters' && <ChapterDashboard data={yearData} year={year} allData={data} years={YEARS} loadAllYears={loadAllYears} />}
-                {page === 'chapters' && <ChapterTravel data={yearData} />}
-                {page === 'chapters' && <LocalMatchups data={yearData} allData={data} years={YEARS} loadAllYears={loadAllYears} />}
-                {page === 'chapters' && <UilPicks data={yearData} />}
-                {page === 'chapters' && <OutsideChapterGames data={yearData} />}
-                {page === 'chapters' && <OfficialsCost data={yearData} />}
-                {page === 'chapters' && <OutsideCrewCost data={yearData} />}
-                {page === 'chapters' && <LongTrips data={yearData} />}
                 {page === 'brackets' && <BracketViewer data={yearData} year={year} />}
                 {page === 'brackets' && <SiteSearch allData={data} years={YEARS} loadAllYears={loadAllYears} />}
-                {page === 'history' && <HistoryView allData={data} years={HISTORY_YEARS} loadYear={(y) => {
-                  if (data[y]) return
-                  fetch(`${import.meta.env.BASE_URL}data/${y}.json?v=${__BUILD_TIME__}`)
-                    .then(r => r.ok ? r.json() : null)
-                    .then(d => { if (d) setData(prev => ({ ...prev, [y]: d })) })
-                    .catch(() => {})
-                }} />}
+                {page === 'brackets' && <FavoriteSites data={yearData} allData={data} loadAllYears={loadAllYears} />}
               </>
             )}
           </>

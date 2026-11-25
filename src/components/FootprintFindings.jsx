@@ -358,20 +358,21 @@ function Reach({ data }) {
   )
 }
 
-export default function FootprintFindings({ data, allData = {}, years = [], loadAllYears }) {
+// cards = which of these cards to show, in order (they now live on different pages):
+// 'trade' (Houston/San Antonio and Dallas/Fort Worth), 'elpaso', 'bigshare', 'stayhome', 'reach'
+export default function FootprintFindings({ data, allData = {}, years = [], loadAllYears, cards = ['trade', 'elpaso', 'bigshare', 'stayhome', 'reach'] }) {
   useEffect(() => { loadAllYears?.() }, [])
   const byYear = useHomeChaptersByYear()
   const seasons = years.filter(y => allData[y]?.games?.length).sort((a, b) => a - b)
   if (!data?.games?.length || !byYear) return null
   const all = { ...allData, [data.games[0].year]: data }
-  return (
-    <>
-      <Trade a="HOU" b="SAT" data={data} allData={all} seasons={seasons} byYear={byYear} />
-      <Trade a="DAL" b="FTW" data={data} allData={all} seasons={seasons} byYear={byYear} />
-      <ElPaso data={data} allData={all} seasons={seasons} byYear={byYear} />
-      <BigShare data={data} allData={all} seasons={seasons} />
-      <StayHome data={data} byYear={byYear} />
-      <Reach data={data} />
-    </>
-  )
+  const card = {
+    trade: <React.Fragment key="trade"><Trade a="HOU" b="SAT" data={data} allData={all} seasons={seasons} byYear={byYear} />
+      <Trade a="DAL" b="FTW" data={data} allData={all} seasons={seasons} byYear={byYear} /></React.Fragment>,
+    elpaso: <ElPaso key="elpaso" data={data} allData={all} seasons={seasons} byYear={byYear} />,
+    bigshare: <BigShare key="bigshare" data={data} allData={all} seasons={seasons} />,
+    stayhome: <StayHome key="stayhome" data={data} byYear={byYear} />,
+    reach: <Reach key="reach" data={data} />,
+  }
+  return <>{cards.map(c => card[c])}</>
 }

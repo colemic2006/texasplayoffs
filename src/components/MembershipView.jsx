@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from 'react'
-import { PayPerMember } from './MoreStats'
 import NotAllTime, { SEASONS_ON_FILE, GAPS } from './NotAllTime'
 import { addBaseLayers } from '../baseLayers'
 import 'leaflet/dist/leaflet.css'
@@ -99,7 +98,6 @@ export default function MembershipView({ allData, years, loadAllYears }) {
       <ShowMore c={more} total={rows.length} noun="chapters" />
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8 }}>{d.source}.</div>
       <CoverageDensity members={d.members} />
-      <PayPerMember members={d.members} allData={allData} years={years} />
       <SizeVsShare members={d.members} history={d.history} allData={allData} years={years} loadAllYears={loadAllYears} />
       {d.history && <MembershipHistory d={d} th={th} td={td} />}
       {st && <MembershipStats st={st} th={th} td={td} />}

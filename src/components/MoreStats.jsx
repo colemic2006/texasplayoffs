@@ -370,3 +370,13 @@ export function PayPerMember({ members = {}, allData = {}, years = [] }) {
     </Card>
   )
 }
+
+// the pay-per-member card for pages that don't already have the membership numbers
+export function PayPerMemberCard({ allData = {}, years = [] }) {
+  const [members, setMembers] = useState(null)
+  useEffect(() => {
+    fetch(`${import.meta.env.BASE_URL}data/membership.json?v=${__BUILD_TIME__}`).then(r => r.ok ? r.json() : null)
+      .then(d => setMembers(d?.members || {})).catch(() => setMembers({}))
+  }, [])
+  return members ? <PayPerMember members={members} allData={allData} years={years} /> : null
+}
