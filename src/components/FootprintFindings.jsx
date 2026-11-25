@@ -137,7 +137,11 @@ function ElPaso({ data, allData, seasons, byYear }) {
     for (const g of gs) if (g.chapter) by[code(g.chapter)] = (by[code(g.chapter)] || 0) + 1
     // games with an El Paso school whose site isn't on file: they may have been played in El Paso too
     const unknown = all.filter(g => g.lat == null && homes(g, m).includes('ELP')).length
-    return { y, n: gs.length, elp: by.ELP || 0, known: gs.filter(g => g.chapter).length, by, unknown }
+    // Bi-District is where nearly all games in El Paso are played; when most of those sites are
+    // missing, the count above can't be trusted
+    const bd = all.filter(g => g.week === 1 && homes(g, m).includes('ELP'))
+    const bdMissing = bd.filter(g => g.lat == null).length
+    return { y, n: gs.length, elp: by.ELP || 0, known: gs.filter(g => g.chapter).length, by, unknown, bd: bd.length, bdMissing, thin: bd.length > 0 && bdMissing / bd.length > 0.5 }
   })
   // before sites were kept: El Paso's games with El Paso schools, wherever played
   const early = seasons.filter(y => !withSites.includes(y)).map(y => {
@@ -154,7 +158,8 @@ function ElPaso({ data, allData, seasons, byYear }) {
           <tbody>{moreRows.cut([...rows].reverse()).map(r => (
             <tr key={r.y}>
               <td style={{ ...td, textAlign:'left' }}>{r.y}</td>
-              <td style={td}>{r.n}</td>
+              <td style={td}>{r.n}{r.thin && <div title={`${r.bdMissing} of the ${r.bd} Bi-District games with an El Paso school have no site on file`}
+                style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--burnt)', fontStyle:'italic', marginTop:2, whiteSpace:'nowrap' }}>Bi-District sites not on file ({r.bdMissing} of {r.bd})</div>}</td>
               <td style={{ ...td, fontWeight:700, color: r.elp ? 'var(--ink)' : 'var(--burnt)' }}>{r.n ? <>{r.elp}{r.known ? <span style={{ color:'var(--mid)', fontWeight:400 }}> of {r.known}</span> : ''}</> : '—'}</td>
               <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans' }}>{Object.entries(r.by).filter(([c]) => c !== 'ELP').sort((x, y) => y[1] - x[1]).map(([c, n]) => `${name(c)} ${n}`).join(' · ') || '—'}</td>
               <td style={{ ...td, color:'var(--mid)' }}>{r.unknown || '—'}</td>
@@ -181,7 +186,7 @@ function ElPaso({ data, allData, seasons, byYear }) {
         <ShowMore c={moreNow} total={now.length} noun="games" />
       </div>
       <div style={note}>"El Paso area" = a game site within {EP_MILES} miles of downtown El Paso. Game sites are on file from {withSites[0]} on; for 2022–2025, first-round sites
-        are only partly on file, so games played in El Paso are undercounted there (the last column counts games with an El Paso school whose site isn't on file).
+        are only partly on file, so games played in El Paso are undercounted there (the last column counts games with an El Paso school whose site isn't on file). Nearly every game in El Paso is a Bi-District game; a season is marked "Bi-District sites not on file" when more than half of its El Paso Bi-District sites are missing.
         Miles are straight-line, one way, from the working chapter's main city.
         {early.length > 0 && <> Before sites were kept, the El Paso chapter worked {early.map(e => `${e.elp} of ${e.n} (${e.y})`).join(', ')} games with El Paso schools, wherever they were played.</>}</div>
     </Card>
