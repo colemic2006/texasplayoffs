@@ -136,7 +136,26 @@ function Scale() {
           ))}</tbody>
         </table>
       </div>
-      <div style={{ ...body, marginTop:12 }}>Same job, same dirt: the more you dig, the less you're paid per foot. Travel bands work the same way: band 1 pays {m2(b1.perMile)} a mile at its midpoint, band 3 pays {m2(b3.perMile)}.</div>
+      <div style={{ ...body, marginTop:12 }}>
+        <p style={{ margin:'0 0 10px' }}>
+          Three workers are hired to dig the same kind of ditch, in the same dirt, with the same shovel. The only difference is how long each ditch is.
+          Worker A digs 10 feet and gets $20. Worker C digs five times as far, 50 feet, but gets only $50, two and a half times the pay.
+          Every extra foot Worker C digs is paid less than the feet Worker A dug. Per foot, Worker A earns {m2(2)} and Worker C earns {m2(1)}: half as much for the same work.
+        </p>
+        <p style={{ margin:'0 0 10px' }}>
+          If every worker were paid Worker A's rate of $2.00 a foot, Worker B would get <strong>$60</strong> instead of $35, and Worker C would get <strong>$100</strong> instead of $50.
+          Nobody would accept being paid less per foot just because their ditch is longer, yet that's exactly how the travel bands work.
+        </p>
+        <p style={{ margin:'0 0 10px' }}>
+          <strong>In travel-band terms:</strong> the feet are miles, and the ditch is the round trip to the game. At each band's midpoint, band 1 pays {m2(b1.perMile)} a mile
+          ({b1.rt} miles for ${b1.fee}), band 2 pays {m2(b2.perMile)} ({b2.rt} miles for ${b2.fee}), and band 3 pays {m2(b3.perMile)} ({b3.rt} miles for ${b3.fee}).
+          The official who drives the farthest is paid about half as much per mile as the one who drives the least, for the same game, on the same night.
+        </p>
+        <p style={{ margin:0 }}>
+          Pay every official band 1's own rate of {m2(b1.perMile)} a mile, and band 2 would pay {m0(b2.rt * b1.fee / b1.rt)} and band 3 {m0(b3.rt * b1.fee / b1.rt)}.
+          At the IRS rate of {Math.round(IRS * 100)}¢ a mile, it's {m2(b2.irs)} and {m2(b3.irs)}. The bands pay ${b2.fee} and ${b3.fee}.
+        </p>
+      </div>
     </Card>
   )
 }
