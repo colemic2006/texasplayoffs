@@ -225,7 +225,7 @@ function HourlyPay() {
 
       <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderLeft:'4px solid var(--burnt)', borderRadius:6, padding:'10px 14px', fontSize:13, color:'var(--ink)', lineHeight:1.6, maxWidth:860, marginBottom:14 }}>
         <strong>And that's only game night.</strong> These figures don't count the hours and hours officials spend studying rules and mechanics, preparing for games,
-        and everything else that comes with officiating, much of it with a real cost of its own. None of that time or expense is reflected here, so the true hourly rate is lower still.
+        attending camps and clinics (and paying for them), and everything else that comes with officiating, much of it with a real cost of its own. None of that time or expense is reflected here, so the true hourly rate is lower still.
       </div>
 
       <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, overflowX:'auto', marginBottom:14 }}>
