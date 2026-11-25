@@ -111,7 +111,7 @@ export default function App() {
         ) : page === 'links' ? (
           <LinksView />
         ) : page === 'pay' ? (
-          <><PayIssuesView /><TravelBandInequity /><TenYearSchedule /><PayPerMemberCard allData={data} years={YEARS} /></>
+          <><PayIssuesView /><TravelBandInequity data={yearData} /><TenYearSchedule /><PayPerMemberCard allData={data} years={YEARS} /></>
         ) : page === 'coverage' ? (
           <><ChapterCoverageMap />{yearData && <PlayoffFootprint data={yearData} />}</>
         ) : page === 'membership' ? (

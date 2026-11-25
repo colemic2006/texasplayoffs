@@ -1,11 +1,15 @@
 import React from 'react'
-import { PAY } from '../officialsCost'
+import { PAY, gameCost } from '../officialsCost'
 import { useSort, SortTh } from '../sortable'
 
 // The fallacies and inequities of flat travel bands, compared with paying actual mileage at the
 // IRS standard rate. Each band is compared at its midpoint (one way), round trip.
-const IRS = 0.76      // 2026 IRS standard mileage rate, per mile
+// 2026 IRS standard business mileage rate: 72.5 cents January 1 - June 30, 76 cents July 1 - December 31
+// (IRS, as the site owner reported it). Football is played in the second half, so 76 cents is the fall rate.
+const IRS = 0.76
+const IRS_H1 = 0.725
 const IRS_2025 = 0.70
+const IRS_SRC = [['IRS', 'https://www.irs.gov/tax-professionals/standard-mileage-rates'], ['Driversnote', 'https://www.driversnote.com/irs-mileage-guide']]
 const BANDS = PAY.bands.map(([max, fee], i) => {
   const lo = i ? PAY.bands[i - 1][0] : 0, mid = (lo + max) / 2, rt = 2 * mid
   return { n: i + 1, lo: lo + 1, max, fee, mid, rt, irs: rt * IRS, perMile: fee / rt, sheet: rt * PAY.perMile }
@@ -68,9 +72,9 @@ function Gap() {
         </table>
       </div>
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6, maxWidth:900 }}>
-        Midpoints are {BANDS.map(b => `${b.mid} miles`).join(', ')} one way (UIL's bands run 1–30.9, 31–60.9 and 61–90.9 miles), doubled for the round trip. IRS standard mileage rate: {Math.round(IRS * 100)}¢ a mile for 2026,
-        up from {Math.round(IRS_2025 * 100)}¢ in 2025, the rate the current bands were built around. Even at the pay sheet's own {Math.round(PAY.perMile * 1000) / 10}¢ rate for trips past 90 miles,
-        the bands fall short by {BANDS.map(b => `${Math.round(b.sheetGap)}%`).join(', ')}. Travel fees are paid per official.
+        Midpoints are {BANDS.map(b => `${b.mid} miles`).join(', ')} one way (UIL's bands run 1–30.9, 31–60.9 and 61–90.9 miles), doubled for the round trip. IRS standard mileage rate: {Math.round(IRS * 100)}¢ a mile from July 1 to December 31, 2026, the half of the year when football is played
+        ({Math.round(IRS_H1 * 1000) / 10}¢ from January to June; {Math.round(IRS_2025 * 100)}¢ in 2025, the rate the current bands were built around). Even at {Math.round(PAY.perMile * 1000) / 10}¢,
+        the rate the pay sheet uses for trips past 90 miles, the bands fall short by {BANDS.map(b => `${(b.sheetGap).toFixed(1)}%`).join(', ')}. Travel fees are paid per official.
       </div>
     </Card>
   )
@@ -160,6 +164,42 @@ function Fix() {
   )
 }
 
-export default function TravelBandInequity() {
-  return <><Gap /><Averages /><SameBand /><Scale /><Fix /></>
+// 6: the pay sheet pays mileage past 90 miles at the January-June IRS rate, though football is played July-December
+function WrongRate({ data }) {
+  const diff = IRS - PAY.perMile
+  const long = (data?.games || []).map(g => (g.chapter && g.lat != null ? gameCost(g) : null)).filter(c => c && c.oneWay > 90)
+  const carMiles = long.reduce((t, c) => t + PAY.cars * 2 * c.oneWay, 0)
+  const year = data?.games?.[0]?.year
+  const ex = [100, 150, 200]
+  const src = IRS_SRC.map(([n, u], i) => <React.Fragment key={n}>{i ? ' and ' : ''}<a href={u} target="_blank" rel="noopener noreferrer" style={{ color:'var(--burnt)' }}>{n}</a></React.Fragment>)
+  return (
+    <Card title="Paid at the Spring Rate for a Fall Sport"
+      intro={<>Past 90 miles one way, the pay sheet stops using bands and pays mileage for the crew's cars, at <strong style={{ color:'var(--ink)' }}>{Math.round(PAY.perMile * 1000) / 10}¢ a mile</strong>.
+        That is the IRS rate for January 1 – June 30, 2026. From July 1 – December 31, the IRS rate is <strong style={{ color:'var(--ink)' }}>{Math.round(IRS * 100)}¢</strong>,
+        and every football game, regular season and playoffs, is played in that half of the year.</>}>
+      <div style={{ ...box, maxWidth:700, marginBottom:12 }}>
+        <table style={{ width:'100%', borderCollapse:'collapse' }}>
+          <thead><tr><th style={{ ...th, textAlign:'left' }}>Game this far away (one way)</th><th style={th}>Car miles ({PAY.cars} cars, round trip)</th><th style={th}>Paid at {Math.round(PAY.perMile * 1000) / 10}¢</th><th style={th}>At {Math.round(IRS * 100)}¢</th><th style={{ ...th, color:'var(--burnt)' }}>Short</th></tr></thead>
+          <tbody>{ex.map(mi => {
+            const cm = PAY.cars * 2 * mi
+            return <tr key={mi}><td style={{ ...td, textAlign:'left', fontFamily:'DM Sans' }}>{mi} miles</td><td style={td}>{cm}</td><td style={td}>{m2(cm * PAY.perMile)}</td><td style={td}>{m2(cm * IRS)}</td><td style={{ ...td, fontWeight:700 }}>{m2(cm * diff)}</td></tr>
+          })}</tbody>
+        </table>
+      </div>
+      {long.length > 0 && (
+        <div style={{ background:'rgba(253,208,35,0.22)', borderLeft:'4px solid var(--gold)', borderRadius:6, padding:'12px 16px', fontSize:14, color:'var(--ink)', lineHeight:1.65, maxWidth:860 }}>
+          In the {year} playoffs so far, <strong>{long.length}</strong> games were more than 90 miles from the working chapter: about <strong>{Math.round(carMiles).toLocaleString()}</strong> car miles.
+          At the fall rate, those crews would have been paid about <strong>{m0(carMiles * diff)}</strong> more. It's a few dollars per game, but it's a shortfall measured by the IRS's own current rate, and officials absorb it every fall.
+        </div>
+      )}
+      <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6, maxWidth:900 }}>
+        2026 IRS standard business mileage rates per {src}: {Math.round(IRS_H1 * 1000) / 10}¢ a mile January 1 – June 30, {Math.round(IRS * 100)}¢ July 1 – December 31.
+        Playoff estimates use the same trips as the Long Trips card (Travel &amp; Cost page): estimated driving miles from each chapter's UIL center point, {PAY.cars} cars per crew.
+      </div>
+    </Card>
+  )
+}
+
+export default function TravelBandInequity({ data }) {
+  return <><Gap /><Averages /><SameBand /><Scale /><WrongRate data={data} /><Fix /></>
 }

@@ -259,7 +259,7 @@ function HourlyPay() {
       </div>
 
       <div style={{ background:'rgba(253,208,35,0.22)', borderLeft:'4px solid var(--gold)', borderRadius:6, padding:'12px 16px', fontSize:14, color:'var(--ink)', lineHeight:1.65, maxWidth:860 }}>
-        <strong>The travel band doesn't cover the drive.</strong> The pay sheet's own mileage rate (used past 90 miles) is {Math.round(PAY.perMile * 1000) / 10}¢ a mile.
+        <strong>The travel band doesn't cover the drive.</strong> The pay sheet's own mileage rate (used past 90 miles) is {Math.round(PAY.perMile * 1000) / 10}¢ a mile, which is the IRS rate for January–June 2026; for the fall, when football is played, the IRS rate is 76¢.
         At the far end of each band, an official driving alone would be owed:
         <ul style={{ margin:'8px 0 0', paddingLeft:20 }}>
           {TRAVEL.map(t => {
