@@ -7,6 +7,7 @@ import { useFinals } from '../finals'
 import { useHomeChapters } from '../homeChapters'
 import { placeName, gameWhen } from '../placeName'
 import { ChangeBadge, ChangeDetail } from '../changes'
+import { useSort, SortTh } from '../sortable'
 
 const KNOWN_CHAPTERS = new Set(['ABI','AMA','AUS','BEA','STX','COM','CSC','CTX','DAL','ELP','FTW','HOU','NTX','PBC','PVC','RGV','SAT','SAN','SFA','SPC','TYL','WAC'])   // not 'WACO': Waco is also a school (Waco High)
 const BAD_NAMES = new Set(['total bracket counts','totals','total','bye','filler',''])
@@ -91,6 +92,7 @@ export default function TeamsView({ allData, years }) {
   const [expanded, setExpanded] = useState(false)   // the team table shows the top 10 until opened (or while searching)
   const [lbYear, setLbYear] = useState('all')
   const [homeStadiums, setHomeStadiums] = useState({})
+  const s = useSort()
 
   const finals = useFinals(allData, years)
 
@@ -238,11 +240,11 @@ export default function TeamsView({ allData, years }) {
         </select>
         <div style={{ display:'flex', gap:4, marginLeft:'auto' }}>
           {[['appearances','Appearances'],['games','Total Games'],['name','Name']].map(([key, label]) => (
-            <button key={key} onClick={() => setSortBy(key)} style={{
+            <button key={key} onClick={() => { setSortBy(key); s.reset() }} style={{
               fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.1em',
               padding:'5px 10px', borderRadius:4, border:'1px solid var(--border)',
-              background: sortBy === key ? 'var(--steel)' : 'transparent',
-              color: sortBy === key ? '#fff' : 'var(--mid)', cursor:'pointer'
+              background: sortBy === key && !s.key ? 'var(--steel)' : 'transparent',
+              color: sortBy === key && !s.key ? '#fff' : 'var(--mid)', cursor:'pointer'
             }}>{label}</button>
           ))}
         </div>
@@ -259,15 +261,16 @@ export default function TeamsView({ allData, years }) {
           <table style={{ width:'100%', borderCollapse:'collapse' }}>
             <thead>
               <tr style={{ background:'rgba(15,13,11,0.04)' }}>
-                <th style={thStyle}>Team</th>
-                <th style={thStyle}>Classification</th>
-                <th style={thStyle}>Playoff Years</th>
-                <th style={thStyle}>Total Games</th>
-                <th style={{ ...thStyle, textAlign:'left' }}>Top Chapters</th>
+                <SortTh s={s} k="name" text style={thStyle}>Team</SortTh>
+                <SortTh s={s} k="cls" text style={thStyle}>Classification</SortTh>
+                <SortTh s={s} k="appearances" style={thStyle}>Playoff Years</SortTh>
+                <SortTh s={s} k="games" style={thStyle}>Total Games</SortTh>
+                <SortTh s={s} k="chapters" text style={{ ...thStyle, textAlign:'left' }}>Top Chapters</SortTh>
               </tr>
             </thead>
             <tbody>
-              {filtered.slice(0, (expanded || search) ? 200 : 10).map(team => {
+              {s.sort(filtered, { name: t => t.name, cls: t => t.classifications.join(', ') || null, appearances: t => t.appearances, games: t => t.totalGames,
+                chapters: t => t.chapters[0]?.ch ?? null }).slice(0, (expanded || search) ? 200 : 10).map(team => {
                 const isSelected = selectedTeam === team.name
                 return (
                   <tr key={team.name} onClick={() => setSelectedTeam(isSelected ? null : team.name)} style={{

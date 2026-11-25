@@ -5,6 +5,7 @@ import { gameCost, PAY } from '../officialsCost'
 import { chapterColor } from '../chapterColors'
 import { placeName } from '../placeName'
 import { CHAPTER_CENTERS, straightMiles } from '../chapterCenters'
+import { useSort, SortTh } from '../sortable'
 
 const ROUNDS = { 1: 'Bi-District', 2: 'Area', 3: 'Regionals', 4: 'Quarterfinals', 5: 'Semifinals', 6: 'State Final' }
 const usd = n => '$' + Math.round(n).toLocaleString()
@@ -26,6 +27,7 @@ export default function OfficialsCost({ data }) {
   const names = { ELP: 'El Paso', BEA: 'Beaumont', ...Object.fromEntries((data?.chapters || []).map(c => [c.code, c.name])) }
   const [schools, setSchools] = useState([])
   const [week, setWeek] = useState(null)
+  const s = useSort()
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/chapter_schools.json?v=${__BUILD_TIME__}`)
       .then(r => r.ok ? r.json() : null).then(d => setSchools(d?.schools || [])).catch(() => {})
@@ -86,24 +88,32 @@ export default function OfficialsCost({ data }) {
       <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, overflowX:'auto' }}>
         <table style={{ width:'100%', borderCollapse:'collapse' }}>
           <thead><tr>
-            <th style={{ ...th, textAlign:'left' }}>#</th>
-            <th style={{ ...th, textAlign:'left' }}>Game</th>
-            <th style={{ ...th, textAlign:'left' }}>Crew from</th>
-            <th style={th}>One way</th>
-            {!showLocal && <th style={th}>Round trip</th>}
-            <th style={th}>Game fees</th>
-            <th style={th}>{showLocal ? 'Travel, riders, meals' : 'Travel'}</th>
-            {!showLocal && <><th style={th}>Riders</th><th style={th}>Meals</th></>}
-            <th style={{ ...th, color:'var(--burnt)' }}>Total</th>
-            {!showLocal && <th style={th}>Per school</th>}
+            <SortTh s={s} k="rank" text style={{ ...th, textAlign:'left' }}>#</SortTh>
+            <SortTh s={s} k="game" text style={{ ...th, textAlign:'left' }}>Game</SortTh>
+            <SortTh s={s} k="chapter" text style={{ ...th, textAlign:'left' }}>Crew from</SortTh>
+            <SortTh s={s} k="oneWay" style={th}>One way</SortTh>
+            {!showLocal && <SortTh s={s} k="roundTrip" style={th}>Round trip</SortTh>}
+            <SortTh s={s} k="fees" style={th}>Game fees</SortTh>
+            <SortTh s={s} k="travel" style={th}>{showLocal ? 'Travel, riders, meals' : 'Travel'}</SortTh>
+            {!showLocal && <><SortTh s={s} k="riders" style={th}>Riders</SortTh><SortTh s={s} k="meals" style={th}>Meals</SortTh></>}
+            <SortTh s={s} k="total" style={{ ...th, color:'var(--burnt)' }}>Total</SortTh>
+            {!showLocal && <SortTh s={s} k="perSchool" style={th}>Per school</SortTh>}
             {showLocal && <>
-              <th style={{ ...th, textAlign:'left', borderLeft:'2px solid var(--gold)' }}>Venue's chapter</th>
-              <th style={th}>Their cost</th>
-              <th style={{ ...th, color:'var(--burnt)' }}>Difference</th>
+              <SortTh s={s} k="venue" text style={{ ...th, textAlign:'left', borderLeft:'2px solid var(--gold)' }}>Venue's chapter</SortTh>
+              <SortTh s={s} k="theirs" style={th}>Their cost</SortTh>
+              <SortTh s={s} k="diff" style={{ ...th, color:'var(--burnt)' }}>Difference</SortTh>
             </>}
           </tr></thead>
           <tbody>
-            {top.map((g, i) => {
+            {s.sort(top, {
+              rank: g => top.indexOf(g), game: g => `${g.team1} v ${g.team2}`, chapter: g => names[g.chapter] || g.chapter,
+              oneWay: g => g.cost.oneWay, roundTrip: g => g.cost.roundTrip, fees: g => g.cost.fees,
+              travel: g => showLocal ? g.cost.travel + g.cost.riders + g.cost.meals : g.cost.travel,
+              riders: g => g.cost.riders || 0, meals: g => g.cost.meals || 0, total: g => g.cost.total, perSchool: g => g.cost.total / 2,
+              venue: g => g.local ? (names[g.local.code] || g.local.code) : null, theirs: g => g.local?.cost ? g.local.cost.total : null,
+              diff: g => g.local?.cost ? g.cost.total - g.local.cost.total : null,
+            }).map(g => {
+              const i = top.indexOf(g)
               const c = g.cost, l = g.local
               const diff = l?.cost ? c.total - l.cost.total : null
               return (

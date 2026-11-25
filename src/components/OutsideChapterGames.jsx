@@ -5,6 +5,7 @@ import { roundTripMiles } from '../chapterCenters'
 import { chapterColor } from '../chapterColors'
 import { placeName } from '../placeName'
 import { useCollapse, ShowMore } from '../ShowMore'
+import { useSort, SortTh } from '../sortable'
 
 const ROUNDS = { 1: 'Bi-District', 2: 'Area', 3: 'Regionals', 4: 'Quarterfinals', 5: 'Semifinals', 6: 'State Final' }
 const fmt = n => Math.round(n).toLocaleString()
@@ -14,6 +15,7 @@ export default function OutsideChapterGames({ data }) {
   const home = useHomeChapters(data?.games?.[0]?.year)
   const status = useHomeChapterStatus()
   const more = useCollapse()
+  const s = useSort()
   const names = { ELP: 'El Paso', BEA: 'Beaumont', COM: 'Commerce', PVC: 'Pecan Valley', STX: 'South Texas', RGV: 'Rio Grande Valley', DAL: 'Dallas', FTW: 'Fort Worth', WAC: 'Waco', CSC: 'College Station', ...Object.fromEntries((data?.chapters || []).map(c => [c.code, c.name])) }
   const name = c => names[c] || c
   const { rows, shared, listed } = useMemo(() => {
@@ -55,11 +57,11 @@ export default function OutsideChapterGames({ data }) {
         <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, overflowX:'auto' }}>
           <table style={{ width:'100%', borderCollapse:'collapse' }}>
             <thead><tr>
-              <th style={th}>Round</th><th style={th}>Game</th><th style={th}>Both schools' chapter</th><th style={th}>Worked by</th>
-              <th style={{ ...th, textAlign:'right' }}>Round trip</th><th style={{ ...th, textAlign:'right' }}>Extra miles</th>
+              <SortTh s={s} k="round" style={th}>Round</SortTh><SortTh s={s} k="game" text style={th}>Game</SortTh><SortTh s={s} k="home" text style={th}>Both schools' chapter</SortTh><SortTh s={s} k="chapter" text style={th}>Worked by</SortTh>
+              <SortTh s={s} k="worked" style={{ ...th, textAlign:'right' }}>Round trip</SortTh><SortTh s={s} k="extra" style={{ ...th, textAlign:'right' }}>Extra miles</SortTh>
             </tr></thead>
             <tbody>
-              {more.cut(rows).map((r, i) => (
+              {more.cut(s.sort(rows, { round: r => r.week, game: r => `${r.team1} v ${r.team2}`, home: r => name(r.home), chapter: r => name(r.chapter), worked: r => r.worked, extra: r => r.extra })).map((r, i) => (
                 <tr key={i}>
                   <td style={{ ...td, fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', whiteSpace:'nowrap' }}>{roundName(r)}</td>
                   <td style={td}>

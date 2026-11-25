@@ -9,6 +9,7 @@ import { placeName, gameWhen } from '../placeName'
 import { ChangeBadge, ChangeDetail } from '../changes'
 import { useDctfTeams, DctfLinks } from '../dctf'
 import { chapterColor } from '../chapterColors'
+import { useSort, SortTh } from '../sortable'
 
 const WEEKS = ['1','2','3','4','5','6']
 const RETIRED = new Set(['WACO', 'ETX'])   // codes no longer in use: WACO is WAC; East Texas merged into Tyler
@@ -98,6 +99,7 @@ export default function ChapterDashboard({ data, year, allData = {}, years = [],
   const [filterClass, setFilterClass] = useState('all')
   const [tableClass, setTableClass] = useState('all')
   const more = useCollapse()
+  const sMain = useSort(), sWeek = useSort()
 
   // every current chapter, including those with no games yet (East Texas was folded into Tyler), so all of them show on the chart and table
   const chapters = useMemo(() => {
@@ -323,19 +325,23 @@ export default function ChapterDashboard({ data, year, allData = {}, years = [],
               <table style={{ width:'100%', borderCollapse:'collapse', fontSize:12 }}>
                 <thead>
                   <tr style={{ background:'rgba(15,13,11,0.03)' }}>
-                    <th style={thStyle}>Week</th>
-                    <th style={thStyle}>Round</th>
-                    <th style={thStyle}>Games</th>
-                    <th style={thStyle}>Cumulative</th>
+                    <SortTh s={sWeek} k="week" text style={thStyle}>Week</SortTh>
+                    <SortTh s={sWeek} k="round" text style={thStyle}>Round</SortTh>
+                    <SortTh s={sWeek} k="games" style={thStyle}>Games</SortTh>
+                    <SortTh s={sWeek} k="running" style={thStyle}>Cumulative</SortTh>
                   </tr>
                 </thead>
                 <tbody>
                   {(() => {
-                    let running = 0
-                    return WEEKS.map(w => {
-                      const wk = selectedChapterData.weeks?.[w]
-                      const games = wk?.total ?? 0
-                      running += games
+                    let run = 0
+                    const list = WEEKS.map(w => {
+                      const games = selectedChapterData.weeks?.[w]?.total ?? 0
+                      run += games
+                      return { w, games, running: run }
+                    })
+                    // rounds not played yet stay at the end, in round order
+                    return [...sWeek.sort(list.filter(x => !future(x.w)), { week: x => Number(x.w), round: x => ROUND_LABELS[x.w], games: x => x.games, running: x => x.running }),
+                            ...list.filter(x => future(x.w))].map(({ w, games, running }) => {
                       return (
                         <tr key={w} onClick={() => games && setDetailWeek(detailWeek === w ? 'all' : w)}
                           title={games ? 'Show these games below' : undefined}
@@ -386,11 +392,11 @@ export default function ChapterDashboard({ data, year, allData = {}, years = [],
         <div style={{ display:'flex', gap:6, flexWrap:'wrap', marginBottom:14, alignItems:'center' }}>
           <span style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--mid)', alignSelf:'center', marginRight:4 }}>Sort by:</span>
           {[['total','Total'],['name','Name'],['1','Wk 1'],['2','Wk 2'],['3','Wk 3'],['4','Wk 4'],['5','Wk 5'],['6','Wk 6']].map(([key,label]) => (
-            <button key={key} onClick={() => setSortBy(key)} style={{
+            <button key={key} onClick={() => { setSortBy(key); sMain.reset() }} style={{
               fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.1em', textTransform:'uppercase',
               padding:'4px 10px', borderRadius:4, border:'1px solid var(--border)',
-              background: sortBy === key ? 'var(--ink)' : 'transparent',
-              color: sortBy === key ? 'var(--cream)' : 'var(--mid)',
+              background: sortBy === key && !sMain.key ? 'var(--ink)' : 'transparent',
+              color: sortBy === key && !sMain.key ? 'var(--cream)' : 'var(--mid)',
               cursor:'pointer', transition:'all 0.15s'
             }}>{label}</button>
           ))}
@@ -429,12 +435,14 @@ export default function ChapterDashboard({ data, year, allData = {}, years = [],
           <table style={{ width:'100%', borderCollapse:'collapse', fontSize:12, background:'var(--surface)', minWidth:700 }}>
             <thead>
               <tr style={{ background:'rgba(15,13,11,0.03)' }}>
-                <th style={{ ...thStyle, textAlign:'left', position:'sticky', left:0, background:'rgba(245,240,232,0.98)' }}>Chapter</th>
-                {WEEKS.map(w => <th key={w} style={{ ...thStyle, ...(future(w) ? { opacity:0.55 } : {}) }} title={future(w) ? UPCOMING_TIP : undefined}>Wk {w}{future(w) && <div style={{ fontSize:8, letterSpacing:0, textTransform:'none', fontWeight:400, fontStyle:'italic' }}>{UPCOMING}</div>}{inProgress && Number(w) <= playedThrough && !shadeWeek(w) && weekCover[w].n > 0 &&
-                  <div style={{ fontSize:8, letterSpacing:0, textTransform:'none', color:'var(--mid)', fontWeight:400 }}>{weekCover[w].in} of {weekCover[w].n} in</div>}</th>)}
-                <th style={{ ...thStyle, color:'var(--burnt)' }}>Total</th>
-                <th style={thStyle} title="Average games per season in the other seasons on the site, counting the seasons the chapter worked playoff games">{playedThrough < 6 ? `Hist. Avg thru Wk ${playedThrough}` : 'Hist. Avg'}</th>
-                <th style={thStyle}>% of Games</th>
+                <SortTh s={sMain} k="code" text style={{ ...thStyle, textAlign:'left', position:'sticky', left:0, background:'rgba(245,240,232,0.98)' }}>Chapter</SortTh>
+                {WEEKS.map(w => future(w)
+                  ? <th key={w} style={{ ...thStyle, opacity:0.55 }} title={UPCOMING_TIP}>Wk {w}<div style={{ fontSize:8, letterSpacing:0, textTransform:'none', fontWeight:400, fontStyle:'italic' }}>{UPCOMING}</div></th>
+                  : <SortTh key={w} s={sMain} k={`w${w}`} style={thStyle}>Wk {w}{inProgress && Number(w) <= playedThrough && !shadeWeek(w) && weekCover[w].n > 0 &&
+                  <div style={{ fontSize:8, letterSpacing:0, textTransform:'none', color:'var(--mid)', fontWeight:400 }}>{weekCover[w].in} of {weekCover[w].n} in</div>}</SortTh>)}
+                <SortTh s={sMain} k="total" style={{ ...thStyle, color:'var(--burnt)' }}>Total</SortTh>
+                <SortTh s={sMain} k="hist" style={thStyle} title="Average games per season in the other seasons on the site, counting the seasons the chapter worked playoff games">{playedThrough < 6 ? `Hist. Avg thru Wk ${playedThrough}` : 'Hist. Avg'}</SortTh>
+                <SortTh s={sMain} k="pct" style={thStyle}>% of Games</SortTh>
               </tr>
             </thead>
             <tbody>
@@ -442,10 +450,11 @@ export default function ChapterDashboard({ data, year, allData = {}, years = [],
                 const divisionTotal = tableClass === 'all'
                   ? totalGames
                   : sorted.reduce((s, ch) => s + WEEKS.reduce((ws, w) => ws + (ch.weeks?.[w]?.classifications?.[tableClass] || 0), 0), 0)
-                return more.cut(sorted).map((ch, idx) => {
-                const rowTotal = tableClass === 'all'
-                  ? (ch.total || 0)
-                  : WEEKS.reduce((s, w) => s + (ch.weeks?.[w]?.classifications?.[tableClass] || 0), 0)
+                const weekVal = (ch, w) => tableClass === 'all' ? (ch.weeks?.[w]?.total ?? 0) : (ch.weeks?.[w]?.classifications?.[tableClass] || 0)
+                const totalOf = ch => tableClass === 'all' ? (ch.total || 0) : WEEKS.reduce((s, w) => s + (ch.weeks?.[w]?.classifications?.[tableClass] || 0), 0)
+                return more.cut(sMain.sort(sorted, { code: ch => ch.code, total: totalOf, hist: ch => histAvg[ch.code] ? histAvg[ch.code].avg : null,
+                  pct: ch => divisionTotal > 0 ? totalOf(ch) / divisionTotal : 0, ...Object.fromEntries(WEEKS.map(w => [`w${w}`, ch => weekVal(ch, w)])) })).map((ch, idx) => {
+                const rowTotal = totalOf(ch)
                 const pct = divisionTotal > 0 ? ((rowTotal / divisionTotal) * 100).toFixed(1) : '0.0'
                 return (
                   <tr
@@ -634,6 +643,7 @@ const tdStyle = {
 function ChapterGames({ games, week, setWeek, cls, setCls, inProgress }) {
   const dctf = useDctfTeams()
   const more = useCollapse()
+  const s = useSort()
   const classes = CLASSIFICATIONS.filter(c => games.some(g => g.classification === c && (week === 'all' || String(g.week) === week)))
   const shown = games
     .filter(g => (week === 'all' || String(g.week) === week) && (cls === 'all' || g.classification === cls))
@@ -668,15 +678,15 @@ function ChapterGames({ games, week, setWeek, cls, setCls, inProgress }) {
         <table style={{ width:'100%', borderCollapse:'collapse', fontSize:12 }}>
           <thead>
             <tr style={{ background:'rgba(15,13,11,0.03)' }}>
-              <th style={thStyle}>Week</th>
-              <th style={thStyle}>Class</th>
-              <th style={{ ...thStyle, textAlign:'left' }}>Game</th>
-              <th style={{ ...thStyle, textAlign:'left' }}>Site</th>
+              <SortTh s={s} k="week" text style={thStyle}>Week</SortTh>
+              <SortTh s={s} k="cls" text style={thStyle}>Class</SortTh>
+              <SortTh s={s} k="game" text style={{ ...thStyle, textAlign:'left' }}>Game</SortTh>
+              <SortTh s={s} k="site" text style={{ ...thStyle, textAlign:'left' }}>Site</SortTh>
               <th style={{ ...thStyle, textAlign:'left' }}>Dave Campbell's</th>
             </tr>
           </thead>
           <tbody>
-            {more.cut(shown).map((g, i) => (
+            {more.cut(s.sort(shown, { week: g => g.week, cls: g => CLASSIFICATIONS.indexOf(g.classification), game: g => `${g.team1} vs ${g.team2}`, site: g => g.site ? placeName(g) : null })).map((g, i) => (
               <tr key={i} style={{ borderBottom:'1px solid rgba(15,13,11,0.05)' }}>
                 <td style={{ ...tdStyle, textAlign:'center', whiteSpace:'nowrap' }}>{ROUND_LABELS[g.week] || g.week}</td>
                 <td style={{ ...tdStyle, textAlign:'center', fontFamily:'var(--mono)', fontSize:10, color:'var(--steel)', whiteSpace:'nowrap' }}>{g.classification}</td>

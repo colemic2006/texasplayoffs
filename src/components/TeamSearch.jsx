@@ -7,6 +7,7 @@ import { useDctfTeams, DctfLinks } from '../dctf'
 import { canonicalize, isValidTeam } from './TeamsView'
 import { useFinals } from '../finals'
 import { useHomeChapters } from '../homeChapters'
+import { useSort, SortTh } from '../sortable'
 
 const ROUNDS = { 1:'Bi-District', 2:'Area', 3:'Regionals', 4:'Quarterfinals', 5:'Semifinals', 6:'Championship' }
 const CHAPTERS = {
@@ -101,6 +102,7 @@ export default function TeamSearch({ data, year, allData = {}, years = [], loadA
 }
 
 function TeamCard({ t, seasonsOnSite, homeChapter, finals, year, inProgress, home, dctf, open, toggle }) {
+  const s = useSort()
   const now = t.games.filter(x => x.year === year).sort((a, b) => b.game.week - a.game.week)
   const past = t.games.filter(x => x.year !== year).sort((a, b) => b.year - a.year || b.game.week - a.game.week)
   const seasons = [...new Set(t.games.map(x => x.year))].sort((a, b) => b - a)
@@ -236,9 +238,10 @@ function TeamCard({ t, seasonsOnSite, homeChapter, finals, year, inProgress, hom
           {open && (
             <div style={{ overflowX:'auto', marginTop:8 }}>
               <table style={{ width:'100%', borderCollapse:'collapse', fontSize:12 }}>
-                <thead><tr>{['Year', 'Round', 'Class', 'Opponent', 'Result', 'Chapter'].map(h => <th key={h} style={{ ...label, textAlign:'left', padding:'6px 8px', fontWeight:500 }}>{h}</th>)}</tr></thead>
+                <thead><tr>{[['Year', 'year'], ['Round', 'round'], ['Class', 'cls', true], ['Opponent', 'opp', true], ['Result', 'result'], ['Chapter', 'chapter', true]].map(([h, k, text]) => <SortTh key={h} s={s} k={k} text={text} style={{ ...label, textAlign:'left', padding:'6px 8px', fontWeight:500 }}>{h}</SortTh>)}</tr></thead>
                 <tbody>
-                  {past.map(({ year: y, game: g, opp, mine, theirs }, i) => (
+                  {s.sort(past, { year: x => x.year, round: x => x.game.week, cls: x => x.game.classification, opp: x => x.opp,
+                    result: x => x.mine != null && x.theirs != null ? x.mine - x.theirs : null, chapter: x => x.game.chapter ? chName(x.game.chapter) : null }).map(({ year: y, game: g, opp, mine, theirs }, i) => (
                     <tr key={i} style={{ borderTop:'1px solid rgba(15,13,11,0.06)' }}>
                       <td style={{ padding:'6px 8px', fontFamily:'var(--mono)', fontSize:11 }}>{y}</td>
                       <td style={{ padding:'6px 8px' }}>{roundName(g)}</td>

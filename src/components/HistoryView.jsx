@@ -2,6 +2,7 @@ import React, { useState, useMemo, useEffect } from 'react'
 import NotAllTime, { SEASONS_ON_FILE, GAPS } from './NotAllTime'
 import { useCollapse, ShowMore } from '../ShowMore'
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend } from 'recharts'
+import { useSort, SortTh } from '../sortable'
 
 const CHAPTER_COLORS = [
   '#461D7C','#FDD023','#2C4A6E','#2B5C4E','#5C2B5C','#6B6058',
@@ -190,6 +191,8 @@ export default function HistoryView({ allData, years, loadYear }) {
 function ComparisonTable({ allData, years, allChapters }) {
   const sortedYears = [...years].sort()
   const more = useCollapse()
+  const s = useSort()
+  const total = (code, y) => allData[y]?.chapters?.find(c => c.code === code)?.total || 0
 
   return (
     <>
@@ -197,15 +200,16 @@ function ComparisonTable({ allData, years, allChapters }) {
       <table style={{ width:'100%', borderCollapse:'collapse', fontSize:11, background:'var(--surface)', minWidth:600 }}>
         <thead>
           <tr style={{ background:'rgba(15,13,11,0.03)' }}>
-            <th style={{ ...thStyle, textAlign:'left', position:'sticky', left:0, background:'rgba(245,240,232,0.98)' }}>Chapter</th>
+            <SortTh s={s} k="code" text style={{ ...thStyle, textAlign:'left', position:'sticky', left:0, background:'rgba(245,240,232,0.98)' }}>Chapter</SortTh>
             {sortedYears.map(y => (
-              <th key={y} style={thStyle}>{y}</th>
+              <SortTh key={y} s={s} k={`y${y}`} style={thStyle}>{y}</SortTh>
             ))}
-            <th style={{ ...thStyle, color:'var(--burnt)' }}>Avg</th>
+            <SortTh s={s} k="avg" style={{ ...thStyle, color:'var(--burnt)' }}>Avg</SortTh>
           </tr>
         </thead>
         <tbody>
-          {more.cut(allChapters).map((code, idx) => {
+          {more.cut(s.sort(allChapters, { code: code => code, ...Object.fromEntries(sortedYears.map(y => [`y${y}`, code => total(code, y)])),
+            avg: code => sortedYears.length ? sortedYears.reduce((t, y) => t + total(code, y), 0) / sortedYears.length : null })).map((code, idx) => {
             const vals = sortedYears.map(y => {
               const ch = allData[y]?.chapters?.find(c => c.code === code)
               return ch?.total || 0

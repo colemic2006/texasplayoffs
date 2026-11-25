@@ -4,6 +4,7 @@ import { chapterColor } from '../chapterColors'
 import { placeName } from '../placeName'
 import { roundsToShow, isInProgress, upcomingCell, UPCOMING, UPCOMING_TIP } from '../upcoming'
 import { useCollapse, ShowMore } from '../ShowMore'
+import { useSort, SortTh } from '../sortable'
 
 const ROUNDS = { 1: 'Bi-District', 2: 'Area', 3: 'Regionals', 4: 'Quarterfinals', 5: 'Semifinals', 6: 'State Final' }
 const fmt = n => Math.round(n).toLocaleString()
@@ -11,6 +12,7 @@ const fmt = n => Math.round(n).toLocaleString()
 export default function ChapterTravel({ data }) {
   const [open, setOpen] = useState(null)
   const more = useCollapse()
+  const s = useSort()
   const { rows, weeks, totals, played } = useMemo(() => {
     const by = {}
     const weeks = new Set()
@@ -50,16 +52,19 @@ export default function ChapterTravel({ data }) {
         <table style={{ width:'100%', borderCollapse:'collapse' }}>
           <thead>
             <tr>
-              <th style={{ ...th, textAlign:'left' }}>Chapter</th>
-              {weeks.map(w => <th key={w} style={{ ...th, ...(played.has(w) ? {} : { opacity:0.55 }) }} title={played.has(w) ? undefined : UPCOMING_TIP}>Wk {w}<div style={{ fontSize:8, letterSpacing:'0.06em', opacity:0.7 }}>{ROUNDS[w]}</div></th>)}
-              <th style={th}>Games</th>
-              <th style={th}>Avg per game<div style={{ fontSize:8, letterSpacing:'0.06em', opacity:0.7 }}>round trip</div></th>
-              <th style={{ ...th, color:'var(--burnt)' }}>Season total</th>
+              <SortTh s={s} k="code" text style={{ ...th, textAlign:'left' }}>Chapter</SortTh>
+              {weeks.map(w => played.has(w)
+                ? <SortTh key={w} s={s} k={`w${w}`} style={th}>Wk {w}<div style={{ fontSize:8, letterSpacing:'0.06em', opacity:0.7 }}>{ROUNDS[w]}</div></SortTh>
+                : <th key={w} style={{ ...th, opacity:0.55 }} title={UPCOMING_TIP}>Wk {w}<div style={{ fontSize:8, letterSpacing:'0.06em', opacity:0.7 }}>{ROUNDS[w]}</div></th>)}
+              <SortTh s={s} k="games" style={th}>Games</SortTh>
+              <SortTh s={s} k="avg" style={th}>Avg per game<div style={{ fontSize:8, letterSpacing:'0.06em', opacity:0.7 }}>round trip</div></SortTh>
+              <SortTh s={s} k="total" style={{ ...th, color:'var(--burnt)' }}>Season total</SortTh>
               <th style={{ ...th, width:'22%' }}></th>
             </tr>
           </thead>
           <tbody>
-            {more.cut(rows).map(r => (
+            {more.cut(s.sort(rows, { code: r => r.code, games: r => r.games.length, avg: r => r.total / r.games.length, total: r => r.total,
+              ...Object.fromEntries(weeks.map(w => [`w${w}`, r => r.weeks[w] || 0])) })).map(r => (
               <React.Fragment key={r.code}>
                 <tr onClick={() => setOpen(open === r.code ? null : r.code)} style={{ cursor:'pointer', background: open === r.code ? 'rgba(70,29,124,0.06)' : 'transparent' }}>
                   <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans' }}>

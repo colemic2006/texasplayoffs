@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react'
 import { chapterColor } from '../chapterColors'
 import { useCollapse, ShowMore } from '../ShowMore'
+import { useSort, SortTh } from '../sortable'
 
 // Two sides of "how local is a chapter": of the games it works, how many involve its own schools;
 // and of its own schools' games, how many it works (and who works the rest).
@@ -18,6 +19,7 @@ export default function LocalShare({ allData, years }) {
   const [season, setSeason] = useState('all')
   const [sort, setSort] = useState('own')
   const more = useCollapse()
+  const s = useSort()
   useEffect(() => {
     const get = f => fetch(`${import.meta.env.BASE_URL}data/${f}?v=${__BUILD_TIME__}`).then(r => r.ok ? r.json() : {})
     get('home_chapters_confirmed.json').then(setHome).catch(() => setHome({}))
@@ -92,18 +94,18 @@ export default function LocalShare({ allData, years }) {
       <div style={{ display:'flex', flexWrap:'wrap', gap:4, alignItems:'center', marginBottom:10 }}>
         <span style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginRight:4 }}>Sort:</span>
         {[['own', 'Own schools in its games'], ['kept', 'Kept its schools\' games'], ['name', 'Chapter']].map(([k, l]) =>
-          <button key={k} onClick={() => setSort(k)} style={btn(sort === k)}>{l}</button>)}
+          <button key={k} onClick={() => { setSort(k); s.reset() }} style={btn(sort === k && !s.key)}>{l}</button>)}
       </div>
       <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, overflowX:'auto' }}>
         <table style={{ width:'100%', borderCollapse:'collapse', minWidth:760 }}>
           <thead><tr>
-            <th style={th}>Chapter</th>
-            <th style={{ ...th, width:'24%' }}>Own schools in its games<div style={{ textTransform:'none', letterSpacing:0, marginTop:2 }}>of games it worked</div></th>
-            <th style={{ ...th, width:'24%' }}>Kept its schools' games<div style={{ textTransform:'none', letterSpacing:0, marginTop:2 }}>of its schools' games</div></th>
-            <th style={th}>Who else worked its schools' games</th>
+            <SortTh s={s} k="name" text style={th}>Chapter</SortTh>
+            <SortTh s={s} k="own" style={{ ...th, width:'24%' }}>Own schools in its games<div style={{ textTransform:'none', letterSpacing:0, marginTop:2 }}>of games it worked</div></SortTh>
+            <SortTh s={s} k="kept" style={{ ...th, width:'24%' }}>Kept its schools' games<div style={{ textTransform:'none', letterSpacing:0, marginTop:2 }}>of its schools' games</div></SortTh>
+            <SortTh s={s} k="others" style={th}>Who else worked its schools' games</SortTh>
           </tr></thead>
           <tbody>
-            {more.cut(sorted).map(r => (
+            {more.cut(s.sort(sorted, { name: r => NAMES[r.c], own: r => r.own, kept: r => r.kept, others: r => r.ownGames - r.ownWorked })).map(r => (
               <tr key={r.c}>
                 <td style={{ ...td, whiteSpace:'nowrap' }}>
                   <span style={{ display:'inline-block', width:8, height:8, borderRadius:'50%', background:chapterColor(r.c), marginRight:6 }} />

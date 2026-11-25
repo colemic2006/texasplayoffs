@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react'
 import { chapterColor } from '../chapterColors'
 import { useCollapse, ShowMore } from '../ShowMore'
+import { useSort, SortTh } from '../sortable'
 
 // Share of state championship games vs share of all playoff games, by chapter and class.
 // Before 2014 UIL's classes were one step lower (old 5A = today's 6A ... six-man = today's 1A);
@@ -26,6 +27,7 @@ export default function ChampShare({ allData = {}, years = [], loadAllYears }) {
   const [span, setSpan] = useState('all')   // 'all' | 'onfile' | a season
   const [open, setOpen] = useState(null)   // chapter whose finals are listed
   const more = useCollapse()
+  const s = useSort()
   useEffect(() => {
     loadAllYears?.()
     fetch(`${import.meta.env.BASE_URL}data/championship_games.json?v=${__BUILD_TIME__}`).then(r => r.ok ? r.json() : null).then(setFinals).catch(() => setFinals({}))
@@ -134,16 +136,16 @@ export default function ChampShare({ allData = {}, years = [], loadAllYears }) {
       <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, overflowX:'auto' }}>
         <table style={{ width:'100%', borderCollapse:'collapse', minWidth:720 }}>
           <thead><tr>
-            <th style={{ ...th, textAlign:'left' }}>Chapter</th>
-            <th style={th}>Share of playoff games</th>
-            <th style={th}>Share of finals</th>
-            <th style={th}>Finals worked</th>
-            <th style={th}>Expected</th>
-            <th style={{ ...th, color:'var(--burnt)' }}>Finals ÷ playoffs</th>
+            <SortTh s={s} k="name" text style={{ ...th, textAlign:'left' }}>Chapter</SortTh>
+            <SortTh s={s} k="ps" style={th}>Share of playoff games</SortTh>
+            <SortTh s={s} k="cs" style={th}>Share of finals</SortTh>
+            <SortTh s={s} k="cw" style={th}>Finals worked</SortTh>
+            <SortTh s={s} k="expected" style={th}>Expected</SortTh>
+            <SortTh s={s} k="ratio" style={{ ...th, color:'var(--burnt)' }}>Finals ÷ playoffs</SortTh>
             <th style={{ ...th, width:'26%', textAlign:'left' }}><span style={{ color:'#9B79D2' }}>■</span> playoffs <span style={{ color:'var(--burnt)', marginLeft:6 }}>■</span> finals</th>
           </tr></thead>
           <tbody>
-            {more.cut(rows).map(r => {
+            {more.cut(s.sort(rows, { name: r => NAMES[r.c], ps: r => r.ps, cs: r => r.cs, cw: r => r.cw, expected: r => r.expected, ratio: r => r.ps ? r.ratio : null })).map(r => {
               const hot = r.cw >= 3 && r.ratio >= 1.5, cold = r.expected >= 3 && r.ratio <= 0.5
               return (
                 <React.Fragment key={r.c}>

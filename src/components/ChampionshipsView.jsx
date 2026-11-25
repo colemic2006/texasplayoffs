@@ -1,6 +1,7 @@
 import React, { useMemo, useState, useEffect } from 'react'
 import NotAllTime, { SEASONS_ON_FILE, GAPS } from './NotAllTime'
 import { useCollapse, ShowMore } from '../ShowMore'
+import { useSort, SortTh } from '../sortable'
 
 const CHAPTER_NAMES = {
   ABI:'Abilene', AMA:'Amarillo', AUS:'Austin', BEA:'Beaumont',
@@ -38,6 +39,7 @@ export default function ChampionshipsView() {
   const [highlightChapter, setHighlightChapter] = useState(null)
   const [gamesByChYear, setGamesByChYear] = useState({}) // { 'HOU': { '2022': [game,...] } }
   const [range, setRange] = useState(null)   // [from, to] seasons shown; null = all
+  const heatSort = useSort()   // heat map column headers (the By Total / Alphabetical buttons reset it)
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/championships.json?v=${__BUILD_TIME__}`)
@@ -190,18 +192,18 @@ export default function ChampionshipsView() {
         <div style={{ width:1, height:16, background:'var(--border)' }} />
         <div style={{ display:'flex', gap:4 }}>
           {[['total','By Total'],['name','Alphabetical']].map(([id, label]) => (
-            <button key={id} onClick={() => setSortBy(id)} style={{
+            <button key={id} onClick={() => { setSortBy(id); heatSort.reset() }} style={{
               fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.1em', textTransform:'uppercase',
               padding:'5px 12px', borderRadius:4, border:'1px solid var(--border)',
-              background: sortBy === id ? 'var(--ink)' : 'transparent',
-              color: sortBy === id ? 'var(--cream)' : 'var(--mid)', cursor:'pointer', transition:'all 0.15s'
+              background: sortBy === id && !(view === 'heatmap' && heatSort.key) ? 'var(--ink)' : 'transparent',
+              color: sortBy === id && !(view === 'heatmap' && heatSort.key) ? 'var(--cream)' : 'var(--mid)', cursor:'pointer', transition:'all 0.15s'
             }}>{label}</button>
           ))}
         </div>
       </div>
 
       {view === 'heatmap' ? (
-        <HeatMap years={years} sorted={sorted} maxVal={maxVal} grandTotal={grandTotal}
+        <HeatMap s={heatSort} years={years} sorted={sorted} maxVal={maxVal} grandTotal={grandTotal}
           highlightChapter={highlightChapter} setHighlightChapter={setHighlightChapter} />
       ) : (
         <BarChart sorted={sorted} grandTotal={grandTotal}
@@ -330,7 +332,7 @@ function RangePicker({ all, range, setRange }) {
   )
 }
 
-function HeatMap({ years, sorted, maxVal, grandTotal, highlightChapter, setHighlightChapter }) {
+function HeatMap({ s, years, sorted, maxVal, grandTotal, highlightChapter, setHighlightChapter }) {
   const more = useCollapse()
   const totalsRow = useMemo(() => {
     const t = {}
@@ -348,15 +350,15 @@ function HeatMap({ years, sorted, maxVal, grandTotal, highlightChapter, setHighl
         </colgroup>
         <thead>
           <tr>
-            <th style={thS}>Chapter</th>
+            <SortTh s={s} k="ch" text style={thS}>Chapter</SortTh>
             {years.map(y => (
-              <th key={y} style={{ ...thS, fontSize:8, padding:'4px 2px', letterSpacing:0 }}>{y}</th>
+              <SortTh key={y} s={s} k={`y${y}`} style={{ ...thS, fontSize:8, padding:'4px 2px', letterSpacing:0 }}>{y}</SortTh>
             ))}
-            <th style={{ ...thS, color:'var(--burnt)' }}>Total</th>
+            <SortTh s={s} k="total" style={{ ...thS, color:'var(--burnt)' }}>Total</SortTh>
           </tr>
         </thead>
         <tbody>
-          {more.cut(sorted).map(({ ch, name, total, byYear }) => {
+          {more.cut(s.sort(sorted, { ch: r => r.ch, total: r => r.total, ...Object.fromEntries(years.map(y => [`y${y}`, r => r.byYear[y] || 0])) })).map(({ ch, name, total, byYear }) => {
             const isHL = highlightChapter === ch
             return (
               <tr

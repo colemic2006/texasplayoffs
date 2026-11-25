@@ -1,6 +1,7 @@
 import React from 'react'
 import { placeName, gameWhen } from '../placeName'
 import { ChangeBadge, ChangeDetail } from '../changes'
+import { useSort, SortTh } from '../sortable'
 
 const ROUNDS = { 1:'Bi-District', 2:'Area', 3:'Regionals', 4:'Quarterfinals', 5:'Semifinals', 6:'Championship' }
 const CLASSES = ['1A D1','1A D2','2A D1','2A D2','3A D1','3A D2','4A D1','4A D2','5A D1','5A D2','6A D1','6A D2']
@@ -32,6 +33,7 @@ export function roundOpen(games, week) {
 // (the unassigned list, from Regionals on: once ENTERED_SHARE of the round's games have a chapter),
 // so it doesn't fill the page early in the week before brackets and assignments come in.
 export default function MissingGames({ data, onSubmit }) {
+  const sortChapter = useSort(), sortPin = useSort()
   if (data?.season?.status !== 'in_progress') return null
   const games = data.games || []
   const week = Math.max(0, ...games.map(g => g.week))
@@ -62,10 +64,12 @@ export default function MissingGames({ data, onSubmit }) {
       {button}
     </div>
   )
-  const table = (list, last) => (
+  const table = (rows, last, s) => {
+    const list = s.sort(rows, { cls: g => g.classification, game: g => `${g.team1} vs ${g.team2}`, last: g => last === 'Chapter' ? (g.chapter || null) : (g.site ? placeName(g) : null), when: g => g.date || null })
+    return (
     <div style={{ overflowX:'auto' }}>
       <table style={{ width:'100%', borderCollapse:'collapse' }}>
-        <thead><tr><th style={th}>Class</th><th style={th}>Game</th><th style={th}>{last}</th><th style={th}>When</th></tr></thead>
+        <thead><tr><SortTh s={s} k="cls" text style={th}>Class</SortTh><SortTh s={s} k="game" text style={th}>Game</SortTh><SortTh s={s} k="last" text style={th}>{last}</SortTh><SortTh s={s} k="when" text style={th}>When</SortTh></tr></thead>
         <tbody>
           {list.map((g, i) => (
             <tr key={i}>
@@ -78,7 +82,8 @@ export default function MissingGames({ data, onSubmit }) {
         </tbody>
       </table>
     </div>
-  )
+    )
+  }
   return (
     <div style={{ background:'var(--surface)', border: showChapter ? '2px solid var(--gold)' : '1px solid var(--border)', borderLeft: showChapter ? '6px solid var(--gold)' : undefined,
       boxShadow: showChapter ? '0 0 0 4px rgba(253,208,35,0.18), 0 4px 14px rgba(70,29,124,0.10)' : 'none', borderRadius:10, marginBottom:32, overflow:'hidden' }}>
@@ -93,11 +98,11 @@ export default function MissingGames({ data, onSubmit }) {
               borderRadius:6, border:'none', background:'var(--burnt)', color:'#fff', cursor:'pointer',
             }}>Submit an assignment</button>
           ), true)}
-        {table(noChapter, 'Site')}
+        {table(noChapter, 'Site', sortChapter)}
       </>}
       {showPin && <>
         {head('Not on the map yet', `${noPin.length} of ${round.length} games ${noPin.length === 1 ? "isn't" : "aren't"} on the map yet.`)}
-        {table(noPin, 'Site')}
+        {table(noPin, 'Site', sortPin)}
         <div style={{ padding:'8px 16px 10px', fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', borderTop:'1px solid rgba(15,13,11,0.06)' }}>
           {noPin.some(g => g.site) ? 'Some of these list a site that couldn\'t be placed on the map yet. ' : ''}The map checks for new sites every day.
         </div>

@@ -3,6 +3,7 @@ import { GAPS } from './NotAllTime'
 import { roundName, weekLabel } from '../roundName'
 import { chapterColor } from '../chapterColors'
 import { useCollapse, ShowMore } from '../ShowMore'
+import { useSort, SortTh } from '../sortable'
 
 // Score stats across every season on file, by round, with the chapter that worked each game
 const ROUNDS = { 1: 'Bi-District', 2: 'Area', 3: 'Regionals', 4: 'Quarterfinals', 5: 'Semifinals', 6: 'State Final' }
@@ -14,6 +15,7 @@ const avg = a => a.length ? a.reduce((s, x) => s + x, 0) / a.length : null
 const r0 = n => n == null ? '—' : Math.round(n)
 const f1 = n => n == null ? '—' : (Math.round(n * 10) / 10).toFixed(1)
 const pct = (n, of) => of ? `${Math.round(100 * n / of)}%` : '—'
+const frac = (n, of) => of ? n / of : null   // the number behind pct(), for sorting
 
 function Chip({ c }) {
   if (!c) return <span style={{ fontFamily:'var(--mono)', fontSize:9, color:'var(--mid)' }}>—</span>
@@ -44,6 +46,7 @@ const seedTag = sd => sd ? `${PLACE[sd.place]} D${sd.district}` : '—'
 function Upsets({ games, allGames, rawGames, seeds, scopeLabel, weeks, current, seasonOnly }) {
   const [showChamps, setShowChamps] = useState(null)
   const [showAll, setShowAll] = useState(false)
+  const sGrid = useSort(), sChamps = useSort(), sRate = useSort(), sRnd = useSort(), sMatch = useSort(), sList = useSort()
   const key = g => g.classification.replace(/ \(11-man, pre-2014\)$/, '')
   const seedGames = list => list.map(g => {
     const s = seeds?.[g.year]?.[key(g)]
@@ -85,7 +88,8 @@ function Upsets({ games, allGames, rawGames, seeds, scopeLabel, weeks, current, 
   const ups = decided.filter(g => g.gap > 0)
   const years = [...new Set(seeded.map(g => g.year))].sort()
   if (!seeded.length) return <div style={{ fontSize:12, color:'var(--mid)' }}>No seeds on file for these games yet. Seeds come from UIL's bracket PDFs{current ? ` and will show for ${current} once UIL posts them` : ''}.</div>
-  const list = [...ups].sort((a, b) => b.year - a.year || b.week - a.week || b.gap - a.gap)
+  const list = sList.sort([...ups].sort((a, b) => b.year - a.year || b.week - a.week || b.gap - a.gap), {
+    year: g => g.year, round: g => g.week, cls: g => g.classification, winner: g => g.winner, loser: g => g.loser, score: g => g.high - g.low, chapter: g => normCh(g.chapter) || null })
   const shown = showAll ? list : list.slice(0, 15)
   const matchups = [[1, 2], [1, 3], [1, 4], [2, 3], [2, 4], [3, 4]]
   return (
@@ -102,11 +106,11 @@ function Upsets({ games, allGames, rawGames, seeds, scopeLabel, weeks, current, 
           <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--mid)', marginBottom:4 }}>Upsets by round, by year</div>
           <table style={{ width:'100%', borderCollapse:'collapse' }}>
             <thead><tr>
-              <th style={{ ...th, textAlign:'left' }}>Round</th>
-              {byYear.map(x => <th key={x.y} style={th}>{x.y}</th>)}
-              <th style={{ ...th, background:'rgba(253,208,35,0.12)' }}>All years</th>
+              <SortTh s={sGrid} k="w" text style={{ ...th, textAlign:'left' }}>Round</SortTh>
+              {byYear.map(x => <SortTh key={x.y} s={sGrid} k={`y${x.y}`} style={th}>{x.y}</SortTh>)}
+              <SortTh s={sGrid} k="all" style={{ ...th, background:'rgba(253,208,35,0.12)' }}>All years</SortTh>
             </tr></thead>
-            <tbody>{grid.map(r => {
+            <tbody>{sGrid.sort(grid, { w: r => r.w, all: r => frac(r.u, r.n), ...Object.fromEntries(byYear.map(x => [`y${x.y}`, r => r.cells[x.y] ? r.cells[x.y].u / r.cells[x.y].n : null])) }).map(r => {
               const best = byYear.reduce((a, x) => { const c = r.cells[x.y]; const v = c && c.n >= 3 ? c.u / c.n : -1; return v > a.v ? { y: x.y, v } : a }, { y: null, v: -1 })
               return (
                 <tr key={r.w}>
@@ -141,8 +145,8 @@ function Upsets({ games, allGames, rawGames, seeds, scopeLabel, weeks, current, 
         <div style={{ marginBottom:16 }}>
           <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--mid)', marginBottom:4 }}>District champions knocked out in round 1</div>
           <table style={{ width:'100%', borderCollapse:'collapse' }}>
-            <thead><tr><th style={{ ...th, textAlign:'left' }}>Season</th><th style={th}>2A–6A (eleven-man)</th><th style={th}>1A (six-man)</th><th style={{ ...th, color:'var(--burnt)' }}>All classes</th><th style={th}>Rate</th><th style={{ ...th, textAlign:'left' }}>Who</th></tr></thead>
-            <tbody>{champs.map(x => (
+            <thead><tr><SortTh s={sChamps} k="y" style={{ ...th, textAlign:'left' }}>Season</SortTh><SortTh s={sChamps} k="o11" style={th}>2A–6A (eleven-man)</SortTh><SortTh s={sChamps} k="o6" style={th}>1A (six-man)</SortTh><SortTh s={sChamps} k="out" style={{ ...th, color:'var(--burnt)' }}>All classes</SortTh><SortTh s={sChamps} k="rate" style={th}>Rate</SortTh><th style={{ ...th, textAlign:'left' }}>Who</th></tr></thead>
+            <tbody>{sChamps.sort(champs, { y: x => x.y, o11: x => x.o11, o6: x => x.o6, out: x => x.out.length, rate: x => frac(x.out.length, x.n) }).map(x => (
               <React.Fragment key={x.y}>
                 <tr>
                   <td style={{ ...tdl, fontWeight:600 }}>{x.y}</td>
@@ -182,8 +186,8 @@ function Upsets({ games, allGames, rawGames, seeds, scopeLabel, weeks, current, 
         <div style={{ marginBottom:16 }}>
           <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--mid)', marginBottom:4 }}>Upset rate by year</div>
           <table style={{ width:'100%', borderCollapse:'collapse' }}>
-            <thead><tr><th style={{ ...th, textAlign:'left' }}>Season</th><th style={th}>Different seeds</th><th style={th}>Upsets</th><th style={th}>Rate</th><th style={th}>vs. all years</th><th style={{ ...th, width:'34%' }}></th></tr></thead>
-            <tbody>{byYear.map(x => {
+            <thead><tr><SortTh s={sRate} k="y" style={{ ...th, textAlign:'left' }}>Season</SortTh><SortTh s={sRate} k="n" style={th}>Different seeds</SortTh><SortTh s={sRate} k="u" style={th}>Upsets</SortTh><SortTh s={sRate} k="rate" style={th}>Rate</SortTh><SortTh s={sRate} k="diff" style={th}>vs. all years</SortTh><th style={{ ...th, width:'34%' }}></th></tr></thead>
+            <tbody>{sRate.sort(byYear, { y: x => x.y, n: x => x.n, u: x => x.u, rate: x => frac(x.u, x.n), diff: x => Math.round(100 * (x.rate - allRate)) }).map(x => {
               const diff = Math.round(100 * (x.rate - allRate))
               const hi = topYear && x.y === topYear.y
               return (
@@ -206,15 +210,22 @@ function Upsets({ games, allGames, rawGames, seeds, scopeLabel, weeks, current, 
       )}
       <div style={{ display:'flex', gap:16, flexWrap:'wrap', marginBottom:14 }}>
         <table style={{ borderCollapse:'collapse', flex:'1 1 300px' }}>
-          <thead><tr><th style={{ ...th, textAlign:'left' }}>Round</th><th style={th}>Different seeds</th><th style={th}>Upsets</th><th style={th}>Rate</th></tr></thead>
-          <tbody>{weeks.map(w => {
+          <thead><tr><SortTh s={sRnd} k="w" text style={{ ...th, textAlign:'left' }}>Round</SortTh><SortTh s={sRnd} k="d" style={th}>Different seeds</SortTh><SortTh s={sRnd} k="u" style={th}>Upsets</SortTh><SortTh s={sRnd} k="rate" style={th}>Rate</SortTh></tr></thead>
+          <tbody>{(() => {
+            const dw = w => decided.filter(g => g.week === w), uw = w => dw(w).filter(g => g.gap > 0).length
+            return sRnd.sort(weeks, { w: w => w, d: w => dw(w).length, u: uw, rate: w => frac(uw(w), dw(w).length) })
+          })().map(w => {
             const d = decided.filter(g => g.week === w), u = d.filter(g => g.gap > 0)
             return <tr key={w}><td style={{ ...tdl, fontWeight:600 }}>{ROUNDS[w]}</td><td style={td}>{d.length}</td><td style={{ ...td, fontWeight:700 }}>{u.length}</td><td style={td}>{pct(u.length, d.length)}</td></tr>
           })}</tbody>
         </table>
         <table style={{ borderCollapse:'collapse', flex:'1 1 300px' }}>
-          <thead><tr><th style={{ ...th, textAlign:'left' }}>Matchup</th><th style={th}>Games</th><th style={th}>Higher seed won</th><th style={th}>Upsets</th></tr></thead>
-          <tbody>{matchups.map(([hi, lo]) => {
+          <thead><tr><SortTh s={sMatch} k="m" text style={{ ...th, textAlign:'left' }}>Matchup</SortTh><SortTh s={sMatch} k="n" style={th}>Games</SortTh><SortTh s={sMatch} k="won" style={th}>Higher seed won</SortTh><SortTh s={sMatch} k="u" style={th}>Upsets</SortTh></tr></thead>
+          <tbody>{(() => {
+            const mg = ([hi, lo]) => decided.filter(g => Math.min(g.ws.place, g.ls.place) === hi && Math.max(g.ws.place, g.ls.place) === lo)
+            const mu = p => mg(p).filter(g => g.gap > 0).length
+            return sMatch.sort(matchups, { m: p => matchups.indexOf(p), n: p => mg(p).length, won: p => mg(p).length - mu(p), u: mu })
+          })().map(([hi, lo]) => {
             const m = decided.filter(g => Math.min(g.ws.place, g.ls.place) === hi && Math.max(g.ws.place, g.ls.place) === lo)
             if (!m.length) return null
             const u = m.filter(g => g.gap > 0).length
@@ -225,8 +236,8 @@ function Upsets({ games, allGames, rawGames, seeds, scopeLabel, weeks, current, 
       {list.length > 0 && (
         <table style={{ width:'100%', borderCollapse:'collapse' }}>
           <thead><tr>
-            <th style={{ ...th, textAlign:'left' }}>Year</th><th style={{ ...th, textAlign:'left' }}>Round</th><th style={{ ...th, textAlign:'left' }}>Class</th>
-            <th style={{ ...th, textAlign:'left' }}>Winner</th><th style={{ ...th, textAlign:'left' }}>Beat</th><th style={th}>Score</th><th style={th}>Chapter</th>
+            <SortTh s={sList} k="year" style={{ ...th, textAlign:'left' }}>Year</SortTh><SortTh s={sList} k="round" style={{ ...th, textAlign:'left' }}>Round</SortTh><SortTh s={sList} k="cls" text style={{ ...th, textAlign:'left' }}>Class</SortTh>
+            <SortTh s={sList} k="winner" text style={{ ...th, textAlign:'left' }}>Winner</SortTh><SortTh s={sList} k="loser" text style={{ ...th, textAlign:'left' }}>Beat</SortTh><SortTh s={sList} k="score" style={th}>Score</SortTh><SortTh s={sList} k="chapter" text style={th}>Chapter</SortTh>
           </tr></thead>
           <tbody>{shown.map((g, i) => (
             <tr key={i}>
@@ -251,14 +262,15 @@ function Upsets({ games, allGames, rawGames, seeds, scopeLabel, weeks, current, 
 }
 
 function GameList({ games, value, valueLabel }) {
+  const s = useSort()
   if (!games.length) return <div style={{ fontSize:12, color:'var(--mid)' }}>No games with scores yet.</div>
   return (
     <table style={{ width:'100%', borderCollapse:'collapse' }}>
       <thead><tr>
-        <th style={{ ...th, textAlign:'left' }}>Year</th><th style={{ ...th, textAlign:'left' }}>Round</th><th style={{ ...th, textAlign:'left' }}>Class</th>
-        <th style={{ ...th, textAlign:'left' }}>Game</th><th style={th}>{valueLabel}</th><th style={th}>Chapter</th>
+        <SortTh s={s} k="year" style={{ ...th, textAlign:'left' }}>Year</SortTh><SortTh s={s} k="round" style={{ ...th, textAlign:'left' }}>Round</SortTh><SortTh s={s} k="cls" text style={{ ...th, textAlign:'left' }}>Class</SortTh>
+        <SortTh s={s} k="game" text style={{ ...th, textAlign:'left' }}>Game</SortTh><SortTh s={s} k="value" style={th}>{valueLabel}</SortTh><SortTh s={s} k="chapter" text style={th}>Chapter</SortTh>
       </tr></thead>
-      <tbody>{games.map((g, i) => {
+      <tbody>{s.sort(games, { year: g => g.year, round: g => g.week, cls: g => g.classification, game: g => g.team1, value, chapter: g => normCh(g.chapter) || null }).map((g, i) => {
         const w = g.score1 >= g.score2
         return (
           <tr key={i}>
@@ -286,6 +298,7 @@ export default function ScoresView({ allData, years }) {
   const [kind, setKind] = useState('eleven')  // 'eleven' (2A-6A) | 'six' (1A six-man)
   const [seeds, setSeeds] = useState(null)
   const moreDiv = useCollapse(), moreWL = useCollapse(), moreMercy = useCollapse(), moreProf = useCollapse()
+  const sPts = useSort(), sDiv = useSort(), sWL = useSort(), sShut = useSort(), sSix = useSort(), sMercyR = useSort(), sMercyC = useSort(), sProf = useSort()
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/seeds.json?v=${__BUILD_TIME__}`).then(r => r.ok ? r.json() : {}).then(setSeeds).catch(() => setSeeds({}))
   }, [])
@@ -355,12 +368,17 @@ export default function ScoresView({ allData, years }) {
       <Card n="1" title="Points and Margins by Round" intro={`Average combined points and winning margin, ${current} vs. every earlier season on file. One-score game = decided by 8 or fewer.`}>
         <table style={{ width:'100%', borderCollapse:'collapse' }}>
           <thead><tr>
-            <th style={{ ...th, textAlign:'left' }}>Round</th>
-            <th style={th}>{current} avg total</th><th style={th}>Historical avg total</th>
-            <th style={th}>{current} avg margin</th><th style={th}>Historical avg margin</th>
-            <th style={th}>{current} one-score</th><th style={th}>Historical one-score</th>
+            <SortTh s={sPts} k="w" text style={{ ...th, textAlign:'left' }}>Round</SortTh>
+            <SortTh s={sPts} k="st" style={th}>{current} avg total</SortTh><SortTh s={sPts} k="ht" style={th}>Historical avg total</SortTh>
+            <SortTh s={sPts} k="sm" style={th}>{current} avg margin</SortTh><SortTh s={sPts} k="hm" style={th}>Historical avg margin</SortTh>
+            <SortTh s={sPts} k="s1" style={th}>{current} one-score</SortTh><SortTh s={sPts} k="h1" style={th}>Historical one-score</SortTh>
           </tr></thead>
-          <tbody>{weeks.map(w => {
+          <tbody>{(() => {
+            const S = w => season.filter(g => g.week === w), H = w => hist.filter(g => g.week === w)
+            const one = gs => frac(gs.filter(g => g.margin <= 8).length, gs.length)
+            return sPts.sort(weeks, { w: w => w, st: w => avg(S(w).map(g => g.total)), ht: w => avg(H(w).map(g => g.total)), sm: w => avg(S(w).map(g => g.margin)),
+              hm: w => avg(H(w).map(g => g.margin)), s1: w => one(S(w)), h1: w => one(H(w)) })
+          })().map(w => {
             const s = season.filter(g => g.week === w), h = hist.filter(g => g.week === w)
             return (
               <tr key={w} style={{ background: String(w) === round ? 'rgba(70,29,124,0.06)' : 'transparent' }}>
@@ -377,10 +395,14 @@ export default function ScoresView({ allData, years }) {
       <Card n="2" title="Average Score by Division" intro={`Average combined points and margin for each division (${round === 'all' ? 'all rounds' : ROUNDS[round]}), ${current} vs. history, with the chapter that worked the most of those games ${current === Math.max(...years) ? 'this season' : ''}.`}>
         <table style={{ width:'100%', borderCollapse:'collapse' }}>
           <thead><tr>
-            <th style={{ ...th, textAlign:'left' }}>Division</th>
-            <th style={th}>{current} avg total</th><th style={th}>Historical avg total</th><th style={th}>{current} avg margin</th><th style={th}>Historical avg margin</th><th style={th}>Most games ({current})</th>
+            <SortTh s={sDiv} k="c" text style={{ ...th, textAlign:'left' }}>Division</SortTh>
+            <SortTh s={sDiv} k="st" style={th}>{current} avg total</SortTh><SortTh s={sDiv} k="ht" style={th}>Historical avg total</SortTh><SortTh s={sDiv} k="sm" style={th}>{current} avg margin</SortTh><SortTh s={sDiv} k="hm" style={th}>Historical avg margin</SortTh><SortTh s={sDiv} k="lead" style={th}>Most games ({current})</SortTh>
           </tr></thead>
-          <tbody>{moreDiv.cut(divRows).map(c => {
+          <tbody>{moreDiv.cut((() => {
+            const S = c => season.filter(g => g.classification === c && inRound(g)), H = c => hist.filter(g => g.classification === c && inRound(g))
+            const lead = c => { const cnt = {}; S(c).forEach(g => { const k = normCh(g.chapter); if (k) cnt[k] = (cnt[k] || 0) + 1 }); const v = Object.values(cnt); return v.length ? Math.max(...v) : null }
+            return sDiv.sort(divRows, { c: c => CLASSES.indexOf(c), st: c => avg(S(c).map(g => g.total)), ht: c => avg(H(c).map(g => g.total)), sm: c => avg(S(c).map(g => g.margin)), hm: c => avg(H(c).map(g => g.margin)), lead })
+          })()).map(c => {
             const s = season.filter(g => g.classification === c && inRound(g)), h = hist.filter(g => g.classification === c && inRound(g))
             const cnt = {}; s.forEach(g => { const k = normCh(g.chapter); if (k) cnt[k] = (cnt[k] || 0) + 1 })
             const lead = Object.entries(cnt).sort((a, b) => b[1] - a[1])[0]
@@ -400,11 +422,14 @@ export default function ScoresView({ allData, years }) {
       <Card n="2b" title="Winning and Losing Scores" intro={`Average winning score – average losing score, by division and round (${scopeLabel}). The All column covers every round.`}>
         <table style={{ width:'100%', borderCollapse:'collapse' }}>
           <thead><tr>
-            <th style={{ ...th, textAlign:'left' }}>Division</th>
-            {weeks.map(w => <th key={w} style={th}>{ROUNDS[w]}</th>)}
-            <th style={{ ...th, color:'var(--burnt)' }}>All</th>
+            <SortTh s={sWL} k="c" text style={{ ...th, textAlign:'left' }}>Division</SortTh>
+            {weeks.map(w => <SortTh key={w} s={sWL} k={`w${w}`} style={th}>{ROUNDS[w]}</SortTh>)}
+            <SortTh s={sWL} k="all" style={{ ...th, color:'var(--burnt)' }}>All</SortTh>
           </tr></thead>
-          <tbody>{moreWL.cut(wlRows).map(c => {
+          <tbody>{moreWL.cut((() => {
+            const B = c => all.filter(g => g.classification === c && (scope === 'all' || g.year === current))
+            return sWL.sort(wlRows, { c: c => CLASSES.indexOf(c), all: c => avg(B(c).map(g => g.high)), ...Object.fromEntries(weeks.map(w => [`w${w}`, c => avg(B(c).filter(g => g.week === w).map(g => g.high))])) })
+          })()).map(c => {
             const base = all.filter(g => g.classification === c && (scope === 'all' || g.year === current))
             const cell = gs => gs.length ? <><strong>{r0(avg(gs.map(g => g.high)))}</strong><span style={{ color:'var(--mid)' }}> – {r0(avg(gs.map(g => g.low)))}</span></> : '—'
             return (
@@ -446,8 +471,11 @@ export default function ScoresView({ allData, years }) {
 
       <Card n="8" title="Shutouts" intro={`Games where a team didn't score, by round, ${current} vs. history, with the most recent ones.`}>
         <table style={{ width:'100%', borderCollapse:'collapse', marginBottom:12 }}>
-          <thead><tr><th style={{ ...th, textAlign:'left' }}>Round</th><th style={th}>{current} shutouts</th><th style={th}>{current} rate</th><th style={th}>Historical shutouts</th><th style={th}>Historical rate</th></tr></thead>
-          <tbody>{weeks.map(w => {
+          <thead><tr><SortTh s={sShut} k="w" text style={{ ...th, textAlign:'left' }}>Round</SortTh><SortTh s={sShut} k="ss" style={th}>{current} shutouts</SortTh><SortTh s={sShut} k="sr" style={th}>{current} rate</SortTh><SortTh s={sShut} k="hs" style={th}>Historical shutouts</SortTh><SortTh s={sShut} k="hr" style={th}>Historical rate</SortTh></tr></thead>
+          <tbody>{(() => {
+            const S = w => season.filter(g => g.week === w), H = w => hist.filter(g => g.week === w), z = gs => gs.filter(g => g.low === 0).length
+            return sShut.sort(weeks, { w: w => w, ss: w => z(S(w)), sr: w => frac(z(S(w)), S(w).length), hs: w => z(H(w)), hr: w => frac(z(H(w)), H(w).length) })
+          })().map(w => {
             const s = season.filter(g => g.week === w), h = hist.filter(g => g.week === w)
             const ss = s.filter(g => g.low === 0).length, hs = h.filter(g => g.low === 0).length
             return <tr key={w}><td style={{ ...tdl, fontWeight:600 }}>{ROUNDS[w]}</td><td style={{ ...td, fontWeight:700 }}>{ss}</td><td style={td}>{pct(ss, s.length)}</td><td style={td}>{hs}</td><td style={td}>{pct(hs, h.length)}</td></tr>
@@ -458,8 +486,12 @@ export default function ScoresView({ allData, years }) {
 
       <Card n="9" title="Six-Man vs. Eleven-Man" intro="Six-man football scores very differently from eleven-man. Average combined points and margin by round, all seasons on file.">
         <table style={{ width:'100%', borderCollapse:'collapse' }}>
-          <thead><tr><th style={{ ...th, textAlign:'left' }}>Round</th><th style={th}>Six-man avg total</th><th style={th}>Six-man avg margin</th><th style={th}>Eleven-man avg total</th><th style={th}>Eleven-man avg margin</th><th style={th}>Six-man 45+ margins</th></tr></thead>
-          <tbody>{weeks.map(w => {
+          <thead><tr><SortTh s={sSix} k="w" text style={{ ...th, textAlign:'left' }}>Round</SortTh><SortTh s={sSix} k="st" style={th}>Six-man avg total</SortTh><SortTh s={sSix} k="sm" style={th}>Six-man avg margin</SortTh><SortTh s={sSix} k="et" style={th}>Eleven-man avg total</SortTh><SortTh s={sSix} k="em" style={th}>Eleven-man avg margin</SortTh><SortTh s={sSix} k="m45" style={th}>Six-man 45+ margins</SortTh></tr></thead>
+          <tbody>{(() => {
+            const SX = w => raw.filter(g => g.week === w && sixMan(g)), EL = w => raw.filter(g => g.week === w && !sixMan(g))
+            return sSix.sort(weeks, { w: w => w, st: w => avg(SX(w).map(g => g.total)), sm: w => avg(SX(w).map(g => g.margin)), et: w => avg(EL(w).map(g => g.total)),
+              em: w => avg(EL(w).map(g => g.margin)), m45: w => frac(SX(w).filter(g => g.margin >= 45).length, SX(w).length) })
+          })().map(w => {
             const six = raw.filter(g => g.week === w && sixMan(g)), ele = raw.filter(g => g.week === w && !sixMan(g))
             return <tr key={w}><td style={{ ...tdl, fontWeight:600 }}>{ROUNDS[w]}</td>
               <td style={{ ...td, fontWeight:700 }}>{f1(avg(six.map(g => g.total)))}</td><td style={td}>{f1(avg(six.map(g => g.margin)))}</td>
@@ -473,16 +505,19 @@ export default function ScoresView({ allData, years }) {
       {kind === 'six' && (
         <Card n="9b" title="Mercy-Rule Games" intro={`Six-man games decided by 45 or more, by round (${current} vs. history) and by chapter (${scopeLabel}).`}>
           <table style={{ width:'100%', borderCollapse:'collapse', marginBottom:12 }}>
-            <thead><tr><th style={{ ...th, textAlign:'left' }}>Round</th><th style={th}>{current} mercy-rule games</th><th style={th}>{current} rate</th><th style={th}>Historical</th><th style={th}>Historical rate</th></tr></thead>
-            <tbody>{weeks.map(w => {
+            <thead><tr><SortTh s={sMercyR} k="w" text style={{ ...th, textAlign:'left' }}>Round</SortTh><SortTh s={sMercyR} k="a" style={th}>{current} mercy-rule games</SortTh><SortTh s={sMercyR} k="ar" style={th}>{current} rate</SortTh><SortTh s={sMercyR} k="b" style={th}>Historical</SortTh><SortTh s={sMercyR} k="br" style={th}>Historical rate</SortTh></tr></thead>
+            <tbody>{(() => {
+              const S = w => season.filter(g => g.week === w), H = w => hist.filter(g => g.week === w), m = gs => gs.filter(g => g.margin >= 45).length
+              return sMercyR.sort(weeks, { w: w => w, a: w => m(S(w)), ar: w => frac(m(S(w)), S(w).length), b: w => m(H(w)), br: w => frac(m(H(w)), H(w).length) })
+            })().map(w => {
               const s6 = season.filter(g => g.week === w), h6 = hist.filter(g => g.week === w)
               const a = s6.filter(g => g.margin >= 45).length, b = h6.filter(g => g.margin >= 45).length
               return <tr key={w}><td style={{ ...tdl, fontWeight:600 }}>{ROUNDS[w]}</td><td style={{ ...td, fontWeight:700 }}>{a}</td><td style={td}>{pct(a, s6.length)}</td><td style={td}>{b}</td><td style={td}>{pct(b, h6.length)}</td></tr>
             })}</tbody>
           </table>
           <table style={{ width:'100%', borderCollapse:'collapse' }}>
-            <thead><tr><th style={{ ...th, textAlign:'left' }}>Chapter</th><th style={th}>Six-man games</th><th style={th}>Mercy-rule games</th><th style={th}>Rate</th></tr></thead>
-            <tbody>{moreMercy.cut(chapters.slice().sort((a, b) => b.blow / b.n - a.blow / a.n)).map(x => (
+            <thead><tr><SortTh s={sMercyC} k="c" text style={{ ...th, textAlign:'left' }}>Chapter</SortTh><SortTh s={sMercyC} k="n" style={th}>Six-man games</SortTh><SortTh s={sMercyC} k="blow" style={th}>Mercy-rule games</SortTh><SortTh s={sMercyC} k="rate" style={th}>Rate</SortTh></tr></thead>
+            <tbody>{moreMercy.cut(sMercyC.sort(chapters.slice().sort((a, b) => b.blow / b.n - a.blow / a.n), { c: x => x.c, n: x => x.n, blow: x => x.blow, rate: x => frac(x.blow, x.n) })).map(x => (
               <tr key={x.c}><td style={{ ...td, textAlign:'left' }}><Chip c={x.c} /></td><td style={td}>{x.n}</td><td style={{ ...td, fontWeight:700 }}>{x.blow}</td><td style={td}>{pct(x.blow, x.n)}</td></tr>
             ))}</tbody>
           </table>
@@ -492,8 +527,8 @@ export default function ScoresView({ allData, years }) {
 
       <Card n="10" title="Chapter Scoring Profiles" intro={`For the games each chapter worked (${scopeLabel}${round === 'all' ? '' : `, ${ROUNDS[round]}`}): average points, average margin, close games (8 or fewer), ${kind === 'six' ? 'mercy-rule games (45+)' : 'blowouts (35+)'} and shutouts. Chapters with at least 5 scored games.`}>
         <table style={{ width:'100%', borderCollapse:'collapse' }}>
-          <thead><tr><th style={{ ...th, textAlign:'left' }}>Chapter</th><th style={th}>Games</th><th style={th}>Avg total</th><th style={th}>Avg margin</th><th style={th}>Close</th><th style={th}>{kind === 'six' ? 'Mercy-rule' : 'Blowouts'}</th><th style={th}>Shutouts</th></tr></thead>
-          <tbody>{moreProf.cut(chapters).map(x => (
+          <thead><tr><SortTh s={sProf} k="c" text style={{ ...th, textAlign:'left' }}>Chapter</SortTh><SortTh s={sProf} k="n" style={th}>Games</SortTh><SortTh s={sProf} k="total" style={th}>Avg total</SortTh><SortTh s={sProf} k="margin" style={th}>Avg margin</SortTh><SortTh s={sProf} k="close" style={th}>Close</SortTh><SortTh s={sProf} k="blow" style={th}>{kind === 'six' ? 'Mercy-rule' : 'Blowouts'}</SortTh><SortTh s={sProf} k="shut" style={th}>Shutouts</SortTh></tr></thead>
+          <tbody>{moreProf.cut(sProf.sort(chapters, { c: x => x.c, n: x => x.n, total: x => x.total, margin: x => x.margin, close: x => x.close, blow: x => x.blow, shut: x => x.shut })).map(x => (
             <tr key={x.c}>
               <td style={{ ...td, textAlign:'left' }}><Chip c={x.c} /></td>
               <td style={td}>{x.n}</td><td style={{ ...td, fontWeight:700 }}>{f1(x.total)}</td><td style={td}>{f1(x.margin)}</td>

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useForm, ValidationError } from '@formspree/react'
 import { useCollapse, ShowMore } from '../ShowMore'
 import { PAY } from '../officialsCost'
+import { useSort, SortTh } from '../sortable'
 
 // School districts listed by the site owner for officials' pay issues, and a form to report one
 const DISTRICTS = [
@@ -28,6 +29,7 @@ const TICKET = 10   // average ticket across everyone in the stands: adults $7-$
 
 // Worked examples: what a crowd at a typical ticket price brings in, and the fee that gate should pay
 function GateExamples() {
+  const s = useSort()
   const fmt = n => `$${Math.round(n).toLocaleString()}`
   const th = { fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--mid)', padding:'6px 10px', textAlign:'right', borderBottom:'1px solid var(--border)' }
   const td = { padding:'7px 10px', fontSize:13, textAlign:'right', fontFamily:'var(--mono)', borderBottom:'1px solid var(--border)' }
@@ -44,11 +46,11 @@ function GateExamples() {
       <div style={{ overflowX:'auto' }}>
         <table style={{ borderCollapse:'collapse', minWidth:520 }}>
           <thead><tr>
-            <th style={{ ...th, textAlign:'left' }}>Stadium seats</th>
-            {[50, 75, 100].map(p => <th key={p} style={th}>{p}% full</th>)}
+            <SortTh s={s} k="cap" style={{ ...th, textAlign:'left' }}>Stadium seats</SortTh>
+            {[50, 75, 100].map(p => <SortTh key={p} s={s} k={`p${p}`} style={th}>{p}% full</SortTh>)}
           </tr></thead>
           <tbody>
-            {[3000, 6000, 10000].map(cap => (
+            {s.sort([3000, 6000, 10000], { cap: cap => cap, ...Object.fromEntries([50, 75, 100].map(p => [`p${p}`, cap => cap * p / 100 * TICKET])) }).map(cap => (
               <tr key={cap}>
                 <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans', fontWeight:600 }}>{cap.toLocaleString()}</td>
                 {[50, 75, 100].map(p => {
@@ -88,6 +90,7 @@ function StadiumPayCalc() {
   const [pick, setPick] = useState(null)
   const [price, setPrice] = useState('10')
   const [crew, setCrew] = useState(7)
+  const s = useSort()
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/stadiums.json?v=${__BUILD_TIME__}`).then(r => r.ok ? r.json() : null)
       .then(d => setStadiums((d?.stadiums || []).filter(s => s.capacity > 0))).catch(() => setStadiums([]))
@@ -154,10 +157,13 @@ function StadiumPayCalc() {
           <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, overflowX:'auto', maxWidth:860 }}>
             <table style={{ width:'100%', borderCollapse:'collapse', minWidth:560 }}>
               <thead><tr>
-                <th style={{ ...th, textAlign:'left' }}>Crowd</th><th style={th}>Fans</th><th style={th}>Gross gate</th>
-                <th style={{ ...th, color:'var(--burnt)' }}>Game fee per official</th><th style={th}>Crew of {crew}</th><th style={th}>vs. lowest band</th>
+                <SortTh s={s} k="p" style={{ ...th, textAlign:'left' }}>Crowd</SortTh><SortTh s={s} k="fans" style={th}>Fans</SortTh><SortTh s={s} k="gate" style={th}>Gross gate</SortTh>
+                <SortTh s={s} k="fee" style={{ ...th, color:'var(--burnt)' }}>Game fee per official</SortTh><SortTh s={s} k="crew" style={th}>Crew of {crew}</SortTh><SortTh s={s} k="vs" style={th}>vs. lowest band</SortTh>
               </tr></thead>
-              <tbody>{SHARES.map(p => {
+              <tbody>{(() => {
+                const fansAt = p => Math.round(pick.capacity * p / 100), feeAt = p => feeFor(fansAt(p) * ticket)
+                return s.sort(SHARES, { p: p => p, fans: fansAt, gate: p => fansAt(p) * ticket, fee: feeAt, crew: p => feeAt(p) * crew, vs: p => feeAt(p) - 100 })
+              })().map(p => {
                 const fans = Math.round(pick.capacity * p / 100), gate = fans * ticket, fee = feeFor(gate)
                 return (
                   <tr key={p}>
@@ -194,6 +200,7 @@ const GATE_BANDS = [['up to $4,000', 100], ['$4,001 – $5,000', 105], ['$5,001 
 const TRAVEL = PAY.bands.map(([miles, fee], i) => ({ n: i + 1, miles, fee, from: i ? PAY.bands[i - 1][0] + 1 : 0 }))
 function HourlyPay() {
   const [band, setBand] = useState(1)   // highlighted travel band
+  const s = useSort()
   const money = n => '$' + n.toFixed(2)
   const hr = (fee, t) => (fee + t) / HOURS
   const th = { fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.1em', textTransform:'uppercase', color:'var(--mid)', padding:'8px 10px', textAlign:'right', borderBottom:'1px solid var(--border)', whiteSpace:'nowrap' }
@@ -231,12 +238,13 @@ function HourlyPay() {
       <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, overflowX:'auto', marginBottom:14 }}>
         <table style={{ width:'100%', borderCollapse:'collapse', minWidth:640 }}>
           <thead><tr>
-            <th style={{ ...th, textAlign:'left' }}>Gross gate</th>
-            <th style={th}>Game fee</th>
-            {TRAVEL.map(t => <th key={t.n} style={{ ...th, color: band === t.n ? 'var(--burnt)' : 'var(--mid)', cursor:'pointer' }} onClick={() => setBand(t.n)}
-              title={`${t.from}–${t.miles} miles one way: $${t.fee} travel`}>Travel band {t.n}<div style={{ fontSize:8, letterSpacing:0, textTransform:'none' }}>{t.from}–{t.miles} mi one way · +${t.fee}</div></th>)}
+            <SortTh s={s} k="gate" text style={{ ...th, textAlign:'left' }}>Gross gate</SortTh>
+            <SortTh s={s} k="fee" style={th}>Game fee</SortTh>
+            {TRAVEL.map(t => { const h = s.head(`t${t.n}`)
+              return <th key={t.n} {...h} style={{ ...th, color: band === t.n ? 'var(--burnt)' : 'var(--mid)', ...h.style }} onClick={() => { setBand(t.n); h.onClick() }}
+              title={`${t.from}–${t.miles} miles one way: $${t.fee} travel`}>Travel band {t.n}{s.arrow(`t${t.n}`)}<div style={{ fontSize:8, letterSpacing:0, textTransform:'none' }}>{t.from}–{t.miles} mi one way · +${t.fee}</div></th> })}
           </tr></thead>
-          <tbody>{GATE_BANDS.map(([g, fee], i) => (
+          <tbody>{s.sort(GATE_BANDS, { gate: b => GATE_BANDS.indexOf(b), fee: ([, fee]) => fee, ...Object.fromEntries(TRAVEL.map(t => [`t${t.n}`, ([, fee]) => hr(fee, t.fee)])) }).map(b => { const [g, fee] = b, i = GATE_BANDS.indexOf(b); return (
             <tr key={g} style={{ background: i === 0 ? 'rgba(253,208,35,0.12)' : 'transparent' }}>
               <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans' }}>{g}{i === GATE_BANDS.length - 1 ? ' (then +$45 for each $5,000 more)' : ''}</td>
               <td style={td}>${fee}</td>
@@ -246,7 +254,7 @@ function HourlyPay() {
                 </td>
               ))}
             </tr>
-          ))}</tbody>
+          ) })}</tbody>
         </table>
       </div>
 

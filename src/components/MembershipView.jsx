@@ -8,6 +8,7 @@ import { CHAPTER_CENTERS } from '../chapterCenters'
 import CoverageDensity from './CoverageDensity'
 import SizeVsShare from './SizeVsShare'
 import { useCollapse, ShowMore } from '../ShowMore'
+import { useSort, SortTh } from '../sortable'
 
 const NAMES = {
   ABI:'Abilene', AMA:'Amarillo', AUS:'Austin', BEA:'Southeast Texas (Beaumont)', COM:'Commerce', CSC:'College Station',
@@ -22,6 +23,7 @@ export default function MembershipView({ allData, years, loadAllYears }) {
   const [st, setSt] = useState(null)
   const [sites, setSites] = useState([])
   const more = useCollapse()
+  const s = useSort()
   useEffect(() => {
     const get = f => fetch(`${import.meta.env.BASE_URL}data/${f}?v=${__BUILD_TIME__}`).then(r => r.ok ? r.json() : null)
     get('membership.json').then(setD).catch(() => {})
@@ -66,13 +68,13 @@ export default function MembershipView({ allData, years, loadAllYears }) {
       <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, overflowX:'auto' }}>
         <table style={{ width:'100%', borderCollapse:'collapse' }}>
           <thead><tr>
-            <th style={{ ...th, textAlign:'left' }}>Chapter</th>
-            <th style={th}>Members</th>
-            <th style={th}>Share</th>
+            <SortTh s={s} k="name" text style={{ ...th, textAlign:'left' }}>Chapter</SortTh>
+            <SortTh s={s} k="members" style={th}>Members</SortTh>
+            <SortTh s={s} k="share" style={th}>Share</SortTh>
             <th style={{ ...th, width:'40%' }}></th>
           </tr></thead>
           <tbody>
-            {more.cut(rows).map(([c, n]) => (
+            {more.cut(s.sort(rows, { name: ([c]) => NAMES[c] || c, members: ([, n]) => n, share: ([, n]) => n / total })).map(([c, n]) => (
               <tr key={c}>
                 <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans' }}>
                   <span style={{ display:'inline-block', width:9, height:9, borderRadius:2, background:chapterColor(c), marginRight:8 }} />
@@ -113,6 +115,7 @@ const MERGED = { ETX: 'TYL' }
 function MembershipHistory({ d, th, td }) {
   const years = Object.keys(d.history).sort()
   const more = useCollapse()
+  const s = useSort()
   const first = years[0]
   const past = (y, c) => {
     const h = d.history[y] || {}
@@ -136,12 +139,14 @@ function MembershipHistory({ d, th, td }) {
       note={d.history_note} after={<ShowMore c={more} total={rows.length} noun="chapters" />}>
       <table style={{ width:'100%', borderCollapse:'collapse' }}>
         <thead><tr>
-          <th style={{ ...th, textAlign:'left' }}>Chapter</th>
-          {years.map(y => <th key={y} style={th}>{y}</th>)}
-          <th style={th}>{d.season}</th><th style={th}>Change</th><th style={th}>% change</th>
+          <SortTh s={s} k="name" text style={{ ...th, textAlign:'left' }}>Chapter</SortTh>
+          {years.map(y => <SortTh key={y} s={s} k={`y${y}`} style={th}>{y}</SortTh>)}
+          <SortTh s={s} k="now" style={th}>{d.season}</SortTh><SortTh s={s} k="diff" style={th}>Change</SortTh><SortTh s={s} k="pc" style={th}>% change</SortTh>
         </tr></thead>
         <tbody>
-          {more.cut(rows).map(([c, n]) => (
+          {more.cut(s.sort(rows, { name: ([c]) => name(c), now: ([, n]) => n, ...Object.fromEntries(years.map(y => [`y${y}`, ([c]) => past(y, c)])),
+            diff: ([c, n]) => { const a = past(first, c); return a == null ? null : n - a },
+            pc: ([c, n]) => { const a = past(first, c); return a == null ? null : 100 * (n - a) / a } })).map(([c, n]) => (
             <tr key={c}>
               <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans' }}><Dot c={c} />{name(c)}
                 <span style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginLeft:4 }}>{c}</span></td>
@@ -205,10 +210,11 @@ function MembershipStats({ st, th, td }) {
   const avgSeason = 100 * T.season_games / T.members, avgHist = 100 * T.hist_games / T.members / (st.history_seasons || 5)
   const complete = new Set(st.complete_lists)
   const moreWork = useCollapse(), moreCover = useCollapse(), moreLate = useCollapse()
+  const sWork = useSort(), sCover = useSort()
   const work = [...ch].sort((a, b) => perSeason(b[1]) - perSeason(a[1]))
   const cover = [...ch].sort((a, b) => (complete.has(b[0]) - complete.has(a[0])) || (b[1].counties / b[1].members) - (a[1].counties / a[1].members))
   // Later Rounds table: sortable by any column (click a header; click again to flip the order)
-  const [lateSort, setLateSort] = useState({ key: 'ratio', dir: -1 })
+  const sLate = useSort('ratio', -1)
   const lateVal = {
     name: ([c]) => name(c),
     members: ([, x]) => share(x),
@@ -216,16 +222,8 @@ function MembershipStats({ st, th, td }) {
     share: ([, x]) => x.late_games / T.late_games,
     ratio: ([, x]) => (x.late_games / T.late_games) / share(x),
   }
-  const late = [...ch].sort((a, b) => {
-    const f = lateVal[lateSort.key], va = f(a), vb = f(b)
-    return (typeof va === 'string' ? va.localeCompare(vb) : va - vb) * lateSort.dir
-  })
-  const sortTh = (key, label, left) => (
-    <th onClick={() => setLateSort(s => ({ key, dir: s.key === key ? -s.dir : (key === 'name' ? 1 : -1) }))}
-      title="Sort by this column" style={{ ...th, ...(left ? { textAlign:'left' } : {}), cursor:'pointer', userSelect:'none', color: lateSort.key === key ? 'var(--burnt)' : th.color }}>
-      {label} {lateSort.key === key ? (lateSort.dir > 0 ? '▲' : '▼') : <span style={{ opacity:0.35 }}>↕</span>}
-    </th>
-  )
+  const late = sLate.sort(ch, lateVal)
+  const sortTh = (key, label, left) => <SortTh s={sLate} k={key} text={key === 'name'} style={{ ...th, ...(left ? { textAlign:'left' } : {}) }}>{label}</SortTh>
   return (
     <>
       <Section label="Workload" title="Playoff Games per 100 Members"
@@ -234,11 +232,12 @@ function MembershipStats({ st, th, td }) {
         after={<ShowMore c={moreWork} total={work.length} noun="chapters" />}>
         <table style={{ width:'100%', borderCollapse:'collapse' }}>
           <thead><tr>
-            <th style={{ ...th, textAlign:'left' }}>Chapter</th><th style={th}>Members</th>
-            <th style={th}>{st.season} games{st.season_weeks?.length ? ` (wk ${st.season_weeks.join(', ')})` : ''}</th><th style={th}>Per 100 members</th><th style={th}>vs. size</th>
-            <th style={th}>All seasons on file ({st.history_seasons})</th><th style={th}>Per 100 / season</th><th style={th}>vs. size</th>
+            <SortTh s={sWork} k="name" text style={{ ...th, textAlign:'left' }}>Chapter</SortTh><SortTh s={sWork} k="members" style={th}>Members</SortTh>
+            <SortTh s={sWork} k="sg" style={th}>{st.season} games{st.season_weeks?.length ? ` (wk ${st.season_weeks.join(', ')})` : ''}</SortTh><SortTh s={sWork} k="sp" style={th}>Per 100 members</SortTh><SortTh s={sWork} k="sr" style={th}>vs. size</SortTh>
+            <SortTh s={sWork} k="hg" style={th}>All seasons on file ({st.history_seasons})</SortTh><SortTh s={sWork} k="hp" style={th}>Per 100 / season</SortTh><SortTh s={sWork} k="hr" style={th}>vs. size</SortTh>
           </tr></thead>
-          <tbody>{moreWork.cut(work).map(([c, x]) => (
+          <tbody>{moreWork.cut(sWork.sort(work, { name: ([c]) => name(c), members: ([, x]) => x.members, sg: ([, x]) => x.season_games, sp: ([, x]) => perSeason(x),
+            sr: ([, x]) => perSeason(x) / avgSeason, hg: ([, x]) => x.hist_games, hp: ([, x]) => perHist(x), hr: ([, x]) => perHist(x) / avgHist })).map(([c, x]) => (
             <tr key={c}>
               <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans' }}><Dot c={c} />{name(c)}</td>
               <td style={td}>{x.members.toLocaleString()}</td>
@@ -256,10 +255,12 @@ function MembershipStats({ st, th, td }) {
         after={<ShowMore c={moreCover} total={cover.length} noun="chapters" />}>
         <table style={{ width:'100%', borderCollapse:'collapse' }}>
           <thead><tr>
-            <th style={{ ...th, textAlign:'left' }}>Chapter</th><th style={th}>Members</th><th style={th}>Home schools</th>
-            <th style={th}>Members per school</th><th style={th}>Counties</th><th style={th}>Counties per 100 members</th>
+            <SortTh s={sCover} k="name" text style={{ ...th, textAlign:'left' }}>Chapter</SortTh><SortTh s={sCover} k="members" style={th}>Members</SortTh><SortTh s={sCover} k="schools" style={th}>Home schools</SortTh>
+            <SortTh s={sCover} k="mps" style={th}>Members per school</SortTh><SortTh s={sCover} k="counties" style={th}>Counties</SortTh><SortTh s={sCover} k="cpm" style={th}>Counties per 100 members</SortTh>
           </tr></thead>
-          <tbody>{moreCover.cut(cover).map(([c, x]) => complete.has(c) ? (
+          <tbody>{moreCover.cut(sCover.sort(cover, { name: ([c]) => name(c), members: ([, x]) => x.members,
+            schools: ([c, x]) => complete.has(c) ? x.schools : null, mps: ([c, x]) => complete.has(c) && x.schools ? x.members / x.schools : null,
+            counties: ([c, x]) => complete.has(c) ? x.counties : null, cpm: ([c, x]) => complete.has(c) ? 100 * x.counties / x.members : null })).map(([c, x]) => complete.has(c) ? (
             <tr key={c}>
               <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans' }}><Dot c={c} />{name(c)}</td>
               <td style={td}>{x.members.toLocaleString()}</td><td style={td}>{x.schools}</td>

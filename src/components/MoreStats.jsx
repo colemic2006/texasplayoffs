@@ -6,6 +6,7 @@ import { gameCost } from '../officialsCost'
 import { useHomeChaptersByYear } from '../homeChapters'
 import { roundsToShow, isInProgress, upcomingBtn, upcomingCell, UPCOMING, UPCOMING_TIP } from '../upcoming'
 import { useCollapse, ShowMore } from '../ShowMore'
+import { useSort, SortTh } from '../sortable'
 
 // More cards from the season data: whether teams keep a chapter after a win, rematches and their
 // chapters, what outside crews cost, long trips, and playoff pay per member.
@@ -77,6 +78,7 @@ export function StickWithCrew({ data, allData = {}, years = [] }) {
   const year = data?.games?.[0]?.year
   const [scope, setScope] = useState('season')
   const byYear = useHomeChaptersByYear()
+  const s = useSort()
   const seasons = scope === 'season' ? [year] : years.filter(y => allData[y]?.games?.length).sort((a, b) => a - b)
   const rows = useMemo(() => {
     if (!byYear) return null
@@ -113,13 +115,15 @@ export function StickWithCrew({ data, allData = {}, years = [] }) {
       <div style={box}>
         <table style={{ width:'100%', borderCollapse:'collapse', minWidth:640 }}>
           <thead><tr>
-            <th style={{ ...th, textAlign:'left' }}>Next game</th>
-            <th style={{ ...th, color:'var(--burnt)' }}>Kept the chapter</th>
-            <th style={th}>…when it was their home chapter</th>
-            <th style={th}>…when it was an outside chapter</th>
-            <th style={th}>Switched to the opponent's chapter</th>
+            <SortTh s={s} k="w" text style={{ ...th, textAlign:'left' }}>Next game</SortTh>
+            <SortTh s={s} k="kept" style={{ ...th, color:'var(--burnt)' }}>Kept the chapter</SortTh>
+            <SortTh s={s} k="home" style={th}>…when it was their home chapter</SortTh>
+            <SortTh s={s} k="out" style={th}>…when it was an outside chapter</SortTh>
+            <SortTh s={s} k="opp" style={th}>Switched to the opponent's chapter</SortTh>
           </tr></thead>
-          <tbody>{show.map(w => {
+          <tbody>{[...s.sort(show.filter(w => rows[w]), { w: w => w, kept: w => rows[w].n ? pct(rows[w].kept, rows[w].n) : null,
+            home: w => rows[w].homeN ? pct(rows[w].homeKept, rows[w].homeN) : null, out: w => rows[w].outN ? pct(rows[w].outKept, rows[w].outN) : null,
+            opp: w => rows[w].n - rows[w].kept ? rows[w].toOpp : null }), ...show.filter(w => !rows[w])].map(w => {
             const r = rows[w]
             if (!r) return <tr key={w} title={UPCOMING_TIP}><td style={{ ...td, textAlign:'left', fontFamily:'DM Sans', opacity:0.55 }}>{weekLabel(w, ROUNDS[w])}</td><td colSpan={4} style={{ ...td, ...upcomingCell, textAlign:'center' }}>{UPCOMING}</td></tr>
             const sw = r.n - r.kept
@@ -205,6 +209,7 @@ export function OutsideCrewCost({ data }) {
   const games = data?.games || [], year = games[0]?.year
   const [wk, setWk] = useState('all')
   const more = useCollapse()
+  const s = useSort()
   const all = useMemo(() => games.map(g => {
     const actual = g.chapter && g.lat != null ? gameCost({ ...g, chapter: code(g.chapter) }) : null
     if (!actual) return null
@@ -231,8 +236,8 @@ export function OutsideCrewCost({ data }) {
       <div style={{ display:'flex', gap:14, flexWrap:'wrap', alignItems:'flex-start' }}>
         <div style={{ ...box, flex:'1 1 360px' }}>
           <table style={{ width:'100%', borderCollapse:'collapse' }}>
-            <thead><tr><th style={{ ...th, textAlign:'left' }}>Chapter picked</th><th style={th}>Games it wasn't nearest</th><th style={{ ...th, color:'var(--burnt)' }}>Extra cost</th></tr></thead>
-            <tbody>{more.cut(rows).map(r => (
+            <thead><tr><SortTh s={s} k="name" text style={{ ...th, textAlign:'left' }}>Chapter picked</SortTh><SortTh s={s} k="n" style={th}>Games it wasn't nearest</SortTh><SortTh s={s} k="extra" style={{ ...th, color:'var(--burnt)' }}>Extra cost</SortTh></tr></thead>
+            <tbody>{more.cut(s.sort(rows, { name: r => name(r.c), n: r => r.n, extra: r => r.extra })).map(r => (
               <tr key={r.c}><td style={{ ...td, textAlign:'left', fontFamily:'DM Sans' }}>{dot(r.c)}{name(r.c)}</td><td style={td}>{r.n}</td><td style={{ ...td, fontWeight:700 }}>{usd(r.extra)}</td></tr>
             ))}</tbody>
           </table>
@@ -260,6 +265,7 @@ export function LongTrips({ data }) {
   const games = data?.games || [], year = games[0]?.year
   const [wk, setWk] = useState('all')
   const more = useCollapse(), moreG = useCollapse()
+  const s = useSort()
   const all = useMemo(() => games.map(g => {
     const c = g.chapter && g.lat != null ? gameCost({ ...g, chapter: code(g.chapter) }) : null
     return c && c.oneWay > 90 ? { g, ch: code(g.chapter), c } : null
@@ -280,8 +286,8 @@ export function LongTrips({ data }) {
         costing an estimated <strong>{usd(total)}</strong> for those crews ({shown.length ? usd(total / shown.length) : '$0'} a game).</div>
       <div style={{ ...box, marginBottom:4 }}>
         <table style={{ width:'100%', borderCollapse:'collapse', minWidth:620 }}>
-          <thead><tr><th style={{ ...th, textAlign:'left' }}>Chapter</th><th style={{ ...th, color:'var(--burnt)' }}>Long trips</th><th style={th}>Est. cost</th><th style={{ ...th, textAlign:'left' }}>Longest</th></tr></thead>
-          <tbody>{more.cut(rows).map(r => (
+          <thead><tr><SortTh s={s} k="name" text style={{ ...th, textAlign:'left' }}>Chapter</SortTh><SortTh s={s} k="n" style={{ ...th, color:'var(--burnt)' }}>Long trips</SortTh><SortTh s={s} k="cost" style={th}>Est. cost</SortTh><SortTh s={s} k="far" style={{ ...th, textAlign:'left' }}>Longest</SortTh></tr></thead>
+          <tbody>{more.cut(s.sort(rows, { name: r => name(r.c), n: r => r.n, cost: r => r.cost, far: r => r.far.c.oneWay })).map(r => (
             <tr key={r.c}>
               <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans', whiteSpace:'nowrap' }}>{dot(r.c)}{name(r.c)}</td>
               <td style={{ ...td, fontWeight:700 }}>{r.n}</td>
@@ -317,6 +323,7 @@ export function PayPerMember({ members = {}, allData = {}, years = [] }) {
   const year = Math.max(...years.filter(y => allData[y]?.games?.length))
   const data = allData[year]
   const more = useCollapse()
+  const s = useSort()
   const rows = useMemo(() => {
     if (!data) return []
     const by = {}
@@ -344,10 +351,10 @@ export function PayPerMember({ members = {}, allData = {}, years = [] }) {
       <div style={box}>
         <table style={{ width:'100%', borderCollapse:'collapse', minWidth:640 }}>
           <thead><tr>
-            <th style={{ ...th, textAlign:'left' }}>Chapter</th><th style={th}>Members</th><th style={th}>Games</th><th style={th}>Games per 100 members</th>
-            <th style={th}>Est. crew pay</th><th style={{ ...th, color:'var(--burnt)' }}>Per member</th><th style={{ ...th, width:'20%' }} />
+            <SortTh s={s} k="name" text style={{ ...th, textAlign:'left' }}>Chapter</SortTh><SortTh s={s} k="m" style={th}>Members</SortTh><SortTh s={s} k="games" style={th}>Games</SortTh><SortTh s={s} k="per100" style={th}>Games per 100 members</SortTh>
+            <SortTh s={s} k="pay" style={th}>Est. crew pay</SortTh><SortTh s={s} k="per" style={{ ...th, color:'var(--burnt)' }}>Per member</SortTh><th style={{ ...th, width:'20%' }} />
           </tr></thead>
-          <tbody>{more.cut(rows).map(r => (
+          <tbody>{more.cut(s.sort(rows, { name: r => name(r.c), m: r => r.m, games: r => r.games, per100: r => r.per100, pay: r => r.pay, per: r => r.per })).map(r => (
             <tr key={r.c}>
               <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans', whiteSpace:'nowrap' }}>{dot(r.c)}{name(r.c)}</td>
               <td style={td}>{r.m.toLocaleString()}</td><td style={td}>{r.games}</td><td style={td}>{r.per100.toFixed(1)}</td>

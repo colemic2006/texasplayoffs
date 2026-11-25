@@ -4,6 +4,7 @@ import { chapterColor } from '../chapterColors'
 import { roundName } from '../roundName'
 import { roundsToShow, isInProgress, upcomingCell, UPCOMING, UPCOMING_TIP } from '../upcoming'
 import { useCollapse, ShowMore } from '../ShowMore'
+import { useSort, SortTh } from '../sortable'
 
 const ROUNDS = { 1: 'Bi-District', 2: 'Area', 3: 'Regionals', 4: 'Quarterfinals', 5: 'Semifinals', 6: 'State Final' }
 const pct = (n, of) => of ? Math.round(100 * n / of) : 0
@@ -21,6 +22,7 @@ export default function LocalMatchups({ data, allData = {}, years = [], loadAllY
   const status = useHomeChapterStatus()
   const [open, setOpen] = useState(null)
   const more = useCollapse()
+  const sRound = useSort(), sTrend = useSort()
   const [show, setShow] = useState('all')   // all | kept | away
   const [ch, setCh] = useState('')          // a chapter, as home chapter or the one that worked it
   const rounds = useMemo(() => {
@@ -89,13 +91,14 @@ export default function LocalMatchups({ data, allData = {}, years = [], loadAllY
       <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, overflowX:'auto' }}>
         <table style={{ width:'100%', borderCollapse:'collapse' }}>
           <thead><tr>
-            <th style={{ ...th, textAlign:'left' }}>Round</th>
-            <th style={th}>Same-chapter matchups</th>
-            <th style={{ ...th, color:'var(--burnt)' }}>Picked their home chapter</th>
+            <SortTh s={sRound} k="week" text style={{ ...th, textAlign:'left' }}>Round</SortTh>
+            <SortTh s={sRound} k="local" style={th}>Same-chapter matchups</SortTh>
+            <SortTh s={sRound} k="kept" style={{ ...th, color:'var(--burnt)' }}>Picked their home chapter</SortTh>
             <th style={{ ...th, width:'28%' }}></th>
           </tr></thead>
           <tbody>
-            {roundsToShow(rounds.map(r => r.week), isInProgress(data)).map(w => rounds.find(r => r.week === w) || { week: w, upcoming: true }).map(r => {
+            {(list => [...sRound.sort(list.filter(r => !r.upcoming), { week: r => r.week, local: r => r.local.length, kept: r => r.local.length ? pct(r.kept.length, r.local.length) : null }), ...list.filter(r => r.upcoming)])(
+              roundsToShow(rounds.map(r => r.week), isInProgress(data)).map(w => rounds.find(r => r.week === w) || { week: w, upcoming: true })).map(r => {
               if (r.upcoming) return (
                 <tr key={r.week} title={UPCOMING_TIP}>
                   <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans', opacity:0.55 }}><strong>{ROUNDS[r.week]}</strong> <span style={{ color:'var(--mid)', fontSize:11 }}>· Week {r.week}</span></td>
@@ -170,14 +173,14 @@ export default function LocalMatchups({ data, allData = {}, years = [], loadAllY
           <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--mid)', padding:'12px 10px 4px' }}>Every season on file</div>
           <table style={{ width:'100%', borderCollapse:'collapse' }}>
             <thead><tr>
-              <th style={{ ...th, textAlign:'left' }}>Season</th>
-              <th style={th}>Same-chapter matchups</th>
-              <th style={th}>Kept home chapter</th>
-              <th style={{ ...th, color:'var(--burnt)' }}>Went elsewhere</th>
-              <th style={{ ...th, width:'30%' }}>Share kept</th>
+              <SortTh s={sTrend} k="y" style={{ ...th, textAlign:'left' }}>Season</SortTh>
+              <SortTh s={sTrend} k="local" style={th}>Same-chapter matchups</SortTh>
+              <SortTh s={sTrend} k="kept" style={th}>Kept home chapter</SortTh>
+              <SortTh s={sTrend} k="away" style={{ ...th, color:'var(--burnt)' }}>Went elsewhere</SortTh>
+              <SortTh s={sTrend} k="share" style={{ ...th, width:'30%' }}>Share kept</SortTh>
             </tr></thead>
             <tbody>
-              {trend.map(t => {
+              {sTrend.sort(trend, { y: t => t.y, local: t => t.local, kept: t => t.kept, away: t => t.away, share: t => pct(t.kept, t.local) }).map(t => {
                 const p = pct(t.kept, t.local)
                 return (
                   <tr key={t.y} style={{ background: t.y === season ? 'rgba(70,29,124,0.05)' : 'transparent' }}>

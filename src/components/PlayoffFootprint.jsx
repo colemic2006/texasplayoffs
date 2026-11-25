@@ -7,6 +7,7 @@ import { roundsToShow, isInProgress, upcomingBtn, UPCOMING_TIP } from '../upcomi
 import { CHAPTER_CENTERS } from '../chapterCenters'
 import { hull, median, miles } from './ChapterCoverageMap'
 import { useCollapse, ShowMore } from '../ShowMore'
+import { useSort, SortTh } from '../sortable'
 
 // Where each chapter worked playoff games, round by round: the outline around its game sites
 // (its playoff footprint), or lines from the chapter's home city to each site, set against the
@@ -40,6 +41,7 @@ export default function PlayoffFootprint({ data }) {
   const [home, setHome] = useState(true)   // show the chapter's regular-season area
   const [schools, setSchools] = useState(null)
   const more = useCollapse()
+  const s = useSort()
   const mapEl = useRef(null), map = useRef(null), layer = useRef(null)
   const wk = week ?? weeks[weeks.length - 1]
 
@@ -193,14 +195,14 @@ export default function PlayoffFootprint({ data }) {
       <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, overflowX:'auto' }}>
         <table style={{ width:'100%', borderCollapse:'collapse', minWidth:640 }}>
           <thead><tr>
-            <th style={{ ...th, textAlign:'left' }}>Chapter</th>
-            <th style={th}>Games on map</th>
-            <th style={th}>In its own area</th>
-            <th style={th}>Median miles from home city</th>
-            <th style={{ ...th, textAlign:'left' }}>Farthest game</th>
+            <SortTh s={s} k="name" text style={{ ...th, textAlign:'left' }}>Chapter</SortTh>
+            <SortTh s={s} k="games" style={th}>Games on map</SortTh>
+            <SortTh s={s} k="inHome" style={th}>In its own area</SortTh>
+            <SortTh s={s} k="med" style={th}>Median miles from home city</SortTh>
+            <SortTh s={s} k="far" style={{ ...th, textAlign:'left' }}>Farthest game</SortTh>
           </tr></thead>
           <tbody>
-            {more.cut(rows).map(r => (
+            {more.cut(s.sort(rows, { name: r => NAMES[r.c] || r.c, games: r => r.games.length, inHome: r => r.inHome, med: r => r.med, far: r => r.far ? r.max : null })).map(r => (
               <tr key={r.c} onClick={() => setPick(pick === r.c ? null : r.c)} style={{ cursor:'pointer', background: pick === r.c ? 'rgba(253,208,35,0.18)' : 'transparent' }}>
                 <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans', whiteSpace:'nowrap' }}>
                   <span style={{ display:'inline-block', width:8, height:8, borderRadius:'50%', background:chapterColor(r.c), marginRight:6 }} />{NAMES[r.c] || r.c}</td>

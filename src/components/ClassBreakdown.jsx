@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react'
 import { chapterColor } from '../chapterColors'
 import { useCollapse, ShowMore } from '../ShowMore'
+import { useSort, SortTh } from '../sortable'
 
 // Which chapters have worked which classifications, across every season on file.
 // Before 2014 UIL's top class was 5A and six-man was its own class; in 2014 every class moved up one
@@ -32,6 +33,7 @@ export default function ClassBreakdown({ allData, years, loadAllYears }) {
   const [focus, setFocus] = useState('6A')
   const [pick, setPick] = useState(null)
   const more = useCollapse()
+  const s = useSort()
   useEffect(() => { loadAllYears?.() }, [])
 
   const loaded = years.filter(y => allData[y]?.games?.length)
@@ -122,10 +124,11 @@ export default function ClassBreakdown({ allData, years, loadAllYears }) {
       <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, overflowX:'auto' }}>
         <table style={{ width:'100%', borderCollapse:'collapse' }}>
           <thead><tr>
-            <th style={{ ...th, textAlign:'left' }}>Chapter</th>
-            {cols.map(c => <th key={c} style={{ ...th, color: focusCols.includes(c) ? 'var(--burnt)' : 'var(--mid)', cursor:'pointer' }}
-              onClick={() => setFocus(c.split(' D')[0])}>{c}</th>)}
-            <th style={th}>Total</th>
+            <SortTh s={s} k="name" text style={{ ...th, textAlign:'left' }}>Chapter</SortTh>
+            {cols.map(c => { const h = s.head(`c:${c}`)
+              return <th key={c} {...h} style={{ ...th, color: focusCols.includes(c) ? 'var(--burnt)' : 'var(--mid)', ...h.style }}
+              onClick={() => { setFocus(c.split(' D')[0]); h.onClick() }}>{c}{s.arrow(`c:${c}`)}</th> })}
+            <SortTh s={s} k="total" style={th}>Total</SortTh>
           </tr></thead>
           <tbody>
             {unit === 'pct' && (
@@ -133,7 +136,7 @@ export default function ClassBreakdown({ allData, years, loadAllYears }) {
                 {cols.map(c => <td key={c} style={{ ...td, color:'var(--mid)', fontSize:11 }}>{colTotal[c]}</td>)}
                 <td style={{ ...td, color:'var(--mid)', fontSize:11 }}>{allTotal}</td></tr>
             )}
-            {more.cut(sorted).map(r => (
+            {more.cut(s.sort(sorted, { name: r => NAMES[r.code] || r.code, total: r => r.total, ...Object.fromEntries(cols.map(c => [`c:${c}`, r => val(r, c)])) })).map(r => (
               <tr key={r.code} onClick={() => setPick(pick === r.code ? null : r.code)} style={{ cursor:'pointer', outline: pick === r.code ? '2px solid var(--burnt)' : 'none', outlineOffset:-2 }}>
                 <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans', whiteSpace:'nowrap' }}>
                   <span style={{ display:'inline-block', width:8, height:8, borderRadius:'50%', background:chapterColor(r.code), marginRight:6 }} />
@@ -163,6 +166,8 @@ function ChapterDetail({ sel, cols, years }) {
   const th = { fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.1em', textTransform:'uppercase', color:'var(--mid)', padding:'6px 8px', textAlign:'center', borderBottom:'1px solid var(--border)' }
   const td = { padding:'5px 8px', borderBottom:'1px solid var(--border)', fontSize:12, textAlign:'center', fontFamily:'var(--mono)' }
   const max = Math.max(1, ...cols.map(c => sel.by[c] || 0))
+  const s = useSort()
+  const tot = y => cols.reduce((t, c) => t + ((sel.years[y] || {})[c] || 0), 0)
   return (
     <div style={{ background:'var(--surface)', border:'2px solid var(--burnt)', borderRadius:10, padding:'14px 16px', marginTop:12 }}>
       <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:22, color:'var(--ink)', marginBottom:8 }}>{NAMES[sel.code] || sel.code} · {sel.total} playoff games</div>
@@ -179,9 +184,9 @@ function ChapterDetail({ sel, cols, years }) {
         </div>
         <div style={{ flex:'2 1 420px', overflowX:'auto' }}>
           <table style={{ borderCollapse:'collapse', width:'100%' }}>
-            <thead><tr><th style={{ ...th, textAlign:'left' }}>Season</th>{cols.map(c => <th key={c} style={th}>{c}</th>)}<th style={th}>Total</th></tr></thead>
+            <thead><tr><SortTh s={s} k="season" style={{ ...th, textAlign:'left' }}>Season</SortTh>{cols.map(c => <SortTh key={c} s={s} k={`c:${c}`} style={th}>{c}</SortTh>)}<SortTh s={s} k="total" style={th}>Total</SortTh></tr></thead>
             <tbody>
-              {years.map(y => {
+              {s.sort(years, { season: y => y, total: tot, ...Object.fromEntries(cols.map(c => [`c:${c}`, y => (sel.years[y] || {})[c] || 0])) }).map(y => {
                 const r = sel.years[y] || {}
                 const t = cols.reduce((s, c) => s + (r[c] || 0), 0)
                 return (

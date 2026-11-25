@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react'
 import { chapterColor } from '../chapterColors'
 import { placeName } from '../placeName'
 import { useCollapse, ShowMore } from '../ShowMore'
+import { useSort, SortTh } from '../sortable'
 
 // Each chapter's most-worked playoff sites. Games at the same stadium share a map pin, so they're
 // grouped by spot (to ~100 m) rather than by how the site was written. Uses every season that has
@@ -18,6 +19,7 @@ export default function FavoriteSites({ data, allData, loadAllYears }) {
   const [allSites, setAllSites] = useState(false)   // in an opened chapter, also list sites worked only once
   const [span, setSpan] = useState('all')   // 'all' seasons with sites, or 'year' (the season being viewed)
   const more = useCollapse()
+  const s = useSort()
   useEffect(() => { loadAllYears?.() }, [])
   const thisYear = data?.games?.[0]?.year
   const seasons = useMemo(() => {
@@ -69,11 +71,11 @@ export default function FavoriteSites({ data, allData, loadAllYears }) {
       <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, overflowX:'auto' }}>
         <table style={{ width:'100%', borderCollapse:'collapse' }}>
           <thead><tr>
-            <th style={th}>Chapter</th><th style={th}>Most-worked site</th>
-            <th style={{ ...th, textAlign:'right' }}>Games there</th><th style={{ ...th, textAlign:'right' }}>Sites worked</th>
+            <SortTh s={s} k="name" text style={th}>Chapter</SortTh><SortTh s={s} k="site" text style={th}>Most-worked site</SortTh>
+            <SortTh s={s} k="there" style={{ ...th, textAlign:'right' }}>Games there</SortTh><SortTh s={s} k="sites" style={{ ...th, textAlign:'right' }}>Sites worked</SortTh>
           </tr></thead>
           <tbody>
-            {more.cut(rows).map(r => {
+            {more.cut(s.sort(rows, { name: r => NAMES[r.code] || r.code, site: r => r.top[0].n > 1 ? r.top[0].name : null, there: r => r.top[0].n > 1 ? r.top[0].n : null, sites: r => r.sites.length })).map(r => {
               const n = r.top[0].n, isOpen = open === r.code
               return (
                 <React.Fragment key={r.code}>

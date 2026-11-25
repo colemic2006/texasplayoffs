@@ -5,6 +5,7 @@ import { CHAPTER_CENTERS, straightMiles } from '../chapterCenters'
 import { useHomeChaptersByYear } from '../homeChapters'
 import { roundsToShow, isInProgress, upcomingBtn, upcomingCell, UPCOMING, UPCOMING_TIP } from '../upcoming'
 import { useCollapse, ShowMore } from '../ShowMore'
+import { useSort, SortTh } from '../sortable'
 
 // Cards on the Coverage Map page that follow from the playoff footprints: chapters trading
 // territory, who works El Paso's games, the big chapters' growing share, which chapters' schools
@@ -72,6 +73,7 @@ function Trade({ a, b, data, allData, seasons, byYear }) {
   const weeks = [...new Set(games.filter(g => g.chapter).map(g => g.week))].sort((x, y) => x - y)
   const [wk, setWk] = useState('all')
   const moreAB = useCollapse(), moreBA = useCollapse(), moreHist = useCollapse()
+  const sHist = useSort()
   const hm = byYear(year)
   // games chapter x worked with a school from y's area and none from its own
   const into = (gs, hmap, x, y) => gs.filter(g => code(g.chapter) === x && homes(g, hmap).includes(y) && !homes(g, hmap).includes(x))
@@ -109,8 +111,8 @@ function Trade({ a, b, data, allData, seasons, byYear }) {
       {seasons.length > 1 && (
         <div style={{ ...box, marginTop:12, maxWidth:560 }}>
           <table style={{ width:'100%', borderCollapse:'collapse' }}>
-            <thead><tr><th style={{ ...th, textAlign:'left' }}>Season</th><th style={th}>{name(a)} → {name(b)} schools</th><th style={th}>{name(b)} → {name(a)} schools</th></tr></thead>
-            <tbody>{moreHist.cut([...history].reverse()).map(h => (
+            <thead><tr><SortTh s={sHist} k="y" style={{ ...th, textAlign:'left' }}>Season</SortTh><SortTh s={sHist} k="ab" style={th}>{name(a)} → {name(b)} schools</SortTh><SortTh s={sHist} k="ba" style={th}>{name(b)} → {name(a)} schools</SortTh></tr></thead>
+            <tbody>{moreHist.cut(sHist.sort([...history].reverse(), { y: h => h.y, ab: h => h.ab, ba: h => h.ba })).map(h => (
               <tr key={h.y}><td style={{ ...td, textAlign:'left' }}>{h.y}</td><td style={td}>{h.ab}</td><td style={td}>{h.ba}</td></tr>
             ))}</tbody>
           </table>
@@ -129,6 +131,7 @@ const inEP = g => g.lat != null && straightMiles(EP[0], EP[1], g.lat, g.lng) <= 
 function ElPaso({ data, allData, seasons, byYear }) {
   const year = data?.games?.[0]?.year
   const moreRows = useCollapse(), moreNow = useCollapse()
+  const s = useSort()
   const withSites = seasons.filter(y => (allData[y]?.games || []).some(g => g.lat != null))
   const rows = withSites.map(y => {
     const m = byYear(y), all = allData[y]?.games || []
@@ -154,8 +157,8 @@ function ElPaso({ data, allData, seasons, byYear }) {
       intro={<>Playoff games played in the El Paso area, and the chapter that worked them. The El Paso chapter works almost none of them; the crews come from hundreds of miles away.</>}>
       <div style={{ ...box, marginBottom:12 }}>
         <table style={{ width:'100%', borderCollapse:'collapse', minWidth:620 }}>
-          <thead><tr><th style={{ ...th, textAlign:'left' }}>Season</th><th style={th}>Games played in El Paso area</th><th style={th}>Worked by El Paso</th><th style={{ ...th, textAlign:'left' }}>Worked by others</th><th style={th}>El Paso-school games, no site on file</th></tr></thead>
-          <tbody>{moreRows.cut([...rows].reverse()).map(r => (
+          <thead><tr><SortTh s={s} k="y" style={{ ...th, textAlign:'left' }}>Season</SortTh><SortTh s={s} k="n" style={th}>Games played in El Paso area</SortTh><SortTh s={s} k="elp" style={th}>Worked by El Paso</SortTh><SortTh s={s} k="others" style={{ ...th, textAlign:'left' }}>Worked by others</SortTh><SortTh s={s} k="unknown" style={th}>El Paso-school games, no site on file</SortTh></tr></thead>
+          <tbody>{moreRows.cut(s.sort([...rows].reverse(), { y: r => r.y, n: r => r.n, elp: r => r.n ? r.elp : null, others: r => r.known - r.elp, unknown: r => r.unknown })).map(r => (
             <tr key={r.y}>
               <td style={{ ...td, textAlign:'left' }}>{r.y}</td>
               <td style={td}>{r.n}{r.thin && <div title={`${r.bdMissing} of the ${r.bd} Bi-District games with an El Paso school have no site on file`}
@@ -198,6 +201,7 @@ function BigShare({ data, allData, seasons }) {
   const year = data?.games?.[0]?.year
   const [span, setSpan] = useState('season')
   const more = useCollapse()
+  const s = useSort()
   const ys = span === 'season' ? [year] : seasons
   const gs = ys.flatMap(y => (allData[y]?.games || (y === year ? data.games : [])).filter(g => g.chapter))
   const played = [...new Set(gs.map(g => g.week))].sort((a, b) => a - b)
@@ -223,13 +227,15 @@ function BigShare({ data, allData, seasons }) {
       )}
       <div style={box}>
         <table style={{ width:'100%', borderCollapse:'collapse', minWidth:560 }}>
-          <thead><tr><th style={{ ...th, textAlign:'left' }}>Chapter</th>{weeks.map(w => <th key={w} style={{ ...th, ...(later(w) ? { opacity:0.55 } : {}) }} title={later(w) ? UPCOMING_TIP : undefined}>{ROUNDS[w] || `Week ${w}`}</th>)}</tr></thead>
+          <thead><tr><SortTh s={s} k="name" text style={{ ...th, textAlign:'left' }}>Chapter</SortTh>{weeks.map(w => later(w)
+            ? <th key={w} style={{ ...th, opacity:0.55 }} title={UPCOMING_TIP}>{ROUNDS[w] || `Week ${w}`}</th>
+            : <SortTh key={w} s={s} k={`w${w}`} style={th}>{ROUNDS[w] || `Week ${w}`}</SortTh>)}</tr></thead>
           <tbody>
             <tr style={{ background:'rgba(253,208,35,0.22)' }}>
               <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans', fontWeight:700 }}>Big four share</td>
               {weeks.map(w => later(w) ? <td key={w} style={{ ...td, ...upcomingCell }}>{UPCOMING}</td> : <td key={w} style={{ ...td, fontWeight:700 }}>{pct(big(w), tot[w])}%</td>)}
             </tr>
-            {more.cut(chs).map(c => (
+            {more.cut(s.sort(chs, { name: c => name(c), ...Object.fromEntries(weeks.filter(w => !later(w)).map(w => [`w${w}`, c => count[c][w] || 0])) })).map(c => (
               <tr key={c} style={{ background: BIG.includes(c) ? 'rgba(80,140,90,0.06)' : 'transparent' }}>
                 <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans', whiteSpace:'nowrap', fontWeight: BIG.includes(c) ? 600 : 400 }}>{dot(c)}{name(c)}</td>
                 {weeks.map(w => {
@@ -256,6 +262,7 @@ function StayHome({ data, byYear }) {
   const weeks = [...new Set(games.filter(g => g.chapter).map(g => g.week))].sort((a, b) => a - b)
   const [wk, setWk] = useState('all')
   const more = useCollapse()
+  const s = useSort()
   const hm = byYear(year)
   const now = games.filter(g => g.chapter && (wk === 'all' || g.week === wk))
   const rows = Object.keys(NAMES).map(c => {
@@ -273,14 +280,15 @@ function StayHome({ data, byYear }) {
       <div style={box}>
         <table style={{ width:'100%', borderCollapse:'collapse', minWidth:720 }}>
           <thead><tr>
-            <th style={{ ...th, textAlign:'left' }}>Chapter</th>
-            <th style={th}>Its schools' games</th>
-            <th style={{ ...th, color:'var(--burnt)' }}>Worked by it</th>
-            <th style={{ ...th, textAlign:'left' }}>Went instead to</th>
-            <th style={th}>Games it worked</th>
-            <th style={th}>…with its own school</th>
+            <SortTh s={s} k="name" text style={{ ...th, textAlign:'left' }}>Chapter</SortTh>
+            <SortTh s={s} k="mine" style={th}>Its schools' games</SortTh>
+            <SortTh s={s} k="kept" style={{ ...th, color:'var(--burnt)' }}>Worked by it</SortTh>
+            <SortTh s={s} k="others" style={{ ...th, textAlign:'left' }}>Went instead to</SortTh>
+            <SortTh s={s} k="worked" style={th}>Games it worked</SortTh>
+            <SortTh s={s} k="ownIn" style={th}>…with its own school</SortTh>
           </tr></thead>
-          <tbody>{more.cut(rows).map(r => (
+          <tbody>{more.cut(s.sort(rows, { name: r => name(r.c), mine: r => r.mine, kept: r => r.mine ? pct(r.kept, r.mine) : null, others: r => r.mine - r.kept,
+            worked: r => r.worked, ownIn: r => r.worked ? pct(r.ownIn, r.worked) : null })).map(r => (
             <tr key={r.c}>
               <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans', whiteSpace:'nowrap' }}>{dot(r.c)}{name(r.c)}</td>
               <td style={td}>{r.mine}</td>
@@ -305,6 +313,7 @@ function Reach({ data }) {
   const weeks = [...new Set(games.filter(g => g.chapter).map(g => g.week))].sort((a, b) => a - b)
   const [wk, setWk] = useState('all')
   const more = useCollapse()
+  const s = useSort()
   const now = games.filter(g => g.chapter && g.lat != null && (wk === 'all' || g.week === wk))
   const by = {}
   for (const g of now) { const c = code(g.chapter), m = away(c, g); if (m != null) (by[c] = by[c] || []).push({ g, m }) }
@@ -320,14 +329,14 @@ function Reach({ data }) {
       <div style={box}>
         <table style={{ width:'100%', borderCollapse:'collapse', minWidth:760 }}>
           <thead><tr>
-            <th style={{ ...th, textAlign:'left' }}>Chapter</th>
-            <th style={th}>Games</th>
-            <th style={{ ...th, color:'var(--burnt)' }}>Median miles</th>
-            <th style={th}>Over 100 mi</th>
+            <SortTh s={s} k="name" text style={{ ...th, textAlign:'left' }}>Chapter</SortTh>
+            <SortTh s={s} k="n" style={th}>Games</SortTh>
+            <SortTh s={s} k="med" style={{ ...th, color:'var(--burnt)' }}>Median miles</SortTh>
+            <SortTh s={s} k="over100" style={th}>Over 100 mi</SortTh>
             <th style={{ ...th, textAlign:'left', width:'22%' }}><span style={{ color:'#9B79D2' }}>■</span> median <span style={{ color:'var(--burnt)', marginLeft:6 }}>■</span> farthest</th>
-            <th style={{ ...th, textAlign:'left' }}>Farthest game</th>
+            <SortTh s={s} k="far" style={{ ...th, textAlign:'left' }}>Farthest game</SortTh>
           </tr></thead>
-          <tbody>{more.cut(rows).map(r => (
+          <tbody>{more.cut(s.sort(rows, { name: r => name(r.c), n: r => r.n, med: r => r.med, over100: r => r.over100, far: r => r.far.m })).map(r => (
             <tr key={r.c}>
               <td style={{ ...td, textAlign:'left', fontFamily:'DM Sans', whiteSpace:'nowrap' }}>{dot(r.c)}{name(r.c)}</td>
               <td style={td}>{r.n}</td>

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { useSort, SortTh } from '../sortable'
 
 // How many schools have a home chapter on file yet (scripts/home_chapters.py), with the list of those that don't
 export default function HomeChapterCoverage() {
@@ -6,6 +7,7 @@ export default function HomeChapterCoverage() {
   const [open, setOpen] = useState(false)
   const [q, setQ] = useState('')
   const [onlyCurrent, setOnlyCurrent] = useState(false)
+  const s = useSort()
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/home_chapter_coverage.json?v=${__BUILD_TIME__}`)
       .then(r => r.ok ? r.json() : null).then(setD).catch(() => {})
@@ -80,12 +82,12 @@ export default function HomeChapterCoverage() {
           <div style={{ maxHeight:420, overflowY:'auto', border:'1px solid var(--border)', borderRadius:6 }}>
             <table style={{ width:'100%', borderCollapse:'collapse', fontSize:12 }}>
               <thead><tr style={{ position:'sticky', top:0, background:'var(--surface)' }}>
-                {['School', 'Town', 'County', 'Last playoffs'].map(h => (
-                  <th key={h} style={{ ...mono, fontSize:9, letterSpacing:'0.12em', textTransform:'uppercase', textAlign:'left', padding:'7px 10px', borderBottom:'1px solid var(--border)' }}>{h}</th>
+                {[['School', 'name', true], ['Town', 'town', true], ['County', 'county', true], ['Last playoffs', 'last_playoffs', false]].map(([h, k, text]) => (
+                  <SortTh key={h} s={s} k={k} text={text} style={{ ...mono, fontSize:9, letterSpacing:'0.12em', textTransform:'uppercase', textAlign:'left', padding:'7px 10px', borderBottom:'1px solid var(--border)' }}>{h}</SortTh>
                 ))}
               </tr></thead>
               <tbody>
-                {list.map(s => (
+                {s.sort(list, { name: r => r.name, town: r => r.town || null, county: r => r.county || null, last_playoffs: r => r.last_playoffs || null }).map(s => (
                   <tr key={s.name}>
                     <td style={{ padding:'6px 10px', borderBottom:'1px solid rgba(15,13,11,0.05)', fontWeight:500 }}>{s.name}</td>
                     <td style={{ padding:'6px 10px', borderBottom:'1px solid rgba(15,13,11,0.05)', color:'var(--mid)' }}>{s.town || '—'}</td>
