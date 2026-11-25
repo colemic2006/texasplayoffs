@@ -1,8 +1,8 @@
 import React from 'react'
 import { useSort, SortTh } from '../sortable'
 
-// The 10-year Sports Officials Fee Schedule (2021-22 to 2031-32), football game fees only, from the
-// site owner's analysis of the schedule PDF. Each pay cell in the PDF pairs the game fee with a
+// UIL's 10 Year Officials Fee Schedule (2021-22 to 2031-32, edited 07-10-2024), football game fees only.
+// Every figure below was checked against the PDF. Each pay cell in the PDF pairs the game fee with a
 // travel-inclusive figure; everything here uses the game fee alone, the number on the officiating check.
 const SEASONS = [['2021-22', 90], ['2022-23', 90], ['2023-24', 95], ['2024-25', 95], ['2025-26', 95], ['2026-27', 100],
   ['2027-28', 100], ['2028-29', 100], ['2029-30', 105], ['2030-31', 105], ['2031-32', 105]]
@@ -16,6 +16,9 @@ const TIERS = [
 ].map(([tier, base, last, core]) => ({ tier, base, last, core, pct: 100 * (last / base - 1), cagr: 100 * (Math.pow(last / base, 1 / 10) - 1), simple: 10 * (last / base - 1) }))
 const CORE_AVG = TIERS.filter(t => t.core).reduce((s, t) => s + t.pct, 0) / TIERS.filter(t => t.core).length
 const money = n => '$' + n.toLocaleString()
+export const SCHEDULE_PDF = 'https://www.uiltexas.org/files/athletics/10_Year_Officials_Fee_Schedule_-_Edited_07-10-2024.pdf'
+const MIN = TIERS[0]   // minimum varsity gate tier
+const pdfLink = <a href={SCHEDULE_PDF} target="_blank" rel="noopener noreferrer" style={{ color:'var(--burnt)' }}>UIL's 10 Year Officials Fee Schedule</a>
 
 const kick = { fontFamily:'var(--mono)', fontSize:10, letterSpacing:'0.18em', textTransform:'uppercase', color:'var(--mid)', marginBottom:6 }
 const titleS = { fontFamily:"'Bebas Neue', sans-serif", fontSize:30, color:'var(--ink)', marginBottom:6, paddingBottom:12, borderBottom:'1px solid var(--border)', display:'flex', alignItems:'center', gap:12 }
@@ -52,11 +55,11 @@ function Plateaus() {
   const max = Math.max(...rows.map(r => r.fee))
   return (
     <Card kicker="The 10-year fee schedule" title="Ten Years, Three Raises"
-      intro={<>The 10-year Sports Officials Fee Schedule sets football game fees from 2021-22 through 2031-32. In the minimum varsity gate tier ($150 – $4,000 gross gate), the game fee moves in flat $5 steps about once every three years and is frozen in between.</>}>
+      intro={<>{pdfLink} sets football game fees from 2021-22 through 2031-32. In the minimum varsity gate tier ($150 – $4,000 gross gate), the game fee moves in flat $5 steps about once every three years and is frozen in between.</>}>
       <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fit, minmax(190px, 1fr))', gap:10, marginBottom:14 }}>
-        <Tile hot big={`${raises} of 10`} small={<>seasons with any raise at all (2023-24, 2026-27, 2029-30); the other 7 are flat</>} />
+        <Tile hot big={`${raises} of 10`} small={<>seasons with a game-fee raise (2023-24, 2026-27, 2029-30); in the other 7 the fee is flat</>} />
         <Tile hot big="$90 → $105" small={<>minimum-tier game fee over the whole schedule: <strong>16.7%</strong> in 10 years</>} />
-        <Tile big="~1.7% a year" small={<>compounded (about 1.85% a year straight-line), below the Fed's long-run 2% inflation target</>} />
+        <Tile big={`${MIN.cagr.toFixed(2)}% a year`} small={<>compounded over the ten yearly steps ({MIN.simple.toFixed(2)}% a year straight-line), below the Fed's long-run 2% inflation target</>} />
         <Tile big="21% vs 16.7%" small={<>the schedule's printed 10-year increase for this tier, which folds in travel pay, vs. the game fee alone</>} />
       </div>
       <div style={{ ...box, maxWidth:860 }}>
@@ -77,7 +80,7 @@ function Plateaus() {
           ))}</tbody>
         </table>
       </div>
-      <div style={note}>Game fee only, minimum varsity gate tier. The schedule also flags an "Additional Fee Increase in *29-30": a larger step late in the term, after most of it has run flat.</div>
+      <div style={note}>Game fee only, minimum varsity gate tier. The 2029-30 step is the same $5 as the others: the schedule's note lists an "Additional Fee Increase in *29-30" of $0, and an additional $2 of travel pay.</div>
     </Card>
   )
 }
@@ -112,7 +115,7 @@ function Tiers() {
       </div>
       <div style={{ ...gold, marginTop:12 }}>
         Across the 8 core varsity gate tiers the true 10-year increase averages <strong>{CORE_AVG.toFixed(1)}%</strong>. The schedule prints an "Average % Increase" of
-        <strong> 26%</strong> for football and <strong>28.56%</strong> for all sports, figures that blend in travel pay and come from per-cell percentages rather than a clean start-to-finish calculation.
+        <strong> 26%</strong> for football and <strong>26.81%</strong> for all sports, figures built on the fee-plus-travel totals rather than the game fee (football's average also counts the sub-varsity and junior high rows, whose percentages run higher because they start from smaller amounts).
       </div>
       <div style={note}>Game fee only (each pay cell in the schedule pairs the game fee with a travel-inclusive figure). Shaded rows are outside the varsity gate tiers. Every raise is a flat $5 step, so each one is worth a little less than the last: $5 on $90 is 5.6%, $5 on $100 is 5.0%.</div>
     </Card>
@@ -126,10 +129,11 @@ function Labels() {
       <div style={{ fontSize:14, color:'var(--ink)', lineHeight:1.65, maxWidth:860 }}>
         <p style={{ margin:'0 0 10px' }}>The schedule's columns are headed <strong>"% Change"</strong> and <strong>"3 Year % Change."</strong> That percentage is the total movement across a whole three-year plateau, printed once at the step. It is not an annual raise.</p>
         <ul style={{ margin:0, paddingLeft:20 }}>
-          <li><strong>It reads as a yearly raise.</strong> A "5%" next to a step looks like this year's increase, but it took three years to accrue; the real annual rate is closer to 1.6–1.9%.</li>
+          <li><strong>It reads as a yearly raise.</strong> A "5%" next to a step looks like this year's increase, but it took three years to accrue; spread over those years, each $5 step is worth about 1.6–1.8% a year.</li>
           <li><strong>The flat years are invisible.</strong> The two frozen seasons in each plateau get no "0%" marker, so the stagnation never shows.</li>
           <li><strong>It inflates the story.</strong> If the schedule was presented as "5–6% increases," that's only true per three-year block, not as raises officials actually see each season.</li>
-          <li><strong>It hides the travel-pay blend.</strong> The headline 10-year percentages (21%, 20%, 19%…) combine the game fee with the travel column, which grows faster than the fee in most tiers. The game fee alone grew less.</li>
+          <li><strong>The first "raise" wasn't a raise.</strong> The schedule prints a 5% change for 2022-23, but the game fee stayed at $90 that season: the whole increase was travel pay, which went from $15 to $20.</li>
+          <li><strong>It hides the travel-pay blend.</strong> The headline 10-year percentages (21%, 20%, 19%…) combine the game fee with the travel column, which grows faster than the fee in every tier ($15 to $22 over the ten years, up 47%). The game fee alone grew less.</li>
         </ul>
       </div>
     </Card>
@@ -140,7 +144,7 @@ function Labels() {
 const FLAWS = [
   ['Flat plateaus, not raises', 'The fee is frozen for two to three seasons at a time; 7 of 10 seasons in the minimum tier bring no raise at all.'],
   ['Regressive tiers', 'The percentage raise shrinks as gate receipts rise, so the highest-stakes assignments get the smallest raise.'],
-  ['A late catch-up', 'The "Additional Fee Increase in *29-30" lands late in the term, making the 10 years look stronger on paper than they feel year to year.'],
+  ['Travel pay frozen for seven years', 'Travel goes from $15 to $20 in 2022-23, then stays at $20 through 2028-29 and rises only $2 in 2029-30, whatever fuel and vehicle costs do.'],
   ['No inflation protection', 'Fixed dollars locked for a decade, with nothing tying future years to inflation, fuel costs or regional wages.'],
   ['Travel pay doing the wrong job', 'Travel is blended into the headline percentages and grows faster than the game fee, instead of simply tracking real fuel and mileage costs.'],
   ['Gate-tier overhead', 'Every varsity game needs a verified gross gate to know which tier applies, adding audit risk and room for disputes that a flat fee would avoid.'],
@@ -171,7 +175,6 @@ const FIXES = [
   ['Add a cost-of-living clause', 'Even a capped annual adjustment (say, the lesser of CPI or 3%) would stop the erosion during the flat years.'],
   ['Fix the tier curve', 'Apply the same percentage to every gate tier, or weight increases toward lower-attendance games to support the officials most likely to leave.'],
   ['Adjust every year', 'Small annual steps instead of three-year plateaus compound more fairly and avoid multi-year freezes.'],
-  ['Spread the catch-up', 'Distribute the late 2029-30 increase across the whole term so the real annual rate is steady instead of bunched at the end.'],
   ['Add a midpoint reopener', 'A year-5 checkpoint tied to retention and fill-rate data would let fees respond to the actual supply of officials.'],
   ['Simplify sub-varsity pay', 'Replace gate tiering for lower-complexity games with a flat rate scaled only by game length, as the schedule already partly does.'],
 ]
@@ -182,11 +185,12 @@ function Remedies() {
         {FIXES.map(([h, t]) => <li key={h} style={{ marginBottom:6 }}><strong>{h}.</strong> {t}</li>)}
       </ol>
       <div style={{ ...gold, marginTop:14 }}>
-        <strong>Bottom line:</strong> the schedule's headline numbers (21% over 10 years for the minimum tier, 26% average for football, 28.56% across all sports) mix the game fee with travel pay
+        <strong>Bottom line:</strong> the schedule's headline numbers (21% over 10 years for the minimum tier, 26% average for football, 26.81% across all sports) mix the game fee with travel pay
         and count three-year steps rather than annual rates. On the game fee alone, the number on an official's check, the minimum tier rises <strong>16.7%</strong> in ten years,
-        about <strong>1.7–1.9% a year</strong>, with <strong>7 of 10 seasons</strong> bringing no raise at all. The tiers are regressive, there's no inflation protection, and the 3-year labels make the deal look far more generous than it is.
+        about <strong>{MIN.cagr.toFixed(1)}% a year</strong> compounded, with <strong>7 of 10 seasons</strong> bringing no raise at all. The tiers are regressive, there's no inflation protection, and the 3-year labels make the deal look far more generous than it is.
       </div>
-      <div style={note}>From an analysis of the Sports Officials 10-Year Fee Schedule (2021-22 to 2031-32), football only: varsity gate tiers, sub-varsity and junior high.</div>
+      <div style={note}>Source: {pdfLink} (edited 07-10-2024), football only: varsity gate tiers, sub-varsity and junior high. Each pay cell pairs the game fee with the fee plus band-1 travel (1–30.9 miles); these cards use the game fee.
+        Yearly rates count the ten yearly steps from 2021-22 to 2031-32.</div>
     </Card>
   )
 }
