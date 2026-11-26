@@ -150,7 +150,7 @@ export default function OfficialsCost({ data }) {
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.7 }}>
         How it's figured: crews of 7 for 2A-6A and 5 for six-man (1A). Game fee {usd(PAY.gameFee)} per official, the lowest gate band, since gate receipts aren't known.
         Up to 90 miles one way, each official gets the travel band ($20 up to 30 miles, $35 up to 60, $50 up to 90).
-        Past 90 miles: {PAY.cars} cars paid ${PAY.perMile} a mile for the round trip (there and back), ${PAY.riderFee} for each rider, and the ${PAY.meal} playoff meal for every official.
+        Past 90 miles: {PAY.cars} cars at ${PAY.perMile.toFixed(2)} a mile (the 2026 IRS rate for the fall) for the round trip (there and back), ${PAY.riderFee} for each rider, and the ${PAY.meal} playoff meal for every official.
         Miles are estimated: straight-line from the chapter's UIL center point × 1.2 for roads. "Per school" assumes the two schools split the cost evenly.
         {showLocal && <> The venue's chapter is the home chapter of the school nearest the stadium; "Difference" is how much more the game cost than if that chapter had worked it.</>}
       </div>
