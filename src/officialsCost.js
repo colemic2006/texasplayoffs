@@ -5,7 +5,6 @@ export const PAY = {
   gameFee: 100,          // lowest gross-gate band ($150-$4,000); gates aren't known ahead of time
   bands: [[30, 20], [60, 35], [90, 50]],   // one-way miles up to N: travel fee per official
   perMile: 0.76,         // 2026 IRS business rate for July-December (football season), confirmed by the site owner; 1 or 2 cars, past 90 miles one way
-  sheetRate: 0.725,      // the rate the pay sheet itself pays past 90 miles (the IRS rate for January-June 2026)
   cars: 2,
   riderFee: 15,
   meal: 30,              // playoffs, past 90 miles one way
