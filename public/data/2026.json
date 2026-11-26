@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-25T21:31+00:00",
+    "updated": "2026-11-26T20:15+00:00",
     "games": 616,
     "played": 528,
     "assigned": 616,
@@ -13930,16 +13930,7 @@
       "city": "Plano",
       "date": "2026-11-27",
       "time": "6:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/lone-star-frisco-vs-midlothian/11-27-2026/?c=c793da52-ea51-4dcf-88a7-72d3d4250470",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Clark Field, Plano",
-          "new": "Plano Clark Stadium",
-          "at": "2026-11-22T20:15+00:00",
-          "status": "changed"
-        }
-      ]
+      "mp_url": "https://www.maxpreps.com/tx/football/game/lone-star-frisco-vs-midlothian/11-27-2026/?c=c793da52-ea51-4dcf-88a7-72d3d4250470"
     },
     {
       "year": 2026,
