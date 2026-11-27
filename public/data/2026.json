@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-26T20:15+00:00",
+    "updated": "2026-11-27T02:55+00:00",
     "games": 616,
     "played": 528,
     "assigned": 616,
@@ -13032,16 +13032,7 @@
       "city": "Pattonville",
       "date": "2026-11-27",
       "time": "2:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/clarksville-vs-collinsville/11-27-2026/?c=3ba330de-4983-44a0-8f49-d1ef3b6240b9",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Patriot Stadium, Pattonville",
-          "new": "Patriot Stadium Prairiland HS",
-          "at": "2026-11-23T02:41+00:00",
-          "status": "changed"
-        }
-      ]
+      "mp_url": "https://www.maxpreps.com/tx/football/game/clarksville-vs-collinsville/11-27-2026/?c=3ba330de-4983-44a0-8f49-d1ef3b6240b9"
     },
     {
       "year": 2026,
