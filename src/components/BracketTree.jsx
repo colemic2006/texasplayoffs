@@ -198,44 +198,57 @@ export default function BracketTree({ data, year }) {
   )
 }
 
-// the drawn bracket (column titles, connector lines, game boxes) from column `start` on
+// the drawn bracket, two-sided like UIL's printed brackets: the top half of the draw runs left to right,
+// the bottom half right to left, and the two meet at the State Final in the middle, so each half's
+// champions face each other across the page. Rounds before `start` are left off.
 function TreeView({ slots, names, R, start, follow = null, setFollow = () => {}, inProgress, onlyCh = null }) {
-  const cols = slots.slice(start)
-  const height = cols[0].length * ROW
-  const width = cols.length * (BOX_W + GAP) - GAP
-  const y = (r, k) => (k * 2 ** r + (2 ** r - 1) / 2) * ROW + (ROW - BOX_H) / 2
-  const x = r => r * (BOX_W + GAP)
+  const n = R - 1 - start                       // rounds on each side before the final
+  const half = r => slots[r].length / 2         // games per side in round r
+  const height = Math.max(1, half(start)) * ROW
+  const width = (2 * n + 1) * (BOX_W + GAP) - GAP
+  const x = c => c * (BOX_W + GAP)              // column c, 0 = far left
+  const y = (r, k) => { const rr = r - start; return (k * 2 ** rr + (2 ** rr - 1) / 2) * ROW + (ROW - BOX_H) / 2 }
+  const yFinal = (height - BOX_H) / 2
+  const final = slots[R - 1][0]
+  const side = (r, s) => slots[r].slice(s * half(r), (s + 1) * half(r))   // s 0 = left (top half), 1 = right
+  const colOf = (r, s) => s === 0 ? r - start : 2 * n - (r - start)
+  const titles = [...Array(2 * n + 1)].map((_, c) => names[c < n ? start + c : c === n ? R - 1 : start + 2 * n - c])
+  const line = (d, on, key) => <path key={key} d={d} fill="none" stroke={on ? 'var(--burnt)' : '#c9c2b8'} strokeWidth={on ? 2 : 1} />
+  const lines = []
+  for (let s = 0; s < 2; s++) {
+    for (let r = start + 1; r < R - 1; r++) {
+      side(r, s).forEach((g, k) => {
+        const a = side(r - 1, s)[2 * k], b = side(r - 1, s)[2 * k + 1]
+        const ca = colOf(r - 1, s), cb = colOf(r, s)
+        const xa = s === 0 ? x(ca) + BOX_W : x(ca), xb = s === 0 ? x(cb) : x(cb) + BOX_W, xm = (xa + xb) / 2
+        const yb = y(r, k) + BOX_H / 2
+        const lit = t => follow && has(t, follow) && has(g, follow)
+        lines.push(line(`M${xa},${y(r - 1, 2 * k) + BOX_H / 2} H${xm} V${yb}`, lit(a), `${s}-${r}-${k}-a`))
+        lines.push(line(`M${xa},${y(r - 1, 2 * k + 1) + BOX_H / 2} H${xm} V${yb}`, lit(b), `${s}-${r}-${k}-b`))
+        lines.push(line(`M${xm},${yb} H${xb}`, follow && has(g, follow), `${s}-${r}-${k}-c`))
+      })
+    }
+    // each side's last game into the final
+    const g = side(R - 2, s)[0], c = colOf(R - 2, s)
+    const xa = s === 0 ? x(c) + BOX_W : x(c), xb = s === 0 ? x(n) : x(n) + BOX_W
+    const ya = y(R - 2, 0) + BOX_H / 2, yb = yFinal + BOX_H / 2
+    lines.push(line(`M${xa},${ya} H${(xa + xb) / 2} V${yb} H${xb}`, follow && has(g, follow) && has(final, follow), `${s}-final`))
+  }
   return (
     <div style={{ width }}>
       <div style={{ display:'flex', gap:GAP, width, margin:'10px 0 6px' }}>
-        {cols.map((_, i) => (
-          <div key={i} style={{ width:BOX_W, flexShrink:0, fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--mid)' }}>
-            {names[start + i]}
-          </div>
+        {titles.map((t, c) => (
+          <div key={c} style={{ width:BOX_W, flexShrink:0, fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', textTransform:'uppercase',
+            color: c === n ? 'var(--burnt)' : 'var(--mid)', textAlign: c === n ? 'center' : c > n ? 'right' : 'left', fontWeight: c === n ? 700 : 400 }}>{t}</div>
         ))}
       </div>
       <div style={{ position:'relative', width, height }}>
-        <svg width={width} height={height} style={{ position:'absolute', inset:0 }} aria-hidden="true">
-          {cols.slice(1).map((col, i) => col.map((g, k) => {
-            const r = i + 1
-            const xa = x(i) + BOX_W, xb = x(r), xm = xa + GAP / 2
-            const yb = y(r, k) + BOX_H / 2
-            const ya1 = y(i, 2 * k) + BOX_H / 2, ya2 = y(i, 2 * k + 1) + BOX_H / 2
-            const on = follow && (has(g, follow) || has(cols[i][2 * k], follow) || has(cols[i][2 * k + 1], follow))
-            const lit = t => follow && has(cols[i][t], follow) && has(g, follow)
-            return (
-              <g key={`${r}-${k}`} fill="none" strokeWidth={1}>
-                <path d={`M${xa},${ya1} H${xm} V${yb}`} stroke={lit(2 * k) ? 'var(--burnt)' : '#c9c2b8'} strokeWidth={lit(2 * k) ? 2 : 1} />
-                <path d={`M${xa},${ya2} H${xm} V${yb}`} stroke={lit(2 * k + 1) ? 'var(--burnt)' : '#c9c2b8'} strokeWidth={lit(2 * k + 1) ? 2 : 1} />
-                <path d={`M${xm},${yb} H${xb}`} stroke={on && has(g, follow) ? 'var(--burnt)' : '#c9c2b8'} strokeWidth={on && has(g, follow) ? 2 : 1} />
-              </g>
-            )
-          }))}
-        </svg>
-        {cols.map((col, i) => col.map((g, k) => (
-          <Box key={`${i}-${k}`} g={g} left={x(i)} top={y(i, k)} follow={follow} setFollow={setFollow}
-               inProgress={inProgress} final={start + i === R - 1} onlyCh={onlyCh} />
-        )))}
+        <svg width={width} height={height} style={{ position:'absolute', inset:0 }} aria-hidden="true">{lines}</svg>
+        {[0, 1].map(s => [...Array(n)].map((_, i) => side(start + i, s).map((g, k) => (
+          <Box key={`${s}-${i}-${k}`} g={g} left={x(colOf(start + i, s))} top={y(start + i, k)} follow={follow} setFollow={setFollow}
+               inProgress={inProgress} final={false} onlyCh={onlyCh} />
+        ))))}
+        <Box g={final} left={x(n)} top={yFinal} follow={follow} setFollow={setFollow} inProgress={inProgress} final onlyCh={onlyCh} />
       </div>
     </div>
   )
@@ -243,7 +256,7 @@ function TreeView({ slots, names, R, start, follow = null, setFollow = () => {},
 
 // Print-only copy of one or more divisions, one per page, each scaled to fit a letter page.
 // Rendered into <body> so print CSS can hide the rest of the site (see .print-root in index.css).
-const PAGE_W = 740, PAGE_H = 900   // CSS pixels of a letter page inside 0.35in margins, less the title
+const PAGE_W = 990, PAGE_H = 680   // CSS pixels of a landscape letter page inside 0.35in margins, less the title
 function PrintBrackets({ games, classes, year, inProgress, onDone }) {
   const orderFor = useBracketOrder(year)
   useEffect(() => {
@@ -258,7 +271,7 @@ function PrintBrackets({ games, classes, year, inProgress, onDone }) {
     <div className="print-root">
       {classes.map(c => {
         const b = buildBracket(games.filter(g => g.classification === c), orderFor(c))
-        const width = b.slots.length * (BOX_W + GAP) - GAP, height = b.slots[0].length * ROW + 30
+        const width = (2 * (b.R - 1) + 1) * (BOX_W + GAP) - GAP, height = Math.max(1, b.slots[0].length / 2) * ROW + 30
         const scale = Math.min(1, PAGE_W / width, PAGE_H / height)
         const champ = winnerOf(b.slots[b.R - 1][0])
         return (

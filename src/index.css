@@ -47,7 +47,7 @@ a { color: inherit; text-decoration: none; }
 /* Bracket PDF export (BracketTree.jsx): only the print copy is printed */
 .print-root { display: none; }
 @media print {
-  @page { size: letter portrait; margin: 0.35in; }
+  @page { size: letter landscape; margin: 0.35in; }
   body.printing { background: #fff !important; }
   body.printing > *:not(.print-root) { display: none !important; }
   body.printing .print-root { display: block; }
