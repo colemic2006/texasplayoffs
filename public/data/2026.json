@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-27T22:46+00:00",
-    "games": 617,
-    "played": 546,
+    "updated": "2026-11-27T23:16+00:00",
+    "games": 620,
+    "played": 551,
     "assigned": 616,
     "weeks": {
       "1": {
@@ -20,7 +20,7 @@
         "assigned": 88
       },
       "4": {
-        "games": 1,
+        "games": 4,
         "assigned": 0
       },
       "5": {
@@ -13330,10 +13330,10 @@
       "round": "Regionals",
       "chapter": "FTW",
       "team1": "Canadian",
-      "score1": null,
+      "score1": 45,
       "team2": "Idalou",
-      "score2": null,
-      "winner": null,
+      "score2": 24,
+      "winner": "Canadian",
       "site": "Happy State Bank Stadium, Canyon",
       "lat": 35.01237,
       "lng": -101.91663,
@@ -13437,10 +13437,10 @@
       "round": "Regionals",
       "chapter": "HOU",
       "team1": "West Rusk",
-      "score1": null,
+      "score1": 47,
       "team2": "Newton",
-      "score2": null,
-      "winner": null,
+      "score2": 49,
+      "winner": "Newton",
       "site": "New Caney. Randal Reed Stadium",
       "lat": 30.13568,
       "lng": -95.23305,
@@ -13448,16 +13448,7 @@
       "city": "New Caney",
       "date": "2026-11-27",
       "time": "2:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/newton-vs-west-rusk-new-london/11-27-2026/?c=4f17a71c-ab86-47fa-b46b-7df805f403ea",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Randall Reed Stadium, New Caney",
-          "new": "New Caney. Randal Reed Stadium",
-          "at": "2026-11-24T16:57+00:00",
-          "status": "changed"
-        }
-      ]
+      "mp_url": "https://www.maxpreps.com/tx/football/game/newton-vs-west-rusk-new-london/11-27-2026/?c=4f17a71c-ab86-47fa-b46b-7df805f403ea"
     },
     {
       "year": 2026,
@@ -13951,10 +13942,10 @@
       "round": "Regionals",
       "chapter": "DAL",
       "team1": "Austin Anderson",
-      "score1": null,
+      "score1": 35,
       "team2": "Boerne Champion",
-      "score2": null,
-      "winner": null,
+      "score2": 42,
+      "winner": "Boerne Champion",
       "site": "Shelton Stadium, Buda",
       "lat": 30.03343,
       "lng": -97.88928,
@@ -14134,10 +14125,10 @@
       "round": "Regionals",
       "chapter": "DAL",
       "team1": "South Oak Cliff",
-      "score1": null,
+      "score1": 56,
       "team2": "Terrell",
-      "score2": null,
-      "winner": null,
+      "score2": 21,
+      "winner": "South Oak Cliff",
       "site": "Midlothian ISD Stadium, Midlothian",
       "lat": 32.46584,
       "lng": -96.98502,
@@ -14308,10 +14299,10 @@
       "round": "Regionals",
       "chapter": "HOU",
       "team1": "Humble Summer Creek",
-      "score1": null,
+      "score1": 27,
       "team2": "Katy High",
-      "score2": null,
-      "winner": null,
+      "score2": 56,
+      "winner": "Katy High",
       "site": "Turner Stadium",
       "lat": 29.98298,
       "lng": -95.24569,
@@ -14536,6 +14527,32 @@
     },
     {
       "year": 2026,
+      "classification": "3A D2",
+      "week": 4,
+      "round": "Quarterfinals",
+      "chapter": null,
+      "team1": "Canadian",
+      "score1": null,
+      "team2": "Jacksboro",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/canadian-vs-jacksboro/12-3-2026/?c=7d94f29f-4e9e-4797-845a-202ae83fe2ae"
+    },
+    {
+      "year": 2026,
+      "classification": "5A D1",
+      "week": 4,
+      "round": "Quarterfinals",
+      "chapter": null,
+      "team1": "Comal Smithson Valley",
+      "score1": null,
+      "team2": "Boerne Champion",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/boerne-champion-vs-smithson-valley-spring-branch/12-3-2026/?c=2de36cbc-1682-4bb8-8959-cc192f6a716e"
+    },
+    {
+      "year": 2026,
       "classification": "5A D2",
       "week": 4,
       "round": "Quarterfinals",
@@ -14546,6 +14563,19 @@
       "score2": null,
       "winner": null,
       "mp_url": "https://www.maxpreps.com/tx/football/game/boerne-vs-gregory-portland/12-3-2026/?c=96c5f665-f7ea-44f5-9518-48b907c590fa"
+    },
+    {
+      "year": 2026,
+      "classification": "6A D1",
+      "week": 4,
+      "round": "Quarterfinals",
+      "chapter": null,
+      "team1": "Cypress Bridgeland",
+      "score1": null,
+      "team2": "Katy High",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/bridgeland-cypress-vs-katy/12-3-2026/?c=b9e063f6-b50b-44b3-8590-5a9fbf24a81b"
     }
   ]
 }
