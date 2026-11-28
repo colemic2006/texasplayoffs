@@ -2,8 +2,8 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-28T01:47+00:00",
-    "games": 622,
+    "updated": "2026-11-28T02:01+00:00",
+    "games": 623,
     "played": 559,
     "assigned": 616,
     "weeks": {
@@ -20,7 +20,7 @@
         "assigned": 88
       },
       "4": {
-        "games": 6,
+        "games": 7,
         "assigned": 0
       },
       "5": {
@@ -14610,6 +14610,19 @@
       "date": "2026-12-04",
       "time": "7:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/bridgeland-cypress-vs-katy/12-4-2026/?c=b9e063f6-b50b-44b3-8590-5a9fbf24a81b"
+    },
+    {
+      "year": 2026,
+      "classification": "6A D2",
+      "week": 4,
+      "round": "Quarterfinals",
+      "chapter": null,
+      "team1": "Austin Westlake",
+      "score1": null,
+      "team2": "Dripping Springs",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/dripping-springs-vs-westlake-austin/12-3-2026/?c=4109e9f8-0dd6-46f9-af42-fafbb1d9b937"
     }
   ]
 }
