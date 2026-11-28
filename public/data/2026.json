@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-28T04:24+00:00",
+    "updated": "2026-11-28T04:35+00:00",
     "games": 640,
     "played": 590,
     "assigned": 616,
@@ -14799,6 +14799,13 @@
       "team2": "Round Rock",
       "score2": null,
       "winner": null,
+      "site": "UFCU Stadium, San Marcos",
+      "lat": 29.8907,
+      "lng": -97.9257,
+      "stadium": "UFCU Stadium (Texas State)",
+      "city": "San Marcos",
+      "date": "2026-12-04",
+      "time": "8:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/brennan-san-antonio-vs-round-rock/12-3-2026/?c=890f7f74-679f-4072-8f75-254595225ca4"
     },
     {

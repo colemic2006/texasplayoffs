@@ -32954,6 +32954,18 @@
   "stadium": null,
   "stadium_id": null
  },
+ "UFCU Stadium, San Marcos || San Antonio Brennan v Round Rock": {
+  "address": "",
+  "city": "San Marcos",
+  "how": "coordinates confirmed by hand",
+  "lat": 29.8907,
+  "lng": -97.9257,
+  "map_link": "",
+  "rules": 10,
+  "site": "UFCU Stadium, San Marcos",
+  "stadium": "UFCU Stadium (Texas State)",
+  "stadium_id": null
+ },
  "UMHB (Belton || Lovelady v Hico": {
   "address": "",
   "how": "no stadium, school or town matched",
