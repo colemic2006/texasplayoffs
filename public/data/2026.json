@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-28T05:21+00:00",
+    "updated": "2026-11-28T05:56+00:00",
     "games": 640,
-    "played": 590,
+    "played": 592,
     "assigned": 616,
     "weeks": {
       "1": {
@@ -13771,10 +13771,10 @@
       "round": "Regionals",
       "chapter": "HOU",
       "team1": "Sunnyvale",
-      "score1": null,
+      "score1": 30,
       "team2": "Gilmer",
-      "score2": null,
-      "winner": null,
+      "score2": 41,
+      "winner": "Gilmer",
       "site": "Tyier Chapel Hill HS",
       "lat": 32.31056,
       "lng": -95.1896,
@@ -13782,16 +13782,7 @@
       "city": "Tyler",
       "date": "2026-11-27",
       "time": "7:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/gilmer-vs-sunnyvale/11-27-2026/?c=4a6d2889-0f5d-4d9d-95b3-9aa48d426660",
-      "changes": [
-        {
-          "field": "site",
-          "old": "Bulldog Stadium, Tyler",
-          "new": "Tyier Chapel Hill HS",
-          "at": "2026-11-24T14:57+00:00",
-          "status": "changed"
-        }
-      ]
+      "mp_url": "https://www.maxpreps.com/tx/football/game/gilmer-vs-sunnyvale/11-27-2026/?c=4a6d2889-0f5d-4d9d-95b3-9aa48d426660"
     },
     {
       "year": 2026,
@@ -14057,10 +14048,10 @@
       "round": "Regionals",
       "chapter": "HOU",
       "team1": "Montgomery",
-      "score1": null,
+      "score1": 14,
       "team2": "Port Neches-Groves",
-      "score2": null,
-      "winner": null,
+      "score2": 44,
+      "winner": "Port Neches-Groves",
       "site": "Randall Reed Stadium, New Caney",
       "lat": 30.13568,
       "lng": -95.23305,
