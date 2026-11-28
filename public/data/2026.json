@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-28T03:01+00:00",
-    "games": 625,
-    "played": 566,
+    "updated": "2026-11-28T03:17+00:00",
+    "games": 626,
+    "played": 571,
     "assigned": 616,
     "weeks": {
       "1": {
@@ -20,7 +20,7 @@
         "assigned": 88
       },
       "4": {
-        "games": 9,
+        "games": 10,
         "assigned": 0
       },
       "5": {
@@ -12957,10 +12957,10 @@
       "round": "Regionals",
       "chapter": "DAL",
       "team1": "Mason",
-      "score1": null,
+      "score1": 28,
       "team2": "De Leon",
-      "score2": null,
-      "winner": null,
+      "score2": 6,
+      "winner": "Mason",
       "site": "Gordon Wood Stadium, Brownwood",
       "lat": 31.66748,
       "lng": -98.97884,
@@ -12978,10 +12978,10 @@
       "round": "Regionals",
       "chapter": "TYL",
       "team1": "Cooper",
-      "score1": null,
+      "score1": 7,
       "team2": "Price Carlisle",
-      "score2": null,
-      "winner": null,
+      "score2": 31,
+      "winner": "Price Carlisle",
       "site": "Van High School",
       "lat": 32.54254,
       "lng": -95.63912,
@@ -13208,10 +13208,10 @@
       "round": "Regionals",
       "chapter": "FTW",
       "team1": "Columbus",
-      "score1": null,
+      "score1": 42,
       "team2": "Franklin",
-      "score2": null,
-      "winner": null,
+      "score2": 21,
+      "winner": "Columbus",
       "site": "Berry Center (Cypress, TX)",
       "lat": 29.90618,
       "lng": -95.68857,
@@ -13821,10 +13821,10 @@
       "round": "Regionals",
       "chapter": "FTW",
       "team1": "La Vega",
-      "score1": null,
+      "score1": 21,
       "team2": "Wimberley",
-      "score2": null,
-      "winner": null,
+      "score2": 22,
+      "winner": "Wimberley",
       "site": "P-Field Pflugerville",
       "lat": 30.44853,
       "lng": -97.63443,
@@ -13832,16 +13832,7 @@
       "city": "Pflugerville",
       "date": "2026-11-27",
       "time": "7:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/la-vega-waco-vs-wimberley/11-27-2026/?c=18652f68-aecc-4f37-b150-a5560278bf94",
-      "changes": [
-        {
-          "field": "site",
-          "old": "The Pfield, Pflugerville",
-          "new": "P-Field Pflugerville",
-          "at": "2026-11-24T15:26+00:00",
-          "status": "changed"
-        }
-      ]
+      "mp_url": "https://www.maxpreps.com/tx/football/game/la-vega-waco-vs-wimberley/11-27-2026/?c=18652f68-aecc-4f37-b150-a5560278bf94"
     },
     {
       "year": 2026,
@@ -14408,10 +14399,10 @@
       "round": "Regionals",
       "chapter": "HOU",
       "team1": "Humble Atascocita",
-      "score1": null,
+      "score1": 56,
       "team2": "Katy Tompkins",
-      "score2": null,
-      "winner": null,
+      "score2": 31,
+      "winner": "Humble Atascocita",
       "site": "Daikin Stadium, 20735 Stokes Rd, Waller, TX 77484",
       "lat": 30.07528,
       "lng": -95.91307,
@@ -14649,6 +14640,19 @@
       "score2": null,
       "winner": null,
       "mp_url": "https://www.maxpreps.com/tx/football/game/dripping-springs-vs-westlake-austin/12-3-2026/?c=4109e9f8-0dd6-46f9-af42-fafbb1d9b937"
+    },
+    {
+      "year": 2026,
+      "classification": "6A D2",
+      "week": 4,
+      "round": "Quarterfinals",
+      "chapter": null,
+      "team1": "Houston King",
+      "score1": null,
+      "team2": "Humble Atascocita",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/atascocita-humble-vs-king-houston/12-3-2026/?c=5429e011-b46d-40ac-beb0-763d9f289dc3"
     }
   ]
 }
