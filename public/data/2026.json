@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-28T14:30+00:00",
+    "updated": "2026-11-28T14:46+00:00",
     "games": 641,
     "played": 593,
     "assigned": 616,
@@ -14614,6 +14614,14 @@
       "team2": "Wall",
       "score2": null,
       "winner": null,
+      "site": "Shotwell Stadium, Abilene, TX",
+      "lat": 32.43375,
+      "lng": -99.69821,
+      "stadium": "P.E. Shotwell Stadium",
+      "map_link": "https://goo.gl/maps/CejNppU8gPYVjYwX6",
+      "city": "Abilene",
+      "date": "2026-12-04",
+      "time": "7:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/peaster-vs-wall/12-4-2026/?c=66cb9d9e-8542-404b-a141-cfaac7466603"
     },
     {
