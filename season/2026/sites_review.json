@@ -1,1 +1,12 @@
-[]
+[
+ {
+  "site": "Reeves Stadium, Round Rock",
+  "game": "Stafford v Stephenville",
+  "why": "named:Reeves Stadium, Round Rock"
+ },
+ {
+  "site": "Turpin Stadium, Natchitoches",
+  "game": "Jefferson v Newton",
+  "why": "no stadium, school or town matched"
+ }
+]

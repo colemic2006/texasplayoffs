@@ -757,5 +757,16 @@
   "new": "@ UFCU Stadium - Texas State University",
   "at": "2026-11-24T18:26+00:00",
   "status": "changed"
+ },
+ {
+  "classification": "6A D1",
+  "week": 4,
+  "team1": "San Antonio Brennan",
+  "team2": "Round Rock",
+  "field": "time",
+  "old": "8:00 PM",
+  "new": "7:00 PM",
+  "at": "2026-11-28T06:05+00:00",
+  "status": "changed"
  }
 ]

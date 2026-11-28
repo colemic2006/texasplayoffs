@@ -2100,6 +2100,18 @@
   "stadium": "Alamo Stadium",
   "stadium_id": 836
  },
+ "Alamo Stadium, San Antonio || Boerne v Gregory-Portland": {
+  "address": "760 Stadium Dr., San Antonio, Texas 78212",
+  "city": "San Antonio",
+  "how": "stadium (map link)",
+  "lat": 29.4628,
+  "lng": -98.47904,
+  "map_link": "https://goo.gl/maps/9ZHVH4NooUHkfakd8",
+  "rules": 10,
+  "site": "Alamo Stadium, San Antonio",
+  "stadium": "Alamo Stadium",
+  "stadium_id": 836
+ },
  "Alamo Stadium, San Antonio || San Antonio Davenport v Corpus Christi Miller": {
   "address": "760 Stadium Dr., San Antonio, Texas 78212",
   "city": "San Antonio",
@@ -18734,6 +18746,18 @@
   "stadium": "Lion Stadium",
   "stadium_id": 533
  },
+ "Lion Stadium, Vernon || Canadian v Jacksboro": {
+  "address": "Paradise St & Stadium St, Vernon, Texas 76384",
+  "city": "Vernon",
+  "how": "stadium (map link)",
+  "lat": 34.14706,
+  "lng": -99.31608,
+  "map_link": "https://goo.gl/maps/qH9J1GHS28QjuZne7",
+  "rules": 10,
+  "site": "Lion Stadium, Vernon",
+  "stadium": "Lion Stadium",
+  "stadium_id": 680
+ },
  "Lion Stadium, Vernon || Canadian v Merkel": {
   "address": "Paradise St & Stadium St, Vernon, Texas 76384",
   "city": "Vernon",
@@ -22819,6 +22843,18 @@
   "stadium": "Mustang Bowl",
   "stadium_id": 993
  },
+ "Mustang Bowl, Sweetwater || Amarillo Palo Duro v Argyle": {
+  "address": "1205 Ragland, Sweetwater, Texas 79556",
+  "city": "Sweetwater",
+  "how": "stadium (map link)",
+  "lat": 32.48228,
+  "lng": -100.40572,
+  "map_link": "https://goo.gl/maps/ZoK3S1snEe41y7LW8",
+  "rules": 10,
+  "site": "Mustang Bowl, Sweetwater",
+  "stadium": "Mustang Bowl",
+  "stadium_id": 993
+ },
  "Mustang Bowl, Sweetwater || Amarillo Palo Duro v Celina": {
   "address": "1205 Ragland, Sweetwater, Texas 79556",
   "city": "Sweetwater",
@@ -26036,6 +26072,17 @@
   "site": "Red Raider Stadium, Winnsboro",
   "stadium": "Red Raider Stadium",
   "stadium_id": 551
+ },
+ "Reeves Stadium, Round Rock || Stafford v Stephenville": {
+  "address": "",
+  "city": "Round Rock",
+  "how": "named:Reeves Stadium, Round Rock",
+  "map_link": "",
+  "missed": "2026-11-28",
+  "rules": 10,
+  "site": "Reeves Stadium, Round Rock",
+  "stadium": null,
+  "stadium_id": null
  },
  "Regional Final - Pridgeon Stadium || Houston King v Humble Atascocita": {
   "address": "11355 Bobcat Rd., Houston, Texas 77064",
@@ -31055,6 +31102,18 @@
   "stadium": "Christus Trinity Mother Frances Rose Stadium",
   "stadium_id": 568
  },
+ "TMF Rose Stadium, Tyler || Longview Pine Tree v Lindale": {
+  "address": "609 Fair Park Drive, Tyler, Texas 75701",
+  "city": "Tyler",
+  "how": "stadium (map link)",
+  "lat": 32.34206,
+  "lng": -95.3239,
+  "map_link": "https://goo.gl/maps/ZwesgiaqJ8b5bMgQ7",
+  "rules": 10,
+  "site": "TMF Rose Stadium, Tyler",
+  "stadium": "Christus Trinity Mother Frances Rose Stadium",
+  "stadium_id": 568
+ },
  "TMF Rose Stadium, Tyler || Malakoff v Gladewater": {
   "address": "609 Fair Park Drive, Tyler, Texas 75701",
   "city": "Tyler",
@@ -31900,6 +31959,18 @@
   "stadium": "Tigerland Stadium",
   "stadium_id": null
  },
+ "Tigerland Stadium, College Station || Lorena v Columbus": {
+  "address": "",
+  "city": "College Station",
+  "how": "coordinates confirmed by hand",
+  "lat": 30.59059,
+  "lng": -96.31987,
+  "map_link": "",
+  "rules": 10,
+  "site": "Tigerland Stadium, College Station",
+  "stadium": "Tigerland Stadium",
+  "stadium_id": null
+ },
  "Tigerland Stadium, College Station || Lovelady v Mart": {
   "address": "",
   "city": "College Station",
@@ -32693,6 +32764,16 @@
   "stadium": "Turner Stadium",
   "stadium_id": 365
  },
+ "Turpin Stadium, Natchitoches || Jefferson v Newton": {
+  "address": "",
+  "how": "no stadium, school or town matched",
+  "map_link": "",
+  "missed": "2026-11-28",
+  "rules": 10,
+  "site": "Turpin Stadium, Natchitoches",
+  "stadium": null,
+  "stadium_id": null
+ },
  "Tyier Chapel Hill HS || Sunnyvale v Gilmer": {
   "address": "",
   "city": "Tyler",
@@ -32955,6 +33036,18 @@
   "stadium_id": null
  },
  "UFCU Stadium, San Marcos || San Antonio Brennan v Round Rock": {
+  "address": "",
+  "city": "San Marcos",
+  "how": "coordinates confirmed by hand",
+  "lat": 29.8907,
+  "lng": -97.9257,
+  "map_link": "",
+  "rules": 10,
+  "site": "UFCU Stadium, San Marcos",
+  "stadium": "UFCU Stadium (Texas State)",
+  "stadium_id": null
+ },
+ "UFCU Stadium, San Marcos || Thorndale v Shiner": {
   "address": "",
   "city": "San Marcos",
   "how": "coordinates confirmed by hand",
