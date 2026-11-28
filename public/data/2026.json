@@ -2,8 +2,8 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-28T06:21+00:00",
-    "games": 640,
+    "updated": "2026-11-28T07:35+00:00",
+    "games": 641,
     "played": 592,
     "assigned": 616,
     "weeks": {
@@ -20,7 +20,7 @@
         "assigned": 88
       },
       "4": {
-        "games": 24,
+        "games": 25,
         "assigned": 0
       },
       "5": {
@@ -14900,6 +14900,19 @@
       "date": "2026-12-04",
       "time": "7:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/atascocita-humble-vs-king-houston/12-4-2026/?c=5429e011-b46d-40ac-beb0-763d9f289dc3"
+    },
+    {
+      "year": 2026,
+      "classification": "6A D2",
+      "week": 4,
+      "round": "Quarterfinals",
+      "chapter": null,
+      "team1": "Denton Guyer",
+      "score1": null,
+      "team2": "Southlake Carroll",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/guyer-denton-vs-southlake-carroll/12-3-2026/?c=f6a70f50-cd61-4e9f-b6c3-d0c485c6d588"
     }
   ]
 }
