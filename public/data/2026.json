@@ -2,8 +2,8 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-28T04:17+00:00",
-    "games": 638,
+    "updated": "2026-11-28T04:24+00:00",
+    "games": 640,
     "played": 590,
     "assigned": 616,
     "weeks": {
@@ -20,7 +20,7 @@
         "assigned": 88
       },
       "4": {
-        "games": 22,
+        "games": 24,
         "assigned": 0
       },
       "5": {
@@ -14678,6 +14678,19 @@
     },
     {
       "year": 2026,
+      "classification": "4A D2",
+      "week": 4,
+      "round": "Quarterfinals",
+      "chapter": null,
+      "team1": "West Orange-Stark",
+      "score1": null,
+      "team2": "Madisonville",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/madisonville-vs-west-orange-stark/12-3-2026/?c=ebe8fa59-fc54-4042-9f36-11ef87aad768"
+    },
+    {
+      "year": 2026,
       "classification": "5A D1",
       "week": 4,
       "round": "Quarterfinals",
@@ -14774,6 +14787,19 @@
       "date": "2026-12-04",
       "time": "7:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/bridgeland-cypress-vs-katy/12-4-2026/?c=b9e063f6-b50b-44b3-8590-5a9fbf24a81b"
+    },
+    {
+      "year": 2026,
+      "classification": "6A D1",
+      "week": 4,
+      "round": "Quarterfinals",
+      "chapter": null,
+      "team1": "San Antonio Brennan",
+      "score1": null,
+      "team2": "Round Rock",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/brennan-san-antonio-vs-round-rock/12-3-2026/?c=890f7f74-679f-4072-8f75-254595225ca4"
     },
     {
       "year": 2026,
