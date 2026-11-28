@@ -2,8 +2,8 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-28T03:17+00:00",
-    "games": 626,
+    "updated": "2026-11-28T03:31+00:00",
+    "games": 627,
     "played": 571,
     "assigned": 616,
     "weeks": {
@@ -20,7 +20,7 @@
         "assigned": 88
       },
       "4": {
-        "games": 10,
+        "games": 11,
         "assigned": 0
       },
       "5": {
@@ -14528,6 +14528,19 @@
       "score2": null,
       "winner": null,
       "mp_url": "https://www.maxpreps.com/tx/football/game/shiner-vs-thorndale/12-3-2026/?c=9fc207d3-5de9-433a-af71-795cc701f121"
+    },
+    {
+      "year": 2026,
+      "classification": "2A D1",
+      "week": 4,
+      "round": "Quarterfinals",
+      "chapter": null,
+      "team1": "Price Carlisle",
+      "score1": null,
+      "team2": "San Augustine",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/carlisle-price-vs-san-augustine/12-3-2026/?c=43bef919-5ff5-4920-8137-15dc50dd4050"
     },
     {
       "year": 2026,
