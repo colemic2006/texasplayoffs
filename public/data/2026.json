@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-28T00:16+00:00",
+    "updated": "2026-11-28T01:17+00:00",
     "games": 622,
-    "played": 557,
+    "played": 558,
     "assigned": 616,
     "weeks": {
       "1": {
@@ -14086,10 +14086,10 @@
       "round": "Regionals",
       "chapter": "DAL",
       "team1": "Argyle",
-      "score1": null,
+      "score1": 43,
       "team2": "Anna",
-      "score2": null,
-      "winner": null,
+      "score2": 36,
+      "winner": "Argyle",
       "site": "Prosper ISD Stadium - Rd 3",
       "lat": 33.26024,
       "lng": -96.80644,
@@ -14601,7 +14601,15 @@
       "team2": "Katy High",
       "score2": null,
       "winner": null,
-      "mp_url": "https://www.maxpreps.com/tx/football/game/bridgeland-cypress-vs-katy/12-3-2026/?c=b9e063f6-b50b-44b3-8590-5a9fbf24a81b"
+      "site": "Legacy Stadium",
+      "lat": 29.80001,
+      "lng": -95.80539,
+      "stadium": "Mike Johnston Field at Legacy Stadium",
+      "map_link": "https://goo.gl/maps/km2SPmR8CsAASd3H6",
+      "city": "Katy",
+      "date": "2026-12-04",
+      "time": "7:00 PM",
+      "mp_url": "https://www.maxpreps.com/tx/football/game/bridgeland-cypress-vs-katy/12-4-2026/?c=b9e063f6-b50b-44b3-8590-5a9fbf24a81b"
     }
   ]
 }

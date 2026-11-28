@@ -18198,6 +18198,19 @@
   "stadium": "Mike Johnston Field at Legacy Stadium",
   "stadium_id": 1699
  },
+ "Legacy Stadium || Cypress Bridgeland v Katy High": {
+  "address": "5175 Franz Rd, Katy, Texas 77493",
+  "city": "Katy",
+  "confirmed_as": "Legacy Stadium, Katy",
+  "how": "stadium (map link)",
+  "lat": 29.80001,
+  "lng": -95.80539,
+  "map_link": "https://goo.gl/maps/km2SPmR8CsAASd3H6",
+  "rules": 10,
+  "site": "Legacy Stadium",
+  "stadium": "Mike Johnston Field at Legacy Stadium",
+  "stadium_id": 1699
+ },
  "Legacy Stadium || Fulshear Jordan v Cypress Bridgeland": {
   "address": "5175 Franz Rd, Katy, Texas 77493",
   "city": "Katy",
