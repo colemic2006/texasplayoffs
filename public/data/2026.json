@@ -2,8 +2,8 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-28T02:47+00:00",
-    "games": 624,
+    "updated": "2026-11-28T03:01+00:00",
+    "games": 625,
     "played": 566,
     "assigned": 616,
     "weeks": {
@@ -20,7 +20,7 @@
         "assigned": 88
       },
       "4": {
-        "games": 8,
+        "games": 9,
         "assigned": 0
       },
       "5": {
@@ -14589,6 +14589,19 @@
       "score2": null,
       "winner": null,
       "mp_url": "https://www.maxpreps.com/tx/football/game/boerne-champion-vs-smithson-valley-spring-branch/12-3-2026/?c=2de36cbc-1682-4bb8-8959-cc192f6a716e"
+    },
+    {
+      "year": 2026,
+      "classification": "5A D1",
+      "week": 4,
+      "round": "Quarterfinals",
+      "chapter": null,
+      "team1": "Frisco Lone Star",
+      "score1": null,
+      "team2": "DeSoto",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/desoto-vs-lone-star-frisco/12-3-2026/?c=1302b2c0-fd97-49f0-96cf-a3cf86a64563"
     },
     {
       "year": 2026,
