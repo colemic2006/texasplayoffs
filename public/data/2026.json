@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-28T07:51+00:00",
+    "updated": "2026-11-28T12:22+00:00",
     "games": 641,
     "played": 593,
     "assigned": 616,
@@ -14529,6 +14529,14 @@
       "team2": "San Augustine",
       "score2": null,
       "winner": null,
+      "site": "Dragon Stadium, Nacogdoches",
+      "lat": 31.64451,
+      "lng": -94.62562,
+      "stadium": "Dragon Stadium",
+      "map_link": "https://goo.gl/maps/D7N5k9oDxAnGca4C6",
+      "city": "Nacogdoches",
+      "date": "2026-12-04",
+      "time": "7:00 PM",
       "mp_url": "https://www.maxpreps.com/tx/football/game/carlisle-price-vs-san-augustine/12-3-2026/?c=43bef919-5ff5-4920-8137-15dc50dd4050"
     },
     {

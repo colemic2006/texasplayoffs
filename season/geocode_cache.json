@@ -10283,6 +10283,18 @@
   "stadium": "Dragon Stadium",
   "stadium_id": 229
  },
+ "Dragon Stadium, Nacogdoches || Price Carlisle v San Augustine": {
+  "address": "4310 Appleby Sand Road, Nacogdoches, Texas 75961",
+  "city": "Nacogdoches",
+  "how": "stadium (map link)",
+  "lat": 31.64451,
+  "lng": -94.62562,
+  "map_link": "https://goo.gl/maps/D7N5k9oDxAnGca4C6",
+  "rules": 10,
+  "site": "Dragon Stadium, Nacogdoches",
+  "stadium": "Dragon Stadium",
+  "stadium_id": 446
+ },
  "Dragon Stadium, New Braunfels || CC Tuloso-Midway v La Vernia": {
   "address": "4150 Klein Meadows, New Braunfels, Texas 78130",
   "city": "New Braunfels",
