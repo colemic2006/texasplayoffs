@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-28T07:35+00:00",
+    "updated": "2026-11-28T07:51+00:00",
     "games": 641,
-    "played": 592,
+    "played": 593,
     "assigned": 616,
     "weeks": {
       "1": {
@@ -14444,10 +14444,10 @@
       "round": "Regionals",
       "chapter": "FTW",
       "team1": "Southlake Carroll",
-      "score1": null,
+      "score1": 49,
       "team2": "Prosper Walnut Grove",
-      "score2": null,
-      "winner": null,
+      "score2": 0,
+      "winner": "Southlake Carroll",
       "site": "Choctaw Stadium - Arlington",
       "lat": 32.75101,
       "lng": -97.08299,
