@@ -112,7 +112,7 @@ export default function BracketTree({ data, year }) {
   const classes = ORDER.filter(c => games.some(g => g.classification === c))
   const [cls, setCls] = useState(null)
   const current = classes.includes(cls) ? cls : classes[0]
-  const [from, setFrom] = useState(0)
+  const [from, setFrom] = useState(null)   // null = open at the current round
   const [follow, setFollow] = useState(null)
   const [onlyCh, setOnlyCh] = useState(null)
   const [printing, setPrinting] = useState(null)   // divisions being printed, or null
@@ -121,7 +121,15 @@ export default function BracketTree({ data, year }) {
   const bracket = useMemo(() => current ? buildBracket(games.filter(g => g.classification === current), orderFor(current)) : null, [games, current, orderFor])
   if (!bracket) return null
   const { R, slots, names } = bracket
-  const start = Math.min(from, R - 1)
+  // while the season is being played, open at the round being played now: the earliest round that still
+  // has a game without a final score (else the latest round with a game); a finished season opens at the start
+  let current_r = 0
+  if (inProgress) {
+    const unplayed = slots.findIndex(col => col.some(g => g && (g.score1 == null || g.score2 == null)))
+    if (unplayed >= 0) current_r = unplayed
+    else for (let r = 0; r < R - 1; r++) if (slots[r].some(Boolean)) current_r = r
+  }
+  const start = Math.min(from ?? current_r, R - 2)
   const cols = slots.slice(start)
   const rows = cols[0].length
   const height = rows * ROW
@@ -146,7 +154,7 @@ export default function BracketTree({ data, year }) {
     <div>
       {printing && <PrintBrackets games={games} classes={printing} year={year} inProgress={inProgress} onDone={() => setPrinting(null)} />}
       <div style={{ display:'flex', gap:4, flexWrap:'wrap', marginBottom:10 }}>
-        {classes.map(c => <button key={c} onClick={() => { setCls(c); setOnlyCh(null) }} style={chip(c === current)}>{c}</button>)}
+        {classes.map(c => <button key={c} onClick={() => { setCls(c); setOnlyCh(null); setFrom(null) }} style={chip(c === current)}>{c}</button>)}
       </div>
       <div style={{ display:'flex', alignItems:'center', gap:4, flexWrap:'wrap', marginBottom:14 }}>
         <span style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.14em', textTransform:'uppercase', color:'var(--mid)', marginRight:4 }}>Start at:</span>
