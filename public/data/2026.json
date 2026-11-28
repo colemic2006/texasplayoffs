@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-28T00:01+00:00",
+    "updated": "2026-11-28T00:16+00:00",
     "games": 622,
-    "played": 556,
+    "played": 557,
     "assigned": 616,
     "weeks": {
       "1": {
@@ -13560,10 +13560,10 @@
       "round": "Regionals",
       "chapter": "SAT",
       "team1": "Canyon Lake",
-      "score1": null,
+      "score1": 21,
       "team2": "San Antonio Davenport",
-      "score2": null,
-      "winner": null,
+      "score2": 58,
+      "winner": "San Antonio Davenport",
       "site": "Warrior Coliseum, San Antonio",
       "lat": 29.72181,
       "lng": -98.47099,

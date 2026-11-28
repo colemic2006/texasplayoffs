@@ -19,13 +19,13 @@
  },
  "1A D1|mp:068d65cb-4c19-4ee5-83ca-2fa774f7f265|mp:b967a52c-3b6b-46e1-84e2-f0b5e9451110": {
   "date": "2026-11-27",
-  "description": "The Borden County (Gail, TX) varsity football team has an away playoff game @ Menard (TX) today @ 6p.",
+  "description": "The Borden County (Gail, TX) varsity football team is at their away playoff game @ Menard (TX).",
   "filled_date": "2026-11-27",
   "filled_time": "6:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/borden-county-gail-vs-menard/11-27-2026/?c=888955e3-a8c1-4af1-bb04-90c173b6e00a",
-  "read": "2026-11-27T23:59:29+00:00",
-  "site": "",
-  "time": "6:00 PM"
+  "read": "2026-11-28T00:14:27+00:00",
+  "site": "their away playoff game @ Menard (TX)",
+  "time": ""
  },
  "1A D1|mp:068d65cb-4c19-4ee5-83ca-2fa774f7f265|mp:e83682d5-5a10-4a06-8223-ff5aea3a02f4": {
   "date": "",
@@ -82,7 +82,7 @@
   "filled_date": "2026-11-27",
   "filled_time": "7:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/gordon-vs-milford/11-27-2026/?c=75f1675a-ede1-480c-9bd0-e412d00f5c9f",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Weatherford, TX",
   "time": "7:00 PM"
  },
@@ -137,13 +137,13 @@
  },
  "1A D1|mp:6f544e3b-584a-456d-a095-0e5082d8252b|mp:7d617fa3-c322-4a93-92a6-635c5c6735a9": {
   "date": "2026-11-27",
-  "description": "The Aquilla (TX) varsity football team has an away playoff game @ Union Hill (Gilmer, TX) today @ 6p.",
+  "description": "The Aquilla (TX) varsity football team is at their away playoff game @ Union Hill (Gilmer, TX).",
   "filled_date": "2026-11-27",
   "filled_time": "6:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/aquilla-vs-union-hill-gilmer/11-27-2026/?c=e5100e18-8a30-478d-a6c3-817ada6c2e92",
-  "read": "2026-11-27T23:59:29+00:00",
-  "site": "",
-  "time": "6:00 PM"
+  "read": "2026-11-28T00:14:27+00:00",
+  "site": "their away playoff game @ Union Hill (Gilmer, TX)",
+  "time": ""
  },
  "1A D1|mp:6f544e3b-584a-456d-a095-0e5082d8252b|mp:9d704db1-711d-4573-8fca-8f0819a4b118": {
   "date": "",
@@ -171,7 +171,7 @@
   "filled_date": "2026-11-27",
   "filled_time": "7:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/hermleigh-vs-jayton/11-27-2026/?c=11f7c636-56e5-4c5d-9ebb-6efbf7387f8c",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -350,7 +350,7 @@
   "filled_site": "Coolidge ISD / Regional Championship",
   "filled_time": "7:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/fannindel-ladonia-vs-mount-calm/11-27-2026/?c=19ef0b77-f32f-4553-aabf-40dbd892cd75",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Coolidge ISD / Regional Championship",
   "time": "7:00 PM"
  },
@@ -376,7 +376,7 @@
   "date": "2026-11-27",
   "description": "The Valley (Turkey, TX) varsity football team is at their neutral playoff game vs. Motley County (Matador, TX).",
   "game_url": "https://www.maxpreps.com/tx/football/game/motley-county-matador-vs-valley-turkey/11-27-2026/?c=644c3c44-c945-4f2c-a69b-0c6bb2298f64",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": ""
  },
@@ -396,7 +396,7 @@
   "filled_date": "2026-11-28",
   "filled_time": "6:30 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/blackwell-vs-richland-springs/11-28-2026/?c=347a9592-b5a7-4ab2-9f8f-cfd0330a0611",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": "6:30 PM"
  },
@@ -446,7 +446,7 @@
   "filled_date": "2026-11-27",
   "filled_time": "1:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/strawn-vs-zephyr/11-27-2026/?c=34cc6230-b050-4f61-8c26-cd15172400c0",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": ""
  },
@@ -565,7 +565,7 @@
   "filled_site": "Memorial Stadium, Bastrop",
   "filled_time": "2:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/ganado-vs-thorndale/11-27-2026/?c=af7b7e69-9051-4ca1-8a94-86ca8e272e6a",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": ""
  },
@@ -584,7 +584,7 @@
   "date": "2026-12-03",
   "description": "The Shiner (TX) varsity football team has a neutral playoff game vs. Thorndale (TX) , but the date has not been set.",
   "game_url": "https://www.maxpreps.com/tx/football/game/shiner-vs-thorndale/12-3-2026/?c=9fc207d3-5de9-433a-af71-795cc701f121",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": ""
  },
@@ -614,7 +614,7 @@
   "filled_site": "Van High School",
   "filled_time": "7:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/carlisle-price-vs-cooper/11-27-2026/?c=f354237f-03b2-42c7-888f-a8affa312359",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Van High School",
   "time": "7:00 PM"
  },
@@ -760,7 +760,7 @@
   "filled_site": "Pirate Stadium, Lubbock",
   "filled_time": "4:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/ozona-vs-spearman/11-27-2026/?c=ffe0587b-99c8-4bcc-a7de-fb8eec87ed71",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "their away playoff game @ Ozona (TX)",
   "time": ""
  },
@@ -785,7 +785,7 @@
   "filled_site": "Lion Stadium, Henderson",
   "filled_time": "2:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/joaquin-vs-san-augustine/11-27-2026/?c=fc907ac2-1c18-4e43-b7b2-4004acd4ac1d",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Henderson High School",
   "time": ""
  },
@@ -902,7 +902,7 @@
   "filled_site": "Gordon Wood Stadium, Brownwood",
   "filled_time": "7:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/de-leon-vs-mason/11-27-2026/?c=72392dd3-1c9a-4a8d-b9c5-a8e1624fdc59",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -1060,7 +1060,7 @@
   "filled_site": "House Park Stadium, Austin",
   "filled_time": "3:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/rosebud-lott-vs-shiner/11-27-2026/?c=8054b65d-6049-45bd-a450-fb189d90d0e8",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": ""
  },
@@ -1084,7 +1084,7 @@
   "filled_site": "Porcupine Stadium, Springtown",
   "filled_time": "7:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/cisco-vs-muenster/11-27-2026/?c=e712542a-893e-48d0-8d86-090d02f0be50",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details @ Springtown",
   "time": "7:00 PM"
  },
@@ -1140,7 +1140,7 @@
   "filled_site": "@ Lowery Field",
   "filled_time": "2:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/ballinger-vs-panhandle/11-27-2026/?c=a99ec592-208a-444b-8a35-59f299bbffc3",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details @ Lowery Field",
   "time": ""
  },
@@ -1174,7 +1174,7 @@
   "filled_site": "Cervetto Stadium, Dublin",
   "filled_time": "7:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/goldthwaite-vs-santo/11-27-2026/?c=40855de7-de8f-4008-a90a-fbb678a4a1fc",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Bob and Norma Cervetto Stadium Dublin Tx",
   "time": "7:00 PM"
  },
@@ -1258,7 +1258,7 @@
   "filled_site": "Lowery Field, Lubbock, Texas",
   "filled_time": "7:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/roscoe-vs-wink/11-27-2026/?c=a304dde7-1463-485e-a7d4-f7f330f4e007",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Lowery Field, Lubbock, Texas",
   "time": "7:00 PM"
  },
@@ -1517,7 +1517,7 @@
   "filled_site": "Gupton Stadium, Cedar Park",
   "filled_time": "7:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/bremond-vs-junction/11-27-2026/?c=e710d958-4736-4342-847e-7e176c32973a",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -1544,14 +1544,14 @@
  },
  "2A D2|mp:b27ae76c-b80c-4edd-9dcd-92ac0568e8fa|mp:8e43bc11-0214-4438-a428-13c32d2ed9e3": {
   "date": "2026-11-27",
-  "description": "The La Villa (TX) varsity football team has a neutral playoff game vs. Falls City (TX) today @ 6p.",
+  "description": "The La Villa (TX) varsity football team is at their neutral playoff game vs. Falls City (TX).",
   "filled_date": "2026-11-27",
   "filled_site": "La Villa - Home",
   "filled_time": "6:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/falls-city-vs-la-villa/11-27-2026/?c=ba870886-8c0b-46b7-bbf2-0f4b9eef9d0c",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details La Villa - Home",
-  "time": "6:00 PM"
+  "time": ""
  },
  "2A D2|mp:b27ae76c-b80c-4edd-9dcd-92ac0568e8fa|mp:f0d9668a-6278-495a-9d05-2bd5a35836a1": {
   "date": "",
@@ -1594,7 +1594,7 @@
   "filled_site": "Patriot Stadium Prairiland HS",
   "filled_time": "2:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/clarksville-vs-collinsville/11-27-2026/?c=3ba330de-4983-44a0-8f49-d1ef3b6240b9",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Patriot Stadium Prairiland HS",
   "time": ""
  },
@@ -1625,14 +1625,14 @@
   "dctf_date": "2026-11-27",
   "dctf_site": "Bulldog Stadium, Burkburnett",
   "dctf_time": "6:00 PM",
-  "description": "The Wellington (TX) varsity football team has a neutral playoff game vs. Windthorst (TX) today @ 6p.",
+  "description": "The Wellington (TX) varsity football team is at their neutral playoff game vs. Windthorst (TX).",
   "filled_date": "2026-11-27",
   "filled_site": "Bulldog Stadium, Burkburnett",
   "filled_time": "6:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/wellington-skyrockets-vs-windthorst/11-27-2026/?c=cd163c8e-b3c8-4d12-a639-66ba1c545eca",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
-  "time": "6:00 PM"
+  "time": ""
  },
  "2A D2|mp:cdc456d9-5120-49e0-8329-a646119ad722|mp:a950501a-8fe5-4aa2-be69-b842670ba6d5": {
   "date": "",
@@ -1669,14 +1669,14 @@
   "dctf_date": "2026-11-27",
   "dctf_site": "Happy State Bank Stadium, Canyon",
   "dctf_time": "6:00 PM",
-  "description": "The Ropes (Ropesville, TX) varsity football team has a neutral playoff game vs. Gruver (TX) today @ 6p.",
+  "description": "The Ropes (Ropesville, TX) varsity football team is at their neutral playoff game vs. Gruver (TX).",
   "filled_date": "2026-11-27",
   "filled_site": "Happy State Bank Stadium, Canyon",
   "filled_time": "6:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/gruver-vs-ropes-ropesville/11-27-2026/?c=9fc95c61-8554-45a6-9bbe-e90e4e773256",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
-  "time": "6:00 PM"
+  "time": ""
  },
  "2A D2|mp:f4408aa0-0eb1-41f4-82a8-548a513b73f2|mp:65589a3d-a74f-47b2-9435-ac36dabed426": {
   "date": "",
@@ -1709,7 +1709,7 @@
   "filled_site": "Midlothian ISD Stadium, Midlothian",
   "filled_time": "6:30 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/lindsay-vs-overton/11-27-2026/?c=72693165-7940-4577-96cd-3c1a405b1662",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Midlothian ISD Stadium",
   "time": "6:30 PM"
  },
@@ -1826,7 +1826,7 @@
   "filled_site": "Matador Stadium, Seguin",
   "filled_time": "7:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/hallettsville-vs-san-diego/11-27-2026/?c=e0a7bbd6-e046-471e-8950-0fef8f731561",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Seguin, TX",
   "time": "7:00 PM"
  },
@@ -1851,7 +1851,7 @@
   "filled_site": "Heroes Stadium, San Antonio",
   "filled_time": "7:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/devine-vs-yoakum/11-27-2026/?c=3c0c318a-40f3-48e0-99b9-195577547fab",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details @ Heroes Stadium - San Antonio",
   "time": "7:00 PM"
  },
@@ -1905,7 +1905,7 @@
   "filled_site": "Pennington Field, Bedford",
   "filled_time": "1:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/gunter-vs-whitney/11-27-2026/?c=f5c0de50-5600-4ecc-8e3b-25b453341d13",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": ""
  },
@@ -2062,7 +2062,7 @@
   "filled_site": "Briles Stadium, Stephenville",
   "filled_time": "7:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/paradise-vs-wall/11-27-2026/?c=ba3bc9ad-79fa-405e-afd6-e7dcec82a01b",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -2112,7 +2112,7 @@
   "filled_date": "2026-11-27",
   "filled_time": "7:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/columbus-vs-franklin/11-27-2026/?c=063d414f-ed7a-446f-a307-39e06795461a",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Berry Center (Cypress, TX)",
   "time": "7:00 PM"
  },
@@ -2236,7 +2236,7 @@
   "filled_site": "Salado ISD Stadium, Salado",
   "filled_time": "7:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/ch-yoe-cameron-vs-lorena/11-27-2026/?c=b1b208d1-2d7f-4255-861b-4b8111486e8d",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -2288,7 +2288,7 @@
   "filled_site": "Memorial Stadium, Wichita Falls",
   "filled_time": "3:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/peaster-vs-vernon/11-27-2026/?c=b8c78500-905a-4d19-88e1-c6fd99154d5d",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Wichita Falls Memorial Stadium",
   "time": ""
  },
@@ -2323,7 +2323,7 @@
   "filled_site": "Royse City ISD Stadium, Royse City",
   "filled_time": "2:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/atlanta-vs-malakoff/11-27-2026/?c=13d9ae45-b001-42cf-b5ec-1d54bdc21947",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Royse City ISD Stadium",
   "time": ""
  },
@@ -2424,7 +2424,7 @@
   "filled_site": "Memorial Stadium, Bastrop",
   "filled_time": "7:30 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/blanco-vs-east-bernard/11-27-2026/?c=84efa4cf-177d-47e3-a2dd-906bd493fb47",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": "7:30 PM"
  },
@@ -2438,7 +2438,7 @@
   "filled_site": "UFCU Stadium, San Marcos",
   "filled_time": "6:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/boling-vs-poth/11-28-2026/?c=4faadf0b-7458-4873-9082-daced8256fc7",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": "6:00 PM"
  },
@@ -2494,7 +2494,7 @@
   "filled_site": "Happy State Bank Stadium, Canyon",
   "filled_time": "2:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/canadian-vs-idalou/11-27-2026/?c=0168a7b0-5464-401d-871f-7ff4c5d6b911",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Happy State Bank Stadium, Canyon, Texas",
   "time": ""
  },
@@ -2502,7 +2502,7 @@
   "date": "2026-12-03",
   "description": "The Canadian (TX) varsity football team has a neutral playoff game vs. Jacksboro (TX) , but the date has not been set.",
   "game_url": "https://www.maxpreps.com/tx/football/game/canadian-vs-jacksboro/12-3-2026/?c=7d94f29f-4e9e-4797-845a-202ae83fe2ae",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": ""
  },
@@ -2617,7 +2617,7 @@
   "filled_site": "Knight Stadium, Fort Worth",
   "filled_time": "2:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/bells-vs-tolar/11-27-2026/?c=c6decfd9-7e93-4886-8fec-5b1db12364b8",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": ""
  },
@@ -2673,7 +2673,7 @@
   "filled_site": "Murphy Stadium, Gladewater",
   "filled_time": "3:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/arp-vs-jefferson/11-27-2026/?c=ab4854d0-b600-45e7-b52c-e23eebff55a5",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": ""
  },
@@ -2692,7 +2692,7 @@
   "date": "2026-12-03",
   "description": "The Jefferson (TX) varsity football team has a neutral playoff game vs. Newton (TX) , but the date has not been set.",
   "game_url": "https://www.maxpreps.com/tx/football/game/jefferson-vs-newton/12-3-2026/?c=3df8d89b-3252-4d42-bc5c-a25008e3ae5c",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": ""
  },
@@ -2774,7 +2774,7 @@
   "filled_site": "Lion Stadium, Vernon",
   "filled_time": "1:30 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/jacksboro-vs-slaton/11-27-2026/?c=153d94f6-ea8d-4333-a348-3039af8cbdcd",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": ""
  },
@@ -2788,7 +2788,7 @@
   "filled_site": "Tiger Stadium, Glen Rose",
   "filled_time": "7:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/maypearl-vs-millsap/11-27-2026/?c=2097fe94-352d-4927-9e31-8c6f7766c2af",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Glen Rose Tiger Stadium",
   "time": "7:00 PM"
  },
@@ -2915,7 +2915,7 @@
   "filled_site": "New Caney. Randal Reed Stadium",
   "filled_time": "2:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/newton-vs-west-rusk-new-london/11-27-2026/?c=4f17a71c-ab86-47fa-b46b-7df805f403ea",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details New Caney. Randal Reed Stadium",
   "time": ""
  },
@@ -3054,16 +3054,16 @@
   "time": ""
  },
  "4A D1|mp:2ac01e9f-e8f3-451b-8a5f-beae39fcb54d|mp:032ffe24-9d72-45d5-9970-123c7050ab32": {
-  "date": "2026-11-27",
+  "date": "",
   "dctf_date": "2026-11-27",
   "dctf_site": "Warrior Coliseum, San Antonio",
   "dctf_time": "3:00 PM",
-  "description": "The Davenport (San Antonio, TX) varsity football team is at their neutral playoff game vs. Canyon Lake (Fischer, TX).",
+  "description": "The Davenport (San Antonio, TX) varsity football team won Friday's neutral playoff game against Canyon Lake (Fischer, TX) by a score of 58-21.",
   "filled_date": "2026-11-27",
   "filled_site": "Warrior Coliseum, San Antonio",
   "filled_time": "3:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/canyon-lake-fischer-vs-davenport-san-antonio/11-27-2026/?c=c7179784-1963-4ac0-9735-152774966a55",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": ""
  },
@@ -3105,7 +3105,7 @@
   "filled_site": "San Antonio Alamodome",
   "filled_time": "3:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/calallen-corpus-christi-vs-la-vernia/11-28-2026/?c=6b1bead5-bc1c-477b-81df-68c69bc0cd20",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details San Antonio Alamodome",
   "time": "3:00 PM"
  },
@@ -3212,7 +3212,7 @@
   "filled_site": "573 Chris Kelley Blvd -- Hutto, Texas 78634",
   "filled_time": "2:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/bay-city-vs-stephenville/11-27-2026/?c=225f5df9-dda8-4e92-8e48-46c0302d732f",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details 573 Chris Kelley Blvd -- Hutto, Texas 78634",
   "time": ""
  },
@@ -3247,7 +3247,7 @@
   "filled_site": "TMF Rose Stadium, Tyler",
   "filled_time": "7:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/henderson-vs-lindale/11-27-2026/?c=913aca75-1395-4966-88b5-fe42a16849d4",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -3285,14 +3285,14 @@
   "dctf_date": "2026-11-27",
   "dctf_site": "Legacy Stadium, Katy",
   "dctf_time": "6:00 PM",
-  "description": "The El Campo (TX) varsity football team has a neutral playoff game vs. Stafford (TX) today @ 6p.",
+  "description": "The El Campo (TX) varsity football team is at their neutral playoff game vs. Stafford (TX).",
   "filled_date": "2026-11-27",
   "filled_site": "Legacy Stadium, Katy",
   "filled_time": "6:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/el-campo-vs-stafford/11-27-2026/?c=e95b92b3-6278-4cd2-9142-c335a940838b",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Legacy Stadium, Katy Texas",
-  "time": "6:00 PM"
+  "time": ""
  },
  "4A D1|mp:7b42da43-52e8-4e48-b4c7-337ffd3dfe84|mp:3a07b229-5d8f-453d-992b-19bc8cb1d55b": {
   "date": "",
@@ -3335,7 +3335,7 @@
   "filled_site": "Lion Stadium, Vernon",
   "filled_time": "7:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/decatur-vs-randall-amarillo/11-27-2026/?c=5c26177f-ae77-4bfb-9f4f-4f441bdbd89f",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -3460,7 +3460,7 @@
   "filled_site": "Mustang Bowl, Sweetwater",
   "filled_time": "1:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/canyon-vs-springtown/11-27-2026/?c=cf026a14-7c64-4461-910a-5cbd91277fd6",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": ""
  },
@@ -3499,14 +3499,14 @@
   "dctf_date": "2026-11-27",
   "dctf_site": "Hawk Stadium, Texarkana",
   "dctf_time": "6:00 PM",
-  "description": "The Paris (TX) varsity football team has a neutral playoff game vs. Pine Tree (Longview, TX) today @ 6p.",
+  "description": "The Paris (TX) varsity football team is at their neutral playoff game vs. Pine Tree (Longview, TX).",
   "filled_date": "2026-11-27",
   "filled_site": "Hawk Stadium, Texarkana",
   "filled_time": "6:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/paris-vs-pine-tree-longview/11-27-2026/?c=c6446c89-0fd8-4ce9-974d-78f50eab5cb3",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
-  "time": "6:00 PM"
+  "time": ""
  },
  "4A D1|mp:e9327a8f-13a0-4d15-b0ca-2a3414096992|mp:55a8e3f6-4e26-42ef-98cb-bf6158db6d73": {
   "date": "",
@@ -3657,7 +3657,7 @@
   "filled_site": "Anthony Field, Abilene",
   "filled_time": "2:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/brock-vs-liberty-lubbock/11-27-2026/?c=be3ff0c6-2e4a-436c-8ec6-2d2501318dc4",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Abilene Christian University",
   "time": ""
  },
@@ -3831,7 +3831,7 @@
   "filled_site": "Tyier Chapel Hill HS",
   "filled_time": "7:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/gilmer-vs-sunnyvale/11-27-2026/?c=4a6d2889-0f5d-4d9d-95b3-9aa48d426660",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Tyier Chapel Hill HS",
   "time": "7:00 PM"
  },
@@ -3883,7 +3883,7 @@
   "filled_site": "Wildcat Stadium, Godley",
   "filled_time": "7:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/brownwood-vs-robinson/11-27-2026/?c=24c05c7a-3a97-4d9a-8e20-f01f5dbba6bc",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -3928,7 +3928,7 @@
   "filled_site": "P-Field Pflugerville",
   "filled_time": "7:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/la-vega-waco-vs-wimberley/11-27-2026/?c=18652f68-aecc-4f37-b150-a5560278bf94",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details P-Field Pflugerville",
   "time": "7:00 PM"
  },
@@ -3953,7 +3953,7 @@
   "filled_site": "Planet Ford Stadium, Spring",
   "filled_time": "7:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/hamshire-fannett-vs-madisonville/11-27-2026/?c=72759d62-0fb0-472c-98d7-6651591fa2dc",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Planet Ford Stadium Spring, TX",
   "time": "7:00 PM"
  },
@@ -4051,7 +4051,7 @@
   "filled_site": "Mustang Bowl - Sweetwater, TX",
   "filled_time": "7:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/graham-vs-seminole/11-27-2026/?c=92590c6f-e9fd-4bab-bab7-4e58f06be132",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Mustang Bowl - Sweetwater, TX",
   "time": "7:00 PM"
  },
@@ -4073,20 +4073,20 @@
   "filled_site": "City Bank Stadium, Forney",
   "filled_time": "5:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/carthage-vs-van-alstyne/11-27-2026/?c=39371343-4ae3-4d29-8cd1-39a0a57eebfc",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Forney High School",
   "time": ""
  },
  "4A D2|mp:f88147c7-49f9-44e0-a6d6-1d324e77bd18|mp:80980c3e-d023-4fac-86ea-97e17c46b2fe": {
   "date": "2026-11-27",
-  "description": "The La Marque (TX) varsity football team has a neutral playoff game vs. West Orange-Stark (Orange, TX) today @ 6p.",
+  "description": "The La Marque (TX) varsity football team is at their neutral playoff game vs. West Orange-Stark (Orange, TX).",
   "filled_date": "2026-11-27",
   "filled_site": "Woodforest Bank Stadium",
   "filled_time": "6:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/la-marque-vs-west-orange-stark/11-27-2026/?c=2b549567-79e7-494a-8874-6c46ba6e2a1f",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Woodforest Bank Stadium",
-  "time": "6:00 PM"
+  "time": ""
  },
  "4A D2|mp:f88147c7-49f9-44e0-a6d6-1d324e77bd18|mp:e117ce43-8323-4c6d-8716-d26c42e507a3": {
   "date": "",
@@ -4204,7 +4204,7 @@
   "filled_site": "Waco ISD Stadium, Waco",
   "filled_time": "1:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/aandm-consolidated-college-station-vs-weiss-pflugerville/11-27-2026/?c=2b5cc6f3-140e-4185-be1f-58084460f1e4",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": ""
  },
@@ -4297,14 +4297,14 @@
   "dctf_date": "2026-11-27",
   "dctf_site": "Clark Field, Plano",
   "dctf_time": "6:00 PM",
-  "description": "The Midlothian (TX) varsity football team has a neutral playoff game vs. Lone Star (Frisco, TX) today @ 6p.",
+  "description": "The Midlothian (TX) varsity football team is at their neutral playoff game vs. Lone Star (Frisco, TX).",
   "filled_date": "2026-11-27",
   "filled_site": "Plano Clark Stadium",
   "filled_time": "6:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/lone-star-frisco-vs-midlothian/11-27-2026/?c=c793da52-ea51-4dcf-88a7-72d3d4250470",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Plano Clark Stadium",
-  "time": "6:00 PM"
+  "time": ""
  },
  "5A D1|mp:523ae181-652f-452d-8c58-2c4f94e33280|mp:8f96a6c0-af02-45a5-83fe-cc2714808f48": {
   "date": "2026-11-27",
@@ -4316,7 +4316,7 @@
   "filled_site": "Freedom Field, Iowa Colony",
   "filled_time": "7:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/angleton-vs-la-porte/11-27-2026/?c=3f82b268-07fd-44e5-b7a2-ab485a2da2b5",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Freedom Field Alvin ISD",
   "time": "7:00 PM"
  },
@@ -4368,7 +4368,7 @@
   "filled_site": "Shelton Stadium, Buda",
   "filled_time": "2:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/anderson-austin-vs-boerne-champion/11-27-2026/?c=e33cc81a-dc99-4cf6-9760-92ac0a0257fc",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": ""
  },
@@ -4478,7 +4478,7 @@
   "filled_site": "Farris Stadium, San Antonio",
   "filled_time": "1:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/medina-valley-castroville-vs-smithson-valley-spring-branch/11-27-2026/?c=f7f2e6db-5c5b-40f7-9d99-73be86c38b49",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": ""
  },
@@ -4507,7 +4507,7 @@
   "date": "2026-12-03",
   "description": "The Boerne-Champion (Boerne, TX) varsity football team has a neutral playoff game vs. Smithson Valley (Spring Branch, TX) , but the date has not been set.",
   "game_url": "https://www.maxpreps.com/tx/football/game/boerne-champion-vs-smithson-valley-spring-branch/12-3-2026/?c=2de36cbc-1682-4bb8-8959-cc192f6a716e",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": ""
  },
@@ -4541,7 +4541,7 @@
   "filled_site": "Crowley ISD Stadium, Fort Worth",
   "filled_time": "12:30 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/desoto-vs-richland-north-richland-hills/11-27-2026/?c=87572481-ffcb-4b8b-998b-5e27be4459f4",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": ""
  },
@@ -4636,7 +4636,7 @@
   "filled_site": "Astound Broadband, Midland",
   "filled_time": "3:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/amarillo-vs-arlington-heights-fort-worth/11-28-2026/?c=408f9c62-659a-4051-9f53-6ccf91daeb0c",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": "3:00 PM"
  },
@@ -4689,7 +4689,7 @@
   "filled_site": "Crowley ISD Stadium, Fort Worth",
   "filled_time": "7:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/brewer-fort-worth-vs-ryan-denton/11-27-2026/?c=a4ddf1de-1265-44a6-ad69-dfb7fecaf463",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -4775,7 +4775,7 @@
   "filled_site": "Buccaneer Stadium, Corpus Christi",
   "filled_time": "1:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/alamo-heights-san-antonio-vs-gregory-portland/11-27-2026/?c=c273daaf-2aee-466b-b03a-67009a99703b",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": ""
  },
@@ -4783,7 +4783,7 @@
   "date": "2026-12-03",
   "description": "The Gregory-Portland (Portland, TX) varsity football team has a neutral playoff game vs. Boerne (TX) , but the date has not been set.",
   "game_url": "https://www.maxpreps.com/tx/football/game/boerne-vs-gregory-portland/12-3-2026/?c=96c5f665-f7ea-44f5-9518-48b907c590fa",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": ""
  },
@@ -4818,7 +4818,7 @@
   "filled_site": "Gupton Stadium - Leander ISD",
   "filled_time": "1:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/boerne-vs-legacy-ranch-liberty-hill/11-27-2026/?c=6fd1c791-1a24-444d-b249-0017d6a7ef4f",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Gupton Stadium - Leander ISD",
   "time": ""
  },
@@ -4943,7 +4943,7 @@
   "filled_site": "Midlothian ISD Stadium, Midlothian",
   "filled_time": "1:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/south-oak-cliff-dallas-vs-terrell/11-27-2026/?c=7e16a053-5ea1-4944-a194-277297bcf24e",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Midlothian Stadium",
   "time": ""
  },
@@ -4975,7 +4975,7 @@
   "filled_site": "Anthony Field ACU",
   "filled_time": "6:30 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/frisco-vs-palo-duro-amarillo/11-27-2026/?c=fecae2e2-6bce-4b51-8509-8530bc1d5f84",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Anthony Field ACU",
   "time": "6:30 PM"
  },
@@ -5079,7 +5079,7 @@
   "filled_site": "Legacy Stadium Katy, TX",
   "filled_time": "12:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/almeta-crawford-rosharon-vs-huntsville/11-28-2026/?c=376e6d56-8b0e-4b39-902f-e20bb0b5fbc8",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Legacy Stadium Katy, TX",
   "time": "12:00 PM"
  },
@@ -5152,7 +5152,7 @@
   "filled_site": "Prosper ISD Stadium - Rd 3",
   "filled_time": "4:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/anna-vs-argyle/11-27-2026/?c=2b8f8818-e1ad-4d73-871c-a185e4308a84",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Prosper ISD Stadium - Rd 3 - UIL State Playoffs",
   "time": ""
  },
@@ -5224,7 +5224,7 @@
   "filled_site": "Randall Reed Stadium, New Caney",
   "filled_time": "7:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/montgomery-vs-port-neches-groves/11-27-2026/?c=2aa46149-18b7-4df4-8fae-749ede6929c5",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": "7:00 PM"
  },
@@ -5288,7 +5288,7 @@
   "filled_site": "Wildcat Stadium, Temple",
   "filled_time": "7:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/brenham-vs-mansfield-timberview-arlington/11-27-2026/?c=9ff6531a-402c-4cb1-976b-96eb508a1e39",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Wildcat Stadium - 415 N 31st St, Temple, TX 76504",
   "time": "7:00 PM"
  },
@@ -5385,7 +5385,7 @@
   "filled_site": "Tomball ISD Stadium, Tomball",
   "filled_time": "2:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/bridgeland-cypress-vs-north-shore-houston/11-27-2026/?c=e69697cb-df12-4c53-bb2a-acfa462bf506",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": ""
  },
@@ -5418,7 +5418,7 @@
   "filled_site": "Turner Stadium",
   "filled_time": "2:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/katy-vs-summer-creek-houston/11-27-2026/?c=30004ee9-2004-4424-95e2-d44caef1ecc2",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Turner Stadium",
   "time": ""
  },
@@ -5538,7 +5538,7 @@
   "date": "2026-11-28",
   "description": "The Benjamin Davis (Houston, TX) varsity football team has a neutral playoff game vs. Duncanville (TX) on Saturday, November 28 @ 3p.",
   "game_url": "https://www.maxpreps.com/tx/football/game/benjamin-davis-panthers-houston-vs-duncanville-panthers-and-pantherettes/11-28-2026/?c=a130509e-8c95-4e7f-84c4-39892ebf3ca6",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": "3:00 PM"
  },
@@ -5710,7 +5710,7 @@
   "date": "2026-12-03",
   "description": "The Katy (TX) varsity football team has a neutral playoff game vs. Bridgeland (Cypress, TX) , but the date has not been set.",
   "game_url": "https://www.maxpreps.com/tx/football/game/bridgeland-cypress-vs-katy/12-3-2026/?c=b9e063f6-b50b-44b3-8590-5a9fbf24a81b",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": ""
  },
@@ -5734,7 +5734,7 @@
   "filled_site": "@ UFCU Stadium - Texas State University",
   "filled_time": "8:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/harlan-san-antonio-vs-round-rock/11-27-2026/?c=ed93d118-3706-4446-a154-2b5cdddc4db7",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details @ UFCU Stadium - Texas State University",
   "time": "8:00 PM"
  },
@@ -5776,7 +5776,7 @@
   "filled_site": "Texas State Football Field",
   "filled_time": "2:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/brennan-san-antonio-vs-lake-travis-austin/11-27-2026/?c=2436acf0-8081-434a-9067-99cda1709bc2",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Texas State Football Field",
   "time": ""
  },
@@ -5821,7 +5821,7 @@
   "filled_site": "Mustang-Panther Stadium, Grapevine",
   "filled_time": "2:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/lewisville-vs-martin-arlington/11-28-2026/?c=f5316724-39db-4ecc-ba84-a8bbc157d9bf",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": "2:00 PM"
  },
@@ -5840,14 +5840,14 @@
   "dctf_date": "2026-11-27",
   "dctf_site": "Shotwell Stadium, Abilene",
   "dctf_time": "6:00 PM",
-  "description": "The Permian (Odessa, TX) varsity football team has a neutral playoff game vs. Allen (TX) today @ 6p.",
+  "description": "The Permian (Odessa, TX) varsity football team is at their neutral playoff game vs. Allen (TX).",
   "filled_date": "2026-11-27",
   "filled_site": "Shotwell Stadium, Abilene",
   "filled_time": "6:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/allen-vs-permian-odessa/11-27-2026/?c=08f350dd-f15f-4dd3-8437-90c54b49eb80",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Abilene Shotwell Stadium",
-  "time": "6:00 PM"
+  "time": ""
  },
  "6A D1|mp:e7143c77-1fcf-49b5-866c-6320fdc69f78|mp:232db70e-cc4d-493b-9454-44ab70e4a687": {
   "date": "",
@@ -5899,7 +5899,7 @@
   "filled_site": "Waco ISD Stadium, Waco",
   "filled_time": "2:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/klein-vs-waxahachie/11-28-2026/?c=6d6957b9-15f3-4339-9a9b-6d861e6b4e5f",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": "2:00 PM"
  },
@@ -5950,7 +5950,7 @@
   "filled_site": "Heroes Stadium, San Antonio",
   "filled_time": "2:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/vela-edinburg-vs-westlake-austin/11-27-2026/?c=985b8093-50c2-4d34-a64c-9fa1b5970181",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Heroes Stadium San Antonio, Texas",
   "time": ""
  },
@@ -6035,14 +6035,14 @@
  },
  "6A D2|mp:2556953b-acd8-4a89-9763-d0fab04e1aac|mp:b4965d0e-831a-43a8-a37d-3943386aca73": {
   "date": "2026-11-27",
-  "description": "The Tompkins (Katy, TX) varsity football team has a neutral playoff game vs. Atascocita (Humble, TX) today @ 6p.",
+  "description": "The Tompkins (Katy, TX) varsity football team is at their neutral playoff game vs. Atascocita (Humble, TX).",
   "filled_date": "2026-11-27",
   "filled_site": "Daikin Stadium, 20735 Stokes Rd, Waller, TX 77484",
   "filled_time": "6:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/atascocita-humble-vs-tompkins-katy/11-27-2026/?c=fc7742ca-0362-4d7b-9984-493c532f9536",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Daikin Stadium, 20735 Stokes Rd, Waller, TX 77484",
-  "time": "6:00 PM"
+  "time": ""
  },
  "6A D2|mp:2556953b-acd8-4a89-9763-d0fab04e1aac|mp:e78f7230-8c7b-4582-aa8c-aa1fa20c34fb": {
   "date": "",
@@ -6095,7 +6095,7 @@
   "filled_site": "Randall Reed Stadium, New Caney",
   "filled_time": "2:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/longview-vs-westfield-houston/11-28-2026/?c=acbdc6ef-f0da-464f-959c-c86a497ba73b",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": "2:00 PM"
  },
@@ -6304,7 +6304,7 @@
   "filled_site": "Alamo Stadium",
   "filled_time": "5:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/dripping-springs-vs-pharr-san-juan-alamo-north/11-27-2026/?c=d9d02742-d7f9-4a68-8aff-d8d2f717c900",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Alamo Stadium",
   "time": ""
  },
@@ -6379,7 +6379,7 @@
   "filled_site": "Waco ISD Stadium - Waco",
   "filled_time": "7:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/college-park-the-woodlands-vs-north-crowley-fort-worth/11-27-2026/?c=adafbaa2-d0e7-4e7e-af56-8093ce20bc45",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Waco ISD Stadium - Waco",
   "time": "7:00 PM"
  },
@@ -6414,7 +6414,7 @@
   "filled_site": "Memorial Stadium, Mesquite",
   "filled_time": "2:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/aledo-vs-guyer-denton/11-27-2026/?c=b2870ae1-1c00-406d-881e-3e89e94d4611",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "",
   "time": ""
  },
@@ -6436,7 +6436,7 @@
   "filled_site": "Regional Semi-Final @ Pridgeon Stadium",
   "filled_time": "2:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/king-houston-vs-ridge-point-missouri-city/11-27-2026/?c=274e4a16-93bd-4287-b5cb-fc61b1afcf14",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Regional Semi-Final @ Pridgeon Stadium",
   "time": ""
  },
@@ -6474,7 +6474,7 @@
   "filled_site": "Choctaw Stadium - Arlington",
   "filled_time": "2:00 PM",
   "game_url": "https://www.maxpreps.com/tx/football/game/southlake-carroll-vs-walnut-grove-prosper/11-27-2026/?c=e08c3896-0274-4583-9330-cb3e0b0f451f",
-  "read": "2026-11-27T23:59:29+00:00",
+  "read": "2026-11-28T00:14:27+00:00",
   "site": "Game Details Choctaw Stadium - Arlington",
   "time": ""
  },
