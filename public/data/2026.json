@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-28T01:17+00:00",
+    "updated": "2026-11-28T01:47+00:00",
     "games": 622,
-    "played": 558,
+    "played": 559,
     "assigned": 616,
     "weeks": {
       "1": {
@@ -14429,10 +14429,10 @@
       "round": "Regionals",
       "chapter": "HOU",
       "team1": "Dripping Springs",
-      "score1": null,
+      "score1": 44,
       "team2": "Pharr-San Juan-Alamo North",
-      "score2": null,
-      "winner": null,
+      "score2": 27,
+      "winner": "Dripping Springs",
       "site": "Alamo Stadium",
       "lat": 29.4628,
       "lng": -98.47904,
