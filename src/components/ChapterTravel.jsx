@@ -8,6 +8,8 @@ import { useSort, SortTh } from '../sortable'
 
 const ROUNDS = { 1: 'Bi-District', 2: 'Area', 3: 'Regionals', 4: 'Quarterfinals', 5: 'Semifinals', 6: 'State Final' }
 const fmt = n => Math.round(n).toLocaleString()
+const EARTH = 24901    // miles around the Earth at the equator
+const MOON = 238855    // average miles from the Earth to the Moon
 
 export default function ChapterTravel({ data }) {
   const [open, setOpen] = useState(null)
@@ -47,6 +49,18 @@ export default function ChapterTravel({ data }) {
       <div style={{ fontSize:13, color:'var(--mid)', lineHeight:1.55, margin:'10px 0 14px', maxWidth:760 }}>
         Estimated driving miles from each chapter's UIL center point to every game site it works, and back, one trip per game.
         All chapters together: <strong style={{ color:'var(--ink)' }}>{fmt(totals.all)} miles</strong>. Click a chapter to see its games.
+      </div>
+      {/* the miles in perspective: trips around the Earth and the way to the Moon */}
+      <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fit, minmax(190px, 1fr))', gap:10, marginBottom:14 }}>
+        {[['Season so far', totals.all, true], ...[...played].sort((a, b) => a - b).map(w => [`Wk ${w} · ${ROUNDS[w]}`, totals.weeks[w], false])].map(([label, mi, hot]) => (
+          <div key={label} style={{ background: hot ? 'rgba(253,208,35,0.22)' : 'var(--surface)', border:`1px solid ${hot ? 'var(--gold)' : 'var(--border)'}`, borderRadius:10, padding:'10px 14px' }}>
+            <div style={{ fontFamily:'var(--mono)', fontSize:9, letterSpacing:'0.12em', textTransform:'uppercase', color:'var(--mid)' }}>{label}</div>
+            <div style={{ fontFamily:"'Bebas Neue', sans-serif", fontSize:28, color:'var(--burnt)', lineHeight:1.1 }}>{fmt(mi)} mi</div>
+            <div style={{ fontSize:12, color:'var(--ink)', lineHeight:1.45 }}>
+              <strong>{(mi / EARTH).toFixed(1)}×</strong> around the Earth · <strong>{Math.round(100 * mi / MOON)}%</strong> of the way to the Moon
+            </div>
+          </div>
+        ))}
       </div>
       <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, overflowX:'auto' }}>
         <table style={{ width:'100%', borderCollapse:'collapse' }}>
@@ -107,7 +121,7 @@ export default function ChapterTravel({ data }) {
       <ShowMore c={more} total={rows.length} noun="chapters" />
       <div style={{ fontFamily:'var(--mono)', fontSize:10, color:'var(--mid)', marginTop:8, lineHeight:1.6 }}>
         Estimates: straight-line distance from the chapter's UIL center point to the game site, times {ROAD_FACTOR} for roads, doubled for the return trip.
-        Counted once per game (one crew), not per official or per vehicle. Games without a site yet aren't counted.
+        Counted once per game (one crew), not per official or per vehicle. The Earth is about 24,901 miles around at the equator; the Moon averages about 238,855 miles away. Games without a site yet aren't counted.
       </div>
     </div>
   )
