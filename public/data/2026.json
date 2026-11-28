@@ -2,9 +2,9 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-28T03:47+00:00",
-    "games": 628,
-    "played": 580,
+    "updated": "2026-11-28T04:02+00:00",
+    "games": 633,
+    "played": 581,
     "assigned": 616,
     "weeks": {
       "1": {
@@ -20,7 +20,7 @@
         "assigned": 88
       },
       "4": {
-        "games": 12,
+        "games": 17,
         "assigned": 0
       },
       "5": {
@@ -12853,10 +12853,10 @@
       "round": "Regionals",
       "chapter": "SPC",
       "team1": "Cisco",
-      "score1": null,
+      "score1": 35,
       "team2": "Muenster",
-      "score2": null,
-      "winner": null,
+      "score2": 45,
+      "winner": "Muenster",
       "site": "Porcupine Stadium, Springtown",
       "lat": 32.97675,
       "lng": -97.69348,
@@ -14544,6 +14544,45 @@
     },
     {
       "year": 2026,
+      "classification": "2A D1",
+      "week": 4,
+      "round": "Quarterfinals",
+      "chapter": null,
+      "team1": "Muenster",
+      "score1": null,
+      "team2": "Mason",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/mason-vs-muenster/12-3-2026/?c=f2894975-aee1-4146-b97d-16f89666358a"
+    },
+    {
+      "year": 2026,
+      "classification": "3A D1",
+      "week": 4,
+      "round": "Quarterfinals",
+      "chapter": null,
+      "team1": "Lorena",
+      "score1": null,
+      "team2": "Columbus",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/columbus-vs-lorena/12-3-2026/?c=187aedf6-d73c-4c0d-b223-80f980d7978c"
+    },
+    {
+      "year": 2026,
+      "classification": "3A D1",
+      "week": 4,
+      "round": "Quarterfinals",
+      "chapter": null,
+      "team1": "Yoakum",
+      "score1": null,
+      "team2": "Hallettsville",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/hallettsville-vs-yoakum/12-3-2026/?c=727debf7-52e0-488d-9548-68e7b1f43bd4"
+    },
+    {
+      "year": 2026,
       "classification": "3A D2",
       "week": 4,
       "round": "Quarterfinals",
@@ -14583,6 +14622,19 @@
     },
     {
       "year": 2026,
+      "classification": "4A D1",
+      "week": 4,
+      "round": "Quarterfinals",
+      "chapter": null,
+      "team1": "Decatur",
+      "score1": null,
+      "team2": "Springtown",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/decatur-vs-springtown/12-3-2026/?c=76169d75-d38a-45dd-97c7-38ede8c3ea16"
+    },
+    {
+      "year": 2026,
       "classification": "5A D1",
       "week": 4,
       "round": "Quarterfinals",
@@ -14606,6 +14658,19 @@
       "score2": null,
       "winner": null,
       "mp_url": "https://www.maxpreps.com/tx/football/game/desoto-vs-lone-star-frisco/12-3-2026/?c=1302b2c0-fd97-49f0-96cf-a3cf86a64563"
+    },
+    {
+      "year": 2026,
+      "classification": "5A D1",
+      "week": 4,
+      "round": "Quarterfinals",
+      "chapter": null,
+      "team1": "La Porte",
+      "score1": null,
+      "team2": "Pflugerville Weiss",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/la-porte-vs-weiss-pflugerville/12-3-2026/?c=0bc3b63a-3acf-4ffa-9f69-67b75b285e6c"
     },
     {
       "year": 2026,
