@@ -2,7 +2,7 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-28T06:05+00:00",
+    "updated": "2026-11-28T06:21+00:00",
     "games": 640,
     "played": 592,
     "assigned": 616,
@@ -14568,14 +14568,19 @@
       "team2": "Columbus",
       "score2": null,
       "winner": null,
-      "site": "Tigerland Stadium, College Station",
-      "lat": 30.59059,
-      "lng": -96.31987,
-      "stadium": "Tigerland Stadium",
-      "city": "College Station",
+      "site": "A&M Consolidated",
       "date": "2026-12-04",
       "time": "7:00 PM",
-      "mp_url": "https://www.maxpreps.com/tx/football/game/columbus-vs-lorena/12-3-2026/?c=187aedf6-d73c-4c0d-b223-80f980d7978c"
+      "mp_url": "https://www.maxpreps.com/tx/football/game/columbus-vs-lorena/12-4-2026/?c=187aedf6-d73c-4c0d-b223-80f980d7978c",
+      "changes": [
+        {
+          "field": "site",
+          "old": "Tigerland Stadium, College Station",
+          "new": "A&M Consolidated",
+          "at": "2026-11-28T06:21+00:00",
+          "status": "changed"
+        }
+      ]
     },
     {
       "year": 2026,
