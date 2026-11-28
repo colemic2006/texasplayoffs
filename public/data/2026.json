@@ -2,8 +2,8 @@
   "year": 2026,
   "season": {
     "status": "in_progress",
-    "updated": "2026-11-27T23:46+00:00",
-    "games": 620,
+    "updated": "2026-11-28T00:01+00:00",
+    "games": 622,
     "played": 556,
     "assigned": 616,
     "weeks": {
@@ -20,7 +20,7 @@
         "assigned": 88
       },
       "4": {
-        "games": 4,
+        "games": 6,
         "assigned": 0
       },
       "5": {
@@ -14527,6 +14527,19 @@
     },
     {
       "year": 2026,
+      "classification": "2A D1",
+      "week": 4,
+      "round": "Quarterfinals",
+      "chapter": null,
+      "team1": "Thorndale",
+      "score1": null,
+      "team2": "Shiner",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/shiner-vs-thorndale/12-3-2026/?c=9fc207d3-5de9-433a-af71-795cc701f121"
+    },
+    {
+      "year": 2026,
       "classification": "3A D2",
       "week": 4,
       "round": "Quarterfinals",
@@ -14537,6 +14550,19 @@
       "score2": null,
       "winner": null,
       "mp_url": "https://www.maxpreps.com/tx/football/game/canadian-vs-jacksboro/12-3-2026/?c=7d94f29f-4e9e-4797-845a-202ae83fe2ae"
+    },
+    {
+      "year": 2026,
+      "classification": "3A D2",
+      "week": 4,
+      "round": "Quarterfinals",
+      "chapter": null,
+      "team1": "Jefferson",
+      "score1": null,
+      "team2": "Newton",
+      "score2": null,
+      "winner": null,
+      "mp_url": "https://www.maxpreps.com/tx/football/game/jefferson-vs-newton/12-3-2026/?c=3df8d89b-3252-4d42-bc5c-a25008e3ae5c"
     },
     {
       "year": 2026,
